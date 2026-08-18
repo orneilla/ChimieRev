@@ -46,7 +46,9 @@ verte = c'est en ligne ; une rouge = la construction a échoué.
 - [ ] La liste affiche les 5 réactions.
 - [ ] La recherche filtre bien (essayer « SN2 », « base », « Grignard »).
 - [ ] Les pastilles de famille filtrent la liste.
-- [ ] Toucher une carte ouvre la fiche détaillée.
+- [ ] Toucher une tuile ouvre la fiche détaillée.
+- [ ] Les structures s'affichent sur chacune des 5 fiches.
+- [ ] Le bascule Comprendre / Référence change bien le texte.
 - [ ] Le lien « ← Toutes les réactions » revient à la liste.
 - [ ] Rien ne dépasse à droite, aucun zoom horizontal nécessaire.
 - [ ] Les boutons sont assez gros pour le doigt.
@@ -88,6 +90,37 @@ Les polices (Bodoni Moda pour les titres, Karla pour le texte) sont
 **embarquées dans le projet** (`public/polices/`) : l'application ne dépend
 d'aucun service extérieur et reste lisible même avec une connexion faible.
 
+## Les structures dessinées
+
+Les molécules sont dessinées par **RDKit-JS** à partir de leurs SMILES —
+mais **au moment de la construction**, pas dans le navigateur.
+
+RDKit pèse environ 7 Mo (WebAssembly). Le faire télécharger au téléphone à
+chaque visite serait pénible. Le script `scripts/dessiner-structures.mjs`
+fait donc le travail une fois pour toutes et enregistre des fichiers SVG
+légers (quelques kilo-octets chacun) dans `public/structures/`.
+L'application n'affiche que ces images : instantanées, et lisibles même
+hors connexion.
+
+Toutes les structures sont dessinées à la **même échelle** (longueur de
+liaison fixe), comme dans un manuel : deux molécules se comparent d'un
+coup d'œil.
+
+Ce script tourne **automatiquement** avant chaque construction, y compris
+sur GitHub. Concrètement : si tu ajoutes une réaction dans
+`reactions.json` depuis ton téléphone, ses structures sont dessinées toutes
+seules à la mise en ligne, tu n'as rien à faire.
+
+Pour le lancer à la main (si tu as un ordinateur un jour) :
+
+```bash
+npm run structures
+```
+
+Une molécule dont le SMILES est illisible n'arrête pas la construction :
+le script le signale, et la fiche affiche la formule SMILES en clair à la
+place du dessin.
+
 ## Les deux modes de lecture
 
 Chaque fiche propose la même chose expliquée de deux façons :
@@ -118,6 +151,9 @@ index.html                  page HTML de départ
 public/favicon.svg          icône de l'onglet
 public/polices.css          déclarations des polices embarquées
 public/polices/             les fichiers de police (woff2)
+public/structures/          les structures 2D dessinées (SVG, engendrées)
+scripts/
+  dessiner-structures.mjs   dessine les structures avec RDKit-JS
 src/
   main.jsx                  point d'entrée : accroche React à la page
   App.jsx                   structure commune + liste des adresses (routes)
@@ -127,12 +163,14 @@ src/
     reactifs.json           LE CONTENU : les réactifs
     solvants.json           LE CONTENU : les solvants
     references.json         LE CONTENU : les sources et leurs DOI
+    structures.json         liste des dessins disponibles (engendré)
     meta.json               le principe et le ton à tenir (Phase 6)
   couleurs.js               une couleur par famille de réactions
   components/
     BarreNavigation.jsx     en-tête + bande des couleurs
     CarteReaction.jsx       la tuile d'une réaction dans la liste
     BasculeMode.jsx         le choix Comprendre / Référence
+    StructureMolecule.jsx   une structure 2D et sa légende
     ReferencesReaction.jsx  les sources, avec l'état de vérification
     BlocTexte.jsx           affiche un texte long en paragraphes
 .github/workflows/
@@ -194,7 +232,7 @@ même principe (schémas déjà en place, leur affichage viendra plus tard).
 | — | Identité visuelle : couleurs par famille, tuiles | ✅ fait |
 | 5 | Bascule Comprendre / Référence *(arrivée en avance)* | ✅ fait |
 | — | Sources vérifiées sur chaque fiche | ✅ fait |
-| 2 | Structures 2D dessinées (RDKit-JS) | à venir |
+| 2 | Structures 2D dessinées (RDKit-JS) | ✅ fait |
 | 3 | 3D interactive et orbitales (3Dmol.js) | à venir |
 | 4 | Flashcards et quiz (progression en `localStorage`) | à venir |
 | 6 | Remplissage de toutes les familles de réactions | à venir |

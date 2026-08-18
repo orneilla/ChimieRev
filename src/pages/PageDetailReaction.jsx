@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import reactions from '../data/reactions.json'
 import BlocTexte from '../components/BlocTexte.jsx'
+import StructureMolecule from '../components/StructureMolecule.jsx'
 import BasculeMode from '../components/BasculeMode.jsx'
 import ReferencesReaction from '../components/ReferencesReaction.jsx'
 import { couleurFamille } from '../couleurs.js'
@@ -64,21 +65,32 @@ export default function PageDetailReaction() {
         </p>
       </header>
 
-      <section className="bloc equation">
-        <h3>Équation</h3>
-        <div className="equation-ligne">
-          <code className="molecule">{reaction.substrat_SMILES}</code>
+      {/* Le schéma de la réaction : structure de départ, conditions
+          au-dessus de la flèche, structure d'arrivée. */}
+      <section className="bloc schema">
+        <h3>La réaction</h3>
+
+        <div className="schema-ligne">
+          <StructureMolecule
+            id={reaction.id}
+            role="substrat"
+            smiles={reaction.substrat_SMILES}
+            legende="Substrat"
+          />
+
           <div className="fleche-bloc">
             <span className="fleche-conditions">{reaction.reactifs.join(', ')}</span>
             <span className="fleche-trait" aria-hidden="true">⟶</span>
             <span className="fleche-conditions">{reaction.solvant}</span>
           </div>
-          <code className="molecule">{reaction.produit_SMILES}</code>
+
+          <StructureMolecule
+            id={reaction.id}
+            role="produit"
+            smiles={reaction.produit_SMILES}
+            legende="Produit"
+          />
         </div>
-        <p className="note">
-          Formules en notation SMILES — les structures dessinées arrivent
-          à la phase suivante.
-        </p>
       </section>
 
       {/* Le cœur de la fiche : la même chose expliquée de deux façons. */}

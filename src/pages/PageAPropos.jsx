@@ -45,7 +45,7 @@ export default function PageAPropos() {
           <li className="fait"><strong>Identité visuelle</strong> — couleurs par famille, tuiles</li>
           <li className="fait"><strong>Phase 5</strong> — bascule Comprendre / Référence</li>
           <li className="fait"><strong>Références</strong> — sources vérifiées sur chaque fiche</li>
-          <li><strong>Phase 2</strong> — structures 2D dessinées (RDKit-JS)</li>
+          <li className="fait"><strong>Phase 2</strong> — structures 2D dessinées (RDKit-JS)</li>
           <li><strong>Phase 3</strong> — 3D interactive et orbitales (3Dmol.js)</li>
           <li><strong>Phase 4</strong> — flashcards et quiz</li>
           <li><strong>Phase 6</strong> — toutes les familles de réactions</li>

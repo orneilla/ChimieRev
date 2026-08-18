@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
+    "structures": "node scripts/dessiner-structures.mjs",
+    "prebuild": "node scripts/dessiner-structures.mjs",
     "build": "vite build",
     "preview": "vite preview --host"
   },
@@ -14,6 +16,7 @@
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
+    "@rdkit/rdkit": "^2025.3.4-1.0.0",
     "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.8"
   }

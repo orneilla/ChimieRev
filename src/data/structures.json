@@ -1,0 +1,28 @@
+{
+  "sn2": {
+    "substrat": "sn2-substrat.svg",
+    "produit": "sn2-produit.svg"
+  },
+  "e2": {
+    "substrat": "e2-substrat.svg",
+    "produit": "e2-produit.svg"
+  },
+  "diels_alder": {
+    "substrat": "diels_alder-substrat.svg",
+    "produit": "diels_alder-produit.svg"
+  },
+  "reduction_nabh4": {
+    "substrat": "reduction_nabh4-substrat.svg",
+    "produit": "reduction_nabh4-produit.svg"
+  },
+  "grignard": {
+    "substrat": "grignard-substrat.svg",
+    "produit": "grignard-produit.svg"
+  },
+  "mcpba": {
+    "molecule": "reactif-mcpba.svg"
+  },
+  "lda": {
+    "molecule": "reactif-lda.svg"
+  }
+}
