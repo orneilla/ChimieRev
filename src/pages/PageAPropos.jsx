@@ -1,51 +1,54 @@
-// Page « À propos » : rappelle la philosophie du projet et l'état d'avancement.
+// Page « À propos » : la philosophie, la méthode de sourçage, l'avancement.
 export default function PageAPropos() {
   return (
     <section className="fiche">
-      <h1>À propos de ChimieRév</h1>
+      <div className="intro">
+        <p className="sur-titre">ChimieRév</p>
+        <h1>À propos</h1>
+      </div>
 
-      <section className="bloc bloc-comprendre">
+      <section className="bloc bloc-explication">
         <h3>Le principe</h3>
         <p>
           Comprendre pour mémoriser, jamais mémoriser bêtement. Chaque fiche
-          répond d'abord à « pourquoi ça se passe ainsi ? », avant de montrer
+          répond d'abord à « pourquoi ça se passe ainsi ? » avant de montrer
           comment. Le mécanisme découle toujours d'une raison physique
           intuitive, jamais d'un décret à retenir.
         </p>
         <p>
-          Quand la raison est bien comprise, la réaction devient évidente,
-          donc inoubliable : la mémorisation est la <em>conséquence</em> de la
-          compréhension, pas le point de départ.
+          Deux lectures du même contenu, au choix sur chaque fiche :
+          <strong> Comprendre</strong>, qui ne suppose aucune base en chimie,
+          et <strong> Référence</strong>, qui donne la formulation technique
+          exacte. Personne n'est laissé de côté, dans un sens comme dans
+          l'autre.
+        </p>
+      </section>
+
+      <section className="bloc bloc-references">
+        <h3>Sur les sources</h3>
+        <p>
+          En science, on n'affirme pas sans pouvoir dire d'où ça vient. Chaque
+          fiche indique ses ouvrages de référence et ses articles fondateurs.
+        </p>
+        <p>
+          Un identifiant DOI n'est affiché comme lien que s'il a été
+          <strong> vérifié par au moins deux sources indépendantes</strong>.
+          Tant qu'il ne l'est pas, la référence porte la mention « DOI à
+          vérifier » : mieux vaut un manque assumé qu'un lien inventé.
         </p>
       </section>
 
       <section className="bloc">
         <h3>Où en est l'application</h3>
         <ul className="liste-phases">
-          <li className="fait">
-            <strong>Phase 1 — Socle</strong> : données structurées, liste et
-            fiches détaillées, navigation mobile.
-          </li>
-          <li>
-            <strong>Phase 2 — Structures 2D</strong> : dessin des molécules à
-            partir des SMILES (RDKit-JS).
-          </li>
-          <li>
-            <strong>Phase 3 — 3D interactive</strong> : rotation, zoom tactile
-            et orbitales (3Dmol.js).
-          </li>
-          <li>
-            <strong>Phase 4 — Révision</strong> : flashcards et quiz avec
-            progression enregistrée.
-          </li>
-          <li>
-            <strong>Phase 5 — Deux modes</strong> : bascule Référence /
-            Comprendre sur chaque fiche.
-          </li>
-          <li>
-            <strong>Phase 6 — Contenu</strong> : toutes les familles de
-            réactions.
-          </li>
+          <li className="fait"><strong>Phase 1</strong> — Socle : données, liste, fiches, mobile</li>
+          <li className="fait"><strong>Identité visuelle</strong> — couleurs par famille, tuiles</li>
+          <li className="fait"><strong>Phase 5</strong> — bascule Comprendre / Référence</li>
+          <li className="fait"><strong>Références</strong> — sources vérifiées sur chaque fiche</li>
+          <li><strong>Phase 2</strong> — structures 2D dessinées (RDKit-JS)</li>
+          <li><strong>Phase 3</strong> — 3D interactive et orbitales (3Dmol.js)</li>
+          <li><strong>Phase 4</strong> — flashcards et quiz</li>
+          <li><strong>Phase 6</strong> — toutes les familles de réactions</li>
         </ul>
       </section>
     </section>

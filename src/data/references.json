@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "titre": "ChimieRév — Références bibliographiques vérifiées",
+    "principe_de_fiabilite": "RÈGLE ABSOLUE : aucun DOI n'est écrit de mémoire. Chaque DOI présent ici a été VÉRIFIÉ par recherche web et confirmé par au moins deux sources indépendantes. Les DOI marqués 'verifie': true sont sûrs. Tout DOI à ajouter ultérieurement DOIT passer par la même vérification — ne jamais laisser un modèle de langage inventer un DOI, car ils paraissent plausibles mais pointent souvent vers le mauvais article ou vers rien.",
+    "statut": "Socle initial vérifié le 2026 — à compléter réaction par réaction selon la même méthode.",
+    "structure": "Pour chaque réaction : (1) ouvrages de référence (fiables, faits bibliographiques stables), (2) article(s) historique(s) fondateur(s) avec DOI vérifié, (3) revue moderne quand pertinent."
+  },
+  "ouvrages_de_reference": {
+    "_note": "Ouvrages standards internationaux. Références stables et vérifiables ; à citer avec chapitre/section selon le sujet.",
+    "clayden": "Clayden, J.; Greeves, N.; Warren, S. — Organic Chemistry, 2e éd., Oxford University Press, 2012. ISBN 978-0-19-927029-3.",
+    "march": "Smith, M. B. — March's Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, 8e éd., Wiley, 2020. ISBN 978-1-119-37180-9.",
+    "carey_sundberg_A": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part A: Structure and Mechanisms, 5e éd., Springer, 2007. ISBN 978-0-387-68346-1.",
+    "carey_sundberg_B": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part B: Reactions and Synthesis, 5e éd., Springer, 2007. ISBN 978-0-387-68350-8.",
+    "fleming": "Fleming, I. — Molecular Orbitals and Organic Chemical Reactions (Reference Edition), Wiley, 2010. ISBN 978-0-470-74658-5.",
+    "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2."
+  },
+  "references_par_reaction": {
+    "diels_alder": {
+      "ouvrages": [
+        "clayden",
+        "carey_sundberg_A",
+        "fleming"
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Diels, O.; Alder, K. « Synthesen in der hydroaromatischen Reihe ». Justus Liebigs Annalen der Chemie, 1928, 460 (1), 98–122.",
+          "doi": "10.1002/jlac.19284600106",
+          "verifie": true,
+          "note": "Article fondateur de la réaction. DOI confirmé par 5 sources indépendantes (Wiley, Chemistry World, Springer, HandWiki, arXiv). Nobel de chimie 1950 pour Diels et Alder."
+        }
+      ],
+      "revues_modernes": [
+        {
+          "citation": "Nicolaou, K. C.; Snyder, S. A.; Montagnon, T.; Vassilikogiannakis, G. « The Diels–Alder Reaction in Total Synthesis ». Angewandte Chemie International Edition, 2002, 41 (10), 1668–1698.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI À VÉRIFIER avant publication (référence repérée mais DOI non encore confirmé par recherche)."
+        }
+      ]
+    },
+    "woodward_hoffmann_pericycliques": {
+      "_note": "Série fondatrice des règles de conservation de la symétrie orbitalaire. Nobel de chimie 1981 (Hoffmann & Fukui ; Woodward décédé en 1979). Ces 4 DOI sont tous vérifiés et confirmés par plusieurs sources (ACS, Springer, PubMed).",
+      "ouvrages": [
+        "fleming",
+        "carey_sundberg_A",
+        "clayden"
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Woodward, R. B.; Hoffmann, R. « Stereochemistry of Electrocyclic Reactions ». J. Am. Chem. Soc., 1965, 87 (2), 395–397.",
+          "doi": "10.1021/ja01080a054",
+          "verifie": true
+        },
+        {
+          "citation": "Hoffmann, R.; Woodward, R. B. « Selection Rules for Concerted Cycloaddition Reactions ». J. Am. Chem. Soc., 1965, 87 (9), 2046–2048.",
+          "doi": "10.1021/ja01087a034",
+          "verifie": true
+        },
+        {
+          "citation": "Woodward, R. B.; Hoffmann, R. « Selection Rules for Sigmatropic Reactions ». J. Am. Chem. Soc., 1965, 87 (11), 2511–2513.",
+          "doi": "10.1021/ja01089a050",
+          "verifie": true
+        },
+        {
+          "citation": "Woodward, R. B.; Hoffmann, R. « The Conservation of Orbital Symmetry ». Angew. Chem. Int. Ed., 1969, 8 (11), 781–853.",
+          "doi": "10.1002/anie.196907811",
+          "verifie": true
+        }
+      ]
+    },
+    "sn2": {
+      "ouvrages": [
+        "clayden",
+        "march",
+        "carey_sundberg_A"
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Travaux d'Ingold et Hughes sur les mécanismes SN1/SN2 (années 1930). La nomenclature SN1/SN2 est établie dans : Gleave, J. L.; Hughes, E. D.; Ingold, C. K. J. Chem. Soc., 1935, 236.",
+          "doi": null,
+          "verifie": false,
+          "note": "Référence historique à VÉRIFIER (DOI ancien, à confirmer par recherche avant publication)."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "grignard": {
+      "ouvrages": [
+        "clayden",
+        "elschenbroich",
+        "march"
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Grignard, V. « Sur quelques nouvelles combinaisons organométalliques du magnésium et leur application à des synthèses d'alcools et d'hydrocarbures ». Comptes Rendus de l'Académie des Sciences, 1900, 130, 1322–1324.",
+          "doi": null,
+          "verifie": false,
+          "note": "Article fondateur (Nobel 1912). Publication ancienne des Comptes Rendus — pas de DOI standard ; à sourcer via archive Gallica/BnF plutôt que DOI."
+        }
+      ],
+      "revues_modernes": []
+    }
+  },
+  "instructions_pour_completer": {
+    "regle_1": "Pour CHAQUE nouvelle réaction ajoutée, remplir les 3 niveaux : ouvrages (piocher dans 'ouvrages_de_reference'), article(s) historique(s), revue moderne si pertinent.",
+    "regle_2": "AUCUN DOI ne doit être écrit sans vérification web préalable. Mettre 'verifie': false et 'doi': null tant que non confirmé.",
+    "regle_3": "Un DOI est considéré vérifié seulement s'il est confirmé par au moins 2 sources indépendantes (éditeur + base de données, par ex.).",
+    "regle_4": "Pour les publications antérieures aux années 1950 (souvent sans DOI), sourcer via archives numériques (Gallica, HathiTrust) plutôt que d'inventer un DOI."
+  }
+}

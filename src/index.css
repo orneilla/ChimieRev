@@ -1,74 +1,100 @@
 /* ============================================================
    ChimieRév — feuille de style unique.
-   Écrite « mobile-first » : les règles de base sont pensées pour
-   le téléphone, puis on ajoute des ajustements pour les écrans
-   plus larges dans les blocs @media en bas de fichier.
+
+   Direction visuelle : les affiches de l'Année internationale de la
+   chimie — aplats de couleur saturés sur fond crème, gros symboles en
+   didone, tuiles de tableau périodique. La couleur n'est pas décorative :
+   chaque famille de réactions a la sienne (voir src/couleurs.js).
+
+   Écrite « mobile-first » : les règles de base valent pour le téléphone,
+   les écrans plus larges sont traités dans le @media en bas de fichier.
    ============================================================ */
 
-/* Les variables CSS : on définit la palette une seule fois ici,
-   et on la réutilise partout avec var(--nom). */
 :root {
-  --fond: #fdfdfb;          /* fond clair, légèrement chaud */
-  --fond-carte: #ffffff;
-  --sarcelle: #2a3a3f;      /* accent principal, texte fort */
-  --sarcelle-clair: #4a6168;
-  --brun: #8a6a4a;          /* accent secondaire */
-  --brun-clair: #f2ece5;
-  --texte: #2f3436;
-  --texte-doux: #5f6b6e;
-  --bordure: #e6e2da;
-  --ombre: 0 1px 3px rgba(42, 58, 63, 0.07);
-  --rayon: 12px;
-  --largeur-max: 820px;
+  /* --- Fonds et encre --- */
+  --creme: #FBF4E4;          /* le papier des affiches */
+  --creme-fonce: #F4E9CE;
+  --carte: #FFFCF2;
+  --encre: #16130F;          /* noir chaud, jamais un noir pur */
+  --encre-doux: #5F574A;
+  --bordure: #E2D5B4;
+
+  /* --- Couleurs des familles (dupliquées de couleurs.js pour la
+         bande de légende et les états de survol) --- */
+  --cyan: #00A3D9;
+  --citron: #C6D42B;
+  --orange: #F59120;
+  --vert: #2FB06A;
+  --rose: #FF8FA3;
+  --petrole: #0E7C86;
+
+  /* --- Signal --- */
+  --framboise: #D62246;      /* les pièges, ce qui alerte */
+
+  /* Couleur courante, redéfinie par chaque tuile / fiche selon la famille */
+  --couleur: var(--petrole);
+
+  --rayon: 4px;              /* angles quasi droits : c'est de l'affiche */
+  --largeur-max: 860px;
+
+  --police-titre: 'Bodoni Moda', 'Times New Roman', Georgia, serif;
+  --police-texte: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --police-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
-/* Remise à zéro minimale, appliquée à tous les éléments. */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
-html {
-  /* Empêche iOS d'agrandir tout seul les textes en mode paysage. */
-  -webkit-text-size-adjust: 100%;
-}
+html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  background: var(--fond);
-  color: var(--texte);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
+  /* Fond peint explicitement : sans cela, la page emprunterait
+     le fond de l'application qui l'affiche. */
+  background: var(--creme);
+  color: var(--encre);
+  font-family: var(--police-texte);
   font-size: 17px;
-  line-height: 1.65;
+  line-height: 1.6;
 }
 
-h1, h2, h3, h4 {
-  color: var(--sarcelle);
-  line-height: 1.25;
+h1, h2, h3 {
+  font-family: var(--police-titre);
+  font-weight: 700;
+  line-height: 1.1;
+  text-wrap: balance;
   margin: 0 0 0.5rem;
-  font-weight: 650;
 }
 
-h1 { font-size: 1.55rem; }
-h2 { font-size: 1.15rem; }
-h3 { font-size: 1.05rem; }
+h1 { font-size: 2.4rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.35rem; }
+
+h4 {
+  font-family: var(--police-texte);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--encre-doux);
+  margin: 1.4rem 0 0.5rem;
+}
 
 p { margin: 0 0 0.9rem; }
 
-a { color: var(--brun); }
+a { color: var(--encre); text-underline-offset: 3px; }
+
+strong { font-weight: 700; }
 
 code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.92em;
-  background: var(--brun-clair);
-  color: var(--sarcelle);
+  font-family: var(--police-mono);
+  font-size: 0.9em;
+  background: var(--creme-fonce);
   padding: 0.15em 0.4em;
-  border-radius: 6px;
-  /* Les SMILES peuvent être longs : on autorise la coupure sur mobile. */
+  border-radius: var(--rayon);
   overflow-wrap: anywhere;
 }
 
-/* Texte réservé aux lecteurs d'écran (invisible mais lisible par eux). */
+/* Visible seulement par les lecteurs d'écran. */
 .lecture-seule-ecran {
   position: absolute;
   width: 1px; height: 1px;
@@ -79,28 +105,30 @@ code {
   border: 0;
 }
 
-/* ---------- Structure générale ---------- */
-
-.app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* Le focus clavier doit toujours se voir. */
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid var(--encre);
+  outline-offset: 2px;
 }
+
+/* ---------- Structure ---------- */
+
+.app { min-height: 100vh; display: flex; flex-direction: column; }
 
 .contenu {
   flex: 1;
   width: 100%;
   max-width: var(--largeur-max);
   margin: 0 auto;
-  padding: 1.25rem 1rem 3rem;
+  padding: 1.5rem 1rem 3rem;
 }
 
-/* ---------- En-tête et navigation ---------- */
+/* ---------- En-tête ---------- */
 
 .entete {
-  background: var(--sarcelle);
-  color: #f4f1ec;
-  position: sticky;   /* l'en-tête reste visible quand on fait défiler */
+  background: var(--encre);
+  color: var(--creme);
+  position: sticky;
   top: 0;
   z-index: 10;
 }
@@ -108,350 +136,474 @@ code {
 .entete-interieur {
   max-width: var(--largeur-max);
   margin: 0 auto;
-  padding: 0.7rem 1rem;
+  padding: 0.6rem 1rem;
   display: flex;
-  flex-direction: column;   /* sur mobile : titre au-dessus, menu en dessous */
-  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
-.marque {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
+.marque { text-decoration: none; color: inherit; }
 
 .marque-titre {
-  display: block;
-  font-size: 1.2rem;
+  font-family: var(--police-titre);
+  font-size: 1.45rem;
   font-weight: 700;
   letter-spacing: 0.01em;
 }
 
-.marque-sous-titre {
-  display: block;
-  font-size: 0.78rem;
-  color: #b9c6c9;
-}
-
-.nav {
-  display: flex;
-  gap: 0.4rem;
-}
+.nav { display: flex; gap: 0.25rem; }
 
 .lien-nav {
-  color: #dfe6e7;
+  color: var(--creme);
   text-decoration: none;
-  font-size: 0.95rem;
-  padding: 0.45rem 0.75rem;
-  border-radius: 999px;
-  /* Zone de clic confortable au doigt. */
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.4rem 0.7rem;
   min-height: 40px;
   display: inline-flex;
   align-items: center;
+  border-radius: var(--rayon);
 }
 
-.lien-nav:hover { background: rgba(255, 255, 255, 0.08); }
+.lien-nav.actif { background: var(--creme); color: var(--encre); font-weight: 700; }
 
-.lien-nav.actif {
-  background: #f4f1ec;
-  color: var(--sarcelle);
-  font-weight: 600;
+/* Bande de légende : une couleur par famille. */
+.bande-couleurs { display: flex; height: 7px; }
+.bande-couleurs span { flex: 1; }
+
+/* ---------- Titres de page ---------- */
+
+.intro { margin-bottom: 1.5rem; }
+
+.sur-titre {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--encre-doux);
+  margin: 0 0 0.3rem;
 }
-
-/* ---------- Page liste ---------- */
-
-.intro { margin-bottom: 1.1rem; }
 
 .accroche {
-  color: var(--texte-doux);
-  margin: 0;
+  font-size: 1.05rem;
+  color: var(--encre-doux);
+  max-width: 46ch;
+  margin: 0.6rem 0 0;
 }
+
+/* ---------- Filtres ---------- */
 
 .filtres {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
-  margin-bottom: 1rem;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .champ-recherche input {
   width: 100%;
-  padding: 0.7rem 0.9rem;
-  font-size: 16px;   /* 16px minimum : évite le zoom automatique sur iPhone */
-  color: var(--texte);
-  background: var(--fond-carte);
-  border: 1px solid var(--bordure);
+  font-family: inherit;
+  font-size: 16px;   /* 16px minimum : sinon l'iPhone zoome tout seul */
+  color: var(--encre);
+  background: var(--carte);
+  border: 2px solid var(--encre);
   border-radius: var(--rayon);
+  padding: 0.65rem 0.85rem;
 }
 
-.champ-recherche input:focus {
-  outline: 2px solid var(--sarcelle-clair);
-  outline-offset: 1px;
-}
+.champ-recherche input::placeholder { color: var(--encre-doux); }
 
-.pastilles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
+.pastilles { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 
 .pastille {
   font: inherit;
-  font-size: 0.85rem;
-  color: var(--sarcelle);
-  background: var(--fond-carte);
-  border: 1px solid var(--bordure);
-  border-radius: 999px;
-  padding: 0.4rem 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--encre);
+  background: transparent;
+  border: 2px solid var(--couleur);
+  border-radius: var(--rayon);
+  padding: 0.35rem 0.7rem;
   min-height: 38px;
   cursor: pointer;
 }
 
-.pastille.active {
-  background: var(--sarcelle);
-  border-color: var(--sarcelle);
-  color: #f4f1ec;
-}
+/* La pastille active se remplit de la couleur de sa famille. */
+.pastille.active { background: var(--couleur); }
+.pastille.active:not(:first-child) { color: var(--encre); }
+.pastille:first-child.active { color: var(--creme); }
 
-.compteur {
-  font-size: 0.85rem;
-  color: var(--texte-doux);
-  margin-bottom: 0.6rem;
-}
-
-.message-vide {
-  color: var(--texte-doux);
-  background: var(--fond-carte);
-  border: 1px dashed var(--bordure);
-  border-radius: var(--rayon);
-  padding: 1.2rem;
-  text-align: center;
-}
+/* ---------- Grille de tuiles ---------- */
 
 .grille {
   display: grid;
-  grid-template-columns: 1fr;   /* une colonne sur mobile */
-  gap: 0.85rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7rem;
 }
 
-.carte {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  background: var(--fond-carte);
-  border: 1px solid var(--bordure);
-  border-left: 4px solid var(--brun);
-  border-radius: var(--rayon);
-  padding: 0.95rem 1rem;
-  box-shadow: var(--ombre);
-}
-
-.carte:hover { border-color: var(--sarcelle-clair); border-left-color: var(--sarcelle); }
-
-.carte-titre { margin: 0.35rem 0 0.5rem; }
-
-.carte-equation {
-  margin: 0 0 0.45rem;
-  font-size: 0.9rem;
-}
-
-.fleche { color: var(--brun); font-weight: 700; }
-
-.carte-reactifs {
-  font-size: 0.85rem;
-  color: var(--texte-doux);
-  margin: 0 0 0.5rem;
-}
-
-.etiquette-famille {
-  display: inline-block;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--brun);
-  background: var(--brun-clair);
-  border-radius: 999px;
-  padding: 0.2rem 0.6rem;
-}
-
-/* ---------- Indicateur de difficulté ---------- */
-
-.difficulte {
+/* Une tuile = une case de tableau périodique. */
+.tuile {
+  position: relative;
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin: 0;
-  font-size: 0.75rem;
-  color: var(--texte-doux);
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--encre);
+  background: var(--couleur);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  padding: 0.7rem 0.7rem 0.8rem;
+  min-height: 190px;
 }
 
-.difficulte-libelle { white-space: nowrap; }
+.tuile:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--encre); }
 
-/* Jauge : un rail gris, rempli en brun jusqu'au niveau voulu. */
-.jauge {
-  flex: 1;
-  max-width: 130px;
-  height: 6px;
-  background: var(--bordure);
-  border-radius: 999px;
-  overflow: hidden;
-}
-
-.jauge-remplissage {
-  display: block;
-  height: 100%;
-  background: var(--brun);
-  border-radius: 999px;
-}
-
-.difficulte-valeur {
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-/* Amorce « POURQUOI / COMMENT » en tête de paragraphe. */
-.amorce {
-  color: var(--brun);
+.tuile-numero, .tuile-difficulte {
+  position: absolute;
+  top: 0.55rem;
+  font-family: var(--police-titre);
+  font-size: 0.95rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
 }
 
-/* ---------- Page détail ---------- */
+.tuile-numero { left: 0.7rem; }
+.tuile-difficulte { right: 0.7rem; font-size: 0.85rem; }
+.tuile-difficulte .sur-dix { font-family: var(--police-texte); font-size: 0.62rem; }
+
+.tuile-symbole {
+  font-family: var(--police-titre);
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 1.9rem 0 0.5rem;
+  /* Un symbole long (RMgX) doit rétrécir plutôt que déborder. */
+  overflow-wrap: anywhere;
+}
+
+.tuile-nom {
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: auto;
+}
+
+.tuile-formule {
+  font-family: var(--police-mono);
+  font-size: 0.7rem;
+  margin-top: 0.35rem;
+  opacity: 0.8;
+  overflow-wrap: anywhere;
+}
+
+.message-vide {
+  background: var(--carte);
+  border: 2px dashed var(--bordure);
+  border-radius: var(--rayon);
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--encre-doux);
+}
+
+/* ---------- Fiche : bandeau ---------- */
 
 .lien-retour {
   display: inline-block;
-  margin-bottom: 0.9rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   text-decoration: none;
+  margin-bottom: 1rem;
 }
 
 .lien-retour:hover { text-decoration: underline; }
-.lien-retour.bas { margin-top: 1.5rem; }
+.lien-retour.bas { margin: 1.5rem 0 0; }
 
-.fiche-entete { margin-bottom: 1.2rem; }
-.fiche-entete h1 { margin: 0.4rem 0 0.5rem; }
+.bandeau {
+  background: var(--couleur);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  padding: 1.1rem 1.1rem 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.bandeau-famille {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 0;
+}
+
+.bandeau-symbole {
+  font-family: var(--police-titre);
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0.4rem 0 0.5rem;
+  overflow-wrap: anywhere;
+}
+
+.bandeau-titre { font-size: 1.75rem; margin: 0 0 0.6rem; }
+
+.bandeau-difficulte {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.bandeau-difficulte strong { font-family: var(--police-titre); font-size: 1.2rem; }
+.sur-dix { opacity: 0.7; }
+
+/* ---------- Blocs de contenu ---------- */
 
 .bloc {
-  background: var(--fond-carte);
-  border: 1px solid var(--bordure);
+  background: var(--carte);
+  border: 2px solid var(--encre);
   border-radius: var(--rayon);
-  padding: 1rem;
-  margin-bottom: 0.9rem;
-  box-shadow: var(--ombre);
+  padding: 1.1rem;
+  margin-bottom: 1rem;
 }
+
+.bloc h3 { margin-bottom: 0.7rem; }
 
 .note {
   font-size: 0.82rem;
-  color: var(--texte-doux);
-  margin: 0 0 0.7rem;
+  color: var(--encre-doux);
+  margin: 0.8rem 0 0;
 }
 
-/* Équation : en colonne sur mobile, en ligne sur grand écran. */
+.sous-titre { margin-top: 1.3rem; }
+.sous-titre:first-of-type { margin-top: 0.5rem; }
+
+/* Équation */
 .equation-ligne {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   text-align: center;
 }
 
 .molecule {
-  font-size: 1rem;
-  padding: 0.4rem 0.7rem;
+  font-size: 1.05rem;
+  padding: 0.5rem 0.8rem;
+  background: var(--creme-fonce);
+  border: 2px solid var(--encre);
 }
 
-.fleche-bloc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.2;
-}
-
-.fleche-trait {
-  font-size: 1.6rem;
-  line-height: 1;
-  color: var(--brun);
-  /* Sur mobile la flèche pointe vers le bas (empilement vertical).
-     La rotation ne modifie pas la place réservée par le navigateur :
-     on ajoute donc des marges pour éviter tout chevauchement. */
-  transform: rotate(90deg);
-  margin: 0.55rem 0;
-}
+.fleche-bloc { display: flex; flex-direction: column; align-items: center; }
 
 .fleche-conditions {
   font-size: 0.78rem;
-  color: var(--texte-doux);
+  color: var(--encre-doux);
+  max-width: 26ch;
 }
 
-.liste-etapes, .liste-pieges, .liste-phases {
+.fleche-trait {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--couleur);
+  /* Sur mobile, l'équation s'empile : la flèche pointe vers le bas.
+     La rotation ne change pas la place réservée, d'où les marges. */
+  transform: rotate(90deg);
+  margin: 0.5rem 0;
+  -webkit-text-stroke: 0.5px var(--encre);
+}
+
+/* Explication + bascule de mode */
+.bloc-explication { background: var(--creme); }
+
+.bascule {
+  display: flex;
+  gap: 0;
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  overflow: hidden;
+  margin-bottom: 1.1rem;
+}
+
+.bascule-bouton {
+  flex: 1;
+  font: inherit;
+  text-align: left;
+  background: var(--carte);
+  color: var(--encre);
+  border: none;
+  border-right: 2px solid var(--encre);
+  padding: 0.55rem 0.7rem;
+  cursor: pointer;
+  min-height: 48px;
+}
+
+.bascule-bouton:last-child { border-right: none; }
+.bascule-bouton.actif { background: var(--couleur); }
+
+.bascule-libelle {
+  display: block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.bascule-aide {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--encre-doux);
+  line-height: 1.2;
+  margin-top: 0.15rem;
+}
+
+.bascule-bouton.actif .bascule-aide { color: var(--encre); opacity: 0.75; }
+
+.texte-explication { max-width: 62ch; }
+.texte-explication p:last-child { margin-bottom: 0; }
+
+/* Amorce « POURQUOI / COMMENT » en tête de paragraphe. */
+.amorce {
+  font-family: var(--police-titre);
+  font-size: 1.15em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* Mécanisme : des étapes numérotées dans la couleur de la famille. */
+.liste-etapes { list-style: none; margin: 0; padding: 0; }
+
+.liste-etapes li {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 0.9rem;
+}
+
+.liste-etapes li:last-child { margin-bottom: 0; }
+
+.numero-etape {
+  flex: 0 0 auto;
+  width: 28px; height: 28px;
+  display: grid;
+  place-items: center;
+  background: var(--couleur);
+  border: 2px solid var(--encre);
+  border-radius: 50%;
+  font-family: var(--police-titre);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* Pièges : le seul endroit où l'on alerte, donc la seule couleur d'alerte. */
+.bloc-pieges { border-left: 10px solid var(--framboise); }
+.liste-pieges { margin: 0; padding-left: 1.2rem; }
+.liste-pieges li { margin-bottom: 0.6rem; }
+.liste-pieges li::marker { color: var(--framboise); }
+
+/* Références */
+.bloc-references { background: var(--creme-fonce); }
+.liste-references { list-style: none; margin: 0; padding: 0; }
+
+.reference {
+  border-left: 3px solid var(--encre);
+  padding-left: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.reference:last-child { margin-bottom: 0; }
+
+.reference-citation { margin: 0 0 0.35rem; font-size: 0.9rem; }
+
+.reference-ligne {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
   margin: 0;
-  padding-left: 1.2rem;
+  font-size: 0.82rem;
+  font-family: var(--police-mono);
+  overflow-wrap: anywhere;
 }
 
-.liste-etapes li, .liste-pieges li, .liste-phases li {
-  margin-bottom: 0.55rem;
+.badge-verifie, .badge-a-verifier {
+  font-family: var(--police-texte);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.5rem;
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  white-space: nowrap;
 }
 
-.bloc-pieges { border-left: 4px solid var(--brun); }
+.badge-verifie { background: var(--vert); }
+.badge-a-verifier { background: var(--creme); }
 
-.bloc-explication p:last-child { margin-bottom: 0; }
-
-.bloc-comprendre {
-  background: #fbf8f4;
-  border-left: 4px solid var(--sarcelle);
+.reference-note {
+  font-size: 0.78rem;
+  color: var(--encre-doux);
+  margin: 0.35rem 0 0;
 }
 
-.liste-phases li.fait { color: var(--sarcelle); }
-.liste-phases li:not(.fait) { color: var(--texte-doux); }
+/* Liste des phases (page À propos) */
+.liste-phases { list-style: none; margin: 0; padding: 0; }
+
+.liste-phases li {
+  padding-left: 1.6rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+  color: var(--encre-doux);
+}
+
+.liste-phases li::before {
+  content: '○';
+  position: absolute;
+  left: 0;
+}
+
+.liste-phases li.fait { color: var(--encre); }
+.liste-phases li.fait::before { content: '●'; color: var(--vert); }
 
 /* ---------- Pied de page ---------- */
 
 .pied-de-page {
-  border-top: 1px solid var(--bordure);
-  padding: 1rem;
+  background: var(--encre);
+  color: var(--creme);
+  padding: 1.2rem 1rem;
   text-align: center;
 }
 
-.pied-de-page p {
-  margin: 0;
-  font-size: 0.8rem;
-  color: var(--texte-doux);
-}
+.pied-de-page p { margin: 0; font-size: 0.8rem; opacity: 0.85; }
 
 /* ============================================================
-   Écrans plus larges (tablette et PC) : à partir de 640 px.
+   Tablette et PC
    ============================================================ */
-@media (min-width: 640px) {
+@media (min-width: 700px) {
   body { font-size: 18px; }
-  h1 { font-size: 1.9rem; }
 
-  .entete-interieur {
-    flex-direction: row;          /* titre à gauche, menu à droite */
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.85rem 1.25rem;
-  }
+  h1 { font-size: 3.2rem; }
 
-  .contenu { padding: 2rem 1.25rem 4rem; }
+  .contenu { padding: 2.5rem 1.5rem 4rem; }
 
-  .grille { grid-template-columns: repeat(2, 1fr); }
+  .grille { grid-template-columns: repeat(3, 1fr); gap: 0.9rem; }
 
-  /* Sur grand écran on garde la recherche sur sa propre ligne
-     (les pastilles dessous) : c'est plus lisible que de tout
-     comprimer sur une seule ligne. On limite simplement sa largeur. */
+  .tuile { min-height: 215px; }
+  .tuile-symbole { font-size: 3rem; }
+
   .champ-recherche input { max-width: 420px; }
 
-  /* Sur grand écran, l'équation tient sur une ligne horizontale. */
-  .equation-ligne { flex-direction: row; justify-content: center; }
-  .fleche-trait { transform: none; }
+  /* L'équation tient sur une ligne : la flèche redevient horizontale. */
+  .equation-ligne { flex-direction: row; justify-content: center; gap: 1rem; }
+  .fleche-trait { transform: none; margin: 0.2rem 0; }
 
-  .bloc { padding: 1.4rem 1.5rem; }
+  .bandeau { padding: 1.6rem; }
+  .bandeau-symbole { font-size: 4.5rem; }
+  .bandeau-titre { font-size: 2.2rem; }
+
+  .bloc { padding: 1.5rem 1.6rem; }
 }
 
-/* Respecte le réglage « réduire les animations » du système. */
+/* Respecte le réglage « réduire les animations ». */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
+  .tuile:hover { transform: none; }
 }
-
-/* Petite respiration entre l'équation et sa note explicative. */
-.equation .note { margin-top: 1.1rem; margin-bottom: 0; }

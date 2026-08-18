@@ -1,30 +1,29 @@
-// Une « carte » = un aperçu cliquable d'une réaction dans la liste.
+// Une réaction s'affiche comme une case de tableau périodique :
+// numéro en haut à gauche, difficulté en haut à droite, symbole en grand,
+// puis le nom complet et l'équation en bas.
 import { Link } from 'react-router-dom'
-import NiveauDifficulte from './NiveauDifficulte.jsx'
+import { couleurFamille } from '../couleurs.js'
 
-export default function CarteReaction({ reaction }) {
+export default function CarteReaction({ reaction, numero }) {
   return (
-    <Link to={`/reaction/${reaction.id}`} className="carte">
-      <span className="etiquette-famille">{reaction.famille}</span>
+    <Link
+      to={`/reaction/${reaction.id}`}
+      className="tuile"
+      // --couleur est une variable CSS lue par la feuille de style :
+      // c'est elle qui colore toute la tuile selon la famille.
+      style={{ '--couleur': couleurFamille(reaction.famille) }}
+    >
+      <span className="tuile-numero">{numero}</span>
+      <span className="tuile-difficulte" title="Difficulté sur 10">
+        {reaction.niveau_difficulte}<span className="sur-dix">/10</span>
+      </span>
 
-      <h2 className="carte-titre">{reaction.nom}</h2>
+      <span className="tuile-symbole">{reaction.symbole || reaction.id}</span>
 
-      {/*
-        Aperçu de l'équation en texte brut (les SMILES).
-        À la Phase 2, RDKit-JS remplacera ce texte par les vraies
-        structures dessinées.
-      */}
-      <p className="carte-equation">
-        <code>{reaction.substrat_SMILES}</code>
-        <span className="fleche"> → </span>
-        <code>{reaction.produit_SMILES}</code>
-      </p>
-
-      <p className="carte-reactifs">
-        {reaction.reactifs.join(' + ')} · {reaction.solvant}
-      </p>
-
-      <NiveauDifficulte niveau={reaction.niveau_difficulte} />
+      <span className="tuile-nom">{reaction.nom}</span>
+      <span className="tuile-formule">
+        {reaction.substrat_SMILES} → {reaction.produit_SMILES}
+      </span>
     </Link>
   )
 }

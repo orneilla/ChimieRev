@@ -62,11 +62,62 @@ npm run build   # construit la version finale dans dist/
 
 ---
 
+## Le parti pris visuel
+
+Direction inspirée des affiches de l'Année internationale de la chimie :
+aplats de couleur saturés sur fond crème, gros symboles en didone, tuiles
+de tableau périodique.
+
+La couleur n'est pas décorative, **elle porte une information** : chaque
+famille de réactions a sa teinte, et on la retrouve partout — sur la tuile,
+sur le filtre, sur le bandeau de la fiche, sur les numéros d'étapes. L'œil
+apprend le classement sans avoir à lire.
+
+| Famille | Couleur |
+|---|---|
+| Substitutions | cyan `#00A3D9` |
+| Éliminations | citron `#C6D42B` |
+| Péricycliques | orange `#F59120` |
+| Oxydo-réduction | vert `#2FB06A` |
+| Organométalliques | rose `#FF8FA3` |
+
+Les teintes se modifient à un seul endroit : `src/couleurs.js`. Une famille
+non répertoriée prend automatiquement la couleur de repli (pétrole).
+
+Les polices (Bodoni Moda pour les titres, Karla pour le texte) sont
+**embarquées dans le projet** (`public/polices/`) : l'application ne dépend
+d'aucun service extérieur et reste lisible même avec une connexion faible.
+
+## Les deux modes de lecture
+
+Chaque fiche propose la même chose expliquée de deux façons :
+
+- **Comprendre** — aucune base en chimie requise, on part du pourquoi ;
+- **Référence** — la formulation technique exacte, pour réviser vite.
+
+Personne n'est laissé de côté, dans un sens comme dans l'autre. Le choix
+est retenu d'une fiche à l'autre (`localStorage`).
+
+## Les sources : la règle absolue
+
+En science, on n'affirme pas sans pouvoir dire d'où ça vient. Chaque fiche
+affiche ses ouvrages de référence et ses articles fondateurs, depuis
+`src/data/references.json`.
+
+> **Aucun DOI n'est jamais écrit de mémoire.** Un identifiant n'est affiché
+> comme lien cliquable que si `"verifie": true`, c'est-à-dire confirmé par
+> au moins deux sources indépendantes. Sinon la référence porte la mention
+> « DOI à vérifier » — un manque assumé vaut mieux qu'un lien inventé.
+
+Cette règle s'applique à toute référence ajoutée par la suite.
+
 ## Organisation des fichiers
 
 ```
 index.html                  page HTML de départ
 public/favicon.svg          icône de l'onglet
+public/polices.css          déclarations des polices embarquées
+public/polices/             les fichiers de police (woff2)
 src/
   main.jsx                  point d'entrée : accroche React à la page
   App.jsx                   structure commune + liste des adresses (routes)
@@ -75,11 +126,14 @@ src/
     reactions.json          LE CONTENU : les réactions
     reactifs.json           LE CONTENU : les réactifs
     solvants.json           LE CONTENU : les solvants
+    references.json         LE CONTENU : les sources et leurs DOI
     meta.json               le principe et le ton à tenir (Phase 6)
+  couleurs.js               une couleur par famille de réactions
   components/
-    BarreNavigation.jsx     en-tête + menu
-    CarteReaction.jsx       aperçu d'une réaction dans la liste
-    NiveauDifficulte.jsx    la jauge de difficulté (sur 10)
+    BarreNavigation.jsx     en-tête + bande des couleurs
+    CarteReaction.jsx       la tuile d'une réaction dans la liste
+    BasculeMode.jsx         le choix Comprendre / Référence
+    ReferencesReaction.jsx  les sources, avec l'état de vérification
     BlocTexte.jsx           affiche un texte long en paragraphes
 .github/workflows/
   deploy.yml                construit et publie l'app à chaque modification
@@ -98,6 +152,7 @@ toucher : il suffit d'ajouter un objet à la liste, en respectant ce schéma.
 {
   "id": "identifiant_sans_espace_ni_accent",
   "nom": "Nom affiché de la réaction",
+  "symbole": "SN2",
   "famille": "Substitutions",
   "substrat_SMILES": "CCBr",
   "produit_SMILES": "CCO",
@@ -112,7 +167,9 @@ toucher : il suffit d'ajouter un objet à la liste, en respectant ce schéma.
 }
 ```
 
-`niveau_difficulte` est une note **sur 10** (elle s'affiche en jauge).
+`niveau_difficulte` est une note **sur 10**. `symbole` est le sigle court
+affiché en grand sur la tuile (2 à 5 caractères) ; sans lui, l'identifiant
+est utilisé.
 
 Deux conventions utiles dans les textes longs (`explication_*`) :
 
@@ -133,9 +190,11 @@ même principe (schémas déjà en place, leur affichage viendra plus tard).
 
 | Phase | Contenu | État |
 |---|---|---|
-| 1 | Socle : données, liste, fiches, responsive | ✅ fait |
+| 1 | Socle : données, liste, fiches, mobile | ✅ fait |
+| — | Identité visuelle : couleurs par famille, tuiles | ✅ fait |
+| 5 | Bascule Comprendre / Référence *(arrivée en avance)* | ✅ fait |
+| — | Sources vérifiées sur chaque fiche | ✅ fait |
 | 2 | Structures 2D dessinées (RDKit-JS) | à venir |
 | 3 | 3D interactive et orbitales (3Dmol.js) | à venir |
 | 4 | Flashcards et quiz (progression en `localStorage`) | à venir |
-| 5 | Bascule Référence / Comprendre | à venir |
 | 6 | Remplissage de toutes les familles de réactions | à venir |

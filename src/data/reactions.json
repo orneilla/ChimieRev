@@ -22,7 +22,8 @@
     ],
     "explication_reference": "La SN2 (substitution nucléophile bimoléculaire) est une réaction concertée en une seule étape. Le nucléophile attaque le carbone électrophile du côté opposé au groupe partant (attaque anti-périplanaire), passant par un état de transition pentacoordiné. La vitesse dépend du substrat ET du nucléophile (ordre 2). Favorisée par : substrat peu encombré (méthyle > primaire > secondaire), nucléophile fort et chargé, solvant aprotique polaire. Conséquence stéréochimique : inversion de configuration.",
     "explication_comprendre": "POURQUOI cette réaction existe-t-elle ? Parce qu'on veut souvent remplacer un morceau d'une molécule par un autre. Imagine une molécule qui porte un « passager » dont elle veut se débarrasser (le groupe partant), et un nouveau « passager » qui veut monter (le nucléophile, un morceau riche en électrons — pense à un aimant qui adore se coller là où il manque des électrons).\n\nMaintenant, COMMENT le nouveau passager monte-t-il ? Imagine une porte à tambour, ou un parapluie. Pour faire tourner la porte, tu pousses forcément du côté OPPOSÉ à l'axe. Ici c'est pareil : le nouveau morceau arrive toujours du côté opposé à celui qui part, et il pousse. Le résultat, c'est que la molécule se « retourne » exactement comme un parapluie que le vent renverse.\n\nUne fois que tu as vu cette image du parapluie, tu ne peux PLUS te tromper : le nouveau groupe entre d'un côté, l'ancien sort de l'autre, et la molécule s'inverse. Tu n'as rien à apprendre par cœur — c'est juste une porte qui tourne.",
-    "niveau_difficulte": 3
+    "niveau_difficulte": 3,
+    "symbole": "SN2"
   },
   {
     "id": "e2",
@@ -47,7 +48,8 @@
     ],
     "explication_reference": "La E2 (élimination bimoléculaire) est concertée, en une étape. Une base arrache l'hydrogène en β pendant que le groupe partant quitte le carbone α et que la liaison π se forme. Vitesse d'ordre 2 : v = k[substrat][base]. Exige une géométrie antipériplanaire (angle dièdre H–C–C–partant = 180°), ce qui la rend stéréospécifique. Régiochimie gouvernée par l'encombrement de la base (Zaïtsev vs Hofmann).",
     "explication_comprendre": "POURQUOI faire ça ? Pour créer une double liaison, c'est-à-dire une « soudure » plus forte entre deux carbones voisins. Le point de départ : une molécule qui porte un groupe partant (le passager qui veut descendre) et, juste à côté, un hydrogène.\n\nCOMMENT ? Imagine une fermeture éclair qu'on ouvre d'un coup sec. Une « base » (un morceau qui adore attraper les hydrogènes) tire sur l'hydrogène d'un côté, et EXACTEMENT au même moment, le groupe partant est éjecté de l'autre côté. Les électrons libérés au milieu se réorganisent et forment la fameuse double liaison.\n\nLe détail malin : pour que ça marche, l'hydrogène qu'on tire et le groupe qui part doivent être PILE en face l'un de l'autre, aux deux extrémités opposées (comme les deux mains qui ouvrent la fermeture éclair, une en haut, une en bas). S'ils ne sont pas alignés, la fermeture éclair coince et rien ne se passe. Retiens l'image : deux tractions opposées et alignées, et hop, une double liaison naît.",
-    "niveau_difficulte": 5
+    "niveau_difficulte": 5,
+    "symbole": "E2"
   },
   {
     "id": "diels_alder",
@@ -72,7 +74,8 @@
     ],
     "explication_reference": "La réaction de Diels-Alder est une cycloaddition [4+2] concertée entre un diène (4 électrons π) et un diénophile (2 électrons π), formant un cyclohexène. L'état de transition cyclique à 6 électrons a un caractère aromatique (règle de Woodward-Hoffmann : 4n+2 électrons → permise thermiquement). La HOMO du diène recouvre la LUMO du diénophile. Réaction stéréospécifique, régiosélective (règles ortho/para), avec préférence endo. Économie d'atomes parfaite.",
     "explication_comprendre": "POURQUOI est-elle si aimée des chimistes ? Parce qu'en UN SEUL geste, elle fabrique un anneau (un cycle) à six atomes, sans rien gaspiller. C'est comme assembler deux pièces de puzzle qui se referment en cercle.\n\nCOMMENT ? Prends une pièce en forme de U (le diène, avec ses deux doubles liaisons) et une pièce droite (le diénophile, avec sa double liaison). Approche-les face à face, en parallèle, comme deux mains qui vont se joindre. En un clin d'œil, les deux bouts du U attrapent les deux bouts de la pièce droite : deux nouvelles « soudures » se forment en même temps, et l'anneau est bouclé.\n\nLe plus beau : la chaleur suffit à déclencher tout ça, aucun réactif compliqué. Et comme tout se passe d'un coup, rien ne bouge de travers : la forme des pièces de départ se retrouve intacte dans l'anneau final. Pense à deux mains qui se rejoignent en cercle — c'est exactement ça.",
-    "niveau_difficulte": 8
+    "niveau_difficulte": 8,
+    "symbole": "DA"
   },
   {
     "id": "reduction_nabh4",
@@ -96,7 +99,8 @@
     ],
     "explication_reference": "Le borohydrure de sodium (NaBH₄) est un réducteur doux qui transfère un ion hydrure (H⁻) au carbone électrophile d'un aldéhyde ou d'une cétone. Il forme un alcoolate intermédiaire, ensuite protoné par le solvant pour donner un alcool (secondaire à partir d'une cétone, primaire à partir d'un aldéhyde). Sa douceur le rend chimiosélectif : il n'attaque pas les fonctions moins électrophiles (esters, acides, amides) ni les alcènes isolés.",
     "explication_comprendre": "POURQUOI réduire ? « Réduire », en chimie, veut dire ajouter des hydrogènes (ou enlever des oxygènes). Ici, on veut transformer une fonction où le carbone est doublement lié à un oxygène (C=O) en un simple alcool (C–OH). En clair : adoucir la molécule.\n\nCOMMENT ? Imagine le NaBH₄ comme une petite main qui tient quatre hydrogènes et n'attend qu'une chose : en donner un. Le carbone du C=O, lui, est un peu « affamé » d'électrons (il est ce qu'on appelle électrophile). La main lui tend un hydrogène chargé négativement — un cadeau riche en électrons — et le carbone l'attrape. La double liaison avec l'oxygène s'ouvre, et après un petit coup de « recharge » (l'oxygène récupère un hydrogène du solvant), on obtient un alcool.\n\nLe détail utile à comprendre (pas à réciter) : cette main est POLIE mais pas très forte. Elle ne donne son hydrogène qu'aux carbones vraiment affamés (aldéhydes, cétones). Les fonctions moins affamées (comme les esters) ne l'intéressent pas. C'est pour ça qu'on l'adore : on peut réduire une partie de la molécule sans abîmer le reste.",
-    "niveau_difficulte": 4
+    "niveau_difficulte": 4,
+    "symbole": "BH₄"
   },
   {
     "id": "grignard",
@@ -122,6 +126,7 @@
     ],
     "explication_reference": "Un réactif de Grignard (R–MgX) possède une liaison carbone-magnésium fortement polarisée : le carbone y est nucléophile (δ–), à l'inverse de sa polarité habituelle (umpolung). Il attaque le carbone électrophile d'un carbonyle, formant une nouvelle liaison C–C et un alcoolate, ensuite hydrolysé en alcool. La classe de l'alcool dépend de l'électrophile (aldéhyde → II, cétone → III, CO₂ → acide). Exige un milieu rigoureusement anhydre car le carbanion est une base très forte, détruite par tout proton acide.",
     "explication_comprendre": "POURQUOI cette réaction est-elle une star ? Parce qu'elle fait la chose la plus précieuse en chimie : coller deux morceaux de carbone ensemble pour agrandir une molécule. C'est comme allonger un collier en y ajoutant une perle.\n\nMais il y a un secret génial. D'habitude, le carbone est plutôt « pauvre » en électrons. Ici, on l'a accroché à un métal (le magnésium) très généreux, qui lui pousse plein d'électrons dessus. Résultat : le carbone devient RICHE en électrons, tout retourné — comme un aimant dont on aurait inversé les pôles. Et un carbone riche adore aller attaquer un carbone pauvre.\n\nCOMMENT ? Ce carbone riche se jette sur le carbone « affamé » d'une cétone (le C=O), et les deux se soudent : une nouvelle liaison carbone-carbone est née. On finit par ajouter un peu d'eau pour « fermer » proprement, et on obtient un alcool plus gros qu'au départ.\n\nLe piège à COMPRENDRE (donc à ne jamais oublier) : ce carbone super-riche est tellement avide qu'il se jette sur le premier hydrogène « acide » venu — et l'eau en est pleine. Si tu mets de l'eau trop tôt, il l'attrape au lieu de faire son travail, et tout est fichu. C'est pour ça qu'on travaille au sec, et qu'on n'ajoute l'eau qu'à la toute fin, une fois le collier agrandi.",
-    "niveau_difficulte": 5
+    "niveau_difficulte": 5,
+    "symbole": "RMgX"
   }
 ]
