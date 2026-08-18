@@ -1,19 +1,20 @@
-// Petit indicateur visuel : 5 points, dont "niveau" sont remplis.
+// Indicateur de difficulté, sur une échelle de 10 (celle des données).
+// Affiché sous forme de jauge : plus la barre est remplie, plus c'est ardu.
 export default function NiveauDifficulte({ niveau }) {
-  const points = [1, 2, 3, 4, 5]
+  const MAXIMUM = 10
+  // On borne la valeur entre 0 et 10, au cas où une donnée serait erronée.
+  const valeur = Math.max(0, Math.min(MAXIMUM, Number(niveau) || 0))
+  const pourcentage = (valeur / MAXIMUM) * 100
 
   return (
-    <p className="difficulte" title={`Difficulté ${niveau} sur 5`}>
+    <p className="difficulte">
       <span className="difficulte-libelle">Difficulté</span>
-      {points.map((p) => (
-        <span
-          key={p}
-          className={p <= niveau ? 'point plein' : 'point'}
-          aria-hidden="true"
-        />
-      ))}
-      {/* Texte lu par les lecteurs d'écran, invisible à l'œil. */}
-      <span className="lecture-seule-ecran">{niveau} sur 5</span>
+
+      <span className="jauge" aria-hidden="true">
+        <span className="jauge-remplissage" style={{ width: `${pourcentage}%` }} />
+      </span>
+
+      <span className="difficulte-valeur">{valeur}/{MAXIMUM}</span>
     </p>
   )
 }

@@ -279,22 +279,42 @@ code {
 .difficulte {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.5rem;
   margin: 0;
   font-size: 0.75rem;
   color: var(--texte-doux);
 }
 
-.difficulte-libelle { margin-right: 0.25rem; }
+.difficulte-libelle { white-space: nowrap; }
 
-.point {
-  width: 8px; height: 8px;
-  border-radius: 50%;
+/* Jauge : un rail gris, rempli en brun jusqu'au niveau voulu. */
+.jauge {
+  flex: 1;
+  max-width: 130px;
+  height: 6px;
   background: var(--bordure);
-  display: inline-block;
+  border-radius: 999px;
+  overflow: hidden;
 }
 
-.point.plein { background: var(--brun); }
+.jauge-remplissage {
+  display: block;
+  height: 100%;
+  background: var(--brun);
+  border-radius: 999px;
+}
+
+.difficulte-valeur {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Amorce « POURQUOI / COMMENT » en tête de paragraphe. */
+.amorce {
+  color: var(--brun);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
 
 /* ---------- Page détail ---------- */
 
@@ -379,14 +399,6 @@ code {
 .bloc-comprendre {
   background: #fbf8f4;
   border-left: 4px solid var(--sarcelle);
-}
-
-.intertitre {
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--brun);
-  margin: 1.2rem 0 0.4rem;
 }
 
 .liste-phases li.fait { color: var(--sarcelle); }

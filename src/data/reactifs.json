@@ -4,44 +4,84 @@
     "nom": "mCPBA",
     "nom_complet": "acide méta-chloroperoxybenzoïque",
     "SMILES": "OOC(=O)c1cccc(Cl)c1",
-    "role": "Oxydant (transfert d'un atome d'oxygène)",
+    "role": "Oxydant — transfère un atome d'oxygène",
     "anatomie_annotations": [
-      {"partie": "liaison peroxyde O–O", "role": "Liaison faible et tendue : c'est elle qui se rompt et qui livre l'atome d'oxygène à la molécule à oxyder."},
-      {"partie": "chlore en position méta", "role": "Attire les électrons du cycle, ce qui stabilise l'acide formé après le transfert et rend le réactif plus efficace et plus stable au stockage."},
-      {"partie": "cycle aromatique", "role": "Support inerte : il ne participe pas à la réaction, il porte la fonction et rend le solide facile à manipuler."}
+      {
+        "partie": "liaison peroxyde O–O",
+        "role": "Liaison faible et polarisée : c'est le cœur réactif. Un des deux oxygènes devient pauvre en électrons (électrophile) et facile à attaquer ; c'est cet oxygène qui est transféré à l'autre molécule."
+      },
+      {
+        "partie": "carbonyle C=O",
+        "role": "Attire les électrons loin de la liaison peroxyde, ce qui la rend encore plus réactive."
+      },
+      {
+        "partie": "chlore en position méta",
+        "role": "Attire les électrons vers lui, appauvrit encore le peroxyde et le rend plus sensible aux attaques."
+      }
     ],
-    "reactions_liees": ["epoxydation", "baeyer_villiger"],
-    "explication_reference": "Peracide utilisé pour l'époxydation stéréospécifique des alcènes (mécanisme concerté « papillon ») et pour le réarrangement de Baeyer-Villiger des cétones en esters. La liaison O–O, faible, est rompue au profit du transfert électrophile d'un atome d'oxygène sur le système π ; le sous-produit est l'acide méta-chlorobenzoïque.",
-    "explication_comprendre": "Certaines molécules transportent un oxygène « en trop », mal accroché, dont elles se débarrassent volontiers. C'est le cas ici : deux atomes d'oxygène sont liés l'un à l'autre par une liaison faible, un peu comme un ressort trop comprimé. Il suffit qu'une molécule riche en électrons passe à proximité pour que le ressort se détende et lui laisse un oxygène. C'est pour cela qu'on utilise ce réactif quand on veut ajouter précisément un oxygène quelque part."
+    "reactions_liees": [
+      "epoxydation",
+      "baeyer_villiger",
+      "oxydation_sulfure"
+    ],
+    "explication_reference": "L'acide méta-chloroperoxybenzoïque (mCPBA) est un peroxyacide utilisé comme agent d'oxydation par transfert d'oxygène. Sa liaison peroxyde O–O, faible et polarisée (renforcée par l'effet attracteur du carbonyle et du chlore méta), transfère un atome d'oxygène électrophile à des substrats riches en électrons : époxydation des alcènes (syn-stéréospécifique), oxydation de Baeyer-Villiger des cétones en esters/lactones, oxydation des sulfures en sulfoxydes puis sulfones. Solvants usuels : DCM, chloroforme.",
+    "explication_comprendre": "QU'EST-CE que ce réactif au nom imprononçable ? C'est simplement un « livreur d'oxygène ». Son unique métier : aller déposer un atome d'oxygène sur une autre molécule.\n\nPOURQUOI y arrive-t-il si bien ? Regarde sa structure : il a deux oxygènes accrochés l'un à l'autre par une liaison fragile (O–O), un peu comme deux wagons reliés par un attelage rouillé. Cet attelage casse facilement. Et juste à côté, il y a des morceaux « voleurs d'électrons » (un carbone doublé à un oxygène, et un atome de chlore) qui tirent sur les électrons et fragilisent encore plus l'attelage.\n\nRésultat : un des deux oxygènes devient « affamé » d'électrons. Quand il croise une molécule riche en électrons (comme un alcène, une double liaison bien garnie), il s'y accroche et se fait déposer là. La molécule de départ repart avec un oxygène en plus — elle a été « oxydée ». Retiens juste l'image du livreur avec son colis d'oxygène mal attaché, prêt à le refiler au premier client riche qui passe.",
+    "reactions_exemples": [
+      {
+        "nom": "Alcène → Époxyde",
+        "substrat_SMILES": "CCC=CC",
+        "produit_SMILES": "CCC1OC1C",
+        "note": "Addition toujours SYN"
+      },
+      {
+        "nom": "Cétone → Ester (Baeyer-Villiger)",
+        "substrat_SMILES": "CC(=O)C(C)C",
+        "produit_SMILES": "CC(=O)OC(C)C",
+        "note": "Cétone cyclique → lactone"
+      },
+      {
+        "nom": "Aldéhyde → Acide",
+        "substrat_SMILES": "CCCCC=O",
+        "produit_SMILES": "CCCCC(=O)O",
+        "note": ""
+      },
+      {
+        "nom": "Sulfure → Sulfoxyde → Sulfone",
+        "substrat_SMILES": "CC(C)Sc1ccccc1",
+        "produit_SMILES": "CC(C)S(=O)c1ccccc1",
+        "note": "1 équiv → sulfoxyde ; excès → sulfone"
+      }
+    ]
   },
   {
-    "id": "nabh4",
-    "nom": "NaBH₄",
-    "nom_complet": "tétrahydruroborate de sodium (borohydrure de sodium)",
-    "SMILES": "[BH4-].[Na+]",
-    "role": "Réducteur doux (donneur d'hydrure H⁻)",
+    "id": "lda",
+    "nom": "LDA",
+    "nom_complet": "diisopropylamidure de lithium",
+    "SMILES": "[Li]N(C(C)C)C(C)C",
+    "role": "Base très forte et encombrée",
     "anatomie_annotations": [
-      {"partie": "les quatre liaisons B–H", "role": "Réserve de quatre hydrures : chaque liaison peut céder son hydrogène accompagné de ses électrons, donc un ion peut réduire jusqu'à quatre molécules."},
-      {"partie": "l'atome de bore central", "role": "Moins avide d'électrons que l'hydrogène : il laisse partir l'hydrogène avec le doublet, ce qui fait de cet hydrogène un donneur et non un acide."},
-      {"partie": "l'ion sodium Na⁺", "role": "Simple contre-ion : il assure la neutralité électrique et la solubilité, il ne participe pas à la réaction."}
+      {
+        "partie": "azote chargé négativement",
+        "role": "Le site basique : très avide d'attraper un proton."
+      },
+      {
+        "partie": "deux groupes isopropyle volumineux",
+        "role": "L'encombrement : trop gros pour attaquer un carbone, LDA ne peut qu'arracher des protons (il est base, pas nucléophile)."
+      }
     ],
-    "reactions_liees": ["reduction_nabh4"],
-    "explication_reference": "Donneur d'hydrure modéré, utilisable dans les solvants protiques (MeOH, EtOH, eau basique). Réduit aldéhydes et cétones en alcools, sans toucher aux esters, amides et acides carboxyliques. Se décompose en milieu acide avec dégagement de dihydrogène.",
-    "explication_comprendre": "Un atome d'hydrogène peut arriver de deux façons opposées : soit dépouillé de ses électrons — c'est le proton des acides —, soit accompagné d'une paire d'électrons, et il devient alors un donneur. Ce réactif est un porteur de la seconde espèce : il en transporte quatre, prêts à être déposés sur les carbones qui en manquent. C'est un donneur mesuré, qui ne s'attaque qu'aux endroits vraiment démunis d'une molécule et laisse le reste intact."
-  },
-  {
-    "id": "ch3mgbr",
-    "nom": "CH₃MgBr",
-    "nom_complet": "bromure de méthylmagnésium (réactif de Grignard)",
-    "SMILES": "C[Mg]Br",
-    "role": "Nucléophile carboné puissant et base forte",
-    "anatomie_annotations": [
-      {"partie": "liaison C–Mg", "role": "Fortement polarisée vers le carbone : c'est elle qui rend le carbone riche en électrons, donc capable d'attaquer un autre carbone."},
-      {"partie": "l'atome de magnésium", "role": "Cède ses électrons au carbone, et vient en même temps se fixer sur l'oxygène du carbonyle, ce qui facilite l'attaque."},
-      {"partie": "le brome", "role": "Reste sur le magnésium pendant la réaction et part en fin de parcours sous forme de sels lors de l'hydrolyse."}
+    "reactions_liees": [
+      "formation_enolate",
+      "aldolisation"
     ],
-    "reactions_liees": ["grignard"],
-    "explication_reference": "Organomagnésien mixte préparé par insertion du magnésium dans une liaison C–Br en milieu éthéré anhydre. Nucléophile carboné puissant, il additionne sur les carbonyles pour créer une liaison C–C, et se comporte aussi comme une base forte, ce qui impose l'absence de tout proton acide dans le milieu.",
-    "explication_comprendre": "Accrocher un métal à un carbone revient à inverser ses habitudes : le carbone, d'ordinaire en manque d'électrons, se retrouve ici richement pourvu. Il devient alors capable d'aller à la rencontre d'un autre carbone en déficit, et de s'y lier. C'est l'un des rares moyens simples d'agrandir le squelette d'une molécule. Contrepartie : ce réactif est si avide de protons que la moindre trace d'eau le détruit avant qu'il ait servi."
+    "explication_reference": "Le LDA (diisopropylamidure de lithium) est une base forte, non nucléophile et très encombrée. Il déprotone quantitativement et irréversiblement les protons en α des carbonyles (pKa ~20) pour former des énolates. Son encombrement stérique l'empêche d'agir comme nucléophile et favorise la formation de l'énolate cinétique (le moins substitué) à basse température. Utilisé dans le THF anhydre à –78 °C.",
+    "explication_comprendre": "QUE fait le LDA ? C'est un « attrapeur de protons » ultra-puissant. Son seul but : arracher un atome d'hydrogène (un proton) à une molécule, très efficacement.\n\nPOURQUOI est-il spécial ? Deux raisons. D'abord, il est vraiment très fort pour ça — là où des bases ordinaires hésitent, lui arrache le proton sans discuter. Ensuite, et c'est malin, il est ÉNORME : il porte deux grosses touffes de carbones de chaque côté. Imagine un videur de boîte de nuit avec des bras immenses : il peut attraper un petit truc qui dépasse (un proton), mais il est bien trop encombrant pour se faufiler et attaquer le cœur de la molécule.\n\nCONSÉQUENCE à comprendre : parce qu'il est gros, le LDA ne fait QU'UNE chose — attraper des protons — sans jamais se mêler du reste. C'est exactement ce qu'on veut quand on cherche à activer une molécule à un endroit précis sans tout casser. Retiens : un attrapeur de protons géant, précis parce que trop gros pour faire autre chose.",
+    "reactions_exemples": [
+      {
+        "nom": "Formation d'un énolate",
+        "substrat_SMILES": "CC(=O)CC",
+        "produit_SMILES": "CC(=O)[CH]C",
+        "note": "Arrache le proton en α du carbonyle"
+      }
+    ]
   }
 ]

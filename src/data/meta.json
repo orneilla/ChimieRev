@@ -1,0 +1,5 @@
+{
+  "titre": "ChimieRév — données de contenu",
+  "description": "Modèle de données pour l'application. Chaque réaction et réactif est rempli dans les DEUX modes : 'reference' (technique) et 'comprendre' (accessible à tous, sans base en chimie). Claude Code doit suivre ce ton et ce niveau pour toutes les entrées ajoutées en Phase 6.",
+  "principe": "Comprendre pour mémoriser, jamais mémoriser bêtement. Le mode 'comprendre' répond toujours au POURQUOI avant le COMMENT, introduit chaque terme par une analogie du quotidien, et reste adulte sans être infantilisant."
+}

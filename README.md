@@ -10,54 +10,55 @@ montrer « comment ».
 
 ---
 
-## Lancer l'application (première fois)
+## Ouvrir l'application depuis ton téléphone
 
-Il faut avoir **Node.js** installé (https://nodejs.org, version 18 ou plus).
-Pour vérifier, ouvre un terminal et tape :
+Tu n'as pas besoin d'ordinateur. L'application se construit toute seule sur
+GitHub et s'ouvre dans le navigateur du téléphone.
 
-```bash
-node -v
-```
+### À faire une seule fois : activer GitHub Pages
 
-Ensuite, dans le dossier du projet :
+Depuis ton téléphone, dans le navigateur :
 
-```bash
-npm install     # à faire une seule fois : télécharge les outils nécessaires
-npm run dev     # lance l'application
-```
+1. Ouvre `github.com/orneilla/ChimieRev`
+2. Onglet **Settings** (roue dentée ; sur mobile il est dans le menu « … »
+   à droite des onglets)
+3. Dans la colonne de gauche, section **Pages**
+4. Sous **Build and deployment → Source**, choisis **GitHub Actions**
+5. C'est tout, rien à valider de plus.
 
-Le terminal affiche deux adresses :
+### Ensuite
 
-```
-➜  Local:   http://localhost:5173/
-➜  Network: http://192.168.x.x:5173/
-```
+À chaque fois que le code change, GitHub reconstruit l'application
+automatiquement (fichier `.github/workflows/deploy.yml`) et l'adresse
+publique se met à jour, en général en 1 à 2 minutes :
 
-- **Sur ton PC** : ouvre l'adresse `Local` dans le navigateur.
-- **Sur ton téléphone ou ta tablette** : connecte l'appareil au **même
-  réseau Wi-Fi** que le PC, puis tape l'adresse `Network` dans le
-  navigateur du téléphone. C'est la même application, en direct : si tu
-  modifies un fichier, la page se met à jour toute seule.
+**https://orneilla.github.io/ChimieRev/**
 
-Pour arrêter le serveur : `Ctrl + C` dans le terminal.
+Ajoute cette adresse à l'écran d'accueil de ton téléphone (menu du
+navigateur → « Sur l'écran d'accueil ») : elle s'ouvrira comme une
+application.
 
-## Vérifier la version « finale »
-
-```bash
-npm run build     # construit la version optimisée dans le dossier dist/
-npm run preview   # sert cette version, comme en ligne
-```
+Pour suivre la construction : onglet **Actions** du dépôt. Une pastille
+verte = c'est en ligne ; une rouge = la construction a échoué.
 
 ## Ce qu'il faut tester à la Phase 1
 
 - [ ] La liste affiche les 5 réactions.
 - [ ] La recherche filtre bien (essayer « SN2 », « base », « Grignard »).
 - [ ] Les pastilles de famille filtrent la liste.
-- [ ] Cliquer sur une carte ouvre la fiche détaillée.
+- [ ] Toucher une carte ouvre la fiche détaillée.
 - [ ] Le lien « ← Toutes les réactions » revient à la liste.
-- [ ] Sur téléphone : rien ne dépasse à droite, aucun zoom horizontal
-      nécessaire, les boutons sont assez gros pour le doigt.
-- [ ] Le bouton « retour » du navigateur/téléphone fonctionne.
+- [ ] Rien ne dépasse à droite, aucun zoom horizontal nécessaire.
+- [ ] Les boutons sont assez gros pour le doigt.
+- [ ] Le bouton « retour » du téléphone fonctionne.
+
+## Si un jour tu as un ordinateur
+
+```bash
+npm install     # une seule fois : télécharge les outils
+npm run dev     # lance l'app, adresse affichée dans le terminal
+npm run build   # construit la version finale dans dist/
+```
 
 ---
 
@@ -73,11 +74,15 @@ src/
   data/
     reactions.json          LE CONTENU : les réactions
     reactifs.json           LE CONTENU : les réactifs
+    solvants.json           LE CONTENU : les solvants
+    meta.json               le principe et le ton à tenir (Phase 6)
   components/
     BarreNavigation.jsx     en-tête + menu
     CarteReaction.jsx       aperçu d'une réaction dans la liste
-    NiveauDifficulte.jsx    les points de difficulté
+    NiveauDifficulte.jsx    la jauge de difficulté (sur 10)
     BlocTexte.jsx           affiche un texte long en paragraphes
+.github/workflows/
+  deploy.yml                construit et publie l'app à chaque modification
   pages/
     PageListeReactions.jsx  page d'accueil (liste + filtres)
     PageDetailReaction.jsx  fiche détaillée d'une réaction
@@ -107,20 +112,20 @@ toucher : il suffit d'ajouter un objet à la liste, en respectant ce schéma.
 }
 ```
 
+`niveau_difficulte` est une note **sur 10** (elle s'affiche en jauge).
+
 Deux conventions utiles dans les textes longs (`explication_*`) :
 
 - une **ligne vide** (`\n\n` dans le JSON) sépare deux paragraphes ;
-- un paragraphe court dont le **premier mot est en majuscules**
-  (« POURQUOI ça se passe ainsi ? ») s'affiche automatiquement comme un
-  intertitre.
+- un paragraphe qui **commence par un mot en majuscules** (« POURQUOI … »,
+  « COMMENT … », « QU'EST-CE … ») voit ce mot mis en valeur en brun :
+  c'est la charpente du mode « Comprendre ».
 
-Le fichier `src/data/reactifs.json` suit le même principe pour les réactifs
-(schéma déjà en place, l'affichage viendra plus tard).
+Les fichiers `src/data/reactifs.json` et `src/data/solvants.json` suivent le
+même principe (schémas déjà en place, leur affichage viendra plus tard).
 
-> Le contenu chimique actuel des 5 réactions est du contenu de manuel
-> standard, mis en place pour faire tourner l'application. Il est prévu pour
-> être **remplacé tel quel** par le JSON de référence : le schéma est
-> identique, il suffit d'écraser le fichier.
+> Le fichier `src/data/meta.json` conserve le principe et le ton à tenir
+> pour toutes les entrées ajoutées en Phase 6.
 
 ---
 

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dcm",
+    "nom": "DCM",
+    "nom_complet": "dichlorométhane (CH₂Cl₂)",
+    "type": "aprotique peu polaire",
+    "usage": "Solvant passe-partout, doux, volatil. Très utilisé pour les oxydations (mCPBA), extractions.",
+    "explication_comprendre": "Un liquide « neutre » qui dissout beaucoup de molécules organiques sans se mêler de la réaction. Comme une eau qui ne réagit avec rien : elle sert juste de piscine où les molécules se rencontrent."
+  },
+  {
+    "id": "thf",
+    "nom": "THF",
+    "nom_complet": "tétrahydrofurane",
+    "type": "aprotique polaire (éther cyclique)",
+    "usage": "Solvant des organométalliques (Grignard, LDA). Ses doublets libres stabilisent les métaux. Doit être anhydre.",
+    "explication_comprendre": "Un liquide qui a la particularité de « câliner » les métaux : ses atomes tendent de petits bras électroniques qui stabilisent les réactifs comme le magnésium. C'est pour ça qu'on l'utilise avec les Grignard. Mais il doit être parfaitement sec."
+  },
+  {
+    "id": "dmso",
+    "nom": "DMSO",
+    "nom_complet": "diméthylsulfoxyde",
+    "type": "aprotique polaire",
+    "usage": "Accélère les SN2 : il solvate les cations mais laisse les anions nucléophiles 'nus' et très réactifs.",
+    "explication_comprendre": "Un liquide malin : il enveloppe les morceaux positifs mais laisse les morceaux négatifs (les nucléophiles) tout nus et donc très agressifs. Parfait pour booster les réactions où un nucléophile doit attaquer vite et fort."
+  }
+]
