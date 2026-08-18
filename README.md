@@ -48,6 +48,8 @@ verte = c'est en ligne ; une rouge = la construction a échoué.
 - [ ] Les pastilles de famille filtrent la liste.
 - [ ] Toucher une tuile ouvre la fiche détaillée.
 - [ ] Les structures s'affichent sur chacune des 5 fiches.
+- [ ] Les schémas de mécanisme s'affichent, flèches comprises.
+- [ ] La page Réactifs montre les renvois vers les réactions.
 - [ ] Le bascule Comprendre / Référence change bien le texte.
 - [ ] Le lien « ← Toutes les réactions » revient à la liste.
 - [ ] Rien ne dépasse à droite, aucun zoom horizontal nécessaire.
@@ -114,12 +116,63 @@ seules à la mise en ligne, tu n'as rien à faire.
 Pour le lancer à la main (si tu as un ordinateur un jour) :
 
 ```bash
-npm run structures
+npm run dessins     # structures + mécanismes
 ```
 
 Une molécule dont le SMILES est illisible n'arrête pas la construction :
 le script le signale, et la fiche affiche la formule SMILES en clair à la
 place du dessin.
+
+## Les mécanismes avec leurs flèches
+
+Chaque fiche montre le **bilan** (ce qu'on met, ce qu'on obtient) puis le
+**mécanisme pas à pas** : pour chaque étape, un schéma où les flèches
+courbes rouges suivent les électrons — d'où ils partent, où ils vont.
+
+### Comment les flèches tombent au bon endroit
+
+RDKit dessine les molécules mais ne dit pas où il place les atomes.
+L'astuce (`scripts/dessiner-mecanismes.mjs`) : on lui demande un second
+dessin où **tous les atomes sont surlignés**. Il trace alors une ellipse
+centrée exactement sur chaque atome. On récupère ces centres, on jette ce
+dessin de repérage, et on pose les flèches sur le dessin propre — au pixel
+près. Les espèces d'une étape sont ensuite composées côte à côte, avec un
+« + » entre elles.
+
+### Décrire une flèche
+
+Tout se passe dans `src/data/mecanismes.json`. Le SMILES de l'étape fixe la
+numérotation : le premier atome écrit porte le numéro 0. Les hydrogènes ne
+comptent que s'ils sont écrits explicitement entre crochets `[H]` — c'est
+ainsi qu'on peut viser le proton qu'une base vient arracher.
+
+```json
+{ "de": { "atome": 2 }, "vers": { "atome": 5 }, "courbure": 0.3 }
+{ "de": { "liaison": [6, 7] }, "vers": { "atome": 7 }, "courbure": 0.4 }
+```
+
+`de` = d'où partent les électrons (un doublet, une liaison), `vers` = où ils
+vont. `courbure` (entre -0,6 et 0,6) règle de quel côté et à quel point la
+flèche s'arrondit — le signe change le côté.
+
+Une étape peut n'avoir **que du texte** : toutes ne se dessinent pas
+honnêtement (un état de transition, avec ses liaisons à moitié formées, n'a
+pas de représentation juste en liaisons entières).
+
+> Les flèches transcrivent les étapes décrites dans `mecanisme_etapes`.
+> Comme les DOI, elles demandent une **validation par un chimiste** avant
+> d'être diffusées : c'est de la donnée scientifique, pas de la mise en page.
+
+## Réactifs & solvants
+
+La page `/#/reactifs` rassemble tous les réactifs et tous les solvants :
+structure, anatomie (quelle partie fait quoi), explication, réactions
+d'exemple.
+
+Les renvois « où on le rencontre » sont **trouvés automatiquement**
+(`src/liens.js`) : on cherche le nom du réactif ou du solvant dans les
+données des réactions. Ajouter une réaction suffit donc à mettre cette page
+à jour — il n'y a aucune liste à tenir à la main.
 
 ## Les deux modes de lecture
 
@@ -152,8 +205,10 @@ public/favicon.svg          icône de l'onglet
 public/polices.css          déclarations des polices embarquées
 public/polices/             les fichiers de police (woff2)
 public/structures/          les structures 2D dessinées (SVG, engendrées)
+public/mecanismes/          les schémas de mécanisme (SVG, engendrés)
 scripts/
   dessiner-structures.mjs   dessine les structures avec RDKit-JS
+  dessiner-mecanismes.mjs   dessine les mécanismes et leurs flèches
 src/
   main.jsx                  point d'entrée : accroche React à la page
   App.jsx                   structure commune + liste des adresses (routes)
@@ -164,6 +219,8 @@ src/
     solvants.json           LE CONTENU : les solvants
     references.json         LE CONTENU : les sources et leurs DOI
     structures.json         liste des dessins disponibles (engendré)
+    mecanismes.json         LE CONTENU : les flèches de chaque mécanisme
+    mecanismes-dessins.json liste des schémas disponibles (engendré)
     meta.json               le principe et le ton à tenir (Phase 6)
   couleurs.js               une couleur par famille de réactions
   components/
@@ -171,6 +228,7 @@ src/
     CarteReaction.jsx       la tuile d'une réaction dans la liste
     BasculeMode.jsx         le choix Comprendre / Référence
     StructureMolecule.jsx   une structure 2D et sa légende
+    MecanismeEtapes.jsx     le mécanisme, texte et schémas
     ReferencesReaction.jsx  les sources, avec l'état de vérification
     BlocTexte.jsx           affiche un texte long en paragraphes
 .github/workflows/
@@ -178,7 +236,10 @@ src/
   pages/
     PageListeReactions.jsx  page d'accueil (liste + filtres)
     PageDetailReaction.jsx  fiche détaillée d'une réaction
+    PageReactifs.jsx        réactifs et solvants, avec leurs renvois
     PageAPropos.jsx         philosophie du projet + avancement
+  mode.js                   le choix Comprendre / Référence, et sa mémoire
+  liens.js                  retrouve les réactions d'un réactif/solvant
 ```
 
 ## Ajouter ou modifier une réaction

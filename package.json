@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite --host",
     "structures": "node scripts/dessiner-structures.mjs",
-    "prebuild": "node scripts/dessiner-structures.mjs",
+    "prebuild": "node scripts/dessiner-structures.mjs && node scripts/dessiner-mecanismes.mjs",
     "build": "vite build",
-    "preview": "vite preview --host"
+    "preview": "vite preview --host",
+    "mecanismes": "node scripts/dessiner-mecanismes.mjs",
+    "dessins": "npm run structures && npm run mecanismes"
   },
   "dependencies": {
     "react": "^18.3.1",

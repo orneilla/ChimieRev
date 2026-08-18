@@ -1,0 +1,72 @@
+{
+  "sn2": {
+    "1": {
+      "fichier": "sn2-etape1.svg",
+      "titre": "L'attaque, par l'arrière",
+      "legende": "L'ion hydroxyde apporte ses électrons sur le carbone, du côté opposé au brome. Au même moment, les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+    },
+    "4": {
+      "fichier": "sn2-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcool est formé et l'ion bromure est parti. Le carbone attaqué s'est retourné comme un parapluie."
+    }
+  },
+  "e2": {
+    "1": {
+      "fichier": "e2-etape1.svg",
+      "titre": "Trois mouvements, un seul geste",
+      "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps."
+    },
+    "4": {
+      "fichier": "e2-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcène est né, la base est repartie avec son proton, le bromure est libre."
+    }
+  },
+  "diels_alder": {
+    "2": {
+      "fichier": "diels_alder-etape2.svg",
+      "titre": "La ronde des six électrons",
+      "legende": "Trois paires d'électrons avancent d'un cran, en cercle : deux nouvelles liaisons se ferment aux extrémités, et la double liaison restante se retrouve au milieu. Aucun intermédiaire, aucune charge."
+    },
+    "4": {
+      "fichier": "diels_alder-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un cycle à six atomes, avec une double liaison au milieu. En un seul geste, sans rien gaspiller."
+    }
+  },
+  "reduction_nabh4": {
+    "1": {
+      "fichier": "reduction_nabh4-etape1.svg",
+      "titre": "L'hydrure change de main",
+      "legende": "Une des quatre liaisons B–H cède son hydrogène AVEC ses électrons au carbone du carbonyle. Pour lui faire de la place, les électrons de la double liaison C=O se replient sur l'oxygène."
+    },
+    "3": {
+      "fichier": "reduction_nabh4-etape3.svg",
+      "titre": "L'oxygène récupère un proton",
+      "legende": "L'oxygène chargé négativement attrape un hydrogène au solvant : il devient un groupe OH, et la molécule est un alcool."
+    },
+    "4": {
+      "fichier": "reduction_nabh4-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton."
+    }
+  },
+  "grignard": {
+    "1": {
+      "fichier": "grignard-etape1.svg",
+      "titre": "Un carbone riche attaque un carbone pauvre",
+      "legende": "Le magnésium a rendu son carbone riche en électrons (ici R = CH₃). Ce carbone se lie au carbone du carbonyle : une liaison carbone-carbone est née. Les électrons de la double liaison C=O se replient sur l'oxygène."
+    },
+    "3": {
+      "fichier": "grignard-etape3.svg",
+      "titre": "L'hydrolyse, seulement à la fin",
+      "legende": "On ajoute l'eau une fois le travail fait : l'oxygène attrape un proton et l'alcool apparaît. Ajoutée trop tôt, cette eau aurait détruit le réactif."
+    },
+    "4": {
+      "fichier": "grignard-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi."
+    }
+  }
+}

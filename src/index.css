@@ -655,3 +655,154 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   * { animation: none !important; transition: none !important; }
   .tuile:hover { transform: none; }
 }
+
+/* ---------- Mécanisme pas à pas ---------- */
+
+.note-fleches {
+  margin: 0 0 1rem;
+  border-left: 4px solid var(--framboise);
+  padding-left: 0.7rem;
+}
+
+.etape-corps { flex: 1; min-width: 0; }
+
+.etape-texte { margin: 0; }
+
+.schema-etape { margin: 0.7rem 0 0; }
+
+/* Le schéma peut être large : il défile horizontalement dans son cadre
+   plutôt que de rétrécir au point d'être illisible sur un téléphone. */
+.schema-etape .structure-plaque {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5rem;
+  min-height: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.schema-etape img {
+  display: block;
+  height: auto;
+  min-width: 280px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.schema-etape figcaption {
+  font-size: 0.85rem;
+  color: var(--encre-doux);
+  margin-top: 0.5rem;
+}
+
+/* ---------- Réactifs & solvants ---------- */
+
+.fiche-outil { margin-bottom: 1.2rem; }
+
+.fiche-outil h2 {
+  font-size: 1.7rem;
+  margin: 0 0 0.15rem;
+}
+
+.outil-entete {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.outil-entete .structure-plaque {
+  min-height: 0;
+  padding: 0.4rem;
+}
+
+.outil-entete .structure-plaque img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.outil-nom-complet {
+  margin: 0 0 0.35rem;
+  color: var(--encre-doux);
+  font-size: 0.9rem;
+}
+
+.outil-role {
+  display: inline-block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--creme-fonce);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  padding: 0.15rem 0.5rem;
+}
+
+/* L'anatomie du réactif : quelle partie fait quoi. */
+.liste-anatomie { list-style: none; margin: 0 0 1.2rem; padding: 0; }
+
+.liste-anatomie li {
+  border-left: 4px solid var(--framboise);
+  padding-left: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.liste-anatomie strong { display: block; }
+
+.liste-anatomie span {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--encre-doux);
+}
+
+.liste-exemples { list-style: none; margin: 0 0 1rem; padding: 0; }
+.liste-exemples > li { margin-bottom: 1.2rem; }
+
+.exemple-nom {
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+}
+
+.exemple-schema {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.exemple-schema .structure-plaque {
+  width: 100%;
+  min-height: 0;
+  padding: 0.3rem;
+}
+
+.exemple-schema .structure-plaque img { width: 100%; height: auto; display: block; }
+
+/* Une pastille qui est un lien vers une réaction. */
+.pastille-lien {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.pastille-lien:hover { box-shadow: 3px 3px 0 var(--encre); }
+
+@media (min-width: 700px) {
+  .outil-entete {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .outil-entete > div { flex: 1; }
+  .outil-entete .structure-plaque { flex: 0 0 300px; }
+
+  .exemple-schema { flex-direction: row; justify-content: center; }
+  .exemple-schema .structure-plaque { flex: 1 1 0; }
+}

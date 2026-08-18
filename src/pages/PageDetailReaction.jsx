@@ -1,38 +1,21 @@
 // Fiche complète d'une réaction.
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import reactions from '../data/reactions.json'
 import BlocTexte from '../components/BlocTexte.jsx'
 import StructureMolecule from '../components/StructureMolecule.jsx'
+import MecanismeEtapes from '../components/MecanismeEtapes.jsx'
 import BasculeMode from '../components/BasculeMode.jsx'
 import ReferencesReaction from '../components/ReferencesReaction.jsx'
 import { couleurFamille } from '../couleurs.js'
-
-// Clé de stockage du mode de lecture choisi, retenu d'une fiche à l'autre.
-const CLE_MODE = 'chimierev.mode'
+import { useModeLecture } from '../mode.js'
 
 export default function PageDetailReaction() {
   const { id } = useParams()
   const reaction = reactions.find((r) => r.id === id)
 
-  // Mode de lecture : « comprendre » par défaut, c'est l'esprit du projet.
-  const [mode, setMode] = useState(() => {
-    try {
-      return localStorage.getItem(CLE_MODE) || 'comprendre'
-    } catch {
-      // Navigation privée sur certains téléphones : on continue sans mémoire.
-      return 'comprendre'
-    }
-  })
-
-  // Mémorise le choix pour les fiches suivantes.
-  useEffect(() => {
-    try {
-      localStorage.setItem(CLE_MODE, mode)
-    } catch {
-      /* pas de stockage disponible : sans conséquence */
-    }
-  }, [mode])
+  // Mode de lecture, partagé avec le reste de l'application.
+  const [mode, setMode] = useModeLecture()
 
   // On remonte en haut quand on ouvre une autre fiche.
   useEffect(() => {
@@ -65,10 +48,10 @@ export default function PageDetailReaction() {
         </p>
       </header>
 
-      {/* Le schéma de la réaction : structure de départ, conditions
-          au-dessus de la flèche, structure d'arrivée. */}
+      {/* Le bilan : ce qu'on met d'un côté, ce qu'on obtient de l'autre.
+          Le détail du trajet des électrons est plus bas, dans le mécanisme. */}
       <section className="bloc schema">
-        <h3>La réaction</h3>
+        <h3>Bilan de la réaction</h3>
 
         <div className="schema-ligne">
           <StructureMolecule
@@ -107,17 +90,7 @@ export default function PageDetailReaction() {
         </div>
       </section>
 
-      <section className="bloc">
-        <h3>Mécanisme, étape par étape</h3>
-        <ol className="liste-etapes">
-          {reaction.mecanisme_etapes.map((etape, index) => (
-            <li key={index}>
-              <span className="numero-etape" aria-hidden="true">{index + 1}</span>
-              <span>{etape}</span>
-            </li>
-          ))}
-        </ol>
-      </section>
+      <MecanismeEtapes id={reaction.id} etapes={reaction.mecanisme_etapes} />
 
       <section className="bloc">
         <h3>Sélectivité</h3>

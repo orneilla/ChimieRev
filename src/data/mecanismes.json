@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "role": "Décrit les flèches courbes de chaque mécanisme, pour que l'application les dessine.",
+    "principe": "Une flèche courbe part TOUJOURS d'un endroit riche en électrons (un doublet libre, une liaison) et pointe vers l'endroit où ces électrons vont. Elle représente un déplacement de deux électrons.",
+    "comment_ecrire": "Chaque étape porte un SMILES : c'est lui qui fixe la numérotation. Le premier atome écrit est le numéro 0, le suivant 1, etc. — les hydrogènes ne comptent que s'ils sont écrits explicitement entre crochets [H]. Une flèche se décrit par son départ (de) et son arrivée (vers) : {\"atome\": 3} désigne l'atome n° 3, {\"liaison\": [3, 4]} désigne le milieu de la liaison entre les atomes 3 et 4.",
+    "courbure": "Nombre entre -0,6 et 0,6 : il règle de quel côté et à quel point la flèche s'arrondit. Le signe change le côté.",
+    "provenance": "Les flèches transcrivent les étapes décrites dans mecanisme_etapes (reactions.json). À valider par un chimiste avant diffusion, au même titre que les références.",
+    "numero": "Renvoie à l'étape correspondante de mecanisme_etapes. Un numéro au-delà de la dernière étape s'affiche comme un complément (bilan, produits formés)."
+  },
+
+  "sn2": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'attaque, par l'arrière",
+        "smiles": "[OH-].CCBr",
+        "legende": "L'ion hydroxyde apporte ses électrons sur le carbone, du côté opposé au brome. Au même moment, les électrons de la liaison C–Br se replient sur le brome, qui s'en va.",
+        "fleches": [
+          { "de": { "atome": 0 }, "vers": { "atome": 2 }, "courbure": 0.3 },
+          { "de": { "liaison": [2, 3] }, "vers": { "atome": 3 }, "courbure": 0.4 }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCO.[Br-]",
+        "legende": "L'alcool est formé et l'ion bromure est parti. Le carbone attaqué s'est retourné comme un parapluie.",
+        "fleches": []
+      }
+    ]
+  },
+
+  "e2": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Trois mouvements, un seul geste",
+        "smiles": "CC[O-].CC([H])CBr",
+        "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps.",
+        "fleches": [
+          { "de": { "atome": 2 }, "vers": { "atome": 5 }, "courbure": 0.3 },
+          { "de": { "liaison": [4, 5] }, "vers": { "liaison": [4, 6] }, "courbure": -0.45 },
+          { "de": { "liaison": [6, 7] }, "vers": { "atome": 7 }, "courbure": 0.4 }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCO.CC=C.[Br-]",
+        "legende": "L'alcène est né, la base est repartie avec son proton, le bromure est libre.",
+        "fleches": []
+      }
+    ]
+  },
+
+  "diels_alder": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "La ronde des six électrons",
+        "smiles": "C=CC=C.C=C",
+        "legende": "Trois paires d'électrons avancent d'un cran, en cercle : deux nouvelles liaisons se ferment aux extrémités, et la double liaison restante se retrouve au milieu. Aucun intermédiaire, aucune charge.",
+        "fleches": [
+          { "de": { "liaison": [0, 1] }, "vers": { "atome": 5 }, "courbure": 0.35 },
+          { "de": { "liaison": [4, 5] }, "vers": { "atome": 3 }, "courbure": 0.35 },
+          { "de": { "liaison": [2, 3] }, "vers": { "liaison": [1, 2] }, "courbure": -0.4 }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "C1CCC=CC1",
+        "legende": "Un cycle à six atomes, avec une double liaison au milieu. En un seul geste, sans rien gaspiller.",
+        "fleches": []
+      }
+    ]
+  },
+
+  "reduction_nabh4": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'hydrure change de main",
+        "smiles": "[H][B-]([H])([H])[H].CC(=O)C",
+        "legende": "Une des quatre liaisons B–H cède son hydrogène AVEC ses électrons au carbone du carbonyle. Pour lui faire de la place, les électrons de la double liaison C=O se replient sur l'oxygène.",
+        "fleches": [
+          { "de": { "liaison": [1, 0] }, "vers": { "atome": 6 }, "courbure": 0.3 },
+          { "de": { "liaison": [6, 7] }, "vers": { "atome": 7 }, "courbure": 0.4 }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "L'oxygène récupère un proton",
+        "smiles": "CC([O-])C.CO[H]",
+        "legende": "L'oxygène chargé négativement attrape un hydrogène au solvant : il devient un groupe OH, et la molécule est un alcool.",
+        "fleches": [
+          { "de": { "atome": 2 }, "vers": { "atome": 6 }, "courbure": 0.3 },
+          { "de": { "liaison": [5, 6] }, "vers": { "atome": 5 }, "courbure": 0.35 }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(O)C.C[O-]",
+        "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton.",
+        "fleches": []
+      }
+    ]
+  },
+
+  "grignard": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un carbone riche attaque un carbone pauvre",
+        "smiles": "C[Mg]Br.CC(=O)C",
+        "legende": "Le magnésium a rendu son carbone riche en électrons (ici R = CH₃). Ce carbone se lie au carbone du carbonyle : une liaison carbone-carbone est née. Les électrons de la double liaison C=O se replient sur l'oxygène.",
+        "fleches": [
+          { "de": { "liaison": [0, 1] }, "vers": { "atome": 4 }, "courbure": 0.32 },
+          { "de": { "liaison": [4, 5] }, "vers": { "atome": 5 }, "courbure": 0.4 }
+        ]
+      },
+      {
+        "numero": 3,
+        "titre": "L'hydrolyse, seulement à la fin",
+        "smiles": "CC([O-])(C)C.O([H])[H]",
+        "legende": "On ajoute l'eau une fois le travail fait : l'oxygène attrape un proton et l'alcool apparaît. Ajoutée trop tôt, cette eau aurait détruit le réactif.",
+        "fleches": [
+          { "de": { "atome": 2 }, "vers": { "atome": 6 }, "courbure": 0.3 },
+          { "de": { "liaison": [5, 6] }, "vers": { "atome": 5 }, "courbure": 0.35 }
+        ]
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(O)(C)C.[OH-]",
+        "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi.",
+        "fleches": []
+      }
+    ]
+  }
+}

@@ -20,6 +20,7 @@ const initRDKit = require('@rdkit/rdkit')
 const DOSSIER = 'public/structures'
 const reactions = JSON.parse(readFileSync('src/data/reactions.json', 'utf8'))
 const reactifs = JSON.parse(readFileSync('src/data/reactifs.json', 'utf8'))
+const solvants = JSON.parse(readFileSync('src/data/solvants.json', 'utf8'))
 
 // Options de dessin.
 //
@@ -80,6 +81,20 @@ for (const reaction of reactions) {
 for (const reactif of reactifs) {
   if (!reactif.SMILES) continue
   manifeste[reactif.id] = { molecule: dessiner(reactif.SMILES, `reactif-${reactif.id}`) }
+
+  // Les réactions d'exemple portées par le réactif sont dessinées aussi.
+  ;(reactif.reactions_exemples || []).forEach((exemple, rang) => {
+    const cle = `${reactif.id}-ex${rang}`
+    manifeste[cle] = {
+      substrat: dessiner(exemple.substrat_SMILES, `${cle}-substrat`),
+      produit: dessiner(exemple.produit_SMILES, `${cle}-produit`)
+    }
+  })
+}
+
+for (const solvant of solvants) {
+  if (!solvant.SMILES) continue
+  manifeste[solvant.id] = { molecule: dessiner(solvant.SMILES, `solvant-${solvant.id}`) }
 }
 
 writeFileSync('src/data/structures.json', JSON.stringify(manifeste, null, 2) + '\n')

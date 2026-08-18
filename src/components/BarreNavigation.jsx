@@ -14,6 +14,7 @@ export default function BarreNavigation() {
 
         <nav className="nav">
           <NavLink to="/" className={classeLien} end>Réactions</NavLink>
+          <NavLink to="/reactifs" className={classeLien}>Réactifs</NavLink>
           <NavLink to="/a-propos" className={classeLien}>À propos</NavLink>
         </nav>
       </div>

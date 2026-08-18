@@ -22,7 +22,36 @@
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
+  "mcpba-ex0": {
+    "substrat": "mcpba-ex0-substrat.svg",
+    "produit": "mcpba-ex0-produit.svg"
+  },
+  "mcpba-ex1": {
+    "substrat": "mcpba-ex1-substrat.svg",
+    "produit": "mcpba-ex1-produit.svg"
+  },
+  "mcpba-ex2": {
+    "substrat": "mcpba-ex2-substrat.svg",
+    "produit": "mcpba-ex2-produit.svg"
+  },
+  "mcpba-ex3": {
+    "substrat": "mcpba-ex3-substrat.svg",
+    "produit": "mcpba-ex3-produit.svg"
+  },
   "lda": {
     "molecule": "reactif-lda.svg"
+  },
+  "lda-ex0": {
+    "substrat": "lda-ex0-substrat.svg",
+    "produit": "lda-ex0-produit.svg"
+  },
+  "dcm": {
+    "molecule": "solvant-dcm.svg"
+  },
+  "thf": {
+    "molecule": "solvant-thf.svg"
+  },
+  "dmso": {
+    "molecule": "solvant-dmso.svg"
   }
 }
