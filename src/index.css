@@ -1,0 +1,445 @@
+/* ============================================================
+   ChimieRév — feuille de style unique.
+   Écrite « mobile-first » : les règles de base sont pensées pour
+   le téléphone, puis on ajoute des ajustements pour les écrans
+   plus larges dans les blocs @media en bas de fichier.
+   ============================================================ */
+
+/* Les variables CSS : on définit la palette une seule fois ici,
+   et on la réutilise partout avec var(--nom). */
+:root {
+  --fond: #fdfdfb;          /* fond clair, légèrement chaud */
+  --fond-carte: #ffffff;
+  --sarcelle: #2a3a3f;      /* accent principal, texte fort */
+  --sarcelle-clair: #4a6168;
+  --brun: #8a6a4a;          /* accent secondaire */
+  --brun-clair: #f2ece5;
+  --texte: #2f3436;
+  --texte-doux: #5f6b6e;
+  --bordure: #e6e2da;
+  --ombre: 0 1px 3px rgba(42, 58, 63, 0.07);
+  --rayon: 12px;
+  --largeur-max: 820px;
+}
+
+/* Remise à zéro minimale, appliquée à tous les éléments. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Empêche iOS d'agrandir tout seul les textes en mode paysage. */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4 {
+  color: var(--sarcelle);
+  line-height: 1.25;
+  margin: 0 0 0.5rem;
+  font-weight: 650;
+}
+
+h1 { font-size: 1.55rem; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1.05rem; }
+
+p { margin: 0 0 0.9rem; }
+
+a { color: var(--brun); }
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  background: var(--brun-clair);
+  color: var(--sarcelle);
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+  /* Les SMILES peuvent être longs : on autorise la coupure sur mobile. */
+  overflow-wrap: anywhere;
+}
+
+/* Texte réservé aux lecteurs d'écran (invisible mais lisible par eux). */
+.lecture-seule-ecran {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Structure générale ---------- */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenu {
+  flex: 1;
+  width: 100%;
+  max-width: var(--largeur-max);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}
+
+/* ---------- En-tête et navigation ---------- */
+
+.entete {
+  background: var(--sarcelle);
+  color: #f4f1ec;
+  position: sticky;   /* l'en-tête reste visible quand on fait défiler */
+  top: 0;
+  z-index: 10;
+}
+
+.entete-interieur {
+  max-width: var(--largeur-max);
+  margin: 0 auto;
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;   /* sur mobile : titre au-dessus, menu en dessous */
+  gap: 0.5rem;
+}
+
+.marque {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.marque-titre {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.marque-sous-titre {
+  display: block;
+  font-size: 0.78rem;
+  color: #b9c6c9;
+}
+
+.nav {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.lien-nav {
+  color: #dfe6e7;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  /* Zone de clic confortable au doigt. */
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lien-nav:hover { background: rgba(255, 255, 255, 0.08); }
+
+.lien-nav.actif {
+  background: #f4f1ec;
+  color: var(--sarcelle);
+  font-weight: 600;
+}
+
+/* ---------- Page liste ---------- */
+
+.intro { margin-bottom: 1.1rem; }
+
+.accroche {
+  color: var(--texte-doux);
+  margin: 0;
+}
+
+.filtres {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.champ-recherche input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  font-size: 16px;   /* 16px minimum : évite le zoom automatique sur iPhone */
+  color: var(--texte);
+  background: var(--fond-carte);
+  border: 1px solid var(--bordure);
+  border-radius: var(--rayon);
+}
+
+.champ-recherche input:focus {
+  outline: 2px solid var(--sarcelle-clair);
+  outline-offset: 1px;
+}
+
+.pastilles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pastille {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--sarcelle);
+  background: var(--fond-carte);
+  border: 1px solid var(--bordure);
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+  min-height: 38px;
+  cursor: pointer;
+}
+
+.pastille.active {
+  background: var(--sarcelle);
+  border-color: var(--sarcelle);
+  color: #f4f1ec;
+}
+
+.compteur {
+  font-size: 0.85rem;
+  color: var(--texte-doux);
+  margin-bottom: 0.6rem;
+}
+
+.message-vide {
+  color: var(--texte-doux);
+  background: var(--fond-carte);
+  border: 1px dashed var(--bordure);
+  border-radius: var(--rayon);
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.grille {
+  display: grid;
+  grid-template-columns: 1fr;   /* une colonne sur mobile */
+  gap: 0.85rem;
+}
+
+.carte {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--fond-carte);
+  border: 1px solid var(--bordure);
+  border-left: 4px solid var(--brun);
+  border-radius: var(--rayon);
+  padding: 0.95rem 1rem;
+  box-shadow: var(--ombre);
+}
+
+.carte:hover { border-color: var(--sarcelle-clair); border-left-color: var(--sarcelle); }
+
+.carte-titre { margin: 0.35rem 0 0.5rem; }
+
+.carte-equation {
+  margin: 0 0 0.45rem;
+  font-size: 0.9rem;
+}
+
+.fleche { color: var(--brun); font-weight: 700; }
+
+.carte-reactifs {
+  font-size: 0.85rem;
+  color: var(--texte-doux);
+  margin: 0 0 0.5rem;
+}
+
+.etiquette-famille {
+  display: inline-block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--brun);
+  background: var(--brun-clair);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+}
+
+/* ---------- Indicateur de difficulté ---------- */
+
+.difficulte {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--texte-doux);
+}
+
+.difficulte-libelle { margin-right: 0.25rem; }
+
+.point {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--bordure);
+  display: inline-block;
+}
+
+.point.plein { background: var(--brun); }
+
+/* ---------- Page détail ---------- */
+
+.lien-retour {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.lien-retour:hover { text-decoration: underline; }
+.lien-retour.bas { margin-top: 1.5rem; }
+
+.fiche-entete { margin-bottom: 1.2rem; }
+.fiche-entete h1 { margin: 0.4rem 0 0.5rem; }
+
+.bloc {
+  background: var(--fond-carte);
+  border: 1px solid var(--bordure);
+  border-radius: var(--rayon);
+  padding: 1rem;
+  margin-bottom: 0.9rem;
+  box-shadow: var(--ombre);
+}
+
+.note {
+  font-size: 0.82rem;
+  color: var(--texte-doux);
+  margin: 0 0 0.7rem;
+}
+
+/* Équation : en colonne sur mobile, en ligne sur grand écran. */
+.equation-ligne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.molecule {
+  font-size: 1rem;
+  padding: 0.4rem 0.7rem;
+}
+
+.fleche-bloc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.fleche-trait {
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--brun);
+  /* Sur mobile la flèche pointe vers le bas (empilement vertical).
+     La rotation ne modifie pas la place réservée par le navigateur :
+     on ajoute donc des marges pour éviter tout chevauchement. */
+  transform: rotate(90deg);
+  margin: 0.55rem 0;
+}
+
+.fleche-conditions {
+  font-size: 0.78rem;
+  color: var(--texte-doux);
+}
+
+.liste-etapes, .liste-pieges, .liste-phases {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.liste-etapes li, .liste-pieges li, .liste-phases li {
+  margin-bottom: 0.55rem;
+}
+
+.bloc-pieges { border-left: 4px solid var(--brun); }
+
+.bloc-explication p:last-child { margin-bottom: 0; }
+
+.bloc-comprendre {
+  background: #fbf8f4;
+  border-left: 4px solid var(--sarcelle);
+}
+
+.intertitre {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--brun);
+  margin: 1.2rem 0 0.4rem;
+}
+
+.liste-phases li.fait { color: var(--sarcelle); }
+.liste-phases li:not(.fait) { color: var(--texte-doux); }
+
+/* ---------- Pied de page ---------- */
+
+.pied-de-page {
+  border-top: 1px solid var(--bordure);
+  padding: 1rem;
+  text-align: center;
+}
+
+.pied-de-page p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--texte-doux);
+}
+
+/* ============================================================
+   Écrans plus larges (tablette et PC) : à partir de 640 px.
+   ============================================================ */
+@media (min-width: 640px) {
+  body { font-size: 18px; }
+  h1 { font-size: 1.9rem; }
+
+  .entete-interieur {
+    flex-direction: row;          /* titre à gauche, menu à droite */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.25rem;
+  }
+
+  .contenu { padding: 2rem 1.25rem 4rem; }
+
+  .grille { grid-template-columns: repeat(2, 1fr); }
+
+  /* Sur grand écran on garde la recherche sur sa propre ligne
+     (les pastilles dessous) : c'est plus lisible que de tout
+     comprimer sur une seule ligne. On limite simplement sa largeur. */
+  .champ-recherche input { max-width: 420px; }
+
+  /* Sur grand écran, l'équation tient sur une ligne horizontale. */
+  .equation-ligne { flex-direction: row; justify-content: center; }
+  .fleche-trait { transform: none; }
+
+  .bloc { padding: 1.4rem 1.5rem; }
+}
+
+/* Respecte le réglage « réduire les animations » du système. */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* Petite respiration entre l'équation et sa note explicative. */
+.equation .note { margin-top: 1.1rem; margin-bottom: 0; }
