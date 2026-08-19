@@ -2,3 +2,9 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# Manuels sous droits et leur texte extrait : ils restent sur la machine,
+# jamais dans le dépôt — qui est public. Seules les références
+# bibliographiques (chapitre, page) entrent dans les données.
+sources-locales/
+*.pdf

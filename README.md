@@ -303,6 +303,51 @@ Chaque fiche propose la même chose expliquée de deux façons :
 Personne n'est laissé de côté, dans un sens comme dans l'autre. Le choix
 est retenu d'une fiche à l'autre (`localStorage`).
 
+## Travailler à partir d'un manuel
+
+Les explications ne doivent pas sortir d'une mémoire : elles doivent
+s'appuyer sur un ouvrage qu'on peut citer, page comprise. D'où cet
+outillage.
+
+### Indexer un manuel
+
+```bash
+pip install --break-system-packages pymupdf          # une seule fois
+python3 outils/indexer-manuel.py mon-manuel.pdf --nom clayden --decalage 24
+```
+
+`--decalage` est l'écart entre le numéro de page du PDF et celui imprimé
+sur la page (si la page 25 du PDF porte le numéro 1, le décalage vaut 24).
+Sans lui, les citations renverraient à de mauvaises pages.
+
+Le script signale les pages sans texte : au-delà de quelques pour cent,
+le PDF est un scan sans couche texte, inutilisable pour citer tant qu'il
+n'est pas passé à l'OCR.
+
+### Consulter
+
+```bash
+python3 outils/chercher-source.py "anti-periplanar" --nom clayden
+python3 outils/chercher-source.py --page 342 --nom clayden
+```
+
+La recherche ignore accents et majuscules, et rend pour chaque occurrence
+la page imprimée — celle qu'on cite.
+
+### Ce qui entre dans le dépôt, et ce qui n'y entre pas
+
+> Le dépôt ChimieRév est **public**. Un manuel sous droits n'y a pas sa
+> place, ni son texte extrait : ce serait le redistribuer.
+
+`sources-locales/` et les fichiers `.pdf` sont donc ignorés par git. Le
+manuel sert de source pendant la rédaction, puis reste sur la machine.
+Ce qui est publié : des explications **réécrites**, et des **références**
+(ouvrage, chapitre, page) dans `references.json` — c'est-à-dire une
+bibliographie, exactement ce que fait n'importe quel cours.
+
+Les citations littérales restent courtes et attribuées, comme le veut
+l'usage en matière de citation.
+
 ## Les sources : la règle absolue
 
 En science, on n'affirme pas sans pouvoir dire d'où ça vient. Chaque fiche
@@ -326,6 +371,9 @@ public/polices/             les fichiers de police (woff2)
 public/structures/          les structures 2D dessinées (SVG, engendrées)
 public/mecanismes/          les schémas de mécanisme (SVG, engendrés)
 public/mecanismes-manuels/  tes propres schémas, dessinés à la main
+outils/
+  indexer-manuel.py         indexe un manuel PDF, page par page
+  chercher-source.py        y cherche une expression, rend la page citable
 scripts/
   dessiner-structures.mjs   dessine les structures avec RDKit-JS
   dessiner-mecanismes.mjs   dessine les mécanismes et leurs flèches
