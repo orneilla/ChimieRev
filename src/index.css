@@ -982,3 +982,9 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .etat-redigee { background: var(--creme-fonce); }
 .etat-verifiee { background: var(--cyan); }
 .etat-relue { background: var(--vert); }
+
+/* Chapitre et page d'un ouvrage : ce qui rend une référence utilisable. */
+.reference-precision {
+  font-weight: 700;
+  white-space: nowrap;
+}

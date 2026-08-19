@@ -23,6 +23,11 @@ USAGE
 --decalage : écart entre le numéro de page du PDF et celui imprimé sur la
 page. Si la page 25 du PDF porte le numéro 1, le décalage vaut 24. Sans
 lui, les citations renverraient à de mauvaises pages.
+
+Sans --decalage, le script cherche lui-même l'écart en lisant les numéros
+imprimés en tête et en pied de page, et retient celui qui revient le plus
+souvent. Il annonce sa trouvaille et sur combien de pages elle s'appuie :
+à toi de la confirmer avant de citer quoi que ce soit.
 """
 import argparse
 import json
@@ -38,11 +43,62 @@ except ImportError:
 DOSSIER = Path("sources-locales")
 
 
-def indexer(pdf: Path, nom: str, decalage: int) -> None:
+def deviner_decalage(document) -> tuple[int, int, int]:
+    """
+    Cherche l'écart entre pagination du PDF et pagination imprimée.
+
+    On lit le nombre isolé qui figure en tête ou en pied de page, et on
+    compte les écarts obtenus. Celui qui revient le plus souvent est le bon,
+    parce qu'un numéro de page suit la page, alors qu'un nombre quelconque
+    du texte ne suit rien.
+    """
+    from collections import Counter
+    ecarts = Counter()
+    examinees = 0
+
+    for numero in range(document.page_count):
+        page = document[numero]
+        hauteur = page.rect.height
+        # On ne regarde que les bandeaux : 8 % en haut, 8 % en bas.
+        bandeaux = [
+            pymupdf.Rect(0, 0, page.rect.width, hauteur * 0.08),
+            pymupdf.Rect(0, hauteur * 0.92, page.rect.width, hauteur)
+        ]
+        for bandeau in bandeaux:
+            texte = page.get_textbox(bandeau)
+            for nombre in re.findall(r"\b(\d{1,4})\b", texte):
+                valeur = int(nombre)
+                if 1 <= valeur <= document.page_count:
+                    ecarts[(numero + 1) - valeur] += 1
+        examinees += 1
+
+    if not ecarts:
+        return 0, 0, examinees
+    decalage, appuis = ecarts.most_common(1)[0]
+    return decalage, appuis, examinees
+
+
+def indexer(pdf: Path, nom: str, decalage: int | None) -> None:
     if not pdf.exists():
         sys.exit(f"Fichier introuvable : {pdf}")
 
     document = pymupdf.open(pdf)
+
+    # De quel ouvrage s'agit-il ? La réponse conditionne la référence.
+    metadonnees = document.metadata or {}
+    titre = (metadonnees.get("title") or "").strip()
+    auteur = (metadonnees.get("author") or "").strip()
+    print(f"  Fichier : {pdf.name} — {document.page_count} pages")
+    if titre or auteur:
+        print(f"  Métadonnées du PDF : {titre or '(sans titre)'} — {auteur or '(sans auteur)'}")
+    else:
+        print("  Métadonnées du PDF : absentes — l'ouvrage devra être identifié à la main.")
+
+    if decalage is None:
+        decalage, appuis, examinees = deviner_decalage(document)
+        print(f"  Décalage deviné : {decalage} (numéro imprimé retrouvé sur {appuis} "
+              f"repères, {examinees} pages examinées) — à confirmer.")
+
     destination = DOSSIER / nom
     destination.mkdir(parents=True, exist_ok=True)
 
@@ -76,15 +132,17 @@ def indexer(pdf: Path, nom: str, decalage: int) -> None:
         print(f"⚠ {vides} pages sans texte ({part} %). Si la part est forte, "
               "le PDF est probablement un scan sans couche texte : il faudrait "
               "le passer à l'OCR avant de pouvoir le citer.")
-    if pages:
-        print(f"  Contrôle du décalage — page {pages[0]['pdf']} du PDF "
-              f"= page {pages[0]['imprimee']} imprimée.")
+    milieu = pages[len(pages) // 2] if pages else None
+    if milieu:
+        print(f"  Contrôle : page {milieu['pdf']} du PDF = page {milieu['imprimee']} imprimée. "
+              "Ouvre cette page pour vérifier avant de citer.")
 
 
 if __name__ == "__main__":
     analyseur = argparse.ArgumentParser(description="Indexe un manuel PDF pour consultation.")
     analyseur.add_argument("pdf", type=Path)
     analyseur.add_argument("--nom", required=True, help="nom court : clayden, march…")
-    analyseur.add_argument("--decalage", type=int, default=0)
+    analyseur.add_argument("--decalage", type=int, default=None,
+                           help="écart PDF/page imprimée ; deviné si absent")
     arguments = analyseur.parse_args()
     indexer(arguments.pdf, arguments.nom, arguments.decalage)

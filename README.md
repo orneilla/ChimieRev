@@ -303,6 +303,40 @@ Chaque fiche propose la même chose expliquée de deux façons :
 Personne n'est laissé de côté, dans un sens comme dans l'autre. Le choix
 est retenu d'une fiche à l'autre (`localStorage`).
 
+## La méthode de travail : famille par famille
+
+Couvrir 137 réactions d'un coup n'a pas de sens. On avance **par famille**,
+et chaque famille suit toujours les mêmes étapes.
+
+1. **Recenser.** Chercher la famille dans les manuels indexés, relever
+   toutes les réactions qui s'y rattachent, et compléter le programme s'il
+   en manque.
+2. **Rédiger.** Pour chaque réaction : l'équation, le mécanisme en mots, la
+   sélectivité, les pièges, et les deux explications — en citant
+   l'ouvrage, chapitre et page.
+3. **Dessiner.** Les flèches du mécanisme, décrites dans les données.
+4. **Contrôler.** `npm run build` refuse de publier si une fiche est
+   incomplète, si un SMILES est illisible, ou si les flèches ne mènent pas
+   au produit annoncé.
+5. **Relire.** Un chimiste vérifie les produits annoncés et passe les
+   étapes à `"valide": true`. Tant que ce n'est pas fait, chaque fiche
+   l'affiche.
+
+La page **Programme** montre où en est chaque famille, et sert à décider de
+la suivante.
+
+### Les quatre contrôles, dans l'ordre où ils tournent
+
+| Contrôle | Ce qu'il refuse |
+|---|---|
+| `npm run tester` | un vérificateur devenu aveugle |
+| `npm run valider` | une fiche incomplète, un SMILES illisible, une famille inconnue |
+| `npm run verifier` | des flèches qui ne mènent pas au produit annoncé |
+| relecture humaine | un mécanisme qui n'est pas celui de la nature |
+
+Les trois premiers sont automatiques et bloquants. Le quatrième ne
+s'automatise pas — il s'affiche.
+
 ## Travailler à partir d'un manuel
 
 Les explications ne doivent pas sortir d'une mémoire : elles doivent
@@ -375,6 +409,8 @@ outils/
   indexer-manuel.py         indexe un manuel PDF, page par page
   chercher-source.py        y cherche une expression, rend la page citable
 scripts/
+  valider-donnees.mjs       refuse les fiches incomplètes
+  inventaire.mjs            confronte le programme aux données
   dessiner-structures.mjs   dessine les structures avec RDKit-JS
   dessiner-mecanismes.mjs   dessine les mécanismes et leurs flèches
   verifier-mecanismes.mjs   applique les flèches et contrôle le produit

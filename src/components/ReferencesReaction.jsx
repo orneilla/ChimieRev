@@ -57,8 +57,27 @@ export default function ReferencesReaction({ id, famille }) {
     )
   }
 
-  // Les clés d'ouvrages ("clayden", "march"…) renvoient à la liste commune.
-  const ouvrages = (bloc?.ouvrages || []).map((cle) => ouvrages_de_reference[cle])
+  // Un ouvrage se cite de deux façons, l'une et l'autre acceptées :
+  //   "clayden"                                   — l'ouvrage entier
+  //   { ouvrage: "clayden", chapitre: "15", pages: "328–341" }
+  // La seconde est celle qu'on vise : une référence sans page laisse le
+  // lecteur chercher dans mille pages.
+  const ouvrages = (bloc?.ouvrages || []).map((entree) => {
+    if (typeof entree === 'string') {
+      return { citation: ouvrages_de_reference[entree], precision: null }
+    }
+
+    const precisions = [
+      entree.chapitre && `chapitre ${entree.chapitre}`,
+      entree.pages && `p. ${entree.pages}`
+    ].filter(Boolean)
+
+    return {
+      citation: ouvrages_de_reference[entree.ouvrage] || entree.ouvrage,
+      precision: precisions.join(', ') || null,
+      note: entree.note
+    }
+  })
   const articles = [
     ...(bloc?.articles_historiques || []),
     ...(bloc?.revues_modernes || [])
@@ -74,7 +93,13 @@ export default function ReferencesReaction({ id, famille }) {
           <ul className="liste-references">
             {ouvrages.map((ouvrage, i) => (
               <li key={i} className="reference">
-                <p className="reference-citation">{ouvrage}</p>
+                <p className="reference-citation">
+                  {ouvrage.citation}
+                  {ouvrage.precision && (
+                    <span className="reference-precision"> — {ouvrage.precision}</span>
+                  )}
+                </p>
+                {ouvrage.note && <p className="reference-note">{ouvrage.note}</p>}
               </li>
             ))}
           </ul>
