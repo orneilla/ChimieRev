@@ -158,9 +158,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .lien-nav {
   color: var(--creme);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 500;
-  padding: 0.4rem 0.7rem;
+  /* Quatre entrées doivent tenir sur la largeur d'un téléphone sans
+     qu'un intitulé se coupe en deux. */
+  white-space: nowrap;
+  padding: 0.4rem 0.5rem;
   min-height: 40px;
   display: inline-flex;
   align-items: center;
@@ -626,6 +629,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 @media (min-width: 700px) {
   body { font-size: 18px; }
 
+  .lien-nav { font-size: 0.9rem; padding: 0.4rem 0.7rem; }
+
   h1 { font-size: 3.2rem; }
 
   .contenu { padding: 2.5rem 1.5rem 4rem; }
@@ -861,3 +866,119 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 .etats-schema .badge-schema { margin-left: 0; }
+
+/* ---------- Page Programme ---------- */
+
+.bilan-avancement { border-left: 10px solid var(--encre); }
+
+.chiffre-cle {
+  font-size: 1.05rem;
+  margin: 0 0 0.6rem;
+}
+
+.chiffre-cle strong {
+  font-family: var(--police-titre);
+  font-size: 2rem;
+  vertical-align: -0.1em;
+}
+
+.jauge-large {
+  max-width: none;
+  width: 100%;
+  height: 12px;
+  display: block;
+}
+
+/* Une progression même minime doit rester visible. */
+.jauge-large .jauge-remplissage { min-width: 3px; }
+
+.liste-etats {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  font-size: 0.88rem;
+}
+
+.liste-etats li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.famille { padding-bottom: 0.9rem; }
+
+.famille-entete {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0 0 0.6rem;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.famille-nom {
+  flex: 1;
+  font-family: var(--police-titre);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.famille-compte {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.famille-chevron { color: var(--couleur); font-size: 1.1rem; }
+
+.liste-programme {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.liste-programme li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--bordure);
+  font-size: 0.92rem;
+}
+
+.programme-nom { flex: 1; min-width: 12ch; }
+
+.programme-niveau {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--encre-doux);
+  border: 2px solid var(--bordure);
+  border-radius: var(--rayon);
+  padding: 0 0.35rem;
+}
+
+/* L'état d'une réaction, du moins au plus sûr. */
+.etat {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.12rem 0.4rem;
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  white-space: nowrap;
+}
+
+.etat-absente { background: var(--creme); color: var(--encre-doux); border-color: var(--bordure); }
+.etat-redigee { background: var(--creme-fonce); }
+.etat-verifiee { background: var(--cyan); }
+.etat-relue { background: var(--vert); }

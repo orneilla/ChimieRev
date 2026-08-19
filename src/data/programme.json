@@ -1,0 +1,793 @@
+{
+  "_meta": {
+    "role": "Inventaire des réactions à couvrir, de la licence au master 2. Sert à mesurer l'avancement et à choisir l'ordre de travail.",
+    "statut": "PROPOSITION — la liste elle-même demande une relecture : il y manque sans doute des réactions, et certaines n'ont peut-être pas leur place à ce niveau.",
+    "niveaux": "L2 et L3 : licence. M1 et M2 : master.",
+    "regle": "Une entrée présente ici n'est PAS du contenu publié. Elle ne devient une fiche que rédigée, vérifiée par la machine, puis relue par un chimiste."
+  },
+  "familles": [
+    {
+      "id": "substitutions",
+      "nom": "Substitutions nucléophiles",
+      "famille": "Substitutions",
+      "reactions": [
+        {
+          "nom": "Substitution nucléophile SN2",
+          "niveau": "L2",
+          "id": "sn2"
+        },
+        {
+          "nom": "Substitution nucléophile SN1",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Compétition SN1 / SN2 / E1 / E2",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Synthèse de Williamson (éthers)",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Échange de Finkelstein",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Activation des alcools (tosylates, mésylates)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Halogénation des alcools (SOCl₂, PBr₃)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réaction de Mitsunobu",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Substitution allylique SN2′",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Ouverture des époxydes en milieu basique",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Ouverture des époxydes en milieu acide",
+          "niveau": "L3",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "eliminations",
+      "nom": "Éliminations",
+      "famille": "Éliminations",
+      "reactions": [
+        {
+          "nom": "Élimination E2",
+          "niveau": "L2",
+          "id": "e2"
+        },
+        {
+          "nom": "Élimination E1",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Élimination E1cb",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Déshydratation des alcools",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Déshydrohalogénation des dihalogénures (alcynes)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Élimination de Hofmann (ammoniums)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Élimination syn de Cope (N-oxydes)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Élimination de Chugaev (xanthates)",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Oléfination de Peterson",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "additions_electrophiles",
+      "nom": "Additions électrophiles",
+      "famille": "Additions électrophiles",
+      "reactions": [
+        {
+          "nom": "Addition de HX (règle de Markovnikov)",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Hydratation acide des alcènes",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Halogénation des alcènes (ion ponté)",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Formation des halohydrines",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Oxymercuration–démercuration",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Hydroboration–oxydation",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Époxydation par un peracide",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Dihydroxylation syn (OsO₄, KMnO₄ froid)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Ozonolyse",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Cyclopropanation de Simmons-Smith",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Additions sur les alcynes (hydratation, tautomérie)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Hydrogénation catalytique (syn)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réduction de Birch",
+          "niveau": "M1",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "carbonyle",
+      "nom": "Additions sur le carbonyle",
+      "famille": "Additions sur le carbonyle",
+      "reactions": [
+        {
+          "nom": "Réduction par NaBH₄",
+          "niveau": "L2",
+          "id": "reduction_nabh4"
+        },
+        {
+          "nom": "Réduction par LiAlH₄",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Addition des organomagnésiens",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Hydratation et formation des hydrates",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Acétalisation et protection des carbonyles",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Formation des imines et des énamines",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Formation des cyanhydrines",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réaction de Wittig",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Horner-Wadsworth-Emmons",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Addition 1,2 contre addition 1,4 (Michael)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réduction de Luche",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réduction de Meerwein-Ponndorf-Verley",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Amination réductrice",
+          "niveau": "M1",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "acyle",
+      "nom": "Substitution nucléophile acyle",
+      "famille": "Substitution acyle",
+      "reactions": [
+        {
+          "nom": "Estérification de Fischer",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Saponification des esters",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Hydrolyse des amides",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Chlorures d’acyle : formation et réactivité",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Anhydrides : formation et réactivité",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Transestérification",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Formation des amides (couplage peptidique)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réduction des esters (DIBAL, LiAlH₄)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Amides de Weinreb",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Échelle de réactivité des dérivés d’acide",
+          "niveau": "L3",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "aromatique",
+      "nom": "Chimie aromatique",
+      "famille": "Aromatique",
+      "reactions": [
+        {
+          "nom": "Nitration du benzène",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Halogénation du benzène",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Sulfonation du benzène",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Alkylation de Friedel-Crafts",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Acylation de Friedel-Crafts",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Effets des substituants et régiosélectivité",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Substitution nucléophile aromatique (SNAr)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Mécanisme par benzyne",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Sels de diazonium et réaction de Sandmeyer",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réduction des nitroarènes",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Oxydation des chaînes latérales",
+          "niveau": "L3",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "enolates",
+      "nom": "Énolates et carbonyles en α",
+      "famille": "Énolates",
+      "reactions": [
+        {
+          "nom": "Formation des énols et des énolates",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Énolate cinétique contre thermodynamique",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Alkylation des énolates",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Aldolisation et crotonisation",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Aldolisation croisée dirigée",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Condensation de Claisen",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Condensation de Dieckmann",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Addition de Michael",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Annélation de Robinson",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réaction de Mannich",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Énamines de Stork",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Halogénation en α (Hell-Volhard-Zelinsky)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réaction haloforme",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Condensation de Knoevenagel",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Malonique et acétylacétique (synthèses)",
+          "niveau": "L3",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "organometalliques",
+      "nom": "Organométalliques",
+      "famille": "Organométalliques",
+      "reactions": [
+        {
+          "nom": "Réaction de Grignard",
+          "niveau": "L2",
+          "id": "grignard"
+        },
+        {
+          "nom": "Organolithiens",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Cuprates de Gilman (addition 1,4)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réaction de Reformatsky",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Umpolung : dithianes",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Métallation dirigée (ortho-lithiation)",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "oxydoreduction",
+      "nom": "Oxydo-réduction",
+      "famille": "Oxydo-réduction",
+      "reactions": [
+        {
+          "nom": "Oxydation des alcools (PCC, PDC)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Oxydation de Swern",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Oxydation de Dess-Martin",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Oxydation de Jones",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Baeyer-Villiger",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réduction de Clemmensen",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réduction de Wolff-Kishner",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Hydrogénation catalytique asymétrique",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Réduction des nitriles et des amides",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Coupure oxydante des diols",
+          "niveau": "L3",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "radicalaire",
+      "nom": "Chimie radicalaire",
+      "famille": "Radicalaire",
+      "reactions": [
+        {
+          "nom": "Halogénation radicalaire des alcanes",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Addition anti-Markovnikov de HBr (effet peroxyde)",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Bromation allylique (NBS)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Autoxydation et peroxydes",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Désoxygénation de Barton-McCombie",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Polymérisation radicalaire",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Cyclisations radicalaires (règles de Baldwin)",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "pericycliques",
+      "nom": "Réactions péricycliques",
+      "famille": "Péricycliques",
+      "reactions": [
+        {
+          "nom": "Cycloaddition de Diels-Alder",
+          "niveau": "L3",
+          "id": "diels_alder"
+        },
+        {
+          "nom": "Rétro-Diels-Alder",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Règles de Woodward-Hoffmann",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Cycloadditions 1,3-dipolaires",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Électrocyclisations",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Cope",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Claisen",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réaction ène",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Cycloadditions [2+2] photochimiques",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "couplages",
+      "nom": "Couplages pallado-catalysés",
+      "famille": "Couplages",
+      "reactions": [
+        {
+          "nom": "Cycle catalytique du palladium (les trois étapes)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Couplage de Suzuki-Miyaura",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réaction de Heck",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Couplage de Sonogashira",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Couplage de Stille",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Couplage de Negishi",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Amination de Buchwald-Hartwig",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Métathèse des oléfines (Grubbs)",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Carbonylations catalysées",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "rearrangements",
+      "nom": "Réarrangements",
+      "famille": "Réarrangements",
+      "reactions": [
+        {
+          "nom": "Réarrangement de Wagner-Meerwein",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Transposition pinacolique",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Beckmann",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Hofmann",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Curtius",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Wolff (Arndt-Eistert)",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Réarrangement de Favorskii",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Transposition de Baeyer-Villiger : migration",
+          "niveau": "M1",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "strategie",
+      "nom": "Stratégie de synthèse",
+      "famille": "Stratégie",
+      "reactions": [
+        {
+          "nom": "Groupes protecteurs : alcools",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Groupes protecteurs : carbonyles et amines",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Analyse rétrosynthétique",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Chimiosélectivité, régiosélectivité, stéréosélectivité",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Synthèse asymétrique : auxiliaires chiraux",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Organocatalyse",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    }
+  ]
+}

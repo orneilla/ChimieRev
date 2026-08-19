@@ -4,6 +4,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import BarreNavigation from './components/BarreNavigation.jsx'
 import PageListeReactions from './pages/PageListeReactions.jsx'
 import PageReactifs from './pages/PageReactifs.jsx'
+import PageProgramme from './pages/PageProgramme.jsx'
 import PageDetailReaction from './pages/PageDetailReaction.jsx'
 import PageAPropos from './pages/PageAPropos.jsx'
 
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/" element={<PageListeReactions />} />
           <Route path="/reaction/:id" element={<PageDetailReaction />} />
           <Route path="/reactifs" element={<PageReactifs />} />
+          <Route path="/programme" element={<PageProgramme />} />
           <Route path="/a-propos" element={<PageAPropos />} />
           {/* Toute adresse inconnue renvoie vers la liste. */}
           <Route path="*" element={<Navigate to="/" replace />} />
