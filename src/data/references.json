@@ -339,6 +339,30 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "competition_substitution_elimination": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "17 — Elimination reactions",
+          "pages": "382–386",
+          "note": "Le partage entre substitution et élimination, facteur par facteur : basicité du partenaire (chlorure de tert-butyle avec l'éthanol contre son alcoolate, p. 385), taille du partenaire (hydroxyde contre tert-butanolate sur le même halogénure primaire, p. 385), température et argument entropique (p. 385), lecture dur/mou (p. 385). Y figure aussi l'avertissement que le critère E1/E2 n'est pas celui de SN1/SN2 (p. 384), et que seule la vitesse de l'E2 dépend de la concentration de base (p. 386)."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "332–333",
+          "note": "La vitesse d'une SN1 ne dépend que du squelette carboné et du groupe partant, jamais du nucléophile — ni sa concentration ni sa réactivité. D'où le conseil de mener les SN1 avec des nucléophiles faibles et peu basiques, précisément pour éviter l'élimination."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "340",
+          "note": "Méthyle et primaire réagissent toujours par SN2, jamais par SN1 : la borne haute du critère de squelette."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

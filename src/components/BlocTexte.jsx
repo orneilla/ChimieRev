@@ -2,9 +2,9 @@
 // Dans le JSON, les paragraphes sont séparés par une ligne vide ("\n\n").
 
 // Repère une amorce écrite en majuscules en début de paragraphe
-// (« POURQUOI ... ? », « COMMENT ... », « QU'EST-CE ... ») pour la mettre
+// (« POURQUOI ... ? », « COMMENT ... », « SN1 OU SN2 ... ») pour la mettre
 // en valeur : c'est la charpente du mode « Comprendre ».
-const AMORCE = /^([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ'’-]*(?:\s+[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ'’-]*)*)(?=\s)/
+const AMORCE = /^([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’-]*(?:\s+[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’-]*)*)(?=\s)/
 
 export default function BlocTexte({ texte }) {
   const paragraphes = texte.split('\n\n').filter((p) => p.trim() !== '')

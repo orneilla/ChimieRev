@@ -59,6 +59,10 @@
     "substrat": "ouverture_epoxyde_acide-substrat.svg",
     "produit": "ouverture_epoxyde_acide-produit.svg"
   },
+  "competition_substitution_elimination": {
+    "substrat": "competition_substitution_elimination-substrat.svg",
+    "produit": "competition_substitution_elimination-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

@@ -1310,5 +1310,113 @@
         "valide": false
       }
     ]
+  },
+  "competition_substitution_elimination": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Petite base : elle atteint le carbone",
+        "smiles": "CCCCBr.[OH-]",
+        "legende": "L'ion hydroxyde est minuscule. Il se faufile jusqu'au carbone, du côté opposé au brome, et prend sa place. Substitution.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'hydroxyde attaque le carbone par l'arrière."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison C–Br partent avec le brome."
+          }
+        ],
+        "produit_attendu": "CCCCO.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Base volumineuse : elle se rabat sur l'hydrogène",
+        "smiles": "CCC([H])CBr.CC(C)(C)[O-]",
+        "legende": "Même molécule de départ, même température : seule la taille de la base a changé. Le tert-butanolate n'atteint plus le carbone, mais l'hydrogène du carbone voisin dépasse. Il l'arrache, et tout suit : la double liaison naît, le brome part. Élimination.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                3
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'oxygène négatif, trop volumineux pour viser le carbone, arrache l'hydrogène voisin."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison C–H forment la double liaison entre les deux carbones."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison C–Br se rompt en même temps : le brome part avec les deux électrons."
+          }
+        ],
+        "produit_attendu": "C=CCC.CC(C)(C)O.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient avec la petite base",
+        "smiles": "CCCCO",
+        "legende": "L'alcool : le partenaire s'est installé à la place du brome. Le squelette est intact.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient avec la base volumineuse",
+        "smiles": "C=CCC",
+        "legende": "L'alcène : le brome et un hydrogène voisin sont partis ensemble, et une double liaison les a remplacés. Le partenaire, lui, n'est pas dans le produit — il repart sous forme d'alcool.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

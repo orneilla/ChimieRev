@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-19",
   "total": 138,
-  "redigees": 15,
-  "verifiees": 15,
+  "redigees": 16,
+  "verifiees": 16,
   "relues": 0,
   "familles": [
     {
@@ -10,9 +10,9 @@
       "nom": "Substitutions nucléophiles",
       "famille": "Substitutions",
       "total": 12,
-      "absente": 1,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 11,
+      "verifiee": 12,
       "relue": 0,
       "reactions": [
         {
@@ -32,9 +32,9 @@
         {
           "nom": "Compétition SN1 / SN2 / E1 / E2",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "competition_substitution_elimination",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Williamson (éthers)",

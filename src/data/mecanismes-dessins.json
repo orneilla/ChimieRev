@@ -479,5 +479,46 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "competition_substitution_elimination": {
+    "1": {
+      "fichier": "competition_substitution_elimination-etape1.svg",
+      "titre": "Petite base : elle atteint le carbone",
+      "legende": "L'ion hydroxyde est minuscule. Il se faufile jusqu'au carbone, du côté opposé au brome, et prend sa place. Substitution.",
+      "fleches": [
+        "L'hydroxyde attaque le carbone par l'arrière.",
+        "Les électrons de la liaison C–Br partent avec le brome."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "competition_substitution_elimination-etape2.svg",
+      "titre": "Base volumineuse : elle se rabat sur l'hydrogène",
+      "legende": "Même molécule de départ, même température : seule la taille de la base a changé. Le tert-butanolate n'atteint plus le carbone, mais l'hydrogène du carbone voisin dépasse. Il l'arrache, et tout suit : la double liaison naît, le brome part. Élimination.",
+      "fleches": [
+        "L'oxygène négatif, trop volumineux pour viser le carbone, arrache l'hydrogène voisin.",
+        "Les électrons de la liaison C–H forment la double liaison entre les deux carbones.",
+        "La liaison C–Br se rompt en même temps : le brome part avec les deux électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "competition_substitution_elimination-etape3.svg",
+      "titre": "Ce qu'on obtient avec la petite base",
+      "legende": "L'alcool : le partenaire s'est installé à la place du brome. Le squelette est intact.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "competition_substitution_elimination-etape4.svg",
+      "titre": "Ce qu'on obtient avec la base volumineuse",
+      "legende": "L'alcène : le brome et un hydrogène voisin sont partis ensemble, et une double liaison les a remplacés. Le partenaire, lui, n'est pas dans le produit — il repart sous forme d'alcool.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

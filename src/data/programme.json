@@ -24,7 +24,7 @@
         {
           "nom": "Compétition SN1 / SN2 / E1 / E2",
           "niveau": "L2",
-          "id": null
+          "id": "competition_substitution_elimination"
         },
         {
           "nom": "Synthèse de Williamson (éthers)",

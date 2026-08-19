@@ -94,7 +94,7 @@ export default function PageDetailReaction() {
 
       <section className="bloc">
         <h3>Sélectivité</h3>
-        <p>{reaction.selectivite}</p>
+        <BlocTexte texte={reaction.selectivite} />
       </section>
 
       <section className="bloc bloc-pieges">
