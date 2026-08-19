@@ -983,8 +983,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .etat-verifiee { background: var(--cyan); }
 .etat-relue { background: var(--vert); }
 
-/* Chapitre et page d'un ouvrage : ce qui rend une référence utilisable. */
+/* Chapitre et page d'un ouvrage : ce qui rend une référence utilisable.
+   Un titre de chapitre peut être long : il doit pouvoir passer à la ligne,
+   sinon il pousse la page entière hors de l'écran. */
 .reference-precision {
   font-weight: 700;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }

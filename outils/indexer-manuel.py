@@ -113,9 +113,25 @@ def indexer(pdf: Path, nom: str, decalage: int | None) -> None:
             vides += 1
         # Les césures de fin de ligne coupent les mots recherchés.
         texte = re.sub(r"-\n(?=[a-zà-ÿ])", "", texte)
+        # Tous les ouvrages ne sont pas paginés comme des livres. Ceux
+        # issus de LibreTexts portent un numéro de SECTION (« 2.11.2 ») et
+        # un identifiant stable : c'est cela qu'on cite, pas une page.
+        section = None
+        identifiant = None
+        for ligne in texte.split("\n")[:4]:
+            ligne = ligne.strip()
+            if re.fullmatch(r"\d+\.[A-Za-z0-9]+(\.\d+)*", ligne):
+                section = ligne
+                break
+        trouve = re.search(r"@go/page/(\d+)", texte)
+        if trouve:
+            identifiant = trouve.group(1)
+
         pages.append({
             "pdf": numero + 1,
             "imprimee": numero + 1 - decalage,
+            "section": section,
+            "identifiant": identifiant,
             "texte": texte
         })
 
@@ -126,7 +142,11 @@ def indexer(pdf: Path, nom: str, decalage: int | None) -> None:
         encoding="utf-8"
     )
 
+    avec_section = sum(1 for p in pages if p["section"])
     print(f"✓ {len(pages)} pages indexées dans {destination}/")
+    if avec_section > len(pages) // 3:
+        print(f"  {avec_section} pages portent un numéro de section : cet ouvrage se "
+              "cite par section, non par page.")
     if vides:
         part = vides * 100 // len(pages)
         print(f"⚠ {vides} pages sans texte ({part} %). Si la part est forte, "

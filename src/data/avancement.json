@@ -1,18 +1,18 @@
 {
   "genere_le": "2026-08-19",
-  "total": 137,
-  "redigees": 5,
-  "verifiees": 5,
+  "total": 138,
+  "redigees": 7,
+  "verifiees": 7,
   "relues": 0,
   "familles": [
     {
       "id": "substitutions",
       "nom": "Substitutions nucléophiles",
       "famille": "Substitutions",
-      "total": 11,
-      "absente": 10,
+      "total": 12,
+      "absente": 9,
       "redigee": 0,
-      "verifiee": 1,
+      "verifiee": 3,
       "relue": 0,
       "reactions": [
         {
@@ -25,9 +25,9 @@
         {
           "nom": "Substitution nucléophile SN1",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "sn1",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Compétition SN1 / SN2 / E1 / E2",
@@ -91,6 +91,13 @@
           "id": null,
           "statut": "absente",
           "sources": false
+        },
+        {
+          "nom": "Substitution avec participation du groupe voisin",
+          "niveau": "M1",
+          "id": "participation_groupe_voisin",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

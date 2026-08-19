@@ -19,7 +19,7 @@
         {
           "nom": "Substitution nucléophile SN1",
           "niveau": "L2",
-          "id": null
+          "id": "sn1"
         },
         {
           "nom": "Compétition SN1 / SN2 / E1 / E2",
@@ -65,6 +65,11 @@
           "nom": "Ouverture des époxydes en milieu acide",
           "niveau": "L3",
           "id": null
+        },
+        {
+          "nom": "Substitution avec participation du groupe voisin",
+          "niveau": "M1",
+          "id": "participation_groupe_voisin"
         }
       ]
     },

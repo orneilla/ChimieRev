@@ -47,7 +47,12 @@ def chercher(manuel: dict, expression: str, taille: int, limite: int) -> None:
         position = plat.index(cible)
         debut = max(0, position - taille // 2)
         extrait = re.sub(r"\s+", " ", page["texte"][debut:debut + taille]).strip()
-        print(f"\n── page {page['imprimee']} imprimée (page {page['pdf']} du PDF)")
+        repere = f"page {page['imprimee']} imprimée"
+        if page.get("section"):
+            repere = f"§ {page['section']}"
+            if page.get("identifiant"):
+                repere += f" (fiche {page['identifiant']})"
+        print(f"\n── {repere} — page {page['pdf']} du PDF")
         print(f"   …{extrait}…")
 
     if trouvees == 0:

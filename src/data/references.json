@@ -2,7 +2,7 @@
   "_meta": {
     "titre": "ChimieRév — Références bibliographiques vérifiées",
     "principe_de_fiabilite": "RÈGLE ABSOLUE : aucun DOI n'est écrit de mémoire. Chaque DOI présent ici a été VÉRIFIÉ par recherche web et confirmé par au moins deux sources indépendantes. Les DOI marqués 'verifie': true sont sûrs. Tout DOI à ajouter ultérieurement DOIT passer par la même vérification — ne jamais laisser un modèle de langage inventer un DOI, car ils paraissent plausibles mais pointent souvent vers le mauvais article ou vers rien.",
-    "statut": "Socle initial vérifié le 2026 — à compléter réaction par réaction selon la même méthode.",
+    "statut": "Socle vérifié en 2026, complété famille par famille à partir des manuels indexés. Les pages citées ont été lues, non supposées.",
     "structure": "Pour chaque réaction : (1) ouvrages de référence (fiables, faits bibliographiques stables), (2) article(s) historique(s) fondateur(s) avec DOI vérifié, (3) revue moderne quand pertinent.",
     "citer_un_ouvrage": "Un ouvrage se cite soit par sa clé seule (\"clayden\"), soit — et c’est ce qu’on vise — avec le chapitre et les pages : { \"ouvrage\": \"clayden\", \"chapitre\": \"15\", \"pages\": \"328-341\" }. Une référence sans page laisse le lecteur chercher dans mille pages."
   },
@@ -13,7 +13,8 @@
     "carey_sundberg_A": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part A: Structure and Mechanisms, 5e éd., Springer, 2007. ISBN 978-0-387-68346-1.",
     "carey_sundberg_B": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part B: Reactions and Synthesis, 5e éd., Springer, 2007. ISBN 978-0-387-68350-8.",
     "fleming": "Fleming, I. — Molecular Orbitals and Organic Chemical Reactions (Reference Edition), Wiley, 2010. ISBN 978-0-470-74658-5.",
-    "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2."
+    "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2.",
+    "oc2": "Morsch, L.; Farmer, S.; Cunningham, K.; Sharrett, Z.; Shea, K. M. — Organic Chemistry II, LibreTexts (CC BY-SA 4.0). Ouvrage paginé par sections, cité par numéro de section."
   },
   "references_par_reaction": {
     "diels_alder": {
@@ -71,7 +72,29 @@
     },
     "sn2": {
       "ouvrages": [
-        "clayden",
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "328–331",
+          "note": "Mécanisme en une étape et loi de vitesse d'ordre 2 : v = k₂[substrat][nucléophile]. Tableaux de l'effet du nucléophile et du groupe partant (I > Br > Cl ≫ F)."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "343–344",
+          "note": "État de transition à cinq partenaires, gêne stérique croissante (méthyle > primaire > secondaire), et inversion de configuration."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "345",
+          "note": "Effet du solvant : les aprotiques polaires (DMF, DMSO) solvatent mal les anions et les rendent plus réactifs."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "§ 2.3 The SN2 Reaction ; § 2.4 Characteristics of the SN2 Reaction",
+          "note": "Traitement parallèle, avec l'attaque dorsale et ses conséquences stéréochimiques (fiche LibreTexts 443775)."
+        },
         "march",
         "carey_sundberg_A"
       ],
@@ -99,6 +122,78 @@
           "note": "Article fondateur (Nobel 1912). Publication ancienne des Comptes Rendus — pas de DOI standard ; à sourcer via archive Gallica/BnF plutôt que DOI."
         }
       ],
+      "revues_modernes": []
+    },
+    "sn1": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "332",
+          "note": "Mécanisme en deux étapes, formation du carbocation comme étape cinétiquement déterminante, loi de vitesse d'ordre 1 : le nucléophile n'y figure pas."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "333",
+          "note": "Tableau du choix SN1/SN2 selon le squelette : tertiaire excellent en SN1, méthyle et primaire exclus, secondaire douteux."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "343",
+          "note": "Accélération stérique : les gros substituants abaissent l'énergie de l'état de transition, à l'inverse de ce qui se passe en SN2."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "344",
+          "note": "Conséquence stéréochimique : « une réaction SN2 va avec inversion de configuration, une SN1 va généralement avec racémisation »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "345",
+          "note": "Rôle du solvant : l'étape lente crée des ions, un solvant polaire protique les stabilise."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "§ 2.5 The SN1 Reaction ; § 2.6 Characteristics of the SN1 Reaction",
+          "note": "Traitement parallèle (fiches LibreTexts 443777 et 443778)."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Nomenclature SN1/SN2 établie par Hughes et Ingold dans les années 1930. Clayden attribue explicitement la mesure des vitesses et la dénomination à Ingold (p. 330).",
+          "doi": null,
+          "verifie": false,
+          "note": "Référence primaire à retrouver et à vérifier ; seule l'attribution par le manuel est établie ici."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "participation_groupe_voisin": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "932",
+          "note": "Définition du groupe voisin et de la participation ; comparaison des vitesses avec et sans voisin."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36",
+          "pages": "934",
+          "note": "L'exemple retenu ici : l'acide (R)-2-bromopropanoïque donne l'acide (S)-lactique par SN2 avec NaOH, mais l'acide (R)-lactique avec Ag₂O — deux inversions successives via un cycle à trois chaînons. Contient la règle : « rétention ⇒ chercher une participation »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36",
+          "pages": "935",
+          "note": "La participation passe le plus souvent par un cycle à trois ou cinq chaînons."
+        }
+      ],
+      "articles_historiques": [],
       "revues_modernes": []
     }
   },

@@ -127,5 +127,78 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "sn1": {
+    "1": {
+      "fichier": "sn1-etape1.svg",
+      "titre": "Le brome part tout seul",
+      "legende": "Étape lente. La liaison C–Br se rompt d'elle-même : le brome emporte le doublet et laisse un carbone à trois liaisons, chargé positivement et aplati.",
+      "fleches": [
+        "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "sn1-etape2.svg",
+      "titre": "L'eau se jette sur le carbone",
+      "legende": "Étape rapide. Le carbocation est plan : l'eau peut l'aborder par l'une ou l'autre face, ce qui donne autant d'un produit que de son image miroir.",
+      "fleches": [
+        "Un doublet de l'oxygène de l'eau forme la nouvelle liaison avec le carbone."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "sn1-etape3.svg",
+      "titre": "L'oxygène rend un proton",
+      "legende": "L'oxygène porte une charge positive qu'il ne garde pas : une molécule de solvant lui prend un proton, et l'alcool apparaît.",
+      "fleches": [
+        "Un doublet du solvant va chercher l'un des hydrogènes.",
+        "Les électrons de la liaison O–H restent sur l'oxygène, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "sn1-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcool tertiaire est formé, le bromure est libre. Si le carbone de départ était stéréogène, le produit est un mélange racémique.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "participation_groupe_voisin": {
+    "2": {
+      "fichier": "participation_groupe_voisin-etape2.svg",
+      "titre": "Le voisin attaque le premier",
+      "legende": "Le carboxylate est déjà sur place : il attaque le carbone par l'arrière pendant que le brome s'en va. Première inversion, et un anneau tendu à trois atomes se referme.",
+      "fleches": [
+        "Un doublet du carboxylate forme une liaison avec le carbone porteur du brome.",
+        "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "participation_groupe_voisin-etape3.svg",
+      "titre": "L'anneau s'ouvre, seconde inversion",
+      "legende": "L'ion hydroxyde attaque le même carbone, par l'arrière lui aussi. La molécule se retourne une seconde fois : les deux retournements s'annulent.",
+      "fleches": [
+        "Un doublet de l'ion hydroxyde forme la nouvelle liaison.",
+        "La liaison qui fermait l'anneau se rompt : ses électrons partent sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "participation_groupe_voisin-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'acide (R)-lactique : même orientation qu'au départ, après deux inversions successives.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

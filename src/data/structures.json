@@ -19,6 +19,14 @@
     "substrat": "grignard-substrat.svg",
     "produit": "grignard-produit.svg"
   },
+  "sn1": {
+    "substrat": "sn1-substrat.svg",
+    "produit": "sn1-produit.svg"
+  },
+  "participation_groupe_voisin": {
+    "substrat": "participation_groupe_voisin-substrat.svg",
+    "produit": "participation_groupe_voisin-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
