@@ -1,5 +1,5 @@
 <svg xmlns='http://www.w3.org/2000/svg' version='1.1'
-     width='191px' height='250px' viewBox='0 -7 191 250'>
+     width='185px' height='253px' viewBox='4 -14 185 253'>
   <g transform='translate(-24.4, -47.2)'><path class='bond-1 atom-1 atom-2' d='M 134.2,70.7 L 158.2,112.3 L 136.0,125.1 L 112.0,83.5 Z' style='fill:#C6E5F9;fill-rule:evenodd;fill-opacity:1;stroke:#C6E5F9;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
     <ellipse cx='147.1' cy='121.9' rx='13.4' ry='13.4' class='atom-1'  style='fill:#FFD1DD;fill-rule:evenodd;stroke:#FFD1DD;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
     <ellipse cx='123.1' cy='80.4' rx='13.4' ry='13.4' class='atom-2'  style='fill:#FFD1DD;fill-rule:evenodd;stroke:#FFD1DD;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />

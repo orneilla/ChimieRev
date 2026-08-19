@@ -265,6 +265,28 @@ Les espèces sont **toujours empilées**, une par ligne, séparées par un seul
 Chaque espèce est resserrée sur son contenu réel avant d'être posée, et le
 schéma final est recadré : pas de vide inutile à faire défiler.
 
+### Un schéma illisible n'est pas publié
+
+Un numéro posé sur un atome cache la molécule ; deux numéros collés ne se
+lisent plus. Le placement cherche à l'éviter — mais chercher n'est pas
+garantir. Le dessinateur **vérifie donc chaque schéma** avant de l'écrire,
+et refuse de le produire si l'une de ces distances n'est pas tenue :
+
+| Entre | Distance minimale |
+|---|---|
+| un numéro et le centre d'un atome | 33 px |
+| deux numéros | 36 px |
+| un numéro et un trait de liaison | 16 px |
+
+En cas de refus, le message dit lequel des numéros pose problème et de
+combien de pixels, et rappelle les trois remèdes : écarter les espèces,
+changer la courbure d'une flèche, ou répartir les flèches sur deux étapes.
+
+Ces seuils sont réglables par variables d'environnement
+(`CHIMIEREV_DEGAGEMENT_ATOME`, etc.) — non pour les assouplir au besoin,
+mais pour que `npm run tester` puisse demander l'impossible au contrôle et
+vérifier qu'il refuse bien.
+
 ### Ce que le moteur règle tout seul
 
 Deux réglages seraient intenables à la main sur des centaines de réactions,
@@ -274,8 +296,10 @@ ils sont donc automatiques :
   deux côtés et garde celle qui laisse le plus d'air autour des atomes que
   la flèche ne relie pas (le côté demandé dans les données garde un
   avantage, il n'est abandonné que si un autre dégage nettement mieux) ;
-- **la position de chaque numéro** : il s'écarte de la courbe jusqu'à ne
-  plus toucher aucun atome.
+- **la position de chaque numéro** : elle est cherchée en spirale autour du
+  sommet de la courbe — d'abord tout près et dans l'axe, puis plus loin et
+  de biais — jusqu'à trouver une place qui respecte les trois dégagements,
+  en tenant compte des numéros déjà posés.
 
 Reste un réglage utile à la main : **l'ordre des espèces dans le SMILES**.
 Il fixe qui est dessiné en haut et qui est en bas. Écrire le substrat avant
@@ -332,6 +356,7 @@ la suivante.
 | `npm run tester` | un vérificateur devenu aveugle |
 | `npm run valider` | une fiche incomplète, un SMILES illisible, une famille inconnue |
 | `npm run verifier` | des flèches qui ne mènent pas au produit annoncé |
+| le dessinateur | un schéma dont les numéros se chevauchent ou masquent la molécule |
 | relecture humaine | un mécanisme qui n'est pas celui de la nature |
 
 Les trois premiers sont automatiques et bloquants. Le quatrième ne

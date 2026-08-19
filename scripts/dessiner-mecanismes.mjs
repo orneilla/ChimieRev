@@ -26,18 +26,34 @@ import { createRequire } from 'module'
 const require = createRequire(import.meta.url)
 const initRDKit = require('@rdkit/rdkit')
 
-const DOSSIER = 'public/mecanismes'
+// On peut viser d'autres fichiers que ceux du projet : c'est ainsi que le
+// contrôle de lisibilité se teste lui-même (scripts/tester-verificateur.mjs).
+const FICHIER = process.argv[2] || 'src/data/mecanismes.json'
+const DOSSIER = process.argv[3] || 'public/mecanismes'
+const MANIFESTE = process.argv[4] || 'src/data/mecanismes-dessins.json'
 const MANUELS = 'public/mecanismes-manuels'
 const COULEUR_FLECHE = '#D62246'          // les flèches et leurs numéros
 const SURLIGNE_DEPART = [0.78, 0.90, 0.98] // bleu très pâle : d'où viennent les électrons
 const SURLIGNE_ARRIVEE = [1, 0.82, 0.87]   // rose très pâle : où ils vont
+// Distances minimales imposées à un numéro de flèche. Elles ne sont pas
+// indicatives : un schéma qui les enfreint n'est pas publié (voir le
+// contrôle en fin de dessinerEtape).
+// Les seuils sont réglables par variables d'environnement : c'est ainsi
+// que le test met le contrôle à l'épreuve, en lui demandant l'impossible.
+const seuil = (nom, defaut) => Number(process.env[`CHIMIEREV_${nom}`] || defaut)
+
+const RAYON_NUMERO = 11
+const DEGAGEMENT_ATOME = seuil('DEGAGEMENT_ATOME', 33)     // numéro ↔ centre d'un atome
+const DEGAGEMENT_NUMERO = seuil('DEGAGEMENT_NUMERO', 36)   // numéro ↔ numéro
+const DEGAGEMENT_LIAISON = seuil('DEGAGEMENT_LIAISON', 16) // numéro ↔ trait de liaison
+
 const CASE = 240                 // largeur de la toile de dessin d'une espèce
 const HAUTEUR_TOILE = 220        // hauteur de cette toile
 const MARGE_ESPECE = 30          // autour des atomes : lettres et surlignages
 const ECART_AVEC_FLECHES = 58    // place laissée aux flèches entre deux espèces
 const ECART_SANS_FLECHES = 34
 
-const mecanismes = JSON.parse(readFileSync('src/data/mecanismes.json', 'utf8'))
+const mecanismes = JSON.parse(readFileSync(FICHIER, 'utf8'))
 const RDKit = await initRDKit()
 
 const optionsDessin = (extra = {}) => JSON.stringify({
@@ -137,6 +153,65 @@ function dessinerEspece(smiles, misEnJeu) {
 
 const cle = (a, b) => (a < b ? `${a}-${b}` : `${b}-${a}`)
 
+/** Distance d'un point à un segment — pour ne pas poser un numéro sur une liaison. */
+function distanceAuSegment(point, p, q) {
+  const vx = q.x - p.x
+  const vy = q.y - p.y
+  const longueur2 = vx * vx + vy * vy
+  if (longueur2 === 0) return Math.hypot(point.x - p.x, point.y - p.y)
+
+  let t = ((point.x - p.x) * vx + (point.y - p.y) * vy) / longueur2
+  t = Math.max(0, Math.min(1, t))
+  return Math.hypot(point.x - (p.x + t * vx), point.y - (p.y + t * vy))
+}
+
+/**
+ * Cherche où poser le numéro d'une flèche.
+ *
+ * Le sommet de la courbe est le point idéal, mais il tombe souvent sur un
+ * atome, sur une liaison, ou sur un numéro déjà posé. On explore donc en
+ * spirale autour de ce sommet — d'abord tout près et dans l'axe, puis plus
+ * loin et de biais — et on retient la première position qui respecte les
+ * trois dégagements. À défaut, on garde la moins mauvaise : le contrôle de
+ * fin de dessin refusera alors le schéma plutôt que de le publier illisible.
+ */
+function placerNumero(sommet, direction, obstacles) {
+  const evaluer = (point) => {
+    let note = Infinity
+    for (const atome of obstacles.atomes) {
+      note = Math.min(note, Math.hypot(atome.x - point.x, atome.y - point.y) - DEGAGEMENT_ATOME)
+    }
+    for (const autre of obstacles.numeros) {
+      note = Math.min(note, Math.hypot(autre.x - point.x, autre.y - point.y) - DEGAGEMENT_NUMERO)
+    }
+    for (const [p, q] of obstacles.segments) {
+      note = Math.min(note, distanceAuSegment(point, p, q) - DEGAGEMENT_LIAISON)
+    }
+    return note
+  }
+
+  let meilleur = null
+  let meilleureNote = -Infinity
+
+  for (const rayon of [16, 22, 28, 34, 40, 46, 54]) {
+    for (const angle of [0, 0.38, -0.38, 0.75, -0.75, 1.15, -1.15, 1.6, -1.6]) {
+      const cos = Math.cos(angle)
+      const sin = Math.sin(angle)
+      const point = {
+        x: sommet.x + (direction.x * cos - direction.y * sin) * rayon,
+        y: sommet.y + (direction.x * sin + direction.y * cos) * rayon
+      }
+      const note = evaluer(point)
+      if (note >= 0) return point          // toutes les distances respectées
+      if (note > meilleureNote) {
+        meilleureNote = note
+        meilleur = point
+      }
+    }
+  }
+  return meilleur
+}
+
 /**
  * Point visé par une extrémité de flèche.
  *
@@ -157,7 +232,7 @@ function pointVise(extremite, centres, liaisonsExistantes, atomesSource) {
 }
 
 /** Une flèche courbe numérotée, de son départ à son arrivée. */
-function trace(fleche, centres, numero, liaisonsExistantes) {
+function trace(fleche, centres, numero, liaisonsExistantes, obstacles) {
   const atomesSource = fleche.de.atome !== undefined ? [fleche.de.atome] : fleche.de.liaison
   const depart = pointVise(fleche.de, centres, liaisonsExistantes, [])
   const arrivee = pointVise(fleche.vers, centres, liaisonsExistantes, atomesSource)
@@ -242,9 +317,8 @@ function trace(fleche, centres, numero, liaisonsExistantes) {
     `${(b.x - taille * Math.cos(angle + ouverture)).toFixed(1)},${(b.y - taille * Math.sin(angle + ouverture)).toFixed(1)}`
   ].join(' ')
 
-  // Le numéro se pose au sommet de la courbe, puis s'écarte vers
-  // l'extérieur jusqu'à ne plus toucher aucun atome. Sans cette
-  // vérification, il vient s'asseoir sur une lettre et cache la molécule.
+  // Le numéro se pose près du sommet de la courbe, mais jamais sur un
+  // atome, une liaison ou un autre numéro : la position est cherchée.
   const sommet = {
     x: 0.25 * a.x + 0.5 * controle.x + 0.25 * b.x,
     y: 0.25 * a.y + 0.5 * controle.y + 0.25 * b.y
@@ -254,26 +328,14 @@ function trace(fleche, centres, numero, liaisonsExistantes) {
   const norme = Math.hypot(versExterieur.x, versExterieur.y) || 1
   const direction = { x: versExterieur.x / norme, y: versExterieur.y / norme }
 
-  const DEGAGEMENT = 32   // distance minimale entre le numéro et un atome
-  let milieu = null
-  for (const ecart of [16, 22, 28, 34, 40, 46]) {
-    const essai = {
-      x: sommet.x + direction.x * ecart,
-      y: sommet.y + direction.y * ecart
-    }
-    if (centres.every((c) => Math.hypot(c.x - essai.x, c.y - essai.y) > DEGAGEMENT)) {
-      milieu = essai
-      break
-    }
-  }
-  if (!milieu) milieu = { x: sommet.x + direction.x * 46, y: sommet.y + direction.y * 46 }
+  const milieu = placerNumero(sommet, direction, obstacles)
 
   const svg = `  <path d='M ${a.x.toFixed(1)},${a.y.toFixed(1)} Q ${controle.x.toFixed(1)},${controle.y.toFixed(1)} ${b.x.toFixed(1)},${b.y.toFixed(1)}' fill='none' stroke='${COULEUR_FLECHE}' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='${pointe}' fill='${COULEUR_FLECHE}'/>
   <circle cx='${milieu.x.toFixed(1)}' cy='${milieu.y.toFixed(1)}' r='11' fill='${COULEUR_FLECHE}'/>
   <text x='${milieu.x.toFixed(1)}' y='${milieu.y.toFixed(1)}' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>${numero}</text>`
 
-  return { svg, points: [a, b, controle, milieu] }
+  return { svg, points: [a, b, controle, milieu], numero: milieu }
 }
 
 /** Assemble les espèces d'une étape et pose les flèches par-dessus. */
@@ -369,14 +431,80 @@ function dessinerEtape(etape) {
     }
   })
 
-  const tracees = (etape.fleches || []).map((f, i) => trace(f, centres, i + 1, liaisonsExistantes))
+  // Les segments de liaison, en numérotation globale : un numéro ne doit
+  // pas venir se poser dessus.
+  const segments = [...liaisonsExistantes].map((k) => {
+    const [i, j] = k.split('-').map(Number)
+    return [centres[i], centres[j]]
+  })
+
+  // Les flèches sont tracées l'une après l'autre, chacune connaissant les
+  // numéros déjà posés : c'est ainsi que deux numéros ne se collent pas.
+  const obstacles = { atomes: centres, numeros: [], segments }
+  const tracees = []
+  for (const [rang, fleche] of (etape.fleches || []).entries()) {
+    const tracee = trace(fleche, centres, rang + 1, liaisonsExistantes, obstacles)
+    obstacles.numeros.push(tracee.numero)
+    tracees.push(tracee)
+  }
   const fleches = tracees.map((t) => t.svg).join('\n')
+
+  // CONTRÔLE DE LISIBILITÉ.
+  //
+  // Un numéro posé sur un atome cache la molécule ; deux numéros collés ne
+  // se lisent plus. Le placement cherche à l'éviter, mais chercher n'est
+  // pas garantir : on vérifie, et un schéma illisible n'est pas publié.
+  const griefs = []
+  tracees.forEach((tracee, rang) => {
+    const numero = rang + 1
+    const p = tracee.numero
+
+    centres.forEach((atome, i) => {
+      const d = Math.hypot(atome.x - p.x, atome.y - p.y)
+      if (d < DEGAGEMENT_ATOME) {
+        griefs.push(`le numéro ${numero} est à ${d.toFixed(0)} px de l'atome ${i} (minimum ${DEGAGEMENT_ATOME})`)
+      }
+    })
+
+    tracees.slice(rang + 1).forEach((autre, ecart) => {
+      const d = Math.hypot(autre.numero.x - p.x, autre.numero.y - p.y)
+      if (d < DEGAGEMENT_NUMERO) {
+        griefs.push(`les numéros ${numero} et ${numero + 1 + ecart} sont à ${d.toFixed(0)} px l'un de l'autre (minimum ${DEGAGEMENT_NUMERO})`)
+      }
+    })
+
+    for (const [i, j] of [...liaisonsExistantes].map((k) => k.split('-').map(Number))) {
+      const d = distanceAuSegment(p, centres[i], centres[j])
+      if (d < DEGAGEMENT_LIAISON) {
+        griefs.push(`le numéro ${numero} est à ${d.toFixed(0)} px de la liaison ${i}–${j} (minimum ${DEGAGEMENT_LIAISON})`)
+      }
+    }
+  })
+
+  if (griefs.length > 0) {
+    throw new Error(
+      `schéma illisible :\n      - ${griefs.join('\n      - ')}\n` +
+      "      Desserrer la scène : écarter les espèces, changer la courbure d'une flèche, " +
+      "ou réécrire l'étape avec moins de flèches simultanées."
+    )
+  }
 
   // Recadrage sur ce qui est réellement dessiné.
   // Recadrage : on resserre sur ce qui est réellement dessiné (atomes,
   // flèches et numéros), sans jamais couper.
-  const points = [...centres, ...tracees.flatMap((t) => t.points)]
-  const marge = 30
+  const points = [
+    ...centres,
+    ...tracees.flatMap((t) => t.points),
+    // Les quatre bords de chaque pastille : un numéro ne doit jamais être
+    // rogné par le cadre.
+    ...tracees.flatMap((t) => [
+      { x: t.numero.x - RAYON_NUMERO, y: t.numero.y },
+      { x: t.numero.x + RAYON_NUMERO, y: t.numero.y },
+      { x: t.numero.x, y: t.numero.y - RAYON_NUMERO },
+      { x: t.numero.x, y: t.numero.y + RAYON_NUMERO }
+    ])
+  ]
+  const marge = 26
   const x = Math.min(...points.map((p) => p.x)) - marge
   const y = Math.min(...points.map((p) => p.y)) - marge
   const l = Math.max(...points.map((p) => p.x)) + marge - x
@@ -422,7 +550,11 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
     }
 
     const nom = `${idReaction}-etape${etape.numero}.svg`
-    writeFileSync(`${DOSSIER}/${nom}`, dessinerEtape(etape))
+    try {
+      writeFileSync(`${DOSSIER}/${nom}`, dessinerEtape(etape))
+    } catch (erreur) {
+      throw new Error(`${idReaction}, étape ${etape.numero} : ${erreur.message}`)
+    }
 
     manifeste[idReaction][etape.numero] = {
       fichier: nom,
@@ -440,5 +572,5 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
   }
 }
 
-writeFileSync('src/data/mecanismes-dessins.json', JSON.stringify(manifeste, null, 2) + '\n')
+writeFileSync(MANIFESTE, JSON.stringify(manifeste, null, 2) + '\n')
 console.log(`✓ ${total} étapes de mécanisme dessinées dans ${DOSSIER}/`)

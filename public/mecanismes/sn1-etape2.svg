@@ -1,5 +1,5 @@
 <svg xmlns='http://www.w3.org/2000/svg' version='1.1'
-     width='146px' height='250px' viewBox='0 0 146 250'>
+     width='147px' height='242px' viewBox='4 4 147 242'>
   <g transform='translate(-48.4, -44.0)'><ellipse cx='123.8' cy='122.0' rx='13.4' ry='13.4' class='atom-1'  style='fill:#FFD1DD;fill-rule:evenodd;stroke:#FFD1DD;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 
 <path class='bond-0 atom-0 atom-1' d='M 78.4,146.0 L 113.2,125.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />

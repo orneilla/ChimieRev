@@ -1,12 +1,12 @@
 /**
- * TESTE LE VÉRIFICATEUR — car un contrôle qui ne détecte rien ne protège
+ * TESTE LES CONTRÔLES — car un contrôle qui ne détecte rien ne protège
  * de rien.
  *
  * On prend les mécanismes du projet, on y glisse une faute connue, et on
  * exige que le vérificateur la refuse. S'il l'accepte, c'est LUI qui est
  * cassé, et il faut le savoir avant de lui faire confiance.
  */
-import { readFileSync, writeFileSync, mkdtempSync } from 'fs'
+import { readFileSync, writeFileSync, mkdtempSync, mkdirSync } from 'fs'
 import { execFileSync } from 'child_process'
 import { tmpdir } from 'os'
 import { join } from 'path'
@@ -33,6 +33,25 @@ function refuse(nom, modifier) {
 
 const etape = (donnees, id, numero) => donnees[id].etapes.find((e) => e.numero === numero)
 
+/** Le dessinateur doit refuser un schéma où les numéros deviennent illisibles. */
+function refuseDessin(nom, donnees, environnement = {}) {
+  const chemin = join(dossier, 'meca-illisible.json')
+  const sortie = join(dossier, 'dessins')
+  mkdirSync(sortie, { recursive: true })
+  writeFileSync(chemin, JSON.stringify(donnees))
+
+  try {
+    execFileSync('node', ['scripts/dessiner-mecanismes.mjs', chemin, sortie,
+                          join(dossier, 'manifeste.json')],
+                 { stdio: 'pipe', env: { ...process.env, ...environnement } })
+    console.error(`✗ ${nom} : le dessinateur a PUBLIÉ un schéma illisible.`)
+    return false
+  } catch {
+    console.log(`✓ ${nom} : refusé, comme il se doit.`)
+    return true
+  }
+}
+
 const resultats = [
   // La flèche du nucléophile vise le mauvais carbone.
   refuse('SN2, flèche sur le mauvais carbone', (d) => {
@@ -57,7 +76,27 @@ const resultats = [
   // Une étape porte des flèches mais n'annonce aucun produit : rien à vérifier.
   refuse('E2, aucun produit annoncé', (d) => {
     delete etape(d, 'e2', 1).produit_attendu
-  })
+  }),
+
+  // Le contrôle de lisibilité doit refuser ce qu'il ne peut pas placer.
+  // On lui impose des dégagements impossibles à tenir : s'il publie quand
+  // même, c'est qu'il ne contrôle rien.
+  refuseDessin('Numéros impossibles à dégager', {
+    essai: {
+      etapes: [{
+        numero: 1,
+        titre: 'Essai de surcharge',
+        smiles: 'C=CC=C',
+        legende: 'Quatre flèches sur une petite molécule.',
+        fleches: [
+          { de: { liaison: [0, 1] }, vers: { atome: 0 }, courbure: 0.2 },
+          { de: { liaison: [0, 1] }, vers: { atome: 1 }, courbure: -0.2 },
+          { de: { liaison: [2, 3] }, vers: { atome: 2 }, courbure: 0.2 },
+          { de: { liaison: [2, 3] }, vers: { atome: 3 }, courbure: -0.2 }
+        ]
+      }]
+    }
+  }, { CHIMIEREV_DEGAGEMENT_ATOME: '150', CHIMIEREV_DEGAGEMENT_NUMERO: '150' })
 ]
 
 if (resultats.every(Boolean)) {

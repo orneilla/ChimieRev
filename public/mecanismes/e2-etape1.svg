@@ -1,5 +1,5 @@
 <svg xmlns='http://www.w3.org/2000/svg' version='1.1'
-     width='215px' height='274px' viewBox='0 0 215 274'>
+     width='207px' height='266px' viewBox='4 4 207 266'>
   <g transform='translate(-24.8, -44.0)'><path class='bond-1 atom-1 atom-2' d='M 80.5,100.1 L 106.1,100.1 L 106.1,148.1 L 80.5,148.1 Z' style='fill:#C6E5F9;fill-rule:evenodd;fill-opacity:1;stroke:#C6E5F9;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
     <path class='bond-3 atom-3 atom-4' d='M 141.2,65.1 L 182.8,89.1 L 170.0,111.2 L 128.4,87.2 Z' style='fill:#C6E5F9;fill-rule:evenodd;fill-opacity:1;stroke:#C6E5F9;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
     <path class='bond-2 atom-1 atom-3' d='M 125.8,61.7 L 138.6,83.9 L 97.1,107.9 L 84.3,85.7 Z' style='fill:#FFD1DD;fill-rule:evenodd;fill-opacity:1;stroke:#FFD1DD;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
@@ -110,6 +110,6 @@ L 163.3 113.8
   <text x='106.9' y='74.4' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>2</text>
   <path d='M 136.1,47.1 Q 137.6,65.7 153.8,56.5' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='153.8,56.5 147.1,65.2 142.9,57.8' fill='#D62246'/>
-  <circle cx='131.0' cy='78.2' r='11' fill='#D62246'/>
-  <text x='131.0' y='78.2' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>3</text>
+  <circle cx='148.5' cy='85.8' r='11' fill='#D62246'/>
+  <text x='148.5' y='85.8' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>3</text>
 </svg>

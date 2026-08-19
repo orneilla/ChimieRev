@@ -1,5 +1,5 @@
 <svg xmlns='http://www.w3.org/2000/svg' version='1.1'
-     width='147px' height='226px' viewBox='0 0 147 226'>
+     width='144px' height='215px' viewBox='-2 4 144 215'>
   <g transform='translate(-46.6, -80.0)'><ellipse cx='120.0' cy='110.0' rx='22.9' ry='13.4' class='atom-0'  style='fill:#C6E5F9;fill-rule:evenodd;stroke:#C6E5F9;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 
 <path class='atom-0' d='M 103.8 103.2
@@ -98,6 +98,6 @@ L 163.3 115.5
   <text x='35.3' y='88.2' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>1</text>
   <path d='M 94.5,165.1 Q 96.0,183.7 112.2,174.5' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='112.2,174.5 105.5,183.2 101.3,175.8' fill='#D62246'/>
-  <circle cx='89.4' cy='196.2' r='11' fill='#D62246'/>
-  <text x='89.4' y='196.2' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>2</text>
+  <circle cx='84.6' cy='182.0' r='11' fill='#D62246'/>
+  <text x='84.6' y='182.0' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>2</text>
 </svg>
