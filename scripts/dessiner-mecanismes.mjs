@@ -50,6 +50,13 @@ const DEGAGEMENT_LIAISON = seuil('DEGAGEMENT_LIAISON', 16) // numéro ↔ trait 
 // devine à laquelle il appartient : un trait de rappel les relie.
 const RAYON_SANS_RAPPEL = 34
 const DEGAGEMENT_RAPPEL = seuil('DEGAGEMENT_RAPPEL', 15)  // trait de rappel ↔ centre d'un atome
+// Le « + » entre deux espèces est un signe de l'équation, pas un décor :
+// un numéro posé dessus, ou une flèche qui le barre, fait douter du nombre
+// d'espèces en jeu.
+const DEGAGEMENT_SIGNE = seuil('DEGAGEMENT_SIGNE', 26)     // numéro ↔ « + »
+// Une pastille posée sur le trait d'une AUTRE flèche fait croire qu'elle
+// appartient à celle-là.
+const DEGAGEMENT_TRACE = seuil('DEGAGEMENT_TRACE', 15)     // numéro ↔ trait d'une autre flèche
 
 const CASE = 240                 // largeur de la toile de dessin d'une espèce
 const HAUTEUR_TOILE = 220        // hauteur de cette toile
@@ -218,6 +225,12 @@ function placerNumero(sommet, direction, obstacles) {
     for (const [p, q] of obstacles.segments) {
       note = Math.min(note, distanceAuSegment(point, p, q) - DEGAGEMENT_LIAISON)
     }
+    for (const signe of obstacles.signes || []) {
+      note = Math.min(note, Math.hypot(signe.x - point.x, signe.y - point.y) - DEGAGEMENT_SIGNE)
+    }
+    for (const q of obstacles.traces || []) {
+      note = Math.min(note, Math.hypot(q.x - point.x, q.y - point.y) - DEGAGEMENT_TRACE)
+    }
     return note
   }
 
@@ -307,7 +320,10 @@ function trace(fleche, centres, numero, liaisonsExistantes, obstacles) {
     ...(fleche.de.atome !== undefined ? [fleche.de.atome] : fleche.de.liaison),
     ...(fleche.vers.atome !== undefined ? [fleche.vers.atome] : fleche.vers.liaison)
   ])
-  const aEviter = centres.filter((_, i) => !atomesRelies.has(i))
+  const aEviter = [
+    ...centres.filter((_, i) => !atomesRelies.has(i)),
+    ...(obstacles.signes || [])
+  ]
 
   const degagement = (controle) => {
     if (aEviter.length === 0) return Infinity
@@ -396,6 +412,20 @@ function trace(fleche, centres, numero, liaisonsExistantes, obstacles) {
   return { svg, points: [a, b, controle, milieu], numero: milieu }
 }
 
+/** Points le long d'une flèche tracée — pour savoir ce qu'elle traverse. */
+function echantillonner(tracee) {
+  const [a, b, controle] = tracee.points
+  const points = []
+  for (let t = 0; t <= 1.0001; t += 0.05) {
+    const u = 1 - t
+    points.push({
+      x: u * u * a.x + 2 * u * t * controle.x + t * t * b.x,
+      y: u * u * a.y + 2 * u * t * controle.y + t * t * b.y
+    })
+  }
+  return points
+}
+
 /** Assemble les espèces d'une étape et pose les flèches par-dessus. */
 function dessinerEtape(etape) {
   const especes = etape.smiles.split('.')
@@ -461,7 +491,7 @@ function dessinerEtape(etape) {
   const ecart = (etape.fleches || []).length > 0 ? ECART_AVEC_FLECHES : ECART_SANS_FLECHES
 
   let contenus = ''
-  let plus = ''
+  const signes = []   // les « + » de l'équation : eux aussi doivent rester lisibles
   const centres = []
   const liaisonsExistantes = new Set()
   let hauteur = 0
@@ -484,7 +514,7 @@ function dessinerEtape(etape) {
     // Un « + » entre deux espèces, et un seul : jamais d'ambiguïté sur le
     // nombre d'espèces qui entrent ou qui sortent.
     if (rang < dessinees.length - 1) {
-      plus += `\n  <text x='${(largeur / 2).toFixed(1)}' y='${(hauteur + ecart / 2).toFixed(1)}' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>`
+      signes.push({ x: largeur / 2, y: hauteur + ecart / 2 })
       hauteur += ecart
     }
   })
@@ -498,14 +528,33 @@ function dessinerEtape(etape) {
 
   // Les flèches sont tracées l'une après l'autre, chacune connaissant les
   // numéros déjà posés : c'est ainsi que deux numéros ne se collent pas.
-  const obstacles = { atomes: centres, numeros: [], segments }
+  const obstacles = { atomes: centres, numeros: [], segments, signes, traces: [] }
   const tracees = []
   for (const [rang, fleche] of (etape.fleches || []).entries()) {
     const tracee = trace(fleche, centres, rang + 1, liaisonsExistantes, obstacles)
     obstacles.numeros.push(tracee.numero)
+    obstacles.traces.push(...echantillonner(tracee))
     tracees.push(tracee)
   }
   const fleches = tracees.map((t) => t.svg).join('\n')
+
+  // Le « + » est posé au centre, mais c'est aussi par le centre que passent
+  // les flèches d'une espèce à l'autre. Un « + » barré par une flèche fait
+  // douter du nombre d'espèces : on le décale latéralement s'il le faut,
+  // sans jamais en ajouter ni en retirer.
+  const jalons = tracees.flatMap((t) => echantillonner(t))
+  for (const signe of signes) {
+    for (const decalage of [0, 42, -42, 68, -68, 92, -92]) {
+      const x = largeur / 2 + decalage
+      if (x < 22 || x > largeur - 22) continue
+      const libre = jalons.every((q) => Math.hypot(q.x - x, q.y - signe.y) >= DEGAGEMENT_SIGNE) &&
+        tracees.every((t) => Math.hypot(t.numero.x - x, t.numero.y - signe.y) >= DEGAGEMENT_SIGNE)
+      if (libre) { signe.x = x; break }
+    }
+  }
+  const plus = signes.map((signe) =>
+    `\n  <text x='${signe.x.toFixed(1)}' y='${signe.y.toFixed(1)}' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>`
+  ).join('')
 
   // CONTRÔLE DE LISIBILITÉ.
   //
@@ -521,6 +570,29 @@ function dessinerEtape(etape) {
       const d = Math.hypot(atome.x - p.x, atome.y - p.y)
       if (d < DEGAGEMENT_ATOME) {
         griefs.push(`le numéro ${numero} est à ${d.toFixed(0)} px de l'atome ${i} (minimum ${DEGAGEMENT_ATOME})`)
+      }
+    })
+
+    signes.forEach((signe) => {
+      const d = Math.hypot(signe.x - p.x, signe.y - p.y)
+      if (d < DEGAGEMENT_SIGNE) {
+        griefs.push(`le numéro ${numero} est à ${d.toFixed(0)} px du « + » (minimum ${DEGAGEMENT_SIGNE})`)
+      }
+    })
+
+    tracees.forEach((autre, i) => {
+      if (i === rang) return
+      const d = Math.min(...echantillonner(autre).map((q) => Math.hypot(q.x - p.x, q.y - p.y)))
+      if (d < DEGAGEMENT_TRACE) {
+        griefs.push(`le numéro ${numero} est à ${d.toFixed(0)} px du trait de la flèche ${i + 1} (minimum ${DEGAGEMENT_TRACE})`)
+      }
+    })
+
+    signes.forEach((signe) => {
+      const d = Math.min(...echantillonner(tracee)
+        .map((q) => Math.hypot(q.x - signe.x, q.y - signe.y)))
+      if (d < DEGAGEMENT_SIGNE) {
+        griefs.push(`la flèche ${numero} passe à ${d.toFixed(0)} px du « + » (minimum ${DEGAGEMENT_SIGNE})`)
       }
     })
 

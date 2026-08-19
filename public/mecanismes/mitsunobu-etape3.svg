@@ -279,7 +279,7 @@ L 97.0 107.3
 L 97.0 106.6
 ' fill='#FF7F00'/>
 </g>
-  <text x='132.8' y='161.1' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>
+  <text x='174.8' y='161.1' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>
   <path d='M 147.9,114.0 Q 76.4,184.1 106.6,286.9' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='106.6,286.9 99.6,278.4 107.8,276.0' fill='#D62246'/>
   <circle cx='89.5' cy='182.1' r='11' fill='#D62246'/>

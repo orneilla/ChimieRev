@@ -267,6 +267,78 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "finkelstein": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "345",
+          "note": "L'échange bromure → iodure dans l'acétone, donné comme exemple type de SN2 : NaI soluble dans l'acétone, NaBr insoluble. L'acétone solvate mal l'iodure, ce qui le rend plus réactif, et l'état de transition, dont la charge est répartie sur deux atomes, a moins besoin d'être solvaté que l'anion de départ."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — Nucleophilic substitution at C=O with loss of oxygen",
+          "pages": "255",
+          "note": "La réaction avec son rendement (66 %) et le rôle du solvant : l'eau dissout bien le bromure de sodium, l'acétone non — d'où le déplacement de l'équilibre."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "340",
+          "note": "Méthyle et primaire réagissent toujours par SN2, jamais par SN1 : ce qui borne le champ d'application de l'échange."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "halogenation_alcool_pbr3": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "348",
+          "note": "Le mécanisme complet sur le 2-méthylpropan-1-ol (91 %) : attaque de l'oxygène sur le phosphore (SN2 au phosphore), perte du proton, puis déplacement de l'oxyanion lié au phosphore par un bromure. Y figure aussi l'énoncé fondamental : l'ion hydroxyde n'est jamais un groupe partant, parce qu'un nucléophile assez fort pour le déplacer arracherait d'abord le proton de l'alcool."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "329",
+          "note": "Le contraste entre alcools tertiaires (HBr seul, SN1) et alcools primaires (PBr₃, SN2)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "sn2_prime": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups / Nucleophilic attack on allylic compounds",
+          "pages": "574–576",
+          "note": "Définition de la SN2′ et son mécanisme concerté ; règle de régiosélectivité (attaque à l'extrémité la moins encombrée, que ce soit par SN2 ou par SN2′) ; exemple du 3-chlorobut-1-ène avec la diéthylamine, qui passe entièrement par la SN2′ ; réserve explicite sur la possibilité d'un carbocation allylique dans le cas du bromure de prényle."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23",
+          "pages": "577",
+          "note": "Rapprochement avec la réaction de Mitsunobu : dans les deux cas le phosphore sert à ôter le groupe OH."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "ouverture_epoxyde_acide": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "438",
+          "note": "Les deux régiochimies opposées à partir du même époxyde trisubstitué : méthanolate en milieu basique (attaque du carbone le moins substitué, SN2 pure) contre méthanol en milieu acide (attaque du carbone le plus substitué). Le mécanisme acide est détaillé avec son état de transition de SN2 « lâche » et la charge positive stabilisée par les groupes alkyle. La page ajoute la réserve : même en milieu acide, la SN2 sur un centre primaire reste rapide."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

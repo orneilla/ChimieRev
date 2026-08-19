@@ -43,6 +43,22 @@
     "substrat": "ouverture_epoxyde_base-substrat.svg",
     "produit": "ouverture_epoxyde_base-produit.svg"
   },
+  "finkelstein": {
+    "substrat": "finkelstein-substrat.svg",
+    "produit": "finkelstein-produit.svg"
+  },
+  "halogenation_alcool_pbr3": {
+    "substrat": "halogenation_alcool_pbr3-substrat.svg",
+    "produit": "halogenation_alcool_pbr3-produit.svg"
+  },
+  "sn2_prime": {
+    "substrat": "sn2_prime-substrat.svg",
+    "produit": "sn2_prime-produit.svg"
+  },
+  "ouverture_epoxyde_acide": {
+    "substrat": "ouverture_epoxyde_acide-substrat.svg",
+    "produit": "ouverture_epoxyde_acide-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

@@ -96,7 +96,24 @@ const resultats = [
         ]
       }]
     }
-  }, { CHIMIEREV_DEGAGEMENT_ATOME: '150', CHIMIEREV_DEGAGEMENT_NUMERO: '150' })
+  }, { CHIMIEREV_DEGAGEMENT_ATOME: '150', CHIMIEREV_DEGAGEMENT_NUMERO: '150' }),
+
+  // Le « + » de l'équation compte autant que le reste : une flèche qui le
+  // barre, ou un numéro posé dessus, fait douter du nombre d'espèces.
+  refuseDessin('« + » barré par une flèche', {
+    essai: {
+      etapes: [{
+        numero: 1,
+        titre: 'Essai sur le signe de l\'équation',
+        smiles: 'CCBr.[O-]C',
+        legende: 'Une flèche qui traverse l\'espace entre les deux espèces.',
+        fleches: [
+          { de: { atome: 3 }, vers: { liaison: [3, 1] }, courbure: 0.3 },
+          { de: { liaison: [1, 2] }, vers: { atome: 2 }, courbure: 0.35 }
+        ]
+      }]
+    }
+  }, { CHIMIEREV_DEGAGEMENT_SIGNE: '400' })
 ]
 
 if (resultats.every(Boolean)) {

@@ -34,7 +34,7 @@
         {
           "nom": "Échange de Finkelstein",
           "niveau": "L3",
-          "id": null
+          "id": "finkelstein"
         },
         {
           "nom": "Activation des alcools (tosylates, mésylates)",
@@ -44,7 +44,7 @@
         {
           "nom": "Halogénation des alcools (SOCl₂, PBr₃)",
           "niveau": "L3",
-          "id": null
+          "id": "halogenation_alcool_pbr3"
         },
         {
           "nom": "Réaction de Mitsunobu",
@@ -54,7 +54,7 @@
         {
           "nom": "Substitution allylique SN2′",
           "niveau": "M1",
-          "id": null
+          "id": "sn2_prime"
         },
         {
           "nom": "Ouverture des époxydes en milieu basique",
@@ -64,7 +64,7 @@
         {
           "nom": "Ouverture des époxydes en milieu acide",
           "niveau": "L3",
-          "id": null
+          "id": "ouverture_epoxyde_acide"
         },
         {
           "nom": "Substitution avec participation du groupe voisin",

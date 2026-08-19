@@ -339,5 +339,145 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "finkelstein": {
+    "1": {
+      "fichier": "finkelstein-etape1.svg",
+      "titre": "L'iodure pousse le bromure dehors",
+      "legende": "Une SN2 sans surprise : l'iodure arrive du côté opposé au brome, la liaison se forme pendant que l'autre se rompt. Le carbone se retourne au passage.",
+      "fleches": [
+        "L'iodure attaque le carbone par l'arrière, du côté opposé au brome.",
+        "Les électrons de la liaison C–Br partent avec le brome, qui devient bromure."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "finkelstein-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'iodure d'alkyle. Le bromure de sodium, lui, n'est plus en solution : il a précipité au fond du ballon, et c'est ce départ qui rend l'échange complet.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "halogenation_alcool_pbr3": {
+    "1": {
+      "fichier": "halogenation_alcool_pbr3-etape1.svg",
+      "titre": "L'alcool se lie au phosphore",
+      "legende": "Le groupe OH ne partira jamais tel quel. On commence donc par le raccrocher à un phosphore, qui a une affinité considérable pour l'oxygène. Un brome est chassé au passage.",
+      "fleches": [
+        "Un doublet libre de l'oxygène forme la liaison avec le phosphore.",
+        "Une liaison phosphore–brome se rompt : le brome part en emportant les deux électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "halogenation_alcool_pbr3-etape2.svg",
+      "titre": "Le bromure retire le proton",
+      "legende": "L'oxygène porte encore son hydrogène et une charge positive : c'est intenable. Le bromure qui vient d'être libéré s'en charge.",
+      "fleches": [
+        "Le bromure attrape le proton porté par l'oxygène.",
+        "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "halogenation_alcool_pbr3-etape3.svg",
+      "titre": "L'attaque finale sur le carbone",
+      "legende": "Maintenant seulement le carbone est attaquable : ce qu'il porte n'est plus un OH mais un morceau qui accepte de partir, parce que le phosphore encaisse la charge sans difficulté.",
+      "fleches": [
+        "Un bromure attaque le carbone par l'arrière.",
+        "Les électrons de la liaison C–O restent à l'oxygène : le groupe phosphoré s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "halogenation_alcool_pbr3-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le bromure d'alkyle, avec 91 % de rendement sur cet exemple. Le OH de départ est parti sous forme d'un morceau contenant le phosphore.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "sn2_prime": {
+    "1": {
+      "fichier": "sn2_prime-etape1.svg",
+      "titre": "L'attaque à l'autre bout, et la double liaison qui glisse",
+      "legende": "Trois flèches en même temps, et c'est bien un seul geste : l'amine se fixe au bout libre, la double liaison se décale d'un cran, le chlore part. Une vague qui traverse la molécule.",
+      "fleches": [
+        "Le doublet de l'azote forme la liaison avec le carbone le plus dégagé — celui qui ne porte pas le chlore.",
+        "La double liaison glisse d'un cran, vers le carbone porteur du chlore.",
+        "La liaison C–Cl se rompt : le chlore part avec les deux électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "sn2_prime-etape2.svg",
+      "titre": "Une seconde amine libère le produit",
+      "legende": "L'azote du produit porte encore un proton et une charge positive. Une deuxième molécule d'amine — il y en a en excès dans le ballon — le lui retire.",
+      "fleches": [
+        "Le doublet de la seconde amine attrape le proton.",
+        "Les électrons de la liaison N–H reviennent à l'azote, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "sn2_prime-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Compare avec le départ : l'azote n'est pas là où était le chlore, et la double liaison a changé de place. Tout a bougé d'un cran — c'est la signature d'une SN2′.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "ouverture_epoxyde_acide": {
+    "1": {
+      "fichier": "ouverture_epoxyde_acide-etape1.svg",
+      "titre": "L'acide protone l'oxygène du cycle",
+      "legende": "Première chose à faire : donner un proton à l'oxygène. Sans cela il ne partirait pas — et c'est précisément ce qui change tout par rapport au milieu basique.",
+      "fleches": [
+        "Un doublet libre de l'oxygène du cycle capte un proton du milieu acide.",
+        "Les électrons de la liaison O–H restent sur l'oxygène : il repart en molécule d'eau."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "ouverture_epoxyde_acide-etape2.svg",
+      "titre": "Le méthanol attaque le carbone le plus substitué",
+      "legende": "L'oxygène protoné tire sur ses liaisons. Une charge positive naissante apparaît, et elle se loge de préférence sur le carbone entouré de deux groupes méthyle. C'est là que le méthanol se laisse attirer — pas là où il y aurait de la place.",
+      "fleches": [
+        "Un doublet de l'oxygène du méthanol attaque le carbone le plus substitué.",
+        "La liaison carbone–oxygène du cycle se rompt : le cycle s'ouvre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "ouverture_epoxyde_acide-etape3.svg",
+      "titre": "Le proton est rendu au milieu",
+      "legende": "Il reste un proton en trop. Une molécule de méthanol le reprend : le produit devient neutre, et l'acide est régénéré — c'est pour cela qu'il suffit d'en mettre une pointe.",
+      "fleches": [
+        "Une molécule de méthanol attrape le proton en excès.",
+        "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "ouverture_epoxyde_acide-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le méthoxy est sur le carbone le plus encombré, le OH sur l'autre. En milieu basique, on obtiendrait exactement l'inverse à partir du même époxyde.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

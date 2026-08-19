@@ -299,5 +299,113 @@
     "explication_reference": "Ouverture d'un oxirane par attaque nucléophile en conditions neutres ou basiques. La tension de cycle, considérable dans un hétérocycle à trois chaînons dont les angles internes valoisinent 60°, constitue le moteur de la réaction : une seule attaque nucléophile suffit à la libérer et à restaurer des angles tétraédriques normaux. Le mécanisme est celui d'une substitution nucléophile bimoléculaire : attaque dorsale sur l'un des carbones du cycle, rupture concertée de la liaison C–O et formation d'un alcoolate, protoné ensuite par le milieu. En l'absence de catalyse acide, la régiosélectivité obéit aux contraintes stériques usuelles de la SN2 et l'attaque se produit sur le carbone le moins substitué. La stéréochimie est celle d'une SN2 : inversion de configuration au carbone attaqué, ce qui se lit directement sur les époxydes fusionnés à un cycle, où le produit obtenu est trans.",
     "explication_comprendre": "POURQUOI un cycle à trois atomes réagit-il si facilement, alors qu'un éther ordinaire ne réagit pas du tout ?\n\nLa réponse tient dans une question de géométrie. Un atome de carbone aime avoir ses liaisons écartées d'environ 109 degrés : c'est sa position de repos. Dans un anneau à trois atomes, il n'a pas le choix : les angles sont forcés à 60 degrés. C'est comme plier un ressort et le maintenir plié.\n\nToute cette tension est de l'énergie stockée. La molécule ne demande qu'une chose : qu'on lui donne l'occasion de se détendre.\n\nCOMMENT ça se déroule\n\nIl suffit qu'un partenaire riche en électrons — ici une amine — vienne attaquer l'un des deux carbones du cycle, par l'arrière comme toujours. L'anneau s'ouvre, l'oxygène part d'un côté avec les électrons, et tous les angles retrouvent leur valeur confortable. Le ressort s'est détendu.\n\nUn transfert de proton, et on obtient une molécule qui porte à la fois un alcool et une amine, sur deux carbones voisins.\n\nDE QUEL CÔTÉ S'OUVRE-T-IL ?\n\nDeux carbones, donc deux possibilités. En l'absence d'acide, c'est la règle habituelle qui tranche : le partenaire attaque là où il peut passer, c'est-à-dire du côté le moins encombré.\n\nRetiens bien cette condition — « en l'absence d'acide » — parce qu'en milieu acide, la réponse s'inverse, et c'est une des confusions les plus fréquentes de tout le chapitre.\n\nCE QU'IL FAUT EN RETENIR\n\nUn ressort comprimé qu'on libère. Ce n'est pas la force du nucléophile qui fait la réaction, c'est la tension du cycle qui la rend inévitable.",
     "niveau_difficulte": 4
+  },
+  {
+    "id": "finkelstein",
+    "nom": "Échange de Finkelstein",
+    "famille": "Substitutions",
+    "symbole": "Br → I",
+    "substrat_SMILES": "CCCCBr",
+    "produit_SMILES": "CCCCI",
+    "reactifs": [
+      "NaI (en excès)"
+    ],
+    "solvant": "Acétone",
+    "mecanisme_etapes": [
+      "L'iodure attaque le carbone par l'arrière, du côté opposé au brome : une SN2 ordinaire, en une seule étape, sans intermédiaire.",
+      "Le bromure de sodium formé ne se dissout pas dans l'acétone : il précipite et quitte la solution, ce qui tire l'équilibre du côté du produit."
+    ],
+    "selectivite": "Réservé aux halogénures méthyliques et primaires, éventuellement secondaires : c'est une SN2, donc l'encombrement du carbone commande (Clayden p. 340). Le sens de l'échange — bromure vers iodure — n'est pas dicté par la force des liaisons, qui va dans l'autre sens, mais par la solubilité : dans l'acétone, NaI se dissout et NaBr non (Clayden p. 255, p. 345).",
+    "pieges": [
+      "Croire que l'iodure est thermodynamiquement favorisé : la liaison C–I est plus faible que la liaison C–Br, et l'iodure est aussi un meilleur groupe partant. Sans le retrait du NaBr solide, l'équilibre irait plutôt dans l'autre sens.",
+      "Changer de solvant : dans l'eau ou l'éthanol, NaBr se dissout aussi, le précipité ne se forme pas, et l'échange ne s'achève pas.",
+      "Tenter l'échange sur un halogénure tertiaire : il n'y a pas de place pour l'attaque par l'arrière.",
+      "Oublier que l'acétone joue un double rôle : elle rend l'iodure plus réactif en le solvatant mal (Clayden p. 345), et elle refuse de dissoudre le bromure formé."
+    ],
+    "explication_reference": "Substitution nucléophile bimoléculaire d'un halogénure primaire par l'iodure, conduite dans l'acétone. La réaction est un équilibre : iodure et bromure sont tous deux de bons nucléofuges, et la thermodynamique intrinsèque ne favorise pas nettement un sens. Le déplacement est obtenu par un artifice de solubilité : l'iodure de sodium est soluble dans l'acétone, le bromure de sodium ne l'est pas. Le NaBr engendré précipite, sa concentration en solution reste nulle, et l'équilibre se déplace quantitativement vers l'iodure d'alkyle. L'acétone remplit une seconde fonction : solvant aprotique peu polaire, elle solvate mal l'anion iodure, dont la nucléophilie s'en trouve accrue, tandis que l'état de transition, dont la charge est délocalisée sur deux atomes, requiert moins de solvatation que l'anion localisé de départ — la réaction s'en trouve accélérée.",
+    "explication_comprendre": "POURQUOI voudrait-on remplacer un brome par un iode ?\n\nParce qu'un iode se laisse chasser bien plus facilement qu'un brome. Si la réaction suivante que tu prévois est difficile, tu commences par installer l'iode : la suite devient plus facile. C'est un échange préparatoire, pas une fin en soi.\n\nCOMMENT force-t-on un échange qui ne se fait pas spontanément ?\n\nVoilà le problème : les deux échanges sont possibles, dans un sens comme dans l'autre. On a affaire à une balance qui hésite. Si on laisse faire, on obtient un mélange.\n\nL'astuce est étonnamment simple, et elle ne touche pas du tout à la chimie de la liaison. On choisit un liquide — l'acétone — dans lequel le réactif de départ se dissout, mais où le sous-produit refuse de se dissoudre. Le sous-produit tombe alors au fond du récipient sous forme de solide. Et un produit qui a quitté la solution ne peut plus repartir en arrière : la balance bascule d'un seul côté, définitivement.\n\nC'est le même raisonnement que pour un jeu de chaises musicales où l'on retirerait les joueurs sortis de la salle : ils ne peuvent plus revenir.\n\nL'ATTAQUE ELLE-MÊME\n\nRien d'exotique : l'iode arrive par l'arrière, du côté opposé au brome, pousse et prend sa place pendant que le brome s'en va. Le carbone se retourne au passage, comme un parapluie dans le vent. C'est pour cela que la réaction ne marche que sur des carbones dégagés : s'ils sont entourés de groupes volumineux, l'iode ne peut pas approcher.\n\nUN DÉTAIL QUI COMPTE\n\nL'acétone rend aussi l'iodure plus mordant. Dans l'eau, chaque ion iodure serait enveloppé de molécules d'eau qui l'engourdissent. L'acétone l'entoure mal : il reste vif, disponible, prêt à attaquer.",
+    "niveau_difficulte": 3
+  },
+  {
+    "id": "halogenation_alcool_pbr3",
+    "nom": "Halogénation d'un alcool par PBr₃",
+    "famille": "Substitutions",
+    "symbole": "PBr₃",
+    "substrat_SMILES": "CC(C)CO",
+    "produit_SMILES": "CC(C)CBr",
+    "reactifs": [
+      "PBr₃"
+    ],
+    "solvant": "Sans solvant, au reflux",
+    "mecanisme_etapes": [
+      "L'oxygène de l'alcool attaque le phosphore et chasse un ion bromure : une SN2 jouée sur le phosphore, exactement comme dans la réaction de Mitsunobu.",
+      "Le bromure ainsi libéré reprend le proton resté sur l'oxygène. Il ne reste plus qu'un ester de phosphore, R–O–PBr₂.",
+      "Un second bromure attaque enfin le carbone par l'arrière : c'est l'oxyanion lié au phosphore qui part, et cette fois c'est un excellent groupe partant."
+    ],
+    "selectivite": "Marche bien sur les alcools primaires : la dernière étape est une SN2 au carbone (Clayden p. 348). Sur un alcool tertiaire, on n'utilise pas PBr₃ mais simplement HBr concentré, qui passe alors par un carbocation — mécanisme SN1 (p. 348). Sur un alcool secondaire, HBr concentré seul suffit souvent (cyclohexanol → bromocyclohexane, 74 %).",
+    "pieges": [
+      "Croire que l'ion hydroxyde peut partir tout seul : il ne part jamais. Un nucléophile assez fort pour le déplacer serait d'abord assez basique pour arracher le proton de l'alcool (Clayden p. 348). Tout le mécanisme n'existe que pour contourner cet obstacle.",
+      "Oublier la déprotonation intermédiaire : sans elle, l'oxygène porterait deux charges positives dans son voisinage immédiat.",
+      "Employer PBr₃ sur un alcool tertiaire : l'encombrement bloque la SN2 finale.",
+      "Confondre les deux SN2 de la séquence : la première se joue sur le phosphore, la seconde sur le carbone. Seule la seconde inverse la configuration du carbone."
+    ],
+    "explication_reference": "Conversion d'un alcool primaire en bromure d'alkyle par le tribromure de phosphore. Le groupe hydroxyle n'étant pas un nucléofuge — l'ion hydroxyde est trop basique —, la séquence l'active en l'associant à un élément formant des liaisons fortes avec l'oxygène. L'oxygène de l'alcool attaque le phosphore par substitution nucléophile au phosphore, avec départ d'un ion bromure ; la déprotonation de l'oxonium ainsi engendré fournit l'ester de dibromophosphine R–O–PBr₂. Le déplacement de cet oxyanion lié au phosphore par un ion bromure constitue alors une substitution nucléophile bimoléculaire favorable, la charge négative résiduelle étant stabilisée par le phosphore. Le rendement sur le 2-méthylpropan-1-ol atteint 91 %.",
+    "explication_comprendre": "POURQUOI faut-il un réactif au phosphore pour remplacer un simple OH ?\n\nParce que le groupe OH ne s'en va jamais de lui-même. Jamais. C'est le point le plus important de toute cette famille de réactions, et il vaut la peine de comprendre pourquoi.\n\nImagine que tu veuilles déloger quelqu'un accroché à une rampe. Il faudrait tirer très fort. Mais si tu es assez fort pour tirer aussi fort, tu commences par lui arracher son chapeau — c'est plus facile. En chimie, le chapeau c'est le proton de l'alcool : tout partenaire assez puissant pour chasser le OH commence par prendre le proton à la place. Résultat : rien ne se passe.\n\nCOMMENT contourne-t-on cet obstacle ?\n\nEn transformant le OH en autre chose, quelque chose qui, lui, accepte de partir. Et pour cela on utilise une attraction très forte : le phosphore et l'oxygène s'aiment énormément. Quand un phosphore capture un oxygène, la liaison qu'il forme est extrêmement solide.\n\nC'est exactement la même idée que la réaction de Mitsunobu, en plus économique.\n\nLES TROIS TEMPS\n\nD'abord, l'oxygène de l'alcool vient se coller au phosphore, qui lâche un brome au passage. Ce brome, devenu ion bromure, flotte alors dans le récipient.\n\nEnsuite, ce même bromure retire le proton resté sur l'oxygène. L'ensemble redevient neutre et calme.\n\nEnfin, un autre bromure vient attaquer le carbone par l'arrière et pousse dehors le morceau contenant le phosphore. Cette fois ça marche, parce que ce morceau-là est parfaitement heureux de partir : le phosphore encaisse la charge sans difficulté.\n\nCE QU'IL FAUT RETENIR\n\nDeux attaques par l'arrière dans la même réaction — mais pas sur le même atome. La première se joue sur le phosphore, la seconde sur le carbone. Seule la seconde retourne le carbone.",
+    "niveau_difficulte": 4
+  },
+  {
+    "id": "sn2_prime",
+    "nom": "Substitution allylique SN2′",
+    "famille": "Substitutions",
+    "symbole": "SN2′",
+    "substrat_SMILES": "C=CC(C)Cl",
+    "produit_SMILES": "CC=CCN(CC)CC",
+    "reactifs": [
+      "HNEt₂ (diéthylamine, en excès)"
+    ],
+    "solvant": "Sans solvant particulier",
+    "mecanisme_etapes": [
+      "Le nucléophile n'attaque pas le carbone qui porte le chlore, mais l'autre extrémité de la double liaison. Trois mouvements d'électrons se produisent ensemble : la formation de la nouvelle liaison, le glissement de la double liaison d'un cran, et le départ du chlorure.",
+      "Une seconde molécule d'amine retire le proton porté par l'azote devenu positif : l'amine du produit est ainsi libérée sous forme neutre."
+    ],
+    "selectivite": "L'attaque a lieu à l'extrémité la moins encombrée du système allylique, que cela corresponde à une SN2 ou à une SN2′ (Clayden p. 575). Sur le bromure de prényle, dont un bout est primaire et l'autre tertiaire, c'est donc la SN2 qui l'emporte entièrement ; sur le chlorobut-3-ène, dont un bout est secondaire et l'autre primaire, c'est la SN2′. Aucun des deux mécanismes n'est privilégié en soi : le cas particulier décide (p. 575). Un halogénure allylique est par ailleurs plus réactif qu'un halogénure ordinaire, car la double liaison rend la molécule plus électrophile (p. 576).",
+    "pieges": [
+      "Écrire l'attaque sur le carbone porteur du chlore par réflexe : dans une SN2′, le nucléophile arrive à l'autre bout, et la double liaison se déplace pour l'accueillir.",
+      "Oublier de déplacer la double liaison : c'est elle qui relie l'endroit attaqué à l'endroit quitté.",
+      "Conclure trop vite au mécanisme : sur le bromure de prényle, Clayden reconnaît qu'on ne peut pas exclure le carbocation allylique, car les deux isomères s'équilibrent rapidement en solution (p. 576).",
+      "Négliger la seconde étape : avec une amine neutre comme nucléophile, le produit brut est un sel d'ammonium ; il faut une seconde molécule d'amine, ou une base, pour libérer l'amine."
+    ],
+    "explication_reference": "Substitution nucléophile allylique avec transposition. Le nucléophile s'additionne sur l'extrémité distale du système allylique ; la liaison π se déplace vers la liaison σ carbone–nucléofuge, dont la rupture est concertée avec l'attaque. Le bilan est celui d'une substitution, mais le site attaqué et le site quitté sont distincts, et la double liaison a migré d'une position. La régiosélectivité entre SN2 et SN2′ se décide par l'encombrement : l'attaque a lieu au carbone le moins substitué du système allylique, indépendamment du mécanisme que cela implique. Lorsque le nucléofuge est un bromure et le carbocation allylique accessible, les isomères allyliques s'équilibrent plus vite que la substitution, et la distinction mécanistique entre voie bimoléculaire et voie monomoléculaire devient expérimentalement délicate.",
+    "explication_comprendre": "POURQUOI une réaction où le nucléophile n'arrive pas là où on l'attend ?\n\nParce que, dans certaines molécules, deux positions communiquent. Entre elles se trouve une double liaison, et une double liaison n'est pas un mur : c'est un couloir. Ce qui arrive à un bout se répercute à l'autre.\n\nCOMMENT cela fonctionne-t-il ?\n\nRegarde la molécule de départ : un chlore d'un côté, une double liaison juste à côté. Trois carbones se suivent, reliés par ce couloir.\n\nLe partenaire attaquant arrive à l'extrémité opposée au chlore. Au même instant, la double liaison glisse d'un cran vers le chlore et le pousse dehors. Tout se passe en un seul mouvement continu, comme une vague qui traverse la molécule d'un bout à l'autre.\n\nRésultat : le nouveau groupe est installé là où se trouvait la double liaison, et la double liaison, elle, se retrouve là où était le chlore. Tout a bougé d'un cran.\n\nPOURQUOI ce chemin plutôt que le chemin direct ?\n\nUniquement une question de place. Le partenaire attaquant choisit toujours le carbone le plus dégagé. Ici, le carbone qui porte le chlore a déjà un groupe encombrant à côté de lui ; l'autre extrémité est nue. Le choix est vite fait.\n\nEt si c'était l'inverse — extrémité libre du côté du chlore — la réaction se ferait directement, sans détour. Il n'y a pas de chemin « préféré » en soi : la molécule choisit à chaque fois le passage le plus large.\n\nUNE PRÉCAUTION D'HONNÊTETÉ\n\nLe manuel prévient : dans certains cas, on ne peut pas prouver que la réaction se fait bien ainsi plutôt qu'en passant par un intermédiaire chargé. Les deux explications donnent le même produit. C'est un bon rappel qu'un mécanisme est une hypothèse étayée, pas une photographie.",
+    "niveau_difficulte": 6
+  },
+  {
+    "id": "ouverture_epoxyde_acide",
+    "nom": "Ouverture d'un époxyde en milieu acide",
+    "famille": "Substitutions",
+    "symbole": "H⁺",
+    "substrat_SMILES": "CC1OC1(C)C",
+    "produit_SMILES": "CC(O)C(C)(C)OC",
+    "reactifs": [
+      "MeOH",
+      "HCl (catalytique)"
+    ],
+    "solvant": "Méthanol",
+    "mecanisme_etapes": [
+      "L'acide protone l'oxygène du cycle. Sans cette protonation, l'oxygène serait un très mauvais groupe partant et rien ne se passerait.",
+      "Le méthanol attaque le carbone le PLUS substitué. Le cycle s'ouvre au même moment : l'état de transition est une SN2 « lâche », où la charge positive est déjà largement portée par ce carbone — et deux groupes alkyle savent la supporter.",
+      "Une molécule de méthanol reprend le proton en trop : le catalyseur acide est rendu, et le produit est neutre."
+    ],
+    "selectivite": "Régiosélectivité inverse de celle observée en milieu basique : l'attaque a lieu au carbone le plus substitué, alors que l'alcoolate attaque le moins substitué (Clayden p. 438). Ce n'est plus l'encombrement qui décide, mais la charge positive accumulée sur le carbone le plus substitué, que les groupes alkyle stabilisent. La règle n'est cependant pas absolue : Clayden précise que même en milieu acide, la substitution SN2 sur un centre primaire reste rapide, et l'ion bromure en milieu acide attaque bien l'extrémité primaire (p. 438).",
+    "pieges": [
+      "Appliquer la règle de l'encombrement comme en milieu basique : ici elle donne la mauvaise réponse.",
+      "Parler de SN1 et de carbocation libre : Clayden insiste sur un état de transition de SN2 « lâche », pas sur un intermédiaire cationique isolé. La charge est partagée, pas localisée.",
+      "Oublier la protonation initiale : un époxyde non protoné ne réagit qu'avec un nucléophile puissant.",
+      "Oublier la déprotonation finale : sans elle, l'acide n'est pas régénéré et il ne serait plus catalytique.",
+      "Généraliser : sur un époxyde dont l'autre extrémité est primaire, l'issue peut basculer même en milieu acide."
+    ],
+    "explication_reference": "Ouverture d'un époxyde trisubstitué par le méthanol sous catalyse acide. La protonation préalable de l'oxygène oxiranique transforme un nucléofuge médiocre en bon groupe partant et engendre un intermédiaire cationique dont la charge est délocalisée sur les deux carbones du cycle, à la manière d'un ion bromonium. La contribution du carbone le plus substitué à cette délocalisation est prépondérante, les groupes alkyle stabilisant la charge positive ; le nucléophile faible qu'est le méthanol attaque donc préférentiellement ce carbone, via un état de transition de type SN2 lâche où la rupture de la liaison C–O est très avancée par rapport à la formation de la liaison C–Nu. La déprotonation de l'oxonium régénère le catalyseur acide. La régiosélectivité est ainsi inverse de celle de l'ouverture par un alcoolate, où l'absence de charge positive laisse l'encombrement stérique commander et conduit à l'attaque du carbone le moins substitué.",
+    "explication_comprendre": "POURQUOI la même molécule donne-t-elle deux produits différents selon les conditions ?\n\nVoilà une des plus belles démonstrations de tout le chapitre. Le même petit cycle à trois atomes, ouvert par le même partenaire — et selon qu'on travaille en milieu acide ou basique, le partenaire se fixe sur un carbone ou sur l'autre. Comprendre pourquoi, c'est comprendre ce qui gouverne réellement une réaction.\n\nCE QUI SE PASSE EN MILIEU BASIQUE (le rappel)\n\nLe partenaire est puissant et pressé. Il fonce sur le carbone le plus dégagé — celui qui a le moins de voisins encombrants. C'est une question de place, purement.\n\nCE QUI SE PASSE EN MILIEU ACIDE\n\nOn commence par accrocher un proton sur l'oxygène du cycle. Ce détail change tout : l'oxygène devient beaucoup plus pressé de partir, et il tire sur les liaisons qui le retiennent.\n\nEn tirant, il fait naître une charge positive naissante sur les carbones du cycle. Or une charge positive n'est pas également confortable partout : elle préfère de loin le carbone entouré de groupes alkyle, qui l'épaulent. Ce carbone devient donc le point sensible de la molécule.\n\nEt le partenaire attaquant, ici, est faible — le méthanol n'a rien d'un fonceur. Il ne va pas là où il y a de la place : il va là où on l'attire. C'est-à-dire sur le carbone le plus encombré.\n\nL'IMAGE À GARDER\n\nEn milieu basique, c'est le partenaire qui pousse : il choisit la porte la plus large.\nEn milieu acide, c'est le groupe partant qui tire : le partenaire se laisse aspirer là où l'appel est le plus fort.\n\nPousser ou être aspiré — deux régimes, deux résultats.\n\nUNE MISE EN GARDE\n\nLe manuel prend soin de préciser que cet exemple est plus net que la réalité moyenne. Quand l'autre extrémité du cycle est vraiment très dégagée, l'attaque directe redevient rapide, même en milieu acide. La règle est une tendance solide, pas une loi.",
+    "niveau_difficulte": 5
   }
 ]
