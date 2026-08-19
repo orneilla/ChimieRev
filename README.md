@@ -195,15 +195,59 @@ Une étape peut n'avoir **que du texte** : toutes ne se dessinent pas
 honnêtement (un état de transition, avec ses liaisons à moitié formées, n'a
 pas de représentation juste en liaisons entières).
 
-### La validation, comme pour les DOI
+### Les flèches sont vérifiées par la machine
+
+Personne ne peut relire à la main les flèches de centaines de mécanismes.
+Une flèche pointée sur le mauvais atome passerait alors pour une vérité.
+
+D'où ce contrôle : **une flèche courbe n'est pas un ornement, c'est un
+déplacement de deux électrons — donc un calcul.** Le vérificateur
+(`scripts/verifier-mecanismes.mjs`) applique les flèches d'une étape à la
+molécule de départ, en comptant les électrons de valence, et en déduit le
+produit. Il le compare à celui que l'étape annonce (`produit_attendu`).
+
+```bash
+npm run verifier   # applique les flèches et compare
+npm run tester     # vérifie que le vérificateur détecte bien les fautes
+```
+
+Les deux tournent **avant chaque construction** : un mécanisme faux
+n'arrive jamais en ligne, la construction s'arrête d'abord.
+
+Ce que ce contrôle prouve :
+
+- les flèches mènent bien au produit annoncé ;
+- la charge totale est conservée ;
+- la structure obtenue est chimiquement possible (valences légales).
+
+Ce qu'il ne prouve pas : que ce mécanisme est celui qu'emprunte la nature.
+Cela reste le travail d'un chimiste — d'où les **deux mentions distinctes**
+sur chaque schéma : « flèches vérifiées » (la machine) et « à relire par un
+chimiste » (l'humain, tant que `valide` n'est pas passé à `true`).
+
+Et parce qu'un contrôle qui ne détecte rien ne protège de rien,
+`scripts/tester-verificateur.mjs` lui tend cinq fautes connues — flèche sur
+le mauvais carbone, mauvaise liaison rompue, flèche manquante, produit
+annoncé erroné, produit non annoncé — et exige qu'il les refuse toutes.
+
+### Écrire une flèche sans ambiguïté
+
+Une flèche qui **forme** une liaison le dit :
+`"vers": {"liaison": [a, b]}`. Pointer simplement un atome signifie que les
+électrons s'y localisent en doublet libre — ce n'est pas la même chose, et
+la vérification les distingue. Au dessin, une liaison qui naît est montrée
+en pointant l'atome nouveau partenaire ; une liaison qui existe déjà (une
+double liaison qui se déplace) est visée en son milieu.
+
+### La relecture humaine, comme pour les DOI
 
 Les flèches transcrivent les étapes décrites dans `mecanisme_etapes` :
 c'est de la donnée scientifique, pas de la mise en page. Elles suivent donc
 le même régime que les références.
 
 > Tant qu'une étape porte `"valide": false`, la fiche affiche la mention
-> **« schéma à valider »**. On passe à `true` **après** relecture par un
-> chimiste, jamais avant.
+> **« à relire par un chimiste »**. On passe à `true` **après** relecture,
+> jamais avant.
 
 Une erreur de flèche est ainsi visible par le lecteur, au lieu de passer
 pour une vérité établie.
@@ -285,6 +329,8 @@ public/mecanismes-manuels/  tes propres schémas, dessinés à la main
 scripts/
   dessiner-structures.mjs   dessine les structures avec RDKit-JS
   dessiner-mecanismes.mjs   dessine les mécanismes et leurs flèches
+  verifier-mecanismes.mjs   applique les flèches et contrôle le produit
+  tester-verificateur.mjs   tend des fautes au vérificateur
 src/
   main.jsx                  point d'entrée : accroche React à la page
   App.jsx                   structure commune + liste des adresses (routes)

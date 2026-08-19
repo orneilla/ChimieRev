@@ -851,3 +851,13 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   margin-left: 0.5rem;
   vertical-align: middle;
 }
+
+/* Les deux états d'un schéma : contrôle de la machine, relecture humaine. */
+.etats-schema {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+
+.etats-schema .badge-schema { margin-left: 0; }

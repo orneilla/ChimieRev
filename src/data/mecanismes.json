@@ -9,7 +9,9 @@
     "libelle": "Texte affiché sous le schéma, en face du numéro de la flèche : il dit en mots ce que cette flèche fait.",
     "dessin_a_la_main": "Une étape peut porter \"image\": \"mon-schema.svg\" au lieu de flèches : le fichier, déposé dans public/mecanismes-manuels/, est alors utilisé tel quel. Voir le LISEZ-MOI de ce dossier.",
     "surlignage": "Ce que les flèches quittent est surligné en bleu pâle, ce qu ’elles atteignent en rose pâle : la cible d une flèche ne se devine pas, elle se voit.",
-    "validation": "Comme pour les DOI : un schéma n'est réputé juste que s'il a été relu par un chimiste. Tant que 'valide' vaut false, la fiche affiche la mention « schéma à valider ». Passer à true une fois la flèche vérifiée — jamais avant."
+    "validation": "Comme pour les DOI : un schéma n'est réputé juste que s'il a été relu par un chimiste. Tant que 'valide' vaut false, la fiche affiche la mention « schéma à valider ». Passer à true une fois la flèche vérifiée — jamais avant.",
+    "produit_attendu": "Ce que les flèches de cette étape doivent produire. La machine applique les flèches et compare : si le compte n’est pas bon, la construction s’arrête (scripts/verifier-mecanismes.mjs).",
+    "fleche_creant_une_liaison": "Une flèche qui forme une liaison le dit : \"vers\": {\"liaison\": [a, b]}. Pointer simplement un atome signifierait que les électrons s’y localisent en doublet libre — ce n’est pas la même chose, et la vérification les distingue."
   },
   "sn2": {
     "etapes": [
@@ -24,7 +26,10 @@
               "atome": 0
             },
             "vers": {
-              "atome": 2
+              "liaison": [
+                0,
+                2
+              ]
             },
             "courbure": 0.3,
             "libelle": "Le doublet de l'oxygène part vers le carbone : la nouvelle liaison se forme."
@@ -43,7 +48,8 @@
             "libelle": "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
           }
         ],
-        "valide": false
+        "valide": false,
+        "produit_attendu": "CCO.[Br-]"
       },
       {
         "numero": 4,
@@ -68,7 +74,10 @@
               "atome": 7
             },
             "vers": {
-              "atome": 2
+              "liaison": [
+                7,
+                2
+              ]
             },
             "courbure": 0.3,
             "libelle": "Le doublet de la base va chercher l'hydrogène du carbone voisin."
@@ -103,7 +112,8 @@
             "libelle": "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
           }
         ],
-        "valide": false
+        "valide": false,
+        "produit_attendu": "CC=C.CCO.[Br-]"
       },
       {
         "numero": 4,
@@ -131,7 +141,10 @@
               ]
             },
             "vers": {
-              "atome": 5
+              "liaison": [
+                0,
+                5
+              ]
             },
             "courbure": 0.35,
             "libelle": "La première double liaison du diène forme une liaison avec le diénophile."
@@ -144,7 +157,10 @@
               ]
             },
             "vers": {
-              "atome": 3
+              "liaison": [
+                4,
+                3
+              ]
             },
             "courbure": 0.35,
             "libelle": "La double liaison du diénophile forme la seconde liaison, à l'autre bout."
@@ -166,7 +182,8 @@
             "libelle": "La double liaison restante glisse au milieu du diène."
           }
         ],
-        "valide": false
+        "valide": false,
+        "produit_attendu": "C1CCC=CC1"
       },
       {
         "numero": 4,
@@ -194,7 +211,10 @@
               ]
             },
             "vers": {
-              "atome": 6
+              "liaison": [
+                0,
+                6
+              ]
             },
             "courbure": 0.3,
             "libelle": "Une liaison B–H cède son hydrogène, électrons compris, au carbone."
@@ -213,7 +233,8 @@
             "libelle": "Les électrons de la double liaison C=O se replient sur l'oxygène."
           }
         ],
-        "valide": false
+        "valide": false,
+        "produit_attendu": "CC([O-])C.B"
       },
       {
         "numero": 3,
@@ -226,7 +247,10 @@
               "atome": 2
             },
             "vers": {
-              "atome": 6
+              "liaison": [
+                2,
+                6
+              ]
             },
             "courbure": 0.3,
             "libelle": "Le doublet de l'oxygène va chercher un hydrogène du solvant."
@@ -245,7 +269,8 @@
             "libelle": "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
           }
         ],
-        "valide": false
+        "valide": false,
+        "produit_attendu": "CC(O)C.C[O-]"
       },
       {
         "numero": 4,
@@ -273,7 +298,10 @@
               ]
             },
             "vers": {
-              "atome": 4
+              "liaison": [
+                0,
+                4
+              ]
             },
             "courbure": 0.32,
             "libelle": "Le carbone rendu riche par le magnésium attaque le carbone du carbonyle."
@@ -292,7 +320,8 @@
             "libelle": "Les électrons de la double liaison C=O se replient sur l'oxygène."
           }
         ],
-        "valide": false
+        "valide": false,
+        "produit_attendu": "CC([O-])(C)C.[Mg+]Br"
       },
       {
         "numero": 3,
@@ -305,7 +334,10 @@
               "atome": 2
             },
             "vers": {
-              "atome": 6
+              "liaison": [
+                2,
+                6
+              ]
             },
             "courbure": 0.3,
             "libelle": "L'oxygène chargé négativement va chercher un proton de l'eau."
@@ -324,7 +356,8 @@
             "libelle": "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
           }
         ],
-        "valide": false
+        "valide": false,
+        "produit_attendu": "CC(O)(C)C.[OH-]"
       },
       {
         "numero": 4,

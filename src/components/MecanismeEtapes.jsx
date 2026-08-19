@@ -28,6 +28,12 @@ export default function MecanismeEtapes({ id, etapes }) {
         n'est jamais à deviner.
       </p>
 
+      <p className="note">
+        Chaque jeu de flèches est <strong>appliqué par la machine</strong> avant
+        publication : s'il ne mène pas au produit annoncé, ou s'il ne conserve
+        pas la charge, le schéma n'est pas publié.
+      </p>
+
       <ol className="liste-etapes">
         {numeros.map((numero) => {
           const texte = etapes[numero - 1]
@@ -64,11 +70,25 @@ export default function MecanismeEtapes({ id, etapes }) {
 
                     <figcaption>
                       {schema.legende}
-                      {!schema.valide && (
-                        <span className="badge-a-verifier badge-schema">
-                          Schéma à valider
-                        </span>
-                      )}
+
+                      <span className="etats-schema">
+                        {schema.coherenceVerifiee && (
+                          <span
+                            className="badge-verifie badge-schema"
+                            title="Les flèches ont été appliquées par la machine : elles mènent bien au produit annoncé, et la charge est conservée."
+                          >
+                            Flèches vérifiées
+                          </span>
+                        )}
+                        {!schema.valide && (
+                          <span
+                            className="badge-a-verifier badge-schema"
+                            title="La machine contrôle la cohérence des flèches, pas le choix du mécanisme : cela reste à relire par un chimiste."
+                          >
+                            À relire par un chimiste
+                          </span>
+                        )}
+                      </span>
                     </figcaption>
                   </figure>
                 )}

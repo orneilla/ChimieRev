@@ -132,20 +132,35 @@ function dessinerEspece(smiles, misEnJeu) {
     .slice(dessin.indexOf('<!-- END OF HEADER -->') + 22, dessin.lastIndexOf('</svg>'))
     .replace(/<rect[^>]*>\s*<\/rect>/, '')
 
-  return { contenu: surlignages + contenu, centres, nombre }
+  return { contenu: surlignages + contenu, centres, nombre, liaisons }
 }
 
-/** Point visé par une extrémité de flèche : un atome, ou le milieu d'une liaison. */
-function pointVise(extremite, centres) {
+const cle = (a, b) => (a < b ? `${a}-${b}` : `${b}-${a}`)
+
+/**
+ * Point visé par une extrémité de flèche.
+ *
+ * Un atome : son centre. Une liaison DÉJÀ LÀ : son milieu — c'est le cas
+ * d'une double liaison qui se déplace. Une liaison qui NAÎT : l'atome
+ * nouveau partenaire, car c'est là que le lecteur doit regarder.
+ */
+function pointVise(extremite, centres, liaisonsExistantes, atomesSource) {
   if (extremite.atome !== undefined) return centres[extremite.atome]
+
   const [i, j] = extremite.liaison
-  return { x: (centres[i].x + centres[j].x) / 2, y: (centres[i].y + centres[j].y) / 2 }
+  if (liaisonsExistantes.has(cle(i, j))) {
+    return { x: (centres[i].x + centres[j].x) / 2, y: (centres[i].y + centres[j].y) / 2 }
+  }
+
+  const nouveau = atomesSource.includes(i) ? j : i
+  return centres[nouveau]
 }
 
 /** Une flèche courbe numérotée, de son départ à son arrivée. */
-function trace(fleche, centres, numero) {
-  const depart = pointVise(fleche.de, centres)
-  const arrivee = pointVise(fleche.vers, centres)
+function trace(fleche, centres, numero, liaisonsExistantes) {
+  const atomesSource = fleche.de.atome !== undefined ? [fleche.de.atome] : fleche.de.liaison
+  const depart = pointVise(fleche.de, centres, liaisonsExistantes, [])
+  const arrivee = pointVise(fleche.vers, centres, liaisonsExistantes, atomesSource)
 
   const dx = arrivee.x - depart.x
   const dy = arrivee.y - depart.y
@@ -287,8 +302,17 @@ function dessinerEtape(etape) {
         const k = especeDe(extremite.atome)
         misEnJeu[k][`atomes${suffixe}`].push(extremite.atome - debuts[k])
       } else {
-        const k = especeDe(extremite.liaison[0])
-        misEnJeu[k][`liaisons${suffixe}`].push(extremite.liaison.map((a) => a - debuts[k]))
+        const [i, j] = extremite.liaison
+        const k = especeDe(i)
+        // Une liaison qui naît entre deux espèces n'existe pas encore :
+        // il n'y a rien à surligner, on met en valeur l'atome visé.
+        if (especeDe(j) !== k) {
+          const cible = suffixe === 'Depart' ? i : j
+          const espece = especeDe(cible)
+          misEnJeu[espece][`atomes${suffixe}`].push(cible - debuts[espece])
+        } else {
+          misEnJeu[k][`liaisons${suffixe}`].push([i - debuts[k], j - debuts[k]])
+        }
       }
     }
   }
@@ -319,6 +343,7 @@ function dessinerEtape(etape) {
   let contenus = ''
   let plus = ''
   const centres = []
+  const liaisonsExistantes = new Set()
   let hauteur = 0
 
   dessinees.forEach((espece, rang) => {
@@ -327,7 +352,12 @@ function dessinerEtape(etape) {
     const dy = hauteur - boite.y0
 
     contenus += `\n  <g transform='translate(${dx.toFixed(1)}, ${dy.toFixed(1)})'>${espece.contenu}</g>`
+
+    // Numérotation globale : les atomes de chaque espèce se suivent, dans
+    // l'ordre du SMILES complet.
+    const debut = centres.length
     espece.centres.forEach((c) => centres.push({ x: c.x + dx, y: c.y + dy }))
+    espece.liaisons.forEach(([i, j]) => liaisonsExistantes.add(cle(i + debut, j + debut)))
 
     hauteur += boite.y1 - boite.y0
 
@@ -339,7 +369,7 @@ function dessinerEtape(etape) {
     }
   })
 
-  const tracees = (etape.fleches || []).map((f, i) => trace(f, centres, i + 1))
+  const tracees = (etape.fleches || []).map((f, i) => trace(f, centres, i + 1, liaisonsExistantes))
   const fleches = tracees.map((t) => t.svg).join('\n')
 
   // Recadrage sur ce qui est réellement dessiné.
@@ -400,7 +430,10 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
       legende: etape.legende,
       // Ce que fait chaque flèche, dans l'ordre de leur numéro.
       fleches: (etape.fleches || []).map((f) => f.libelle || ''),
-      // Un schéma n'est réputé juste qu'une fois relu par un chimiste.
+      // Deux contrôles distincts, qui ne disent pas la même chose :
+      // — la machine vérifie que les flèches mènent au produit annoncé ;
+      // — un chimiste, lui seul, atteste que ce mécanisme est le bon.
+      coherenceVerifiee: (etape.fleches || []).length > 0 && !!etape.produit_attendu,
       valide: etape.valide === true
     }
     total++

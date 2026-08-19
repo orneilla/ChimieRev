@@ -8,6 +8,7 @@
         "Le doublet de l'oxygène part vers le carbone : la nouvelle liaison se forme.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
+      "coherenceVerifiee": true,
       "valide": false
     },
     "4": {
@@ -15,6 +16,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcool est formé et l'ion bromure est parti. Le carbone attaqué s'est retourné comme un parapluie.",
       "fleches": [],
+      "coherenceVerifiee": false,
       "valide": false
     }
   },
@@ -28,6 +30,7 @@
         "Les électrons libérés par la liaison C–H glissent entre les deux carbones : la double liaison naît.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
+      "coherenceVerifiee": true,
       "valide": false
     },
     "4": {
@@ -35,6 +38,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcène est né, la base est repartie avec son proton, le bromure est libre.",
       "fleches": [],
+      "coherenceVerifiee": false,
       "valide": false
     }
   },
@@ -48,6 +52,7 @@
         "La double liaison du diénophile forme la seconde liaison, à l'autre bout.",
         "La double liaison restante glisse au milieu du diène."
       ],
+      "coherenceVerifiee": true,
       "valide": false
     },
     "4": {
@@ -55,6 +60,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un cycle à six atomes, avec une double liaison au milieu. En un seul geste, sans rien gaspiller.",
       "fleches": [],
+      "coherenceVerifiee": false,
       "valide": false
     }
   },
@@ -67,6 +73,7 @@
         "Une liaison B–H cède son hydrogène, électrons compris, au carbone.",
         "Les électrons de la double liaison C=O se replient sur l'oxygène."
       ],
+      "coherenceVerifiee": true,
       "valide": false
     },
     "3": {
@@ -77,6 +84,7 @@
         "Le doublet de l'oxygène va chercher un hydrogène du solvant.",
         "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
       ],
+      "coherenceVerifiee": true,
       "valide": false
     },
     "4": {
@@ -84,6 +92,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton.",
       "fleches": [],
+      "coherenceVerifiee": false,
       "valide": false
     }
   },
@@ -96,6 +105,7 @@
         "Le carbone rendu riche par le magnésium attaque le carbone du carbonyle.",
         "Les électrons de la double liaison C=O se replient sur l'oxygène."
       ],
+      "coherenceVerifiee": true,
       "valide": false
     },
     "3": {
@@ -106,6 +116,7 @@
         "L'oxygène chargé négativement va chercher un proton de l'eau.",
         "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
       ],
+      "coherenceVerifiee": true,
       "valide": false
     },
     "4": {
@@ -113,6 +124,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi.",
       "fleches": [],
+      "coherenceVerifiee": false,
       "valide": false
     }
   }

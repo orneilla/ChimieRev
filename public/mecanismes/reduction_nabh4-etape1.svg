@@ -128,10 +128,10 @@ Q 117.9 83.0, 120.0 83.0
 ' fill='#FF0000'/>
 </g>
   <text x='78.0' y='185.0' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>
-  <path d='M 110.3,85.4 Q 212.7,199.5 92.0,282.3' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
-  <polygon points='92.0,282.3 98.0,273.0 102.8,280.1' fill='#D62246'/>
-  <circle cx='172.8' cy='193.9' r='11' fill='#D62246'/>
-  <text x='172.8' y='193.9' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>1</text>
+  <path d='M 110.3,85.4 Q 212.7,199.5 86.2,286.2' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
+  <polygon points='86.2,286.2 92.2,277.0 97.0,284.1' fill='#D62246'/>
+  <circle cx='171.4' cy='194.6' r='11' fill='#D62246'/>
+  <text x='171.4' y='194.6' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>1</text>
   <path d='M 82.1,265.5 Q 98.0,256.0 82.1,246.5' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='82.1,246.5 93.0,248.0 88.6,255.3' fill='#D62246'/>
   <circle cx='112.1' cy='256.0' r='11' fill='#D62246'/>
