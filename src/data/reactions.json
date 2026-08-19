@@ -256,9 +256,10 @@
     ],
     "solvant": "THF anhydre, à froid",
     "mecanisme_etapes": [
-      "La phosphine s'additionne sur la double liaison N=N du DEAD, faible : il se forme un anion azoté, stabilisé par l'un des groupes ester.",
+      "La phosphine s'additionne sur la double liaison N=N du DEAD, qui est faible : il se forme un anion azoté, stabilisé par l'un des groupes ester.",
       "Cet anion est assez basique pour arracher le proton du nucléophile HNu : le nucléophile est ainsi révélé sous sa forme anionique, prêt à réagir.",
-      "L'alcool attaque le phosphore chargé positivement — l'oxygène et le phosphore ont une forte affinité — et déplace un second anion azoté par une SN2 au phosphore. Après transfert de proton, on obtient l'espèce R–O–PPh₃⁺ et le DEAD réduit comme sous-produit.",
+      "L'alcool attaque le phosphore chargé positivement — l'oxygène et le phosphore ont une forte affinité — et déplace un second anion azoté : c'est une SN2 jouée sur le phosphore.",
+      "Cet anion azoté reprend aussitôt le proton resté sur l'oxygène. Il s'en va alors comme sous-produit — le DEAD réduit — et il reste l'espèce R–O–PPh₃⁺.",
       "L'anion nucléophile attaque enfin le carbone par une SN2 ordinaire, l'oxyde de phosphine étant le groupe partant. C'est cette dernière étape, et elle seule, qui inverse la configuration."
     ],
     "selectivite": "Inversion de configuration au carbone, puisque l'étape finale est une SN2 (Clayden p. 350). C'est là, écrit l'ouvrage, l'une des grandes forces de la réaction : un moyen fiable de remplacer un OH par un nucléophile avec inversion (p. 351). Application la plus spectaculaire : la formation d'esters à partir d'alcools secondaires avec inversion, là où une estérification ordinaire conserve la configuration puisqu'elle ne rompt pas la liaison C–O de l'alcool (p. 351).",

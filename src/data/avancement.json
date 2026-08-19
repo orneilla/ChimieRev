@@ -2,7 +2,7 @@
   "genere_le": "2026-08-19",
   "total": 138,
   "redigees": 11,
-  "verifiees": 10,
+  "verifiees": 11,
   "relues": 0,
   "familles": [
     {
@@ -11,8 +11,8 @@
       "famille": "Substitutions",
       "total": 12,
       "absente": 5,
-      "redigee": 1,
-      "verifiee": 6,
+      "redigee": 0,
+      "verifiee": 7,
       "relue": 0,
       "reactions": [
         {
@@ -68,7 +68,7 @@
           "nom": "Réaction de Mitsunobu",
           "niveau": "M1",
           "id": "mitsunobu",
-          "statut": "redigee",
+          "statut": "verifiee",
           "sources": true
         },
         {

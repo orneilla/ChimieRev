@@ -254,6 +254,71 @@
       "valide": false
     }
   },
+  "mitsunobu": {
+    "1": {
+      "fichier": "mitsunobu-etape1.svg",
+      "titre": "La phosphine s'accroche au DEAD",
+      "legende": "Ni l'alcool ni le nucléophile n'interviennent encore : les deux réactifs commencent par se combiner entre eux. La double liaison azote–azote est fragile ; le phosphore, qui aime donner ses électrons, s'y fixe. Les deux électrons chassés se replient sur l'azote voisin, qui devient négatif — et le groupe ester juste à côté encaisse cette charge sans broncher.",
+      "fleches": [
+        "Le doublet libre du phosphore forme une liaison avec le premier azote.",
+        "Les électrons de la double liaison N=N se replient sur le second azote, qui devient négatif."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "mitsunobu-etape2.svg",
+      "titre": "L'azote négatif réveille le nucléophile",
+      "legende": "Le nucléophile a été versé dans le ballon sous sa forme tranquille — ici l'acide benzoïque, avec son hydrogène. L'azote négatif fabriqué à l'étape précédente est assez avide de protons pour le lui prendre. Le nucléophile se retrouve alors chargé négativement : c'est sous cette forme qu'il sait attaquer.",
+      "fleches": [
+        "L'azote négatif attrape l'hydrogène de l'acide.",
+        "Les électrons de la liaison O–H restent à l'oxygène : le nucléophile devient négatif."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "mitsunobu-etape3.svg",
+      "titre": "L'alcool va se lier au phosphore",
+      "legende": "Voici le moteur de toute la réaction : l'oxygène et le phosphore s'attirent énormément. L'oxygène de l'alcool vient donc se lier au phosphore, et l'azote qui occupait la place est éjecté — exactement une SN2, mais jouée sur le phosphore au lieu du carbone.",
+      "fleches": [
+        "Un doublet libre de l'oxygène de l'alcool forme la liaison avec le phosphore.",
+        "La liaison phosphore–azote se rompt : l'azote repart avec les deux électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "mitsunobu-etape4.svg",
+      "titre": "Un proton change de mains",
+      "legende": "L'oxygène porte encore l'hydrogène de l'alcool, et cela le rend très inconfortable : deux charges positives voisines, c'est beaucoup. L'azote qui vient d'être éjecté récupère aussitôt ce proton. Il s'en va alors définitivement — c'est le sous-produit azoté — et l'ancien alcool est devenu un excellent groupe partant.",
+      "fleches": [
+        "L'azote négatif reprend le proton porté par l'oxygène.",
+        "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "mitsunobu-etape5.svg",
+      "titre": "L'attaque par l'arrière, celle qui retourne le carbone",
+      "legende": "Tout ce qui précède ne servait qu'à préparer ce moment. Le nucléophile négatif attaque le carbone du côté opposé au groupe partant, et le phosphore s'en va en emportant l'oxygène : la liaison phosphore–oxygène ainsi formée est si solide que rien ne peut revenir en arrière. Comme l'attaque vient de l'arrière, le carbone se retourne — d'où l'inversion de configuration.",
+      "fleches": [
+        "L'oxygène négatif du nucléophile attaque le carbone par l'arrière.",
+        "Les électrons de la liaison C–O forment la double liaison phosphore–oxygène : l'oxyde de phosphine part."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "mitsunobu-etape6.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'ester attendu, avec le carbone retourné par rapport à l'alcool de départ. Deux sous-produits l'accompagnent dans le ballon : l'oxyde de triphénylphosphine et la forme réduite du DEAD — abondants, et souvent pénibles à séparer.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
   "ouverture_epoxyde_base": {
     "2": {
       "fichier": "ouverture_epoxyde_base-etape2.svg",

@@ -7,6 +7,7 @@
     "provenance": "Les flèches transcrivent les étapes décrites dans mecanisme_etapes (reactions.json). À valider par un chimiste avant diffusion, au même titre que les références.",
     "numero": "Renvoie à l'étape correspondante de mecanisme_etapes. Un numéro au-delà de la dernière étape s'affiche comme un complément (bilan, produits formés).",
     "libelle": "Texte affiché sous le schéma, en face du numéro de la flèche : il dit en mots ce que cette flèche fait.",
+    "trait_de_rappel": "Sur une molécule encombrée, la pastille du numéro ne trouve pas toujours de place à côté de sa flèche : elle est alors posée plus loin, dans un blanc, et reliée à la flèche par un trait pointillé. Ce trait est lui aussi contrôlé — il ne passe jamais sur un atome.",
     "dessin_a_la_main": "Une étape peut porter \"image\": \"mon-schema.svg\" au lieu de flèches : le fichier, déposé dans public/mecanismes-manuels/, est alors utilisé tel quel. Voir le LISEZ-MOI de ce dossier.",
     "surlignage": "Ce que les flèches quittent est surligné en bleu pâle, ce qu ’elles atteignent en rose pâle : la cible d une flèche ne se devine pas, elle se voit.",
     "validation": "Comme pour les DOI : un schéma n'est réputé juste que s'il a été relu par un chimiste. Tant que 'valide' vaut false, la fiche affiche la mention « schéma à valider ». Passer à true une fois la flèche vérifiée — jamais avant.",
@@ -674,6 +675,201 @@
         "titre": "Ce qu'on obtient",
         "smiles": "CCCOS(=O)(=O)c1ccc(C)cc1",
         "legende": "Le tosylate. Le carbone n'a pas bougé : sa configuration est celle de l'alcool de départ. Il porte maintenant un groupe qui ne demande qu'à s'en aller.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "mitsunobu": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "La phosphine s'accroche au DEAD",
+        "smiles": "c1ccc(cc1)P(c1ccccc1)c1ccccc1.CCOC(=O)N=NC(=O)OCC",
+        "legende": "Ni l'alcool ni le nucléophile n'interviennent encore : les deux réactifs commencent par se combiner entre eux. La double liaison azote–azote est fragile ; le phosphore, qui aime donner ses électrons, s'y fixe. Les deux électrons chassés se replient sur l'azote voisin, qui devient négatif — et le groupe ester juste à côté encaisse cette charge sans broncher.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                24
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le doublet libre du phosphore forme une liaison avec le premier azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                24,
+                25
+              ]
+            },
+            "vers": {
+              "atome": 25
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison N=N se replient sur le second azote, qui devient négatif."
+          }
+        ],
+        "produit_attendu": "CCOC(=O)N([N-]C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'azote négatif réveille le nucléophile",
+        "smiles": "CCOC(=O)N([N-]C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.O([H])C(=O)c1ccccc1",
+        "legende": "Le nucléophile a été versé dans le ballon sous sa forme tranquille — ici l'acide benzoïque, avec son hydrogène. L'azote négatif fabriqué à l'étape précédente est assez avide de protons pour le lui prendre. Le nucléophile se retrouve alors chargé négativement : c'est sous cette forme qu'il sait attaquer.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                32
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'azote négatif attrape l'hydrogène de l'acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                31,
+                32
+              ]
+            },
+            "vers": {
+              "atome": 31
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison O–H restent à l'oxygène : le nucléophile devient négatif."
+          }
+        ],
+        "produit_attendu": "CCOC(=O)N(NC(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[O-]C(=O)c1ccccc1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'alcool va se lier au phosphore",
+        "smiles": "CCC(C)O.CCOC(=O)N(NC(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "legende": "Voici le moteur de toute la réaction : l'oxygène et le phosphore s'attirent énormément. L'oxygène de l'alcool vient donc se lier au phosphore, et l'azote qui occupait la place est éjecté — exactement une SN2, mais jouée sur le phosphore au lieu du carbone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                17
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Un doublet libre de l'oxygène de l'alcool forme la liaison avec le phosphore."
+          },
+          {
+            "de": {
+              "liaison": [
+                17,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison phosphore–azote se rompt : l'azote repart avec les deux électrons."
+          }
+        ],
+        "produit_attendu": "CCC(C)[O+]([H])[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOC(=O)[N-]NC(=O)OCC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Un proton change de mains",
+        "smiles": "CCC(C)[O+]([H])[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOC(=O)[N-]NC(=O)OCC",
+        "legende": "L'oxygène porte encore l'hydrogène de l'alcool, et cela le rend très inconfortable : deux charges positives voisines, c'est beaucoup. L'azote qui vient d'être éjecté récupère aussitôt ce proton. Il s'en va alors définitivement — c'est le sous-produit azoté — et l'ancien alcool est devenu un excellent groupe partant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 30
+            },
+            "vers": {
+              "liaison": [
+                30,
+                5
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'azote négatif reprend le proton porté par l'oxygène."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.35,
+            "libelle": "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
+          }
+        ],
+        "produit_attendu": "CCC(C)O[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOC(=O)NNC(=O)OCC",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "L'attaque par l'arrière, celle qui retourne le carbone",
+        "smiles": "CCC(C)O[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[O-]C(=O)c1ccccc1",
+        "legende": "Tout ce qui précède ne servait qu'à préparer ce moment. Le nucléophile négatif attaque le carbone du côté opposé au groupe partant, et le phosphore s'en va en emportant l'oxygène : la liaison phosphore–oxygène ainsi formée est si solide que rien ne peut revenir en arrière. Comme l'attaque vient de l'arrière, le carbone se retourne — d'où l'inversion de configuration.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 24
+            },
+            "vers": {
+              "liaison": [
+                24,
+                2
+              ]
+            },
+            "courbure": -0.3,
+            "libelle": "L'oxygène négatif du nucléophile attaque le carbone par l'arrière."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison C–O forment la double liaison phosphore–oxygène : l'oxyde de phosphine part."
+          }
+        ],
+        "produit_attendu": "CCC(C)OC(=O)c1ccccc1.O=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCC(C)OC(=O)c1ccccc1",
+        "legende": "L'ester attendu, avec le carbone retourné par rapport à l'alcool de départ. Deux sous-produits l'accompagnent dans le ballon : l'oxyde de triphénylphosphine et la forme réduite du DEAD — abondants, et souvent pénibles à séparer.",
         "fleches": [],
         "valide": false
       }

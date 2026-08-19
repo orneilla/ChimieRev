@@ -46,6 +46,10 @@ const RAYON_NUMERO = 11
 const DEGAGEMENT_ATOME = seuil('DEGAGEMENT_ATOME', 33)     // numéro ↔ centre d'un atome
 const DEGAGEMENT_NUMERO = seuil('DEGAGEMENT_NUMERO', 36)   // numéro ↔ numéro
 const DEGAGEMENT_LIAISON = seuil('DEGAGEMENT_LIAISON', 16) // numéro ↔ trait de liaison
+// Au-delà de ce rayon, le numéro est trop loin de sa flèche pour qu'on
+// devine à laquelle il appartient : un trait de rappel les relie.
+const RAYON_SANS_RAPPEL = 34
+const DEGAGEMENT_RAPPEL = seuil('DEGAGEMENT_RAPPEL', 15)  // trait de rappel ↔ centre d'un atome
 
 const CASE = 240                 // largeur de la toile de dessin d'une espèce
 const HAUTEUR_TOILE = 220        // hauteur de cette toile
@@ -217,10 +221,23 @@ function placerNumero(sommet, direction, obstacles) {
     return note
   }
 
+  // Quand le numéro s'éloigne, un trait de rappel le relie à sa flèche.
+  // Ce trait doit lui aussi passer au large : un rappel qui traverse une
+  // molécule fait plus de mal que de bien.
+  const rappelDegage = (point) => {
+    for (let t = 0.15; t <= 0.85; t += 0.1) {
+      const q = { x: sommet.x + (point.x - sommet.x) * t, y: sommet.y + (point.y - sommet.y) * t }
+      for (const atome of obstacles.atomes) {
+        if (Math.hypot(atome.x - q.x, atome.y - q.y) < DEGAGEMENT_RAPPEL) return false
+      }
+    }
+    return true
+  }
+
   let meilleur = null
   let meilleureNote = -Infinity
 
-  for (const rayon of [16, 22, 28, 34, 40, 46, 54]) {
+  for (const rayon of [16, 22, 28, 34, 40, 46, 54, 64, 76, 90, 106]) {
     for (const angle of [0, 0.38, -0.38, 0.75, -0.75, 1.15, -1.15, 1.6, -1.6]) {
       const cos = Math.cos(angle)
       const sin = Math.sin(angle)
@@ -229,10 +246,12 @@ function placerNumero(sommet, direction, obstacles) {
         y: sommet.y + (direction.x * sin + direction.y * cos) * rayon
       }
       const note = evaluer(point)
-      if (note >= 0) return point          // toutes les distances respectées
+      if (note >= 0 && (rayon <= RAYON_SANS_RAPPEL || rappelDegage(point))) {
+        return { ...point, rappel: rayon > RAYON_SANS_RAPPEL }
+      }
       if (note > meilleureNote) {
         meilleureNote = note
-        meilleur = point
+        meilleur = { ...point, rappel: rayon > RAYON_SANS_RAPPEL }
       }
     }
   }
@@ -357,7 +376,19 @@ function trace(fleche, centres, numero, liaisonsExistantes, obstacles) {
 
   const milieu = placerNumero(sommet, direction, obstacles)
 
-  const svg = `  <path d='M ${a.x.toFixed(1)},${a.y.toFixed(1)} Q ${controle.x.toFixed(1)},${controle.y.toFixed(1)} ${b.x.toFixed(1)},${b.y.toFixed(1)}' fill='none' stroke='${COULEUR_FLECHE}' stroke-width='2.6' stroke-linecap='round'/>
+  // Numéro déporté : on le rattache à sa flèche par un trait fin, qui
+  // s'arrête au bord de la pastille et un peu avant la courbe.
+  let rappel = ''
+  if (milieu.rappel) {
+    const vx = sommet.x - milieu.x
+    const vy = sommet.y - milieu.y
+    const d = Math.hypot(vx, vy) || 1
+    const depuis = { x: milieu.x + (vx / d) * (RAYON_NUMERO + 1), y: milieu.y + (vy / d) * (RAYON_NUMERO + 1) }
+    const jusqua = { x: sommet.x - (vx / d) * 4, y: sommet.y - (vy / d) * 4 }
+    rappel = `  <line x1='${depuis.x.toFixed(1)}' y1='${depuis.y.toFixed(1)}' x2='${jusqua.x.toFixed(1)}' y2='${jusqua.y.toFixed(1)}' stroke='${COULEUR_FLECHE}' stroke-width='1.2' stroke-dasharray='3 3' opacity='0.75'/>\n`
+  }
+
+  const svg = `${rappel}  <path d='M ${a.x.toFixed(1)},${a.y.toFixed(1)} Q ${controle.x.toFixed(1)},${controle.y.toFixed(1)} ${b.x.toFixed(1)},${b.y.toFixed(1)}' fill='none' stroke='${COULEUR_FLECHE}' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='${pointe}' fill='${COULEUR_FLECHE}'/>
   <circle cx='${milieu.x.toFixed(1)}' cy='${milieu.y.toFixed(1)}' r='11' fill='${COULEUR_FLECHE}'/>
   <text x='${milieu.x.toFixed(1)}' y='${milieu.y.toFixed(1)}' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>${numero}</text>`

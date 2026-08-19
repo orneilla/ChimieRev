@@ -104,6 +104,7 @@ L 77.3 146.8
   <polygon points='98.0,80.8 97.8,91.8 90.0,88.3' fill='#D62246'/>
   <circle cx='84.6' cy='121.6' r='11' fill='#D62246'/>
   <text x='84.6' y='121.6' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>1</text>
+  <line x1='117.3' y1='137.1' x2='113.4' y2='113.5' stroke='#D62246' stroke-width='1.2' stroke-dasharray='3 3' opacity='0.75'/>
   <path d='M 113.8,97.0 Q 106.1,113.9 124.7,113.3' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='124.7,113.3 114.7,117.9 114.5,109.4' fill='#D62246'/>
   <circle cx='119.3' cy='149.0' r='11' fill='#D62246'/>
