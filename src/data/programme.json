@@ -3,7 +3,9 @@
     "role": "Inventaire des réactions à couvrir, de la licence au master 2. Sert à mesurer l'avancement et à choisir l'ordre de travail.",
     "statut": "PROPOSITION — la liste elle-même demande une relecture : il y manque sans doute des réactions, et certaines n'ont peut-être pas leur place à ce niveau.",
     "niveaux": "L2 et L3 : licence. M1 et M2 : master.",
-    "regle": "Une entrée présente ici n'est PAS du contenu publié. Elle ne devient une fiche que rédigée, vérifiée par la machine, puis relue par un chimiste."
+    "regle": "Une entrée présente ici n'est PAS du contenu publié. Elle ne devient une fiche que rédigée, vérifiée par la machine, puis relue par un chimiste.",
+    "perimetre": "Chimie organique, organométallique et inorganique moléculaire, plus les biomolécules (glucides, acides aminés, lipides, acides nucléiques), le métabolisme et les polymères de synthèse. Chaque famille n'est inscrite que si les manuels indexés la traitent : une entrée sans source ne serait pas rédigeable.",
+    "lacunes_connues": "Non couvert par les manuels disponibles, donc absent de cette liste : la chimie durable (économie d'atomes, solvants alternatifs, liquides ioniques) et les réactions multicomposants (Ugi, Passerini, Biginelli, Hantzsch). Le McMurry traite bien la chimie durable, mais aux pages 347-348 et 826-828, hors de l'extrait fourni qui commence page 832."
   },
   "familles": [
     {
@@ -789,6 +791,489 @@
         },
         {
           "nom": "Organocatalyse",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "glucides",
+      "nom": "Glucides",
+      "famille": "Glucides",
+      "reactions": [
+        {
+          "nom": "Mutarotation et équilibre des anomères",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Cyclisation d'un ose : formation de l'hémiacétal",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Glycosidation de Fischer",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Réduction en alditol (NaBH₄)",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Oxydation en acide aldonique (Tollens, Benedict)",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Oxydation en acide aldarique (HNO₃)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Acétylation et éthérification des oses",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Allongement de chaîne : synthèse de Kiliani-Fischer",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Raccourcissement de chaîne : dégradation de Wohl",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Épimérisation en milieu basique",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Hydrolyse d'un disaccharide",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Glycosylation stéréocontrôlée (participation du groupe voisin)",
+          "niveau": "M1",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "acides_amines",
+      "nom": "Acides aminés, peptides et protéines",
+      "famille": "Acides aminés",
+      "reactions": [
+        {
+          "nom": "Synthèse d'un acide aminé par amination réductrice",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Synthèse de Strecker",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Synthèse malonique amidée",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Résolution enzymatique d'un acide aminé racémique",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Couplage peptidique par le DCC",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Protection et déprotection Boc",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Protection et déprotection Fmoc",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Dégradation d'Edman",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Synthèse peptidique en phase solide (Merrifield)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Hydrolyse acide d'une liaison peptidique",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Mécanisme d'une enzyme : la citrate synthase",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "lipides",
+      "nom": "Lipides",
+      "famille": "Lipides",
+      "reactions": [
+        {
+          "nom": "Saponification d'un triglycéride",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Transestérification (biodiesel)",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Hydrogénation catalytique d'une huile",
+          "niveau": "L2",
+          "id": null
+        },
+        {
+          "nom": "Biosynthèse des acides gras : condensation de Claisen",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "β-oxydation des acides gras",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Couplage prényle : biosynthèse des terpènes",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Cyclisation cationique du squalène",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Biosynthèse des stéroïdes",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Biosynthèse des prostaglandines",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "acides_nucleiques",
+      "nom": "Acides nucléiques",
+      "famille": "Acides nucléiques",
+      "reactions": [
+        {
+          "nom": "Formation de la liaison N-glycosidique d'un nucléoside",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Formation de la liaison phosphodiester",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Dépurination : hydrolyse acide d'une purine",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Séquençage de Sanger (didésoxy)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Synthèse d'ADN par la méthode phosphoramidite",
+          "niveau": "M1",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "metabolisme",
+      "nom": "Métabolisme : la chimie organique du vivant",
+      "famille": "Métabolisme",
+      "reactions": [
+        {
+          "nom": "Glycolyse : la séquence complète",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Aldolisation rétro de l'aldolase",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Isomérisation glucose-6-P → fructose-6-P",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Conversion du pyruvate en acétyl-CoA",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Cycle de Krebs : la séquence complète",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Décarboxylation d'un β-cétoacide",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Néoglucogenèse",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Transamination par le phosphate de pyridoxal",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Désamination oxydative",
+          "niveau": "M1",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "polymeres",
+      "nom": "Polymères de synthèse",
+      "famille": "Polymères",
+      "reactions": [
+        {
+          "nom": "Polymérisation radicalaire en chaîne",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Polymérisation cationique",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Polymérisation anionique",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Polymérisation Ziegler-Natta et stéréorégularité",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Copolymères statistiques, à blocs et greffés",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Polyester par polycondensation",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Polyamide (nylon) par polycondensation",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Polyuréthane",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Polymérisation par métathèse par ouverture de cycle (ROMP)",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Polylactide : polymérisation par ouverture de lactone",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "coordination",
+      "nom": "Chimie de coordination",
+      "famille": "Coordination",
+      "reactions": [
+        {
+          "nom": "Formation d'un complexe : substitution des ligands aqua",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Effet chélate",
+          "niveau": "L3",
+          "id": null
+        },
+        {
+          "nom": "Substitution en géométrie plan-carré et effet trans",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Substitution dissociative en géométrie octaédrique",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Substitution associative et échange d'interchange",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Racémisation d'un complexe tris-chélate",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Transfert d'électron par sphère externe (théorie de Marcus)",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Transfert d'électron par sphère interne (mécanisme de Taube)",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "catalyse",
+      "nom": "Catalyse organométallique et industrielle",
+      "famille": "Catalyse",
+      "reactions": [
+        {
+          "nom": "Addition oxydante",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Élimination réductrice",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Insertion migratoire",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Élimination β-hydrure",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Hydrogénation catalytique de Wilkinson",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Procédé Monsanto : synthèse de l'acide acétique",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Hydroformylation (procédé oxo)",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Procédé Wacker",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Procédé Haber-Bosch",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Synthèse Fischer-Tropsch",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Réaction du gaz à l'eau",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Catalyse acide par les zéolithes",
+          "niveau": "M2",
+          "id": null
+        }
+      ]
+    },
+    {
+      "id": "bioinorganique",
+      "nom": "Chimie bioinorganique",
+      "famille": "Bioinorganique",
+      "reactions": [
+        {
+          "nom": "Fixation réversible du dioxygène par l'hémoglobine",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
+          "niveau": "M1",
+          "id": null
+        },
+        {
+          "nom": "Transport du fer : sidérophores",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Stockage du fer : la ferritine",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Transfert d'électron par les cytochromes",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Hydroxylation par le cytochrome P-450",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Réduction du diazote par la nitrogénase",
+          "niveau": "M2",
+          "id": null
+        },
+        {
+          "nom": "Oxydation de l'eau par le complexe au manganèse du photosystème II",
           "niveau": "M2",
           "id": null
         }

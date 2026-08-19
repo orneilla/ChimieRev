@@ -4,7 +4,8 @@
     "principe_de_fiabilite": "RÈGLE ABSOLUE : aucun DOI n'est écrit de mémoire. Chaque DOI présent ici a été VÉRIFIÉ par recherche web et confirmé par au moins deux sources indépendantes. Les DOI marqués 'verifie': true sont sûrs. Tout DOI à ajouter ultérieurement DOIT passer par la même vérification — ne jamais laisser un modèle de langage inventer un DOI, car ils paraissent plausibles mais pointent souvent vers le mauvais article ou vers rien.",
     "statut": "Socle vérifié en 2026, complété famille par famille à partir des manuels indexés. Les pages citées ont été lues, non supposées.",
     "structure": "Pour chaque réaction : (1) ouvrages de référence (fiables, faits bibliographiques stables), (2) article(s) historique(s) fondateur(s) avec DOI vérifié, (3) revue moderne quand pertinent.",
-    "citer_un_ouvrage": "Un ouvrage se cite soit par sa clé seule (\"clayden\"), soit — et c’est ce qu’on vise — avec le chapitre et les pages : { \"ouvrage\": \"clayden\", \"chapitre\": \"15\", \"pages\": \"328-341\" }. Une référence sans page laisse le lecteur chercher dans mille pages."
+    "citer_un_ouvrage": "Un ouvrage se cite soit par sa clé seule (\"clayden\"), soit — et c’est ce qu’on vise — avec le chapitre et les pages : { \"ouvrage\": \"clayden\", \"chapitre\": \"15\", \"pages\": \"328-341\" }. Une référence sans page laisse le lecteur chercher dans mille pages.",
+    "manuels_indexes": "Cinq ouvrages sont indexés localement et servent de source : clayden (intégral), oc2 (LibreTexts, intégral), grossman (intégral), mcmurry (extrait, chapitres 25-31) et housecroft (extrait, chapitres 20-28). Les PDF eux-mêmes et le texte extrait ne sont jamais versés au dépôt : seules les explications réécrites et les citations le sont."
   },
   "ouvrages_de_reference": {
     "_note": "Ouvrages standards internationaux. Références stables et vérifiables ; à citer avec chapitre/section selon le sujet.",
@@ -15,7 +16,9 @@
     "fleming": "Fleming, I. — Molecular Orbitals and Organic Chemical Reactions (Reference Edition), Wiley, 2010. ISBN 978-0-470-74658-5.",
     "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2.",
     "oc2": "Morsch, L.; Farmer, S.; Cunningham, K.; Sharrett, Z.; Shea, K. M. — Organic Chemistry II, LibreTexts (CC BY-SA 4.0). Ouvrage paginé par sections, cité par numéro de section.",
-    "grossman": "Grossman, R. B. — The Art of Writing Reasonable Organic Reaction Mechanisms, 2e éd., Springer, 2003. ISBN 978-0-387-95468-4."
+    "grossman": "Grossman, R. B. — The Art of Writing Reasonable Organic Reaction Mechanisms, 2e éd., Springer, 2003. ISBN 978-0-387-95468-4.",
+    "mcmurry": "McMurry, J. — Organic Chemistry, 9e éd., Cengage Learning, 2016. Consulté sous forme d'extrait : chapitres 25 à 31 (pages imprimées 832 à 1120) — glucides, acides aminés et protéines, lipides, acides nucléiques, voies métaboliques, réactions péricycliques, polymères de synthèse.",
+    "housecroft": "Housecroft, C. E.; Sharpe, A. G. — Inorganic Chemistry, 2e éd., Pearson Prentice Hall, 2005. ISBN 0-13-039913-2. Consulté sous forme d'extrait : chapitres 20 à 28 (pages imprimées 555 à 950) — complexes de coordination, métaux d, organométalliques du bloc d, bloc f, mécanismes réactionnels des complexes, catalyse homogène et hétérogène, chimie du solide, métaux de la vie."
   },
   "references_par_reaction": {
     "diels_alder": {
