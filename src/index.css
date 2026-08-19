@@ -844,3 +844,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .exemple-schema { flex-direction: row; justify-content: center; }
   .exemple-schema .structure-plaque { flex: 1 1 0; }
 }
+
+/* Un schéma de mécanisme non encore relu par un chimiste le dit. */
+.badge-schema {
+  display: inline-block;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}

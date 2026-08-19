@@ -195,9 +195,48 @@ Une étape peut n'avoir **que du texte** : toutes ne se dessinent pas
 honnêtement (un état de transition, avec ses liaisons à moitié formées, n'a
 pas de représentation juste en liaisons entières).
 
-> Les flèches transcrivent les étapes décrites dans `mecanisme_etapes`.
-> Comme les DOI, elles demandent une **validation par un chimiste** avant
-> d'être diffusées : c'est de la donnée scientifique, pas de la mise en page.
+### La validation, comme pour les DOI
+
+Les flèches transcrivent les étapes décrites dans `mecanisme_etapes` :
+c'est de la donnée scientifique, pas de la mise en page. Elles suivent donc
+le même régime que les références.
+
+> Tant qu'une étape porte `"valide": false`, la fiche affiche la mention
+> **« schéma à valider »**. On passe à `true` **après** relecture par un
+> chimiste, jamais avant.
+
+Une erreur de flèche est ainsi visible par le lecteur, au lieu de passer
+pour une vérité établie.
+
+### La mise en page, et pourquoi elle est verticale
+
+Les espèces sont **toujours empilées**, une par ligne, séparées par un seul
+« + » centré. Deux raisons :
+
+- côte à côte, sur un téléphone tenu verticalement, le texte des molécules
+  tombe à une taille illisible ;
+- une équation qui passe à la ligne au milieu fait douter du nombre de
+  « + » — en chimie, cette ambiguïté n'est pas acceptable.
+
+Chaque espèce est resserrée sur son contenu réel avant d'être posée, et le
+schéma final est recadré : pas de vide inutile à faire défiler.
+
+### Ce que le moteur règle tout seul
+
+Deux réglages seraient intenables à la main sur des centaines de réactions,
+ils sont donc automatiques :
+
+- **le côté de chaque flèche** : le moteur essaie plusieurs courbures des
+  deux côtés et garde celle qui laisse le plus d'air autour des atomes que
+  la flèche ne relie pas (le côté demandé dans les données garde un
+  avantage, il n'est abandonné que si un autre dégage nettement mieux) ;
+- **la position de chaque numéro** : il s'écarte de la courbe jusqu'à ne
+  plus toucher aucun atome.
+
+Reste un réglage utile à la main : **l'ordre des espèces dans le SMILES**.
+Il fixe qui est dessiné en haut et qui est en bas. Écrire le substrat avant
+la base, par exemple, place la base sous l'hydrogène qu'elle vient chercher,
+et la flèche cesse de traverser la molécule.
 
 ## Réactifs & solvants
 

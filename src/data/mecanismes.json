@@ -8,7 +8,8 @@
     "numero": "Renvoie à l'étape correspondante de mecanisme_etapes. Un numéro au-delà de la dernière étape s'affiche comme un complément (bilan, produits formés).",
     "libelle": "Texte affiché sous le schéma, en face du numéro de la flèche : il dit en mots ce que cette flèche fait.",
     "dessin_a_la_main": "Une étape peut porter \"image\": \"mon-schema.svg\" au lieu de flèches : le fichier, déposé dans public/mecanismes-manuels/, est alors utilisé tel quel. Voir le LISEZ-MOI de ce dossier.",
-    "surlignage": "Ce que les flèches quittent est surligné en bleu pâle, ce qu ’elles atteignent en rose pâle : la cible d une flèche ne se devine pas, elle se voit."
+    "surlignage": "Ce que les flèches quittent est surligné en bleu pâle, ce qu ’elles atteignent en rose pâle : la cible d une flèche ne se devine pas, elle se voit.",
+    "validation": "Comme pour les DOI : un schéma n'est réputé juste que s'il a été relu par un chimiste. Tant que 'valide' vaut false, la fiche affiche la mention « schéma à valider ». Passer à true une fois la flèche vérifiée — jamais avant."
   },
   "sn2": {
     "etapes": [
@@ -41,14 +42,16 @@
             "courbure": 0.4,
             "libelle": "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
           }
-        ]
+        ],
+        "valide": false
       },
       {
         "numero": 4,
         "titre": "Ce qu'on obtient",
         "smiles": "CCO.[Br-]",
         "legende": "L'alcool est formé et l'ion bromure est parti. Le carbone attaqué s'est retourné comme un parapluie.",
-        "fleches": []
+        "fleches": [],
+        "valide": false
       }
     ]
   },
@@ -57,15 +60,15 @@
       {
         "numero": 1,
         "titre": "Trois mouvements, un seul geste",
-        "smiles": "CC[O-].CC([H])CBr",
+        "smiles": "CC([H])CBr.CC[O-]",
         "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps.",
         "fleches": [
           {
             "de": {
-              "atome": 2
+              "atome": 7
             },
             "vers": {
-              "atome": 5
+              "atome": 2
             },
             "courbure": 0.3,
             "libelle": "Le doublet de la base va chercher l'hydrogène du carbone voisin."
@@ -73,14 +76,14 @@
           {
             "de": {
               "liaison": [
-                4,
-                5
+                1,
+                2
               ]
             },
             "vers": {
               "liaison": [
-                4,
-                6
+                1,
+                3
               ]
             },
             "courbure": -0.45,
@@ -89,24 +92,26 @@
           {
             "de": {
               "liaison": [
-                6,
-                7
+                3,
+                4
               ]
             },
             "vers": {
-              "atome": 7
+              "atome": 4
             },
             "courbure": 0.4,
             "libelle": "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
           }
-        ]
+        ],
+        "valide": false
       },
       {
         "numero": 4,
         "titre": "Ce qu'on obtient",
         "smiles": "CCO.CC=C.[Br-]",
         "legende": "L'alcène est né, la base est repartie avec son proton, le bromure est libre.",
-        "fleches": []
+        "fleches": [],
+        "valide": false
       }
     ]
   },
@@ -160,14 +165,16 @@
             "courbure": -0.4,
             "libelle": "La double liaison restante glisse au milieu du diène."
           }
-        ]
+        ],
+        "valide": false
       },
       {
         "numero": 4,
         "titre": "Ce qu'on obtient",
         "smiles": "C1CCC=CC1",
         "legende": "Un cycle à six atomes, avec une double liaison au milieu. En un seul geste, sans rien gaspiller.",
-        "fleches": []
+        "fleches": [],
+        "valide": false
       }
     ]
   },
@@ -205,7 +212,8 @@
             "courbure": 0.4,
             "libelle": "Les électrons de la double liaison C=O se replient sur l'oxygène."
           }
-        ]
+        ],
+        "valide": false
       },
       {
         "numero": 3,
@@ -236,14 +244,16 @@
             "courbure": 0.35,
             "libelle": "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
           }
-        ]
+        ],
+        "valide": false
       },
       {
         "numero": 4,
         "titre": "Ce qu'on obtient",
         "smiles": "CC(O)C.C[O-]",
         "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton.",
-        "fleches": []
+        "fleches": [],
+        "valide": false
       }
     ]
   },
@@ -281,7 +291,8 @@
             "courbure": 0.4,
             "libelle": "Les électrons de la double liaison C=O se replient sur l'oxygène."
           }
-        ]
+        ],
+        "valide": false
       },
       {
         "numero": 3,
@@ -312,14 +323,16 @@
             "courbure": 0.35,
             "libelle": "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
           }
-        ]
+        ],
+        "valide": false
       },
       {
         "numero": 4,
         "titre": "Ce qu'on obtient",
         "smiles": "CC(O)(C)C.[OH-]",
         "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi.",
-        "fleches": []
+        "fleches": [],
+        "valide": false
       }
     ]
   }

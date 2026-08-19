@@ -62,7 +62,14 @@ export default function MecanismeEtapes({ id, etapes }) {
                       </ol>
                     )}
 
-                    <figcaption>{schema.legende}</figcaption>
+                    <figcaption>
+                      {schema.legende}
+                      {!schema.valide && (
+                        <span className="badge-a-verifier badge-schema">
+                          Schéma à valider
+                        </span>
+                      )}
+                    </figcaption>
                   </figure>
                 )}
               </div>

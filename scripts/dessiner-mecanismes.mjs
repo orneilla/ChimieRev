@@ -31,17 +31,18 @@ const MANUELS = 'public/mecanismes-manuels'
 const COULEUR_FLECHE = '#D62246'          // les flèches et leurs numéros
 const SURLIGNE_DEPART = [0.78, 0.90, 0.98] // bleu très pâle : d'où viennent les électrons
 const SURLIGNE_ARRIVEE = [1, 0.82, 0.87]   // rose très pâle : où ils vont
-const CASE = 230
-const HAUTEUR_LIGNE = 205
-const ESPACEMENT = 40
-const PAR_LIGNE = 2
+const CASE = 240                 // largeur de la toile de dessin d'une espèce
+const HAUTEUR_TOILE = 220        // hauteur de cette toile
+const MARGE_ESPECE = 30          // autour des atomes : lettres et surlignages
+const ECART_AVEC_FLECHES = 58    // place laissée aux flèches entre deux espèces
+const ECART_SANS_FLECHES = 34
 
 const mecanismes = JSON.parse(readFileSync('src/data/mecanismes.json', 'utf8'))
 const RDKit = await initRDKit()
 
 const optionsDessin = (extra = {}) => JSON.stringify({
   width: CASE,
-  height: HAUTEUR_LIGNE,
+  height: HAUTEUR_TOILE,
   backgroundColour: [1, 1, 1, 0],
   fixedBondLength: 32,
   bondLineWidth: 2,
@@ -150,15 +151,58 @@ function trace(fleche, centres, numero) {
   const dy = arrivee.y - depart.y
   const distance = Math.hypot(dx, dy) || 1
 
-  // On garde la courbure demandée, avec un ventre minimum : sans cela une
+  // On part de la courbure demandée, avec un ventre minimum : sans cela une
   // flèche courte se réduit à un trait droit invisible.
   const demandee = fleche.courbure ?? 0.35
   const ampleur = Math.max(Math.abs(demandee), 20 / distance)
-  const courbure = Math.sign(demandee || 1) * ampleur
+  const prefere = Math.sign(demandee || 1)
 
-  const controle = {
+  const pointDeControle = (courbure) => ({
     x: (depart.x + arrivee.x) / 2 - (dy / distance) * distance * courbure,
     y: (depart.y + arrivee.y) / 2 + (dx / distance) * distance * courbure
+  })
+
+  // Une flèche qui passe sur une molécule la rend illisible. On essaie donc
+  // plusieurs courbures, des deux côtés, et on garde celle qui laisse le
+  // plus d'air autour des atomes — sans compter ceux que la flèche relie,
+  // qu'elle doit forcément approcher. Le côté demandé garde un avantage :
+  // il n'est abandonné que si un autre dégage nettement mieux.
+  const atomesRelies = new Set([
+    ...(fleche.de.atome !== undefined ? [fleche.de.atome] : fleche.de.liaison),
+    ...(fleche.vers.atome !== undefined ? [fleche.vers.atome] : fleche.vers.liaison)
+  ])
+  const aEviter = centres.filter((_, i) => !atomesRelies.has(i))
+
+  const degagement = (controle) => {
+    if (aEviter.length === 0) return Infinity
+    let minimum = Infinity
+    // On échantillonne le cœur de la courbe : ses extrémités touchent
+    // volontairement leur cible.
+    for (let t = 0.2; t <= 0.8; t += 0.1) {
+      const u = 1 - t
+      const point = {
+        x: u * u * depart.x + 2 * u * t * controle.x + t * t * arrivee.x,
+        y: u * u * depart.y + 2 * u * t * controle.y + t * t * arrivee.y
+      }
+      for (const atome of aEviter) {
+        minimum = Math.min(minimum, Math.hypot(atome.x - point.x, atome.y - point.y))
+      }
+    }
+    return minimum
+  }
+
+  let controle = pointDeControle(prefere * ampleur)
+  let meilleur = degagement(controle) + 12   // avantage au côté demandé
+
+  for (const signe of [1, -1]) {
+    for (const facteur of [1, 1.45, 1.9]) {
+      const essai = pointDeControle(signe * ampleur * facteur)
+      const note = degagement(essai)
+      if (note > meilleur) {
+        meilleur = note
+        controle = essai
+      }
+    }
   }
 
   const recule = (point, retraitMax) => {
@@ -183,8 +227,9 @@ function trace(fleche, centres, numero) {
     `${(b.x - taille * Math.cos(angle + ouverture)).toFixed(1)},${(b.y - taille * Math.sin(angle + ouverture)).toFixed(1)}`
   ].join(' ')
 
-  // Numéro posé au sommet de la courbe, puis repoussé un peu plus loin
-  // vers l'extérieur : sinon il vient s'asseoir sur une lettre d'atome.
+  // Le numéro se pose au sommet de la courbe, puis s'écarte vers
+  // l'extérieur jusqu'à ne plus toucher aucun atome. Sans cette
+  // vérification, il vient s'asseoir sur une lettre et cache la molécule.
   const sommet = {
     x: 0.25 * a.x + 0.5 * controle.x + 0.25 * b.x,
     y: 0.25 * a.y + 0.5 * controle.y + 0.25 * b.y
@@ -192,10 +237,21 @@ function trace(fleche, centres, numero) {
   const corde = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }
   const versExterieur = { x: sommet.x - corde.x, y: sommet.y - corde.y }
   const norme = Math.hypot(versExterieur.x, versExterieur.y) || 1
-  const milieu = {
-    x: sommet.x + (versExterieur.x / norme) * 14,
-    y: sommet.y + (versExterieur.y / norme) * 14
+  const direction = { x: versExterieur.x / norme, y: versExterieur.y / norme }
+
+  const DEGAGEMENT = 32   // distance minimale entre le numéro et un atome
+  let milieu = null
+  for (const ecart of [16, 22, 28, 34, 40, 46]) {
+    const essai = {
+      x: sommet.x + direction.x * ecart,
+      y: sommet.y + direction.y * ecart
+    }
+    if (centres.every((c) => Math.hypot(c.x - essai.x, c.y - essai.y) > DEGAGEMENT)) {
+      milieu = essai
+      break
+    }
   }
+  if (!milieu) milieu = { x: sommet.x + direction.x * 46, y: sommet.y + direction.y * 46 }
 
   const svg = `  <path d='M ${a.x.toFixed(1)},${a.y.toFixed(1)} Q ${controle.x.toFixed(1)},${controle.y.toFixed(1)} ${b.x.toFixed(1)},${b.y.toFixed(1)}' fill='none' stroke='${COULEUR_FLECHE}' stroke-width='2.6' stroke-linecap='round'/>
   <polygon points='${pointe}' fill='${COULEUR_FLECHE}'/>
@@ -239,56 +295,62 @@ function dessinerEtape(etape) {
 
   // Composition.
   //
-  // Dès qu'une étape porte des flèches, on empile les espèces l'une sous
-  // l'autre, une par ligne : sur un téléphone tenu verticalement, deux
-  // molécules côte à côte réduisent le texte à une taille illisible.
-  // Les étapes sans flèche (les bilans) tiennent deux par ligne, il n'y a
-  // là rien à suivre du regard.
-  const parLigne = (etape.fleches || []).length > 0 ? 1 : Math.min(PAR_LIGNE, especes.length)
-  const nbLignes = Math.ceil(especes.length / parLigne)
-  const largeurMax = parLigne * CASE + (parLigne - 1) * ESPACEMENT
+  // Les espèces sont TOUJOURS empilées, une par ligne, séparées par un
+  // « + » centré. Deux raisons : sur un téléphone tenu verticalement, deux
+  // molécules côte à côte réduisent le texte à une taille illisible ; et
+  // une équation qui passe à la ligne au milieu fait douter du nombre de
+  // « + » — en chimie, cette ambiguïté n'est pas acceptable.
+  //
+  // Chaque espèce est resserrée sur son contenu réel avant d'être posée :
+  // RDKit centre sa molécule dans une grande toile, dont le vide gonflerait
+  // inutilement la hauteur de la scène.
+  const dessinees = especes.map((smiles, rang) => dessinerEspece(smiles, misEnJeu[rang]))
+
+  const boites = dessinees.map(({ centres: c }) => ({
+    x0: Math.min(...c.map((p) => p.x)) - MARGE_ESPECE,
+    y0: Math.min(...c.map((p) => p.y)) - MARGE_ESPECE,
+    x1: Math.max(...c.map((p) => p.x)) + MARGE_ESPECE,
+    y1: Math.max(...c.map((p) => p.y)) + MARGE_ESPECE
+  }))
+
+  const largeur = Math.max(...boites.map((b) => b.x1 - b.x0))
+  const ecart = (etape.fleches || []).length > 0 ? ECART_AVEC_FLECHES : ECART_SANS_FLECHES
 
   let contenus = ''
   let plus = ''
   const centres = []
+  let hauteur = 0
 
-  especes.forEach((smiles, rang) => {
-    const espece = dessinerEspece(smiles, misEnJeu[rang])
-    const colonne = rang % parLigne
-    const ligne = Math.floor(rang / parLigne)
+  dessinees.forEach((espece, rang) => {
+    const boite = boites[rang]
+    const dx = (largeur - (boite.x1 - boite.x0)) / 2 - boite.x0
+    const dy = hauteur - boite.y0
 
-    // Une ligne incomplète est centrée, pas collée à gauche.
-    const surCetteLigne = Math.min(parLigne, especes.length - ligne * parLigne)
-    const largeurLigne = surCetteLigne * CASE + (surCetteLigne - 1) * ESPACEMENT
-    const dx = (largeurMax - largeurLigne) / 2 + colonne * (CASE + ESPACEMENT)
-    const dy = ligne * HAUTEUR_LIGNE
-
-    contenus += `\n  <g transform='translate(${dx}, ${dy})'>${espece.contenu}</g>`
+    contenus += `\n  <g transform='translate(${dx.toFixed(1)}, ${dy.toFixed(1)})'>${espece.contenu}</g>`
     espece.centres.forEach((c) => centres.push({ x: c.x + dx, y: c.y + dy }))
 
-    // Le « + » : à droite de l'espèce si la suivante est sur la même ligne,
-    // en dessous si elle passe à la ligne.
-    if (rang < especes.length - 1) {
-      const suivanteMemeLigne = colonne < parLigne - 1
-      const px = suivanteMemeLigne ? dx + CASE + ESPACEMENT / 2 : largeurMax / 2
-      const py = suivanteMemeLigne ? dy + HAUTEUR_LIGNE / 2 : dy + HAUTEUR_LIGNE - 4
-      plus += `\n  <text x='${px}' y='${py}' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>`
+    hauteur += boite.y1 - boite.y0
+
+    // Un « + » entre deux espèces, et un seul : jamais d'ambiguïté sur le
+    // nombre d'espèces qui entrent ou qui sortent.
+    if (rang < dessinees.length - 1) {
+      plus += `\n  <text x='${(largeur / 2).toFixed(1)}' y='${(hauteur + ecart / 2).toFixed(1)}' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>`
+      hauteur += ecart
     }
   })
-
-  const largeur = largeurMax
-  const hauteur = nbLignes * HAUTEUR_LIGNE
 
   const tracees = (etape.fleches || []).map((f, i) => trace(f, centres, i + 1))
   const fleches = tracees.map((t) => t.svg).join('\n')
 
   // Recadrage sur ce qui est réellement dessiné.
+  // Recadrage : on resserre sur ce qui est réellement dessiné (atomes,
+  // flèches et numéros), sans jamais couper.
   const points = [...centres, ...tracees.flatMap((t) => t.points)]
-  const marge = 36
-  const x = Math.max(0, Math.min(...points.map((p) => p.x)) - marge)
-  const y = Math.max(0, Math.min(...points.map((p) => p.y)) - marge)
-  const l = Math.min(largeur, Math.max(...points.map((p) => p.x)) + marge) - x
-  const h = Math.min(hauteur, Math.max(...points.map((p) => p.y)) + marge) - y
+  const marge = 30
+  const x = Math.min(...points.map((p) => p.x)) - marge
+  const y = Math.min(...points.map((p) => p.y)) - marge
+  const l = Math.max(...points.map((p) => p.x)) + marge - x
+  const h = Math.max(...points.map((p) => p.y)) + marge - y
 
   return `<svg xmlns='http://www.w3.org/2000/svg' version='1.1'
      width='${l.toFixed(0)}px' height='${h.toFixed(0)}px' viewBox='${x.toFixed(0)} ${y.toFixed(0)} ${l.toFixed(0)} ${h.toFixed(0)}'>${contenus}${plus}
@@ -322,7 +384,8 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
         fichier: etape.image,
         titre: etape.titre,
         legende: etape.legende,
-        fleches: []
+        fleches: [],
+        valide: etape.valide === true
       }
       total++
       continue
@@ -336,7 +399,9 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
       titre: etape.titre,
       legende: etape.legende,
       // Ce que fait chaque flèche, dans l'ordre de leur numéro.
-      fleches: (etape.fleches || []).map((f) => f.libelle || '')
+      fleches: (etape.fleches || []).map((f) => f.libelle || ''),
+      // Un schéma n'est réputé juste qu'une fois relu par un chimiste.
+      valide: etape.valide === true
     }
     total++
   }
