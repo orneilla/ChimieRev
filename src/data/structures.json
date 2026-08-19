@@ -63,6 +63,38 @@
     "substrat": "competition_substitution_elimination-substrat.svg",
     "produit": "competition_substitution_elimination-produit.svg"
   },
+  "e1": {
+    "substrat": "e1-substrat.svg",
+    "produit": "e1-produit.svg"
+  },
+  "deshydratation_alcool": {
+    "substrat": "deshydratation_alcool-substrat.svg",
+    "produit": "deshydratation_alcool-produit.svg"
+  },
+  "e1cb": {
+    "substrat": "e1cb-substrat.svg",
+    "produit": "e1cb-produit.svg"
+  },
+  "deshydrohalogenation_alcyne": {
+    "substrat": "deshydrohalogenation_alcyne-substrat.svg",
+    "produit": "deshydrohalogenation_alcyne-produit.svg"
+  },
+  "elimination_hofmann": {
+    "substrat": "elimination_hofmann-substrat.svg",
+    "produit": "elimination_hofmann-produit.svg"
+  },
+  "elimination_cope": {
+    "substrat": "elimination_cope-substrat.svg",
+    "produit": "elimination_cope-produit.svg"
+  },
+  "elimination_chugaev": {
+    "substrat": "elimination_chugaev-substrat.svg",
+    "produit": "elimination_chugaev-produit.svg"
+  },
+  "elimination_peterson": {
+    "substrat": "elimination_peterson-substrat.svg",
+    "produit": "elimination_peterson-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

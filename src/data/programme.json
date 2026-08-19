@@ -86,42 +86,42 @@
         {
           "nom": "Élimination E1",
           "niveau": "L2",
-          "id": null
+          "id": "e1"
         },
         {
           "nom": "Élimination E1cb",
           "niveau": "L3",
-          "id": null
+          "id": "e1cb"
         },
         {
           "nom": "Déshydratation des alcools",
           "niveau": "L2",
-          "id": null
+          "id": "deshydratation_alcool"
         },
         {
           "nom": "Déshydrohalogénation des dihalogénures (alcynes)",
           "niveau": "L3",
-          "id": null
+          "id": "deshydrohalogenation_alcyne"
         },
         {
           "nom": "Élimination de Hofmann (ammoniums)",
           "niveau": "M1",
-          "id": null
+          "id": "elimination_hofmann"
         },
         {
           "nom": "Élimination syn de Cope (N-oxydes)",
           "niveau": "M1",
-          "id": null
+          "id": "elimination_cope"
         },
         {
           "nom": "Élimination de Chugaev (xanthates)",
           "niveau": "M2",
-          "id": null
+          "id": "elimination_chugaev"
         },
         {
           "nom": "Oléfination de Peterson",
           "niveau": "M2",
-          "id": null
+          "id": "elimination_peterson"
         }
       ]
     },

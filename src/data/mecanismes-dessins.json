@@ -520,5 +520,266 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "e1": {
+    "1": {
+      "fichier": "e1-etape1.svg",
+      "titre": "Le brome part tout seul — l'étape lente",
+      "legende": "Aucune base n'intervient ici. Le carbone est entouré de trois voisins carbonés : il peut supporter de perdre des électrons. C'est cette étape, et elle seule, qui fixe la vitesse de toute la réaction.",
+      "fleches": [
+        "La liaison C–Br se rompt : le brome part avec les deux électrons, et il reste un carbocation."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "e1-etape2.svg",
+      "titre": "N'importe quelle base arrache un proton voisin",
+      "legende": "Le carbone en manque d'électrons n'attend que ça. Une simple molécule d'eau suffit à retirer un hydrogène d'un carbone voisin ; les électrons libérés viennent combler le manque, et c'est la double liaison.",
+      "fleches": [
+        "L'eau, base même faible, attrape un hydrogène du carbone voisin.",
+        "Les électrons de la liaison C–H forment la double liaison avec le carbone positif."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "e1-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le 2-méthylpropène. À côté, la substitution donne aussi son produit : les deux réactions partagent le même carbocation et se disputent son sort.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "deshydratation_alcool": {
+    "1": {
+      "fichier": "deshydratation_alcool-etape1.svg",
+      "titre": "L'acide protone l'alcool",
+      "legende": "Sans cette première opération, rien ne se passerait : le groupe OH ne s'en va jamais de lui-même. Protoné, il devient une molécule d'eau — et l'eau, elle, part très volontiers.",
+      "fleches": [
+        "Un doublet libre de l'oxygène de l'alcool capte le proton de l'acide.",
+        "Les électrons de la liaison O–H restent à l'acide, qui devient son anion."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "deshydratation_alcool-etape2.svg",
+      "titre": "L'eau s'en va — l'étape lente",
+      "legende": "Le départ de l'eau laisse un carbone en manque d'électrons. Ce carbone-ci le supporte, parce qu'il est épaulé par trois voisins carbonés. Sur un carbone de bout de chaîne, l'étape n'aurait pas lieu.",
+      "fleches": [
+        "La liaison C–O se rompt : l'eau part avec les deux électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "deshydratation_alcool-etape3.svg",
+      "titre": "L'anion de l'acide reprend un proton",
+      "legende": "Ce n'est pas un bon nucléophile — il ne vient donc pas se coller au carbone — mais il fait très bien une base. Il retire un hydrogène voisin, la double liaison se forme, et l'acide est régénéré.",
+      "fleches": [
+        "L'anion de l'acide attrape un hydrogène du carbone voisin.",
+        "Les électrons de la liaison C–H forment la double liaison."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "deshydratation_alcool-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcène, et de l'eau. L'acide, lui, ressort intact : il n'a fait que passer, d'où le mot catalyseur.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "e1cb": {
+    "1": {
+      "fichier": "e1cb-etape1.svg",
+      "titre": "La base retire le proton voisin du carbonyle",
+      "legende": "Cet hydrogène-là n'est pas comme les autres : le carbonyle juste à côté sait absorber une charge négative, ce qui le rend anormalement facile à arracher. L'opération est rapide et réversible — le proton fait des allers-retours.",
+      "fleches": [
+        "L'ion hydroxyde attrape l'hydrogène situé à côté du carbonyle.",
+        "Les électrons de la liaison C–H restent sur le carbone, qui devient négatif."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "e1cb-etape2.svg",
+      "titre": "La charge glisse sur l'oxygène : c'est un énolate",
+      "legende": "La charge ne reste pas sur le carbone. Elle se déplace vers l'oxygène du carbonyle, bien mieux armé pour la porter. C'est cette écriture-là — l'énolate — que Clayden appelle la représentation la plus juste de l'anion.",
+      "fleches": [
+        "Le doublet du carbone négatif forme une double liaison avec le carbone du carbonyle.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène, qui porte désormais la charge."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "e1cb-etape3.svg",
+      "titre": "Le OH s'en va — l'étape lente",
+      "legende": "Voilà l'exception : un ion hydroxyde qui part vraiment. Il le peut parce qu'il quitte un anion, non une molécule neutre — il n'y a aucune charge négative à créer, elle est déjà là. C'est cette étape qui fixe la vitesse.",
+      "fleches": [
+        "L'oxygène négatif reforme la double liaison C=O.",
+        "La double liaison carbone-carbone se déplace d'un cran.",
+        "La liaison C–O se rompt : l'ion hydroxyde s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "e1cb-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une cétone conjuguée : la double liaison est maintenant collée au carbonyle. Cette conjugaison est stabilisante, et elle a contribué à faire partir le OH.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "deshydrohalogenation_alcyne": {
+    "1": {
+      "fichier": "deshydrohalogenation_alcyne-etape1.svg",
+      "titre": "Première élimination : on obtient un bromure vinylique",
+      "legende": "Une E2 tout ce qu'il y a de plus classique. La base — très avide de protons mais trop encombrée pour attaquer un carbone — retire un hydrogène pendant qu'un des deux bromes s'en va.",
+      "fleches": [
+        "L'azote négatif de la base arrache l'hydrogène.",
+        "Les électrons de la liaison C–H forment la double liaison carbone-carbone.",
+        "Le second brome part avec les deux électrons de sa liaison."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "deshydrohalogenation_alcyne-etape2.svg",
+      "titre": "Seconde élimination : la double liaison devient triple",
+      "legende": "On recommence, cette fois sur la double liaison. L'hydrogène et le brome sont ici du même côté, ce qui n'est pas l'arrangement idéal : la réaction est plus lente que sur l'autre isomère, mais elle a bien lieu.",
+      "fleches": [
+        "Un second équivalent de base arrache l'hydrogène vinylique.",
+        "Les électrons de la liaison C–H viennent renforcer la double liaison, qui devient triple.",
+        "Le dernier brome s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "deshydrohalogenation_alcyne-etape3.svg",
+      "titre": "Le troisième équivalent déprotone l'alcyne",
+      "legende": "L'hydrogène au bout d'une triple liaison est bien plus facile à retirer que celui d'un alcane ordinaire. La base restante s'en empare aussitôt — ce n'est pas un accident, c'est prévu : on récupère l'alcyne sous forme de sel, directement utilisable.",
+      "fleches": [
+        "Le troisième équivalent de base arrache l'hydrogène terminal.",
+        "Les électrons restent sur le carbone : c'est l'alcynure."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "deshydrohalogenation_alcyne-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le propyne — sous forme lithiée dans le ballon. Compare avec le départ : une molécule entièrement saturée est devenue une triple liaison.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "elimination_hofmann": {
+    "1": {
+      "fichier": "elimination_hofmann-etape1.svg",
+      "titre": "Une E2 dont le groupe partant est une amine",
+      "legende": "L'azote porte déjà quatre groupes, donc une charge positive. En partant avec ses électrons il redevient simplement neutre : rien à créer, rien à payer. C'est ce qui fait de lui un excellent groupe partant, alors qu'une amine ordinaire n'en est pas un.",
+      "fleches": [
+        "L'ion hydroxyde arrache un hydrogène du carbone voisin de l'azote.",
+        "Les électrons de la liaison C–H forment la double liaison.",
+        "La liaison carbone–azote se rompt : l'amine part avec les deux électrons et redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "elimination_hofmann-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le 3,3-diméthylbut-1-ène, avec 81 % de rendement. La triméthylamine part avec lui, et se sépare sans peine puisqu'elle est volatile.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "elimination_cope": {
+    "1": {
+      "fichier": "elimination_cope-etape1.svg",
+      "titre": "Tout se joue en un cycle, sans aucun réactif",
+      "legende": "Compte les atomes engagés : l'oxygène, l'azote, deux carbones et l'hydrogène — cinq, repliés un instant en anneau. La molécule contient déjà son propre preneur de protons ; il suffit de chauffer. Conséquence directe de cet anneau : l'oxygène et l'hydrogène doivent être du MÊME côté, à l'inverse d'une E2 ordinaire.",
+      "fleches": [
+        "L'oxygène négatif, porté par la molécule elle-même, attrape l'hydrogène du carbone voisin.",
+        "Les électrons de la liaison C–H forment la double liaison carbone-carbone.",
+        "La liaison carbone–azote se rompt : l'azote part avec ses électrons et redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "elimination_cope-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcène, accompagné d'une hydroxylamine. Aucun acide, aucune base n'a été versé dans le ballon : la méthode convient donc aux molécules fragiles.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "elimination_chugaev": {
+    "1": {
+      "fichier": "elimination_chugaev-etape1.svg",
+      "titre": "Un anneau de six atomes, et tout bascule",
+      "legende": "Même principe que l'élimination de Cope, avec six atomes au lieu de cinq : l'hydrogène, son carbone, le carbone voisin, l'oxygène, le carbone du xanthate et le soufre. Le double moteur est visible sur le dessin : une molécule en donne deux, et une double liaison C=S faible est échangée contre une double liaison C=O solide.",
+      "fleches": [
+        "Les électrons de la liaison C–H forment la double liaison carbone-carbone.",
+        "La liaison carbone–oxygène se rompt ; l'oxygène forme une double liaison avec le carbone du xanthate.",
+        "Les électrons de la double liaison C=S vont chercher l'hydrogène : le cycle est bouclé."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "elimination_chugaev-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcène. Le fragment soufré se décompose ensuite de lui-même en sulfure de carbonyle et en méthanethiol — d'où l'odeur mémorable de cette réaction.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "elimination_peterson": {
+    "1": {
+      "fichier": "elimination_peterson-etape1.svg",
+      "titre": "L'acide protone l'alcool",
+      "legende": "Comme dans toute déshydratation : sans proton, l'oxygène ne partirait pas. L'ion fluorure libéré au passage est justement celui qui déclenchera la suite.",
+      "fleches": [
+        "Un doublet libre de l'oxygène capte le proton de HF.",
+        "Les électrons de la liaison H–F restent au fluor, qui devient fluorure."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "elimination_peterson-etape2.svg",
+      "titre": "Le fluorure emporte le silicium, et l'alcène apparaît",
+      "legende": "Le groupe SiMe₃ joue ici le rôle d'un proton géant. Le fluorure vient l'arracher — la liaison silicium-fluor est parmi les plus solides qui soient — et les électrons libérés forment la double liaison pendant que l'eau s'en va. Comme il n'y a qu'un seul silicium, il n'y a qu'un seul produit possible.",
+      "fleches": [
+        "Le fluorure attaque le silicium.",
+        "Les électrons de la liaison carbone–silicium forment la double liaison.",
+        "L'eau s'en va avec les électrons de la liaison carbone–oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "elimination_peterson-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'α-méthylstyrène, 84 % de rendement, et un seul régioisomère. Une déshydratation ordinaire aurait donné un mélange : c'est le silicium, placé à l'avance, qui a décidé de l'endroit.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

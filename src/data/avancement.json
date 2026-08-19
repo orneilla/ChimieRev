@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-19",
   "total": 138,
-  "redigees": 16,
-  "verifiees": 16,
+  "redigees": 24,
+  "verifiees": 24,
   "relues": 0,
   "familles": [
     {
@@ -106,9 +106,9 @@
       "nom": "Éliminations",
       "famille": "Éliminations",
       "total": 9,
-      "absente": 8,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 1,
+      "verifiee": 9,
       "relue": 0,
       "reactions": [
         {
@@ -116,63 +116,63 @@
           "niveau": "L2",
           "id": "e2",
           "statut": "verifiee",
-          "sources": false
+          "sources": true
         },
         {
           "nom": "Élimination E1",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "e1",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Élimination E1cb",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "e1cb",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Déshydratation des alcools",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "deshydratation_alcool",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Déshydrohalogénation des dihalogénures (alcynes)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "deshydrohalogenation_alcyne",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Élimination de Hofmann (ammoniums)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "elimination_hofmann",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Élimination syn de Cope (N-oxydes)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "elimination_cope",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Élimination de Chugaev (xanthates)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "elimination_chugaev",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Oléfination de Peterson",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "elimination_peterson",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },
