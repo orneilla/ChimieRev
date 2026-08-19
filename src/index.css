@@ -990,3 +990,44 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   font-weight: 700;
   overflow-wrap: anywhere;
 }
+
+/* Les blocs du programme : vingt-huit familles à la file ne se lisent
+   pas. Le titre de bloc les regroupe et porte son propre décompte. */
+.titre-bloc {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 2.25rem 0 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 3px solid var(--encre);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.titre-bloc-compte {
+  font-family: var(--police-texte);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+/* La liste des ouvrages consultés : longue, elle se lit mieux aérée. */
+.liste-ouvrages {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.liste-ouvrages li {
+  margin-bottom: 0.7rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--encre-doux);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}

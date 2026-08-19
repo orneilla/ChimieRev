@@ -1,6 +1,6 @@
 {
   "genere_le": "2026-08-19",
-  "total": 222,
+  "total": 289,
   "redigees": 24,
   "verifiees": 24,
   "relues": 0,
@@ -9,6 +9,7 @@
       "id": "substitutions",
       "nom": "Substitutions nucléophiles",
       "famille": "Substitutions",
+      "bloc": "Socle organique",
       "total": 12,
       "absente": 0,
       "redigee": 0,
@@ -105,6 +106,7 @@
       "id": "eliminations",
       "nom": "Éliminations",
       "famille": "Éliminations",
+      "bloc": "Socle organique",
       "total": 9,
       "absente": 0,
       "redigee": 0,
@@ -180,6 +182,7 @@
       "id": "additions_electrophiles",
       "nom": "Additions électrophiles",
       "famille": "Additions électrophiles",
+      "bloc": "Socle organique",
       "total": 13,
       "absente": 13,
       "redigee": 0,
@@ -283,6 +286,7 @@
       "id": "carbonyle",
       "nom": "Additions sur le carbonyle",
       "famille": "Additions sur le carbonyle",
+      "bloc": "Socle organique",
       "total": 13,
       "absente": 12,
       "redigee": 0,
@@ -386,6 +390,7 @@
       "id": "acyle",
       "nom": "Substitution nucléophile acyle",
       "famille": "Substitution acyle",
+      "bloc": "Socle organique",
       "total": 10,
       "absente": 10,
       "redigee": 0,
@@ -468,6 +473,7 @@
       "id": "aromatique",
       "nom": "Chimie aromatique",
       "famille": "Aromatique",
+      "bloc": "Socle organique",
       "total": 11,
       "absente": 11,
       "redigee": 0,
@@ -557,6 +563,7 @@
       "id": "enolates",
       "nom": "Énolates et carbonyles en α",
       "famille": "Énolates",
+      "bloc": "Socle organique",
       "total": 15,
       "absente": 15,
       "redigee": 0,
@@ -671,63 +678,10 @@
       ]
     },
     {
-      "id": "organometalliques",
-      "nom": "Organométalliques",
-      "famille": "Organométalliques",
-      "total": 6,
-      "absente": 5,
-      "redigee": 0,
-      "verifiee": 1,
-      "relue": 0,
-      "reactions": [
-        {
-          "nom": "Réaction de Grignard",
-          "niveau": "L2",
-          "id": "grignard",
-          "statut": "verifiee",
-          "sources": true
-        },
-        {
-          "nom": "Organolithiens",
-          "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Cuprates de Gilman (addition 1,4)",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Réaction de Reformatsky",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Umpolung : dithianes",
-          "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Métallation dirigée (ortho-lithiation)",
-          "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        }
-      ]
-    },
-    {
       "id": "oxydoreduction",
       "nom": "Oxydo-réduction",
       "famille": "Oxydo-réduction",
+      "bloc": "Socle organique",
       "total": 10,
       "absente": 10,
       "redigee": 0,
@@ -810,6 +764,7 @@
       "id": "radicalaire",
       "nom": "Chimie radicalaire",
       "famille": "Radicalaire",
+      "bloc": "Socle organique",
       "total": 7,
       "absente": 7,
       "redigee": 0,
@@ -871,6 +826,7 @@
       "id": "pericycliques",
       "nom": "Réactions péricycliques",
       "famille": "Péricycliques",
+      "bloc": "Socle organique",
       "total": 9,
       "absente": 8,
       "redigee": 0,
@@ -943,9 +899,224 @@
       ]
     },
     {
+      "id": "rearrangements",
+      "nom": "Réarrangements",
+      "famille": "Réarrangements",
+      "bloc": "Socle organique",
+      "total": 8,
+      "absente": 8,
+      "redigee": 0,
+      "verifiee": 0,
+      "relue": 0,
+      "reactions": [
+        {
+          "nom": "Réarrangement de Wagner-Meerwein",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Transposition pinacolique",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réarrangement de Beckmann",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réarrangement de Hofmann",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réarrangement de Curtius",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réarrangement de Wolff (Arndt-Eistert)",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réarrangement de Favorskii",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Transposition de Baeyer-Villiger : migration",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        }
+      ]
+    },
+    {
+      "id": "heterocycles",
+      "nom": "Hétérocycles aromatiques",
+      "famille": "Hétérocycles",
+      "bloc": "Socle organique",
+      "total": 11,
+      "absente": 11,
+      "redigee": 0,
+      "verifiee": 0,
+      "relue": 0,
+      "reactions": [
+        {
+          "nom": "Substitution électrophile du pyrrole, du furane et du thiophène",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Substitution nucléophile de la pyridine",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Oxydation de la pyridine en N-oxyde et réactivité",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse de Paal-Knorr des furanes, pyrroles et thiophènes",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse indolique de Fischer",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse de Hantzsch des pyridines",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse de Skraup des quinoléines",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse de Knorr des pyrazoles et isoxazoles",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Cyclisation vers les imidazoles et les thiazoles",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Métallation dirigée d'un hétérocycle",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Chimie des purines et des pyrimidines",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        }
+      ]
+    },
+    {
+      "id": "organometalliques",
+      "nom": "Organométalliques",
+      "famille": "Organométalliques",
+      "bloc": "Organométallique et catalyse",
+      "total": 6,
+      "absente": 5,
+      "redigee": 0,
+      "verifiee": 1,
+      "relue": 0,
+      "reactions": [
+        {
+          "nom": "Réaction de Grignard",
+          "niveau": "L2",
+          "id": "grignard",
+          "statut": "verifiee",
+          "sources": true
+        },
+        {
+          "nom": "Organolithiens",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Cuprates de Gilman (addition 1,4)",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Reformatsky",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Umpolung : dithianes",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Métallation dirigée (ortho-lithiation)",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        }
+      ]
+    },
+    {
       "id": "couplages",
       "nom": "Couplages pallado-catalysés",
       "famille": "Couplages",
+      "bloc": "Organométallique et catalyse",
       "total": 9,
       "absente": 9,
       "redigee": 0,
@@ -1018,67 +1189,96 @@
       ]
     },
     {
-      "id": "rearrangements",
-      "nom": "Réarrangements",
-      "famille": "Réarrangements",
-      "total": 8,
-      "absente": 8,
+      "id": "catalyse",
+      "nom": "Catalyse organométallique et industrielle",
+      "famille": "Catalyse",
+      "bloc": "Organométallique et catalyse",
+      "total": 12,
+      "absente": 12,
       "redigee": 0,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
-          "nom": "Réarrangement de Wagner-Meerwein",
-          "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Transposition pinacolique",
-          "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Réarrangement de Beckmann",
+          "nom": "Addition oxydante",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Réarrangement de Hofmann",
+          "nom": "Élimination réductrice",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Réarrangement de Curtius",
+          "nom": "Insertion migratoire",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Réarrangement de Wolff (Arndt-Eistert)",
+          "nom": "Élimination β-hydrure",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Hydrogénation catalytique de Wilkinson",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Procédé Monsanto : synthèse de l'acide acétique",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Hydroformylation (procédé oxo)",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Procédé Wacker",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Procédé Haber-Bosch",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse Fischer-Tropsch",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Réarrangement de Favorskii",
+          "nom": "Réaction du gaz à l'eau",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Transposition de Baeyer-Villiger : migration",
-          "niveau": "M1",
+          "nom": "Catalyse acide par les zéolithes",
+          "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
@@ -1086,52 +1286,136 @@
       ]
     },
     {
-      "id": "strategie",
-      "nom": "Stratégie de synthèse",
-      "famille": "Stratégie",
-      "total": 6,
-      "absente": 6,
+      "id": "coordination",
+      "nom": "Chimie de coordination",
+      "famille": "Coordination",
+      "bloc": "Inorganique",
+      "total": 8,
+      "absente": 8,
       "redigee": 0,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
-          "nom": "Groupes protecteurs : alcools",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Groupes protecteurs : carbonyles et amines",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Analyse rétrosynthétique",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Chimiosélectivité, régiosélectivité, stéréosélectivité",
+          "nom": "Formation d'un complexe : substitution des ligands aqua",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Synthèse asymétrique : auxiliaires chiraux",
+          "nom": "Effet chélate",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Substitution en géométrie plan-carré et effet trans",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Substitution dissociative en géométrie octaédrique",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Substitution associative et échange d'interchange",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Organocatalyse",
+          "nom": "Racémisation d'un complexe tris-chélate",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Transfert d'électron par sphère externe (théorie de Marcus)",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Transfert d'électron par sphère interne (mécanisme de Taube)",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        }
+      ]
+    },
+    {
+      "id": "bioinorganique",
+      "nom": "Chimie bioinorganique",
+      "famille": "Bioinorganique",
+      "bloc": "Inorganique",
+      "total": 8,
+      "absente": 8,
+      "redigee": 0,
+      "verifiee": 0,
+      "relue": 0,
+      "reactions": [
+        {
+          "nom": "Fixation réversible du dioxygène par l'hémoglobine",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Transport du fer : sidérophores",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Stockage du fer : la ferritine",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Transfert d'électron par les cytochromes",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Hydroxylation par le cytochrome P-450",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réduction du diazote par la nitrogénase",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Oxydation de l'eau par le complexe au manganèse du photosystème II",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
@@ -1143,6 +1427,7 @@
       "id": "glucides",
       "nom": "Glucides",
       "famille": "Glucides",
+      "bloc": "Biomolécules et vivant",
       "total": 12,
       "absente": 12,
       "redigee": 0,
@@ -1239,6 +1524,7 @@
       "id": "acides_amines",
       "nom": "Acides aminés, peptides et protéines",
       "famille": "Acides aminés",
+      "bloc": "Biomolécules et vivant",
       "total": 11,
       "absente": 11,
       "redigee": 0,
@@ -1328,6 +1614,7 @@
       "id": "lipides",
       "nom": "Lipides",
       "famille": "Lipides",
+      "bloc": "Biomolécules et vivant",
       "total": 9,
       "absente": 9,
       "redigee": 0,
@@ -1403,6 +1690,7 @@
       "id": "acides_nucleiques",
       "nom": "Acides nucléiques",
       "famille": "Acides nucléiques",
+      "bloc": "Biomolécules et vivant",
       "total": 5,
       "absente": 5,
       "redigee": 0,
@@ -1450,6 +1738,7 @@
       "id": "metabolisme",
       "nom": "Métabolisme : la chimie organique du vivant",
       "famille": "Métabolisme",
+      "bloc": "Biomolécules et vivant",
       "total": 9,
       "absente": 9,
       "redigee": 0,
@@ -1522,9 +1811,128 @@
       ]
     },
     {
+      "id": "bioorganique",
+      "nom": "Chimie bioorganique et enzymologie",
+      "famille": "Bioorganique",
+      "bloc": "Biomolécules et vivant",
+      "total": 15,
+      "absente": 15,
+      "redigee": 0,
+      "verifiee": 0,
+      "relue": 0,
+      "reactions": [
+        {
+          "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Contrôle stéréoélectronique de l'hydrolyse d'un ester",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Carboxypeptidase A : le rôle du zinc",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Catalyse par les cyclodextrines",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Reconnaissance moléculaire par les éthers-couronnes",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Micelles et chimie des membranes",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Analogues d'état de transition",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Anticorps catalytiques",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Inhibiteurs suicides et marqueurs d'affinité",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Oxydoréduction par NAD(P)H",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Décarboxylation et racémisation par le phosphate de pyridoxal",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Catalyse par le pyrophosphate de thiamine",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "La biotine, transporteur de CO₂",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "La vitamine B₁₂ et le cobalt",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Cyclisation polyénique biomimétique",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        }
+      ]
+    },
+    {
       "id": "polymeres",
       "nom": "Polymères de synthèse",
       "famille": "Polymères",
+      "bloc": "Méthodes et matériaux",
       "total": 10,
       "absente": 10,
       "redigee": 0,
@@ -1604,66 +2012,248 @@
       ]
     },
     {
-      "id": "coordination",
-      "nom": "Chimie de coordination",
-      "famille": "Coordination",
-      "total": 8,
-      "absente": 8,
+      "id": "photochimie",
+      "nom": "Photochimie",
+      "famille": "Photochimie",
+      "bloc": "Méthodes et matériaux",
+      "total": 13,
+      "absente": 13,
       "redigee": 0,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
-          "nom": "Formation d'un complexe : substitution des ligands aqua",
+          "nom": "Photoisomérisation cis-trans d'un alcène",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Effet chélate",
+          "nom": "Réaction électrocyclique photochimique",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Substitution en géométrie plan-carré et effet trans",
+          "nom": "Photocycloaddition [2+2]",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Norrish type I : α-clivage d'une cétone",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Substitution dissociative en géométrie octaédrique",
+          "nom": "Norrish type II : arrachement d'hydrogène en γ",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Substitution associative et échange d'interchange",
+          "nom": "Photoréduction d'une cétone : formation de pinacol",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Paternò-Büchi",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Transposition di-π-méthane (Zimmerman)",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Racémisation d'un complexe tris-chélate",
+          "nom": "Réaction de Barton",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Transfert d'électron par sphère externe (théorie de Marcus)",
+          "nom": "Transposition photochimique d'une cyclohexadiénone",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Transfert d'électron par sphère interne (mécanisme de Taube)",
+          "nom": "Photochimie des composés aromatiques",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Chimiluminescence",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Chimie de la vision : isomérisation du rétinal",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        }
+      ]
+    },
+    {
+      "id": "multicomposants",
+      "nom": "Réactions multicomposants et chimie durable",
+      "famille": "Multicomposants",
+      "bloc": "Méthodes et matériaux",
+      "total": 19,
+      "absente": 19,
+      "redigee": 0,
+      "verifiee": 0,
+      "relue": 0,
+      "reactions": [
+        {
+          "nom": "Réaction de Strecker multicomposant",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Mannich à trois composants",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Passerini (P-3CR)",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction d'Ugi (U-4CR)",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Approche Ugi-Smiles",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Biginelli",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse de Hantzsch des dihydropyridines",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Bucherer-Bergs",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Petasis (borono-Mannich)",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Couplage A3 : aldéhyde, alcyne, amine",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Cycloaddition azoture-alcyne catalysée au cuivre (CuAAC)",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse d'imidazoles de Radziszewski",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Sakurai et aza-Sakurai multicomposant",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse de Gewald des 2-aminothiophènes",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Kabachnik-Fields",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Domino Knoevenagel / hétéro-Diels-Alder",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Réaction de Povarov",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Condensation trimoléculaire de Yonemitsu",
+          "niveau": "M2",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Multicomposants avec l'acide de Meldrum",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
@@ -1672,94 +2262,74 @@
       ]
     },
     {
-      "id": "catalyse",
-      "nom": "Catalyse organométallique et industrielle",
-      "famille": "Catalyse",
-      "total": 12,
-      "absente": 12,
+      "id": "synthese_asymetrique",
+      "nom": "Synthèse asymétrique",
+      "famille": "Synthèse asymétrique",
+      "bloc": "Méthodes et matériaux",
+      "total": 9,
+      "absente": 9,
       "redigee": 0,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
-          "nom": "Addition oxydante",
+          "nom": "Époxydation asymétrique de Sharpless",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Élimination réductrice",
+          "nom": "Dihydroxylation asymétrique de Sharpless",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Insertion migratoire",
+          "nom": "Réduction CBS d'une cétone",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Élimination β-hydrure",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Hydrogénation catalytique de Wilkinson",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Procédé Monsanto : synthèse de l'acide acétique",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Hydroformylation (procédé oxo)",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Procédé Wacker",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Procédé Haber-Bosch",
-          "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Synthèse Fischer-Tropsch",
+          "nom": "Aldolisation d'Evans avec auxiliaire chiral",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Réaction du gaz à l'eau",
+          "nom": "Hydrogénation asymétrique catalysée par un complexe chiral",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Résolution cinétique",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Catalyse acide par les zéolithes",
+          "nom": "Dédoublement d'un racémique par un sel diastéréoisomère",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Alkylation asymétrique d'un énolate",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
@@ -1768,66 +2338,53 @@
       ]
     },
     {
-      "id": "bioinorganique",
-      "nom": "Chimie bioinorganique",
-      "famille": "Bioinorganique",
-      "total": 8,
-      "absente": 8,
+      "id": "strategie",
+      "nom": "Stratégie de synthèse",
+      "famille": "Stratégie",
+      "bloc": "Méthodes et matériaux",
+      "total": 6,
+      "absente": 6,
       "redigee": 0,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
-          "nom": "Fixation réversible du dioxygène par l'hémoglobine",
+          "nom": "Groupes protecteurs : alcools",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
+          "nom": "Groupes protecteurs : carbonyles et amines",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Transport du fer : sidérophores",
+          "nom": "Analyse rétrosynthétique",
+          "niveau": "M1",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Chimiosélectivité, régiosélectivité, stéréosélectivité",
+          "niveau": "L3",
+          "id": null,
+          "statut": "absente",
+          "sources": false
+        },
+        {
+          "nom": "Synthèse asymétrique : auxiliaires chiraux",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Stockage du fer : la ferritine",
-          "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Transfert d'électron par les cytochromes",
-          "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Hydroxylation par le cytochrome P-450",
-          "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Réduction du diazote par la nitrogénase",
-          "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
-        },
-        {
-          "nom": "Oxydation de l'eau par le complexe au manganèse du photosystème II",
+          "nom": "Organocatalyse",
           "niveau": "M2",
           "id": null,
           "statut": "absente",

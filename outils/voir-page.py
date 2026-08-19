@@ -9,10 +9,18 @@ Cet outil produit l'image de la page, qui peut alors être examinée comme
 on examine un manuel ouvert.
 
 USAGE
+    python3 outils/voir-page.py --nom clayden --page 342
+    python3 outils/voir-page.py --nom mcmurry --page 357 --pages-suivantes 2
     python3 outils/voir-page.py mon-manuel.pdf --page 342 --decalage 24
-    python3 outils/voir-page.py mon-manuel.pdf --page 342 --pages-suivantes 2
+
+Avec --nom, le fichier PDF et le décalage sont lus dans l'index établi par
+indexer-manuel.py : rien à retenir, et aucun risque de citer une page en
+ayant ouvert la mauvaise. C'est indispensable pour les ouvrages qui
+arrivent en plusieurs fichiers — le McMurry en compte trois —, où la page
+cherchée n'est pas toujours dans le même.
 """
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -44,9 +52,31 @@ def rendre(pdf: Path, imprimee: int, decalage: int, suivantes: int, dossier: Pat
     document.close()
 
 
+def resoudre(nom: str, imprimee: int) -> tuple[Path, int]:
+    """Retrouve, dans l'index, le fichier qui contient cette page imprimée."""
+    index = Path("sources-locales") / nom / "pages.json"
+    if not index.exists():
+        sys.exit(f"Manuel non indexé : {index}")
+    donnees = json.loads(index.read_text(encoding="utf-8"))
+    for page in donnees["pages"]:
+        if page["imprimee"] == imprimee:
+            fichier = page.get("fichier")
+            decalage = page.get("decalage", donnees.get("decalage", 0))
+            if fichier:
+                return Path(fichier), decalage
+            break
+    # Index établi avant que le fichier d'origine ne soit mémorisé.
+    volumes = donnees.get("volumes") or []
+    if len(volumes) == 1:
+        return Path(volumes[0]["fichier"]), volumes[0]["decalage"]
+    sys.exit(f"Page {imprimee} absente de l'index « {nom} », ou index trop ancien : "
+             f"relancer indexer-manuel.py.")
+
+
 if __name__ == "__main__":
     analyseur = argparse.ArgumentParser(description="Rend une page de manuel en image.")
-    analyseur.add_argument("pdf", type=Path)
+    analyseur.add_argument("pdf", type=Path, nargs="?", default=None)
+    analyseur.add_argument("--nom", help="nom court d'un manuel indexé (clayden, mcmurry…)")
     analyseur.add_argument("--page", type=int, required=True, help="numéro imprimé")
     analyseur.add_argument("--decalage", type=int, default=0)
     analyseur.add_argument("--pages-suivantes", type=int, default=0)
@@ -54,5 +84,12 @@ if __name__ == "__main__":
     analyseur.add_argument("--zoom", type=float, default=2.0)
     arguments = analyseur.parse_args()
 
-    rendre(arguments.pdf, arguments.page, arguments.decalage,
+    pdf, decalage = arguments.pdf, arguments.decalage
+    if arguments.nom:
+        pdf, decalage = resoudre(arguments.nom, arguments.page)
+        print(f"  {arguments.nom} : {pdf.name} (décalage {decalage})")
+    elif pdf is None:
+        analyseur.error("donner un chemin de PDF, ou --nom pour un manuel indexé")
+
+    rendre(pdf, arguments.page, decalage,
            arguments.pages_suivantes, arguments.dossier, arguments.zoom)

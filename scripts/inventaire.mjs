@@ -50,6 +50,7 @@ const familles = programme.familles.map((famille) => {
     id: famille.id,
     nom: famille.nom,
     famille: famille.famille,
+    bloc: famille.bloc || null,
     total: liste.length,
     absente: compte('absente'),
     redigee: compte('redigee'),

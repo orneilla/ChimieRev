@@ -108,9 +108,28 @@ export default function PageProgramme() {
         <p className="note">{programme._meta.statut}</p>
       </div>
 
-      {avancement.familles.map((famille) => (
-        <Famille key={famille.id} famille={famille} />
-      ))}
+      {/* Vingt-huit familles à la file ne se lisent pas : on les regroupe
+          par bloc, dans l'ordre où on les rencontre en cours. */}
+      {[...new Set(avancement.familles.map((f) => f.bloc))].map((bloc) => {
+        const familles = avancement.familles.filter((f) => f.bloc === bloc)
+        const total = familles.reduce((t, f) => t + f.total, 0)
+        const faites = familles.reduce(
+          (t, f) => t + f.redigee + f.verifiee + f.relue, 0)
+
+        return (
+          <div key={bloc || 'sans-bloc'}>
+            {bloc && (
+              <h2 className="titre-bloc">
+                {bloc}
+                <span className="titre-bloc-compte">{faites}/{total}</span>
+              </h2>
+            )}
+            {familles.map((famille) => (
+              <Famille key={famille.id} famille={famille} />
+            ))}
+          </div>
+        )
+      })}
     </section>
   )
 }

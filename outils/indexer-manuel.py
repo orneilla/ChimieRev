@@ -18,7 +18,14 @@ bibliographiques — page comprise.
 
 USAGE
     python3 outils/indexer-manuel.py chemin/du/manuel.pdf --nom clayden \
-        [--decalage 24]
+        [--decalage 24] [--ajouter]
+
+--ajouter : un même ouvrage arrive parfois en plusieurs fichiers (un tome
+par tranche de chapitres). Cette option verse le fichier dans un index déjà
+constitué au lieu de l'écraser. Les pages imprimées en double sont
+départagées au profit de celle dont le texte est le plus complet, et chaque
+page retient le fichier d'où elle vient — sans quoi on ne saurait plus
+laquelle ouvrir pour REGARDER une figure.
 
 --decalage : écart entre le numéro de page du PDF et celui imprimé sur la
 page. Si la page 25 du PDF porte le numéro 1, le décalage vaut 24. Sans
@@ -78,7 +85,7 @@ def deviner_decalage(document) -> tuple[int, int, int]:
     return decalage, appuis, examinees
 
 
-def indexer(pdf: Path, nom: str, decalage: int | None) -> None:
+def indexer(pdf: Path, nom: str, decalage: int | None, ajouter: bool = False) -> None:
     if not pdf.exists():
         sys.exit(f"Fichier introuvable : {pdf}")
 
@@ -130,6 +137,8 @@ def indexer(pdf: Path, nom: str, decalage: int | None) -> None:
         pages.append({
             "pdf": numero + 1,
             "imprimee": numero + 1 - decalage,
+            "fichier": str(pdf),
+            "decalage": decalage,
             "section": section,
             "identifiant": identifiant,
             "texte": texte
@@ -137,8 +146,28 @@ def indexer(pdf: Path, nom: str, decalage: int | None) -> None:
 
     document.close()
 
-    (destination / "pages.json").write_text(
-        json.dumps({"nom": nom, "decalage": decalage, "pages": pages}, ensure_ascii=False),
+    volumes = [{"fichier": str(pdf), "decalage": decalage,
+                "imprimees": [pages[0]["imprimee"], pages[-1]["imprimee"]] if pages else None}]
+
+    fichier_index = destination / "pages.json"
+    if ajouter and fichier_index.exists():
+        ancien = json.loads(fichier_index.read_text(encoding="utf-8"))
+        # Une page imprimée peut figurer dans deux tomes qui se recouvrent.
+        # On garde celle dont le texte est le plus fourni : c'est elle qui
+        # a le plus de chances d'être complète.
+        par_page = {}
+        for p in ancien["pages"] + pages:
+            cle = p["imprimee"]
+            if cle not in par_page or len(p["texte"]) > len(par_page[cle]["texte"]):
+                par_page[cle] = p
+        pages = [par_page[k] for k in sorted(par_page)]
+        volumes = ancien.get("volumes", []) + volumes
+        print(f"  Versé dans l'index existant : {len(pages)} pages au total, "
+              f"{len(volumes)} fichiers.")
+
+    fichier_index.write_text(
+        json.dumps({"nom": nom, "decalage": decalage, "volumes": volumes,
+                    "pages": pages}, ensure_ascii=False),
         encoding="utf-8"
     )
 
@@ -164,5 +193,7 @@ if __name__ == "__main__":
     analyseur.add_argument("--nom", required=True, help="nom court : clayden, march…")
     analyseur.add_argument("--decalage", type=int, default=None,
                            help="écart PDF/page imprimée ; deviné si absent")
+    analyseur.add_argument("--ajouter", action="store_true",
+                           help="verser dans un index existant (ouvrage en plusieurs fichiers)")
     arguments = analyseur.parse_args()
-    indexer(arguments.pdf, arguments.nom, arguments.decalage)
+    indexer(arguments.pdf, arguments.nom, arguments.decalage, arguments.ajouter)

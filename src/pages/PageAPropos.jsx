@@ -1,4 +1,12 @@
 // Page « À propos » : la philosophie, la méthode de sourçage, l'avancement.
+import references from '../data/references.json'
+
+// Les neuf ouvrages effectivement indexés, dans l'ordre où on les emploie.
+const ORDRE_OUVRAGES = [
+  'clayden', 'mcmurry', 'grossman', 'oc2', 'housecroft',
+  'dugas', 'multicomposants', 'carey_sundberg_A', 'roberts_caserio'
+]
+
 export default function PageAPropos() {
   return (
     <section className="fiche">
@@ -35,6 +43,20 @@ export default function PageAPropos() {
           <strong> vérifié par au moins deux sources indépendantes</strong>.
           Tant qu'il ne l'est pas, la référence porte la mention « DOI à
           vérifier » : mieux vaut un manque assumé qu'un lien inventé.
+        </p>
+        <p>
+          Les explications sont écrites <strong>page ouverte</strong>, jamais de
+          mémoire. Voici les ouvrages consultés — chacun est indexé page par
+          page, et chaque citation renvoie au numéro imprimé sur la page :
+        </p>
+        <ul className="liste-ouvrages">
+          {ORDRE_OUVRAGES.map((cle) => (
+            <li key={cle}>{references.ouvrages_de_reference[cle]}</li>
+          ))}
+        </ul>
+        <p className="note">
+          Un ouvrage cité sans être consultable ici porterait la mention « non
+          indexé » : on ne cite pas une page qu'on n'a pas ouverte.
         </p>
       </section>
 

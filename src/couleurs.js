@@ -18,6 +18,7 @@ export const COULEURS_FAMILLES = {
   'Organométalliques': '#FF8FA3',       // rose
   'Couplages': '#AB47BC',               // magenta
   'Réarrangements': '#78909C',          // ardoise
+  'Hétérocycles': '#D4E157',            // citron vert
   'Stratégie': '#546E7A',               // ardoise foncée
 
   // Biomolécules — une gamme chaude, pour qu'on les distingue d'un coup d'œil
@@ -31,7 +32,13 @@ export const COULEURS_FAMILLES = {
   // Chimie inorganique — la gamme froide
   'Coordination': '#00897B',            // sarcelle
   'Catalyse': '#3949AB',                // bleu profond
-  'Bioinorganique': '#00ACC1'           // cyan profond
+  'Bioinorganique': '#00ACC1',          // cyan profond
+  'Bioorganique': '#4DB6AC',            // jade
+
+  // Méthodes et matériaux
+  'Photochimie': '#FDD835',             // jaune soleil
+  'Multicomposants': '#FF7043',         // brique
+  'Synthèse asymétrique': '#BA68C8'     // parme
 }
 
 // Teinte de repli pour toute famille pas encore répertoriée

@@ -5,20 +5,23 @@
     "statut": "Socle vérifié en 2026, complété famille par famille à partir des manuels indexés. Les pages citées ont été lues, non supposées.",
     "structure": "Pour chaque réaction : (1) ouvrages de référence (fiables, faits bibliographiques stables), (2) article(s) historique(s) fondateur(s) avec DOI vérifié, (3) revue moderne quand pertinent.",
     "citer_un_ouvrage": "Un ouvrage se cite soit par sa clé seule (\"clayden\"), soit — et c’est ce qu’on vise — avec le chapitre et les pages : { \"ouvrage\": \"clayden\", \"chapitre\": \"15\", \"pages\": \"328-341\" }. Une référence sans page laisse le lecteur chercher dans mille pages.",
-    "manuels_indexes": "Cinq ouvrages sont indexés localement et servent de source : clayden (intégral), oc2 (LibreTexts, intégral), grossman (intégral), mcmurry (extrait, chapitres 25-31) et housecroft (extrait, chapitres 20-28). Les PDF eux-mêmes et le texte extrait ne sont jamais versés au dépôt : seules les explications réécrites et les citations le sont."
+    "manuels_indexes": "Neuf ouvrages sont indexés localement et consultables page par page : clayden, mcmurry, oc2, grossman, housecroft, dugas, multicomposants, carey_sundberg_A (photochimie) et roberts_caserio (photochimie). Les PDF et le texte extrait ne sont jamais versés au dépôt : seules les explications réécrites et les citations le sont. Un ouvrage marqué NON INDEXÉ ne doit pas être cité avec un numéro de page."
   },
   "ouvrages_de_reference": {
     "_note": "Ouvrages standards internationaux. Références stables et vérifiables ; à citer avec chapitre/section selon le sujet.",
-    "clayden": "Clayden, J.; Greeves, N.; Warren, S. — Organic Chemistry, 2e éd., Oxford University Press, 2012. ISBN 978-0-19-927029-3.",
-    "march": "Smith, M. B. — March's Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, 8e éd., Wiley, 2020. ISBN 978-1-119-37180-9.",
-    "carey_sundberg_A": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part A: Structure and Mechanisms, 5e éd., Springer, 2007. ISBN 978-0-387-68346-1.",
-    "carey_sundberg_B": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part B: Reactions and Synthesis, 5e éd., Springer, 2007. ISBN 978-0-387-68350-8.",
-    "fleming": "Fleming, I. — Molecular Orbitals and Organic Chemical Reactions (Reference Edition), Wiley, 2010. ISBN 978-0-470-74658-5.",
-    "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2.",
+    "clayden": "Clayden, J.; Greeves, N.; Warren, S. — Organic Chemistry, 2e éd., Oxford University Press, 2012. ISBN 978-0-19-927029-3. Ouvrage intégral.",
+    "march": "Smith, M. B. — March's Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, 8e éd., Wiley, 2020. ISBN 978-1-119-37180-9. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
+    "carey_sundberg_A": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part A: Structure and Mechanisms, 4e éd., Kluwer Academic/Plenum, 2000. Consulté : chapitre 12, Photochemistry (pages 1073 à 1197).",
+    "carey_sundberg_B": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part B: Reactions and Synthesis, 5e éd., Springer, 2007. ISBN 978-0-387-68350-8. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
+    "fleming": "Fleming, I. — Molecular Orbitals and Organic Chemical Reactions (Reference Edition), Wiley, 2010. ISBN 978-0-470-74658-5. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
+    "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
     "oc2": "Morsch, L.; Farmer, S.; Cunningham, K.; Sharrett, Z.; Shea, K. M. — Organic Chemistry II, LibreTexts (CC BY-SA 4.0). Ouvrage paginé par sections, cité par numéro de section.",
-    "grossman": "Grossman, R. B. — The Art of Writing Reasonable Organic Reaction Mechanisms, 2e éd., Springer, 2003. ISBN 978-0-387-95468-4.",
-    "mcmurry": "McMurry, J. — Organic Chemistry, 9e éd., Cengage Learning, 2016. Consulté sous forme d'extrait : chapitres 25 à 31 (pages imprimées 832 à 1120) — glucides, acides aminés et protéines, lipides, acides nucléiques, voies métaboliques, réactions péricycliques, polymères de synthèse.",
-    "housecroft": "Housecroft, C. E.; Sharpe, A. G. — Inorganic Chemistry, 2e éd., Pearson Prentice Hall, 2005. ISBN 0-13-039913-2. Consulté sous forme d'extrait : chapitres 20 à 28 (pages imprimées 555 à 950) — complexes de coordination, métaux d, organométalliques du bloc d, bloc f, mécanismes réactionnels des complexes, catalyse homogène et hétérogène, chimie du solide, métaux de la vie."
+    "grossman": "Grossman, R. B. — The Art of Writing Reasonable Organic Reaction Mechanisms, 3e éd., Springer Nature Switzerland, 2019. ISBN 978-3-030-28732-0. DOI 10.1007/978-3-030-28733-7. Ouvrage intégral.",
+    "mcmurry": "McMurry, J. — Organic Chemistry, 9e éd., Cengage Learning, 2016. Ouvrage intégral (chapitres 1 à 31), reconstitué à partir de trois fichiers.",
+    "housecroft": "Housecroft, C. E.; Sharpe, A. G. — Inorganic Chemistry, 2e éd., Pearson Prentice Hall, 2005. ISBN 0-13-039913-2. Consulté : chapitres 20 à 28 (pages 555 à 950).",
+    "dugas": "Dugas, H. — Bioorganic Chemistry: A Chemical Approach to Enzyme Action, 3e éd., Springer (Springer Advanced Texts in Chemistry), 1996. ISBN 978-0-387-94494-4. Ouvrage intégral.",
+    "multicomposants": "Herrera, R. P.; Marqués-López, E. (dir.) — Multicomponent Reactions: Concepts and Applications for Design and Synthesis, Wiley, 2015. ISBN 978-1-118-01600-8. Ouvrage intégral.",
+    "roberts_caserio": "Roberts, J. D.; Caserio, M. C. — Basic Principles of Organic Chemistry, 2e éd., publiée sur LibreTexts. Consulté : chapitre 28, Photochemistry. Ouvrage paginé par sections, cité par numéro de section."
   },
   "references_par_reaction": {
     "diels_alder": {
@@ -510,7 +513,7 @@
       "ouvrages": [
         {
           "ouvrage": "grossman",
-          "chapitre": "5 — Pericyclic reactions (rétro-ène / Ei)",
+          "chapitre": "4 — Pericyclic Reactions (rétro-ène / Ei)",
           "pages": "266",
           "note": "Les N-oxydes d'amines (élimination de Cope) sont rangés parmi les rétro-hétéro-ènes, aux côtés des sulfoxydes et des sélénoxydes ; le sélénoxyde réagit en quelques minutes à température ambiante, les N-oxydes et sulfoxydes réclament un chauffage plus fort. La page avertit explicitement de ne pas confondre l'élimination de Cope avec la transposition de Cope, et donne le moteur entropique commun à ces éliminations thermiques."
         }
@@ -522,7 +525,7 @@
       "ouvrages": [
         {
           "ouvrage": "grossman",
-          "chapitre": "5 — Pericyclic reactions (rétro-ène / Ei)",
+          "chapitre": "4 — Pericyclic Reactions (rétro-ène / Ei)",
           "pages": "266",
           "note": "Le mécanisme rétro-ène concerté, dessiné en cycle à six centres pour les deux cas X = O (pyrolyse d'un acétate) et X = S (réaction de Chugaev sur un xanthate). Y figurent les deux moteurs : le gain d'entropie, déterminant aux hautes températures requises, et la formation de la liaison π C=O aux dépens de la liaison π C=S — avantage propre au xanthate, l'élimination d'acide acétique étant défavorable du point de vue de l'enthalpie et exigeant des températures bien supérieures."
         }
