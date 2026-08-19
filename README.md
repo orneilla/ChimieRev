@@ -368,6 +368,21 @@ python3 outils/chercher-source.py --page 342 --nom clayden
 La recherche ignore accents et majuscules, et rend pour chaque occurrence
 la page imprimée — celle qu'on cite.
 
+### Regarder une page
+
+Dans un manuel de chimie, l'essentiel est **dessiné** : les mécanismes,
+les flèches, la stéréochimie. Le texte extrait ne contient que la prose
+autour. D'où cet outil, qui rend la page en image :
+
+```bash
+python3 outils/voir-page.py clayden.pdf --page 342 --decalage 24
+python3 outils/voir-page.py clayden.pdf --page 342 --decalage 24 --pages-suivantes 2
+```
+
+La page peut alors être examinée comme on examine un manuel ouvert — c'est
+ce qui permet de reprendre un mécanisme tel que l'ouvrage le trace, plutôt
+que de le reconstituer à partir de sa description.
+
 ### Ce qui entre dans le dépôt, et ce qui n'y entre pas
 
 > Le dépôt ChimieRév est **public**. Un manuel sous droits n'y a pas sa
@@ -408,6 +423,7 @@ public/mecanismes-manuels/  tes propres schémas, dessinés à la main
 outils/
   indexer-manuel.py         indexe un manuel PDF, page par page
   chercher-source.py        y cherche une expression, rend la page citable
+  voir-page.py              rend une page en image, pour en lire les schémas
 scripts/
   valider-donnees.mjs       refuse les fiches incomplètes
   inventaire.mjs            confronte le programme aux données
