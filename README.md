@@ -136,8 +136,36 @@ L'astuce (`scripts/dessiner-mecanismes.mjs`) : on lui demande un second
 dessin où **tous les atomes sont surlignés**. Il trace alors une ellipse
 centrée exactement sur chaque atome. On récupère ces centres, on jette ce
 dessin de repérage, et on pose les flèches sur le dessin propre — au pixel
-près. Les espèces d'une étape sont ensuite composées côte à côte, avec un
-« + » entre elles.
+près.
+
+### « Cette flèche, elle touche quoi ? »
+
+C'est la question de quelqu'un qui découvre la réaction, et une flèche
+seule n'y répond pas. Trois réponses, dans le dessin même :
+
+- ce que la flèche **quitte** est surligné en **bleu pâle**, ce qu'elle
+  **atteint** en **rose pâle** — atome ou liaison ;
+- chaque flèche porte un **numéro**, repris sous le schéma par une phrase
+  qui dit ce qu'elle fait ;
+- la pointe s'arrête au bord du surlignage, sans recouvrir la lettre.
+
+### Pourquoi les espèces sont empilées
+
+Dès qu'une étape porte des flèches, les espèces sont posées **l'une sous
+l'autre**, une par ligne. Côte à côte, sur un téléphone tenu verticalement,
+le texte des molécules tombait à une taille illisible — il fallait tourner
+l'écran. Empilé, le schéma tient toujours dans la largeur. Les étapes sans
+flèche (les bilans) restent sur deux colonnes : il n'y a rien à suivre du
+regard.
+
+### Dessiner un mécanisme soi-même
+
+Aucune bibliothèque ne trace les flèches de mécanisme automatiquement :
+dans ChemDraw ou Marvin, c'est un humain qui les place. Si un mécanisme
+mérite d'être tracé à la main, exporte-le et dépose-le dans
+`public/mecanismes-manuels/` (voir le LISEZ-MOI de ce dossier), puis
+indique `"image": "mon-schema.svg"` sur l'étape : l'application l'utilise
+tel quel, sans rien engendrer.
 
 ### Décrire une flèche
 
@@ -147,9 +175,17 @@ comptent que s'ils sont écrits explicitement entre crochets `[H]` — c'est
 ainsi qu'on peut viser le proton qu'une base vient arracher.
 
 ```json
-{ "de": { "atome": 2 }, "vers": { "atome": 5 }, "courbure": 0.3 }
+{
+  "de": { "atome": 2 },
+  "vers": { "atome": 5 },
+  "courbure": 0.3,
+  "libelle": "Le doublet de la base va chercher l'hydrogène."
+}
 { "de": { "liaison": [6, 7] }, "vers": { "atome": 7 }, "courbure": 0.4 }
 ```
+
+`libelle` est la phrase affichée sous le schéma, en face du numéro de la
+flèche.
 
 `de` = d'où partent les électrons (un doublet, une liaison), `vers` = où ils
 vont. `courbure` (entre -0,6 et 0,6) règle de quel côté et à quel point la
@@ -206,6 +242,7 @@ public/polices.css          déclarations des polices embarquées
 public/polices/             les fichiers de police (woff2)
 public/structures/          les structures 2D dessinées (SVG, engendrées)
 public/mecanismes/          les schémas de mécanisme (SVG, engendrés)
+public/mecanismes-manuels/  tes propres schémas, dessinés à la main
 scripts/
   dessiner-structures.mjs   dessine les structures avec RDKit-JS
   dessiner-mecanismes.mjs   dessine les mécanismes et leurs flèches

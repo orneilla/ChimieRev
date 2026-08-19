@@ -3,70 +3,105 @@
     "1": {
       "fichier": "sn2-etape1.svg",
       "titre": "L'attaque, par l'arrière",
-      "legende": "L'ion hydroxyde apporte ses électrons sur le carbone, du côté opposé au brome. Au même moment, les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+      "legende": "L'ion hydroxyde apporte ses électrons sur le carbone, du côté opposé au brome. Au même moment, les électrons de la liaison C–Br se replient sur le brome, qui s'en va.",
+      "fleches": [
+        "Le doublet de l'oxygène part vers le carbone : la nouvelle liaison se forme.",
+        "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+      ]
     },
     "4": {
       "fichier": "sn2-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'alcool est formé et l'ion bromure est parti. Le carbone attaqué s'est retourné comme un parapluie."
+      "legende": "L'alcool est formé et l'ion bromure est parti. Le carbone attaqué s'est retourné comme un parapluie.",
+      "fleches": []
     }
   },
   "e2": {
     "1": {
       "fichier": "e2-etape1.svg",
       "titre": "Trois mouvements, un seul geste",
-      "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps."
+      "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps.",
+      "fleches": [
+        "Le doublet de la base va chercher l'hydrogène du carbone voisin.",
+        "Les électrons libérés par la liaison C–H glissent entre les deux carbones : la double liaison naît.",
+        "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+      ]
     },
     "4": {
       "fichier": "e2-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'alcène est né, la base est repartie avec son proton, le bromure est libre."
+      "legende": "L'alcène est né, la base est repartie avec son proton, le bromure est libre.",
+      "fleches": []
     }
   },
   "diels_alder": {
     "2": {
       "fichier": "diels_alder-etape2.svg",
       "titre": "La ronde des six électrons",
-      "legende": "Trois paires d'électrons avancent d'un cran, en cercle : deux nouvelles liaisons se ferment aux extrémités, et la double liaison restante se retrouve au milieu. Aucun intermédiaire, aucune charge."
+      "legende": "Trois paires d'électrons avancent d'un cran, en cercle : deux nouvelles liaisons se ferment aux extrémités, et la double liaison restante se retrouve au milieu. Aucun intermédiaire, aucune charge.",
+      "fleches": [
+        "La première double liaison du diène forme une liaison avec le diénophile.",
+        "La double liaison du diénophile forme la seconde liaison, à l'autre bout.",
+        "La double liaison restante glisse au milieu du diène."
+      ]
     },
     "4": {
       "fichier": "diels_alder-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Un cycle à six atomes, avec une double liaison au milieu. En un seul geste, sans rien gaspiller."
+      "legende": "Un cycle à six atomes, avec une double liaison au milieu. En un seul geste, sans rien gaspiller.",
+      "fleches": []
     }
   },
   "reduction_nabh4": {
     "1": {
       "fichier": "reduction_nabh4-etape1.svg",
       "titre": "L'hydrure change de main",
-      "legende": "Une des quatre liaisons B–H cède son hydrogène AVEC ses électrons au carbone du carbonyle. Pour lui faire de la place, les électrons de la double liaison C=O se replient sur l'oxygène."
+      "legende": "Une des quatre liaisons B–H cède son hydrogène AVEC ses électrons au carbone du carbonyle. Pour lui faire de la place, les électrons de la double liaison C=O se replient sur l'oxygène.",
+      "fleches": [
+        "Une liaison B–H cède son hydrogène, électrons compris, au carbone.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ]
     },
     "3": {
       "fichier": "reduction_nabh4-etape3.svg",
       "titre": "L'oxygène récupère un proton",
-      "legende": "L'oxygène chargé négativement attrape un hydrogène au solvant : il devient un groupe OH, et la molécule est un alcool."
+      "legende": "L'oxygène chargé négativement attrape un hydrogène au solvant : il devient un groupe OH, et la molécule est un alcool.",
+      "fleches": [
+        "Le doublet de l'oxygène va chercher un hydrogène du solvant.",
+        "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
+      ]
     },
     "4": {
       "fichier": "reduction_nabh4-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton."
+      "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton.",
+      "fleches": []
     }
   },
   "grignard": {
     "1": {
       "fichier": "grignard-etape1.svg",
       "titre": "Un carbone riche attaque un carbone pauvre",
-      "legende": "Le magnésium a rendu son carbone riche en électrons (ici R = CH₃). Ce carbone se lie au carbone du carbonyle : une liaison carbone-carbone est née. Les électrons de la double liaison C=O se replient sur l'oxygène."
+      "legende": "Le magnésium a rendu son carbone riche en électrons (ici R = CH₃). Ce carbone se lie au carbone du carbonyle : une liaison carbone-carbone est née. Les électrons de la double liaison C=O se replient sur l'oxygène.",
+      "fleches": [
+        "Le carbone rendu riche par le magnésium attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ]
     },
     "3": {
       "fichier": "grignard-etape3.svg",
       "titre": "L'hydrolyse, seulement à la fin",
-      "legende": "On ajoute l'eau une fois le travail fait : l'oxygène attrape un proton et l'alcool apparaît. Ajoutée trop tôt, cette eau aurait détruit le réactif."
+      "legende": "On ajoute l'eau une fois le travail fait : l'oxygène attrape un proton et l'alcool apparaît. Ajoutée trop tôt, cette eau aurait détruit le réactif.",
+      "fleches": [
+        "L'oxygène chargé négativement va chercher un proton de l'eau.",
+        "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
+      ]
     },
     "4": {
       "fichier": "grignard-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi."
+      "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi.",
+      "fleches": []
     }
   }
 }

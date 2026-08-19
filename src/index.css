@@ -670,23 +670,61 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 .schema-etape { margin: 0.7rem 0 0; }
 
-/* Le schéma peut être large : il défile horizontalement dans son cadre
-   plutôt que de rétrécir au point d'être illisible sur un téléphone. */
+/* Le schéma tient TOUJOURS dans la largeur : rien à faire défiler, pas
+   besoin de tourner le téléphone. Les espèces sont empilées à la
+   fabrication du dessin, précisément pour que cela reste lisible ici. */
 .schema-etape .structure-plaque {
   display: block;
-  overflow-x: auto;
   padding: 0.5rem;
   min-height: 0;
-  -webkit-overflow-scrolling: touch;
 }
 
 .schema-etape img {
   display: block;
+  width: 100%;
+  max-width: 380px;
   height: auto;
-  min-width: 280px;
-  max-width: 100%;
   margin: 0 auto;
 }
+
+/* Légende des flèches : un numéro, et ce que la flèche fait. */
+.legende-fleches {
+  list-style: none;
+  margin: 0.8rem 0 0;
+  padding: 0;
+}
+
+.legende-fleches li {
+  display: flex;
+  gap: 0.55rem;
+  align-items: baseline;
+  margin-bottom: 0.45rem;
+  font-size: 0.9rem;
+}
+
+.puce-fleche {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--framboise);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+/* Les deux repères de couleur cités dans la consigne du bloc. */
+.marque-depart, .marque-arrivee {
+  padding: 0.05em 0.35em;
+  border-radius: var(--rayon);
+  font-weight: 700;
+  color: var(--encre);
+}
+
+.marque-depart { background: #C7E5FA; }
+.marque-arrivee { background: #FFD1DE; }
 
 .schema-etape figcaption {
   font-size: 0.85rem;

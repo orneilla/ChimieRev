@@ -22,8 +22,10 @@ export default function MecanismeEtapes({ id, etapes }) {
       <h3>Le mécanisme, pas à pas</h3>
 
       <p className="note note-fleches">
-        Les flèches rouges suivent les électrons : elles partent de là où
-        ils se trouvent (un doublet, une liaison) et pointent là où ils vont.
+        Les flèches rouges suivent les électrons. Ce qu'elles quittent est
+        marqué en <span className="marque-depart">bleu</span>, ce qu'elles
+        atteignent en <span className="marque-arrivee">rose</span> : la cible
+        n'est jamais à deviner.
       </p>
 
       <ol className="liste-etapes">
@@ -47,6 +49,19 @@ export default function MecanismeEtapes({ id, etapes }) {
                         loading="lazy"
                       />
                     </div>
+
+                    {/* Ce que fait chaque flèche, en face de son numéro. */}
+                    {schema.fleches?.some(Boolean) && (
+                      <ol className="legende-fleches">
+                        {schema.fleches.map((libelle, i) => (
+                          <li key={i}>
+                            <span className="puce-fleche">{i + 1}</span>
+                            <span>{libelle}</span>
+                          </li>
+                        ))}
+                      </ol>
+                    )}
+
                     <figcaption>{schema.legende}</figcaption>
                   </figure>
                 )}

@@ -5,9 +5,11 @@
     "comment_ecrire": "Chaque étape porte un SMILES : c'est lui qui fixe la numérotation. Le premier atome écrit est le numéro 0, le suivant 1, etc. — les hydrogènes ne comptent que s'ils sont écrits explicitement entre crochets [H]. Une flèche se décrit par son départ (de) et son arrivée (vers) : {\"atome\": 3} désigne l'atome n° 3, {\"liaison\": [3, 4]} désigne le milieu de la liaison entre les atomes 3 et 4.",
     "courbure": "Nombre entre -0,6 et 0,6 : il règle de quel côté et à quel point la flèche s'arrondit. Le signe change le côté.",
     "provenance": "Les flèches transcrivent les étapes décrites dans mecanisme_etapes (reactions.json). À valider par un chimiste avant diffusion, au même titre que les références.",
-    "numero": "Renvoie à l'étape correspondante de mecanisme_etapes. Un numéro au-delà de la dernière étape s'affiche comme un complément (bilan, produits formés)."
+    "numero": "Renvoie à l'étape correspondante de mecanisme_etapes. Un numéro au-delà de la dernière étape s'affiche comme un complément (bilan, produits formés).",
+    "libelle": "Texte affiché sous le schéma, en face du numéro de la flèche : il dit en mots ce que cette flèche fait.",
+    "dessin_a_la_main": "Une étape peut porter \"image\": \"mon-schema.svg\" au lieu de flèches : le fichier, déposé dans public/mecanismes-manuels/, est alors utilisé tel quel. Voir le LISEZ-MOI de ce dossier.",
+    "surlignage": "Ce que les flèches quittent est surligné en bleu pâle, ce qu ’elles atteignent en rose pâle : la cible d une flèche ne se devine pas, elle se voit."
   },
-
   "sn2": {
     "etapes": [
       {
@@ -16,8 +18,29 @@
         "smiles": "[OH-].CCBr",
         "legende": "L'ion hydroxyde apporte ses électrons sur le carbone, du côté opposé au brome. Au même moment, les électrons de la liaison C–Br se replient sur le brome, qui s'en va.",
         "fleches": [
-          { "de": { "atome": 0 }, "vers": { "atome": 2 }, "courbure": 0.3 },
-          { "de": { "liaison": [2, 3] }, "vers": { "atome": 3 }, "courbure": 0.4 }
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.3,
+            "libelle": "Le doublet de l'oxygène part vers le carbone : la nouvelle liaison se forme."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+          }
         ]
       },
       {
@@ -29,7 +52,6 @@
       }
     ]
   },
-
   "e2": {
     "etapes": [
       {
@@ -38,9 +60,45 @@
         "smiles": "CC[O-].CC([H])CBr",
         "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps.",
         "fleches": [
-          { "de": { "atome": 2 }, "vers": { "atome": 5 }, "courbure": 0.3 },
-          { "de": { "liaison": [4, 5] }, "vers": { "liaison": [4, 6] }, "courbure": -0.45 },
-          { "de": { "liaison": [6, 7] }, "vers": { "atome": 7 }, "courbure": 0.4 }
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.3,
+            "libelle": "Le doublet de la base va chercher l'hydrogène du carbone voisin."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "courbure": -0.45,
+            "libelle": "Les électrons libérés par la liaison C–H glissent entre les deux carbones : la double liaison naît."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.4,
+            "libelle": "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
+          }
         ]
       },
       {
@@ -52,7 +110,6 @@
       }
     ]
   },
-
   "diels_alder": {
     "etapes": [
       {
@@ -61,9 +118,48 @@
         "smiles": "C=CC=C.C=C",
         "legende": "Trois paires d'électrons avancent d'un cran, en cercle : deux nouvelles liaisons se ferment aux extrémités, et la double liaison restante se retrouve au milieu. Aucun intermédiaire, aucune charge.",
         "fleches": [
-          { "de": { "liaison": [0, 1] }, "vers": { "atome": 5 }, "courbure": 0.35 },
-          { "de": { "liaison": [4, 5] }, "vers": { "atome": 3 }, "courbure": 0.35 },
-          { "de": { "liaison": [2, 3] }, "vers": { "liaison": [1, 2] }, "courbure": -0.4 }
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "La première double liaison du diène forme une liaison avec le diénophile."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison du diénophile forme la seconde liaison, à l'autre bout."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison restante glisse au milieu du diène."
+          }
         ]
       },
       {
@@ -75,7 +171,6 @@
       }
     ]
   },
-
   "reduction_nabh4": {
     "etapes": [
       {
@@ -84,8 +179,32 @@
         "smiles": "[H][B-]([H])([H])[H].CC(=O)C",
         "legende": "Une des quatre liaisons B–H cède son hydrogène AVEC ses électrons au carbone du carbonyle. Pour lui faire de la place, les électrons de la double liaison C=O se replient sur l'oxygène.",
         "fleches": [
-          { "de": { "liaison": [1, 0] }, "vers": { "atome": 6 }, "courbure": 0.3 },
-          { "de": { "liaison": [6, 7] }, "vers": { "atome": 7 }, "courbure": 0.4 }
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.3,
+            "libelle": "Une liaison B–H cède son hydrogène, électrons compris, au carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.4,
+            "libelle": "Les électrons de la double liaison C=O se replient sur l'oxygène."
+          }
         ]
       },
       {
@@ -94,8 +213,29 @@
         "smiles": "CC([O-])C.CO[H]",
         "legende": "L'oxygène chargé négativement attrape un hydrogène au solvant : il devient un groupe OH, et la molécule est un alcool.",
         "fleches": [
-          { "de": { "atome": 2 }, "vers": { "atome": 6 }, "courbure": 0.3 },
-          { "de": { "liaison": [5, 6] }, "vers": { "atome": 5 }, "courbure": 0.35 }
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.3,
+            "libelle": "Le doublet de l'oxygène va chercher un hydrogène du solvant."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
+          }
         ]
       },
       {
@@ -107,7 +247,6 @@
       }
     ]
   },
-
   "grignard": {
     "etapes": [
       {
@@ -116,8 +255,32 @@
         "smiles": "C[Mg]Br.CC(=O)C",
         "legende": "Le magnésium a rendu son carbone riche en électrons (ici R = CH₃). Ce carbone se lie au carbone du carbonyle : une liaison carbone-carbone est née. Les électrons de la double liaison C=O se replient sur l'oxygène.",
         "fleches": [
-          { "de": { "liaison": [0, 1] }, "vers": { "atome": 4 }, "courbure": 0.32 },
-          { "de": { "liaison": [4, 5] }, "vers": { "atome": 5 }, "courbure": 0.4 }
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.32,
+            "libelle": "Le carbone rendu riche par le magnésium attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.4,
+            "libelle": "Les électrons de la double liaison C=O se replient sur l'oxygène."
+          }
         ]
       },
       {
@@ -126,8 +289,29 @@
         "smiles": "CC([O-])(C)C.O([H])[H]",
         "legende": "On ajoute l'eau une fois le travail fait : l'oxygène attrape un proton et l'alcool apparaît. Ajoutée trop tôt, cette eau aurait détruit le réactif.",
         "fleches": [
-          { "de": { "atome": 2 }, "vers": { "atome": 6 }, "courbure": 0.3 },
-          { "de": { "liaison": [5, 6] }, "vers": { "atome": 5 }, "courbure": 0.35 }
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.3,
+            "libelle": "L'oxygène chargé négativement va chercher un proton de l'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
+          }
         ]
       },
       {
