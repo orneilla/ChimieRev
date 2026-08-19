@@ -184,5 +184,119 @@
     "explication_reference": "Substitution nucléophile assistée par un groupe voisin (participation anchimère). Le groupe carboxylate, porté par le carbone adjacent, agit comme nucléophile intramoléculaire : il attaque le carbone électrophile en anti du nucléofuge, dont le départ est assisté par Ag⁺ agissant comme acide de Lewis halogénophile. Il se forme un intermédiaire cyclique tendu à trois chaînons (α-lactone), avec inversion de configuration au carbone attaqué. L'ouverture de ce cycle par l'ion hydroxyde procède par une seconde substitution de type SN2 sur le même carbone, donc avec une seconde inversion. Le bilan stéréochimique de ces deux inversions consécutives est une rétention nette de configuration. L'assistance anchimère se traduit également par une accélération de la réaction par rapport au substrat dépourvu du groupe voisin. La participation s'observe préférentiellement lorsque la géométrie permet la formation d'un cycle à trois ou cinq chaînons.",
     "explication_comprendre": "POURQUOI cette réaction mérite-t-elle une fiche à part ?\n\nParce que son résultat contredit ce qu'on vient d'apprendre. Quand un nouveau partenaire remplace l'ancien sur un carbone, la molécule se retourne — c'est la règle. Ici, elle ne se retourne pas : on retrouve à la fin la même orientation qu'au départ. Et pourtant aucune règle n'est violée. C'est cette contradiction apparente qui rend la réaction instructive.\n\nL'explication tient à un détail : la molécule porte, juste à côté, un groupe qui a des électrons à donner. Ce voisin n'est pas un spectateur.\n\nCOMMENT ça se déroule\n\nQuand le brome commence à s'en aller, le voisin n'attend pas qu'un partenaire extérieur arrive. Il est déjà sur place, attaché à la molécule, et il attaque le premier — par l'arrière, comme toujours. La molécule se retourne donc une première fois, et se referme sur elle-même en formant un petit anneau de trois atomes, très tendu.\n\nCet anneau ne tient pas. Un ion hydroxyde arrive et l'ouvre, en attaquant le même carbone, par l'arrière lui aussi. La molécule se retourne une seconde fois.\n\nDeux retournements, c'est comme retourner une chaussette puis la retourner encore : elle est revenue à l'endroit. Le bilan donne l'impression que rien n'a bougé, alors que tout a bougé deux fois.\n\nCE QUE ÇA APPREND À LIRE\n\nLes auteurs du manuel en font une règle de lecture, et elle est précieuse : si tu vois une substitution qui se fait sans retournement, ne conclus pas que le mécanisme est différent — cherche le voisin qui a participé. La rétention est la signature d'une double inversion.\n\nET LE PLUS ÉLÉGANT\n\nLes mêmes molécules de départ, traitées autrement, donnent l'autre résultat. Avec beaucoup de soude et sans argent, le partenaire extérieur est si empressé qu'il attaque avant que le voisin ait le temps d'intervenir : un seul retournement, et on obtient l'image miroir. Le chimiste choisit donc, par les conditions seules, laquelle des deux formes il veut obtenir. C'est le genre de contrôle qui fait toute la valeur de la compréhension d'un mécanisme.",
     "niveau_difficulte": 6
+  },
+  {
+    "id": "williamson",
+    "nom": "Synthèse d'éther de Williamson",
+    "famille": "Substitutions",
+    "symbole": "R–O–R",
+    "substrat_SMILES": "CCO",
+    "produit_SMILES": "CCOC",
+    "reactifs": [
+      "NaH (pour former l’alcoolate)",
+      "CH₃I"
+    ],
+    "solvant": "DMF (aprotique polaire)",
+    "mecanisme_etapes": [
+      "Une base forte — l'hydrure de sodium — arrache le proton de l'alcool. Un alcool est un acide faible (pKa voisin de 16), il faut donc une base puissante ; le dihydrogène qui se dégage rend l'opération irréversible.",
+      "L'alcoolate ainsi formé est un bien meilleur nucléophile que l'alcool de départ : c'est tout l'intérêt de cette première étape.",
+      "L'alcoolate attaque l'iodomethane par l'arrière : substitution SN2 classique, l'iodure part."
+    ],
+    "selectivite": "Le partenaire halogéné doit être méthylique ou primaire : ces groupes réagissent toujours par SN2 et jamais par SN1 (Clayden p. 340). Avec un halogénure secondaire ou tertiaire, l'alcoolate — base forte — provoque une élimination au lieu de la substitution. Sur les phénols, plus acides (pKa voisin de 10), la soude suffit comme base et le sulfate de diméthyle sert souvent d'électrophile (p. 340).",
+    "pieges": [
+      "Choisir le mauvais côté : pour faire R–O–Me, il faut l'alcoolate de R et un halogénure de méthyle, jamais l'inverse avec un halogénure encombré.",
+      "Un halogénure tertiaire ne donne pas l'éther mais l'alcène : l'alcoolate agit alors en base.",
+      "Sauter la déprotonation : l'alcool neutre est un nucléophile trop faible, la vitesse d'une SN2 dépend de la force et de la concentration du nucléophile (p. 331).",
+      "L'hydrure de sodium réagit violemment avec l'eau : le milieu doit être anhydre."
+    ],
+    "explication_reference": "Formation d'un éther par substitution nucléophile bimoléculaire entre un alcoolate et un halogénoalcane. L'alcool est d'abord déprotoné par une base forte non nucléophile (NaH), ce qui engendre l'alcoolate, nucléophile nettement plus réactif que l'alcool neutre, et libère du dihydrogène. L'alcoolate attaque ensuite le carbone électrophile selon un mécanisme SN2, avec attaque dorsale et déplacement du nucléofuge. La réaction impose un électrophile méthylique ou primaire : les substrats plus encombrés subissent une élimination E2 sous l'action de l'alcoolate, qui est aussi une base forte. Le solvant aprotique polaire (DMF) laisse l'anion peu solvaté et donc plus réactif. Pour les phénols, dont l'acidité est bien supérieure (pKa ≈ 10), une base plus douce comme l'hydroxyde suffit, et le sulfate de diméthyle est un électrophile courant.",
+    "explication_comprendre": "POURQUOI faut-il d'abord transformer l'alcool avant de s'en servir ?\n\nParce qu'un alcool, tel quel, est un partenaire mou. Son oxygène possède bien des électrons à partager, mais il les tient serrés : il est électriquement neutre et n'a aucune raison de se précipiter sur quoi que ce soit.\n\nOn commence donc par lui enlever son hydrogène. L'oxygène, qui gardait les électrons de cette liaison, se retrouve chargé négativement — et là, tout change. Ce n'est plus le même partenaire : il est riche, instable, pressé de se lier. Comparer les deux, c'est comparer quelqu'un qui a de quoi payer mais garde son portefeuille fermé, et quelqu'un qui a l'argent à la main.\n\nCOMMENT ça se déroule\n\nDeux temps. D'abord la préparation : une base très forte arrache le proton. Le gaz qui se dégage emporte la réaction et l'empêche de revenir en arrière.\n\nEnsuite l'assemblage : l'oxygène chargé attaque le carbone porteur de l'iode, par l'arrière comme toujours, et l'iodure s'en va. Les deux morceaux sont soudés par un oxygène : c'est un éther.\n\nLE PIÈGE, ET IL EST FRÉQUENT\n\nOn a deux morceaux à assembler, donc deux façons de s'y prendre — et une seule marche. Le morceau qui subit l'attaque doit être petit et dégagé : un méthyle, ou une chaîne simple. S'il est trop entouré, l'oxygène chargé ne peut plus l'atteindre. Alors il fait ce que fait n'importe quelle espèce riche en électrons quand elle ne peut pas atteindre sa cible : il attrape un hydrogène voisin, et on obtient un alcène au lieu de l'éther.\n\nDonc, devant deux morceaux à réunir : mets la charge négative du côté encombré, et laisse le côté dégagé se faire attaquer. Jamais l'inverse.",
+    "niveau_difficulte": 2
+  },
+  {
+    "id": "tosylation_alcool",
+    "nom": "Activation d'un alcool en tosylate",
+    "famille": "Substitutions",
+    "symbole": "OTs",
+    "substrat_SMILES": "CCCO",
+    "produit_SMILES": "CCCOS(=O)(=O)c1ccc(C)cc1",
+    "reactifs": [
+      "TsCl (chlorure de p-toluènesulfonyle)",
+      "pyridine"
+    ],
+    "solvant": "Dichlorométhane ou pyridine elle-même, à froid",
+    "mecanisme_etapes": [
+      "L'oxygène de l'alcool attaque l'atome de soufre du chlorure de tosyle, et l'ion chlorure s'en va : la liaison se fait sur le SOUFRE, pas sur le carbone.",
+      "La pyridine reprend le proton porté par l'oxygène : le tosylate est formé.",
+      "La liaison C–O de l'alcool n'a jamais été touchée : le carbone n'a pas bougé, sa configuration est intacte.",
+      "Le tosylate ainsi obtenu peut alors être déplacé par presque n'importe quel nucléophile, cette fois par une SN2 au carbone, avec inversion."
+    ],
+    "selectivite": "Aucune modification du carbone à cette étape : la substitution a lieu au soufre, donc la configuration du centre stéréogène est conservée. L'inversion viendra à l'étape suivante, quand le tosylate sera déplacé. Les alcools primaires et secondaires se convertissent facilement (Clayden p. 349). Les acides sulfoniques étant des acides forts (pKa voisin de 0), tout sulfonate est un excellent groupe partant : « tosylates et mésylates peuvent être déplacés par presque n'importe quoi » (p. 349).",
+    "pieges": [
+      "Croire que la tosylation inverse la configuration : elle ne touche pas au carbone. C'est l'étape suivante qui l'inverse.",
+      "Écrire le groupe partant « Ts⁻ » : c'est TsO⁻ qui part, l'oxygène compris (Clayden p. 349).",
+      "Confondre avec la mésylation : le chlorure de mésyle réagit par un mécanisme différent, traité au chapitre 17 de Clayden (p. 349).",
+      "Oublier la base : la pyridine ne regarde pas, elle capte le proton libéré et empêche le milieu de devenir acide."
+    ],
+    "explication_reference": "Conversion d'un alcool en ester sulfonique, destinée à transformer un mauvais nucléofuge (HO⁻) en un excellent. L'oxygène de l'alcool joue le rôle de nucléophile sur l'atome de soufre électrophile du chlorure de sulfonyle ; la substitution s'opère donc au soufre, avec départ de l'ion chlorure, puis déprotonation par la pyridine. La liaison C–O n'étant à aucun moment rompue, la configuration du carbone porteur est intégralement conservée. L'ester sulfonique obtenu est un nucléofuge de premier ordre : l'acidité élevée des acides sulfoniques (pKa ≈ 0) rend l'anion sulfonate très stable, donc aisément déplaçable. La séquence tosylation puis substitution constitue la méthode standard pour substituer un alcool avec inversion de configuration, l'inversion se produisant lors de la seconde étape.",
+    "explication_comprendre": "POURQUOI ne peut-on pas remplacer directement le OH d'un alcool ?\n\nParce qu'un groupe ne s'en va que s'il est stable une fois parti. Or l'ion hydroxyde, HO⁻, est tout sauf stable : c'est une espèce agressive, qui ne demande qu'à se recoller quelque part. Lui demander de partir de son plein gré, c'est demander à quelqu'un de sauter d'un train en marche.\n\nD'où l'idée : plutôt que de forcer le OH à partir, on le déguise en quelque chose qui ne demande qu'à s'en aller.\n\nCOMMENT ça se déroule\n\nOn accroche à l'oxygène un gros groupe qui absorbe très bien les charges négatives. Une fois greffé, l'ensemble « oxygène + ce groupe » devient une espèce parfaitement à l'aise quand elle part avec la charge : elle la répartit sur plusieurs atomes et la supporte sans effort.\n\nUne image : le OH tout seul, c'est une personne qu'on met dehors sans manteau, elle s'accroche à la porte. Le tosylate, c'est la même personne à qui on a donné un manteau et un parapluie — elle sort volontiers.\n\nLE POINT QU'ON RATE PRESQUE TOUJOURS\n\nPendant toute cette opération, **le carbone n'a pas bougé**. L'oxygène est allé se lier au soufre du réactif ; la liaison entre le carbone et l'oxygène, elle, n'a jamais été rompue. Donc si ce carbone était orienté d'une certaine façon, il l'est toujours.\n\nC'est seulement à l'étape suivante, quand un nouveau partenaire viendra chasser le tosylate, que le carbone se retournera. Confondre les deux étapes, c'est se tromper d'une inversion — et donc de produit final.\n\nCE QU'IL FAUT EN RETENIR\n\nOn ne pousse pas un mauvais groupe partant dehors : on le remplace par un bon. La tosylation prépare, la substitution exécute.",
+    "niveau_difficulte": 4
+  },
+  {
+    "id": "mitsunobu",
+    "nom": "Réaction de Mitsunobu",
+    "famille": "Substitutions",
+    "symbole": "PPh₃",
+    "substrat_SMILES": "CCC(C)O",
+    "produit_SMILES": "CCC(C)OC(=O)c1ccccc1",
+    "reactifs": [
+      "Ph₃P (triphénylphosphine)",
+      "DEAD (azodicarboxylate de diéthyle)",
+      "HNu — ici l'acide benzoïque"
+    ],
+    "solvant": "THF anhydre, à froid",
+    "mecanisme_etapes": [
+      "La phosphine s'additionne sur la double liaison N=N du DEAD, faible : il se forme un anion azoté, stabilisé par l'un des groupes ester.",
+      "Cet anion est assez basique pour arracher le proton du nucléophile HNu : le nucléophile est ainsi révélé sous sa forme anionique, prêt à réagir.",
+      "L'alcool attaque le phosphore chargé positivement — l'oxygène et le phosphore ont une forte affinité — et déplace un second anion azoté par une SN2 au phosphore. Après transfert de proton, on obtient l'espèce R–O–PPh₃⁺ et le DEAD réduit comme sous-produit.",
+      "L'anion nucléophile attaque enfin le carbone par une SN2 ordinaire, l'oxyde de phosphine étant le groupe partant. C'est cette dernière étape, et elle seule, qui inverse la configuration."
+    ],
+    "selectivite": "Inversion de configuration au carbone, puisque l'étape finale est une SN2 (Clayden p. 350). C'est là, écrit l'ouvrage, l'une des grandes forces de la réaction : un moyen fiable de remplacer un OH par un nucléophile avec inversion (p. 351). Application la plus spectaculaire : la formation d'esters à partir d'alcools secondaires avec inversion, là où une estérification ordinaire conserve la configuration puisqu'elle ne rompt pas la liaison C–O de l'alcool (p. 351).",
+    "pieges": [
+      "Croire que la réaction conserve la configuration parce qu'elle se fait « en un seul pot » : la dernière étape est une SN2, donc une inversion.",
+      "Oublier que le nucléophile doit être introduit sous sa forme acide HNu : c'est l'anion azoté engendré au début qui le déprotone (Clayden p. 350).",
+      "Un nucléophile trop peu acide ne sera pas déprotoné par cet anion et la réaction n'aura pas lieu.",
+      "Les sous-produits — oxyde de phosphine et DEAD réduit — sont abondants et souvent pénibles à séparer du produit."
+    ],
+    "explication_reference": "Substitution nucléophile d'un alcool en un seul pot, sans isolement d'intermédiaire, procédant en quatre stades. La triphénylphosphine s'additionne d'abord sur la liaison N=N de l'azodicarboxylate, engendrant un adduit bétaïnique dont l'anion azoté est stabilisé par conjugaison avec un ester. Cet anion déprotone le pronucléophile HNu, révélant Nu⁻. L'alcool attaque ensuite le phosphore électrophile — l'affinité oxygène-phosphore étant le moteur thermodynamique de l'ensemble — par substitution au phosphore, ce qui, après transfert de proton, engendre l'alcoxyphosphonium R–O–PPh₃⁺ et libère l'hydrazine-dicarboxylate. Le nucléofuge est alors l'oxyde de triphénylphosphine, dont la formation constitue la force motrice de l'étape finale : une substitution nucléophile bimoléculaire au carbone, donc avec inversion de configuration. L'ensemble transforme un alcool en son dérivé substitué, avec inversion nette, sans passer par l'isolement d'un ester sulfonique.",
+    "explication_comprendre": "POURQUOI cette réaction existe-t-elle, alors qu'on sait déjà remplacer un OH ?\n\nParce que la méthode habituelle demande deux opérations : on déguise d'abord le OH en bon groupe partant, on le chasse ensuite. Deux étapes, deux purifications, du temps perdu. La réaction de Mitsunobu fait tout dans le même récipient : on verse les quatre ingrédients ensemble et on récupère le produit.\n\nCOMMENT une telle chose est-elle possible ?\n\nGrâce à un moteur chimique très puissant : le phosphore et l'oxygène s'attirent énormément. Quand un phosphore parvient à attraper un oxygène, la liaison qu'il forme est si solide que la réaction ne peut plus revenir en arrière. C'est ce moteur qui entraîne toute la séquence.\n\nLe mécanisme compte quatre temps et paraît long, mais chacun a sa logique. La phosphine se fixe d'abord sur le second réactif et crée une espèce basique. Cette espèce arrache un proton au partenaire qu'on veut installer : le voilà activé. Puis l'alcool va se lier au phosphore — c'est le moment où le OH se transforme en excellent groupe partant, sans qu'on ait rien isolé. Enfin, le partenaire activé attaque le carbone et chasse le phosphore, qui s'en va avec son oxygène.\n\nCE QUI EN FAIT LA VALEUR\n\nLa dernière étape est une attaque par l'arrière — donc le carbone se retourne. Et c'est précisément ce qu'on cherchait.\n\nPourquoi est-ce si précieux ? Imagine que tu veuilles fabriquer un ester à partir d'un alcool, mais avec l'orientation inverse de celle que tu as en main. La méthode classique ne le permet pas : elle ne touche jamais à la liaison entre le carbone et l'oxygène, donc l'orientation reste ce qu'elle était. Ici, elle est rompue, et le carbone bascule. C'est un des rares moyens fiables de retourner un centre qu'on croyait figé.",
+    "niveau_difficulte": 7
+  },
+  {
+    "id": "ouverture_epoxyde_base",
+    "nom": "Ouverture d'un époxyde en milieu basique",
+    "famille": "Substitutions",
+    "symbole": "C₂O",
+    "substrat_SMILES": "CC1CO1",
+    "produit_SMILES": "CC(O)CN(C)C",
+    "reactifs": [
+      "HNMe₂ (diméthylamine)"
+    ],
+    "solvant": "Éthanol, chauffage doux",
+    "mecanisme_etapes": [
+      "L'époxyde est un cycle à trois atomes dont les angles valent 60° au lieu des 109° habituels : il est tendu, et cette tension est une réserve d'énergie qui n'attend qu'à être libérée.",
+      "L'amine attaque le carbone le moins encombré par l'arrière, comme dans toute SN2. Le cycle s'ouvre : la liaison C–O se rompt et l'oxygène emporte les électrons.",
+      "Un transfert de proton rapide neutralise les charges : on obtient un amino-alcool."
+    ],
+    "selectivite": "Une seule attaque suffit à libérer toute la tension du cycle et à ramener tous les angles à leur valeur normale (Clayden p. 352). En milieu basique, l'attaque a lieu sur le carbone le moins encombré, selon la règle habituelle des SN2. La stéréochimie est celle d'une SN2 : inversion au carbone attaqué. Sur un époxyde soudé à un autre cycle, l'attaque venant par-dessous quand l'époxyde est au-dessus, on obtient le produit trans (p. 352). Les amines, souvent décevantes avec les halogénoalcanes à cause des réactions multiples, donnent ici de bons résultats (p. 352).",
+    "pieges": [
+      "Confondre avec le milieu acide : protoné, l'époxyde s'ouvre du côté le PLUS substitué, car le carbone qui porte le plus de groupes stabilise mieux la charge positive naissante. La régiosélectivité s'inverse.",
+      "Oublier l'inversion : c'est une SN2, le carbone attaqué se retourne.",
+      "Attendre d'une amine et d'un halogénoalcane le même succès : là, l'alkylation ne s'arrête pas et donne des mélanges (Clayden p. 352).",
+      "Croire qu'il faut une base forte : c'est la tension du cycle qui fait le travail, pas la force du nucléophile."
+    ],
+    "explication_reference": "Ouverture d'un oxirane par attaque nucléophile en conditions neutres ou basiques. La tension de cycle, considérable dans un hétérocycle à trois chaînons dont les angles internes valoisinent 60°, constitue le moteur de la réaction : une seule attaque nucléophile suffit à la libérer et à restaurer des angles tétraédriques normaux. Le mécanisme est celui d'une substitution nucléophile bimoléculaire : attaque dorsale sur l'un des carbones du cycle, rupture concertée de la liaison C–O et formation d'un alcoolate, protoné ensuite par le milieu. En l'absence de catalyse acide, la régiosélectivité obéit aux contraintes stériques usuelles de la SN2 et l'attaque se produit sur le carbone le moins substitué. La stéréochimie est celle d'une SN2 : inversion de configuration au carbone attaqué, ce qui se lit directement sur les époxydes fusionnés à un cycle, où le produit obtenu est trans.",
+    "explication_comprendre": "POURQUOI un cycle à trois atomes réagit-il si facilement, alors qu'un éther ordinaire ne réagit pas du tout ?\n\nLa réponse tient dans une question de géométrie. Un atome de carbone aime avoir ses liaisons écartées d'environ 109 degrés : c'est sa position de repos. Dans un anneau à trois atomes, il n'a pas le choix : les angles sont forcés à 60 degrés. C'est comme plier un ressort et le maintenir plié.\n\nToute cette tension est de l'énergie stockée. La molécule ne demande qu'une chose : qu'on lui donne l'occasion de se détendre.\n\nCOMMENT ça se déroule\n\nIl suffit qu'un partenaire riche en électrons — ici une amine — vienne attaquer l'un des deux carbones du cycle, par l'arrière comme toujours. L'anneau s'ouvre, l'oxygène part d'un côté avec les électrons, et tous les angles retrouvent leur valeur confortable. Le ressort s'est détendu.\n\nUn transfert de proton, et on obtient une molécule qui porte à la fois un alcool et une amine, sur deux carbones voisins.\n\nDE QUEL CÔTÉ S'OUVRE-T-IL ?\n\nDeux carbones, donc deux possibilités. En l'absence d'acide, c'est la règle habituelle qui tranche : le partenaire attaque là où il peut passer, c'est-à-dire du côté le moins encombré.\n\nRetiens bien cette condition — « en l'absence d'acide » — parce qu'en milieu acide, la réponse s'inverse, et c'est une des confusions les plus fréquentes de tout le chapitre.\n\nCE QU'IL FAUT EN RETENIR\n\nUn ressort comprimé qu'on libère. Ce n'est pas la force du nucléophile qui fait la réaction, c'est la tension du cycle qui la rend inévitable.",
+    "niveau_difficulte": 4
   }
 ]

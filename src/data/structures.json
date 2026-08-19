@@ -27,6 +27,22 @@
     "substrat": "participation_groupe_voisin-substrat.svg",
     "produit": "participation_groupe_voisin-produit.svg"
   },
+  "williamson": {
+    "substrat": "williamson-substrat.svg",
+    "produit": "williamson-produit.svg"
+  },
+  "tosylation_alcool": {
+    "substrat": "tosylation_alcool-substrat.svg",
+    "produit": "tosylation_alcool-produit.svg"
+  },
+  "mitsunobu": {
+    "substrat": "mitsunobu-substrat.svg",
+    "produit": "mitsunobu-produit.svg"
+  },
+  "ouverture_epoxyde_base": {
+    "substrat": "ouverture_epoxyde_base-substrat.svg",
+    "produit": "ouverture_epoxyde_base-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

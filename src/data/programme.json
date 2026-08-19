@@ -29,7 +29,7 @@
         {
           "nom": "Synthèse de Williamson (éthers)",
           "niveau": "L2",
-          "id": null
+          "id": "williamson"
         },
         {
           "nom": "Échange de Finkelstein",
@@ -39,7 +39,7 @@
         {
           "nom": "Activation des alcools (tosylates, mésylates)",
           "niveau": "L3",
-          "id": null
+          "id": "tosylation_alcool"
         },
         {
           "nom": "Halogénation des alcools (SOCl₂, PBr₃)",
@@ -49,7 +49,7 @@
         {
           "nom": "Réaction de Mitsunobu",
           "niveau": "M1",
-          "id": null
+          "id": "mitsunobu"
         },
         {
           "nom": "Substitution allylique SN2′",
@@ -59,7 +59,7 @@
         {
           "nom": "Ouverture des époxydes en milieu basique",
           "niveau": "L3",
-          "id": null
+          "id": "ouverture_epoxyde_base"
         },
         {
           "nom": "Ouverture des époxydes en milieu acide",

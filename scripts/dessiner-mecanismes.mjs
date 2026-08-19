@@ -98,12 +98,23 @@ function dessinerEspece(smiles, misEnJeu) {
 
   const nombre = molecule.get_num_atoms()
 
+  // Une espèce réduite à un seul atome — ion hydrure, halogénure — n'a ni
+  // liaison ni étendue : le recentrage automatique de RDKit y répond par
+  // des coordonnées invalides, l'atome devient invisible et la flèche
+  // semble partir du vide. On le désactive pour ce cas, où il ne sert
+  // de toute façon à rien : un atome seul est déjà au centre.
+  const options = nombre === 1
+    ? (extra = {}) => optionsDessin({ centreMoleculesBeforeDrawing: false,
+                                      fixedBondLength: undefined, ...extra })
+    : optionsDessin
+
   // Repérage : une ellipse centrée sur chaque atome.
   const repere = molecule.get_svg_with_highlights(
-    optionsDessin({ atoms: [...Array(nombre).keys()] })
+    options({ atoms: [...Array(nombre).keys()] })
   )
   const centres = [...repere.matchAll(/<ellipse[^>]*cx='([\d.]+)'\s*cy='([\d.]+)'/g)]
     .map((e) => ({ x: Number(e[1]), y: Number(e[2]) }))
+
   if (centres.length !== nombre) {
     throw new Error(`repérage incomplet pour ${smiles} : ${centres.length}/${nombre}`)
   }
@@ -119,7 +130,17 @@ function dessinerEspece(smiles, misEnJeu) {
     const numeros = liaisonsVisees.map(numeroLiaison).filter((n) => n >= 0)
     if (atomes.length === 0 && numeros.length === 0) return ''
 
-    const svg = molecule.get_svg_with_highlights(optionsDessin({
+    // Sur une espèce à un seul atome, RDKit dimensionne son halo d'après
+    // l'étendue de la molécule — indéfinie ici — et couvre la moitié du
+    // cadre. On trace donc le halo à la main, au même diamètre que les
+    // autres, pour que la lecture reste homogène.
+    if (nombre === 1) {
+      const teinte = couleur.map((c) => Math.round(c * 255))
+      return `<circle cx='${centres[0].x.toFixed(1)}' cy='${centres[0].y.toFixed(1)}' r='22' ` +
+             `fill='rgb(${teinte.join(',')})'/>`
+    }
+
+    const svg = molecule.get_svg_with_highlights(options({
       atoms: atomes,
       bonds: numeros,
       highlightColour: couleur,
@@ -141,8 +162,14 @@ function dessinerEspece(smiles, misEnJeu) {
     couche(misEnJeu.atomesArrivee, misEnJeu.liaisonsArrivee, SURLIGNE_ARRIVEE)
   ].filter(Boolean).join('\n    ')
 
-  const dessin = molecule.get_svg_with_highlights(optionsDessin())
+  const dessin = molecule.get_svg_with_highlights(options())
   molecule.delete()
+
+  // Un dessin aux coordonnées invalides n'affiche rien : mieux vaut
+  // s'arrêter que publier une flèche qui semble partir du vide.
+  if (/nan/i.test(dessin)) {
+    throw new Error(`dessin invalide pour ${smiles} : coordonnées non calculables`)
+  }
 
   const contenu = dessin
     .slice(dessin.indexOf('<!-- END OF HEADER -->') + 22, dessin.lastIndexOf('</svg>'))

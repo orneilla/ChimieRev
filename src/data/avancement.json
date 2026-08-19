@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-19",
   "total": 138,
-  "redigees": 7,
-  "verifiees": 7,
+  "redigees": 11,
+  "verifiees": 10,
   "relues": 0,
   "familles": [
     {
@@ -10,9 +10,9 @@
       "nom": "Substitutions nucléophiles",
       "famille": "Substitutions",
       "total": 12,
-      "absente": 9,
-      "redigee": 0,
-      "verifiee": 3,
+      "absente": 5,
+      "redigee": 1,
+      "verifiee": 6,
       "relue": 0,
       "reactions": [
         {
@@ -39,9 +39,9 @@
         {
           "nom": "Synthèse de Williamson (éthers)",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "williamson",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Échange de Finkelstein",
@@ -53,9 +53,9 @@
         {
           "nom": "Activation des alcools (tosylates, mésylates)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "tosylation_alcool",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Halogénation des alcools (SOCl₂, PBr₃)",
@@ -67,9 +67,9 @@
         {
           "nom": "Réaction de Mitsunobu",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "mitsunobu",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Substitution allylique SN2′",
@@ -81,9 +81,9 @@
         {
           "nom": "Ouverture des époxydes en milieu basique",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ouverture_epoxyde_base",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Ouverture des époxydes en milieu acide",

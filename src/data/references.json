@@ -195,6 +195,78 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "williamson": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "340",
+          "note": "La méthode elle-même : alcoolate formé par NaH, puis iodométhane comme électrophile. Rappel que méthyle et primaire réagissent toujours par SN2 et jamais par SN1. Variante des phénols, plus acides, avec NaOH et sulfate de diméthyle."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "331",
+          "note": "Pourquoi déprotoner : la vitesse d'une SN2 dépend de la force et de la concentration du nucléophile."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "352",
+          "note": "Conditions typiques comparées : NaH dans le DMF pour l'éther méthylique, contre un simple acide pour l'éther tertiaire, qui passe lui par un carbocation."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "tosylation_alcool": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "349",
+          "note": "Formation des tosylates et mésylates : TsCl avec la pyridine, MsCl avec la triéthylamine. Les acides sulfoniques étant forts (pKa voisin de 0), le sulfonate est un excellent groupe partant — « déplaçable par presque n'importe quoi ». Avertissement explicite : le groupe partant s'écrit TsO⁻, non Ts⁻. La mésylation suit un mécanisme différent, traité au chapitre 17."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "344",
+          "note": "Exemple d'un tosylate déplacé par l'acétate, nucléophile pourtant faible — preuve de la qualité du groupe partant."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "mitsunobu": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "349–350",
+          "note": "Les quatre stades du mécanisme, détaillés un par un : addition de la phosphine sur la liaison N=N du DEAD, déprotonation du nucléophile par l'anion azoté, attaque de l'alcool sur le phosphore, puis SN2 finale au carbone avec l'oxyde de phosphine comme groupe partant."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15",
+          "pages": "351",
+          "note": "La conséquence stéréochimique et son intérêt : moyen fiable de remplacer un OH avec inversion. Formation d'esters à partir d'alcools secondaires avec inversion, là où l'estérification ordinaire conserve la configuration."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "ouverture_epoxyde_base": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "352",
+          "note": "La tension de cycle comme moteur : angles de 60° au lieu de 109°, qu'une seule attaque nucléophile suffit à relâcher. Les amines donnent de bons résultats avec les époxydes, à la différence des halogénoalcanes. Démonstration de l'inversion sur un époxyde fusionné à un cycle à cinq chaînons, qui donne le produit trans."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {
