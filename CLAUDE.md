@@ -57,10 +57,28 @@ compris pour un ouvrage en plusieurs volumes. **Regarder la page est
 indispensable** : dans un manuel de chimie l'essentiel est dessiné, et le
 texte extrait ne contient que la prose autour des figures.
 
-Le décalage entre pagination PDF et pagination imprimée se **vérifie en
-ouvrant une page**, jamais en faisant confiance à la détection automatique :
-le McMurry compose ses folios dans une police à encodage propre, illisible à
-l'extraction.
+### La pagination, qui a menti une fois
+
+Le décalage entre pagination PDF et pagination imprimée ne se devine pas.
+Le McMurry en donne le pire exemple : ses folios sont composés dans une
+police sous-ensemblée dont le codage change à chaque page — illisible à
+l'extraction — et ses trois fichiers sont des scans **partiels**, avec des
+pages insérées entre les chapitres. Un décalage unique par volume donnait
+donc des citations fausses de plusieurs dizaines de pages. Le volume 6
+compte à lui seul **treize** plages de décalage.
+
+Deux outils en découlent, et ils tournent avant de citer :
+
+```bash
+python3 outils/lire-folios.py fichier.pdf     # décalages, par reconnaissance
+python3 outils/verifier-folios.py             # une page porte-t-elle son folio ?
+```
+
+`lire-folios.py` reconnaît la **forme** des chiffres, pas leur codage : les
+modèles sont appris sur quelques pages dont le folio a été lu à l'œil, puis
+une lecture n'est retenue que si une page voisine la confirme.
+`verifier-folios.py` n'accuse pas un taux bas — bien des pages n'impriment
+pas de folio — mais le fait qu'un AUTRE décalage ferait nettement mieux.
 
 ## La chaîne de garanties
 

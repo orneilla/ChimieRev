@@ -694,7 +694,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "8 — Alkenes: Reactions and Synthesis, § 8-7",
-          "pages": "305–306",
+          "pages": "241–242",
           "note": "La dihydroxylation directe par OsO₄ sans passer par l'époxyde, la stéréochimie syn, l'absence de carbocation intermédiaire ; la version catalytique avec NMO dans l'acétone aqueuse, 93 % de cis-1-phényl-1,2-cyclohexanediol ; la toxicité du réactif."
         },
         {
@@ -718,7 +718,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "8 — Alkenes: Reactions and Synthesis, § 8-8",
-          "pages": "307–308",
+          "pages": "242–243",
           "note": "La production de l'ozone par décharge électrique, le molozonide puis l'ozonide ; les conditions CH₂Cl₂ à −78 °C ; le traitement par le zinc en milieu acétique ; l'avertissement que les ozonides de faible masse sont explosifs et ne s'isolent pas ; les produits selon la substitution de la double liaison, avec 84 % et 78 % de rendement sur deux exemples ; et la coupure d'un 1,2-diol par HIO₄."
         }
       ],
@@ -766,7 +766,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "8 — Alkenes: Reactions and Synthesis, § 8-6",
-          "pages": "299–300",
+          "pages": "235–236",
           "note": "La définition organique de la réduction, distinguée de celle de la chimie générale ; le palladium sur charbon et le PtO₂ dit catalyseur d'Adams ; le caractère hétérogène de la réaction, qui se déroule à la surface des particules solides ; la stéréochimie syn, avec 82 % de cis-1,2-diméthylcyclohexane ; le mécanisme en quatre étapes détaillé par la figure 8-6 — adsorption dissociative de H₂, adsorption de l'alcène par sa liaison π, transfert d'un premier hydrogène avec formation d'une liaison carbone–métal, transfert du second et régénération du catalyseur ; et la sensibilité à l'encombrement, illustrée par l'α-pinène."
         }
       ],
@@ -808,13 +808,13 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "17 — Alcohols and Phenols, § 17-4",
-          "pages": "592",
+          "pages": "536",
           "note": "NaBH₄, solide cristallin blanc pesable à l'air libre et utilisable dans l'eau ou dans un alcool ; 85 % de butan-1-ol à partir du butanal, 88 % de dicyclohexylméthanol à partir de la dicyclohexylcétone."
         },
         {
           "ouvrage": "mcmurry",
           "chapitre": "19 — Aldehydes and Ketones, § 19-7",
-          "pages": "702",
+          "pages": "618",
           "note": "Le mécanisme d'addition nucléophile en milieu basique, l'alcoolate intermédiaire protoné au traitement acide, et le caractère irréversible de la réaction — la voie retour exigerait d'expulser un hydrure, très mauvais groupe partant."
         }
       ],
@@ -826,13 +826,13 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "17 — Alcohols and Phenols, § 17-4",
-          "pages": "592",
+          "pages": "536",
           "note": "LiAlH₄, poudre grisâtre soluble dans l'éther et le THF, bien plus réactive que NaBH₄ mais aussi plus dangereuse : réaction violente avec l'eau, décomposition explosive au-dessus de 120 °C. Réduction de la cyclohex-2-énone en cyclohex-2-énol avec 94 % de rendement, l'alcène restant intact."
         },
         {
           "ouvrage": "mcmurry",
           "chapitre": "19 — Aldehydes and Ketones, § 19-7",
-          "pages": "702",
+          "pages": "618",
           "note": "LiAlH₄ et NaBH₄ se comportent comme des donneurs d'ion hydrure ; l'alcoolate formé est protoné au traitement aqueux acide ; la réaction est effectivement irréversible."
         },
         {
@@ -934,7 +934,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "19 — Aldehydes and Ketones, § 19-6",
-          "pages": "700–701",
+          "pages": "617",
           "note": "L'équilibre favorable au produit dans le cas de HCN, à la différence des autres additions ; le benzaldéhyde conduisant au mandélonitrile puis à l'acide mandélique (90 %) ou au 2-amino-1-phényléthanol ; et le contraste entre la cyclohexanone, qui donne une bonne cyanhydrine, et la 2,2,6-triméthylcyclohexanone, qui n'en donne pas."
         }
       ],
@@ -1018,7 +1018,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "17 — Alcohols and Phenols, § 17-4",
-          "pages": "592",
+          "pages": "536",
           "note": "La voie complémentaire vers le même produit : LiAlH₄ réduit la cyclohex-2-énone en cyclohex-2-énol avec 94 % de rendement, l'alcène restant intact."
         }
       ],
@@ -1234,7 +1234,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "19 — Aldehydes and Ketones, § 19-2",
-          "pages": "692",
+          "pages": "608",
           "note": "La réduction partielle d'un ester par DIBAH comme méthode de laboratoire importante pour préparer les aldéhydes : conditions −78 °C dans le toluène, 88 % de dodécanal à partir du dodécanoate de méthyle, et la remarque que des processus mécanistiquement voisins se rencontrent dans les voies biologiques."
         }
       ],
@@ -1486,7 +1486,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "16 — Chemistry of Benzene, § 16-8",
-          "pages": "556",
+          "pages": "510",
           "note": "L'inertie du noyau aromatique vis-à-vis de KMnO₄ et Na₂Cr₂O₇, réactifs qui coupent pourtant les doubles liaisons éthyléniques ; la conversion des chaînes latérales en groupes carboxyle quelle que soit leur longueur — le butylbenzène donnant l'acide benzoïque à 85 % ; la production industrielle d'environ 40 millions de tonnes annuelles d'acide téréphtalique par oxydation du para-xylène à l'air, catalysée par des sels de cobalt(III), pour les fibres de polyester ; et l'indication que le mécanisme est complexe et met en jeu des radicaux benzyliques, avec la preuve par l'inertie du tert-butylbenzène, dépourvu d'hydrogène benzylique. L'ouvrage ne développe pas ce mécanisme."
         },
         {
@@ -1552,7 +1552,7 @@
         {
           "ouvrage": "mcmurry",
           "chapitre": "22 — Carbonyl Alpha-Substitution Reactions, § 22-4",
-          "pages": "870",
+          "pages": "734",
           "note": "La réaction de Hell-Volhard-Zelinskii nommée et détaillée : la bromation en α par Br₂ dans l'acide acétique se limite aux aldéhydes et aux cétones, « parce que les acides, les esters et les amides ne s'énolisent pas suffisamment ». D'où le passage par le bromure d'acyle : PBr₃ convertit l'acide en bromure d'acyle avec libération de HBr, lequel catalyse l'énolisation ; l'énol réagit avec Br₂ ; l'hydrolyse fournit l'acide α-bromé. 90 % d'acide 2-bromoheptanoïque à partir de l'acide heptanoïque."
         },
         {
