@@ -2435,7 +2435,8 @@
     "mecanisme_etapes": [
       "L'alcool prend la place d'un acétate sur l'iode : une substitution.",
       "L'acétate libéré prend le proton : l'alcoxypériodinane est formé.",
-      "Élimination façon E2 : l'acétate prend l'hydrogène du carbone, la liaison C–H devient C=O, et la liaison O–I se rompt en laissant ses électrons à l'iode. I(V) devient I(III)."
+      "Élimination façon E2 : l'acétate prend l'hydrogène du carbone, la liaison C–H devient C=O, et la liaison O–I se rompt en laissant ses électrons à l'iode. I(V) devient I(III).",
+      "L'iode(III), qui porte encore une liaison de trop, laisse partir un second acétate et redevient neutre."
     ],
     "selectivite": "LE MÊME SQUELETTE QUE L'OXYDATION AU CHROME (McMurry p. 551) : substitution sur le métal ou le métalloïde, puis élimination du type E2 avec expulsion de l'élément réduit. Seul change l'atome qui encaisse les électrons — iode(V) au lieu de chrome(VI).\n\nPOURQUOI ON L'EMPLOIE : la réaction n'est PAS acide, se conduit à température ambiante, et ne laisse aucun métal lourd. McMurry recommande le procédé pour un alcool sensible ou coûteux, et réserve le dichromate bon marché aux grandes quantités (p. 551).\n\nUN EXEMPLE QUI DIT TOUT (Clayden p. 545) : le Dess-Martin oxyde un alcool allylique CIS en aldéhyde α,β-insaturé CIS, sans l'isomériser en trans et sans autre sous-produit. Peu de réactifs en font autant.\n\nD'OÙ IL VIENT (Clayden p. 545) : on le prépare à partir de l'acide 2-iodobenzoïque, oxydé par KBrO₃ puis acétylé par l'anhydride acétique. ATTENTION : l'intermédiaire — l'acide 2-iodoxybenzoïque, IBX — est EXPLOSIF à sec. Le périodinane lui-même se manipule et s'emploie en solution.\n\nCE QU'IL FAUT COMPARER : la Swern est aussi douce mais exige −78 °C, un ordre d'addition strict et libère du sulfure de diméthyle malodorant. Le Dess-Martin s'emploie à température ambiante et ne sent rien — il coûte simplement plus cher.",
     "pieges": [

@@ -95,14 +95,51 @@ ordre :
 4. `inventaire` — l'avancement, recalculé.
 5. Les dessins — un schéma illisible n'est pas publié non plus. Sont
    refusés : un numéro trop près d'un atome, d'un autre numéro, d'une
-   liaison, du « + » de l'équation ou du trait d'une autre flèche ; et
-   **deux flèches qui longent le même chemin**. Ce dernier contrôle mesure
-   la LONGUEUR du voisinage, pas la distance : deux flèches qui se croisent
-   franchement ne partagent qu'un point et restent lisibles, deux flèches
-   enroulées du même côté d'un cycle à quatre chaînons forment une tache.
+   liaison, du « + » de l'équation ou du trait d'une autre flèche ;
+   **deux flèches qui longent le même chemin** ; et **deux étiquettes
+   d'atomes qui se recouvrent**.
+
+   Le contrôle des flèches mesure la LONGUEUR du voisinage, pas la
+   distance : deux flèches qui se croisent franchement ne partagent qu'un
+   point et restent lisibles, deux flèches enroulées du même côté d'un
+   cycle à quatre chaînons forment une tache.
+
+   Le contrôle des atomes ne regarde que les atomes ÉCRITS — un carbone
+   neutre n'est qu'un sommet de traits, deux sommets rapprochés ne gênent
+   personne. Deux hydrogènes portés par le même atome font exception :
+   c'est l'écriture courante d'un CH₂ dont on veut viser un proton.
 
 Ce que la machine ne contrôle pas, c'est le **choix** du mécanisme. D'où le
 badge « à relire par un chimiste » tant que `valide` vaut `false`.
+
+### La mise en page, qui a menti elle aussi
+
+Le contrôle des étiquettes a été ajouté après coup, parce qu'un schéma
+illisible était parti en ligne : le périodinane de Dess-Martin, chaîne
+posée sur son cycle et « H » sur un « O ». Toutes les flèches étaient
+pourtant bien placées — le contrôle ne regardait pas la molécule.
+
+La cause tenait à un piège de RDKit qu'il faut connaître : **les
+coordonnées ne sont pas calculées à la lecture du SMILES mais au moment du
+dessin**. Poser `prefer_coordgen(true)` autour du seul `get_mol` ne sert
+donc à rien ; il faut tenir le drapeau levé pendant tous les appels à
+`get_svg`. CoordGen place bien mieux les atomes hypervalents — un iode à
+cinq liaisons, un chrome, un phosphore — mais il échoue sur une espèce
+réduite à un seul atome, où il ne rend aucune coordonnée : l'ion hydrure
+disparaît du schéma. On le réserve donc aux espèces qui ont une liaison.
+
+Deux outils en découlent :
+
+```bash
+CHIMIEREV_RAPPORT=refus.json node scripts/dessiner-mecanismes.mjs
+```
+
+Le mode rapport ne s'arrête pas au premier refus : il les liste tous. Il
+sert au réglage des courbures, qui essaie des centaines de candidats dans
+un seul processus — relancer RDKit à chaque essai coûtait deux secondes,
+et une étape à quatre flèches ne se réglait pas en un temps humain. **La
+construction, elle, tourne toujours sans ce mode** : un schéma refusé y
+arrête tout, et c'est bien ce qu'on veut.
 
 ## Écrire un mécanisme
 

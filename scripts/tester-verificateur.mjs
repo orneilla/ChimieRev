@@ -134,7 +134,25 @@ const resultats = [
         ]
       }]
     }
-  }, { CHIMIEREV_DEGAGEMENT_CROISEMENT: '45' })
+  }, { CHIMIEREV_DEGAGEMENT_CROISEMENT: '45' }),
+
+  // Neuvième faute : deux ÉTIQUETTES d'atomes qui se recouvrent. C'est la
+  // faute qui est passée en ligne — le schéma du périodinane de Dess-Martin,
+  // dont la chaîne se posait sur le cycle et le « H » sur un « O ». Toutes
+  // les flèches étaient pourtant bien placées : le contrôle ne regardait pas
+  // la molécule elle-même. On lui demande ici l'impossible, en exigeant un
+  // dégagement plus grand que la molécule entière.
+  refuseDessin('Deux étiquettes d\'atomes superposées', {
+    essai: {
+      etapes: [{
+        numero: 1,
+        titre: 'Essai de recouvrement',
+        smiles: 'OCCO',
+        legende: 'Deux oxygènes écrits trop près l\'un de l\'autre.',
+        fleches: []
+      }]
+    }
+  }, { CHIMIEREV_DEGAGEMENT_ATOMES: '400' })
 ]
 
 if (resultats.every(Boolean)) {

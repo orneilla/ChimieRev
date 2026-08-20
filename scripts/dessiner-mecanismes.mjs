@@ -42,6 +42,11 @@ const SURLIGNE_ARRIVEE = [1, 0.82, 0.87]   // rose très pâle : où ils vont
 // que le test met le contrôle à l'épreuve, en lui demandant l'impossible.
 const seuil = (nom, defaut) => Number(process.env[`CHIMIEREV_${nom}`] || defaut)
 
+// Mode rapport : n'arrête pas au premier schéma refusé, mais écrit la liste
+// des refus dans le fichier nommé. Réservé à l'outillage de réglage.
+const RAPPORT = process.env.CHIMIEREV_RAPPORT || ''
+const refus = []
+
 const RAYON_NUMERO = 11
 const DEGAGEMENT_ATOME = seuil('DEGAGEMENT_ATOME', 33)     // numéro ↔ centre d'un atome
 const DEGAGEMENT_NUMERO = seuil('DEGAGEMENT_NUMERO', 36)   // numéro ↔ numéro
@@ -63,6 +68,14 @@ const DEGAGEMENT_TRACE = seuil('DEGAGEMENT_TRACE', 15)     // numéro ↔ trait 
 // croisement ne partage qu'un point, une superposition en partage beaucoup.
 // Les extrémités sont exclues — dans une cascade, la pointe d'une flèche et
 // la queue de la suivante visent légitimement le même endroit.
+// Deux atomes qui ne sont pas liés n'ont aucune raison d'être proches : si
+// leurs centres le sont, leurs étiquettes se recouvrent et le schéma devient
+// une tache. Le contrôle se mesure en fraction de la longueur de liaison,
+// qui est fixe — deux atomes LIÉS sont à 32 px l'un de l'autre.
+// C'est le contrôle qui manquait quand le schéma du Dess-Martin est parti
+// en ligne avec sa chaîne posée sur son cycle et son « H » sur un « O ».
+const DEGAGEMENT_ATOMES = seuil('DEGAGEMENT_ATOMES', 21)   // atome ↔ atome non lié
+const DEGAGEMENT_ATOME_LIAISON = seuil('DEGAGEMENT_ATOME_LIAISON', 11) // atome ↔ liaison étrangère
 const DEGAGEMENT_CROISEMENT = seuil('DEGAGEMENT_CROISEMENT', 14) // trait ↔ trait
 const BOUT_IGNORE = seuil('BOUT_IGNORE', 28)                     // autour des extrémités
 const PART_SUPERPOSEE = 0.2                                      // au-delà, c'est une tache
@@ -89,6 +102,30 @@ const optionsDessin = (extra = {}) => JSON.stringify({
   ...extra
 })
 
+/**
+ * Quels atomes portent une étiquette écrite.
+ *
+ * RDKit ne dessine un symbole que pour ce qui n'est pas un carbone neutre :
+ * les carbones ordinaires ne sont que des sommets de traits. Deux sommets
+ * nus un peu rapprochés ne gênent personne ; deux ÉTIQUETTES rapprochées se
+ * recouvrent et rendent le schéma illisible. Le contrôle ne porte donc que
+ * sur les atomes écrits.
+ */
+function etiquettesDe(molecule) {
+  const lignes = molecule.get_molblock().split('\n')
+  const nbAtomes = Number(lignes[3].slice(0, 3))
+  const charges = new Set()
+  for (const ligne of lignes) {
+    if (!ligne.startsWith('M  CHG')) continue
+    const champs = ligne.slice(6).trim().split(/\s+/).map(Number)
+    for (let k = 1; k < champs.length; k += 2) charges.add(champs[k] - 1)
+  }
+  return Array.from({ length: nbAtomes }, (_, i) => {
+    const symbole = lignes[4 + i].slice(31, 34).trim()
+    return { symbole, ecrit: symbole !== 'C' || charges.has(i) }
+  })
+}
+
 /** Liste des liaisons (paires d'atomes), dans l'ordre des numéros de RDKit. */
 function liaisonsDe(molecule) {
   const lignes = molecule.get_molblock().split('\n')
@@ -108,10 +145,8 @@ function liaisonsDe(molecule) {
 /**
  * Dessine une espèce, avec ses atomes et liaisons mis en jeu surlignés.
  * Renvoie le contenu SVG et le centre de chaque atome.
- */
-/**
- * Construit la molécule d'une espèce, en choisissant l'algorithme de mise
- * en page.
+ *
+ * Dessine une espèce en choisissant l'algorithme de mise en page.
  *
  * CoordGen place bien mieux les atomes hypervalents — le périodinane de
  * Dess-Martin, avec ses cinq liaisons autour d'un même iode, se dessinait
@@ -119,21 +154,31 @@ function liaisonsDe(molecule) {
  * sur une espèce réduite à un seul atome : il ne rend aucune coordonnée,
  * et l'ion hydrure disparaît du schéma. On le réserve donc aux espèces
  * qui ont au moins une liaison.
+ *
+ * PIÈGE QUI A COÛTÉ UNE PUBLICATION : RDKit ne calcule pas les
+ * coordonnées à la lecture du SMILES mais au moment du DESSIN. Poser le
+ * drapeau autour du seul get_mol ne sert donc à rien — il faut le tenir
+ * levé pendant tous les appels à get_svg. Le schéma du Dess-Martin est
+ * parti en ligne avec l'ancienne mise en page pour cette raison.
  */
-function moleculeDe(smiles) {
-  const brute = RDKit.get_mol(smiles, JSON.stringify({ removeHs: false }))
-  if (!brute || !brute.is_valid()) return brute
-  const seul = brute.get_num_atoms() === 1
-  if (seul) return brute
-  brute.delete()
-  RDKit.prefer_coordgen(true)
-  const molecule = RDKit.get_mol(smiles, JSON.stringify({ removeHs: false }))
-  RDKit.prefer_coordgen(false)
-  return molecule
+function avecMiseEnPage(smiles, travail) {
+  const sonde = RDKit.get_mol(smiles, JSON.stringify({ removeHs: false }))
+  const seul = sonde && sonde.is_valid() && sonde.get_num_atoms() === 1
+  if (sonde) sonde.delete()
+  RDKit.prefer_coordgen(!seul)
+  try {
+    const molecule = RDKit.get_mol(smiles, JSON.stringify({ removeHs: false }))
+    return travail(molecule)
+  } finally {
+    RDKit.prefer_coordgen(false)
+  }
 }
 
 function dessinerEspece(smiles, misEnJeu) {
-  const molecule = moleculeDe(smiles)
+  return avecMiseEnPage(smiles, (molecule) => dessinerEspeceAvec(smiles, misEnJeu, molecule))
+}
+
+function dessinerEspeceAvec(smiles, misEnJeu, molecule) {
   if (!molecule || !molecule.is_valid()) {
     if (molecule) molecule.delete()
     throw new Error(`SMILES illisible : ${smiles}`)
@@ -164,6 +209,7 @@ function dessinerEspece(smiles, misEnJeu) {
 
   // Numéros des liaisons à surligner, retrouvés par leurs deux atomes.
   const liaisons = liaisonsDe(molecule)
+  const etiquettes = etiquettesDe(molecule)
   const numeroLiaison = ([i, j]) =>
     liaisons.findIndex(([a, b]) => (a === i && b === j) || (a === j && b === i))
 
@@ -218,7 +264,7 @@ function dessinerEspece(smiles, misEnJeu) {
     .slice(dessin.indexOf('<!-- END OF HEADER -->') + 22, dessin.lastIndexOf('</svg>'))
     .replace(/<rect[^>]*>\s*<\/rect>/, '')
 
-  return { contenu: surlignages + contenu, centres, nombre, liaisons }
+  return { contenu: surlignages + contenu, centres, nombre, liaisons, etiquettes }
 }
 
 const cle = (a, b) => (a < b ? `${a}-${b}` : `${b}-${a}`)
@@ -544,6 +590,7 @@ function dessinerEtape(etape) {
   let contenus = ''
   const signes = []   // les « + » de l'équation : eux aussi doivent rester lisibles
   const centres = []
+  const etiquettes = []   // quels atomes portent un symbole écrit
   const liaisonsExistantes = new Set()
   let hauteur = 0
 
@@ -558,6 +605,7 @@ function dessinerEtape(etape) {
     // l'ordre du SMILES complet.
     const debut = centres.length
     espece.centres.forEach((c) => centres.push({ x: c.x + dx, y: c.y + dy }))
+    espece.etiquettes.forEach((e) => etiquettes.push(e))
     espece.liaisons.forEach(([i, j]) => liaisonsExistantes.add(cle(i + debut, j + debut)))
 
     hauteur += boite.y1 - boite.y0
@@ -670,11 +718,47 @@ function dessinerEtape(etape) {
     }
   })
 
+  // La molécule elle-même doit être lisible, flèches ou pas. Un atome dont
+  // l'étiquette recouvre celle d'un voisin non lié, ou qui vient se poser
+  // sur une liaison à laquelle il n'appartient pas, rend le schéma
+  // indéchiffrable — quand bien même toutes les flèches seraient bien
+  // placées. Ce contrôle porte donc sur TOUTES les étapes, y compris les
+  // bilans qui n'ont aucune flèche.
+  const liaisons = [...liaisonsExistantes].map((k) => k.split('-').map(Number))
+  const voisins = (i) => liaisons.filter(([a, b]) => a === i || b === i).map(([a, b]) => (a === i ? b : a))
+  for (let i = 0; i < centres.length; i++) {
+    for (let j = i + 1; j < centres.length; j++) {
+      if (!etiquettes[i].ecrit || !etiquettes[j].ecrit) continue
+      if (liaisonsExistantes.has(cle(i, j))) continue
+      // Deux hydrogènes portés par le même atome sont légitimement voisins :
+      // RDKit les pose de part et d'autre, et ils restent parfaitement
+      // lisibles. C'est l'écriture courante d'un CH₂ dont on veut viser un
+      // proton par une flèche — on ne va pas se l'interdire.
+      if (etiquettes[i].symbole === 'H' && etiquettes[j].symbole === 'H' &&
+          voisins(i).some((v) => voisins(j).includes(v))) continue
+      const d = Math.hypot(centres[i].x - centres[j].x, centres[i].y - centres[j].y)
+      if (d < DEGAGEMENT_ATOMES) {
+        griefs.push(`les atomes ${i} et ${j}, qui ne sont pas liés, sont à ${d.toFixed(0)} px ` +
+          `l'un de l'autre (minimum ${DEGAGEMENT_ATOMES}) : leurs étiquettes se recouvrent`)
+      }
+    }
+    if (!etiquettes[i].ecrit) continue
+    for (const [a, b] of liaisons) {
+      if (a === i || b === i) continue
+      const d = distanceAuSegment(centres[i], centres[a], centres[b])
+      if (d < DEGAGEMENT_ATOME_LIAISON) {
+        griefs.push(`l'atome ${i} est posé à ${d.toFixed(0)} px de la liaison ${a}–${b}, ` +
+          `à laquelle il n'appartient pas (minimum ${DEGAGEMENT_ATOME_LIAISON})`)
+      }
+    }
+  }
+
   if (griefs.length > 0) {
     throw new Error(
       `schéma illisible :\n      - ${griefs.join('\n      - ')}\n` +
       "      Desserrer la scène : écarter les espèces, changer la courbure d'une flèche, " +
-      "ou réécrire l'étape avec moins de flèches simultanées."
+      "réécrire l'étape avec moins de flèches simultanées, ou choisir un substrat " +
+      "moins encombré si ce sont les atomes eux-mêmes qui se recouvrent."
     )
   }
 
@@ -742,6 +826,13 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
     try {
       writeFileSync(`${DOSSIER}/${nom}`, dessinerEtape(etape))
     } catch (erreur) {
+      // En mode RAPPORT, on ne s'arrête pas au premier refus : on note tout
+      // et on rend la liste. C'est ce qui permet à l'outil de réglage des
+      // courbures d'essayer des centaines de candidats dans un seul
+      // processus — relancer RDKit à chaque essai coûtait deux secondes.
+      // La construction, elle, tourne TOUJOURS sans ce mode : un schéma
+      // refusé y arrête tout, et c'est bien ce qu'on veut.
+      if (RAPPORT) { refus.push({ reaction: idReaction, etape: etape.numero, grief: erreur.message }); continue }
       throw new Error(`${idReaction}, étape ${etape.numero} : ${erreur.message}`)
     }
 
@@ -762,4 +853,9 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
 }
 
 writeFileSync(MANIFESTE, JSON.stringify(manifeste, null, 2) + '\n')
-console.log(`✓ ${total} étapes de mécanisme dessinées dans ${DOSSIER}/`)
+if (RAPPORT) {
+  writeFileSync(RAPPORT, JSON.stringify(refus, null, 2) + '\n')
+  console.log(`rapport : ${refus.length} schéma(s) refusé(s) sur ${total + refus.length}`)
+} else {
+  console.log(`✓ ${total} étapes de mécanisme dessinées dans ${DOSSIER}/`)
+}

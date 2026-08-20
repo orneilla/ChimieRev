@@ -2056,7 +2056,7 @@
                 6
               ]
             },
-            "courbure": -0.3,
+            "courbure": 0.3,
             "libelle": "La liaison carbone–oxygène se rompt ; l'oxygène forme une double liaison avec le carbone du xanthate."
           },
           {
@@ -2072,7 +2072,7 @@
                 2
               ]
             },
-            "courbure": -0.6,
+            "courbure": 0.3,
             "libelle": "Les électrons de la double liaison C=S vont chercher l'hydrogène : le cycle est bouclé."
           }
         ],
@@ -2246,7 +2246,7 @@
                 1
               ]
             },
-            "courbure": 0.3,
+            "courbure": 0.4,
             "libelle": "Un doublet du bromure forme la liaison avec le carbone positif."
           }
         ],
@@ -2297,7 +2297,7 @@
                 6
               ]
             },
-            "courbure": 0.35,
+            "courbure": 0.55,
             "libelle": "Les électrons de la double liaison forment la seconde : le pont est fermé."
           },
           {
@@ -2310,7 +2310,7 @@
             "vers": {
               "atome": 7
             },
-            "courbure": -0.35,
+            "courbure": 0.3,
             "libelle": "Le second brome part avec les électrons de la liaison Br–Br."
           }
         ],
@@ -2381,7 +2381,7 @@
                 2
               ]
             },
-            "courbure": 0.3,
+            "courbure": -0.3,
             "libelle": "Un doublet libre du brome forme la première liaison carbone–brome."
           },
           {
@@ -2397,7 +2397,7 @@
                 4
               ]
             },
-            "courbure": 0.35,
+            "courbure": 0.3,
             "libelle": "Les électrons de la double liaison ferment le pont."
           },
           {
@@ -2410,7 +2410,7 @@
             "vers": {
               "atome": 5
             },
-            "courbure": -0.35,
+            "courbure": 0.3,
             "libelle": "Le second brome s'en va."
           }
         ],
@@ -2433,7 +2433,7 @@
                 1
               ]
             },
-            "courbure": 0.3,
+            "courbure": -0.3,
             "libelle": "Un doublet de l'eau attaque le carbone le plus substitué."
           },
           {
@@ -2446,7 +2446,7 @@
             "vers": {
               "atome": 4
             },
-            "courbure": 0.35,
+            "courbure": 0.3,
             "libelle": "La liaison carbone–brome de ce côté se rompt : le pont s'ouvre."
           }
         ],
@@ -2740,7 +2740,7 @@
                 3
               ]
             },
-            "courbure": -0.3,
+            "courbure": 0.3,
             "libelle": "Les électrons de la double liaison remplissent l'orbitale vide du bore, sur le carbone le moins substitué."
           },
           {
@@ -2756,7 +2756,7 @@
                 1
               ]
             },
-            "courbure": -0.5,
+            "courbure": 0.55,
             "libelle": "Dans le même temps, un hydrogène du bore passe sur l'autre carbone."
           }
         ],
@@ -3391,7 +3391,7 @@
                 8
               ]
             },
-            "courbure": -0.35,
+            "courbure": 0.3,
             "libelle": "Le doublet de l'alcoolate va chercher un proton."
           },
           {
@@ -3404,7 +3404,7 @@
             "vers": {
               "atome": 5
             },
-            "courbure": 0.35,
+            "courbure": 0.3,
             "libelle": "L'eau récupère ses électrons."
           }
         ],
@@ -5651,7 +5651,7 @@
                 12
               ]
             },
-            "courbure": 0.4,
+            "courbure": -0.5,
             "libelle": "Il attaque le carbone central du carbodiimide."
           },
           {
@@ -6404,7 +6404,7 @@
                 6
               ]
             },
-            "courbure": 0.3,
+            "courbure": -0.25,
             "libelle": "Et le chlorure va se fixer sur l'aluminium."
           }
         ],
@@ -7045,7 +7045,7 @@
                 9
               ]
             },
-            "courbure": -0.35,
+            "courbure": 0.3,
             "libelle": "Le doublet de l'azote de l'amine attaque l'azote du nitrosonium."
           },
           {
@@ -7058,7 +7058,7 @@
             "vers": {
               "atome": 10
             },
-            "courbure": 0.35,
+            "courbure": 0.3,
             "libelle": "La triple liaison se replie sur l'oxygène."
           }
         ],
@@ -8617,7 +8617,7 @@
                 1
               ]
             },
-            "courbure": 0.3,
+            "courbure": -0.3,
             "libelle": "L'oxygène rend sa charge en reformant le C=O."
           },
           {
@@ -9177,7 +9177,7 @@
                 4
               ]
             },
-            "courbure": -0.35,
+            "courbure": 0.3,
             "libelle": "Le doublet de l'azote attaque le carbone."
           },
           {
@@ -9357,7 +9357,7 @@
                 6
               ]
             },
-            "courbure": -0.35,
+            "courbure": 0.3,
             "libelle": "L'oxygène de l'énol pousse son doublet."
           },
           {
@@ -10815,7 +10815,7 @@
         "numero": 3,
         "titre": "L'élimination : l'iode(V) devient iode(III)",
         "smiles": "CCC([H])([H])O[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.CC(=O)[O-]",
-        "legende": "MÊME SQUELETTE QUE L'OXYDATION AU CHROME, ET MÊME SQUELETTE QU'UN E2 : la base prend l'hydrogène du carbone, la liaison C–H devient la double liaison C=O, et le groupe partant emporte deux électrons — sauf qu'ici le groupe partant est un iode réduit (McMurry p. 551). Un acétate part dans la foulée, ce qui rend l'iode(III) neutre.",
+        "legende": "MÊME SQUELETTE QUE L'OXYDATION AU CHROME, ET MÊME SQUELETTE QU'UN E2 : la base prend l'hydrogène du carbone, la liaison C–H devient la double liaison C=O, et le groupe partant emporte deux électrons — sauf qu'ici le groupe partant est un iode réduit (McMurry p. 551).",
         "fleches": [
           {
             "de": {
@@ -10858,26 +10858,36 @@
             },
             "courbure": -0.35,
             "libelle": "La liaison O–I se rompt : les électrons vont à l'iode, qui est réduit."
-          },
-          {
-            "de": {
-              "liaison": [
-                6,
-                7
-              ]
-            },
-            "vers": {
-              "atome": 7
-            },
-            "courbure": 0.4,
-            "libelle": "Et un acétate s'en va."
           }
         ],
-        "produit_attendu": "CCC([H])=O.[I]1(OC(C)=O)OC(=O)c2ccccc21.CC(=O)[O-].CC(=O)O[H]",
+        "produit_attendu": "CCC([H])=O.[I-]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.CC(=O)O[H]",
         "valide": false
       },
       {
         "numero": 4,
+        "titre": "L'iode se débarrasse d'un acétate de trop",
+        "smiles": "[I-]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21",
+        "legende": "L'iode(III) qui vient de se former porte encore quatre liaisons et une charge négative : c'est une de trop. Il laisse partir un acétate et redevient neutre. Bilan de la réaction : DEUX acides acétiques libérés, et l'iodinane(III) — l'ester de l'acide 2-iodosobenzoïque — qu'on élimine au traitement.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.4,
+            "libelle": "Un acétate s'en va : l'iode(III) redevient neutre."
+          }
+        ],
+        "produit_attendu": "[I]1(OC(C)=O)OC(=O)c2ccccc21.CC(=O)[O-]",
+        "valide": false
+      },
+      {
+        "numero": 5,
         "titre": "Ce qu'on obtient",
         "smiles": "CCC=O",
         "legende": "L'aldéhyde, et de l'acide acétique. Aucun métal lourd, aucun milieu acide fort, température ambiante : c'est ce qui fait employer ce réactif sur les alcools les plus fragiles. Clayden cite l'oxydation d'un alcool allylique cis en aldéhyde cis, SANS isomérisation (p. 545).",
