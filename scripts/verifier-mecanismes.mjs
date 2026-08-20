@@ -103,14 +103,29 @@ function appliquerFleches(graphe, fleches) {
   }
 
   for (const fleche of fleches) {
-    // Départ : un doublet libre, ou une liaison qui perd son doublet.
-    if (fleche.de.atome !== undefined) nonLiants[fleche.de.atome] -= 2
-    else changerOrdre(fleche.de.liaison[0], fleche.de.liaison[1], -1)
+    // Une flèche ordinaire déplace un DOUBLET ; un hameçon n'en déplace
+    // qu'un seul électron. Une liaison valant deux électrons, un hameçon
+    // fait donc varier son ordre d'un demi : il en faut deux, appariés,
+    // pour rompre ou former une liaison. Les ordres non entiers sont
+    // refusés plus bas — c'est ainsi qu'on attrape un hameçon orphelin.
+    const electrons = fleche.electrons === 1 ? 1 : 2
+    const pas = electrons / 2
 
-    // Arrivée : un atome qui récupère un doublet, ou une liaison qui se
-    // renforce (ou qui naît).
-    if (fleche.vers.atome !== undefined) nonLiants[fleche.vers.atome] += 2
-    else changerOrdre(fleche.vers.liaison[0], fleche.vers.liaison[1], +1)
+    if (fleche.de.atome !== undefined) nonLiants[fleche.de.atome] -= electrons
+    else changerOrdre(fleche.de.liaison[0], fleche.de.liaison[1], -pas)
+
+    if (fleche.vers.atome !== undefined) nonLiants[fleche.vers.atome] += electrons
+    else changerOrdre(fleche.vers.liaison[0], fleche.vers.liaison[1], +pas)
+  }
+
+  for (const l of liaisons) {
+    if (!Number.isInteger(l.ordre)) {
+      throw new Error(
+        `la liaison ${l.atomes[0]}–${l.atomes[1]} se retrouve avec un ordre de ${l.ordre} : ` +
+        "un hameçon n'a pas trouvé son jumeau. Une liaison ne se rompt ni ne se forme " +
+        'à moitié — il en faut deux.'
+      )
+    }
   }
 
   const obtenu = {
@@ -118,9 +133,13 @@ function appliquerFleches(graphe, fleches) {
     liaisons: liaisons.filter((l) => l.ordre > 0)
   }
 
-  // Charges formelles recalculées à partir du nouveau comptage.
+  // Charges formelles recalculées à partir du nouveau comptage. Un nombre
+  // IMPAIR d'électrons non liants signe un radical : on le note, sans quoi
+  // la lecture du molblock rendrait l'électron célibataire sous forme d'un
+  // hydrogène de plus.
   obtenu.atomes.forEach((atome, i) => {
     atome.charge = VALENCE[atome.z] - nonLiants[i] - ordresAutour(obtenu, i)
+    atome.radicaux = ((nonLiants[i] % 2) + 2) % 2
   })
 
   return obtenu
@@ -163,6 +182,18 @@ function versMolblock(graphe) {
     lignes.push(
       `M  CHG${String(lot.length).padStart(3)}` +
       lot.map(([indice, charge]) => `${String(indice).padStart(4)}${String(charge).padStart(4)}`).join('')
+    )
+  }
+
+  // M  RAD : 2 désigne un doublet, c'est-à-dire UN électron célibataire.
+  const radicaux = graphe.atomes
+    .map((a, i) => [i + 1, a.radicaux || 0])
+    .filter(([, r]) => r !== 0)
+  for (let i = 0; i < radicaux.length; i += 8) {
+    const lot = radicaux.slice(i, i + 8)
+    lignes.push(
+      `M  RAD${String(lot.length).padStart(3)}` +
+      lot.map(([indice]) => `${String(indice).padStart(4)}${String(2).padStart(4)}`).join('')
     )
   }
 

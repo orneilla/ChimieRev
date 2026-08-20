@@ -451,11 +451,22 @@ function trace(fleche, centres, numero, liaisonsExistantes, obstacles) {
   const angle = Math.atan2(b.y - controle.y, b.x - controle.x)
   const taille = 11
   const ouverture = 0.4
-  const pointe = [
-    `${b.x.toFixed(1)},${b.y.toFixed(1)}`,
-    `${(b.x - taille * Math.cos(angle - ouverture)).toFixed(1)},${(b.y - taille * Math.sin(angle - ouverture)).toFixed(1)}`,
-    `${(b.x - taille * Math.cos(angle + ouverture)).toFixed(1)},${(b.y - taille * Math.sin(angle + ouverture)).toFixed(1)}`
-  ].join(' ')
+  const barbes = [-1, 1].map((sens) => ({
+    x: b.x - taille * Math.cos(angle + sens * ouverture),
+    y: b.y - taille * Math.sin(angle + sens * ouverture)
+  }))
+
+  // UN HAMEÇON PORTE UNE DEMI-POINTE, et c'est ce qui le distingue à l'œil
+  // d'une flèche ordinaire : une pointe pleine déplace un doublet, une
+  // demi-pointe un seul électron. On garde la barbe située du côté CONVEXE
+  // de la courbe — celle qui s'éloigne le plus du point de contrôle —,
+  // sans quoi elle viendrait se coucher sur le trait de la flèche.
+  const hamecon = fleche.electrons === 1
+  const barbe = barbes[0].x * 0 + (Math.hypot(barbes[0].x - controle.x, barbes[0].y - controle.y) >
+                                   Math.hypot(barbes[1].x - controle.x, barbes[1].y - controle.y) ? 0 : 1)
+  const pointeSvg = hamecon
+    ? `  <path d='M ${b.x.toFixed(1)},${b.y.toFixed(1)} L ${barbes[barbe].x.toFixed(1)},${barbes[barbe].y.toFixed(1)}' fill='none' stroke='${COULEUR_FLECHE}' stroke-width='2.6' stroke-linecap='round'/>`
+    : `  <polygon points='${[`${b.x.toFixed(1)},${b.y.toFixed(1)}`, `${barbes[0].x.toFixed(1)},${barbes[0].y.toFixed(1)}`, `${barbes[1].x.toFixed(1)},${barbes[1].y.toFixed(1)}`].join(' ')}' fill='${COULEUR_FLECHE}'/>`
 
   // Le numéro se pose près du sommet de la courbe, mais jamais sur un
   // atome, une liaison ou un autre numéro : la position est cherchée.
@@ -483,7 +494,7 @@ function trace(fleche, centres, numero, liaisonsExistantes, obstacles) {
   }
 
   const svg = `${rappel}  <path d='M ${a.x.toFixed(1)},${a.y.toFixed(1)} Q ${controle.x.toFixed(1)},${controle.y.toFixed(1)} ${b.x.toFixed(1)},${b.y.toFixed(1)}' fill='none' stroke='${COULEUR_FLECHE}' stroke-width='2.6' stroke-linecap='round'/>
-  <polygon points='${pointe}' fill='${COULEUR_FLECHE}'/>
+${pointeSvg}
   <circle cx='${milieu.x.toFixed(1)}' cy='${milieu.y.toFixed(1)}' r='11' fill='${COULEUR_FLECHE}'/>
   <text x='${milieu.x.toFixed(1)}' y='${milieu.y.toFixed(1)}' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>${numero}</text>`
 
@@ -696,6 +707,17 @@ function dessinerEtape(etape) {
     })
 
     tracees.slice(rang + 1).forEach((autre, ecart) => {
+      // DEUX HAMEÇONS QUI VISENT LA MÊME LIAISON sont l'écriture normale
+      // d'une liaison qui se forme à partir de deux électrons célibataires :
+      // ils arrivent forcément au même point, et c'est ce qu'on veut
+      // montrer. On ne leur reproche donc pas de se côtoyer — à charge pour
+      // l'auteur de leur donner des courbures opposées pour qu'on les
+      // distingue.
+      const une = (etape.fleches || [])[rang]
+      const deux = (etape.fleches || [])[rang + 1 + ecart]
+      if (une && deux && une.electrons === 1 && deux.electrons === 1 &&
+          JSON.stringify(une.vers) === JSON.stringify(deux.vers)) return
+
       const part = Math.max(partSuperposee(tracee, autre), partSuperposee(autre, tracee))
       if (part > PART_SUPERPOSEE) {
         griefs.push(`les flèches ${numero} et ${numero + 1 + ecart} se superposent sur ` +

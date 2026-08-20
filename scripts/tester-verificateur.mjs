@@ -152,7 +152,22 @@ const resultats = [
         fleches: []
       }]
     }
-  }, { CHIMIEREV_DEGAGEMENT_ATOMES: '400' })
+  }, { CHIMIEREV_DEGAGEMENT_ATOMES: '400' }),
+
+  // Dixième faute : un HAMEÇON ORPHELIN. Un hameçon ne déplace qu'un
+  // électron ; il en faut donc deux, appariés, pour rompre une liaison ou
+  // pour en former une. Un seul laisserait la liaison à moitié rompue —
+  // ce qui ne veut rien dire, et doit être refusé.
+  refuse('Homolyse à un seul hameçon', (d) => {
+    d.essai = { etapes: [{
+      numero: 1,
+      titre: 'Essai d\'homolyse boiteuse',
+      smiles: 'BrBr',
+      legende: 'Un seul hameçon sur la liaison.',
+      fleches: [{ de: { liaison: [0, 1] }, vers: { atome: 0 }, courbure: -0.4, electrons: 1 }],
+      produit_attendu: '[Br].[Br]'
+    }] }
+  })
 ]
 
 if (resultats.every(Boolean)) {

@@ -58,16 +58,20 @@ def resoudre(nom: str, imprimee: int) -> tuple[Path, int]:
     if not index.exists():
         sys.exit(f"Manuel non indexé : {index}")
     donnees = json.loads(index.read_text(encoding="utf-8"))
+    volumes = donnees.get("volumes") or []
     for page in donnees["pages"]:
         if page["imprimee"] == imprimee:
-            fichier = page.get("fichier")
-            decalage = page.get("decalage", donnees.get("decalage", 0))
+            fichier = page.get("fichier") or (volumes[0]["fichier"] if volumes else None)
+            # Le décalage se lit sur la PAGE, jamais sur l'ouvrage : plusieurs
+            # manuels en ont plusieurs — des pages non numérotées glissées
+            # entre les chapitres décalent tout ce qui suit.
+            decalage = page.get("decalage")
+            if decalage is None:
+                decalage = page["pdf"] - page["imprimee"]
             if fichier:
                 return Path(fichier), decalage
             break
-    # Index établi avant que le fichier d'origine ne soit mémorisé.
-    volumes = donnees.get("volumes") or []
-    if len(volumes) == 1:
+    if len(volumes) == 1 and "decalage" in volumes[0]:
         return Path(volumes[0]["fichier"]), volumes[0]["decalage"]
     sys.exit(f"Page {imprimee} absente de l'index « {nom} », ou index trop ancien : "
              f"relancer indexer-manuel.py.")

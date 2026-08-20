@@ -67,18 +67,42 @@ pages insérées entre les chapitres. Un décalage unique par volume donnait
 donc des citations fausses de plusieurs dizaines de pages. Le volume 6
 compte à lui seul **treize** plages de décalage.
 
-Deux outils en découlent, et ils tournent avant de citer :
+Le McMurry n'était pas seul. Le **Grossman**, le **Dugas** et le **Carey
+& Sundberg** ont eux aussi des pages non numérotées glissées entre les
+chapitres : le décalage y avance d'un cran à chaque fois — quatre plages
+pour le Grossman, trois pour les deux autres. Le Clayden, lui, tient sur un
+décalage unique, et c'est heureux : il porte l'essentiel des citations.
+
+Trois outils en découlent, et ils tournent **avant** de citer :
 
 ```bash
-python3 outils/lire-folios.py fichier.pdf     # décalages, par reconnaissance
-python3 outils/verifier-folios.py             # une page porte-t-elle son folio ?
+python3 outils/lire-folios-texte.py grossman            # constater
+python3 outils/lire-folios-texte.py grossman --ecrire   # corriger l'index
+python3 outils/lire-folios.py fichier.pdf               # cas McMurry, par la forme
+python3 outils/verifier-folios.py                       # la page porte-t-elle son folio ?
 ```
 
-`lire-folios.py` reconnaît la **forme** des chiffres, pas leur codage : les
-modèles sont appris sur quelques pages dont le folio a été lu à l'œil, puis
-une lecture n'est retenue que si une page voisine la confirme.
-`verifier-folios.py` n'accuse pas un taux bas — bien des pages n'impriment
-pas de folio — mais le fait qu'un AUTRE décalage ferait nettement mieux.
+`lire-folios-texte.py` lit le folio là où il est imprimé — seul en tête ou
+en pied. `lire-folios.py` sert au seul McMurry, dont les folios sont
+composés dans une police sous-ensemblée : il reconnaît la **forme** des
+chiffres, pas leur codage.
+
+Les deux ne retiennent une lecture que si une page voisine la confirme,
+et ce n'est pas une précaution de style : bien des manuels impriment le
+**numéro de chapitre** seul, au même endroit que le folio. Un numéro de
+chapitre se répète à l'identique de page en page ; un folio avance de un.
+C'est la seule chose qui les distingue.
+
+`verifier-folios.py` compare le folio LU au numéro que l'index annonce. Sa
+version précédente se contentait de chercher ce numéro n'importe où dans le
+texte de la page : un ouvrage dont le décalage dérivait au fil des
+chapitres gardait une majorité de pages justes et passait. C'est ainsi que
+le Grossman est resté faux. Une page sans folio lisible ne prouve rien et
+n'est pas comptée ; ce qui accuse, c'est un DÉSACCORD.
+
+Ces outils ne tournent pas à la construction : les PDF ne sont pas dans le
+dépôt. Ils tournent sur la machine où sont les manuels, avant d'écrire une
+fiche.
 
 ## La chaîne de garanties
 
