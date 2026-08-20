@@ -9,6 +9,23 @@ import BasculeMode from '../components/BasculeMode.jsx'
 import ReferencesReaction from '../components/ReferencesReaction.jsx'
 import { couleurFamille } from '../couleurs.js'
 import { useModeLecture } from '../mode.js'
+import { reactifDeLaLigne, solvantDeLaLigne } from '../liens.js'
+
+// Une ligne de conditions. Si le produit qu'elle nomme a sa fiche, on
+// peut la toucher pour aller voir à quoi il sert et pourquoi il marche.
+function Condition({ texte, trouver }) {
+  const outil = trouver(texte)
+  if (!outil) return texte
+
+  return (
+    <Link to={`/${outil.genre}/${outil.id}`} className="lien-condition">
+      {texte}
+      <span className="lecture-seule-ecran">
+        {' '}— voir la fiche {/[AEIOUYÀÂÉÈÊÎÔÛ]/.test(outil.nom[0]) ? "d'" : 'de '}{outil.nom}
+      </span>
+    </Link>
+  )
+}
 
 export default function PageDetailReaction() {
   const { id } = useParams()
@@ -61,10 +78,28 @@ export default function PageDetailReaction() {
             legende="Substrat"
           />
 
+          {/* Au-dessus de la flèche, ce qu'on AJOUTE ; en dessous, ce
+              DANS QUOI ça se passe. Sans ces deux mots, on lit deux
+              lignes de texte autour d'une flèche sans savoir laquelle
+              dit quoi. */}
           <div className="fleche-bloc">
-            <span className="fleche-conditions">{reaction.reactifs.join(', ')}</span>
+            <div className="conditions">
+              <span className="conditions-etiquette">On ajoute</span>
+              <ul className="conditions-liste">
+                {reaction.reactifs.map((texte) => (
+                  <li key={texte}><Condition texte={texte} trouver={reactifDeLaLigne} /></li>
+                ))}
+              </ul>
+            </div>
+
             <span className="fleche-trait" aria-hidden="true">⟶</span>
-            <span className="fleche-conditions">{reaction.solvant}</span>
+
+            <div className="conditions">
+              <span className="conditions-etiquette">Milieu</span>
+              <p className="conditions-valeur">
+                <Condition texte={reaction.solvant} trouver={solvantDeLaLigne} />
+              </p>
+            </div>
           </div>
 
           <StructureMolecule

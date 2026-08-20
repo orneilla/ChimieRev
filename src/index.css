@@ -194,26 +194,90 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 .lien-nav.actif { background: var(--creme); color: var(--encre); font-weight: 700; }
 
-/* Sous 350 px, les quatre intitulés ne tiennent plus sur une ligne. Plutôt
-   qu'un repli bancal — trois d'un côté, un tout seul de l'autre —, le menu
-   devient un carré de deux sur deux : c'est net, et chaque entrée devient
-   une grande cible pour le doigt. Au-dessus, la barre tient sur une ligne
-   sous la marque, et l'en-tête reste bas. */
+/* ---------- Le bouton à trois barres ---------- */
+
+.bouton-menu {
+  display: none;   /* visible seulement sous 700 px, voir plus bas */
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.3rem 0.6rem;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--creme);
+  background: none;
+  border: 2px solid rgba(250, 244, 232, 0.35);
+  border-radius: var(--rayon);
+  cursor: pointer;
+}
+
+.bouton-menu.ouvert { border-color: var(--creme); }
+
+.barres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 20px;
+  height: 16px;
+}
+
+.barres span {
+  display: block;
+  height: 2.5px;
+  background: var(--creme);
+  border-radius: 2px;
+  transition: transform 160ms ease, opacity 120ms ease;
+}
+
+/* Ouvert, les trois barres deviennent une croix : le bouton dit dans
+   quel état on est, sans qu'on ait à lire quoi que ce soit. */
+.bouton-menu.ouvert .barres span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.bouton-menu.ouvert .barres span:nth-child(2) { opacity: 0; }
+.bouton-menu.ouvert .barres span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+@media (max-width: 699px) {
+  .bouton-menu { display: inline-flex; }
+
+  /* Le menu est replié par défaut. Ce n'est pas display:none : un lien
+     qu'on ne peut pas atteindre au clavier n'existe pas. */
+  .nav {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 0.2rem;
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: max-height 200ms ease;
+  }
+
+  .nav-ouverte {
+    max-height: 22rem;
+    visibility: visible;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 2px solid rgba(250, 244, 232, 0.25);
+  }
+
+  /* Dépliées, les entrées deviennent de grandes lignes : on les vise
+     sans regarder. */
+  .nav .lien-nav {
+    justify-content: flex-start;
+    font-size: 1rem;
+    padding: 0.55rem 0.7rem;
+    min-height: 48px;
+  }
+}
+
+/* Sous 350 px, la marque et le bouton se serrent. */
 @media (max-width: 349px) {
   .entete-interieur { padding: 0.6rem 0.75rem; }
-
-  .nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 0.25rem;
-  }
-
-  .lien-nav {
-    justify-content: center;
-    text-align: center;
-    padding: 0.4rem 0.3rem;
-  }
+  .marque-titre { font-size: 1.25rem; }
+  .bouton-menu-mot { display: none; }
 }
 
 /* Bande de légende : une couleur par famille. */
@@ -498,11 +562,51 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   padding: 0.3rem 0;
 }
 
-.fleche-conditions {
-  font-size: 0.78rem;
-  color: var(--encre-doux);
-  max-width: 26ch;
+/* Les conditions, de part et d'autre de la flèche. Chacune porte son
+   étiquette : « On ajoute » au-dessus, « Milieu » en dessous. Deux lignes
+   de texte autour d'une flèche, sans rien pour les distinguer, ne se
+   lisent pas — on ne sait pas ce qu'on regarde. */
+.conditions {
+  text-align: center;
+  max-width: 30ch;
 }
+
+.conditions-etiquette {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--encre);
+  opacity: 0.55;
+  margin-bottom: 0.15rem;
+}
+
+.conditions-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.conditions-liste li,
+.conditions-valeur {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: var(--encre-doux);
+}
+
+/* Plusieurs réactifs : un par ligne, séparés par un point médian discret
+   plutôt que par une virgule noyée dans le texte. */
+.conditions-liste li + li { margin-top: 0.15rem; }
+
+.conditions-liste li::before {
+  content: '+ ';
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.conditions-liste li:first-child::before { content: ''; }
 
 .fleche-trait {
   font-size: 1.5rem;
@@ -1137,3 +1241,80 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 .pastille.active .pastille-compte { opacity: 0.8; }
+
+/* ---------- Le magasin : vignettes de réactifs et de solvants ---------- */
+
+.grille-outils {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.vignette-outil {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 1rem;
+  background: var(--carte);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  box-shadow: var(--ombre);
+  color: var(--encre);
+  text-decoration: none;
+  min-height: 44px;
+}
+
+.vignette-outil:hover,
+.vignette-outil:focus-visible { transform: translateY(-2px); }
+
+.vignette-nom {
+  font-family: var(--police-titre);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.vignette-complet {
+  font-size: 0.78rem;
+  color: var(--encre-doux);
+  overflow-wrap: anywhere;
+}
+
+.vignette-role {
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.vignette-compte {
+  margin-top: 0.45rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+/* Un réactif ou un solvant dont la fiche existe se touche : le trait
+   sous le texte le dit, sans le crier. */
+.lien-condition {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  /* Le rembourrage agrandit la zone qu'on peut toucher ; la marge
+     négative annule son effet sur la mise en page. Le lien reste à sa
+     place, mais le doigt ne le rate plus. */
+  display: inline-block;
+  padding: 0.75rem 0.4rem;
+  margin: -0.75rem -0.4rem;
+}
+
+.lien-condition:hover,
+.lien-condition:focus-visible {
+  text-decoration-style: solid;
+  color: var(--encre);
+}

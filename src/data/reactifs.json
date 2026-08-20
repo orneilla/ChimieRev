@@ -83,5 +83,278 @@
         "note": "Arrache le proton en α du carbonyle"
       }
     ]
+  },
+  {
+    "id": "nai",
+    "nom": "NaI",
+    "nom_complet": "iodure de sodium",
+    "SMILES": "[Na+].[I-]",
+    "role": "Source d'iodure — le nucléophile de l'échange de Finkelstein",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion iodure I⁻",
+        "role": "Gros, mou, très polarisable : un excellent nucléophile, et en même temps un excellent groupe partant. C'est cette double qualité qui rend l'échange réversible."
+      },
+      {
+        "partie": "l'ion sodium Na⁺",
+        "role": "Spectateur. Il ne participe pas à la réaction — mais c'est lui qui décide de la solubilité du sel, et c'est par là que tout se joue."
+      }
+    ],
+    "reactions_liees": [
+      "finkelstein"
+    ],
+    "explication_reference": "Sel ionique employé comme source d'ion iodure en substitution nucléophile bimoléculaire. L'iodure figure parmi les meilleurs nucléophiles de la série des halogénures, sa polarisabilité élevée compensant sa faible basicité. Son emploi caractéristique est l'échange d'halogène de Finkelstein, conduit dans l'acétone : le solvant, aprotique et peu polaire, solvate mal l'anion, dont la nucléophilie s'en trouve accrue (Clayden p. 345). Le déplacement de l'équilibre repose sur une différence de solubilité — l'iodure de sodium se dissout dans l'acétone, le bromure de sodium engendré ne s'y dissout pas et précipite (p. 255).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ remplacer un brome par un iode. On fait cela quand la réaction suivante s'annonce difficile : un iode se laisse chasser bien plus facilement qu'un brome, donc on prépare le terrain.\n\nPOURQUOI ÇA MARCHE\n\nL'iodure a une particularité : c'est à la fois un bon attaquant et un bon partant. Gros atome, nuage électronique souple, il se déforme facilement pour aller au contact — c'est ce qui fait un bon attaquant.\n\nLE DÉTAIL QUI FAIT TOUT\n\nComme l'iodure est aussi bon partant qu'attaquant, l'échange se fait dans les deux sens et on obtiendrait un mélange. L'astuce ne touche pas du tout à la chimie : on choisit l'acétone comme liquide, parce que le sel de départ s'y dissout et que le sel formé, lui, refuse de s'y dissoudre. Il tombe au fond du ballon — et ce qui a quitté la solution ne peut plus repartir en arrière.\n\nUn ingrédient dont le sort dépend de la vaisselle plus que de la liaison chimique : c'est rare, et c'est élégant."
+  },
+  {
+    "id": "pbr3",
+    "nom": "PBr₃",
+    "nom_complet": "tribromure de phosphore",
+    "SMILES": "BrP(Br)Br",
+    "role": "Transforme un alcool en bromure d'alkyle",
+    "anatomie_annotations": [
+      {
+        "partie": "le phosphore central",
+        "role": "Électrophile, et surtout très avide d'oxygène. C'est cette affinité qui fournit toute l'énergie de la réaction."
+      },
+      {
+        "partie": "les trois liaisons P–Br",
+        "role": "Chacune peut se rompre pour libérer un ion bromure. Le premier bromure libéré sert de base, le second attaque le carbone."
+      }
+    ],
+    "reactions_liees": [
+      "halogenation_alcool_pbr3"
+    ],
+    "explication_reference": "Réactif d'halogénation des alcools primaires, converti en bromures d'alkyle avec de bons rendements (91 % sur le 2-méthylpropan-1-ol, Clayden p. 348). Le groupe hydroxyle n'étant pas un nucléofuge, la séquence l'active en l'associant au phosphore : substitution nucléophile au phosphore par l'oxygène de l'alcool, déprotonation de l'oxonium, puis déplacement de l'oxyanion lié au phosphore par un ion bromure. La force motrice réside dans l'affinité du phosphore pour l'oxygène et dans la stabilisation de la charge résiduelle par celui-ci.",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ remplacer le OH d'un alcool par un brome. C'est plus difficile qu'il n'y paraît : un groupe OH ne s'en va JAMAIS de lui-même.\n\nPOURQUOI ON NE PEUT PAS FAIRE PLUS SIMPLE\n\nImagine quelqu'un accroché à une rampe. Pour le déloger il faudrait tirer très fort — mais si tu es assez fort pour tirer si fort, tu commences par lui prendre son chapeau, c'est plus facile. En chimie, le chapeau c'est le proton de l'alcool : tout partenaire assez puissant pour chasser le OH commence par prendre le proton à la place. Résultat : rien ne bouge.\n\nCE QUE PBr₃ APPORTE\n\nUne attraction énorme entre le phosphore et l'oxygène. Le phosphore vient se coller à l'oxygène de l'alcool, et le OH cesse d'être un OH : il devient un morceau qui accepte de partir. Un bromure vient ensuite chasser ce morceau.\n\nÀ RETENIR\n\nDeux attaques par l'arrière dans la même réaction, mais pas sur le même atome : la première sur le phosphore, la seconde sur le carbone. Seule la seconde retourne le carbone."
+  },
+  {
+    "id": "tscl",
+    "nom": "TsCl",
+    "nom_complet": "chlorure de para-toluènesulfonyle",
+    "SMILES": "Cc1ccc(cc1)S(=O)(=O)Cl",
+    "role": "Transforme un alcool en tosylate : un excellent groupe partant",
+    "anatomie_annotations": [
+      {
+        "partie": "le soufre et ses deux oxygènes",
+        "role": "Le cœur du dispositif. Une fois l'alcool accroché, la charge négative qui apparaît au départ se répartit sur trois oxygènes : elle ne pèse presque plus sur aucun."
+      },
+      {
+        "partie": "le chlore",
+        "role": "Le groupe partant de la première étape : c'est lui qui est chassé quand l'alcool vient se fixer sur le soufre."
+      },
+      {
+        "partie": "le noyau aromatique",
+        "role": "Il aide encore à disperser la charge, et il rend le produit cristallin — donc facile à purifier."
+      }
+    ],
+    "reactions_liees": [
+      "tosylation_alcool"
+    ],
+    "explication_reference": "Agent de sulfonylation des alcools, employé en présence de pyridine. Le tosylate ainsi engendré est un nucléofuge d'excellente qualité : sa base conjuguée, l'ion tosylate, disperse la charge négative sur trois atomes d'oxygène et le noyau aromatique, ce qui en fait une base très faible (Clayden p. 349). Le procédé permet d'employer un alcool en substitution nucléophile ou en élimination sans recourir au milieu acide, et sans toucher à la liaison carbone–oxygène — la configuration du carbone est donc conservée à cette étape (p. 390).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ déguiser un OH en quelque chose qui accepte de partir. Le OH tout seul ne part jamais ; le tosylate, lui, part très volontiers.\n\nPOURQUOI ÇA MARCHE\n\nQuand un groupe s'en va, il emporte des électrons et se retrouve avec une charge négative. Toute la question est : cette charge, est-elle supportable ?\n\nPour l'ion hydroxyde, non — elle est concentrée sur un seul oxygène, et c'est trop lourd. Pour le tosylate, la charge se répartit sur trois oxygènes et déborde même sur le cycle aromatique. Diluée sur autant d'atomes, elle ne pèse presque plus.\n\nL'IMAGE\n\nPorter un sac de vingt kilos tout seul, c'est éreintant. À six, chacun porte trois kilos et personne ne s'en plaint. La charge négative fonctionne exactement pareil.\n\nUN POINT IMPORTANT\n\nLa tosylation ne touche pas à la liaison entre le carbone et l'oxygène : elle ne modifie donc pas l'orientation du carbone. C'est l'étape SUIVANTE qui le retourne."
+  },
+  {
+    "id": "pph3",
+    "nom": "PPh₃",
+    "nom_complet": "triphénylphosphine",
+    "SMILES": "c1ccc(cc1)P(c1ccccc1)c1ccccc1",
+    "role": "Nucléophile au phosphore — le moteur des réactions qui arrachent un oxygène",
+    "anatomie_annotations": [
+      {
+        "partie": "le doublet libre du phosphore",
+        "role": "C'est par lui que tout commence. La phosphine est nucléophile, mais très peu basique : elle attaque les carbones et les liaisons faibles sans arracher de protons."
+      },
+      {
+        "partie": "les trois groupes phényle",
+        "role": "Ils encombrent le phosphore et le rendent plus mou, donc mieux accordé aux électrophiles mous. Ils rendent aussi l'oxyde formé très stable — et abondant, donc pénible à séparer."
+      }
+    ],
+    "reactions_liees": [
+      "mitsunobu"
+    ],
+    "explication_reference": "Phosphine tertiaire nucléophile et faiblement basique (Clayden p. 350). Sa réactivité repose sur l'affinité considérable du phosphore pour l'oxygène : la formation de l'oxyde de triphénylphosphine, très stable, constitue la force motrice de nombreuses transformations — réaction de Mitsunobu, réaction de Wittig (p. 237-238). Dans la réaction de Mitsunobu, elle s'additionne d'abord sur la liaison N=N de l'azodicarboxylate, engendrant l'adduit bétaïnique dont l'anion azoté déprotone le pronucléophile.",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ arracher un oxygène. C'est sa spécialité, et c'est le fil conducteur de toutes les réactions où on le rencontre.\n\nPOURQUOI LE PHOSPHORE\n\nParce que la liaison entre le phosphore et l'oxygène, une fois formée, est extraordinairement solide. Tellement solide que sa formation à elle seule suffit à tirer une réaction entière — même une réaction qui, autrement, n'aurait aucune raison de se produire.\n\nC'est un principe qu'on retrouve partout en chimie : pour faire avancer une transformation difficile, on lui adjoint une transformation très favorable, et l'ensemble part.\n\nUNE NUANCE UTILE\n\nLa triphénylphosphine attaque volontiers, mais elle n'arrache pas les protons. Attaquer et arracher un proton sont deux talents distincts, et beaucoup d'ingrédients n'ont que l'un des deux. Ici, on veut un attaquant qui ne perturbe rien d'autre : elle est parfaite.\n\nLE REVERS\n\nL'oxyde de phosphine formé est massif et abondant. Au laboratoire, le séparer du produit est la corvée bien connue de ces réactions."
+  },
+  {
+    "id": "dead",
+    "nom": "DEAD",
+    "nom_complet": "azodicarboxylate de diéthyle",
+    "SMILES": "CCOC(=O)N=NC(=O)OCC",
+    "role": "Accepteur de la phosphine — il fabrique la base qui déclenche la réaction de Mitsunobu",
+    "anatomie_annotations": [
+      {
+        "partie": "la double liaison N=N",
+        "role": "Faible : c'est là que la phosphine se fixe. Une liaison qu'on rompt sans peine et qu'on remplace par deux liaisons N–H solides — d'où le moteur."
+      },
+      {
+        "partie": "les deux esters",
+        "role": "Ils encaissent la charge négative qui apparaît sur l'azote. Sans eux, l'anion serait trop instable pour exister."
+      }
+    ],
+    "reactions_liees": [
+      "mitsunobu"
+    ],
+    "explication_reference": "Composé azoïque dont la liaison N=N, faible, est attaquée par les phosphines nucléophiles. L'anion azoté engendré est stabilisé par conjugaison avec l'un des deux groupes ester, ce qui le rend suffisamment stable pour exister et suffisamment basique pour déprotoner un pronucléophile acide (Clayden p. 350). La forme réduite — hydrazine-dicarboxylate, portant deux liaisons N–H là où se trouvait la liaison N=N — figure parmi les sous-produits de la réaction de Mitsunobu et contribue à sa force motrice.",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ fabriquer, sur place, la base dont la réaction a besoin. Il n'apparaît pas dans le produit final — c'est un ingrédient de service.\n\nCOMMENT\n\nSa double liaison azote-azote est fragile. La phosphine s'y fixe, et les électrons chassés se replient sur l'azote voisin : voilà une charge négative, c'est-à-dire une base.\n\nPOURQUOI CETTE CHARGE TIENT\n\nParce que juste à côté se trouve un groupe ester, qui sait absorber une charge négative. Sans lui, l'anion se déferait aussitôt.\n\nUN MOTEUR CACHÉ\n\nÀ l'arrivée, la double liaison N=N a disparu et deux liaisons N–H l'ont remplacée. Or une double liaison azote-azote est faible, et une liaison N–H est solide : on échange du faible contre du fort. Ce gain-là aussi pousse la réaction.\n\nÀ SAVOIR\n\nLe DEAD est jaune-orangé, et il se décolore à mesure qu'il réagit : la réaction annonce elle-même qu'elle est terminée."
+  },
+  {
+    "id": "ktbuo",
+    "nom": "KOtBu",
+    "nom_complet": "tert-butanolate de potassium",
+    "SMILES": "CC(C)(C)[O-].[K+]",
+    "role": "Base forte ET volumineuse — elle élimine là où une petite base substituerait",
+    "anatomie_annotations": [
+      {
+        "partie": "l'oxygène négatif",
+        "role": "Très avide de protons (l'alcool correspondant a un pKa voisin de 18) : c'est une base forte."
+      },
+      {
+        "partie": "les trois méthyles",
+        "role": "Le vrai sujet. Ils encombrent tellement l'oxygène qu'il ne peut plus atteindre un carbone — mais un hydrogène, qui dépasse, reste accessible."
+      }
+    ],
+    "reactions_liees": [
+      "competition_substitution_elimination",
+      "e2"
+    ],
+    "explication_reference": "Alcoolate encombré, base forte et médiocre nucléophile. L'encombrement du centre anionique interdit pratiquement l'approche d'un carbone électrophile et oriente donc la réaction vers l'élimination, y compris sur les halogénures primaires où l'hydroxyde substituerait (Clayden p. 385). Il en résulte également une régiosélectivité marquée pour l'alcène le moins substitué, la déprotonation ayant lieu au site le moins encombré : sur le 2-bromo-2-méthylbutane, t-BuOK donne 73 % de l'alcène disubstitué, contre 31 % avec l'éthanolate (p. 399).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ obtenir un alcène plutôt qu'une substitution — et, quand plusieurs alcènes sont possibles, le moins garni des deux.\n\nLE PRINCIPE, EN UNE IMAGE\n\nUn partenaire qui arrive sur une molécule a deux cibles : le carbone, encaissé au milieu de ses voisins, et un hydrogène du carbone d'à côté, qui dépasse comme une poignée.\n\nUn petit partenaire se faufile jusqu'au carbone. Un gros n'y arrive pas et se rabat sur la poignée.\n\nLE tert-BUTANOLATE EST GROS\n\nTrois méthyles autour de l'oxygène. Il ne peut pas atteindre un carbone. Il ne lui reste que les hydrogènes — et parmi eux, ceux qui dépassent le plus, c'est-à-dire ceux des carbones les moins entourés.\n\nD'où le résultat qui surprend au premier abord : on obtient l'alcène le plus DÉPOUILLÉ, alors qu'une déshydratation acide donnerait le plus garni. Même molécule de départ, deux produits opposés — et la seule variable, c'est la taille du partenaire."
+  },
+  {
+    "id": "koh",
+    "nom": "KOH",
+    "nom_complet": "hydroxyde de potassium (potasse)",
+    "SMILES": "[K+].[OH-]",
+    "role": "Base forte et petite — selon le substrat, elle substitue ou elle élimine",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion hydroxyde HO⁻",
+        "role": "Petit, chargé, à la fois bon nucléophile et base forte. C'est ce double talent qui rend son issue difficile à prévoir : tout dépend du substrat."
+      },
+      {
+        "partie": "l'ion potassium K⁺",
+        "role": "Spectateur, mais utile : plus gros que le sodium, il retient moins l'hydroxyde, qui n'en est que plus réactif."
+      }
+    ],
+    "reactions_liees": [
+      "competition_substitution_elimination",
+      "elimination_hofmann",
+      "e1cb",
+      "sn2"
+    ],
+    "explication_reference": "Base forte et nucléophile de petite taille. Sur un halogénure primaire peu encombré, la substitution l'emporte ; sur un halogénure tertiaire, l'élimination E2 devient prépondérante, quoique la substitution SN1 la concurrence à faible concentration d'hydroxyde (Clayden p. 386). L'hydroxyde n'est jamais nucléofuge dans une élimination E2 — une seule exception, l'élimination E1cB, où il est perdu depuis un alcoolate préexistant et non depuis une molécule neutre (p. 390, 400).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nC'est la base d'usage courant. Mais son résultat n'est pas toujours celui qu'on attend, et il vaut la peine de comprendre pourquoi.\n\nDEUX TALENTS DANS LE MÊME INGRÉDIENT\n\nL'ion hydroxyde sait faire deux choses très différentes : attaquer un carbone (substitution), ou arracher un hydrogène (élimination). Il est bon dans les deux.\n\nCE QUI DÉCIDE\n\nLa place. Sur un carbone dégagé, il se faufile et substitue. Sur un carbone entouré de voisins encombrants, il n'y arrive plus et se rabat sur un hydrogène.\n\nLE PIÈGE À CONNAÎTRE\n\nL'ion hydroxyde ne PART jamais. C'est une règle absolue de la chimie organique : un OH ne quitte pas une molécule de lui-même.\n\nUne exception existe, une seule — quand la molécule porte déjà une charge négative avant qu'il ne parte. Alors il n'y a plus de charge à créer, seulement à déplacer, et cela change tout."
+  },
+  {
+    "id": "nah",
+    "nom": "NaH",
+    "nom_complet": "hydrure de sodium",
+    "SMILES": "[Na+].[H-]",
+    "role": "Base très forte, jamais nucléophile — elle déprotone et rien d'autre",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion hydrure H⁻",
+        "role": "Un proton avec deux électrons : minuscule, et très avide de protons. Il arrache l'hydrogène et repart en dihydrogène gazeux."
+      },
+      {
+        "partie": "le dégagement de H₂",
+        "role": "Ce n'est pas un détail : le gaz quitte le ballon, et une réaction dont un produit s'échappe ne revient pas en arrière. La déprotonation est donc totale."
+      }
+    ],
+    "reactions_liees": [
+      "williamson"
+    ],
+    "explication_reference": "Base forte non nucléophile, employée pour engendrer quantitativement un alcoolate à partir d'un alcool. L'ion hydrure, base extrêmement forte, arrache le proton et le dihydrogène formé quitte le milieu, ce qui rend la déprotonation irréversible (Clayden p. 352). L'alcoolate ainsi obtenu est un nucléophile bien supérieur à l'alcool de départ, la vitesse d'une substitution nucléophile bimoléculaire dépendant directement de la force et de la concentration du nucléophile (p. 331).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ transformer un alcool en sa forme chargée négativement — bien plus mordante.\n\nPOURQUOI PASSER PAR LÀ\n\nUn alcool neutre est un attaquant médiocre. Son alcoolate est un attaquant redoutable. La différence est considérable, et beaucoup de réactions ne partent qu'après cette étape préparatoire.\n\nCE QUI LE REND SPÉCIAL\n\nBeaucoup de bases fortes sont aussi de bons attaquants, ce qui pose problème : on voulait juste retirer un proton, et voilà qu'elles se collent au carbone et fabriquent autre chose.\n\nL'hydrure, lui, n'attaque pas. Il est trop petit et trop concentré en charge. Il arrache le proton, forme du dihydrogène, et disparaît.\n\nLE DÉTAIL QUI COMPTE\n\nLe dihydrogène est un gaz : il quitte le ballon. Une réaction dont un produit s'échappe ne peut pas revenir en arrière. La déprotonation est donc complète, pas partielle — et c'est exactement ce qu'on voulait.\n\nÀ SAVOIR\n\nIl réagit violemment avec l'eau. Tout doit être rigoureusement sec."
+  },
+  {
+    "id": "mei",
+    "nom": "MeI",
+    "nom_complet": "iodométhane",
+    "SMILES": "CI",
+    "role": "Agent de méthylation — le partenaire électrophile le plus simple qui soit",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone méthylique",
+        "role": "Complètement dégagé : rien ne gêne l'approche. C'est le meilleur substrat de substitution qui existe, et il ne réagit JAMAIS par carbocation."
+      },
+      {
+        "partie": "l'iode",
+        "role": "Excellent groupe partant : la liaison C–I est la plus faible de la série des halogénures, et l'iodure formé est très stable."
+      }
+    ],
+    "reactions_liees": [
+      "williamson",
+      "elimination_hofmann"
+    ],
+    "explication_reference": "Électrophile méthylique de référence en substitution nucléophile. Un carbone méthylique réagit toujours par mécanisme bimoléculaire et jamais par voie monomoléculaire, le carbocation méthyle étant inaccessible (Clayden p. 340). Cette exclusivité en fait le partenaire de choix des alkylations : synthèse d'éthers de Williamson, quaternisation exhaustive des amines préalable à une élimination de Hofmann (p. 390).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ greffer un groupe méthyle — trois hydrogènes autour d'un carbone, le plus petit morceau qu'on puisse ajouter à une molécule.\n\nPOURQUOI IL EST SI COMMODE\n\nParce que son carbone n'a aucun voisin encombrant. Absolument rien ne gêne l'approche d'un attaquant. C'est le cas le plus facile qui existe.\n\nUNE CONSÉQUENCE ABSOLUE\n\nCe carbone ne peut jamais fonctionner en deux temps — c'est-à-dire en laissant d'abord partir l'iode. Un carbone méthylique privé d'électrons serait insoutenable ; il ne se forme pas. Donc l'attaque est toujours directe, en un seul geste.\n\nRetenir cela évite bien des erreurs : dès qu'on voit un méthyle, on sait quel mécanisme écrire.\n\nATTENTION\n\nJustement parce qu'il méthyle tout ce qui traîne, il est toxique. On le manipule sous hotte."
+  },
+  {
+    "id": "nabh4",
+    "nom": "NaBH₄",
+    "nom_complet": "borohydrure de sodium",
+    "SMILES": "[Na+].[BH4-]",
+    "role": "Réducteur doux — il livre un hydrure aux aldéhydes et aux cétones",
+    "anatomie_annotations": [
+      {
+        "partie": "les quatre liaisons B–H",
+        "role": "C'est de l'une d'elles que part la flèche, jamais de la charge négative : le bore n'a pas de doublet libre. Une flèche partie de la charge donnerait un bore à dix électrons — impossible."
+      },
+      {
+        "partie": "le bore",
+        "role": "Il devient neutre en cédant un hydrure : trivalent, six électrons. C'est ce retour à la neutralité qui rend le transfert favorable."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_nabh4"
+    ],
+    "explication_reference": "Donneur d'hydrure doux, réduisant aldéhydes et cétones sans toucher aux esters ni aux acides carboxyliques. Le bore n'y porte aucun doublet libre : la totalité de ses électrons de valence, charge négative comprise, occupe les orbitales σ des liaisons B–H, si bien que toute flèche courbe décrivant sa réactivité doit partir d'une liaison B–H et non de la charge (Clayden p. 131). Le transfert d'un hydrure rend le bore trivalent et neutre.",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ transformer un aldéhyde ou une cétone en alcool. Il apporte un hydrure — un hydrogène avec ses deux électrons — au carbone du carbonyle.\n\nLA FAUTE DE DESSIN À NE PAS COMMETTRE\n\nElle est classique, et elle vaut la peine d'être comprise plutôt que retenue.\n\nOn voit la charge négative sur le bore et on est tenté de faire partir la flèche de là. C'est faux. Une charge négative ne signifie pas toujours « doublet libre disponible » : ici, tous les électrons sont engagés dans les quatre liaisons B–H, sans exception.\n\nSi la flèche partait de la charge, le bore se retrouverait avec cinq liaisons, donc dix électrons autour de lui. Un atome de la première ligne du tableau périodique n'a que quatre orbitales disponibles : c'est matériellement impossible.\n\nLA FLÈCHE PART DONC D'UNE LIAISON B–H. En cédant cette paire, le bore passe de quatre liaisons à trois et redevient neutre.\n\nSA DOUCEUR\n\nIl ne s'attaque qu'aux aldéhydes et aux cétones. Un ester, un acide : il les ignore. Cette sélectivité est précieuse — on peut réduire une fonction sans toucher aux autres."
+  },
+  {
+    "id": "h2so4",
+    "nom": "H₂SO₄",
+    "nom_complet": "acide sulfurique",
+    "SMILES": "OS(=O)(=O)O",
+    "role": "Acide fort — il protone le OH pour en faire un groupe partant",
+    "anatomie_annotations": [
+      {
+        "partie": "les protons acides",
+        "role": "Ils transforment un OH, qui ne part jamais, en molécule d'eau, qui part très volontiers. C'est toute l'idée."
+      },
+      {
+        "partie": "l'ion hydrogénosulfate HSO₄⁻",
+        "role": "Ni bon nucléophile, ni base forte. Il ne vient donc pas se coller au carbone — mais il sait tout de même retirer un proton à la fin, faute de mieux."
+      }
+    ],
+    "reactions_liees": [
+      "deshydratation_alcool"
+    ],
+    "explication_reference": "Acide fort employé en catalyse pour la déshydratation des alcools. La protonation préalable du groupe hydroxyle convertit un nucléofuge inutilisable en molécule d'eau ; l'ionisation qui suit engendre un carbocation, ce qui borne la méthode aux alcools tertiaires et, difficilement, secondaires. L'anion hydrogénosulfate n'intervient pas dans l'étape déterminante et ne se comporte en base que parce qu'il est plus mauvais nucléophile encore (Clayden p. 384).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ rendre un OH capable de partir. Sans acide, la déshydratation d'un alcool n'a tout simplement pas lieu.\n\nL'IMAGE\n\nUn OH accroché au carbone, c'est quelqu'un qui tient fermement une rampe. Donne-lui un proton : il devient une molécule d'eau, c'est-à-dire quelqu'un qui a lâché la rampe et se laisse emporter.\n\nUN DÉTAIL QUI ÉCLAIRE BEAUCOUP DE CHOSES\n\nCe qui reste de l'acide après qu'il a donné son proton — l'ion hydrogénosulfate — est un très mauvais attaquant. C'est précisément pour cela qu'il convient : il ne vient pas se coller au carbone et fabriquer un produit indésirable.\n\nEt pourtant, à la fin, c'est lui qui retire le proton pour former la double liaison. Il agit en base uniquement parce qu'il est encore plus mauvais en attaquant.\n\nÊtre bon attaquant et être avide de protons sont deux qualités distinctes. Beaucoup d'erreurs viennent de les confondre.\n\nÀ SAVOIR\n\nIl est rendu à la fin : une pointe suffit."
+  },
+  {
+    "id": "hf",
+    "nom": "HF",
+    "nom_complet": "fluorure d'hydrogène",
+    "SMILES": "F",
+    "role": "Source d'ion fluorure — le seul partenaire qui s'intéresse vraiment au silicium",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion fluorure F⁻",
+        "role": "Petit, dur, peu polarisable. Il ignore les carbones mous et se précipite sur le silicium : la liaison Si–F est parmi les plus solides qui existent."
+      },
+      {
+        "partie": "le proton",
+        "role": "Il active l'alcool en le protonant, exactement comme dans une déshydratation ordinaire."
+      }
+    ],
+    "reactions_liees": [
+      "elimination_peterson"
+    ],
+    "explication_reference": "Source d'ion fluorure et acide, employée dans l'oléfination de Peterson. Le silicium est arraché par les nucléophiles durs — fluorure ou alcoolate — de la même manière qu'une base arrache un proton, le groupe triméthylsilyle jouant le rôle d'un proton de grande taille (Clayden p. 671). L'énergie de la liaison silicium–fluor constitue la force motrice de l'élimination, dont la régiosélectivité est totale puisque le silicium n'occupe qu'une seule position.",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ déclencher une élimination en enlevant, non pas un hydrogène comme d'habitude, mais un groupe de silicium.\n\nPOURQUOI LE FLUORURE ET PAS AUTRE CHOSE\n\nParce que la liaison entre le silicium et le fluor est parmi les plus solides de toute la chimie. Dès que le fluorure aperçoit un silicium, il s'y accroche et l'emporte.\n\nLes autres partenaires, plus gros et plus mous, ne s'y intéressent pas : ils préfèrent les carbones. C'est cette différence de goût qui rend la réaction sélective.\n\nL'IDÉE DERRIÈRE\n\nDans une élimination ordinaire, une base retire un hydrogène du carbone voisin. Ici c'est le même schéma — sauf que ce qu'on retire est un groupe de silicium, placé à l'avance exactement là où l'on veut la double liaison.\n\nOn ne laisse plus la molécule choisir : on décide.\n\nDANGER\n\nLe fluorure d'hydrogène est redoutable. Il traverse la peau sans brûlure immédiate et attaque les os. On ne l'emploie qu'avec un protocole strict."
   }
 ]

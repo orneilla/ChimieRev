@@ -1,158 +1,53 @@
-// Le « magasin » : tous les réactifs et tous les solvants au même endroit,
-// avec, pour chacun, les réactions où il apparaît.
+// Le « magasin » : tous les réactifs et tous les solvants au même endroit.
 //
-// Les renvois vers les réactions sont trouvés automatiquement (voir
-// src/liens.js) : ajouter une réaction suffit à mettre cette page à jour.
-import { useState } from 'react'
+// C'est un INDEX, pas un empilement de fiches : une recherche, puis des
+// vignettes. Le détail de chacun vit sur sa propre page — sans quoi, à
+// cinquante réactifs, la page ferait quinze écrans de haut et on ne
+// retrouverait plus rien.
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import reactifs from '../data/reactifs.json'
 import solvants from '../data/solvants.json'
-import structures from '../data/structures.json'
-import BlocTexte from '../components/BlocTexte.jsx'
-import BasculeMode from '../components/BasculeMode.jsx'
-import { useModeLecture } from '../mode.js'
-import { couleurFamille } from '../couleurs.js'
-import {
-  reactionsUtilisantReactif,
-  reactionsUtilisantSolvant,
-  reactionParId
-} from '../liens.js'
+import { reactionsUtilisantReactif, reactionsUtilisantSolvant } from '../liens.js'
 
-/** Le dessin d'une molécule, s'il existe. */
-function Dessin({ cle, role = 'molecule', alt }) {
-  const fichier = structures[cle]?.[role]
-  if (!fichier) return null
+/** Compare sans se soucier des accents ni des majuscules. */
+const normalise = (texte) =>
+  (texte || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
+function Vignette({ entree, vers, sousTitre, nombre }) {
   return (
-    <div className="structure-plaque">
-      <img src={`${import.meta.env.BASE_URL}structures/${fichier}`} alt={alt} loading="lazy" />
-    </div>
-  )
-}
-
-/** Liste de liens vers des réactions, en pastilles colorées par famille. */
-function LiensReactions({ reactions, titre }) {
-  if (reactions.length === 0) return null
-
-  return (
-    <>
-      <h4 className="sous-titre">{titre}</h4>
-      <div className="pastilles">
-        {reactions.map((reaction) => (
-          <Link
-            key={reaction.id}
-            to={`/reaction/${reaction.id}`}
-            className="pastille pastille-lien active"
-            style={{ '--couleur': couleurFamille(reaction.famille) }}
-          >
-            {reaction.nom}
-          </Link>
-        ))}
-      </div>
-    </>
-  )
-}
-
-function FicheReactif({ reactif, mode }) {
-  // Deux sources de renvois : ce que les données du réactif annoncent,
-  // et ce qu'on trouve réellement dans les réactions déjà présentes.
-  const trouvees = reactionsUtilisantReactif(reactif)
-  const annoncees = (reactif.reactions_liees || []).map(reactionParId).filter(Boolean)
-  const liees = [...new Map([...trouvees, ...annoncees].map((r) => [r.id, r])).values()]
-
-  // Celles que les données annoncent mais qui n'existent pas encore.
-  const aVenir = (reactif.reactions_liees || []).filter((id) => !reactionParId(id))
-
-  return (
-    <article className="bloc fiche-outil">
-      <header className="outil-entete">
-        <div>
-          <h2>{reactif.nom}</h2>
-          <p className="outil-nom-complet">{reactif.nom_complet}</p>
-          <p className="outil-role">{reactif.role}</p>
-        </div>
-        <Dessin cle={reactif.id} alt={`Structure de ${reactif.nom}`} />
-      </header>
-
-      {reactif.anatomie_annotations?.length > 0 && (
-        <>
-          <h4 className="sous-titre">Son anatomie</h4>
-          <ul className="liste-anatomie">
-            {reactif.anatomie_annotations.map((partie, i) => (
-              <li key={i}>
-                <strong>{partie.partie}</strong>
-                <span>{partie.role}</span>
-              </li>
-            ))}
-          </ul>
-        </>
+    <Link to={vers} className="vignette-outil">
+      <span className="vignette-nom">{entree.nom}</span>
+      <span className="vignette-complet">{entree.nom_complet}</span>
+      <span className="vignette-role">{sousTitre}</span>
+      {nombre > 0 && (
+        <span className="vignette-compte">
+          {nombre} réaction{nombre > 1 ? 's' : ''}
+        </span>
       )}
-
-      <div className="texte-explication">
-        <BlocTexte
-          texte={mode === 'comprendre' ? reactif.explication_comprendre : reactif.explication_reference}
-        />
-      </div>
-
-      {reactif.reactions_exemples?.length > 0 && (
-        <>
-          <h4 className="sous-titre">Ce qu'il transforme</h4>
-          <ul className="liste-exemples">
-            {reactif.reactions_exemples.map((exemple, rang) => (
-              <li key={rang}>
-                <p className="exemple-nom">{exemple.nom}</p>
-                <div className="exemple-schema">
-                  <Dessin cle={`${reactif.id}-ex${rang}`} role="substrat" alt="Molécule de départ" />
-                  <span className="fleche-trait" aria-hidden="true">⟶</span>
-                  <Dessin cle={`${reactif.id}-ex${rang}`} role="produit" alt="Molécule obtenue" />
-                </div>
-                {exemple.note && <p className="note">{exemple.note}</p>}
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
-
-      <LiensReactions reactions={liees} titre="Où on le rencontre" />
-
-      {aVenir.length > 0 && (
-        <p className="note">
-          Également cité pour : {aVenir.join(', ').replace(/_/g, ' ')} — ces
-          réactions ne sont pas encore dans l'application.
-        </p>
-      )}
-    </article>
-  )
-}
-
-function FicheSolvant({ solvant }) {
-  const liees = reactionsUtilisantSolvant(solvant)
-
-  return (
-    <article className="bloc fiche-outil">
-      <header className="outil-entete">
-        <div>
-          <h2>{solvant.nom}</h2>
-          <p className="outil-nom-complet">{solvant.nom_complet}</p>
-          <p className="outil-role">{solvant.type}</p>
-        </div>
-        <Dessin cle={solvant.id} alt={`Structure de ${solvant.nom}`} />
-      </header>
-
-      <p>{solvant.usage}</p>
-
-      <div className="texte-explication">
-        <BlocTexte texte={solvant.explication_comprendre} />
-      </div>
-
-      <LiensReactions reactions={liees} titre="Où on le rencontre" />
-    </article>
+    </Link>
   )
 }
 
 export default function PageReactifs() {
   const [onglet, setOnglet] = useState('reactifs')
-  const [mode, setMode] = useModeLecture()
+  const [recherche, setRecherche] = useState('')
+
+  const liste = onglet === 'reactifs' ? reactifs : solvants
+
+  const affichees = useMemo(() => {
+    const terme = normalise(recherche.trim())
+    if (!terme) return liste
+
+    // On cherche dans tout ce qui identifie le produit : son nom court,
+    // son nom complet, son rôle, sa formule. Taper « base », « oxydant »
+    // ou « THF » doit fonctionner.
+    return liste.filter((e) =>
+      [e.nom, e.nom_complet, e.role, e.type, e.usage, e.SMILES]
+        .filter(Boolean)
+        .some((champ) => normalise(champ).includes(terme))
+    )
+  }, [liste, recherche])
 
   return (
     <section>
@@ -161,7 +56,8 @@ export default function PageReactifs() {
         <h1>Réactifs &amp; solvants</h1>
         <p className="accroche">
           Ce qu'on ajoute dans le ballon, et ce dans quoi tout se passe.
-          Chaque fiche renvoie aux réactions où on le rencontre.
+          Chaque fiche dit à quoi il sert, pourquoi il marche, et renvoie
+          aux réactions où on le rencontre.
         </p>
       </div>
 
@@ -170,7 +66,7 @@ export default function PageReactifs() {
           type="button"
           className={onglet === 'reactifs' ? 'bascule-bouton actif' : 'bascule-bouton'}
           aria-pressed={onglet === 'reactifs'}
-          onClick={() => setOnglet('reactifs')}
+          onClick={() => { setOnglet('reactifs'); setRecherche('') }}
           style={{ '--couleur': '#F59120' }}
         >
           <span className="bascule-libelle">Réactifs</span>
@@ -180,7 +76,7 @@ export default function PageReactifs() {
           type="button"
           className={onglet === 'solvants' ? 'bascule-bouton actif' : 'bascule-bouton'}
           aria-pressed={onglet === 'solvants'}
-          onClick={() => setOnglet('solvants')}
+          onClick={() => { setOnglet('solvants'); setRecherche('') }}
           style={{ '--couleur': '#00A3D9' }}
         >
           <span className="bascule-libelle">Solvants</span>
@@ -188,15 +84,34 @@ export default function PageReactifs() {
         </button>
       </div>
 
-      {onglet === 'reactifs' ? (
-        <>
-          <BasculeMode mode={mode} onChange={setMode} />
-          {reactifs.map((reactif) => (
-            <FicheReactif key={reactif.id} reactif={reactif} mode={mode} />
-          ))}
-        </>
+      <label className="champ-recherche">
+        <span className="lecture-seule-ecran">Rechercher</span>
+        <input
+          type="search"
+          value={recherche}
+          onChange={(e) => setRecherche(e.target.value)}
+          placeholder={onglet === 'reactifs'
+            ? 'Rechercher (nom, rôle : base, oxydant…)'
+            : 'Rechercher (nom, type : aprotique…)'}
+        />
+      </label>
+
+      {affichees.length === 0 ? (
+        <p className="message-vide">Rien ne correspond à cette recherche.</p>
       ) : (
-        solvants.map((solvant) => <FicheSolvant key={solvant.id} solvant={solvant} />)
+        <div className="grille-outils">
+          {affichees.map((entree) => (
+            <Vignette
+              key={entree.id}
+              entree={entree}
+              vers={`/${onglet === 'reactifs' ? 'reactif' : 'solvant'}/${entree.id}`}
+              sousTitre={onglet === 'reactifs' ? entree.role : entree.type}
+              nombre={(onglet === 'reactifs'
+                ? reactionsUtilisantReactif(entree)
+                : reactionsUtilisantSolvant(entree)).length}
+            />
+          ))}
+        </div>
       )}
     </section>
   )

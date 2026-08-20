@@ -54,6 +54,8 @@ const PAGES = [
   { nom: 'fiche', route: '#/reaction/mitsunobu' },
   { nom: 'fiche courte', route: '#/reaction/finkelstein' },
   { nom: 'réactifs', route: '#/reactifs' },
+  { nom: 'un réactif', route: '#/reactif/pbr3' },
+  { nom: 'un solvant', route: '#/solvant/acetone' },
   { nom: 'programme', route: '#/programme' },
   { nom: 'à propos', route: '#/a-propos' }
 ]
@@ -140,6 +142,22 @@ for (const ecran of ECRANS) {
     if (griefs.length) {
       total += griefs.length
       parEcran.push({ ecran: ecran.nom, largeur: ecran.largeur, page: cible.nom, griefs })
+    }
+
+    // Le menu replié derrière le bouton à trois barres ne se mesure pas
+    // fermé : on l'ouvre, on regarde, on referme.
+    const bouton = page.locator('.bouton-menu')
+    if (await bouton.isVisible().catch(() => false)) {
+      await bouton.click()
+      await page.waitForTimeout(280)
+      const menu = await page.evaluate(auditer, CIBLE_MINIMALE)
+      if (menu.length) {
+        total += menu.length
+        parEcran.push({ ecran: `${ecran.nom}, menu ouvert`, largeur: ecran.largeur,
+                        page: cible.nom, griefs: menu })
+      }
+      await bouton.click()
+      await page.waitForTimeout(200)
     }
 
     // SECONDE PASSE, TEXTE AGRANDI.

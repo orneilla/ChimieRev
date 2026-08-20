@@ -4,7 +4,10 @@
 // Repère une amorce écrite en majuscules en début de paragraphe
 // (« POURQUOI ... ? », « COMMENT ... », « SN1 OU SN2 ... ») pour la mettre
 // en valeur : c'est la charpente du mode « Comprendre ».
-const AMORCE = /^([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’-]*(?:\s+[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’-]*)*)(?=\s)/
+// Le « $ » de fin compte autant que l'espace : sans lui, le dernier mot
+// d'une amorce qui occupe tout le paragraphe restait en dehors — on
+// lisait « LA FAUTE DE DESSIN À NE PAS » en gras et « COMMETTRE » non.
+const AMORCE = /^([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’-]*(?:\s+[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’-]*)*)(?=\s|$)/
 
 export default function BlocTexte({ texte }) {
   const paragraphes = texte.split('\n\n').filter((p) => p.trim() !== '')

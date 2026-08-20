@@ -121,6 +121,42 @@
     "substrat": "lda-ex0-substrat.svg",
     "produit": "lda-ex0-produit.svg"
   },
+  "nai": {
+    "molecule": "reactif-nai.svg"
+  },
+  "pbr3": {
+    "molecule": "reactif-pbr3.svg"
+  },
+  "tscl": {
+    "molecule": "reactif-tscl.svg"
+  },
+  "pph3": {
+    "molecule": "reactif-pph3.svg"
+  },
+  "dead": {
+    "molecule": "reactif-dead.svg"
+  },
+  "ktbuo": {
+    "molecule": "reactif-ktbuo.svg"
+  },
+  "koh": {
+    "molecule": "reactif-koh.svg"
+  },
+  "nah": {
+    "molecule": "reactif-nah.svg"
+  },
+  "mei": {
+    "molecule": "reactif-mei.svg"
+  },
+  "nabh4": {
+    "molecule": "reactif-nabh4.svg"
+  },
+  "h2so4": {
+    "molecule": "reactif-h2so4.svg"
+  },
+  "hf": {
+    "molecule": "reactif-hf.svg"
+  },
   "dcm": {
     "molecule": "solvant-dcm.svg"
   },
@@ -129,5 +165,23 @@
   },
   "dmso": {
     "molecule": "solvant-dmso.svg"
+  },
+  "acetone": {
+    "molecule": "solvant-acetone.svg"
+  },
+  "ethanol": {
+    "molecule": "solvant-ethanol.svg"
+  },
+  "methanol": {
+    "molecule": "solvant-methanol.svg"
+  },
+  "eau": {
+    "molecule": "solvant-eau.svg"
+  },
+  "dmf": {
+    "molecule": "solvant-dmf.svg"
+  },
+  "pyridine": {
+    "molecule": "solvant-pyridine.svg"
   }
 }

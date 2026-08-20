@@ -104,7 +104,7 @@ Après écriture : `node scripts/verifier-mecanismes.mjs`, puis
 ## L'affichage
 
 `npm run affichage` mesure la mise en page sur **douze largeurs d'écran**
-(280 à 1920 px) et **six pages**, à taille de texte normale puis agrandie
+(280 à 1920 px) et **huit pages**, à taille de texte normale puis agrandie
 de 25 %. Il refuse : un débordement horizontal, un élément dont un bord
 sort de l'écran, un texte rogné par son conteneur, une cible tactile de
 moins de 40 px.
@@ -129,6 +129,26 @@ La largeur de lecture reste bornée à 860 px, même sur un grand écran :
 au-delà d'une soixantaine de signes par ligne, l'œil perd la ligne
 suivante. Seule la grille de tuiles s'élargit, parce que ce n'est pas du
 texte.
+
+## Les réactifs et les solvants
+
+**Chaque réaction apporte ses réactifs et son solvant** : c'est la règle,
+et elle se tient en même temps que la fiche, pas plus tard. La source est
+déjà ouverte, la page déjà lue — la différer coûterait de tout rouvrir.
+
+Dans `src/data/reactifs.json` et `src/data/solvants.json`. Le lien avec les
+réactions est automatique (`src/liens.js`) : il suffit que le nom ou le nom
+complet du produit apparaisse dans la ligne `reactifs` ou `solvant` de la
+réaction. Quand deux noms correspondent, c'est le plus long qui gagne —
+sans quoi « KOH » l'emporterait sur « KOtBu ».
+
+`/reactifs` est un index avec recherche ; chaque produit a sa page,
+`/reactif/:id` ou `/solvant/:id`, et son nom est cliquable depuis le bloc
+« Bilan » de toute réaction qui l'emploie.
+
+Une fiche de réactif dit **à quoi il sert, pourquoi il marche, et ce qu'il
+ne faut pas confondre**. Elle cite ses pages comme le fait une fiche de
+réaction.
 
 ## Écrire une fiche
 
