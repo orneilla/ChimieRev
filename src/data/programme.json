@@ -419,42 +419,42 @@
         {
           "nom": "Aldolisation et crotonisation",
           "niveau": "L3",
-          "id": null
+          "id": "aldolisation_crotonisation"
         },
         {
           "nom": "Aldolisation croisée dirigée",
           "niveau": "M1",
-          "id": null
+          "id": "aldolisation_croisee_dirigee"
         },
         {
           "nom": "Condensation de Claisen",
           "niveau": "L3",
-          "id": null
+          "id": "condensation_claisen"
         },
         {
           "nom": "Condensation de Dieckmann",
           "niveau": "M1",
-          "id": null
+          "id": "condensation_dieckmann"
         },
         {
           "nom": "Addition de Michael",
           "niveau": "L3",
-          "id": null
+          "id": "addition_michael"
         },
         {
           "nom": "Annélation de Robinson",
           "niveau": "M1",
-          "id": null
+          "id": "annelation_robinson"
         },
         {
           "nom": "Réaction de Mannich",
           "niveau": "M1",
-          "id": null
+          "id": "reaction_mannich"
         },
         {
           "nom": "Énamines de Stork",
           "niveau": "M1",
-          "id": null
+          "id": "enamines_stork"
         },
         {
           "nom": "Halogénation en α (Hell-Volhard-Zelinsky)",
@@ -469,12 +469,12 @@
         {
           "nom": "Condensation de Knoevenagel",
           "niveau": "M1",
-          "id": null
+          "id": "condensation_knoevenagel"
         },
         {
           "nom": "Malonique et acétylacétique (synthèses)",
           "niveau": "L3",
-          "id": null
+          "id": "malonique_acetylacetique"
         }
       ],
       "bloc": "Socle organique"

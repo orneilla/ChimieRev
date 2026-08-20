@@ -291,6 +291,46 @@
     "substrat": "reaction_haloforme-substrat.svg",
     "produit": "reaction_haloforme-produit.svg"
   },
+  "aldolisation_crotonisation": {
+    "substrat": "aldolisation_crotonisation-substrat.svg",
+    "produit": "aldolisation_crotonisation-produit.svg"
+  },
+  "aldolisation_croisee_dirigee": {
+    "substrat": "aldolisation_croisee_dirigee-substrat.svg",
+    "produit": "aldolisation_croisee_dirigee-produit.svg"
+  },
+  "condensation_claisen": {
+    "substrat": "condensation_claisen-substrat.svg",
+    "produit": "condensation_claisen-produit.svg"
+  },
+  "condensation_dieckmann": {
+    "substrat": "condensation_dieckmann-substrat.svg",
+    "produit": "condensation_dieckmann-produit.svg"
+  },
+  "addition_michael": {
+    "substrat": "addition_michael-substrat.svg",
+    "produit": "addition_michael-produit.svg"
+  },
+  "annelation_robinson": {
+    "substrat": "annelation_robinson-substrat.svg",
+    "produit": "annelation_robinson-produit.svg"
+  },
+  "reaction_mannich": {
+    "substrat": "reaction_mannich-substrat.svg",
+    "produit": "reaction_mannich-produit.svg"
+  },
+  "enamines_stork": {
+    "substrat": "enamines_stork-substrat.svg",
+    "produit": "enamines_stork-produit.svg"
+  },
+  "condensation_knoevenagel": {
+    "substrat": "condensation_knoevenagel-substrat.svg",
+    "produit": "condensation_knoevenagel-produit.svg"
+  },
+  "malonique_acetylacetique": {
+    "substrat": "malonique_acetylacetique-substrat.svg",
+    "produit": "malonique_acetylacetique-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -460,6 +500,69 @@
   },
   "pbr3_hvz": {
     "molecule": "reactif-pbr3_hvz.svg"
+  },
+  "naoet": {
+    "molecule": "reactif-naoet.svg"
+  },
+  "naoet-ex0": {
+    "substrat": "naoet-ex0-substrat.svg",
+    "produit": "naoet-ex0-produit.svg"
+  },
+  "me2nh": {
+    "molecule": "reactif-me2nh.svg"
+  },
+  "me2nh-ex0": {
+    "substrat": "me2nh-ex0-substrat.svg",
+    "produit": "me2nh-ex0-produit.svg"
+  },
+  "formaldehyde": {
+    "molecule": "reactif-formaldehyde.svg"
+  },
+  "formaldehyde-ex0": {
+    "substrat": "formaldehyde-ex0-substrat.svg",
+    "produit": "formaldehyde-ex0-produit.svg"
+  },
+  "pyrrolidine": {
+    "molecule": "reactif-pyrrolidine.svg"
+  },
+  "pyrrolidine-ex0": {
+    "substrat": "pyrrolidine-ex0-substrat.svg",
+    "produit": "pyrrolidine-ex0-produit.svg"
+  },
+  "mvk": {
+    "molecule": "reactif-mvk.svg"
+  },
+  "mvk-ex0": {
+    "substrat": "mvk-ex0-substrat.svg",
+    "produit": "mvk-ex0-produit.svg"
+  },
+  "acetylacetate_ethyle": {
+    "molecule": "reactif-acetylacetate_ethyle.svg"
+  },
+  "acetylacetate_ethyle-ex0": {
+    "substrat": "acetylacetate_ethyle-ex0-substrat.svg",
+    "produit": "acetylacetate_ethyle-ex0-produit.svg"
+  },
+  "malonate_diethyle": {
+    "molecule": "reactif-malonate_diethyle.svg"
+  },
+  "malonate_diethyle-ex0": {
+    "substrat": "malonate_diethyle-ex0-substrat.svg",
+    "produit": "malonate_diethyle-ex0-produit.svg"
+  },
+  "piperidine": {
+    "molecule": "reactif-piperidine.svg"
+  },
+  "piperidine-ex0": {
+    "substrat": "piperidine-ex0-substrat.svg",
+    "produit": "piperidine-ex0-produit.svg"
+  },
+  "sel_eschenmoser": {
+    "molecule": "reactif-sel_eschenmoser.svg"
+  },
+  "sel_eschenmoser-ex0": {
+    "substrat": "sel_eschenmoser-ex0-substrat.svg",
+    "produit": "sel_eschenmoser-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

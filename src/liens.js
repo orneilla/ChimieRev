@@ -12,9 +12,27 @@ const normalise = (texte) =>
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
 
+/** Une lettre ou un chiffre : ce qui, collé au nom, prouve qu'on est au milieu d'un mot. */
+const EST_UN_MOT = /[a-z0-9]/
+
+/**
+ * Le nom apparaît-il dans le texte, en tant que MOT et non au milieu d'un autre ?
+ *
+ * La nuance n'est pas théorique : sans elle, « NMO » se trouvait dans
+ * « Escheǀnmoǀser », et le sel d'Eschenmoser renvoyait vers le
+ * N-méthylmorpholine N-oxyde. Un nom de trois lettres se cache facilement.
+ */
 function contient(texte, terme) {
   if (!terme || terme.length < 2) return false
-  return normalise(texte).includes(normalise(terme))
+  const ou = normalise(texte)
+  const quoi = normalise(terme)
+
+  for (let i = ou.indexOf(quoi); i !== -1; i = ou.indexOf(quoi, i + 1)) {
+    const avant = i > 0 ? ou[i - 1] : ' '
+    const apres = i + quoi.length < ou.length ? ou[i + quoi.length] : ' '
+    if (!EST_UN_MOT.test(avant) && !EST_UN_MOT.test(apres)) return true
+  }
+  return false
 }
 
 /** Réactions dont la ligne « réactifs » mentionne ce réactif. */

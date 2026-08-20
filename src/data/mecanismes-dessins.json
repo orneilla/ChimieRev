@@ -2644,5 +2644,633 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "aldolisation_crotonisation": {
+    "1": {
+      "fichier": "aldolisation_crotonisation-etape1.svg",
+      "titre": "L'hydroxyde arrache un proton en α",
+      "legende": "Seule une trace d'énolate se forme : l'eau a un pKa de 15,7, l'acétaldéhyde environ 20 (Clayden p. 615). L'hydroxyde est donc trop faible pour énoliser complètement l'aldéhyde — et c'est exactement ce qu'il faut, car chaque énolate se retrouve entouré de molécules d'aldéhyde intactes.",
+      "fleches": [
+        "L'hydroxyde prend le proton en α.",
+        "Le doublet de la liaison C–H devient la double liaison C=C.",
+        "Et la liaison π du carbonyle se replie sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "aldolisation_crotonisation-etape2.svg",
+      "titre": "L'énolate attaque un aldéhyde non énolisé",
+      "legende": "C'EST L'ÉTAPE QUI COMPTE : la liaison carbone–carbone se fait ici. L'énolate porte sa charge sur l'oxygène mais attaque par le carbone.",
+      "fleches": [
+        "L'oxygène rend sa charge en reformant le C=O.",
+        "Le carbone α attaque le carbone du carbonyle.",
+        "Le carbonyle s'ouvre : l'oxygène devient alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "aldolisation_crotonisation-etape3.svg",
+      "titre": "L'alcoolate prend un proton à l'eau",
+      "legende": "L'eau formée à la première étape rend le proton. L'hydroxyde est régénéré : la base est un vrai catalyseur (Clayden p. 615). Le produit est le 3-hydroxybutanal — l'« aldol » qui a donné son nom à toute la famille.",
+      "fleches": [
+        "L'alcoolate prend un proton à l'eau.",
+        "L'hydroxyde est régénéré."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "aldolisation_crotonisation-etape4.svg",
+      "titre": "Crotonisation, premier temps : on énolise de nouveau",
+      "legende": "On ne peut pas éliminer l'eau d'un alcool en milieu basique : HO⁻ est un mauvais groupe partant. C'est le carbonyle qui rend l'élimination possible — mécanisme E1cB, avec une seconde énolisation qui prépare le départ (Clayden p. 616).",
+      "fleches": [
+        "La base reprend un proton en α.",
+        "La liaison C–H devient la double liaison C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "aldolisation_crotonisation-etape5.svg",
+      "titre": "Crotonisation, second temps : l'hydroxyde s'en va",
+      "legende": "L'énolate rend sa charge et pousse la double liaison d'un cran, ce qui éjecte l'hydroxyde. C'est la brique « B » du E1cB : le carbanion — ici stabilisé en énolate — se forme d'abord, le groupe partant s'en va ensuite.",
+      "fleches": [
+        "L'énolate reforme le carbonyle.",
+        "La double liaison se déplace vers le carbone qui porte l'alcool.",
+        "Et l'hydroxyde part."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "aldolisation_crotonisation-etape6.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le but-2-énal, ou crotonaldéhyde. Le moteur de la déshydratation est la conjugaison : C=C et C=O côte à côte forment un système stable, et c'est ce gain qui rend l'élimination irréversible.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "aldolisation_croisee_dirigee": {
+    "1": {
+      "fichier": "aldolisation_croisee_dirigee-etape1.svg",
+      "titre": "Le LDA forme l'énolate cinétique, du côté du méthyle",
+      "legende": "Trois raisons font gagner le méthyle (Clayden p. 634) : ses protons sont les plus acides, ils sont trois contre deux de l'autre côté, et l'autre côté est encombré pour une base aussi volumineuse que le LDA. À −78 °C, l'énolate formé ne s'équilibre pas.",
+      "fleches": [
+        "Le LDA prend un proton du méthyle.",
+        "La liaison C–H devient la double liaison C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "aldolisation_croisee_dirigee-etape2.svg",
+      "titre": "L'énolate, déjà formé en entier, rencontre le butanal",
+      "legende": "TOUTE LA DIFFÉRENCE EST DANS L'ORDRE : l'énolate est formé quantitativement AVANT que l'aldéhyde n'arrive. Il ne reste plus de base pour énoliser le butanal, donc pas d'autocondensation de l'aldéhyde.",
+      "fleches": [
+        "L'oxygène rend sa charge en reformant le C=O.",
+        "Le carbone attaque l'aldéhyde.",
+        "Le carbonyle s'ouvre en alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "aldolisation_croisee_dirigee-etape3.svg",
+      "titre": "Traitement acide : l'alcoolate devient alcool",
+      "legende": "L'aldol est isolé avec 65 % de rendement (Clayden p. 634). Modeste — mais c'était la première fois qu'une aldolisation croisée entre une cétone dissymétrique et un aldéhyde énolisable donnait un seul produit.",
+      "fleches": [
+        "L'alcoolate prend un proton.",
+        "L'eau est restituée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "aldolisation_croisee_dirigee-etape4.svg",
+      "titre": "L'aldol, 65 %",
+      "legende": "L'aldol est stable et isolable : on n'est pas obligé de le déshydrater.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "5": {
+      "fichier": "aldolisation_croisee_dirigee-etape5.svg",
+      "titre": "Et l'énone, 72 %, si on la veut",
+      "legende": "L'acide para-toluènesulfonique déshydrate ensuite l'aldol : c'est la déshydratation acido-catalysée déjà vue à la fiche « aldolisation et crotonisation ».",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "condensation_claisen": {
+    "1": {
+      "fichier": "condensation_claisen-etape1.svg",
+      "titre": "L'éthanolate énolise un peu d'ester",
+      "legende": "On emploie l'éthanolate et non l'hydroxyde : l'hydroxyde hydrolyserait l'ester. L'équilibre est très défavorable — l'éthanol a un pKa d'environ 16, l'acétate d'éthyle d'environ 25 (Clayden p. 641). Il ne se forme qu'une trace d'énolate.",
+      "fleches": [
+        "L'éthanolate prend un proton en α.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "condensation_claisen-etape2.svg",
+      "titre": "L'énolate attaque un ester non énolisé",
+      "legende": "Jusqu'ici tout ressemble à l'aldolisation. L'énolate est en faible concentration, entouré de molécules d'ester intactes ; il en attaque une.",
+      "fleches": [
+        "L'oxygène reforme le C=O.",
+        "Le carbone attaque le carbonyle de l'ester.",
+        "L'oxygène devient alcoolate : c'est l'intermédiaire tétraédrique."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "condensation_claisen-etape3.svg",
+      "titre": "Ici l'ester diverge de l'aldéhyde : l'alcoolate part",
+      "legende": "VOILÀ LA DIFFÉRENCE. Dans l'aldolisation l'intermédiaire n'avait rien à expulser — un hydrure ne part pas. L'ester, lui, porte un éthanolate : l'intermédiaire tétraédrique s'effondre et redonne un carbonyle.",
+      "fleches": [
+        "L'alcoolate reforme la double liaison C=O.",
+        "Et l'éthanolate est expulsé."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "condensation_claisen-etape4.svg",
+      "titre": "Le moteur : la déprotonation irréversible du produit",
+      "legende": "C'EST CETTE ÉTAPE QUI FAIT MARCHER LA RÉACTION. L'acétylacétate a un pKa d'environ 10 : l'éthanolate, trop faible pour l'ester de départ, le déprotone complètement (Clayden p. 641). L'équilibre est tiré jusqu'au bout — au prix d'un équivalent entier de base, consommé et non catalytique.",
+      "fleches": [
+        "L'éthanolate arrache le proton central.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie : l'énolate obtenu est stabilisé par deux carbonyles."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "condensation_claisen-etape5.svg",
+      "titre": "Ce qu'on obtient, après traitement acide",
+      "legende": "L'acétylacétate d'éthyle — un β-cétoester. Il est si facile à préparer qu'on l'achète : c'est le réactif de départ des synthèses acétylacétiques.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "condensation_dieckmann": {
+    "1": {
+      "fichier": "condensation_dieckmann-etape1.svg",
+      "titre": "L'éthanolate énolise l'un des deux esters",
+      "legende": "Le diester est symétrique : peu importe lequel des deux côtés s'énolise. Comme dans la condensation de Claisen ordinaire, l'équilibre est défavorable et il ne se forme qu'une trace d'énolate.",
+      "fleches": [
+        "L'éthanolate prend un proton en α.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "condensation_dieckmann-etape2.svg",
+      "titre": "L'énolate attaque l'AUTRE ester, du même squelette",
+      "legende": "Tout est dans la longueur de la chaîne : cinq carbones entre les deux esters, et la cyclisation referme un cycle à SIX. Un heptanedioate donne un cycle à six, un hexanedioate un cycle à cinq — au-delà, les rendements s'effondrent.",
+      "fleches": [
+        "L'oxygène reforme le C=O.",
+        "Le carbone α attaque l'autre ester : le cycle se ferme.",
+        "L'intermédiaire tétraédrique se forme."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "condensation_dieckmann-etape3.svg",
+      "titre": "L'intermédiaire tétraédrique expulse l'éthanolate",
+      "legende": "Même effondrement que dans le Claisen intermoléculaire. À la différence près qu'ici, le groupe partant n'emporte rien : le cycle est déjà formé.",
+      "fleches": [
+        "L'alcoolate reforme le carbonyle.",
+        "L'éthanolate part."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "condensation_dieckmann-etape4.svg",
+      "titre": "Et de nouveau la déprotonation qui tire tout",
+      "legende": "Le β-cétoester cyclique porte un proton encadré par deux carbonyles. L'éthanolate le prend, et l'équilibre bascule définitivement du côté du cycle.",
+      "fleches": [
+        "L'éthanolate arrache le proton doublement activé.",
+        "La liaison C–H devient C=C.",
+        "L'énolate stabilisé se forme."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "condensation_dieckmann-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le 2-oxocyclohexanecarboxylate d'éthyle. Alkylé puis décarboxylé, il donne une 2-alkylcyclohexanone : la suite « Dieckmann, alkylation, décarboxylation » est l'une des voies les plus sûres vers les cyclopentanones et cyclohexanones substituées en 2 (McMurry p. 770).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "addition_michael": {
+    "1": {
+      "fichier": "addition_michael-etape1.svg",
+      "titre": "L'éthanolate déprotone l'acétylacétate d'éthyle",
+      "legende": "Le proton visé est encadré par deux carbonyles : son pKa tourne autour de 11. Une base ordinaire suffit, et il n'y a aucune ambiguïté sur le carbone déprotoné — un seul est encadré.",
+      "fleches": [
+        "L'éthanolate prend le proton central.",
+        "La liaison C–H devient la double liaison C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "addition_michael-etape2.svg",
+      "titre": "L'énolate attaque le carbone β, et non le carbonyle",
+      "legende": "QUATRE FLÈCHES EN CASCADE. L'énolate stabilisé n'attaque pas le carbone du carbonyle mais celui du bout de la double liaison — le carbone β. Les électrons de la liaison C=C remontent vers le carbonyle, qui s'ouvre à son tour : l'énone se retrouve énolate.",
+      "fleches": [
+        "L'oxygène rend sa charge en reformant le C=O.",
+        "Le carbone attaque le carbone β de l'énone.",
+        "La double liaison C=C se déplace vers le carbonyle.",
+        "Et le carbonyle s'ouvre : on obtient un énolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "addition_michael-etape3.svg",
+      "titre": "L'énolate reprend un proton — par le carbone",
+      "legende": "L'éthanol du milieu rend le proton. L'énolate est ambident, mais c'est la protonation au carbone qui mène au produit stable : une cétone plutôt qu'un énol. Au passage, l'éthanolate est régénéré — la base est catalytique, contrairement à la condensation de Claisen.",
+      "fleches": [
+        "L'oxygène reforme le carbonyle.",
+        "Le carbone prend le proton de l'éthanol.",
+        "L'éthanolate est régénéré."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "addition_michael-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un composé 1,5-dicarbonylé. C'est la signature de l'addition de Michael : chaque fois qu'une cible contient un motif 1,5-dicarbonylé, on la coupe mentalement entre le carbone β et le carbone γ, et l'addition de Michael la refait.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "annelation_robinson": {
+    "1": {
+      "fichier": "annelation_robinson-etape1.svg",
+      "titre": "Une base faible suffit : la dicétone-1,3 est très acide",
+      "legende": "Le proton visé est encadré par deux carbonyles. L'énolate formé est délocalisé sur trois atomes, donc stable — et c'est lui, et lui seul, qui va réagir.",
+      "fleches": [
+        "La base prend le proton central.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "annelation_robinson-etape2.svg",
+      "titre": "Premier acte : addition de Michael sur la butén-2-one",
+      "legende": "L'énolate stabilisé fait une addition conjuguée sur l'énone. C'est exactement la fiche « addition de Michael » : attaque en β, l'énone repart en énolate.",
+      "fleches": [
+        "L'oxygène rend sa charge.",
+        "Le carbone attaque le carbone β de l'énone.",
+        "La double liaison remonte vers le carbonyle.",
+        "Qui s'ouvre en énolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "annelation_robinson-etape3.svg",
+      "titre": "Protonation : on peut isoler la tricétone",
+      "legende": "L'intermédiaire tricétonique est isolable — souvent on ne le fait pas et on enchaîne (Clayden p. 639). Trois carbonyles dans la même molécule : le décor est planté.",
+      "fleches": [
+        "L'oxygène reforme le carbonyle.",
+        "Le carbone prend le proton de l'éthanol.",
+        "La base est régénérée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "annelation_robinson-etape4.svg",
+      "titre": "Second acte : la base déprotone le méthyle terminal",
+      "legende": "Quatre positions sont énolisables et aucune n'est nettement favorisée. Mais une seule mène, après cyclisation, à un cycle à SIX portant une énone conjuguée. Les autres donnent des cycles à quatre ou des ponts, qui rebroussent chemin. Sous contrôle thermodynamique, tout finit par passer par la seule voie irréversible (Clayden p. 638).",
+      "fleches": [
+        "La base prend un proton du méthyle.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "annelation_robinson-etape5.svg",
+      "titre": "Aldolisation intramoléculaire : le second cycle se ferme",
+      "legende": "Le carbone de l'énolate atteint un carbonyle du cycle de départ. Comptez les atomes du nouveau cycle : six. C'est cette taille, et pas une autre, qui rend l'étape favorable.",
+      "fleches": [
+        "L'oxygène reforme le C=O.",
+        "Le carbone attaque le carbonyle du cycle : la jonction se fait.",
+        "Qui s'ouvre en alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "annelation_robinson-etape6.svg",
+      "titre": "L'alcoolate prend un proton",
+      "legende": "L'hydroxycétone bicyclique est isolable — Clayden signale qu'elle est cis, et qu'avec une amine secondaire comme base on l'obtient en excellent rendement (p. 639).",
+      "fleches": [
+        "L'alcoolate prend son proton.",
+        "La base est régénérée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "annelation_robinson-etape7.svg",
+      "titre": "Troisième acte : crotonisation, premier temps",
+      "legende": "Comme dans toute aldolisation, la déshydratation passe par un E1cB : on énolise d'abord, du côté qui permettra ensuite au groupe partant de s'en aller.",
+      "fleches": [
+        "La base prend un proton voisin du carbonyle.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "8": {
+      "fichier": "annelation_robinson-etape8.svg",
+      "titre": "Crotonisation, second temps : l'hydroxyde s'en va",
+      "legende": "L'énolate rend sa charge, la double liaison se déplace, et l'hydroxyde part. Cette élimination est irréversible : c'est elle qui vide tous les équilibres précédents et fait que le seul produit isolé est l'énone à six chaînons.",
+      "fleches": [
+        "L'énolate reforme le carbonyle.",
+        "La double liaison se déplace vers la jonction de cycles.",
+        "Et l'hydroxyde s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "9": {
+      "fichier": "annelation_robinson-etape9.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une décalone conjuguée : deux cycles à six soudés, une énone. C'est le squelette des cycles A et B des stéroïdes — et c'est pour cela que Robinson a mis cette séquence au point.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reaction_mannich": {
+    "1": {
+      "fichier": "reaction_mannich-etape1.svg",
+      "titre": "L'amine attaque le formaldéhyde — pas la cétone",
+      "legende": "Deux composés carbonylés sont en présence ; l'amine choisit le plus électrophile, et c'est le formaldéhyde. Aucun acide n'est nécessaire pour cette addition (Clayden p. 621).",
+      "fleches": [
+        "Le doublet de l'azote attaque le carbone.",
+        "Le carbonyle s'ouvre en alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reaction_mannich-etape2.svg",
+      "titre": "L'alcoolate prend un proton",
+      "legende": "Premier des deux transferts qui neutralisent le zwitterion. Clayden écrit simplement « ±H » : on les détaille ici.",
+      "fleches": [
+        "L'alcoolate prend un proton au milieu acide.",
+        "L'eau est restituée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reaction_mannich-etape3.svg",
+      "titre": "Et l'azote rend le sien",
+      "legende": "L'aminoalcool neutre est formé. C'est le même intermédiaire que dans la formation des imines : un hémiaminal.",
+      "fleches": [
+        "L'eau prend le proton de l'azote.",
+        "L'azote redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "reaction_mannich-etape4.svg",
+      "titre": "L'acide protone l'alcool : on fabrique un groupe partant",
+      "legende": "HO⁻ ne part pas ; H₂O part très bien. C'est la manœuvre habituelle en catalyse acide.",
+      "fleches": [
+        "L'oxygène prend un proton.",
+        "L'eau est restituée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "reaction_mannich-etape5.svg",
+      "titre": "L'eau part : voici le sel d'iminium",
+      "legende": "L'azote pousse son doublet et chasse l'eau. L'ion iminium obtenu est assez stable pour être vendu : l'iodure correspondant est le SEL D'ESCHENMOSER (Clayden p. 621).",
+      "fleches": [
+        "L'azote pousse son doublet.",
+        "Et l'eau s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "reaction_mannich-etape6.svg",
+      "titre": "L'énol de la cétone attaque l'iminium",
+      "legende": "On est en milieu acide : c'est l'ÉNOL, pas l'énolate, qui joue le nucléophile. Moins réactif qu'un énolate, mais l'iminium est un électrophile suffisant — et surtout, il ne peut réagir qu'UNE FOIS.",
+      "fleches": [
+        "L'oxygène de l'énol pousse son doublet.",
+        "Le carbone attaque le méthylène de l'iminium.",
+        "L'azote reprend son doublet et redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "reaction_mannich-etape7.svg",
+      "titre": "L'eau reprend le proton",
+      "legende": "Le carbonyle est restitué et l'acide régénéré : HCl est bien catalytique.",
+      "fleches": [
+        "L'eau prend le proton.",
+        "Le carbonyle est restitué."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "8": {
+      "fichier": "reaction_mannich-etape8.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une β-aminocétone, qu'on appelle une BASE DE MANNICH. 85 % de rendement sur la cyclohexanone (Clayden p. 621). Beaucoup de médicaments appartiennent à cette classe.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "enamines_stork": {
+    "1": {
+      "fichier": "enamines_stork-etape1.svg",
+      "titre": "L'énamine attaque le carbone β de l'énone",
+      "legende": "L'énamine est préparée d'avance à partir de la cyclohexanone et de la pyrrolidine (voir la fiche « imines et énamines »). Elle est NEUTRE — donc peu basique — mais assez nucléophile pour faire l'addition conjuguée : quatre flèches, exactement comme un énolate.",
+      "fleches": [
+        "L'azote pousse son doublet vers la double liaison.",
+        "Le carbone attaque le carbone β de l'énone.",
+        "La double liaison remonte vers le carbonyle.",
+        "Qui s'ouvre en énolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "enamines_stork-etape2.svg",
+      "titre": "L'énolate reprend un proton par le carbone",
+      "legende": "Le traitement aqueux acide rend le proton au carbone. Il reste un ion iminium — et une cétone.",
+      "fleches": [
+        "L'oxygène reforme le carbonyle.",
+        "Le carbone prend le proton.",
+        "L'eau est restituée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "enamines_stork-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'hydrolyse de l'iminium — le mécanisme inverse de la formation des imines — restitue la cétone de départ, alkylée. Bilan : un composé 1,5-dicarbonylé, celui-là même qu'une addition de Michael aurait donné, mais sans base forte et sans autocondensation.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "condensation_knoevenagel": {
+    "1": {
+      "fichier": "condensation_knoevenagel-etape1.svg",
+      "titre": "L'amine déprotone le malonate — et lui seul",
+      "legende": "TOUT SE JOUE SUR TROIS pKa (Clayden p. 629). L'ammonium de l'amine secondaire vaut environ 10 ; le malonate, environ 13 ; l'aldéhyde, environ 20. L'amine est donc assez basique pour énoliser le malonate, et pas assez pour toucher à l'aldéhyde. La sélectivité ne vient pas d'une astuce : elle vient d'un choix d'échelle.",
+      "fleches": [
+        "L'amine prend le proton central.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "condensation_knoevenagel-etape2.svg",
+      "titre": "L'énolate attaque l'aldéhyde",
+      "legende": "Aldolisation ordinaire. L'aldéhyde ne peut pas s'énoliser dans ces conditions, donc il n'y a pas d'autocondensation à craindre : il ne joue qu'un rôle, celui d'électrophile.",
+      "fleches": [
+        "L'oxygène reforme le C=O.",
+        "Le carbone attaque l'aldéhyde.",
+        "Le carbonyle s'ouvre en alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "condensation_knoevenagel-etape3.svg",
+      "titre": "L'acide acétique tamponne et rend le proton",
+      "legende": "L'acide carboxylique n'est pas là par hasard : il neutralise le produit au fur et à mesure et maintient le milieu assez peu basique pour que l'aldéhyde reste intact.",
+      "fleches": [
+        "L'alcoolate prend le proton de l'acide.",
+        "L'acétate est libéré."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "condensation_knoevenagel-etape4.svg",
+      "titre": "Déshydratation, premier temps : on énolise",
+      "legende": "Même E1cB que dans la crotonisation. Le proton retiré est celui du carbone encadré par les deux esters : il est très acide, donc l'énolisation est facile.",
+      "fleches": [
+        "L'amine reprend le proton central.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "condensation_knoevenagel-etape5.svg",
+      "titre": "Second temps : l'hydroxyde s'en va",
+      "legende": "L'élimination donne un alcène porteur de DEUX esters. C'est un accepteur de Michael de premier ordre — d'où l'usage constant du produit de Knoevenagel dans la suite d'une synthèse.",
+      "fleches": [
+        "L'énolate reforme le carbonyle.",
+        "La double liaison se déplace.",
+        "Et l'hydroxyde part."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "condensation_knoevenagel-etape6.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un alkylidènemalonate, 92 % de rendement sur cet exemple (Clayden p. 629). Si l'on part de l'acide malonique au lieu du diester, avec pipéridine et pyridine, la décarboxylation se fait toute seule pendant la réaction et l'on obtient directement l'acide α,β-insaturé : c'est la variante de Doebner (Clayden p. 630).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "malonique_acetylacetique": {
+    "1": {
+      "fichier": "malonique_acetylacetique-etape1.svg",
+      "titre": "Une base ordinaire suffit",
+      "legende": "Le proton central est encadré par deux carbonyles : son pKa est de 10 à 15 (Clayden p. 596), contre 25 pour un ester simple. Pas besoin de LDA ni de froid. On choisit l'éthanolate parce qu'il est identique à la partie alcool de l'ester : un autre alcoolate transestérifierait.",
+      "fleches": [
+        "L'éthanolate prend le proton central.",
+        "La liaison C–H devient C=C.",
+        "Le carbonyle se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "malonique_acetylacetique-etape2.svg",
+      "titre": "Alkylation : une SN2 ordinaire",
+      "legende": "Comme pour toute alkylation d'énolate, l'halogénure doit être PRIMAIRE, allylique ou benzylique. Ici encore aucune ambiguïté de régiochimie : un seul carbone est encadré par les deux esters.",
+      "fleches": [
+        "L'oxygène rend sa charge en reformant le C=O.",
+        "Le carbone attaque l'halogénure.",
+        "Et le bromure s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "malonique_acetylacetique-etape3.svg",
+      "titre": "Après hydrolyse, la décarboxylation par un cycle à six centres",
+      "legende": "LA DÉCARBOXYLATION N'EST POSSIBLE QUE PARCE QU'IL Y A UN SECOND CARBONYLE EN β (Clayden p. 597) : c'est lui qui reçoit le proton acide, et c'est l'énol qu'il permet de former qui rend la rupture C–C possible. Un acide carboxylique ordinaire ne se décarboxyle pas au chauffage.",
+      "fleches": [
+        "La liaison carbone–carbone se rompt et devient la double liaison de l'énol.",
+        "Le carbonyle qui reste se replie sur son oxygène.",
+        "Lequel prend le proton acide de l'autre acide.",
+        "Et la liaison O–H devient la seconde double liaison du CO₂, qui s'échappe."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "malonique_acetylacetique-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'énol se tautomérise aussitôt : on obtient l'acide pentanoïque. BILAN DE LA SYNTHÈSE MALONIQUE : un halogénure d'alkyle devient un acide carboxylique allongé de DEUX carbones (McMurry p. 742). Avec l'acétylacétate d'éthyle à la place du malonate, le même enchaînement transforme l'halogénure en méthylcétone allongée de TROIS carbones (McMurry p. 743).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

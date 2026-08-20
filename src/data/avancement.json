@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 74,
-  "verifiees": 69,
+  "redigees": 84,
+  "verifiees": 79,
   "relues": 0,
   "familles": [
     {
@@ -565,9 +565,9 @@
       "famille": "Énolates",
       "bloc": "Socle organique",
       "total": 15,
-      "absente": 10,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 5,
+      "verifiee": 15,
       "relue": 0,
       "reactions": [
         {
@@ -594,58 +594,58 @@
         {
           "nom": "Aldolisation et crotonisation",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "aldolisation_crotonisation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Aldolisation croisée dirigée",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "aldolisation_croisee_dirigee",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Condensation de Claisen",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "condensation_claisen",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Condensation de Dieckmann",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "condensation_dieckmann",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Addition de Michael",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "addition_michael",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Annélation de Robinson",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "annelation_robinson",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Mannich",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reaction_mannich",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Énamines de Stork",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "enamines_stork",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Halogénation en α (Hell-Volhard-Zelinsky)",
@@ -664,16 +664,16 @@
         {
           "nom": "Condensation de Knoevenagel",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "condensation_knoevenagel",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Malonique et acétylacétique (synthèses)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "malonique_acetylacetique",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

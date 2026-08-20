@@ -1576,6 +1576,300 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "aldolisation_crotonisation": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "615",
+          "note": "La réaction d'aldolisation elle-même : énolisation partielle par l'hydroxyde (pKa de l'eau 15,7 contre environ 20 pour l'acétaldéhyde), attaque de l'énolate sur une molécule non énolisée, régénération du catalyseur. Les conditions qui gardent la base très diluée : une goutte de soude pour l'acétaldéhyde, l'hydroxyde de baryum insoluble pour l'acétone."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "616",
+          "note": "La crotonisation : ce sont des réactions E1cB, une seconde énolisation permettant la perte de HO⁻ ; le choix entre aldol et énone selon la vigueur des conditions ; et le mécanisme acido-catalysé complet sur la cyclopentanone, dont la déshydratation est un E1."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "618",
+          "note": "L'aldolisation d'une lactone : pourquoi l'intermédiaire tétraédrique ne se décompose pas — le groupe partant alcoolate ne peut pas s'échapper du cycle. Et l'introduction des condensations croisées."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "602",
+          "note": "La condensation carbonylée présentée comme la réunion d'un donneur et d'un accepteur ; l'aldol de l'acétaldéhyde."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "aldolisation_croisee_dirigee": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "634",
+          "note": "Le contrôle des aldolisations de cétones : les trois raisons pour lesquelles le LDA déprotone du côté du méthyle ; le premier rapport de Stork et de son groupe en 1974 — pentan-2-one, butanal, THF à −78 °C, aldol 65 % puis énone 72 % par TsOH ; et l'aldolisation non contrôlée d'avant, avec ses deux produits à 30 % et 31 %."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "619",
+          "note": "Pourquoi une condensation croisée peut réussir : l'énolate choisit le meilleur électrophile, et un aldéhyde sans proton en α ne peut jouer que ce rôle."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "condensation_claisen": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "640",
+          "note": "La condensation de Claisen mise côte à côte avec l'aldolisation : mêmes premières étapes, l'éthanolate employé au lieu de l'hydroxyde qui hydrolyserait l'ester."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "641",
+          "note": "Le moteur de la réaction : les pKa en présence — éthanol 16, acétate d'éthyle 25, acétylacétate 10 — et la déprotonation irréversible du produit, qui consomme la base et déplace tous les équilibres."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "642",
+          "note": "Acylation au carbone ou à l'oxygène : la règle du couple — énolate réactif avec agent acylant peu réactif pour le carbone ; et pourquoi la question ne se posait pas dans l'aldolisation, un hydrure ne pouvant pas partir."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "596",
+          "note": "Le choix de la base : l'alcoolate doit être identique à la partie alcool de l'ester, sous peine de transestérification, d'hydrolyse ou d'amidification."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "764",
+          "note": "La condensation de Claisen : l'autocondensation de l'acétate d'éthyle en acétylacétate d'éthyle."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "766",
+          "note": "Pourquoi il faut un équivalent entier de base et non une quantité catalytique ; l'exemple du propanoate d'éthyle."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "condensation_dieckmann": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "770",
+          "note": "La suite classique : cyclisation de Dieckmann, alkylation du β-cétoester puis décarboxylation, pour préparer les cyclopentanones et cyclohexanones substituées en 2 ; exemple à 83 %."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "781",
+          "note": "Le résumé du chapitre : les cyclisations de Dieckmann donnent des β-cétoesters cycliques à cinq et six chaînons à partir des 1,6- et 1,7-diesters."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "653",
+          "note": "Les condensations de Claisen intramoléculaires quand plusieurs sites d'énolisation sont possibles : le produit accolé, capable de former un énolate stable, l'emporte sur les produits pontés. Exemple à 91 %."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "654",
+          "note": "Le cas où deux β-cétoesters différents, hydrolysés et décarboxylés, redonnent la même aminocétone."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "addition_michael": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "605",
+          "note": "Les accepteurs de Michael comme électrophiles vis-à-vis des énolates : l'addition conjuguée présentée comme une autre manière de faire des liaisons C–C."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "606",
+          "note": "La règle : l'addition conjuguée est sous contrôle thermodynamique, l'addition directe sous contrôle cinétique ; ce qui favorise l'une ou l'autre du côté du nucléophile comme de l'accepteur ; et les trois atouts des malonates."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "607",
+          "note": "L'addition conjuguée en catalyse acide, sans aucune base — méthylvinylcétone et β-dicétone cyclique dans l'acide acétique aqueux ; et le cas de l'acroléine, très électrophile au carbonyle, où le contrôle thermodynamique impose tout de même le 1,4."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "770",
+          "note": "La définition de la réaction de Michael et son premier exemple : acétylacétate d'éthyle et butén-2-one avec l'éthanolate de sodium."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "772",
+          "note": "Les tableaux des accepteurs et des donneurs employés en pratique."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "annelation_robinson": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "638",
+          "note": "L'aldolisation intramoléculaire quand quatre positions sont énolisables : un seul produit à 90 %, et le raisonnement qui l'explique — non pas la vitesse d'énolisation, mais la seule voie irréversible. Pourquoi les produits pontés ne peuvent pas être déshydratés. Puis l'annélation de Robinson elle-même, et le bicycle qui porte les cycles A et B des stéroïdes."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "639",
+          "note": "Le mécanisme en deux temps : addition conjuguée de l'énolate de la 1,3-dicétone, tricétone isolable, aldolisation intramoléculaire, hydroxycétone cis isolable, puis E1cB. Et la variante avec une amine secondaire, suivie de TsOH."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "776",
+          "note": "L'annélation de Robinson comme combinaison d'une réaction de Michael et d'une aldolisation intramoléculaire ; le mot annulus ; et son emploi dans une synthèse de l'estrone."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reaction_mannich": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "620",
+          "note": "Pourquoi le formaldéhyde, électrophile idéal sur le papier, ne convient pas : il additionne plusieurs fois de suite."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "621",
+          "note": "La réaction de Mannich : cyclohexanone, diméthylamine, formol et HCl catalytique, 85 % ; le mécanisme complet par le sel d'iminium, vendu sous le nom de sel d'Eschenmoser ; l'attaque de l'énol ; puis la conversion de la base de Mannich en énone exo-méthylénique par MeI puis élimination E1cB. Et, en encadré, le mécanisme de la Cannizzaro croisée qui guette le formaldéhyde."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "622",
+          "note": "La stratégie qui consiste à stocker la base de Mannich et à ne libérer l'énone qu'au moment voulu ; l'emploi des amines cycliques ; et la liste des substituants qui bloquent l'énolisation, classés par électrophilie."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "enamines_stork": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "591",
+          "note": "Les énamines comme équivalents d'énol spécifiques : le mécanisme d'alkylation, l'absence de base forte donc d'autocondensation, et la réactivité modérée qui impose des températures et des durées élevées."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "592",
+          "note": "Le choix des amines cycliques et sa raison ; les composés α-halogénés carbonylés comme domaine d'élection des énamines, avec 59 % de rendement ; et la régiosélectivité thermodynamique en faveur de l'énamine la moins substituée."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "593",
+          "note": "Le résumé : les énamines ne travaillent bien qu'avec les halogénures allyliques, benzyliques et α-halogénés carbonylés ; et deux exemples d'alkylation d'aldéhydes."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "608",
+          "note": "Les énamines en addition conjuguée : nucléophiles neutres, préparables quantitativement à l'avance, souvent employées en chauffant les réactifs sans solvant ; le mécanisme et l'hydrolyse finale."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "7.12 — Carbonyl condensations with enamines: the Stork reaction",
+          "pages": null,
+          "note": "La réaction de Stork décrite en quatre temps — formation de l'énamine, attaque du carbone β, protonation, hydrolyse de l'iminium — et la manière de planifier une synthèse à partir d'un motif 1,5-dicarbonylé."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "condensation_knoevenagel": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "629",
+          "note": "Les trois pKa qui font la sélectivité — ammonium environ 10, composé 1,3-dicarbonylé environ 13, aldéhyde environ 20 —, le rôle tampon de l'acide carboxylique, 92 % de rendement, et la raison pour laquelle un composé 1,3-dicarbonylé ne s'autocondense pas."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
+          "pages": "630",
+          "note": "La variante sur l'acide malonique, avec décarboxylation spontanée pendant la réaction, catalysée par pipéridine et pyridine ; le dianion stabilisé par délocalisation et liaison hydrogène interne."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "malonique_acetylacetique": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "596",
+          "note": "Les composés 1,3-dicarbonylés : pKa de 10 à 15, alkylation par une base ordinaire, exemple à 77 % avec K₂CO₃ et MeI ; les structures et noms triviaux du malonate de diéthyle et de l'acétylacétate d'éthyle ; et le choix contraint de la base."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "597",
+          "note": "La décarboxylation par un état de transition cyclique à six centres : le proton acide est transféré au carbonyle voisin au moment où la liaison se rompt, le produit initial est un énol. La condition impérative : un second carbonyle en β."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "22 — Carbonyl alpha-substitution reactions",
+          "pages": "742",
+          "note": "La synthèse malonique : conversion d'un halogénure d'alkyle en acide carboxylique allongé de deux carbones ; et la formation de cycles à partir de dihalogénures."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "22 — Carbonyl alpha-substitution reactions",
+          "pages": "743",
+          "note": "La synthèse acétylacétique : conversion d'un halogénure d'alkyle en méthylcétone allongée de trois carbones ; la double alkylation possible."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "22 — Carbonyl alpha-substitution reactions",
+          "pages": "750",
+          "note": "Le résumé comparé des deux synthèses."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

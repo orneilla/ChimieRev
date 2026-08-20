@@ -1150,5 +1150,290 @@
     ],
     "explication_reference": "Réactif employé pour convertir les acides carboxyliques en bromures d'acyle, et les alcools en bromures d'alkyle. Dans la réaction de Hell-Volhard-Zelinsky, cette conversion est indispensable : un acide carboxylique ne s'énolise pas suffisamment pour être halogéné en α, alors qu'un bromure d'acyle s'énolise aisément. Le bromure d'hydrogène libéré au cours de la formation de l'halogénure catalyse ensuite cette énolisation (McMurry p. 734 ; Clayden p. 462).",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ rendre énolisable un acide carboxylique qui ne l'est pas.\n\nLE PROBLÈME\n\nOn veut poser un brome à côté du carbonyle d'un acide. Cela passe forcément par l'énol.\n\nOr un acide carboxylique s'énolise très mal : son OH prête ses doublets au carbonyle et l'apaise.\n\nCE QU'IL FAIT\n\nIl remplace ce OH par un brome.\n\nEt un brome, contrairement à un OH, TIRE les électrons au lieu d'en prêter. Le carbonyle devient bien plus pauvre, et les hydrogènes voisins bien plus acides.\n\nL'énolisation devient facile, et la bromation peut avoir lieu.\n\nUN BONUS\n\nLa formation du bromure d'acyle libère du HBr — qui est justement l'acide qui catalysera l'énolisation.\n\nLe réactif fabrique son propre catalyseur en passant.\n\nÀ MANIPULER AU SEC\n\nComme SOCl₂, il réagit violemment avec l'eau."
+  },
+  {
+    "id": "naoet",
+    "nom": "NaOEt",
+    "nom_complet": "éthanolate de sodium",
+    "SMILES": "[Na+].[O-]CC",
+    "role": "Base moyenne, alcoolate",
+    "anatomie_annotations": [
+      {
+        "partie": "l'oxygène chargé négativement",
+        "role": "Le site basique. Le pKa de l'éthanol étant d'environ 16, cette base est bien plus faible que le LDA — et c'est justement ce qu'on lui demande."
+      },
+      {
+        "partie": "le groupe éthyle",
+        "role": "Il doit être IDENTIQUE à la partie alcool de l'ester qu'on traite. Sinon on transestérifie sans s'en apercevoir."
+      }
+    ],
+    "reactions_liees": [
+      "condensation_claisen",
+      "condensation_dieckmann",
+      "addition_michael",
+      "malonique_acetylacetique"
+    ],
+    "explication_reference": "Alcoolate de sodium employé comme base dans les condensations d'esters et les additions conjuguées. Son pKa conjugué, voisin de 16, ne lui permet pas de déprotoner quantitativement un ester simple (pKa ≈ 25) mais suffit à déprotoner complètement un composé 1,3-dicarbonylé (pKa ≈ 10). Il est préféré à l'hydroxyde, qui hydrolyserait l'ester, et doit correspondre à la partie alcool du substrat sous peine de transestérification. Dans la condensation de Claisen il est consommé stœchiométriquement ; dans l'addition de Michael il est catalytique.",
+    "explication_comprendre": "À QUOI SERT-IL ? À arracher des protons — mais pas n'importe lesquels.\n\nPENSEZ À UNE CLÉ DE LA BONNE TAILLE. Le LDA est un pied-de-biche : il arrache tout. L'éthanolate, lui, est calibré. Il est assez fort pour prendre le proton d'un composé encadré par deux carbonyles, et trop faible pour toucher un ester ordinaire.\n\nCette faiblesse relative n'est pas un défaut : c'est ce qui rend la condensation de Claisen possible. Comme il ne déprotone qu'une trace d'ester, chaque énolate se retrouve entouré de molécules intactes à attaquer.\n\nCE QU'IL NE FAUT PAS CONFONDRE : on n'emploie jamais la soude à sa place. L'hydroxyde n'énoliserait pas l'ester, il l'hydrolyserait.\n\nET UN PIÈGE DE PAILLASSE : si votre ester est un ester de méthyle, prenez du méthanolate. Un éthanolate sur un ester de méthyle échange tranquillement les deux groupes, et vous vous retrouvez avec un mélange sans avoir rien vu venir.",
+    "reactions_exemples": [
+      {
+        "nom": "Condensation de Claisen",
+        "substrat_SMILES": "CC(=O)OCC",
+        "produit_SMILES": "CC(=O)CC(=O)OCC",
+        "note": "Un équivalent entier : la base est consommée"
+      }
+    ]
+  },
+  {
+    "id": "me2nh",
+    "nom": "Me₂NH",
+    "nom_complet": "diméthylamine",
+    "SMILES": "CNC",
+    "role": "Amine secondaire, partenaire de la réaction de Mannich",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote et son doublet libre",
+        "role": "Le site nucléophile : c'est lui qui attaque le formaldéhyde."
+      },
+      {
+        "partie": "l'unique hydrogène sur l'azote",
+        "role": "Le détail qui décide de tout. Il permet d'éliminer l'eau et de former un IMINIUM chargé. Une amine primaire en aurait deux et donnerait une imine neutre ; une tertiaire n'en aurait aucun et ne donnerait rien."
+      }
+    ],
+    "reactions_liees": [
+      "reaction_mannich"
+    ],
+    "explication_reference": "Amine secondaire employée dans la réaction de Mannich. Sa condensation avec le formaldéhyde en catalyse acide livre un ion iminium, électrophile modéré qui ne peut apporter qu'un unique groupe méthylène au composé carbonylé énolisable. Le caractère secondaire de l'amine est requis : une amine primaire conduirait à une imine neutre, nettement moins électrophile, et une amine tertiaire, dépourvue d'hydrogène sur l'azote, ne pourrait subir la déshydratation.",
+    "explication_comprendre": "QUE FAIT-ELLE ? Elle sert de muselière au formaldéhyde.\n\nLE PROBLÈME QU'ELLE RÉSOUT : le formaldéhyde est un électrophile si vorace qu'il réagit deux ou trois fois de suite. Impossible de l'employer tel quel.\n\nCOMMENT ELLE S'Y PREND : elle se lie à lui et forme un ion iminium. Cet iminium est encore électrophile — mais une fois qu'il a réagi, il ne reste plus de carbonyle, donc plus rien à additionner. Une fois, une seule.\n\nPOURQUOI SECONDAIRE ET PAS AUTRE CHOSE : c'est une question de comptage de protons sur l'azote. Une amine primaire en a deux : après condensation elle en perd un et devient neutre. Une tertiaire n'en a aucun : elle ne peut pas perdre d'eau. Une secondaire en a exactement un — elle le perd, ne peut pas en perdre un second, et reste donc chargée. C'est cette charge qui fait l'électrophilie.",
+    "reactions_exemples": [
+      {
+        "nom": "Réaction de Mannich",
+        "substrat_SMILES": "O=C1CCCCC1",
+        "produit_SMILES": "CN(C)CC1CCCCC1=O",
+        "note": "Avec CH₂O et HCl catalytique, 85 %"
+      }
+    ]
+  },
+  {
+    "id": "formaldehyde",
+    "nom": "Formaldéhyde",
+    "nom_complet": "formaldéhyde (formol en solution aqueuse)",
+    "SMILES": "C=O",
+    "role": "Le plus électrophile des aldéhydes — et le plus difficile à maîtriser",
+    "anatomie_annotations": [
+      {
+        "partie": "deux hydrogènes sur le carbone",
+        "role": "Là où les autres aldéhydes portent un groupe alkyle donneur, le formaldéhyde porte un second hydrogène. Rien ne vient calmer son carbone : il est le plus électrophile de tous."
+      },
+      {
+        "partie": "l'absence de carbone en α",
+        "role": "Il ne peut donc pas s'énoliser — il ne peut jouer que le rôle d'électrophile. Sur le papier, le partenaire idéal."
+      }
+    ],
+    "reactions_liees": [
+      "reaction_mannich"
+    ],
+    "explication_reference": "Aldéhyde le plus électrophile de la série, dépourvu d'hydrogène et même de carbone en α, donc inapte à l'énolisation. Ces caractères en feraient le partenaire électrophile idéal d'une aldolisation croisée si sa réactivité n'était excessive : il additionne à plusieurs reprises sur un même substrat, puis le polyol résultant subit une réaction de Cannizzaro croisée, l'ion hydrure étant transféré au meilleur électrophile disponible. La réaction de Mannich contourne cette difficulté en le convertissant préalablement en ion iminium.",
+    "explication_comprendre": "POURQUOI SEMBLE-T-IL PARFAIT ? Un bon partenaire électrophile ne doit pas pouvoir s'énoliser, sinon il jouerait aussi le rôle de nucléophile et l'on obtiendrait un mélange. Le formaldéhyde ne peut pas : il n'a même pas de carbone à côté du carbonyle.\n\nEt il est très électrophile, parce que les autres aldéhydes portent un groupe alkyle qui repousse un peu d'électrons vers le carbone, alors que lui n'a qu'un hydrogène.\n\nPOURQUOI EST-IL INUTILISABLE TEL QUEL ? Parce qu'il ne sait pas s'arrêter. Il additionne une fois, puis le produit a encore des protons acides, alors il additionne une deuxième fois, une troisième. Et quand il n'y a plus rien à faire, il se dismute.\n\nON NE RÉCUPÈRE PAS UN PRODUIT, ON RÉCUPÈRE UNE BOUILLIE. D'où la réaction de Mannich, qui le fait passer par un iminium pour l'obliger à ne réagir qu'une fois.",
+    "reactions_exemples": [
+      {
+        "nom": "Réaction de Mannich",
+        "substrat_SMILES": "O=C1CCCCC1",
+        "produit_SMILES": "CN(C)CC1CCCCC1=O",
+        "note": "Apporté sous forme d'iminium, il n'additionne qu'une fois"
+      }
+    ]
+  },
+  {
+    "id": "pyrrolidine",
+    "nom": "Pyrrolidine",
+    "nom_complet": "pyrrolidine",
+    "SMILES": "C1CCNC1",
+    "role": "Amine secondaire cyclique, pour former les énamines",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote du cycle",
+        "role": "Le site nucléophile. Il se condense sur une cétone et donne une énamine."
+      },
+      {
+        "partie": "le cycle à cinq chaînons",
+        "role": "Les chaînes sont attachées en arrière : elles ne gênent pas le site réactionnel. L'énamine obtenue est donc PLUS nucléophile qu'avec une amine acyclique."
+      }
+    ],
+    "reactions_liees": [
+      "enamines_stork"
+    ],
+    "explication_reference": "Amine secondaire cyclique employée pour engendrer les énamines de cétones et d'aldéhydes. La contrainte cyclique replie les chaînes alkyle à l'écart du site réactionnel, ce qui accroît la nucléophilie de l'énamine formée ; son point d'ébullition élevé permet en outre de conduire la condensation à chaud. La pipéridine et la morpholine remplissent le même office.",
+    "explication_comprendre": "À QUOI SERT-ELLE ? À transformer une cétone en énamine — c'est-à-dire en nucléophile neutre.\n\nPOURQUOI CYCLIQUE ? Comparez avec la diéthylamine : ses deux chaînes pendent librement autour de l'azote et encombrent le site où tout se passe. Dans la pyrrolidine, les mêmes carbones sont attachés l'un à l'autre par derrière, comme des cheveux ramenés en arrière. Le site est dégagé.\n\nRÉSULTAT : l'énamine obtenue est plus nucléophile. Et comme la pyrrolidine bout haut, on peut chauffer pour former l'énamine sans la voir s'évaporer.\n\nPIPÉRIDINE ET MORPHOLINE font exactement le même travail — on choisit selon ce qu'on a sous la main.",
+    "reactions_exemples": [
+      {
+        "nom": "Réaction de Stork",
+        "substrat_SMILES": "O=C1CCCCC1",
+        "produit_SMILES": "O=C1CCCCC1CCC(C)=O",
+        "note": "Via l'énamine, sans base forte"
+      }
+    ]
+  },
+  {
+    "id": "mvk",
+    "nom": "MVK",
+    "nom_complet": "butén-2-one (méthylvinylcétone)",
+    "SMILES": "CC(=O)C=C",
+    "role": "Accepteur de Michael de référence",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone du bout, dit carbone β",
+        "role": "Appauvri en électrons par conjugaison avec le carbonyle, à distance. C'est LUI qu'un énolate stabilisé attaque, et non le carbone du carbonyle."
+      },
+      {
+        "partie": "le carbonyle conjugué",
+        "role": "Il tire les électrons de la double liaison ; c'est aussi lui qui reçoit la charge à la fin, sous forme d'énolate."
+      }
+    ],
+    "reactions_liees": [
+      "addition_michael",
+      "annelation_robinson",
+      "enamines_stork"
+    ],
+    "explication_reference": "Cétone α,β-insaturée la plus employée comme accepteur dans les additions conjuguées et les annélations de Robinson. Sa double liaison terminale, non substituée, la rend particulièrement accessible ; le groupe méthyle porté par le carbonyle fournit, après addition, le méthyle terminal dont l'énolisation permet l'aldolisation intramoléculaire de l'annélation.",
+    "explication_comprendre": "À QUOI SERT-ELLE ? À recevoir un nucléophile sur son carbone du bout.\n\nPOURQUOI CE CARBONE-LÀ ? Le carbonyle tire les électrons à lui. Par conjugaison, il appauvrit aussi le carbone situé de l'autre côté de la double liaison. Ce carbone lointain devient donc électrophile lui aussi — et c'est celui qu'un énolate stabilisé préfère.\n\nSON RÔLE DANS L'ANNÉLATION DE ROBINSON EST DOUBLE, et c'est ce qu'il faut voir. D'abord elle reçoit l'addition. Ensuite, son méthyle se retrouve à trois carbones du carbonyle du partenaire — exactement la distance qu'il faut pour qu'une aldolisation intramoléculaire referme un cycle à six.\n\nCe n'est pas un hasard : c'est pour cela qu'on l'emploie.",
+    "reactions_exemples": [
+      {
+        "nom": "Annélation de Robinson",
+        "substrat_SMILES": "O=C1CC(=O)CCC1",
+        "produit_SMILES": "O=C1CCCC2=CC(=O)CCC12",
+        "note": "Michael, puis aldolisation, puis crotonisation"
+      }
+    ]
+  },
+  {
+    "id": "acetylacetate_ethyle",
+    "nom": "Acétylacétate d'éthyle",
+    "nom_complet": "acétylacétate d'éthyle (3-oxobutanoate d'éthyle)",
+    "SMILES": "CC(=O)CC(=O)OCC",
+    "role": "Donneur de Michael et brique de la synthèse acétylacétique",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone central, entre les deux carbonyles",
+        "role": "Son pKa est d'environ 10 : une base ordinaire suffit à le déprotoner, et il n'y a aucune ambiguïté de régiochimie puisqu'un seul carbone est encadré."
+      },
+      {
+        "partie": "le groupe ester",
+        "role": "Il partira sous forme de CO₂ après hydrolyse et chauffage, une fois son travail fait."
+      },
+      {
+        "partie": "le groupe cétone",
+        "role": "Il reste : c'est lui qui donne la méthylcétone finale."
+      }
+    ],
+    "reactions_liees": [
+      "addition_michael",
+      "annelation_robinson",
+      "malonique_acetylacetique",
+      "condensation_claisen"
+    ],
+    "explication_reference": "β-cétoester dont le proton central, doublement activé, présente un pKa voisin de 10. Il constitue le donneur de référence des additions conjuguées et des annélations de Robinson, ainsi que le substrat de la synthèse acétylacétique, qui convertit un halogénure d'alkyle en méthylcétone allongée de trois atomes de carbone. Notablement énolisé à l'état ordinaire, il ne s'autocondense pas : son énol est trop stable pour être nucléophile et sa fraction non énolisée n'offre que des carbonyles peu électrophiles. Produit de la condensation de Claisen de l'acétate d'éthyle, il est commercial et peu coûteux.",
+    "explication_comprendre": "POURQUOI EST-IL PARTOUT ? Parce qu'il rend acide un carbone qui ne le serait pas.\n\nUn proton à côté d'un seul carbonyle a un pKa d'environ 25 : il faut du LDA. Mettez-en deux autour du même carbone, et il tombe à 10. Une base de tous les jours suffit.\n\nET IL Y A UN SECOND CADEAU : un seul carbone est encadré, donc il n'y a rien à choisir. Fini les histoires d'énolate cinétique ou thermodynamique.\n\nUNE QUESTION QU'ON NE SE POSE PAS ASSEZ : s'il est si facile à énoliser, pourquoi ne réagit-il pas avec lui-même ? Parce que son énol est trop stable pour être réactif, et que ce qui reste de forme non énolisée n'offre que des carbonyles ternes. Des deux côtés, la situation est mauvaise : rien ne se passe.\n\nSON HISTOIRE EN DIT LONG : il est lui-même le produit d'une condensation de Claisen sur l'acétate d'éthyle. C'est justement parce que cette réaction marche si bien qu'on le trouve en flacon, et pour trois fois rien.",
+    "reactions_exemples": [
+      {
+        "nom": "Addition de Michael",
+        "substrat_SMILES": "CC(=O)C=C",
+        "produit_SMILES": "CC(=O)C(C(=O)OCC)CCC(C)=O",
+        "note": "Donneur classique, avec NaOEt catalytique"
+      }
+    ]
+  },
+  {
+    "id": "malonate_diethyle",
+    "nom": "Malonate de diéthyle",
+    "nom_complet": "malonate de diéthyle (propanedioate de diéthyle)",
+    "SMILES": "CCOC(=O)CC(=O)OCC",
+    "role": "Brique de la synthèse malonique et donneur de Michael",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone central, entre les deux esters",
+        "role": "Deux protons acides, pKa d'environ 13 : on peut l'alkyler une fois, ou deux."
+      },
+      {
+        "partie": "les deux groupes ester",
+        "role": "L'un partira en CO₂ après hydrolyse ; l'autre devient l'acide carboxylique final."
+      }
+    ],
+    "reactions_liees": [
+      "malonique_acetylacetique",
+      "condensation_knoevenagel",
+      "addition_michael"
+    ],
+    "explication_reference": "Diester de l'acide malonique, dont les deux protons centraux présentent un pKa voisin de 13. Il constitue le substrat de la synthèse malonique — alkylation puis hydrolyse et décarboxylation, convertissant un halogénure d'alkyle en acide carboxylique allongé de deux atomes de carbone — et l'un des donneurs les plus employés en addition conjuguée, où il réunit trois avantages : un énolate stable donnant une addition conjuguée propre, la possibilité de retirer l'un des deux esters par décarboxylation, et la conversion aisée de la fonction restante. Il est également le partenaire habituel de la condensation de Knoevenagel.",
+    "explication_comprendre": "À QUOI SERT-IL ? À poser un carbone nucléophile là où l'on veut, puis à se retirer discrètement.\n\nLE PRINCIPE EST LE MÊME QUE POUR L'ACÉTYLACÉTATE : deux groupes attracteurs autour d'un seul carbone rendent ses protons acides, donc faciles à arracher avec une base ordinaire.\n\nCE QUI LE DISTINGUE : ses deux fonctions sont des ESTERS. Après hydrolyse, on a un diacide ; le chauffage en fait partir un sous forme de CO₂, et il reste un acide carboxylique simple.\n\nAvec l'acétylacétate, on obtenait une cétone. Avec le malonate, un acide. C'est le parallèle à retenir.\n\nDEUX PROTONS, DEUX POSSIBILITÉS : on peut alkyler une fois, ou deux. Et si l'on alkyle deux fois avec un dihalogénure, les deux bouts se rejoignent et l'on obtient un cycle.",
+    "reactions_exemples": [
+      {
+        "nom": "Synthèse malonique",
+        "substrat_SMILES": "CCOC(=O)CC(=O)OCC",
+        "produit_SMILES": "CCCCC(=O)O",
+        "note": "Alkylation par PrBr, puis hydrolyse et décarboxylation"
+      }
+    ]
+  },
+  {
+    "id": "piperidine",
+    "nom": "Pipéridine",
+    "nom_complet": "pipéridine",
+    "SMILES": "C1CCNCC1",
+    "role": "Amine secondaire, catalyseur de la condensation de Knoevenagel",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote et son doublet",
+        "role": "Base de force calibrée : le pKa de son ammonium est d'environ 11. Assez fort pour énoliser un composé 1,3-dicarbonylé, trop faible pour toucher à un aldéhyde."
+      },
+      {
+        "partie": "le cycle à six chaînons",
+        "role": "Comme la pyrrolidine, il replie les chaînes en arrière ; la pipéridine sert donc aussi à former des énamines."
+      }
+    ],
+    "reactions_liees": [
+      "condensation_knoevenagel",
+      "enamines_stork"
+    ],
+    "explication_reference": "Amine secondaire cyclique employée comme catalyseur des condensations de Knoevenagel, ordinairement en présence d'un acide carboxylique qui tamponne le milieu. La force de son ammonium conjugué la situe entre l'acidité du composé 1,3-dicarbonylé et celle de l'aldéhyde, ce qui lui permet d'énoliser sélectivement le premier. Associée à la pyridine, elle catalyse la variante conduite sur l'acide malonique, avec décarboxylation spontanée. Elle sert également à la préparation des énamines.",
+    "explication_comprendre": "À QUOI SERT-ELLE ? À déprotoner une seule des deux molécules en présence.\n\nC'EST UNE HISTOIRE DE CALIBRE. Alignez les pKa : le composé 1,3-dicarbonylé est à 13, l'aldéhyde à 20. Il faut une base qui tombe entre les deux — et l'ammonium de la pipéridine est à environ 11.\n\nElle prend donc le proton du premier et ignore le second. Aucun froid, aucun ordre d'addition, aucun groupe protecteur : la sélectivité vient du CHOIX DE LA BASE.\n\nRetenez ce réflexe : devant deux protons d'acidité différente, demandez-vous d'abord s'il existe une base qui ne voit que l'un des deux.\n\nELLE A UN SECOND MÉTIER : comme la pyrrolidine, c'est une amine secondaire cyclique, donc elle sait aussi former des énamines.",
+    "reactions_exemples": [
+      {
+        "nom": "Condensation de Knoevenagel",
+        "substrat_SMILES": "CCOC(=O)CC(=O)OCC",
+        "produit_SMILES": "CCCC=C(C(=O)OCC)C(=O)OCC",
+        "note": "Avec AcOH comme tampon, 92 %"
+      }
+    ]
+  },
+  {
+    "id": "sel_eschenmoser",
+    "nom": "Sel d'Eschenmoser",
+    "nom_complet": "sel d'Eschenmoser (iodure de N,N-diméthylméthylèneiminium)",
+    "SMILES": "C[N+](C)=C.[I-]",
+    "role": "L'iminium de la réaction de Mannich, tout prêt",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone de l'iminium",
+        "role": "L'électrophile. Il apporte un seul groupe CH₂, et il ne peut en apporter qu'un."
+      },
+      {
+        "partie": "l'azote chargé positivement",
+        "role": "C'est la charge qui fait l'électrophilie. Une imine neutre serait bien moins réactive."
+      }
+    ],
+    "reactions_liees": [
+      "reaction_mannich"
+    ],
+    "explication_reference": "Iodure de N,N-diméthylméthylèneiminium, intermédiaire de la réaction de Mannich suffisamment stable pour être isolé et commercialisé. Son emploi dispense de former l'iminium in situ à partir du formaldéhyde et de la diméthylamine, et permet de conduire l'aminométhylation sur des énolates préformés dans des conditions anhydres.",
+    "explication_comprendre": "QU'EST-CE QUE C'EST ? L'intermédiaire de la réaction de Mannich, vendu en flacon.\n\nCE QUE CELA NOUS APPREND : quand un intermédiaire réactionnel devient un produit du catalogue, c'est le signe qu'il occupe un équilibre confortable — assez réactif pour servir, assez stable pour être pesé.\n\nÀ QUOI IL SERT EN PRATIQUE : au lieu de mélanger formol, amine et acide et d'espérer que l'iminium se forme correctement, on l'ajoute directement. On peut ainsi travailler à sec, sur un énolate déjà formé, avec un contrôle bien meilleur.\n\nET IL NE PEUT APPORTER QU'UN SEUL CH₂ — c'est tout l'intérêt, puisque c'est précisément ce que le formaldéhyde seul ne sait pas faire.",
+    "reactions_exemples": [
+      {
+        "nom": "Aminométhylation",
+        "substrat_SMILES": "O=C1CCCCC1",
+        "produit_SMILES": "CN(C)CC1CCCCC1=O",
+        "note": "L'iminium apporté tout fait"
+      }
+    ]
   }
 ]

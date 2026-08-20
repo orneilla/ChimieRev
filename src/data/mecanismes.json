@@ -7722,5 +7722,2293 @@
         "valide": false
       }
     ]
+  },
+  "aldolisation_crotonisation": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'hydroxyde arrache un proton en α",
+        "smiles": "[H]C([H])([H])C=O.[OH-]",
+        "legende": "Seule une trace d'énolate se forme : l'eau a un pKa de 15,7, l'acétaldéhyde environ 20 (Clayden p. 615). L'hydroxyde est donc trop faible pour énoliser complètement l'aldéhyde — et c'est exactement ce qu'il faut, car chaque énolate se retrouve entouré de molécules d'aldéhyde intactes.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde prend le proton en α."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le doublet de la liaison C–H devient la double liaison C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "Et la liaison π du carbonyle se replie sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C([H])=C[O-].O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate attaque un aldéhyde non énolisé",
+        "smiles": "[H]C([H])=C[O-].CC=O",
+        "legende": "C'EST L'ÉTAPE QUI COMPTE : la liaison carbone–carbone se fait ici. L'énolate porte sa charge sur l'oxygène mais attaque par le carbone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène rend sa charge en reformant le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone α attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle s'ouvre : l'oxygène devient alcoolate."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(C=O)C(C)[O-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'alcoolate prend un proton à l'eau",
+        "smiles": "[H]C([H])(C=O)C(C)[O-].O([H])[H]",
+        "legende": "L'eau formée à la première étape rend le proton. L'hydroxyde est régénéré : la base est un vrai catalyseur (Clayden p. 615). Le produit est le 3-hydroxybutanal — l'« aldol » qui a donné son nom à toute la famille.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate prend un proton à l'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "L'hydroxyde est régénéré."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(C=O)C(C)O[H].[OH-]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Crotonisation, premier temps : on énolise de nouveau",
+        "smiles": "[H]C([H])(C=O)C(C)O[H].[OH-]",
+        "legende": "On ne peut pas éliminer l'eau d'un alcool en milieu basique : HO⁻ est un mauvais groupe partant. C'est le carbonyle qui rend l'élimination possible — mécanisme E1cB, avec une seconde énolisation qui prépare le départ (Clayden p. 616).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base reprend un proton en α."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient la double liaison C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C(C(C)O[H])=C[O-].O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Crotonisation, second temps : l'hydroxyde s'en va",
+        "smiles": "[H]C(C(C)O[H])=C[O-]",
+        "legende": "L'énolate rend sa charge et pousse la double liaison d'un cran, ce qui éjecte l'hydroxyde. C'est la brique « B » du E1cB : le carbanion — ici stabilisé en énolate — se forme d'abord, le groupe partant s'en va ensuite.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'énolate reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison se déplace vers le carbone qui porte l'alcool."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.4,
+            "libelle": "Et l'hydroxyde part."
+          }
+        ],
+        "produit_attendu": "[H]C(C=O)=CC.[OH-]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC=CC=O",
+        "legende": "Le but-2-énal, ou crotonaldéhyde. Le moteur de la déshydratation est la conjugaison : C=C et C=O côte à côte forment un système stable, et c'est ce gain qui rend l'élimination irréversible.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "aldolisation_croisee_dirigee": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le LDA forme l'énolate cinétique, du côté du méthyle",
+        "smiles": "[H]C([H])([H])C(=O)CCC.CC(C)[N-]C(C)C",
+        "legende": "Trois raisons font gagner le méthyle (Clayden p. 634) : ses protons sont les plus acides, ils sont trois contre deux de l'autre côté, et l'autre côté est encombré pour une base aussi volumineuse que le LDA. À −78 °C, l'énolate formé ne s'équilibre pas.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le LDA prend un proton du méthyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient la double liaison C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C([H])=C([O-])CCC.CC(C)NC(C)C",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate, déjà formé en entier, rencontre le butanal",
+        "smiles": "[H]C([H])=C([O-])CCC.CCCC=O",
+        "legende": "TOUTE LA DIFFÉRENCE EST DANS L'ORDRE : l'énolate est formé quantitativement AVANT que l'aldéhyde n'arrive. Il ne reste plus de base pour énoliser le butanal, donc pas d'autocondensation de l'aldéhyde.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène rend sa charge en reformant le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                11
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone attaque l'aldéhyde."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "atome": 12
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle s'ouvre en alcoolate."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(C(=O)CCC)C([O-])CCC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Traitement acide : l'alcoolate devient alcool",
+        "smiles": "[H]C([H])(C(=O)CCC)C([O-])CCC.[O+]([H])([H])[H]",
+        "legende": "L'aldol est isolé avec 65 % de rendement (Clayden p. 634). Modeste — mais c'était la première fois qu'une aldolisation croisée entre une cétone dissymétrique et un aldéhyde énolisable donnait un seul produit.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                14
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate prend un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                13,
+                14
+              ]
+            },
+            "vers": {
+              "atome": 13
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau est restituée."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(C(=O)CCC)C(O[H])CCC.O",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'aldol, 65 %",
+        "smiles": "CCCC(=O)CC(O)CCC",
+        "legende": "L'aldol est stable et isolable : on n'est pas obligé de le déshydrater.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Et l'énone, 72 %, si on la veut",
+        "smiles": "CCCC(=O)C=CCCC",
+        "legende": "L'acide para-toluènesulfonique déshydrate ensuite l'aldol : c'est la déshydratation acido-catalysée déjà vue à la fiche « aldolisation et crotonisation ».",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "condensation_claisen": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'éthanolate énolise un peu d'ester",
+        "smiles": "[H]C([H])([H])C(=O)OCC.[O-]CC",
+        "legende": "On emploie l'éthanolate et non l'hydroxyde : l'hydroxyde hydrolyserait l'ester. L'équilibre est très défavorable — l'éthanol a un pKa d'environ 16, l'acétate d'éthyle d'environ 25 (Clayden p. 641). Il ne se forme qu'une trace d'énolate.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'éthanolate prend un proton en α."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C([H])=C([O-])OCC.OCC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate attaque un ester non énolisé",
+        "smiles": "[H]C([H])=C([O-])OCC.CC(=O)OCC",
+        "legende": "Jusqu'ici tout ressemble à l'aldolisation. L'énolate est en faible concentration, entouré de molécules d'ester intactes ; il en attaque une.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                9
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone attaque le carbonyle de l'ester."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène devient alcoolate : c'est l'intermédiaire tétraédrique."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(C(=O)OCC)C(C)([O-])OCC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ici l'ester diverge de l'aldéhyde : l'alcoolate part",
+        "smiles": "[H]C([H])(C(=O)OCC)C(C)([O-])OCC",
+        "legende": "VOILÀ LA DIFFÉRENCE. Dans l'aldolisation l'intermédiaire n'avait rien à expulser — un hydrure ne part pas. L'ester, lui, porte un éthanolate : l'intermédiaire tétraédrique s'effondre et redonne un carbonyle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": 0.35,
+            "libelle": "Et l'éthanolate est expulsé."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(C(=O)OCC)C(C)=O.[O-]CC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le moteur : la déprotonation irréversible du produit",
+        "smiles": "[H]C([H])(C(=O)OCC)C(C)=O.[O-]CC",
+        "legende": "C'EST CETTE ÉTAPE QUI FAIT MARCHER LA RÉACTION. L'acétylacétate a un pKa d'environ 10 : l'éthanolate, trop faible pour l'ester de départ, le déprotone complètement (Clayden p. 641). L'équilibre est tiré jusqu'au bout — au prix d'un équivalent entier de base, consommé et non catalytique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'éthanolate arrache le proton central."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie : l'énolate obtenu est stabilisé par deux carbonyles."
+          }
+        ],
+        "produit_attendu": "[H]C(C(C)=O)=C([O-])OCC.OCC",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient, après traitement acide",
+        "smiles": "CC(=O)CC(=O)OCC",
+        "legende": "L'acétylacétate d'éthyle — un β-cétoester. Il est si facile à préparer qu'on l'achète : c'est le réactif de départ des synthèses acétylacétiques.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "condensation_dieckmann": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'éthanolate énolise l'un des deux esters",
+        "smiles": "[H]C([H])(C(=O)OCC)CCCCC(=O)OCC.[O-]CC",
+        "legende": "Le diester est symétrique : peu importe lequel des deux côtés s'énolise. Comme dans la condensation de Claisen ordinaire, l'équilibre est défavorable et il ne se forme qu'une trace d'énolate.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 17
+            },
+            "vers": {
+              "liaison": [
+                17,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'éthanolate prend un proton en α."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C(CCCCC(=O)OCC)=C([O-])OCC.OCC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate attaque l'AUTRE ester, du même squelette",
+        "smiles": "[H]C(CCCCC(=O)OCC)=C([O-])OCC",
+        "legende": "Tout est dans la longueur de la chaîne : cinq carbones entre les deux esters, et la cyclisation referme un cycle à SIX. Un heptanedioate donne un cycle à six, un hexanedioate un cycle à cinq — au-delà, les rendements s'effondrent.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                11
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone α attaque l'autre ester : le cycle se ferme."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.35,
+            "libelle": "L'intermédiaire tétraédrique se forme."
+          }
+        ],
+        "produit_attendu": "[H]C1(C(=O)OCC)CCCCC1([O-])OCC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'intermédiaire tétraédrique expulse l'éthanolate",
+        "smiles": "[H]C1(C(=O)OCC)CCCCC1([O-])OCC",
+        "legende": "Même effondrement que dans le Claisen intermoléculaire. À la différence près qu'ici, le groupe partant n'emporte rien : le cycle est déjà formé.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                13
+              ]
+            },
+            "vers": {
+              "atome": 13
+            },
+            "courbure": 0.35,
+            "libelle": "L'éthanolate part."
+          }
+        ],
+        "produit_attendu": "[H]C1(C(=O)OCC)CCCCC1=O.[O-]CC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Et de nouveau la déprotonation qui tire tout",
+        "smiles": "[H]C1(C(=O)OCC)CCCCC1=O.[O-]CC",
+        "legende": "Le β-cétoester cyclique porte un proton encadré par deux carbonyles. L'éthanolate le prend, et l'équilibre bascule définitivement du côté du cycle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'éthanolate arrache le proton doublement activé."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.35,
+            "libelle": "L'énolate stabilisé se forme."
+          }
+        ],
+        "produit_attendu": "[O-]C(OCC)=C1CCCCC1=O.OCC",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "O=C1CCCCC1C(=O)OCC",
+        "legende": "Le 2-oxocyclohexanecarboxylate d'éthyle. Alkylé puis décarboxylé, il donne une 2-alkylcyclohexanone : la suite « Dieckmann, alkylation, décarboxylation » est l'une des voies les plus sûres vers les cyclopentanones et cyclohexanones substituées en 2 (McMurry p. 770).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "addition_michael": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'éthanolate déprotone l'acétylacétate d'éthyle",
+        "smiles": "CC(=O)C([H])([H])C(=O)OCC.[O-]CC",
+        "legende": "Le proton visé est encadré par deux carbonyles : son pKa tourne autour de 11. Une base ordinaire suffit, et il n'y a aucune ambiguïté sur le carbone déprotoné — un seul est encadré.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'éthanolate prend le proton central."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient la double liaison C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])=C([H])C(=O)OCC.OCC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate attaque le carbone β, et non le carbonyle",
+        "smiles": "CC([O-])=C([H])C(=O)OCC.CC(=O)C=C",
+        "legende": "QUATRE FLÈCHES EN CASCADE. L'énolate stabilisé n'attaque pas le carbone du carbonyle mais celui du bout de la double liaison — le carbone β. Les électrons de la liaison C=C remontent vers le carbonyle, qui s'ouvre à son tour : l'énone se retrouve énolate.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'oxygène rend sa charge en reformant le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                14
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone attaque le carbone β de l'énone."
+          },
+          {
+            "de": {
+              "liaison": [
+                13,
+                14
+              ]
+            },
+            "vers": {
+              "liaison": [
+                11,
+                13
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "La double liaison C=C se déplace vers le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "atome": 12
+            },
+            "courbure": 0.3,
+            "libelle": "Et le carbonyle s'ouvre : on obtient un énolate."
+          }
+        ],
+        "produit_attendu": "CC(=O)C([H])(C(=O)OCC)CC=C(C)[O-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'énolate reprend un proton — par le carbone",
+        "smiles": "CC(=O)C([H])(C(=O)OCC)CC=C(C)[O-].O([H])CC",
+        "legende": "L'éthanol du milieu rend le proton. L'énolate est ambident, mais c'est la protonation au carbone qui mène au produit stable : une cétone plutôt qu'un énol. Au passage, l'éthanolate est régénéré — la base est catalytique, contrairement à la condensation de Claisen.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                12
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "liaison": [
+                11,
+                16
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone prend le proton de l'éthanol."
+          },
+          {
+            "de": {
+              "liaison": [
+                15,
+                16
+              ]
+            },
+            "vers": {
+              "atome": 15
+            },
+            "courbure": -0.35,
+            "libelle": "L'éthanolate est régénéré."
+          }
+        ],
+        "produit_attendu": "CC(=O)C([H])(C(=O)OCC)CCC(C)=O.[O-]CC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)C(C(=O)OCC)CCC(C)=O",
+        "legende": "Un composé 1,5-dicarbonylé. C'est la signature de l'addition de Michael : chaque fois qu'une cible contient un motif 1,5-dicarbonylé, on la coupe mentalement entre le carbone β et le carbone γ, et l'addition de Michael la refait.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "annelation_robinson": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Une base faible suffit : la dicétone-1,3 est très acide",
+        "smiles": "O=C1C([H])([H])C(=O)CCC1.[O-]CC",
+        "legende": "Le proton visé est encadré par deux carbonyles. L'énolate formé est délocalisé sur trois atomes, donc stable — et c'est lui, et lui seul, qui va réagir.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base prend le proton central."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "[O-]C1=C([H])C(=O)CCC1.OCC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Premier acte : addition de Michael sur la butén-2-one",
+        "smiles": "[O-]C1=C([H])C(=O)CCC1.CC(=O)C=C",
+        "legende": "L'énolate stabilisé fait une addition conjuguée sur l'énone. C'est exactement la fiche « addition de Michael » : attaque en β, l'énone repart en énolate.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'oxygène rend sa charge."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                13
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone attaque le carbone β de l'énone."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                13
+              ]
+            },
+            "vers": {
+              "liaison": [
+                10,
+                12
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "La double liaison remonte vers le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": 0.3,
+            "libelle": "Qui s'ouvre en énolate."
+          }
+        ],
+        "produit_attendu": "O=C1C([H])(CC=C(C)[O-])C(=O)CCC1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Protonation : on peut isoler la tricétone",
+        "smiles": "O=C1C([H])(CC=C(C)[O-])C(=O)CCC1.O([H])CC",
+        "legende": "L'intermédiaire tricétonique est isolable — souvent on ne le fait pas et on enchaîne (Clayden p. 639). Trois carbonyles dans la même molécule : le décor est planté.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                15
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone prend le proton de l'éthanol."
+          },
+          {
+            "de": {
+              "liaison": [
+                14,
+                15
+              ]
+            },
+            "vers": {
+              "atome": 14
+            },
+            "courbure": -0.35,
+            "libelle": "La base est régénérée."
+          }
+        ],
+        "produit_attendu": "O=C1C([H])(CCC(C)=O)C(=O)CCC1.[O-]CC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Second acte : la base déprotone le méthyle terminal",
+        "smiles": "O=C1C([H])(CCC(=O)C([H])([H])[H])C(=O)CCC1.[O-]CC",
+        "legende": "Quatre positions sont énolisables et aucune n'est nettement favorisée. Mais une seule mène, après cyclisation, à un cycle à SIX portant une énone conjuguée. Les autres donnent des cycles à quatre ou des ponts, qui rebroussent chemin. Sous contrôle thermodynamique, tout finit par passer par la seule voie irréversible (Clayden p. 638).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 17
+            },
+            "vers": {
+              "liaison": [
+                17,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base prend un proton du méthyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "liaison": [
+                8,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "O=C1C([H])(CCC([O-])=C([H])[H])C(=O)CCC1.OCC",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Aldolisation intramoléculaire : le second cycle se ferme",
+        "smiles": "O=C1C([H])(CCC([O-])=C([H])[H])C(=O)CCC1",
+        "legende": "Le carbone de l'énolate atteint un carbonyle du cycle de départ. Comptez les atomes du nouveau cycle : six. C'est cette taille, et pas une autre, qui rend l'étape favorable.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                8,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone attaque le carbonyle du cycle : la jonction se fait."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": -0.35,
+            "libelle": "Qui s'ouvre en alcoolate."
+          }
+        ],
+        "produit_attendu": "[O-]C12C([H])(C(=O)CCC1)CCC(=O)C2",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "L'alcoolate prend un proton",
+        "smiles": "[O-]C12C([H])(C(=O)CCC1)CCC(=O)C2.O([H])CC",
+        "legende": "L'hydroxycétone bicyclique est isolable — Clayden signale qu'elle est cis, et qu'avec une amine secondaire comme base on l'obtient en excellent rendement (p. 639).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                15
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate prend son proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                14,
+                15
+              ]
+            },
+            "vers": {
+              "atome": 14
+            },
+            "courbure": 0.35,
+            "libelle": "La base est régénérée."
+          }
+        ],
+        "produit_attendu": "[H]OC12C([H])(C(=O)CCC1)CCC(=O)C2.[O-]CC",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Troisième acte : crotonisation, premier temps",
+        "smiles": "[H]OC12C([H])(C(=O)CCC1)CCC(=O)C2([H])[H].[O-]CC",
+        "legende": "Comme dans toute aldolisation, la déshydratation passe par un E1cB : on énolise d'abord, du côté qui permettra ensuite au groupe partant de s'en aller.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 17
+            },
+            "vers": {
+              "liaison": [
+                17,
+                15
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base prend un proton voisin du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                14,
+                15
+              ]
+            },
+            "vers": {
+              "liaison": [
+                14,
+                12
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                13
+              ]
+            },
+            "vers": {
+              "atome": 13
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "[H]OC12C([H])(C(=O)CCC1)CCC([O-])=C2[H].OCC",
+        "valide": false
+      },
+      {
+        "numero": 8,
+        "titre": "Crotonisation, second temps : l'hydroxyde s'en va",
+        "smiles": "[H]OC12C([H])(C(=O)CCC1)CCC([O-])=C2[H]",
+        "legende": "L'énolate rend sa charge, la double liaison se déplace, et l'hydroxyde part. Cette élimination est irréversible : c'est elle qui vide tous les équilibres précédents et fait que le seul produit isolé est l'énone à six chaînons.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                12
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'énolate reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                14
+              ]
+            },
+            "vers": {
+              "liaison": [
+                14,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison se déplace vers la jonction de cycles."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": -0.35,
+            "libelle": "Et l'hydroxyde s'en va."
+          }
+        ],
+        "produit_attendu": "O=C1CCCC2=CC(=O)CCC12[H].[H][O-]",
+        "valide": false
+      },
+      {
+        "numero": 9,
+        "titre": "Ce qu'on obtient",
+        "smiles": "O=C1CCCC2=CC(=O)CCC12",
+        "legende": "Une décalone conjuguée : deux cycles à six soudés, une énone. C'est le squelette des cycles A et B des stéroïdes — et c'est pour cela que Robinson a mis cette séquence au point.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reaction_mannich": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'amine attaque le formaldéhyde — pas la cétone",
+        "smiles": "CN([H])C.C=O",
+        "legende": "Deux composés carbonylés sont en présence ; l'amine choisit le plus électrophile, et c'est le formaldéhyde. Aucun acide n'est nécessaire pour cette addition (Clayden p. 621).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'azote attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbonyle s'ouvre en alcoolate."
+          }
+        ],
+        "produit_attendu": "C[N+]([H])(C)C[O-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'alcoolate prend un proton",
+        "smiles": "C[N+]([H])(C)C[O-].[O+]([H])([H])[H]",
+        "legende": "Premier des deux transferts qui neutralisent le zwitterion. Clayden écrit simplement « ±H » : on les détaille ici.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate prend un proton au milieu acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau est restituée."
+          }
+        ],
+        "produit_attendu": "C[N+]([H])(C)CO[H].O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Et l'azote rend le sien",
+        "smiles": "C[N+]([H])(C)CO[H].O([H])[H]",
+        "legende": "L'aminoalcool neutre est formé. C'est le même intermédiaire que dans la formation des imines : un hémiaminal.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                2
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend le proton de l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote redevient neutre."
+          }
+        ],
+        "produit_attendu": "CN(C)CO[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'acide protone l'alcool : on fabrique un groupe partant",
+        "smiles": "CN(C)CO[H].[O+]([H])([H])[H]",
+        "legende": "HO⁻ ne part pas ; H₂O part très bien. C'est la manœuvre habituelle en catalyse acide.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène prend un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau est restituée."
+          }
+        ],
+        "produit_attendu": "CN(C)C[O+]([H])[H].O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "L'eau part : voici le sel d'iminium",
+        "smiles": "CN(C)C[O+]([H])[H]",
+        "legende": "L'azote pousse son doublet et chasse l'eau. L'ion iminium obtenu est assez stable pour être vendu : l'iodure correspondant est le SEL D'ESCHENMOSER (Clayden p. 621).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote pousse son doublet."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.35,
+            "libelle": "Et l'eau s'en va."
+          }
+        ],
+        "produit_attendu": "C[N+](C)=C.O",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "L'énol de la cétone attaque l'iminium",
+        "smiles": "C[N+](C)=C.O([H])C1=CCCCC1",
+        "legende": "On est en milieu acide : c'est l'ÉNOL, pas l'énolate, qui joue le nucléophile. Moins réactif qu'un énolate, mais l'iminium est un électrophile suffisant — et surtout, il ne peut réagir qu'UNE FOIS.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'énol pousse son doublet."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone attaque le méthylène de l'iminium."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote reprend son doublet et redevient neutre."
+          }
+        ],
+        "produit_attendu": "CN(C)CC1CCCCC1=[O+][H]",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "L'eau reprend le proton",
+        "smiles": "CN(C)CC1CCCCC1=[O+][H].O([H])[H]",
+        "legende": "Le carbonyle est restitué et l'acide régénéré : HCl est bien catalytique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbonyle est restitué."
+          }
+        ],
+        "produit_attendu": "CN(C)CC1CCCCC1=O.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 8,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CN(C)CC1CCCCC1=O",
+        "legende": "Une β-aminocétone, qu'on appelle une BASE DE MANNICH. 85 % de rendement sur la cyclohexanone (Clayden p. 621). Beaucoup de médicaments appartiennent à cette classe.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "enamines_stork": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'énamine attaque le carbone β de l'énone",
+        "smiles": "C1CCCN1C2=CCCCC2.CC(=O)C=C",
+        "legende": "L'énamine est préparée d'avance à partir de la cyclohexanone et de la pyrrolidine (voir la fiche « imines et énamines »). Elle est NEUTRE — donc peu basique — mais assez nucléophile pour faire l'addition conjuguée : quatre flèches, exactement comme un énolate.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote pousse son doublet vers la double liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                15
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone attaque le carbone β de l'énone."
+          },
+          {
+            "de": {
+              "liaison": [
+                14,
+                15
+              ]
+            },
+            "vers": {
+              "liaison": [
+                12,
+                14
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La double liaison remonte vers le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                13
+              ]
+            },
+            "vers": {
+              "atome": 13
+            },
+            "courbure": 0.35,
+            "libelle": "Qui s'ouvre en énolate."
+          }
+        ],
+        "produit_attendu": "C1CCC[N+]1=C2CCCCC2CC=C(C)[O-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate reprend un proton par le carbone",
+        "smiles": "C1CCC[N+]1=C2CCCCC2CC=C(C)[O-].[O+]([H])([H])[H]",
+        "legende": "Le traitement aqueux acide rend le proton au carbone. Il reste un ion iminium — et une cétone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 15
+            },
+            "vers": {
+              "liaison": [
+                15,
+                13
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                13
+              ]
+            },
+            "vers": {
+              "liaison": [
+                12,
+                17
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                16,
+                17
+              ]
+            },
+            "vers": {
+              "atome": 16
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau est restituée."
+          }
+        ],
+        "produit_attendu": "C1CCC[N+]1=C2CCCCC2CCC(C)=O.O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "O=C1CCCCC1CCC(C)=O",
+        "legende": "L'hydrolyse de l'iminium — le mécanisme inverse de la formation des imines — restitue la cétone de départ, alkylée. Bilan : un composé 1,5-dicarbonylé, celui-là même qu'une addition de Michael aurait donné, mais sans base forte et sans autocondensation.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "condensation_knoevenagel": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'amine déprotone le malonate — et lui seul",
+        "smiles": "CCOC(=O)C([H])([H])C(=O)OCC.CCN([H])CC",
+        "legende": "TOUT SE JOUE SUR TROIS pKa (Clayden p. 629). L'ammonium de l'amine secondaire vaut environ 10 ; le malonate, environ 13 ; l'aldéhyde, environ 20. L'amine est donc assez basique pour énoliser le malonate, et pas assez pour toucher à l'aldéhyde. La sélectivité ne vient pas d'une astuce : elle vient d'un choix d'échelle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 15
+            },
+            "vers": {
+              "liaison": [
+                15,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'amine prend le proton central."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "CCOC([O-])=C([H])C(=O)OCC.CC[N+]([H])([H])CC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate attaque l'aldéhyde",
+        "smiles": "CCOC([O-])=C([H])C(=O)OCC.CCCC=O",
+        "legende": "Aldolisation ordinaire. L'aldéhyde ne peut pas s'énoliser dans ces conditions, donc il n'y a pas d'autocondensation à craindre : il ne joue qu'un rôle, celui d'électrophile.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                15
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone attaque l'aldéhyde."
+          },
+          {
+            "de": {
+              "liaison": [
+                15,
+                16
+              ]
+            },
+            "vers": {
+              "atome": 16
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle s'ouvre en alcoolate."
+          }
+        ],
+        "produit_attendu": "CCOC(=O)C([H])(C(=O)OCC)C([O-])CCC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'acide acétique tamponne et rend le proton",
+        "smiles": "CCOC(=O)C([H])(C(=O)OCC)C([O-])CCC.CC(=O)O[H]",
+        "legende": "L'acide carboxylique n'est pas là par hasard : il neutralise le produit au fur et à mesure et maintient le milieu assez peu basique pour que l'aldéhyde reste intact.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                21
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate prend le proton de l'acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                20,
+                21
+              ]
+            },
+            "vers": {
+              "atome": 20
+            },
+            "courbure": 0.35,
+            "libelle": "L'acétate est libéré."
+          }
+        ],
+        "produit_attendu": "CCOC(=O)C([H])(C(=O)OCC)C(O[H])CCC.CC(=O)[O-]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Déshydratation, premier temps : on énolise",
+        "smiles": "CCOC(=O)C([H])(C(=O)OCC)C(O[H])CCC.CCN([H])CC",
+        "legende": "Même E1cB que dans la crotonisation. Le proton retiré est celui du carbone encadré par les deux esters : il est très acide, donc l'énolisation est facile.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 20
+            },
+            "vers": {
+              "liaison": [
+                20,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'amine reprend le proton central."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "CCOC([O-])=C(C(=O)OCC)C(O[H])CCC.CC[N+]([H])([H])CC",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Second temps : l'hydroxyde s'en va",
+        "smiles": "CCOC([O-])=C(C(=O)OCC)C(O[H])CCC",
+        "legende": "L'élimination donne un alcène porteur de DEUX esters. C'est un accepteur de Michael de premier ordre — d'où l'usage constant du produit de Knoevenagel dans la suite d'une synthèse.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'énolate reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                11
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison se déplace."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "atome": 12
+            },
+            "courbure": -0.4,
+            "libelle": "Et l'hydroxyde part."
+          }
+        ],
+        "produit_attendu": "CCOC(=O)C(C(=O)OCC)=CCCC.[H][O-]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCC=C(C(=O)OCC)C(=O)OCC",
+        "legende": "Un alkylidènemalonate, 92 % de rendement sur cet exemple (Clayden p. 629). Si l'on part de l'acide malonique au lieu du diester, avec pipéridine et pyridine, la décarboxylation se fait toute seule pendant la réaction et l'on obtient directement l'acide α,β-insaturé : c'est la variante de Doebner (Clayden p. 630).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "malonique_acetylacetique": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Une base ordinaire suffit",
+        "smiles": "CCOC(=O)C([H])([H])C(=O)OCC.[O-]CC",
+        "legende": "Le proton central est encadré par deux carbonyles : son pKa est de 10 à 15 (Clayden p. 596), contre 25 pour un ester simple. Pas besoin de LDA ni de froid. On choisit l'éthanolate parce qu'il est identique à la partie alcool de l'ester : un autre alcoolate transestérifierait.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'éthanolate prend le proton central."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbonyle se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "CCOC([O-])=C([H])C(=O)OCC.OCC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Alkylation : une SN2 ordinaire",
+        "smiles": "CCOC([O-])=C([H])C(=O)OCC.CCCBr",
+        "legende": "Comme pour toute alkylation d'énolate, l'halogénure doit être PRIMAIRE, allylique ou benzylique. Ici encore aucune ambiguïté de régiochimie : un seul carbone est encadré par les deux esters.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'oxygène rend sa charge en reformant le C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                14
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone attaque l'halogénure."
+          },
+          {
+            "de": {
+              "liaison": [
+                14,
+                15
+              ]
+            },
+            "vers": {
+              "atome": 15
+            },
+            "courbure": 0.3,
+            "libelle": "Et le bromure s'en va."
+          }
+        ],
+        "produit_attendu": "CCOC(=O)C([H])(C(=O)OCC)CCC.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Après hydrolyse, la décarboxylation par un cycle à six centres",
+        "smiles": "CCCC(C(=O)O[H])C(=O)O[H]",
+        "legende": "LA DÉCARBOXYLATION N'EST POSSIBLE QUE PARCE QU'IL Y A UN SECOND CARBONYLE EN β (Clayden p. 597) : c'est lui qui reçoit le proton acide, et c'est l'énol qu'il permet de former qui rend la rupture C–C possible. Un acide carboxylique ordinaire ne se décarboxyle pas au chauffage.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                3,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "La liaison carbone–carbone se rompt et devient la double liaison de l'énol."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbonyle qui reste se replie sur son oxygène."
+          },
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                11
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Lequel prend le proton acide de l'autre acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                11
+              ]
+            },
+            "vers": {
+              "liaison": [
+                10,
+                8
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Et la liaison O–H devient la seconde double liaison du CO₂, qui s'échappe."
+          }
+        ],
+        "produit_attendu": "CCCC=C(O[H])O[H].O=C=O",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCCC(=O)O",
+        "legende": "L'énol se tautomérise aussitôt : on obtient l'acide pentanoïque. BILAN DE LA SYNTHÈSE MALONIQUE : un halogénure d'alkyle devient un acide carboxylique allongé de DEUX carbones (McMurry p. 742). Avec l'acétylacétate d'éthyle à la place du malonate, le même enchaînement transforme l'halogénure en méthylcétone allongée de TROIS carbones (McMurry p. 743).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }
