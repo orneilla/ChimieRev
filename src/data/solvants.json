@@ -97,5 +97,23 @@
     "type": "solvant polaire, à très basse température",
     "usage": "Solvant des réductions par métal dissous. Il dissout le lithium et le sodium en libérant des électrons solvatés, responsables de la coloration bleue intense caractéristique (Clayden p. 542). Il sert au même titre à la préparation des acétylures par NaNH₂.",
     "explication_comprendre": "Un gaz qu'on a refroidi jusqu'à ce qu'il devienne liquide : il faut descendre à −33 °C.\n\nPOURQUOI SE DONNER CETTE PEINE. Parce qu'il fait quelque chose qu'aucun autre solvant courant ne fait : il dissout les métaux alcalins.\n\nOn y jette un morceau de sodium, et au lieu de réagir violemment comme il le ferait dans l'eau, le métal se dissout tranquillement en laissant partir son électron.\n\nLA COULEUR. La solution devient d'un bleu profond. C'est la couleur des électrons libres, entourés de molécules d'ammoniac. Peu d'expériences de laboratoire sont aussi mémorables.\n\nEN PRATIQUE. On travaille dans un montage refroidi, sous atmosphère sèche, et l'odeur est celle des produits ménagers à l'ammoniaque — en beaucoup plus violent."
+  },
+  {
+    "id": "toluene",
+    "nom": "Toluène",
+    "nom_complet": "toluène C₆H₅CH₃",
+    "SMILES": "Cc1ccccc1",
+    "type": "solvant apolaire, à haut point d'ébullition",
+    "usage": "Solvant des réactions dont il faut retirer l'eau au fur et à mesure : acétalisations, formations d'imines et d'énamines. Porté au reflux, il entraîne l'eau sous forme d'azéotrope ; le mélange condensé se sépare en deux couches, et un appareil de Dean-Stark renvoie le toluène au ballon tout en piégeant l'eau (Clayden p. 228).",
+    "explication_comprendre": "Un solvant qu'on choisit pour ce qu'il fait en bouillant, pas pour ce qu'il dissout.\n\nLE PROBLÈME QU'IL RÉSOUT. Beaucoup de réactions fabriquent de l'eau — et cette eau peut tout défaire, puisque la réaction est un équilibre.\n\nCOMMENT IL S'Y PREND. Le toluène bout à 111 °C. Mais mélangé à l'eau, il forme un azéotrope qui bout plus bas encore, et qui emporte l'eau avec lui.\n\nOn condense la vapeur. Le toluène et l'eau ne se mélangent pas : ils se séparent en deux couches, l'eau au-dessous.\n\nL'APPAREIL DE DEAN-STARK. Un montage tout simple qui exploite cette séparation : l'eau reste piégée en bas, le toluène déborde et retourne au ballon.\n\nLa réaction tourne alors indéfiniment, en se débarrassant de son eau au fur et à mesure. On voit même l'eau s'accumuler dans le piège : on sait où en est la réaction rien qu'en regardant."
+  },
+  {
+    "id": "ether",
+    "nom": "Éther",
+    "nom_complet": "éther diéthylique Et₂O",
+    "SMILES": "CCOCC",
+    "type": "solvant aprotique, très volatil",
+    "usage": "Solvant des organométalliques et des hydrures puissants : ses doublets libres stabilisent les cations métalliques, et il ne possède aucun proton acide susceptible de détruire le réactif. Il s'emploie strictement anhydre (Clayden p. 133 ; McMurry p. 592).",
+    "explication_comprendre": "Le solvant des réactifs qui ne supportent pas l'eau.\n\nCE QU'IL N'A PAS. Aucun proton acide. C'est un solvant aprotique — le contraire de l'eau ou d'un alcool.\n\nCela paraît une absence ; c'est en réalité sa qualité principale. Un organomagnésien ou un hydrure d'aluminium détruirait n'importe quel solvant protique en une seconde.\n\nCE QU'IL A. Deux doublets libres sur son oxygène, qui viennent entourer les cations métalliques — Mg²⁺, Li⁺ — et les maintiennent en solution. Sans lui, l'organomagnésien précipiterait.\n\nÀ CRAINDRE. Il bout à 35 °C et ses vapeurs sont plus lourdes que l'air : elles rampent sur la paillasse et s'enflamment à distance. Et il forme lentement des peroxydes explosifs à la lumière. On ne distille jamais un vieux flacon d'éther jusqu'à sec."
   }
 ]

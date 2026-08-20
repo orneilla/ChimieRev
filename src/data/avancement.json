@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 37,
-  "verifiees": 35,
+  "redigees": 43,
+  "verifiees": 41,
   "relues": 0,
   "familles": [
     {
@@ -288,9 +288,9 @@
       "famille": "Additions sur le carbonyle",
       "bloc": "Socle organique",
       "total": 13,
-      "absente": 12,
+      "absente": 6,
       "redigee": 0,
-      "verifiee": 1,
+      "verifiee": 7,
       "relue": 0,
       "reactions": [
         {
@@ -298,49 +298,49 @@
           "niveau": "L2",
           "id": "reduction_nabh4",
           "statut": "verifiee",
-          "sources": false
+          "sources": true
         },
         {
           "nom": "Réduction par LiAlH₄",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reduction_lialh4",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Addition des organomagnésiens",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "grignard",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Hydratation et formation des hydrates",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydratation_carbonyle",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Acétalisation et protection des carbonyles",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "acetalisation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Formation des imines et des énamines",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "formation_imines_enamines",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Formation des cyanhydrines",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cyanhydrine",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Wittig",

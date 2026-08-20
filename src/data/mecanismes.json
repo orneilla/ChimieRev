@@ -3333,5 +3333,752 @@
         "valide": false
       }
     ]
+  },
+  "reduction_lialh4": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'hydrure part d'une liaison, jamais de la charge",
+        "smiles": "CC(C)=O.[Al-]([H])([H])([H])[H]",
+        "legende": "Attention au point de départ de la flèche : l'aluminium n'a pas de doublet libre. Ses huit électrons sont tous dans les liaisons Al–H. C'est donc d'une LIAISON qu'il faut partir, jamais de la charge négative — sans quoi on écrirait un aluminium à dix électrons, impossible.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons d'une liaison Al–H forment la liaison C–H. L'aluminium redevient neutre, trivalent."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.35,
+            "libelle": "Et les électrons de la double liaison C=O se replient sur l'oxygène, qui devient un alcoolate."
+          }
+        ],
+        "produit_attendu": "CC([H])([O-])C.[AlH3]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau rend son proton à l'alcoolate",
+        "smiles": "CC([H])([O-])C.[O+]([H])([H])[H]",
+        "legende": "L'alcoolate n'est pas le produit isolé : il faut un traitement aqueux acide pour le protoner. On appelle cela le « work-up », et il ne se fait qu'à la fin, quand tout l'hydrure a réagi.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'alcoolate va chercher un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC([H])(O[H])C.O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(C)O",
+        "legende": "Le propan-2-ol. Une cétone donne un alcool secondaire, un aldéhyde un alcool primaire. La réaction ne revient pas en arrière : il faudrait pour cela expulser un hydrure, qui est un très mauvais groupe partant.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "hydratation_carbonyle": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'eau attaque, et il en coûte une séparation de charges",
+        "smiles": "C=O.O",
+        "legende": "L'eau est un nucléophile faible, mais le formaldéhyde est un électrophile exceptionnel : rien ne gêne l'approche. L'intermédiaire porte deux charges opposées — c'est ce qui rend cette première étape coûteuse.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet de l'eau attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[O-]C[OH2+]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le proton saute d'un oxygène à l'autre",
+        "smiles": "[O-]C[O+]([H])[H]",
+        "legende": "Clayden le dit sans détour : on ne saura jamais exactement quel proton passe par où. En solution, des molécules d'eau font la navette. Écrire le saut direct, comme ici, n'est ni plus ni moins juste.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                3
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'oxygène chargé négativement va chercher le proton porté par l'autre."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "libelle": "Et l'oxygène qui le portait récupère ses électrons. Les deux charges disparaissent ensemble."
+          }
+        ],
+        "produit_attendu": "[H]OCO[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "OCO",
+        "legende": "Le méthanediol : deux OH sur le même carbone. En solution aqueuse, le formaldéhyde est entièrement sous cette forme — son signal en RMN du carbone 13 sort à 83 ppm, et non entre 150 et 200 ppm comme un vrai carbonyle.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "acetalisation": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide protone le carbonyle",
+        "smiles": "CC=O.[O+]([H])([H])[H]",
+        "legende": "Premier rôle de l'acide : rendre le carbonyle plus électrophile. Un oxygène chargé positivement tire bien plus fort sur les électrons — le carbone devient nettement plus attaquable.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet de l'oxygène du carbonyle va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC=[O+][H].O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'alcool attaque",
+        "smiles": "CC=[O+][H].CCO[H]",
+        "legende": "Maintenant que le carbone est appauvri, l'éthanol — nucléophile pourtant modeste — suffit à l'attaquer.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet de l'oxygène de l'alcool attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC(O[H])[O+]([H])CC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "On rend le proton : voilà l'hémiacétal",
+        "smiles": "CC(O[H])[O+]([H])CC.CCO[H]",
+        "legende": "Le proton emprunté au début est rendu. C'était bien un catalyseur. L'hémiacétal — un OH et un OR sur le même carbone — est en équilibre avec l'aldéhyde : il est rarement isolable.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule d'éthanol prend le proton en excès."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène récupère ses électrons et redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(O[H])OCC.CC[O+]([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Deuxième acte : on protone le OH",
+        "smiles": "CC(O[H])OCC.[O+]([H])([H])[H]",
+        "legende": "Pour aller plus loin il faut chasser cet OH. Or OH⁻ est un très mauvais groupe partant. On le protone donc : il devient H₂O, qui part très bien. C'est le deuxième rôle de l'acide.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'oxygène de l'hydroxyle va chercher un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC([O+]([H])[H])OCC.O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "L'eau part, et l'autre oxygène retient le carbone",
+        "smiles": "CC([O+]([H])[H])OCC",
+        "legende": "Le carbone se retrouverait chargé positivement — mais l'oxygène voisin ne le laisse pas seul : son doublet forme aussitôt une double liaison. On appelle cette espèce un ion oxonium, et c'est elle qui rend la suite si rapide.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "libelle": "La liaison carbone–oxygène se rompt, l'eau emporte les électrons."
+          },
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et le doublet de l'autre oxygène vient combler le carbone."
+          }
+        ],
+        "produit_attendu": "CC=[O+]CC.[H]O[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Un second alcool attaque",
+        "smiles": "CC=[O+]CC.CCO[H]",
+        "legende": "L'ion oxonium est très réactif. Une seconde molécule d'éthanol l'attaque — en rompant la liaison π, jamais la liaison σ.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet du second éthanol attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC(OCC)[O+]([H])CC",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Dernier proton rendu : l'acétal est formé",
+        "smiles": "CC(OCC)[O+]([H])CC.CCO[H]",
+        "legende": "Bilan : deux OR sur le même carbone, aucune charge, et le proton du départ rendu au milieu. L'acétal ne craint ni les bases, ni les nucléophiles, ni les hydrures — c'est ce qui en fait un groupe protecteur.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule d'éthanol prend le dernier proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(OCC)OCC.CC[O+]([H])[H]",
+        "valide": false
+      }
+    ]
+  },
+  "formation_imines_enamines": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'amine attaque le carbonyle",
+        "smiles": "CC=O.CN([H])[H]",
+        "legende": "L'azote est un meilleur nucléophile que l'oxygène : il est moins électronégatif, donc il tient moins fort à ses électrons. Il attaque sans avoir besoin d'être activé.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'azote attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])[N+](C)([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Un proton passe de l'azote à l'oxygène",
+        "smiles": "CC([O-])[N+](C)([H])[H]",
+        "legende": "Les deux charges s'annulent en un geste. Le produit s'appelle un hémiaminal, ou carbinolamine : un OH et un NH sur le même carbone. C'est le pendant azoté de l'hémiacétal.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                5
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'oxygène chargé négativement prend le proton de l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "L'azote récupère ses électrons et redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(O[H])N(C)[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'acide protone l'hydroxyle",
+        "smiles": "CC(O[H])N(C)[H].[O+]([H])([H])[H]",
+        "legende": "Même problème qu'avec l'acétal : OH⁻ ne part pas. On le protone pour en faire de l'eau. C'est ici, et seulement ici, que l'acide est indispensable.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'hydroxyle va chercher un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC([O+]([H])[H])N(C)[H].O",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'azote chasse l'eau",
+        "smiles": "CC([O+]([H])[H])N(C)[H]",
+        "legende": "Le doublet de l'azote pousse, l'eau part : on obtient un ion iminium, la double liaison carbone–azote portant une charge positive.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Le doublet de l'azote forme la double liaison C=N."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "libelle": "Et l'eau s'en va avec les électrons de la liaison."
+          }
+        ],
+        "produit_attendu": "CC=[N+](C)[H].[H]O[H]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "L'iminium perd son proton : voilà l'imine",
+        "smiles": "CC=[N+](C)[H].O",
+        "legende": "Une amine PRIMAIRE porte encore un hydrogène sur l'azote. Il suffit de le lui prendre pour neutraliser la charge. Le produit est une imine, aussi appelée base de Schiff.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule d'eau prend le proton de l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC=NC.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Avec une amine secondaire, le proton part du CARBONE",
+        "smiles": "[H]C([H])([H])C=[N+](C)C.O",
+        "legende": "Ici l'azote n'a plus d'hydrogène à céder : il en porte deux carbones. La charge doit partir autrement — et c'est un hydrogène du carbone voisin qui s'en va. La double liaison se déplace alors du C=N vers le C=C. Le produit est une énamine.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend un proton porté par le carbone voisin."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de cette liaison C–H forment la nouvelle double liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "Et les électrons de la double liaison C=N se replient sur l'azote, qui redevient neutre."
+          }
+        ],
+        "produit_attendu": "[H]C([H])=CN(C)C.[OH3+]",
+        "valide": false
+      }
+    ]
+  },
+  "cyanhydrine": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le cyanure attaque, à 107 degrés",
+        "smiles": "CC=O.[C-]#N",
+        "legende": "La HOMO du cyanure est une orbitale sp portée par le CARBONE, pas par l'azote : c'est donc le carbone qui attaque. Et il n'attaque pas perpendiculairement, mais à 107° — la trajectoire de Bürgi-Dunitz, mesurée sur des structures cristallines.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet du carbone du cyanure attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])C#N",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'alcoolate prend un proton",
+        "smiles": "CC([O-])C#N.[O+]([H])([H])[H]",
+        "legende": "Le milieu contient de l'acide cyanhydrique et de l'eau : le proton ne manque pas. L'alcoolate devient alcool.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate va chercher un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC(O[H])C#N.O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(O)C#N",
+        "legende": "Une cyanhydrine : un OH et un nitrile sur le même carbone. Elle est précieuse pour la suite — le nitrile s'hydrolyse en acide carboxylique, ou se réduit en amine. On a gagné un carbone.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

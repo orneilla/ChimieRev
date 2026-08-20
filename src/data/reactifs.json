@@ -636,5 +636,115 @@
     ],
     "explication_reference": "Réducteur monoélectronique employé dans les réductions par métal dissous. Le lithium ou le sodium dissous dans l'ammoniac liquide s'ionise en cation et en électrons solvatés e⁻(NH₃)ₙ, d'où la coloration bleue intense caractéristique. Ces électrons réduisent tout groupe fonctionnel possédant une orbitale π vacante de basse énergie : cycles aromatiques, alcynes, composés carbonylés. La réduction de l'ammoniac en amidure et dihydrogène, lente, laisse le champ à tout meilleur accepteur présent (Clayden p. 542).",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ fournir des électrons tout seuls.\n\nLA MANIPULATION, QUI EST SPECTACULAIRE\n\nOn refroidit de l'ammoniac jusqu'à ce qu'il devienne liquide, à −33 °C. On y jette un morceau de lithium ou de sodium.\n\nLe métal se dissout. Et la solution devient d'un bleu profond, intense, qu'on n'oublie pas.\n\nCe bleu, c'est la couleur des électrons libres en solution. Le métal a laissé partir son électron, et cet électron reste là, entouré de molécules d'ammoniac.\n\nPOURQUOI C'EST UTILE\n\nParce qu'un électron seul est le réducteur le plus petit et le plus pénétrant qui soit. Là où l'hydrogène et son catalyseur ne passent pas — dans un cycle aromatique, par exemple —, un électron passe.\n\nCE QU'IL FAUT SAVOIR AUSSI\n\nLe bleu pâlit. Les électrons finissent par attaquer l'ammoniac lui-même. Mais lentement : assez lentement pour que, si l'on a mis dans le mélange une molécule qui accepte mieux les électrons, ce soit elle qui les reçoive.\n\nC'est toute la stratégie de la réduction de Birch : laisser le meilleur receveur passer devant."
+  },
+  {
+    "id": "lialh4",
+    "nom": "LiAlH₄",
+    "nom_complet": "tétrahydruroaluminate de lithium",
+    "SMILES": "[Li+].[Al-]([H])([H])([H])[H]",
+    "role": "Il livre un hydrure — et il en livre à bien plus de fonctions que NaBH₄",
+    "anatomie_annotations": [
+      {
+        "partie": "les quatre liaisons Al–H",
+        "role": "C'est de LÀ que part la flèche, jamais de la charge : l'aluminium n'a aucun doublet libre. Tous ses électrons, charge comprise, sont dans ces liaisons."
+      },
+      {
+        "partie": "la charge négative",
+        "role": "Elle signale simplement que l'aluminium forme quatre liaisons au lieu de trois. Elle ne désigne pas un doublet posé sur lui."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_lialh4"
+    ],
+    "explication_reference": "Donneur d'hydrure employé pour la réduction des composés carbonylés. Son pouvoir réducteur excède largement celui du borohydrure de sodium : esters, acides carboxyliques, amides et nitriles sont réduits, alors que le borohydrure s'arrête aux aldéhydes et aux cétones. Les doubles liaisons carbone–carbone isolées demeurent intactes. Sa réactivité violente vis-à-vis de l'eau et des solvants protiques impose l'éther ou le tétrahydrofurane anhydres, et sa décomposition explosive au-delà de 120 °C en fait un réactif d'un maniement délicat (McMurry p. 592 ; Clayden p. 132).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ donner un hydrogène chargé négativement — un hydrure — à un carbone qui en manque.\n\nCE QU'IL FAUT ABSOLUMENT SAVOIR SUR LUI\n\nIl porte une charge négative. Et pourtant la flèche ne part JAMAIS de cette charge.\n\nPourquoi ? Parce que la charge ne désigne pas un doublet libre posé sur l'aluminium. Elle dit seulement que l'aluminium, qui devrait faire trois liaisons, en fait quatre.\n\nLes électrons en question sont DANS les liaisons Al–H. C'est de là que part la flèche.\n\nSi on partait de la charge, on obtiendrait un aluminium à cinq liaisons — dix électrons autour d'un atome qui n'a que quatre orbitales. Cela n'existe pas.\n\nLiAlH₄ CONTRE NaBH₄\n\nLe borohydrure est doux : il réduit les aldéhydes et les cétones, et rien d'autre. On peut même l'employer dans l'eau.\n\nL'hydrure d'aluminium est brutal : il réduit aussi les esters, les acides, les amides, les nitriles.\n\nEt la règle du métier est contre-intuitive : on prend TOUJOURS le plus faible des deux qui fasse le travail. Un réactif puissant ne discrimine pas — et en synthèse, ne pas discriminer, c'est tout détruire.\n\nÀ MANIPULER AVEC CRAINTE\n\nIl réagit violemment avec l'eau. Il se décompose de façon explosive au-dessus de 120 °C. On travaille dans l'éther sec, sous atmosphère sèche, et on ne verse l'eau qu'à la fin, lentement, en refroidissant."
+  },
+  {
+    "id": "tsoh",
+    "nom": "TsOH",
+    "nom_complet": "acide para-toluènesulfonique",
+    "SMILES": "Cc1ccc(cc1)S(=O)(=O)O",
+    "role": "Un acide aussi fort que l'acide sulfurique, mais solide et facile à peser",
+    "anatomie_annotations": [
+      {
+        "partie": "le groupe sulfonique SO₃H",
+        "role": "C'est lui qui donne le proton. Sa base conjuguée, le sulfonate, est très stable : la charge se répartit sur trois oxygènes."
+      },
+      {
+        "partie": "le cycle aromatique",
+        "role": "Il ne participe pas à l'acidité. Il rend simplement la molécule solide et cristallisée, donc pesable."
+      }
+    ],
+    "reactions_liees": [
+      "acetalisation"
+    ],
+    "explication_reference": "Acide sulfonique employé comme catalyseur acide en quantité catalytique, notamment dans la formation des acétals et des imines. Sa force est comparable à celle de l'acide sulfurique, mais il se présente en solide stable, aisément pesé et manipulé. Il est largement disponible et peu coûteux, étant obtenu comme sous-produit de la synthèse de la saccharine (Clayden p. 227).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ apporter des protons, quand une réaction en a besoin d'une trace pour démarrer.\n\nPOURQUOI PAS SIMPLEMENT DE L'ACIDE SULFURIQUE\n\nParce que l'acide sulfurique est un liquide corrosif, difficile à doser précisément, et qui apporte de l'eau — ce qui est fâcheux quand toute la difficulté de la réaction consiste justement à retirer l'eau.\n\nTsOH est un solide cristallisé. On le pèse comme on pèse du sel. Et il est aussi fort que l'acide sulfurique.\n\nUNE ANECDOTE QUI EN DIT LONG SUR L'INDUSTRIE CHIMIQUE\n\nIl est très bon marché — parce qu'on n'a pas besoin de le fabriquer exprès. C'est un sous-produit de la synthèse de la saccharine, l'édulcorant.\n\nBeaucoup de réactifs courants sont ainsi des déchets d'une autre production, devenus utiles. C'est aussi cela, la chimie durable."
+  },
+  {
+    "id": "menh2",
+    "nom": "MeNH₂",
+    "nom_complet": "méthylamine, amine primaire",
+    "SMILES": "CN",
+    "role": "Elle apporte l'azote qui remplacera l'oxygène du carbonyle",
+    "anatomie_annotations": [
+      {
+        "partie": "le doublet libre de l'azote",
+        "role": "C'est lui qui attaque. L'azote étant moins électronégatif que l'oxygène, il donne ses électrons plus volontiers : une amine est un bien meilleur nucléophile que l'eau ou un alcool."
+      },
+      {
+        "partie": "les hydrogènes portés par l'azote",
+        "role": "Ils décident de tout à la fin. S'il en reste un, on obtient une imine ; s'il n'en reste aucun — cas d'une amine secondaire —, on obtient une énamine."
+      }
+    ],
+    "reactions_liees": [
+      "formation_imines_enamines"
+    ],
+    "explication_reference": "Amine primaire modèle des condensations sur les composés carbonylés. Le doublet de l'azote assure l'addition initiale ; l'hydrogène résiduel porté par l'azote permet, après déshydratation, la neutralisation de l'ion iminium par déprotonation azotée, d'où l'imine. Une amine secondaire, dépourvue de cet hydrogène, conduit par déprotonation en α à une énamine (Clayden p. 231, 233-234). En milieu trop acide l'amine est protonée et perd son caractère nucléophile : d'où l'optimum de vitesse vers pH 4 à 6.",
+    "explication_comprendre": "À QUOI SERT-ELLE ?\n\nÀ remplacer l'oxygène d'un carbonyle par un azote.\n\nPOURQUOI ELLE ATTAQUE SI FACILEMENT\n\nParce que l'azote est moins électronégatif que l'oxygène. Il tient donc moins fort à ses électrons, et les partage plus volontiers.\n\nLà où il faut chauffer et catalyser pour faire réagir un alcool, une amine part toute seule.\n\nCE QUI COMPTE VRAIMENT : COMBIEN D'HYDROGÈNES SUR L'AZOTE\n\nC'est la seule question à se poser, et elle décide du produit.\n\nUn azote portant UN carbone et deux hydrogènes — une amine primaire — donnera une IMINE.\n\nUn azote portant DEUX carbones et un seul hydrogène — une amine secondaire — donnera une ÉNAMINE.\n\nLe mécanisme est identique jusqu'au bout ; seule la façon dont la charge finale s'évacue change.\n\nUN PARADOXE À CONNAÎTRE\n\nLa réaction a besoin d'acide pour chasser l'eau. Mais si on en met trop, l'acide protone l'amine — qui n'a plus de doublet et n'attaque plus rien.\n\nIl faut donc de l'acide, et pas trop : la réaction est la plus rapide vers pH 5, à peu près la neutralité. Comme dans le vivant."
+  },
+  {
+    "id": "nacn",
+    "nom": "NaCN",
+    "nom_complet": "cyanure de sodium",
+    "SMILES": "[C-]#N",
+    "role": "Il ajoute un carbone, et ce carbone deviendra ensuite un acide ou une amine",
+    "anatomie_annotations": [
+      {
+        "partie": "le doublet porté par le carbone",
+        "role": "C'est la HOMO de l'ion, une orbitale sp. C'est donc le CARBONE qui attaque, pas l'azote — contre-intuitif, mais c'est là que sont les électrons disponibles."
+      },
+      {
+        "partie": "la triple liaison C≡N",
+        "role": "Une fois fixée, elle s'hydrolyse en acide carboxylique ou se réduit en amine. C'est elle qui fait tout l'intérêt de la réaction."
+      }
+    ],
+    "reactions_liees": [
+      "cyanhydrine"
+    ],
+    "explication_reference": "Source d'ion cyanure pour la formation des cyanhydrines. L'orbitale haute occupée de l'anion est une orbitale sp centrée sur le carbone : l'attaque s'effectue par cet atome. L'addition est réversible, et son équilibre sensible à l'encombrement du composé carbonylé. Le nitrile obtenu est hydrolysable en acide carboxylique ou réductible en amine primaire, ce qui fait de la séquence une méthode d'homologation d'un carbone (Clayden p. 127-128, 139 ; McMurry p. 701).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ ajouter un carbone à une molécule.\n\nPAR QUEL BOUT ATTAQUE-T-IL\n\nPar le carbone. Pas par l'azote.\n\nCela surprend au premier abord, parce que l'azote semble le candidat naturel. Mais le doublet disponible — celui qui est le plus haut en énergie, donc le plus réactif — se trouve sur le carbone.\n\nOn écrit d'ailleurs l'ion ⁻C≡N : la charge est bien du côté du carbone.\n\nCE QU'IL DEVIENT ENSUITE\n\nUne fois fixé, le C≡N est un carrefour.\n\nChauffé en milieu acide aqueux, il devient un acide carboxylique.\n\nRéduit par LiAlH₄, il devient une amine.\n\nDans les deux cas, la molécule a gagné un carbone qu'elle n'avait pas.\n\nUN AVERTISSEMENT QUI N'EST PAS FORMEL\n\nLe cyanure est un poison violent, qui bloque la respiration cellulaire. En milieu acide il libère du gaz cyanhydrique.\n\nOn ne le manipule que sous hotte, jamais en présence d'acide non contrôlé, et jamais seul au laboratoire."
+  },
+  {
+    "id": "hcl",
+    "nom": "HCl",
+    "nom_complet": "acide chlorhydrique",
+    "SMILES": "Cl",
+    "role": "Il fournit les protons du milieu, et son anion ne gêne personne",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison H–Cl",
+        "role": "Très polarisée et très faible : en solution aqueuse elle est entièrement rompue. HCl est un acide fort."
+      },
+      {
+        "partie": "l'ion chlorure",
+        "role": "Nucléophile très médiocre en solution aqueuse, parce que l'eau le solvate étroitement. C'est un avantage : il apporte le proton sans venir s'ajouter là où on ne le veut pas."
+      }
+    ],
+    "reactions_liees": [
+      "cyanhydrine"
+    ],
+    "explication_reference": "Acide minéral fort employé pour protoner un alcoolate ou activer un électrophile. En solution aqueuse la dissociation est totale. L'ion chlorure, fortement solvaté, n'exerce qu'une nucléophilie faible dans ces conditions, ce qui permet d'apporter le proton sans introduire de réaction parasite. Sous forme de gaz sec, il sert également de catalyseur acide anhydre, notamment dans la formation des acétals (Clayden p. 227).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ donner un proton : pour rendre un électrophile plus vorace, ou pour protoner un alcoolate à la fin d'une réaction.\n\nPOURQUOI LUI PLUTÔT QU'UN AUTRE ACIDE\n\nParce que ce qu'il laisse derrière lui — l'ion chlorure — ne fait rien.\n\nEn solution aqueuse, le chlorure est entouré de molécules d'eau qui le retiennent. Il est donc mauvais nucléophile, et n'ira pas s'ajouter là où on ne l'attend pas.\n\nUn acide idéal, c'est un acide dont l'anion se tait.\n\nSOUS FORME DE GAZ SEC\n\nOn l'emploie aussi sans eau du tout : du gaz chlorhydrique barboté dans le mélange. C'est très commode pour catalyser une acétalisation, puisqu'on apporte l'acidité sans apporter l'eau qu'il faudrait ensuite retirer."
   }
 ]

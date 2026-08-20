@@ -215,32 +215,32 @@
         {
           "nom": "Réduction par LiAlH₄",
           "niveau": "L2",
-          "id": null
+          "id": "reduction_lialh4"
         },
         {
           "nom": "Addition des organomagnésiens",
           "niveau": "L2",
-          "id": null
+          "id": "grignard"
         },
         {
           "nom": "Hydratation et formation des hydrates",
           "niveau": "L2",
-          "id": null
+          "id": "hydratation_carbonyle"
         },
         {
           "nom": "Acétalisation et protection des carbonyles",
           "niveau": "L3",
-          "id": null
+          "id": "acetalisation"
         },
         {
           "nom": "Formation des imines et des énamines",
           "niveau": "L3",
-          "id": null
+          "id": "formation_imines_enamines"
         },
         {
           "nom": "Formation des cyanhydrines",
           "niveau": "L3",
-          "id": null
+          "id": "cyanhydrine"
         },
         {
           "nom": "Réaction de Wittig",

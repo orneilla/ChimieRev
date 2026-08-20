@@ -147,6 +147,26 @@
     "substrat": "reduction_birch-substrat.svg",
     "produit": "reduction_birch-produit.svg"
   },
+  "reduction_lialh4": {
+    "substrat": "reduction_lialh4-substrat.svg",
+    "produit": "reduction_lialh4-produit.svg"
+  },
+  "hydratation_carbonyle": {
+    "substrat": "hydratation_carbonyle-substrat.svg",
+    "produit": "hydratation_carbonyle-produit.svg"
+  },
+  "acetalisation": {
+    "substrat": "acetalisation-substrat.svg",
+    "produit": "acetalisation-produit.svg"
+  },
+  "formation_imines_enamines": {
+    "substrat": "formation_imines_enamines-substrat.svg",
+    "produit": "formation_imines_enamines-produit.svg"
+  },
+  "cyanhydrine": {
+    "substrat": "cyanhydrine-substrat.svg",
+    "produit": "cyanhydrine-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -248,6 +268,21 @@
   "li_metal": {
     "molecule": "reactif-li_metal.svg"
   },
+  "lialh4": {
+    "molecule": "reactif-lialh4.svg"
+  },
+  "tsoh": {
+    "molecule": "reactif-tsoh.svg"
+  },
+  "menh2": {
+    "molecule": "reactif-menh2.svg"
+  },
+  "nacn": {
+    "molecule": "reactif-nacn.svg"
+  },
+  "hcl": {
+    "molecule": "reactif-hcl.svg"
+  },
   "dcm": {
     "molecule": "solvant-dcm.svg"
   },
@@ -280,5 +315,11 @@
   },
   "nh3_liquide": {
     "molecule": "solvant-nh3_liquide.svg"
+  },
+  "toluene": {
+    "molecule": "solvant-toluene.svg"
+  },
+  "ether": {
+    "molecule": "solvant-ether.svg"
   }
 }

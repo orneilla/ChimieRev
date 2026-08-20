@@ -1180,5 +1180,249 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "reduction_lialh4": {
+    "1": {
+      "fichier": "reduction_lialh4-etape1.svg",
+      "titre": "L'hydrure part d'une liaison, jamais de la charge",
+      "legende": "Attention au point de départ de la flèche : l'aluminium n'a pas de doublet libre. Ses huit électrons sont tous dans les liaisons Al–H. C'est donc d'une LIAISON qu'il faut partir, jamais de la charge négative — sans quoi on écrirait un aluminium à dix électrons, impossible.",
+      "fleches": [
+        "Les électrons d'une liaison Al–H forment la liaison C–H. L'aluminium redevient neutre, trivalent.",
+        "Et les électrons de la double liaison C=O se replient sur l'oxygène, qui devient un alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_lialh4-etape2.svg",
+      "titre": "L'eau rend son proton à l'alcoolate",
+      "legende": "L'alcoolate n'est pas le produit isolé : il faut un traitement aqueux acide pour le protoner. On appelle cela le « work-up », et il ne se fait qu'à la fin, quand tout l'hydrure a réagi.",
+      "fleches": [
+        "Le doublet de l'alcoolate va chercher un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reduction_lialh4-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le propan-2-ol. Une cétone donne un alcool secondaire, un aldéhyde un alcool primaire. La réaction ne revient pas en arrière : il faudrait pour cela expulser un hydrure, qui est un très mauvais groupe partant.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydratation_carbonyle": {
+    "1": {
+      "fichier": "hydratation_carbonyle-etape1.svg",
+      "titre": "L'eau attaque, et il en coûte une séparation de charges",
+      "legende": "L'eau est un nucléophile faible, mais le formaldéhyde est un électrophile exceptionnel : rien ne gêne l'approche. L'intermédiaire porte deux charges opposées — c'est ce qui rend cette première étape coûteuse.",
+      "fleches": [
+        "Un doublet de l'eau attaque le carbone.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydratation_carbonyle-etape2.svg",
+      "titre": "Le proton saute d'un oxygène à l'autre",
+      "legende": "Clayden le dit sans détour : on ne saura jamais exactement quel proton passe par où. En solution, des molécules d'eau font la navette. Écrire le saut direct, comme ici, n'est ni plus ni moins juste.",
+      "fleches": [
+        "L'oxygène chargé négativement va chercher le proton porté par l'autre.",
+        "Et l'oxygène qui le portait récupère ses électrons. Les deux charges disparaissent ensemble."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydratation_carbonyle-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le méthanediol : deux OH sur le même carbone. En solution aqueuse, le formaldéhyde est entièrement sous cette forme — son signal en RMN du carbone 13 sort à 83 ppm, et non entre 150 et 200 ppm comme un vrai carbonyle.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "acetalisation": {
+    "1": {
+      "fichier": "acetalisation-etape1.svg",
+      "titre": "L'acide protone le carbonyle",
+      "legende": "Premier rôle de l'acide : rendre le carbonyle plus électrophile. Un oxygène chargé positivement tire bien plus fort sur les électrons — le carbone devient nettement plus attaquable.",
+      "fleches": [
+        "Un doublet de l'oxygène du carbonyle va chercher le proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "acetalisation-etape2.svg",
+      "titre": "L'alcool attaque",
+      "legende": "Maintenant que le carbone est appauvri, l'éthanol — nucléophile pourtant modeste — suffit à l'attaquer.",
+      "fleches": [
+        "Un doublet de l'oxygène de l'alcool attaque le carbone.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "acetalisation-etape3.svg",
+      "titre": "On rend le proton : voilà l'hémiacétal",
+      "legende": "Le proton emprunté au début est rendu. C'était bien un catalyseur. L'hémiacétal — un OH et un OR sur le même carbone — est en équilibre avec l'aldéhyde : il est rarement isolable.",
+      "fleches": [
+        "Une molécule d'éthanol prend le proton en excès.",
+        "L'oxygène récupère ses électrons et redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "acetalisation-etape4.svg",
+      "titre": "Deuxième acte : on protone le OH",
+      "legende": "Pour aller plus loin il faut chasser cet OH. Or OH⁻ est un très mauvais groupe partant. On le protone donc : il devient H₂O, qui part très bien. C'est le deuxième rôle de l'acide.",
+      "fleches": [
+        "Le doublet de l'oxygène de l'hydroxyle va chercher un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "acetalisation-etape5.svg",
+      "titre": "L'eau part, et l'autre oxygène retient le carbone",
+      "legende": "Le carbone se retrouverait chargé positivement — mais l'oxygène voisin ne le laisse pas seul : son doublet forme aussitôt une double liaison. On appelle cette espèce un ion oxonium, et c'est elle qui rend la suite si rapide.",
+      "fleches": [
+        "La liaison carbone–oxygène se rompt, l'eau emporte les électrons.",
+        "Et le doublet de l'autre oxygène vient combler le carbone."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "acetalisation-etape6.svg",
+      "titre": "Un second alcool attaque",
+      "legende": "L'ion oxonium est très réactif. Une seconde molécule d'éthanol l'attaque — en rompant la liaison π, jamais la liaison σ.",
+      "fleches": [
+        "Un doublet du second éthanol attaque le carbone.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "acetalisation-etape7.svg",
+      "titre": "Dernier proton rendu : l'acétal est formé",
+      "legende": "Bilan : deux OR sur le même carbone, aucune charge, et le proton du départ rendu au milieu. L'acétal ne craint ni les bases, ni les nucléophiles, ni les hydrures — c'est ce qui en fait un groupe protecteur.",
+      "fleches": [
+        "Une molécule d'éthanol prend le dernier proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "formation_imines_enamines": {
+    "1": {
+      "fichier": "formation_imines_enamines-etape1.svg",
+      "titre": "L'amine attaque le carbonyle",
+      "legende": "L'azote est un meilleur nucléophile que l'oxygène : il est moins électronégatif, donc il tient moins fort à ses électrons. Il attaque sans avoir besoin d'être activé.",
+      "fleches": [
+        "Le doublet de l'azote attaque le carbone.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "formation_imines_enamines-etape2.svg",
+      "titre": "Un proton passe de l'azote à l'oxygène",
+      "legende": "Les deux charges s'annulent en un geste. Le produit s'appelle un hémiaminal, ou carbinolamine : un OH et un NH sur le même carbone. C'est le pendant azoté de l'hémiacétal.",
+      "fleches": [
+        "L'oxygène chargé négativement prend le proton de l'azote.",
+        "L'azote récupère ses électrons et redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "formation_imines_enamines-etape3.svg",
+      "titre": "L'acide protone l'hydroxyle",
+      "legende": "Même problème qu'avec l'acétal : OH⁻ ne part pas. On le protone pour en faire de l'eau. C'est ici, et seulement ici, que l'acide est indispensable.",
+      "fleches": [
+        "Le doublet de l'hydroxyle va chercher un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "formation_imines_enamines-etape4.svg",
+      "titre": "L'azote chasse l'eau",
+      "legende": "Le doublet de l'azote pousse, l'eau part : on obtient un ion iminium, la double liaison carbone–azote portant une charge positive.",
+      "fleches": [
+        "Le doublet de l'azote forme la double liaison C=N.",
+        "Et l'eau s'en va avec les électrons de la liaison."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "formation_imines_enamines-etape5.svg",
+      "titre": "L'iminium perd son proton : voilà l'imine",
+      "legende": "Une amine PRIMAIRE porte encore un hydrogène sur l'azote. Il suffit de le lui prendre pour neutraliser la charge. Le produit est une imine, aussi appelée base de Schiff.",
+      "fleches": [
+        "Une molécule d'eau prend le proton de l'azote.",
+        "L'azote récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "formation_imines_enamines-etape6.svg",
+      "titre": "Avec une amine secondaire, le proton part du CARBONE",
+      "legende": "Ici l'azote n'a plus d'hydrogène à céder : il en porte deux carbones. La charge doit partir autrement — et c'est un hydrogène du carbone voisin qui s'en va. La double liaison se déplace alors du C=N vers le C=C. Le produit est une énamine.",
+      "fleches": [
+        "L'eau prend un proton porté par le carbone voisin.",
+        "Les électrons de cette liaison C–H forment la nouvelle double liaison carbone–carbone.",
+        "Et les électrons de la double liaison C=N se replient sur l'azote, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "cyanhydrine": {
+    "1": {
+      "fichier": "cyanhydrine-etape1.svg",
+      "titre": "Le cyanure attaque, à 107 degrés",
+      "legende": "La HOMO du cyanure est une orbitale sp portée par le CARBONE, pas par l'azote : c'est donc le carbone qui attaque. Et il n'attaque pas perpendiculairement, mais à 107° — la trajectoire de Bürgi-Dunitz, mesurée sur des structures cristallines.",
+      "fleches": [
+        "Le doublet du carbone du cyanure attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cyanhydrine-etape2.svg",
+      "titre": "L'alcoolate prend un proton",
+      "legende": "Le milieu contient de l'acide cyanhydrique et de l'eau : le proton ne manque pas. L'alcoolate devient alcool.",
+      "fleches": [
+        "L'alcoolate va chercher un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "cyanhydrine-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une cyanhydrine : un OH et un nitrile sur le même carbone. Elle est précieuse pour la suite — le nitrile s'hydrolyse en acide carboxylique, ou se réduit en amine. On a gagné un carbone.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
