@@ -283,22 +283,22 @@
         {
           "nom": "Estérification de Fischer",
           "niveau": "L2",
-          "id": null
+          "id": "esterification_fischer"
         },
         {
           "nom": "Saponification des esters",
           "niveau": "L2",
-          "id": null
+          "id": "saponification"
         },
         {
           "nom": "Hydrolyse des amides",
           "niveau": "L3",
-          "id": null
+          "id": "hydrolyse_amides"
         },
         {
           "nom": "Chlorures d’acyle : formation et réactivité",
           "niveau": "L3",
-          "id": null
+          "id": "chlorures_acyle"
         },
         {
           "nom": "Anhydrides : formation et réactivité",
@@ -308,7 +308,7 @@
         {
           "nom": "Transestérification",
           "niveau": "L3",
-          "id": null
+          "id": "transesterification"
         },
         {
           "nom": "Formation des amides (couplage peptidique)",
@@ -328,7 +328,7 @@
         {
           "nom": "Échelle de réactivité des dérivés d’acide",
           "niveau": "L3",
-          "id": null
+          "id": "echelle_reactivite_derives"
         }
       ],
       "bloc": "Socle organique"

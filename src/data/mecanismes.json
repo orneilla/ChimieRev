@@ -4570,5 +4570,859 @@
         "valide": false
       }
     ]
+  },
+  "echelle_reactivite_derives": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Toujours le même premier geste : on additionne",
+        "smiles": "CC(=O)Cl.CO[H]",
+        "legende": "Une substitution sur un carbonyle n'est jamais un déplacement direct. C'est d'abord une ADDITION — le nucléophile se pose, le carbone devient tétraédrique. Cet intermédiaire porte un nom qu'il faut connaître : l'intermédiaire tétraédrique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le nucléophile attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(Cl)[O+]([H])C",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Puis on élimine : le meilleur partant s'en va",
+        "smiles": "CC([O-])(Cl)[O+]([H])C",
+        "legende": "L'intermédiaire tétraédrique est instable : reformer une liaison C=O rapporte plus que ce que coûte la rupture d'une liaison C–X. Reste à savoir QUI part. La réponse tient en un mot : le groupe partant le plus stable, c'est-à-dire la base la plus faible.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène chargé négativement reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "Ce qui expulse le chlorure — base bien plus faible que l'alcoolate, donc bien meilleur partant."
+          }
+        ],
+        "produit_attendu": "CC(=O)[O+]([H])C.[Cl-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le chlorure emporte le proton",
+        "smiles": "CC(=O)[O+]([H])C.[Cl-]",
+        "legende": "Il reste à rendre le proton. Le chlorure s'en charge, et l'on obtient l'ester neutre plus HCl.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le chlorure prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(=O)OC.Cl",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'échelle, du plus réactif au moins",
+        "smiles": "CC(=O)Cl",
+        "legende": "Chlorure d'acyle > anhydride > ester > acide > amide. L'ordre suit une seule question : le groupe X est-il un bon partant ? Le chlorure l'est ; l'amidure ne l'est pas du tout. Et la même échelle, lue à l'envers, dit ce qu'on peut fabriquer à partir de quoi : on descend toujours l'échelle, jamais on ne la remonte.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "esterification_fischer": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide protone son propre carbonyle",
+        "smiles": "CC(=O)O[H].[O+]([H])([H])[H]",
+        "legende": "Un acide carboxylique est un électrophile médiocre, un alcool un nucléophile médiocre. Le catalyseur acide protone une petite fraction des molécules d'acide : celles-là deviennent extrêmement attaquables.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène du carbonyle va chercher un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC(=[O+][H])O[H].O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'alcool attaque",
+        "smiles": "CC(=[O+][H])O[H].CO[H]",
+        "legende": "Maintenant le carbone est assez appauvri pour qu'un simple méthanol l'attaque. On obtient l'intermédiaire tétraédrique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet du méthanol attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC(O[H])(O[H])[O+]([H])C",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "On rend un proton",
+        "smiles": "CC(O[H])(O[H])[O+]([H])C.CO[H]",
+        "legende": "L'intermédiaire redevient neutre. Il porte maintenant trois oxygènes : deux OH et un OMe. Trois groupes partants possibles, et aucun n'est bon tel quel.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule de méthanol prend le proton en excès."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(O[H])(O[H])OC.C[O+]([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'acide protone un OH : il devient de l'eau",
+        "smiles": "CC(O[H])(O[H])OC.[O+]([H])([H])[H]",
+        "legende": "Deuxième rôle du catalyseur, exactement comme dans l'acétalisation : HO⁻ ne part jamais, H₂O part très bien. Il suffit de protoner l'un des OH pour choisir qui s'en ira.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet d'un hydroxyle va chercher un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC([O+]([H])[H])(O[H])OC.O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "L'eau part, l'autre oxygène pousse",
+        "smiles": "CC([O+]([H])[H])(O[H])OC",
+        "legende": "L'intermédiaire tétraédrique s'effondre. Le carbonyle se reforme, et c'est l'eau qui s'en va : on a bien remplacé le OH de l'acide par le OMe de l'alcool.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "libelle": "La liaison carbone–oxygène se rompt, l'eau emporte les électrons."
+          },
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et le doublet de l'oxygène restant reforme la double liaison C=O."
+          }
+        ],
+        "produit_attendu": "CC(=[O+][H])OC.[H]O[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Dernier proton rendu",
+        "smiles": "CC(=[O+][H])OC.O",
+        "legende": "Le proton emprunté au début est rendu au milieu : l'acide était bien un catalyseur. On a l'ester.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule d'eau prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(=O)OC.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)OC",
+        "legende": "L'acétate de méthyle. Chaque étape est un équilibre : pour aller au bout, il faut soit un large excès d'alcool, soit retirer l'eau — par un déshydratant, ou en la distillant.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "saponification": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'hydroxyde attaque",
+        "smiles": "CC(=O)OC.[OH-]",
+        "legende": "Pas de catalyseur ici : l'hydroxyde est assez nucléophile pour attaquer directement. On obtient l'intermédiaire tétraédrique, chargé négativement.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(O)OC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'intermédiaire s'effondre en expulsant l'alcoolate",
+        "smiles": "CC([O-])(O)OC",
+        "legende": "Deux partants possibles : l'hydroxyde qu'on vient de mettre, ou le méthanolate. Leurs pKa sont voisins — environ 15 tous les deux —, donc les deux partent à peu près autant. La plupart du temps, l'hydroxyde repart et l'on revient au point de départ.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.4,
+            "libelle": "Et l'alcoolate s'en va."
+          }
+        ],
+        "produit_attendu": "CC(=O)O.[O-]C",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'étape qui rend tout irréversible",
+        "smiles": "CC(=O)O[H].[O-]C",
+        "legende": "Voilà pourquoi la réaction va au bout malgré un équilibre défavorable. L'alcoolate déprotone aussitôt l'acide formé. Or un carboxylate ne réagit plus avec les nucléophiles : il est piégé. C'est aussi pourquoi il faut au moins un équivalent de base, et non une quantité catalytique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate arrache le proton acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "Le carboxylate est formé. Il ne réagira plus."
+          }
+        ],
+        "produit_attendu": "CC(=O)[O-].CO",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)[O-]",
+        "legende": "Un carboxylate. Avec une longue chaîne grasse au bout, c'est du savon : le stéarate de sodium du suif, le palmitate de l'huile de palme. Une tête polaire, une queue apolaire — d'où le pouvoir lavant.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "transesterification": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "Le nouvel alcool attaque l'ester protoné",
+        "smiles": "CC(=[O+][H])OC.CCCCO[H]",
+        "legende": "Le début est celui de l'estérification de Fischer : l'acide protone le carbonyle. Puis le butanol attaque. L'intermédiaire tétraédrique porte alors DEUX groupes alcoxy différents — et c'est là que se joue la réaction.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet du butanol attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC(O[H])(OC)[O+]([H])CCCC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Lequel des deux part ? Celui qu'on protone",
+        "smiles": "CC(O[H])([O+]([H])C)OCCCC",
+        "legende": "Les deux alcoolates sont d'égale valeur comme groupes partants : la réaction ne choisit pas toute seule. C'est nous qui choisissons, en retirant du mélange l'alcool le plus volatil au fur et à mesure qu'il se forme.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'hydroxyle reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.4,
+            "libelle": "Et le méthanol s'en va. On le distille aussitôt : la réaction ne peut plus revenir en arrière."
+          }
+        ],
+        "produit_attendu": "CC(=[O+][H])OCCCC.CO",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCCOC(C)=O",
+        "legende": "L'ester de butyle, 94 % de rendement. Le méthanol distillé rend l'opération irréversible — sans lui, on aurait un équilibre entre les deux esters.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "hydrolyse_amides": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'hydroxyde attaque, mais il faut de la force",
+        "smiles": "CC(=O)N([H])[H].[OH-]",
+        "legende": "L'amide est le moins réactif de tous les dérivés d'acide : son azote donne ses électrons au carbonyle et l'appauvrit en charge positive. Seuls des nucléophiles puissants l'attaquent — l'hydroxyde concentré, à chaud.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(O)N([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Une seconde déprotonation : le dianion",
+        "smiles": "CC([O-])(O[H])N([H])[H].[OH-]",
+        "legende": "Ici est toute l'astuce. NH₂⁻ est une base épouvantable — le pKa de l'ion ammonium vaut 35 — et n'a presque aucune chance de partir face à un hydroxyde. À moins qu'on ne pousse beaucoup plus fort. La base déprotone donc l'hydroxyle : on obtient un dianion.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde arrache le proton de l'intermédiaire."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène garde les électrons : deux charges négatives sur le même carbone."
+          }
+        ],
+        "produit_attendu": "CC([O-])([O-])N([H])[H].O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Deux charges négatives poussent l'amidure dehors",
+        "smiles": "CC([O-])([O-])N([H])[H]",
+        "legende": "Deux oxygènes chargés négativement sur le même carbone : la situation est intenable. L'un des deux reforme la double liaison, et cette fois même NH₂⁻ finit par céder.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.4,
+            "libelle": "Et l'amidure est expulsé. Il arrachera aussitôt un proton au milieu."
+          }
+        ],
+        "produit_attendu": "CC(=O)[O-].[NH2-]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)[O-]",
+        "legende": "Le carboxylate, encore une fois. Conditions : soude à 10 % dans l'eau, 100 °C, une à trois heures — et davantage pour les amides secondaires et tertiaires, bien plus lents.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "chlorures_acyle": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide attaque le chlorure de thionyle",
+        "smiles": "CC(=O)O[H].O=S(Cl)Cl",
+        "legende": "On ne peut pas fabriquer un chlorure d'acyle avec HCl seul : il faut un composé du soufre ou du phosphore pour emporter l'oxygène. C'est l'acide lui-même qui attaque, par son oxygène hydroxyle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'acide attaque le soufre."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.4,
+            "libelle": "Un chlorure s'en va."
+          }
+        ],
+        "produit_attendu": "CC(=O)[O+]([H])S(=O)Cl.[Cl-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le chlorure emporte le proton",
+        "smiles": "CC(=O)[O+]([H])S(=O)Cl.[Cl-]",
+        "legende": "On obtient un anhydride mixte. Le OH de départ, jusque-là mauvais groupe partant, est devenu un excellent partant : c'est tout le rôle du chlorure de thionyle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le chlorure prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(=O)OS(=O)Cl.Cl",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le chlorure revient, et attaque le carbonyle",
+        "smiles": "CC(=O)OS(=O)Cl.[Cl-]",
+        "legende": "Le chlorure libéré à l'étape précédente sert de nucléophile. On retrouve l'addition habituelle : intermédiaire tétraédrique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le chlorure attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(Cl)OS(=O)Cl",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'effondrement, et deux gaz s'échappent",
+        "smiles": "CC([O-])(Cl)OS(=O)Cl",
+        "legende": "Quatre flèches. Le carbonyle se reforme, le groupe soufré part — et il se décompose aussitôt en dioxyde de soufre et en chlorure. Deux GAZ quittent le milieu : la réaction ne peut pas revenir en arrière, et le produit est pur.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.4,
+            "libelle": "Le groupe soufré s'en va."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Son oxygène forme aussitôt la seconde double liaison S=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "Et le chlorure est libéré. Il reste SO₂, un gaz."
+          }
+        ],
+        "produit_attendu": "CC(=O)Cl.O=S=O.[Cl-]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)Cl",
+        "legende": "Le chlorure d'acétyle : le plus réactif des dérivés d'acide, et le point de départ de tous les autres. Le pentachlorure de phosphore PCl₅ fait le même travail par un mécanisme analogue.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

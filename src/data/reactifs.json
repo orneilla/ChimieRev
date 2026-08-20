@@ -856,5 +856,77 @@
     ],
     "explication_reference": "Réducteur doux employé dans l'amination réductrice. Le groupe nitrile appauvrit le bore et diminue le caractère donneur des liaisons B–H, si bien que le réactif réduit rapidement les ions iminium — électrophiles nettement plus forts — sans toucher aux aldéhydes ni aux cétones. Clayden juxtapose les deux essais : 90 % de rendement sur un iminium, aucune réaction sur un aldéhyde. Le triacétoxyborohydrure de sodium constitue une alternative plus sûre, le cyanoborohydrure libérant de l'acide cyanhydrique en présence d'acide fort (p. 234).",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ réduire une chose sans toucher à l'autre, alors que les deux sont dans le même ballon.\n\nLE TOUR DE FORCE\n\nOn veut transformer une cétone en amine. Pour cela il faut d'abord former une imine, puis la réduire.\n\nMais si on met un réducteur ordinaire, il réduira la cétone AVANT que l'imine ait eu le temps de se former. On obtiendra un alcool.\n\nIl faut donc un réducteur capable de distinguer les deux.\n\nCOMMENT ON L'A FABRIQUÉ\n\nOn est parti du borohydrure de sodium, et on lui a accroché un groupe nitrile.\n\nCe nitrile tire les électrons du bore. Le bore, appauvri, retient mieux ses hydrogènes : il devient plus avare, plus lent à donner.\n\nRésultat : il n'a plus assez de force pour attaquer une cétone, mais il en a bien assez pour attaquer un iminium, qui porte une vraie charge positive.\n\nLA PREUVE\n\nClayden montre les deux essais côte à côte. Sur un iminium : 90 %. Sur un aldéhyde : rien.\n\nDANGER\n\nEn présence d'acide fort, il libère du cyanure d'hydrogène, qui tue.\n\nOn lui préfère aujourd'hui NaBH(OAc)₃ — le triacétoxyborohydrure — qui fait le même travail sans ce risque."
+  },
+  {
+    "id": "socl2",
+    "nom": "SOCl₂",
+    "nom_complet": "chlorure de thionyle",
+    "SMILES": "O=S(Cl)Cl",
+    "role": "Il change un OH en Cl, et ses déchets s'évaporent",
+    "anatomie_annotations": [
+      {
+        "partie": "le soufre électrophile",
+        "role": "C'est lui que l'oxygène de l'acide attaque. Le soufre accepte volontiers un cinquième partenaire, contrairement au carbone."
+      },
+      {
+        "partie": "les deux liaisons S–Cl",
+        "role": "L'une part au début pour laisser la place à l'oxygène ; l'autre part à la fin, et c'est ce chlorure qui vient s'installer sur le carbonyle."
+      },
+      {
+        "partie": "la liaison S=O",
+        "role": "À la fin, le soufre repart avec DEUX doubles liaisons S=O : c'est SO₂, un gaz. Il quitte le milieu, et la réaction ne revient plus."
+      }
+    ],
+    "reactions_liees": [
+      "chlorures_acyle"
+    ],
+    "explication_reference": "Réactif de chloration employé pour convertir les acides carboxyliques en chlorures d'acyle, et les alcools en chlorures d'alkyle. Il transforme un hydroxyle, nucléofuge médiocre, en un groupe partant excellent par formation d'un anhydride mixte ; l'attaque ultérieure du chlorure sur le carbonyle, puis l'effondrement de l'intermédiaire tétraédrique, libèrent le chlorure d'acyle, du dioxyde de soufre et du chlorure d'hydrogène. Le caractère gazeux des deux sous-produits rend l'opération irréversible et la purification immédiate. L'acide chlorhydrique seul est inopérant : un composé du soufre ou du phosphore est indispensable pour capter l'oxygène (Clayden p. 214-215).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ remplacer un OH par un Cl, sur un acide carboxylique ou sur un alcool.\n\nPOURQUOI ON NE PEUT PAS SE CONTENTER DE HCl\n\nParce qu'un OH ne s'en va pas tout seul. Il partirait sous forme d'hydroxyde — une base trop forte pour accepter d'être seule.\n\nIl faut donc quelqu'un pour EMPORTER cet oxygène. C'est le travail du soufre.\n\nCOMMENT IL S'Y PREND\n\nL'oxygène de l'acide se lie au soufre. À partir de cet instant, ce n'est plus un OH qui est accroché au carbonyle : c'est un groupe soufré, et celui-là part très bien.\n\nPuis un chlorure attaque le carbonyle, l'intermédiaire s'effondre, et le groupe soufré s'en va.\n\nLE DÉTAIL LE PLUS SATISFAISANT\n\nCe groupe soufré ne reste pas dans le ballon. Il se casse aussitôt en SO₂ et en chlorure.\n\nOr SO₂ est un gaz. Et le HCl formé aussi.\n\nDeux déchets qui s'évaporent : la réaction ne peut plus revenir en arrière, et il ne reste dans le ballon que le produit. Rien à purifier.\n\nÀ MANIPULER SOUS HOTTE\n\nIl réagit violemment avec l'eau — y compris l'humidité d'une verrerie mal séchée — en dégageant SO₂ et HCl. Son odeur est suffocante."
+  },
+  {
+    "id": "naoh",
+    "nom": "NaOH",
+    "nom_complet": "hydroxyde de sodium, soude",
+    "SMILES": "[OH-]",
+    "role": "Nucléophile et base à la fois — et ici, il est consommé",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion hydroxyde",
+        "role": "Assez nucléophile pour attaquer un ester sans aucune activation : pas besoin de catalyseur, contrairement à l'estérification."
+      },
+      {
+        "partie": "la charge négative",
+        "role": "Elle fait de lui un bien meilleur nucléophile que l'eau. Un anion attaque toujours mieux que la molécule neutre correspondante."
+      }
+    ],
+    "reactions_liees": [
+      "saponification",
+      "hydrolyse_amides"
+    ],
+    "explication_reference": "Base forte et nucléophile employée pour l'hydrolyse basique des esters et des amides. Son attaque directe sur le carbone carbonylé ne requiert aucune activation préalable. L'irréversibilité des hydrolyses qu'elle provoque ne tient pas à cette attaque, largement réversible, mais à la déprotonation finale de l'acide formé : le carboxylate obtenu est inerte vis-à-vis des nucléophiles. La base étant ainsi consommée, un équivalent au moins est nécessaire (Clayden p. 211-213).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ couper les esters et les amides, en attaquant directement leur carbonyle.\n\nPOURQUOI IL N'A BESOIN D'AUCUN CATALYSEUR\n\nParce qu'il est chargé négativement.\n\nUn anion est toujours un bien meilleur nucléophile que la molécule neutre dont il vient. L'eau doit être aidée ; l'hydroxyde attaque tout seul.\n\nCE QU'IL FAUT ABSOLUMENT RETENIR\n\nDans une saponification, la soude n'est PAS un catalyseur. Elle est consommée.\n\nÀ la fin, elle se retrouve dans le produit sous forme de sel — c'est le carboxylate de sodium, c'est-à-dire le savon.\n\nDonc il en faut au moins un équivalent. Une trace ne donnerait qu'une trace de produit.\n\nC'est la différence exacte avec l'estérification, où une goutte d'acide sulfurique suffit à traiter toute la prise."
+  },
+  {
+    "id": "meoh_reactif",
+    "nom": "Méthanol",
+    "nom_complet": "méthanol CH₃OH, comme réactif",
+    "SMILES": "CO",
+    "role": "Nucléophile faible, mais qu'on emploie en très grand excès",
+    "anatomie_annotations": [
+      {
+        "partie": "le doublet libre de l'oxygène",
+        "role": "C'est lui qui attaque. Mais l'oxygène est électronégatif : il ne donne ses électrons qu'à un électrophile bien réveillé — d'où la nécessité du catalyseur acide."
+      },
+      {
+        "partie": "le proton de l'hydroxyle",
+        "role": "Une base le retire pour donner le méthanolate, bien plus nucléophile : c'est la voie basique de la transestérification."
+      }
+    ],
+    "reactions_liees": [
+      "esterification_fischer",
+      "transesterification"
+    ],
+    "explication_reference": "Alcool employé à la fois comme réactif et comme solvant dans les estérifications et les transestérifications. Nucléophile faible, il n'attaque un acide carboxylique qu'après protonation de celui-ci ; son alcoolate, obtenu par une quantité catalytique de base, est en revanche un nucléophile puissant. Son emploi en large excès permet de déplacer l'équilibre d'estérification (Clayden p. 205, 208-209).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ apporter le groupe OMe d'un ester.\n\nPOURQUOI IL EST SI PEU PRESSÉ\n\nParce que son oxygène est électronégatif : il tient à ses électrons et ne les partage pas volontiers.\n\nClayden mesure cette faiblesse d'une façon parlante : une amine réagit avec l'anhydride acétique en quelques heures à température ambiante, un alcool met un temps considérable — mais un ALCOOLATE réagit en quelques secondes à 0 °C.\n\nDEUX FAÇONS DE L'AIDER\n\nSoit on réveille l'électrophile : une trace d'acide protone le carbonyle, qui devient assez affamé pour se contenter d'un alcool.\n\nSoit on renforce le nucléophile : une trace de base faible déprotone une petite fraction de l'alcool, et cette fraction-là fait tout le travail.\n\nNotez qu'il n'est pas nécessaire de déprotoner tout l'alcool. Une quantité catalytique de base suffit — c'est un point que Clayden souligne.\n\nSON AUTRE RÔLE\n\nOn l'emploie souvent comme SOLVANT en même temps que comme réactif.\n\nCe n'est pas de la paresse : c'est la façon la plus simple de déplacer un équilibre. En noyer un des partenaires, c'est forcer la réaction à aller vers l'autre."
   }
 ]

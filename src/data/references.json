@@ -1048,6 +1048,126 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "echelle_reactivite_derives": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "197–207",
+          "note": "Le cadre général : le produit d'addition sur un carbonyle n'est pas toujours stable, d'où la substitution en deux temps par un intermédiaire tétraédrique ; l'inventaire des dérivés d'acide ; l'analyse de l'instabilité des intermédiaires tétraédriques ; l'échelle de réactivité et sa mesure par l'hydrolyse — rapide à 20 °C pour un chlorure d'acyle, lente pour un anhydride, seulement à chaud avec catalyse pour un ester, et par chauffage prolongé en acide ou base forts pour un amide ; l'explication double, qualité du nucléofuge et conjugaison du doublet du substituant ; le lien entre pKa, nucléophilie et aptitude nucléofuge, qui varient en sens inverse ; la supériorité des anions sur les espèces neutres, un alcoolate réagissant en quelques secondes à 0 °C là où l'alcool met des heures ; et l'avertissement sur la force des liaisons, illustré par l'acide acétique dont la liaison la plus forte, O–H, est celle que toutes les réactions rompent."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "esterification_fischer": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "207–209",
+          "note": "L'impossibilité de la substitution en milieu basique — la base déprotone l'acide et l'on obtient un sel inerte ; la protonation réversible d'une faible proportion des molécules d'acide, qui les rend extrêmement électrophiles ; la formation de l'intermédiaire tétraédrique et l'analyse de ses trois groupes partants possibles, dont aucun n'est bon en l'état ; le second rôle du catalyseur, qui convertit un mauvais nucléofuge en bon ; le déplacement de l'équilibre par déshydratant — 57 % avec du gel de silice — ou par distillation azéotropique dans le benzène — 89 à 91 % sur l'acide lactique ; et la comparaison des trois voies d'accès aux esters, avec le conseil de métier sur l'échelle de travail."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "205",
+          "note": "Pourquoi la réaction ne marche ni dans un sens ni dans l'autre sans catalyse : l'eau est un mauvais nucléophile et le méthanolate un mauvais groupe partant, les pKa valant environ 15 des deux côtés. « On ne fabrique ni n'hydrolyse les esters de cette façon. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "211",
+          "note": "La preuve du mécanisme par marquage à l'oxygène 18, qui établit la substitution au carbone carbonylé et écarte la substitution au carbone saturé."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "saponification": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "210–211",
+          "note": "L'hydrolyse basique et son irréversibilité, due non pas à l'attaque de l'hydroxyde mais à la déprotonation immédiate de l'acide formé : « les carboxylates ne réagissent habituellement pas avec les nucléophiles, même bien plus forts que des alcools ». La conséquence pratique : au moins un équivalent de base est nécessaire, la base étant consommée. Et les trois expériences de marquage à l'oxygène 18 qui établissent le mécanisme, dont celle où un ester marqué sur son carbonyle cède une partie de son marqueur à l'eau, attestant l'existence de l'intermédiaire tétraédrique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "212",
+          "note": "L'encadré sur la saponification proprement dite : le suif de bœuf, tristéarate de glycérol, hydrolysé par la soude en stéarate de sodium, principal constituant du savon ; les savons plus fins issus de l'huile de palme et plus riches en palmitate ; les carboxylates de potassium des savons liquides ; et l'origine du pouvoir détergent, dans la coexistence d'une tête polaire et d'une queue apolaire."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "transesterification": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "209–210",
+          "note": "L'hydrolyse acide des esters et la transestérification, obtenues en inversant les conditions de l'estérification ; l'exemple à 94 % de rendement où le méthanol est distillé au fur et à mesure, rendant la réaction irréversible ; et l'encadré sur la fabrication des fibres de polyester, le Térylène ou Dacron étant le polyester de l'acide téréphtalique et de l'éthylène glycol."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
+          "pages": "224",
+          "note": "La catalyse basique, qui agit en accroissant la nucléophilie de l'alcool par déprotonation, et le rappel qu'un catalyseur ne déplace jamais la position d'un équilibre."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydrolyse_amides": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "212–213",
+          "note": "Les deux stratégies possibles : protoner l'amine pour en faire un bon groupe partant, ou l'expulser de force par de l'hydroxyde concentré ; la protonation exclusive sur l'oxygène et jamais sur l'azote, la protonation azotée détruisant la délocalisation qui fait la stabilité de l'amide, avec le pKa de −1 de l'amide protoné ; le mécanisme basique complet, avec la déprotonation qui engendre le dianion, seul capable d'expulser NH₂⁻ dont l'acide conjugué a un pKa de 35 ; l'irréversibilité due au carboxylate ; et les conditions : soude à 10 % dans l'eau, 100 °C, une à trois heures, davantage pour les amides secondaires et tertiaires."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "207",
+          "note": "Les amides ne réagissent comme électrophiles qu'avec des nucléophiles puissants tels que HO⁻, là où les chlorures d'acyle réagissent avec un simple alcool neutre."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "214",
+          "note": "L'hydrolyse des nitriles, qui passe par l'amide primaire : PhCN donne PhCO₂H à 80 % dans l'eau et l'acide sulfurique, 100 °C, trois heures, et le lien avec les cyanhydrines pour préparer l'acide mandélique à partir du benzaldéhyde."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "chlorures_acyle": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "214–215",
+          "note": "Le mécanisme complet de la formation des chlorures d'acyle par le chlorure de thionyle : attaque de l'oxygène de l'acide sur le soufre, perte d'un chlorure et d'un proton, retour du chlorure sur le carbonyle, effondrement de l'intermédiaire tétraédrique ; le fait que les sous-produits soient SO₂ et HCl, deux gaz perdus par le mélange ; l'avertissement que HCl seul ne suffit pas, un composé du soufre ou du phosphore étant nécessaire pour emporter l'oxygène ; et PCl₅ comme réactif alternatif, par un mécanisme analogue que l'ouvrage invite le lecteur à écrire lui-même."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "207",
+          "note": "Les chlorures d'acyle réagissent avec des nucléophiles même faibles, un alcool neutre par exemple, l'effet attracteur du chlore accroissant l'électrophilie du carbone carbonylé."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "31 — Aromatic heterocycles 2",
+          "pages": "747",
+          "note": "La limite du procédé pour la synthèse peptidique : les chlorures d'acyle d'acides aminés sont trop réactifs et conduisent à des réactions parasites, d'où l'emploi d'esters activés."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

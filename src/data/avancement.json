@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 48,
-  "verifiees": 45,
+  "redigees": 54,
+  "verifiees": 51,
   "relues": 0,
   "familles": [
     {
@@ -392,38 +392,38 @@
       "famille": "Substitution acyle",
       "bloc": "Socle organique",
       "total": 10,
-      "absente": 10,
+      "absente": 4,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 6,
       "relue": 0,
       "reactions": [
         {
           "nom": "Estérification de Fischer",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "esterification_fischer",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Saponification des esters",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "saponification",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Hydrolyse des amides",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydrolyse_amides",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Chlorures d’acyle : formation et réactivité",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "chlorures_acyle",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Anhydrides : formation et réactivité",
@@ -435,9 +435,9 @@
         {
           "nom": "Transestérification",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "transesterification",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Formation des amides (couplage peptidique)",
@@ -463,9 +463,9 @@
         {
           "nom": "Échelle de réactivité des dérivés d’acide",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "echelle_reactivite_derives",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

@@ -1588,5 +1588,298 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "echelle_reactivite_derives": {
+    "1": {
+      "fichier": "echelle_reactivite_derives-etape1.svg",
+      "titre": "Toujours le même premier geste : on additionne",
+      "legende": "Une substitution sur un carbonyle n'est jamais un déplacement direct. C'est d'abord une ADDITION — le nucléophile se pose, le carbone devient tétraédrique. Cet intermédiaire porte un nom qu'il faut connaître : l'intermédiaire tétraédrique.",
+      "fleches": [
+        "Le nucléophile attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "echelle_reactivite_derives-etape2.svg",
+      "titre": "Puis on élimine : le meilleur partant s'en va",
+      "legende": "L'intermédiaire tétraédrique est instable : reformer une liaison C=O rapporte plus que ce que coûte la rupture d'une liaison C–X. Reste à savoir QUI part. La réponse tient en un mot : le groupe partant le plus stable, c'est-à-dire la base la plus faible.",
+      "fleches": [
+        "L'oxygène chargé négativement reforme la double liaison C=O.",
+        "Ce qui expulse le chlorure — base bien plus faible que l'alcoolate, donc bien meilleur partant."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "echelle_reactivite_derives-etape3.svg",
+      "titre": "Le chlorure emporte le proton",
+      "legende": "Il reste à rendre le proton. Le chlorure s'en charge, et l'on obtient l'ester neutre plus HCl.",
+      "fleches": [
+        "Le chlorure prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "echelle_reactivite_derives-etape4.svg",
+      "titre": "L'échelle, du plus réactif au moins",
+      "legende": "Chlorure d'acyle > anhydride > ester > acide > amide. L'ordre suit une seule question : le groupe X est-il un bon partant ? Le chlorure l'est ; l'amidure ne l'est pas du tout. Et la même échelle, lue à l'envers, dit ce qu'on peut fabriquer à partir de quoi : on descend toujours l'échelle, jamais on ne la remonte.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "esterification_fischer": {
+    "1": {
+      "fichier": "esterification_fischer-etape1.svg",
+      "titre": "L'acide protone son propre carbonyle",
+      "legende": "Un acide carboxylique est un électrophile médiocre, un alcool un nucléophile médiocre. Le catalyseur acide protone une petite fraction des molécules d'acide : celles-là deviennent extrêmement attaquables.",
+      "fleches": [
+        "L'oxygène du carbonyle va chercher un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "esterification_fischer-etape2.svg",
+      "titre": "L'alcool attaque",
+      "legende": "Maintenant le carbone est assez appauvri pour qu'un simple méthanol l'attaque. On obtient l'intermédiaire tétraédrique.",
+      "fleches": [
+        "Un doublet du méthanol attaque le carbone.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "esterification_fischer-etape3.svg",
+      "titre": "On rend un proton",
+      "legende": "L'intermédiaire redevient neutre. Il porte maintenant trois oxygènes : deux OH et un OMe. Trois groupes partants possibles, et aucun n'est bon tel quel.",
+      "fleches": [
+        "Une molécule de méthanol prend le proton en excès.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "esterification_fischer-etape4.svg",
+      "titre": "L'acide protone un OH : il devient de l'eau",
+      "legende": "Deuxième rôle du catalyseur, exactement comme dans l'acétalisation : HO⁻ ne part jamais, H₂O part très bien. Il suffit de protoner l'un des OH pour choisir qui s'en ira.",
+      "fleches": [
+        "Le doublet d'un hydroxyle va chercher un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "esterification_fischer-etape5.svg",
+      "titre": "L'eau part, l'autre oxygène pousse",
+      "legende": "L'intermédiaire tétraédrique s'effondre. Le carbonyle se reforme, et c'est l'eau qui s'en va : on a bien remplacé le OH de l'acide par le OMe de l'alcool.",
+      "fleches": [
+        "La liaison carbone–oxygène se rompt, l'eau emporte les électrons.",
+        "Et le doublet de l'oxygène restant reforme la double liaison C=O."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "esterification_fischer-etape6.svg",
+      "titre": "Dernier proton rendu",
+      "legende": "Le proton emprunté au début est rendu au milieu : l'acide était bien un catalyseur. On a l'ester.",
+      "fleches": [
+        "Une molécule d'eau prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "esterification_fischer-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'acétate de méthyle. Chaque étape est un équilibre : pour aller au bout, il faut soit un large excès d'alcool, soit retirer l'eau — par un déshydratant, ou en la distillant.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "saponification": {
+    "1": {
+      "fichier": "saponification-etape1.svg",
+      "titre": "L'hydroxyde attaque",
+      "legende": "Pas de catalyseur ici : l'hydroxyde est assez nucléophile pour attaquer directement. On obtient l'intermédiaire tétraédrique, chargé négativement.",
+      "fleches": [
+        "L'hydroxyde attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "saponification-etape2.svg",
+      "titre": "L'intermédiaire s'effondre en expulsant l'alcoolate",
+      "legende": "Deux partants possibles : l'hydroxyde qu'on vient de mettre, ou le méthanolate. Leurs pKa sont voisins — environ 15 tous les deux —, donc les deux partent à peu près autant. La plupart du temps, l'hydroxyde repart et l'on revient au point de départ.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "Et l'alcoolate s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "saponification-etape3.svg",
+      "titre": "L'étape qui rend tout irréversible",
+      "legende": "Voilà pourquoi la réaction va au bout malgré un équilibre défavorable. L'alcoolate déprotone aussitôt l'acide formé. Or un carboxylate ne réagit plus avec les nucléophiles : il est piégé. C'est aussi pourquoi il faut au moins un équivalent de base, et non une quantité catalytique.",
+      "fleches": [
+        "L'alcoolate arrache le proton acide.",
+        "Le carboxylate est formé. Il ne réagira plus."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "saponification-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un carboxylate. Avec une longue chaîne grasse au bout, c'est du savon : le stéarate de sodium du suif, le palmitate de l'huile de palme. Une tête polaire, une queue apolaire — d'où le pouvoir lavant.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "transesterification": {
+    "2": {
+      "fichier": "transesterification-etape2.svg",
+      "titre": "Le nouvel alcool attaque l'ester protoné",
+      "legende": "Le début est celui de l'estérification de Fischer : l'acide protone le carbonyle. Puis le butanol attaque. L'intermédiaire tétraédrique porte alors DEUX groupes alcoxy différents — et c'est là que se joue la réaction.",
+      "fleches": [
+        "Un doublet du butanol attaque le carbone.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "transesterification-etape3.svg",
+      "titre": "Lequel des deux part ? Celui qu'on protone",
+      "legende": "Les deux alcoolates sont d'égale valeur comme groupes partants : la réaction ne choisit pas toute seule. C'est nous qui choisissons, en retirant du mélange l'alcool le plus volatil au fur et à mesure qu'il se forme.",
+      "fleches": [
+        "Le doublet de l'hydroxyle reforme la double liaison C=O.",
+        "Et le méthanol s'en va. On le distille aussitôt : la réaction ne peut plus revenir en arrière."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "transesterification-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'ester de butyle, 94 % de rendement. Le méthanol distillé rend l'opération irréversible — sans lui, on aurait un équilibre entre les deux esters.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydrolyse_amides": {
+    "1": {
+      "fichier": "hydrolyse_amides-etape1.svg",
+      "titre": "L'hydroxyde attaque, mais il faut de la force",
+      "legende": "L'amide est le moins réactif de tous les dérivés d'acide : son azote donne ses électrons au carbonyle et l'appauvrit en charge positive. Seuls des nucléophiles puissants l'attaquent — l'hydroxyde concentré, à chaud.",
+      "fleches": [
+        "L'hydroxyde attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydrolyse_amides-etape2.svg",
+      "titre": "Une seconde déprotonation : le dianion",
+      "legende": "Ici est toute l'astuce. NH₂⁻ est une base épouvantable — le pKa de l'ion ammonium vaut 35 — et n'a presque aucune chance de partir face à un hydroxyde. À moins qu'on ne pousse beaucoup plus fort. La base déprotone donc l'hydroxyle : on obtient un dianion.",
+      "fleches": [
+        "L'hydroxyde arrache le proton de l'intermédiaire.",
+        "L'oxygène garde les électrons : deux charges négatives sur le même carbone."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydrolyse_amides-etape3.svg",
+      "titre": "Deux charges négatives poussent l'amidure dehors",
+      "legende": "Deux oxygènes chargés négativement sur le même carbone : la situation est intenable. L'un des deux reforme la double liaison, et cette fois même NH₂⁻ finit par céder.",
+      "fleches": [
+        "Un oxygène reforme la double liaison C=O.",
+        "Et l'amidure est expulsé. Il arrachera aussitôt un proton au milieu."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "hydrolyse_amides-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le carboxylate, encore une fois. Conditions : soude à 10 % dans l'eau, 100 °C, une à trois heures — et davantage pour les amides secondaires et tertiaires, bien plus lents.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "chlorures_acyle": {
+    "1": {
+      "fichier": "chlorures_acyle-etape1.svg",
+      "titre": "L'acide attaque le chlorure de thionyle",
+      "legende": "On ne peut pas fabriquer un chlorure d'acyle avec HCl seul : il faut un composé du soufre ou du phosphore pour emporter l'oxygène. C'est l'acide lui-même qui attaque, par son oxygène hydroxyle.",
+      "fleches": [
+        "L'oxygène de l'acide attaque le soufre.",
+        "Un chlorure s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "chlorures_acyle-etape2.svg",
+      "titre": "Le chlorure emporte le proton",
+      "legende": "On obtient un anhydride mixte. Le OH de départ, jusque-là mauvais groupe partant, est devenu un excellent partant : c'est tout le rôle du chlorure de thionyle.",
+      "fleches": [
+        "Le chlorure prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "chlorures_acyle-etape3.svg",
+      "titre": "Le chlorure revient, et attaque le carbonyle",
+      "legende": "Le chlorure libéré à l'étape précédente sert de nucléophile. On retrouve l'addition habituelle : intermédiaire tétraédrique.",
+      "fleches": [
+        "Le chlorure attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "chlorures_acyle-etape4.svg",
+      "titre": "L'effondrement, et deux gaz s'échappent",
+      "legende": "Quatre flèches. Le carbonyle se reforme, le groupe soufré part — et il se décompose aussitôt en dioxyde de soufre et en chlorure. Deux GAZ quittent le milieu : la réaction ne peut pas revenir en arrière, et le produit est pur.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "Le groupe soufré s'en va.",
+        "Son oxygène forme aussitôt la seconde double liaison S=O.",
+        "Et le chlorure est libéré. Il reste SO₂, un gaz."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "chlorures_acyle-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le chlorure d'acétyle : le plus réactif des dérivés d'acide, et le point de départ de tous les autres. Le pentachlorure de phosphore PCl₅ fait le même travail par un mécanisme analogue.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
