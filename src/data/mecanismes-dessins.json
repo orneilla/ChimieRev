@@ -1049,5 +1049,136 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "dihydroxylation_syn": {
+    "1": {
+      "fichier": "dihydroxylation_syn-etape1.svg",
+      "titre": "Trois flèches en rond : la cycloaddition",
+      "legende": "Les flèches tournent en cercle et reviennent à leur point de départ : Clayden appelle cela un mécanisme péricyclique. Les deux liaisons carbone–oxygène se font en même temps, donc forcément du même côté de l'alcène. L'osmium(VIII) devient osmium(VI).",
+      "fleches": [
+        "La double liaison attaque l'un des oxygènes : première liaison carbone–oxygène.",
+        "Les électrons de cette liaison Os=O se replient sur l'osmium : c'est là qu'il passe de (VIII) à (VI).",
+        "Et une autre liaison Os=O forme la seconde liaison carbone–oxygène. La boucle est bouclée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "dihydroxylation_syn-etape2.svg",
+      "titre": "L'eau libère le diol",
+      "legende": "L'ester d'osmium est hydrolysé sur-le-champ. Les deux OH restent là où les oxygènes s'étaient posés : du même côté. C'est un diol syn.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "ozonolyse": {
+    "1": {
+      "fichier": "ozonolyse-etape1.svg",
+      "titre": "L'ozone s'additionne en cercle",
+      "legende": "L'ozone est un dipôle : un oxygène central positif, deux oxygènes extérieurs qui se partagent une charge négative. Il se referme sur l'alcène en trois flèches, comme une pince. Le produit est un cycle à cinq, avec trois oxygènes de suite.",
+      "fleches": [
+        "Le doublet de l'oxygène chargé négativement attaque le premier carbone.",
+        "La double liaison attaque l'oxygène de l'autre bout.",
+        "Et les électrons de la double liaison O=O se replient sur l'oxygène central, qui perd sa charge."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "ozonolyse-etape2.svg",
+      "titre": "Le cycle s'effondre",
+      "legende": "Trois oxygènes à la file, c'est intenable. Le cycle se rompt — et il coupe au passage la liaison carbone–carbone. On perd une liaison O–O faible, on gagne deux liaisons C=O fortes : l'affaire est excellente.",
+      "fleches": [
+        "Un doublet de l'oxygène de droite forme la double liaison C=O.",
+        "La liaison carbone–carbone se rompt : c'est ici que la molécule est coupée en deux. Ses électrons forment l'autre C=O.",
+        "Et la liaison O–O se rompt, ses électrons restant sur l'oxygène du milieu."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "ozonolyse-etape3.svg",
+      "titre": "Ce qu'on isole",
+      "legende": "L'oxyde de carbonyle est réduit par le sulfure de diméthyle ou la triphénylphosphine — Clayden précise que ce mécanisme-là est plus compliqué, et ne le détaille pas. Bilan : deux aldéhydes, là où il y avait une double liaison.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "cyclopropanation_simmons_smith": {
+    "1": {
+      "fichier": "cyclopropanation_simmons_smith-etape1.svg",
+      "titre": "Le carbénoïde transfère son CH₂",
+      "legende": "Le carbénoïde de zinc n'est pas un carbène libre : le CH₂ reste tenu par le zinc d'un côté et par l'iode de l'autre. Il passe pourtant à l'alcène d'un seul mouvement, sans jamais être libre — d'où la stéréospécificité.",
+      "fleches": [
+        "La double liaison attaque le carbone du carbénoïde : première liaison carbone–carbone.",
+        "Les électrons de la liaison carbone–zinc forment la seconde liaison carbone–carbone : le cycle à trois est fermé.",
+        "Et l'iode passe sur le zinc. Il ne reste que ZnI₂."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cyclopropanation_simmons_smith-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le norcarane, 86 à 92 % de rendement. Le CH₂ s'est posé sur une seule face : la géométrie de l'alcène de départ se retrouve intacte dans le cyclopropane.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydratation_alcyne": {
+    "2": {
+      "fichier": "hydratation_alcyne-etape2.svg",
+      "titre": "On protone du côté du carbone",
+      "legende": "L'énol formé n'est pas le produit : il bascule. Première moitié du basculement — la double liaison C=C va chercher un proton, et le doublet de l'oxygène vient stabiliser le carbone qui en manque.",
+      "fleches": [
+        "La double liaison carbone–carbone attrape le proton.",
+        "L'eau récupère ses électrons.",
+        "Et le doublet de l'oxygène forme la double liaison C=O : le carbone n'est jamais réellement à découvert."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydratation_alcyne-etape3.svg",
+      "titre": "On déprotone du côté de l'oxygène",
+      "legende": "Seconde moitié : l'eau reprend le proton porté par l'oxygène. Bilan des deux étapes, un proton est passé de l'oxygène au carbone — et la molécule a changé de nature.",
+      "fleches": [
+        "Une molécule d'eau vient prendre le proton.",
+        "Les électrons de la liaison O–H restent sur l'oxygène : la cétone est neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "hydratation_alcyne-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "La butanone. Une liaison C=O est plus forte qu'une liaison C=C : c'est pour cela que l'énol bascule, et qu'il bascule vite.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydrogenation_catalytique": {
+    "5": {
+      "fichier": "hydrogenation_catalytique-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le butane. Aucune flèche courbe ici : la réaction ne se passe pas en solution mais à la surface du métal, et le déplacement des électrons ne s'y décrit pas par des doublets qui migrent d'un atome à l'autre.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_birch": {
+    "5": {
+      "fichier": "reduction_birch-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le cyclohexa-1,4-diène. Pas de flèches courbes non plus : chaque étape déplace UN électron, pas deux. On les dessine avec des demi-flèches, que cette application ne sait pas encore vérifier — mieux vaut donc ne pas les dessiner du tout.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

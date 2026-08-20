@@ -468,5 +468,173 @@
     ],
     "explication_reference": "Mélange oxydant employé pour convertir les liaisons carbone–bore en liaisons carbone–oxygène à l'issue d'une hydroboration. La soude engendre l'anion hydroperoxyde, qui s'additionne sur l'orbitale vacante du bore ; la rupture de la liaison peroxydique, assortie de la migration d'un groupe alkyle du bore vers l'oxygène, place l'oxygène là où se trouvait le bore. La migration s'effectuant sans rupture de la liaison au carbone, la configuration de ce dernier est conservée (Clayden p. 446-447). L'hydroxyde déplace enfin le bore, libérant l'alcoolate.",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ échanger un bore contre un OH, exactement à la même place et du même côté.\n\nPOURQUOI C'EST DÉLICAT\n\nOn a un bore accroché au carbone, et on veut un oxygène. Le remplacer bêtement risquerait de retourner le carbone — et on perdrait tout le bénéfice de la première étape.\n\nLA SOLUTION, QUI EST ASTUCIEUSE\n\nOn envoie sur le bore un partenaire porteur d'une liaison oxygène-oxygène fragile.\n\nElle casse. Et au moment précis où elle casse, le carbone GLISSE du bore vers l'oxygène voisin.\n\nLE POINT ESSENTIEL\n\nPendant ce glissement, le carbone n'est jamais libre. Il quitte le bore et arrive sur l'oxygène dans le même mouvement, sans passer par un état intermédiaire où il pourrait basculer.\n\nDonc il ne se retourne pas. Le OH se retrouve exactement où était le bore, du même côté.\n\nC'est ce genre de migration — un groupe qui passe d'un atome à son voisin sans jamais lâcher prise — qu'on retrouve dans plusieurs grandes réactions, l'oxydation de Baeyer-Villiger notamment."
+  },
+  {
+    "id": "oso4",
+    "nom": "OsO₄",
+    "nom_complet": "tétroxyde d'osmium",
+    "SMILES": "O=[Os](=O)(=O)=O",
+    "role": "Il pose deux OH sur une double liaison, en même temps et du même côté",
+    "anatomie_annotations": [
+      {
+        "partie": "les quatre liaisons Os=O",
+        "role": "Deux d'entre elles font le travail : elles se replient sur les deux carbones de l'alcène. Ce sont les branches de la pince."
+      },
+      {
+        "partie": "l'atome d'osmium",
+        "role": "Il n'est pas spectateur : il récupère deux électrons au passage et passe du degré (VIII) au degré (VI). C'est lui qui paie l'oxydation."
+      }
+    ],
+    "reactions_liees": [
+      "dihydroxylation_syn"
+    ],
+    "explication_reference": "Oxydant employé pour la dihydroxylation syn des alcènes. L'addition est concertée et péricyclique : elle conduit à un ester d'osmium cyclique à cinq chaînons dans lequel l'osmium est passé du degré (VIII) au degré (VI). L'hydrolyse de cet ester libère le diol vicinal. Le réactif étant coûteux et très toxique, on l'emploie en quantité catalytique associé à un coréoxydant stœchiométrique, le plus souvent la N-méthylmorpholine N-oxyde (Clayden p. 442, McMurry p. 305-306).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ poser deux groupes OH sur une double liaison, du même côté.\n\nCOMMENT IL S'Y PREND\n\nVoyez-le comme une pince à deux branches, chaque branche portant un oxygène. La pince se referme sur la double liaison, et les deux oxygènes se posent en même temps.\n\nEn même temps, donc forcément du même côté. C'est toute l'astuce.\n\nCE QU'IL Y PERD\n\nL'osmium récupère deux électrons dans l'affaire. Il commence « à huit », il finit « à six » — les chimistes écrivent Os(VIII) puis Os(VI).\n\nUne fois « à six », il ne peut plus recommencer. Sauf si on lui reprend ces deux électrons : c'est le rôle du NMO, qu'on ajoute pour cela.\n\nDEUX RAISONS D'EN METTRE LE MOINS POSSIBLE\n\nIl coûte très cher. Et il est très toxique — ses vapeurs attaquent les yeux. On travaille donc avec une trace d'osmium et beaucoup de NMO, qui le remet à neuf en permanence."
+  },
+  {
+    "id": "nmo",
+    "nom": "NMO",
+    "nom_complet": "N-méthylmorpholine N-oxyde",
+    "SMILES": "C[N+]1([O-])CCOCC1",
+    "role": "Il remet l'osmium à neuf, pour qu'une trace suffise",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison N⁺–O⁻",
+        "role": "Un azote qui porte un oxygène chargé négativement : cet oxygène est disponible, et c'est lui qui réoxyde l'osmium(VI) en osmium(VIII)."
+      }
+    ],
+    "reactions_liees": [
+      "dihydroxylation_syn"
+    ],
+    "explication_reference": "Coréoxydant stœchiométrique des dihydroxylations catalytiques à l'osmium. Il réoxyde l'osmium(VI) issu de l'hydrolyse de l'ester d'osmium en osmium(VIII), permettant de n'employer le tétroxyde qu'en quantité catalytique et de limiter ainsi le coût et la toxicité de l'opération. Il se réduit en N-méthylmorpholine (McMurry p. 306).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ recharger l'osmium.\n\nL'osmium fait son travail une fois, puis se retrouve « à six » et ne peut plus rien faire. Si on n'ajoutait que lui, il faudrait en mettre autant que de molécules à traiter — et il coûte une fortune.\n\nLe NMO lui reprend ses deux électrons. L'osmium repasse « à huit », et recommence.\n\nUNE IMAGE\n\nL'osmium est l'outil, le NMO est l'affûteuse. On n'a besoin que d'un outil, à condition de le réaffûter entre chaque coupe.\n\nRésultat : une trace d'osmium suffit à traiter toute la prise, et l'on ajoute en revanche le NMO en quantité égale à celle du substrat. C'est lui, désormais, qui fournit l'oxydation."
+  },
+  {
+    "id": "ozone",
+    "nom": "O₃",
+    "nom_complet": "ozone",
+    "SMILES": "[O-][O+]=O",
+    "role": "Il coupe une double liaison carbone–carbone en deux",
+    "anatomie_annotations": [
+      {
+        "partie": "l'oxygène central, chargé positivement",
+        "role": "C'est ce qui fait de l'ozone un dipôle. Sans les charges, aucune flèche du mécanisme ne se comprend."
+      },
+      {
+        "partie": "les oxygènes des extrémités",
+        "role": "Ils se partagent une charge négative. L'un attaque par son doublet, l'autre est attaqué par l'alcène : la pince se referme."
+      }
+    ],
+    "reactions_liees": [
+      "ozonolyse"
+    ],
+    "explication_reference": "Dipôle 1,3 employé pour la coupure oxydante des doubles liaisons carbone–carbone. Il s'additionne sur l'alcène en molozonide, cycle à cinq chaînons portant trois oxygènes consécutifs, dont l'effondrement rompt la liaison carbone–carbone. Instable, il est engendré sur place par décharge électrique dans l'oxygène et introduit par barbotage dans le milieu, à −78 °C dans le dichlorométhane (Clayden p. 443, McMurry p. 307).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ couper une molécule en deux, exactement là où se trouve une double liaison.\n\nCE QU'IL EST\n\nTrois atomes d'oxygène à la file. C'est le même ozone que celui de la haute atmosphère, celui qui nous protège des ultraviolets — et le même que celui qui pique les yeux dans l'air des villes en été.\n\nPOURQUOI IL RÉAGIT SI BIEN\n\nRegardez ses charges : l'oxygène du milieu est positif, les deux du bout se partagent une charge négative.\n\nUne molécule qui porte à la fois du plus et du moins a de quoi attaquer et de quoi être attaquée. Elle n'attend qu'une occasion.\n\nCOMMENT ON L'UTILISE\n\nOn ne l'achète pas en bouteille : il ne se conserve pas. On le fabrique sur place, en faisant passer une décharge électrique dans de l'oxygène, et on le fait barboter dans le mélange refroidi à −78 °C.\n\nDeux précautions à retenir : le froid, parce que les intermédiaires sont instables — et ne jamais isoler ces intermédiaires, parce que les petits sont explosifs."
+  },
+  {
+    "id": "me2s",
+    "nom": "Me₂S",
+    "nom_complet": "sulfure de diméthyle",
+    "SMILES": "CSC",
+    "role": "Il prend l'oxygène en trop, à la fin d'une ozonolyse",
+    "anatomie_annotations": [
+      {
+        "partie": "le doublet libre du soufre",
+        "role": "Le soufre est un bon nucléophile, mou et peu basique. Il va chercher l'oxygène excédentaire sans toucher au reste de la molécule."
+      }
+    ],
+    "reactions_liees": [
+      "ozonolyse"
+    ],
+    "explication_reference": "Réducteur doux employé au traitement d'une ozonolyse. Il convertit l'oxyde de carbonyle, ou l'ozonide issu de sa recombinaison, en composé carbonylé, et se transforme lui-même en sulfoxyde de diméthyle. Clayden signale que le mécanisme de cette réduction est plus complexe que celui de l'ozonolyse elle-même, et ne le détaille pas (p. 443). La triphénylphosphine, ou le zinc en milieu acétique, remplissent le même office (McMurry p. 307).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ finir le travail de l'ozone.\n\nAprès l'ozonolyse, un des deux morceaux porte encore un oxygène de trop. Le sulfure de diméthyle vient le prendre, et laisse un composé carbonylé propre.\n\nPOURQUOI LUI PLUTÔT QU'UN AUTRE\n\nParce qu'il est doux. Il prend l'oxygène excédentaire sans rien réduire d'autre dans la molécule — et dans une synthèse avancée, c'est exactement ce qu'on demande à un réactif.\n\nUN AVERTISSEMENT PRATIQUE\n\nIl sent épouvantablement mauvais : c'est l'odeur du chou pourri, détectable à des concentrations infimes. On le manipule sous hotte, et on ne rapporte pas ses gants chez soi.\n\nSi cette odeur est un problème, la triphénylphosphine fait la même chose sans odeur."
+  },
+  {
+    "id": "ch2i2",
+    "nom": "CH₂I₂",
+    "nom_complet": "diiodométhane",
+    "SMILES": "ICI",
+    "role": "Il fournit le CH₂ qui ferme un cycle à trois carbones",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone entre deux iodes",
+        "role": "Deux iodes sur un même carbone : chacun est un bon groupe partant. C'est ce qui permet au zinc de s'insérer dans l'une des deux liaisons."
+      },
+      {
+        "partie": "les liaisons C–I",
+        "role": "Longues et faibles. Le zinc s'insère dans l'une ; l'autre part sur le zinc à la fin, laissant ZnI₂."
+      }
+    ],
+    "reactions_liees": [
+      "cyclopropanation_simmons_smith"
+    ],
+    "explication_reference": "Source de méthylène dans la cyclopropanation de Simmons-Smith. Associé au couple zinc–cuivre ou au diéthylzinc, il engendre le carbénoïde ICH₂ZnI, dont le carbone possède simultanément un caractère nucléophile, dû à la liaison au zinc, et un caractère électrophile, dû à la liaison à l'iode. Aucun carbène libre n'est mis en jeu (Clayden p. 1009, 1017-1018).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ fournir un CH₂ à poser en travers d'une double liaison, pour fabriquer un cycle à trois carbones.\n\nPOURQUOI DEUX IODES\n\nParce qu'il en faut un pour accrocher le zinc, et un pour partir à la fin.\n\nLe zinc se glisse dans une des deux liaisons carbone–iode. On obtient un CH₂ tenu par le zinc d'un côté, par l'iode de l'autre : c'est le carbénoïde.\n\nÀ la fin, l'iode restant passe sur le zinc, et il ne reste que du ZnI₂.\n\nPOURQUOI PAS UN VRAI CARBÈNE\n\nUn CH₂ tout seul existe — on l'appelle un carbène — mais il attaque tout ce qu'il rencontre, sans discernement. Inutilisable.\n\nLe diiodométhane permet d'en avoir la réactivité sans jamais le libérer. Le CH₂ passe du zinc à l'alcène sans exister seul.\n\nC'est ce qui rend la réaction propre : pas d'intermédiaire libre, donc pas le temps de se retourner, donc la géométrie de l'alcène est conservée."
+  },
+  {
+    "id": "zn_cu",
+    "nom": "Zn(Cu)",
+    "nom_complet": "couple zinc–cuivre",
+    "SMILES": "[Zn]",
+    "role": "Il s'insère dans une liaison carbone–iode et tient le CH₂",
+    "anatomie_annotations": [
+      {
+        "partie": "le zinc métallique",
+        "role": "Électropositif : la liaison qu'il forme avec le carbone rend ce carbone nucléophile. C'est ce qui permet au CH₂ d'attaquer l'alcène."
+      },
+      {
+        "partie": "le cuivre",
+        "role": "Il n'entre pas dans le produit. Il rend simplement le zinc plus réactif : c'est un alliage, de composition imprécise, typiquement plus de 90 % de zinc."
+      }
+    ],
+    "reactions_liees": [
+      "cyclopropanation_simmons_smith"
+    ],
+    "explication_reference": "Alliage employé pour engendrer le carbénoïde de Simmons-Smith par insertion du zinc dans une liaison carbone–iode du diiodométhane. Sa composition n'est ni définie ni parfaitement reproductible, ce qui a conduit à lui préférer souvent le diéthylzinc, réactif défini et plus commode (Clayden p. 1017).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ tenir le CH₂ pendant qu'il travaille.\n\nCE QU'IL EST — ET CE QU'IL N'EST PAS\n\nCe n'est pas un composé défini, avec une formule. C'est un alliage : du zinc en poudre, avec un peu de cuivre dessus, dans des proportions qui ne sont pas exactement les mêmes d'un lot à l'autre.\n\nLe cuivre ne participe pas à la réaction. Il rend seulement le zinc plus réactif, en empêchant sa surface de se passiver.\n\nPOURQUOI C'EST GÊNANT\n\nParce qu'un réactif dont la composition varie donne des résultats qui varient. C'est pour cela qu'on lui préfère aujourd'hui le diéthylzinc, Et₂Zn : un liquide défini, qu'on dose à la goutte près.\n\nLE PRINCIPE RESTE LE MÊME\n\nDans les deux cas, le zinc vient se glisser entre le carbone et l'iode. Et une fois là, il rend le carbone nucléophile, parce que le zinc est un métal : il pousse ses électrons vers le carbone au lieu de les tirer."
+  },
+  {
+    "id": "h2_pd",
+    "nom": "H₂/Pd",
+    "nom_complet": "dihydrogène sur palladium",
+    "SMILES": "[H][H]",
+    "role": "Il ajoute deux hydrogènes sur une double liaison, du même côté",
+    "anatomie_annotations": [
+      {
+        "partie": "la molécule H₂",
+        "role": "Elle ne réagit pas telle quelle : elle se colle d'abord au métal, où elle se coupe en deux atomes séparés."
+      },
+      {
+        "partie": "la surface du palladium",
+        "role": "C'est là que tout se passe. Le métal est déposé en poudre très fine sur du charbon, pour offrir le plus de surface possible."
+      }
+    ],
+    "reactions_liees": [
+      "hydrogenation_catalytique"
+    ],
+    "explication_reference": "Système réducteur hétérogène employé pour l'hydrogénation des alcènes. Le dihydrogène s'adsorbe et se dissocie sur la surface métallique, l'alcène s'y coordine par sa liaison π, puis deux transferts successifs d'atomes d'hydrogène conduisent à l'alcane. Les deux hydrogènes provenant de la même surface, l'addition est syn. Le palladium s'emploie finement divisé sur charbon ; le platine sous forme d'oxyde PtO₂, dit catalyseur d'Adams (McMurry p. 299-300).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ transformer une double liaison en simple liaison, en y ajoutant deux hydrogènes.\n\nCE QUI SURPREND\n\nLa molécule H₂ est parfaitement stable et ne réagit avec presque rien à température ordinaire. Seule, elle ne toucherait jamais un alcène.\n\nIl faut donc la casser. C'est le rôle du métal : la molécule H₂ se colle à sa surface et s'y coupe en deux atomes.\n\nOÙ SE PASSE LA RÉACTION\n\nPas en solution — c'est l'exception. Tout se passe à la SURFACE de petites particules solides en suspension.\n\nD'où deux conséquences qu'il faut savoir déduire.\n\nUne : les deux hydrogènes viennent de la même surface, donc ils se posent du même côté.\n\nDeux : une surface ne se faufile pas. Si la double liaison est masquée d'un côté, le catalyseur ne peut pas approcher de ce côté-là — et l'on obtient un seul produit.\n\nUN AVANTAGE PRATIQUE\n\nLe catalyseur est insoluble. À la fin, on filtre : il n'y a rien à purifier. C'est une des raisons pour lesquelles cette réaction est employée à l'échelle industrielle."
+  },
+  {
+    "id": "li_metal",
+    "nom": "Li(0)",
+    "nom_complet": "lithium métallique dans l'ammoniac",
+    "SMILES": "[Li]",
+    "role": "Il libère des électrons, le plus petit réducteur qui soit",
+    "anatomie_annotations": [
+      {
+        "partie": "l'électron cédé",
+        "role": "Clayden le formule ainsi : « on ne peut pas faire plus petit qu'un électron ». C'est lui, et non le métal, qui est le vrai réducteur."
+      },
+      {
+        "partie": "la solution bleue",
+        "role": "Le bleu intense est la couleur des électrons solvatés par l'ammoniac. Il pâlit avec le temps : les électrons finissent par réduire l'ammoniac lui-même."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_birch"
+    ],
+    "explication_reference": "Réducteur monoélectronique employé dans les réductions par métal dissous. Le lithium ou le sodium dissous dans l'ammoniac liquide s'ionise en cation et en électrons solvatés e⁻(NH₃)ₙ, d'où la coloration bleue intense caractéristique. Ces électrons réduisent tout groupe fonctionnel possédant une orbitale π vacante de basse énergie : cycles aromatiques, alcynes, composés carbonylés. La réduction de l'ammoniac en amidure et dihydrogène, lente, laisse le champ à tout meilleur accepteur présent (Clayden p. 542).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ fournir des électrons tout seuls.\n\nLA MANIPULATION, QUI EST SPECTACULAIRE\n\nOn refroidit de l'ammoniac jusqu'à ce qu'il devienne liquide, à −33 °C. On y jette un morceau de lithium ou de sodium.\n\nLe métal se dissout. Et la solution devient d'un bleu profond, intense, qu'on n'oublie pas.\n\nCe bleu, c'est la couleur des électrons libres en solution. Le métal a laissé partir son électron, et cet électron reste là, entouré de molécules d'ammoniac.\n\nPOURQUOI C'EST UTILE\n\nParce qu'un électron seul est le réducteur le plus petit et le plus pénétrant qui soit. Là où l'hydrogène et son catalyseur ne passent pas — dans un cycle aromatique, par exemple —, un électron passe.\n\nCE QU'IL FAUT SAVOIR AUSSI\n\nLe bleu pâlit. Les électrons finissent par attaquer l'ammoniac lui-même. Mais lentement : assez lentement pour que, si l'on a mis dans le mélange une molécule qui accepte mieux les électrons, ce soit elle qui les reçoive.\n\nC'est toute la stratégie de la réduction de Birch : laisser le meilleur receveur passer devant."
   }
 ]

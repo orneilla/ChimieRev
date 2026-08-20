@@ -172,32 +172,32 @@
         {
           "nom": "Dihydroxylation syn (OsO₄, KMnO₄ froid)",
           "niveau": "L3",
-          "id": null
+          "id": "dihydroxylation_syn"
         },
         {
           "nom": "Ozonolyse",
           "niveau": "L3",
-          "id": null
+          "id": "ozonolyse"
         },
         {
           "nom": "Cyclopropanation de Simmons-Smith",
           "niveau": "M1",
-          "id": null
+          "id": "cyclopropanation_simmons_smith"
         },
         {
           "nom": "Additions sur les alcynes (hydratation, tautomérie)",
           "niveau": "L3",
-          "id": null
+          "id": "hydratation_alcyne"
         },
         {
           "nom": "Hydrogénation catalytique (syn)",
           "niveau": "L3",
-          "id": null
+          "id": "hydrogenation_catalytique"
         },
         {
           "nom": "Réduction de Birch",
           "niveau": "M1",
-          "id": null
+          "id": "reduction_birch"
         }
       ],
       "bloc": "Socle organique"

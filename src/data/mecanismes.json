@@ -2956,5 +2956,382 @@
         "valide": false
       }
     ]
+  },
+  "dihydroxylation_syn": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Trois flèches en rond : la cycloaddition",
+        "smiles": "CC=CC.O=[Os](=O)(=O)=O",
+        "legende": "Les flèches tournent en cercle et reviennent à leur point de départ : Clayden appelle cela un mécanisme péricyclique. Les deux liaisons carbone–oxygène se font en même temps, donc forcément du même côté de l'alcène. L'osmium(VIII) devient osmium(VI).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison attaque l'un des oxygènes : première liaison carbone–oxygène."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "Les électrons de cette liaison Os=O se replient sur l'osmium : c'est là qu'il passe de (VIII) à (VI)."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Et une autre liaison Os=O forme la seconde liaison carbone–oxygène. La boucle est bouclée."
+          }
+        ],
+        "produit_attendu": "CC1O[Os](=O)(=O)OC1C",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau libère le diol",
+        "smiles": "CC(O)C(O)C",
+        "legende": "L'ester d'osmium est hydrolysé sur-le-champ. Les deux OH restent là où les oxygènes s'étaient posés : du même côté. C'est un diol syn.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "ozonolyse": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'ozone s'additionne en cercle",
+        "smiles": "CC=CC.[O-][O+]=O",
+        "legende": "L'ozone est un dipôle : un oxygène central positif, deux oxygènes extérieurs qui se partagent une charge négative. Il se referme sur l'alcène en trois flèches, comme une pince. Le produit est un cycle à cinq, avec trois oxygènes de suite.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'oxygène chargé négativement attaque le premier carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison attaque l'oxygène de l'autre bout."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.3,
+            "libelle": "Et les électrons de la double liaison O=O se replient sur l'oxygène central, qui perd sa charge."
+          }
+        ],
+        "produit_attendu": "CC1OOOC1C",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le cycle s'effondre",
+        "smiles": "CC1OOOC1C",
+        "legende": "Trois oxygènes à la file, c'est intenable. Le cycle se rompt — et il coupe au passage la liaison carbone–carbone. On perd une liaison O–O faible, on gagne deux liaisons C=O fortes : l'affaire est excellente.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet de l'oxygène de droite forme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison carbone–carbone se rompt : c'est ici que la molécule est coupée en deux. Ses électrons forment l'autre C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.3,
+            "libelle": "Et la liaison O–O se rompt, ses électrons restant sur l'oxygène du milieu."
+          }
+        ],
+        "produit_attendu": "CC=O.CC=[O+][O-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on isole",
+        "smiles": "CC=O",
+        "legende": "L'oxyde de carbonyle est réduit par le sulfure de diméthyle ou la triphénylphosphine — Clayden précise que ce mécanisme-là est plus compliqué, et ne le détaille pas. Bilan : deux aldéhydes, là où il y avait une double liaison.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "cyclopropanation_simmons_smith": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le carbénoïde transfère son CH₂",
+        "smiles": "C1=CCCCC1.IC([H])([H])[Zn]I",
+        "legende": "Le carbénoïde de zinc n'est pas un carbène libre : le CH₂ reste tenu par le zinc d'un côté et par l'iode de l'autre. Il passe pourtant à l'alcène d'un seul mouvement, sans jamais être libre — d'où la stéréospécificité.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                7
+              ]
+            },
+            "courbure": 0.25,
+            "libelle": "La double liaison attaque le carbone du carbénoïde : première liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                10
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                7
+              ]
+            },
+            "courbure": 0.5,
+            "libelle": "Les électrons de la liaison carbone–zinc forment la seconde liaison carbone–carbone : le cycle à trois est fermé."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                10
+              ]
+            },
+            "courbure": 0.25,
+            "libelle": "Et l'iode passe sur le zinc. Il ne reste que ZnI₂."
+          }
+        ],
+        "produit_attendu": "C1CCC2CC2C1.I[Zn]I",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Ce qu'on obtient",
+        "smiles": "C1CCC2CC2C1",
+        "legende": "Le norcarane, 86 à 92 % de rendement. Le CH₂ s'est posé sur une seule face : la géométrie de l'alcène de départ se retrouve intacte dans le cyclopropane.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "hydratation_alcyne": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "On protone du côté du carbone",
+        "smiles": "CCC(O[H])=C.[O+]([H])([H])[H]",
+        "legende": "L'énol formé n'est pas le produit : il bascule. Première moitié du basculement — la double liaison C=C va chercher un proton, et le doublet de l'oxygène vient stabiliser le carbone qui en manque.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                2,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                7
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison carbone–carbone attrape le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau récupère ses électrons."
+          },
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Et le doublet de l'oxygène forme la double liaison C=O : le carbone n'est jamais réellement à découvert."
+          }
+        ],
+        "produit_attendu": "CCC(C)=[O+][H].O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "On déprotone du côté de l'oxygène",
+        "smiles": "CCC(C)=[O+][H].O",
+        "legende": "Seconde moitié : l'eau reprend le proton porté par l'oxygène. Bilan des deux étapes, un proton est passé de l'oxygène au carbone — et la molécule a changé de nature.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule d'eau vient prendre le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison O–H restent sur l'oxygène : la cétone est neutre."
+          }
+        ],
+        "produit_attendu": "CCC(C)=O.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCC(C)=O",
+        "legende": "La butanone. Une liaison C=O est plus forte qu'une liaison C=C : c'est pour cela que l'énol bascule, et qu'il bascule vite.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "hydrogenation_catalytique": {
+    "etapes": [
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCC",
+        "legende": "Le butane. Aucune flèche courbe ici : la réaction ne se passe pas en solution mais à la surface du métal, et le déplacement des électrons ne s'y décrit pas par des doublets qui migrent d'un atome à l'autre.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reduction_birch": {
+    "etapes": [
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "C1=CCC=CC1",
+        "legende": "Le cyclohexa-1,4-diène. Pas de flèches courbes non plus : chaque étape déplace UN électron, pas deux. On les dessine avec des demi-flèches, que cette application ne sait pas encore vérifier — mieux vaut donc ne pas les dessiner du tout.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

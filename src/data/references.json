@@ -682,6 +682,114 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "dihydroxylation_syn": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "442",
+          "note": "Le mécanisme péricyclique à trois flèches, l'ester d'osmium cyclique, le passage de l'osmium(VIII) à l'osmium(VI), l'hydrolyse rapide en diol ; la version catalytique OsO₄/NMO ; la complémentarité avec la séquence époxydation–hydrolyse, qui donne le diol anti ; et l'avertissement sur le mot « syn », illustré par deux alcènes de géométries opposées."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis, § 8-7",
+          "pages": "305–306",
+          "note": "La dihydroxylation directe par OsO₄ sans passer par l'époxyde, la stéréochimie syn, l'absence de carbocation intermédiaire ; la version catalytique avec NMO dans l'acétone aqueuse, 93 % de cis-1-phényl-1,2-cyclohexanediol ; la toxicité du réactif."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "§ 4.3.4 — Syn dihydroxylation",
+          "pages": "§ 4.3.4",
+          "note": "Le caractère concerté et l'intermédiaire cyclique ; le fait qu'un alcène cis donne un produit méso et un alcène trans un mélange racémique ; et le permanganate de potassium comme réactif ancien, donnant lui aussi un diol syn mais avec de mauvais rendements par suroxydation."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "ozonolyse": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "443",
+          "note": "La structure dipolaire de l'ozone, oxygène central positif et oxygènes terminaux se partageant une charge négative ; l'addition cyclique en molozonide ; l'effondrement du cycle, qui rompt la liaison carbone–carbone et gagne deux liaisons C=O fortes ; l'oxyde de carbonyle et sa réduction par Me₂S ou Ph₃P, dont l'ouvrage précise que le mécanisme est plus compliqué et qu'il ne le détaille pas ; et la coupure alternative d'un diol par le periodate."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis, § 8-8",
+          "pages": "307–308",
+          "note": "La production de l'ozone par décharge électrique, le molozonide puis l'ozonide ; les conditions CH₂Cl₂ à −78 °C ; le traitement par le zinc en milieu acétique ; l'avertissement que les ozonides de faible masse sont explosifs et ne s'isolent pas ; les produits selon la substitution de la double liaison, avec 84 % et 78 % de rendement sur deux exemples ; et la coupure d'un 1,2-diol par HIO₄."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cyclopropanation_simmons_smith": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "38 — Radicals and carbenes (carbènes et carbénoïdes)",
+          "pages": "1017–1018",
+          "note": "La formation du carbénoïde de zinc par insertion du zinc dans une liaison C–I du diiodométhane ; le mécanisme de transfert du méthylène, sans carbène libre, avec l'état de transition dessiné ; le rendement de 86 à 92 % sur le cyclohexène ; la variante au diéthylzinc ; le contrôle par chélation sur les alcools allyliques, avec 63 % de rendement et plus de 99 % d'un seul diastéréoisomère, et l'accélération de plus de cent fois ; le caractère de carbène singulet, stéréospécifique ; et la limite aux méthylènes non substitués."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "38 — Radicals and carbenes",
+          "pages": "1009",
+          "note": "La formation du carbénoïde de zinc, présentée une première fois parmi les équivalents de carbènes."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "33 — Stereoselectivity in cyclic molecules",
+          "pages": "851",
+          "note": "Le renvoi à la cyclopropanation de Simmons-Smith comme exemple de réactif livré par un état de transition cyclique, à partir d'un alcool allylique."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydratation_alcyne": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "445",
+          "note": "L'oxymercuration des alcynes et le produit attendu par analogie avec les alcènes ; le fait que le produit isolé soit en réalité une cétone ; l'ordre explicite de la tautomérie — protoner d'abord sur C, déprotoner ensuite sur O ; l'argument des forces de liaison, C=O plus forte que C=C, et la rapidité du basculement ; la démercuration aisée grâce au carbonyle voisin ; et l'enchaînement NaNH₂ puis R–Br puis Hg(OAc)₂/H₂SO₄ comme voie d'accès aux méthylcétones."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydrogenation_catalytique": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis, § 8-6",
+          "pages": "299–300",
+          "note": "La définition organique de la réduction, distinguée de celle de la chimie générale ; le palladium sur charbon et le PtO₂ dit catalyseur d'Adams ; le caractère hétérogène de la réaction, qui se déroule à la surface des particules solides ; la stéréochimie syn, avec 82 % de cis-1,2-diméthylcyclohexane ; le mécanisme en quatre étapes détaillé par la figure 8-6 — adsorption dissociative de H₂, adsorption de l'alcène par sa liaison π, transfert d'un premier hydrogène avec formation d'une liaison carbone–métal, transfert du second et régénération du catalyseur ; et la sensibilité à l'encombrement, illustrée par l'α-pinène."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_birch": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "542–543",
+          "note": "Les électrons comme réducteurs les plus simples qui soient ; la solution bleue des électrons solvatés dans l'ammoniac liquide, et la réduction lente de l'ammoniac lui-même ; l'entrée de l'électron dans la LUMO du cycle, l'anion radicalaire, la protonation par l'éthanol, le second électron et la seconde protonation ; les deux règles de régiosélectivité — attracteur en ipso et para, donneur en ortho et méta — et leur explication par la densité électronique de l'anion radicalaire ; le diène non conjugué obtenu, son isomérisation par catalyse acide, les 20 % de conjugué formés spontanément avec l'anisole et le cas des anilines ; et l'extension aux alcynes, qui donne les alcènes trans."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "561",
+          "note": "La référence de revue donnée par l'ouvrage : P. W. Rabideau et Z. Marcinow, Organic Reactions, 1992, 42, 1."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

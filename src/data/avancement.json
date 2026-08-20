@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 31,
-  "verifiees": 31,
+  "redigees": 37,
+  "verifiees": 35,
   "relues": 0,
   "familles": [
     {
@@ -184,9 +184,9 @@
       "famille": "Additions électrophiles",
       "bloc": "Socle organique",
       "total": 13,
-      "absente": 6,
-      "redigee": 0,
-      "verifiee": 7,
+      "absente": 0,
+      "redigee": 2,
+      "verifiee": 11,
       "relue": 0,
       "reactions": [
         {
@@ -241,44 +241,44 @@
         {
           "nom": "Dihydroxylation syn (OsO₄, KMnO₄ froid)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "dihydroxylation_syn",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Ozonolyse",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ozonolyse",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cyclopropanation de Simmons-Smith",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cyclopropanation_simmons_smith",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Additions sur les alcynes (hydratation, tautomérie)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydratation_alcyne",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Hydrogénation catalytique (syn)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydrogenation_catalytique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réduction de Birch",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reduction_birch",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

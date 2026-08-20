@@ -79,5 +79,23 @@
     "type": "base et solvant à la fois",
     "usage": "Employée comme solvant dans les tosylations et les acylations, où elle joue aussi le rôle de base : elle capte l'acide libéré et catalyse la réaction (Clayden p. 255, 349).",
     "explication_comprendre": "Un liquide qui ne se contente pas de servir de piscine : il participe.\n\nSON DOUBLE RÔLE. Une tosylation ou une acylation libère de l'acide chlorhydrique. Si on le laisse s'accumuler, il détruit ce qu'on vient de construire. La pyridine le capte au fur et à mesure.\n\nMIEUX ENCORE : elle accélère la réaction. Elle attaque elle-même le réactif pour former un intermédiaire encore plus réactif, qu'elle transmet ensuite à l'alcool. Elle passe le relais.\n\nPOURQUOI ELLE N'ENCOMBRE PAS TOUT. Son doublet libre est dans le plan du cycle, pas dans le nuage aromatique. Elle est donc basique sans cesser d'être aromatique — un équilibre que peu de molécules réussissent.\n\nSon odeur est mémorable, et pas dans le bon sens."
+  },
+  {
+    "id": "acide_acetique",
+    "nom": "Acide acétique",
+    "nom_complet": "acide acétique CH₃CO₂H",
+    "SMILES": "CC(=O)O",
+    "type": "solvant protique acide",
+    "usage": "Employé comme solvant des hydrogénations catalytiques, où il dissout aussi bien le substrat organique que les traces d'acide nécessaires ; et comme milieu du traitement au zinc qui achève une ozonolyse (McMurry p. 299, 307).",
+    "explication_comprendre": "C'est le vinaigre, à ceci près qu'on l'emploie pur.\n\nCE QU'IL APPORTE. Il dissout les molécules organiques tout en étant protique : il possède un hydrogène mobile, disponible pour toute étape qui en réclame un.\n\nPOURQUOI ON LE CHOISIT POUR UNE HYDROGÉNATION. Parce qu'il ne gêne pas le catalyseur métallique, et qu'il mouille bien la surface du solide. Or ici, tout se joue à cette surface.\n\nÀ MANIPULER AVEC RESPECT. Pur, il gèle à 17 °C — d'où son ancien nom d'acide acétique « glacial ». Et il brûle la peau, ce que son odeur familière fait facilement oublier."
+  },
+  {
+    "id": "nh3_liquide",
+    "nom": "Ammoniac liquide",
+    "nom_complet": "ammoniac liquide NH₃",
+    "SMILES": "N",
+    "type": "solvant polaire, à très basse température",
+    "usage": "Solvant des réductions par métal dissous. Il dissout le lithium et le sodium en libérant des électrons solvatés, responsables de la coloration bleue intense caractéristique (Clayden p. 542). Il sert au même titre à la préparation des acétylures par NaNH₂.",
+    "explication_comprendre": "Un gaz qu'on a refroidi jusqu'à ce qu'il devienne liquide : il faut descendre à −33 °C.\n\nPOURQUOI SE DONNER CETTE PEINE. Parce qu'il fait quelque chose qu'aucun autre solvant courant ne fait : il dissout les métaux alcalins.\n\nOn y jette un morceau de sodium, et au lieu de réagir violemment comme il le ferait dans l'eau, le métal se dissout tranquillement en laissant partir son électron.\n\nLA COULEUR. La solution devient d'un bleu profond. C'est la couleur des électrons libres, entourés de molécules d'ammoniac. Peu d'expériences de laboratoire sont aussi mémorables.\n\nEN PRATIQUE. On travaille dans un montage refroidi, sous atmosphère sèche, et l'odeur est celle des produits ménagers à l'ammoniaque — en beaucoup plus violent."
   }
 ]

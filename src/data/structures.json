@@ -123,6 +123,30 @@
     "substrat": "epoxydation_peracide-substrat.svg",
     "produit": "epoxydation_peracide-produit.svg"
   },
+  "dihydroxylation_syn": {
+    "substrat": "dihydroxylation_syn-substrat.svg",
+    "produit": "dihydroxylation_syn-produit.svg"
+  },
+  "ozonolyse": {
+    "substrat": "ozonolyse-substrat.svg",
+    "produit": "ozonolyse-produit.svg"
+  },
+  "cyclopropanation_simmons_smith": {
+    "substrat": "cyclopropanation_simmons_smith-substrat.svg",
+    "produit": "cyclopropanation_simmons_smith-produit.svg"
+  },
+  "hydratation_alcyne": {
+    "substrat": "hydratation_alcyne-substrat.svg",
+    "produit": "hydratation_alcyne-produit.svg"
+  },
+  "hydrogenation_catalytique": {
+    "substrat": "hydrogenation_catalytique-substrat.svg",
+    "produit": "hydrogenation_catalytique-produit.svg"
+  },
+  "reduction_birch": {
+    "substrat": "reduction_birch-substrat.svg",
+    "produit": "reduction_birch-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -200,6 +224,30 @@
   "h2o2_naoh": {
     "molecule": "reactif-h2o2_naoh.svg"
   },
+  "oso4": {
+    "molecule": "reactif-oso4.svg"
+  },
+  "nmo": {
+    "molecule": "reactif-nmo.svg"
+  },
+  "ozone": {
+    "molecule": "reactif-ozone.svg"
+  },
+  "me2s": {
+    "molecule": "reactif-me2s.svg"
+  },
+  "ch2i2": {
+    "molecule": "reactif-ch2i2.svg"
+  },
+  "zn_cu": {
+    "molecule": "reactif-zn_cu.svg"
+  },
+  "h2_pd": {
+    "molecule": "reactif-h2_pd.svg"
+  },
+  "li_metal": {
+    "molecule": "reactif-li_metal.svg"
+  },
   "dcm": {
     "molecule": "solvant-dcm.svg"
   },
@@ -226,5 +274,11 @@
   },
   "pyridine": {
     "molecule": "solvant-pyridine.svg"
+  },
+  "acide_acetique": {
+    "molecule": "solvant-acide_acetique.svg"
+  },
+  "nh3_liquide": {
+    "molecule": "solvant-nh3_liquide.svg"
   }
 }

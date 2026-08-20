@@ -30,14 +30,17 @@ const initRDKit = require('@rdkit/rdkit')
 // Électrons de valence, par numéro atomique.
 const VALENCE = {
   1: 1, 3: 1, 5: 3, 6: 4, 7: 5, 8: 6, 9: 7, 11: 1, 12: 2,
-  14: 4, 15: 5, 16: 6, 17: 7, 19: 1, 35: 7, 53: 7,
-  // Le mercure(II) de l'oxymercuration : deux électrons de valence
-  // engagés, la couche d restant en dessous.
-  80: 2
+  14: 4, 15: 5, 16: 6, 17: 7, 19: 1, 30: 2, 35: 7, 53: 7,
+  // Les métaux : on ne compte que les électrons de valence engagés, la
+  // couche d restant en dessous. Le mercure(II) de l'oxymercuration et le
+  // zinc(II) du carbénoïde de Simmons-Smith en ont deux ; l'osmium du
+  // tétroxyde en a huit, ce qui lui permet ses quatre doubles liaisons.
+  76: 8, 80: 2
 }
 const SYMBOLE = {
   1: 'H', 3: 'Li', 5: 'B', 6: 'C', 7: 'N', 8: 'O', 9: 'F', 11: 'Na', 12: 'Mg',
-  14: 'Si', 15: 'P', 16: 'S', 17: 'Cl', 19: 'K', 35: 'Br', 53: 'I', 80: 'Hg'
+  14: 'Si', 15: 'P', 16: 'S', 17: 'Cl', 19: 'K', 30: 'Zn', 35: 'Br', 53: 'I',
+  76: 'Os', 80: 'Hg'
 }
 
 const RDKit = await initRDKit()
