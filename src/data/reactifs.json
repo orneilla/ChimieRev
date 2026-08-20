@@ -746,5 +746,115 @@
     ],
     "explication_reference": "Acide minéral fort employé pour protoner un alcoolate ou activer un électrophile. En solution aqueuse la dissociation est totale. L'ion chlorure, fortement solvaté, n'exerce qu'une nucléophilie faible dans ces conditions, ce qui permet d'apporter le proton sans introduire de réaction parasite. Sous forme de gaz sec, il sert également de catalyseur acide anhydre, notamment dans la formation des acétals (Clayden p. 227).",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ donner un proton : pour rendre un électrophile plus vorace, ou pour protoner un alcoolate à la fin d'une réaction.\n\nPOURQUOI LUI PLUTÔT QU'UN AUTRE ACIDE\n\nParce que ce qu'il laisse derrière lui — l'ion chlorure — ne fait rien.\n\nEn solution aqueuse, le chlorure est entouré de molécules d'eau qui le retiennent. Il est donc mauvais nucléophile, et n'ira pas s'ajouter là où on ne l'attend pas.\n\nUn acide idéal, c'est un acide dont l'anion se tait.\n\nSOUS FORME DE GAZ SEC\n\nOn l'emploie aussi sans eau du tout : du gaz chlorhydrique barboté dans le mélange. C'est très commode pour catalyser une acétalisation, puisqu'on apporte l'acidité sans apporter l'eau qu'il faudrait ensuite retirer."
+  },
+  {
+    "id": "ylure_phosphore",
+    "nom": "Ph₃P=CH₂",
+    "nom_complet": "ylure de phosphore, ou méthylènetriphénylphosphorane",
+    "SMILES": "[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+    "role": "Il remplace un oxygène de carbonyle par un carbone, à la place exacte",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbanion",
+        "role": "C'est lui qui attaque. Il est nucléophile parce qu'il porte une charge négative franche, et non une simple polarisation."
+      },
+      {
+        "partie": "le phosphore chargé positivement",
+        "role": "Il stabilise le carbanion voisin, et surtout il attend son oxygène : son affinité pour lui est ce qui fait avancer toute la réaction."
+      },
+      {
+        "partie": "les trois phényles",
+        "role": "Ils rendent le phosphore encombrant, mais surtout ils partiront avec lui : l'oxyde de triphénylphosphine est le sous-produit, et il est pénible à séparer."
+      }
+    ],
+    "reactions_liees": [
+      "wittig"
+    ],
+    "explication_reference": "Ylure de phosphonium employé dans l'oléfination de Wittig, engendré par déprotonation d'un sel de phosphonium au moyen d'une base forte. Espèce portant des charges opposées sur deux atomes adjacents, son carbanion s'additionne sur les aldéhydes et les cétones. La nature du substituant porté par ce carbone gouverne la géométrie de l'alcène : les ylures non stabilisés conduisent aux alcènes Z, les ylures stabilisés — porteurs d'un ester ou d'un groupe conjugué — aux alcènes E. Ces derniers sont d'une stabilité remarquable, certains pouvant être recristallisés dans l'eau (Clayden p. 237, 690-692).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ échanger l'oxygène d'un carbonyle contre un carbone.\n\nCE QU'EST UN YLURE\n\nUne molécule qui porte une charge positive et une charge négative sur deux atomes VOISINS.\n\nCela paraît instable. Ce ne l'est pas tant que ça : le phosphore est un gros atome, et il supporte très bien une charge positive, parce qu'elle se dilue dans son volume.\n\nCOMMENT ON LE FABRIQUE\n\nEn deux temps, et jamais à l'avance.\n\nOn fait réagir la triphénylphosphine avec un halogénure d'alkyle : on obtient un sel de phosphonium.\n\nPuis on arrache un proton au carbone voisin du phosphore avec une base forte : butyllithium ou hydrure de sodium.\n\nL'ylure est prêt. On l'emploie immédiatement.\n\nLA QUESTION QUI DÉCIDE DE TOUT\n\nQue porte le carbone de l'ylure ?\n\nUn simple groupe alkyle ? L'ylure est dit NON STABILISÉ, il est très réactif, et il donnera l'alcène Z.\n\nUn ester ou un groupe conjugué ? L'ylure est STABILISÉ, moins réactif, et il donnera l'alcène E.\n\nCes ylures stabilisés sont d'ailleurs si tranquilles qu'on peut en recristalliser certains DANS L'EAU. Pour une espèce qui porte formellement un carbanion, c'est presque une plaisanterie."
+  },
+  {
+    "id": "buli",
+    "nom": "BuLi",
+    "nom_complet": "n-butyllithium",
+    "SMILES": "CCCC[Li]",
+    "role": "Une des bases les plus fortes qu'on manipule couramment",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison carbone–lithium",
+        "role": "Extrêmement polarisée : le lithium est très électropositif, il pousse ses électrons vers le carbone. Le carbone se comporte donc comme un carbanion."
+      },
+      {
+        "partie": "la chaîne butyle",
+        "role": "Elle part sous forme de butane quand la base arrache un proton : un gaz, qui s'échappe et rend la déprotonation irréversible."
+      }
+    ],
+    "reactions_liees": [
+      "wittig"
+    ],
+    "explication_reference": "Organolithien employé comme base très forte et comme nucléophile puissant. La forte polarisation de la liaison carbone–lithium confère au carbone un caractère carbanionique. Il déprotone les sels de phosphonium pour engendrer les ylures de Wittig, et s'additionne directement sur les aldéhydes et les cétones pour former des alcools. Sa réactivité impose des températures basses, souvent −78 °C, des solvants aprotiques — éther ou THF — et une atmosphère sèche et inerte, l'oxygène le dégradant (Clayden p. 133).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ arracher des protons que personne d'autre n'arrache.\n\nPOURQUOI IL EST SI FORT\n\nLe lithium est un métal, donc très électropositif : il ne retient pas ses électrons, il les pousse vers le carbone auquel il est lié.\n\nCe carbone se retrouve avec une densité électronique énorme. Il se comporte comme un carbanion — et un carbanion est à la fois un nucléophile redoutable et une base redoutable.\n\nCOMMENT ON LE MANIPULE\n\nAvec beaucoup de précautions.\n\nÀ basse température : souvent −78 °C, la température d'un bain de carboglace.\n\nDans un solvant sans le moindre proton : éther ou THF, jamais d'eau ni d'alcool, qui le détruiraient instantanément.\n\nSous azote ou argon : il réagit aussi avec l'oxygène de l'air.\n\nUN DÉTAIL QUI A SON IMPORTANCE\n\nQuand il arrache un proton, il devient du butane — un gaz, qui s'échappe du milieu.\n\nUne réaction dont un produit s'en va ne revient pas en arrière. La déprotonation est donc totale."
+  },
+  {
+    "id": "phosphonate",
+    "nom": "(EtO)₂P(O)CH₂CO₂Et",
+    "nom_complet": "phosphonate d'éthyle, réactif de Horner-Wadsworth-Emmons",
+    "SMILES": "CCOP(=O)(OCC)CC(=O)OCC",
+    "role": "Il fait le travail du Wittig, en donnant le E et un déchet lavable à l'eau",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone entre les deux groupes",
+        "role": "Coincé entre le phosphonate et l'ester, tous deux attracteurs : son proton est bien plus acide que celui d'un sel de phosphonium. NaH ou un alcoolate suffisent."
+      },
+      {
+        "partie": "les deux groupes éthoxy sur le phosphore",
+        "role": "Ils partiront avec lui, sous forme d'un phosphate CHARGÉ — donc soluble dans l'eau. C'est tout l'avantage pratique de la méthode."
+      }
+    ],
+    "reactions_liees": [
+      "horner_wadsworth_emmons"
+    ],
+    "explication_reference": "Ester phosphonique employé en lieu et place d'un sel de phosphonium dans l'oléfination des composés carbonylés. L'acidité renforcée du proton porté par le carbone situé entre le phosphonate et un groupe électroattracteur permet la déprotonation par l'hydrure de sodium ou un alcoolate, l'anion obtenu présentant un caractère d'énolate. La réaction conduit sélectivement aux alcènes E, et le sous-produit — un dialkylphosphate anionique — est éliminé par simple lavage aqueux (Clayden p. 692-693).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ faire ce que fait un ylure de Wittig, en réglant trois inconvénients d'un coup.\n\nPREMIER : LA BASE\n\nSon proton est coincé entre deux groupes qui tirent les électrons — le phosphonate d'un côté, l'ester de l'autre. Il est donc bien plus acide que celui d'un sel de phosphonium.\n\nConséquence : de l'hydrure de sodium suffit. Plus besoin de butyllithium à −78 °C sous argon.\n\nDEUXIÈME : LE DÉCHET\n\nLe Wittig laisse de l'oxyde de triphénylphosphine, un solide qui se sépare mal.\n\nLe phosphonate laisse un phosphate CHARGÉ. Ce qui est chargé va dans l'eau : on lave, il s'en va.\n\nÀ l'échelle d'un kilogramme, cette seule différence peut décider du procédé retenu.\n\nTROISIÈME : LA GÉOMÉTRIE\n\nIl donne le E, et il le donne bien.\n\nEn une phrase : un alcène E conjugué à un ester s'obtient par cette réaction, et c'est presque toujours la bonne réponse."
+  },
+  {
+    "id": "cecl3",
+    "nom": "CeCl₃",
+    "nom_complet": "chlorure de cérium(III)",
+    "SMILES": "[Cl-].[Cl-].[Cl-].[Ce+3]",
+    "role": "Il force le borohydrure à ne réduire que le carbonyle",
+    "anatomie_annotations": [
+      {
+        "partie": "le cation cérium(III)",
+        "role": "Un acide de Lewis dur, et c'est ce qui compte. Clayden ne détaille pas son mode d'action : on s'en tiendra à l'effet observé."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_luche"
+    ],
+    "explication_reference": "Additif employé conjointement au borohydrure de sodium pour réduire sélectivement le groupe carbonyle des composés α,β-insaturés, sans réduction de la double liaison. La modification est connue sous le nom de réduction de Luche. Clayden en mentionne l'effet mais n'en développe pas le mécanisme (p. 506), et aucun des ouvrages indexés ne le fait : aucune description mécanistique n'est donc proposée ici.",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ empêcher une erreur de destination.\n\nLE PROBLÈME\n\nSur une énone — une cétone avec une double liaison à côté —, le borohydrure de sodium ne va pas là où l'on croit. Il réduit d'abord la double liaison, puis la cétone. On perd l'alcène.\n\nCE QU'IL FAIT\n\nOn ajoute ce sel de cérium au mélange, et le borohydrure ne touche plus que le carbonyle.\n\nCE QU'ON NE DIRA PAS\n\nComment. Clayden nomme la réaction, donne le résultat, et s'arrête là. Aucun des neuf manuels disponibles n'écrit le mécanisme.\n\nOn s'arrête donc où s'arrête la source : une explication inventée serait retenue comme vraie, et ce serait pire que rien."
+  },
+  {
+    "id": "nacnbh3",
+    "nom": "Na(CN)BH₃",
+    "nom_complet": "cyanoborohydrure de sodium",
+    "SMILES": "[BH3-]C#N",
+    "role": "Il réduit les iminium et ignore les cétones",
+    "anatomie_annotations": [
+      {
+        "partie": "le groupe nitrile",
+        "role": "C'est lui qui fait tout : il appauvrit le bore en électrons, ce qui affaiblit le pouvoir donneur des liaisons B–H. Le réducteur devient assez mou pour ignorer une cétone."
+      },
+      {
+        "partie": "les trois liaisons B–H",
+        "role": "C'est de là que part la flèche, comme pour tous les borohydrures : le bore n'a pas de doublet libre."
+      }
+    ],
+    "reactions_liees": [
+      "amination_reductrice"
+    ],
+    "explication_reference": "Réducteur doux employé dans l'amination réductrice. Le groupe nitrile appauvrit le bore et diminue le caractère donneur des liaisons B–H, si bien que le réactif réduit rapidement les ions iminium — électrophiles nettement plus forts — sans toucher aux aldéhydes ni aux cétones. Clayden juxtapose les deux essais : 90 % de rendement sur un iminium, aucune réaction sur un aldéhyde. Le triacétoxyborohydrure de sodium constitue une alternative plus sûre, le cyanoborohydrure libérant de l'acide cyanhydrique en présence d'acide fort (p. 234).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ réduire une chose sans toucher à l'autre, alors que les deux sont dans le même ballon.\n\nLE TOUR DE FORCE\n\nOn veut transformer une cétone en amine. Pour cela il faut d'abord former une imine, puis la réduire.\n\nMais si on met un réducteur ordinaire, il réduira la cétone AVANT que l'imine ait eu le temps de se former. On obtiendra un alcool.\n\nIl faut donc un réducteur capable de distinguer les deux.\n\nCOMMENT ON L'A FABRIQUÉ\n\nOn est parti du borohydrure de sodium, et on lui a accroché un groupe nitrile.\n\nCe nitrile tire les électrons du bore. Le bore, appauvri, retient mieux ses hydrogènes : il devient plus avare, plus lent à donner.\n\nRésultat : il n'a plus assez de force pour attaquer une cétone, mais il en a bien assez pour attaquer un iminium, qui porte une vraie charge positive.\n\nLA PREUVE\n\nClayden montre les deux essais côte à côte. Sur un iminium : 90 %. Sur un aldéhyde : rien.\n\nDANGER\n\nEn présence d'acide fort, il libère du cyanure d'hydrogène, qui tue.\n\nOn lui préfère aujourd'hui NaBH(OAc)₃ — le triacétoxyborohydrure — qui fait le même travail sans ce risque."
   }
 ]

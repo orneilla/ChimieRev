@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 43,
-  "verifiees": 41,
+  "redigees": 48,
+  "verifiees": 45,
   "relues": 0,
   "familles": [
     {
@@ -288,9 +288,9 @@
       "famille": "Additions sur le carbonyle",
       "bloc": "Socle organique",
       "total": 13,
-      "absente": 6,
-      "redigee": 0,
-      "verifiee": 7,
+      "absente": 1,
+      "redigee": 1,
+      "verifiee": 11,
       "relue": 0,
       "reactions": [
         {
@@ -345,30 +345,30 @@
         {
           "nom": "Réaction de Wittig",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "wittig",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Horner-Wadsworth-Emmons",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "horner_wadsworth_emmons",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Addition 1,2 contre addition 1,4 (Michael)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "addition_1_2_vs_1_4",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réduction de Luche",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reduction_luche",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réduction de Meerwein-Ponndorf-Verley",
@@ -380,9 +380,9 @@
         {
           "nom": "Amination réductrice",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "amination_reductrice",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

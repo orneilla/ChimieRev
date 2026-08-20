@@ -940,6 +940,114 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "wittig": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
+          "pages": "237–238",
+          "note": "La définition de l'ylure — charges opposées sur deux atomes voisins —, sa préparation à partir du sel de phosphonium par déprotonation au butyllithium ou à l'hydrure de sodium ; le mécanisme complet, attaque du carbanion, formation du cycle à quatre chaînons appelé oxaphosphétane, puis effondrement cyclique donnant l'alcène et l'oxyde de phosphine ; l'énergie de la liaison P=O, 575 kJ·mol⁻¹, une des plus fortes doubles liaisons de la chimie, qui rend la réaction irréversible — « aucun besoin ici du contrôle méticuleux d'équilibre nécessaire pour les acétals ou les imines » ; et 85 % de rendement sur l'exemple donné."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "27 — Synthesis of alkenes",
+          "pages": "689–693",
+          "note": "« Peut-être la façon la plus importante de fabriquer des alcènes » ; 86 % de rendement sur le méthylènecyclohexane, 65 % sur un autre exemple ; la stéréosélectivité gouvernée par le substituant de l'ylure, avec l'analyse en deux temps — formation de l'oxaphosphétane, puis élimination stéréospécifique syn-périplanaire — qui explique pourquoi un ylure non stabilisé donne le Z ; la synthèse des isomères E et Z de la capsaïcine, 91:9 en Z par Wittig et 90:10 en E par oléfination de Julia ; la stabilité extrême des ylures stabilisés, dont l'un se recristallise dans l'eau, et le passage au phosphonate qui en découle ; et le tableau récapitulatif des méthodes de synthèse stéréospécifique des alcènes."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "horner_wadsworth_emmons": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "27 — Synthesis of alkenes",
+          "pages": "692–693",
+          "note": "Le passage du sel de phosphonium au phosphonate, motivé par la faible réactivité des ylures stabilisés ; la déprotonation par l'hydrure de sodium ou un alcoolate, donnant un anion de type énolate ; la sélectivité E ; et l'explication stéréochimique — approche perpendiculaire des deux partenaires, écartement des gros substituants, répulsion des groupes électronégatifs, et substituants en anti lorsque le cycle s'aplanit."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Regioselectivity",
+          "pages": "570",
+          "note": "L'emploi stratégique de la réaction pour obtenir un ester conjugué avec la régiosélectivité qu'on n'obtiendrait pas autrement, l'ouvrage renvoyant au chapitre 27 pour le mécanisme."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "addition_1_2_vs_1_4": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "500",
+          "note": "La nomenclature des composés α,β-insaturés — énal, énone, ester et acide α,β-insaturés — et la désignation d'accepteurs de Michael ; sept exemples de nucléophiles en addition conjuguée, dont beaucoup ne s'additionneraient pas sur un carbonyle simple."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "505",
+          "note": "L'analyse complète de la compétition : l'irréversibilité de l'addition conjuguée face à la réversibilité de la cyanhydrine, et la conversion progressive de l'une en l'autre ; les définitions de produit cinétique et de produit thermodynamique, et des conditions qui y conduisent ; l'explication électrostatique de la vitesse — le carbone carbonylé porte plus de charge positive que le carbone β — et l'explication thermodynamique de la stabilité — on garde la liaison π C=O, plus forte que la C=C ; et l'exemple à 160 °C avec HCN et KCN, 75 % d'adduit conjugué."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "506",
+          "note": "La séquence de réactivité qui gouverne la proportion d'addition directe, du chlorure d'acyle α,β-insaturé à l'ester α,β-insaturé ; le comportement de NaBH₄, qui donne l'alcool par addition directe sur les énals mais réduit d'abord la double liaison des énones — 99 % d'alcool saturé —, avec le mécanisme des deux additions successives ; et la note de marge sur la réduction de Luche."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "507",
+          "note": "Le thiophénol s'additionnant sur une énone à 94 % de rendement, 25 °C, cinq heures, sans catalyseur ; et la distinction entre nucléophiles durs, gouvernés par l'électrostatique, et nucléophiles mous, gouvernés par le recouvrement orbitalaire, avec le tableau de classement."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_luche": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "506",
+          "note": "Le problème : NaBH₄ sur une énone réduit d'abord la double liaison par addition conjuguée, puis le carbonyle, donnant l'alcool saturé à 99 %. Et la note de marge qui nomme la solution : « il est possible de forcer NaBH₄ à n'attaquer que le groupe C=O en ajoutant CeCl₃ au mélange réactionnel ; cette modification est connue sous le nom de réduction de Luche, d'après son découvreur ». L'ouvrage n'en donne pas le mécanisme, et aucun des neuf ouvrages indexés ne le donne : aucune écriture par flèches n'est proposée."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols, § 17-4",
+          "pages": "592",
+          "note": "La voie complémentaire vers le même produit : LiAlH₄ réduit la cyclohex-2-énone en cyclohex-2-énol avec 94 % de rendement, l'alcène restant intact."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "amination_reductrice": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
+          "pages": "234",
+          "note": "Les ions iminium comme électrophiles, « significativement plus réactifs que les composés carbonylés » ; les deux essais juxtaposés qui le prouvent — Na(CN)BH₃ donne 90 % sur un iminium et ne réagit pas sur un aldéhyde ; l'alternative NaBH(OAc)₃, plus sûre, un acide fort pouvant libérer du HCN mortel à partir du cyanoborohydrure ; et l'affirmation que l'amination réductrice est l'une des rares méthodes efficaces, et la meilleure, pour préparer les amines secondaires."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
+          "pages": "235",
+          "note": "Le déroulement complet à pH 6 : équilibre cétone–ammoniac–imine, protonation partielle en iminium, réduction rapide par le cyanoborohydrure ; l'emploi du chlorure ou de l'acétate d'ammonium comme sources commodes d'ammoniac, et le rappel qu'à ce pH l'ammoniac est de toute façon majoritairement protoné, le pKa de NH₄⁺ valant environ 10 ; et le cas du formaldéhyde, assez réactif pour recommencer sur l'amine secondaire formée et conduire à l'amine tertiaire."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "8 — Acidity, basicity and pKa",
+          "pages": "165",
+          "note": "L'amination réductrice citée comme la voie générale d'accès aux amines, avant même que le mécanisme en soit donné."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

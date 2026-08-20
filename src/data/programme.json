@@ -245,22 +245,22 @@
         {
           "nom": "Réaction de Wittig",
           "niveau": "L3",
-          "id": null
+          "id": "wittig"
         },
         {
           "nom": "Horner-Wadsworth-Emmons",
           "niveau": "M1",
-          "id": null
+          "id": "horner_wadsworth_emmons"
         },
         {
           "nom": "Addition 1,2 contre addition 1,4 (Michael)",
           "niveau": "L3",
-          "id": null
+          "id": "addition_1_2_vs_1_4"
         },
         {
           "nom": "Réduction de Luche",
           "niveau": "M1",
-          "id": null
+          "id": "reduction_luche"
         },
         {
           "nom": "Réduction de Meerwein-Ponndorf-Verley",
@@ -270,7 +270,7 @@
         {
           "nom": "Amination réductrice",
           "niveau": "M1",
-          "id": null
+          "id": "amination_reductrice"
         }
       ],
       "bloc": "Socle organique"

@@ -2740,7 +2740,7 @@
                 3
               ]
             },
-            "courbure": 0.3,
+            "courbure": -0.3,
             "libelle": "Les électrons de la double liaison remplissent l'orbitale vide du bore, sur le carbone le moins substitué."
           },
           {
@@ -2756,7 +2756,7 @@
                 1
               ]
             },
-            "courbure": -0.3,
+            "courbure": -0.5,
             "libelle": "Dans le même temps, un hydrogène du bore passe sur l'autre carbone."
           }
         ],
@@ -4076,6 +4076,496 @@
         "titre": "Ce qu'on obtient",
         "smiles": "CC(O)C#N",
         "legende": "Une cyanhydrine : un OH et un nitrile sur le même carbone. Elle est précieuse pour la suite — le nitrile s'hydrolyse en acide carboxylique, ou se réduit en amine. On a gagné un carbone.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "wittig": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Une base forte fabrique l'ylure",
+        "smiles": "[H]C([H])([H])[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[H-]",
+        "legende": "Un ylure est une espèce portant une charge positive et une charge négative sur deux atomes VOISINS. Ici le phosphore, qui porte déjà trois phényles et un méthyle, tient bon avec sa charge positive ; il suffit d'arracher un hydrogène au carbone d'à côté.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 23
+            },
+            "vers": {
+              "liaison": [
+                23,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base arrache un proton au carbone voisin du phosphore."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de cette liaison C–H restent sur le carbone : il devient un carbanion."
+          }
+        ],
+        "produit_attendu": "[H][H].[H][C-]([H])[P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'ylure attaque, puis le cycle à quatre se ferme",
+        "smiles": "O=C1CCCCC1.[H][C-]([H])[P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "legende": "Deux gestes enchaînés. Le carbanion attaque le carbonyle comme n'importe quel nucléophile ; puis l'oxygène, devenu négatif, se retourne vers le phosphore, qui est juste à côté et chargé positivement. Il se forme un cycle à quatre chaînons appelé oxaphosphétane.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion de l'ylure attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          },
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                10
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et l'oxygène va aussitôt se lier au phosphore : le cycle à quatre est fermé."
+          }
+        ],
+        "produit_attendu": "O1P(c2ccccc2)(c2ccccc2)(c2ccccc2)CC13CCCCC3",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le cycle s'effondre en formant deux doubles liaisons",
+        "smiles": "O1P(c2ccccc2)(c2ccccc2)(c2ccccc2)CC13CCCCC3",
+        "legende": "Deux flèches en rond, et le cycle se défait en donnant l'alcène d'un côté, l'oxyde de phosphine de l'autre. La liaison P=O vaut 575 kJ·mol⁻¹ — une des plus fortes doubles liaisons de toute la chimie. C'est elle qui tire la réaction, et qui la rend irréversible.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                20
+              ]
+            },
+            "vers": {
+              "liaison": [
+                20,
+                21
+              ]
+            },
+            "courbure": 0.55,
+            "libelle": "Les électrons de la liaison phosphore–carbone forment la double liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                21,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": 0.55,
+            "libelle": "Et ceux de la liaison carbone–oxygène forment la double liaison P=O."
+          }
+        ],
+        "produit_attendu": "C=C1CCCCC1.O=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "C=C1CCCCC1",
+        "legende": "Le méthylènecyclohexane, 86 % de rendement. Le carbonyle a été remplacé par une double liaison carbone–carbone, exactement à sa place : aucune ambiguïté sur la position de l'alcène, contrairement à une élimination.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "horner_wadsworth_emmons": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'hydrure arrache un proton entre deux groupes attracteurs",
+        "smiles": "CCOP(=O)(OCC)C([H])([H])C(=O)OCC.[H-]",
+        "legende": "Ce carbone est coincé entre un phosphonate et un ester : les deux tirent les électrons. Son proton est donc bien plus acide que celui d'un sel de phosphonium — une base ordinaire comme NaH ou un alcoolate suffit, là où le Wittig réclamait du butyllithium.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 16
+            },
+            "vers": {
+              "liaison": [
+                16,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydrure arrache le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons restent sur le carbone. L'anion obtenu est stabilisé — c'est un anion de type énolate."
+          }
+        ],
+        "produit_attendu": "[H][H].CCOP(=O)(OCC)[C-]([H])C(=O)OCC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'anion attaque l'aldéhyde et referme le cycle à quatre",
+        "smiles": "[H]C(=O)c1ccccc1.CCOP(=O)(OCC)[C-]([H])C(=O)OCC",
+        "legende": "Même enchaînement que dans le Wittig : attaque du carbanion, repli des électrons sur l'oxygène, puis fermeture sur le phosphore. Les gros substituants s'écartent l'un de l'autre pendant que le cycle s'aplatit, et c'est de là que vient la sélectivité E.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 17
+            },
+            "vers": {
+              "liaison": [
+                17,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion attaque le carbone de l'aldéhyde."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                12
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'oxygène se lie au phosphore : cycle à quatre."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                13
+              ]
+            },
+            "vers": {
+              "atome": 13
+            },
+            "courbure": 0.35,
+            "libelle": "Et la double liaison P=O se replie sur son oxygène : le phosphore garde cinq liaisons simples et reste neutre."
+          }
+        ],
+        "produit_attendu": "CCOP1(OCC)([O-])OC(c2ccccc2)C1C(=O)OCC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Effondrement : l'alcène E et un phosphate soluble dans l'eau",
+        "smiles": "CCOP1(OCC)([O-])OC(c2ccccc2)C1C(=O)OCC",
+        "legende": "Deux flèches en rond, comme dans le Wittig. La différence est dans le sous-produit : ici c'est un phosphate chargé, soluble dans l'eau, qu'un simple lavage élimine — alors que l'oxyde de triphénylphosphine du Wittig est un solide pénible à séparer.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                3,
+                16
+              ]
+            },
+            "vers": {
+              "liaison": [
+                16,
+                9
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison phosphore–carbone forment la double liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                8,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Et ceux de la liaison carbone–oxygène renforcent la liaison P=O."
+          }
+        ],
+        "produit_attendu": "CCOC(=O)C=Cc1ccccc1.CCOP(=O)([O-])OCC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCOC(=O)/C=C/c1ccccc1",
+        "legende": "Le cinnamate d'éthyle, de géométrie E. Chaque fois qu'on veut un alcène E conjugué à un ester, c'est cette réaction qu'on emploie.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "addition_1_2_vs_1_4": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Voie 1,2 : le nucléophile attaque le carbonyle",
+        "smiles": "O=C1CCCC=C1.[C-]#N",
+        "legende": "C'est le chemin le plus RAPIDE. Le carbone du carbonyle porte plus de charge positive que le carbone β : un nucléophile chargé y est attiré d'abord. On obtient une cyanhydrine.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le cyanure attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison C=O se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[O-]C1(C#N)CCCC=C1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Voie 1,4 : le nucléophile attaque le carbone β",
+        "smiles": "O=C1CCCC=C1.[C-]#N",
+        "legende": "C'est le chemin le plus STABLE. Trois flèches en cascade : l'attaque a lieu à l'autre bout du système conjugué, et la charge négative remonte jusqu'à l'oxygène. On obtient un énolate — donc, après protonation, une cétone intacte.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le cyanure attaque le carbone β, à l'autre extrémité de la conjugaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison carbone–carbone se déplace vers le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": 0.35,
+            "libelle": "Et les électrons de la double liaison C=O se replient sur l'oxygène : on obtient un énolate."
+          }
+        ],
+        "produit_attendu": "[O-]C1=CC(C#N)CCC1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'énolate reprend un proton",
+        "smiles": "[O-]C1=CC(C#N)CCC1.[O+]([H])([H])[H]",
+        "legende": "L'énolate est protoné sur l'oxygène puis bascule vers la cétone — la même tautomérie que pour l'hydratation des alcynes. Bilan : le carbonyle est INTACT, et le nucléophile s'est fixé plus loin.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                10
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'énolate prend un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "[H]OC1=CC(C#N)CCC1.O",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on isole quand on laisse le temps faire",
+        "smiles": "O=C1CCCC(C#N)C1",
+        "legende": "À 160 °C, avec HCN et KCN, on obtient 75 % du produit d'addition conjuguée. La cyanhydrine se forme plus vite ; mais elle est réversible, et le produit 1,4 ne l'est pas. Petit à petit, tout finit par y passer.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reduction_luche": {
+    "etapes": [
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "OC1CCCC=C1",
+        "legende": "Le cyclohex-2-énol : le carbonyle est réduit, l'alcène est intact. Aucune flèche ici — Clayden nomme la réaction et en donne le résultat, mais n'en écrit pas le mécanisme, et aucun des neuf ouvrages indexés ne le fait. On ne l'invente pas.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "amination_reductrice": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "Le cyanoborohydrure réduit l'iminium, et lui seul",
+        "smiles": "CC(=[N+]([H])[H])c1ccccc1.[H][B-]([H])([H])C#N",
+        "legende": "Tout tient dans la douceur du réactif. Le groupe nitrile appauvrit le bore, ce qui affaiblit ses liaisons B–H : Na(CN)BH₃ est trop mou pour réduire une cétone, mais assez fort pour réduire un iminium, bien plus électrophile. On peut donc mélanger la cétone, l'amine et le réducteur dans le même ballon.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "vers": {
+              "liaison": [
+                11,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons d'une liaison B–H forment la liaison C–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "Et les électrons de la double liaison C=N se replient sur l'azote, qui redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC([H])(N([H])[H])c1ccccc1.[H]B([H])C#N",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(N)c1ccccc1",
+        "legende": "La 1-phényléthylamine. Partis d'une cétone, on a une amine — et le degré de substitution de cette amine se choisit en choisissant l'amine de départ.",
         "fleches": [],
         "valide": false
       }

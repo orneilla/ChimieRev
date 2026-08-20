@@ -113,7 +113,28 @@ const resultats = [
         ]
       }]
     }
-  }, { CHIMIEREV_DEGAGEMENT_SIGNE: '400' })
+  }, { CHIMIEREV_DEGAGEMENT_SIGNE: '400' }),
+
+  // Deux flèches qui se croisent franchement restent lisibles ; deux flèches
+  // qui longent le même chemin forment une tache, et l'on ne sait plus
+  // laquelle va où. Le cas se rencontre dans les cycles à quatre chaînons,
+  // où les deux flèches d'un effondrement partent du même côté. Ici les
+  // deux flèches sont parallèles et passent le contrôle à son réglage
+  // normal : on resserre le seuil pour vérifier qu'il les voit.
+  refuseDessin('Deux flèches superposées', {
+    essai: {
+      etapes: [{
+        numero: 1,
+        titre: 'Essai de superposition',
+        smiles: 'CCCCCCCCCC',
+        legende: 'Deux flèches qui longent le même chemin.',
+        fleches: [
+          { de: { liaison: [0, 1] }, vers: { liaison: [8, 9] }, courbure: 0.4 },
+          { de: { liaison: [1, 2] }, vers: { liaison: [7, 8] }, courbure: 0.4 }
+        ]
+      }]
+    }
+  }, { CHIMIEREV_DEGAGEMENT_CROISEMENT: '45' })
 ]
 
 if (resultats.every(Boolean)) {

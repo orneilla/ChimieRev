@@ -1,5 +1,5 @@
 <svg xmlns='http://www.w3.org/2000/svg' version='1.1'
-     width='173px' height='266px' viewBox='-34 4 173 266'>
+     width='182px' height='266px' viewBox='-21 4 182 266'>
   <g transform='translate(-48.4, -68.0)'><path class='bond-1 atom-1 atom-2' d='M 123.2,86.9 L 164.8,110.9 L 152.0,133.1 L 110.4,109.1 Z' style='fill:#C6E5F9;fill-rule:evenodd;fill-opacity:1;stroke:#C6E5F9;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
     <ellipse cx='120.0' cy='101.6' rx='13.4' ry='13.4' class='atom-1'  style='fill:#FFD1DD;fill-rule:evenodd;stroke:#FFD1DD;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 
@@ -84,14 +84,13 @@ L 114.7 152.8
 L 114.7 139.2
 ' fill='#000000'/>
 </g>
-  <text x='113.6' y='113.0' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>
-  <path d='M 86.2,49.8 Q 35.8,112.8 67.6,186.8' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
-  <polygon points='67.6,186.8 59.7,179.2 67.6,175.8' fill='#D62246'/>
-  <circle cx='40.5' cy='113.4' r='11' fill='#D62246'/>
-  <text x='40.5' y='113.4' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>1</text>
-  <line x1='14.7' y1='116.1' x2='52.4' y2='111.0' stroke='#D62246' stroke-width='1.2' stroke-dasharray='3 3' opacity='0.75'/>
-  <path d='M 86.2,176.2 Q 35.8,113.2 67.6,39.2' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
-  <polygon points='67.6,39.2 67.6,50.2 59.7,46.8' fill='#D62246'/>
-  <circle cx='2.8' cy='117.7' r='11' fill='#D62246'/>
-  <text x='2.8' y='117.7' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>2</text>
+  <text x='71.6' y='113.0' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='26' fill='#16130F'>+</text>
+  <path d='M 96.4,51.2 Q 128.2,125.2 77.8,188.2' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
+  <polygon points='77.8,188.2 80.8,177.6 87.5,183.0' fill='#D62246'/>
+  <circle cx='123.5' cy='124.6' r='11' fill='#D62246'/>
+  <text x='123.5' y='124.6' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>1</text>
+  <path d='M 84.4,177.9 Q 5.0,117.4 65.5,38.0' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
+  <polygon points='65.5,38.0 62.8,48.6 56.0,43.4' fill='#D62246'/>
+  <circle cx='24.1' cy='114.8' r='11' fill='#D62246'/>
+  <text x='24.1' y='114.8' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>2</text>
 </svg>

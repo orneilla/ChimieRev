@@ -77,7 +77,11 @@ ordre :
 4. `inventaire` — l'avancement, recalculé.
 5. Les dessins — un schéma illisible n'est pas publié non plus. Sont
    refusés : un numéro trop près d'un atome, d'un autre numéro, d'une
-   liaison, du « + » de l'équation ou du trait d'une autre flèche.
+   liaison, du « + » de l'équation ou du trait d'une autre flèche ; et
+   **deux flèches qui longent le même chemin**. Ce dernier contrôle mesure
+   la LONGUEUR du voisinage, pas la distance : deux flèches qui se croisent
+   franchement ne partagent qu'un point et restent lisibles, deux flèches
+   enroulées du même côté d'un cycle à quatre chaînons forment une tache.
 
 Ce que la machine ne contrôle pas, c'est le **choix** du mécanisme. D'où le
 badge « à relire par un chimiste » tant que `valide` vaut `false`.
@@ -124,6 +128,10 @@ Trois règles retenues de la première passe :
   (`overflow-wrap: break-word`).
 - **Typographie française** : espace insécable devant `? ! ; : »`, sinon le
   signe se retrouve seul en début de ligne. `npm run valider` le signale.
+  Piège rencontré deux fois : une insécable écrite littéralement dans un
+  heredoc shell peut se dégrader en espace ordinaire, et la normalisation
+  ne remplace alors rien. L'écrire `"\u00a0"`, et vérifier que le compte de
+  remplacements n'est pas nul.
 
 La largeur de lecture reste bornée à 860 px, même sur un grand écran :
 au-delà d'une soixantaine de signes par ligne, l'œil perd la ligne

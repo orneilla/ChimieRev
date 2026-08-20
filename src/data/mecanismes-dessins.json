@@ -1424,5 +1424,169 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "wittig": {
+    "1": {
+      "fichier": "wittig-etape1.svg",
+      "titre": "Une base forte fabrique l'ylure",
+      "legende": "Un ylure est une espèce portant une charge positive et une charge négative sur deux atomes VOISINS. Ici le phosphore, qui porte déjà trois phényles et un méthyle, tient bon avec sa charge positive ; il suffit d'arracher un hydrogène au carbone d'à côté.",
+      "fleches": [
+        "La base arrache un proton au carbone voisin du phosphore.",
+        "Les électrons de cette liaison C–H restent sur le carbone : il devient un carbanion."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "wittig-etape2.svg",
+      "titre": "L'ylure attaque, puis le cycle à quatre se ferme",
+      "legende": "Deux gestes enchaînés. Le carbanion attaque le carbonyle comme n'importe quel nucléophile ; puis l'oxygène, devenu négatif, se retourne vers le phosphore, qui est juste à côté et chargé positivement. Il se forme un cycle à quatre chaînons appelé oxaphosphétane.",
+      "fleches": [
+        "Le carbanion de l'ylure attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène.",
+        "Et l'oxygène va aussitôt se lier au phosphore : le cycle à quatre est fermé."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "wittig-etape3.svg",
+      "titre": "Le cycle s'effondre en formant deux doubles liaisons",
+      "legende": "Deux flèches en rond, et le cycle se défait en donnant l'alcène d'un côté, l'oxyde de phosphine de l'autre. La liaison P=O vaut 575 kJ·mol⁻¹ — une des plus fortes doubles liaisons de toute la chimie. C'est elle qui tire la réaction, et qui la rend irréversible.",
+      "fleches": [
+        "Les électrons de la liaison phosphore–carbone forment la double liaison carbone–carbone.",
+        "Et ceux de la liaison carbone–oxygène forment la double liaison P=O."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "wittig-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le méthylènecyclohexane, 86 % de rendement. Le carbonyle a été remplacé par une double liaison carbone–carbone, exactement à sa place : aucune ambiguïté sur la position de l'alcène, contrairement à une élimination.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "horner_wadsworth_emmons": {
+    "1": {
+      "fichier": "horner_wadsworth_emmons-etape1.svg",
+      "titre": "L'hydrure arrache un proton entre deux groupes attracteurs",
+      "legende": "Ce carbone est coincé entre un phosphonate et un ester : les deux tirent les électrons. Son proton est donc bien plus acide que celui d'un sel de phosphonium — une base ordinaire comme NaH ou un alcoolate suffit, là où le Wittig réclamait du butyllithium.",
+      "fleches": [
+        "L'hydrure arrache le proton.",
+        "Les électrons restent sur le carbone. L'anion obtenu est stabilisé — c'est un anion de type énolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "horner_wadsworth_emmons-etape2.svg",
+      "titre": "L'anion attaque l'aldéhyde et referme le cycle à quatre",
+      "legende": "Même enchaînement que dans le Wittig : attaque du carbanion, repli des électrons sur l'oxygène, puis fermeture sur le phosphore. Les gros substituants s'écartent l'un de l'autre pendant que le cycle s'aplatit, et c'est de là que vient la sélectivité E.",
+      "fleches": [
+        "Le carbanion attaque le carbone de l'aldéhyde.",
+        "Les électrons de la double liaison se replient sur l'oxygène.",
+        "L'oxygène se lie au phosphore : cycle à quatre.",
+        "Et la double liaison P=O se replie sur son oxygène : le phosphore garde cinq liaisons simples et reste neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "horner_wadsworth_emmons-etape3.svg",
+      "titre": "Effondrement : l'alcène E et un phosphate soluble dans l'eau",
+      "legende": "Deux flèches en rond, comme dans le Wittig. La différence est dans le sous-produit : ici c'est un phosphate chargé, soluble dans l'eau, qu'un simple lavage élimine — alors que l'oxyde de triphénylphosphine du Wittig est un solide pénible à séparer.",
+      "fleches": [
+        "Les électrons de la liaison phosphore–carbone forment la double liaison carbone–carbone.",
+        "Et ceux de la liaison carbone–oxygène renforcent la liaison P=O."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "horner_wadsworth_emmons-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le cinnamate d'éthyle, de géométrie E. Chaque fois qu'on veut un alcène E conjugué à un ester, c'est cette réaction qu'on emploie.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "addition_1_2_vs_1_4": {
+    "1": {
+      "fichier": "addition_1_2_vs_1_4-etape1.svg",
+      "titre": "Voie 1,2 : le nucléophile attaque le carbonyle",
+      "legende": "C'est le chemin le plus RAPIDE. Le carbone du carbonyle porte plus de charge positive que le carbone β : un nucléophile chargé y est attiré d'abord. On obtient une cyanhydrine.",
+      "fleches": [
+        "Le cyanure attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "addition_1_2_vs_1_4-etape2.svg",
+      "titre": "Voie 1,4 : le nucléophile attaque le carbone β",
+      "legende": "C'est le chemin le plus STABLE. Trois flèches en cascade : l'attaque a lieu à l'autre bout du système conjugué, et la charge négative remonte jusqu'à l'oxygène. On obtient un énolate — donc, après protonation, une cétone intacte.",
+      "fleches": [
+        "Le cyanure attaque le carbone β, à l'autre extrémité de la conjugaison.",
+        "La double liaison carbone–carbone se déplace vers le carbonyle.",
+        "Et les électrons de la double liaison C=O se replient sur l'oxygène : on obtient un énolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "addition_1_2_vs_1_4-etape3.svg",
+      "titre": "L'énolate reprend un proton",
+      "legende": "L'énolate est protoné sur l'oxygène puis bascule vers la cétone — la même tautomérie que pour l'hydratation des alcynes. Bilan : le carbonyle est INTACT, et le nucléophile s'est fixé plus loin.",
+      "fleches": [
+        "L'énolate prend un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "addition_1_2_vs_1_4-etape4.svg",
+      "titre": "Ce qu'on isole quand on laisse le temps faire",
+      "legende": "À 160 °C, avec HCN et KCN, on obtient 75 % du produit d'addition conjuguée. La cyanhydrine se forme plus vite ; mais elle est réversible, et le produit 1,4 ne l'est pas. Petit à petit, tout finit par y passer.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_luche": {
+    "3": {
+      "fichier": "reduction_luche-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le cyclohex-2-énol : le carbonyle est réduit, l'alcène est intact. Aucune flèche ici — Clayden nomme la réaction et en donne le résultat, mais n'en écrit pas le mécanisme, et aucun des neuf ouvrages indexés ne le fait. On ne l'invente pas.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "amination_reductrice": {
+    "2": {
+      "fichier": "amination_reductrice-etape2.svg",
+      "titre": "Le cyanoborohydrure réduit l'iminium, et lui seul",
+      "legende": "Tout tient dans la douceur du réactif. Le groupe nitrile appauvrit le bore, ce qui affaiblit ses liaisons B–H : Na(CN)BH₃ est trop mou pour réduire une cétone, mais assez fort pour réduire un iminium, bien plus électrophile. On peut donc mélanger la cétone, l'amine et le réducteur dans le même ballon.",
+      "fleches": [
+        "Les électrons d'une liaison B–H forment la liaison C–H.",
+        "Et les électrons de la double liaison C=N se replient sur l'azote, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "amination_reductrice-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "La 1-phényléthylamine. Partis d'une cétone, on a une amine — et le degré de substitution de cette amine se choisit en choisissant l'amine de départ.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

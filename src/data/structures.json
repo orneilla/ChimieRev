@@ -167,6 +167,26 @@
     "substrat": "cyanhydrine-substrat.svg",
     "produit": "cyanhydrine-produit.svg"
   },
+  "wittig": {
+    "substrat": "wittig-substrat.svg",
+    "produit": "wittig-produit.svg"
+  },
+  "horner_wadsworth_emmons": {
+    "substrat": "horner_wadsworth_emmons-substrat.svg",
+    "produit": "horner_wadsworth_emmons-produit.svg"
+  },
+  "addition_1_2_vs_1_4": {
+    "substrat": "addition_1_2_vs_1_4-substrat.svg",
+    "produit": "addition_1_2_vs_1_4-produit.svg"
+  },
+  "reduction_luche": {
+    "substrat": "reduction_luche-substrat.svg",
+    "produit": "reduction_luche-produit.svg"
+  },
+  "amination_reductrice": {
+    "substrat": "amination_reductrice-substrat.svg",
+    "produit": "amination_reductrice-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -282,6 +302,21 @@
   },
   "hcl": {
     "molecule": "reactif-hcl.svg"
+  },
+  "ylure_phosphore": {
+    "molecule": "reactif-ylure_phosphore.svg"
+  },
+  "buli": {
+    "molecule": "reactif-buli.svg"
+  },
+  "phosphonate": {
+    "molecule": "reactif-phosphonate.svg"
+  },
+  "cecl3": {
+    "molecule": "reactif-cecl3.svg"
+  },
+  "nacnbh3": {
+    "molecule": "reactif-nacnbh3.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

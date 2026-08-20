@@ -57,6 +57,15 @@ const DEGAGEMENT_SIGNE = seuil('DEGAGEMENT_SIGNE', 26)     // numéro ↔ « + �
 // Une pastille posée sur le trait d'une AUTRE flèche fait croire qu'elle
 // appartient à celle-là.
 const DEGAGEMENT_TRACE = seuil('DEGAGEMENT_TRACE', 15)     // numéro ↔ trait d'une autre flèche
+// Deux flèches qui se croisent franchement restent lisibles ; deux flèches
+// qui se superposent sur une partie de leur longueur forment une tache.
+// On mesure donc la LONGUEUR du voisinage, pas seulement la distance : un
+// croisement ne partage qu'un point, une superposition en partage beaucoup.
+// Les extrémités sont exclues — dans une cascade, la pointe d'une flèche et
+// la queue de la suivante visent légitimement le même endroit.
+const DEGAGEMENT_CROISEMENT = seuil('DEGAGEMENT_CROISEMENT', 14) // trait ↔ trait
+const BOUT_IGNORE = seuil('BOUT_IGNORE', 28)                     // autour des extrémités
+const PART_SUPERPOSEE = 0.2                                      // au-delà, c'est une tache
 
 const CASE = 240                 // largeur de la toile de dessin d'une espèce
 const HAUTEUR_TOILE = 220        // hauteur de cette toile
@@ -426,6 +435,25 @@ function echantillonner(tracee) {
   return points
 }
 
+/**
+ * Longueur relative sur laquelle deux flèches se superposent, extrémités
+ * exclues. Zéro pour deux flèches qui se croisent en un point.
+ */
+function partSuperposee(une, autre) {
+  const bouts = [une.points[0], une.points[1], autre.points[0], autre.points[1]]
+  const loinDesBouts = (q) => bouts.every((b) => Math.hypot(b.x - q.x, b.y - q.y) > BOUT_IGNORE)
+
+  const points = echantillonner(une).filter(loinDesBouts)
+  if (points.length === 0) return 0
+
+  const cible = echantillonner(autre).filter(loinDesBouts)
+  if (cible.length === 0) return 0
+
+  const proches = points.filter((p) =>
+    cible.some((q) => Math.hypot(q.x - p.x, q.y - p.y) < DEGAGEMENT_CROISEMENT))
+  return proches.length / points.length
+}
+
 /** Assemble les espèces d'une étape et pose les flèches par-dessus. */
 function dessinerEtape(etape) {
   const especes = etape.smiles.split('.')
@@ -593,6 +621,14 @@ function dessinerEtape(etape) {
         .map((q) => Math.hypot(q.x - signe.x, q.y - signe.y)))
       if (d < DEGAGEMENT_SIGNE) {
         griefs.push(`la flèche ${numero} passe à ${d.toFixed(0)} px du « + » (minimum ${DEGAGEMENT_SIGNE})`)
+      }
+    })
+
+    tracees.slice(rang + 1).forEach((autre, ecart) => {
+      const part = Math.max(partSuperposee(tracee, autre), partSuperposee(autre, tracee))
+      if (part > PART_SUPERPOSEE) {
+        griefs.push(`les flèches ${numero} et ${numero + 1 + ecart} se superposent sur ` +
+          `${(part * 100).toFixed(0)} % de leur longueur (maximum ${(PART_SUPERPOSEE * 100).toFixed(0)} %)`)
       }
     })
 
