@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 69,
-  "verifiees": 64,
+  "redigees": 74,
+  "verifiees": 69,
   "relues": 0,
   "familles": [
     {
@@ -565,31 +565,31 @@
       "famille": "Énolates",
       "bloc": "Socle organique",
       "total": 15,
-      "absente": 15,
+      "absente": 10,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 5,
       "relue": 0,
       "reactions": [
         {
           "nom": "Formation des énols et des énolates",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "formation_enols_enolates",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Énolate cinétique contre thermodynamique",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "enolate_cinetique_thermodynamique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Alkylation des énolates",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "alkylation_enolates",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Aldolisation et crotonisation",
@@ -650,16 +650,16 @@
         {
           "nom": "Halogénation en α (Hell-Volhard-Zelinsky)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "halogenation_alpha",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction haloforme",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reaction_haloforme",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Condensation de Knoevenagel",

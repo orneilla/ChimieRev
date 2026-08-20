@@ -1128,5 +1128,27 @@
     ],
     "explication_reference": "Sel de cuivre(I) employé dans la réaction de Sandmeyer, qui substitue un halogénure ou un cyanure au groupe diazonium d'un sel d'aryldiazonium. Le choix du sel — chlorure, bromure ou cyanure — détermine le substituant introduit. La substitution par l'iodure s'effectue sans catalyse, l'hydrolyse fournit les phénols (Clayden p. 523).",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ mettre un chlore, un brome ou un nitrile là où se trouvait un groupe diazonium.\n\nCE QU'IL FAUT SAVOIR EN UNE LIGNE\n\nOn choisit le sel selon ce qu'on veut : CuCl pour un chlore, CuBr pour un brome, CuCN pour un nitrile.\n\nPOURQUOI IL EST NÉCESSAIRE\n\nSans lui, la réaction ne se fait pas. Le cuivre(I) intervient dans le transfert — le mécanisme exact fait intervenir des radicaux et n'est pas détaillé par les ouvrages disponibles.\n\nDEUX EXCEPTIONS À CONNAÎTRE\n\nPour un IODE, pas besoin de cuivre : l'iodure de potassium suffit.\n\nPour un OH, pas besoin de cuivre non plus : on chauffe simplement dans l'eau.\n\nCE QUE ÇA REPRÉSENTE\n\nAvec cette famille de réactions, on peut poser sur un cycle aromatique à peu près n'importe quoi — et surtout, à des positions que la substitution électrophile n'atteindrait jamais."
+  },
+  {
+    "id": "pbr3_hvz",
+    "nom": "PBr₃",
+    "nom_complet": "tribromure de phosphore",
+    "SMILES": "BrP(Br)Br",
+    "role": "Il transforme un acide en bromure d'acyle, qui lui s'énolise",
+    "anatomie_annotations": [
+      {
+        "partie": "le phosphore",
+        "role": "Comme le soufre du chlorure de thionyle, il a une affinité pour l'oxygène : c'est lui qui emporte le OH de l'acide."
+      },
+      {
+        "partie": "les trois bromes",
+        "role": "L'un remplace le OH sur le carbonyle ; le HBr libéré catalyse ensuite l'énolisation, et c'est cette énolisation qui permet la bromation en α."
+      }
+    ],
+    "reactions_liees": [
+      "halogenation_alpha"
+    ],
+    "explication_reference": "Réactif employé pour convertir les acides carboxyliques en bromures d'acyle, et les alcools en bromures d'alkyle. Dans la réaction de Hell-Volhard-Zelinsky, cette conversion est indispensable : un acide carboxylique ne s'énolise pas suffisamment pour être halogéné en α, alors qu'un bromure d'acyle s'énolise aisément. Le bromure d'hydrogène libéré au cours de la formation de l'halogénure catalyse ensuite cette énolisation (McMurry p. 870 ; Clayden p. 462).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ rendre énolisable un acide carboxylique qui ne l'est pas.\n\nLE PROBLÈME\n\nOn veut poser un brome à côté du carbonyle d'un acide. Cela passe forcément par l'énol.\n\nOr un acide carboxylique s'énolise très mal : son OH prête ses doublets au carbonyle et l'apaise.\n\nCE QU'IL FAIT\n\nIl remplace ce OH par un brome.\n\nEt un brome, contrairement à un OH, TIRE les électrons au lieu d'en prêter. Le carbonyle devient bien plus pauvre, et les hydrogènes voisins bien plus acides.\n\nL'énolisation devient facile, et la bromation peut avoir lieu.\n\nUN BONUS\n\nLa formation du bromure d'acyle libère du HBr — qui est justement l'acide qui catalysera l'énolisation.\n\nLe réactif fabrique son propre catalyseur en passant.\n\nÀ MANIPULER AU SEC\n\nComme SOCl₂, il réagit violemment avec l'eau."
   }
 ]

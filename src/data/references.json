@@ -1498,6 +1498,84 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "formation_enols_enolates": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "20 — Formation and reactions of enols and enolates",
+          "pages": "449–453",
+          "note": "La mise en évidence de l'énol par RMN sur la dimédone — OH large vers 8,15 ppm et signal net vers 5,5 ppm dans la région des doubles liaisons, deux carbones sp² distincts ; la définition de la tautomérie comme toute réaction ne mettant en jeu que le transfert intramoléculaire d'un proton, avec les exemples de l'acide carboxylique et de l'imidazole ; la constante d'énolisation de l'acétone, environ 10⁻⁶, et son explication par la balance des énergies de liaison — O–H plus forte que C–H, mais C=O bien plus forte que C=C ; l'échange isotopique en D₂O, limité aux positions α et suivi par la disparition lente du signal correspondant ; la catalyse acide, où l'on protone d'abord l'oxygène puis on perd un proton du carbone ; la formation de l'énolate, soit par perte du proton C–H du composé carbonylé, soit par perte du proton O–H de l'énol ; et la description de l'énolate comme système à trois atomes et quatre électrons apparenté à l'anion allyle, la charge résidant principalement sur l'oxygène."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "enolate_cinetique_thermodynamique": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "598–601",
+          "note": "Le problème de régiosélectivité posé par les cétones dissymétriques ; le contrôle thermodynamique, avec l'exemple de l'acétoacétate d'éthyle où seul l'énolate le plus stable se forme avec des bases faibles ; le contrôle cinétique par le LDA à −78 °C, avec la déprotonation sélective des méthylcétones et des cyclohexanones 2-substituées — sur la 2-phénylcyclohexanone, pourtant fortement portée vers l'énolate conjugué, « 100 % formé » du moins substitué et « 0 % formé » de l'autre ; la benzylation de la 2-méthylcyclohexanone, 99 % de l'énolate voulu et 45 % de rendement ; l'encadré récapitulatif opposant terme à terme énolates thermodynamiques et cinétiques ; la voie par l'éther d'énol silylé le plus substitué, avec l'explication par un état de transition cationique que les méthyles stabilisent ; et le cas du dianion de l'acétoacétate de méthyle, où l'anion formé en dernier réagit le premier, 79 % de rendement."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "alkylation_enolates": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "584–588",
+          "note": "Les considérations générales gouvernant toute alkylation d'énolate ; le choix de l'électrophile, la réaction étant une SN2 — d'où la restriction aux halogénures primaires, allyliques et benzyliques ; et les énolates de lithium des composés carbonylés, formés par le LDA."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "595",
+          "note": "L'alkylation des composés β-dicarbonylés, dont les protons centraux sont assez acides pour être arrachés par des bases ordinaires, et sans ambiguïté régiochimique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "25 — Alkylation of enolates",
+          "pages": "601",
+          "note": "Deux exemples chiffrés : 77 % pour la benzylation d'une méthylcétone via l'énolate cinétique, et 45 % pour la 2-méthylcyclohexanone, avec 99 % de l'énolate voulu."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "halogenation_alpha": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "22 — Carbonyl Alpha-Substitution Reactions, § 22-4",
+          "pages": "870",
+          "note": "La réaction de Hell-Volhard-Zelinskii nommée et détaillée : la bromation en α par Br₂ dans l'acide acétique se limite aux aldéhydes et aux cétones, « parce que les acides, les esters et les amides ne s'énolisent pas suffisamment ». D'où le passage par le bromure d'acyle : PBr₃ convertit l'acide en bromure d'acyle avec libération de HBr, lequel catalyse l'énolisation ; l'énol réagit avec Br₂ ; l'hydrolyse fournit l'acide α-bromé. 90 % d'acide 2-bromoheptanoïque à partir de l'acide heptanoïque."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "20 — Formation and reactions of enols and enolates",
+          "pages": "461–462",
+          "note": "La bromation en α catalysée par un acide, avec le mécanisme complet et la régénération du catalyseur ; les acides de Lewis comme catalyseurs, 100 % de rendement avec AlCl₃ catalytique dans l'éther sur une cétone dissymétrique ; et la séquence moderne vers le bromoester — SOCl₂, puis Br₂, puis MeOH, sans isolement d'intermédiaire —, dont l'étape centrale est « la bromation d'un chlorure d'acyle très facilement énolisable »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reaction_haloforme": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "20 — Formation and reactions of enols and enolates",
+          "pages": "462–463",
+          "note": "L'halogénation en milieu basique, « différente et plus compliquée parce qu'elle ne s'arrête habituellement pas après un seul halogène » ; le passage par l'énolate, plus réactif encore que l'énol puisqu'il porte une charge négative ; l'attaque de l'hydroxyde sur le carbonyle du dérivé trihalogéné, l'effondrement expulsant le carbanion CBr₃⁻, et le transfert de proton final révélant les vrais produits — un carboxylate et le tribromométhane ; la nécessité d'un groupe méthyle, « parce que trois halogènes sont nécessaires pour faire du carbanion un groupe partant » ; et la remarque que c'est « l'un des rares cas où une substitution nucléophile sur un groupe carbonyle aboutit à la coupure d'une liaison carbone–carbone simple ». L'ouvrage rappelle aussi l'origine du nom : iodoforme était l'ancien nom du triiodométhane, comme chloroforme l'est encore du trichlorométhane."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

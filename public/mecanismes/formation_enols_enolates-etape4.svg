@@ -1,0 +1,77 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1'
+     width='151px' height='140px' viewBox='4 4 151 140'>
+  <g transform='translate(-38.4, -38.2)'><path class='bond-2 atom-1 atom-3' d='M 138.3,93.8 L 138.3,119.4 L 90.3,119.4 L 90.3,93.8 Z' style='fill:#C6E5F9;fill-rule:evenodd;fill-opacity:1;stroke:#C6E5F9;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+    <ellipse cx='165.6' cy='148.3' rx='13.5' ry='13.4' class='atom-5'  style='fill:#C6E5F9;fill-rule:evenodd;stroke:#C6E5F9;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+    <path class='bond-4 atom-3 atom-5' d='M 151.3,103.5 L 175.3,145.0 L 153.2,157.8 L 129.2,116.3 Z' style='fill:#FFD1DD;fill-rule:evenodd;fill-opacity:1;stroke:#FFD1DD;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+    <ellipse cx='92.2' cy='109.9' rx='13.4' ry='13.4' class='atom-1'  style='fill:#FFD1DD;fill-rule:evenodd;stroke:#FFD1DD;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+
+<path class='bond-0 atom-0 atom-1' d='M 73.1,143.0 L 92.2,109.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 92.2,109.9 L 73.1,76.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 92.2,109.9 L 140.2,109.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 96.4,117.1 L 136.1,117.1' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 140.2,109.9 L 164.2,68.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-3 atom-5' d='M 140.2,109.9 L 149.8,126.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-3 atom-5' d='M 149.8,126.4 L 159.4,143.0' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 62.9 144.6
+L 64.8 144.6
+L 64.8 150.4
+L 71.7 150.4
+L 71.7 144.6
+L 73.6 144.6
+L 73.6 158.2
+L 71.7 158.2
+L 71.7 151.9
+L 64.8 151.9
+L 64.8 158.2
+L 62.9 158.2
+L 62.9 144.6
+' fill='#000000'/>
+<path class='atom-2' d='M 62.9 61.5
+L 64.8 61.5
+L 64.8 67.3
+L 71.7 67.3
+L 71.7 61.5
+L 73.6 61.5
+L 73.6 75.1
+L 71.7 75.1
+L 71.7 68.8
+L 64.8 68.8
+L 64.8 75.1
+L 62.9 75.1
+L 62.9 61.5
+' fill='#000000'/>
+<path class='atom-5' d='M 158.0 151.5
+Q 158.0 148.2, 159.6 146.4
+Q 161.2 144.6, 164.2 144.6
+Q 167.3 144.6, 168.9 146.4
+Q 170.5 148.2, 170.5 151.5
+Q 170.5 154.8, 168.9 156.6
+Q 167.2 158.5, 164.2 158.5
+Q 161.3 158.5, 159.6 156.6
+Q 158.0 154.8, 158.0 151.5
+M 164.2 157.0
+Q 166.3 157.0, 167.4 155.6
+Q 168.6 154.2, 168.6 151.5
+Q 168.6 148.8, 167.4 147.5
+Q 166.3 146.1, 164.2 146.1
+Q 162.2 146.1, 161.0 147.4
+Q 159.9 148.8, 159.9 151.5
+Q 159.9 154.2, 161.0 155.6
+Q 162.2 157.0, 164.2 157.0
+' fill='#FF0000'/>
+<path class='atom-5' d='M 172.4 146.8
+L 177.1 146.8
+L 177.1 147.8
+L 172.4 147.8
+L 172.4 146.8
+' fill='#FF0000'/>
+</g>
+  <path d='M 124.3,113.4 Q 105.7,113.8 113.6,97.0' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
+  <polygon points='113.6,97.0 113.2,108.0 105.4,104.4' fill='#D62246'/>
+  <circle cx='96.6' cy='106.8' r='11' fill='#D62246'/>
+  <text x='96.6' y='106.8' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>1</text>
+  <path d='M 75.5,67.5 Q 66.0,51.6 56.5,67.5' fill='none' stroke='#D62246' stroke-width='2.6' stroke-linecap='round'/>
+  <polygon points='56.5,67.5 58.0,56.6 65.4,61.0' fill='#D62246'/>
+  <circle cx='76.9' cy='47.8' r='11' fill='#D62246'/>
+  <text x='76.9' y='47.8' text-anchor='middle' dominant-baseline='central' font-family='Karla, sans-serif' font-size='14' font-weight='700' fill='#FFFFFF'>2</text>
+</svg>

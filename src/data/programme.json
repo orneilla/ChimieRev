@@ -404,17 +404,17 @@
         {
           "nom": "Formation des énols et des énolates",
           "niveau": "L3",
-          "id": null
+          "id": "formation_enols_enolates"
         },
         {
           "nom": "Énolate cinétique contre thermodynamique",
           "niveau": "M1",
-          "id": null
+          "id": "enolate_cinetique_thermodynamique"
         },
         {
           "nom": "Alkylation des énolates",
           "niveau": "L3",
-          "id": null
+          "id": "alkylation_enolates"
         },
         {
           "nom": "Aldolisation et crotonisation",
@@ -459,12 +459,12 @@
         {
           "nom": "Halogénation en α (Hell-Volhard-Zelinsky)",
           "niveau": "L3",
-          "id": null
+          "id": "halogenation_alpha"
         },
         {
           "nom": "Réaction haloforme",
           "niveau": "L3",
-          "id": null
+          "id": "reaction_haloforme"
         },
         {
           "nom": "Condensation de Knoevenagel",

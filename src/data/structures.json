@@ -271,6 +271,26 @@
     "substrat": "oxydation_chaines_laterales-substrat.svg",
     "produit": "oxydation_chaines_laterales-produit.svg"
   },
+  "formation_enols_enolates": {
+    "substrat": "formation_enols_enolates-substrat.svg",
+    "produit": "formation_enols_enolates-produit.svg"
+  },
+  "enolate_cinetique_thermodynamique": {
+    "substrat": "enolate_cinetique_thermodynamique-substrat.svg",
+    "produit": "enolate_cinetique_thermodynamique-produit.svg"
+  },
+  "alkylation_enolates": {
+    "substrat": "alkylation_enolates-substrat.svg",
+    "produit": "alkylation_enolates-produit.svg"
+  },
+  "halogenation_alpha": {
+    "substrat": "halogenation_alpha-substrat.svg",
+    "produit": "halogenation_alpha-produit.svg"
+  },
+  "reaction_haloforme": {
+    "substrat": "reaction_haloforme-substrat.svg",
+    "produit": "reaction_haloforme-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -437,6 +457,9 @@
   },
   "cucl": {
     "molecule": "reactif-cucl.svg"
+  },
+  "pbr3_hvz": {
+    "molecule": "reactif-pbr3_hvz.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

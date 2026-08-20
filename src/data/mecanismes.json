@@ -7134,5 +7134,593 @@
         "valide": false
       }
     ]
+  },
+  "formation_enols_enolates": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "En acide : on protone l'oxygène d'abord",
+        "smiles": "[H]C([H])([H])C(C)=O.[O+]([H])([H])[H]",
+        "legende": "L'énolisation est lente en milieu neutre — des heures, voire des jours. On la catalyse. En acide, l'ordre est celui-ci : on protone D'ABORD l'oxygène, et seulement ensuite on perd un proton du carbone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène du carbonyle va chercher un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "[H]C([H])([H])C(C)=[O+][H].O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Puis on perd un proton du carbone : voilà l'énol",
+        "smiles": "[H]C([H])([H])C(C)=[O+][H].O",
+        "legende": "Le carbonyle protoné rend les hydrogènes voisins bien plus acides. Une molécule d'eau en emporte un ; ses électrons forment la double liaison carbone–carbone, et ceux de la double liaison C=O se replient sur l'oxygène. Le proton emprunté est rendu : l'acide était catalyseur.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule d'eau prend un proton du carbone voisin."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Ses électrons forment la double liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.35,
+            "libelle": "Et la double liaison C=O se replie sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C([H])=C(C)O[H].[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "En base : on prend directement le proton du carbone",
+        "smiles": "[H]C([H])([H])C(C)=O.[OH-]",
+        "legende": "La voie basique est plus directe : une seule étape. La base arrache un proton du carbone voisin du carbonyle, et l'on obtient l'ÉNOLATE — l'anion, pas l'énol neutre.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base arrache un proton du carbone voisin du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Ses électrons forment la double liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.35,
+            "libelle": "Et la charge négative se pose sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C([H])=C(C)[O-].O",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'énolate est délocalisé, et c'est tout son intérêt",
+        "smiles": "[H]C([H])=C(C)[O-]",
+        "legende": "Trois atomes, quatre électrons : le même système que l'anion allyle. La charge est PRINCIPALEMENT sur l'oxygène, qui est le plus électronégatif. Mais la forme carbanion existe aussi — et c'est par le CARBONE que l'énolate réagit le plus souvent.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "La charge de l'oxygène peut se déplacer : elle forme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.4,
+            "libelle": "Et les électrons de la double liaison C=C se replient sur le carbone : voilà la forme carbanion."
+          }
+        ],
+        "produit_attendu": "[H][C-]([H])C(C)=O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Combien y en a-t-il, en vrai ?",
+        "smiles": "CC(C)=O",
+        "legende": "Très peu. Pour l'acétone, la constante d'équilibre d'énolisation vaut environ 10⁻⁶ — un million de fois en faveur de la cétone. La raison : l'ensemble C=O plus C–H est légèrement plus stable que l'ensemble C=C plus O–H. L'équilibre est ténu, mais il penche toujours du même côté.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "enolate_cinetique_thermodynamique": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Énolate CINÉTIQUE : la base va au plus accessible",
+        "smiles": "O=C1C(C)CCCC1[H].CC(C)[N-]C(C)C",
+        "legende": "Le LDA est une base FORTE et ENCOMBRÉE. À −78 °C, en versant la cétone SUR la base, elle arrache le proton le plus accessible — celui du carbone le MOINS substitué. On obtient l'énolate le moins substitué, donc le moins stable : c'est le produit cinétique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le LDA arrache le proton du côté le moins encombré."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Ses électrons forment la double liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": -0.35,
+            "libelle": "Et la charge se pose sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[O-]C1=CCCCC1C.CC(C)NC(C)C",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Énolate THERMODYNAMIQUE : on laisse le temps choisir",
+        "smiles": "O=C1C([H])(C)CCCC1.[OH-]",
+        "legende": "Avec une base faible, un excès de cétone, une température élevée et du temps, la déprotonation devient réversible. Le système s'installe alors dans l'énolate le plus STABLE — le plus substitué, comme pour n'importe quel alcène.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une base faible arrache le proton du côté le plus substitué."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Ses électrons forment la double liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": -0.35,
+            "libelle": "Et la charge se pose sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[O-]C1=C(C)CCCC1.O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le tableau à retenir",
+        "smiles": "CC1CCCCC1=O",
+        "legende": "THERMODYNAMIQUE : plus substitué, plus stable, favorisé par un excès de cétone, une température élevée, un temps long. CINÉTIQUE : moins substitué, moins stable, favorisé par une base forte et encombrée comme le LDA, une température basse, un temps court. Sur la 2-phénylcyclohexanone, pourtant très portée vers l'énolate conjugué, le LDA à −78 °C donne 100 % de l'énolate le moins substitué.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "alkylation_enolates": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "L'énolate attaque par le CARBONE",
+        "smiles": "[O-]C1=CCCCC1.CI",
+        "legende": "L'énolate est ambident : il porte sa charge principalement sur l'oxygène, mais c'est par le carbone qu'il attaque. Trois flèches en cascade : l'oxygène rend sa charge en reformant le C=O, la double liaison carbone–carbone attaque l'électrophile, et l'iodure s'en va. C'est une SN2 ordinaire du point de vue de l'halogénure.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                7
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison carbone–carbone attaque le carbone de l'halogénure."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "Et l'iodure s'en va : c'est une SN2."
+          }
+        ],
+        "produit_attendu": "CC1CCCCC1=O.[I-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC1CCCCC1=O",
+        "legende": "La 2-méthylcyclohexanone. On vient de former une liaison carbone–carbone à partir d'une cétone et d'un halogénure — l'une des opérations les plus employées de toute la synthèse.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "halogenation_alpha": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "L'énol attaque le brome",
+        "smiles": "[H]C([H])=C(O[H])Br.BrBr",
+        "legende": "C'est l'ÉNOL qui réagit, jamais le carbonyle. Sa double liaison est riche en électrons — et enrichie encore par l'oxygène voisin. Elle attaque le brome comme le ferait n'importe quel alcène nucléophile ; mais ici l'oxygène vient aussitôt reformer le carbonyle, et il n'y a pas d'addition.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                7
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison de l'énol attaque une molécule de brome."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "Un bromure s'en va."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Et l'oxygène reforme la double liaison C=O."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(Br)C(=[O+][H])Br.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le bromure rend le proton",
+        "smiles": "[H]C([H])(Br)C(=[O+][H])Br.[Br-]",
+        "legende": "Le proton emprunté au début est rendu : l'acide était bien un catalyseur. On a le bromure d'acyle α-bromé, qu'une simple hydrolyse transforme en acide α-bromé.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le bromure prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "[H]C([H])(Br)C(=O)Br.Br",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "OC(=O)CBr",
+        "legende": "L'acide bromoacétique, après hydrolyse du bromure d'acyle. Sur l'acide heptanoïque, la séquence complète donne 90 % d'acide 2-bromoheptanoïque. Le carbone en α porte maintenant un groupe partant : on peut y mettre presque n'importe quoi par substitution nucléophile.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reaction_haloforme": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "L'hydroxyde attaque le carbonyle",
+        "smiles": "CC(=O)C(Br)(Br)Br.[OH-]",
+        "legende": "Une fois les trois bromes posés, la molécule change de nature. Le groupe CBr₃ appauvrit fortement le carbonyle voisin : l'hydroxyde l'attaque, alors qu'il ne toucherait pas une cétone ordinaire.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(O)C(Br)(Br)Br",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Et voici la rareté : une liaison C–C se rompt",
+        "smiles": "CC([O-])(O)C(Br)(Br)Br",
+        "legende": "Clayden le souligne : c'est l'un des rares cas où une substitution nucléophile sur un carbonyle rompt une liaison carbone–carbone SIMPLE. Ce qui part est le carbanion CBr₃⁻ — normalement un très mauvais groupe partant, mais rendu acceptable par les trois bromes qui stabilisent sa charge.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.4,
+            "libelle": "Et le carbanion tribromométhyle s'en va : trois bromes suffisent à en faire un groupe partant."
+          }
+        ],
+        "produit_attendu": "CC(=O)O.[C-](Br)(Br)Br",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Un transfert de proton révèle les vrais produits",
+        "smiles": "CC(=O)O[H].[C-](Br)(Br)Br",
+        "legende": "Le carbanion arrache aussitôt le proton acide. On obtient un carboxylate et du bromoforme. Avec l'iode à la place du brome, c'est le test à l'iodoforme : un précipité jaune, révélateur d'une méthylcétone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion prend le proton de l'acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "Le carboxylate est formé : il ne réagira plus."
+          }
+        ],
+        "produit_attendu": "CC(=O)[O-].[H]C(Br)(Br)Br",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)[O-]",
+        "legende": "Un carboxylate, et un carbone de moins qu'au départ. Il FAUT un groupe méthyle sur le carbonyle : trois halogènes sont nécessaires pour faire du carbanion un groupe partant, et un méthyle en porte exactement trois.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }
