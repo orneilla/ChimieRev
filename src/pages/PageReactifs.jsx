@@ -117,7 +117,7 @@ function FicheReactif({ reactif, mode }) {
 
       {aVenir.length > 0 && (
         <p className="note">
-          Également cité pour : {aVenir.join(', ').replace(/_/g, ' ')} — ces
+          Également cité pour : {aVenir.join(', ').replace(/_/g, ' ')} — ces
           réactions ne sont pas encore dans l'application.
         </p>
       )}

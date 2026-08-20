@@ -1,11 +1,11 @@
 {
   "_meta": {
-    "role": "Inventaire des réactions à couvrir, de la licence au master 2. Sert à mesurer l'avancement et à choisir l'ordre de travail. Les familles sont réparties en cinq blocs : socle organique, organométallique et catalyse, inorganique, biomolécules et vivant, méthodes et matériaux.",
-    "statut": "PROPOSITION — la liste elle-même demande une relecture : il y manque sans doute des réactions, et certaines n'ont peut-être pas leur place à ce niveau.",
-    "niveaux": "L2 et L3 : licence. M1 et M2 : master.",
+    "role": "Inventaire des réactions à couvrir, de la licence au master 2. Sert à mesurer l'avancement et à choisir l'ordre de travail. Les familles sont réparties en cinq blocs : socle organique, organométallique et catalyse, inorganique, biomolécules et vivant, méthodes et matériaux.",
+    "statut": "PROPOSITION — la liste elle-même demande une relecture : il y manque sans doute des réactions, et certaines n'ont peut-être pas leur place à ce niveau.",
+    "niveaux": "L2 et L3 : licence. M1 et M2 : master.",
     "regle": "Une entrée présente ici n'est PAS du contenu publié. Elle ne devient une fiche que rédigée, vérifiée par la machine, puis relue par un chimiste.",
-    "perimetre": "Chimie organique, organométallique et inorganique moléculaire ; biomolécules et métabolisme ; polymères ; photochimie ; réactions multicomposants et chimie durable ; synthèse asymétrique. Règle : une réaction n'est inscrite que si l'un des neuf ouvrages indexés la traite. Une entrée sans source ne serait pas rédigeable — elle reviendrait à promettre une fiche écrite de mémoire.",
-    "couverture": "Les deux manques signalés précédemment sont comblés : la chimie durable et les réactions multicomposants sont désormais couvertes par l'ouvrage de Herrera et Marqués-López, la photochimie par Carey & Sundberg et Roberts & Caserio, la chimie bioorganique par Dugas, et le McMurry est complet du chapitre 1 au chapitre 31."
+    "perimetre": "Chimie organique, organométallique et inorganique moléculaire ; biomolécules et métabolisme ; polymères ; photochimie ; réactions multicomposants et chimie durable ; synthèse asymétrique. Règle : une réaction n'est inscrite que si l'un des neuf ouvrages indexés la traite. Une entrée sans source ne serait pas rédigeable — elle reviendrait à promettre une fiche écrite de mémoire.",
+    "couverture": "Les deux manques signalés précédemment sont comblés : la chimie durable et les réactions multicomposants sont désormais couvertes par l'ouvrage de Herrera et Marqués-López, la photochimie par Carey & Sundberg et Roberts & Caserio, la chimie bioorganique par Dugas, et le McMurry est complet du chapitre 1 au chapitre 31."
   },
   "familles": [
     {
@@ -296,12 +296,12 @@
           "id": null
         },
         {
-          "nom": "Chlorures d’acyle : formation et réactivité",
+          "nom": "Chlorures d’acyle : formation et réactivité",
           "niveau": "L3",
           "id": null
         },
         {
-          "nom": "Anhydrides : formation et réactivité",
+          "nom": "Anhydrides : formation et réactivité",
           "niveau": "L3",
           "id": null
         },
@@ -674,7 +674,7 @@
           "id": null
         },
         {
-          "nom": "Transposition de Baeyer-Villiger : migration",
+          "nom": "Transposition de Baeyer-Villiger : migration",
           "niveau": "M1",
           "id": null
         }
@@ -685,7 +685,7 @@
       "id": "heterocycles",
       "nom": "Hétérocycles aromatiques",
       "famille": "Hétérocycles",
-      "source": "Clayden ch. 29-30 ; McMurry ch. 24",
+      "source": "Clayden ch. 29-30 ; McMurry ch. 24",
       "reactions": [
         {
           "nom": "Substitution électrophile du pyrrole, du furane et du thiophène",
@@ -771,7 +771,7 @@
           "id": null
         },
         {
-          "nom": "Umpolung : dithianes",
+          "nom": "Umpolung : dithianes",
           "niveau": "M2",
           "id": null
         },
@@ -867,7 +867,7 @@
           "id": null
         },
         {
-          "nom": "Procédé Monsanto : synthèse de l'acide acétique",
+          "nom": "Procédé Monsanto : synthèse de l'acide acétique",
           "niveau": "M1",
           "id": null
         },
@@ -910,7 +910,7 @@
       "famille": "Coordination",
       "reactions": [
         {
-          "nom": "Formation d'un complexe : substitution des ligands aqua",
+          "nom": "Formation d'un complexe : substitution des ligands aqua",
           "niveau": "L3",
           "id": null
         },
@@ -963,17 +963,17 @@
           "id": null
         },
         {
-          "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
+          "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
           "niveau": "M1",
           "id": null
         },
         {
-          "nom": "Transport du fer : sidérophores",
+          "nom": "Transport du fer : sidérophores",
           "niveau": "M2",
           "id": null
         },
         {
-          "nom": "Stockage du fer : la ferritine",
+          "nom": "Stockage du fer : la ferritine",
           "niveau": "M2",
           "id": null
         },
@@ -1011,7 +1011,7 @@
           "id": null
         },
         {
-          "nom": "Cyclisation d'un ose : formation de l'hémiacétal",
+          "nom": "Cyclisation d'un ose : formation de l'hémiacétal",
           "niveau": "L2",
           "id": null
         },
@@ -1041,12 +1041,12 @@
           "id": null
         },
         {
-          "nom": "Allongement de chaîne : synthèse de Kiliani-Fischer",
+          "nom": "Allongement de chaîne : synthèse de Kiliani-Fischer",
           "niveau": "L3",
           "id": null
         },
         {
-          "nom": "Raccourcissement de chaîne : dégradation de Wohl",
+          "nom": "Raccourcissement de chaîne : dégradation de Wohl",
           "niveau": "L3",
           "id": null
         },
@@ -1124,7 +1124,7 @@
           "id": null
         },
         {
-          "nom": "Mécanisme d'une enzyme : la citrate synthase",
+          "nom": "Mécanisme d'une enzyme : la citrate synthase",
           "niveau": "M2",
           "id": null
         }
@@ -1152,7 +1152,7 @@
           "id": null
         },
         {
-          "nom": "Biosynthèse des acides gras : condensation de Claisen",
+          "nom": "Biosynthèse des acides gras : condensation de Claisen",
           "niveau": "M1",
           "id": null
         },
@@ -1162,7 +1162,7 @@
           "id": null
         },
         {
-          "nom": "Couplage prényle : biosynthèse des terpènes",
+          "nom": "Couplage prényle : biosynthèse des terpènes",
           "niveau": "M1",
           "id": null
         },
@@ -1200,7 +1200,7 @@
           "id": null
         },
         {
-          "nom": "Dépurination : hydrolyse acide d'une purine",
+          "nom": "Dépurination : hydrolyse acide d'une purine",
           "niveau": "M1",
           "id": null
         },
@@ -1219,11 +1219,11 @@
     },
     {
       "id": "metabolisme",
-      "nom": "Métabolisme : la chimie organique du vivant",
+      "nom": "Métabolisme : la chimie organique du vivant",
       "famille": "Métabolisme",
       "reactions": [
         {
-          "nom": "Glycolyse : la séquence complète",
+          "nom": "Glycolyse : la séquence complète",
           "niveau": "M1",
           "id": null
         },
@@ -1243,7 +1243,7 @@
           "id": null
         },
         {
-          "nom": "Cycle de Krebs : la séquence complète",
+          "nom": "Cycle de Krebs : la séquence complète",
           "niveau": "M1",
           "id": null
         },
@@ -1277,7 +1277,7 @@
       "source": "Dugas, Bioorganic Chemistry",
       "reactions": [
         {
-          "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
+          "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
           "niveau": "M1",
           "id": null
         },
@@ -1287,7 +1287,7 @@
           "id": null
         },
         {
-          "nom": "Carboxypeptidase A : le rôle du zinc",
+          "nom": "Carboxypeptidase A : le rôle du zinc",
           "niveau": "M1",
           "id": null
         },
@@ -1405,7 +1405,7 @@
           "id": null
         },
         {
-          "nom": "Polylactide : polymérisation par ouverture de lactone",
+          "nom": "Polylactide : polymérisation par ouverture de lactone",
           "niveau": "M2",
           "id": null
         }
@@ -1416,7 +1416,7 @@
       "id": "photochimie",
       "nom": "Photochimie",
       "famille": "Photochimie",
-      "source": "Carey & Sundberg partie A ch. 12 ; Roberts & Caserio ch. 28",
+      "source": "Carey & Sundberg partie A ch. 12 ; Roberts & Caserio ch. 28",
       "reactions": [
         {
           "nom": "Photoisomérisation cis-trans d'un alcène",
@@ -1434,17 +1434,17 @@
           "id": null
         },
         {
-          "nom": "Norrish type I : α-clivage d'une cétone",
+          "nom": "Norrish type I : α-clivage d'une cétone",
           "niveau": "M1",
           "id": null
         },
         {
-          "nom": "Norrish type II : arrachement d'hydrogène en γ",
+          "nom": "Norrish type II : arrachement d'hydrogène en γ",
           "niveau": "M1",
           "id": null
         },
         {
-          "nom": "Photoréduction d'une cétone : formation de pinacol",
+          "nom": "Photoréduction d'une cétone : formation de pinacol",
           "niveau": "M1",
           "id": null
         },
@@ -1479,7 +1479,7 @@
           "id": null
         },
         {
-          "nom": "Chimie de la vision : isomérisation du rétinal",
+          "nom": "Chimie de la vision : isomérisation du rétinal",
           "niveau": "L3",
           "id": null
         }
@@ -1490,7 +1490,7 @@
       "id": "multicomposants",
       "nom": "Réactions multicomposants et chimie durable",
       "famille": "Multicomposants",
-      "source": "Herrera & Marqués-López (2015) — la chimie durable y est traitée au chapitre 1.3 : économie d'atomes, solvants verts, sans solvant, catalyse hétérogène",
+      "source": "Herrera & Marqués-López (2015) — la chimie durable y est traitée au chapitre 1.3 : économie d'atomes, solvants verts, sans solvant, catalyse hétérogène",
       "reactions": [
         {
           "nom": "Réaction de Strecker multicomposant",
@@ -1538,7 +1538,7 @@
           "id": null
         },
         {
-          "nom": "Couplage A3 : aldéhyde, alcyne, amine",
+          "nom": "Couplage A3 : aldéhyde, alcyne, amine",
           "niveau": "M1",
           "id": null
         },
@@ -1594,7 +1594,7 @@
       "id": "synthese_asymetrique",
       "nom": "Synthèse asymétrique",
       "famille": "Synthèse asymétrique",
-      "source": "Clayden ch. 41 ; McMurry ; Herrera ch. 2",
+      "source": "Clayden ch. 41 ; McMurry ; Herrera ch. 2",
       "reactions": [
         {
           "nom": "Époxydation asymétrique de Sharpless",
@@ -1622,7 +1622,7 @@
           "id": null
         },
         {
-          "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
+          "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
           "niveau": "M1",
           "id": null
         },
@@ -1650,12 +1650,12 @@
       "famille": "Stratégie",
       "reactions": [
         {
-          "nom": "Groupes protecteurs : alcools",
+          "nom": "Groupes protecteurs : alcools",
           "niveau": "M1",
           "id": null
         },
         {
-          "nom": "Groupes protecteurs : carbonyles et amines",
+          "nom": "Groupes protecteurs : carbonyles et amines",
           "niveau": "M1",
           "id": null
         },
@@ -1670,7 +1670,7 @@
           "id": null
         },
         {
-          "nom": "Synthèse asymétrique : auxiliaires chiraux",
+          "nom": "Synthèse asymétrique : auxiliaires chiraux",
           "niveau": "M2",
           "id": null
         },

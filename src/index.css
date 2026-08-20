@@ -55,6 +55,11 @@ body {
   font-family: var(--police-texte);
   font-size: 17px;
   line-height: 1.6;
+  /* La chimie est pleine de mots interminables — « thermodynamiquement »,
+     « déshydrohalogénation ». Sur un écran étroit, un seul de ces mots
+     suffit à pousser toute la page hors du cadre. La coupure n'intervient
+     que si le mot ne tient vraiment pas : ailleurs, rien ne change. */
+  overflow-wrap: break-word;
 }
 
 h1, h2, h3 {
@@ -144,7 +149,15 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   flex-wrap: wrap;
 }
 
-.marque { text-decoration: none; color: inherit; }
+.marque {
+  text-decoration: none;
+  color: inherit;
+  /* C'est un lien : au doigt, il lui faut la même hauteur utile
+     qu'aux autres (44 px, la recommandation d'accessibilité). */
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
 
 .marque-titre {
   font-family: var(--police-titre);
@@ -153,24 +166,55 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   letter-spacing: 0.01em;
 }
 
-.nav { display: flex; gap: 0.25rem; }
+/* Quatre intitulés ne tiennent pas toujours sur une ligne : sur un écran
+   étroit, la barre passe à la ligne plutôt que de rogner « À propos ».
+   Un menu coupé, ce n'est pas un détail d'esthétique — c'est une entrée
+   qu'on ne sait plus lire. */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  justify-content: flex-end;
+}
 
 .lien-nav {
   color: var(--creme);
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
-  /* Quatre entrées doivent tenir sur la largeur d'un téléphone sans
-     qu'un intitulé se coupe en deux. */
+  /* Un intitulé ne se coupe jamais en deux : s'il n'y a plus la place,
+     c'est la barre entière qui passe à la ligne. */
   white-space: nowrap;
   padding: 0.4rem 0.5rem;
-  min-height: 40px;
+  min-height: 44px;
   display: inline-flex;
   align-items: center;
   border-radius: var(--rayon);
 }
 
 .lien-nav.actif { background: var(--creme); color: var(--encre); font-weight: 700; }
+
+/* Sous 350 px, les quatre intitulés ne tiennent plus sur une ligne. Plutôt
+   qu'un repli bancal — trois d'un côté, un tout seul de l'autre —, le menu
+   devient un carré de deux sur deux : c'est net, et chaque entrée devient
+   une grande cible pour le doigt. Au-dessus, la barre tient sur une ligne
+   sous la marque, et l'en-tête reste bas. */
+@media (max-width: 349px) {
+  .entete-interieur { padding: 0.6rem 0.75rem; }
+
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 0.25rem;
+  }
+
+  .lien-nav {
+    justify-content: center;
+    text-align: center;
+    padding: 0.4rem 0.3rem;
+  }
+}
 
 /* Bande de légende : une couleur par famille. */
 .bande-couleurs { display: flex; height: 7px; }
@@ -228,8 +272,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   background: transparent;
   border: 2px solid var(--couleur);
   border-radius: var(--rayon);
-  padding: 0.35rem 0.7rem;
-  min-height: 38px;
+  padding: 0.4rem 0.75rem;
+  min-height: 44px;
   cursor: pointer;
 }
 
@@ -240,9 +284,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 /* ---------- Grille de tuiles ---------- */
 
+/* minmax(0, 1fr) et non 1fr : sans le minimum à zéro, une tuile dont le
+   contenu est large refuse de rétrécir et pousse la grille hors de
+   l'écran. C'est ce qui se produisait à 320 px. */
 .grille {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.7rem;
 }
 
@@ -289,6 +336,11 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   font-weight: 700;
   line-height: 1.25;
   margin-top: auto;
+  /* « Déshydrohalogénation » ne tient pas dans une demi-largeur de
+     téléphone. Sans césure autorisée, le mot pousse la tuile — et la
+     grille avec elle — hors de l'écran. */
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 .tuile-formule {
@@ -311,7 +363,9 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 /* ---------- Fiche : bandeau ---------- */
 
 .lien-retour {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -464,8 +518,11 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 /* Explication + bascule de mode */
 .bloc-explication { background: var(--creme); }
 
+/* Deux boutons côte à côte : sous 340 px ils ne tiennent plus. Plutôt
+   que de rogner l'un des deux, ils s'empilent. */
 .bascule {
   display: flex;
+  flex-wrap: wrap;
   gap: 0;
   border: 2px solid var(--encre);
   border-radius: var(--rayon);
@@ -474,7 +531,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 .bascule-bouton {
-  flex: 1;
+  /* min-width: 0 — sans quoi un bouton refuse de descendre sous la
+     largeur de son texte et pousse l'autre hors du cadre. */
+  flex: 1 1 11rem;
+  min-width: 0;
   font: inherit;
   text-align: left;
   background: var(--carte);
@@ -487,6 +547,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 .bascule-bouton:last-child { border-right: none; }
+
+/* Empilés, c'est un trait horizontal qui les sépare, pas un vertical. */
+@media (max-width: 359px) {
+  .bascule-bouton { border-right: none; border-bottom: 2px solid var(--encre); }
+  .bascule-bouton:last-child { border-bottom: none; }
+}
 .bascule-bouton.actif { background: var(--couleur); }
 
 .bascule-libelle {
@@ -581,7 +647,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   padding: 0.15rem 0.5rem;
   border: 2px solid var(--encre);
   border-radius: var(--rayon);
-  white-space: nowrap;
+  /* Sur un écran étroit, « à relire par un chimiste » passe à la ligne
+     plutôt que de dépasser du cadre. */
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .badge-verifie { background: var(--vert); }
@@ -912,7 +981,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .famille-entete {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.6rem;
   width: 100%;
   background: none;
   border: none;
@@ -925,10 +995,14 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 .famille-nom {
-  flex: 1;
+  /* min-width: 0 pour que « Réactions multicomposants et chimie durable »
+     accepte de se replier au lieu de chasser le décompte hors du cadre. */
+  flex: 1 1 8rem;
+  min-width: 0;
   font-family: var(--police-titre);
   font-size: 1.2rem;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 .famille-compte {
@@ -997,7 +1071,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.75rem;
   margin: 2.25rem 0 0.75rem;
   padding-bottom: 0.4rem;
   border-bottom: 3px solid var(--encre);
@@ -1031,3 +1106,34 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   line-height: 1.5;
   overflow-wrap: anywhere;
 }
+
+/* ============================================================
+   Grands écrans
+   ============================================================
+   La largeur de lecture reste bornée : au-delà d'une soixantaine de
+   signes par ligne, l'œil perd la ligne suivante. Une fiche garde donc
+   sa colonne, même sur un écran de 27 pouces.
+
+   La grille de tuiles, elle, n'est pas du texte : elle gagne à s'étaler.
+   C'est la seule chose qu'on élargit. */
+@media (min-width: 1150px) {
+  .page-liste .grille {
+    width: calc(100vw - 3rem);
+    max-width: 1240px;
+    /* Recentrée par rapport à la colonne de lecture. */
+    margin-left: calc((var(--largeur-max) - 3rem - min(100vw - 3rem, 1240px)) / 2);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* Le nombre de fiches sur chaque pastille de filtre. */
+.pastille-compte {
+  margin-left: 0.4rem;
+  font-size: 0.78em;
+  font-weight: 700;
+  opacity: 0.65;
+  font-variant-numeric: tabular-nums;
+}
+
+.pastille.active .pastille-compte { opacity: 0.8; }

@@ -101,6 +101,35 @@ Après écriture : `node scripts/verifier-mecanismes.mjs`, puis
 `node scripts/dessiner-mecanismes.mjs`, puis **regarder les schémas rendus
 à 390 px**. Un schéma qui passe les contrôles peut rester confus.
 
+## L'affichage
+
+`npm run affichage` mesure la mise en page sur **douze largeurs d'écran**
+(280 à 1920 px) et **six pages**, à taille de texte normale puis agrandie
+de 25 %. Il refuse : un débordement horizontal, un élément dont un bord
+sort de l'écran, un texte rogné par son conteneur, une cible tactile de
+moins de 40 px.
+
+```bash
+npm install --no-save playwright   # une fois : Playwright n'est pas une
+npx vite preview --port 4173 &     # dépendance du projet, trop lourd pour
+npm run affichage                  # la construction sur GitHub
+```
+
+Trois règles retenues de la première passe :
+
+- **La barre de navigation ne rogne jamais un intitulé.** Sous 350 px elle
+  devient un carré de deux sur deux ; au-dessus elle tient sur une ligne.
+- **Un mot très long doit pouvoir se couper.** « Déshydrohalogénation » sur
+  un écran de 320 px pousse toute la page dehors si on ne l'autorise pas
+  (`overflow-wrap: break-word`).
+- **Typographie française** : espace insécable devant `? ! ; : »`, sinon le
+  signe se retrouve seul en début de ligne. `npm run valider` le signale.
+
+La largeur de lecture reste bornée à 860 px, même sur un grand écran :
+au-delà d'une soixantaine de signes par ligne, l'œil perd la ligne
+suivante. Seule la grille de tuiles s'élargit, parce que ce n'est pas du
+texte.
+
 ## Écrire une fiche
 
 Deux modes obligatoires, dans `src/data/reactions.json` :

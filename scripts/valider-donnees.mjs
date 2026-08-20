@@ -93,6 +93,16 @@ for (const reaction of reactions) {
     reserves.push(`${ou} : aucune référence — la fiche l'annonce, mais elle reste à sourcer.`)
   }
 
+  // Typographie française : une espace ordinaire devant « ? » ou « : »
+  // laisse le signe partir seul en début de ligne sur un écran étroit.
+  // Il faut une espace insécable (U+00A0).
+  const fautives = ['nom', 'selectivite', 'explication_reference', 'explication_comprendre']
+    .flatMap((champ) => String(reaction[champ] || '').match(/ [?!;:»]/g) || [])
+  if (fautives.length) {
+    reserves.push(`${ou} : ${fautives.length} espace(s) ordinaire(s) devant une `
+      + 'ponctuation double — il faut une insécable.')
+  }
+
   // L'esprit du mode « Comprendre » : on répond au pourquoi avant le comment.
   if (reaction.explication_comprendre &&
       !/POURQUOI|QU'EST-CE|QUE\b/.test(reaction.explication_comprendre)) {

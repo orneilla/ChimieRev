@@ -15,7 +15,7 @@ export default function StructureMolecule({ id, role, smiles, legende }) {
         {fichier ? (
           <img
             src={`${import.meta.env.BASE_URL}structures/${fichier}`}
-            alt={`Structure développée : ${legende}`}
+            alt={`Structure développée : ${legende}`}
             width="300"
             height="180"
             loading="lazy"

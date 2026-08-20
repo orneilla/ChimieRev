@@ -50,7 +50,7 @@ export default function ReferencesReaction({ id, famille }) {
         <h3>D'où vient ce savoir ?</h3>
         <p className="note">
           Les références de cette réaction restent à établir. Elles seront
-          ajoutées selon la même méthode que les autres : vérification de
+          ajoutées selon la même méthode que les autres : vérification de
           chaque DOI par au moins deux sources indépendantes.
         </p>
       </section>

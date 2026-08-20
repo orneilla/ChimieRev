@@ -1,18 +1,37 @@
 // Page d'accueil : le « tableau » des réactions.
 import { useState, useMemo } from 'react'
 import reactions from '../data/reactions.json'
+import programme from '../data/programme.json'
 import CarteReaction from '../components/CarteReaction.jsx'
 import { couleurFamille } from '../couleurs.js'
+
+// L'ordre du programme, et non celui du fichier de données : les familles
+// se présentent toujours dans le même ordre, celui où on les rencontre en
+// cours. Une liste qui se réorganise à chaque ajout ne s'apprend pas.
+const ORDRE_FAMILLES = programme.familles.map((f) => f.famille)
 
 export default function PageListeReactions() {
   const [recherche, setRecherche] = useState('')
   const [familleChoisie, setFamilleChoisie] = useState('Toutes')
 
-  // Familles présentes dans les données, sans doublon.
-  const familles = useMemo(
-    () => ['Toutes', ...new Set(reactions.map((r) => r.famille))],
-    []
-  )
+  // Seules les familles qui ont au moins une fiche écrite apparaissent :
+  // un filtre qui ne renverrait rien n'a rien à faire là. Elles arrivent
+  // au fur et à mesure que les fiches sont rédigées.
+  const familles = useMemo(() => {
+    const comptes = new Map()
+    for (const r of reactions) comptes.set(r.famille, (comptes.get(r.famille) || 0) + 1)
+
+    const presentes = [...comptes.keys()].sort((a, b) => {
+      const ia = ORDRE_FAMILLES.indexOf(a)
+      const ib = ORDRE_FAMILLES.indexOf(b)
+      return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib)
+    })
+
+    return [
+      { nom: 'Toutes', compte: reactions.length },
+      ...presentes.map((nom) => ({ nom, compte: comptes.get(nom) }))
+    ]
+  }, [])
 
   const reactionsAffichees = useMemo(() => {
     const texte = recherche.trim().toLowerCase()
@@ -33,7 +52,7 @@ export default function PageListeReactions() {
   }, [recherche, familleChoisie])
 
   return (
-    <section>
+    <section className="page-liste">
       <div className="intro">
         <p className="sur-titre">Chimie organique</p>
         <h1>Réactions</h1>
@@ -55,18 +74,20 @@ export default function PageListeReactions() {
         </label>
 
         <div className="pastilles" role="group" aria-label="Filtrer par famille">
-          {familles.map((famille) => (
+          {familles.map(({ nom, compte }) => (
             <button
-              key={famille}
+              key={nom}
               type="button"
-              className={famille === familleChoisie ? 'pastille active' : 'pastille'}
+              className={nom === familleChoisie ? 'pastille active' : 'pastille'}
+              aria-pressed={nom === familleChoisie}
               // Chaque famille porte sa couleur jusque dans le filtre.
-              style={{
-                '--couleur': famille === 'Toutes' ? '#16130F' : couleurFamille(famille)
-              }}
-              onClick={() => setFamilleChoisie(famille)}
+              style={{ '--couleur': nom === 'Toutes' ? '#16130F' : couleurFamille(nom) }}
+              onClick={() => setFamilleChoisie(nom)}
             >
-              {famille}
+              {nom}
+              {/* Le compte évite de se demander pourquoi telle famille
+                  n'est pas là : elle n'a simplement pas encore de fiche. */}
+              <span className="pastille-compte">{compte}</span>
             </button>
           ))}
         </div>

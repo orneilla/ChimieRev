@@ -19,12 +19,12 @@ export default function PageAPropos() {
         <h3>Le principe</h3>
         <p>
           Comprendre pour mémoriser, jamais mémoriser bêtement. Chaque fiche
-          répond d'abord à « pourquoi ça se passe ainsi ? » avant de montrer
+          répond d'abord à « pourquoi ça se passe ainsi ? » avant de montrer
           comment. Le mécanisme découle toujours d'une raison physique
           intuitive, jamais d'un décret à retenir.
         </p>
         <p>
-          Deux lectures du même contenu, au choix sur chaque fiche :
+          Deux lectures du même contenu, au choix sur chaque fiche :
           <strong> Comprendre</strong>, qui ne suppose aucune base en chimie,
           et <strong> Référence</strong>, qui donne la formulation technique
           exacte. Personne n'est laissé de côté, dans un sens comme dans
@@ -42,12 +42,12 @@ export default function PageAPropos() {
           Un identifiant DOI n'est affiché comme lien que s'il a été
           <strong> vérifié par au moins deux sources indépendantes</strong>.
           Tant qu'il ne l'est pas, la référence porte la mention « DOI à
-          vérifier » : mieux vaut un manque assumé qu'un lien inventé.
+          vérifier » : mieux vaut un manque assumé qu'un lien inventé.
         </p>
         <p>
           Les explications sont écrites <strong>page ouverte</strong>, jamais de
           mémoire. Voici les ouvrages consultés — chacun est indexé page par
-          page, et chaque citation renvoie au numéro imprimé sur la page :
+          page, et chaque citation renvoie au numéro imprimé sur la page :
         </p>
         <ul className="liste-ouvrages">
           {ORDRE_OUVRAGES.map((cle) => (
@@ -56,14 +56,14 @@ export default function PageAPropos() {
         </ul>
         <p className="note">
           Un ouvrage cité sans être consultable ici porterait la mention « non
-          indexé » : on ne cite pas une page qu'on n'a pas ouverte.
+          indexé » : on ne cite pas une page qu'on n'a pas ouverte.
         </p>
       </section>
 
       <section className="bloc">
         <h3>Où en est l'application</h3>
         <ul className="liste-phases">
-          <li className="fait"><strong>Phase 1</strong> — Socle : données, liste, fiches, mobile</li>
+          <li className="fait"><strong>Phase 1</strong> — Socle : données, liste, fiches, mobile</li>
           <li className="fait"><strong>Identité visuelle</strong> — couleurs par famille, tuiles</li>
           <li className="fait"><strong>Phase 5</strong> — bascule Comprendre / Référence</li>
           <li className="fait"><strong>Références</strong> — sources vérifiées sur chaque fiche</li>

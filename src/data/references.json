@@ -1,27 +1,27 @@
 {
   "_meta": {
     "titre": "ChimieRév — Références bibliographiques vérifiées",
-    "principe_de_fiabilite": "RÈGLE ABSOLUE : aucun DOI n'est écrit de mémoire. Chaque DOI présent ici a été VÉRIFIÉ par recherche web et confirmé par au moins deux sources indépendantes. Les DOI marqués 'verifie': true sont sûrs. Tout DOI à ajouter ultérieurement DOIT passer par la même vérification — ne jamais laisser un modèle de langage inventer un DOI, car ils paraissent plausibles mais pointent souvent vers le mauvais article ou vers rien.",
+    "principe_de_fiabilite": "RÈGLE ABSOLUE : aucun DOI n'est écrit de mémoire. Chaque DOI présent ici a été VÉRIFIÉ par recherche web et confirmé par au moins deux sources indépendantes. Les DOI marqués 'verifie': true sont sûrs. Tout DOI à ajouter ultérieurement DOIT passer par la même vérification — ne jamais laisser un modèle de langage inventer un DOI, car ils paraissent plausibles mais pointent souvent vers le mauvais article ou vers rien.",
     "statut": "Socle vérifié en 2026, complété famille par famille à partir des manuels indexés. Les pages citées ont été lues, non supposées.",
-    "structure": "Pour chaque réaction : (1) ouvrages de référence (fiables, faits bibliographiques stables), (2) article(s) historique(s) fondateur(s) avec DOI vérifié, (3) revue moderne quand pertinent.",
-    "citer_un_ouvrage": "Un ouvrage se cite soit par sa clé seule (\"clayden\"), soit — et c’est ce qu’on vise — avec le chapitre et les pages : { \"ouvrage\": \"clayden\", \"chapitre\": \"15\", \"pages\": \"328-341\" }. Une référence sans page laisse le lecteur chercher dans mille pages.",
-    "manuels_indexes": "Neuf ouvrages sont indexés localement et consultables page par page : clayden, mcmurry, oc2, grossman, housecroft, dugas, multicomposants, carey_sundberg_A (photochimie) et roberts_caserio (photochimie). Les PDF et le texte extrait ne sont jamais versés au dépôt : seules les explications réécrites et les citations le sont. Un ouvrage marqué NON INDEXÉ ne doit pas être cité avec un numéro de page."
+    "structure": "Pour chaque réaction : (1) ouvrages de référence (fiables, faits bibliographiques stables), (2) article(s) historique(s) fondateur(s) avec DOI vérifié, (3) revue moderne quand pertinent.",
+    "citer_un_ouvrage": "Un ouvrage se cite soit par sa clé seule (\"clayden\"), soit — et c’est ce qu’on vise — avec le chapitre et les pages : { \"ouvrage\": \"clayden\", \"chapitre\": \"15\", \"pages\": \"328-341\" }. Une référence sans page laisse le lecteur chercher dans mille pages.",
+    "manuels_indexes": "Neuf ouvrages sont indexés localement et consultables page par page : clayden, mcmurry, oc2, grossman, housecroft, dugas, multicomposants, carey_sundberg_A (photochimie) et roberts_caserio (photochimie). Les PDF et le texte extrait ne sont jamais versés au dépôt : seules les explications réécrites et les citations le sont. Un ouvrage marqué NON INDEXÉ ne doit pas être cité avec un numéro de page."
   },
   "ouvrages_de_reference": {
-    "_note": "Ouvrages standards internationaux. Références stables et vérifiables ; à citer avec chapitre/section selon le sujet.",
+    "_note": "Ouvrages standards internationaux. Références stables et vérifiables ; à citer avec chapitre/section selon le sujet.",
     "clayden": "Clayden, J.; Greeves, N.; Warren, S. — Organic Chemistry, 2e éd., Oxford University Press, 2012. ISBN 978-0-19-927029-3. Ouvrage intégral.",
-    "march": "Smith, M. B. — March's Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, 8e éd., Wiley, 2020. ISBN 978-1-119-37180-9. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
-    "carey_sundberg_A": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part A: Structure and Mechanisms, 4e éd., Kluwer Academic/Plenum, 2000. Consulté : chapitre 12, Photochemistry (pages 1073 à 1197).",
-    "carey_sundberg_B": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part B: Reactions and Synthesis, 5e éd., Springer, 2007. ISBN 978-0-387-68350-8. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
-    "fleming": "Fleming, I. — Molecular Orbitals and Organic Chemical Reactions (Reference Edition), Wiley, 2010. ISBN 978-0-470-74658-5. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
-    "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
+    "march": "Smith, M. B. — March's Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, 8e éd., Wiley, 2020. ISBN 978-1-119-37180-9. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
+    "carey_sundberg_A": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part A: Structure and Mechanisms, 4e éd., Kluwer Academic/Plenum, 2000. Consulté : chapitre 12, Photochemistry (pages 1073 à 1197).",
+    "carey_sundberg_B": "Carey, F. A.; Sundberg, R. J. — Advanced Organic Chemistry, Part B: Reactions and Synthesis, 5e éd., Springer, 2007. ISBN 978-0-387-68350-8. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
+    "fleming": "Fleming, I. — Molecular Orbitals and Organic Chemical Reactions (Reference Edition), Wiley, 2010. ISBN 978-0-470-74658-5. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
+    "elschenbroich": "Elschenbroich, C. — Organometallics, 3e éd., Wiley-VCH, 2006. ISBN 978-3-527-29390-2. — NON INDEXÉ : ouvrage non disponible ici, donc jamais cité page en main.",
     "oc2": "Morsch, L.; Farmer, S.; Cunningham, K.; Sharrett, Z.; Shea, K. M. — Organic Chemistry II, LibreTexts (CC BY-SA 4.0). Ouvrage paginé par sections, cité par numéro de section.",
     "grossman": "Grossman, R. B. — The Art of Writing Reasonable Organic Reaction Mechanisms, 3e éd., Springer Nature Switzerland, 2019. ISBN 978-3-030-28732-0. DOI 10.1007/978-3-030-28733-7. Ouvrage intégral.",
     "mcmurry": "McMurry, J. — Organic Chemistry, 9e éd., Cengage Learning, 2016. Ouvrage intégral (chapitres 1 à 31), reconstitué à partir de trois fichiers.",
-    "housecroft": "Housecroft, C. E.; Sharpe, A. G. — Inorganic Chemistry, 2e éd., Pearson Prentice Hall, 2005. ISBN 0-13-039913-2. Consulté : chapitres 20 à 28 (pages 555 à 950).",
+    "housecroft": "Housecroft, C. E.; Sharpe, A. G. — Inorganic Chemistry, 2e éd., Pearson Prentice Hall, 2005. ISBN 0-13-039913-2. Consulté : chapitres 20 à 28 (pages 555 à 950).",
     "dugas": "Dugas, H. — Bioorganic Chemistry: A Chemical Approach to Enzyme Action, 3e éd., Springer (Springer Advanced Texts in Chemistry), 1996. ISBN 978-0-387-94494-4. Ouvrage intégral.",
     "multicomposants": "Herrera, R. P.; Marqués-López, E. (dir.) — Multicomponent Reactions: Concepts and Applications for Design and Synthesis, Wiley, 2015. ISBN 978-1-118-01600-8. Ouvrage intégral.",
-    "roberts_caserio": "Roberts, J. D.; Caserio, M. C. — Basic Principles of Organic Chemistry, 2e éd., publiée sur LibreTexts. Consulté : chapitre 28, Photochemistry. Ouvrage paginé par sections, cité par numéro de section."
+    "roberts_caserio": "Roberts, J. D.; Caserio, M. C. — Basic Principles of Organic Chemistry, 2e éd., publiée sur LibreTexts. Consulté : chapitre 28, Photochemistry. Ouvrage paginé par sections, cité par numéro de section."
   },
   "references_par_reaction": {
     "diels_alder": {
@@ -32,7 +32,7 @@
       ],
       "articles_historiques": [
         {
-          "citation": "Diels, O.; Alder, K. « Synthesen in der hydroaromatischen Reihe ». Justus Liebigs Annalen der Chemie, 1928, 460 (1), 98–122.",
+          "citation": "Diels, O.; Alder, K. « Synthesen in der hydroaromatischen Reihe ». Justus Liebigs Annalen der Chemie, 1928, 460 (1), 98–122.",
           "doi": "10.1002/jlac.19284600106",
           "verifie": true,
           "note": "Article fondateur de la réaction. DOI confirmé par 5 sources indépendantes (Wiley, Chemistry World, Springer, HandWiki, arXiv). Nobel de chimie 1950 pour Diels et Alder."
@@ -40,7 +40,7 @@
       ],
       "revues_modernes": [
         {
-          "citation": "Nicolaou, K. C.; Snyder, S. A.; Montagnon, T.; Vassilikogiannakis, G. « The Diels–Alder Reaction in Total Synthesis ». Angewandte Chemie International Edition, 2002, 41 (10), 1668–1698.",
+          "citation": "Nicolaou, K. C.; Snyder, S. A.; Montagnon, T.; Vassilikogiannakis, G. « The Diels–Alder Reaction in Total Synthesis ». Angewandte Chemie International Edition, 2002, 41 (10), 1668–1698.",
           "doi": null,
           "verifie": false,
           "note": "DOI À VÉRIFIER avant publication (référence repérée mais DOI non encore confirmé par recherche)."
@@ -48,7 +48,7 @@
       ]
     },
     "woodward_hoffmann_pericycliques": {
-      "_note": "Série fondatrice des règles de conservation de la symétrie orbitalaire. Nobel de chimie 1981 (Hoffmann & Fukui ; Woodward décédé en 1979). Ces 4 DOI sont tous vérifiés et confirmés par plusieurs sources (ACS, Springer, PubMed).",
+      "_note": "Série fondatrice des règles de conservation de la symétrie orbitalaire. Nobel de chimie 1981 (Hoffmann & Fukui ; Woodward décédé en 1979). Ces 4 DOI sont tous vérifiés et confirmés par plusieurs sources (ACS, Springer, PubMed).",
       "ouvrages": [
         "fleming",
         "carey_sundberg_A",
@@ -56,22 +56,22 @@
       ],
       "articles_historiques": [
         {
-          "citation": "Woodward, R. B.; Hoffmann, R. « Stereochemistry of Electrocyclic Reactions ». J. Am. Chem. Soc., 1965, 87 (2), 395–397.",
+          "citation": "Woodward, R. B.; Hoffmann, R. « Stereochemistry of Electrocyclic Reactions ». J. Am. Chem. Soc., 1965, 87 (2), 395–397.",
           "doi": "10.1021/ja01080a054",
           "verifie": true
         },
         {
-          "citation": "Hoffmann, R.; Woodward, R. B. « Selection Rules for Concerted Cycloaddition Reactions ». J. Am. Chem. Soc., 1965, 87 (9), 2046–2048.",
+          "citation": "Hoffmann, R.; Woodward, R. B. « Selection Rules for Concerted Cycloaddition Reactions ». J. Am. Chem. Soc., 1965, 87 (9), 2046–2048.",
           "doi": "10.1021/ja01087a034",
           "verifie": true
         },
         {
-          "citation": "Woodward, R. B.; Hoffmann, R. « Selection Rules for Sigmatropic Reactions ». J. Am. Chem. Soc., 1965, 87 (11), 2511–2513.",
+          "citation": "Woodward, R. B.; Hoffmann, R. « Selection Rules for Sigmatropic Reactions ». J. Am. Chem. Soc., 1965, 87 (11), 2511–2513.",
           "doi": "10.1021/ja01089a050",
           "verifie": true
         },
         {
-          "citation": "Woodward, R. B.; Hoffmann, R. « The Conservation of Orbital Symmetry ». Angew. Chem. Int. Ed., 1969, 8 (11), 781–853.",
+          "citation": "Woodward, R. B.; Hoffmann, R. « The Conservation of Orbital Symmetry ». Angew. Chem. Int. Ed., 1969, 8 (11), 781–853.",
           "doi": "10.1002/anie.196907811",
           "verifie": true
         }
@@ -83,7 +83,7 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "328–331",
-          "note": "Mécanisme en une étape et loi de vitesse d'ordre 2 : v = k₂[substrat][nucléophile]. Tableaux de l'effet du nucléophile et du groupe partant (I > Br > Cl ≫ F)."
+          "note": "Mécanisme en une étape et loi de vitesse d'ordre 2 : v = k₂[substrat][nucléophile]. Tableaux de l'effet du nucléophile et du groupe partant (I > Br > Cl ≫ F)."
         },
         {
           "ouvrage": "clayden",
@@ -95,11 +95,11 @@
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "345",
-          "note": "Effet du solvant : les aprotiques polaires (DMF, DMSO) solvatent mal les anions et les rendent plus réactifs."
+          "note": "Effet du solvant : les aprotiques polaires (DMF, DMSO) solvatent mal les anions et les rendent plus réactifs."
         },
         {
           "ouvrage": "oc2",
-          "chapitre": "§ 2.3 The SN2 Reaction ; § 2.4 Characteristics of the SN2 Reaction",
+          "chapitre": "§ 2.3 The SN2 Reaction ; § 2.4 Characteristics of the SN2 Reaction",
           "note": "Traitement parallèle, avec l'attaque dorsale et ses conséquences stéréochimiques (fiche LibreTexts 443775)."
         },
         "march",
@@ -107,7 +107,7 @@
       ],
       "articles_historiques": [
         {
-          "citation": "Travaux d'Ingold et Hughes sur les mécanismes SN1/SN2 (années 1930). La nomenclature SN1/SN2 est établie dans : Gleave, J. L.; Hughes, E. D.; Ingold, C. K. J. Chem. Soc., 1935, 236.",
+          "citation": "Travaux d'Ingold et Hughes sur les mécanismes SN1/SN2 (années 1930). La nomenclature SN1/SN2 est établie dans : Gleave, J. L.; Hughes, E. D.; Ingold, C. K. J. Chem. Soc., 1935, 236.",
           "doi": null,
           "verifie": false,
           "note": "Référence historique à VÉRIFIER (DOI ancien, à confirmer par recherche avant publication)."
@@ -123,10 +123,10 @@
       ],
       "articles_historiques": [
         {
-          "citation": "Grignard, V. « Sur quelques nouvelles combinaisons organométalliques du magnésium et leur application à des synthèses d'alcools et d'hydrocarbures ». Comptes Rendus de l'Académie des Sciences, 1900, 130, 1322–1324.",
+          "citation": "Grignard, V. « Sur quelques nouvelles combinaisons organométalliques du magnésium et leur application à des synthèses d'alcools et d'hydrocarbures ». Comptes Rendus de l'Académie des Sciences, 1900, 130, 1322–1324.",
           "doi": null,
           "verifie": false,
-          "note": "Article fondateur (Nobel 1912). Publication ancienne des Comptes Rendus — pas de DOI standard ; à sourcer via archive Gallica/BnF plutôt que DOI."
+          "note": "Article fondateur (Nobel 1912). Publication ancienne des Comptes Rendus — pas de DOI standard ; à sourcer via archive Gallica/BnF plutôt que DOI."
         }
       ],
       "revues_modernes": []
@@ -137,35 +137,35 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "332",
-          "note": "Mécanisme en deux étapes, formation du carbocation comme étape cinétiquement déterminante, loi de vitesse d'ordre 1 : le nucléophile n'y figure pas."
+          "note": "Mécanisme en deux étapes, formation du carbocation comme étape cinétiquement déterminante, loi de vitesse d'ordre 1 : le nucléophile n'y figure pas."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "333",
-          "note": "Tableau du choix SN1/SN2 selon le squelette : tertiaire excellent en SN1, méthyle et primaire exclus, secondaire douteux."
+          "note": "Tableau du choix SN1/SN2 selon le squelette : tertiaire excellent en SN1, méthyle et primaire exclus, secondaire douteux."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "343",
-          "note": "Accélération stérique : les gros substituants abaissent l'énergie de l'état de transition, à l'inverse de ce qui se passe en SN2."
+          "note": "Accélération stérique : les gros substituants abaissent l'énergie de l'état de transition, à l'inverse de ce qui se passe en SN2."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "344",
-          "note": "Conséquence stéréochimique : « une réaction SN2 va avec inversion de configuration, une SN1 va généralement avec racémisation »."
+          "note": "Conséquence stéréochimique : « une réaction SN2 va avec inversion de configuration, une SN1 va généralement avec racémisation »."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "345",
-          "note": "Rôle du solvant : l'étape lente crée des ions, un solvant polaire protique les stabilise."
+          "note": "Rôle du solvant : l'étape lente crée des ions, un solvant polaire protique les stabilise."
         },
         {
           "ouvrage": "oc2",
-          "chapitre": "§ 2.5 The SN1 Reaction ; § 2.6 Characteristics of the SN1 Reaction",
+          "chapitre": "§ 2.5 The SN1 Reaction ; § 2.6 Characteristics of the SN1 Reaction",
           "note": "Traitement parallèle (fiches LibreTexts 443777 et 443778)."
         }
       ],
@@ -174,7 +174,7 @@
           "citation": "Nomenclature SN1/SN2 établie par Hughes et Ingold dans les années 1930. Clayden attribue explicitement la mesure des vitesses et la dénomination à Ingold (p. 330).",
           "doi": null,
           "verifie": false,
-          "note": "Référence primaire à retrouver et à vérifier ; seule l'attribution par le manuel est établie ici."
+          "note": "Référence primaire à retrouver et à vérifier ; seule l'attribution par le manuel est établie ici."
         }
       ],
       "revues_modernes": []
@@ -185,13 +185,13 @@
           "ouvrage": "clayden",
           "chapitre": "36 — Participation, rearrangement, and fragmentation",
           "pages": "932",
-          "note": "Définition du groupe voisin et de la participation ; comparaison des vitesses avec et sans voisin."
+          "note": "Définition du groupe voisin et de la participation ; comparaison des vitesses avec et sans voisin."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "36",
           "pages": "934",
-          "note": "L'exemple retenu ici : l'acide (R)-2-bromopropanoïque donne l'acide (S)-lactique par SN2 avec NaOH, mais l'acide (R)-lactique avec Ag₂O — deux inversions successives via un cycle à trois chaînons. Contient la règle : « rétention ⇒ chercher une participation »."
+          "note": "L'exemple retenu ici : l'acide (R)-2-bromopropanoïque donne l'acide (S)-lactique par SN2 avec NaOH, mais l'acide (R)-lactique avec Ag₂O — deux inversions successives via un cycle à trois chaînons. Contient la règle : « rétention ⇒ chercher une participation »."
         },
         {
           "ouvrage": "clayden",
@@ -209,19 +209,19 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "340",
-          "note": "La méthode elle-même : alcoolate formé par NaH, puis iodométhane comme électrophile. Rappel que méthyle et primaire réagissent toujours par SN2 et jamais par SN1. Variante des phénols, plus acides, avec NaOH et sulfate de diméthyle."
+          "note": "La méthode elle-même : alcoolate formé par NaH, puis iodométhane comme électrophile. Rappel que méthyle et primaire réagissent toujours par SN2 et jamais par SN1. Variante des phénols, plus acides, avec NaOH et sulfate de diméthyle."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "331",
-          "note": "Pourquoi déprotoner : la vitesse d'une SN2 dépend de la force et de la concentration du nucléophile."
+          "note": "Pourquoi déprotoner : la vitesse d'une SN2 dépend de la force et de la concentration du nucléophile."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "352",
-          "note": "Conditions typiques comparées : NaH dans le DMF pour l'éther méthylique, contre un simple acide pour l'éther tertiaire, qui passe lui par un carbocation."
+          "note": "Conditions typiques comparées : NaH dans le DMF pour l'éther méthylique, contre un simple acide pour l'éther tertiaire, qui passe lui par un carbocation."
         }
       ],
       "articles_historiques": [],
@@ -233,7 +233,7 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "349",
-          "note": "Formation des tosylates et mésylates : TsCl avec la pyridine, MsCl avec la triéthylamine. Les acides sulfoniques étant forts (pKa voisin de 0), le sulfonate est un excellent groupe partant — « déplaçable par presque n'importe quoi ». Avertissement explicite : le groupe partant s'écrit TsO⁻, non Ts⁻. La mésylation suit un mécanisme différent, traité au chapitre 17."
+          "note": "Formation des tosylates et mésylates : TsCl avec la pyridine, MsCl avec la triéthylamine. Les acides sulfoniques étant forts (pKa voisin de 0), le sulfonate est un excellent groupe partant — « déplaçable par presque n'importe quoi ». Avertissement explicite : le groupe partant s'écrit TsO⁻, non Ts⁻. La mésylation suit un mécanisme différent, traité au chapitre 17."
         },
         {
           "ouvrage": "clayden",
@@ -251,13 +251,13 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "349–350",
-          "note": "Les quatre stades du mécanisme, détaillés un par un : addition de la phosphine sur la liaison N=N du DEAD, déprotonation du nucléophile par l'anion azoté, attaque de l'alcool sur le phosphore, puis SN2 finale au carbone avec l'oxyde de phosphine comme groupe partant."
+          "note": "Les quatre stades du mécanisme, détaillés un par un : addition de la phosphine sur la liaison N=N du DEAD, déprotonation du nucléophile par l'anion azoté, attaque de l'alcool sur le phosphore, puis SN2 finale au carbone avec l'oxyde de phosphine comme groupe partant."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "351",
-          "note": "La conséquence stéréochimique et son intérêt : moyen fiable de remplacer un OH avec inversion. Formation d'esters à partir d'alcools secondaires avec inversion, là où l'estérification ordinaire conserve la configuration."
+          "note": "La conséquence stéréochimique et son intérêt : moyen fiable de remplacer un OH avec inversion. Formation d'esters à partir d'alcools secondaires avec inversion, là où l'estérification ordinaire conserve la configuration."
         }
       ],
       "articles_historiques": [],
@@ -269,7 +269,7 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "352",
-          "note": "La tension de cycle comme moteur : angles de 60° au lieu de 109°, qu'une seule attaque nucléophile suffit à relâcher. Les amines donnent de bons résultats avec les époxydes, à la différence des halogénoalcanes. Démonstration de l'inversion sur un époxyde fusionné à un cycle à cinq chaînons, qui donne le produit trans."
+          "note": "La tension de cycle comme moteur : angles de 60° au lieu de 109°, qu'une seule attaque nucléophile suffit à relâcher. Les amines donnent de bons résultats avec les époxydes, à la différence des halogénoalcanes. Démonstration de l'inversion sur un époxyde fusionné à un cycle à cinq chaînons, qui donne le produit trans."
         }
       ],
       "articles_historiques": [],
@@ -281,19 +281,19 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "345",
-          "note": "L'échange bromure → iodure dans l'acétone, donné comme exemple type de SN2 : NaI soluble dans l'acétone, NaBr insoluble. L'acétone solvate mal l'iodure, ce qui le rend plus réactif, et l'état de transition, dont la charge est répartie sur deux atomes, a moins besoin d'être solvaté que l'anion de départ."
+          "note": "L'échange bromure → iodure dans l'acétone, donné comme exemple type de SN2 : NaI soluble dans l'acétone, NaBr insoluble. L'acétone solvate mal l'iodure, ce qui le rend plus réactif, et l'état de transition, dont la charge est répartie sur deux atomes, a moins besoin d'être solvaté que l'anion de départ."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "12 — Nucleophilic substitution at C=O with loss of oxygen",
           "pages": "255",
-          "note": "La réaction avec son rendement (66 %) et le rôle du solvant : l'eau dissout bien le bromure de sodium, l'acétone non — d'où le déplacement de l'équilibre."
+          "note": "La réaction avec son rendement (66 %) et le rôle du solvant : l'eau dissout bien le bromure de sodium, l'acétone non — d'où le déplacement de l'équilibre."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "340",
-          "note": "Méthyle et primaire réagissent toujours par SN2, jamais par SN1 : ce qui borne le champ d'application de l'échange."
+          "note": "Méthyle et primaire réagissent toujours par SN2, jamais par SN1 : ce qui borne le champ d'application de l'échange."
         }
       ],
       "articles_historiques": [],
@@ -305,7 +305,7 @@
           "ouvrage": "clayden",
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "348",
-          "note": "Le mécanisme complet sur le 2-méthylpropan-1-ol (91 %) : attaque de l'oxygène sur le phosphore (SN2 au phosphore), perte du proton, puis déplacement de l'oxyanion lié au phosphore par un bromure. Y figure aussi l'énoncé fondamental : l'ion hydroxyde n'est jamais un groupe partant, parce qu'un nucléophile assez fort pour le déplacer arracherait d'abord le proton de l'alcool."
+          "note": "Le mécanisme complet sur le 2-méthylpropan-1-ol (91 %) : attaque de l'oxygène sur le phosphore (SN2 au phosphore), perte du proton, puis déplacement de l'oxyanion lié au phosphore par un bromure. Y figure aussi l'énoncé fondamental : l'ion hydroxyde n'est jamais un groupe partant, parce qu'un nucléophile assez fort pour le déplacer arracherait d'abord le proton de l'alcool."
         },
         {
           "ouvrage": "clayden",
@@ -323,13 +323,13 @@
           "ouvrage": "clayden",
           "chapitre": "23 — Chemoselectivity and protecting groups / Nucleophilic attack on allylic compounds",
           "pages": "574–576",
-          "note": "Définition de la SN2′ et son mécanisme concerté ; règle de régiosélectivité (attaque à l'extrémité la moins encombrée, que ce soit par SN2 ou par SN2′) ; exemple du 3-chlorobut-1-ène avec la diéthylamine, qui passe entièrement par la SN2′ ; réserve explicite sur la possibilité d'un carbocation allylique dans le cas du bromure de prényle."
+          "note": "Définition de la SN2′ et son mécanisme concerté ; règle de régiosélectivité (attaque à l'extrémité la moins encombrée, que ce soit par SN2 ou par SN2′) ; exemple du 3-chlorobut-1-ène avec la diéthylamine, qui passe entièrement par la SN2′ ; réserve explicite sur la possibilité d'un carbocation allylique dans le cas du bromure de prényle."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "23",
           "pages": "577",
-          "note": "Rapprochement avec la réaction de Mitsunobu : dans les deux cas le phosphore sert à ôter le groupe OH."
+          "note": "Rapprochement avec la réaction de Mitsunobu : dans les deux cas le phosphore sert à ôter le groupe OH."
         }
       ],
       "articles_historiques": [],
@@ -341,7 +341,7 @@
           "ouvrage": "clayden",
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "438",
-          "note": "Les deux régiochimies opposées à partir du même époxyde trisubstitué : méthanolate en milieu basique (attaque du carbone le moins substitué, SN2 pure) contre méthanol en milieu acide (attaque du carbone le plus substitué). Le mécanisme acide est détaillé avec son état de transition de SN2 « lâche » et la charge positive stabilisée par les groupes alkyle. La page ajoute la réserve : même en milieu acide, la SN2 sur un centre primaire reste rapide."
+          "note": "Les deux régiochimies opposées à partir du même époxyde trisubstitué : méthanolate en milieu basique (attaque du carbone le moins substitué, SN2 pure) contre méthanol en milieu acide (attaque du carbone le plus substitué). Le mécanisme acide est détaillé avec son état de transition de SN2 « lâche » et la charge positive stabilisée par les groupes alkyle. La page ajoute la réserve : même en milieu acide, la SN2 sur un centre primaire reste rapide."
         }
       ],
       "articles_historiques": [],
@@ -353,7 +353,7 @@
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "382–386",
-          "note": "Le partage entre substitution et élimination, facteur par facteur : basicité du partenaire (chlorure de tert-butyle avec l'éthanol contre son alcoolate, p. 385), taille du partenaire (hydroxyde contre tert-butanolate sur le même halogénure primaire, p. 385), température et argument entropique (p. 385), lecture dur/mou (p. 385). Y figure aussi l'avertissement que le critère E1/E2 n'est pas celui de SN1/SN2 (p. 384), et que seule la vitesse de l'E2 dépend de la concentration de base (p. 386)."
+          "note": "Le partage entre substitution et élimination, facteur par facteur : basicité du partenaire (chlorure de tert-butyle avec l'éthanol contre son alcoolate, p. 385), taille du partenaire (hydroxyde contre tert-butanolate sur le même halogénure primaire, p. 385), température et argument entropique (p. 385), lecture dur/mou (p. 385). Y figure aussi l'avertissement que le critère E1/E2 n'est pas celui de SN1/SN2 (p. 384), et que seule la vitesse de l'E2 dépend de la concentration de base (p. 386)."
         },
         {
           "ouvrage": "clayden",
@@ -365,7 +365,7 @@
           "ouvrage": "clayden",
           "chapitre": "15",
           "pages": "340",
-          "note": "Méthyle et primaire réagissent toujours par SN2, jamais par SN1 : la borne haute du critère de squelette."
+          "note": "Méthyle et primaire réagissent toujours par SN2, jamais par SN1 : la borne haute du critère de squelette."
         }
       ],
       "articles_historiques": [],
@@ -377,25 +377,25 @@
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "386",
-          "note": "Définition et mécanisme général : l'étape déterminante est bimoléculaire, la perte du groupe partant et l'arrachement du proton par la base sont concertés ; v = k[base][halogénure]. Une base forte, à quelque concentration que ce soit, favorise l'E2 sur l'E1 — si une élimination exige une base forte, c'est une E2."
+          "note": "Définition et mécanisme général : l'étape déterminante est bimoléculaire, la perte du groupe partant et l'arrachement du proton par la base sont concertés ; v = k[base][halogénure]. Une base forte, à quelque concentration que ce soit, favorise l'E2 sur l'E1 — si une élimination exige une base forte, c'est une E2."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "395",
-          "note": "L'état de transition antipériplanaire : c'est l'alignement des liaisons C–H et C–X qui rend la réaction stéréospécifique."
+          "note": "L'état de transition antipériplanaire : c'est l'alignement des liaisons C–H et C–X qui rend la réaction stéréospécifique."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "398–399",
-          "note": "Régiosélectivité : une base peu encombrée donne plutôt l'alcène le plus substitué, une base encombrée l'alcène le moins substitué (28/73 avec t-BuOK contre 69/31 avec NaOEt sur le même bromure). Les deux préférences opposées portent les noms de règle de Saytsev et de règle de Hofmann, mais l'ouvrage juge plus utile d'en comprendre les raisons."
+          "note": "Régiosélectivité : une base peu encombrée donne plutôt l'alcène le plus substitué, une base encombrée l'alcène le moins substitué (28/73 avec t-BuOK contre 69/31 avec NaOEt sur le même bromure). Les deux préférences opposées portent les noms de règle de Saytsev et de règle de Hofmann, mais l'ouvrage juge plus utile d'en comprendre les raisons."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "384–385",
-          "note": "Substitution ou élimination : basicité, encombrement et température. L'élimination fait trois molécules à partir de deux, d'où l'effet de la température."
+          "note": "Substitution ou élimination : basicité, encombrement et température. L'élimination fait trois molécules à partir de deux, d'où l'effet de la température."
         }
       ],
       "articles_historiques": [],
@@ -407,25 +407,25 @@
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "386",
-          "note": "Mécanisme général en deux étapes : ionisation déterminante sans participation de la base, v = k[halogénure], puis déprotonation. La vitesse d'une E1 n'est pas même affectée par la nature de la base présente."
+          "note": "Mécanisme général en deux étapes : ionisation déterminante sans participation de la base, v = k[halogénure], puis déprotonation. La vitesse d'une E1 n'est pas même affectée par la nature de la base présente."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "388",
-          "note": "Quels substrats peuvent passer par E1 : tertiaires, allyliques, benzyliques, α-hétérosubstitués, et secondaires dans une moindre mesure ; jamais les primaires. Souligne aussi que le critère E1/E2 n'est pas celui de SN1/SN2 — l'encombrement qui interdit la SN2 ne gêne pas une élimination."
+          "note": "Quels substrats peuvent passer par E1 : tertiaires, allyliques, benzyliques, α-hétérosubstitués, et secondaires dans une moindre mesure ; jamais les primaires. Souligne aussi que le critère E1/E2 n'est pas celui de SN1/SN2 — l'encombrement qui interdit la SN2 ne gêne pas une élimination."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "384",
-          "note": "Premier exemple d'E1 du chapitre : élimination de l'eau du tert-butanol en milieu H₂SO₄, l'anion hydrogénosulfate agissant en base uniquement parce qu'il est encore plus mauvais nucléophile."
+          "note": "Premier exemple d'E1 du chapitre : élimination de l'eau du tert-butanol en milieu H₂SO₄, l'anion hydrogénosulfate agissant en base uniquement parce qu'il est encore plus mauvais nucléophile."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "399",
-          "note": "Régiosélectivité : une E1 donne l'alcène le plus substitué."
+          "note": "Régiosélectivité : une E1 donne l'alcène le plus substitué."
         }
       ],
       "articles_historiques": [],
@@ -437,19 +437,19 @@
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "384",
-          "note": "Le mécanisme complet, dessiné : protonation du tert-butanol par H₂SO₄, perte d'eau déterminante, puis déprotonation par l'hydrogénosulfate pour donner l'isobutène."
+          "note": "Le mécanisme complet, dessiné : protonation du tert-butanol par H₂SO₄, perte d'eau déterminante, puis déprotonation par l'hydrogénosulfate pour donner l'isobutène."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "398",
-          "note": "Le contraste décisif sur un même squelette : le 1-méthylcyclohexanol traité par H₃PO₄ à 120 °C donne l'alcène trisubstitué par E1, tandis que le chlorure correspondant traité par la base très encombrée KOCEt₃ donne exclusivement l'alcène disubstitué par E2."
+          "note": "Le contraste décisif sur un même squelette : le 1-méthylcyclohexanol traité par H₃PO₄ à 120 °C donne l'alcène trisubstitué par E1, tandis que le chlorure correspondant traité par la base très encombrée KOCEt₃ donne exclusivement l'alcène disubstitué par E2."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "390",
-          "note": "Pourquoi la déshydratation basique est impossible : OH⁻ n'est jamais groupe partant dans une E2, une base forte arracherait d'abord le proton de l'alcool. Pour les alcools primaires et secondaires, on passe par un tosylate ou un mésylate."
+          "note": "Pourquoi la déshydratation basique est impossible : OH⁻ n'est jamais groupe partant dans une E2, une base forte arracherait d'abord le proton de l'alcool. Pour les alcools primaires et secondaires, on passe par un tosylate ou un mésylate."
         }
       ],
       "articles_historiques": [],
@@ -461,7 +461,7 @@
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "399–400",
-          "note": "Toute la section : l'exemple d'un β-hydroxycétone traité par KOH, l'acidité du proton en α du carbonyle (pKa voisin de 20), les représentations de l'anion et la meilleure d'entre elles — l'énolate —, l'étape déterminante de départ du nucléofuge, et l'explication du nom E1cB. Y figure l'énoncé que HO⁻, jamais groupe partant en E2, peut l'être en E1cB, parce qu'il est perdu depuis un alcoolate et non depuis une molécule neutre, la conjugaison du produit aidant au départ. D'autres nucléofuges conviennent, le mésylate notamment."
+          "note": "Toute la section : l'exemple d'un β-hydroxycétone traité par KOH, l'acidité du proton en α du carbonyle (pKa voisin de 20), les représentations de l'anion et la meilleure d'entre elles — l'énolate —, l'étape déterminante de départ du nucléofuge, et l'explication du nom E1cB. Y figure l'énoncé que HO⁻, jamais groupe partant en E2, peut l'être en E1cB, parce qu'il est perdu depuis un alcoolate et non depuis une molécule neutre, la conjugaison du produit aidant au départ. D'autres nucléofuges conviennent, le mésylate notamment."
         },
         {
           "ouvrage": "clayden",
@@ -479,13 +479,13 @@
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "398",
-          "note": "La section entière « E2 elimination from vinyl halides: how to make alkynes » : l'exigence antipériplanaire sur un bromure vinylique, la différence de vitesse entre isomères Z et E, et la séquence complète sur le 1,2-dibromopropane traité par trois équivalents de R₂NLi à −60 °C — première élimination stéréosélective vers le bromure vinylique E, seconde élimination syn-périplanaire vers l'alcyne, puis déprotonation de l'alcyne terminal par le troisième équivalent. L'ouvrage souligne qu'il s'agit probablement de la première méthode rencontrée qui fabrique un alcyne à partir d'un substrat qui n'en contient pas."
+          "note": "La section entière « E2 elimination from vinyl halides: how to make alkynes » : l'exigence antipériplanaire sur un bromure vinylique, la différence de vitesse entre isomères Z et E, et la séquence complète sur le 1,2-dibromopropane traité par trois équivalents de R₂NLi à −60 °C — première élimination stéréosélective vers le bromure vinylique E, seconde élimination syn-périplanaire vers l'alcyne, puis déprotonation de l'alcyne terminal par le troisième équivalent. L'ouvrage souligne qu'il s'agit probablement de la première méthode rencontrée qui fabrique un alcyne à partir d'un substrat qui n'en contient pas."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "398",
-          "note": "Le rôle de LDA : obtenue en déprotonant la diisopropylamine par BuLi, très basique (pKa de l'amine voisin de 35) mais trop encombrée pour être nucléophile — idéale pour promouvoir une E2."
+          "note": "Le rôle de LDA : obtenue en déprotonant la diisopropylamine par BuLi, très basique (pKa de l'amine voisin de 35) mais trop encombrée pour être nucléophile — idéale pour promouvoir une E2."
         }
       ],
       "articles_historiques": [],
@@ -497,13 +497,13 @@
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "390",
-          "note": "Les éliminations d'ions ammonium quaternaires, avec les deux exemples et leurs mécanismes dessinés : quaternisation par MeI puis KOH à chaud (E2, 81 %), et le cas où le départ engendrerait un carbocation tertiaire, où l'eau chaude suffit (E1, 98 %). Rappel du principe général : le groupe partant intervenant dans l'étape déterminante des deux mécanismes, tout bon groupe partant conduit à une élimination rapide."
+          "note": "Les éliminations d'ions ammonium quaternaires, avec les deux exemples et leurs mécanismes dessinés : quaternisation par MeI puis KOH à chaud (E2, 81 %), et le cas où le départ engendrerait un carbocation tertiaire, où l'eau chaude suffit (E1, 98 %). Rappel du principe général : le groupe partant intervenant dans l'étape déterminante des deux mécanismes, tout bon groupe partant conduit à une élimination rapide."
         },
         {
           "ouvrage": "clayden",
           "chapitre": "17 — Elimination reactions",
           "pages": "399",
-          "note": "La régiosélectivité vers l'alcène le moins substitué avec les bases et les groupes partants encombrés, et l'encadré « Hofmann and Saytsev » qui conseille de comprendre les raisons plutôt que de retenir les noms."
+          "note": "La régiosélectivité vers l'alcène le moins substitué avec les bases et les groupes partants encombrés, et l'encadré « Hofmann and Saytsev » qui conseille de comprendre les raisons plutôt que de retenir les noms."
         }
       ],
       "articles_historiques": [],
@@ -515,7 +515,7 @@
           "ouvrage": "grossman",
           "chapitre": "4 — Pericyclic Reactions (rétro-ène / Ei)",
           "pages": "266",
-          "note": "Les N-oxydes d'amines (élimination de Cope) sont rangés parmi les rétro-hétéro-ènes, aux côtés des sulfoxydes et des sélénoxydes ; le sélénoxyde réagit en quelques minutes à température ambiante, les N-oxydes et sulfoxydes réclament un chauffage plus fort. La page avertit explicitement de ne pas confondre l'élimination de Cope avec la transposition de Cope, et donne le moteur entropique commun à ces éliminations thermiques."
+          "note": "Les N-oxydes d'amines (élimination de Cope) sont rangés parmi les rétro-hétéro-ènes, aux côtés des sulfoxydes et des sélénoxydes ; le sélénoxyde réagit en quelques minutes à température ambiante, les N-oxydes et sulfoxydes réclament un chauffage plus fort. La page avertit explicitement de ne pas confondre l'élimination de Cope avec la transposition de Cope, et donne le moteur entropique commun à ces éliminations thermiques."
         }
       ],
       "articles_historiques": [],
@@ -527,7 +527,7 @@
           "ouvrage": "grossman",
           "chapitre": "4 — Pericyclic Reactions (rétro-ène / Ei)",
           "pages": "266",
-          "note": "Le mécanisme rétro-ène concerté, dessiné en cycle à six centres pour les deux cas X = O (pyrolyse d'un acétate) et X = S (réaction de Chugaev sur un xanthate). Y figurent les deux moteurs : le gain d'entropie, déterminant aux hautes températures requises, et la formation de la liaison π C=O aux dépens de la liaison π C=S — avantage propre au xanthate, l'élimination d'acide acétique étant défavorable du point de vue de l'enthalpie et exigeant des températures bien supérieures."
+          "note": "Le mécanisme rétro-ène concerté, dessiné en cycle à six centres pour les deux cas X = O (pyrolyse d'un acétate) et X = S (réaction de Chugaev sur un xanthate). Y figurent les deux moteurs : le gain d'entropie, déterminant aux hautes températures requises, et la formation de la liaison π C=O aux dépens de la liaison π C=S — avantage propre au xanthate, l'élimination d'acide acétique étant défavorable du point de vue de l'enthalpie et exigeant des températures bien supérieures."
         }
       ],
       "articles_historiques": [],
@@ -539,7 +539,7 @@
           "ouvrage": "clayden",
           "chapitre": "27 — Organometallic chemistry / Silicon and carbon compared",
           "pages": "671",
-          "note": "La section « The Peterson elimination » : le groupe Me₃Si se comporte comme un proton, arraché non par une base mais par un nucléophile dur (F⁻ ou RO⁻) ; le mécanisme complet est dessiné sur le 2-phényl-1-(triméthylsilyl)propan-2-ol traité par HF (84 %). L'ouvrage souligne la régiosélectivité totale, contrairement aux déshydratations acides ordinaires, et l'intérêt pour les doubles liaisons terminales ou exocycliques, avec un exemple tiré d'une synthèse du Taxol. Le substrat s'obtient par addition de l'organomagnésien dérivé de Me₃SiCH₂Br sur un composé carbonylé."
+          "note": "La section « The Peterson elimination » : le groupe Me₃Si se comporte comme un proton, arraché non par une base mais par un nucléophile dur (F⁻ ou RO⁻) ; le mécanisme complet est dessiné sur le 2-phényl-1-(triméthylsilyl)propan-2-ol traité par HF (84 %). L'ouvrage souligne la régiosélectivité totale, contrairement aux déshydratations acides ordinaires, et l'intérêt pour les doubles liaisons terminales ou exocycliques, avec un exemple tiré d'une synthèse du Taxol. Le substrat s'obtient par addition de l'organomagnésien dérivé de Me₃SiCH₂Br sur un composé carbonylé."
         },
         {
           "ouvrage": "clayden",
@@ -553,7 +553,7 @@
     }
   },
   "instructions_pour_completer": {
-    "regle_1": "Pour CHAQUE nouvelle réaction ajoutée, remplir les 3 niveaux : ouvrages (piocher dans 'ouvrages_de_reference'), article(s) historique(s), revue moderne si pertinent.",
+    "regle_1": "Pour CHAQUE nouvelle réaction ajoutée, remplir les 3 niveaux : ouvrages (piocher dans 'ouvrages_de_reference'), article(s) historique(s), revue moderne si pertinent.",
     "regle_2": "AUCUN DOI ne doit être écrit sans vérification web préalable. Mettre 'verifie': false et 'doi': null tant que non confirmé.",
     "regle_3": "Un DOI est considéré vérifié seulement s'il est confirmé par au moins 2 sources indépendantes (éditeur + base de données, par ex.).",
     "regle_4": "Pour les publications antérieures aux années 1950 (souvent sans DOI), sourcer via archives numériques (Gallica, HathiTrust) plutôt que d'inventer un DOI."

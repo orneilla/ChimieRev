@@ -5,7 +5,7 @@
       "titre": "L'attaque, par l'arrière",
       "legende": "L'ion hydroxyde apporte ses électrons sur le carbone, du côté opposé au brome. Au même moment, les électrons de la liaison C–Br se replient sur le brome, qui s'en va.",
       "fleches": [
-        "Le doublet de l'oxygène part vers le carbone : la nouvelle liaison se forme.",
+        "Le doublet de l'oxygène part vers le carbone : la nouvelle liaison se forme.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
       "coherenceVerifiee": true,
@@ -24,10 +24,10 @@
     "1": {
       "fichier": "e2-etape1.svg",
       "titre": "Trois mouvements, un seul geste",
-      "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps.",
+      "legende": "La base attrape l'hydrogène ; les électrons libérés par la liaison C–H glissent entre les deux carbones et forment la double liaison ; le brome part avec les siens. Tout en même temps.",
       "fleches": [
         "Le doublet de la base va chercher l'hydrogène du carbone voisin.",
-        "Les électrons libérés par la liaison C–H glissent entre les deux carbones : la double liaison naît.",
+        "Les électrons libérés par la liaison C–H glissent entre les deux carbones : la double liaison naît.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
       "coherenceVerifiee": true,
@@ -46,7 +46,7 @@
     "2": {
       "fichier": "diels_alder-etape2.svg",
       "titre": "La ronde des six électrons",
-      "legende": "Trois paires d'électrons avancent d'un cran, en cercle : deux nouvelles liaisons se ferment aux extrémités, et la double liaison restante se retrouve au milieu. Aucun intermédiaire, aucune charge.",
+      "legende": "Trois paires d'électrons avancent d'un cran, en cercle : deux nouvelles liaisons se ferment aux extrémités, et la double liaison restante se retrouve au milieu. Aucun intermédiaire, aucune charge.",
       "fleches": [
         "La première double liaison du diène forme une liaison avec le diénophile.",
         "La double liaison du diénophile forme la seconde liaison, à l'autre bout.",
@@ -79,7 +79,7 @@
     "3": {
       "fichier": "reduction_nabh4-etape3.svg",
       "titre": "L'oxygène récupère un proton",
-      "legende": "L'oxygène chargé négativement attrape un hydrogène au solvant : il devient un groupe OH, et la molécule est un alcool.",
+      "legende": "L'oxygène chargé négativement attrape un hydrogène au solvant : il devient un groupe OH, et la molécule est un alcool.",
       "fleches": [
         "Le doublet de l'oxygène va chercher un hydrogène du solvant.",
         "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
@@ -90,7 +90,7 @@
     "4": {
       "fichier": "reduction_nabh4-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton.",
+      "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -100,7 +100,7 @@
     "1": {
       "fichier": "grignard-etape1.svg",
       "titre": "Un carbone riche attaque un carbone pauvre",
-      "legende": "Le magnésium a rendu son carbone riche en électrons (ici R = CH₃). Ce carbone se lie au carbone du carbonyle : une liaison carbone-carbone est née. Les électrons de la double liaison C=O se replient sur l'oxygène.",
+      "legende": "Le magnésium a rendu son carbone riche en électrons (ici R = CH₃). Ce carbone se lie au carbone du carbonyle : une liaison carbone-carbone est née. Les électrons de la double liaison C=O se replient sur l'oxygène.",
       "fleches": [
         "Le carbone rendu riche par le magnésium attaque le carbone du carbonyle.",
         "Les électrons de la double liaison C=O se replient sur l'oxygène."
@@ -111,7 +111,7 @@
     "3": {
       "fichier": "grignard-etape3.svg",
       "titre": "L'hydrolyse, seulement à la fin",
-      "legende": "On ajoute l'eau une fois le travail fait : l'oxygène attrape un proton et l'alcool apparaît. Ajoutée trop tôt, cette eau aurait détruit le réactif.",
+      "legende": "On ajoute l'eau une fois le travail fait : l'oxygène attrape un proton et l'alcool apparaît. Ajoutée trop tôt, cette eau aurait détruit le réactif.",
       "fleches": [
         "L'oxygène chargé négativement va chercher un proton de l'eau.",
         "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
@@ -122,7 +122,7 @@
     "4": {
       "fichier": "grignard-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi.",
+      "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -132,7 +132,7 @@
     "1": {
       "fichier": "sn1-etape1.svg",
       "titre": "Le brome part tout seul",
-      "legende": "Étape lente. La liaison C–Br se rompt d'elle-même : le brome emporte le doublet et laisse un carbone à trois liaisons, chargé positivement et aplati.",
+      "legende": "Étape lente. La liaison C–Br se rompt d'elle-même : le brome emporte le doublet et laisse un carbone à trois liaisons, chargé positivement et aplati.",
       "fleches": [
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
@@ -142,7 +142,7 @@
     "2": {
       "fichier": "sn1-etape2.svg",
       "titre": "L'eau se jette sur le carbone",
-      "legende": "Étape rapide. Le carbocation est plan : l'eau peut l'aborder par l'une ou l'autre face, ce qui donne autant d'un produit que de son image miroir.",
+      "legende": "Étape rapide. Le carbocation est plan : l'eau peut l'aborder par l'une ou l'autre face, ce qui donne autant d'un produit que de son image miroir.",
       "fleches": [
         "Un doublet de l'oxygène de l'eau forme la nouvelle liaison avec le carbone."
       ],
@@ -152,7 +152,7 @@
     "3": {
       "fichier": "sn1-etape3.svg",
       "titre": "L'oxygène rend un proton",
-      "legende": "L'oxygène porte une charge positive qu'il ne garde pas : une molécule de solvant lui prend un proton, et l'alcool apparaît.",
+      "legende": "L'oxygène porte une charge positive qu'il ne garde pas : une molécule de solvant lui prend un proton, et l'alcool apparaît.",
       "fleches": [
         "Un doublet du solvant va chercher l'un des hydrogènes.",
         "Les électrons de la liaison O–H restent sur l'oxygène, qui redevient neutre."
@@ -173,7 +173,7 @@
     "2": {
       "fichier": "participation_groupe_voisin-etape2.svg",
       "titre": "Le voisin attaque le premier",
-      "legende": "Le carboxylate est déjà sur place : il attaque le carbone par l'arrière pendant que le brome s'en va. Première inversion, et un anneau tendu à trois atomes se referme.",
+      "legende": "Le carboxylate est déjà sur place : il attaque le carbone par l'arrière pendant que le brome s'en va. Première inversion, et un anneau tendu à trois atomes se referme.",
       "fleches": [
         "Un doublet du carboxylate forme une liaison avec le carbone porteur du brome.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
@@ -184,10 +184,10 @@
     "3": {
       "fichier": "participation_groupe_voisin-etape3.svg",
       "titre": "L'anneau s'ouvre, seconde inversion",
-      "legende": "L'ion hydroxyde attaque le même carbone, par l'arrière lui aussi. La molécule se retourne une seconde fois : les deux retournements s'annulent.",
+      "legende": "L'ion hydroxyde attaque le même carbone, par l'arrière lui aussi. La molécule se retourne une seconde fois : les deux retournements s'annulent.",
       "fleches": [
         "Un doublet de l'ion hydroxyde forme la nouvelle liaison.",
-        "La liaison qui fermait l'anneau se rompt : ses électrons partent sur l'oxygène."
+        "La liaison qui fermait l'anneau se rompt : ses électrons partent sur l'oxygène."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -195,7 +195,7 @@
     "5": {
       "fichier": "participation_groupe_voisin-etape5.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'acide (R)-lactique : même orientation qu'au départ, après deux inversions successives.",
+      "legende": "L'acide (R)-lactique : même orientation qu'au départ, après deux inversions successives.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -205,7 +205,7 @@
     "1": {
       "fichier": "williamson-etape1.svg",
       "titre": "L'hydrure arrache le proton",
-      "legende": "L'alcool est un acide faible : il faut une base très forte pour lui prendre son proton. Le dihydrogène qui se dégage empêche tout retour en arrière.",
+      "legende": "L'alcool est un acide faible : il faut une base très forte pour lui prendre son proton. Le dihydrogène qui se dégage empêche tout retour en arrière.",
       "fleches": [
         "Le doublet de l'ion hydrure va chercher le proton de l'alcool.",
         "Les électrons de la liaison O–H restent sur l'oxygène, qui devient un alcoolate."
@@ -216,7 +216,7 @@
     "3": {
       "fichier": "williamson-etape3.svg",
       "titre": "L'alcoolate attaque, l'iodure part",
-      "legende": "Substitution SN2 ordinaire : l'oxygène chargé attaque le carbone du méthyle par l'arrière, l'iodure s'en va. Les deux morceaux sont soudés par un oxygène.",
+      "legende": "Substitution SN2 ordinaire : l'oxygène chargé attaque le carbone du méthyle par l'arrière, l'iodure s'en va. Les deux morceaux sont soudés par un oxygène.",
       "fleches": [
         "Un doublet de l'alcoolate forme la liaison avec le carbone.",
         "Les électrons de la liaison C–I se replient sur l'iode, qui s'en va."
@@ -237,7 +237,7 @@
     "1": {
       "fichier": "tosylation_alcool-etape1.svg",
       "titre": "L'oxygène attaque le soufre",
-      "legende": "Point capital : l'oxygène de l'alcool se lie au SOUFRE du réactif, pas à un carbone. La liaison entre le carbone et l'oxygène n'est jamais touchée.",
+      "legende": "Point capital : l'oxygène de l'alcool se lie au SOUFRE du réactif, pas à un carbone. La liaison entre le carbone et l'oxygène n'est jamais touchée.",
       "fleches": [
         "Un doublet de l'oxygène de l'alcool forme la liaison avec le soufre.",
         "Les électrons de la liaison S–Cl se replient sur le chlore, qui s'en va."
@@ -248,7 +248,7 @@
     "4": {
       "fichier": "tosylation_alcool-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Le tosylate. Le carbone n'a pas bougé : sa configuration est celle de l'alcool de départ. Il porte maintenant un groupe qui ne demande qu'à s'en aller.",
+      "legende": "Le tosylate. Le carbone n'a pas bougé : sa configuration est celle de l'alcool de départ. Il porte maintenant un groupe qui ne demande qu'à s'en aller.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -258,7 +258,7 @@
     "1": {
       "fichier": "mitsunobu-etape1.svg",
       "titre": "La phosphine s'accroche au DEAD",
-      "legende": "Ni l'alcool ni le nucléophile n'interviennent encore : les deux réactifs commencent par se combiner entre eux. La double liaison azote–azote est fragile ; le phosphore, qui aime donner ses électrons, s'y fixe. Les deux électrons chassés se replient sur l'azote voisin, qui devient négatif — et le groupe ester juste à côté encaisse cette charge sans broncher.",
+      "legende": "Ni l'alcool ni le nucléophile n'interviennent encore : les deux réactifs commencent par se combiner entre eux. La double liaison azote–azote est fragile ; le phosphore, qui aime donner ses électrons, s'y fixe. Les deux électrons chassés se replient sur l'azote voisin, qui devient négatif — et le groupe ester juste à côté encaisse cette charge sans broncher.",
       "fleches": [
         "Le doublet libre du phosphore forme une liaison avec le premier azote.",
         "Les électrons de la double liaison N=N se replient sur le second azote, qui devient négatif."
@@ -269,10 +269,10 @@
     "2": {
       "fichier": "mitsunobu-etape2.svg",
       "titre": "L'azote négatif réveille le nucléophile",
-      "legende": "Le nucléophile a été versé dans le ballon sous sa forme tranquille — ici l'acide benzoïque, avec son hydrogène. L'azote négatif fabriqué à l'étape précédente est assez avide de protons pour le lui prendre. Le nucléophile se retrouve alors chargé négativement : c'est sous cette forme qu'il sait attaquer.",
+      "legende": "Le nucléophile a été versé dans le ballon sous sa forme tranquille — ici l'acide benzoïque, avec son hydrogène. L'azote négatif fabriqué à l'étape précédente est assez avide de protons pour le lui prendre. Le nucléophile se retrouve alors chargé négativement : c'est sous cette forme qu'il sait attaquer.",
       "fleches": [
         "L'azote négatif attrape l'hydrogène de l'acide.",
-        "Les électrons de la liaison O–H restent à l'oxygène : le nucléophile devient négatif."
+        "Les électrons de la liaison O–H restent à l'oxygène : le nucléophile devient négatif."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -280,10 +280,10 @@
     "3": {
       "fichier": "mitsunobu-etape3.svg",
       "titre": "L'alcool va se lier au phosphore",
-      "legende": "Voici le moteur de toute la réaction : l'oxygène et le phosphore s'attirent énormément. L'oxygène de l'alcool vient donc se lier au phosphore, et l'azote qui occupait la place est éjecté — exactement une SN2, mais jouée sur le phosphore au lieu du carbone.",
+      "legende": "Voici le moteur de toute la réaction : l'oxygène et le phosphore s'attirent énormément. L'oxygène de l'alcool vient donc se lier au phosphore, et l'azote qui occupait la place est éjecté — exactement une SN2, mais jouée sur le phosphore au lieu du carbone.",
       "fleches": [
         "Un doublet libre de l'oxygène de l'alcool forme la liaison avec le phosphore.",
-        "La liaison phosphore–azote se rompt : l'azote repart avec les deux électrons."
+        "La liaison phosphore–azote se rompt : l'azote repart avec les deux électrons."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -291,7 +291,7 @@
     "4": {
       "fichier": "mitsunobu-etape4.svg",
       "titre": "Un proton change de mains",
-      "legende": "L'oxygène porte encore l'hydrogène de l'alcool, et cela le rend très inconfortable : deux charges positives voisines, c'est beaucoup. L'azote qui vient d'être éjecté récupère aussitôt ce proton. Il s'en va alors définitivement — c'est le sous-produit azoté — et l'ancien alcool est devenu un excellent groupe partant.",
+      "legende": "L'oxygène porte encore l'hydrogène de l'alcool, et cela le rend très inconfortable : deux charges positives voisines, c'est beaucoup. L'azote qui vient d'être éjecté récupère aussitôt ce proton. Il s'en va alors définitivement — c'est le sous-produit azoté — et l'ancien alcool est devenu un excellent groupe partant.",
       "fleches": [
         "L'azote négatif reprend le proton porté par l'oxygène.",
         "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
@@ -302,10 +302,10 @@
     "5": {
       "fichier": "mitsunobu-etape5.svg",
       "titre": "L'attaque par l'arrière, celle qui retourne le carbone",
-      "legende": "Tout ce qui précède ne servait qu'à préparer ce moment. Le nucléophile négatif attaque le carbone du côté opposé au groupe partant, et le phosphore s'en va en emportant l'oxygène : la liaison phosphore–oxygène ainsi formée est si solide que rien ne peut revenir en arrière. Comme l'attaque vient de l'arrière, le carbone se retourne — d'où l'inversion de configuration.",
+      "legende": "Tout ce qui précède ne servait qu'à préparer ce moment. Le nucléophile négatif attaque le carbone du côté opposé au groupe partant, et le phosphore s'en va en emportant l'oxygène : la liaison phosphore–oxygène ainsi formée est si solide que rien ne peut revenir en arrière. Comme l'attaque vient de l'arrière, le carbone se retourne — d'où l'inversion de configuration.",
       "fleches": [
         "L'oxygène négatif du nucléophile attaque le carbone par l'arrière.",
-        "Les électrons de la liaison C–O forment la double liaison phosphore–oxygène : l'oxyde de phosphine part."
+        "Les électrons de la liaison C–O forment la double liaison phosphore–oxygène : l'oxyde de phosphine part."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -313,7 +313,7 @@
     "6": {
       "fichier": "mitsunobu-etape6.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'ester attendu, avec le carbone retourné par rapport à l'alcool de départ. Deux sous-produits l'accompagnent dans le ballon : l'oxyde de triphénylphosphine et la forme réduite du DEAD — abondants, et souvent pénibles à séparer.",
+      "legende": "L'ester attendu, avec le carbone retourné par rapport à l'alcool de départ. Deux sous-produits l'accompagnent dans le ballon : l'oxyde de triphénylphosphine et la forme réduite du DEAD — abondants, et souvent pénibles à séparer.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -323,10 +323,10 @@
     "2": {
       "fichier": "ouverture_epoxyde_base-etape2.svg",
       "titre": "L'amine ouvre le cycle tendu",
-      "legende": "L'amine attaque le carbone le moins encombré, par l'arrière. Le cycle s'ouvre, l'oxygène emporte les électrons : toute la tension des angles à 60° est libérée d'un coup.",
+      "legende": "L'amine attaque le carbone le moins encombré, par l'arrière. Le cycle s'ouvre, l'oxygène emporte les électrons : toute la tension des angles à 60° est libérée d'un coup.",
       "fleches": [
         "Le doublet de l'azote forme la liaison avec le carbone le moins encombré.",
-        "Les électrons de la liaison C–O se replient sur l'oxygène : le cycle s'ouvre."
+        "Les électrons de la liaison C–O se replient sur l'oxygène : le cycle s'ouvre."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -334,7 +334,7 @@
     "4": {
       "fichier": "ouverture_epoxyde_base-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Un amino-alcool : l'alcool et l'amine se retrouvent sur deux carbones voisins, et tous les angles sont revenus à leur valeur normale.",
+      "legende": "Un amino-alcool : l'alcool et l'amine se retrouvent sur deux carbones voisins, et tous les angles sont revenus à leur valeur normale.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -344,7 +344,7 @@
     "1": {
       "fichier": "finkelstein-etape1.svg",
       "titre": "L'iodure pousse le bromure dehors",
-      "legende": "Une SN2 sans surprise : l'iodure arrive du côté opposé au brome, la liaison se forme pendant que l'autre se rompt. Le carbone se retourne au passage.",
+      "legende": "Une SN2 sans surprise : l'iodure arrive du côté opposé au brome, la liaison se forme pendant que l'autre se rompt. Le carbone se retourne au passage.",
       "fleches": [
         "L'iodure attaque le carbone par l'arrière, du côté opposé au brome.",
         "Les électrons de la liaison C–Br partent avec le brome, qui devient bromure."
@@ -355,7 +355,7 @@
     "3": {
       "fichier": "finkelstein-etape3.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'iodure d'alkyle. Le bromure de sodium, lui, n'est plus en solution : il a précipité au fond du ballon, et c'est ce départ qui rend l'échange complet.",
+      "legende": "L'iodure d'alkyle. Le bromure de sodium, lui, n'est plus en solution : il a précipité au fond du ballon, et c'est ce départ qui rend l'échange complet.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -368,7 +368,7 @@
       "legende": "Le groupe OH ne partira jamais tel quel. On commence donc par le raccrocher à un phosphore, qui a une affinité considérable pour l'oxygène. Un brome est chassé au passage.",
       "fleches": [
         "Un doublet libre de l'oxygène forme la liaison avec le phosphore.",
-        "Une liaison phosphore–brome se rompt : le brome part en emportant les deux électrons."
+        "Une liaison phosphore–brome se rompt : le brome part en emportant les deux électrons."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -376,7 +376,7 @@
     "2": {
       "fichier": "halogenation_alcool_pbr3-etape2.svg",
       "titre": "Le bromure retire le proton",
-      "legende": "L'oxygène porte encore son hydrogène et une charge positive : c'est intenable. Le bromure qui vient d'être libéré s'en charge.",
+      "legende": "L'oxygène porte encore son hydrogène et une charge positive : c'est intenable. Le bromure qui vient d'être libéré s'en charge.",
       "fleches": [
         "Le bromure attrape le proton porté par l'oxygène.",
         "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
@@ -387,10 +387,10 @@
     "3": {
       "fichier": "halogenation_alcool_pbr3-etape3.svg",
       "titre": "L'attaque finale sur le carbone",
-      "legende": "Maintenant seulement le carbone est attaquable : ce qu'il porte n'est plus un OH mais un morceau qui accepte de partir, parce que le phosphore encaisse la charge sans difficulté.",
+      "legende": "Maintenant seulement le carbone est attaquable : ce qu'il porte n'est plus un OH mais un morceau qui accepte de partir, parce que le phosphore encaisse la charge sans difficulté.",
       "fleches": [
         "Un bromure attaque le carbone par l'arrière.",
-        "Les électrons de la liaison C–O restent à l'oxygène : le groupe phosphoré s'en va."
+        "Les électrons de la liaison C–O restent à l'oxygène : le groupe phosphoré s'en va."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -408,11 +408,11 @@
     "1": {
       "fichier": "sn2_prime-etape1.svg",
       "titre": "L'attaque à l'autre bout, et la double liaison qui glisse",
-      "legende": "Trois flèches en même temps, et c'est bien un seul geste : l'amine se fixe au bout libre, la double liaison se décale d'un cran, le chlore part. Une vague qui traverse la molécule.",
+      "legende": "Trois flèches en même temps, et c'est bien un seul geste : l'amine se fixe au bout libre, la double liaison se décale d'un cran, le chlore part. Une vague qui traverse la molécule.",
       "fleches": [
         "Le doublet de l'azote forme la liaison avec le carbone le plus dégagé — celui qui ne porte pas le chlore.",
         "La double liaison glisse d'un cran, vers le carbone porteur du chlore.",
-        "La liaison C–Cl se rompt : le chlore part avec les deux électrons."
+        "La liaison C–Cl se rompt : le chlore part avec les deux électrons."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -431,7 +431,7 @@
     "3": {
       "fichier": "sn2_prime-etape3.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Compare avec le départ : l'azote n'est pas là où était le chlore, et la double liaison a changé de place. Tout a bougé d'un cran — c'est la signature d'une SN2′.",
+      "legende": "Compare avec le départ : l'azote n'est pas là où était le chlore, et la double liaison a changé de place. Tout a bougé d'un cran — c'est la signature d'une SN2′.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -441,10 +441,10 @@
     "1": {
       "fichier": "ouverture_epoxyde_acide-etape1.svg",
       "titre": "L'acide protone l'oxygène du cycle",
-      "legende": "Première chose à faire : donner un proton à l'oxygène. Sans cela il ne partirait pas — et c'est précisément ce qui change tout par rapport au milieu basique.",
+      "legende": "Première chose à faire : donner un proton à l'oxygène. Sans cela il ne partirait pas — et c'est précisément ce qui change tout par rapport au milieu basique.",
       "fleches": [
         "Un doublet libre de l'oxygène du cycle capte un proton du milieu acide.",
-        "Les électrons de la liaison O–H restent sur l'oxygène : il repart en molécule d'eau."
+        "Les électrons de la liaison O–H restent sur l'oxygène : il repart en molécule d'eau."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -455,7 +455,7 @@
       "legende": "L'oxygène protoné tire sur ses liaisons. Une charge positive naissante apparaît, et elle se loge de préférence sur le carbone entouré de deux groupes méthyle. C'est là que le méthanol se laisse attirer — pas là où il y aurait de la place.",
       "fleches": [
         "Un doublet de l'oxygène du méthanol attaque le carbone le plus substitué.",
-        "La liaison carbone–oxygène du cycle se rompt : le cycle s'ouvre."
+        "La liaison carbone–oxygène du cycle se rompt : le cycle s'ouvre."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -463,7 +463,7 @@
     "3": {
       "fichier": "ouverture_epoxyde_acide-etape3.svg",
       "titre": "Le proton est rendu au milieu",
-      "legende": "Il reste un proton en trop. Une molécule de méthanol le reprend : le produit devient neutre, et l'acide est régénéré — c'est pour cela qu'il suffit d'en mettre une pointe.",
+      "legende": "Il reste un proton en trop. Une molécule de méthanol le reprend : le produit devient neutre, et l'acide est régénéré — c'est pour cela qu'il suffit d'en mettre une pointe.",
       "fleches": [
         "Une molécule de méthanol attrape le proton en excès.",
         "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
@@ -483,7 +483,7 @@
   "competition_substitution_elimination": {
     "1": {
       "fichier": "competition_substitution_elimination-etape1.svg",
-      "titre": "Petite base : elle atteint le carbone",
+      "titre": "Petite base : elle atteint le carbone",
       "legende": "L'ion hydroxyde est minuscule. Il se faufile jusqu'au carbone, du côté opposé au brome, et prend sa place. Substitution.",
       "fleches": [
         "L'hydroxyde attaque le carbone par l'arrière.",
@@ -494,12 +494,12 @@
     },
     "2": {
       "fichier": "competition_substitution_elimination-etape2.svg",
-      "titre": "Base volumineuse : elle se rabat sur l'hydrogène",
-      "legende": "Même molécule de départ, même température : seule la taille de la base a changé. Le tert-butanolate n'atteint plus le carbone, mais l'hydrogène du carbone voisin dépasse. Il l'arrache, et tout suit : la double liaison naît, le brome part. Élimination.",
+      "titre": "Base volumineuse : elle se rabat sur l'hydrogène",
+      "legende": "Même molécule de départ, même température : seule la taille de la base a changé. Le tert-butanolate n'atteint plus le carbone, mais l'hydrogène du carbone voisin dépasse. Il l'arrache, et tout suit : la double liaison naît, le brome part. Élimination.",
       "fleches": [
         "L'oxygène négatif, trop volumineux pour viser le carbone, arrache l'hydrogène voisin.",
         "Les électrons de la liaison C–H forment la double liaison entre les deux carbones.",
-        "La liaison C–Br se rompt en même temps : le brome part avec les deux électrons."
+        "La liaison C–Br se rompt en même temps : le brome part avec les deux électrons."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -507,7 +507,7 @@
     "3": {
       "fichier": "competition_substitution_elimination-etape3.svg",
       "titre": "Ce qu'on obtient avec la petite base",
-      "legende": "L'alcool : le partenaire s'est installé à la place du brome. Le squelette est intact.",
+      "legende": "L'alcool : le partenaire s'est installé à la place du brome. Le squelette est intact.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -515,7 +515,7 @@
     "4": {
       "fichier": "competition_substitution_elimination-etape4.svg",
       "titre": "Ce qu'on obtient avec la base volumineuse",
-      "legende": "L'alcène : le brome et un hydrogène voisin sont partis ensemble, et une double liaison les a remplacés. Le partenaire, lui, n'est pas dans le produit — il repart sous forme d'alcool.",
+      "legende": "L'alcène : le brome et un hydrogène voisin sont partis ensemble, et une double liaison les a remplacés. Le partenaire, lui, n'est pas dans le produit — il repart sous forme d'alcool.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -525,9 +525,9 @@
     "1": {
       "fichier": "e1-etape1.svg",
       "titre": "Le brome part tout seul — l'étape lente",
-      "legende": "Aucune base n'intervient ici. Le carbone est entouré de trois voisins carbonés : il peut supporter de perdre des électrons. C'est cette étape, et elle seule, qui fixe la vitesse de toute la réaction.",
+      "legende": "Aucune base n'intervient ici. Le carbone est entouré de trois voisins carbonés : il peut supporter de perdre des électrons. C'est cette étape, et elle seule, qui fixe la vitesse de toute la réaction.",
       "fleches": [
-        "La liaison C–Br se rompt : le brome part avec les deux électrons, et il reste un carbocation."
+        "La liaison C–Br se rompt : le brome part avec les deux électrons, et il reste un carbocation."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -535,7 +535,7 @@
     "2": {
       "fichier": "e1-etape2.svg",
       "titre": "N'importe quelle base arrache un proton voisin",
-      "legende": "Le carbone en manque d'électrons n'attend que ça. Une simple molécule d'eau suffit à retirer un hydrogène d'un carbone voisin ; les électrons libérés viennent combler le manque, et c'est la double liaison.",
+      "legende": "Le carbone en manque d'électrons n'attend que ça. Une simple molécule d'eau suffit à retirer un hydrogène d'un carbone voisin ; les électrons libérés viennent combler le manque, et c'est la double liaison.",
       "fleches": [
         "L'eau, base même faible, attrape un hydrogène du carbone voisin.",
         "Les électrons de la liaison C–H forment la double liaison avec le carbone positif."
@@ -546,7 +546,7 @@
     "3": {
       "fichier": "e1-etape3.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Le 2-méthylpropène. À côté, la substitution donne aussi son produit : les deux réactions partagent le même carbocation et se disputent son sort.",
+      "legende": "Le 2-méthylpropène. À côté, la substitution donne aussi son produit : les deux réactions partagent le même carbocation et se disputent son sort.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -556,7 +556,7 @@
     "1": {
       "fichier": "deshydratation_alcool-etape1.svg",
       "titre": "L'acide protone l'alcool",
-      "legende": "Sans cette première opération, rien ne se passerait : le groupe OH ne s'en va jamais de lui-même. Protoné, il devient une molécule d'eau — et l'eau, elle, part très volontiers.",
+      "legende": "Sans cette première opération, rien ne se passerait : le groupe OH ne s'en va jamais de lui-même. Protoné, il devient une molécule d'eau — et l'eau, elle, part très volontiers.",
       "fleches": [
         "Un doublet libre de l'oxygène de l'alcool capte le proton de l'acide.",
         "Les électrons de la liaison O–H restent à l'acide, qui devient son anion."
@@ -569,7 +569,7 @@
       "titre": "L'eau s'en va — l'étape lente",
       "legende": "Le départ de l'eau laisse un carbone en manque d'électrons. Ce carbone-ci le supporte, parce qu'il est épaulé par trois voisins carbonés. Sur un carbone de bout de chaîne, l'étape n'aurait pas lieu.",
       "fleches": [
-        "La liaison C–O se rompt : l'eau part avec les deux électrons."
+        "La liaison C–O se rompt : l'eau part avec les deux électrons."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -588,7 +588,7 @@
     "4": {
       "fichier": "deshydratation_alcool-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'alcène, et de l'eau. L'acide, lui, ressort intact : il n'a fait que passer, d'où le mot catalyseur.",
+      "legende": "L'alcène, et de l'eau. L'acide, lui, ressort intact : il n'a fait que passer, d'où le mot catalyseur.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -598,7 +598,7 @@
     "1": {
       "fichier": "e1cb-etape1.svg",
       "titre": "La base retire le proton voisin du carbonyle",
-      "legende": "Cet hydrogène-là n'est pas comme les autres : le carbonyle juste à côté sait absorber une charge négative, ce qui le rend anormalement facile à arracher. L'opération est rapide et réversible — le proton fait des allers-retours.",
+      "legende": "Cet hydrogène-là n'est pas comme les autres : le carbonyle juste à côté sait absorber une charge négative, ce qui le rend anormalement facile à arracher. L'opération est rapide et réversible — le proton fait des allers-retours.",
       "fleches": [
         "L'ion hydroxyde attrape l'hydrogène situé à côté du carbonyle.",
         "Les électrons de la liaison C–H restent sur le carbone, qui devient négatif."
@@ -608,7 +608,7 @@
     },
     "2": {
       "fichier": "e1cb-etape2.svg",
-      "titre": "La charge glisse sur l'oxygène : c'est un énolate",
+      "titre": "La charge glisse sur l'oxygène : c'est un énolate",
       "legende": "La charge ne reste pas sur le carbone. Elle se déplace vers l'oxygène du carbonyle, bien mieux armé pour la porter. C'est cette écriture-là — l'énolate — que Clayden appelle la représentation la plus juste de l'anion.",
       "fleches": [
         "Le doublet du carbone négatif forme une double liaison avec le carbone du carbonyle.",
@@ -620,11 +620,11 @@
     "3": {
       "fichier": "e1cb-etape3.svg",
       "titre": "Le OH s'en va — l'étape lente",
-      "legende": "Voilà l'exception : un ion hydroxyde qui part vraiment. Il le peut parce qu'il quitte un anion, non une molécule neutre — il n'y a aucune charge négative à créer, elle est déjà là. C'est cette étape qui fixe la vitesse.",
+      "legende": "Voilà l'exception : un ion hydroxyde qui part vraiment. Il le peut parce qu'il quitte un anion, non une molécule neutre — il n'y a aucune charge négative à créer, elle est déjà là. C'est cette étape qui fixe la vitesse.",
       "fleches": [
         "L'oxygène négatif reforme la double liaison C=O.",
         "La double liaison carbone-carbone se déplace d'un cran.",
-        "La liaison C–O se rompt : l'ion hydroxyde s'en va."
+        "La liaison C–O se rompt : l'ion hydroxyde s'en va."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -632,7 +632,7 @@
     "4": {
       "fichier": "e1cb-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Une cétone conjuguée : la double liaison est maintenant collée au carbonyle. Cette conjugaison est stabilisante, et elle a contribué à faire partir le OH.",
+      "legende": "Une cétone conjuguée : la double liaison est maintenant collée au carbonyle. Cette conjugaison est stabilisante, et elle a contribué à faire partir le OH.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -641,7 +641,7 @@
   "deshydrohalogenation_alcyne": {
     "1": {
       "fichier": "deshydrohalogenation_alcyne-etape1.svg",
-      "titre": "Première élimination : on obtient un bromure vinylique",
+      "titre": "Première élimination : on obtient un bromure vinylique",
       "legende": "Une E2 tout ce qu'il y a de plus classique. La base — très avide de protons mais trop encombrée pour attaquer un carbone — retire un hydrogène pendant qu'un des deux bromes s'en va.",
       "fleches": [
         "L'azote négatif de la base arrache l'hydrogène.",
@@ -653,8 +653,8 @@
     },
     "2": {
       "fichier": "deshydrohalogenation_alcyne-etape2.svg",
-      "titre": "Seconde élimination : la double liaison devient triple",
-      "legende": "On recommence, cette fois sur la double liaison. L'hydrogène et le brome sont ici du même côté, ce qui n'est pas l'arrangement idéal : la réaction est plus lente que sur l'autre isomère, mais elle a bien lieu.",
+      "titre": "Seconde élimination : la double liaison devient triple",
+      "legende": "On recommence, cette fois sur la double liaison. L'hydrogène et le brome sont ici du même côté, ce qui n'est pas l'arrangement idéal : la réaction est plus lente que sur l'autre isomère, mais elle a bien lieu.",
       "fleches": [
         "Un second équivalent de base arrache l'hydrogène vinylique.",
         "Les électrons de la liaison C–H viennent renforcer la double liaison, qui devient triple.",
@@ -666,10 +666,10 @@
     "3": {
       "fichier": "deshydrohalogenation_alcyne-etape3.svg",
       "titre": "Le troisième équivalent déprotone l'alcyne",
-      "legende": "L'hydrogène au bout d'une triple liaison est bien plus facile à retirer que celui d'un alcane ordinaire. La base restante s'en empare aussitôt — ce n'est pas un accident, c'est prévu : on récupère l'alcyne sous forme de sel, directement utilisable.",
+      "legende": "L'hydrogène au bout d'une triple liaison est bien plus facile à retirer que celui d'un alcane ordinaire. La base restante s'en empare aussitôt — ce n'est pas un accident, c'est prévu : on récupère l'alcyne sous forme de sel, directement utilisable.",
       "fleches": [
         "Le troisième équivalent de base arrache l'hydrogène terminal.",
-        "Les électrons restent sur le carbone : c'est l'alcynure."
+        "Les électrons restent sur le carbone : c'est l'alcynure."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -677,7 +677,7 @@
     "4": {
       "fichier": "deshydrohalogenation_alcyne-etape4.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Le propyne — sous forme lithiée dans le ballon. Compare avec le départ : une molécule entièrement saturée est devenue une triple liaison.",
+      "legende": "Le propyne — sous forme lithiée dans le ballon. Compare avec le départ : une molécule entièrement saturée est devenue une triple liaison.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -687,11 +687,11 @@
     "1": {
       "fichier": "elimination_hofmann-etape1.svg",
       "titre": "Une E2 dont le groupe partant est une amine",
-      "legende": "L'azote porte déjà quatre groupes, donc une charge positive. En partant avec ses électrons il redevient simplement neutre : rien à créer, rien à payer. C'est ce qui fait de lui un excellent groupe partant, alors qu'une amine ordinaire n'en est pas un.",
+      "legende": "L'azote porte déjà quatre groupes, donc une charge positive. En partant avec ses électrons il redevient simplement neutre : rien à créer, rien à payer. C'est ce qui fait de lui un excellent groupe partant, alors qu'une amine ordinaire n'en est pas un.",
       "fleches": [
         "L'ion hydroxyde arrache un hydrogène du carbone voisin de l'azote.",
         "Les électrons de la liaison C–H forment la double liaison.",
-        "La liaison carbone–azote se rompt : l'amine part avec les deux électrons et redevient neutre."
+        "La liaison carbone–azote se rompt : l'amine part avec les deux électrons et redevient neutre."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -709,11 +709,11 @@
     "1": {
       "fichier": "elimination_cope-etape1.svg",
       "titre": "Tout se joue en un cycle, sans aucun réactif",
-      "legende": "Compte les atomes engagés : l'oxygène, l'azote, deux carbones et l'hydrogène — cinq, repliés un instant en anneau. La molécule contient déjà son propre preneur de protons ; il suffit de chauffer. Conséquence directe de cet anneau : l'oxygène et l'hydrogène doivent être du MÊME côté, à l'inverse d'une E2 ordinaire.",
+      "legende": "Compte les atomes engagés : l'oxygène, l'azote, deux carbones et l'hydrogène — cinq, repliés un instant en anneau. La molécule contient déjà son propre preneur de protons ; il suffit de chauffer. Conséquence directe de cet anneau : l'oxygène et l'hydrogène doivent être du MÊME côté, à l'inverse d'une E2 ordinaire.",
       "fleches": [
         "L'oxygène négatif, porté par la molécule elle-même, attrape l'hydrogène du carbone voisin.",
         "Les électrons de la liaison C–H forment la double liaison carbone-carbone.",
-        "La liaison carbone–azote se rompt : l'azote part avec ses électrons et redevient neutre."
+        "La liaison carbone–azote se rompt : l'azote part avec ses électrons et redevient neutre."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -721,7 +721,7 @@
     "2": {
       "fichier": "elimination_cope-etape2.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'alcène, accompagné d'une hydroxylamine. Aucun acide, aucune base n'a été versé dans le ballon : la méthode convient donc aux molécules fragiles.",
+      "legende": "L'alcène, accompagné d'une hydroxylamine. Aucun acide, aucune base n'a été versé dans le ballon : la méthode convient donc aux molécules fragiles.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false
@@ -731,11 +731,11 @@
     "1": {
       "fichier": "elimination_chugaev-etape1.svg",
       "titre": "Un anneau de six atomes, et tout bascule",
-      "legende": "Même principe que l'élimination de Cope, avec six atomes au lieu de cinq : l'hydrogène, son carbone, le carbone voisin, l'oxygène, le carbone du xanthate et le soufre. Le double moteur est visible sur le dessin : une molécule en donne deux, et une double liaison C=S faible est échangée contre une double liaison C=O solide.",
+      "legende": "Même principe que l'élimination de Cope, avec six atomes au lieu de cinq : l'hydrogène, son carbone, le carbone voisin, l'oxygène, le carbone du xanthate et le soufre. Le double moteur est visible sur le dessin : une molécule en donne deux, et une double liaison C=S faible est échangée contre une double liaison C=O solide.",
       "fleches": [
         "Les électrons de la liaison C–H forment la double liaison carbone-carbone.",
-        "La liaison carbone–oxygène se rompt ; l'oxygène forme une double liaison avec le carbone du xanthate.",
-        "Les électrons de la double liaison C=S vont chercher l'hydrogène : le cycle est bouclé."
+        "La liaison carbone–oxygène se rompt ; l'oxygène forme une double liaison avec le carbone du xanthate.",
+        "Les électrons de la double liaison C=S vont chercher l'hydrogène : le cycle est bouclé."
       ],
       "coherenceVerifiee": true,
       "valide": false
@@ -753,7 +753,7 @@
     "1": {
       "fichier": "elimination_peterson-etape1.svg",
       "titre": "L'acide protone l'alcool",
-      "legende": "Comme dans toute déshydratation : sans proton, l'oxygène ne partirait pas. L'ion fluorure libéré au passage est justement celui qui déclenchera la suite.",
+      "legende": "Comme dans toute déshydratation : sans proton, l'oxygène ne partirait pas. L'ion fluorure libéré au passage est justement celui qui déclenchera la suite.",
       "fleches": [
         "Un doublet libre de l'oxygène capte le proton de HF.",
         "Les électrons de la liaison H–F restent au fluor, qui devient fluorure."
@@ -776,7 +776,7 @@
     "3": {
       "fichier": "elimination_peterson-etape3.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "L'α-méthylstyrène, 84 % de rendement, et un seul régioisomère. Une déshydratation ordinaire aurait donné un mélange : c'est le silicium, placé à l'avance, qui a décidé de l'endroit.",
+      "legende": "L'α-méthylstyrène, 84 % de rendement, et un seul régioisomère. Une déshydratation ordinaire aurait donné un mélange : c'est le silicium, placé à l'avance, qui a décidé de l'endroit.",
       "fleches": [],
       "coherenceVerifiee": false,
       "valide": false

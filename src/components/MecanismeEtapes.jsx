@@ -30,7 +30,7 @@ export default function MecanismeEtapes({ id, etapes }) {
 
       <p className="note">
         Chaque jeu de flèches est <strong>appliqué par la machine</strong> avant
-        publication : s'il ne mène pas au produit annoncé, ou s'il ne conserve
+        publication : s'il ne mène pas au produit annoncé, ou s'il ne conserve
         pas la charge, le schéma n'est pas publié.
       </p>
 
@@ -51,7 +51,7 @@ export default function MecanismeEtapes({ id, etapes }) {
                     <div className="structure-plaque">
                       <img
                         src={`${import.meta.env.BASE_URL}mecanismes/${schema.fichier}`}
-                        alt={`Schéma du mécanisme : ${schema.titre}`}
+                        alt={`Schéma du mécanisme : ${schema.titre}`}
                         loading="lazy"
                       />
                     </div>
@@ -75,7 +75,7 @@ export default function MecanismeEtapes({ id, etapes }) {
                         {schema.coherenceVerifiee && (
                           <span
                             className="badge-verifie badge-schema"
-                            title="Les flèches ont été appliquées par la machine : elles mènent bien au produit annoncé, et la charge est conservée."
+                            title="Les flèches ont été appliquées par la machine : elles mènent bien au produit annoncé, et la charge est conservée."
                           >
                             Flèches vérifiées
                           </span>

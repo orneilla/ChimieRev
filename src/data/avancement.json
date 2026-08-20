@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-08-19",
+  "genere_le": "2026-08-20",
   "total": 289,
   "redigees": 24,
   "verifiees": 24,
@@ -419,14 +419,14 @@
           "sources": false
         },
         {
-          "nom": "Chlorures d’acyle : formation et réactivité",
+          "nom": "Chlorures d’acyle : formation et réactivité",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Anhydrides : formation et réactivité",
+          "nom": "Anhydrides : formation et réactivité",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
@@ -959,7 +959,7 @@
           "sources": false
         },
         {
-          "nom": "Transposition de Baeyer-Villiger : migration",
+          "nom": "Transposition de Baeyer-Villiger : migration",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1097,7 +1097,7 @@
           "sources": false
         },
         {
-          "nom": "Umpolung : dithianes",
+          "nom": "Umpolung : dithianes",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
@@ -1235,7 +1235,7 @@
           "sources": false
         },
         {
-          "nom": "Procédé Monsanto : synthèse de l'acide acétique",
+          "nom": "Procédé Monsanto : synthèse de l'acide acétique",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1297,7 +1297,7 @@
       "relue": 0,
       "reactions": [
         {
-          "nom": "Formation d'un complexe : substitution des ligands aqua",
+          "nom": "Formation d'un complexe : substitution des ligands aqua",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
@@ -1373,21 +1373,21 @@
           "sources": false
         },
         {
-          "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
+          "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Transport du fer : sidérophores",
+          "nom": "Transport du fer : sidérophores",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Stockage du fer : la ferritine",
+          "nom": "Stockage du fer : la ferritine",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
@@ -1442,7 +1442,7 @@
           "sources": false
         },
         {
-          "nom": "Cyclisation d'un ose : formation de l'hémiacétal",
+          "nom": "Cyclisation d'un ose : formation de l'hémiacétal",
           "niveau": "L2",
           "id": null,
           "statut": "absente",
@@ -1484,14 +1484,14 @@
           "sources": false
         },
         {
-          "nom": "Allongement de chaîne : synthèse de Kiliani-Fischer",
+          "nom": "Allongement de chaîne : synthèse de Kiliani-Fischer",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Raccourcissement de chaîne : dégradation de Wohl",
+          "nom": "Raccourcissement de chaîne : dégradation de Wohl",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
@@ -1602,7 +1602,7 @@
           "sources": false
         },
         {
-          "nom": "Mécanisme d'une enzyme : la citrate synthase",
+          "nom": "Mécanisme d'une enzyme : la citrate synthase",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
@@ -1643,7 +1643,7 @@
           "sources": false
         },
         {
-          "nom": "Biosynthèse des acides gras : condensation de Claisen",
+          "nom": "Biosynthèse des acides gras : condensation de Claisen",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1657,7 +1657,7 @@
           "sources": false
         },
         {
-          "nom": "Couplage prényle : biosynthèse des terpènes",
+          "nom": "Couplage prényle : biosynthèse des terpènes",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1712,7 +1712,7 @@
           "sources": false
         },
         {
-          "nom": "Dépurination : hydrolyse acide d'une purine",
+          "nom": "Dépurination : hydrolyse acide d'une purine",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "metabolisme",
-      "nom": "Métabolisme : la chimie organique du vivant",
+      "nom": "Métabolisme : la chimie organique du vivant",
       "famille": "Métabolisme",
       "bloc": "Biomolécules et vivant",
       "total": 9,
@@ -1746,7 +1746,7 @@
       "relue": 0,
       "reactions": [
         {
-          "nom": "Glycolyse : la séquence complète",
+          "nom": "Glycolyse : la séquence complète",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1774,7 +1774,7 @@
           "sources": false
         },
         {
-          "nom": "Cycle de Krebs : la séquence complète",
+          "nom": "Cycle de Krebs : la séquence complète",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1822,7 +1822,7 @@
       "relue": 0,
       "reactions": [
         {
-          "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
+          "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -1836,7 +1836,7 @@
           "sources": false
         },
         {
-          "nom": "Carboxypeptidase A : le rôle du zinc",
+          "nom": "Carboxypeptidase A : le rôle du zinc",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -2003,7 +2003,7 @@
           "sources": false
         },
         {
-          "nom": "Polylactide : polymérisation par ouverture de lactone",
+          "nom": "Polylactide : polymérisation par ouverture de lactone",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
@@ -2044,21 +2044,21 @@
           "sources": false
         },
         {
-          "nom": "Norrish type I : α-clivage d'une cétone",
+          "nom": "Norrish type I : α-clivage d'une cétone",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Norrish type II : arrachement d'hydrogène en γ",
+          "nom": "Norrish type II : arrachement d'hydrogène en γ",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Photoréduction d'une cétone : formation de pinacol",
+          "nom": "Photoréduction d'une cétone : formation de pinacol",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -2107,7 +2107,7 @@
           "sources": false
         },
         {
-          "nom": "Chimie de la vision : isomérisation du rétinal",
+          "nom": "Chimie de la vision : isomérisation du rétinal",
           "niveau": "L3",
           "id": null,
           "statut": "absente",
@@ -2190,7 +2190,7 @@
           "sources": false
         },
         {
-          "nom": "Couplage A3 : aldéhyde, alcyne, amine",
+          "nom": "Couplage A3 : aldéhyde, alcyne, amine",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -2308,7 +2308,7 @@
           "sources": false
         },
         {
-          "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
+          "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -2349,14 +2349,14 @@
       "relue": 0,
       "reactions": [
         {
-          "nom": "Groupes protecteurs : alcools",
+          "nom": "Groupes protecteurs : alcools",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
           "sources": false
         },
         {
-          "nom": "Groupes protecteurs : carbonyles et amines",
+          "nom": "Groupes protecteurs : carbonyles et amines",
           "niveau": "M1",
           "id": null,
           "statut": "absente",
@@ -2377,7 +2377,7 @@
           "sources": false
         },
         {
-          "nom": "Synthèse asymétrique : auxiliaires chiraux",
+          "nom": "Synthèse asymétrique : auxiliaires chiraux",
           "niveau": "M2",
           "id": null,
           "statut": "absente",
