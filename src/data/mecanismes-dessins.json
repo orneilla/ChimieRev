@@ -2070,5 +2070,248 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "nitration_benzene": {
+    "1": {
+      "fichier": "nitration_benzene-etape1.svg",
+      "titre": "L'acide sulfurique protone l'acide nitrique",
+      "legende": "L'acide sulfurique est le plus fort des deux : c'est lui qui donne le proton. On protone l'acide nitrique sur l'oxygène de son hydroxyle, celui qui va devoir partir.",
+      "fleches": [
+        "L'oxygène de l'acide nitrique va chercher le proton.",
+        "L'hydrogénosulfate récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "nitration_benzene-etape2.svg",
+      "titre": "L'eau part : voici l'ion nitronium",
+      "legende": "L'eau s'en va, et l'oxygène chargé négativement vient aussitôt combler l'azote. On obtient NO₂⁺, l'ion nitronium — une molécule LINÉAIRE, isoélectronique du dioxyde de carbone, avec un azote hybridé sp au centre.",
+      "fleches": [
+        "La liaison azote–oxygène se rompt : l'eau s'en va.",
+        "Et le doublet de l'oxygène forme la seconde double liaison N=O."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "nitration_benzene-etape3.svg",
+      "titre": "Le benzène attaque, et perd son aromaticité",
+      "legende": "C'est l'AZOTE qui est attaqué, et l'une des liaisons N=O doit se rompre pour éviter un azote pentavalent. L'intermédiaire cationique n'est PAS aromatique : il y a un carbone tétraédrique dans le cycle, donc plus de couronne d'orbitales p. C'est ce qui rend cette étape la plus lente de toutes.",
+      "fleches": [
+        "Une liaison π du cycle attaque l'azote.",
+        "Une liaison N=O se replie sur son oxygène : l'azote reste tétravalent."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "nitration_benzene-etape4.svg",
+      "titre": "On rend le proton, et l'aromaticité revient",
+      "legende": "Une base emporte l'hydrogène du carbone tétraédrique. Ses électrons reforment la double liaison, la couronne se referme, et le cycle redevient aromatique. C'est ce gain d'aromaticité qui fait toute la force motrice.",
+      "fleches": [
+        "Une base prend l'hydrogène porté par le carbone tétraédrique.",
+        "Ses électrons reforment la double liaison : le cycle est de nouveau aromatique."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "nitration_benzene-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le nitrobenzène. Le groupe nitro est le plus utile de la chimie aromatique : facile à poser, facile à réduire en amine, et l'amine se transforme ensuite en presque tout par voie diazonium.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "halogenation_benzene": {
+    "1": {
+      "fichier": "halogenation_benzene-etape1.svg",
+      "titre": "L'acide de Lewis tire sur le brome pendant que le cycle attaque",
+      "legende": "Le brome seul ne fait rien : le benzène ne réagit ni avec Br₂ ni avec un peracide, là où le cyclohexène réagit vite avec les deux. Il faut un acide de Lewis pour polariser la liaison Br–Br et rendre un des deux bromes franchement électrophile.",
+      "fleches": [
+        "Une liaison π du cycle attaque un brome.",
+        "Les électrons de la liaison Br–Br partent sur l'aluminium : c'est lui qui emporte le bromure."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "halogenation_benzene-etape2.svg",
+      "titre": "On rend le proton",
+      "legende": "Même fin que pour la nitration, et pour toutes les substitutions électrophiles aromatiques : on perd un proton, et l'aromaticité revient. Remarquez le bilan — le brome a REMPLACÉ un hydrogène. Ce n'est ni une addition cis ni une addition trans : c'est une substitution.",
+      "fleches": [
+        "Une base prend l'hydrogène du carbone tétraédrique.",
+        "Ses électrons reforment la double liaison : le cycle redevient aromatique."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "halogenation_benzene-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le bromobenzène. Comparez avec le cyclohexène, qui donne un dibromure d'addition trans : l'aromaticité change tout. Un alcène sacrifie sa liaison π ; un cycle aromatique la récupère toujours.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "sulfonation_benzene": {
+    "1": {
+      "fichier": "sulfonation_benzene-etape1.svg",
+      "titre": "Le cycle attaque le trioxyde de soufre",
+      "legende": "Ici l'électrophile est SO₃ lui-même, ou SO₃H⁺. On l'obtient en dissolvant du trioxyde de soufre dans l'acide sulfurique — c'est l'oléum. Le soufre est très appauvri par ses trois oxygènes : il suffit à attirer le cycle.",
+      "fleches": [
+        "Une liaison π du cycle attaque le soufre.",
+        "Une liaison S=O se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "sulfonation_benzene-etape2.svg",
+      "titre": "On rend le proton",
+      "legende": "Comme toujours. On obtient le sulfonate, puis l'acide sulfonique après protonation.",
+      "fleches": [
+        "Une base prend l'hydrogène du carbone tétraédrique.",
+        "L'aromaticité revient."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "sulfonation_benzene-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'acide benzènesulfonique. On l'isole sous forme de son sel de sodium cristallisé, en ajoutant simplement un excès de NaCl — et Clayden fait la remarque qui frappe : « peu de composés réagissent avec NaCl ». Particularité de cette réaction, elle est RÉVERSIBLE, ce qui permet d'employer le groupe sulfonate comme bouchon temporaire.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "friedel_crafts_alkylation": {
+    "1": {
+      "fichier": "friedel_crafts_alkylation-etape1.svg",
+      "titre": "L'acide de Lewis arrache le chlorure",
+      "legende": "On a besoin d'un électrophile carboné, c'est-à-dire d'un carbocation. AlCl₃ arrache le chlorure du chlorure de tertiobutyle exactement comme il arrachait un brome à Br₂.",
+      "fleches": [
+        "La liaison carbone–chlore se rompt.",
+        "Et le chlorure va se fixer sur l'aluminium."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "friedel_crafts_alkylation-etape2.svg",
+      "titre": "Le cycle attaque le carbocation",
+      "legende": "Une seule flèche. Clayden le rappelle : n'importe quel nucléophile, même faible, réagit avec un carbocation — les cycles aromatiques ne font pas exception.",
+      "fleches": [
+        "Une liaison π du cycle attaque le carbone chargé positivement."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "friedel_crafts_alkylation-etape3.svg",
+      "titre": "On rend le proton",
+      "legende": "L'aromaticité revient. Le produit est le tertiobutylbenzène.",
+      "fleches": [
+        "Une base prend l'hydrogène du carbone tétraédrique.",
+        "L'aromaticité revient."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "friedel_crafts_alkylation-etape4.svg",
+      "titre": "Les deux pièges de la méthode",
+      "legende": "PREMIER : le produit est plus riche en électrons que le benzène de départ — donc plus réactif. La polysubstitution est presque inévitable. SECOND : la réaction n'est bonne qu'avec des cations STABLES. Avec le chlorure de n-propyle, le produit majoritaire porte un isopropyle : le squelette s'est réarrangé en cours de route.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "friedel_crafts_acylation": {
+    "1": {
+      "fichier": "friedel_crafts_acylation-etape1.svg",
+      "titre": "L'acide de Lewis engendre l'ion acylium",
+      "legende": "Même début que l'alkylation : AlCl₃ arrache le chlorure. Mais ici l'oxygène voisin vient aussitôt combler le carbone — on obtient un ion acylium, où le carbone a son octet complet. C'est un cation stabilisé, et il ne se réarrange pas.",
+      "fleches": [
+        "La liaison carbone–chlore se rompt.",
+        "Le chlorure va sur l'aluminium.",
+        "Et le doublet de l'oxygène forme la triple liaison : l'ion acylium est stabilisé."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "friedel_crafts_acylation-etape2.svg",
+      "titre": "Le cycle attaque l'acylium",
+      "legende": "Le cycle attaque le carbone. La triple liaison se replie sur l'oxygène : on retrouve un carbonyle ordinaire.",
+      "fleches": [
+        "Une liaison π du cycle attaque le carbone de l'acylium.",
+        "La triple liaison se replie sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "friedel_crafts_acylation-etape3.svg",
+      "titre": "On rend le proton",
+      "legende": "L'aromaticité revient : on a une cétone aromatique.",
+      "fleches": [
+        "Une base prend l'hydrogène du carbone tétraédrique.",
+        "L'aromaticité revient."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "friedel_crafts_acylation-etape4.svg",
+      "titre": "Pourquoi elle s'arrête après une fois",
+      "legende": "Le produit porte une cétone, qui ATTIRE les électrons : le cycle est désactivé, moins réactif que le benzène de départ. La réaction s'arrête donc proprement après une seule substitution — c'est exactement ce que l'alkylation ne sait pas faire.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "effets_substituants": {
+    "1": {
+      "fichier": "effets_substituants-etape1.svg",
+      "titre": "L'électrophile attaque en para d'un donneur",
+      "legende": "L'anisole porte un oxygène. Cet oxygène a des doublets libres, et il les prête au cycle : le cycle devient plus riche, donc plus nucléophile, donc plus réactif que le benzène. Mais surtout, il ne les prête pas partout de la même façon.",
+      "fleches": [
+        "Une liaison π attaque l'azote du nitronium.",
+        "Une liaison N=O se replie sur son oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "effets_substituants-etape2.svg",
+      "titre": "La raison : l'oxygène peut boucher le trou",
+      "legende": "Voici la forme de résonance décisive. Quand l'attaque a lieu en PARA, la charge positive peut se retrouver sur le carbone qui porte l'oxygène — et là, le doublet de l'oxygène vient la combler. Tous les atomes ont leur octet. C'est cette forme supplémentaire qui abaisse l'énergie et accélère la réaction.",
+      "fleches": [
+        "Le doublet de l'oxygène forme une double liaison : la charge positive disparaît du carbone."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "effets_substituants-etape3.svg",
+      "titre": "En méta, cette forme n'existe pas",
+      "legende": "Si l'attaque avait lieu en méta, la charge positive ne passerait jamais par le carbone porteur de l'oxygène : pas de stabilisation supplémentaire, pas d'accélération. Voilà pourquoi un donneur oriente en ORTHO et en PARA — non pas parce qu'il pousse le réactif là, mais parce que ces deux chemins-là sont plus rapides.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "effets_substituants-etape4.svg",
+      "titre": "Et pour un attracteur, tout s'inverse",
+      "legende": "Un groupe nitro TIRE les électrons. Le cycle est appauvri, donc désactivé. Et en ortho ou para, une forme de résonance placerait la charge positive juste à côté d'un azote déjà positif : intenable. Il ne reste que la position MÉTA, la moins mauvaise.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

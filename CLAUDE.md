@@ -128,10 +128,15 @@ Trois règles retenues de la première passe :
   (`overflow-wrap: break-word`).
 - **Typographie française** : espace insécable devant `? ! ; : »`, sinon le
   signe se retrouve seul en début de ligne. `npm run valider` le signale.
-  Piège rencontré deux fois : une insécable écrite littéralement dans un
-  heredoc shell peut se dégrader en espace ordinaire, et la normalisation
-  ne remplace alors rien. L'écrire `"\u00a0"`, et vérifier que le compte de
-  remplacements n'est pas nul.
+  Piège rencontré trois fois : une insécable écrite littéralement dans un
+  heredoc shell se dégrade en espace ordinaire, et la normalisation tourne
+  alors sans rien remplacer — le silence passant pour un succès. D'où un
+  outil durable, qui écrit l'insécable `\u00a0`, le vérifie par assertion
+  et affiche le compte :
+
+```bash
+python3 outils/normaliser-typographie.py
+```
 
 La largeur de lecture reste bornée à 860 px, même sur un grand écran :
 au-delà d'une soixantaine de signes par ligne, l'œil perd la ligne

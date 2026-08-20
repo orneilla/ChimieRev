@@ -1258,6 +1258,150 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "nitration_benzene": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "476",
+          "note": "La nitration par le mélange sulfonitrique : l'acide sulfurique, plus fort, protone l'acide nitrique de sorte qu'une molécule d'eau puisse partir ; l'ion nitronium, linéaire et isoélectronique du CO₂, dont l'azote est hybridé sp ; et le fait que c'est l'azote qui est attaqué, une liaison N=O devant se rompre pour éviter un azote pentavalent."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "475",
+          "note": "Le mécanisme général de la substitution électrophile aromatique ; la délocalisation de la charge sur les deux positions ortho et la position para ; l'insistance sur le fait que l'intermédiaire n'est PAS aromatique, un carbone du cycle étant tétraédrique, et le conseil d'écrire explicitement son hydrogène ; le caractère cinétiquement déterminant de cette première étape ; et l'observation directe de l'intermédiaire en milieu superacide avec le contre-ion non nucléophile SbF₆⁻."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "478",
+          "note": "Le profil énergétique de la réaction et le tableau récapitulatif des principales substitutions électrophiles sur le benzène, avec les réactifs et l'électrophile de chacune."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "495",
+          "note": "La versatilité du groupe nitro : réduction aisée en amine par l'étain en HCl dilué ou par hydrogénation sur Pd/C, et le renversement d'orientation qui en résulte — le nitro méta-directeur devenant une amine ortho-para directrice, ce qui donne accès à des amines méta-substituées autrement inaccessibles."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "halogenation_benzene": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "474",
+          "note": "L'expérience fondatrice : dans les mêmes conditions, le cyclohexène réagit vite avec le brome — addition trans — et avec un peracide — époxydation cis, tandis que le benzène ne réagit avec ni l'un ni l'autre. L'ajout d'un acide de Lewis comme AlCl₃ permet la réaction, et le produit n'est ni cis ni trans : le brome a REMPLACÉ un hydrogène. C'est de là que le chapitre tire son nom."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "478",
+          "note": "Le tableau récapitulatif : bromation par Br₂ et un acide de Lewis — AlCl₃, FeBr₃, ou simplement de la limaille de fer."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "sulfonation_benzene": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "477",
+          "note": "La sulfonation par H₂SO₄ ou par SO₃ dans H₂SO₄, l'électrophile étant SO₃ ou SO₃H⁺ ; et l'isolement du produit sous forme de son sel de sodium cristallisé par simple addition d'un excès de NaCl, avec la remarque de l'ouvrage : « peu de composés réagissent avec NaCl »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "486",
+          "note": "La chlorosulfonation par ClSO₂OH : aucun autre acide n'est nécessaire, ce réactif étant si fort qu'il se protone lui-même, et c'est le OH qui part et non le Cl — d'où une chlorosulfonation et non une sulfonation. Environ 40 % d'isomère ortho isolé par distillation sur le toluène, et la synthèse de la saccharine qui s'ensuit : sulfonamide à 89 %, oxydation du méthyle par KMnO₄, cyclisation à 58 %."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "friedel_crafts_alkylation": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "477",
+          "note": "L'alkylation : l'ajout d'un substituant carboné exige un électrophile carboné, c'est-à-dire un carbocation ; le rappel que n'importe quel nucléophile, si faible soit-il, réagit avec un carbocation ; la génération du cation t-butyle à partir du t-butanol et d'un acide, puis la voie usuelle — halogénure tertiaire et AlCl₃."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "478",
+          "note": "La comparaison avec l'acylation : l'acylation est meilleure parce qu'elle n'exige aucune caractéristique structurale particulière, alors que l'alkylation requiert un groupe capable de former un cation ; et l'acylation s'arrête proprement après une substitution, là où l'alkylation donne souvent des mélanges."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "493",
+          "note": "Les deux écueils détaillés : la polysubstitution — le produit portant deux cycles activés, « la poursuite de la réaction est inévitable », 50 % de rendement sur l'exemple donné ; et le réarrangement — le chlorure de n-propyle donnant majoritairement l'isopropylbenzène, l'halogénure primaire ne formant pas facilement de cation et passant par un mécanisme SN2 suivi d'une migration."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "494",
+          "note": "La solution : la réduction d'un produit d'acylation, par l'amalgame de zinc en milieu chlorhydrique par exemple, donne « toujours un n-alkylbenzène, exactement le type de composé qui pose problème en alkylation »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "friedel_crafts_acylation": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "478",
+          "note": "L'acylation de Friedel-Crafts avec les chlorures d'acide et un acide de Lewis, donnant des cétones aromatiques ; sa supériorité sur l'alkylation, tant pour la liberté du groupe R que pour l'arrêt propre après une seule substitution."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "494",
+          "note": "La formation de l'ion acylium détaillée, à partir d'un chlorure d'acyle comme d'un anhydride ; le cas des anhydrides cycliques, qui conduisent à des céto-acides ; et la réduction du produit d'acylation en n-alkylbenzène par l'amalgame de zinc en milieu chlorhydrique."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "effets_substituants": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "479–485",
+          "note": "La substitution électrophile sur les phénols, puis l'effet plus fort encore d'un doublet azoté, et le cas des alkylbenzènes qui réagissent eux aussi en ortho et para : trois familles de donneurs, une même explication par la forme de résonance où la charge positive tombe sur le carbone porteur du substituant. Et la nécessité d'« apprivoiser » une aniline, trop réactive, avant de s'en servir."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "486–488",
+          "note": "Les substituants électroattracteurs et l'orientation méta : l'analyse des formes de résonance montrant qu'en ortho et para la charge positive viendrait se placer sur le carbone porteur du groupe attracteur, ce qui est particulièrement défavorable."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "489–490",
+          "note": "Le cas mixte des halogènes, qui manifestent à la fois un retrait inductif — d'où la désactivation — et une donation par leurs doublets — d'où l'orientation ortho et para."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "491–492",
+          "note": "La compétition entre plusieurs substituants : considérer les effets électroniques d'abord, les effets stériques ensuite, et retenir qu'en général un effet activant l'emporte sur un effet désactivant. Exemple détaillé du 3,4-diméthoxybenzaldéhyde, où trois groupes orientent vers des positions différentes."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

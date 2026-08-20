@@ -341,32 +341,32 @@
         {
           "nom": "Nitration du benzène",
           "niveau": "L2",
-          "id": null
+          "id": "nitration_benzene"
         },
         {
           "nom": "Halogénation du benzène",
           "niveau": "L2",
-          "id": null
+          "id": "halogenation_benzene"
         },
         {
           "nom": "Sulfonation du benzène",
           "niveau": "L3",
-          "id": null
+          "id": "sulfonation_benzene"
         },
         {
           "nom": "Alkylation de Friedel-Crafts",
           "niveau": "L2",
-          "id": null
+          "id": "friedel_crafts_alkylation"
         },
         {
           "nom": "Acylation de Friedel-Crafts",
           "niveau": "L2",
-          "id": null
+          "id": "friedel_crafts_acylation"
         },
         {
           "nom": "Effets des substituants et régiosélectivité",
           "niveau": "L2",
-          "id": null
+          "id": "effets_substituants"
         },
         {
           "nom": "Substitution nucléophile aromatique (SNAr)",

@@ -227,6 +227,30 @@
     "substrat": "amides_weinreb-substrat.svg",
     "produit": "amides_weinreb-produit.svg"
   },
+  "nitration_benzene": {
+    "substrat": "nitration_benzene-substrat.svg",
+    "produit": "nitration_benzene-produit.svg"
+  },
+  "halogenation_benzene": {
+    "substrat": "halogenation_benzene-substrat.svg",
+    "produit": "halogenation_benzene-produit.svg"
+  },
+  "sulfonation_benzene": {
+    "substrat": "sulfonation_benzene-substrat.svg",
+    "produit": "sulfonation_benzene-produit.svg"
+  },
+  "friedel_crafts_alkylation": {
+    "substrat": "friedel_crafts_alkylation-substrat.svg",
+    "produit": "friedel_crafts_alkylation-produit.svg"
+  },
+  "friedel_crafts_acylation": {
+    "substrat": "friedel_crafts_acylation-substrat.svg",
+    "produit": "friedel_crafts_acylation-produit.svg"
+  },
+  "effets_substituants": {
+    "substrat": "effets_substituants-substrat.svg",
+    "produit": "effets_substituants-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -375,6 +399,15 @@
   },
   "anhydride_acetique": {
     "molecule": "reactif-anhydride_acetique.svg"
+  },
+  "hno3": {
+    "molecule": "reactif-hno3.svg"
+  },
+  "alcl3": {
+    "molecule": "reactif-alcl3.svg"
+  },
+  "so3": {
+    "molecule": "reactif-so3.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

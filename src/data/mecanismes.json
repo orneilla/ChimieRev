@@ -6027,5 +6027,684 @@
         "valide": false
       }
     ]
+  },
+  "nitration_benzene": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide sulfurique protone l'acide nitrique",
+        "smiles": "[H]O[N+](=O)[O-].OS(=O)(=O)O[H]",
+        "legende": "L'acide sulfurique est le plus fort des deux : c'est lui qui donne le proton. On protone l'acide nitrique sur l'oxygène de son hydroxyle, celui qui va devoir partir.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                10
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'acide nitrique va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.35,
+            "libelle": "L'hydrogénosulfate récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "[H][O+]([H])[N+](=O)[O-].OS(=O)(=O)[O-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau part : voici l'ion nitronium",
+        "smiles": "[H][O+]([H])[N+](=O)[O-]",
+        "legende": "L'eau s'en va, et l'oxygène chargé négativement vient aussitôt combler l'azote. On obtient NO₂⁺, l'ion nitronium — une molécule LINÉAIRE, isoélectronique du dioxyde de carbone, avec un azote hybridé sp au centre.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                3,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.4,
+            "libelle": "La liaison azote–oxygène se rompt : l'eau s'en va."
+          },
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et le doublet de l'oxygène forme la seconde double liaison N=O."
+          }
+        ],
+        "produit_attendu": "O=[N+]=O.[H]O[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le benzène attaque, et perd son aromaticité",
+        "smiles": "C1=CC=CC=C1.O=[N+]=O",
+        "legende": "C'est l'AZOTE qui est attaqué, et l'une des liaisons N=O doit se rompre pour éviter un azote pentavalent. L'intermédiaire cationique n'est PAS aromatique : il y a un carbone tétraédrique dans le cycle, donc plus de couronne d'orbitales p. C'est ce qui rend cette étape la plus lente de toutes.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une liaison π du cycle attaque l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "Une liaison N=O se replie sur son oxygène : l'azote reste tétravalent."
+          }
+        ],
+        "produit_attendu": "[H]C1([N+](=O)[O-])[CH+]C=CC=C1",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "On rend le proton, et l'aromaticité revient",
+        "smiles": "[H]C1([N+](=O)[O-])[CH+]C=CC=C1.O",
+        "legende": "Une base emporte l'hydrogène du carbone tétraédrique. Ses électrons reforment la double liaison, la couronne se referme, et le cycle redevient aromatique. C'est ce gain d'aromaticité qui fait toute la force motrice.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une base prend l'hydrogène porté par le carbone tétraédrique."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Ses électrons reforment la double liaison : le cycle est de nouveau aromatique."
+          }
+        ],
+        "produit_attendu": "[O-][N+](=O)c1ccccc1.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "[O-][N+](=O)c1ccccc1",
+        "legende": "Le nitrobenzène. Le groupe nitro est le plus utile de la chimie aromatique : facile à poser, facile à réduire en amine, et l'amine se transforme ensuite en presque tout par voie diazonium.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "halogenation_benzene": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide de Lewis tire sur le brome pendant que le cycle attaque",
+        "smiles": "C1=CC=CC=C1.BrBr.Cl[Al](Cl)Cl",
+        "legende": "Le brome seul ne fait rien : le benzène ne réagit ni avec Br₂ ni avec un peracide, là où le cyclohexène réagit vite avec les deux. Il faut un acide de Lewis pour polariser la liaison Br–Br et rendre un des deux bromes franchement électrophile.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une liaison π du cycle attaque un brome."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                9
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Les électrons de la liaison Br–Br partent sur l'aluminium : c'est lui qui emporte le bromure."
+          }
+        ],
+        "produit_attendu": "[H]C1(Br)[CH+]C=CC=C1.Cl[Al-](Cl)(Cl)Br",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "On rend le proton",
+        "smiles": "[H]C1(Br)[CH+]C=CC=C1.O",
+        "legende": "Même fin que pour la nitration, et pour toutes les substitutions électrophiles aromatiques : on perd un proton, et l'aromaticité revient. Remarquez le bilan — le brome a REMPLACÉ un hydrogène. Ce n'est ni une addition cis ni une addition trans : c'est une substitution.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une base prend l'hydrogène du carbone tétraédrique."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Ses électrons reforment la double liaison : le cycle redevient aromatique."
+          }
+        ],
+        "produit_attendu": "Brc1ccccc1.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "Brc1ccccc1",
+        "legende": "Le bromobenzène. Comparez avec le cyclohexène, qui donne un dibromure d'addition trans : l'aromaticité change tout. Un alcène sacrifie sa liaison π ; un cycle aromatique la récupère toujours.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "sulfonation_benzene": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le cycle attaque le trioxyde de soufre",
+        "smiles": "C1=CC=CC=C1.O=S(=O)=O",
+        "legende": "Ici l'électrophile est SO₃ lui-même, ou SO₃H⁺. On l'obtient en dissolvant du trioxyde de soufre dans l'acide sulfurique — c'est l'oléum. Le soufre est très appauvri par ses trois oxygènes : il suffit à attirer le cycle.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une liaison π du cycle attaque le soufre."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "Une liaison S=O se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C1(S(=O)(=O)[O-])[CH+]C=CC=C1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "On rend le proton",
+        "smiles": "[H]C1(S(=O)(=O)[O-])[CH+]C=CC=C1.O",
+        "legende": "Comme toujours. On obtient le sulfonate, puis l'acide sulfonique après protonation.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une base prend l'hydrogène du carbone tétraédrique."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "L'aromaticité revient."
+          }
+        ],
+        "produit_attendu": "[O-]S(=O)(=O)c1ccccc1.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "OS(=O)(=O)c1ccccc1",
+        "legende": "L'acide benzènesulfonique. On l'isole sous forme de son sel de sodium cristallisé, en ajoutant simplement un excès de NaCl — et Clayden fait la remarque qui frappe : « peu de composés réagissent avec NaCl ». Particularité de cette réaction, elle est RÉVERSIBLE, ce qui permet d'employer le groupe sulfonate comme bouchon temporaire.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "friedel_crafts_alkylation": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide de Lewis arrache le chlorure",
+        "smiles": "CC(C)(C)Cl.Cl[Al](Cl)Cl",
+        "legende": "On a besoin d'un électrophile carboné, c'est-à-dire d'un carbocation. AlCl₃ arrache le chlorure du chlorure de tertiobutyle exactement comme il arrachait un brome à Br₂.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.3,
+            "libelle": "La liaison carbone–chlore se rompt."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Et le chlorure va se fixer sur l'aluminium."
+          }
+        ],
+        "produit_attendu": "C[C+](C)C.Cl[Al-](Cl)(Cl)Cl",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le cycle attaque le carbocation",
+        "smiles": "C1=CC=CC=C1.C[C+](C)C",
+        "legende": "Une seule flèche. Clayden le rappelle : n'importe quel nucléophile, même faible, réagit avec un carbocation — les cycles aromatiques ne font pas exception.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une liaison π du cycle attaque le carbone chargé positivement."
+          }
+        ],
+        "produit_attendu": "[H]C1(C(C)(C)C)[CH+]C=CC=C1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "On rend le proton",
+        "smiles": "[H]C1(C(C)(C)C)[CH+]C=CC=C1.O",
+        "legende": "L'aromaticité revient. Le produit est le tertiobutylbenzène.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une base prend l'hydrogène du carbone tétraédrique."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "L'aromaticité revient."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)c1ccccc1.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Les deux pièges de la méthode",
+        "smiles": "CC(C)(C)c1ccccc1",
+        "legende": "PREMIER : le produit est plus riche en électrons que le benzène de départ — donc plus réactif. La polysubstitution est presque inévitable. SECOND : la réaction n'est bonne qu'avec des cations STABLES. Avec le chlorure de n-propyle, le produit majoritaire porte un isopropyle : le squelette s'est réarrangé en cours de route.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "friedel_crafts_acylation": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide de Lewis engendre l'ion acylium",
+        "smiles": "CC(=O)Cl.Cl[Al](Cl)Cl",
+        "legende": "Même début que l'alkylation : AlCl₃ arrache le chlorure. Mais ici l'oxygène voisin vient aussitôt combler le carbone — on obtient un ion acylium, où le carbone a son octet complet. C'est un cation stabilisé, et il ne se réarrange pas.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.3,
+            "libelle": "La liaison carbone–chlore se rompt."
+          },
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le chlorure va sur l'aluminium."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Et le doublet de l'oxygène forme la triple liaison : l'ion acylium est stabilisé."
+          }
+        ],
+        "produit_attendu": "CC#[O+].Cl[Al-](Cl)(Cl)Cl",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le cycle attaque l'acylium",
+        "smiles": "C1=CC=CC=C1.CC#[O+]",
+        "legende": "Le cycle attaque le carbone. La triple liaison se replie sur l'oxygène : on retrouve un carbonyle ordinaire.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une liaison π du cycle attaque le carbone de l'acylium."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "La triple liaison se replie sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[H]C1(C(C)=O)[CH+]C=CC=C1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "On rend le proton",
+        "smiles": "[H]C1(C(C)=O)[CH+]C=CC=C1.O",
+        "legende": "L'aromaticité revient : on a une cétone aromatique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une base prend l'hydrogène du carbone tétraédrique."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "L'aromaticité revient."
+          }
+        ],
+        "produit_attendu": "CC(=O)c1ccccc1.[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Pourquoi elle s'arrête après une fois",
+        "smiles": "CC(=O)c1ccccc1",
+        "legende": "Le produit porte une cétone, qui ATTIRE les électrons : le cycle est désactivé, moins réactif que le benzène de départ. La réaction s'arrête donc proprement après une seule substitution — c'est exactement ce que l'alkylation ne sait pas faire.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "effets_substituants": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'électrophile attaque en para d'un donneur",
+        "smiles": "COC1=CC=CC=C1.O=[N+]=O",
+        "legende": "L'anisole porte un oxygène. Cet oxygène a des doublets libres, et il les prête au cycle : le cycle devient plus riche, donc plus nucléophile, donc plus réactif que le benzène. Mais surtout, il ne les prête pas partout de la même façon.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une liaison π attaque l'azote du nitronium."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": 0.35,
+            "libelle": "Une liaison N=O se replie sur son oxygène."
+          }
+        ],
+        "produit_attendu": "COC1=C[CH+]C([N+](=O)[O-])C=C1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "La raison : l'oxygène peut boucher le trou",
+        "smiles": "CO[C+]1C=CC([N+](=O)[O-])C=C1",
+        "legende": "Voici la forme de résonance décisive. Quand l'attaque a lieu en PARA, la charge positive peut se retrouver sur le carbone qui porte l'oxygène — et là, le doublet de l'oxygène vient la combler. Tous les atomes ont leur octet. C'est cette forme supplémentaire qui abaisse l'énergie et accélère la réaction.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Le doublet de l'oxygène forme une double liaison : la charge positive disparaît du carbone."
+          }
+        ],
+        "produit_attendu": "C[O+]=C1C=CC([N+](=O)[O-])C=C1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "En méta, cette forme n'existe pas",
+        "smiles": "COC1=CC=CC=C1",
+        "legende": "Si l'attaque avait lieu en méta, la charge positive ne passerait jamais par le carbone porteur de l'oxygène : pas de stabilisation supplémentaire, pas d'accélération. Voilà pourquoi un donneur oriente en ORTHO et en PARA — non pas parce qu'il pousse le réactif là, mais parce que ces deux chemins-là sont plus rapides.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Et pour un attracteur, tout s'inverse",
+        "smiles": "[O-][N+](=O)c1ccccc1",
+        "legende": "Un groupe nitro TIRE les électrons. Le cycle est appauvri, donc désactivé. Et en ortho ou para, une forme de résonance placerait la charge positive juste à côté d'un azote déjà positif : intenable. Il ne reste que la position MÉTA, la moins mauvaise.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

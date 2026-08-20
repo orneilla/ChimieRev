@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 58,
-  "verifiees": 55,
+  "redigees": 64,
+  "verifiees": 61,
   "relues": 0,
   "familles": [
     {
@@ -475,52 +475,52 @@
       "famille": "Aromatique",
       "bloc": "Socle organique",
       "total": 11,
-      "absente": 11,
+      "absente": 5,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 6,
       "relue": 0,
       "reactions": [
         {
           "nom": "Nitration du benzène",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "nitration_benzene",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Halogénation du benzène",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "halogenation_benzene",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Sulfonation du benzène",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "sulfonation_benzene",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Alkylation de Friedel-Crafts",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "friedel_crafts_alkylation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Acylation de Friedel-Crafts",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "friedel_crafts_acylation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Effets des substituants et régiosélectivité",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "effets_substituants",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Substitution nucléophile aromatique (SNAr)",

@@ -994,5 +994,73 @@
     ],
     "explication_reference": "Anhydride symétrique employé comme réactif d'acylation courant. Sa réactivité, intermédiaire entre celle des chlorures d'acyle et celle des esters, lui permet de réagir sans catalyse avec les amines en quelques heures à température ambiante, tandis que les alcools neutres exigent l'assistance d'une base, fût-elle catalytique. L'oxygène central partageant son doublet entre deux groupes carbonyle, chacun est moins enrichi que dans un ester : d'où l'électrophilie supérieure (Clayden p. 205-206).",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ poser un groupe acétyle sur un alcool ou sur une amine.\n\nPOURQUOI ON L'EMPLOIE PLUTÔT QUE LE CHLORURE D'ACÉTYLE\n\nParce qu'il est plus tranquille.\n\nLe chlorure d'acétyle fume à l'air, réagit avec l'humidité, et attaque parfois ce qu'on voulait garder.\n\nL'anhydride acétique se conserve, se pèse, se pipette. Et il est encore assez réactif pour travailler sans catalyseur avec une amine.\n\nLe bon réactif n'est presque jamais le plus puissant : c'est celui qui est juste assez puissant.\n\nPOURQUOI IL EST PLUS RÉACTIF QU'UN ESTER\n\nRegardez l'oxygène du milieu. Il a un doublet à prêter, et deux carbonyles qui le réclament.\n\nIl le partage. Chacun n'en reçoit que la moitié.\n\nDans un ester, le carbonyle a son oxygène pour lui tout seul : il est mieux nourri, donc moins affamé, donc moins réactif.\n\nAVEC UN ALCOOL, AJOUTEZ UNE BASE\n\nUn alcool neutre met un temps considérable à réagir. Son alcoolate, quelques secondes à 0 °C.\n\nIl n'est pas nécessaire de tout déprotoner : une trace de pyridine ou de DMAP suffit à entretenir la petite fraction d'alcoolate qui fait tout le travail."
+  },
+  {
+    "id": "hno3",
+    "nom": "HNO₃",
+    "nom_complet": "acide nitrique",
+    "SMILES": "O[N+](=O)[O-]",
+    "role": "Il fournit l'azote du groupe nitro, mais seulement s'il est activé",
+    "anatomie_annotations": [
+      {
+        "partie": "l'hydroxyle",
+        "role": "C'est lui qu'on protone, et c'est lui qui part sous forme d'eau. Sans cela, rien : HNO₃ seul n'est pas assez électrophile."
+      },
+      {
+        "partie": "l'azote chargé positivement",
+        "role": "Une fois l'eau partie, il devient le centre de l'ion nitronium NO₂⁺ — une molécule LINÉAIRE, isoélectronique du CO₂."
+      }
+    ],
+    "reactions_liees": [
+      "nitration_benzene"
+    ],
+    "explication_reference": "Source d'azote des nitrations aromatiques. Employé seul, il est insuffisamment électrophile : l'acide sulfurique, plus fort, le protone sur son hydroxyle, dont le départ sous forme d'eau engendre l'ion nitronium NO₂⁺. Cette espèce linéaire, isoélectronique du dioxyde de carbone et dont l'azote est hybridé sp, est l'électrophile effectif de la réaction (Clayden p. 476).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ poser un groupe NO₂ sur un cycle aromatique.\n\nPOURQUOI IL NE SUFFIT PAS\n\nParce qu'un cycle aromatique est un nucléophile médiocre, et que l'acide nitrique est un électrophile médiocre.\n\nIl faut donc l'activer, et c'est le rôle de l'acide sulfurique — plus fort que lui, donc capable de le protoner.\n\nCE QU'IL DEVIENT\n\nOn le protone sur son OH. L'eau s'en va. L'oxygène restant vient combler l'azote.\n\nRésultat : NO₂⁺, l'ion nitronium.\n\nUne remarque de structure qui aide à s'en souvenir : cette molécule est LINÉAIRE, et elle a exactement le même nombre d'électrons que le dioxyde de carbone. Même forme, même géométrie.\n\nÀ MANIPULER AVEC RESPECT\n\nL'acide nitrique concentré attaque la peau et laisse des taches jaunes indélébiles — c'est la réaction xanthoprotéique, une nitration de vos propres protéines aromatiques.\n\nEt une nitration mal refroidie s'emballe : c'est ainsi qu'on fabrique les explosifs."
+  },
+  {
+    "id": "alcl3",
+    "nom": "AlCl₃",
+    "nom_complet": "trichlorure d'aluminium",
+    "SMILES": "Cl[Al](Cl)Cl",
+    "role": "Un acide de Lewis qui arrache les halogénures",
+    "anatomie_annotations": [
+      {
+        "partie": "l'orbitale vide de l'aluminium",
+        "role": "L'aluminium n'a que six électrons autour de lui : il lui manque une paire. C'est ce trou qui fait de lui un acide de Lewis, et qui lui permet d'attirer un halogénure."
+      },
+      {
+        "partie": "les trois chlores",
+        "role": "Ils appauvrissent encore l'aluminium par effet inductif : le trou n'en est que plus avide."
+      }
+    ],
+    "reactions_liees": [
+      "halogenation_benzene",
+      "friedel_crafts_alkylation",
+      "friedel_crafts_acylation"
+    ],
+    "explication_reference": "Acide de Lewis employé pour engendrer les électrophiles des substitutions électrophiles aromatiques. Il polarise la liaison halogène–halogène du dibrome, arrache le nucléofuge d'un halogénure d'alkyle pour former un carbocation, ou d'un chlorure d'acyle pour former un ion acylium. Dans l'acylation, il se complexe à la cétone produite et se trouve immobilisé : un équivalent au moins est alors nécessaire, alors qu'une quantité catalytique suffit dans les autres cas (Clayden p. 474, 477-478).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ fabriquer des électrophiles que la nature ne fournit pas toute seule.\n\nCE QU'EST UN ACIDE DE LEWIS\n\nUn acide ordinaire donne un proton. Un acide de Lewis, lui, ACCEPTE une paire d'électrons.\n\nRegardez l'aluminium : il forme trois liaisons, donc il n'a que six électrons autour de lui. Il lui en manque deux pour être tranquille.\n\nCe trou fait de lui un aspirateur à doublets.\n\nCE QU'IL FAIT, TROIS FOIS\n\nAvec Br₂ : il tire sur un brome, ce qui rend l'autre franchement électrophile. Le cycle peut alors l'attaquer.\n\nAvec un chlorure d'alkyle : il arrache le chlorure et laisse un carbocation.\n\nAvec un chlorure d'acyle : pareil, mais le cation obtenu est stabilisé par l'oxygène voisin — c'est l'ion acylium.\n\nUN PIÈGE PRATIQUE\n\nDans une acylation, il en faut AU MOINS un équivalent, et non une trace.\n\nPourquoi ? Parce qu'il se colle à la cétone qu'on vient de fabriquer et n'en ressort plus. Il est consommé.\n\nDans une alkylation ou une bromation, en revanche, une quantité catalytique suffit.\n\nÀ MANIPULER AU SEC\n\nIl réagit violemment avec l'eau, en dégageant du HCl. On le pèse en boîte à gants, ou du moins très vite, et jamais dans une verrerie humide."
+  },
+  {
+    "id": "so3",
+    "nom": "SO₃",
+    "nom_complet": "trioxyde de soufre, dans l'acide sulfurique (oléum)",
+    "SMILES": "O=S(=O)=O",
+    "role": "Il pose un groupe sulfonate — et sait le reprendre",
+    "anatomie_annotations": [
+      {
+        "partie": "le soufre",
+        "role": "Trois oxygènes lui tirent dessus en même temps : il est complètement appauvri, et donc franchement électrophile sans aucun catalyseur."
+      },
+      {
+        "partie": "les liaisons S=O",
+        "role": "L'une d'elles se replie sur son oxygène quand le cycle attaque, exactement comme pour l'ion nitronium."
+      }
+    ],
+    "reactions_liees": [
+      "sulfonation_benzene"
+    ],
+    "explication_reference": "Électrophile des sulfonations aromatiques, employé en solution dans l'acide sulfurique concentré — l'oléum — où il coexiste avec son acide conjugué SO₃H⁺. L'électroattraction exercée par trois atomes d'oxygène suffit à rendre le soufre électrophile sans catalyse. La réaction qu'il engendre est réversible, ce qui permet l'emploi du groupe sulfonique comme substituant de blocage temporaire (Clayden p. 477).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ poser un groupe sulfonate sur un cycle aromatique — et à le reprendre si on le lui demande.\n\nPOURQUOI IL N'A BESOIN D'AUCUN CATALYSEUR\n\nRegardez son soufre : trois oxygènes, tous très électronégatifs, tirent ses électrons en même temps.\n\nIl est vidé. Aucun acide de Lewis n'est nécessaire pour le rendre attaquable : il l'est déjà.\n\nSA PARTICULARITÉ, QUI EST UNE QUALITÉ\n\nContrairement à la nitration ou à la bromation, la sulfonation est RÉVERSIBLE.\n\nOn chauffe dans l'eau acide, et le groupe s'en va.\n\nÇa peut sembler un défaut. C'est en réalité un outil : on pose un sulfonate pour boucher une position, on fait ce qu'on veut ailleurs, puis on le retire.\n\nUn bouchon temporaire — pour une POSITION, non pour une fonction.\n\nCE QU'ON EN FAIT DANS L'INDUSTRIE\n\nUn sulfonate est chargé, donc il rend une molécule soluble dans l'eau.\n\nC'est pour cela qu'on en trouve dans les détergents, les colorants textiles et les sulfamides.\n\nÀ MANIPULER SOUS HOTTE\n\nL'oléum fume à l'air et réagit avec l'eau de façon extrêmement violente."
   }
 ]
