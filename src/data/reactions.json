@@ -651,5 +651,197 @@
     "explication_reference": "Élimination d'un β-hydroxysilane conduisant à un alcène avec une régiosélectivité totale. En conditions acides, la protonation du groupe hydroxyle engendre un nucléofuge convenable ; l'attaque d'un nucléophile dur — fluorure ou alcoolate — sur le silicium déclenche alors une élimination concertée où les électrons de la liaison carbone–silicium forment la liaison π tandis que l'eau se sépare. Le groupe triméthylsilyle joue ainsi le rôle qu'un proton tiendrait dans une élimination classique, à cette différence près qu'il n'est présent qu'en une seule position : la double liaison ne peut se former qu'entre le carbone porteur de l'hydroxyle et le carbone porteur du silicium, d'où l'absence de tout mélange de régioisomères. Cette caractéristique rend la méthode particulièrement adaptée à la construction de doubles liaisons terminales ou exocycliques, difficilement accessibles par déshydratation. Le β-hydroxysilane requis est aisément obtenu par addition sur un composé carbonylé de l'organomagnésien dérivé du bromométhyltriméthylsilane.",
     "explication_comprendre": "POURQUOI ne pas simplement déshydrater l'alcool ?\n\nParce que le résultat serait un mélange. Un alcool a souvent plusieurs voisins porteurs d'hydrogènes, et la double liaison peut se former de plusieurs côtés. On obtient un peu de tout, et il faut ensuite séparer.\n\nL'IDÉE, qui est élégante\n\nEt si, au lieu de laisser la molécule choisir, on décidait à l'avance ?\n\nPour cela, on installe un marqueur à l'endroit exact où l'on veut la double liaison : un atome de silicium. Ensuite, on déclenche la réaction avec quelque chose qui ne s'intéresse QU'AU SILICIUM. Comme il n'y a qu'un seul silicium, il n'y a qu'un seul produit possible.\n\nLE SILICIUM SE COMPORTE COMME UN PROTON GÉANT\n\nDans une élimination ordinaire, une base retire un hydrogène du carbone voisin. Ici, c'est exactement le même schéma — sauf que ce qu'on retire n'est pas un hydrogène mais un groupe de silicium.\n\nEt qui vient le chercher ? L'ion fluorure. La liaison entre le silicium et le fluor est parmi les plus solides qui existent : dès que le fluorure aperçoit un silicium, il s'y accroche et l'emporte.\n\nCE QUI SE PASSE, DANS L'ORDRE\n\nD'abord on donne un proton à l'alcool, pour que l'oxygène soit prêt à partir — sans cela, il resterait accroché.\n\nEnsuite tout se produit d'un coup : le fluorure prend le silicium, les électrons libérés forment la double liaison, l'eau s'en va. Un seul mouvement.\n\nÀ QUOI ÇA SERT VRAIMENT\n\nÀ fabriquer les doubles liaisons difficiles : celles qui se trouvent en bout de chaîne, ou qui pointent hors d'un cycle. Ce sont précisément celles que les méthodes ordinaires ratent, parce qu'elles préfèrent toujours l'alcène le mieux entouré.\n\nClayden montre cette réaction sur un fragment d'une synthèse du Taxol, un médicament anticancéreux. Sans le silicium, la double liaison se serait mise ailleurs.",
     "niveau_difficulte": 8
+  },
+  {
+    "id": "addition_hx",
+    "nom": "Addition de HBr sur un alcène",
+    "famille": "Additions électrophiles",
+    "symbole": "HBr",
+    "substrat_SMILES": "CC(=C)C",
+    "produit_SMILES": "CC(C)(C)Br",
+    "reactifs": [
+      "HBr"
+    ],
+    "solvant": "Sans solvant particulier, à froid",
+    "mecanisme_etapes": [
+      "L'alcène attaque le proton de HBr. Un proton n'a pas de doublet libre : il ne peut pas former de pont à trois atomes comme le fait le brome. Le produit de cette étape est donc un vrai carbocation.",
+      "Le bromure libéré à l'instant vient se lier au carbocation. Bilan : HBr s'est additionné de part et d'autre de la double liaison."
+    ],
+    "selectivite": "Le brome atterrit sur le carbone le PLUS substitué (Clayden p. 433). Ce n'est pas une règle à retenir mais une conséquence : des deux protonations possibles, une seule donne un carbocation supportable.\n\nSUR L'ISOBUTÈNE, protoner le carbone terminal donne un carbocation tertiaire, épaulé de trois côtés ; protoner l'autre donnerait un carbocation primaire, qui ne se forme pas (p. 433).\n\nSUR LE STYRÈNE, même raisonnement : le carbocation benzylique, dont la charge se répartit dans le cycle, l'emporte sans discussion.\n\nCE QUE CLAYDEN EN DIT : il existe une formulation traditionnelle, la règle de Markovnikov — « l'hydrogène va sur le carbone qui en portait déjà le plus ». L'ouvrage déconseille de l'apprendre : elle décrit le résultat sans en donner la raison, et elle tombe en défaut dès que le substrat sort du cas ordinaire (p. 434).",
+    "pieges": [
+      "Réciter la règle de Markovnikov au lieu de raisonner sur le carbocation : la règle échoue dès qu'un groupe attracteur change la donne, le raisonnement non.",
+      "Dessiner un ion ponté comme pour le brome : un proton n'a pas de doublet libre, donc pas de pont possible. Ici l'intermédiaire est un vrai carbocation (Clayden p. 433).",
+      "Oublier que le carbocation peut se réarranger avant d'être capturé, ce qui donne parfois un produit inattendu.",
+      "Confondre avec l'addition radicalaire de HBr en présence de peroxydes, qui donne l'autre régiochimie par un mécanisme entièrement différent."
+    ],
+    "explication_reference": "Addition électrophile d'un halogénure d'hydrogène sur une liaison double, procédant en deux étapes. La protonation de l'alcène engendre un carbocation — et non un ion ponté, le proton ne disposant d'aucun doublet non liant susceptible de fermer un cycle à trois centres. L'orientation de la protonation est dictée par la stabilité relative des deux carbocations envisageables : la voie conduisant au cation le plus substitué, donc le mieux stabilisé par hyperconjugaison et par effet inductif donneur des groupes alkyle, est seule empruntée. L'ion halogénure engendré à cette étape capture ensuite le carbocation. Le bilan place l'halogène sur le carbone le plus substitué, comportement traditionnellement énoncé sous la forme de la règle de Markovnikov, dont Clayden déconseille l'apprentissage au profit du raisonnement mécanistique.",
+    "explication_comprendre": "POURQUOI le brome se met-il d'un côté plutôt que de l'autre ?\n\nC'est LA question de tout ce chapitre, et la réponse est plus simple qu'on ne le croit.\n\nCE QUI SE PASSE D'ABORD\n\nUne double liaison, c'est une zone riche en électrons — une réserve. Face à elle, un proton, qui n'a aucun électron et n'attend que ça. La double liaison lui en offre deux et se lie à lui.\n\nMais un proton ne peut se fixer que sur UN des deux carbones. Et selon celui qu'on choisit, c'est l'AUTRE qui se retrouve en manque d'électrons.\n\nLE CHOIX SE FAIT LÀ\n\nDeux possibilités, donc deux carbones en manque possibles. Or ils ne se valent pas du tout.\n\nUn carbone entouré de trois voisins carbonés supporte le manque : ses voisins lui prêtent un peu de leur densité électronique. Un carbone en bout de chaîne, nu, ne le supporte pas.\n\nLa molécule emprunte donc la seule route praticable : celle qui met le manque sur le carbone bien entouré. Le proton va forcément sur l'autre.\n\nET ENSUITE ?\n\nLe bromure, libéré à l'instant, vient combler le manque. Il se retrouve donc sur le carbone le plus entouré — sans que personne ait eu à en décider.\n\nCE QU'IL NE FAUT PAS FAIRE\n\nOn t'apprendra peut-être une formule : « l'hydrogène va là où il y a déjà le plus d'hydrogènes ». Elle donne la bonne réponse dans les cas ordinaires. Elle ne dit pas pourquoi, et elle se trompe dès que le cas sort de l'ordinaire.\n\nLe raisonnement sur le carbone en manque, lui, ne se trompe jamais. C'est celui-là qu'il faut avoir.",
+    "niveau_difficulte": 3
+  },
+  {
+    "id": "halogenation_alcene",
+    "nom": "Halogénation d'un alcène : l'ion ponté",
+    "famille": "Additions électrophiles",
+    "symbole": "Br₂",
+    "substrat_SMILES": "C1=CCCCC1",
+    "produit_SMILES": "BrC1CCCCC1Br",
+    "reactifs": [
+      "Br₂"
+    ],
+    "solvant": "Dichlorométhane ou tétrachlorure de carbone, à froid",
+    "mecanisme_etapes": [
+      "L'alcène attaque la liaison Br–Br. Le brome, lui, possède des doublets libres : il peut donc se lier aux DEUX carbones à la fois et fermer un cycle à trois atomes. C'est l'ion bromonium, et ce n'est pas une commodité de dessin — on l'a caractérisé par diffraction des rayons X sur des cas très encombrés.",
+      "Le bromure libéré attaque alors l'un des deux carbones du cycle, exactement comme il attaquerait un époxyde : par l'arrière, du côté opposé au pont. C'est ce que le pont impose, et c'est là que se joue la stéréochimie."
+    ],
+    "selectivite": "STÉRÉOSPÉCIFIQUE ET ANTI. Le pont bloque une face entière de la molécule : le bromure ne peut attaquer que par l'autre côté. Les deux bromes se retrouvent donc de part et d'autre du plan — jamais du même côté (Clayden p. 439).\n\nC'est une preuve expérimentale directe de l'existence de l'ion ponté : une addition passant par un carbocation ouvert donnerait un mélange, puisque le carbocation est plan et attaquable des deux faces.\n\nL'ATTAQUE DU BROMURE est une substitution bimoléculaire ordinaire : l'orbitale occupée du bromure recouvre l'orbitale vide d'une des deux liaisons C–Br du cycle tendu, en s'alignant à l'opposé du groupe partant (Clayden p. 429).\n\nLA VITESSE augmente considérablement avec le nombre de substituants de l'alcène — d'un facteur près de deux millions entre l'éthylène et le tétraméthyléthylène (p. 437). L'étape lente est l'attaque du brome, et un alcène riche en électrons attaque mieux.",
+    "pieges": [
+      "Dessiner un carbocation ouvert : la stéréochimie observée l'exclut. Le brome ferme un pont, contrairement au proton.",
+      "Croire que l'ion bromonium n'est qu'une commodité d'écriture : sur des alcènes très encombrés il est assez stable pour être caractérisé par diffraction des rayons X (Clayden p. 428).",
+      "Écrire une seule flèche depuis la double liaison vers Br–Br : une paire d'électrons ne peut pas former deux liaisons. Clayden signale lui-même la difficulté et propose la version qui part d'un doublet du brome (p. 428).",
+      "Oublier que le bromure peut attaquer le brome positif au lieu du carbone : cela ne fait que régénérer l'alcène et le dibrome. La première étape est réversible."
+    ],
+    "explication_reference": "Addition électrophile du dibrome sur une liaison double, procédant par un intermédiaire ponté. L'orbitale π occupée de l'alcène interagit avec l'orbitale σ* vacante de la liaison Br–Br selon une approche colinéaire, engendrant l'ion bromonium — cycle à trois centres où le brome, porteur de doublets non liants, est lié aux deux carbones et supporte la charge positive. L'ion bromure libéré ouvre ensuite ce cycle par substitution nucléophile bimoléculaire, l'attaque s'effectuant en ligne avec la liaison carbone–brome rompue et donc à l'opposé du pont. Il en résulte une addition anti, stéréospécifique, dont la stéréochimie constitue l'argument expérimental le plus direct en faveur de l'intermédiaire ponté. La vitesse, gouvernée par l'attaque du dibrome, croît fortement avec la richesse électronique de l'alcène.",
+    "explication_comprendre": "POURQUOI cette réaction est-elle si différente de l'addition de HBr ?\n\nÀ cause d'un seul détail : le brome a des doublets libres, le proton n'en a aucun.\n\nCE QUE ÇA CHANGE\n\nAvec HBr, le proton se fixe sur un carbone et l'autre reste en manque d'électrons : un vrai trou, plat, attaquable des deux côtés.\n\nAvec Br₂, le brome fait mieux. Il se lie au premier carbone, puis, comme il lui reste des électrons disponibles, il tend la main au second. Un pont se forme au-dessus de la double liaison.\n\nLA CONSÉQUENCE, ET ELLE EST ÉNORME\n\nCe pont ferme une face entière de la molécule. Le second brome, qui arrive ensuite, ne PEUT pas attaquer de ce côté-là — la place est prise. Il attaque forcément par en dessous.\n\nRésultat : les deux bromes se retrouvent de part et d'autre du plan. Jamais du même côté. Jamais.\n\nCOMMENT ON SAIT QUE LE PONT EXISTE VRAIMENT\n\nC'est le plus beau de l'affaire. Personne n'a jamais « vu » l'intermédiaire dans une réaction ordinaire — il vit trop peu de temps. Mais on voit son EMPREINTE : le produit est toujours anti, jamais mélangé.\n\nS'il n'y avait pas de pont, on obtiendrait les deux à parts égales. On ne les obtient pas. Donc le pont existe.\n\nEt sur des molécules très encombrées, où le pont vit assez longtemps, on l'a carrément cristallisé et regardé aux rayons X.\n\nUn raisonnement complet : une hypothèse, une conséquence mesurable, une vérification.",
+    "niveau_difficulte": 4
+  },
+  {
+    "id": "halohydrine",
+    "nom": "Formation d'une halohydrine",
+    "famille": "Additions électrophiles",
+    "symbole": "Br/OH",
+    "substrat_SMILES": "CC(=C)C",
+    "produit_SMILES": "CC(C)(O)CBr",
+    "reactifs": [
+      "Br₂",
+      "H₂O (en large excès)"
+    ],
+    "solvant": "Eau",
+    "mecanisme_etapes": [
+      "Le brome forme le pont, exactement comme dans l'halogénation : un ion bromonium et un bromure libre.",
+      "Mais cette fois l'eau est en très large excès — c'est le solvant. C'est elle, et non le bromure, qui vient ouvrir le pont. Et elle l'ouvre du côté du carbone LE PLUS substitué.",
+      "L'oxonium formé perd un proton : on obtient la bromhydrine."
+    ],
+    "selectivite": "RÉGIOSÉLECTIVITÉ INVERSE de ce que l'encombrement laisserait attendre : le nucléophile attaque le carbone le PLUS substitué (Clayden p. 436-437).\n\nPOURQUOI. Le pont n'est pas symétrique. Le brome commence à partir davantage du côté substitué, parce que ce carbone-là supporte mieux la charge positive naissante : la liaison C–Br y est plus longue et plus polarisée. L'état de transition, que Clayden appelle une SN2 « lâche », porte une charge positive considérable sur ce carbone — et c'est cette charge qui attire le nucléophile, non la place disponible.\n\nC'est exactement le même raisonnement que pour l'ouverture d'un époxyde en milieu acide : quand le groupe partant TIRE, le nucléophile se laisse aspirer ; quand le nucléophile POUSSE, il choisit la porte la plus large.\n\nSTÉRÉOCHIMIE : anti, comme pour l'halogénation — le pont impose l'attaque par l'autre face.\n\nUTILITÉ : traitée par une base, la bromhydrine se cyclise aussitôt en époxyde, le bromure servant de groupe partant dans une substitution intramoléculaire. C'est une voie d'accès aux époxydes qui évite les peracides (p. 437).",
+    "pieges": [
+      "Appliquer le raisonnement de l'encombrement : il donne la mauvaise réponse. Ici c'est la charge qui commande.",
+      "Oublier pourquoi l'eau l'emporte sur le bromure alors qu'elle est bien moins nucléophile : elle est le solvant, donc présente en concentration écrasante.",
+      "Écrire un carbocation ouvert : la stéréochimie anti prouve le pont, ici comme dans l'halogénation.",
+      "Négliger la suite : une bromhydrine traitée par une base donne un époxyde en une étape. C'est souvent le vrai but de l'opération."
+    ],
+    "explication_reference": "Addition de brome et d'eau sur une liaison double, conduite dans l'eau employée comme solvant. L'ion bromonium engendré à la première étape est ouvert non par le bromure mais par l'eau, dont la concentration écrasante compense la faible nucléophilie. L'ouverture est régiosélective en faveur du carbone le plus substitué : le pont étant dissymétrique, la liaison carbone–brome la plus longue et la plus polarisée est celle qui porte les substituants, et l'état de transition — décrit comme une substitution bimoléculaire lâche — y accumule une charge positive substantielle qui attire le nucléophile. La stéréochimie demeure anti, imposée par le pont. La déprotonation de l'oxonium fournit l'halohydrine, laquelle se cyclise en époxyde par traitement basique.",
+    "explication_comprendre": "POURQUOI cette réaction mérite-t-elle sa propre fiche ?\n\nParce qu'elle donne le résultat inverse de celui qu'on attend, et que comprendre pourquoi vaut mieux que dix règles.\n\nLE DÉBUT EST CONNU\n\nLe brome forme son pont, comme toujours. Rien de nouveau.\n\nLE PREMIER CHANGEMENT\n\nCette fois on travaille dans l'eau. L'eau est un attaquant bien plus faible que le bromure — mais elle est là en quantité écrasante : c'est le liquide lui-même. Sur mille rencontres, elle en remporte la plupart simplement parce qu'elle est partout.\n\nUne question de nombre, pas de talent.\n\nLE SECOND CHANGEMENT, LE PLUS INTÉRESSANT\n\nSur quel carbone l'eau attaque-t-elle ?\n\nRéflexe : sur le plus dégagé, celui où il y a de la place. C'est FAUX ici.\n\nVoici pourquoi. Le pont n'est pas symétrique. Le brome commence déjà à lâcher prise, et il lâche davantage du côté du carbone bien entouré — parce que ce carbone-là supporte mieux de se retrouver en manque d'électrons.\n\nDonc, avant même que l'eau n'arrive, une charge positive est en train d'apparaître de ce côté. Et une molécule d'eau, qui n'est pas un attaquant très motivé, va là où on l'attire.\n\nL'IMAGE\n\nQuand le partenaire pousse fort, il choisit la porte la plus large.\nQuand le groupe partant tire, le partenaire se laisse aspirer, sans choisir.\n\nTu retrouveras exactement cela dans l'ouverture d'un époxyde en milieu acide. Ce n'est pas une coïncidence : c'est le même principe.\n\nÀ QUOI ÇA SERT\n\nAjoute une base à la bromhydrine : l'alcool devient négatif, se retourne vers le carbone qui porte le brome, le chasse — et un époxyde se referme. Une façon de faire des époxydes sans manipuler de peracide.",
+    "niveau_difficulte": 5
+  },
+  {
+    "id": "hydratation_acide_alcene",
+    "nom": "Hydratation acide d'un alcène",
+    "famille": "Additions électrophiles",
+    "symbole": "H₂O/H⁺",
+    "substrat_SMILES": "C=C1CCCCC1",
+    "produit_SMILES": "CC1(O)CCCCC1",
+    "reactifs": [
+      "H₂O",
+      "H⁺ (catalytique)"
+    ],
+    "solvant": "Eau",
+    "mecanisme_etapes": [
+      "L'alcène capte un proton du milieu. Il faut que le carbocation obtenu soit stable — ici il est tertiaire, donc la réaction est possible.",
+      "L'eau, présente en excès, vient se lier au carbocation.",
+      "Une autre molécule d'eau retire le proton en trop : l'acide est rendu, et on obtient l'alcool."
+    ],
+    "selectivite": "C'est exactement la DÉSHYDRATATION D'UN ALCOOL parcourue à l'envers (Clayden p. 444). Les deux réactions partagent le même carbocation, et c'est la même équation lue dans les deux sens.\n\nCE QUI DÉCIDE DU SENS : la quantité d'eau. En milieu aqueux dilué, on hydrate ; en chauffant avec de l'acide concentré, on déshydrate en chassant l'eau formée.\n\nLA LIMITE, ET ELLE EST SÉRIEUSE : la réaction n'a lieu que si la protonation engendre un carbocation stable, donc tertiaire. Clayden ajoute qu'il reste difficile de prévoir laquelle des deux réactions l'emportera dans un cas donné, et recommande pour cette raison l'oxymercuration, plus fiable (p. 444).\n\nRÉGIOCHIMIE : le OH atterrit sur le carbone le plus substitué, pour la raison habituelle — c'est le seul carbocation accessible.",
+    "pieges": [
+      "Employer la méthode sur un alcène qui ne peut donner qu'un carbocation secondaire ou primaire : il ne se forme pas, et rien n'a lieu.",
+      "Oublier que la réaction inverse existe et se produit dans les mêmes conditions : on obtient un équilibre, pas une transformation complète.",
+      "Attendre l'autre régiochimie : pour placer le OH sur le carbone le moins substitué, il faut l'hydroboration, qui passe par un tout autre mécanisme.",
+      "Compter sur cette réaction en synthèse fine : Clayden la juge peu fiable et lui préfère l'oxymercuration."
+    ],
+    "explication_reference": "Addition d'eau sur une liaison double sous catalyse acide, procédant par protonation de l'alcène, capture du carbocation par l'eau, puis déprotonation de l'oxonium. Le procédé constitue l'exacte réciproque de la déshydratation E1 d'un alcool, dont il partage l'intermédiaire cationique ; le sens dans lequel l'équilibre est déplacé dépend de l'activité de l'eau dans le milieu. Son domaine se limite aux alcènes dont la protonation engendre un carbocation tertiaire, et la difficulté de prévoir lequel des deux sens l'emportera en fait une méthode peu fiable en synthèse, l'oxymercuration lui étant préférée.",
+    "explication_comprendre": "POURQUOI cette réaction est-elle si simple à comprendre ?\n\nParce que tu la connais déjà — à l'envers.\n\nLA DÉSHYDRATATION D'UN ALCOOL, tu l'as vue : on protone le OH, l'eau part, il reste un carbone en manque d'électrons, et un proton voisin s'en va pour former la double liaison.\n\nICI, ON REMONTE LE MÊME CHEMIN. On protone la double liaison, il reste un carbone en manque, une molécule d'eau vient combler le manque, et un proton s'en va.\n\nExactement les mêmes étapes, dans l'ordre inverse. Et le même carbone en manque au milieu, dans les deux cas.\n\nALORS QUI DÉCIDE DU SENS ?\n\nLa quantité d'eau, tout simplement.\n\nBeaucoup d'eau : elle vient se coller au carbone, on obtient l'alcool.\nPeu d'eau, et de la chaleur pour chasser celle qui se forme : on obtient l'alcène.\n\nOn ne change pas de chimie, on change de conditions. C'est un des équilibres les plus instructifs du chapitre.\n\nLA LIMITE\n\nTout repose sur le carbone en manque. S'il est bien entouré, tout va bien. S'il est nu, il ne se forme pas, et il ne se passe rien.\n\nUN AVEU HONNÊTE DU MANUEL\n\nClayden reconnaît qu'on ne sait pas toujours prévoir dans quel sens ça partira, et conseille une autre méthode quand on veut être sûr. C'est le genre de franchise qu'on apprécie dans un bon manuel : une réaction qui marche dans le principe n'est pas toujours une réaction qu'on emploie.",
+    "niveau_difficulte": 3
+  },
+  {
+    "id": "oxymercuration",
+    "nom": "Oxymercuration–démercuration",
+    "famille": "Additions électrophiles",
+    "symbole": "Hg(II)",
+    "substrat_SMILES": "CCC(=C)C",
+    "produit_SMILES": "CCC(C)(O)C",
+    "reactifs": [
+      "Hg(OAc)₂",
+      "H₂O",
+      "puis NaBH₄"
+    ],
+    "solvant": "Eau ou THF aqueux",
+    "mecanisme_etapes": [
+      "L'alcène attaque le mercure et chasse un acétate. Le mercure est un électrophile MOU, l'alcène un nucléophile mou : ils s'entendent très bien (Clayden p. 357, 444).",
+      "L'eau vient se lier au carbone le plus substitué. Clayden représente l'intermédiaire comme un pont — l'« ion mercurinium », cousin de l'ion bromonium — et c'est ce pont dissymétrique qui explique la régiochimie. Ici les flèches sont écrites sous la forme que le comptage électronique autorise, exactement comme pour le bromonium : une seule paire d'électrons ne peut pas former deux liaisons à la fois.",
+      "L'oxonium perd son proton : on a additionné OH et Hg de part et d'autre de la double liaison.",
+      "Reste à se débarrasser du métal. La liaison carbone–mercure est très faible : le borohydrure de sodium la remplace par une liaison C–H. Cette étape passe par des radicaux (Clayden p. 444), on ne l'écrit donc pas avec des flèches courbes."
+    ],
+    "selectivite": "RÉGIOCHIMIE DE MARKOVNIKOV, mais SANS CARBOCATION LIBRE — c'est tout l'intérêt. L'eau attaque le carbone le plus substitué de l'ion ponté (Clayden p. 444), donc le OH s'y installe.\n\nCE QUE L'ON GAGNE sur l'hydratation acide : pas de carbocation libre, donc pas de réarrangement de squelette, et un résultat fiable là où l'hydratation acide hésite entre deux sens (p. 444). Rendement de 90 % sur l'exemple du manuel.\n\nL'ALCOOL PEUT ÊTRE REMPLACÉ PAR UN AUTRE NUCLÉOPHILE : conduite dans un alcool comme solvant, la réaction donne l'éther correspondant. Même mécanisme, autre partenaire (p. 444).\n\nLA DÉMERCURATION est une chimie radicalaire, traitée au chapitre 37 de l'ouvrage. Le composé mercuriel intermédiaire n'est pas isolé : on ajoute simplement NaBH₄ dans le même ballon.",
+    "pieges": [
+      "Oublier la seconde étape : sans NaBH₄, on s'arrête à un composé organomercuriel, pas à un alcool.",
+      "Chercher un carbocation libre : il n'y en a pas, et c'est précisément ce qui rend la méthode fiable.",
+      "Dessiner la démercuration avec des flèches courbes : elle procède par radicaux, et une flèche courbe déplace deux électrons.",
+      "Négliger la toxicité du mercure : la réaction est élégante, sa mise en œuvre demande des précautions sérieuses."
+    ],
+    "explication_reference": "Hydratation d'une liaison double par voie organométallique, conduite en deux temps sans isolement de l'intermédiaire. Le cation mercurique, électrophile mou, est attaqué par l'alcène — nucléophile mou — avec départ d'un ligand acétate ; l'intermédiaire est décrit comme un ion mercurinium ponté, analogue de l'ion bromonium. L'eau ouvre ce pont au carbone le plus substitué, où la charge positive est la mieux supportée, puis la déprotonation de l'oxonium fournit le β-hydroxymercuriel. La liaison carbone–mercure, faible, est enfin rompue par le borohydrure de sodium selon un processus radicalaire, avec remplacement du métal par un atome d'hydrogène. Le bilan est une hydratation de régiochimie markovnikovienne obtenue sans intermédiaire cationique libre, donc sans transposition squelettique.",
+    "explication_comprendre": "POURQUOI passer par un métal pour ajouter de l'eau ?\n\nParce que la méthode directe — l'acide — est capricieuse. On ne sait pas toujours si on va hydrater l'alcène ou déshydrater l'alcool, et le carbone en manque d'électrons qu'elle fabrique peut se réarranger et donner un squelette qu'on n'avait pas demandé.\n\nL'IDÉE\n\nRemplacer le proton par un atome de mercure.\n\nPourquoi ça marche : le mercure et la double liaison sont tous deux « mous » — de gros nuages électroniques, souples, faciles à déformer. Ils se reconnaissent et s'assemblent bien. Un proton, lui, est petit et dur : il ne joue pas dans la même catégorie.\n\nCE QU'ON Y GAGNE\n\nLe mercure forme un pont au-dessus de la double liaison, comme le brome. Et un pont, ce n'est PAS un carbone en manque d'électrons livré à lui-même : il ne se réarrange pas.\n\nOn obtient donc exactement le squelette qu'on visait, et le OH se met du côté attendu — le carbone le mieux entouré, celui qui attire le plus.\n\nLA DEUXIÈME ÉTAPE\n\nIl reste un atome de mercure sur la molécule, ce qui n'était pas le but. Heureusement, la liaison entre un carbone et un mercure est très fragile : un peu de borohydrure de sodium suffit à la casser et à mettre un hydrogène à la place.\n\nOn ne sort même pas l'intermédiaire du ballon : on ajoute le second réactif par-dessus le premier.\n\nUNE HONNÊTETÉ SUR LES FLÈCHES\n\nCette dernière étape ne se dessine pas avec des flèches courbes : elle passe par des espèces à électron célibataire, et une flèche courbe déplace toujours DEUX électrons. On l'écrit donc en mots. Mieux vaut une lacune assumée qu'un dessin faux.",
+    "niveau_difficulte": 6
+  },
+  {
+    "id": "hydroboration",
+    "nom": "Hydroboration–oxydation",
+    "famille": "Additions électrophiles",
+    "symbole": "BH₃",
+    "substrat_SMILES": "CC=C",
+    "produit_SMILES": "CCCO",
+    "reactifs": [
+      "BH₃ (ou 9-BBN)",
+      "puis H₂O₂ / NaOH"
+    ],
+    "solvant": "THF",
+    "mecanisme_etapes": [
+      "Tout se passe d'un seul coup : l'alcène pousse ses électrons dans l'orbitale vide du bore, et dans le même mouvement un hydrogène passe du bore au carbone. Il n'y a aucun intermédiaire chargé — d'où la stéréochimie syn, les deux nouveaux liens se formant du même côté.",
+      "L'anion hydroperoxyde HO–O⁻, engendré par le mélange H₂O₂ / NaOH, vient se fixer sur cette même orbitale vide du bore. On obtient un borate chargé négativement.",
+      "L'étape à regarder de près : la liaison O–O, faible, se rompt en libérant un ion hydroxyde ; et pendant qu'elle se rompt, l'un des groupes portés par le bore MIGRE du bore vers l'oxygène. La liaison C–B est devenue une liaison C–O.",
+      "L'ion hydroxyde revient déloger le bore. Après acidification, on récupère l'alcool."
+    ],
+    "selectivite": "ANTI-MARKOVNIKOV : le OH se retrouve sur le carbone le MOINS substitué — l'inverse de toutes les autres méthodes d'hydratation (Clayden p. 446).\n\nDEUX RAISONS, données par l'ouvrage. D'abord l'électronique : la réaction est portée par le don des électrons π vers l'orbitale vide du bore, donc la charge positive naissante apparaît à l'autre bout, sur le carbone le plus substitué — et le bore va donc sur l'autre. Ensuite l'encombrement : BR₂ est bien plus volumineux qu'un hydrogène, il se place là où il y a de la place. C'est d'ailleurs pour accentuer cet effet qu'on emploie le 9-BBN, dont le bore est rendu très encombré par son système bicyclique.\n\nADDITION SYN : le bore et l'hydrogène arrivent du même côté, puisqu'ils sont livrés en un seul geste par la même molécule.\n\nET L'OXYDATION CONSERVE LA CONFIGURATION : la migration du groupe alkyle du bore vers l'oxygène se fait sans que le carbone lâche prise. Le OH prend donc exactement la place du bore.\n\nSI L'ON EMPLOIE BH₃, les trois liaisons C–B se forment puis s'oxydent l'une après l'autre. Avec le 9-BBN, seul le substituant issu de l'hydroboration migre, ce qui rend l'opération sélective (p. 446).",
+    "pieges": [
+      "Attendre la régiochimie de Markovnikov : c'est l'inverse, et c'est tout l'intérêt de la méthode.",
+      "Chercher un intermédiaire chargé dans la première étape : il n'y en a pas, l'addition est concertée — d'où la stéréochimie syn.",
+      "Oublier la seconde étape : sans H₂O₂ / NaOH, on s'arrête à un organoborane.",
+      "Croire que le carbone se retourne pendant l'oxydation : la migration se fait sans rompre la liaison au carbone, donc la configuration est conservée."
+    ],
+    "explication_reference": "Hydratation d'une liaison double de régiochimie anti-markovnikovienne, conduite en deux temps. L'hydroboration proprement dite est une addition syn concertée : la liaison π donne ses électrons à l'orbitale p vacante du bore tandis qu'un hydrure est transféré du bore au carbone, sans intermédiaire ionique. L'orientation résulte du développement de charge positive partielle sur le carbone le plus substitué, où le bore ne se fixe donc pas, et de l'encombrement stérique du fragment boré. L'oxydation par le mélange peroxyde d'hydrogène–soude engage l'anion hydroperoxyde sur l'orbitale vacante du bore ; la rupture de la liaison peroxydique, assortie de la migration d'un groupe alkyle du bore vers l'oxygène, convertit la liaison carbone–bore en liaison carbone–oxygène avec rétention de configuration. L'hydroxyde déplace enfin le bore, libérant l'alcoolate.",
+    "explication_comprendre": "POURQUOI a-t-on besoin d'une méthode de plus pour ajouter de l'eau ?\n\nParce que toutes les autres mettent le OH au même endroit — sur le carbone le mieux entouré. Et parfois, on le veut de l'autre côté.\n\nD'OÙ VIENT LA DIFFÉRENCE\n\nDe l'atome qui attaque. Jusqu'ici c'était toujours un proton ou un métal, c'est-à-dire quelque chose qui prend des électrons à la double liaison.\n\nLe bore fait autre chose : il a une case vide, et il attend qu'on la remplisse. L'alcène lui offre ses électrons — mais dans le même mouvement, le bore rend un hydrogène.\n\nUN SEUL GESTE, DEUX CONSÉQUENCES\n\nPremière conséquence : il n'y a jamais de carbone en manque d'électrons. Tout se fait d'un coup, donc rien ne peut se réarranger.\n\nDeuxième conséquence : le bore et l'hydrogène arrivent du même côté de la molécule, puisqu'ils viennent ensemble. On dit que l'addition est « syn ».\n\nPOURQUOI LE BORE VA DU CÔTÉ LE MOINS ENCOMBRÉ\n\nDeux raisons qui vont dans le même sens.\n\nLa première : pendant que les électrons partent vers le bore, une charge positive commence à apparaître à l'autre bout. Elle se met là où elle est supportable, c'est-à-dire sur le carbone bien entouré. Le bore se retrouve donc forcément sur l'autre.\n\nLa seconde : le bore et ce qu'il porte, c'est volumineux. Un hydrogène ne l'est pas. Chacun va où il tient.\n\nLA SECONDE MOITIÉ, ET ELLE VAUT LE DÉTOUR\n\nOn a maintenant un bore là où on voulait un OH. Comment échanger ?\n\nOn envoie sur le bore un partenaire porteur d'une liaison oxygène-oxygène fragile. Elle casse — et au moment précis où elle casse, le carbone GLISSE du bore vers l'oxygène.\n\nCe glissement est la clé : le carbone ne se détache jamais complètement. Il ne peut donc pas se retourner. Le OH prend très exactement la place qu'occupait le bore, du même côté.\n\nLE BILAN\n\nUn OH sur le carbone le moins entouré, du même côté que l'hydrogène ajouté. Aucune autre méthode ne fait cela.",
+    "niveau_difficulte": 7
+  },
+  {
+    "id": "epoxydation_peracide",
+    "nom": "Époxydation par un peracide",
+    "famille": "Additions électrophiles",
+    "symbole": "mCPBA",
+    "substrat_SMILES": "C1=CCCCC1",
+    "produit_SMILES": "C1CCC2OC2C1",
+    "reactifs": [
+      "mCPBA (acide méta-chloroperoxybenzoïque)"
+    ],
+    "solvant": "Dichlorométhane, à froid",
+    "mecanisme_etapes": [
+      "Une seule étape, quatre flèches en cascade. L'alcène attaque la liaison O–O, faible et polarisée ; les électrons de cette liaison forment la nouvelle double liaison C=O de l'acide ; ceux de l'ancienne double liaison C=O vont chercher le proton ; et les électrons de la liaison O–H forment la seconde liaison carbone-oxygène. Le cycle est bouclé."
+    ],
+    "selectivite": "STÉRÉOSPÉCIFIQUE : les deux liaisons C–O se forment sur la même face de l'alcène, donc la géométrie de l'alcène se retrouve intégralement dans l'époxyde — un alcène cis donne un époxyde cis, un trans donne un trans (Clayden p. 430).\n\nVITESSE : elle augmente avec le nombre de substituants de l'alcène, comme pour la bromation. L'alcène est le nucléophile ; plus il est riche en électrons, plus il attaque vite (p. 437).\n\nLE CHOIX DU PERACIDE : plus l'acide de départ est fort, plus le peracide est oxydant, parce que le carboxylate qui s'en va est un meilleur groupe partant. L'acide peroxytrifluoroacétique compte parmi les plus puissants ; le mCPBA, solide cristallin et sûr à manipuler, est le plus employé (p. 429-430).\n\nRENDEMENT : 95 % sur le cyclohexène (p. 430).\n\nUNE VOIE CONCURRENTE : la même transformation s'obtient à partir d'une halohydrine traitée par une base, ce qui évite de manipuler un peracide (p. 437).",
+    "pieges": [
+      "Dessiner les flèches dans le désordre : Clayden numérote l'ordre à suivre et prévient de « l'effet spaghetti ». Chaque flèche est pourtant logique si l'on suit la chaîne.",
+      "Oublier le transfert de proton : sans lui, on obtiendrait un carboxylate et un époxyde protoné au lieu de l'acide et de l'époxyde neutres.",
+      "Attendre une addition anti : ici les deux liaisons se forment du même côté, l'addition est syn.",
+      "Confondre le peracide avec le peroxyde d'hydrogène : c'est la présence du carbonyle qui rend la liaison O–O électrophile, en attirant les électrons loin d'elle."
+    ],
+    "explication_reference": "Transfert d'un atome d'oxygène d'un acide peroxycarboxylique à une liaison double, conduisant à un époxyde. Le mécanisme est concerté et met en jeu quatre déplacements électroniques cycliques : attaque de la liaison π sur la liaison peroxydique électrophile, formation de la liaison π carbone–oxygène du fragment carboxylique, transfert du proton vers l'oxygène carbonylique, et fermeture de la seconde liaison carbone–oxygène par les électrons de la liaison O–H. L'électrophilie de la liaison O–O résulte du carbonyle voisin, qui en attire les électrons, et de la qualité du carboxylate comme nucléofuge — d'où la corrélation entre la force de l'acide parent et le pouvoir oxydant du peracide. Les deux liaisons carbone–oxygène se formant sur la même face, la réaction est stéréospécifique et la géométrie de l'alcène est intégralement reportée sur l'époxyde.",
+    "explication_comprendre": "POURQUOI un « peracide » et pas simplement de l'eau oxygénée ?\n\nBonne question, parce que les deux contiennent la même liaison oxygène-oxygène.\n\nLa différence tient au carbonyle voisin. Il tire les électrons à lui, et en les tirant il appauvrit la liaison O–O. Un oxygène appauvri en électrons, c'est un oxygène attaquable — et c'est exactement ce qu'on veut.\n\nL'eau oxygénée seule n'a pas ce voisin, donc pas cette réactivité.\n\nCE QUI SE PASSE\n\nUn seul geste, mais quatre mouvements d'électrons qui s'enchaînent en cercle. Clayden lui-même parle d'un « effet spaghetti » et conseille de suivre l'ordre plutôt que de tout regarder à la fois. Alors suivons-le.\n\nUn : la double liaison attaque l'oxygène qui porte l'hydrogène. Première liaison carbone-oxygène.\n\nDeux : la liaison oxygène-oxygène se rompt, et ses électrons forment une nouvelle double liaison C=O du côté de l'acide.\n\nTrois : les électrons de l'ancienne double liaison C=O vont chercher le proton et l'attrapent.\n\nQuatre : les électrons libérés par ce proton forment la SECONDE liaison carbone-oxygène. L'époxyde est fermé.\n\nChaque flèche prend ce que la précédente a libéré. Rien n'est arbitraire.\n\nLA CONSÉQUENCE QU'IL FAUT VOIR\n\nLes deux liaisons carbone-oxygène se forment du même côté, en même temps. Donc la molécule ne peut pas se retourner entre les deux.\n\nRésultat : ce qui était du même côté avant l'est encore après. Un alcène cis donne un époxyde cis, un trans donne un trans. Cette fidélité s'appelle la stéréospécificité, et c'est ce qui rend la réaction utile en synthèse fine : on sait exactement ce qu'on obtiendra.",
+    "niveau_difficulte": 6
   }
 ]

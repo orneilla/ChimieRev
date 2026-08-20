@@ -550,6 +550,138 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "addition_hx": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "433",
+          "note": "Le mécanisme complet sur le cyclohexène, le styrène et l'isobutène, avec l'explication de la régiochimie par la stabilité comparée des deux carbocations envisageables. Y figure la raison pour laquelle l'intermédiaire est un vrai carbocation et non un ion ponté : un proton n'a pas de doublet libre à engager dans un cycle à trois atomes."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "434",
+          "note": "L'encadré sur la règle de Markovnikov, que l'ouvrage énonce puis déconseille d'apprendre : elle décrit le résultat sans en donner la cause."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "halogenation_alcene": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "427–428",
+          "note": "L'interaction orbitalaire entre le π occupé de l'alcène et le σ* vacant de Br–Br, l'approche colinéaire qu'elle impose, et la formation de l'ion bromonium. La page discute explicitement les deux façons de dessiner les flèches et la difficulté qu'une seule paire d'électrons ne peut former deux liaisons. L'encadré rapporte que des ions bromonium ont été caractérisés par diffraction des rayons X sur des alcènes très encombrés."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "429",
+          "note": "L'ouverture du bromonium est une substitution bimoléculaire ordinaire : l'attaque se fait en ligne avec la liaison C–Br rompue, d'où l'inversion au carbone attaqué. La première étape est réversible."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "439",
+          "note": "La stéréospécificité anti et ce qu'elle démontre : un carbocation ouvert, plan, donnerait un mélange."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "437",
+          "note": "L'échelle des vitesses de bromation selon le nombre de substituants de l'alcène — un facteur proche de deux millions entre l'éthylène et le tétraméthyléthylène."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "halohydrine": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "436–437",
+          "note": "La régiosélectivité de l'ouverture des bromoniums dissymétriques, expliquée par l'inégale longueur des deux liaisons C–Br et par l'état de transition de substitution bimoléculaire « lâche », où la charge positive est déjà largement développée sur le carbone le plus substitué. La page nomme les bromhydrines et montre leur cyclisation en époxyde par la soude, présentée comme une alternative aux peracides."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydratation_acide_alcene": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "444",
+          "note": "L'hydratation acide présentée comme la déshydratation E1 parcourue à l'envers, avec le mécanisme complet sur le méthylènecyclohexane. L'ouvrage précise que la méthode n'opère que si la protonation engendre un carbocation tertiaire stable, qu'il reste difficile de prévoir lequel des deux sens l'emportera, et recommande pour cette raison l'oxymercuration."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxymercuration": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "444",
+          "note": "Le mécanisme complet, de la formation de l'ion mercurinium à la déprotonation de l'oxonium : alcène et cation mercurique décrits comme nucléophile et électrophile mous, attaque de l'eau au carbone le plus substitué, et remplacement du mercure par un hydrogène au moyen de NaBH₄. L'ouvrage indique que la démercuration relève de la chimie radicalaire (chapitre 37) et que le composé mercuriel n'est pas isolé. Exemple donné avec 90 % de rendement."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "445",
+          "note": "L'oxymercuration appliquée aux alcynes, où elle fonctionne particulièrement bien."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "15 — Nucleophilic substitution at saturated carbon",
+          "pages": "357",
+          "note": "La notion de nucléophiles et d'électrophiles durs et mous, sur laquelle repose l'affinité entre l'alcène et le mercure."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydroboration": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "446",
+          "note": "La section entière : l'addition concertée du borane, l'orientation du bore vers le carbone le moins substitué expliquée à la fois par l'électronique et par l'encombrement, l'oxydation par H₂O₂ / NaOH via l'anion hydroperoxyde, la migration du groupe alkyle du bore vers l'oxygène lors de la rupture de la liaison O–O, et le déplacement final du bore par l'hydroxyde. L'ouvrage explique aussi pourquoi le 9-BBN rend la migration sélective."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "447",
+          "note": "Le bilan stéréochimique : addition syn, et rétention de configuration lors de l'oxydation, la migration se faisant sans rupture de la liaison au carbone."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "epoxydation_peracide": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "429–430",
+          "note": "L'électrophilie de l'oxygène du peracide, due au carbonyle voisin qui appauvrit la liaison O–O et à la qualité du carboxylate comme groupe partant ; la corrélation entre la force de l'acide parent et le pouvoir oxydant du peracide ; le mécanisme concerté à quatre flèches, dont l'ouvrage donne l'ordre à suivre en prévenant de « l'effet spaghetti » ; l'état de transition ; et la stéréospécificité, un alcène cis donnant un époxyde cis. Exemple du cyclohexène avec le mCPBA, 95 % de rendement."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "437",
+          "note": "La vitesse d'époxydation croît avec le nombre de substituants de l'alcène, comme celle de la bromation : l'alcène est le nucléophile."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

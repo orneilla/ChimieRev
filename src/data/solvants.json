@@ -33,7 +33,7 @@
     "SMILES": "CC(C)=O",
     "type": "aprotique polaire (ε = 21)",
     "usage": "Le solvant de l'échange de Finkelstein. Assez polaire pour dissoudre les sels employés, pas assez pour les dorloter — et surtout, il refuse de dissoudre le bromure de sodium formé (Clayden p. 255, 256, 345).",
-    "explication_comprendre": "Un liquide qui a deux talents à la fois, et c'est rare.\n\nD'abord, il dissout les sels — mais mal. Un ion négatif y flotte sans être enveloppé, donc sans être engourdi : il reste mordant. C'est exactement ce qu'on veut d'un attaquant.\n\nEnsuite, il est difficile : il accepte l'iodure de sodium et refuse le bromure de sodium. Le sel formé pendant la réaction tombe alors au fond du ballon, et ce qui a quitté la solution ne peut plus repartir en arrière.\n\nUn solvant qui trie ses invités : c'est ce qui rend l'échange complet au lieu d'aboutir à un mélange."
+    "explication_comprendre": "Un liquide qui a deux talents à la fois, et c'est rare.\n\nD'abord, il dissout les sels — mais mal. Un ion négatif y flotte sans être enveloppé, donc sans être engourdi : il reste mordant. C'est exactement ce qu'on veut d'un attaquant.\n\nEnsuite, il est difficile : il accepte l'iodure de sodium et refuse le bromure de sodium. Le sel formé pendant la réaction tombe alors au fond du ballon, et ce qui a quitté la solution ne peut plus repartir en arrière.\n\nUn solvant qui trie ses invités : c'est ce qui rend l'échange complet au lieu d'aboutir à un mélange."
   },
   {
     "id": "ethanol",
@@ -42,7 +42,7 @@
     "SMILES": "CCO",
     "type": "protique polaire (ε = 25)",
     "usage": "Solvant des réactions passant par un carbocation, et des éliminations conduites avec l'éthanolate correspondant (Clayden p. 256).",
-    "explication_comprendre": "Un liquide dont les molécules portent un hydrogène capable de s'accrocher aux charges négatives. C'est cela, « protique ».\n\nCONSÉQUENCE : il entoure les ions et les stabilise. Excellent pour les réactions où une charge apparaît en cours de route — un carbocation, par exemple, y est bien plus supportable.\n\nREVERS : un attaquant chargé négativement s'y retrouve enveloppé de toutes parts, donc ralenti. Pour une attaque directe, on choisira plutôt un liquide sans hydrogène de ce type.\n\nUn même liquide, donc, aide une réaction et gêne l'autre. Le solvant n'est jamais neutre."
+    "explication_comprendre": "Un liquide dont les molécules portent un hydrogène capable de s'accrocher aux charges négatives. C'est cela, « protique ».\n\nCONSÉQUENCE : il entoure les ions et les stabilise. Excellent pour les réactions où une charge apparaît en cours de route — un carbocation, par exemple, y est bien plus supportable.\n\nREVERS : un attaquant chargé négativement s'y retrouve enveloppé de toutes parts, donc ralenti. Pour une attaque directe, on choisira plutôt un liquide sans hydrogène de ce type.\n\nUn même liquide, donc, aide une réaction et gêne l'autre. Le solvant n'est jamais neutre."
   },
   {
     "id": "methanol",
@@ -50,8 +50,8 @@
     "nom_complet": "méthanol CH₃OH",
     "SMILES": "CO",
     "type": "protique polaire (ε = 33)",
-    "usage": "Solvant et parfois réactif à la fois : il sert de nucléophile dans l'ouverture des époxydes en milieu acide, et de milieu pour les réductions par NaBH₄ (Clayden p. 256, 438).",
-    "explication_comprendre": "Le plus petit des alcools. Très polaire, très protique : il enveloppe les ions mieux encore que l'éthanol.\n\nUNE PARTICULARITÉ À GARDER EN TÊTE : il n'est pas toujours spectateur. Dans l'ouverture d'un époxyde en milieu acide, c'est lui qui attaque — il est à la fois la piscine et le nageur.\n\nQuand on lit un mode opératoire, il faut donc se demander à chaque fois : ce liquide est-il là pour dissoudre, ou pour réagir ? Les deux arrivent."
+    "usage": "Solvant et parfois réactif à la fois : il sert de nucléophile dans l'ouverture des époxydes en milieu acide, et de milieu pour les réductions par NaBH₄ (Clayden p. 256, 438).",
+    "explication_comprendre": "Le plus petit des alcools. Très polaire, très protique : il enveloppe les ions mieux encore que l'éthanol.\n\nUNE PARTICULARITÉ À GARDER EN TÊTE : il n'est pas toujours spectateur. Dans l'ouverture d'un époxyde en milieu acide, c'est lui qui attaque — il est à la fois la piscine et le nageur.\n\nQuand on lit un mode opératoire, il faut donc se demander à chaque fois : ce liquide est-il là pour dissoudre, ou pour réagir ? Les deux arrivent."
   },
   {
     "id": "eau",
@@ -60,7 +60,7 @@
     "SMILES": "O",
     "type": "protique polaire (ε = 80)",
     "usage": "Le plus polaire des solvants courants. Milieu des réactions passant par des ions, et nucléophile dans les substitutions monomoléculaires (Clayden p. 255, 256).",
-    "explication_comprendre": "Le champion de la stabilisation des charges — de très loin.\n\nPOURQUOI : chaque molécule d'eau a un côté légèrement négatif (l'oxygène) et un côté légèrement positif (les hydrogènes). Elle peut donc entourer aussi bien un ion positif qu'un ion négatif, en se retournant selon le besoin.\n\nCE QUE ÇA IMPLIQUE : une réaction qui fabrique des ions y est grandement facilitée. Une réaction dont l'attaquant est un ion négatif y est au contraire ralentie, parce que cet attaquant se retrouve emmailloté.\n\nEt comme l'eau dissout très bien les sels, elle interdit l'astuce de la précipitation : c'est pour cela que l'échange de Finkelstein se fait dans l'acétone et jamais dans l'eau."
+    "explication_comprendre": "Le champion de la stabilisation des charges — de très loin.\n\nPOURQUOI : chaque molécule d'eau a un côté légèrement négatif (l'oxygène) et un côté légèrement positif (les hydrogènes). Elle peut donc entourer aussi bien un ion positif qu'un ion négatif, en se retournant selon le besoin.\n\nCE QUE ÇA IMPLIQUE : une réaction qui fabrique des ions y est grandement facilitée. Une réaction dont l'attaquant est un ion négatif y est au contraire ralentie, parce que cet attaquant se retrouve emmailloté.\n\nEt comme l'eau dissout très bien les sels, elle interdit l'astuce de la précipitation : c'est pour cela que l'échange de Finkelstein se fait dans l'acétone et jamais dans l'eau."
   },
   {
     "id": "dmf",
@@ -68,8 +68,8 @@
     "nom_complet": "N,N-diméthylformamide",
     "SMILES": "CN(C)C=O",
     "type": "aprotique polaire (ε = 38)",
-    "usage": "Dissout très bien les composés ioniques mais solvate mal les anions, ce qui les rend plus réactifs : idéal pour les substitutions bimoléculaires (Clayden p. 256, 345).",
-    "explication_comprendre": "Le solvant qui accélère les attaques directes, et il vaut la peine de comprendre pourquoi.\n\nIl est très polaire, donc il dissout les sels sans difficulté. Mais il n'a aucun hydrogène capable de s'accrocher à une charge négative.\n\nRÉSULTAT : l'ion positif est bien entouré, l'ion négatif ne l'est pas. L'attaquant se retrouve nu, disponible, sans manteau qui l'engourdit — et il attaque bien plus vite.\n\nL'IMAGE : quelqu'un emmitouflé dans trois manteaux se déplace lentement. Ôte-lui les manteaux, il court.\n\nÀ SAVOIR : il bout très haut, donc il est pénible à évaporer en fin de réaction."
+    "usage": "Dissout très bien les composés ioniques mais solvate mal les anions, ce qui les rend plus réactifs : idéal pour les substitutions bimoléculaires (Clayden p. 256, 345).",
+    "explication_comprendre": "Le solvant qui accélère les attaques directes, et il vaut la peine de comprendre pourquoi.\n\nIl est très polaire, donc il dissout les sels sans difficulté. Mais il n'a aucun hydrogène capable de s'accrocher à une charge négative.\n\nRÉSULTAT : l'ion positif est bien entouré, l'ion négatif ne l'est pas. L'attaquant se retrouve nu, disponible, sans manteau qui l'engourdit — et il attaque bien plus vite.\n\nL'IMAGE : quelqu'un emmitouflé dans trois manteaux se déplace lentement. Ôte-lui les manteaux, il court.\n\nÀ SAVOIR : il bout très haut, donc il est pénible à évaporer en fin de réaction."
   },
   {
     "id": "pyridine",
@@ -77,7 +77,7 @@
     "nom_complet": "pyridine C₅H₅N",
     "SMILES": "c1ccncc1",
     "type": "base et solvant à la fois",
-    "usage": "Employée comme solvant dans les tosylations et les acylations, où elle joue aussi le rôle de base : elle capte l'acide libéré et catalyse la réaction (Clayden p. 255, 349).",
-    "explication_comprendre": "Un liquide qui ne se contente pas de servir de piscine : il participe.\n\nSON DOUBLE RÔLE. Une tosylation ou une acylation libère de l'acide chlorhydrique. Si on le laisse s'accumuler, il détruit ce qu'on vient de construire. La pyridine le capte au fur et à mesure.\n\nMIEUX ENCORE : elle accélère la réaction. Elle attaque elle-même le réactif pour former un intermédiaire encore plus réactif, qu'elle transmet ensuite à l'alcool. Elle passe le relais.\n\nPOURQUOI ELLE N'ENCOMBRE PAS TOUT. Son doublet libre est dans le plan du cycle, pas dans le nuage aromatique. Elle est donc basique sans cesser d'être aromatique — un équilibre que peu de molécules réussissent.\n\nSon odeur est mémorable, et pas dans le bon sens."
+    "usage": "Employée comme solvant dans les tosylations et les acylations, où elle joue aussi le rôle de base : elle capte l'acide libéré et catalyse la réaction (Clayden p. 255, 349).",
+    "explication_comprendre": "Un liquide qui ne se contente pas de servir de piscine : il participe.\n\nSON DOUBLE RÔLE. Une tosylation ou une acylation libère de l'acide chlorhydrique. Si on le laisse s'accumuler, il détruit ce qu'on vient de construire. La pyridine le capte au fur et à mesure.\n\nMIEUX ENCORE : elle accélère la réaction. Elle attaque elle-même le réactif pour former un intermédiaire encore plus réactif, qu'elle transmet ensuite à l'alcool. Elle passe le relais.\n\nPOURQUOI ELLE N'ENCOMBRE PAS TOUT. Son doublet libre est dans le plan du cycle, pas dans le nuage aromatique. Elle est donc basique sans cesser d'être aromatique — un équilibre que peu de molécules réussissent.\n\nSon odeur est mémorable, et pas dans le bon sens."
   }
 ]

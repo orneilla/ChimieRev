@@ -95,6 +95,34 @@
     "substrat": "elimination_peterson-substrat.svg",
     "produit": "elimination_peterson-produit.svg"
   },
+  "addition_hx": {
+    "substrat": "addition_hx-substrat.svg",
+    "produit": "addition_hx-produit.svg"
+  },
+  "halogenation_alcene": {
+    "substrat": "halogenation_alcene-substrat.svg",
+    "produit": "halogenation_alcene-produit.svg"
+  },
+  "halohydrine": {
+    "substrat": "halohydrine-substrat.svg",
+    "produit": "halohydrine-produit.svg"
+  },
+  "hydratation_acide_alcene": {
+    "substrat": "hydratation_acide_alcene-substrat.svg",
+    "produit": "hydratation_acide_alcene-produit.svg"
+  },
+  "oxymercuration": {
+    "substrat": "oxymercuration-substrat.svg",
+    "produit": "oxymercuration-produit.svg"
+  },
+  "hydroboration": {
+    "substrat": "hydroboration-substrat.svg",
+    "produit": "hydroboration-produit.svg"
+  },
+  "epoxydation_peracide": {
+    "substrat": "epoxydation_peracide-substrat.svg",
+    "produit": "epoxydation_peracide-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -156,6 +184,21 @@
   },
   "hf": {
     "molecule": "reactif-hf.svg"
+  },
+  "br2": {
+    "molecule": "reactif-br2.svg"
+  },
+  "hbr": {
+    "molecule": "reactif-hbr.svg"
+  },
+  "hg_oac2": {
+    "molecule": "reactif-hg_oac2.svg"
+  },
+  "bh3": {
+    "molecule": "reactif-bh3.svg"
+  },
+  "h2o2_naoh": {
+    "molecule": "reactif-h2o2_naoh.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

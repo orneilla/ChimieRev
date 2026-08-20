@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 24,
-  "verifiees": 24,
+  "redigees": 31,
+  "verifiees": 31,
   "relues": 0,
   "familles": [
     {
@@ -184,59 +184,59 @@
       "famille": "Additions électrophiles",
       "bloc": "Socle organique",
       "total": 13,
-      "absente": 13,
+      "absente": 6,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 7,
       "relue": 0,
       "reactions": [
         {
           "nom": "Addition de HX (règle de Markovnikov)",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "addition_hx",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Hydratation acide des alcènes",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydratation_acide_alcene",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Halogénation des alcènes (ion ponté)",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "halogenation_alcene",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Formation des halohydrines",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "halohydrine",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Oxymercuration–démercuration",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "oxymercuration",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Hydroboration–oxydation",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydroboration",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Époxydation par un peracide",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "epoxydation_peracide",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Dihydroxylation syn (OsO₄, KMnO₄ froid)",

@@ -781,5 +781,273 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "addition_hx": {
+    "1": {
+      "fichier": "addition_hx-etape1.svg",
+      "titre": "L'alcène capte le proton",
+      "legende": "La double liaison est une réserve d'électrons ; le proton n'en a aucun. Elle lui en offre deux. Mais elle ne peut se lier qu'à UN des deux carbones — et le choix décide de tout, car c'est l'autre qui se retrouve en manque.",
+      "fleches": [
+        "Les électrons de la double liaison forment une liaison avec le proton, sur le carbone le moins substitué.",
+        "La liaison H–Br se rompt : le brome part avec les deux électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "addition_hx-etape2.svg",
+      "titre": "Le bromure comble le manque",
+      "legende": "Le carbone en manque est entouré de trois voisins carbonés : il supporte la situation, mais il ne demande qu'à en sortir. Le bromure libéré à l'instant s'en charge.",
+      "fleches": [
+        "Un doublet du bromure forme la liaison avec le carbone positif."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "addition_hx-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le brome est sur le carbone le plus substitué. Personne ne l'a décidé : c'est la seule route qui passait par un carbone en manque supportable.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "halogenation_alcene": {
+    "1": {
+      "fichier": "halogenation_alcene-etape1.svg",
+      "titre": "Le brome ferme un pont",
+      "legende": "Contrairement au proton, le brome possède des doublets libres : il peut se lier aux DEUX carbones et fermer un cycle à trois atomes. Trois flèches sont nécessaires, parce qu'une seule paire d'électrons ne peut pas former deux liaisons.",
+      "fleches": [
+        "Un doublet libre du brome forme la première liaison carbone–brome.",
+        "Les électrons de la double liaison forment la seconde : le pont est fermé.",
+        "Le second brome part avec les électrons de la liaison Br–Br."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "halogenation_alcene-etape2.svg",
+      "titre": "Le bromure ouvre le pont par l'autre face",
+      "legende": "Le pont occupe une face entière : le bromure ne peut attaquer que par l'autre. C'est une substitution ordinaire, alignée sur la liaison qui se rompt — et c'est elle qui impose la stéréochimie anti.",
+      "fleches": [
+        "Le bromure attaque un carbone du cycle, du côté opposé au pont.",
+        "La liaison carbone–brome du cycle se rompt : le brome redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "halogenation_alcene-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le dibromé. Les deux bromes sont de part et d'autre du plan, jamais du même côté — et c'est cette régularité qui prouve que le pont existe.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "halohydrine": {
+    "1": {
+      "fichier": "halohydrine-etape1.svg",
+      "titre": "Le pont se forme, comme toujours",
+      "legende": "Rien de nouveau : le brome ferme son cycle à trois atomes et libère un bromure. Tout se jouera à l'étape suivante.",
+      "fleches": [
+        "Un doublet libre du brome forme la première liaison carbone–brome.",
+        "Les électrons de la double liaison ferment le pont.",
+        "Le second brome s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "halohydrine-etape2.svg",
+      "titre": "L'eau ouvre le pont — du côté le plus substitué",
+      "legende": "L'eau est un attaquant médiocre, mais elle est le solvant : elle gagne par le nombre. Et elle attaque le carbone le PLUS entouré, contre toute attente — parce que le pont est dissymétrique et que la charge positive naissante se loge de ce côté-là.",
+      "fleches": [
+        "Un doublet de l'eau attaque le carbone le plus substitué.",
+        "La liaison carbone–brome de ce côté se rompt : le pont s'ouvre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "halohydrine-etape3.svg",
+      "titre": "Le proton en trop s'en va",
+      "legende": "Une autre molécule d'eau retire le proton : on obtient la bromhydrine, un alcool portant un brome sur le carbone voisin.",
+      "fleches": [
+        "Une molécule d'eau attrape le proton en excès.",
+        "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "halohydrine-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "La bromhydrine : le OH sur le carbone le plus substitué, le brome sur l'autre. Traitée par une base, elle se referme en époxyde — c'est souvent le vrai but de l'opération.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydratation_acide_alcene": {
+    "1": {
+      "fichier": "hydratation_acide_alcene-etape1.svg",
+      "titre": "L'alcène capte un proton",
+      "legende": "Exactement la déshydratation d'un alcool parcourue à l'envers. Le carbone qui se retrouve en manque est ici tertiaire : il tient le coup, donc la réaction peut avoir lieu.",
+      "fleches": [
+        "Les électrons de la double liaison captent un proton du milieu acide.",
+        "Les électrons de la liaison O–H restent à l'oxygène : il repart en molécule d'eau."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydratation_acide_alcene-etape2.svg",
+      "titre": "L'eau vient combler le manque",
+      "legende": "L'eau est partout — c'est le solvant. Elle se lie au carbone en manque d'électrons.",
+      "fleches": [
+        "Un doublet de l'eau forme la liaison avec le carbone positif."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydratation_acide_alcene-etape3.svg",
+      "titre": "Le proton est rendu",
+      "legende": "Une autre molécule d'eau retire le proton en trop : l'alcool est neutre, et l'acide a été rendu au milieu.",
+      "fleches": [
+        "Une molécule d'eau attrape le proton en excès.",
+        "Les électrons de la liaison O–H reviennent à l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "hydratation_acide_alcene-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcool tertiaire. Chauffe-le avec de l'acide concentré et tu remonteras le chemin en sens inverse : c'est le même équilibre, lu dans l'autre sens.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxymercuration": {
+    "1": {
+      "fichier": "oxymercuration-etape1.svg",
+      "titre": "L'alcène attaque le mercure",
+      "legende": "Le mercure est un électrophile mou, l'alcène un nucléophile mou : de gros nuages électroniques souples, qui se reconnaissent. Un acétate part au passage. Clayden représente l'intermédiaire comme un pont — l'ion mercurinium, cousin du bromonium ; les flèches sont écrites ici sous la forme que le comptage des électrons autorise.",
+      "fleches": [
+        "Les électrons de la double liaison forment la liaison carbone–mercure, sur le carbone le moins substitué.",
+        "Un acétate quitte le mercure avec les deux électrons de sa liaison."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxymercuration-etape2.svg",
+      "titre": "L'eau se lie au carbone le plus substitué",
+      "legende": "C'est là que se décide la régiochimie : le OH ira sur le carbone le mieux entouré, celui qui porte la charge. Le pont dissymétrique explique pourquoi ce carbone attire, alors même qu'il est le plus encombré.",
+      "fleches": [
+        "Un doublet de l'eau forme la liaison avec le carbone le plus substitué."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "oxymercuration-etape3.svg",
+      "titre": "Le proton en trop s'en va",
+      "legende": "On a maintenant additionné OH et Hg de part et d'autre de l'ancienne double liaison. Il reste à se débarrasser du métal.",
+      "fleches": [
+        "Une molécule d'eau attrape le proton en excès.",
+        "Les électrons de la liaison O–H reviennent à l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "oxymercuration-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcool, avec le OH sur le carbone le plus substitué — et surtout sans qu'aucun carbocation libre n'ait existé : le squelette ne s'est pas réarrangé. Rendement de 90 % sur cet exemple. La démercuration, elle, passe par des radicaux : on ne la dessine pas avec des flèches courbes.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydroboration": {
+    "1": {
+      "fichier": "hydroboration-etape1.svg",
+      "titre": "Un seul geste : le bore prend, l'hydrogène rend",
+      "legende": "Le bore a une case vide et attend qu'on la remplisse. L'alcène lui donne ses électrons ; dans le même mouvement, un hydrogène passe du bore au carbone. Aucun intermédiaire chargé — donc rien ne peut se réarranger, et les deux nouveaux liens se forment du même côté.",
+      "fleches": [
+        "Les électrons de la double liaison remplissent l'orbitale vide du bore, sur le carbone le moins substitué.",
+        "Dans le même temps, un hydrogène du bore passe sur l'autre carbone."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydroboration-etape2.svg",
+      "titre": "L'anion hydroperoxyde se fixe sur le bore",
+      "legende": "Le mélange H₂O₂ / NaOH fournit HO–O⁻. Il vient occuper cette même case vide du bore, qui se retrouve avec quatre liaisons et une charge négative.",
+      "fleches": [
+        "L'oxygène négatif se lie au bore."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydroboration-etape3.svg",
+      "titre": "Le carbone glisse du bore vers l'oxygène",
+      "legende": "L'étape à regarder de près. La liaison oxygène–oxygène, faible, se rompt en libérant un hydroxyde ; et au moment précis où elle se rompt, le groupe alkyle MIGRE du bore vers l'oxygène. Le carbone ne se détache jamais : il ne peut donc pas se retourner.",
+      "fleches": [
+        "Le carbone quitte le bore et se lie à l'oxygène voisin — sans jamais lâcher prise.",
+        "La liaison O–O se rompt : un ion hydroxyde s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "hydroboration-etape4.svg",
+      "titre": "L'hydroxyde déloge le bore",
+      "legende": "La liaison C–O est en place. Il ne reste qu'à retirer le bore : l'hydroxyde s'en charge, et l'alcoolate obtenu sera protoné à l'acidification.",
+      "fleches": [
+        "L'hydroxyde attaque le bore.",
+        "La liaison oxygène–bore se rompt : l'alcoolate est libéré."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "hydroboration-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le propan-1-ol : le OH sur le carbone le MOINS substitué. Aucune autre méthode d'hydratation ne donne ce résultat — et l'hydrogène ajouté est du même côté que lui.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "epoxydation_peracide": {
+    "1": {
+      "fichier": "epoxydation_peracide-etape1.svg",
+      "titre": "Quatre flèches, un seul geste",
+      "legende": "Clayden parle lui-même d'un « effet spaghetti ». Suis l'ordre : chaque flèche prend ce que la précédente a libéré. L'alcène attaque la liaison O–O ; ces électrons forment le nouveau C=O de l'acide ; l'ancien C=O va chercher le proton ; et les électrons de O–H ferment la seconde liaison carbone-oxygène.",
+      "fleches": [
+        "La double liaison attaque l'oxygène porteur de l'hydrogène : première liaison carbone–oxygène.",
+        "La liaison O–O se rompt ; ses électrons forment la nouvelle double liaison C=O de l'acide.",
+        "Les électrons de l'ancienne double liaison C=O vont chercher le proton.",
+        "Les électrons de la liaison O–H ferment la seconde liaison carbone–oxygène : l'époxyde est formé."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "epoxydation_peracide-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'époxyde, avec 95 % de rendement sur le cyclohexène. Les deux liaisons s'étant formées du même côté et en même temps, la géométrie de l'alcène se retrouve intacte dans le produit.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

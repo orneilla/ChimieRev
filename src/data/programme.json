@@ -137,37 +137,37 @@
         {
           "nom": "Addition de HX (règle de Markovnikov)",
           "niveau": "L2",
-          "id": null
+          "id": "addition_hx"
         },
         {
           "nom": "Hydratation acide des alcènes",
           "niveau": "L2",
-          "id": null
+          "id": "hydratation_acide_alcene"
         },
         {
           "nom": "Halogénation des alcènes (ion ponté)",
           "niveau": "L2",
-          "id": null
+          "id": "halogenation_alcene"
         },
         {
           "nom": "Formation des halohydrines",
           "niveau": "L2",
-          "id": null
+          "id": "halohydrine"
         },
         {
           "nom": "Oxymercuration–démercuration",
           "niveau": "L3",
-          "id": null
+          "id": "oxymercuration"
         },
         {
           "nom": "Hydroboration–oxydation",
           "niveau": "L3",
-          "id": null
+          "id": "hydroboration"
         },
         {
           "nom": "Époxydation par un peracide",
           "niveau": "L3",
-          "id": null
+          "id": "epoxydation_peracide"
         },
         {
           "nom": "Dihydroxylation syn (OsO₄, KMnO₄ froid)",
