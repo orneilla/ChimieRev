@@ -6706,5 +6706,433 @@
         "valide": false
       }
     ]
+  },
+  "snar": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Addition : la charge remonte jusqu'au nitro",
+        "smiles": "[O-][N+](=O)C1=CC=C(Cl)C=C1.[OH-]",
+        "legende": "Ce n'est PAS une SN2 : attaquer par l'arrière obligerait le nucléophile à passer par l'intérieur du cycle, ce qui est absurde. C'est une ADDITION, comme sur un carbonyle. Quatre flèches en cascade portent la charge négative du carbone attaqué jusqu'à l'oxygène du groupe nitro.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde attaque le carbone qui porte le chlore."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison se déplace d'un cran."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Puis d'un cran encore, jusqu'à l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "Et la charge finit sur un oxygène du nitro, qui la supporte très bien."
+          }
+        ],
+        "produit_attendu": "[O-][N+]([O-])=C1C=CC(O)(Cl)C=C1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Élimination : la charge redescend et chasse le chlorure",
+        "smiles": "[O-][N+]([O-])=C1C=CC(O)(Cl)C=C1",
+        "legende": "Exactement la même cascade, à l'envers. L'oxygène rend ses électrons, la double liaison redescend le long du cycle, et le chlorure est expulsé. L'aromaticité revient.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène rend ses électrons à l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La double liaison redescend d'un cran."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Puis d'un cran encore."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "Et le chlorure est expulsé : le cycle est de nouveau aromatique."
+          }
+        ],
+        "produit_attendu": "[O-][N+](=O)c1ccc(O)cc1.[Cl-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "[O-][N+](=O)c1ccc(O)cc1",
+        "legende": "Le para-nitrophénol. Retenez la recette d'une SNAr : un nucléophile oxygéné, azoté ou cyanure ; un halogénure comme groupe partant ; et un carbonyle, un nitro ou un nitrile en ORTHO ou en PARA de ce groupe partant.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "benzyne": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Élimination : on arrache un proton ET le brome",
+        "smiles": "[H]C1=C(Br)C=CC=C1.[NH2-]",
+        "legende": "Le mécanisme le plus étrange de la chimie aromatique, et Clayden le concède : l'intermédiaire est le plus improbable qu'on ait vu. Une base très forte arrache le proton VOISIN du brome ; ses électrons forment une troisième liaison entre les deux carbones ; le bromure s'en va.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'amidure arrache le proton voisin du brome."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Ses électrons forment une troisième liaison carbone–carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "Et le bromure s'en va."
+          }
+        ],
+        "produit_attendu": "C1#CC=CC=C1.N.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Addition : le nucléophile attaque la triple liaison",
+        "smiles": "C1#CC=CC=C1.[NH2-]",
+        "legende": "Cette troisième liaison est très faible — les orbitales sont mal alignées, le cycle ne peut pas s'ouvrir pour les accommoder. Le benzyne est donc ÉLECTROPHILE, contrairement à un alcyne ordinaire, et se laisse attaquer.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'amidure attaque un des deux carbones de la triple liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.35,
+            "libelle": "Et les électrons de cette liaison se replient sur l'autre carbone : un carbanion aromatique."
+          }
+        ],
+        "produit_attendu": "NC1=[C-]C=CC=C1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le carbanion prend un proton",
+        "smiles": "NC1=[C-]C=CC=C1.N([H])([H])[H]",
+        "legende": "L'ammoniac du milieu fournit le proton. On obtient l'aniline. Bilan de la séquence : une élimination suivie d'une addition — l'exact inverse de la SNAr, qui est une addition suivie d'une élimination.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion prend un proton à l'ammoniac."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "L'amidure se reforme : il peut recommencer."
+          }
+        ],
+        "produit_attendu": "Nc1ccccc1.[NH2-]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "La preuve, et elle est décisive",
+        "smiles": "COc1cccc(N)c1",
+        "legende": "Un benzyne a DEUX bouts, et le nucléophile peut attaquer l'un ou l'autre. Sur un aryléther ortho-chloré, on n'obtient pas le produit ortho mais le produit MÉTA : l'attaque a lieu loin du méthoxy, parce que le carbanion y est stabilisé par l'oxygène voisin. Aucun autre mécanisme ne prédirait cela — et c'est une bonne façon de faire des amino-éthers méta, que la substitution électrophile ne donne jamais.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "diazonium_sandmeyer": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "On fabrique NO⁺ à partir du nitrite",
+        "smiles": "[H][O+]([H])N=O",
+        "legende": "Le nitrite de sodium plus un acide, à 0 °C : on obtient l'acide nitreux, puis on le protone une seconde fois. L'eau part, l'oxygène restant vient combler l'azote, et voilà l'ion nitrosonium NO⁺.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                3,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.4,
+            "libelle": "L'eau s'en va."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et le doublet de l'oxygène forme la triple liaison."
+          }
+        ],
+        "produit_attendu": "N#[O+].[H]O[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'amine attaque le nitrosonium",
+        "smiles": "[H]N([H])C1=CC=CC=C1.N#[O+]",
+        "legende": "Le doublet de l'azote de l'aniline attaque l'azote du nitrosonium. La suite — plusieurs transferts de proton et le départ d'une molécule d'eau — est simple mais fastidieuse : elle conduit au sel de diazonium ArN₂⁺. On appelle l'ensemble une diazotation.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'azote de l'amine attaque l'azote du nitrosonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": 0.35,
+            "libelle": "La triple liaison se replie sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[H][N+]([H])(C1=CC=CC=C1)N=O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le diazote s'en va, le nucléophile prend sa place",
+        "smiles": "[N+](#N)C1=CC=CC=C1.[Cl-]",
+        "legende": "Le groupe partant est ici du DIAZOTE — un gaz, et la molécule la plus stable qu'on puisse imaginer. C'est le meilleur groupe partant de toute la chimie organique. Sa perte est si favorable qu'elle rend possible une substitution nucléophile aromatique de type SN1, normalement impensable.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": -0.3,
+            "libelle": "Le diazote s'en va : aucun groupe partant n'est meilleur."
+          },
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                2
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Et le nucléophile — ici un chlorure, apporté par CuCl — prend la place."
+          }
+        ],
+        "produit_attendu": "Clc1ccccc1.N#N",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "La séquence complète, et c'est elle qu'il faut retenir",
+        "smiles": "Clc1ccccc1",
+        "legende": "Nitration, puis réduction, puis diazotation, puis Sandmeyer. Quatre réactions, et l'on remplace un hydrogène aromatique par Cl, Br ou CN — souvent à des positions qu'aucune substitution électrophile n'atteindrait. Clayden le dit : c'est la versatilité du groupe nitro qui fait marcher toute cette séquence.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reduction_nitroarenes": {
+    "etapes": [
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "Nc1ccccc1",
+        "legende": "L'aniline. Deux réactifs au choix, et aucun des neuf ouvrages indexés n'en détaille le mécanisme : on n'écrira donc pas de flèches. Ce qui est établi et suffit à s'en servir : l'hydrogénation sur palladium sur charbon, ou l'étain dans HCl dilué, transforment proprement un nitro aromatique en amine.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "oxydation_chaines_laterales": {
+    "etapes": [
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "OC(=O)c1ccccc1",
+        "legende": "L'acide benzoïque, quelle que soit la longueur de la chaîne de départ. Pas de flèches ici non plus : McMurry écrit que le mécanisme est complexe et passe par des radicaux benzyliques, sans le détailler. On s'arrête où s'arrête la source.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

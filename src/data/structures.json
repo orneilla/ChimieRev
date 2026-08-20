@@ -251,6 +251,26 @@
     "substrat": "effets_substituants-substrat.svg",
     "produit": "effets_substituants-produit.svg"
   },
+  "snar": {
+    "substrat": "snar-substrat.svg",
+    "produit": "snar-produit.svg"
+  },
+  "benzyne": {
+    "substrat": "benzyne-substrat.svg",
+    "produit": "benzyne-produit.svg"
+  },
+  "diazonium_sandmeyer": {
+    "substrat": "diazonium_sandmeyer-substrat.svg",
+    "produit": "diazonium_sandmeyer-produit.svg"
+  },
+  "reduction_nitroarenes": {
+    "substrat": "reduction_nitroarenes-substrat.svg",
+    "produit": "reduction_nitroarenes-produit.svg"
+  },
+  "oxydation_chaines_laterales": {
+    "substrat": "oxydation_chaines_laterales-substrat.svg",
+    "produit": "oxydation_chaines_laterales-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -408,6 +428,15 @@
   },
   "so3": {
     "molecule": "reactif-so3.svg"
+  },
+  "nano2": {
+    "molecule": "reactif-nano2.svg"
+  },
+  "nanh2": {
+    "molecule": "reactif-nanh2.svg"
+  },
+  "cucl": {
+    "molecule": "reactif-cucl.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

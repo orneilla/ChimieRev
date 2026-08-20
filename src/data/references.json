@@ -1402,6 +1402,102 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "snar": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "514–516",
+          "note": "L'impossibilité de la SN2 sur un carbone sp², l'attaque dorsale devant passer par l'intérieur du cycle « d'une manière absurde », d'où la règle générale ; l'impossibilité pratique de la SN1, l'orbitale vacante du cation aryle étant une sp² extérieure au cycle, sans stabilisation par le système π ; la construction du mécanisme d'addition-élimination à partir d'une substitution conjuguée sur une β-fluoroénone, à laquelle on ajoute deux doubles liaisons « qui ne jouent aucun rôle » ; et l'encadré des trois conditions d'une SNAr typique — nucléophile oxygéné, azoté ou cyanure ; halogénure comme groupe partant ; carbonyle, nitro ou nitrile en ortho ou en para."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "520",
+          "note": "Le cas où la stabilisation ne peut pas se faire par mésomérie : sur un cycle polyfluoré, l'effet inductif combiné de trois fluors suffit à stabiliser l'anion intermédiaire, y compris pour une attaque en méta d'une cétone."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "benzyne": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "523–526",
+          "note": "La présentation du mécanisme, que l'ouvrage annonce comme « le plus étrange que vous ayez vu, avec l'intermédiaire le plus improbable » ; les conditions vigoureuses — bromobenzène et soude fondus à haute température, ou NaNH₂ à température plus basse ; le caractère très faible de la troisième liaison et l'électrophilie du benzyne qui en résulte, à l'inverse d'un alcyne ordinaire ; l'appellation d'élimination-addition, inverse de l'addition-élimination de la SNAr ; l'éventail des bases utilisables — oxanions, amidures, carbanions, et le tertiobutylate de potassium dans le DMSO ; la preuve régiochimique décisive, un aryléther ortho-chloré traité par NaNH₂ dans l'ammoniac liquide donnant le produit MÉTA et non ortho, l'attaque ayant lieu loin du méthoxy parce que le carbanion y est stabilisé ; l'intérêt synthétique — accès aux amino-éthers méta, que la substitution électrophile ne donne jamais ; le cas des halogénures para-disubstitués, environ 50:50 avec un simple alkyle ; et le rappel que peu de chimistes crurent d'abord à cette structure."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "diazonium_sandmeyer": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "521",
+          "note": "La préparation de l'ion nitrosonium NO⁺ : protonation du nitrite de sodium vers 0 °C donnant l'acide nitreux, seconde protonation, puis perte d'eau. Les nitrites d'alkyle comme sources alternatives. La diazotation proprement dite — attaque du doublet de l'amine sur NO⁺ puis perte d'eau —, dont l'ouvrage note que le mécanisme « est en fait assez simple, mais qu'il comporte beaucoup de transferts de proton » ; et le contre-ion, base conjuguée de l'acide employé."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "523",
+          "note": "La séquence complète nitration, réduction sur Pd/C, diazotation par NaNO₂/HCl dans l'eau à 5 °C, puis Sandmeyer par CuX avec X = Cl, Br ou CN ; et la conclusion de l'ouvrage : « comme souvent en chimie aromatique, c'est la versatilité du groupe nitro qui fait marcher cette séquence — introduction facile par substitution électrophile, réduction facile, et substitution nucléophile facile de son dérivé diazonium »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "522",
+          "note": "Un exemple de stratégie : des chimistes pharmaceutiques français introduisant un second hydroxyle par la voie diazonium plutôt que de partir d'un composé à deux OH, pour éviter toute ambiguïté d'alkylation. Le groupe nitroso employé plutôt que le nitro, sa réduction par NH₄SH étant plus facile, et l'acétylation de l'amine comme protection avant l'alkylation."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_nitroarenes": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "495",
+          "note": "La réduction du groupe nitro aromatique en amine par l'étain en HCl dilué ou par hydrogénation sur Pd/C, décrite comme « extrêmement importante parce qu'elle transforme le groupe nitro méta-directeur en groupe amino ortho-para directeur », et le schéma de la séquence nitration-substitution-réduction donnant accès aux composés méta autrement difficiles à former. L'ouvrage ne détaille pas le mécanisme de la réduction elle-même."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
+          "pages": "522",
+          "note": "Le groupe nitroso comme alternative plus aisément réduite : le sulfure d'ammonium suffit, là où le nitro demande l'étain ou l'hydrogène."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "483",
+          "note": "La nécessité d'« apprivoiser » l'amine obtenue, trop activante pour être employée telle quelle dans une substitution électrophile ultérieure."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxydation_chaines_laterales": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene, § 16-8",
+          "pages": "556",
+          "note": "L'inertie du noyau aromatique vis-à-vis de KMnO₄ et Na₂Cr₂O₇, réactifs qui coupent pourtant les doubles liaisons éthyléniques ; la conversion des chaînes latérales en groupes carboxyle quelle que soit leur longueur — le butylbenzène donnant l'acide benzoïque à 85 % ; la production industrielle d'environ 40 millions de tonnes annuelles d'acide téréphtalique par oxydation du para-xylène à l'air, catalysée par des sels de cobalt(III), pour les fibres de polyester ; et l'indication que le mécanisme est complexe et met en jeu des radicaux benzyliques, avec la preuve par l'inertie du tert-butylbenzène, dépourvu d'hydrogène benzylique. L'ouvrage ne développe pas ce mécanisme."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "21 — Electrophilic aromatic substitution",
+          "pages": "486",
+          "note": "L'oxydation d'un méthyle par le permanganate de potassium, « réaction plutôt vigoureuse, mais très utile pour transformer les dérivés du toluène en dérivés de l'acide benzoïque », employée dans la synthèse de la saccharine."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

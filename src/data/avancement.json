@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 64,
-  "verifiees": 61,
+  "redigees": 69,
+  "verifiees": 64,
   "relues": 0,
   "familles": [
     {
@@ -475,9 +475,9 @@
       "famille": "Aromatique",
       "bloc": "Socle organique",
       "total": 11,
-      "absente": 5,
-      "redigee": 0,
-      "verifiee": 6,
+      "absente": 0,
+      "redigee": 2,
+      "verifiee": 9,
       "relue": 0,
       "reactions": [
         {
@@ -525,37 +525,37 @@
         {
           "nom": "Substitution nucléophile aromatique (SNAr)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "snar",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Mécanisme par benzyne",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "benzyne",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Sels de diazonium et réaction de Sandmeyer",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "diazonium_sandmeyer",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réduction des nitroarènes",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reduction_nitroarenes",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Oxydation des chaînes latérales",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "oxydation_chaines_laterales",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

@@ -371,27 +371,27 @@
         {
           "nom": "Substitution nucléophile aromatique (SNAr)",
           "niveau": "L3",
-          "id": null
+          "id": "snar"
         },
         {
           "nom": "Mécanisme par benzyne",
           "niveau": "M1",
-          "id": null
+          "id": "benzyne"
         },
         {
           "nom": "Sels de diazonium et réaction de Sandmeyer",
           "niveau": "L3",
-          "id": null
+          "id": "diazonium_sandmeyer"
         },
         {
           "nom": "Réduction des nitroarènes",
           "niveau": "L3",
-          "id": null
+          "id": "reduction_nitroarenes"
         },
         {
           "nom": "Oxydation des chaînes latérales",
           "niveau": "L3",
-          "id": null
+          "id": "oxydation_chaines_laterales"
         }
       ],
       "bloc": "Socle organique"

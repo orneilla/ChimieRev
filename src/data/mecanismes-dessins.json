@@ -2313,5 +2313,148 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "snar": {
+    "1": {
+      "fichier": "snar-etape1.svg",
+      "titre": "Addition : la charge remonte jusqu'au nitro",
+      "legende": "Ce n'est PAS une SN2 : attaquer par l'arrière obligerait le nucléophile à passer par l'intérieur du cycle, ce qui est absurde. C'est une ADDITION, comme sur un carbonyle. Quatre flèches en cascade portent la charge négative du carbone attaqué jusqu'à l'oxygène du groupe nitro.",
+      "fleches": [
+        "L'hydroxyde attaque le carbone qui porte le chlore.",
+        "La double liaison se déplace d'un cran.",
+        "Puis d'un cran encore, jusqu'à l'azote.",
+        "Et la charge finit sur un oxygène du nitro, qui la supporte très bien."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "snar-etape2.svg",
+      "titre": "Élimination : la charge redescend et chasse le chlorure",
+      "legende": "Exactement la même cascade, à l'envers. L'oxygène rend ses électrons, la double liaison redescend le long du cycle, et le chlorure est expulsé. L'aromaticité revient.",
+      "fleches": [
+        "L'oxygène rend ses électrons à l'azote.",
+        "La double liaison redescend d'un cran.",
+        "Puis d'un cran encore.",
+        "Et le chlorure est expulsé : le cycle est de nouveau aromatique."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "snar-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le para-nitrophénol. Retenez la recette d'une SNAr : un nucléophile oxygéné, azoté ou cyanure ; un halogénure comme groupe partant ; et un carbonyle, un nitro ou un nitrile en ORTHO ou en PARA de ce groupe partant.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "benzyne": {
+    "1": {
+      "fichier": "benzyne-etape1.svg",
+      "titre": "Élimination : on arrache un proton ET le brome",
+      "legende": "Le mécanisme le plus étrange de la chimie aromatique, et Clayden le concède : l'intermédiaire est le plus improbable qu'on ait vu. Une base très forte arrache le proton VOISIN du brome ; ses électrons forment une troisième liaison entre les deux carbones ; le bromure s'en va.",
+      "fleches": [
+        "L'amidure arrache le proton voisin du brome.",
+        "Ses électrons forment une troisième liaison carbone–carbone.",
+        "Et le bromure s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "benzyne-etape2.svg",
+      "titre": "Addition : le nucléophile attaque la triple liaison",
+      "legende": "Cette troisième liaison est très faible — les orbitales sont mal alignées, le cycle ne peut pas s'ouvrir pour les accommoder. Le benzyne est donc ÉLECTROPHILE, contrairement à un alcyne ordinaire, et se laisse attaquer.",
+      "fleches": [
+        "L'amidure attaque un des deux carbones de la triple liaison.",
+        "Et les électrons de cette liaison se replient sur l'autre carbone : un carbanion aromatique."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "benzyne-etape3.svg",
+      "titre": "Le carbanion prend un proton",
+      "legende": "L'ammoniac du milieu fournit le proton. On obtient l'aniline. Bilan de la séquence : une élimination suivie d'une addition — l'exact inverse de la SNAr, qui est une addition suivie d'une élimination.",
+      "fleches": [
+        "Le carbanion prend un proton à l'ammoniac.",
+        "L'amidure se reforme : il peut recommencer."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "benzyne-etape4.svg",
+      "titre": "La preuve, et elle est décisive",
+      "legende": "Un benzyne a DEUX bouts, et le nucléophile peut attaquer l'un ou l'autre. Sur un aryléther ortho-chloré, on n'obtient pas le produit ortho mais le produit MÉTA : l'attaque a lieu loin du méthoxy, parce que le carbanion y est stabilisé par l'oxygène voisin. Aucun autre mécanisme ne prédirait cela — et c'est une bonne façon de faire des amino-éthers méta, que la substitution électrophile ne donne jamais.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "diazonium_sandmeyer": {
+    "1": {
+      "fichier": "diazonium_sandmeyer-etape1.svg",
+      "titre": "On fabrique NO⁺ à partir du nitrite",
+      "legende": "Le nitrite de sodium plus un acide, à 0 °C : on obtient l'acide nitreux, puis on le protone une seconde fois. L'eau part, l'oxygène restant vient combler l'azote, et voilà l'ion nitrosonium NO⁺.",
+      "fleches": [
+        "L'eau s'en va.",
+        "Et le doublet de l'oxygène forme la triple liaison."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "diazonium_sandmeyer-etape2.svg",
+      "titre": "L'amine attaque le nitrosonium",
+      "legende": "Le doublet de l'azote de l'aniline attaque l'azote du nitrosonium. La suite — plusieurs transferts de proton et le départ d'une molécule d'eau — est simple mais fastidieuse : elle conduit au sel de diazonium ArN₂⁺. On appelle l'ensemble une diazotation.",
+      "fleches": [
+        "Le doublet de l'azote de l'amine attaque l'azote du nitrosonium.",
+        "La triple liaison se replie sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "diazonium_sandmeyer-etape3.svg",
+      "titre": "Le diazote s'en va, le nucléophile prend sa place",
+      "legende": "Le groupe partant est ici du DIAZOTE — un gaz, et la molécule la plus stable qu'on puisse imaginer. C'est le meilleur groupe partant de toute la chimie organique. Sa perte est si favorable qu'elle rend possible une substitution nucléophile aromatique de type SN1, normalement impensable.",
+      "fleches": [
+        "Le diazote s'en va : aucun groupe partant n'est meilleur.",
+        "Et le nucléophile — ici un chlorure, apporté par CuCl — prend la place."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "diazonium_sandmeyer-etape4.svg",
+      "titre": "La séquence complète, et c'est elle qu'il faut retenir",
+      "legende": "Nitration, puis réduction, puis diazotation, puis Sandmeyer. Quatre réactions, et l'on remplace un hydrogène aromatique par Cl, Br ou CN — souvent à des positions qu'aucune substitution électrophile n'atteindrait. Clayden le dit : c'est la versatilité du groupe nitro qui fait marcher toute cette séquence.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_nitroarenes": {
+    "3": {
+      "fichier": "reduction_nitroarenes-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'aniline. Deux réactifs au choix, et aucun des neuf ouvrages indexés n'en détaille le mécanisme : on n'écrira donc pas de flèches. Ce qui est établi et suffit à s'en servir : l'hydrogénation sur palladium sur charbon, ou l'étain dans HCl dilué, transforment proprement un nitro aromatique en amine.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxydation_chaines_laterales": {
+    "3": {
+      "fichier": "oxydation_chaines_laterales-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'acide benzoïque, quelle que soit la longueur de la chaîne de départ. Pas de flèches ici non plus : McMurry écrit que le mécanisme est complexe et passe par des radicaux benzyliques, sans le détailler. On s'arrête où s'arrête la source.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
