@@ -5424,5 +5424,608 @@
         "valide": false
       }
     ]
+  },
+  "anhydrides": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le carboxylate attaque le chlorure d'acyle",
+        "smiles": "CC(=O)Cl.CC(=O)[O-]",
+        "legende": "On descend l'échelle d'un cran : du chlorure d'acyle vers l'anhydride. Le carboxylate, anion, est un nucléophile convenable ; l'acide dont il vient a un pKa d'environ 5.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carboxylate attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(Cl)OC(C)=O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le chlorure part, parce qu'il part mieux",
+        "smiles": "CC([O-])(Cl)OC(C)=O",
+        "legende": "Deux partants possibles : le chlorure ou le carboxylate. On tranche par les pKa — HCl est bien plus fort qu'un acide carboxylique, donc Cl⁻ est bien plus stable, donc c'est lui qui s'en va. Sur l'exemple de Clayden : 64 % à 23 °C en six heures.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "Le chlorure s'en va : il est le meilleur groupe partant des deux."
+          }
+        ],
+        "produit_attendu": "CC(=O)OC(C)=O.[Cl-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'amine attaque l'anhydride",
+        "smiles": "CC(=O)OC(C)=O.CN([H])[H]",
+        "legende": "Voilà ce qu'on fait d'un anhydride : on le fait attaquer par un nucléophile. Une amine neutre suffit — quelques heures à température ambiante. Un alcool neutre, lui, mettrait un temps considérable ; mais son alcoolate réagirait en quelques secondes à 0 °C.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'azote attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(OC(C)=O)[N+](C)([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Effondrement et transfert de proton",
+        "smiles": "CC([O-])(OC(C)=O)[N+](C)([H])[H]",
+        "legende": "Quatre flèches. Le carbonyle se reforme, le carboxylate s'en va — et il emporte au passage le proton en trop de l'azote. Bilan : un amide et un acide carboxylique. La moitié de l'anhydride a servi, l'autre moitié est perdue : c'est le prix de la méthode.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "Le carboxylate s'en va."
+          },
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                9
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et il prend aussitôt le proton en excès porté par l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote redevient neutre : l'amide est formé."
+          }
+        ],
+        "produit_attendu": "CC(=O)N(C)[H].CC(=O)O[H]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)NC",
+        "legende": "L'amide, et un équivalent d'acide acétique. L'anhydride acétique est le réactif d'acétylation le plus courant du laboratoire : moins violent qu'un chlorure d'acyle, assez réactif pour se passer de catalyseur avec les amines.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "couplage_peptidique": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le DCC transforme l'acide en ester activé",
+        "smiles": "CC(=O)O[H].C1CCCCC1N=C=NC1CCCCC1",
+        "legende": "Un carbodiimide est une molécule affamée d'oxygène : elle finira en urée, l'un des motifs les plus stables de la chimie organique. C'est cette avidité qui active l'acide. Quatre flèches, et l'acide devient un ester à très bon groupe partant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                4
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'azote du carbodiimide prend le proton acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.3,
+            "libelle": "L'oxygène garde ses électrons : c'est maintenant un carboxylate."
+          },
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                12
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Il attaque le carbone central du carbodiimide."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": 0.3,
+            "libelle": "Et les électrons de la double liaison C=N se replient sur l'azote."
+          }
+        ],
+        "produit_attendu": "CC(=O)OC(=NC1CCCCC1)N([H])C1CCCCC1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'amine attaque l'ester activé",
+        "smiles": "CC(=O)OC(=NC1CCCCC1)N([H])C1CCCCC1.CN([H])[H]",
+        "legende": "L'ester obtenu est bien plus électrophile qu'un ester ordinaire, parce que ce qu'il expulsera — une urée — est extraordinairement stable. L'amine du second acide aminé n'a plus qu'à se présenter.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 21
+            },
+            "vers": {
+              "liaison": [
+                21,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'azote de l'amine attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(OC(=NC1CCCCC1)N([H])C1CCCCC1)[N+](C)([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'urée s'en va, et elle précipite",
+        "smiles": "CC([O-])(OC(=NC1CCCCC1)N([H])C1CCCCC1)[N+](C)([H])[H]",
+        "legende": "L'intermédiaire s'effondre. Ce qui part devient la dicyclohexylurée — un solide très peu soluble, qui précipite et qu'on retire par simple filtration. Un transfert de proton achève l'affaire : on a l'amide, c'est-à-dire la liaison peptidique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "Et le groupe activé s'en va, emportant les électrons."
+          }
+        ],
+        "produit_attendu": "CC(=O)[N+](C)([H])[H].[O-]C(=NC1CCCCC1)N([H])C1CCCCC1",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)NC",
+        "legende": "Une liaison peptidique. Le sous-produit, la dicyclohexylurée, a précipité : on filtre. C'est cette commodité qui a fait la fortune du DCC.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reduction_esters": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un premier hydrure attaque l'ester",
+        "smiles": "CC(=O)OC.[Al-]([H])([H])([H])[H]",
+        "legende": "Comme toujours avec l'hydrure d'aluminium, la flèche part d'une LIAISON Al–H et non de la charge. NaBH₄, plus doux, ne réduirait pas cet ester.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons d'une liaison Al–H forment la liaison C–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([H])([O-])OC.[AlH3]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'intermédiaire s'effondre en aldéhyde",
+        "smiles": "CC([H])([O-])OC",
+        "legende": "Le méthanolate s'en va et l'on obtient un aldéhyde. Et voilà le problème : un aldéhyde est PLUS réactif que l'ester dont il vient. Il ne survivra pas.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène reforme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.4,
+            "libelle": "L'alcoolate s'en va."
+          }
+        ],
+        "produit_attendu": "CC([H])=O.[O-]C",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Un second hydrure finit le travail",
+        "smiles": "CC([H])=O.[Al-]([H])([H])([H])[H]",
+        "legende": "L'aldéhyde est réduit sur-le-champ : on obtient un alcoolate, puis l'alcool après traitement aqueux. Impossible de s'arrêter à l'aldéhyde avec LiAlH₄ — il faut changer de réactif.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons d'une liaison Al–H forment la seconde liaison C–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.35,
+            "libelle": "Et les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([H])([H])[O-].[AlH3]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient, et comment s'arrêter avant",
+        "smiles": "CCO",
+        "legende": "L'éthanol. Pour obtenir l'ALDÉHYDE, il faut le DIBAL à −78 °C dans le toluène : à cette température l'intermédiaire tétraédrique ne s'effondre pas, et l'aldéhyde n'apparaît qu'au traitement aqueux — quand il n'y a plus de réducteur. 88 % de dodécanal à partir du dodécanoate de méthyle.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "amides_weinreb": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'organolithien attaque, et s'arrête là",
+        "smiles": "CC(=O)N(C)OC.C[Li]",
+        "legende": "L'addition est celle qu'on connaît. Ce qui change, c'est la suite : l'intermédiaire tétraédrique NE S'EFFONDRE PAS. Le métal est retenu par les deux oxygènes à la fois — on appelle cela une chélation —, et l'ensemble tient bon jusqu'au traitement aqueux.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbanion de l'organolithien attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "Les électrons de la double liaison se replient sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "CC([O-])(C)N(C)OC.[Li+]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le traitement aqueux protone l'alcoolate",
+        "smiles": "CC([O-])(C)N(C)OC.[O+]([H])([H])[H]",
+        "legende": "On ajoute de l'eau acidulée à la fin. Ce geste fait deux choses à la fois : il protone l'alcoolate, et il détruit l'organolithien qui resterait. La cétone ne sera donc pas attaquée une seconde fois.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate prend un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau récupère ses électrons."
+          }
+        ],
+        "produit_attendu": "CC(O[H])(C)N(C)OC.O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Maintenant seulement, la cétone apparaît",
+        "smiles": "CC(O[H])(C)[N+](C)(OC)[H].O",
+        "legende": "L'azote protoné devient un bon groupe partant. Quatre flèches, et la cétone est libérée — au moment précis où plus rien ne peut l'attaquer.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Une molécule d'eau prend le proton de l'hydroxyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène garde ses électrons."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Il reforme aussitôt la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.4,
+            "libelle": "Et la N,O-diméthylhydroxylamine s'en va."
+          }
+        ],
+        "produit_attendu": "CC(C)=O.CN(OC)[H].[OH3+]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(C)=O",
+        "legende": "Une cétone propre, et une seule fois. Le problème que cette méthode résout : à partir d'un ester ordinaire, l'organolithien attaquerait la cétone formée et donnerait un alcool tertiaire. Ici, c'est impossible.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

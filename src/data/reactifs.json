@@ -928,5 +928,71 @@
     ],
     "explication_reference": "Alcool employé à la fois comme réactif et comme solvant dans les estérifications et les transestérifications. Nucléophile faible, il n'attaque un acide carboxylique qu'après protonation de celui-ci ; son alcoolate, obtenu par une quantité catalytique de base, est en revanche un nucléophile puissant. Son emploi en large excès permet de déplacer l'équilibre d'estérification (Clayden p. 205, 208-209).",
     "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ apporter le groupe OMe d'un ester.\n\nPOURQUOI IL EST SI PEU PRESSÉ\n\nParce que son oxygène est électronégatif : il tient à ses électrons et ne les partage pas volontiers.\n\nClayden mesure cette faiblesse d'une façon parlante : une amine réagit avec l'anhydride acétique en quelques heures à température ambiante, un alcool met un temps considérable — mais un ALCOOLATE réagit en quelques secondes à 0 °C.\n\nDEUX FAÇONS DE L'AIDER\n\nSoit on réveille l'électrophile : une trace d'acide protone le carbonyle, qui devient assez affamé pour se contenter d'un alcool.\n\nSoit on renforce le nucléophile : une trace de base faible déprotone une petite fraction de l'alcool, et cette fraction-là fait tout le travail.\n\nNotez qu'il n'est pas nécessaire de déprotoner tout l'alcool. Une quantité catalytique de base suffit — c'est un point que Clayden souligne.\n\nSON AUTRE RÔLE\n\nOn l'emploie souvent comme SOLVANT en même temps que comme réactif.\n\nCe n'est pas de la paresse : c'est la façon la plus simple de déplacer un équilibre. En noyer un des partenaires, c'est forcer la réaction à aller vers l'autre."
+  },
+  {
+    "id": "dcc",
+    "nom": "DCC",
+    "nom_complet": "dicyclohexylcarbodiimide",
+    "SMILES": "C1CCCCC1N=C=NC1CCCCC1",
+    "role": "Il active un acide carboxylique, et son déchet précipite tout seul",
+    "anatomie_annotations": [
+      {
+        "partie": "le motif N=C=N",
+        "role": "Deux doubles liaisons sur un même carbone. Cette molécule n'a qu'une envie : recevoir un oxygène, pour devenir une urée — l'un des motifs les plus stables de la chimie organique."
+      },
+      {
+        "partie": "les deux cyclohexyles",
+        "role": "Ils ne participent pas au mécanisme. Leur seul rôle est de rendre l'urée finale très peu soluble : elle précipite, et l'on filtre."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_peptidique"
+    ],
+    "explication_reference": "Agent de couplage employé pour l'activation des acides carboxyliques en synthèse peptidique. L'addition du carboxylate sur le carbone central du carbodiimide, assortie du transfert du proton acide sur un azote, engendre un ester d'isourée à fort pouvoir électrophile. L'attaque d'une amine puis l'effondrement de l'intermédiaire tétraédrique libèrent l'amide et la dicyclohexylurée, dont la faible solubilité permet l'élimination par filtration. Le 1-hydroxybenzotriazole lui est fréquemment associé pour former un ester plus activé encore (Clayden p. 747).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ rendre un acide carboxylique attaquable, pour pouvoir en faire un amide.\n\nLE PROBLÈME QU'IL RÉSOUT\n\nAcide plus amine ne donne pas un amide : cela donne un sel. L'amine est basique, elle prend le proton, et tout s'arrête là.\n\nIl faut donc activer l'acide AVANT que l'amine ne le neutralise.\n\nPOURQUOI CETTE MOLÉCULE-LÀ\n\nRegardez sa structure : un carbone tenu entre deux azotes par deux doubles liaisons.\n\nCette molécule a une seule envie dans la vie : recevoir un oxygène. Parce qu'avec un oxygène, elle devient une URÉE — et l'urée est un des motifs les plus stables qui soient.\n\nOn lui donne donc l'oxygène de l'acide.\n\nL'acide devient alors un ester dont le groupe partant sera cette urée. Autrement dit : un groupe partant qui a très envie de partir. C'est la définition même d'un bon groupe partant.\n\nLE DÉTAIL QUI A FAIT SA FORTUNE\n\nLa dicyclohexylurée formée est un solide presque insoluble.\n\nElle précipite dans le ballon. On filtre. C'est fini.\n\nPas de chromatographie, pas de lavage. En synthèse, un sous-produit qui s'élimine tout seul vaut de l'or.\n\nUN AVERTISSEMENT\n\nIl est fortement allergisant par contact. On le manipule ganté, et on ne s'y habitue jamais."
+  },
+  {
+    "id": "dibal",
+    "nom": "DIBAL",
+    "nom_complet": "hydrure de diisobutylaluminium",
+    "SMILES": "CC(C)C[AlH]CC(C)C",
+    "role": "Il réduit un ester en aldéhyde, et s'arrête là",
+    "anatomie_annotations": [
+      {
+        "partie": "l'unique liaison Al–H",
+        "role": "Un seul hydrure à donner, contrairement aux quatre de LiAlH₄. C'est déjà une première limite à la suraddition."
+      },
+      {
+        "partie": "les deux groupes isobutyle",
+        "role": "Volumineux. Ils encombrent l'aluminium et ralentissent l'approche : le réactif est plus lent, donc plus sélectif."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_esters"
+    ],
+    "explication_reference": "Hydrure d'aluminium employé pour la réduction partielle des esters en aldéhydes, opération impraticable avec l'hydrure d'aluminium et de lithium. Conduite à −78 °C dans le toluène, la réaction laisse subsister l'intermédiaire tétraédrique ; l'aldéhyde n'apparaît qu'à l'hydrolyse finale, en l'absence de tout réducteur. Le dodécanoate de méthyle fournit ainsi le dodécanal avec 88 % de rendement (McMurry p. 692). Le réactif convertit également les nitriles en aldéhydes — 96 % sur un exemple — et les lactones en lactols, opérations que Clayden désigne comme « les meilleures choses que fasse le DIBAL » (p. 534).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ s'arrêter à mi-chemin, là où les autres réducteurs vont jusqu'au bout.\n\nLE PROBLÈME\n\nOn réduit un ester. On voudrait un aldéhyde.\n\nMais dès que le premier aldéhyde apparaît, il est PLUS réactif que l'ester dont il vient — et le réducteur se jette dessus. On obtient un alcool.\n\nCe n'est pas une question de dose : le réducteur va toujours au plus réactif.\n\nCOMMENT IL S'EN SORT\n\nPar le froid, et c'est très astucieux.\n\nÀ −78 °C dans le toluène, l'intermédiaire tétraédrique formé après l'addition de l'hydrure NE S'EFFONDRE PAS. Il reste là, immobile.\n\nDonc il n'y a AUCUN aldéhyde dans le ballon pendant toute la réaction.\n\nÀ la fin, on ajoute de l'eau. Elle détruit le réducteur qui restait, et fait s'effondrer l'intermédiaire.\n\nL'aldéhyde apparaît au moment précis où plus rien ne peut l'attaquer. 88 % de rendement.\n\nCE QU'IL FAIT LE MIEUX\n\nClayden est catégorique : réduire les nitriles en aldéhydes, et les lactones en lactols. « Ce sont les meilleures choses que fasse le DIBAL. »\n\nEN PRATIQUE\n\nIl s'enflamme spontanément à l'air. On le manipule en solution, à la seringue, sous atmosphère inerte."
+  },
+  {
+    "id": "anhydride_acetique",
+    "nom": "Anhydride acétique",
+    "nom_complet": "anhydride acétique Ac₂O",
+    "SMILES": "CC(=O)OC(C)=O",
+    "role": "Le réactif d'acétylation ordinaire du laboratoire",
+    "anatomie_annotations": [
+      {
+        "partie": "l'oxygène central",
+        "role": "Il doit partager son doublet entre DEUX carbonyles. Chacun en reçoit donc moitié moins que dans un ester : c'est pourquoi un anhydride est plus réactif qu'un ester."
+      },
+      {
+        "partie": "le carboxylate qui part",
+        "role": "Bon groupe partant — l'acide acétique a un pKa d'environ 5. Mais c'est aussi la moitié de la molécule qui est perdue."
+      }
+    ],
+    "reactions_liees": [
+      "anhydrides"
+    ],
+    "explication_reference": "Anhydride symétrique employé comme réactif d'acylation courant. Sa réactivité, intermédiaire entre celle des chlorures d'acyle et celle des esters, lui permet de réagir sans catalyse avec les amines en quelques heures à température ambiante, tandis que les alcools neutres exigent l'assistance d'une base, fût-elle catalytique. L'oxygène central partageant son doublet entre deux groupes carbonyle, chacun est moins enrichi que dans un ester : d'où l'électrophilie supérieure (Clayden p. 205-206).",
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ poser un groupe acétyle sur un alcool ou sur une amine.\n\nPOURQUOI ON L'EMPLOIE PLUTÔT QUE LE CHLORURE D'ACÉTYLE\n\nParce qu'il est plus tranquille.\n\nLe chlorure d'acétyle fume à l'air, réagit avec l'humidité, et attaque parfois ce qu'on voulait garder.\n\nL'anhydride acétique se conserve, se pèse, se pipette. Et il est encore assez réactif pour travailler sans catalyseur avec une amine.\n\nLe bon réactif n'est presque jamais le plus puissant : c'est celui qui est juste assez puissant.\n\nPOURQUOI IL EST PLUS RÉACTIF QU'UN ESTER\n\nRegardez l'oxygène du milieu. Il a un doublet à prêter, et deux carbonyles qui le réclament.\n\nIl le partage. Chacun n'en reçoit que la moitié.\n\nDans un ester, le carbonyle a son oxygène pour lui tout seul : il est mieux nourri, donc moins affamé, donc moins réactif.\n\nAVEC UN ALCOOL, AJOUTEZ UNE BASE\n\nUn alcool neutre met un temps considérable à réagir. Son alcoolate, quelques secondes à 0 °C.\n\nIl n'est pas nécessaire de tout déprotoner : une trace de pyridine ou de DMAP suffit à entretenir la petite fraction d'alcoolate qui fait tout le travail."
   }
 ]

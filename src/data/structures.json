@@ -211,6 +211,22 @@
     "substrat": "chlorures_acyle-substrat.svg",
     "produit": "chlorures_acyle-produit.svg"
   },
+  "anhydrides": {
+    "substrat": "anhydrides-substrat.svg",
+    "produit": "anhydrides-produit.svg"
+  },
+  "couplage_peptidique": {
+    "substrat": "couplage_peptidique-substrat.svg",
+    "produit": "couplage_peptidique-produit.svg"
+  },
+  "reduction_esters": {
+    "substrat": "reduction_esters-substrat.svg",
+    "produit": "reduction_esters-produit.svg"
+  },
+  "amides_weinreb": {
+    "substrat": "amides_weinreb-substrat.svg",
+    "produit": "amides_weinreb-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -350,6 +366,15 @@
   },
   "meoh_reactif": {
     "molecule": "reactif-meoh_reactif.svg"
+  },
+  "dcc": {
+    "molecule": "reactif-dcc.svg"
+  },
+  "dibal": {
+    "molecule": "reactif-dibal.svg"
+  },
+  "anhydride_acetique": {
+    "molecule": "reactif-anhydride_acetique.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

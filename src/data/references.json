@@ -1168,6 +1168,96 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "anhydrides": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "202",
+          "note": "Le tableau des groupes partants avec les pKa de leurs acides conjugués — chlorure (< 0, excellent), carboxylate (≈ 5, bon), alcoolate (≈ 15, mauvais), amidure (≈ 25, très mauvais), alkyle (> 40, pas un groupe partant) ; et la prédiction du produit de la réaction d'un chlorure d'acyle avec un carboxylate, confirmée par l'expérience : le formiate de sodium et le chlorure d'acétyle donnent l'anhydride mixte à 64 % en six heures à 23 °C."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "205–206",
+          "note": "Les vitesses comparées vis-à-vis de l'anhydride acétique : une amine réagit en quelques heures à température ambiante, un alcool neutre très lentement, un alcoolate en quelques secondes à 0 °C — et une quantité catalytique de base faible suffit à obtenir cet effet. Le tableau d'hydrolyse par l'eau, où l'anhydride est « lent à 20 °C ». Et la note expliquant que le partage du doublet de l'oxygène central entre deux carbonyles rend les anhydrides plus réactifs que les esters."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "couplage_peptidique": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "31 — Aromatic heterocycles 2",
+          "pages": "747",
+          "note": "Le mécanisme d'activation par le DCC : réaction du carbodiimide avec l'acide carboxylique, et l'explication de l'activation — « l'ester produit est activé parce que la substitution par n'importe quel nucléophile expulse cette urée très stable comme groupe partant ». Le rôle du HOBt, ajouté à de nombreux couplages, et le rappel que les chlorures d'acyle d'acides aminés sont inutilisables, trop réactifs et générateurs de réactions parasites."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "553",
+          "note": "L'énoncé du problème : pour coupler leucine et glycine il faut activer l'acide de l'une et faire attaquer l'amine de l'autre, mais les fonctions libres restantes donneraient anhydrides et dipeptides parasites — d'où la nécessité de protéger. Et la remarque que la synthèse peptidique est l'un des rares domaines où des molécules complexes se fabriquent en routine par des machines, grâce à l'efficacité de ses groupes protecteurs."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "556–558",
+          "note": "L'ester de tert-butyle comme protecteur d'acide : préparé à partir de l'isobutène en milieu sulfurique, résistant à l'attaque nucléophile — hydrolyse basique comprise — par encombrement, mais hydrolysé aisément en milieu acide par un mécanisme tout différent, passant par un carbocation tertiaire. Le Cbz comme protecteur d'amine, posé par BnOCOCl et une base, ôté par HBr dans l'acide acétique ou par hydrogénolyse sur palladium. Et les esters activés de p-nitrophényle et de 2,4,6-trichlorophényle, employés faute de pouvoir utiliser les chlorures d'acyle."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_esters": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "217",
+          "note": "Le mécanisme complet de la réduction des esters par LiAlH₄, et l'énoncé du problème : l'effondrement de l'intermédiaire tétraédrique donne un aldéhyde, plus réactif que l'ester de départ, d'où une seconde réduction inévitable. Le borohydrure de sodium ne réduit habituellement pas les esters."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "531–532",
+          "note": "L'échelle des réducteurs : LiAlH₄ souvent le meilleur mais dangereux — l'ouvrage note qu'il « a provoqué d'innombrables incendies par négligence » ; LiBH₄ en solution alcoolique comme alternative plus douce, avec une sélectivité pour les esters vis-à-vis des acides et des amides que LiAlH₄ n'a pas ; NaBH₄ très lent sur les esters ; et BH₃, qui ne touche pas aux chlorures d'acyle, réduit lentement les esters mais très bien les acides et les amides, par formation d'un triacylborate où l'oxygène partage son doublet entre le carbonyle et l'orbitale vide du bore. L'exemple des chimistes japonais obtenant les deux lactones énantiomères à partir du même composé, selon qu'ils emploient LiBH₄ ou BH₃."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "534",
+          "note": "Le DIBAL pour réduire les nitriles en aldéhydes — 96 % sur un exemple — et les lactones en lactols : « ce sont les meilleures choses que fasse le DIBAL »."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "19 — Aldehydes and Ketones, § 19-2",
+          "pages": "692",
+          "note": "La réduction partielle d'un ester par DIBAH comme méthode de laboratoire importante pour préparer les aldéhydes : conditions −78 °C dans le toluène, 88 % de dodécanal à partir du dodécanoate de méthyle, et la remarque que des processus mécanistiquement voisins se rencontrent dans les voies biologiques."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "amides_weinreb": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "216–218",
+          "note": "L'énoncé du problème « faire des cétones à partir d'esters », diagnostiqué comme un problème de réactivité : le produit est plus réactif que le substrat. Les deux stratégies possibles — rendre le départ plus réactif, ou rendre le produit moins réactif — et la première mise en œuvre : chlorure d'acyle plus organomagnésien (81 %), puis transmétallation au cuivre, les organocuprates étant trop peu réactifs pour attaquer la cétone formée mais réagissant bien avec le chlorure d'acyle — 97 % sur un intermédiaire de la synthèse de la septamycine."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
+          "pages": "219–220",
+          "note": "Les amides de Weinreb, amides N-méthoxy-N-méthylés, dont l'addition d'un organolithien ou d'un organomagnésien donne un intermédiaire tétraédrique stabilisé par CHÉLATION du métal par les deux oxygènes — l'ouvrage définit au passage la chélation comme « la coordination de plus d'un atome donneur d'électrons d'une molécule à un même atome métallique ». Les deux stratégies voisines : le dianion obtenu par trois équivalents d'organolithien sur un acide carboxylique, dépourvu de groupe partant, qui ne s'effondre qu'au traitement aqueux via la cétone hydratée (65 % sur un intermédiaire de macrolide) ; et le nitrile, dont l'intermédiaire est un anion d'imine « pas électrophile du tout — en fait plutôt nucléophile ». Et le résumé final du chapitre, qui pose les quatre questions à se poser devant toute substitution acyle."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

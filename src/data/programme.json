@@ -303,7 +303,7 @@
         {
           "nom": "Anhydrides : formation et réactivité",
           "niveau": "L3",
-          "id": null
+          "id": "anhydrides"
         },
         {
           "nom": "Transestérification",
@@ -313,17 +313,17 @@
         {
           "nom": "Formation des amides (couplage peptidique)",
           "niveau": "M1",
-          "id": null
+          "id": "couplage_peptidique"
         },
         {
           "nom": "Réduction des esters (DIBAL, LiAlH₄)",
           "niveau": "L3",
-          "id": null
+          "id": "reduction_esters"
         },
         {
           "nom": "Amides de Weinreb",
           "niveau": "M2",
-          "id": null
+          "id": "amides_weinreb"
         },
         {
           "nom": "Échelle de réactivité des dérivés d’acide",

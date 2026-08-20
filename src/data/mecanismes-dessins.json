@@ -1881,5 +1881,194 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "anhydrides": {
+    "1": {
+      "fichier": "anhydrides-etape1.svg",
+      "titre": "Le carboxylate attaque le chlorure d'acyle",
+      "legende": "On descend l'échelle d'un cran : du chlorure d'acyle vers l'anhydride. Le carboxylate, anion, est un nucléophile convenable ; l'acide dont il vient a un pKa d'environ 5.",
+      "fleches": [
+        "Le carboxylate attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "anhydrides-etape2.svg",
+      "titre": "Le chlorure part, parce qu'il part mieux",
+      "legende": "Deux partants possibles : le chlorure ou le carboxylate. On tranche par les pKa — HCl est bien plus fort qu'un acide carboxylique, donc Cl⁻ est bien plus stable, donc c'est lui qui s'en va. Sur l'exemple de Clayden : 64 % à 23 °C en six heures.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "Le chlorure s'en va : il est le meilleur groupe partant des deux."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "anhydrides-etape3.svg",
+      "titre": "L'amine attaque l'anhydride",
+      "legende": "Voilà ce qu'on fait d'un anhydride : on le fait attaquer par un nucléophile. Une amine neutre suffit — quelques heures à température ambiante. Un alcool neutre, lui, mettrait un temps considérable ; mais son alcoolate réagirait en quelques secondes à 0 °C.",
+      "fleches": [
+        "Le doublet de l'azote attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "anhydrides-etape4.svg",
+      "titre": "Effondrement et transfert de proton",
+      "legende": "Quatre flèches. Le carbonyle se reforme, le carboxylate s'en va — et il emporte au passage le proton en trop de l'azote. Bilan : un amide et un acide carboxylique. La moitié de l'anhydride a servi, l'autre moitié est perdue : c'est le prix de la méthode.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "Le carboxylate s'en va.",
+        "Et il prend aussitôt le proton en excès porté par l'azote.",
+        "L'azote redevient neutre : l'amide est formé."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "anhydrides-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'amide, et un équivalent d'acide acétique. L'anhydride acétique est le réactif d'acétylation le plus courant du laboratoire : moins violent qu'un chlorure d'acyle, assez réactif pour se passer de catalyseur avec les amines.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "couplage_peptidique": {
+    "1": {
+      "fichier": "couplage_peptidique-etape1.svg",
+      "titre": "Le DCC transforme l'acide en ester activé",
+      "legende": "Un carbodiimide est une molécule affamée d'oxygène : elle finira en urée, l'un des motifs les plus stables de la chimie organique. C'est cette avidité qui active l'acide. Quatre flèches, et l'acide devient un ester à très bon groupe partant.",
+      "fleches": [
+        "L'azote du carbodiimide prend le proton acide.",
+        "L'oxygène garde ses électrons : c'est maintenant un carboxylate.",
+        "Il attaque le carbone central du carbodiimide.",
+        "Et les électrons de la double liaison C=N se replient sur l'azote."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "couplage_peptidique-etape2.svg",
+      "titre": "L'amine attaque l'ester activé",
+      "legende": "L'ester obtenu est bien plus électrophile qu'un ester ordinaire, parce que ce qu'il expulsera — une urée — est extraordinairement stable. L'amine du second acide aminé n'a plus qu'à se présenter.",
+      "fleches": [
+        "Le doublet de l'azote de l'amine attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "couplage_peptidique-etape3.svg",
+      "titre": "L'urée s'en va, et elle précipite",
+      "legende": "L'intermédiaire s'effondre. Ce qui part devient la dicyclohexylurée — un solide très peu soluble, qui précipite et qu'on retire par simple filtration. Un transfert de proton achève l'affaire : on a l'amide, c'est-à-dire la liaison peptidique.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "Et le groupe activé s'en va, emportant les électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "couplage_peptidique-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une liaison peptidique. Le sous-produit, la dicyclohexylurée, a précipité : on filtre. C'est cette commodité qui a fait la fortune du DCC.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_esters": {
+    "1": {
+      "fichier": "reduction_esters-etape1.svg",
+      "titre": "Un premier hydrure attaque l'ester",
+      "legende": "Comme toujours avec l'hydrure d'aluminium, la flèche part d'une LIAISON Al–H et non de la charge. NaBH₄, plus doux, ne réduirait pas cet ester.",
+      "fleches": [
+        "Les électrons d'une liaison Al–H forment la liaison C–H.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_esters-etape2.svg",
+      "titre": "L'intermédiaire s'effondre en aldéhyde",
+      "legende": "Le méthanolate s'en va et l'on obtient un aldéhyde. Et voilà le problème : un aldéhyde est PLUS réactif que l'ester dont il vient. Il ne survivra pas.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "L'alcoolate s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reduction_esters-etape3.svg",
+      "titre": "Un second hydrure finit le travail",
+      "legende": "L'aldéhyde est réduit sur-le-champ : on obtient un alcoolate, puis l'alcool après traitement aqueux. Impossible de s'arrêter à l'aldéhyde avec LiAlH₄ — il faut changer de réactif.",
+      "fleches": [
+        "Les électrons d'une liaison Al–H forment la seconde liaison C–H.",
+        "Et les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "reduction_esters-etape4.svg",
+      "titre": "Ce qu'on obtient, et comment s'arrêter avant",
+      "legende": "L'éthanol. Pour obtenir l'ALDÉHYDE, il faut le DIBAL à −78 °C dans le toluène : à cette température l'intermédiaire tétraédrique ne s'effondre pas, et l'aldéhyde n'apparaît qu'au traitement aqueux — quand il n'y a plus de réducteur. 88 % de dodécanal à partir du dodécanoate de méthyle.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "amides_weinreb": {
+    "1": {
+      "fichier": "amides_weinreb-etape1.svg",
+      "titre": "L'organolithien attaque, et s'arrête là",
+      "legende": "L'addition est celle qu'on connaît. Ce qui change, c'est la suite : l'intermédiaire tétraédrique NE S'EFFONDRE PAS. Le métal est retenu par les deux oxygènes à la fois — on appelle cela une chélation —, et l'ensemble tient bon jusqu'au traitement aqueux.",
+      "fleches": [
+        "Le carbanion de l'organolithien attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison se replient sur l'oxygène."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "amides_weinreb-etape2.svg",
+      "titre": "Le traitement aqueux protone l'alcoolate",
+      "legende": "On ajoute de l'eau acidulée à la fin. Ce geste fait deux choses à la fois : il protone l'alcoolate, et il détruit l'organolithien qui resterait. La cétone ne sera donc pas attaquée une seconde fois.",
+      "fleches": [
+        "L'alcoolate prend un proton.",
+        "L'eau récupère ses électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "amides_weinreb-etape3.svg",
+      "titre": "Maintenant seulement, la cétone apparaît",
+      "legende": "L'azote protoné devient un bon groupe partant. Quatre flèches, et la cétone est libérée — au moment précis où plus rien ne peut l'attaquer.",
+      "fleches": [
+        "Une molécule d'eau prend le proton de l'hydroxyle.",
+        "L'oxygène garde ses électrons.",
+        "Il reforme aussitôt la double liaison C=O.",
+        "Et la N,O-diméthylhydroxylamine s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "amides_weinreb-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une cétone propre, et une seule fois. Le problème que cette méthode résout : à partir d'un ester ordinaire, l'organolithien attaquerait la cétone formée et donnerait un alcool tertiaire. Ici, c'est impossible.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

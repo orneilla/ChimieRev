@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 54,
-  "verifiees": 51,
+  "redigees": 58,
+  "verifiees": 55,
   "relues": 0,
   "familles": [
     {
@@ -392,9 +392,9 @@
       "famille": "Substitution acyle",
       "bloc": "Socle organique",
       "total": 10,
-      "absente": 4,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 6,
+      "verifiee": 10,
       "relue": 0,
       "reactions": [
         {
@@ -428,9 +428,9 @@
         {
           "nom": "Anhydrides : formation et réactivité",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "anhydrides",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Transestérification",
@@ -442,23 +442,23 @@
         {
           "nom": "Formation des amides (couplage peptidique)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_peptidique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réduction des esters (DIBAL, LiAlH₄)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reduction_esters",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Amides de Weinreb",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "amides_weinreb",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Échelle de réactivité des dérivés d’acide",
