@@ -109,8 +109,31 @@ function liaisonsDe(molecule) {
  * Dessine une espèce, avec ses atomes et liaisons mis en jeu surlignés.
  * Renvoie le contenu SVG et le centre de chaque atome.
  */
-function dessinerEspece(smiles, misEnJeu) {
+/**
+ * Construit la molécule d'une espèce, en choisissant l'algorithme de mise
+ * en page.
+ *
+ * CoordGen place bien mieux les atomes hypervalents — le périodinane de
+ * Dess-Martin, avec ses cinq liaisons autour d'un même iode, se dessinait
+ * autrement en tas illisible, chaîne et cycle superposés. Mais il échoue
+ * sur une espèce réduite à un seul atome : il ne rend aucune coordonnée,
+ * et l'ion hydrure disparaît du schéma. On le réserve donc aux espèces
+ * qui ont au moins une liaison.
+ */
+function moleculeDe(smiles) {
+  const brute = RDKit.get_mol(smiles, JSON.stringify({ removeHs: false }))
+  if (!brute || !brute.is_valid()) return brute
+  const seul = brute.get_num_atoms() === 1
+  if (seul) return brute
+  brute.delete()
+  RDKit.prefer_coordgen(true)
   const molecule = RDKit.get_mol(smiles, JSON.stringify({ removeHs: false }))
+  RDKit.prefer_coordgen(false)
+  return molecule
+}
+
+function dessinerEspece(smiles, misEnJeu) {
+  const molecule = moleculeDe(smiles)
   if (!molecule || !molecule.is_valid()) {
     if (molecule) molecule.delete()
     throw new Error(`SMILES illisible : ${smiles}`)

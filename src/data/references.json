@@ -1870,6 +1870,252 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "oxydation_alcools_pcc": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "195",
+          "note": "Pourquoi une base ne suffit pas et pourquoi il faut un OXYDANT : il faut retirer du carbone un hydrogène ET un doublet, et l'ion hydrure ne part pas. Le mécanisme cyclique sur l'ester de Cr(VI), et la réduction du chrome en Cr(IV) puis Cr(III)."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "544",
+          "note": "Le panorama des oxydants : ceux qui sont chimiosélectifs des doubles liaisons C=C — peracides, OsO₄, ozone — et ceux qui le sont des alcools — composés du Cr(VI) et du Mn(VII). Le Cr(VI) n'oxyde pas les alcènes ; les peracides n'oxydent pas les alcools."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "545",
+          "note": "Comment s'arrêter à l'aldéhyde : la suroxydation passe par l'hydrate, donc il faut supprimer l'eau. Le PCC et le PDC dans le dichlorométhane ; leurs structures. Le TPAP catalytique avec la NMO comme oxydant stœchiométrique, 97 % de rendement, et l'argument des déchets métalliques."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and phenols",
+          "pages": "550",
+          "note": "Le tableau d'ensemble : alcool primaire vers aldéhyde ou acide, secondaire vers cétone, tertiaire inerte."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and phenols",
+          "pages": "551",
+          "note": "Le mécanisme rapproché de l'E2 : substitution sur le métal ou l'iode, puis expulsion de l'élément réduit comme groupe partant. Et le conseil pratique — Dess-Martin pour un alcool précieux, dichromate bon marché pour les grandes quantités."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxydation_jones": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "195",
+          "note": "Le mécanisme de l'oxydation chromique, par l'ester de Cr(VI) et le mécanisme cyclique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "545",
+          "note": "Pourquoi les méthodes aqueuses ne conviennent pas si l'on veut l'aldéhyde : l'aldéhyde s'hydrate, et l'oxydant traite l'hydrate comme un alcool. Le PCC comme solution pour les alcools sensibles à l'acide."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "546",
+          "note": "La suroxydation quand c'est elle qu'on veut : Cr(VI) ou Mn(VII) en solution aqueuse, permanganate acide ou basique ; le mécanisme au départ de l'aldéhyde, lui aussi par l'hydrate."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and phenols",
+          "pages": "551",
+          "note": "Le 1-décanol oxydé en acide décanoïque par CrO₃ aqueux, 93 % — l'aldéhyde étant un intermédiaire non isolable ; et la 4-tert-butylcyclohexanone à 91 % avec Na₂Cr₂O₇ dans l'acide acétique aqueux."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxydation_swern": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "545",
+          "note": "La présentation du réactif : le DMSO, un sulfoxyde soufre(IV), réduit en sulfure soufre(II) ; le bilan avec le chlorure d'oxalyle et la triéthylamine, et les sous-produits Me₂S, CO, CO₂ et HCl."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "27 — Sulfur, silicon, and phosphorus in organic chemistry",
+          "pages": "668",
+          "note": "Le mécanisme complet : formation de l'ion chlorosulfonium par le chlorure d'oxalyle, avec dégagement de CO et CO₂ ; l'alcool resté spectateur jusque-là ; l'ion alcoxysulfonium ; la formation de l'ylure par Et₃N ; et l'élimination finale à travers un cycle à cinq — que Clayden annonce comme une réaction péricyclique."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxydation_dess_martin": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "545",
+          "note": "La préparation du périodinane à partir de l'acide 2-iodobenzoïque — KBrO₃ puis Ac₂O —, l'avertissement sur le caractère explosif de l'intermédiaire à sec, et l'exemple de l'alcool allylique cis oxydé sans isomérisation."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and phenols",
+          "pages": "551",
+          "note": "Le mécanisme : substitution entre l'alcool et le réactif à l'iode(V) pour former un nouveau périodinane, puis expulsion de l'iode(III) réduit comme groupe partant — schéma d'élimination bimoléculaire. Et le conseil d'emploi : réaction non acide, à basse température, pour un alcool sensible ou coûteux."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "baeyer_villiger": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "953",
+          "note": "L'histoire — Baeyer et Villiger, 1899 — et le principe : le peracide, comme le diazométhane, est un nucléophile porteur d'un bon groupe partant ; la parenté de l'intermédiaire avec celui d'un semipinacol."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "954",
+          "note": "Le tableau chiffré des aptitudes à la migration sur les phénylcétones avec CF₃CO₃H : Me 90/0, Et 87/6, i-Pr 33/63, t-Bu 2/77. L'ordre t-alkyle > sec-alkyle ≈ aryle > Et > Me, et son explication par la stabilisation de la charge positive. La régiosélectivité qui en découle."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "955",
+          "note": "La rétention de configuration comme règle générale, même quand l'inversion donnerait un produit plus stable : 63 % du diastéréoisomère syn ; et 87 % de rendement avec 98,5 % de rétention sur une cétone benzylique. La chimiosélectivité de H₂O₂ seul, qui n'époxyde pas les alcènes riches."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_clemmensen": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "540",
+          "note": "La phrase qui compte : la réduction de Clemmensen « est la plus simple à mettre en œuvre, mais a le mécanisme le plus compliqué » ; sa violence, et sa limitation aux composés monofonctionnels. Les trois méthodes de suppression d'un carbonyle mises côte à côte — thioacétal et nickel de Raney, Wolff-Kishner, Clemmensen."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "542",
+          "note": "Les réductions par dissolution de métal comme famille : Sn/HCl sur les nitroarènes, le Clemmensen, la réduction de Birch. Le principe commun — les électrons libérés par l'ionisation du métal sont les réducteurs les plus simples qui soient."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Friedel–Crafts and other electrophilic aromatic substitutions",
+          "pages": "494",
+          "note": "L'emploi classique : après une acylation de Friedel-Crafts, l'amalgame de zinc dans l'acide chlorhydrique donne le n-alkylbenzène — précisément le composé que l'alkylation directe ne sait pas faire proprement."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_wolff_kishner": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "540",
+          "note": "Le mécanisme complet : déprotonation de l'hydrazone par la soude concentrée et chaude, perte de diazote, formation de l'anion alkyle et protonation immédiate par l'eau. Et l'alternative par thioacétal et nickel de Raney, fondée sur la faiblesse des liaisons C–S devant les liaisons C–O."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "541",
+          "note": "La synthèse de la muscalure, phéromone de la mouche domestique : l'acide érucique du colza converti en cétone par deux équivalents de méthyllithium, puis Wolff-Kishner — hydrazine puis KOH à chaud."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydrogenation_asymetrique": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1117",
+          "note": "Le rappel des méthodes de réduction énantiosélective des composés carbonylés, avant d'aborder l'hydrogénation asymétrique des alcènes."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1118",
+          "note": "Le cycle catalytique du catalyseur de Wilkinson — addition oxydante, complexe π à 18 électrons, insertion migratoire, élimination réductrice — et l'idée qui rend la réaction asymétrique : remplacer les deux triphénylphosphines par des phosphines chirales, qui restent coordinées pendant tout le mécanisme. Le BINAP comme diphosphine chélatante, et sa chiralité axiale."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1119",
+          "note": "Les deux procédés industriels : (S)-naproxène et (R)-citronellol, ce dernier à plus de 98 % d'excès énantiomérique avec moins de 1 % de ruthénium. Et le cas NutraSweet : 22 g de complexe ruthénium–(S)-BINAP pour 50 kg de produit à 90 % d'excès."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1120",
+          "note": "La préparation du BINAP énantiopur par cristallisation d'un sel du di-O-benzoyl-L-tartrate puis réduction de l'oxyde de phosphine ; et la comparaison entre hydrogénation asymétrique — qui crée des centres sans créer de fonction — et oxydation asymétrique."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_nitriles_amides": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "531",
+          "note": "Les mécanismes de la réduction des esters et des amides écrits côte à côte, et l'étape où ils divergent : l'ester perd son alcoolate et donne un aldéhyde puis un alcool ; l'amide perd son oxygène — assisté par l'aluminium — et donne un iminium puis une amine. Le LiBH₄ comme alternative plus sûre au LiAlH₄, avec une sélectivité que ce dernier n'a pas."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "532",
+          "note": "Le borane : formation d'un triacylborate avec les acides carboxyliques, et pourquoi ce carbonyle devient plus réactif qu'un ester ordinaire — l'oxygène doit partager son doublet avec l'orbitale vide du bore. Les sélectivités opposées du borane et du borohydrure de lithium."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "533",
+          "note": "Le mécanisme détaillé de la réduction d'un amide par le borane, jusqu'à l'ion iminium."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Chemoselectivity and protecting groups",
+          "pages": "534",
+          "note": "Comment s'arrêter à l'aldéhyde : sur un amide, à 0 °C, l'intermédiaire tétraédrique est assez stable et s'effondre en aldéhyde — 80 % de rendement. Sur un nitrile, le DIBAL à −70 °C donne l'aldéhyde à 96 %. Le tableau récapitulatif des agents réducteurs."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "20 — Carboxylic acids and nitriles",
+          "pages": "671",
+          "note": "Le mécanisme de la réduction d'un nitrile par LiAlH₄ : addition d'hydrure, anion d'imine, seconde addition, dianion — et le rôle de la complexation acide-base de Lewis avec l'aluminium, sans laquelle la seconde addition serait très difficile."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "coupure_oxydante_diols": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "19 — Electrophilic addition to alkenes",
+          "pages": "443",
+          "note": "La coupure complète d'une double liaison : oxyder la liaison π puis la liaison σ. Le couple OsO₄/NaIO₄, l'ester périodique et son mécanisme cyclique, et le fait que le périodate réoxyde l'osmium — d'où l'emploi catalytique de ce dernier. Le périodate coupe par ailleurs n'importe quel diol. Comparaison avec l'ozonolyse, qui fait les deux oxydations d'un coup."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

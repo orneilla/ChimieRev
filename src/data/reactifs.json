@@ -1435,5 +1435,414 @@
         "note": "L'iminium apporté tout fait"
       }
     ]
+  },
+  {
+    "id": "pcc",
+    "nom": "PCC",
+    "nom_complet": "chlorochromate de pyridinium",
+    "SMILES": "[O-][Cr](=O)(=O)Cl.c1cc[nH+]cc1",
+    "role": "Oxydant du chrome(VI), employé en milieu ANHYDRE",
+    "anatomie_annotations": [
+      {
+        "partie": "le chrome au degré VI",
+        "role": "C'est lui qui encaisse les électrons de l'alcool ; il finit au degré III."
+      },
+      {
+        "partie": "la pyridine protonée",
+        "role": "Elle n'est pas là pour décorer : sa forme neutre sert de base à l'étape d'élimination."
+      },
+      {
+        "partie": "l'absence d'eau dans le flacon",
+        "role": "C'est LA propriété du réactif : sans eau, l'aldéhyde formé ne s'hydrate pas, donc il n'est pas suroxydé."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_alcools_pcc"
+    ],
+    "explication_reference": "Sel de pyridinium de l'acide chlorochromique, employé en suspension dans le dichlorométhane anhydre. Il oxyde les alcools primaires en aldéhydes et les alcools secondaires en cétones selon le mécanisme général des oxydations chromiques — estérification sur le métal puis élimination — sans suroxydation, l'absence d'eau interdisant la formation de l'hydrate intermédiaire. Moins acide que l'acide chromique, il convient aux substrats sensibles à l'acide.",
+    "explication_comprendre": "À QUOI SERT-IL ? À oxyder un alcool primaire en aldéhyde, et à S'ARRÊTER LÀ.\n\nCE QUI LE REND CAPABLE DE S'ARRÊTER : rien dans sa structure. C'est le fait qu'on l'emploie SANS EAU.\n\nSuivez le raisonnement, il vaut mieux qu'une liste : dans l'eau, l'aldéhyde formé s'hydrate et devient un gem-diol ; un gem-diol, pour le chrome, ressemble à un alcool ; il l'oxyde donc une seconde fois, et l'on obtient un acide.\n\nPas d'eau, pas d'hydrate. Pas d'hydrate, pas de seconde oxydation.\n\nLE DEUXIÈME AVANTAGE : il est moins acide que l'acide chromique. Un alcool fragile en milieu acide passera ici sans dommage.\n\nCE QU'IL LAISSE DERRIÈRE LUI : des sels de chrome, qui sont des déchets toxiques. C'est son seul vrai défaut, et la raison pour laquelle on lui préfère aujourd'hui le TPAP catalytique ou le périodinane de Dess-Martin quand le substrat le mérite.",
+    "reactions_exemples": [
+      {
+        "nom": "Oxydation d'un alcool primaire",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC=O",
+        "note": "Dans le dichlorométhane anhydre : on s'arrête à l'aldéhyde"
+      }
+    ]
+  },
+  {
+    "id": "pdc",
+    "nom": "PDC",
+    "nom_complet": "dichromate de pyridinium",
+    "SMILES": "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1",
+    "role": "Cousin du PCC, particulièrement adapté à l'oxydation en aldéhyde",
+    "anatomie_annotations": [
+      {
+        "partie": "le pont oxygène entre deux chromes",
+        "role": "Le dichromate porte deux atomes de chrome(VI) : deux fois plus de capacité oxydante par molécule."
+      },
+      {
+        "partie": "deux pyridiniums",
+        "role": "Ils équilibrent la double charge négative du dichromate."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_alcools_pcc"
+    ],
+    "explication_reference": "Sel de pyridinium de l'acide dichromique, employé comme le chlorochromate en milieu anhydre. Clayden le signale comme particulièrement adapté à l'oxydation des alcools primaires en aldéhydes. Il est légèrement moins acide que le chlorochromate.",
+    "explication_comprendre": "QUELLE DIFFÉRENCE AVEC LE PCC ? Très peu, et c'est l'essentiel à retenir.\n\nMême métal, même degré d'oxydation, même mécanisme, même solvant sec. Le dichromate porte simplement DEUX chromes reliés par un oxygène au lieu d'un seul chrome et d'un chlore.\n\nEN PRATIQUE : il est un peu moins acide, et Clayden le donne comme particulièrement adapté quand c'est l'ALDÉHYDE qu'on veut (p. 545).\n\nCE QU'IL FAUT EN CONCLURE : entre PCC et PDC, on essaie l'un puis l'autre. Ce n'est pas un choix de principe, c'est un choix de paillasse.",
+    "reactions_exemples": [
+      {
+        "nom": "Oxydation d'un alcool primaire",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC=O",
+        "note": "Anhydre, comme le PCC"
+      }
+    ]
+  },
+  {
+    "id": "tpap",
+    "nom": "TPAP",
+    "nom_complet": "perruthénate de tétra-n-propylammonium",
+    "SMILES": "CCC[N+](CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O",
+    "role": "Oxydant très doux, employé en quantité CATALYTIQUE",
+    "anatomie_annotations": [
+      {
+        "partie": "le ruthénium(VII)",
+        "role": "L'oxydant. Réduit au cours de la réaction, il est aussitôt régénéré par la NMO."
+      },
+      {
+        "partie": "le cation tétrapropylammonium",
+        "role": "Il rend le sel soluble en milieu organique — sans lui, le perruthénate resterait dans l'eau."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_alcools_pcc"
+    ],
+    "explication_reference": "Sel d'ammonium quaternaire de l'ion perruthénate, soluble en milieu organique. Employé en quantité catalytique en présence de N-méthylmorpholine-N-oxyde, qui joue le rôle d'oxydant stœchiométrique et réoxyde le ruthénium réduit. Il oxyde les alcools primaires en aldéhydes dans des conditions très douces, ce qui le rend adapté aux substrats fortement fonctionnalisés.",
+    "explication_comprendre": "POURQUOI l'inventer alors que le PCC existe ?\n\nPour une raison qui n'est pas chimique mais pratique : les oxydations au chrome produisent des MONTAGNES de déchets métalliques toxiques, parce qu'il faut un équivalent entier — souvent plus — d'oxydant par molécule.\n\nCOMMENT LE TPAP RÈGLE LE PROBLÈME : il travaille en catalyse. Quelques pourcents suffisent.\n\nMais alors, qui fait le travail d'oxydation ? La NMO, un oxydant organique bon marché. Elle ne touche pas directement à l'alcool : elle se contente de REMETTRE À NIVEAU le ruthénium après chaque tour.\n\nDeux acteurs, deux rôles : le ruthénium a la finesse, la NMO a le volume.\n\nC'est le schéma général de toute la catalyse d'oxydation moderne, et il vaut la peine d'être reconnu.\n\nUN CHIFFRE : 97 % de rendement sur un aldéhyde très fonctionnalisé, dans l'exemple de Clayden (p. 545).",
+    "reactions_exemples": [
+      {
+        "nom": "Oxydation douce",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC=O",
+        "note": "Catalytique, avec NMO comme oxydant stœchiométrique"
+      }
+    ]
+  },
+  {
+    "id": "dess_martin",
+    "nom": "Périodinane de Dess-Martin",
+    "nom_complet": "1,1,1-triacétoxy-1,1-dihydro-1,2-benziodoxol-3(1H)-one",
+    "SMILES": "CC(=O)O[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21",
+    "role": "Oxydant à l'iode(V), doux et neutre",
+    "anatomie_annotations": [
+      {
+        "partie": "l'iode entouré de cinq liaisons",
+        "role": "Un iode HYPERVALENT, au degré V. C'est lui qui encaisse les électrons ; il finit au degré III."
+      },
+      {
+        "partie": "les trois acétates",
+        "role": "L'alcool prend la place de l'un d'eux ; un autre sert de base à l'élimination. Ils partent en acide acétique — un acide faible, d'où la douceur de la méthode."
+      },
+      {
+        "partie": "le cycle accolé au benzène",
+        "role": "Il tient l'iode en place et stabilise l'ensemble."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_dess_martin"
+    ],
+    "explication_reference": "Composé de l'iode au degré V, préparé à partir de l'acide 2-iodobenzoïque par oxydation au bromate de potassium puis acétylation. Il oxyde les alcools en composés carbonylés en milieu neutre et à température ambiante, par substitution d'un ligand acétate puis élimination avec expulsion de l'iode(III). L'acide 2-iodoxybenzoïque intermédiaire présente un caractère explosif à l'état sec ; le périodinane s'emploie en solution.",
+    "explication_comprendre": "POURQUOI DE L'IODE ? Parce qu'il faut un atome capable d'encaisser deux électrons, et que l'iode entouré d'oxygènes sait très bien le faire.\n\nUn iode ordinaire fait une liaison. Celui-ci en fait CINQ : on parle d'iode hypervalent, et il est au degré d'oxydation V. En rendant deux liaisons, il redescend au degré III.\n\nC'est exactement le service que rendait le chrome — sans le chrome.\n\nSES TROIS AVANTAGES, ET ILS PÈSENT LOURD : pas de métal lourd ; milieu neutre, donc aucun risque pour un substrat sensible à l'acide ; et température ambiante, alors que la Swern exige −78 °C.\n\nCE QU'IL SAIT FAIRE QUE PEU SAVENT : oxyder un alcool allylique CIS sans l'isomériser en trans. Clayden en fait son exemple type (p. 545).\n\nUN AVERTISSEMENT À NE PAS SAUTER : l'intermédiaire de sa préparation, appelé IBX, est EXPLOSIF à sec. Clayden l'écrit en majuscules dans son schéma. Le périodinane lui-même se manipule et s'emploie en solution, jamais séché.",
+    "reactions_exemples": [
+      {
+        "nom": "Oxydation douce d'un alcool",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC=O",
+        "note": "Température ambiante, milieu neutre"
+      }
+    ]
+  },
+  {
+    "id": "chlorure_oxalyle",
+    "nom": "Chlorure d'oxalyle",
+    "nom_complet": "dichlorure de l'acide oxalique",
+    "SMILES": "ClC(=O)C(=O)Cl",
+    "role": "Activateur du DMSO — il n'oxyde rien lui-même",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux carbonyles accolés",
+        "role": "Extrêmement électrophiles. C'est là que le DMSO attaque."
+      },
+      {
+        "partie": "les deux chlores",
+        "role": "Le premier part comme groupe partant, le second revient sur le soufre : c'est lui qui fabrique l'ion chlorosulfonium."
+      },
+      {
+        "partie": "le squelette qui finit en CO et CO₂",
+        "role": "Deux gaz. Un gaz qui quitte le ballon ne revient pas : c'est le moteur irréversible de toute la séquence."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_swern"
+    ],
+    "explication_reference": "Dichlorure de l'acide oxalique, employé dans l'oxydation de Swern à titre d'activateur du diméthylsulfoxyde. Il n'intervient pas comme oxydant : son rôle est de convertir le sulfoxyde en ion chlorosulfonium, porteur d'un nucléofuge. Le squelette oxalyle se fragmente en monoxyde et dioxyde de carbone, dégagement gazeux qui rend l'activation irréversible.",
+    "explication_comprendre": "ATTENTION AU CONTRESENS LE PLUS FRÉQUENT : ce n'est PAS lui l'oxydant.\n\nL'oxydant de la réaction de Swern, c'est le DMSO. Le chlorure d'oxalyle ne fait que le préparer.\n\nQUE PRÉPARE-T-IL, AU JUSTE ? Un soufre qui porte un groupe partant.\n\nLe DMSO tel quel a un oxygène nucléophile mais rien à céder. Après passage par le chlorure d'oxalyle, on obtient un ion chlorosulfonium : un soufre positif portant un chlore. Ce chlore-là, l'alcool va le remplacer — et c'est ainsi que l'alcool se retrouve accroché au soufre.\n\nCE QUI REND L'OPÉRATION IRRÉVERSIBLE : le squelette oxalyle se défait en CO et CO₂. Deux gaz qui s'échappent.\n\nMANIPULATION : très réactif avec l'eau, corrosif, à employer sous hotte et à froid.",
+    "reactions_exemples": [
+      {
+        "nom": "Activation du DMSO",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC=O",
+        "note": "Avec DMSO puis Et₃N, à −78 °C"
+      }
+    ]
+  },
+  {
+    "id": "et3n",
+    "nom": "Et₃N",
+    "nom_complet": "triéthylamine",
+    "SMILES": "CCN(CC)CC",
+    "role": "Base tertiaire non nucléophile, employée deux fois dans la Swern",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote et son doublet",
+        "role": "Le site basique."
+      },
+      {
+        "partie": "les trois éthyles",
+        "role": "Aucun hydrogène sur l'azote, et un encombrement modéré : elle prend les protons sans jamais rester accrochée à ce qu'elle attaque."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_swern"
+    ],
+    "explication_reference": "Amine tertiaire employée comme base dans de nombreuses réactions où l'on doit neutraliser un acide ou déprotoner un intermédiaire sans introduire de nucléophile. Dans l'oxydation de Swern, elle intervient deux fois : pour retirer le proton de l'alcool lié au soufre, puis pour engendrer l'ylure par déprotonation d'un méthyle du sulfonium.",
+    "explication_comprendre": "À QUOI SERT UNE BASE TERTIAIRE ? À prendre des protons SANS RIEN FAIRE D'AUTRE.\n\nUne amine primaire ou secondaire attaquerait les électrophiles du milieu — elle laisserait des amides, des imines, des ennuis. Une amine TERTIAIRE ne peut pas : après avoir attaqué, elle n'aurait aucun proton à perdre pour se stabiliser, donc elle repart.\n\nDANS LA SWERN, elle travaille deux fois : d'abord elle retire le proton de l'alcool accroché au soufre, ensuite elle fabrique l'ylure en déprotonant un méthyle.\n\nQUAND ON L'AJOUTE : EN DERNIER. Ce n'est pas un détail de protocole — si elle arrive trop tôt, elle déprotone les mauvaises espèces et la séquence déraille.\n\nSON ODEUR : forte, poissonneuse. Comme beaucoup d'amines.",
+    "reactions_exemples": [
+      {
+        "nom": "Base de la Swern",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC=O",
+        "note": "Ajoutée en dernier, à −78 °C"
+      }
+    ]
+  },
+  {
+    "id": "cro3",
+    "nom": "CrO₃",
+    "nom_complet": "trioxyde de chrome",
+    "SMILES": "O=[Cr](=O)=O",
+    "role": "Oxydant du chrome(VI) en milieu aqueux acide — le réactif de Jones",
+    "anatomie_annotations": [
+      {
+        "partie": "le chrome au degré VI",
+        "role": "Il accepte deux électrons par oxydation, passe au degré IV puis, par d'autres réactions, au Cr(III) vert."
+      },
+      {
+        "partie": "les trois oxygènes doublement liés",
+        "role": "L'un d'eux se replie sur lui-même pour laisser l'alcool se lier au métal : c'est la première étape."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_jones"
+    ],
+    "explication_reference": "Oxyde de chrome(VI), employé en solution aqueuse acide — réactif de Jones — pour oxyder les alcools secondaires en cétones et les alcools primaires en acides carboxyliques. Le caractère aqueux du milieu impose la suroxydation des alcools primaires, l'aldéhyde intermédiaire s'hydratant en gem-diol que l'oxydant traite comme un alcool. Le dichromate de sodium dans l'acide acétique aqueux lui est préféré sur grande échelle pour des raisons de coût.",
+    "explication_comprendre": "C'EST LE MÊME OXYDANT QUE DANS LE PCC, employé autrement.\n\nMême métal, même degré, même mécanisme. Une seule chose change : ICI IL Y A DE L'EAU.\n\nET L'EAU CHANGE TOUT, sur un alcool primaire : l'aldéhyde formé s'hydrate en gem-diol, le gem-diol ressemble à un alcool, le chrome l'oxyde une seconde fois, et l'on obtient un acide carboxylique.\n\nSur un alcool SECONDAIRE, aucun risque : la cétone n'a plus d'hydrogène sur le carbone porteur, il n'y a rien à retirer.\n\nCOULEURS, ET C'EST UTILE À LA PAILLASSE : le Cr(VI) est orange, le Cr(III) est vert. Le virage vous dit que la réaction avance — c'est d'ailleurs le principe de l'ancien éthylotest.\n\nDANGERS : le chrome(VI) est cancérogène, et le milieu est fortement acide. On ne l'emploie plus quand on peut faire autrement.",
+    "reactions_exemples": [
+      {
+        "nom": "Oxydation de Jones",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC(=O)O",
+        "note": "En milieu aqueux : on va jusqu'à l'acide"
+      }
+    ]
+  },
+  {
+    "id": "kmno4",
+    "nom": "KMnO₄",
+    "nom_complet": "permanganate de potassium",
+    "SMILES": "[K+].[O-][Mn](=O)(=O)=O",
+    "role": "Oxydant puissant du manganèse(VII)",
+    "anatomie_annotations": [
+      {
+        "partie": "le manganèse au degré VII",
+        "role": "Le maximum possible pour cet élément. Il accepte les électrons et descend au degré IV — le dioxyde brun — ou II."
+      },
+      {
+        "partie": "la charge négative",
+        "role": "Le permanganate est un anion, soluble dans l'eau, d'un violet profond qui disparaît quand il réagit."
+      }
+    ],
+    "reactions_liees": [
+      "oxydation_jones",
+      "oxydation_chaines_laterales"
+    ],
+    "explication_reference": "Sel de potassium de l'ion permanganate, oxydant du manganèse(VII). Il oxyde les alcools primaires et les aldéhydes en acides carboxyliques, en solution aqueuse acide ou basique, par un mécanisme voisin de celui des oxydations chromiques : formation d'une liaison entre l'hydroxyle et le métal, puis élimination. Il oxyde également les chaînes latérales benzyliques et coupe les alcènes.",
+    "explication_comprendre": "C'EST L'UN DES OXYDANTS LES PLUS PUISSANTS DU LABORATOIRE, et il faut le savoir avant de l'employer.\n\nLE MÉCANISME EST CELUI DU CHROME : l'oxygène de l'alcool se lie au métal, puis une base retire l'hydrogène du carbone et le métal encaisse les électrons. Clayden les traite d'ailleurs ensemble (p. 544).\n\nCE QU'IL FAIT DE PLUS QUE LE CHROME : il oxyde aussi les chaînes latérales des aromatiques — n'importe quelle chaîne portant un hydrogène benzylique finit en acide benzoïque — et il coupe les alcènes.\n\nAUTREMENT DIT : il ne fait pas dans la nuance. Sur une molécule polyfonctionnelle, il attaquera plusieurs endroits à la fois.\n\nUN REPÈRE VISUEL : la solution est violette. Quand elle brunit — c'est le MnO₂ qui précipite — la réaction a eu lieu.",
+    "reactions_exemples": [
+      {
+        "nom": "Alcool primaire vers acide",
+        "substrat_SMILES": "CCCO",
+        "produit_SMILES": "CCC(=O)O",
+        "note": "En solution aqueuse acide ou basique"
+      }
+    ]
+  },
+  {
+    "id": "hydrazine",
+    "nom": "Hydrazine",
+    "nom_complet": "hydrazine H₂N–NH₂",
+    "SMILES": "NN",
+    "role": "Apporte les deux azotes qui partiront en diazote",
+    "anatomie_annotations": [
+      {
+        "partie": "le premier azote",
+        "role": "Il se condense sur le carbonyle et forme l'hydrazone."
+      },
+      {
+        "partie": "le second azote",
+        "role": "Ses hydrogènes sont retirés par la base ; c'est lui qui emporte l'autre en formant N₂."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_wolff_kishner"
+    ],
+    "explication_reference": "Diamine employée dans la réduction de Wolff-Kishner, où elle se condense sur un aldéhyde ou une cétone pour former une hydrazone. Le traitement par une base concentrée et chaude en provoque la déprotonation puis la fragmentation, avec dégagement de diazote et formation d'un carbanion. Elle sert également à la préparation des hydrazones employées comme dérivés d'identification.",
+    "explication_comprendre": "POURQUOI DEUX AZOTES ACCOLÉS ?\n\nParce que deux azotes accolés savent faire quelque chose d'unique : partir ensemble sous forme de DIAZOTE.\n\nEt le diazote est un gaz, extraordinairement stable, qui quitte le ballon et ne revient jamais.\n\nCOMMENT ON S'EN SERT : on condense l'hydrazine sur une cétone. Le premier azote prend la place de l'oxygène et l'on obtient une hydrazone, C=N–NH₂. Le second azote reste au bout, disponible.\n\nENSUITE la base fait son travail, et les deux azotes s'échappent en emportant l'idée même du carbonyle : il ne reste qu'un CH₂.\n\nCE QUE CE DÉPART REND POSSIBLE, ET C'EST REMARQUABLE : un CARBANION nu, sans rien pour le stabiliser. Une espèce qu'on n'obtient presque jamais aussi simplement. Elle est payée par l'entropie du gaz qui part.\n\nDANGER : l'hydrazine est toxique et cancérogène suspectée. Elle se manipule sous hotte, avec des gants.",
+    "reactions_exemples": [
+      {
+        "nom": "Réduction de Wolff-Kishner",
+        "substrat_SMILES": "CC(=O)c1ccccc1",
+        "produit_SMILES": "CCc1ccccc1",
+        "note": "Avec KOH à 200 °C"
+      }
+    ]
+  },
+  {
+    "id": "zn_hg",
+    "nom": "Zn(Hg)",
+    "nom_complet": "zinc amalgamé",
+    "SMILES": "[Zn]",
+    "role": "Réducteur par dissolution de métal, en milieu acide fort",
+    "anatomie_annotations": [
+      {
+        "partie": "le zinc métallique",
+        "role": "Il s'ionise en Zn²⁺ et libère des électrons. Ce sont eux les vrais réducteurs."
+      },
+      {
+        "partie": "le mercure de l'amalgame",
+        "role": "Il ne fait aucune chimie : il dissout la surface du zinc et l'empêche de se passiver sous une couche d'oxyde."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_clemmensen"
+    ],
+    "explication_reference": "Zinc amalgamé au mercure, employé en milieu chlorhydrique concentré pour la réduction de Clemmensen. Il appartient à la famille des réductions par dissolution de métal, où l'ionisation du métal libère des électrons qui réduisent tout groupement pourvu d'une orbitale π de basse énergie. Le mercure ne participe pas à la réaction : il maintient la surface du zinc active en empêchant sa passivation.",
+    "explication_comprendre": "COMMENT UN MÉTAL RÉDUIT-IL QUELQUE CHOSE ?\n\nEn s'ionisant. Le zinc devient Zn²⁺ et abandonne deux électrons.\n\nEt un électron libre est le RÉDUCTEUR LE PLUS SIMPLE QUI SOIT : il n'a rien à négocier, il se loge dans la première orbitale vide de basse énergie qu'il trouve.\n\nUn carbonyle en a une. Un cycle aromatique aussi — c'est la réduction de Birch. Un groupe nitro aussi — c'est Sn/HCl sur les nitroarènes.\n\nMême principe, trois réactions différentes. Clayden les regroupe pour cette raison (p. 542).\n\nET LE MERCURE, ALORS ?\n\nIl ne fait pas de chimie. Il amalgame le zinc, c'est-à-dire qu'il en dissout la surface et l'empêche de se couvrir d'oxyde.\n\nUn zinc passivé ne donne plus d'électrons. Le mercure garde la surface propre.\n\nC'est un problème d'état de surface, pas de mécanisme — et c'est aussi pourquoi les protocoles modernes cherchent à s'en passer : le mercure est très toxique.",
+    "reactions_exemples": [
+      {
+        "nom": "Réduction de Clemmensen",
+        "substrat_SMILES": "CC(=O)c1ccccc1",
+        "produit_SMILES": "CCc1ccccc1",
+        "note": "Dans HCl concentré, à chaud"
+      }
+    ]
+  },
+  {
+    "id": "naio4",
+    "nom": "NaIO₄",
+    "nom_complet": "périodate de sodium",
+    "SMILES": "[Na+].[O-][I+2]([O-])([O-])[O-]",
+    "role": "Coupe les diols-1,2 en deux composés carbonylés",
+    "anatomie_annotations": [
+      {
+        "partie": "l'iode au degré VII",
+        "role": "Le maximum pour cet élément. Il accepte deux électrons et descend au degré V."
+      },
+      {
+        "partie": "les quatre oxygènes",
+        "role": "Deux d'entre eux seront remplacés par les deux oxygènes du diol : c'est ce qui forme le cycle à cinq."
+      }
+    ],
+    "reactions_liees": [
+      "coupure_oxydante_diols",
+      "dihydroxylation_syn"
+    ],
+    "explication_reference": "Sel de sodium de l'ion périodate, oxydant de l'iode(VII). Il coupe la liaison carbone–carbone des diols vicinaux par formation d'un ester périodique cyclique à cinq chaînons, dont la décomposition concertée livre deux composés carbonylés. Associé au tétroxyde d'osmium, il permet la coupure complète d'un alcène tout en réoxydant l'osmium, ce qui autorise l'emploi catalytique de ce dernier.",
+    "explication_comprendre": "À QUOI SERT-IL ? À couper une molécule en deux, exactement entre les deux carbones qui portent des OH.\n\nCOMMENT IL S'Y PREND, ET C'EST L'IDÉE À RETENIR : il ne tire pas sur la liaison carbone–carbone. Il commence par ATTACHER LES DEUX OXYGÈNES DU DIOL SUR LE MÊME IODE.\n\nCela forme un cycle de cinq atomes — deux carbones, deux oxygènes, un iode. Et ce cycle-là se défait tout seul, d'un mouvement circulaire : la liaison C–C se rompt, deux C=O apparaissent, l'iode encaisse deux électrons.\n\nCONSÉQUENCE QU'IL FAUT VOIR : si le cycle à cinq ne peut pas se former, rien ne se passe. Un diol trans bloqué sur un cycle rigide ne sera pas coupé. Ici, ce n'est pas la réactivité qui décide, c'est la GÉOMÉTRIE.\n\nSON PLUS BEL EMPLOI : associé au tétroxyde d'osmium. L'osmium fabrique le diol à partir d'un alcène, le périodate le coupe — et au passage il RÉOXYDE l'osmium, qui repart pour un tour.\n\nRésultat : quelques pourcents d'un métal très cher et très toxique suffisent, le périodate bon marché faisant le gros du travail.",
+    "reactions_exemples": [
+      {
+        "nom": "Coupure d'un diol",
+        "substrat_SMILES": "CC(O)C(C)O",
+        "produit_SMILES": "CC=O",
+        "note": "Deux molécules d'éthanal"
+      }
+    ]
+  },
+  {
+    "id": "binap",
+    "nom": "BINAP",
+    "nom_complet": "2,2'-bis(diphénylphosphino)-1,1'-binaphtyle",
+    "SMILES": "P(c1ccccc1)(c1ccccc1)c1ccc2ccccc2c1-c1c(P(c2ccccc2)c2ccccc2)ccc2ccccc12",
+    "role": "Ligand diphosphine chiral, à chiralité AXIALE",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux atomes de phosphore",
+        "role": "Ils tiennent le métal en tenaille. Un ligand bidente ne se détache pas facilement : le métal reste dans son environnement chiral pendant tout le cycle."
+      },
+      {
+        "partie": "la liaison entre les deux naphtalènes",
+        "role": "Elle ne peut PAS tourner librement — les cycles se gênent. La molécule reste vrillée, comme une hélice."
+      },
+      {
+        "partie": "l'absence de tout carbone asymétrique",
+        "role": "Et pourtant elle est chirale : c'est une chiralité AXIALE, et il faut savoir la reconnaître."
+      }
+    ],
+    "reactions_liees": [
+      "hydrogenation_asymetrique"
+    ],
+    "explication_reference": "Diphosphine chélatante dérivée du binaphtyle, dont la chiralité est de nature axiale : la rotation autour de la liaison unissant les deux systèmes naphtaléniques est empêchée par l'encombrement, la molécule adoptant une conformation vrillée non superposable à son image. Associée au ruthénium ou au rhodium, elle constitue le ligand de référence des hydrogénations asymétriques industrielles. Elle est préparée sous forme racémique puis dédoublée par cristallisation d'un sel du di-O-benzoyl-L-tartrate.",
+    "explication_comprendre": "CHERCHEZ UN CARBONE ASYMÉTRIQUE DANS CETTE MOLÉCULE. Il n'y en a aucun.\n\nEt pourtant elle est chirale. C'est ce qui la rend si intéressante à étudier.\n\nPOURQUOI EST-ELLE CHIRALE ?\n\nRegardez les deux naphtalènes, reliés par une simple liaison. Normalement, une liaison simple tourne librement.\n\nPas ici : les cycles sont trop encombrés, ils se cognent. La molécule reste donc VRILLÉE, comme deux pales d'hélice.\n\nEt une hélice tourne dans un sens ou dans l'autre. Son image dans un miroir ne lui est pas superposable.\n\nOn appelle cela une CHIRALITÉ AXIALE. Retenez qu'un carbone asymétrique n'est pas la seule façon d'être chiral.\n\nPOURQUOI DEUX PHOSPHORES SUR LA MÊME MOLÉCULE ?\n\nParce que deux ligands séparés pourraient se détacher l'un après l'autre. Avec un ligand bidente, le métal est pris en tenaille : il ne peut se libérer que si les deux liaisons cèdent en même temps.\n\nEt cela compte, parce que le métal doit rester dans son environnement chiral PENDANT TOUT LE CYCLE. S'il s'en échappait un instant, la sélectivité s'effondrerait.\n\nCE QU'IL PERMET DE FAIRE : plus de 98 % d'excès énantiomérique sur le citronellol, avec moins de 1 % de ruthénium. Et chez NutraSweet, 22 g de complexe pour 50 kg de produit.\n\nLE PRINCIPE ÉCONOMIQUE : on dédouble UNE FOIS, péniblement, le catalyseur. Après quoi il travaille des milliers de fois. C'est ce renversement qui a rendu la synthèse asymétrique industrielle possible.",
+    "reactions_exemples": [
+      {
+        "nom": "Hydrogénation asymétrique",
+        "substrat_SMILES": "CC(C)=CCCC(C)=CCO",
+        "produit_SMILES": "CC(C)=CCC[C@@H](C)CCO",
+        "note": "Avec Ru(OAc)₂, plus de 98 % d'excès énantiomérique"
+      }
+    ]
+  },
+  {
+    "id": "libh4",
+    "nom": "LiBH₄",
+    "nom_complet": "borohydrure de lithium",
+    "SMILES": "[Li+].[BH4-]",
+    "role": "Réduit les esters, mais épargne acides et amides",
+    "anatomie_annotations": [
+      {
+        "partie": "les quatre hydrures sur le bore",
+        "role": "La source d'hydrure. Plus réactif que NaBH₄ parce que le lithium, petit et polarisant, active le carbonyle en s'y coordonnant."
+      },
+      {
+        "partie": "le contre-ion lithium",
+        "role": "C'est lui qui fait la différence avec le sodium : il se coordonne à l'oxygène du carbonyle et le rend plus électrophile."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_nitriles_amides",
+      "reduction_esters"
+    ],
+    "explication_reference": "Borohydrure de lithium, réducteur de réactivité intermédiaire entre le borohydrure de sodium et l'hydrure double de lithium et d'aluminium. Il réduit les esters en alcools en solution alcoolique, tout en laissant intacts les acides carboxyliques et les amides — sélectivité que ne présente pas le LiAlH₄, et qui est l'inverse exacte de celle du borane. Il évite les dangers d'inflammation associés au LiAlH₄.",
+    "explication_comprendre": "POURQUOI UN TROISIÈME HYDRURE, entre le NaBH₄ et le LiAlH₄ ?\n\nParce que ni l'un ni l'autre ne fait ce qu'on veut ici.\n\nLe NaBH₄ est trop doux : il ne touche presque pas aux esters.\n\nLe LiAlH₄ est trop brutal : il réduit tout, et il a « causé d'innombrables incendies par manque de soin », selon les mots de Clayden (p. 531).\n\nLE LiBH₄ TOMBE ENTRE LES DEUX. Il réduit les esters, et il laisse tranquilles les acides carboxyliques et les amides.\n\nD'OÙ VIENT SA FORCE SUPPLÉMENTAIRE ? Du LITHIUM, pas du bore. Le lithium est petit et polarisant : il vient se coordonner à l'oxygène du carbonyle et le rend plus électrophile. Changez le sodium en lithium et la réactivité change.\n\nLA PAIRE À CONNAÎTRE : le LiBH₄ et le BORANE ont des sélectivités EXACTEMENT OPPOSÉES. Le borane réduit acides et amides mais peu les esters ; le LiBH₄ réduit les esters mais épargne acides et amides.\n\nClayden montre une molécule qui porte les deux fonctions, où l'on choisit laquelle réduire simplement en changeant de flacon (p. 532). C'est le genre d'outil qu'on aime avoir.",
+    "reactions_exemples": [
+      {
+        "nom": "Réduction sélective d'un ester",
+        "substrat_SMILES": "CCOC(=O)CCC(=O)O",
+        "produit_SMILES": "CCOC(=O)CCCO",
+        "note": "Il épargne l'acide carboxylique"
+      }
+    ]
   }
 ]

@@ -331,6 +331,46 @@
     "substrat": "malonique_acetylacetique-substrat.svg",
     "produit": "malonique_acetylacetique-produit.svg"
   },
+  "oxydation_alcools_pcc": {
+    "substrat": "oxydation_alcools_pcc-substrat.svg",
+    "produit": "oxydation_alcools_pcc-produit.svg"
+  },
+  "oxydation_swern": {
+    "substrat": "oxydation_swern-substrat.svg",
+    "produit": "oxydation_swern-produit.svg"
+  },
+  "oxydation_dess_martin": {
+    "substrat": "oxydation_dess_martin-substrat.svg",
+    "produit": "oxydation_dess_martin-produit.svg"
+  },
+  "oxydation_jones": {
+    "substrat": "oxydation_jones-substrat.svg",
+    "produit": "oxydation_jones-produit.svg"
+  },
+  "baeyer_villiger": {
+    "substrat": "baeyer_villiger-substrat.svg",
+    "produit": "baeyer_villiger-produit.svg"
+  },
+  "reduction_clemmensen": {
+    "substrat": "reduction_clemmensen-substrat.svg",
+    "produit": "reduction_clemmensen-produit.svg"
+  },
+  "reduction_wolff_kishner": {
+    "substrat": "reduction_wolff_kishner-substrat.svg",
+    "produit": "reduction_wolff_kishner-produit.svg"
+  },
+  "hydrogenation_asymetrique": {
+    "substrat": "hydrogenation_asymetrique-substrat.svg",
+    "produit": "hydrogenation_asymetrique-produit.svg"
+  },
+  "reduction_nitriles_amides": {
+    "substrat": "reduction_nitriles_amides-substrat.svg",
+    "produit": "reduction_nitriles_amides-produit.svg"
+  },
+  "coupure_oxydante_diols": {
+    "substrat": "coupure_oxydante_diols-substrat.svg",
+    "produit": "coupure_oxydante_diols-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -564,6 +604,97 @@
     "substrat": "sel_eschenmoser-ex0-substrat.svg",
     "produit": "sel_eschenmoser-ex0-produit.svg"
   },
+  "pcc": {
+    "molecule": "reactif-pcc.svg"
+  },
+  "pcc-ex0": {
+    "substrat": "pcc-ex0-substrat.svg",
+    "produit": "pcc-ex0-produit.svg"
+  },
+  "pdc": {
+    "molecule": "reactif-pdc.svg"
+  },
+  "pdc-ex0": {
+    "substrat": "pdc-ex0-substrat.svg",
+    "produit": "pdc-ex0-produit.svg"
+  },
+  "tpap": {
+    "molecule": "reactif-tpap.svg"
+  },
+  "tpap-ex0": {
+    "substrat": "tpap-ex0-substrat.svg",
+    "produit": "tpap-ex0-produit.svg"
+  },
+  "dess_martin": {
+    "molecule": "reactif-dess_martin.svg"
+  },
+  "dess_martin-ex0": {
+    "substrat": "dess_martin-ex0-substrat.svg",
+    "produit": "dess_martin-ex0-produit.svg"
+  },
+  "chlorure_oxalyle": {
+    "molecule": "reactif-chlorure_oxalyle.svg"
+  },
+  "chlorure_oxalyle-ex0": {
+    "substrat": "chlorure_oxalyle-ex0-substrat.svg",
+    "produit": "chlorure_oxalyle-ex0-produit.svg"
+  },
+  "et3n": {
+    "molecule": "reactif-et3n.svg"
+  },
+  "et3n-ex0": {
+    "substrat": "et3n-ex0-substrat.svg",
+    "produit": "et3n-ex0-produit.svg"
+  },
+  "cro3": {
+    "molecule": "reactif-cro3.svg"
+  },
+  "cro3-ex0": {
+    "substrat": "cro3-ex0-substrat.svg",
+    "produit": "cro3-ex0-produit.svg"
+  },
+  "kmno4": {
+    "molecule": "reactif-kmno4.svg"
+  },
+  "kmno4-ex0": {
+    "substrat": "kmno4-ex0-substrat.svg",
+    "produit": "kmno4-ex0-produit.svg"
+  },
+  "hydrazine": {
+    "molecule": "reactif-hydrazine.svg"
+  },
+  "hydrazine-ex0": {
+    "substrat": "hydrazine-ex0-substrat.svg",
+    "produit": "hydrazine-ex0-produit.svg"
+  },
+  "zn_hg": {
+    "molecule": "reactif-zn_hg.svg"
+  },
+  "zn_hg-ex0": {
+    "substrat": "zn_hg-ex0-substrat.svg",
+    "produit": "zn_hg-ex0-produit.svg"
+  },
+  "naio4": {
+    "molecule": "reactif-naio4.svg"
+  },
+  "naio4-ex0": {
+    "substrat": "naio4-ex0-substrat.svg",
+    "produit": "naio4-ex0-produit.svg"
+  },
+  "binap": {
+    "molecule": "reactif-binap.svg"
+  },
+  "binap-ex0": {
+    "substrat": "binap-ex0-substrat.svg",
+    "produit": "binap-ex0-produit.svg"
+  },
+  "libh4": {
+    "molecule": "reactif-libh4.svg"
+  },
+  "libh4-ex0": {
+    "substrat": "libh4-ex0-substrat.svg",
+    "produit": "libh4-ex0-produit.svg"
+  },
   "dcm": {
     "molecule": "solvant-dcm.svg"
   },
@@ -602,5 +733,8 @@
   },
   "ether": {
     "molecule": "solvant-ether.svg"
+  },
+  "diethyleneglycol": {
+    "molecule": "solvant-diethyleneglycol.svg"
   }
 }

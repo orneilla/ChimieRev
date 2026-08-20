@@ -3272,5 +3272,562 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "oxydation_alcools_pcc": {
+    "1": {
+      "fichier": "oxydation_alcools_pcc-etape1.svg",
+      "titre": "L'alcool attaque le chrome",
+      "legende": "Tout commence par une liaison entre l'oxygène de l'alcool et le métal. C'est le point commun de toutes les oxydations au chrome et au manganèse (Clayden p. 544).",
+      "fleches": [
+        "Le doublet de l'oxygène attaque le chrome.",
+        "Une double liaison Cr=O se replie pour lui faire de la place."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxydation_alcools_pcc-etape2.svg",
+      "titre": "La pyridine prend le proton : voici l'ester chromique",
+      "legende": "La pyridine du PCC ne sert pas de décoration : c'est elle qui recueille le proton. On obtient un ESTER CHROMIQUE — l'alcool et le chrome liés par un oxygène.",
+      "fleches": [
+        "La pyridine prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "oxydation_alcools_pcc-etape3.svg",
+      "titre": "L'élimination : c'est un E2 déguisé",
+      "legende": "POURQUOI FAUT-IL UN OXYDANT ? Parce qu'on veut retirer un proton ET un doublet du carbone, et qu'un ion hydrure ne part pas tout seul (Clayden p. 195). Le chrome sert de réservoir : les électrons de la liaison C–H poussent la double liaison C=O, et la liaison O–Cr se rompt en laissant ses deux électrons au métal. Cr(VI) devient Cr(IV). C'est le squelette d'un E2 — à ceci près qu'on forme une liaison C=O et non C=C, et que le groupe partant est un métal réduit (McMurry p. 551).",
+      "fleches": [
+        "La base prend l'hydrogène porté par le carbone.",
+        "Le doublet de la liaison C–H devient la double liaison C=O.",
+        "Et la liaison O–Cr se rompt : les deux électrons vont au chrome, qui est ainsi réduit."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "oxydation_alcools_pcc-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le propanal. On s'arrête à l'aldéhyde parce qu'il n'y a pas d'eau dans le ballon : sans eau, pas d'hydrate, donc pas de seconde oxydation. Tout le protocole du PCC tient dans cette phrase.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxydation_jones": {
+    "1": {
+      "fichier": "oxydation_jones-etape1.svg",
+      "titre": "Sur un alcool SECONDAIRE : l'oxygène attaque le chrome",
+      "legende": "Le trioxyde de chrome en solution aqueuse acide — le réactif de Jones. Première étape identique à celle du PCC : on fabrique un ester chromique.",
+      "fleches": [
+        "Le doublet de l'oxygène attaque le chrome.",
+        "Une double liaison Cr=O se replie."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxydation_jones-etape2.svg",
+      "titre": "L'eau prend le proton",
+      "legende": "En milieu aqueux, c'est l'eau qui fait office de base. L'ester chromique est formé.",
+      "fleches": [
+        "L'eau prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "oxydation_jones-etape3.svg",
+      "titre": "Élimination : la cétone apparaît, et l'histoire s'arrête là",
+      "legende": "UN ALCOOL SECONDAIRE NE COURT AUCUN RISQUE : la cétone obtenue n'a plus d'hydrogène sur le carbone qui portait l'oxygène. Même si elle s'hydratait, il n'y aurait plus rien à retirer. La suroxydation est impossible.",
+      "fleches": [
+        "L'eau prend l'hydrogène porté par le carbone.",
+        "La liaison C–H devient la double liaison C=O.",
+        "La liaison O–Cr se rompt : le chrome est réduit."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "oxydation_jones-etape4.svg",
+      "titre": "Sur un alcool PRIMAIRE, en revanche : l'aldéhyde s'hydrate",
+      "legende": "On est en solution aqueuse. L'aldéhyde formé est en équilibre avec son hydrate — un gem-diol (voir la fiche « hydratation des carbonyles »). Et un gem-diol, pour le chrome, c'est un alcool comme un autre.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "5": {
+      "fichier": "oxydation_jones-etape5.svg",
+      "titre": "L'hydrate s'estérifie sur le chrome à son tour",
+      "legende": "Rien de neuf : le chrome ne fait pas la différence entre l'alcool de départ et l'hydrate. Attaque, puis départ du proton, en une seule séquence.",
+      "fleches": [
+        "L'oxygène de l'hydrate attaque le chrome.",
+        "Une double liaison Cr=O se replie.",
+        "L'eau prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "oxydation_jones-etape6.svg",
+      "titre": "Seconde élimination : l'acide carboxylique",
+      "legende": "L'hydrate portait encore un hydrogène sur le carbone. Il part comme le premier, et le carbone se retrouve avec deux oxygènes — un acide carboxylique.",
+      "fleches": [
+        "L'eau prend l'hydrogène du carbone.",
+        "La liaison C–H devient la double liaison C=O.",
+        "Et le chrome est réduit une seconde fois."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "oxydation_jones-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'acide propanoïque. La règle tient en une phrase : EN MILIEU AQUEUX, UN ALCOOL PRIMAIRE VA JUSQU'À L'ACIDE. Si l'on veut s'arrêter à l'aldéhyde, il faut supprimer l'eau — d'où le PCC dans le dichlorométhane.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxydation_swern": {
+    "1": {
+      "fichier": "oxydation_swern-etape1.svg",
+      "titre": "Le DMSO attaque le chlorure d'oxalyle",
+      "legende": "L'alcool n'est pas encore entré en scène — il reste spectateur pendant trois étapes. Tout ce début n'a qu'un but : fabriquer un ion chlorosulfonium (Clayden p. 668).",
+      "fleches": [
+        "L'oxygène du DMSO attaque le carbonyle.",
+        "Le carbonyle s'ouvre en alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxydation_swern-etape2.svg",
+      "titre": "L'intermédiaire tétraédrique expulse un chlorure",
+      "legende": "Effondrement classique d'un intermédiaire tétraédrique : l'alcoolate reforme le carbonyle et chasse le meilleur groupe partant.",
+      "fleches": [
+        "L'alcoolate reforme le carbonyle.",
+        "Le chlorure part."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "oxydation_swern-etape3.svg",
+      "titre": "Le chlorure revient sur le soufre",
+      "legende": "Le chlorure qu'on vient de libérer attaque le soufre. C'EST ICI QU'ON OBTIENT CE QU'ON VOULAIT : l'ion chlorosulfonium, un soufre porteur d'un groupe partant.",
+      "fleches": [
+        "Le chlorure attaque le soufre.",
+        "La liaison S–O se rompt."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "oxydation_swern-etape4.svg",
+      "titre": "Et le reste part en gaz",
+      "legende": "L'anion se défait aussitôt en dioxyde de carbone, monoxyde de carbone et chlorure. C'est le moteur thermodynamique de toute la séquence : deux gaz qui s'échappent ne reviennent pas. C'est aussi pourquoi la réaction se conduit à −78 °C sous hotte.",
+      "fleches": [
+        "L'alcoolate forme la seconde double liaison du CO₂.",
+        "La liaison carbone–carbone se rompt.",
+        "L'oxygène complète la triple liaison du monoxyde de carbone.",
+        "Et le second chlorure part."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "oxydation_swern-etape5.svg",
+      "titre": "Enfin l'alcool entre en scène",
+      "legende": "L'oxygène de l'alcool attaque le soufre et chasse le chlorure ; la triéthylamine récupère le proton. On obtient un ion alcoxysulfonium — l'alcool est maintenant accroché au soufre.",
+      "fleches": [
+        "L'oxygène de l'alcool attaque le soufre.",
+        "Le chlorure part.",
+        "La triéthylamine prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "oxydation_swern-etape6.svg",
+      "titre": "La base déprotone un méthyle : voici l'ylure",
+      "legende": "Le soufre chargé positivement rend acides les protons de ses méthyles. La triéthylamine en prend un : on obtient un ylure — charge positive et charge négative sur deux atomes voisins.",
+      "fleches": [
+        "La base prend un proton du méthyle.",
+        "Le carbone porte désormais la charge négative."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "oxydation_swern-etape7.svg",
+      "titre": "L'ylure va chercher l'hydrogène, par un cycle à cinq",
+      "legende": "DERNIÈRE ÉTAPE, ET LA PLUS ÉLÉGANTE : le carbanion n'a pas besoin d'aller loin — l'hydrogène qu'il vise est sur le carbone d'en face, à travers un cycle à cinq atomes. Tout se passe en une fois : le proton part, la double liaison C=O se forme, et le soufre récupère les deux électrons de la liaison O–S. Clayden signale qu'au chapitre 35 on apprendra à appeler cela une réaction PÉRICYCLIQUE (p. 668).",
+      "fleches": [
+        "Le carbanion prend l'hydrogène.",
+        "La liaison C–H devient la double liaison C=O.",
+        "Et la liaison O–S se rompt : le soufre est réduit."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "8": {
+      "fichier": "oxydation_swern-etape8.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'aldéhyde, et du sulfure de diméthyle. Bilan d'oxydoréduction : l'alcool est oxydé en aldéhyde, le soufre(IV) du DMSO est réduit en soufre(II) du DMS. Le DMS a une odeur très forte — c'est le principal reproche fait à cette méthode par ailleurs excellente.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxydation_dess_martin": {
+    "1": {
+      "fichier": "oxydation_dess_martin-etape1.svg",
+      "titre": "L'alcool prend la place d'un acétate sur l'iode",
+      "legende": "Le périodinane de Dess-Martin est un iode(V) portant trois acétates. L'alcool échange sa place avec l'un d'eux : c'est une simple substitution sur l'iode (McMurry p. 551).",
+      "fleches": [
+        "L'oxygène de l'alcool attaque l'iode.",
+        "Un acétate s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxydation_dess_martin-etape2.svg",
+      "titre": "L'acétate libéré prend le proton",
+      "legende": "L'acétate qu'on vient de chasser sert de base : on obtient l'alcoxypériodinane, et de l'acide acétique. C'est le seul sous-produit acide de la réaction — et il est faible, d'où la douceur de la méthode.",
+      "fleches": [
+        "L'acétate prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "oxydation_dess_martin-etape3.svg",
+      "titre": "L'élimination : l'iode(V) devient iode(III)",
+      "legende": "MÊME SQUELETTE QUE L'OXYDATION AU CHROME, ET MÊME SQUELETTE QU'UN E2 : la base prend l'hydrogène du carbone, la liaison C–H devient la double liaison C=O, et le groupe partant emporte deux électrons — sauf qu'ici le groupe partant est un iode réduit (McMurry p. 551). Un acétate part dans la foulée, ce qui rend l'iode(III) neutre.",
+      "fleches": [
+        "L'acétate prend l'hydrogène du carbone.",
+        "La liaison C–H devient la double liaison C=O.",
+        "La liaison O–I se rompt : les électrons vont à l'iode, qui est réduit.",
+        "Et un acétate s'en va."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "oxydation_dess_martin-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'aldéhyde, et de l'acide acétique. Aucun métal lourd, aucun milieu acide fort, température ambiante : c'est ce qui fait employer ce réactif sur les alcools les plus fragiles. Clayden cite l'oxydation d'un alcool allylique cis en aldéhyde cis, SANS isomérisation (p. 545).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "baeyer_villiger": {
+    "1": {
+      "fichier": "baeyer_villiger-etape1.svg",
+      "titre": "L'acide protone le carbonyle",
+      "legende": "Le peracide est aussi un acide : le milieu est acide sans qu'on ait rien à ajouter. Protoner le carbonyle le rend bien plus électrophile.",
+      "fleches": [
+        "L'oxygène du carbonyle prend un proton.",
+        "L'eau est restituée."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "baeyer_villiger-etape2.svg",
+      "titre": "Le peracide attaque",
+      "legende": "C'est l'oxygène TERMINAL du peracide — celui qui porte l'hydrogène — qui attaque. Un peracide est un nucléophile qui porte son propre groupe partant : le carboxylate.",
+      "fleches": [
+        "L'oxygène terminal du peracide attaque le carbone.",
+        "Le carbonyle s'ouvre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "baeyer_villiger-etape3.svg",
+      "titre": "Transfert de proton : l'intermédiaire de Criegee",
+      "legende": "L'intermédiaire porte maintenant un alcool d'un côté et un peroxyde d'ester de l'autre. Il porte le nom de son découvreur : l'INTERMÉDIAIRE DE CRIEGEE. Clayden fait remarquer qu'il ressemble à s'y méprendre à un intermédiaire de semipinacol, un carbone remplacé par un oxygène (p. 953).",
+      "fleches": [
+        "L'eau prend le proton.",
+        "L'oxygène redevient neutre."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "baeyer_villiger-etape4.svg",
+      "titre": "LA MIGRATION : un groupe passe du carbone à l'oxygène",
+      "legende": "TOUT SE JOUE EN UNE FOIS. L'oxygène de l'alcool pousse et reforme un carbonyle ; sous cette poussée, un groupe alkyle QUITTE LE CARBONE ET SE FIXE SUR L'OXYGÈNE VOISIN ; et la liaison O–O se rompt, libérant un carboxylate. L'oxygène s'est glissé entre le carbonyle et son substituant.",
+      "fleches": [
+        "L'oxygène pousse et reforme le carbonyle.",
+        "Le groupe tert-butyle migre du carbone vers l'oxygène.",
+        "Et la liaison O–O se rompt : le carboxylate part."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "baeyer_villiger-etape5.svg",
+      "titre": "Le carboxylate reprend le proton",
+      "legende": "L'ester est libéré, et l'acide carboxylique correspondant au peracide est restitué.",
+      "fleches": [
+        "Le carboxylate prend le proton.",
+        "L'ester est formé."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "baeyer_villiger-etape6.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un ester, là où il y avait une cétone : un atome d'oxygène s'est INSÉRÉ entre le carbonyle et l'un de ses substituants. Baeyer et Villiger l'ont découvert en 1899.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "coupure_oxydante_diols": {
+    "1": {
+      "fichier": "coupure_oxydante_diols-etape1.svg",
+      "titre": "Le diol et le périodate se lient : l'ester périodique cyclique",
+      "legende": "Les deux alcools du diol se fixent tous deux sur l'iode, avec perte d'eau. On obtient un cycle à CINQ atomes — et c'est cette géométrie qui explique tout ce qui suit : sans elle, pas de coupure.\n\nUNE REMARQUE SUR LE DESSIN : l'iode hypervalent est représenté ici sous sa forme SÉPARÉE EN CHARGES — I²⁺ entouré de deux oxygènes négatifs — plutôt qu'avec deux doubles liaisons I=O. Les deux écritures décrivent la même molécule et vous rencontrerez les deux ; celle-ci a l'avantage de ne jamais faire dépasser l'octet.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "coupure_oxydante_diols-etape2.svg",
+      "titre": "Le cycle se défait d'un seul mouvement",
+      "legende": "QUATRE FLÈCHES QUI TOURNENT AUTOUR DU CYCLE. La liaison carbone–carbone se rompt, deux doubles liaisons C=O apparaissent, et l'iode récupère deux électrons : I(VII) devient I(V). Tout se passe en même temps, dans le cycle à cinq — c'est le même genre de mécanisme cyclique que la coupure d'un diol par le tétroxyde d'osmium (Clayden p. 443).",
+      "fleches": [
+        "La liaison O–I se rompt du côté gauche.",
+        "Et cet oxygène forme aussitôt une double liaison C=O.",
+        "La liaison carbone–carbone se rompt et devient la seconde double liaison C=O.",
+        "Enfin la seconde liaison O–I se rompt : les électrons vont à l'iode, qui est réduit."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "coupure_oxydante_diols-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Deux molécules d'éthanal, et de l'acide iodique. Associé au tétroxyde d'osmium, le périodate coupe un alcène en deux composés carbonylés — et il RÉOXYDE l'osmium au passage, ce qui permet de n'en employer qu'une quantité catalytique (Clayden p. 443).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_wolff_kishner": {
+    "1": {
+      "fichier": "reduction_wolff_kishner-etape1.svg",
+      "titre": "D'abord l'hydrazone",
+      "legende": "La cétone et l'hydrazine se condensent comme n'importe quelle amine sur un carbonyle (voir la fiche « imines et énamines »). L'hydrazone obtenue est le vrai point de départ.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_wolff_kishner-etape2.svg",
+      "titre": "La soude concentrée et chaude déprotone l'azote",
+      "legende": "Les conditions sont rudes : soude concentrée, 200 °C, souvent dans le diéthylèneglycol pour tenir la température. C'est le prix à payer pour ce mécanisme.",
+      "fleches": [
+        "L'hydroxyde prend un proton de l'azote terminal.",
+        "L'azote porte la charge."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reduction_wolff_kishner-etape3.svg",
+      "titre": "La charge passe sur le carbone, qui prend un proton",
+      "legende": "L'azote pousse son doublet dans la double liaison C=N ; celle-ci se déplace, et le carbone se sert au passage d'un proton de l'eau. On obtient un DIAZÈNE — deux azotes doublement liés, dont l'un porte encore un hydrogène.",
+      "fleches": [
+        "L'azote pousse son doublet.",
+        "La double liaison C=N se déplace ; le carbone prend un proton à l'eau.",
+        "L'hydroxyde est régénéré."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "reduction_wolff_kishner-etape4.svg",
+      "titre": "L'azote s'échappe : voilà le moteur",
+      "legende": "C'EST L'ÉTAPE QUI EXPLIQUE TOUT. La base retire le dernier hydrogène de l'azote ; la double liaison N=N devient une TRIPLE liaison, et le diazote s'en va sous forme de gaz. Un gaz qui quitte le ballon ne revient pas : l'équilibre est vidé. Ce qui reste est un carbanion — une espèce qu'on n'obtient presque jamais aussi simplement.",
+      "fleches": [
+        "La base prend le dernier proton de l'azote.",
+        "La liaison N=N devient triple : c'est le diazote.",
+        "Et la liaison carbone–azote se rompt : le carbone garde les deux électrons."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "reduction_wolff_kishner-etape5.svg",
+      "titre": "Le carbanion prend un proton",
+      "legende": "L'eau du milieu le protone aussitôt. Le carbonyle a complètement disparu : il ne reste qu'un CH₂.",
+      "fleches": [
+        "Le carbanion prend un proton à l'eau.",
+        "L'hydroxyde est régénéré."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "reduction_wolff_kishner-etape6.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'éthylbenzène. Un groupe C=O est devenu un CH₂ : c'est une réduction complète, pas une simple réduction en alcool. Clayden en donne un bel usage : la synthèse de la muscalure, phéromone de la mouche domestique, à partir de l'acide érucique du colza (p. 541).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_nitriles_amides": {
+    "1": {
+      "fichier": "reduction_nitriles_amides-etape1.svg",
+      "titre": "Un premier hydrure attaque le nitrile",
+      "legende": "La triple liaison C≡N est polarisée comme un carbonyle : le carbone est électrophile. L'hydrure du tétrahydruroaluminate l'attaque et la liaison π se replie sur l'azote (McMurry p. 671).",
+      "fleches": [
+        "Un hydrure quitte l'aluminium et attaque le carbone.",
+        "La liaison π se replie sur l'azote : c'est un anion d'imine."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_nitriles_amides-etape2.svg",
+      "titre": "Un second hydrure attaque l'imine",
+      "legende": "L'anion d'imine porte encore une double liaison C=N : il peut être attaqué une seconde fois. C'est parce que l'aluminium coordine ces anions qu'une addition, autrement très difficile sur une espèce déjà chargée, devient possible (McMurry p. 671).",
+      "fleches": [
+        "Un second hydrure attaque le carbone.",
+        "L'azote porte maintenant deux charges négatives."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reduction_nitriles_amides-etape3.svg",
+      "titre": "Le traitement aqueux rend les deux protons",
+      "legende": "Deux molécules d'eau, deux protons : le dianion devient une amine primaire. On n'ajoute l'eau qu'à la fin — le LiAlH₄ réagit violemment avec elle.",
+      "fleches": [
+        "L'azote prend un premier proton.",
+        "Un hydroxyde est libéré.",
+        "Puis un second.",
+        "Et un second hydroxyde."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "reduction_nitriles_amides-etape4.svg",
+      "titre": "Ce qu'on obtient à partir d'un nitrile",
+      "legende": "Une amine PRIMAIRE, allongée d'un carbone par rapport à l'halogénure dont le nitrile est issu. C'est l'une des rares façons commodes de faire une amine primaire sans suralkylation.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "5": {
+      "fichier": "reduction_nitriles_amides-etape5.svg",
+      "titre": "Sur un AMIDE maintenant : l'hydrure attaque le carbonyle",
+      "legende": "Début identique à la réduction d'un ester : l'hydrure attaque, l'intermédiaire tétraédrique se forme. C'est la SUITE qui diffère.",
+      "fleches": [
+        "L'hydrure attaque le carbonyle.",
+        "L'oxygène devient alcoolate."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "reduction_nitriles_amides-etape6.svg",
+      "titre": "C'est l'OXYGÈNE qui part, pas l'azote : ion iminium",
+      "legende": "VOICI LA DIFFÉRENCE AVEC L'ESTER. Dans un ester, c'est l'alcoolate qui part et l'on obtient un aldéhyde, aussitôt réduit en alcool. Dans un amide, c'est l'oxygène qui s'en va — aidé par sa coordination à l'aluminium — et l'azote qui pousse. On obtient un ION IMINIUM, et le produit final sera une AMINE, pas un alcool (Clayden p. 531).",
+      "fleches": [
+        "L'azote pousse son doublet.",
+        "Et l'oxygène s'en va avec l'aluminium."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "reduction_nitriles_amides-etape7.svg",
+      "titre": "Un dernier hydrure sur l'iminium",
+      "legende": "L'iminium est très électrophile : l'hydrure s'y ajoute sans difficulté.",
+      "fleches": [
+        "L'hydrure attaque le carbone de l'iminium.",
+        "L'azote reprend son doublet."
+      ],
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "8": {
+      "fichier": "reduction_nitriles_amides-etape8.svg",
+      "titre": "Ce qu'on obtient à partir d'un amide",
+      "legende": "Une amine. Le carbonyle a disparu, l'azote est resté. C'est l'une des méthodes les plus sûres pour fabriquer une amine tertiaire — et si l'on arrête la réaction à 0 °C avant que l'iminium ne se forme, on obtient un ALDÉHYDE : 80 % de rendement dans l'exemple de Clayden (p. 534).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_clemmensen": {
+    "1": {
+      "fichier": "reduction_clemmensen-etape1.svg",
+      "titre": "Le point de départ",
+      "legende": "Une cétone aromatique — typiquement le produit d'une acylation de Friedel-Crafts. On veut en faire un alcane, et non un alcool.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_clemmensen-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "AUCUNE FLÈCHE ICI, ET C'EST VOULU. Clayden écrit que la réduction de Clemmensen « est la plus simple à mettre en œuvre, mais a le mécanisme le plus compliqué » (p. 540). Aucun des ouvrages dont nous disposons n'en donne le détail par flèches courbes : le zinc amalgamé transfère des électrons à la surface du métal, et les intermédiaires — carbanions ou carbénoïdes liés au zinc — ne se décrivent pas comme une suite de déplacements de doublets. Nous ne l'inventerons pas.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydrogenation_asymetrique": {
+    "1": {
+      "fichier": "hydrogenation_asymetrique-etape1.svg",
+      "titre": "Le substrat : un alcène prochiral",
+      "legende": "Le géraniol. Sa double liaison trisubstituée, celle qui porte l'alcool, va être hydrogénée — et le carbone qui en résulte devient un centre stéréogène. Prochiral veut dire cela : plan aujourd'hui, chiral demain, selon la face par laquelle on l'attaque.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydrogenation_asymetrique-etape2.svg",
+      "titre": "Le ligand : le BINAP",
+      "legende": "AUCUN CARBONE ASYMÉTRIQUE DANS CETTE MOLÉCULE, et pourtant elle est chirale. Les deux naphtalènes ne peuvent pas tourner librement autour de la liaison qui les unit : la molécule est vrillée, et son image dans un miroir ne lui est pas superposable. On appelle cela une chiralité AXIALE. Le BINAP est un diphosphine CHÉLATANT : le métal se loge entre les deux phosphores, solidement tenu dans un environnement chiral (Clayden p. 1118).",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydrogenation_asymetrique-etape3.svg",
+      "titre": "Le cycle catalytique, en mots",
+      "legende": "PAS DE FLÈCHES COURBES ICI NON PLUS : les étapes d'un cycle organométallique ne se décrivent pas par des déplacements de doublets, mais par des changements de degré d'oxydation et de nombre d'électrons du métal. Clayden les nomme (p. 1118) : addition oxydante de H₂ sur le complexe à 14 électrons, formation du complexe π avec l'alcène — le métal est alors à 18 électrons —, insertion migratoire d'un hydrogène, puis élimination réductrice qui libère l'alcane et régénère le complexe de départ. Les deux phosphores restent coordinés pendant TOUT le cycle : le métal ne quitte jamais son environnement chiral, et c'est pour cela que la sélectivité tient.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "hydrogenation_asymetrique-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le (R)-citronellol, avec plus de 98 % d'excès énantiomérique — soit une pureté supérieure à celle de bien des sources naturelles du même composé (Clayden p. 1119). Notez que l'autre double liaison, isolée, n'est pas touchée : le catalyseur ne réduit que celle qui est proche du groupe alcool, qui aide à la coordination.",
+      "fleches": [],
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

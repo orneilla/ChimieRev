@@ -115,5 +115,35 @@
     "type": "solvant aprotique, très volatil",
     "usage": "Solvant des organométalliques et des hydrures puissants : ses doublets libres stabilisent les cations métalliques, et il ne possède aucun proton acide susceptible de détruire le réactif. Il s'emploie strictement anhydre (Clayden p. 133 ; McMurry p. 592).",
     "explication_comprendre": "Le solvant des réactifs qui ne supportent pas l'eau.\n\nCE QU'IL N'A PAS. Aucun proton acide. C'est un solvant aprotique — le contraire de l'eau ou d'un alcool.\n\nCela paraît une absence ; c'est en réalité sa qualité principale. Un organomagnésien ou un hydrure d'aluminium détruirait n'importe quel solvant protique en une seconde.\n\nCE QU'IL A. Deux doublets libres sur son oxygène, qui viennent entourer les cations métalliques — Mg²⁺, Li⁺ — et les maintiennent en solution. Sans lui, l'organomagnésien précipiterait.\n\nÀ CRAINDRE. Il bout à 35 °C et ses vapeurs sont plus lourdes que l'air : elles rampent sur la paillasse et s'enflamment à distance. Et il forme lentement des peroxydes explosifs à la lumière. On ne distille jamais un vieux flacon d'éther jusqu'à sec."
+  },
+  {
+    "id": "diethyleneglycol",
+    "nom": "Diéthylèneglycol",
+    "nom_complet": "diéthylèneglycol",
+    "SMILES": "OCCOCCO",
+    "role": "Milieu à très haut point d'ébullition",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux alcools et l'éther",
+        "role": "Beaucoup de liaisons hydrogène : le liquide bout à 245 °C, ce qui permet de chauffer une réaction bien au-delà de ce qu'un solvant ordinaire supporte."
+      },
+      {
+        "partie": "la chaîne polaire",
+        "role": "Il dissout aussi bien la soude que les composés organiques — ce qui est rare."
+      }
+    ],
+    "reactions_liees": [
+      "reduction_wolff_kishner"
+    ],
+    "explication_reference": "Éther-diol de point d'ébullition élevé (245 °C), employé comme milieu réactionnel lorsqu'il faut chauffer fortement en présence d'une base minérale concentrée. Il est le solvant usuel de la réduction de Wolff-Kishner, qui exige environ 200 °C.",
+    "explication_comprendre": "POURQUOI CE SOLVANT-LÀ, ET PAS UN AUTRE ?\n\nParce que la réduction de Wolff-Kishner exige 200 °C. À cette température, l'eau bout depuis longtemps, l'éthanol aussi, le toluène presque.\n\nIl faut un liquide qui tienne. Le diéthylèneglycol bout à 245 °C.\n\nD'OÙ LUI VIENT CE POINT D'ÉBULLITION SI HAUT ? De ses deux fonctions alcool. Chaque molécule s'accroche à ses voisines par des liaisons hydrogène, et il faut beaucoup d'énergie pour les séparer.\n\nUN SECOND MÉRITE, PLUS RARE : il dissout à la fois la soude et les composés organiques. La plupart des solvants ne savent faire qu'un des deux.\n\nCE QU'IL FAUT EN RETENIR : le choix d'un solvant n'est presque jamais neutre. Ici il ne participe à aucune étape du mécanisme — mais sans lui, la réaction ne peut pas avoir lieu.",
+    "reactions_exemples": [
+      {
+        "nom": "Milieu de la Wolff-Kishner",
+        "substrat_SMILES": "CC(=O)c1ccccc1",
+        "produit_SMILES": "CCc1ccccc1",
+        "note": "Permet de tenir 200 °C"
+      }
+    ]
   }
 ]

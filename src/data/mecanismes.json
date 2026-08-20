@@ -253,7 +253,7 @@
                 6
               ]
             },
-            "courbure": 0.3,
+            "courbure": -0.3,
             "libelle": "Le doublet de l'oxygène va chercher un hydrogène du solvant."
           },
           {
@@ -266,7 +266,7 @@
             "vers": {
               "atome": 5
             },
-            "courbure": 0.35,
+            "courbure": 0.3,
             "libelle": "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
           }
         ],
@@ -411,7 +411,7 @@
                 1
               ]
             },
-            "courbure": 0.3,
+            "courbure": 0.4,
             "libelle": "Un doublet de l'oxygène de l'eau forme la nouvelle liaison avec le carbone."
           }
         ],
@@ -10006,6 +10006,1700 @@
         "titre": "Ce qu'on obtient",
         "smiles": "CCCCC(=O)O",
         "legende": "L'énol se tautomérise aussitôt : on obtient l'acide pentanoïque. BILAN DE LA SYNTHÈSE MALONIQUE : un halogénure d'alkyle devient un acide carboxylique allongé de DEUX carbones (McMurry p. 742). Avec l'acétylacétate d'éthyle à la place du malonate, le même enchaînement transforme l'halogénure en méthylcétone allongée de TROIS carbones (McMurry p. 743).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "oxydation_alcools_pcc": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'alcool attaque le chrome",
+        "smiles": "CCCO[H].O=[Cr](=O)=O",
+        "legende": "Tout commence par une liaison entre l'oxygène de l'alcool et le métal. C'est le point commun de toutes les oxydations au chrome et au manganèse (Clayden p. 544).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'oxygène attaque le chrome."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "Une double liaison Cr=O se replie pour lui faire de la place."
+          }
+        ],
+        "produit_attendu": "CCC[O+]([H])[Cr]([O-])(=O)=O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "La pyridine prend le proton : voici l'ester chromique",
+        "smiles": "CCC[O+]([H])[Cr]([O-])(=O)=O.C1=CC=NC=C1",
+        "legende": "La pyridine du PCC ne sert pas de décoration : c'est elle qui recueille le proton. On obtient un ESTER CHROMIQUE — l'alcool et le chrome liés par un oxygène.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La pyridine prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CCCO[Cr]([O-])(=O)=O.C1=CC=[NH+]C=C1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'élimination : c'est un E2 déguisé",
+        "smiles": "CCC([H])([H])O[Cr]([O-])(=O)=O.C1=CC=NC=C1",
+        "legende": "POURQUOI FAUT-IL UN OXYDANT ? Parce qu'on veut retirer un proton ET un doublet du carbone, et qu'un ion hydrure ne part pas tout seul (Clayden p. 195). Le chrome sert de réservoir : les électrons de la liaison C–H poussent la double liaison C=O, et la liaison O–Cr se rompt en laissant ses deux électrons au métal. Cr(VI) devient Cr(IV). C'est le squelette d'un E2 — à ceci près qu'on forme une liaison C=O et non C=C, et que le groupe partant est un métal réduit (McMurry p. 551).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base prend l'hydrogène porté par le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le doublet de la liaison C–H devient la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.35,
+            "libelle": "Et la liaison O–Cr se rompt : les deux électrons vont au chrome, qui est ainsi réduit."
+          }
+        ],
+        "produit_attendu": "CCC([H])=O.[Cr-]([O-])(=O)=O.C1=CC=[NH+]C=C1",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCC=O",
+        "legende": "Le propanal. On s'arrête à l'aldéhyde parce qu'il n'y a pas d'eau dans le ballon : sans eau, pas d'hydrate, donc pas de seconde oxydation. Tout le protocole du PCC tient dans cette phrase.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "oxydation_jones": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Sur un alcool SECONDAIRE : l'oxygène attaque le chrome",
+        "smiles": "CC(C)O[H].O=[Cr](=O)=O",
+        "legende": "Le trioxyde de chrome en solution aqueuse acide — le réactif de Jones. Première étape identique à celle du PCC : on fabrique un ester chromique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet de l'oxygène attaque le chrome."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "Une double liaison Cr=O se replie."
+          }
+        ],
+        "produit_attendu": "CC(C)[O+]([H])[Cr]([O-])(=O)=O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau prend le proton",
+        "smiles": "CC(C)[O+]([H])[Cr]([O-])(=O)=O.O([H])[H]",
+        "legende": "En milieu aqueux, c'est l'eau qui fait office de base. L'ester chromique est formé.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(C)O[Cr]([O-])(=O)=O.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Élimination : la cétone apparaît, et l'histoire s'arrête là",
+        "smiles": "CC([H])(C)O[Cr]([O-])(=O)=O.O([H])[H]",
+        "legende": "UN ALCOOL SECONDAIRE NE COURT AUCUN RISQUE : la cétone obtenue n'a plus d'hydrogène sur le carbone qui portait l'oxygène. Même si elle s'hydratait, il n'y aurait plus rien à retirer. La suroxydation est impossible.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                2
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend l'hydrogène porté par le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison O–Cr se rompt : le chrome est réduit."
+          }
+        ],
+        "produit_attendu": "CC(C)=O.[Cr-]([O-])(=O)=O.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Sur un alcool PRIMAIRE, en revanche : l'aldéhyde s'hydrate",
+        "smiles": "CCC(O)O",
+        "legende": "On est en solution aqueuse. L'aldéhyde formé est en équilibre avec son hydrate — un gem-diol (voir la fiche « hydratation des carbonyles »). Et un gem-diol, pour le chrome, c'est un alcool comme un autre.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "L'hydrate s'estérifie sur le chrome à son tour",
+        "smiles": "CCC(O[H])O[H].O=[Cr](=O)=O.O([H])[H]",
+        "legende": "Rien de neuf : le chrome ne fait pas la différence entre l'alcool de départ et l'hydrate. Attaque, puis départ du proton, en une seule séquence.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'hydrate attaque le chrome."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "Une double liaison Cr=O se replie."
+          },
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                4
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'eau prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CCC(O[Cr]([O-])(=O)=O)O[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Seconde élimination : l'acide carboxylique",
+        "smiles": "CCC([H])(O[Cr]([O-])(=O)=O)O[H].O([H])[H]",
+        "legende": "L'hydrate portait encore un hydrogène sur le carbone. Il part comme le premier, et le carbone se retrouve avec deux oxygènes — un acide carboxylique.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend l'hydrogène du carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "Et le chrome est réduit une seconde fois."
+          }
+        ],
+        "produit_attendu": "CCC(=O)O[H].[Cr-]([O-])(=O)=O.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCC(=O)O",
+        "legende": "L'acide propanoïque. La règle tient en une phrase : EN MILIEU AQUEUX, UN ALCOOL PRIMAIRE VA JUSQU'À L'ACIDE. Si l'on veut s'arrêter à l'aldéhyde, il faut supprimer l'eau — d'où le PCC dans le dichlorométhane.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "oxydation_swern": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le DMSO attaque le chlorure d'oxalyle",
+        "smiles": "C[S+](C)[O-].ClC(=O)C(=O)Cl",
+        "legende": "L'alcool n'est pas encore entré en scène — il reste spectateur pendant trois étapes. Tout ce début n'a qu'un but : fabriquer un ion chlorosulfonium (Clayden p. 668).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène du DMSO attaque le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbonyle s'ouvre en alcoolate."
+          }
+        ],
+        "produit_attendu": "C[S+](C)OC([O-])(Cl)C(=O)Cl",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'intermédiaire tétraédrique expulse un chlorure",
+        "smiles": "C[S+](C)OC([O-])(Cl)C(=O)Cl",
+        "legende": "Effondrement classique d'un intermédiaire tétraédrique : l'alcoolate reforme le carbonyle et chasse le meilleur groupe partant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "Le chlorure part."
+          }
+        ],
+        "produit_attendu": "C[S+](C)OC(=O)C(=O)Cl.[Cl-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le chlorure revient sur le soufre",
+        "smiles": "C[S+](C)OC(=O)C(=O)Cl.[Cl-]",
+        "legende": "Le chlorure qu'on vient de libérer attaque le soufre. C'EST ICI QU'ON OBTIENT CE QU'ON VOULAIT : l'ion chlorosulfonium, un soufre porteur d'un groupe partant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le chlorure attaque le soufre."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison S–O se rompt."
+          }
+        ],
+        "produit_attendu": "C[S+](C)Cl.[O-]C(=O)C(=O)Cl",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Et le reste part en gaz",
+        "smiles": "[O-]C(=O)C(=O)Cl",
+        "legende": "L'anion se défait aussitôt en dioxyde de carbone, monoxyde de carbone et chlorure. C'est le moteur thermodynamique de toute la séquence : deux gaz qui s'échappent ne reviennent pas. C'est aussi pourquoi la réaction se conduit à −78 °C sous hotte.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcoolate forme la seconde double liaison du CO₂."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison carbone–carbone se rompt."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'oxygène complète la triple liaison du monoxyde de carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.4,
+            "libelle": "Et le second chlorure part."
+          }
+        ],
+        "produit_attendu": "O=C=O.[C-]#[O+].[Cl-]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Enfin l'alcool entre en scène",
+        "smiles": "C[S+](C)Cl.CCCO[H].CCN(CC)CC",
+        "legende": "L'oxygène de l'alcool attaque le soufre et chasse le chlorure ; la triéthylamine récupère le proton. On obtient un ion alcoxysulfonium — l'alcool est maintenant accroché au soufre.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'alcool attaque le soufre."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "Le chlorure part."
+          },
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                8
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "La triéthylamine prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CCCO[S+](C)C.[Cl-].CC[NH+](CC)CC",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "La base déprotone un méthyle : voici l'ylure",
+        "smiles": "CCCO[S+](C([H])([H])[H])C.CCN(CC)CC",
+        "legende": "Le soufre chargé positivement rend acides les protons de ses méthyles. La triéthylamine en prend un : on obtient un ylure — charge positive et charge négative sur deux atomes voisins.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base prend un proton du méthyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbone porte désormais la charge négative."
+          }
+        ],
+        "produit_attendu": "CCCO[S+]([C-]([H])[H])C.CC[NH+](CC)CC",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "L'ylure va chercher l'hydrogène, par un cycle à cinq",
+        "smiles": "CCC([H])([H])O[S+]([C-]([H])[H])C",
+        "legende": "DERNIÈRE ÉTAPE, ET LA PLUS ÉLÉGANTE : le carbanion n'a pas besoin d'aller loin — l'hydrogène qu'il vise est sur le carbone d'en face, à travers un cycle à cinq atomes. Tout se passe en une fois : le proton part, la double liaison C=O se forme, et le soufre récupère les deux électrons de la liaison O–S. Clayden signale qu'au chapitre 35 on apprendra à appeler cela une réaction PÉRICYCLIQUE (p. 668).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion prend l'hydrogène."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.35,
+            "libelle": "Et la liaison O–S se rompt : le soufre est réduit."
+          }
+        ],
+        "produit_attendu": "CCC([H])=O.CSC",
+        "valide": false
+      },
+      {
+        "numero": 8,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCC=O",
+        "legende": "L'aldéhyde, et du sulfure de diméthyle. Bilan d'oxydoréduction : l'alcool est oxydé en aldéhyde, le soufre(IV) du DMSO est réduit en soufre(II) du DMS. Le DMS a une odeur très forte — c'est le principal reproche fait à cette méthode par ailleurs excellente.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "oxydation_dess_martin": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'alcool prend la place d'un acétate sur l'iode",
+        "smiles": "CCCO[H].CC(=O)O[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21",
+        "legende": "Le périodinane de Dess-Martin est un iode(V) portant trois acétates. L'alcool échange sa place avec l'un d'eux : c'est une simple substitution sur l'iode (McMurry p. 551).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'alcool attaque l'iode."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "Un acétate s'en va."
+          }
+        ],
+        "produit_attendu": "CCC[O+]([H])[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.CC(=O)[O-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'acétate libéré prend le proton",
+        "smiles": "CCC[O+]([H])[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.CC(=O)[O-]",
+        "legende": "L'acétate qu'on vient de chasser sert de base : on obtient l'alcoxypériodinane, et de l'acide acétique. C'est le seul sous-produit acide de la réaction — et il est faible, d'où la douceur de la méthode.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 26
+            },
+            "vers": {
+              "liaison": [
+                26,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'acétate prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CCCO[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.CC(=O)O[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'élimination : l'iode(V) devient iode(III)",
+        "smiles": "CCC([H])([H])O[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.CC(=O)[O-]",
+        "legende": "MÊME SQUELETTE QUE L'OXYDATION AU CHROME, ET MÊME SQUELETTE QU'UN E2 : la base prend l'hydrogène du carbone, la liaison C–H devient la double liaison C=O, et le groupe partant emporte deux électrons — sauf qu'ici le groupe partant est un iode réduit (McMurry p. 551). Un acétate part dans la foulée, ce qui rend l'iode(III) neutre.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 27
+            },
+            "vers": {
+              "liaison": [
+                27,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'acétate prend l'hydrogène du carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison C–H devient la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison O–I se rompt : les électrons vont à l'iode, qui est réduit."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.4,
+            "libelle": "Et un acétate s'en va."
+          }
+        ],
+        "produit_attendu": "CCC([H])=O.[I]1(OC(C)=O)OC(=O)c2ccccc21.CC(=O)[O-].CC(=O)O[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCC=O",
+        "legende": "L'aldéhyde, et de l'acide acétique. Aucun métal lourd, aucun milieu acide fort, température ambiante : c'est ce qui fait employer ce réactif sur les alcools les plus fragiles. Clayden cite l'oxydation d'un alcool allylique cis en aldéhyde cis, SANS isomérisation (p. 545).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "baeyer_villiger": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide protone le carbonyle",
+        "smiles": "CC(=O)C(C)(C)C.[O+]([H])([H])[H]",
+        "legende": "Le peracide est aussi un acide : le milieu est acide sans qu'on ait rien à ajouter. Protoner le carbonyle le rend bien plus électrophile.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène du carbonyle prend un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau est restituée."
+          }
+        ],
+        "produit_attendu": "CC(=[O+][H])C(C)(C)C.O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le peracide attaque",
+        "smiles": "CC(=[O+][H])C(C)(C)C.CC(=O)OO[H]",
+        "legende": "C'est l'oxygène TERMINAL du peracide — celui qui porte l'hydrogène — qui attaque. Un peracide est un nucléophile qui porte son propre groupe partant : le carboxylate.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène terminal du peracide attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbonyle s'ouvre."
+          }
+        ],
+        "produit_attendu": "CC(O[H])(C(C)(C)C)[O+]([H])OC(C)=O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Transfert de proton : l'intermédiaire de Criegee",
+        "smiles": "CC(O[H])(C(C)(C)C)[O+]([H])OC(C)=O.O([H])[H]",
+        "legende": "L'intermédiaire porte maintenant un alcool d'un côté et un peroxyde d'ester de l'autre. Il porte le nom de son découvreur : l'INTERMÉDIAIRE DE CRIEGEE. Clayden fait remarquer qu'il ressemble à s'y méprendre à un intermédiaire de semipinacol, un carbone remplacé par un oxygène (p. 953).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(O[H])(C(C)(C)C)OOC(C)=O.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "LA MIGRATION : un groupe passe du carbone à l'oxygène",
+        "smiles": "CC(O[H])(C(C)(C)C)OOC(C)=O",
+        "legende": "TOUT SE JOUE EN UNE FOIS. L'oxygène de l'alcool pousse et reforme un carbonyle ; sous cette poussée, un groupe alkyle QUITTE LE CARBONE ET SE FIXE SUR L'OXYGÈNE VOISIN ; et la liaison O–O se rompt, libérant un carboxylate. L'oxygène s'est glissé entre le carbonyle et son substituant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène pousse et reforme le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                8
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le groupe tert-butyle migre du carbone vers l'oxygène."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": -0.35,
+            "libelle": "Et la liaison O–O se rompt : le carboxylate part."
+          }
+        ],
+        "produit_attendu": "CC(=[O+][H])OC(C)(C)C.[O-]C(C)=O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Le carboxylate reprend le proton",
+        "smiles": "CC(=[O+][H])OC(C)(C)C.[O-]C(C)=O",
+        "legende": "L'ester est libéré, et l'acide carboxylique correspondant au peracide est restitué.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carboxylate prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "L'ester est formé."
+          }
+        ],
+        "produit_attendu": "CC(=O)OC(C)(C)C.CC(=O)O[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)OC(C)(C)C",
+        "legende": "Un ester, là où il y avait une cétone : un atome d'oxygène s'est INSÉRÉ entre le carbonyle et l'un de ses substituants. Baeyer et Villiger l'ont découvert en 1899.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "coupure_oxydante_diols": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le diol et le périodate se lient : l'ester périodique cyclique",
+        "smiles": "CC1O[I+2]([O-])([O-])(O[H])OC1C",
+        "legende": "Les deux alcools du diol se fixent tous deux sur l'iode, avec perte d'eau. On obtient un cycle à CINQ atomes — et c'est cette géométrie qui explique tout ce qui suit : sans elle, pas de coupure.\n\nUNE REMARQUE SUR LE DESSIN : l'iode hypervalent est représenté ici sous sa forme SÉPARÉE EN CHARGES — I²⁺ entouré de deux oxygènes négatifs — plutôt qu'avec deux doubles liaisons I=O. Les deux écritures décrivent la même molécule et vous rencontrerez les deux ; celle-ci a l'avantage de ne jamais faire dépasser l'octet.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le cycle se défait d'un seul mouvement",
+        "smiles": "CC1O[I+2]([O-])([O-])(O[H])OC1C",
+        "legende": "QUATRE FLÈCHES QUI TOURNENT AUTOUR DU CYCLE. La liaison carbone–carbone se rompt, deux doubles liaisons C=O apparaissent, et l'iode récupère deux électrons : I(VII) devient I(V). Tout se passe en même temps, dans le cycle à cinq — c'est le même genre de mécanisme cyclique que la coupure d'un diol par le tétroxyde d'osmium (Clayden p. 443).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison O–I se rompt du côté gauche."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": 0.5,
+            "libelle": "Et cet oxygène forme aussitôt une double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                9
+              ]
+            },
+            "vers": {
+              "liaison": [
+                9,
+                8
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison carbone–carbone se rompt et devient la seconde double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.4,
+            "libelle": "Enfin la seconde liaison O–I se rompt : les électrons vont à l'iode, qui est réduit."
+          }
+        ],
+        "produit_attendu": "CC=O.CC=O.[H]O[I+2]([O-])[O-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC=O",
+        "legende": "Deux molécules d'éthanal, et de l'acide iodique. Associé au tétroxyde d'osmium, le périodate coupe un alcène en deux composés carbonylés — et il RÉOXYDE l'osmium au passage, ce qui permet de n'en employer qu'une quantité catalytique (Clayden p. 443).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reduction_wolff_kishner": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "D'abord l'hydrazone",
+        "smiles": "CC(=NN)c1ccccc1",
+        "legende": "La cétone et l'hydrazine se condensent comme n'importe quelle amine sur un carbonyle (voir la fiche « imines et énamines »). L'hydrazone obtenue est le vrai point de départ.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "La soude concentrée et chaude déprotone l'azote",
+        "smiles": "CC(=NN([H])[H])c1ccccc1.[OH-]",
+        "legende": "Les conditions sont rudes : soude concentrée, 200 °C, souvent dans le diéthylèneglycol pour tenir la température. C'est le prix à payer pour ce mécanisme.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde prend un proton de l'azote terminal."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote porte la charge."
+          }
+        ],
+        "produit_attendu": "CC(=N[N-][H])c1ccccc1.O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "La charge passe sur le carbone, qui prend un proton",
+        "smiles": "CC(=N[N-][H])c1ccccc1.O([H])[H]",
+        "legende": "L'azote pousse son doublet dans la double liaison C=N ; celle-ci se déplace, et le carbone se sert au passage d'un proton de l'eau. On obtient un DIAZÈNE — deux azotes doublement liés, dont l'un porte encore un hydrogène.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "courbure": -0.3,
+            "libelle": "L'azote pousse son doublet."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                12
+              ]
+            },
+            "courbure": -0.25,
+            "libelle": "La double liaison C=N se déplace ; le carbone prend un proton à l'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": 0.3,
+            "libelle": "L'hydroxyde est régénéré."
+          }
+        ],
+        "produit_attendu": "CC([H])(N=N[H])c1ccccc1.[OH-]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'azote s'échappe : voilà le moteur",
+        "smiles": "CC([H])(N=N[H])c1ccccc1.[OH-]",
+        "legende": "C'EST L'ÉTAPE QUI EXPLIQUE TOUT. La base retire le dernier hydrogène de l'azote ; la double liaison N=N devient une TRIPLE liaison, et le diazote s'en va sous forme de gaz. Un gaz qui quitte le ballon ne revient pas : l'équilibre est vidé. Ce qui reste est un carbanion — une espèce qu'on n'obtient presque jamais aussi simplement.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "La base prend le dernier proton de l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison N=N devient triple : c'est le diazote."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": -0.35,
+            "libelle": "Et la liaison carbone–azote se rompt : le carbone garde les deux électrons."
+          }
+        ],
+        "produit_attendu": "C[C-]([H])c1ccccc1.N#N.O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Le carbanion prend un proton",
+        "smiles": "C[C-]([H])c1ccccc1.O([H])[H]",
+        "legende": "L'eau du milieu le protone aussitôt. Le carbonyle a complètement disparu : il ne reste qu'un CH₂.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                10
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion prend un proton à l'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.35,
+            "libelle": "L'hydroxyde est régénéré."
+          }
+        ],
+        "produit_attendu": "CC([H])([H])c1ccccc1.[OH-]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCc1ccccc1",
+        "legende": "L'éthylbenzène. Un groupe C=O est devenu un CH₂ : c'est une réduction complète, pas une simple réduction en alcool. Clayden en donne un bel usage : la synthèse de la muscalure, phéromone de la mouche domestique, à partir de l'acide érucique du colza (p. 541).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reduction_nitriles_amides": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un premier hydrure attaque le nitrile",
+        "smiles": "CCC#N.[H][Al-]([H])([H])[H]",
+        "legende": "La triple liaison C≡N est polarisée comme un carbonyle : le carbone est électrophile. L'hydrure du tétrahydruroaluminate l'attaque et la liaison π se replie sur l'azote (McMurry p. 671).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                2
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un hydrure quitte l'aluminium et attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "La liaison π se replie sur l'azote : c'est un anion d'imine."
+          }
+        ],
+        "produit_attendu": "CCC([H])=[N-].[H][Al]([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Un second hydrure attaque l'imine",
+        "smiles": "CCC([H])=[N-].[H][Al-]([H])([H])[H]",
+        "legende": "L'anion d'imine porte encore une double liaison C=N : il peut être attaqué une seconde fois. C'est parce que l'aluminium coordine ces anions qu'une addition, autrement très difficile sur une espèce déjà chargée, devient possible (McMurry p. 671).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                2
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un second hydrure attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote porte maintenant deux charges négatives."
+          }
+        ],
+        "produit_attendu": "CCC([H])([H])[N-2].[H][Al]([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le traitement aqueux rend les deux protons",
+        "smiles": "CCC([H])([H])[N-2].O([H])[H].O([H])[H]",
+        "legende": "Deux molécules d'eau, deux protons : le dianion devient une amine primaire. On n'ajoute l'eau qu'à la fin — le LiAlH₄ réagit violemment avec elle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote prend un premier proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "Un hydroxyde est libéré."
+          },
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                10
+              ]
+            },
+            "courbure": -0.5,
+            "libelle": "Puis un second."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.5,
+            "libelle": "Et un second hydroxyde."
+          }
+        ],
+        "produit_attendu": "CCC([H])([H])N([H])[H].[OH-].[OH-]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient à partir d'un nitrile",
+        "smiles": "CCCN",
+        "legende": "Une amine PRIMAIRE, allongée d'un carbone par rapport à l'halogénure dont le nitrile est issu. C'est l'une des rares façons commodes de faire une amine primaire sans suralkylation.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Sur un AMIDE maintenant : l'hydrure attaque le carbonyle",
+        "smiles": "CC(=O)N(C)C.[H][Al-]([H])([H])[H]",
+        "legende": "Début identique à la réduction d'un ester : l'hydrure attaque, l'intermédiaire tétraédrique se forme. C'est la SUITE qui diffère.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydrure attaque le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène devient alcoolate."
+          }
+        ],
+        "produit_attendu": "CC([H])([O-])N(C)C.[H][Al]([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "C'est l'OXYGÈNE qui part, pas l'azote : ion iminium",
+        "smiles": "CC([H])(O[Al-]([H])([H])[H])N(C)C",
+        "legende": "VOICI LA DIFFÉRENCE AVEC L'ESTER. Dans un ester, c'est l'alcoolate qui part et l'on obtient un aldéhyde, aussitôt réduit en alcool. Dans un amide, c'est l'oxygène qui s'en va — aidé par sa coordination à l'aluminium — et l'azote qui pousse. On obtient un ION IMINIUM, et le produit final sera une AMINE, pas un alcool (Clayden p. 531).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote pousse son doublet."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "Et l'oxygène s'en va avec l'aluminium."
+          }
+        ],
+        "produit_attendu": "CC([H])=[N+](C)C.[O-][Al-]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Un dernier hydrure sur l'iminium",
+        "smiles": "CC([H])=[N+](C)C.[H][Al-]([H])([H])[H]",
+        "legende": "L'iminium est très électrophile : l'hydrure s'y ajoute sans difficulté.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydrure attaque le carbone de l'iminium."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote reprend son doublet."
+          }
+        ],
+        "produit_attendu": "CC([H])([H])N(C)C.[H][Al]([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 8,
+        "titre": "Ce qu'on obtient à partir d'un amide",
+        "smiles": "CCN(C)C",
+        "legende": "Une amine. Le carbonyle a disparu, l'azote est resté. C'est l'une des méthodes les plus sûres pour fabriquer une amine tertiaire — et si l'on arrête la réaction à 0 °C avant que l'iminium ne se forme, on obtient un ALDÉHYDE : 80 % de rendement dans l'exemple de Clayden (p. 534).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reduction_clemmensen": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le point de départ",
+        "smiles": "CC(=O)c1ccccc1",
+        "legende": "Une cétone aromatique — typiquement le produit d'une acylation de Friedel-Crafts. On veut en faire un alcane, et non un alcool.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCc1ccccc1",
+        "legende": "AUCUNE FLÈCHE ICI, ET C'EST VOULU. Clayden écrit que la réduction de Clemmensen « est la plus simple à mettre en œuvre, mais a le mécanisme le plus compliqué » (p. 540). Aucun des ouvrages dont nous disposons n'en donne le détail par flèches courbes : le zinc amalgamé transfère des électrons à la surface du métal, et les intermédiaires — carbanions ou carbénoïdes liés au zinc — ne se décrivent pas comme une suite de déplacements de doublets. Nous ne l'inventerons pas.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "hydrogenation_asymetrique": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le substrat : un alcène prochiral",
+        "smiles": "CC(C)=CCCC(C)=CCO",
+        "legende": "Le géraniol. Sa double liaison trisubstituée, celle qui porte l'alcool, va être hydrogénée — et le carbone qui en résulte devient un centre stéréogène. Prochiral veut dire cela : plan aujourd'hui, chiral demain, selon la face par laquelle on l'attaque.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le ligand : le BINAP",
+        "smiles": "P(c1ccccc1)(c1ccccc1)c1ccc2ccccc2c1-c1c(P(c2ccccc2)c2ccccc2)ccc2ccccc12",
+        "legende": "AUCUN CARBONE ASYMÉTRIQUE DANS CETTE MOLÉCULE, et pourtant elle est chirale. Les deux naphtalènes ne peuvent pas tourner librement autour de la liaison qui les unit : la molécule est vrillée, et son image dans un miroir ne lui est pas superposable. On appelle cela une chiralité AXIALE. Le BINAP est un diphosphine CHÉLATANT : le métal se loge entre les deux phosphores, solidement tenu dans un environnement chiral (Clayden p. 1118).",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le cycle catalytique, en mots",
+        "smiles": "CC(C)=CCCC(C)=CCO",
+        "legende": "PAS DE FLÈCHES COURBES ICI NON PLUS : les étapes d'un cycle organométallique ne se décrivent pas par des déplacements de doublets, mais par des changements de degré d'oxydation et de nombre d'électrons du métal. Clayden les nomme (p. 1118) : addition oxydante de H₂ sur le complexe à 14 électrons, formation du complexe π avec l'alcène — le métal est alors à 18 électrons —, insertion migratoire d'un hydrogène, puis élimination réductrice qui libère l'alcane et régénère le complexe de départ. Les deux phosphores restent coordinés pendant TOUT le cycle : le métal ne quitte jamais son environnement chiral, et c'est pour cela que la sélectivité tient.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(C)=CCC[C@@H](C)CCO",
+        "legende": "Le (R)-citronellol, avec plus de 98 % d'excès énantiomérique — soit une pureté supérieure à celle de bien des sources naturelles du même composé (Clayden p. 1119). Notez que l'autre double liaison, isolée, n'est pas touchée : le catalyseur ne réduit que celle qui est proche du groupe alcool, qui aide à la coordination.",
         "fleches": [],
         "valide": false
       }

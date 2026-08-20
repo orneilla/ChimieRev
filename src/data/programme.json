@@ -487,52 +487,52 @@
         {
           "nom": "Oxydation des alcools (PCC, PDC)",
           "niveau": "L3",
-          "id": null
+          "id": "oxydation_alcools_pcc"
         },
         {
           "nom": "Oxydation de Swern",
           "niveau": "M1",
-          "id": null
+          "id": "oxydation_swern"
         },
         {
           "nom": "Oxydation de Dess-Martin",
           "niveau": "M1",
-          "id": null
+          "id": "oxydation_dess_martin"
         },
         {
           "nom": "Oxydation de Jones",
           "niveau": "L3",
-          "id": null
+          "id": "oxydation_jones"
         },
         {
           "nom": "Réarrangement de Baeyer-Villiger",
           "niveau": "M1",
-          "id": null
+          "id": "baeyer_villiger"
         },
         {
           "nom": "Réduction de Clemmensen",
           "niveau": "L3",
-          "id": null
+          "id": "reduction_clemmensen"
         },
         {
           "nom": "Réduction de Wolff-Kishner",
           "niveau": "L3",
-          "id": null
+          "id": "reduction_wolff_kishner"
         },
         {
           "nom": "Hydrogénation catalytique asymétrique",
           "niveau": "M2",
-          "id": null
+          "id": "hydrogenation_asymetrique"
         },
         {
           "nom": "Réduction des nitriles et des amides",
           "niveau": "L3",
-          "id": null
+          "id": "reduction_nitriles_amides"
         },
         {
           "nom": "Coupure oxydante des diols",
           "niveau": "L3",
-          "id": null
+          "id": "coupure_oxydante_diols"
         }
       ],
       "bloc": "Socle organique"

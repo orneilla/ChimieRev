@@ -80,9 +80,18 @@ function chercher(liste, texte, genre) {
   return trouve
 }
 
-/** Le réactif désigné par cette ligne de conditions, s'il est connu. */
+/**
+ * Le réactif désigné par cette ligne de conditions, s'il est connu.
+ *
+ * On cherche d'abord parmi les réactifs, puis parmi les solvants : un même
+ * produit change de rôle d'une réaction à l'autre. Le DMSO est le solvant
+ * de bien des substitutions, mais dans l'oxydation de Swern c'est LUI
+ * l'oxydant ; la pyridine, l'acide acétique et le méthanol sont dans le
+ * même cas. Sans ce recours, leur nom resterait muet dans la ligne des
+ * réactifs alors que leur fiche existe.
+ */
 export function reactifDeLaLigne(ligne) {
-  return chercher(reactifs, ligne, 'reactif')
+  return chercher(reactifs, ligne, 'reactif') || chercher(solvants, ligne, 'solvant')
 }
 
 /** Le solvant désigné par cette ligne de conditions, s'il est connu. */
