@@ -672,6 +672,14 @@ function dessinerEtape(etape) {
   // se lisent plus. Le placement cherche à l'éviter, mais chercher n'est
   // pas garantir : on vérifie, et un schéma illisible n'est pas publié.
   const griefs = []
+
+  /** Deux hameçons qui visent la même liaison : ils vont ensemble. */
+  const jumeaux = (i, j) => {
+    const une = (etape.fleches || [])[i]
+    const deux = (etape.fleches || [])[j]
+    return !!une && !!deux && une.electrons === 1 && deux.electrons === 1 &&
+           JSON.stringify(une.vers) === JSON.stringify(deux.vers)
+  }
   tracees.forEach((tracee, rang) => {
     const numero = rang + 1
     const p = tracee.numero
@@ -692,6 +700,13 @@ function dessinerEtape(etape) {
 
     tracees.forEach((autre, i) => {
       if (i === rang) return
+      // Le jumeau d'un hameçon fait exception. Deux hameçons qui visent la
+      // même liaison sont dessinés côte à côte — c'est l'écriture d'une
+      // liaison qui se forme à partir de deux électrons célibataires. Leurs
+      // pastilles sont donc voisines par construction ; ce qui doit rester
+      // vrai, et que le contrôle numéro ↔ numéro garantit toujours, c'est
+      // qu'on puisse les distinguer l'une de l'autre.
+      if (jumeaux(rang, i)) return
       const d = Math.min(...echantillonner(autre).map((q) => Math.hypot(q.x - p.x, q.y - p.y)))
       if (d < DEGAGEMENT_TRACE) {
         griefs.push(`le numéro ${numero} est à ${d.toFixed(0)} px du trait de la flèche ${i + 1} (minimum ${DEGAGEMENT_TRACE})`)
@@ -713,10 +728,7 @@ function dessinerEtape(etape) {
       // montrer. On ne leur reproche donc pas de se côtoyer — à charge pour
       // l'auteur de leur donner des courbures opposées pour qu'on les
       // distingue.
-      const une = (etape.fleches || [])[rang]
-      const deux = (etape.fleches || [])[rang + 1 + ecart]
-      if (une && deux && une.electrons === 1 && deux.electrons === 1 &&
-          JSON.stringify(une.vers) === JSON.stringify(deux.vers)) return
+      if (jumeaux(rang, rang + 1 + ecart)) return
 
       const part = Math.max(partSuperposee(tracee, autre), partSuperposee(autre, tracee))
       if (part > PART_SUPERPOSEE) {
@@ -864,6 +876,8 @@ for (const [idReaction, mecanisme] of Object.entries(mecanismes)) {
       legende: etape.legende,
       // Ce que fait chaque flèche, dans l'ordre de leur numéro.
       fleches: (etape.fleches || []).map((f) => f.libelle || ''),
+      // Une étape radicalaire se lit autrement : il faut le dire au lecteur.
+      hamecons: (etape.fleches || []).some((f) => f.electrons === 1),
       // Deux contrôles distincts, qui ne disent pas la même chose :
       // — la machine vérifie que les flèches mènent au produit annoncé ;
       // — un chimiste, lui seul, atteste que ce mécanisme est le bon.

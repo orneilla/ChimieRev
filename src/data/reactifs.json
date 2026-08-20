@@ -1844,5 +1844,233 @@
         "note": "Il épargne l'acide carboxylique"
       }
     ]
+  },
+  {
+    "id": "nbs",
+    "nom": "NBS",
+    "nom_complet": "N-bromosuccinimide",
+    "SMILES": "BrN1C(=O)CCC1=O",
+    "role": "Source de dibrome à CONCENTRATION TRÈS BASSE",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote portant le brome",
+        "role": "La liaison N–Br est faible ; c'est de là que vient le dibrome, au compte-gouttes."
+      },
+      {
+        "partie": "les deux carbonyles du succinimide",
+        "role": "Ils stabilisent l'azote après le départ du brome — c'est ce qui rend la libération possible."
+      },
+      {
+        "partie": "ce qu'on NE voit pas : du Br₂ en quantité",
+        "role": "Et c'est tout l'intérêt du réactif."
+      }
+    ],
+    "reactions_liees": [
+      "bromation_allylique_nbs"
+    ],
+    "explication_reference": "Imide N-bromé employé comme source de dibrome à faible concentration stationnaire. Sa fonction n'est pas de fournir directement des radicaux mais de maintenir la concentration en dibrome assez basse pour supprimer l'addition radicalaire concurrente sur la double liaison, dont la première étape est réversible et n'est rendue irréversible que par le piégeage du radical intermédiaire par une seconde molécule de dibrome.",
+    "explication_comprendre": "ON CROIT SOUVENT QUE LE NBS FOURNIT LE RADICAL BROME. Ce n'est pas cela, et le comprendre change tout.\n\nCE QU'IL FAIT VRAIMENT : il libère du dibrome — mais très peu à la fois, et seulement à mesure qu'on le consomme.\n\nPOURQUOI C'EST PRÉCIEUX : un radical brome face à un alcène a deux possibilités. Arracher l'hydrogène allylique, ce qu'on veut. Ou s'ADDITIONNER sur la double liaison, ce qu'on ne veut pas.\n\nOr l'addition est réversible : le radical formé peut relâcher le brome. Elle ne devient définitive que si une SECONDE molécule de Br₂ vient le piéger.\n\nS'il n'y a presque pas de Br₂ dans le ballon, ce piégeage n'a pas lieu. L'addition avance puis rebrousse chemin, indéfiniment. L'arrachement, lui, est irréversible dès le premier coup.\n\nRésultat : seule la réaction voulue progresse.\n\nLA LEÇON DÉPASSE CE RÉACTIF : on choisit d'ordinaire un réactif pour ce qu'il apporte. Ici on le choisit pour ce qu'il n'apporte PAS TROP VITE. Contrôler une réaction par la concentration plutôt que par la nature du réactif est une manière de penser qui revient souvent.",
+    "reactions_exemples": [
+      {
+        "nom": "Bromation allylique",
+        "substrat_SMILES": "C1=CCCCC1",
+        "produit_SMILES": "BrC1C=CCCC1",
+        "note": "85 % de rendement dans CCl₄"
+      }
+    ]
+  },
+  {
+    "id": "aibn",
+    "nom": "AIBN",
+    "nom_complet": "azobisisobutyronitrile",
+    "SMILES": "CC(C)(C#N)N=NC(C)(C)C#N",
+    "role": "Amorceur radicalaire thermique",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison N=N centrale",
+        "role": "Elle part en DIAZOTE — un gaz. C'est ce départ qui rend l'amorçage irréversible."
+      },
+      {
+        "partie": "les deux nitriles",
+        "role": "Ils stabilisent les radicaux formés : sans eux, la décomposition serait beaucoup plus difficile."
+      },
+      {
+        "partie": "les méthyles",
+        "role": "Ils ajoutent leur stabilisation tertiaire au radical."
+      }
+    ],
+    "reactions_liees": [
+      "barton_mccombie",
+      "cyclisation_radicalaire",
+      "polymerisation_radicalaire"
+    ],
+    "explication_reference": "Composé azoïque employé comme amorceur radicalaire. Sa décomposition thermique, au-dessus de 60 °C — domaine usuel de 66 à 72 °C, énergie d'activation de 131 kJ/mol —, libère du diazote et deux radicaux stabilisés par un groupe nitrile, qui arrachent l'hydrogène des hydrures d'étain ou s'additionnent sur les monomères.",
+    "explication_comprendre": "À QUOI SERT UN AMORCEUR ? À fabriquer les tout premiers radicaux. Rien d'autre — la chaîne se débrouille ensuite toute seule.\n\nCE QUI REND L'AIBN SI COMMODE : deux choses, et elles sont liées.\n\nLA PREMIÈRE est le DIAZOTE. Sa liaison N=N centrale se rompt et libère N₂, une molécule d'une stabilité extraordinaire, et qui plus est un gaz — il quitte le ballon et ne revient jamais. Toute l'énergie nécessaire est payée par ce départ.\n\nLA SECONDE est la TEMPÉRATURE À LAQUELLE il le fait : 66 à 72 °C. C'est précisément le domaine où travaillent la plupart des réactions radicalaires, dans le benzène ou le toluène au reflux.\n\nUn amorceur qui se décomposerait à 150 °C serait inutilisable ; un qui se décomposerait à 20 °C ne se conserverait pas.\n\nLES DEUX RADICAUX QU'IL LAISSE sont stabilisés par un nitrile et par deux méthyles. Ils sont donc assez tranquilles pour ne pas réagir n'importe comment, et assez réactifs pour arracher l'hydrogène d'un hydrure d'étain.\n\nEN PRATIQUE : quelques pourcents suffisent. On le pèse au milligramme et l'on obtient des grammes de produit.",
+    "reactions_exemples": [
+      {
+        "nom": "Amorçage d'une désoxygénation",
+        "substrat_SMILES": "CCO",
+        "produit_SMILES": "CC",
+        "note": "0,05 équivalent suffit"
+      }
+    ]
+  },
+  {
+    "id": "peroxyde_ditertbutyle",
+    "nom": "(t-BuO)₂",
+    "nom_complet": "peroxyde de di-tert-butyle",
+    "SMILES": "CC(C)(C)OOC(C)(C)C",
+    "role": "Amorceur radicalaire : sa liaison O–O est faible",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison O–O",
+        "role": "L'une des plus faibles de la chimie organique. C'est sa seule raison d'être."
+      },
+      {
+        "partie": "les deux tert-butyles",
+        "role": "Ils stabilisent les radicaux alcoxyles formés et rendent le peroxyde assez stable pour être stocké."
+      }
+    ],
+    "reactions_liees": [
+      "addition_hbr_peroxyde",
+      "polymerisation_radicalaire",
+      "halogenation_radicalaire"
+    ],
+    "explication_reference": "Peroxyde dialkylique employé comme amorceur radicalaire. La liaison oxygène–oxygène, notablement plus faible que les autres liaisons de la molécule, se rompt homolytiquement sous l'effet de la chaleur ou de la lumière pour livrer deux radicaux alcoxyles. Employé en quantité catalytique — de l'ordre de 10 % en moles —, il suffit à entretenir une chaîne radicalaire, la fraction perdue par recombinaison imposant néanmoins cette proportion.",
+    "explication_comprendre": "POURQUOI DEUX OXYGÈNES ACCOLÉS ?\n\nParce que la liaison qui les unit est l'une des plus faibles qu'on rencontre en chimie organique.\n\nCOMPAREZ : une liaison C–H vaut environ 420 kJ/mol, une C–C environ 370. Une liaison O–O n'en vaut qu'environ 150.\n\nUn peu de chaleur ou de lumière suffit donc à la rompre. Et elle se rompt PROPREMENT, en deux radicaux identiques.\n\nC'EST SA SEULE FONCTION. Il ne participe à rien d'autre : il fabrique les deux radicaux qui lancent la chaîne, et disparaît de l'histoire.\n\nCOMBIEN EN METTRE : environ 10 % en moles, et pas moins. On pourrait croire qu'un soupçon suffirait, puisque la chaîne s'entretient. Mais la chaîne n'est pas parfaite : de temps en temps deux radicaux se rencontrent et s'annulent, et cette chaîne-là est morte. Il faut en relancer.\n\nUNE MISE EN GARDE : cette fragilité est aussi ce qui rend les peroxydes dangereux. La même liaison qui se rompt gentiment à 100 °C peut se rompre brutalement sous un choc. On les manipule avec précaution, et l'on se méfie de ceux qui se sont formés tout seuls dans un vieux flacon d'éther.",
+    "reactions_exemples": [
+      {
+        "nom": "Amorçage",
+        "substrat_SMILES": "CC(C)=C",
+        "produit_SMILES": "CC(C)CBr",
+        "note": "Environ 10 mol % suffisent"
+      }
+    ]
+  },
+  {
+    "id": "bu3snh",
+    "nom": "Bu₃SnH",
+    "nom_complet": "hydrure de tributylétain",
+    "SMILES": "[H][Sn](CCCC)(CCCC)CCCC",
+    "role": "Donneur d'hydrogène, et arracheur d'hétéroatomes",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison Sn–H",
+        "role": "FAIBLE : l'étain rend facilement son hydrogène. Toute la méthode tient là."
+      },
+      {
+        "partie": "l'étain",
+        "role": "Ses liaisons avec le brome, l'iode ou le soufre sont FORTES : il les arrache volontiers. Les deux étapes de la chaîne sont ainsi favorables."
+      },
+      {
+        "partie": "les trois butyles",
+        "role": "Ils ne participent à rien. Ils rendent le réactif soluble en milieu organique — et difficile à éliminer du produit."
+      }
+    ],
+    "reactions_liees": [
+      "barton_mccombie",
+      "cyclisation_radicalaire"
+    ],
+    "explication_reference": "Hydrure organostannique employé comme donneur d'atome d'hydrogène dans les chaînes radicalaires. La faiblesse de la liaison étain–hydrogène, jointe à la force des liaisons étain–halogène et étain–soufre, rend favorables les deux étapes de propagation : le radical stannylé arrache l'hétéroatome au substrat, et le radical carboné qui en résulte arrache l'hydrogène à l'hydrure, régénérant le radical stannylé. La toxicité de l'étain et la difficulté d'en éliminer les résidus constituent le principal inconvénient de la méthode.",
+    "explication_comprendre": "POURQUOI L'ÉTAIN, ET PAS UN AUTRE MÉTAL ?\n\nRegardez le bilan des forces de liaison — c'est toujours la clé en chimie radicalaire.\n\nSn–H est FAIBLE. L'étain rend donc facilement son hydrogène à un radical carboné.\n\nSn–Br, Sn–I, Sn–S sont FORTES. L'étain arrache donc volontiers ces atomes à une molécule organique.\n\nLES DEUX ÉTAPES DE LA CHAÎNE SONT AINSI FAVORABLES, l'une comme l'autre. C'est très rare, et c'est ce qui fait la réputation de ce réactif.\n\nSUIVEZ LA BOUCLE : le radical d'étain arrache le brome d'un halogénure. Le radical carboné obtenu fait ce qu'il a à faire — cycliser, s'additionner. Puis il arrache l'hydrogène de Bu₃SnH, ce qui régénère le radical d'étain. Et l'on recommence.\n\nCE QU'ON LUI REPROCHE, ET C'EST SÉRIEUX : l'étain est toxique, et ses résidus s'accrochent au produit. Les séparer par chromatographie est fastidieux, et il en reste toujours un peu — ce qui est rédhibitoire pour un médicament.\n\nC'est pour cette raison qu'on cherche des remplaçants, comme le couple triéthylborane–oxygène.\n\nUNE REMARQUE SUR LE DESSIN : les trois butyles ne participent à rien. Ils sont là pour la solubilité, et ils encombrent les schémas — mais nous les dessinons quand même, parce que c'est ce qu'on met dans le ballon.",
+    "reactions_exemples": [
+      {
+        "nom": "Cyclisation radicalaire",
+        "substrat_SMILES": "BrCCCCC=C",
+        "produit_SMILES": "CC1CCCC1",
+        "note": "Avec AIBN, dans le benzène"
+      }
+    ]
+  },
+  {
+    "id": "dioxygene",
+    "nom": "O₂",
+    "nom_complet": "dioxygène",
+    "SMILES": "[O][O]",
+    "role": "DIRADICAL naturel : amorceur et réactif à la fois",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux électrons célibataires",
+        "role": "À l'état fondamental, et c'est le fait essentiel. Le dioxygène n'a besoin d'aucun amorceur : il en est un."
+      },
+      {
+        "partie": "la liaison entre les deux oxygènes",
+        "role": "On l'écrit d'ordinaire O=O, ce qui est commode mais masque le caractère diradicalaire."
+      }
+    ],
+    "reactions_liees": [
+      "autoxydation",
+      "cyclisation_radicalaire"
+    ],
+    "explication_reference": "Le dioxygène possède à l'état fondamental deux électrons célibataires : c'est un diradical, ce qui explique qu'il puisse amorcer seul une chaîne radicalaire et y participer comme réactif stœchiométrique. Il substitue lentement un hydrogène par un groupe hydroperoxyle dans les composés qui portent un hydrogène affaibli, en particulier les éthers et les aldéhydes. Il amorce également les réactions radicalaires initiées par les trialkylboranes, en s'additionnant sur l'orbitale p vacante du bore pour libérer un radical alkyle.",
+    "explication_comprendre": "LE FAIT LE PLUS SURPRENANT DE CETTE FICHE : le dioxygène de l'air est un DIRADICAL.\n\nVous l'écrivez O=O, avec une double liaison bien sage. C'est commode, et c'est faux — ou du moins très incomplet.\n\nÀ l'état fondamental, la molécule de dioxygène porte DEUX ÉLECTRONS CÉLIBATAIRES. Et il y en a 21 % dans l'air que vous respirez.\n\nCE QUE CELA IMPLIQUE : O₂ n'a besoin d'aucun amorceur pour lancer une chaîne radicalaire. Il EST l'amorceur.\n\nC'est pourquoi l'autoxydation ne demande ni lumière, ni chaleur, ni catalyseur. Elle demande seulement du temps — celui qu'un flacon passe sur une étagère.\n\nUNE CONSÉQUENCE MÉCANISTIQUE REMARQUABLE : quand un radical carboné s'unit à O₂, deux radicaux s'apparient — ce qui devrait TERMINER la chaîne. Mais O₂ en apportait deux : il en reste un, et la chaîne continue. Grossman souligne que c'est l'un des rares cas où une combinaison radical–radical figure dans une PROPAGATION (p. 304).\n\nET UN AUTRE USAGE, plus inattendu : quelques traces d'oxygène suffisent à amorcer les réactions au triéthylborane. L'oxygène s'additionne sur l'orbitale p vide du bore et libère un radical éthyle. Brown l'a découvert en constatant qu'un piégeur de radicaux, à 5 %, arrêtait tout.",
+    "reactions_exemples": [
+      {
+        "nom": "Autoxydation d'un éther",
+        "substrat_SMILES": "CCOCC",
+        "produit_SMILES": "CCOC(C)OO",
+        "note": "Sans rien d'autre — il suffit d'attendre"
+      }
+    ]
+  },
+  {
+    "id": "cs2",
+    "nom": "CS₂",
+    "nom_complet": "disulfure de carbone",
+    "SMILES": "S=C=S",
+    "role": "Apporte le thiocarbonyle sur lequel un radical pourra se fixer",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux doubles liaisons C=S",
+        "role": "Un alcoolate s'additionne sur le carbone : on obtient un xanthate, avec un C=S qui reste."
+      },
+      {
+        "partie": "le carbone central",
+        "role": "Électrophile, comme celui du CO₂ dont CS₂ est l'analogue soufré."
+      }
+    ],
+    "reactions_liees": [
+      "barton_mccombie"
+    ],
+    "explication_reference": "Analogue soufré du dioxyde de carbone, employé pour convertir un alcoolate en xanthate : l'addition de l'alcoolate sur le carbone livre un dithiocarbonate que l'iodométhane méthyle ensuite sur le soufre. Le thiocarbonyle résiduel offre au radical stannylé le site d'addition dont la désoxygénation de Barton-McCombie a besoin.",
+    "explication_comprendre": "POURQUOI faire passer un alcool par le disulfure de carbone ?\n\nParce qu'il faut donner prise à un radical, et qu'un oxygène n'en donne pas.\n\nUn radical d'étain n'a aucune raison d'aller s'accrocher à un oxygène : petit, dur, il ne l'intéresse pas. Un SOUFRE, en revanche — gros et polarisable — l'accueille très bien.\n\nCE QUE FAIT CS₂ : il apporte ce soufre, sous la forme d'un thiocarbonyle C=S accroché à l'oxygène de l'alcool.\n\nLE MODE D'EMPLOI, en une seule opération : NaH déprotone l'alcool, l'alcoolate s'additionne sur le carbone de CS₂, et MeI méthyle le soufre restant. On obtient un XANTHATE.\n\nUNE FAÇON DE LE RETENIR : CS₂ est au CO₂ ce que le soufre est à l'oxygène. Il est électrophile sur son carbone central, comme le CO₂ — et un alcoolate s'y additionne comme il s'additionnerait sur du CO₂ pour donner un carbonate.\n\nÀ LA PAILLASSE : très volatil, très inflammable — son point d'éclair est en dessous de −30 °C — et toxique. On le manipule sous hotte, loin de toute flamme.",
+    "reactions_exemples": [
+      {
+        "nom": "Formation d'un xanthate",
+        "substrat_SMILES": "CCO",
+        "produit_SMILES": "CCOC(=S)SC",
+        "note": "Avec NaH puis MeI"
+      }
+    ]
+  },
+  {
+    "id": "et3b",
+    "nom": "Et₃B",
+    "nom_complet": "triéthylborane",
+    "SMILES": "CC[B](CC)CC",
+    "role": "Amorceur radicalaire SANS ÉTAIN, activé par des traces d'oxygène",
+    "anatomie_annotations": [
+      {
+        "partie": "l'orbitale p vide du bore",
+        "role": "C'est là que l'oxygène s'additionne — et c'est ce qui libère un radical éthyle."
+      },
+      {
+        "partie": "les trois éthyles",
+        "role": "L'un d'eux part en radical à chaque amorçage."
+      }
+    ],
+    "reactions_liees": [
+      "cyclisation_radicalaire"
+    ],
+    "explication_reference": "Trialkylborane employé comme amorceur radicalaire en présence de traces de dioxygène. Le dioxygène, diradical, s'additionne sur l'orbitale p vacante du bore et déplace un radical alkyle par substitution homolytique bimoléculaire. Associé à l'acide hypophosphoreux comme donneur d'hydrogène, le système permet de conduire des cyclisations radicalaires sans recourir aux hydrures d'étain.",
+    "explication_comprendre": "POURQUOI CHERCHER À SE PASSER DE L'ÉTAIN ?\n\nParce qu'il est toxique et que ses résidus s'accrochent au produit. Pour un médicament, c'est rédhibitoire.\n\nCE QUE FAIT LE TRIÉTHYLBORANE : il libère un radical éthyle qui lance la chaîne. Et il le fait à froid, ce qui est un avantage supplémentaire sur l'AIBN.\n\nMAIS IL LUI FAUT DE L'OXYGÈNE — et c'est le détail contre-intuitif.\n\nOn s'attendrait à ce que l'oxygène gêne une réaction radicalaire. Ici il l'amorce. La raison est que le bore a une ORBITALE p VIDE, et que l'oxygène — diradical — vient s'y loger. Ce faisant, il expulse un radical éthyle.\n\nComme cela ressemble à une SN2 mais que ce sont des radicaux, on appelle l'opération SH2 : substitution homolytique d'ordre deux.\n\nCOMMENT ON L'A DÉCOUVERT, et c'est une belle histoire de méthode : H. C. Brown constatait qu'une certaine réaction marchait, puis ne marchait plus. Il a montré que 5 % d'un piégeur de radicaux — le galvinoxyl — l'arrêtaient complètement, et que des traces d'oxygène lui étaient au contraire nécessaires. C'est ainsi qu'on démontre qu'un mécanisme est radicalaire (Clayden p. 999).",
+    "reactions_exemples": [
+      {
+        "nom": "Cyclisation sans étain",
+        "substrat_SMILES": "BrCCCCC=C",
+        "produit_SMILES": "CC1CCCC1",
+        "note": "Avec O₂ catalytique et H₃PO₂, 82 % de rendement"
+      }
+    ]
   }
 ]

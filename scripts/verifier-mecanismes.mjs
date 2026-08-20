@@ -37,13 +37,16 @@ const VALENCE = {
   // tétroxyde en a huit, ce qui lui permet ses quatre doubles liaisons ;
   // le chrome(VI) du trioxyde en a six, ce qui lui en permet trois — et
   // c'est le passage à quatre liaisons, Cr(IV), qui EST l'oxydation.
-  24: 6, 76: 8, 80: 2
+  // L'étain(IV) de l'hydrure de tributylétain en a quatre, comme le carbone
+  // qu'il surplombe dans sa colonne : c'est la faiblesse de la liaison
+  // Sn–H, et non une valence exotique, qui fait tout son intérêt.
+  24: 6, 50: 4, 76: 8, 80: 2
 }
 const SYMBOLE = {
   1: 'H', 3: 'Li', 5: 'B', 6: 'C', 7: 'N', 8: 'O', 9: 'F', 11: 'Na', 12: 'Mg',
   13: 'Al',
   14: 'Si', 15: 'P', 16: 'S', 17: 'Cl', 19: 'K', 24: 'Cr', 30: 'Zn',
-  35: 'Br', 53: 'I', 76: 'Os', 80: 'Hg'
+  35: 'Br', 50: 'Sn', 53: 'I', 76: 'Os', 80: 'Hg'
 }
 
 const RDKit = await initRDKit()

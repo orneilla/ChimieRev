@@ -2116,6 +2116,198 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "halogenation_radicalaire": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "970",
+          "note": "Homolyse et hétérolyse mises face à face : quand une liaison se rompt et qu'un atome prend les deux électrons, on obtient des ions ; quand chacun en prend un, on obtient des radicaux. HCl gazeux se dissocie ainsi au-dessus de 200 °C, avec ΔG de +431 kJ/mol au lieu de +1347."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "972",
+          "note": "La convention des flèches : l'hameçon, qui ne déplace qu'un électron, et les trois manières admises de dessiner un mécanisme radicalaire. « L'important est d'employer le bon type de flèche et de rendre clair qu'on déplace UN électron, et non deux. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "986",
+          "note": "La chloration du cyclohexane sous lumière ; amorçage, propagation, terminaison identifiés. Et l'avertissement : ces réactions peuvent exploser au soleil et se conduisent en installation spécialisée. Le procédé Toray comme variante industrielle vers le caprolactame."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "987",
+          "note": "Les chiffres de sélectivité : propane 45/55, isobutane 63/37. L'analyse par les énergies de liaison — 8 kJ/mol gagnés sur un hydrogène primaire, 21 sur un secondaire."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "988",
+          "note": "Le calcul qui redresse l'intuition : rapporté au nombre d'hydrogènes, le tertiaire réagit environ cinq fois plus vite que le primaire. Et le diagramme d'énergie qui l'explique par le caractère radicalaire de l'état de transition."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "989",
+          "note": "La bromation, bien plus sélective : moins de 1 % de produit primaire. L'explication par le postulat de Hammond. Et pourquoi le fluor explose tandis que l'iode ne réagit pas."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "addition_hbr_peroxyde": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "971",
+          "note": "Le produit majoritaire avec et sans peroxyde de dibenzoyle, côte à côte. Le tableau des énergies de dissociation qui montre pourquoi la liaison O–O se rompt si facilement."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "972",
+          "note": "L'AIBN, son domaine de décomposition — 66 à 72 °C, ΔG‡ de 131 kJ/mol — et la façon de dessiner sa fragmentation."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "985",
+          "note": "Les quatre étapes détaillées une à une, la notion de chaîne, et la quantité d'amorceur : environ 10 mol %, faute de quoi le rendement chute — les rencontres radical–radical, bien que rares, arrêtent des chaînes qu'il faut relancer."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "986",
+          "note": "Les étapes de terminaison, et le fait que trois types de radicaux coexistent dans le milieu en réagissant chacun avec un partenaire choisi."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "bromation_allylique_nbs": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "990",
+          "note": "La bromation allylique du cyclohexène par le NBS dans CCl₄ sous lumière, 85 % de rendement ; le mécanisme de propagation ; l'énergie de la liaison C–H allylique, 364 kJ/mol contre 410 pour une secondaire. Et surtout le rôle exact du NBS : maintenir la concentration en Br₂ basse pour empêcher l'addition radicalaire concurrente, dont la première étape est réversible et n'est rendue irréversible que par le piégeage du radical par une seconde molécule de Br₂. Le CCl₄ non polaire décourage en outre l'addition ionique."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "autoxydation": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-radical reactions",
+          "pages": "304",
+          "note": "La définition de l'autoxydation — substitution d'un H par OOH — et la remarque que le mot est mal choisi : c'est O₂ qui oxyde. Le dioxygène sert à la fois d'amorceur et de réactif stœchiométrique, et le mécanisme comporte une combinaison radical–radical DANS la propagation, chose rarissime, qui ne termine pas la chaîne parce que O₂ est un 1,2-diradical."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-radical reactions",
+          "pages": "305",
+          "note": "Le mécanisme complet sur l'éther diéthylique, et l'avertissement contre l'erreur habituelle : ne pas faire réagir ensemble les deux radicaux nés de l'amorçage, la concentration en O₂ étant bien supérieure à celle de HOO•. Les éthers sont les plus vulnérables parce que l'oxygène abaisse l'énergie du radical voisin ; les aldéhydes le sont aussi, le peracide formé réagissant ensuite par Baeyer-Villiger. Et le procédé au cumène, source industrielle du phénol et de l'acétone."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "barton_mccombie": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-radical reactions",
+          "pages": "303",
+          "note": "La réduction d'un iodure par Bu₃SnH avec AIBN catalytique, mécanisme complet : décomposition de l'AIBN, arrachement de l'hydrogène de l'étain, puis la chaîne."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-radical reactions",
+          "pages": "304",
+          "note": "Le mécanisme de la désoxygénation du xanthate : addition du radical stannylé sur le soufre du thiocarbonyle, fragmentation qui libère le radical alkyle, puis arrachement de l'hydrogène à Bu₃SnH."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "991",
+          "note": "Pourquoi l'hydrure de tributylétain, et pas autre chose : la liaison Sn–H est faible tandis que les liaisons Sn–halogène sont fortes ; pour le carbone, c'est l'inverse. Le tableau des énergies de liaison, et le rôle de l'AIBN comme amorceur au-dessus de 60 °C."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "992",
+          "note": "Un exemple à 97 % de rendement avec 1,2 équivalent de Bu₃SnH et 0,05 équivalent d'AIBN dans le benzène."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "polymerisation_radicalaire": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-radical reactions",
+          "pages": "308",
+          "note": "La polymérisation radicalaire de l'éthylène par le peroxyde de di-tert-butyle : la plus importante réaction radicalaire en chaîne conduite dans l'industrie. La propagation ne comporte qu'UNE seule étape."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-radical reactions",
+          "pages": "309",
+          "note": "Les ramifications, et ce qu'elles changent : une branche COURTE naît quand le radical de bout de chaîne arrache un hydrogène quatre ou cinq atomes en arrière sur sa propre chaîne ; une branche LONGUE, quand il le prend au milieu d'une autre chaîne. Pression, température et concentration en amorceur en règlent la proportion — et avec elle les propriétés du matériau."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "996",
+          "note": "Les orbitales frontières des radicaux : une SOMO haute rend le radical nucléophile et le porte vers les alcènes pauvres ; une SOMO basse le rend électrophile et le porte vers les alcènes riches."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "997",
+          "note": "La copolymérisation alternée de l'acétate de vinyle et de l'acrylate de méthyle, et son explication complète par l'alternance des polarités : le radical nucléophile va sur l'alcène électrophile, et réciproquement, indéfiniment."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cyclisation_radicalaire": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "992",
+          "note": "Ce que la chimie radicalaire a apporté depuis 1975 : la construction de squelettes polycycliques — hirsutène, stéroïdes — à partir de précurseurs acycliques, en une seule étape."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "1000",
+          "note": "Pourquoi les réactions radicalaires intramoléculaires sont si bonnes : le piège est toujours tenu près du radical, la cyclisation est très rapide même sur une double liaison non activée, et l'hydrure d'étain peut donc être plus concentré qu'en intermoléculaire — ce qui permet d'employer des précurseurs à liaison C–X forte, sulfures et séléniures."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "1001",
+          "note": "Les chiffres de sélectivité : 98 % contre 2 %, et 90 % contre 10 %. La formule de Clayden : « la préférence pour le petit cycle est très puissante » — le cycle à cinq se forme même lorsque le cycle à six donnerait un radical plus stabilisé. Un séléniure cyclise à 77 % avec Bu₃SnH et AIBN. Et la variante sans étain : Et₃B, O₂ catalytique et H₃PO₂, 82 % de rendement."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "37 — Radical reactions",
+          "pages": "999",
+          "note": "L'amorçage par le couple borane–oxygène : Brown découvre que 5 % de galvinoxyl inhibent complètement la réaction, et que des traces d'oxygène lui sont nécessaires. L'oxygène s'additionne sur l'orbitale p vide du bore et libère un radical alkyle — une substitution homolytique d'ordre deux, ou SH2."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

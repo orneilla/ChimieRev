@@ -145,5 +145,66 @@
         "note": "Permet de tenir 200 °C"
       }
     ]
+  },
+  {
+    "id": "ccl4",
+    "nom": "CCl₄",
+    "nom_complet": "tétrachlorométhane",
+    "SMILES": "ClC(Cl)(Cl)Cl",
+    "role": "Solvant non polaire, et SANS hydrogène à arracher",
+    "anatomie_annotations": [
+      {
+        "partie": "l'absence totale d'hydrogène",
+        "role": "Décisive : un radical n'a rien à lui prendre. Le solvant ne peut pas entrer dans la chaîne."
+      },
+      {
+        "partie": "les quatre chlores",
+        "role": "Ils le rendent non polaire — ce qui décourage la formation d'ions, et donc les additions ioniques concurrentes."
+      }
+    ],
+    "reactions_liees": [
+      "bromation_allylique_nbs"
+    ],
+    "explication_reference": "Solvant apolaire dépourvu d'hydrogène, longtemps employé en chimie radicalaire pour cette raison : aucun radical ne peut lui arracher d'atome d'hydrogène et détourner la chaîne. Son caractère apolaire décourage en outre la formation d'intermédiaires ioniques. Sa toxicité hépatique et son action sur la couche d'ozone en ont fait proscrire l'usage courant.",
+    "explication_comprendre": "POURQUOI CE SOLVANT-LÀ POUR UNE RÉACTION RADICALAIRE ?\n\nPosez-vous la question à l'envers : que ferait un radical brome dans du toluène ?\n\nIl arracherait un hydrogène benzylique au solvant. La chaîne partirait dans le solvant, et votre substrat ne verrait rien.\n\nLE TÉTRACHLOROMÉTHANE N'A AUCUN HYDROGÈNE. Un radical n'a rien à lui prendre : il est chimiquement muet, ce qui est exactement ce qu'on demande à un solvant.\n\nSECOND MÉRITE : il est non polaire. Il ne stabilise donc pas les ions — ce qui décourage l'addition IONIQUE de Br₂ sur l'alcène, l'autre réaction concurrente.\n\nDANS CETTE RECETTE, RIEN N'EST LÀ PAR HASARD : le NBS règle la concentration en dibrome, le CCl₄ règle la polarité.\n\nCE QU'IL FAUT SAVOIR AUJOURD'HUI : on ne l'emploie plus. Il est toxique pour le foie et détruit la couche d'ozone. Les protocoles modernes lui préfèrent l'acétonitrile ou l'acétate d'éthyle — au prix de quelques compromis.",
+    "reactions_exemples": [
+      {
+        "nom": "Bromation allylique",
+        "substrat_SMILES": "C1=CCCCC1",
+        "produit_SMILES": "BrC1C=CCCC1",
+        "note": "Le solvant historique de cette réaction"
+      }
+    ]
+  },
+  {
+    "id": "benzene",
+    "nom": "Benzène",
+    "nom_complet": "benzène C₆H₆",
+    "SMILES": "c1ccccc1",
+    "role": "Solvant inerte à reflux vers 80 °C",
+    "anatomie_annotations": [
+      {
+        "partie": "le cycle aromatique",
+        "role": "Très stable : il ne réagit ni avec les radicaux ni avec les organométalliques usuels."
+      },
+      {
+        "partie": "ses hydrogènes",
+        "role": "Ils sont VINYLIQUES, donc très fortement liés — un radical ne les arrache pas."
+      }
+    ],
+    "reactions_liees": [
+      "barton_mccombie",
+      "cyclisation_radicalaire"
+    ],
+    "explication_reference": "Hydrocarbure aromatique employé comme solvant inerte. Sa température d'ébullition, voisine de 80 °C, convient au domaine de décomposition de l'azobisisobutyronitrile ; ses liaisons carbone–hydrogène, de type vinylique, sont trop fortes pour être rompues par les radicaux mis en jeu. Sa cancérogénicité avérée en a fait restreindre l'emploi au profit du toluène.",
+    "explication_comprendre": "POURQUOI DU BENZÈNE POUR UNE RÉACTION RADICALAIRE ?\n\nPour deux raisons, et la seconde est moins évidente que la première.\n\nLA PREMIÈRE EST LA TEMPÉRATURE. Le benzène bout vers 80 °C — juste au-dessus du domaine où l'AIBN se décompose. Un reflux de benzène maintient donc l'amorceur à la bonne température, tout seul.\n\nLA SECONDE EST LA FORCE DE SES LIAISONS C–H. Les hydrogènes du benzène sont portés par des carbones sp², comme ceux d'un alcène : ces liaisons sont bien plus fortes que celles d'un alcane. Un radical ne les arrache pas.\n\nComparez avec le toluène, qui a un méthyle : son hydrogène benzylique s'arrache très facilement, et il détournerait la chaîne. Le benzène, lui, n'a pas de méthyle.\n\nCE QU'IL FAUT SAVOIR AUJOURD'HUI : le benzène est cancérogène avéré. On lui substitue le toluène dès que possible — en acceptant le risque d'arrachement benzylique, souvent négligeable si le radical visé est plus réactif.",
+    "reactions_exemples": [
+      {
+        "nom": "Milieu d'une cyclisation",
+        "substrat_SMILES": "BrCCCCC=C",
+        "produit_SMILES": "CC1CCCC1",
+        "note": "Reflux à 80 °C, avec AIBN"
+      }
+    ]
   }
 ]

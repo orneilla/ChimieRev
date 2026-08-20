@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-20",
   "total": 289,
-  "redigees": 94,
-  "verifiees": 87,
+  "redigees": 101,
+  "verifiees": 95,
   "relues": 0,
   "familles": [
     {
@@ -185,8 +185,8 @@
       "bloc": "Socle organique",
       "total": 13,
       "absente": 0,
-      "redigee": 2,
-      "verifiee": 11,
+      "redigee": 1,
+      "verifiee": 12,
       "relue": 0,
       "reactions": [
         {
@@ -277,7 +277,7 @@
           "nom": "Réduction de Birch",
           "niveau": "M1",
           "id": "reduction_birch",
-          "statut": "redigee",
+          "statut": "verifiee",
           "sources": true
         }
       ]
@@ -766,59 +766,59 @@
       "famille": "Radicalaire",
       "bloc": "Socle organique",
       "total": 7,
-      "absente": 7,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 7,
       "relue": 0,
       "reactions": [
         {
           "nom": "Halogénation radicalaire des alcanes",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "halogenation_radicalaire",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Addition anti-Markovnikov de HBr (effet peroxyde)",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "addition_hbr_peroxyde",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Bromation allylique (NBS)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "bromation_allylique_nbs",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Autoxydation et peroxydes",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "autoxydation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Désoxygénation de Barton-McCombie",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "barton_mccombie",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Polymérisation radicalaire",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polymerisation_radicalaire",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cyclisations radicalaires (règles de Baldwin)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cyclisation_radicalaire",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

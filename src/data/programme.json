@@ -545,37 +545,37 @@
         {
           "nom": "Halogénation radicalaire des alcanes",
           "niveau": "L2",
-          "id": null
+          "id": "halogenation_radicalaire"
         },
         {
           "nom": "Addition anti-Markovnikov de HBr (effet peroxyde)",
           "niveau": "L2",
-          "id": null
+          "id": "addition_hbr_peroxyde"
         },
         {
           "nom": "Bromation allylique (NBS)",
           "niveau": "L3",
-          "id": null
+          "id": "bromation_allylique_nbs"
         },
         {
           "nom": "Autoxydation et peroxydes",
           "niveau": "L3",
-          "id": null
+          "id": "autoxydation"
         },
         {
           "nom": "Désoxygénation de Barton-McCombie",
           "niveau": "M2",
-          "id": null
+          "id": "barton_mccombie"
         },
         {
           "nom": "Polymérisation radicalaire",
           "niveau": "M1",
-          "id": null
+          "id": "polymerisation_radicalaire"
         },
         {
           "nom": "Cyclisations radicalaires (règles de Baldwin)",
           "niveau": "M2",
-          "id": null
+          "id": "cyclisation_radicalaire"
         }
       ],
       "bloc": "Socle organique"

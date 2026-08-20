@@ -3326,10 +3326,207 @@
   "reduction_birch": {
     "etapes": [
       {
+        "numero": 1,
+        "titre": "Un électron entre dans le cycle : l'anion radicalaire",
+        "smiles": "[Li].C1=CC=CC=C1",
+        "legende": "Le lithium dissous dans l'ammoniac donne une solution d'un BLEU INTENSE : c'est la couleur des électrons solvatés. Le métal cède son électron célibataire, qui va se loger dans l'orbitale vacante la plus basse du cycle — sa LUMO.\n\nTROIS HAMEÇONS : l'électron du lithium, et les DEUX électrons de la liaison π, qui se séparent. Deux d'entre eux s'apparient sur un carbone — c'est le carbanion ; le troisième reste seul sur l'autre — c'est le radical. On obtient donc une espèce qui porte à la fois une charge NÉGATIVE et un électron CÉLIBATAIRE : un ANION RADICALAIRE.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": -0.4,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison π va sur ce carbone…"
+          },
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "…où l'électron du lithium vient s'apparier avec lui : voici le carbanion."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "electrons": 1,
+            "libelle": "L'autre électron de la liaison π reste seul : voici le radical."
+          }
+        ],
+        "produit_attendu": "[Li+].[CH-]1[CH]C=CC=C1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'anion radicalaire arrache un proton à l'éthanol",
+        "smiles": "[CH-]1[CH]C=CC=C1.O([H])CC",
+        "legende": "UN CARBANION SUR UN CYCLE EST UNE BASE REDOUTABLE : il prend son proton à l'éthanol sans difficulté. Ici la flèche redevient ORDINAIRE, à pointe pleine — un carbanion déplace bien un doublet.\n\nLa molécule n'est plus chargée. Mais elle porte toujours son électron célibataire : c'est maintenant un simple radical.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion prend le proton de l'éthanol."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "L'éthanolate est libéré."
+          }
+        ],
+        "produit_attendu": "[CH2]1[CH]C=CC=C1.[O-]CC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le radical se déplace : c'est lui qui fixe la régiochimie",
+        "smiles": "[CH2]1[CH]C=CC=C1",
+        "legende": "VOICI POURQUOI LE PRODUIT EST UN DIÈNE 1,4 ET NON 1,3. Le radical n'est pas immobilisé : il est délocalisé sur trois carbones, et il peut se déplacer en poussant une double liaison devant lui. Trois hameçons suffisent à le décrire.\n\nEn se déplaçant, il s'éloigne du carbone qu'on vient de protoner. Quand il sera protoné à son tour, les deux hydrogènes ajoutés se retrouveront en position 1 et 4 — jamais côte à côte.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": -0.4,
+            "electrons": 1,
+            "libelle": "L'électron célibataire entre dans la liaison voisine…"
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.4,
+            "electrons": 1,
+            "libelle": "…où un électron de la double liaison le rejoint : une nouvelle double liaison se forme."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "Et l'autre s'en va porter le radical un cran plus loin."
+          }
+        ],
+        "produit_attendu": "[CH2]1C=C[CH]C=C1",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Un second électron s'apparie avec le radical",
+        "smiles": "[Li].[CH2]1C=C[CH]C=C1",
+        "legende": "UN SEUL HAMEÇON CETTE FOIS, et c'est logique : il n'y a qu'un électron à déplacer, et il vient simplement s'apparier avec celui qui était seul. Aucune liaison ne se rompt ni ne se forme. On obtient un carbanion.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.4,
+            "electrons": 1,
+            "libelle": "L'électron du lithium s'apparie avec le radical."
+          }
+        ],
+        "produit_attendu": "[Li+].[CH2]1C=C[CH-]C=C1",
+        "valide": false
+      },
+      {
         "numero": 5,
+        "titre": "Seconde protonation",
+        "smiles": "[CH2]1C=C[CH-]C=C1.O([H])CC",
+        "legende": "L'éthanol rend un second proton. Bilan : DEUX électrons et DEUX protons ajoutés — c'est bien une réduction.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le carbanion prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "L'éthanolate est libéré."
+          }
+        ],
+        "produit_attendu": "C1C=CCC=C1.[O-]CC",
+        "valide": false
+      },
+      {
+        "numero": 6,
         "titre": "Ce qu'on obtient",
         "smiles": "C1=CCC=CC1",
-        "legende": "Le cyclohexa-1,4-diène. Pas de flèches courbes non plus : chaque étape déplace UN électron, pas deux. On les dessine avec des demi-flèches, que cette application ne sait pas encore vérifier — mieux vaut donc ne pas les dessiner du tout.",
+        "legende": "Le cyclohexa-1,4-diène. Les deux doubles liaisons ne sont PAS conjuguées, alors qu'un diène conjugué serait plus stable — c'est la marque de cette réaction, et l'ordre des étapes en rend compte.\n\nPOURQUOI ÇA S'ARRÊTE LÀ : le produit n'est plus aromatique, mais il n'a pas non plus d'orbitale vacante assez basse pour accepter un électron de plus. La réduction ne peut pas continuer.",
         "fleches": [],
         "valide": false
       }
@@ -11711,6 +11908,1223 @@
         "titre": "Ce qu'on obtient",
         "smiles": "CC(C)=CCC[C@@H](C)CCO",
         "legende": "Le (R)-citronellol, avec plus de 98 % d'excès énantiomérique — soit une pureté supérieure à celle de bien des sources naturelles du même composé (Clayden p. 1119). Notez que l'autre double liaison, isolée, n'est pas touchée : le catalyseur ne réduit que celle qui est proche du groupe alcool, qui aide à la coordination.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "halogenation_radicalaire": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "AMORÇAGE : la lumière casse la molécule de chlore en deux",
+        "smiles": "ClCl",
+        "legende": "DEUX HAMEÇONS, ET C'EST TOUTE LA DIFFÉRENCE. Une flèche ordinaire déplace un doublet ; ici chaque flèche ne déplace qu'UN électron, et l'on en met donc deux — une pour chaque atome. La liaison se partage au lieu de se donner : c'est une HOMOLYSE. Clayden oppose les deux mots (p. 970) : hétérolyse, un atome prend tout et l'on obtient des ions ; homolyse, chacun en prend un et l'on obtient des radicaux.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": -0.45,
+            "electrons": 1,
+            "libelle": "Un électron pour le chlore de gauche."
+          },
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "Un électron pour celui de droite."
+          }
+        ],
+        "produit_attendu": "[Cl].[Cl]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "PROPAGATION 1 : le chlore arrache un hydrogène",
+        "smiles": "[Cl].[H]C1([H])CCCCC1",
+        "legende": "Le radical chlore ne casse pas la molécule : il lui PREND un atome d'hydrogène. Comptez les hameçons : trois. Un pour l'électron célibataire du chlore, un pour chacun des deux électrons de la liaison C–H — l'un part fabriquer la liaison H–Cl, l'autre reste au carbone, qui devient radical à son tour.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron célibataire du chlore forme la nouvelle liaison H–Cl."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un des deux électrons de la liaison C–H l'y rejoint."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste au carbone, qui devient radical."
+          }
+        ],
+        "produit_attendu": "[H]Cl.[H][C]1CCCCC1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "PROPAGATION 2 : le radical alkyle attaque le chlore",
+        "smiles": "[H][C]1CCCCC1.ClCl",
+        "legende": "LE RADICAL CHLORE EST RÉGÉNÉRÉ, et c'est ce qui fait la CHAÎNE : chaque étape consomme un radical et en produit un autre. Un seul amorçage suffit donc à transformer des milliers de molécules.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron célibataire du carbone attaque le chlore."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                7
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison Cl–Cl complète la nouvelle liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre part avec le second chlore : le radical est régénéré."
+          }
+        ],
+        "produit_attendu": "[H]C1(Cl)CCCCC1.[Cl]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "TERMINAISON : deux radicaux se rencontrent",
+        "smiles": "[Cl].[Cl]",
+        "legende": "Deux radicaux qui se rencontrent s'apparient et la chaîne s'arrête. C'est rare — la concentration en radicaux est très faible —, mais cela arrive assez souvent pour qu'il faille remettre de l'amorceur. Clayden le mesure : en dessous de 10 % de peroxyde, le rendement chute (p. 985).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": -0.4,
+            "electrons": 1,
+            "libelle": "Un électron de chaque côté…"
+          },
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": 0.4,
+            "electrons": 1,
+            "libelle": "…et la liaison se referme."
+          }
+        ],
+        "produit_attendu": "ClCl",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "ClC1CCCCC1",
+        "legende": "Le chlorocyclohexane. Sur le cyclohexane, un seul produit est possible : ses douze hydrogènes sont équivalents. Sur un alcane quelconque, ce n'est plus le cas — voir la sélectivité.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "addition_hbr_peroxyde": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "AMORÇAGE : le peroxyde se coupe en deux",
+        "smiles": "CC(C)(C)OOC(C)(C)C",
+        "legende": "La liaison O–O est faible : elle se rompt à la chaleur ou à la lumière bien plus facilement que les autres. C'est POUR CELA qu'on met un peroxyde — pour rien d'autre.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.4,
+            "electrons": 1,
+            "libelle": "Un électron à gauche."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.4,
+            "electrons": 1,
+            "libelle": "Un électron à droite."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)[O].CC(C)(C)[O]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le radical alcoxyle arrache l'hydrogène de HBr",
+        "smiles": "CC(C)(C)[O].[H]Br",
+        "legende": "C'est ici que naît le radical BROME, et c'est lui le vrai acteur de la suite. Notez qu'il ne vient PAS d'une rupture de HBr par la lumière : il vient d'un arrachement.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": 0.3,
+            "electrons": 1,
+            "libelle": "L'électron de l'oxygène forme la liaison O–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison H–Br la complète."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste au brome : voici le radical brome."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)O[H].[Br]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "LE BROME S'ADDITIONNE — ET C'EST LUI QUI CHOISIT",
+        "smiles": "[Br].CC(C)=C",
+        "legende": "VOILÀ L'INVERSION DE MARKOVNIKOV, ET SA RAISON. En milieu ionique, c'est le PROTON qui s'additionne le premier, et il se place de façon à laisser le carbocation le plus stable. Ici, c'est le BROME qui s'additionne le premier — et il se place lui aussi de façon à laisser le RADICAL le plus stable, c'est-à-dire sur le carbone le moins substitué. Le brome se retrouve donc à l'autre bout. Ce n'est pas une exception à la règle de Markovnikov : c'est la même règle, appliquée à un autre premier arrivant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron du brome attaque le carbone du bout."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la double liaison complète la liaison C–Br."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste sur le carbone central : radical TERTIAIRE, le plus stable."
+          }
+        ],
+        "produit_attendu": "C[C](C)CBr",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "PROPAGATION : le radical arrache un hydrogène à HBr",
+        "smiles": "C[C](C)CBr.[H]Br",
+        "legende": "Le produit est formé et le radical brome régénéré : la chaîne tourne. Un seul peroxyde pour un grand nombre de molécules — d'où la quantité catalytique, environ 10 % (Clayden p. 985).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron du carbone va chercher l'hydrogène."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de H–Br complète la liaison C–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "Et le radical brome repart pour un tour."
+          }
+        ],
+        "produit_attendu": "CC([H])(C)CBr.[Br]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(C)CBr",
+        "legende": "Le 1-bromo-2-méthylpropane : le brome est sur le carbone le MOINS substitué. Sans peroxyde, la même réaction donne le 2-bromo-2-méthylpropane. Deux produits opposés, deux mécanismes — et un flacon de peroxyde pour passer de l'un à l'autre.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "bromation_allylique_nbs": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le brome arrache l'hydrogène ALLYLIQUE, et pas un autre",
+        "smiles": "[Br].[H]C1C=CCCC1",
+        "legende": "POURQUOI CELUI-LÀ ? Parce que la liaison C–H allylique est la plus faible : 364 kJ/mol contre 410 pour une C–H secondaire ordinaire (Clayden p. 990). En chimie radicalaire, c'est la FORCE DES LIAISONS qui décide, pas les charges.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron du brome forme la liaison H–Br."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison C–H l'y rejoint."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste au carbone : radical ALLYLIQUE, stabilisé par la double liaison voisine."
+          }
+        ],
+        "produit_attendu": "[H]Br.[CH]1C=CCCC1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le radical allylique attaque le dibrome",
+        "smiles": "[CH]1C=CCCC1.BrBr",
+        "legende": "Le radical prend un brome et régénère l'autre : la chaîne tourne. Sur ce cycle symétrique, les deux extrémités du système allylique donnent le même produit — ce ne serait pas le cas sur une chaîne ouverte, où l'on obtiendrait DEUX bromures allyliques.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron du carbone attaque le brome."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de Br–Br complète la liaison C–Br."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "Et le radical brome repart."
+          }
+        ],
+        "produit_attendu": "BrC1C=CCCC1.[Br]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "BrC1C=CCCC1",
+        "legende": "Le 3-bromocyclohexène, 85 % de rendement (Clayden p. 990). La double liaison est INTACTE : c'est bien une substitution, et non une addition.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "autoxydation": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le dioxygène arrache un hydrogène — il est déjà un DIRADICAL",
+        "smiles": "CCOC([H])([H])C.[O][O]",
+        "legende": "L'OXYGÈNE DE L'AIR N'A PAS BESOIN QU'ON L'AMORCE : sa molécule porte DEUX électrons célibataires à l'état fondamental. C'est ce qui la rend capable de démarrer seule une chaîne — et c'est pourquoi cette réaction se produit toute seule, dans un flacon qu'on a laissé ouvert.\n\nL'hydrogène visé est celui porté par le carbone VOISIN DE L'OXYGÈNE : le doublet de cet oxygène stabilise le radical qui en résulte. C'est ce qui rend les éthers si vulnérables (Grossman p. 304).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "Un électron de l'oxygène forme la liaison O–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison C–H l'y rejoint."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste au carbone."
+          }
+        ],
+        "produit_attendu": "CCO[C]([H])C.[H]O[O]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le radical carboné s'apparie avec le dioxygène",
+        "smiles": "CCO[C]([H])C.[O][O]",
+        "legende": "DEUX RADICAUX QUI S'UNISSENT, ET POURTANT LA CHAÎNE NE S'ARRÊTE PAS : c'est très rare, et c'est la signature de cette réaction. Grossman le souligne (p. 304) — une combinaison radical–radical termine normalement une chaîne, mais pas ici, parce que O₂ en apportait DEUX. Il en reste un.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                6
+              ]
+            },
+            "courbure": -0.4,
+            "electrons": 1,
+            "libelle": "L'électron du carbone…"
+          },
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                3,
+                6
+              ]
+            },
+            "courbure": 0.4,
+            "electrons": 1,
+            "libelle": "…et l'un des deux de l'oxygène forment la liaison."
+          }
+        ],
+        "produit_attendu": "CCOC([H])(C)O[O]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le radical peroxyle attaque une AUTRE molécule d'éther",
+        "smiles": "CCOC([H])(C)O[O].CCOC([H])([H])C",
+        "legende": "ET LA CHAÎNE SE BOUCLE : le radical peroxyle prend un hydrogène à une molécule voisine, ce qui donne l'hydroperoxyde et refait un radical carboné, prêt à recommencer.\n\nGrossman met en garde contre l'erreur habituelle (p. 305) : on est tenté de faire réagir ensemble les deux radicaux nés de l'amorçage. Résistez — la concentration en O₂ est bien plus grande que celle du radical HOO•.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                12
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "Un électron du peroxyle va chercher l'hydrogène."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                12
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison C–H complète la liaison O–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "Et un nouveau radical carboné est formé."
+          }
+        ],
+        "produit_attendu": "CCOC([H])(C)OO[H].CCO[C]([H])C",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCOC(C)OO",
+        "legende": "UN HYDROPEROXYDE — et c'est une très mauvaise nouvelle. Ces composés s'accumulent lentement dans les éthers stockés, et ils DÉTONENT à la concentration, quand on distille le solvant à sec. C'est l'une des causes d'accident les plus classiques du laboratoire. On date les flacons d'éther, on les teste, et on ne distille jamais un éther ancien jusqu'au bout.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "barton_mccombie": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "D'abord, l'alcool devient un XANTHATE",
+        "smiles": "CCOC(=S)SC",
+        "legende": "L'alcool ne se laisse pas enlever tel quel : HO⁻ est un mauvais groupe partant, et un radical ne s'en préoccupe même pas. On le transforme donc en xanthate — NaH, puis CS₂, puis MeI. Ce qu'on y gagne est un THIOCARBONYLE, C=S, sur lequel l'étain va pouvoir se fixer : le soufre est bien plus accueillant pour un radical que l'oxygène.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le radical stannylé se fixe sur le SOUFRE",
+        "smiles": "CCCC[Sn](CCCC)CCCC.CCOC(=S)SC",
+        "legende": "POURQUOI LE SOUFRE ET PAS L'OXYGÈNE ? Parce que la liaison Sn–S qui se forme est forte, et parce que le soufre, gros et polarisable, accueille bien un radical. Deux hameçons seulement ici : l'électron de l'étain et l'un des deux de la double liaison C=S. L'autre reste sur le carbone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                17
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron célibataire de l'étain forme la liaison Sn–S."
+          },
+          {
+            "de": {
+              "liaison": [
+                16,
+                17
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                17
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la double liaison C=S l'y rejoint."
+          },
+          {
+            "de": {
+              "liaison": [
+                16,
+                17
+              ]
+            },
+            "vers": {
+              "atome": 16
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste au carbone, qui devient radical."
+          }
+        ],
+        "produit_attendu": "CCO[C](SC)[S][Sn](CCCC)(CCCC)CCCC",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "FRAGMENTATION : le radical alkyle s'échappe",
+        "smiles": "CCO[C](SC)[S][Sn](CCCC)(CCCC)CCCC",
+        "legende": "C'EST L'ÉTAPE QUI FAIT TOUT LE TRAVAIL. Le radical porté par le carbone reforme une double liaison — cette fois avec l'OXYGÈNE, ce qui est bien plus favorable qu'avec le soufre — et pour cela il faut que la liaison C–O se rompe. Le radical alkyle part avec un électron. On vient d'échanger une liaison C=S contre une liaison C=O, et c'est ce gain qui paie la rupture.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "Le radical du carbone forme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison C–O l'y rejoint."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre part avec le radical alkyle, qui s'échappe."
+          }
+        ],
+        "produit_attendu": "C[CH2].O=C(SC)[S][Sn](CCCC)(CCCC)CCCC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le radical alkyle prend l'hydrogène de l'étain",
+        "smiles": "C[CH2].[H][Sn](CCCC)(CCCC)CCCC",
+        "legende": "La liaison Sn–H est faible : c'est toute la raison d'être de l'hydrure de tributylétain. Le radical alkyle la casse sans difficulté, prend l'hydrogène, et régénère le radical stannylé — la chaîne tourne.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron du carbone va chercher l'hydrogène."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison Sn–H complète la liaison C–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste à l'étain : le radical stannylé est régénéré."
+          }
+        ],
+        "produit_attendu": "CC.CCCC[Sn](CCCC)CCCC",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC",
+        "legende": "L'alcool a disparu, remplacé par un simple hydrogène. C'est ce que ni une SN2 ni une élimination ne savent faire proprement sur un alcool secondaire encombré — d'où la place de cette réaction dans la synthèse des sucres et des stéroïdes, où l'on a souvent un OH de trop.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "polymerisation_radicalaire": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "AMORÇAGE : le peroxyde de di-tert-butyle se coupe",
+        "smiles": "CC(C)(C)OOC(C)(C)C",
+        "legende": "Deux radicaux alcoxyles, et il n'en faut pas plus : chacun va lancer une chaîne qui consommera des milliers de molécules.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.4,
+            "electrons": 1,
+            "libelle": "Un électron à gauche."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.4,
+            "electrons": 1,
+            "libelle": "Un électron à droite."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)[O].CC(C)(C)[O]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le radical s'additionne sur l'éthylène",
+        "smiles": "CC(C)(C)[O].C=C",
+        "legende": "L'addition d'un radical sur une double liaison en refait un autre, au bout de la chaîne. C'est la seule chose qui se passera désormais — encore et encore.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": 0.3,
+            "electrons": 1,
+            "libelle": "L'électron de l'oxygène attaque le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la double liaison complète la nouvelle liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste au carbone du bout : le radical s'est DÉPLACÉ."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)OC[CH2]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "PROPAGATION : et de nouveau, et de nouveau",
+        "smiles": "CC(C)(C)OC[CH2].C=C",
+        "legende": "LA PROPAGATION N'A QU'UNE SEULE ÉTAPE (Grossman p. 308), et c'est ce qui rend la polymérisation radicalaire si simple et si employée : le radical au bout de la chaîne s'additionne sur un monomère, et se retrouve au bout de la chaîne allongée. Rien d'autre ne se passe, des milliers de fois.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron du bout de chaîne attaque un nouvel éthylène."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la double liaison complète la liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "Et le radical se retrouve deux carbones plus loin."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)OCCC[CH2]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCCCCCC",
+        "legende": "Du polyéthylène. Ce qui distingue un sac de congélation d'un banc de jardin n'est pas la nature du polymère mais ses RAMIFICATIONS : quand le radical de bout de chaîne va chercher un hydrogène quatre ou cinq atomes en arrière SUR SA PROPRE CHAÎNE, il crée une branche courte ; quand il le prend au milieu d'une AUTRE chaîne, il en crée une longue (Grossman p. 309). On règle tout cela par la pression, la température et la concentration en amorceur.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "cyclisation_radicalaire": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'étain arrache le brome",
+        "smiles": "CCCC[Sn](CCCC)CCCC.BrCCCCC=C",
+        "legende": "Deux hameçons : l'électron de l'étain et l'un des deux de la liaison C–Br. L'autre reste au carbone. La liaison Sn–Br qui se forme est forte, la liaison C–Br était faible : c'est ce bilan qui rend l'étape favorable.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                13
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron de l'étain forme la liaison Sn–Br."
+          },
+          {
+            "de": {
+              "liaison": [
+                13,
+                14
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                13
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison C–Br l'y rejoint."
+          },
+          {
+            "de": {
+              "liaison": [
+                13,
+                14
+              ]
+            },
+            "vers": {
+              "atome": 14
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste au carbone : voici le radical."
+          }
+        ],
+        "produit_attendu": "Br[Sn](CCCC)(CCCC)CCCC.[CH2]CCCC=C",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "CYCLISATION : le radical se referme sur sa propre double liaison",
+        "smiles": "[CH2]CCCC=C",
+        "legende": "LE RADICAL A DEUX CARBONES À VISER, et le choix n'est pas celui qu'on croit.\n\nS'il attaque le carbone le PLUS PROCHE — celui qui porte la chaîne —, il ferme un cycle à CINQ et le radical se retrouve en dehors du cycle : on dit 5-EXO.\n\nS'il attaque le carbone du bout, il ferme un cycle à SIX et le radical reste dans le cycle : 6-ENDO. Ce serait un radical SECONDAIRE, donc plus stable.\n\nEt pourtant c'est le 5-exo qui l'emporte, 98 contre 2 (Clayden p. 1001). Ce n'est donc PAS la stabilité du produit qui décide, mais la VITESSE : le carbone le plus proche est plus facile à atteindre. Retenez la formule : la cyclisation radicalaire est sous contrôle CINÉTIQUE, et le petit cycle gagne.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron attaque le carbone le PLUS PROCHE de la double liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la double liaison complète la nouvelle liaison C–C."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre se retrouve HORS du cycle : c'est le « exo » de 5-exo."
+          }
+        ],
+        "produit_attendu": "[CH2]C1CCCC1",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le radical prend l'hydrogène de l'étain",
+        "smiles": "[CH2]C1CCCC1.[H][Sn](CCCC)(CCCC)CCCC",
+        "legende": "La chaîne se boucle : le radical stannylé est régénéré et repart chercher un autre bromure.\n\nUN POINT DE PAILLASSE QUI COMPTE : ici l'hydrure d'étain peut être concentré, alors qu'en version INTERMOLÉCULAIRE il faudrait le diluer. La raison est que le piège — la double liaison — est attaché au radical : il est toujours à portée, et la cyclisation est bien plus rapide que la rencontre avec l'hydrure (Clayden p. 1000).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "electrons": 1,
+            "libelle": "L'électron du carbone va chercher l'hydrogène."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                6
+              ]
+            },
+            "courbure": 0.35,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison Sn–H complète la liaison C–H."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste à l'étain."
+          }
+        ],
+        "produit_attendu": "CC1CCCC1.CCCC[Sn](CCCC)CCCC",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC1CCCC1",
+        "legende": "Le méthylcyclopentane. À partir d'une chaîne ouverte, un cycle — en une seule opération, et sans jamais former d'ion. C'est ce que la chimie radicalaire a apporté à la synthèse depuis 1975 : Clayden cite la construction du squelette de l'hirsutène et des stéroïdes par ce seul procédé (p. 992).",
         "fleches": [],
         "valide": false
       }

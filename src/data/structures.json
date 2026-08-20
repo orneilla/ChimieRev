@@ -371,6 +371,34 @@
     "substrat": "coupure_oxydante_diols-substrat.svg",
     "produit": "coupure_oxydante_diols-produit.svg"
   },
+  "halogenation_radicalaire": {
+    "substrat": "halogenation_radicalaire-substrat.svg",
+    "produit": "halogenation_radicalaire-produit.svg"
+  },
+  "addition_hbr_peroxyde": {
+    "substrat": "addition_hbr_peroxyde-substrat.svg",
+    "produit": "addition_hbr_peroxyde-produit.svg"
+  },
+  "bromation_allylique_nbs": {
+    "substrat": "bromation_allylique_nbs-substrat.svg",
+    "produit": "bromation_allylique_nbs-produit.svg"
+  },
+  "autoxydation": {
+    "substrat": "autoxydation-substrat.svg",
+    "produit": "autoxydation-produit.svg"
+  },
+  "barton_mccombie": {
+    "substrat": "barton_mccombie-substrat.svg",
+    "produit": "barton_mccombie-produit.svg"
+  },
+  "polymerisation_radicalaire": {
+    "substrat": "polymerisation_radicalaire-substrat.svg",
+    "produit": "polymerisation_radicalaire-produit.svg"
+  },
+  "cyclisation_radicalaire": {
+    "substrat": "cyclisation_radicalaire-substrat.svg",
+    "produit": "cyclisation_radicalaire-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -695,6 +723,55 @@
     "substrat": "libh4-ex0-substrat.svg",
     "produit": "libh4-ex0-produit.svg"
   },
+  "nbs": {
+    "molecule": "reactif-nbs.svg"
+  },
+  "nbs-ex0": {
+    "substrat": "nbs-ex0-substrat.svg",
+    "produit": "nbs-ex0-produit.svg"
+  },
+  "aibn": {
+    "molecule": "reactif-aibn.svg"
+  },
+  "aibn-ex0": {
+    "substrat": "aibn-ex0-substrat.svg",
+    "produit": "aibn-ex0-produit.svg"
+  },
+  "peroxyde_ditertbutyle": {
+    "molecule": "reactif-peroxyde_ditertbutyle.svg"
+  },
+  "peroxyde_ditertbutyle-ex0": {
+    "substrat": "peroxyde_ditertbutyle-ex0-substrat.svg",
+    "produit": "peroxyde_ditertbutyle-ex0-produit.svg"
+  },
+  "bu3snh": {
+    "molecule": "reactif-bu3snh.svg"
+  },
+  "bu3snh-ex0": {
+    "substrat": "bu3snh-ex0-substrat.svg",
+    "produit": "bu3snh-ex0-produit.svg"
+  },
+  "dioxygene": {
+    "molecule": "reactif-dioxygene.svg"
+  },
+  "dioxygene-ex0": {
+    "substrat": "dioxygene-ex0-substrat.svg",
+    "produit": "dioxygene-ex0-produit.svg"
+  },
+  "cs2": {
+    "molecule": "reactif-cs2.svg"
+  },
+  "cs2-ex0": {
+    "substrat": "cs2-ex0-substrat.svg",
+    "produit": "cs2-ex0-produit.svg"
+  },
+  "et3b": {
+    "molecule": "reactif-et3b.svg"
+  },
+  "et3b-ex0": {
+    "substrat": "et3b-ex0-substrat.svg",
+    "produit": "et3b-ex0-produit.svg"
+  },
   "dcm": {
     "molecule": "solvant-dcm.svg"
   },
@@ -736,5 +813,11 @@
   },
   "diethyleneglycol": {
     "molecule": "solvant-diethyleneglycol.svg"
+  },
+  "ccl4": {
+    "molecule": "solvant-ccl4.svg"
+  },
+  "benzene": {
+    "molecule": "solvant-benzene.svg"
   }
 }

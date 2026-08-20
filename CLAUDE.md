@@ -171,6 +171,19 @@ Dans `src/data/mecanismes.json`. Le SMILES de l'étape fixe la numérotation
 des atomes : le premier écrit est le n° 0. Les hydrogènes ne comptent que
 s'ils sont écrits `[H]`.
 
+**La chimie radicalaire déplace UN électron à la fois.** Une flèche porte
+alors `"electrons": 1` : c'est un HAMEÇON, dessiné avec une demi-pointe.
+Une liaison en valant deux, il en faut **deux, appariés**, pour la rompre ou
+pour la former — le vérificateur refuse une liaison qui se retrouverait à
+moitié rompue. Un nombre impair d'électrons non liants signe un radical,
+noté `M  RAD` dans le molblock : sans quoi la relecture rendrait l'électron
+célibataire sous forme d'un hydrogène de plus.
+
+Deux hameçons qui visent la même liaison sont dispensés des contrôles de
+superposition : c'est l'écriture normale d'une liaison qui naît de deux
+électrons célibataires, ils arrivent forcément au même point. Il faut leur
+donner des courbures **opposées** pour qu'on les distingue.
+
 Deux pièges appris à la dure :
 
 - **Un hydrogène visé par une flèche s'écrit explicitement.** Sur `[OH+]`,

@@ -8,6 +8,7 @@
         "Le doublet de l'oxygène part vers le carbone : la nouvelle liaison se forme.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -16,6 +17,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcool est formé et l'ion bromure est parti. Le carbone attaqué s'est retourné comme un parapluie.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -30,6 +32,7 @@
         "Les électrons libérés par la liaison C–H glissent entre les deux carbones : la double liaison naît.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -38,6 +41,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcène est né, la base est repartie avec son proton, le bromure est libre.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -52,6 +56,7 @@
         "La double liaison du diénophile forme la seconde liaison, à l'autre bout.",
         "La double liaison restante glisse au milieu du diène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -60,6 +65,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un cycle à six atomes, avec une double liaison au milieu. En un seul geste, sans rien gaspiller.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -73,6 +79,7 @@
         "Une liaison B–H cède son hydrogène, électrons compris, au carbone.",
         "Les électrons de la double liaison C=O se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -84,6 +91,7 @@
         "Le doublet de l'oxygène va chercher un hydrogène du solvant.",
         "Les électrons de la liaison O–H restent sur l'oxygène du solvant."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -92,6 +100,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcool secondaire est formé ; le solvant a cédé un proton.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -105,6 +114,7 @@
         "Le carbone rendu riche par le magnésium attaque le carbone du carbonyle.",
         "Les électrons de la double liaison C=O se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -116,6 +126,7 @@
         "L'oxygène chargé négativement va chercher un proton de l'eau.",
         "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -124,6 +135,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un alcool tertiaire, plus gros qu'au départ : le squelette carboné a grandi.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -136,6 +148,7 @@
       "fleches": [
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -146,6 +159,7 @@
       "fleches": [
         "Un doublet de l'oxygène de l'eau forme la nouvelle liaison avec le carbone."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -157,6 +171,7 @@
         "Un doublet du solvant va chercher l'un des hydrogènes.",
         "Les électrons de la liaison O–H restent sur l'oxygène, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -165,6 +180,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcool tertiaire est formé, le bromure est libre. Si le carbone de départ était stéréogène, le produit est un mélange racémique.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -178,6 +194,7 @@
         "Un doublet du carboxylate forme une liaison avec le carbone porteur du brome.",
         "Les électrons de la liaison C–Br se replient sur le brome, qui s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -189,6 +206,7 @@
         "Un doublet de l'ion hydroxyde forme la nouvelle liaison.",
         "La liaison qui fermait l'anneau se rompt : ses électrons partent sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -197,6 +215,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'acide (R)-lactique : même orientation qu'au départ, après deux inversions successives.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -210,6 +229,7 @@
         "Le doublet de l'ion hydrure va chercher le proton de l'alcool.",
         "Les électrons de la liaison O–H restent sur l'oxygène, qui devient un alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -221,6 +241,7 @@
         "Un doublet de l'alcoolate forme la liaison avec le carbone.",
         "Les électrons de la liaison C–I se replient sur l'iode, qui s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -229,6 +250,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'éther est formé, l'iodure est libre.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -242,6 +264,7 @@
         "Un doublet de l'oxygène de l'alcool forme la liaison avec le soufre.",
         "Les électrons de la liaison S–Cl se replient sur le chlore, qui s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -250,6 +273,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le tosylate. Le carbone n'a pas bougé : sa configuration est celle de l'alcool de départ. Il porte maintenant un groupe qui ne demande qu'à s'en aller.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -263,6 +287,7 @@
         "Le doublet libre du phosphore forme une liaison avec le premier azote.",
         "Les électrons de la double liaison N=N se replient sur le second azote, qui devient négatif."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -274,6 +299,7 @@
         "L'azote négatif attrape l'hydrogène de l'acide.",
         "Les électrons de la liaison O–H restent à l'oxygène : le nucléophile devient négatif."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -285,6 +311,7 @@
         "Un doublet libre de l'oxygène de l'alcool forme la liaison avec le phosphore.",
         "La liaison phosphore–azote se rompt : l'azote repart avec les deux électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -296,6 +323,7 @@
         "L'azote négatif reprend le proton porté par l'oxygène.",
         "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -307,6 +335,7 @@
         "L'oxygène négatif du nucléophile attaque le carbone par l'arrière.",
         "Les électrons de la liaison C–O forment la double liaison phosphore–oxygène : l'oxyde de phosphine part."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -315,6 +344,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'ester attendu, avec le carbone retourné par rapport à l'alcool de départ. Deux sous-produits l'accompagnent dans le ballon : l'oxyde de triphénylphosphine et la forme réduite du DEAD — abondants, et souvent pénibles à séparer.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -328,6 +358,7 @@
         "Le doublet de l'azote forme la liaison avec le carbone le moins encombré.",
         "Les électrons de la liaison C–O se replient sur l'oxygène : le cycle s'ouvre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -336,6 +367,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un amino-alcool : l'alcool et l'amine se retrouvent sur deux carbones voisins, et tous les angles sont revenus à leur valeur normale.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -349,6 +381,7 @@
         "L'iodure attaque le carbone par l'arrière, du côté opposé au brome.",
         "Les électrons de la liaison C–Br partent avec le brome, qui devient bromure."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -357,6 +390,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'iodure d'alkyle. Le bromure de sodium, lui, n'est plus en solution : il a précipité au fond du ballon, et c'est ce départ qui rend l'échange complet.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -370,6 +404,7 @@
         "Un doublet libre de l'oxygène forme la liaison avec le phosphore.",
         "Une liaison phosphore–brome se rompt : le brome part en emportant les deux électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -381,6 +416,7 @@
         "Le bromure attrape le proton porté par l'oxygène.",
         "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -392,6 +428,7 @@
         "Un bromure attaque le carbone par l'arrière.",
         "Les électrons de la liaison C–O restent à l'oxygène : le groupe phosphoré s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -400,6 +437,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le bromure d'alkyle, avec 91 % de rendement sur cet exemple. Le OH de départ est parti sous forme d'un morceau contenant le phosphore.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -414,6 +452,7 @@
         "La double liaison glisse d'un cran, vers le carbone porteur du chlore.",
         "La liaison C–Cl se rompt : le chlore part avec les deux électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -425,6 +464,7 @@
         "Le doublet de la seconde amine attrape le proton.",
         "Les électrons de la liaison N–H reviennent à l'azote, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -433,6 +473,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Compare avec le départ : l'azote n'est pas là où était le chlore, et la double liaison a changé de place. Tout a bougé d'un cran — c'est la signature d'une SN2′.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -446,6 +487,7 @@
         "Un doublet libre de l'oxygène du cycle capte un proton du milieu acide.",
         "Les électrons de la liaison O–H restent sur l'oxygène : il repart en molécule d'eau."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -457,6 +499,7 @@
         "Un doublet de l'oxygène du méthanol attaque le carbone le plus substitué.",
         "La liaison carbone–oxygène du cycle se rompt : le cycle s'ouvre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -468,6 +511,7 @@
         "Une molécule de méthanol attrape le proton en excès.",
         "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -476,6 +520,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le méthoxy est sur le carbone le plus encombré, le OH sur l'autre. En milieu basique, on obtiendrait exactement l'inverse à partir du même époxyde.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -489,6 +534,7 @@
         "L'hydroxyde attaque le carbone par l'arrière.",
         "Les électrons de la liaison C–Br partent avec le brome."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -501,6 +547,7 @@
         "Les électrons de la liaison C–H forment la double liaison entre les deux carbones.",
         "La liaison C–Br se rompt en même temps : le brome part avec les deux électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -509,6 +556,7 @@
       "titre": "Ce qu'on obtient avec la petite base",
       "legende": "L'alcool : le partenaire s'est installé à la place du brome. Le squelette est intact.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -517,6 +565,7 @@
       "titre": "Ce qu'on obtient avec la base volumineuse",
       "legende": "L'alcène : le brome et un hydrogène voisin sont partis ensemble, et une double liaison les a remplacés. Le partenaire, lui, n'est pas dans le produit — il repart sous forme d'alcool.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -529,6 +578,7 @@
       "fleches": [
         "La liaison C–Br se rompt : le brome part avec les deux électrons, et il reste un carbocation."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -540,6 +590,7 @@
         "L'eau, base même faible, attrape un hydrogène du carbone voisin.",
         "Les électrons de la liaison C–H forment la double liaison avec le carbone positif."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -548,6 +599,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le 2-méthylpropène. À côté, la substitution donne aussi son produit : les deux réactions partagent le même carbocation et se disputent son sort.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -561,6 +613,7 @@
         "Un doublet libre de l'oxygène de l'alcool capte le proton de l'acide.",
         "Les électrons de la liaison O–H restent à l'acide, qui devient son anion."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -571,6 +624,7 @@
       "fleches": [
         "La liaison C–O se rompt : l'eau part avec les deux électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -582,6 +636,7 @@
         "L'anion de l'acide attrape un hydrogène du carbone voisin.",
         "Les électrons de la liaison C–H forment la double liaison."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -590,6 +645,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcène, et de l'eau. L'acide, lui, ressort intact : il n'a fait que passer, d'où le mot catalyseur.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -603,6 +659,7 @@
         "L'ion hydroxyde attrape l'hydrogène situé à côté du carbonyle.",
         "Les électrons de la liaison C–H restent sur le carbone, qui devient négatif."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -614,6 +671,7 @@
         "Le doublet du carbone négatif forme une double liaison avec le carbone du carbonyle.",
         "Les électrons de la double liaison C=O se replient sur l'oxygène, qui porte désormais la charge."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -626,6 +684,7 @@
         "La double liaison carbone-carbone se déplace d'un cran.",
         "La liaison C–O se rompt : l'ion hydroxyde s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -634,6 +693,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Une cétone conjuguée : la double liaison est maintenant collée au carbonyle. Cette conjugaison est stabilisante, et elle a contribué à faire partir le OH.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -648,6 +708,7 @@
         "Les électrons de la liaison C–H forment la double liaison carbone-carbone.",
         "Le second brome part avec les deux électrons de sa liaison."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -660,6 +721,7 @@
         "Les électrons de la liaison C–H viennent renforcer la double liaison, qui devient triple.",
         "Le dernier brome s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -671,6 +733,7 @@
         "Le troisième équivalent de base arrache l'hydrogène terminal.",
         "Les électrons restent sur le carbone : c'est l'alcynure."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -679,6 +742,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le propyne — sous forme lithiée dans le ballon. Compare avec le départ : une molécule entièrement saturée est devenue une triple liaison.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -693,6 +757,7 @@
         "Les électrons de la liaison C–H forment la double liaison.",
         "La liaison carbone–azote se rompt : l'amine part avec les deux électrons et redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -701,6 +766,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le 3,3-diméthylbut-1-ène, avec 81 % de rendement. La triméthylamine part avec lui, et se sépare sans peine puisqu'elle est volatile.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -715,6 +781,7 @@
         "Les électrons de la liaison C–H forment la double liaison carbone-carbone.",
         "La liaison carbone–azote se rompt : l'azote part avec ses électrons et redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -723,6 +790,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcène, accompagné d'une hydroxylamine. Aucun acide, aucune base n'a été versé dans le ballon : la méthode convient donc aux molécules fragiles.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -737,6 +805,7 @@
         "La liaison carbone–oxygène se rompt ; l'oxygène forme une double liaison avec le carbone du xanthate.",
         "Les électrons de la double liaison C=S vont chercher l'hydrogène : le cycle est bouclé."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -745,6 +814,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcène. Le fragment soufré se décompose ensuite de lui-même en sulfure de carbonyle et en méthanethiol — d'où l'odeur mémorable de cette réaction.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -758,6 +828,7 @@
         "Un doublet libre de l'oxygène capte le proton de HF.",
         "Les électrons de la liaison H–F restent au fluor, qui devient fluorure."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -770,6 +841,7 @@
         "Les électrons de la liaison carbone–silicium forment la double liaison.",
         "L'eau s'en va avec les électrons de la liaison carbone–oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -778,6 +850,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'α-méthylstyrène, 84 % de rendement, et un seul régioisomère. Une déshydratation ordinaire aurait donné un mélange : c'est le silicium, placé à l'avance, qui a décidé de l'endroit.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -791,6 +864,7 @@
         "Les électrons de la double liaison forment une liaison avec le proton, sur le carbone le moins substitué.",
         "La liaison H–Br se rompt : le brome part avec les deux électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -801,6 +875,7 @@
       "fleches": [
         "Un doublet du bromure forme la liaison avec le carbone positif."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -809,6 +884,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le brome est sur le carbone le plus substitué. Personne ne l'a décidé : c'est la seule route qui passait par un carbone en manque supportable.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -823,6 +899,7 @@
         "Les électrons de la double liaison forment la seconde : le pont est fermé.",
         "Le second brome part avec les électrons de la liaison Br–Br."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -834,6 +911,7 @@
         "Le bromure attaque un carbone du cycle, du côté opposé au pont.",
         "La liaison carbone–brome du cycle se rompt : le brome redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -842,6 +920,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le dibromé. Les deux bromes sont de part et d'autre du plan, jamais du même côté — et c'est cette régularité qui prouve que le pont existe.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -856,6 +935,7 @@
         "Les électrons de la double liaison ferment le pont.",
         "Le second brome s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -867,6 +947,7 @@
         "Un doublet de l'eau attaque le carbone le plus substitué.",
         "La liaison carbone–brome de ce côté se rompt : le pont s'ouvre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -878,6 +959,7 @@
         "Une molécule d'eau attrape le proton en excès.",
         "Les électrons de la liaison O–H reviennent à l'oxygène, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -886,6 +968,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "La bromhydrine : le OH sur le carbone le plus substitué, le brome sur l'autre. Traitée par une base, elle se referme en époxyde — c'est souvent le vrai but de l'opération.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -899,6 +982,7 @@
         "Les électrons de la double liaison captent un proton du milieu acide.",
         "Les électrons de la liaison O–H restent à l'oxygène : il repart en molécule d'eau."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -909,6 +993,7 @@
       "fleches": [
         "Un doublet de l'eau forme la liaison avec le carbone positif."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -920,6 +1005,7 @@
         "Une molécule d'eau attrape le proton en excès.",
         "Les électrons de la liaison O–H reviennent à l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -928,6 +1014,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcool tertiaire. Chauffe-le avec de l'acide concentré et tu remonteras le chemin en sens inverse : c'est le même équilibre, lu dans l'autre sens.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -941,6 +1028,7 @@
         "Les électrons de la double liaison forment la liaison carbone–mercure, sur le carbone le moins substitué.",
         "Un acétate quitte le mercure avec les deux électrons de sa liaison."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -951,6 +1039,7 @@
       "fleches": [
         "Un doublet de l'eau forme la liaison avec le carbone le plus substitué."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -962,6 +1051,7 @@
         "Une molécule d'eau attrape le proton en excès.",
         "Les électrons de la liaison O–H reviennent à l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -970,6 +1060,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'alcool, avec le OH sur le carbone le plus substitué — et surtout sans qu'aucun carbocation libre n'ait existé : le squelette ne s'est pas réarrangé. Rendement de 90 % sur cet exemple. La démercuration, elle, passe par des radicaux : on ne la dessine pas avec des flèches courbes.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -983,6 +1074,7 @@
         "Les électrons de la double liaison remplissent l'orbitale vide du bore, sur le carbone le moins substitué.",
         "Dans le même temps, un hydrogène du bore passe sur l'autre carbone."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -993,6 +1085,7 @@
       "fleches": [
         "L'oxygène négatif se lie au bore."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1004,6 +1097,7 @@
         "Le carbone quitte le bore et se lie à l'oxygène voisin — sans jamais lâcher prise.",
         "La liaison O–O se rompt : un ion hydroxyde s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1015,6 +1109,7 @@
         "L'hydroxyde attaque le bore.",
         "La liaison oxygène–bore se rompt : l'alcoolate est libéré."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1023,6 +1118,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le propan-1-ol : le OH sur le carbone le MOINS substitué. Aucune autre méthode d'hydratation ne donne ce résultat — et l'hydrogène ajouté est du même côté que lui.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1038,6 +1134,7 @@
         "Les électrons de l'ancienne double liaison C=O vont chercher le proton.",
         "Les électrons de la liaison O–H ferment la seconde liaison carbone–oxygène : l'époxyde est formé."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1046,6 +1143,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'époxyde, avec 95 % de rendement sur le cyclohexène. Les deux liaisons s'étant formées du même côté et en même temps, la géométrie de l'alcène se retrouve intacte dans le produit.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1060,6 +1158,7 @@
         "Les électrons de cette liaison Os=O se replient sur l'osmium : c'est là qu'il passe de (VIII) à (VI).",
         "Et une autre liaison Os=O forme la seconde liaison carbone–oxygène. La boucle est bouclée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1068,6 +1167,7 @@
       "titre": "L'eau libère le diol",
       "legende": "L'ester d'osmium est hydrolysé sur-le-champ. Les deux OH restent là où les oxygènes s'étaient posés : du même côté. C'est un diol syn.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1082,6 +1182,7 @@
         "La double liaison attaque l'oxygène de l'autre bout.",
         "Et les électrons de la double liaison O=O se replient sur l'oxygène central, qui perd sa charge."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1094,6 +1195,7 @@
         "La liaison carbone–carbone se rompt : c'est ici que la molécule est coupée en deux. Ses électrons forment l'autre C=O.",
         "Et la liaison O–O se rompt, ses électrons restant sur l'oxygène du milieu."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1102,6 +1204,7 @@
       "titre": "Ce qu'on isole",
       "legende": "L'oxyde de carbonyle est réduit par le sulfure de diméthyle ou la triphénylphosphine — Clayden précise que ce mécanisme-là est plus compliqué, et ne le détaille pas. Bilan : deux aldéhydes, là où il y avait une double liaison.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1116,6 +1219,7 @@
         "Les électrons de la liaison carbone–zinc forment la seconde liaison carbone–carbone : le cycle à trois est fermé.",
         "Et l'iode passe sur le zinc. Il ne reste que ZnI₂."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1124,6 +1228,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le norcarane, 86 à 92 % de rendement. Le CH₂ s'est posé sur une seule face : la géométrie de l'alcène de départ se retrouve intacte dans le cyclopropane.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1138,6 +1243,7 @@
         "L'eau récupère ses électrons.",
         "Et le doublet de l'oxygène forme la double liaison C=O : le carbone n'est jamais réellement à découvert."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1149,6 +1255,7 @@
         "Une molécule d'eau vient prendre le proton.",
         "Les électrons de la liaison O–H restent sur l'oxygène : la cétone est neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1157,6 +1264,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "La butanone. Une liaison C=O est plus forte qu'une liaison C=C : c'est pour cela que l'énol bascule, et qu'il bascule vite.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1167,16 +1275,79 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le butane. Aucune flèche courbe ici : la réaction ne se passe pas en solution mais à la surface du métal, et le déplacement des électrons ne s'y décrit pas par des doublets qui migrent d'un atome à l'autre.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
   },
   "reduction_birch": {
+    "1": {
+      "fichier": "reduction_birch-etape1.svg",
+      "titre": "Un électron entre dans le cycle : l'anion radicalaire",
+      "legende": "Le lithium dissous dans l'ammoniac donne une solution d'un BLEU INTENSE : c'est la couleur des électrons solvatés. Le métal cède son électron célibataire, qui va se loger dans l'orbitale vacante la plus basse du cycle — sa LUMO.\n\nTROIS HAMEÇONS : l'électron du lithium, et les DEUX électrons de la liaison π, qui se séparent. Deux d'entre eux s'apparient sur un carbone — c'est le carbanion ; le troisième reste seul sur l'autre — c'est le radical. On obtient donc une espèce qui porte à la fois une charge NÉGATIVE et un électron CÉLIBATAIRE : un ANION RADICALAIRE.",
+      "fleches": [
+        "Un électron de la liaison π va sur ce carbone…",
+        "…où l'électron du lithium vient s'apparier avec lui : voici le carbanion.",
+        "L'autre électron de la liaison π reste seul : voici le radical."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_birch-etape2.svg",
+      "titre": "L'anion radicalaire arrache un proton à l'éthanol",
+      "legende": "UN CARBANION SUR UN CYCLE EST UNE BASE REDOUTABLE : il prend son proton à l'éthanol sans difficulté. Ici la flèche redevient ORDINAIRE, à pointe pleine — un carbanion déplace bien un doublet.\n\nLa molécule n'est plus chargée. Mais elle porte toujours son électron célibataire : c'est maintenant un simple radical.",
+      "fleches": [
+        "Le carbanion prend le proton de l'éthanol.",
+        "L'éthanolate est libéré."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reduction_birch-etape3.svg",
+      "titre": "Le radical se déplace : c'est lui qui fixe la régiochimie",
+      "legende": "VOICI POURQUOI LE PRODUIT EST UN DIÈNE 1,4 ET NON 1,3. Le radical n'est pas immobilisé : il est délocalisé sur trois carbones, et il peut se déplacer en poussant une double liaison devant lui. Trois hameçons suffisent à le décrire.\n\nEn se déplaçant, il s'éloigne du carbone qu'on vient de protoner. Quand il sera protoné à son tour, les deux hydrogènes ajoutés se retrouveront en position 1 et 4 — jamais côte à côte.",
+      "fleches": [
+        "L'électron célibataire entre dans la liaison voisine…",
+        "…où un électron de la double liaison le rejoint : une nouvelle double liaison se forme.",
+        "Et l'autre s'en va porter le radical un cran plus loin."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "reduction_birch-etape4.svg",
+      "titre": "Un second électron s'apparie avec le radical",
+      "legende": "UN SEUL HAMEÇON CETTE FOIS, et c'est logique : il n'y a qu'un électron à déplacer, et il vient simplement s'apparier avec celui qui était seul. Aucune liaison ne se rompt ni ne se forme. On obtient un carbanion.",
+      "fleches": [
+        "L'électron du lithium s'apparie avec le radical."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
     "5": {
       "fichier": "reduction_birch-etape5.svg",
+      "titre": "Seconde protonation",
+      "legende": "L'éthanol rend un second proton. Bilan : DEUX électrons et DEUX protons ajoutés — c'est bien une réduction.",
+      "fleches": [
+        "Le carbanion prend le proton.",
+        "L'éthanolate est libéré."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "reduction_birch-etape6.svg",
       "titre": "Ce qu'on obtient",
-      "legende": "Le cyclohexa-1,4-diène. Pas de flèches courbes non plus : chaque étape déplace UN électron, pas deux. On les dessine avec des demi-flèches, que cette application ne sait pas encore vérifier — mieux vaut donc ne pas les dessiner du tout.",
+      "legende": "Le cyclohexa-1,4-diène. Les deux doubles liaisons ne sont PAS conjuguées, alors qu'un diène conjugué serait plus stable — c'est la marque de cette réaction, et l'ordre des étapes en rend compte.\n\nPOURQUOI ÇA S'ARRÊTE LÀ : le produit n'est plus aromatique, mais il n'a pas non plus d'orbitale vacante assez basse pour accepter un électron de plus. La réduction ne peut pas continuer.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1190,6 +1361,7 @@
         "Les électrons d'une liaison Al–H forment la liaison C–H. L'aluminium redevient neutre, trivalent.",
         "Et les électrons de la double liaison C=O se replient sur l'oxygène, qui devient un alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1201,6 +1373,7 @@
         "Le doublet de l'alcoolate va chercher un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1209,6 +1382,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le propan-2-ol. Une cétone donne un alcool secondaire, un aldéhyde un alcool primaire. La réaction ne revient pas en arrière : il faudrait pour cela expulser un hydrure, qui est un très mauvais groupe partant.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1222,6 +1396,7 @@
         "Un doublet de l'eau attaque le carbone.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1233,6 +1408,7 @@
         "L'oxygène chargé négativement va chercher le proton porté par l'autre.",
         "Et l'oxygène qui le portait récupère ses électrons. Les deux charges disparaissent ensemble."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1241,6 +1417,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le méthanediol : deux OH sur le même carbone. En solution aqueuse, le formaldéhyde est entièrement sous cette forme — son signal en RMN du carbone 13 sort à 83 ppm, et non entre 150 et 200 ppm comme un vrai carbonyle.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1254,6 +1431,7 @@
         "Un doublet de l'oxygène du carbonyle va chercher le proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1265,6 +1443,7 @@
         "Un doublet de l'oxygène de l'alcool attaque le carbone.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1276,6 +1455,7 @@
         "Une molécule d'éthanol prend le proton en excès.",
         "L'oxygène récupère ses électrons et redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1287,6 +1467,7 @@
         "Le doublet de l'oxygène de l'hydroxyle va chercher un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1298,6 +1479,7 @@
         "La liaison carbone–oxygène se rompt, l'eau emporte les électrons.",
         "Et le doublet de l'autre oxygène vient combler le carbone."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1309,6 +1491,7 @@
         "Un doublet du second éthanol attaque le carbone.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1320,6 +1503,7 @@
         "Une molécule d'éthanol prend le dernier proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     }
@@ -1333,6 +1517,7 @@
         "Le doublet de l'azote attaque le carbone.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1344,6 +1529,7 @@
         "L'oxygène chargé négativement prend le proton de l'azote.",
         "L'azote récupère ses électrons et redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1355,6 +1541,7 @@
         "Le doublet de l'hydroxyle va chercher un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1366,6 +1553,7 @@
         "Le doublet de l'azote forme la double liaison C=N.",
         "Et l'eau s'en va avec les électrons de la liaison."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1377,6 +1565,7 @@
         "Une molécule d'eau prend le proton de l'azote.",
         "L'azote récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1389,6 +1578,7 @@
         "Les électrons de cette liaison C–H forment la nouvelle double liaison carbone–carbone.",
         "Et les électrons de la double liaison C=N se replient sur l'azote, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     }
@@ -1402,6 +1592,7 @@
         "Le doublet du carbone du cyanure attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1413,6 +1604,7 @@
         "L'alcoolate va chercher un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1421,6 +1613,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Une cyanhydrine : un OH et un nitrile sur le même carbone. Elle est précieuse pour la suite — le nitrile s'hydrolyse en acide carboxylique, ou se réduit en amine. On a gagné un carbone.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1434,6 +1627,7 @@
         "La base arrache un proton au carbone voisin du phosphore.",
         "Les électrons de cette liaison C–H restent sur le carbone : il devient un carbanion."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1446,6 +1640,7 @@
         "Les électrons de la double liaison se replient sur l'oxygène.",
         "Et l'oxygène va aussitôt se lier au phosphore : le cycle à quatre est fermé."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1457,6 +1652,7 @@
         "Les électrons de la liaison phosphore–carbone forment la double liaison carbone–carbone.",
         "Et ceux de la liaison carbone–oxygène forment la double liaison P=O."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1465,6 +1661,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le méthylènecyclohexane, 86 % de rendement. Le carbonyle a été remplacé par une double liaison carbone–carbone, exactement à sa place : aucune ambiguïté sur la position de l'alcène, contrairement à une élimination.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1478,6 +1675,7 @@
         "L'hydrure arrache le proton.",
         "Les électrons restent sur le carbone. L'anion obtenu est stabilisé — c'est un anion de type énolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1491,6 +1689,7 @@
         "L'oxygène se lie au phosphore : cycle à quatre.",
         "Et la double liaison P=O se replie sur son oxygène : le phosphore garde cinq liaisons simples et reste neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1502,6 +1701,7 @@
         "Les électrons de la liaison phosphore–carbone forment la double liaison carbone–carbone.",
         "Et ceux de la liaison carbone–oxygène renforcent la liaison P=O."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1510,6 +1710,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le cinnamate d'éthyle, de géométrie E. Chaque fois qu'on veut un alcène E conjugué à un ester, c'est cette réaction qu'on emploie.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1523,6 +1724,7 @@
         "Le cyanure attaque le carbone du carbonyle.",
         "Les électrons de la double liaison C=O se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1535,6 +1737,7 @@
         "La double liaison carbone–carbone se déplace vers le carbonyle.",
         "Et les électrons de la double liaison C=O se replient sur l'oxygène : on obtient un énolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1546,6 +1749,7 @@
         "L'énolate prend un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1554,6 +1758,7 @@
       "titre": "Ce qu'on isole quand on laisse le temps faire",
       "legende": "À 160 °C, avec HCN et KCN, on obtient 75 % du produit d'addition conjuguée. La cyanhydrine se forme plus vite ; mais elle est réversible, et le produit 1,4 ne l'est pas. Petit à petit, tout finit par y passer.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1564,6 +1769,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le cyclohex-2-énol : le carbonyle est réduit, l'alcène est intact. Aucune flèche ici — Clayden nomme la réaction et en donne le résultat, mais n'en écrit pas le mécanisme, et aucun des neuf ouvrages indexés ne le fait. On ne l'invente pas.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1577,6 +1783,7 @@
         "Les électrons d'une liaison B–H forment la liaison C–H.",
         "Et les électrons de la double liaison C=N se replient sur l'azote, qui redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1585,6 +1792,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "La 1-phényléthylamine. Partis d'une cétone, on a une amine — et le degré de substitution de cette amine se choisit en choisissant l'amine de départ.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1598,6 +1806,7 @@
         "Le nucléophile attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1609,6 +1818,7 @@
         "L'oxygène chargé négativement reforme la double liaison C=O.",
         "Ce qui expulse le chlorure — base bien plus faible que l'alcoolate, donc bien meilleur partant."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1620,6 +1830,7 @@
         "Le chlorure prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1628,6 +1839,7 @@
       "titre": "L'échelle, du plus réactif au moins",
       "legende": "Chlorure d'acyle > anhydride > ester > acide > amide. L'ordre suit une seule question : le groupe X est-il un bon partant ? Le chlorure l'est ; l'amidure ne l'est pas du tout. Et la même échelle, lue à l'envers, dit ce qu'on peut fabriquer à partir de quoi : on descend toujours l'échelle, jamais on ne la remonte.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1641,6 +1853,7 @@
         "L'oxygène du carbonyle va chercher un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1652,6 +1865,7 @@
         "Un doublet du méthanol attaque le carbone.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1663,6 +1877,7 @@
         "Une molécule de méthanol prend le proton en excès.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1674,6 +1889,7 @@
         "Le doublet d'un hydroxyle va chercher un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1685,6 +1901,7 @@
         "La liaison carbone–oxygène se rompt, l'eau emporte les électrons.",
         "Et le doublet de l'oxygène restant reforme la double liaison C=O."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1696,6 +1913,7 @@
         "Une molécule d'eau prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1704,6 +1922,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'acétate de méthyle. Chaque étape est un équilibre : pour aller au bout, il faut soit un large excès d'alcool, soit retirer l'eau — par un déshydratant, ou en la distillant.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1717,6 +1936,7 @@
         "L'hydroxyde attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1728,6 +1948,7 @@
         "L'oxygène reforme la double liaison C=O.",
         "Et l'alcoolate s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1739,6 +1960,7 @@
         "L'alcoolate arrache le proton acide.",
         "Le carboxylate est formé. Il ne réagira plus."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1747,6 +1969,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un carboxylate. Avec une longue chaîne grasse au bout, c'est du savon : le stéarate de sodium du suif, le palmitate de l'huile de palme. Une tête polaire, une queue apolaire — d'où le pouvoir lavant.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1760,6 +1983,7 @@
         "Un doublet du butanol attaque le carbone.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1771,6 +1995,7 @@
         "Le doublet de l'hydroxyle reforme la double liaison C=O.",
         "Et le méthanol s'en va. On le distille aussitôt : la réaction ne peut plus revenir en arrière."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1779,6 +2004,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'ester de butyle, 94 % de rendement. Le méthanol distillé rend l'opération irréversible — sans lui, on aurait un équilibre entre les deux esters.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1792,6 +2018,7 @@
         "L'hydroxyde attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1803,6 +2030,7 @@
         "L'hydroxyde arrache le proton de l'intermédiaire.",
         "L'oxygène garde les électrons : deux charges négatives sur le même carbone."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1814,6 +2042,7 @@
         "Un oxygène reforme la double liaison C=O.",
         "Et l'amidure est expulsé. Il arrachera aussitôt un proton au milieu."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1822,6 +2051,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le carboxylate, encore une fois. Conditions : soude à 10 % dans l'eau, 100 °C, une à trois heures — et davantage pour les amides secondaires et tertiaires, bien plus lents.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1835,6 +2065,7 @@
         "L'oxygène de l'acide attaque le soufre.",
         "Un chlorure s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1846,6 +2077,7 @@
         "Le chlorure prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1857,6 +2089,7 @@
         "Le chlorure attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1870,6 +2103,7 @@
         "Son oxygène forme aussitôt la seconde double liaison S=O.",
         "Et le chlorure est libéré. Il reste SO₂, un gaz."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1878,6 +2112,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le chlorure d'acétyle : le plus réactif des dérivés d'acide, et le point de départ de tous les autres. Le pentachlorure de phosphore PCl₅ fait le même travail par un mécanisme analogue.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1891,6 +2126,7 @@
         "Le carboxylate attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1902,6 +2138,7 @@
         "L'oxygène reforme la double liaison C=O.",
         "Le chlorure s'en va : il est le meilleur groupe partant des deux."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1913,6 +2150,7 @@
         "Le doublet de l'azote attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1926,6 +2164,7 @@
         "Et il prend aussitôt le proton en excès porté par l'azote.",
         "L'azote redevient neutre : l'amide est formé."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1934,6 +2173,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'amide, et un équivalent d'acide acétique. L'anhydride acétique est le réactif d'acétylation le plus courant du laboratoire : moins violent qu'un chlorure d'acyle, assez réactif pour se passer de catalyseur avec les amines.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1949,6 +2189,7 @@
         "Il attaque le carbone central du carbodiimide.",
         "Et les électrons de la double liaison C=N se replient sur l'azote."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1960,6 +2201,7 @@
         "Le doublet de l'azote de l'amine attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1971,6 +2213,7 @@
         "L'oxygène reforme la double liaison C=O.",
         "Et le groupe activé s'en va, emportant les électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -1979,6 +2222,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Une liaison peptidique. Le sous-produit, la dicyclohexylurée, a précipité : on filtre. C'est cette commodité qui a fait la fortune du DCC.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -1992,6 +2236,7 @@
         "Les électrons d'une liaison Al–H forment la liaison C–H.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2003,6 +2248,7 @@
         "L'oxygène reforme la double liaison C=O.",
         "L'alcoolate s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2014,6 +2260,7 @@
         "Les électrons d'une liaison Al–H forment la seconde liaison C–H.",
         "Et les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2022,6 +2269,7 @@
       "titre": "Ce qu'on obtient, et comment s'arrêter avant",
       "legende": "L'éthanol. Pour obtenir l'ALDÉHYDE, il faut le DIBAL à −78 °C dans le toluène : à cette température l'intermédiaire tétraédrique ne s'effondre pas, et l'aldéhyde n'apparaît qu'au traitement aqueux — quand il n'y a plus de réducteur. 88 % de dodécanal à partir du dodécanoate de méthyle.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2035,6 +2283,7 @@
         "Le carbanion de l'organolithien attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2046,6 +2295,7 @@
         "L'alcoolate prend un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2059,6 +2309,7 @@
         "Il reforme aussitôt la double liaison C=O.",
         "Et la N,O-diméthylhydroxylamine s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2067,6 +2318,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Une cétone propre, et une seule fois. Le problème que cette méthode résout : à partir d'un ester ordinaire, l'organolithien attaquerait la cétone formée et donnerait un alcool tertiaire. Ici, c'est impossible.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2080,6 +2332,7 @@
         "L'oxygène de l'acide nitrique va chercher le proton.",
         "L'hydrogénosulfate récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2091,6 +2344,7 @@
         "La liaison azote–oxygène se rompt : l'eau s'en va.",
         "Et le doublet de l'oxygène forme la seconde double liaison N=O."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2102,6 +2356,7 @@
         "Une liaison π du cycle attaque l'azote.",
         "Une liaison N=O se replie sur son oxygène : l'azote reste tétravalent."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2113,6 +2368,7 @@
         "Une base prend l'hydrogène porté par le carbone tétraédrique.",
         "Ses électrons reforment la double liaison : le cycle est de nouveau aromatique."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2121,6 +2377,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le nitrobenzène. Le groupe nitro est le plus utile de la chimie aromatique : facile à poser, facile à réduire en amine, et l'amine se transforme ensuite en presque tout par voie diazonium.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2134,6 +2391,7 @@
         "Une liaison π du cycle attaque un brome.",
         "Les électrons de la liaison Br–Br partent sur l'aluminium : c'est lui qui emporte le bromure."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2145,6 +2403,7 @@
         "Une base prend l'hydrogène du carbone tétraédrique.",
         "Ses électrons reforment la double liaison : le cycle redevient aromatique."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2153,6 +2412,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le bromobenzène. Comparez avec le cyclohexène, qui donne un dibromure d'addition trans : l'aromaticité change tout. Un alcène sacrifie sa liaison π ; un cycle aromatique la récupère toujours.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2166,6 +2426,7 @@
         "Une liaison π du cycle attaque le soufre.",
         "Une liaison S=O se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2177,6 +2438,7 @@
         "Une base prend l'hydrogène du carbone tétraédrique.",
         "L'aromaticité revient."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2185,6 +2447,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'acide benzènesulfonique. On l'isole sous forme de son sel de sodium cristallisé, en ajoutant simplement un excès de NaCl — et Clayden fait la remarque qui frappe : « peu de composés réagissent avec NaCl ». Particularité de cette réaction, elle est RÉVERSIBLE, ce qui permet d'employer le groupe sulfonate comme bouchon temporaire.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2198,6 +2461,7 @@
         "La liaison carbone–chlore se rompt.",
         "Et le chlorure va se fixer sur l'aluminium."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2208,6 +2472,7 @@
       "fleches": [
         "Une liaison π du cycle attaque le carbone chargé positivement."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2219,6 +2484,7 @@
         "Une base prend l'hydrogène du carbone tétraédrique.",
         "L'aromaticité revient."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2227,6 +2493,7 @@
       "titre": "Les deux pièges de la méthode",
       "legende": "PREMIER : le produit est plus riche en électrons que le benzène de départ — donc plus réactif. La polysubstitution est presque inévitable. SECOND : la réaction n'est bonne qu'avec des cations STABLES. Avec le chlorure de n-propyle, le produit majoritaire porte un isopropyle : le squelette s'est réarrangé en cours de route.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2241,6 +2508,7 @@
         "Le chlorure va sur l'aluminium.",
         "Et le doublet de l'oxygène forme la triple liaison : l'ion acylium est stabilisé."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2252,6 +2520,7 @@
         "Une liaison π du cycle attaque le carbone de l'acylium.",
         "La triple liaison se replie sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2263,6 +2532,7 @@
         "Une base prend l'hydrogène du carbone tétraédrique.",
         "L'aromaticité revient."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2271,6 +2541,7 @@
       "titre": "Pourquoi elle s'arrête après une fois",
       "legende": "Le produit porte une cétone, qui ATTIRE les électrons : le cycle est désactivé, moins réactif que le benzène de départ. La réaction s'arrête donc proprement après une seule substitution — c'est exactement ce que l'alkylation ne sait pas faire.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2284,6 +2555,7 @@
         "Une liaison π attaque l'azote du nitronium.",
         "Une liaison N=O se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2294,6 +2566,7 @@
       "fleches": [
         "Le doublet de l'oxygène forme une double liaison : la charge positive disparaît du carbone."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2302,6 +2575,7 @@
       "titre": "En méta, cette forme n'existe pas",
       "legende": "Si l'attaque avait lieu en méta, la charge positive ne passerait jamais par le carbone porteur de l'oxygène : pas de stabilisation supplémentaire, pas d'accélération. Voilà pourquoi un donneur oriente en ORTHO et en PARA — non pas parce qu'il pousse le réactif là, mais parce que ces deux chemins-là sont plus rapides.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -2310,6 +2584,7 @@
       "titre": "Et pour un attracteur, tout s'inverse",
       "legende": "Un groupe nitro TIRE les électrons. Le cycle est appauvri, donc désactivé. Et en ortho ou para, une forme de résonance placerait la charge positive juste à côté d'un azote déjà positif : intenable. Il ne reste que la position MÉTA, la moins mauvaise.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2325,6 +2600,7 @@
         "Puis d'un cran encore, jusqu'à l'azote.",
         "Et la charge finit sur un oxygène du nitro, qui la supporte très bien."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2338,6 +2614,7 @@
         "Puis d'un cran encore.",
         "Et le chlorure est expulsé : le cycle est de nouveau aromatique."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2346,6 +2623,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le para-nitrophénol. Retenez la recette d'une SNAr : un nucléophile oxygéné, azoté ou cyanure ; un halogénure comme groupe partant ; et un carbonyle, un nitro ou un nitrile en ORTHO ou en PARA de ce groupe partant.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2360,6 +2638,7 @@
         "Ses électrons forment une troisième liaison carbone–carbone.",
         "Et le bromure s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2371,6 +2650,7 @@
         "L'amidure attaque un des deux carbones de la triple liaison.",
         "Et les électrons de cette liaison se replient sur l'autre carbone : un carbanion aromatique."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2382,6 +2662,7 @@
         "Le carbanion prend un proton à l'ammoniac.",
         "L'amidure se reforme : il peut recommencer."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2390,6 +2671,7 @@
       "titre": "La preuve, et elle est décisive",
       "legende": "Un benzyne a DEUX bouts, et le nucléophile peut attaquer l'un ou l'autre. Sur un aryléther ortho-chloré, on n'obtient pas le produit ortho mais le produit MÉTA : l'attaque a lieu loin du méthoxy, parce que le carbanion y est stabilisé par l'oxygène voisin. Aucun autre mécanisme ne prédirait cela — et c'est une bonne façon de faire des amino-éthers méta, que la substitution électrophile ne donne jamais.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2403,6 +2685,7 @@
         "L'eau s'en va.",
         "Et le doublet de l'oxygène forme la triple liaison."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2414,6 +2697,7 @@
         "Le doublet de l'azote de l'amine attaque l'azote du nitrosonium.",
         "La triple liaison se replie sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2425,6 +2709,7 @@
         "Le diazote s'en va : aucun groupe partant n'est meilleur.",
         "Et le nucléophile — ici un chlorure, apporté par CuCl — prend la place."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2433,6 +2718,7 @@
       "titre": "La séquence complète, et c'est elle qu'il faut retenir",
       "legende": "Nitration, puis réduction, puis diazotation, puis Sandmeyer. Quatre réactions, et l'on remplace un hydrogène aromatique par Cl, Br ou CN — souvent à des positions qu'aucune substitution électrophile n'atteindrait. Clayden le dit : c'est la versatilité du groupe nitro qui fait marcher toute cette séquence.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2443,6 +2729,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'aniline. Deux réactifs au choix, et aucun des neuf ouvrages indexés n'en détaille le mécanisme : on n'écrira donc pas de flèches. Ce qui est établi et suffit à s'en servir : l'hydrogénation sur palladium sur charbon, ou l'étain dans HCl dilué, transforment proprement un nitro aromatique en amine.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2453,6 +2740,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'acide benzoïque, quelle que soit la longueur de la chaîne de départ. Pas de flèches ici non plus : McMurry écrit que le mécanisme est complexe et passe par des radicaux benzyliques, sans le détailler. On s'arrête où s'arrête la source.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2466,6 +2754,7 @@
         "L'oxygène du carbonyle va chercher un proton.",
         "L'eau récupère ses électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2478,6 +2767,7 @@
         "Ses électrons forment la double liaison carbone–carbone.",
         "Et la double liaison C=O se replie sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2490,6 +2780,7 @@
         "Ses électrons forment la double liaison carbone–carbone.",
         "Et la charge négative se pose sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2501,6 +2792,7 @@
         "La charge de l'oxygène peut se déplacer : elle forme la double liaison C=O.",
         "Et les électrons de la double liaison C=C se replient sur le carbone : voilà la forme carbanion."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2509,6 +2801,7 @@
       "titre": "Combien y en a-t-il, en vrai ?",
       "legende": "Très peu. Pour l'acétone, la constante d'équilibre d'énolisation vaut environ 10⁻⁶ — un million de fois en faveur de la cétone. La raison : l'ensemble C=O plus C–H est légèrement plus stable que l'ensemble C=C plus O–H. L'équilibre est ténu, mais il penche toujours du même côté.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2523,6 +2816,7 @@
         "Ses électrons forment la double liaison carbone–carbone.",
         "Et la charge se pose sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2535,6 +2829,7 @@
         "Ses électrons forment la double liaison carbone–carbone.",
         "Et la charge se pose sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2543,6 +2838,7 @@
       "titre": "Le tableau à retenir",
       "legende": "THERMODYNAMIQUE : plus substitué, plus stable, favorisé par un excès de cétone, une température élevée, un temps long. CINÉTIQUE : moins substitué, moins stable, favorisé par une base forte et encombrée comme le LDA, une température basse, un temps court. Sur la 2-phénylcyclohexanone, pourtant très portée vers l'énolate conjugué, le LDA à −78 °C donne 100 % de l'énolate le moins substitué.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2557,6 +2853,7 @@
         "La double liaison carbone–carbone attaque le carbone de l'halogénure.",
         "Et l'iodure s'en va : c'est une SN2."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2565,6 +2862,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "La 2-méthylcyclohexanone. On vient de former une liaison carbone–carbone à partir d'une cétone et d'un halogénure — l'une des opérations les plus employées de toute la synthèse.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2579,6 +2877,7 @@
         "Un bromure s'en va.",
         "Et l'oxygène reforme la double liaison C=O."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2590,6 +2889,7 @@
         "Le bromure prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2598,6 +2898,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'acide bromoacétique, après hydrolyse du bromure d'acyle. Sur l'acide heptanoïque, la séquence complète donne 90 % d'acide 2-bromoheptanoïque. Le carbone en α porte maintenant un groupe partant : on peut y mettre presque n'importe quoi par substitution nucléophile.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2611,6 +2912,7 @@
         "L'hydroxyde attaque le carbone du carbonyle.",
         "Les électrons de la double liaison se replient sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2622,6 +2924,7 @@
         "L'oxygène reforme la double liaison C=O.",
         "Et le carbanion tribromométhyle s'en va : trois bromes suffisent à en faire un groupe partant."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2633,6 +2936,7 @@
         "Le carbanion prend le proton de l'acide.",
         "Le carboxylate est formé : il ne réagira plus."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2641,6 +2945,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un carboxylate, et un carbone de moins qu'au départ. Il FAUT un groupe méthyle sur le carbonyle : trois halogènes sont nécessaires pour faire du carbanion un groupe partant, et un méthyle en porte exactement trois.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2655,6 +2960,7 @@
         "Le doublet de la liaison C–H devient la double liaison C=C.",
         "Et la liaison π du carbonyle se replie sur l'oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2667,6 +2973,7 @@
         "Le carbone α attaque le carbone du carbonyle.",
         "Le carbonyle s'ouvre : l'oxygène devient alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2678,6 +2985,7 @@
         "L'alcoolate prend un proton à l'eau.",
         "L'hydroxyde est régénéré."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2690,6 +2998,7 @@
         "La liaison C–H devient la double liaison C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2702,6 +3011,7 @@
         "La double liaison se déplace vers le carbone qui porte l'alcool.",
         "Et l'hydroxyde part."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2710,6 +3020,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le but-2-énal, ou crotonaldéhyde. Le moteur de la déshydratation est la conjugaison : C=C et C=O côte à côte forment un système stable, et c'est ce gain qui rend l'élimination irréversible.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2724,6 +3035,7 @@
         "La liaison C–H devient la double liaison C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2736,6 +3048,7 @@
         "Le carbone attaque l'aldéhyde.",
         "Le carbonyle s'ouvre en alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2747,6 +3060,7 @@
         "L'alcoolate prend un proton.",
         "L'eau est restituée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2755,6 +3069,7 @@
       "titre": "L'aldol, 65 %",
       "legende": "L'aldol est stable et isolable : on n'est pas obligé de le déshydrater.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -2763,6 +3078,7 @@
       "titre": "Et l'énone, 72 %, si on la veut",
       "legende": "L'acide para-toluènesulfonique déshydrate ensuite l'aldol : c'est la déshydratation acido-catalysée déjà vue à la fiche « aldolisation et crotonisation ».",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2777,6 +3093,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2789,6 +3106,7 @@
         "Le carbone attaque le carbonyle de l'ester.",
         "L'oxygène devient alcoolate : c'est l'intermédiaire tétraédrique."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2800,6 +3118,7 @@
         "L'alcoolate reforme la double liaison C=O.",
         "Et l'éthanolate est expulsé."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2812,6 +3131,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie : l'énolate obtenu est stabilisé par deux carbonyles."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2820,6 +3140,7 @@
       "titre": "Ce qu'on obtient, après traitement acide",
       "legende": "L'acétylacétate d'éthyle — un β-cétoester. Il est si facile à préparer qu'on l'achète : c'est le réactif de départ des synthèses acétylacétiques.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2834,6 +3155,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2846,6 +3168,7 @@
         "Le carbone α attaque l'autre ester : le cycle se ferme.",
         "L'intermédiaire tétraédrique se forme."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2857,6 +3180,7 @@
         "L'alcoolate reforme le carbonyle.",
         "L'éthanolate part."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2869,6 +3193,7 @@
         "La liaison C–H devient C=C.",
         "L'énolate stabilisé se forme."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2877,6 +3202,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le 2-oxocyclohexanecarboxylate d'éthyle. Alkylé puis décarboxylé, il donne une 2-alkylcyclohexanone : la suite « Dieckmann, alkylation, décarboxylation » est l'une des voies les plus sûres vers les cyclopentanones et cyclohexanones substituées en 2 (McMurry p. 770).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2891,6 +3217,7 @@
         "La liaison C–H devient la double liaison C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2904,6 +3231,7 @@
         "La double liaison C=C se déplace vers le carbonyle.",
         "Et le carbonyle s'ouvre : on obtient un énolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2916,6 +3244,7 @@
         "Le carbone prend le proton de l'éthanol.",
         "L'éthanolate est régénéré."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2924,6 +3253,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un composé 1,5-dicarbonylé. C'est la signature de l'addition de Michael : chaque fois qu'une cible contient un motif 1,5-dicarbonylé, on la coupe mentalement entre le carbone β et le carbone γ, et l'addition de Michael la refait.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -2938,6 +3268,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2951,6 +3282,7 @@
         "La double liaison remonte vers le carbonyle.",
         "Qui s'ouvre en énolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2963,6 +3295,7 @@
         "Le carbone prend le proton de l'éthanol.",
         "La base est régénérée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2975,6 +3308,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2987,6 +3321,7 @@
         "Le carbone attaque le carbonyle du cycle : la jonction se fait.",
         "Qui s'ouvre en alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -2998,6 +3333,7 @@
         "L'alcoolate prend son proton.",
         "La base est régénérée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3010,6 +3346,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3022,6 +3359,7 @@
         "La double liaison se déplace vers la jonction de cycles.",
         "Et l'hydroxyde s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3030,6 +3368,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Une décalone conjuguée : deux cycles à six soudés, une énone. C'est le squelette des cycles A et B des stéroïdes — et c'est pour cela que Robinson a mis cette séquence au point.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3043,6 +3382,7 @@
         "Le doublet de l'azote attaque le carbone.",
         "Le carbonyle s'ouvre en alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3054,6 +3394,7 @@
         "L'alcoolate prend un proton au milieu acide.",
         "L'eau est restituée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3065,6 +3406,7 @@
         "L'eau prend le proton de l'azote.",
         "L'azote redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3076,6 +3418,7 @@
         "L'oxygène prend un proton.",
         "L'eau est restituée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3087,6 +3430,7 @@
         "L'azote pousse son doublet.",
         "Et l'eau s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3099,6 +3443,7 @@
         "Le carbone attaque le méthylène de l'iminium.",
         "L'azote reprend son doublet et redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3110,6 +3455,7 @@
         "L'eau prend le proton.",
         "Le carbonyle est restitué."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3118,6 +3464,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Une β-aminocétone, qu'on appelle une BASE DE MANNICH. 85 % de rendement sur la cyclohexanone (Clayden p. 621). Beaucoup de médicaments appartiennent à cette classe.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3133,6 +3480,7 @@
         "La double liaison remonte vers le carbonyle.",
         "Qui s'ouvre en énolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3145,6 +3493,7 @@
         "Le carbone prend le proton.",
         "L'eau est restituée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3153,6 +3502,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'hydrolyse de l'iminium — le mécanisme inverse de la formation des imines — restitue la cétone de départ, alkylée. Bilan : un composé 1,5-dicarbonylé, celui-là même qu'une addition de Michael aurait donné, mais sans base forte et sans autocondensation.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3167,6 +3517,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3179,6 +3530,7 @@
         "Le carbone attaque l'aldéhyde.",
         "Le carbonyle s'ouvre en alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3190,6 +3542,7 @@
         "L'alcoolate prend le proton de l'acide.",
         "L'acétate est libéré."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3202,6 +3555,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3214,6 +3568,7 @@
         "La double liaison se déplace.",
         "Et l'hydroxyde part."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3222,6 +3577,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un alkylidènemalonate, 92 % de rendement sur cet exemple (Clayden p. 629). Si l'on part de l'acide malonique au lieu du diester, avec pipéridine et pyridine, la décarboxylation se fait toute seule pendant la réaction et l'on obtient directement l'acide α,β-insaturé : c'est la variante de Doebner (Clayden p. 630).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3236,6 +3592,7 @@
         "La liaison C–H devient C=C.",
         "Le carbonyle se replie sur son oxygène."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3248,6 +3605,7 @@
         "Le carbone attaque l'halogénure.",
         "Et le bromure s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3261,6 +3619,7 @@
         "Lequel prend le proton acide de l'autre acide.",
         "Et la liaison O–H devient la seconde double liaison du CO₂, qui s'échappe."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3269,6 +3628,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'énol se tautomérise aussitôt : on obtient l'acide pentanoïque. BILAN DE LA SYNTHÈSE MALONIQUE : un halogénure d'alkyle devient un acide carboxylique allongé de DEUX carbones (McMurry p. 742). Avec l'acétylacétate d'éthyle à la place du malonate, le même enchaînement transforme l'halogénure en méthylcétone allongée de TROIS carbones (McMurry p. 743).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3282,6 +3642,7 @@
         "Le doublet de l'oxygène attaque le chrome.",
         "Une double liaison Cr=O se replie pour lui faire de la place."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3293,6 +3654,7 @@
         "La pyridine prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3305,6 +3667,7 @@
         "Le doublet de la liaison C–H devient la double liaison C=O.",
         "Et la liaison O–Cr se rompt : les deux électrons vont au chrome, qui est ainsi réduit."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3313,6 +3676,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le propanal. On s'arrête à l'aldéhyde parce qu'il n'y a pas d'eau dans le ballon : sans eau, pas d'hydrate, donc pas de seconde oxydation. Tout le protocole du PCC tient dans cette phrase.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3326,6 +3690,7 @@
         "Le doublet de l'oxygène attaque le chrome.",
         "Une double liaison Cr=O se replie."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3337,6 +3702,7 @@
         "L'eau prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3349,6 +3715,7 @@
         "La liaison C–H devient la double liaison C=O.",
         "La liaison O–Cr se rompt : le chrome est réduit."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3357,6 +3724,7 @@
       "titre": "Sur un alcool PRIMAIRE, en revanche : l'aldéhyde s'hydrate",
       "legende": "On est en solution aqueuse. L'aldéhyde formé est en équilibre avec son hydrate — un gem-diol (voir la fiche « hydratation des carbonyles »). Et un gem-diol, pour le chrome, c'est un alcool comme un autre.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3370,6 +3738,7 @@
         "L'eau prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3382,6 +3751,7 @@
         "La liaison C–H devient la double liaison C=O.",
         "Et le chrome est réduit une seconde fois."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3390,6 +3760,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'acide propanoïque. La règle tient en une phrase : EN MILIEU AQUEUX, UN ALCOOL PRIMAIRE VA JUSQU'À L'ACIDE. Si l'on veut s'arrêter à l'aldéhyde, il faut supprimer l'eau — d'où le PCC dans le dichlorométhane.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3403,6 +3774,7 @@
         "L'oxygène du DMSO attaque le carbonyle.",
         "Le carbonyle s'ouvre en alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3414,6 +3786,7 @@
         "L'alcoolate reforme le carbonyle.",
         "Le chlorure part."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3425,6 +3798,7 @@
         "Le chlorure attaque le soufre.",
         "La liaison S–O se rompt."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3438,6 +3812,7 @@
         "L'oxygène complète la triple liaison du monoxyde de carbone.",
         "Et le second chlorure part."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3451,6 +3826,7 @@
         "La triéthylamine prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3462,6 +3838,7 @@
         "La base prend un proton du méthyle.",
         "Le carbone porte désormais la charge négative."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3474,6 +3851,7 @@
         "La liaison C–H devient la double liaison C=O.",
         "Et la liaison O–S se rompt : le soufre est réduit."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3482,6 +3860,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'aldéhyde, et du sulfure de diméthyle. Bilan d'oxydoréduction : l'alcool est oxydé en aldéhyde, le soufre(IV) du DMSO est réduit en soufre(II) du DMS. Le DMS a une odeur très forte — c'est le principal reproche fait à cette méthode par ailleurs excellente.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3495,6 +3874,7 @@
         "L'oxygène de l'alcool attaque l'iode.",
         "Un acétate s'en va."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3506,6 +3886,7 @@
         "L'acétate prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3518,6 +3899,7 @@
         "La liaison C–H devient la double liaison C=O.",
         "La liaison O–I se rompt : les électrons vont à l'iode, qui est réduit."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3528,6 +3910,7 @@
       "fleches": [
         "Un acétate s'en va : l'iode(III) redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3536,6 +3919,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'aldéhyde, et de l'acide acétique. Aucun métal lourd, aucun milieu acide fort, température ambiante : c'est ce qui fait employer ce réactif sur les alcools les plus fragiles. Clayden cite l'oxydation d'un alcool allylique cis en aldéhyde cis, SANS isomérisation (p. 545).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3549,6 +3933,7 @@
         "L'oxygène du carbonyle prend un proton.",
         "L'eau est restituée."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3560,6 +3945,7 @@
         "L'oxygène terminal du peracide attaque le carbone.",
         "Le carbonyle s'ouvre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3571,6 +3957,7 @@
         "L'eau prend le proton.",
         "L'oxygène redevient neutre."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3583,6 +3970,7 @@
         "Le groupe tert-butyle migre du carbone vers l'oxygène.",
         "Et la liaison O–O se rompt : le carboxylate part."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3594,6 +3982,7 @@
         "Le carboxylate prend le proton.",
         "L'ester est formé."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3602,6 +3991,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Un ester, là où il y avait une cétone : un atome d'oxygène s'est INSÉRÉ entre le carbonyle et l'un de ses substituants. Baeyer et Villiger l'ont découvert en 1899.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3612,6 +4002,7 @@
       "titre": "Le diol et le périodate se lient : l'ester périodique cyclique",
       "legende": "Les deux alcools du diol se fixent tous deux sur l'iode, avec perte d'eau. On obtient un cycle à CINQ atomes — et c'est cette géométrie qui explique tout ce qui suit : sans elle, pas de coupure.\n\nUNE REMARQUE SUR LE DESSIN : l'iode hypervalent est représenté ici sous sa forme SÉPARÉE EN CHARGES — I²⁺ entouré de deux oxygènes négatifs — plutôt qu'avec deux doubles liaisons I=O. Les deux écritures décrivent la même molécule et vous rencontrerez les deux ; celle-ci a l'avantage de ne jamais faire dépasser l'octet.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3625,6 +4016,7 @@
         "La liaison carbone–carbone se rompt et devient la seconde double liaison C=O.",
         "Enfin la seconde liaison O–I se rompt : les électrons vont à l'iode, qui est réduit."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3633,6 +4025,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "Deux molécules d'éthanal, et de l'acide iodique. Associé au tétroxyde d'osmium, le périodate coupe un alcène en deux composés carbonylés — et il RÉOXYDE l'osmium au passage, ce qui permet de n'en employer qu'une quantité catalytique (Clayden p. 443).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3643,6 +4036,7 @@
       "titre": "D'abord l'hydrazone",
       "legende": "La cétone et l'hydrazine se condensent comme n'importe quelle amine sur un carbonyle (voir la fiche « imines et énamines »). L'hydrazone obtenue est le vrai point de départ.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3654,6 +4048,7 @@
         "L'hydroxyde prend un proton de l'azote terminal.",
         "L'azote porte la charge."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3666,6 +4061,7 @@
         "La double liaison C=N se déplace ; le carbone prend un proton à l'eau.",
         "L'hydroxyde est régénéré."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3678,6 +4074,7 @@
         "La liaison N=N devient triple : c'est le diazote.",
         "Et la liaison carbone–azote se rompt : le carbone garde les deux électrons."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3689,6 +4086,7 @@
         "Le carbanion prend un proton à l'eau.",
         "L'hydroxyde est régénéré."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3697,6 +4095,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "L'éthylbenzène. Un groupe C=O est devenu un CH₂ : c'est une réduction complète, pas une simple réduction en alcool. Clayden en donne un bel usage : la synthèse de la muscalure, phéromone de la mouche domestique, à partir de l'acide érucique du colza (p. 541).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3710,6 +4109,7 @@
         "Un hydrure quitte l'aluminium et attaque le carbone.",
         "La liaison π se replie sur l'azote : c'est un anion d'imine."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3721,6 +4121,7 @@
         "Un second hydrure attaque le carbone.",
         "L'azote porte maintenant deux charges négatives."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3734,6 +4135,7 @@
         "Puis un second.",
         "Et un second hydroxyde."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3742,6 +4144,7 @@
       "titre": "Ce qu'on obtient à partir d'un nitrile",
       "legende": "Une amine PRIMAIRE, allongée d'un carbone par rapport à l'halogénure dont le nitrile est issu. C'est l'une des rares façons commodes de faire une amine primaire sans suralkylation.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3753,6 +4156,7 @@
         "L'hydrure attaque le carbonyle.",
         "L'oxygène devient alcoolate."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3764,6 +4168,7 @@
         "L'azote pousse son doublet.",
         "Et l'oxygène s'en va avec l'aluminium."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3775,6 +4180,7 @@
         "L'hydrure attaque le carbone de l'iminium.",
         "L'azote reprend son doublet."
       ],
+      "hamecons": false,
       "coherenceVerifiee": true,
       "valide": false
     },
@@ -3783,6 +4189,7 @@
       "titre": "Ce qu'on obtient à partir d'un amide",
       "legende": "Une amine. Le carbonyle a disparu, l'azote est resté. C'est l'une des méthodes les plus sûres pour fabriquer une amine tertiaire — et si l'on arrête la réaction à 0 °C avant que l'iminium ne se forme, on obtient un ALDÉHYDE : 80 % de rendement dans l'exemple de Clayden (p. 534).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3793,6 +4200,7 @@
       "titre": "Le point de départ",
       "legende": "Une cétone aromatique — typiquement le produit d'une acylation de Friedel-Crafts. On veut en faire un alcane, et non un alcool.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3801,6 +4209,7 @@
       "titre": "Ce qu'on obtient",
       "legende": "AUCUNE FLÈCHE ICI, ET C'EST VOULU. Clayden écrit que la réduction de Clemmensen « est la plus simple à mettre en œuvre, mais a le mécanisme le plus compliqué » (p. 540). Aucun des ouvrages dont nous disposons n'en donne le détail par flèches courbes : le zinc amalgamé transfère des électrons à la surface du métal, et les intermédiaires — carbanions ou carbénoïdes liés au zinc — ne se décrivent pas comme une suite de déplacements de doublets. Nous ne l'inventerons pas.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }
@@ -3811,6 +4220,7 @@
       "titre": "Le substrat : un alcène prochiral",
       "legende": "Le géraniol. Sa double liaison trisubstituée, celle qui porte l'alcool, va être hydrogénée — et le carbone qui en résulte devient un centre stéréogène. Prochiral veut dire cela : plan aujourd'hui, chiral demain, selon la face par laquelle on l'attaque.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3819,6 +4229,7 @@
       "titre": "Le ligand : le BINAP",
       "legende": "AUCUN CARBONE ASYMÉTRIQUE DANS CETTE MOLÉCULE, et pourtant elle est chirale. Les deux naphtalènes ne peuvent pas tourner librement autour de la liaison qui les unit : la molécule est vrillée, et son image dans un miroir ne lui est pas superposable. On appelle cela une chiralité AXIALE. Le BINAP est un diphosphine CHÉLATANT : le métal se loge entre les deux phosphores, solidement tenu dans un environnement chiral (Clayden p. 1118).",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3827,6 +4238,7 @@
       "titre": "Le cycle catalytique, en mots",
       "legende": "PAS DE FLÈCHES COURBES ICI NON PLUS : les étapes d'un cycle organométallique ne se décrivent pas par des déplacements de doublets, mais par des changements de degré d'oxydation et de nombre d'électrons du métal. Clayden les nomme (p. 1118) : addition oxydante de H₂ sur le complexe à 14 électrons, formation du complexe π avec l'alcène — le métal est alors à 18 électrons —, insertion migratoire d'un hydrogène, puis élimination réductrice qui libère l'alcane et régénère le complexe de départ. Les deux phosphores restent coordinés pendant TOUT le cycle : le métal ne quitte jamais son environnement chiral, et c'est pour cela que la sélectivité tient.",
       "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     },
@@ -3835,6 +4247,374 @@
       "titre": "Ce qu'on obtient",
       "legende": "Le (R)-citronellol, avec plus de 98 % d'excès énantiomérique — soit une pureté supérieure à celle de bien des sources naturelles du même composé (Clayden p. 1119). Notez que l'autre double liaison, isolée, n'est pas touchée : le catalyseur ne réduit que celle qui est proche du groupe alcool, qui aide à la coordination.",
       "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "halogenation_radicalaire": {
+    "1": {
+      "fichier": "halogenation_radicalaire-etape1.svg",
+      "titre": "AMORÇAGE : la lumière casse la molécule de chlore en deux",
+      "legende": "DEUX HAMEÇONS, ET C'EST TOUTE LA DIFFÉRENCE. Une flèche ordinaire déplace un doublet ; ici chaque flèche ne déplace qu'UN électron, et l'on en met donc deux — une pour chaque atome. La liaison se partage au lieu de se donner : c'est une HOMOLYSE. Clayden oppose les deux mots (p. 970) : hétérolyse, un atome prend tout et l'on obtient des ions ; homolyse, chacun en prend un et l'on obtient des radicaux.",
+      "fleches": [
+        "Un électron pour le chlore de gauche.",
+        "Un électron pour celui de droite."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "halogenation_radicalaire-etape2.svg",
+      "titre": "PROPAGATION 1 : le chlore arrache un hydrogène",
+      "legende": "Le radical chlore ne casse pas la molécule : il lui PREND un atome d'hydrogène. Comptez les hameçons : trois. Un pour l'électron célibataire du chlore, un pour chacun des deux électrons de la liaison C–H — l'un part fabriquer la liaison H–Cl, l'autre reste au carbone, qui devient radical à son tour.",
+      "fleches": [
+        "L'électron célibataire du chlore forme la nouvelle liaison H–Cl.",
+        "Un des deux électrons de la liaison C–H l'y rejoint.",
+        "L'autre reste au carbone, qui devient radical."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "halogenation_radicalaire-etape3.svg",
+      "titre": "PROPAGATION 2 : le radical alkyle attaque le chlore",
+      "legende": "LE RADICAL CHLORE EST RÉGÉNÉRÉ, et c'est ce qui fait la CHAÎNE : chaque étape consomme un radical et en produit un autre. Un seul amorçage suffit donc à transformer des milliers de molécules.",
+      "fleches": [
+        "L'électron célibataire du carbone attaque le chlore.",
+        "Un électron de la liaison Cl–Cl complète la nouvelle liaison.",
+        "L'autre part avec le second chlore : le radical est régénéré."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "halogenation_radicalaire-etape4.svg",
+      "titre": "TERMINAISON : deux radicaux se rencontrent",
+      "legende": "Deux radicaux qui se rencontrent s'apparient et la chaîne s'arrête. C'est rare — la concentration en radicaux est très faible —, mais cela arrive assez souvent pour qu'il faille remettre de l'amorceur. Clayden le mesure : en dessous de 10 % de peroxyde, le rendement chute (p. 985).",
+      "fleches": [
+        "Un électron de chaque côté…",
+        "…et la liaison se referme."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "halogenation_radicalaire-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le chlorocyclohexane. Sur le cyclohexane, un seul produit est possible : ses douze hydrogènes sont équivalents. Sur un alcane quelconque, ce n'est plus le cas — voir la sélectivité.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "addition_hbr_peroxyde": {
+    "1": {
+      "fichier": "addition_hbr_peroxyde-etape1.svg",
+      "titre": "AMORÇAGE : le peroxyde se coupe en deux",
+      "legende": "La liaison O–O est faible : elle se rompt à la chaleur ou à la lumière bien plus facilement que les autres. C'est POUR CELA qu'on met un peroxyde — pour rien d'autre.",
+      "fleches": [
+        "Un électron à gauche.",
+        "Un électron à droite."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "addition_hbr_peroxyde-etape2.svg",
+      "titre": "Le radical alcoxyle arrache l'hydrogène de HBr",
+      "legende": "C'est ici que naît le radical BROME, et c'est lui le vrai acteur de la suite. Notez qu'il ne vient PAS d'une rupture de HBr par la lumière : il vient d'un arrachement.",
+      "fleches": [
+        "L'électron de l'oxygène forme la liaison O–H.",
+        "Un électron de la liaison H–Br la complète.",
+        "L'autre reste au brome : voici le radical brome."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "addition_hbr_peroxyde-etape3.svg",
+      "titre": "LE BROME S'ADDITIONNE — ET C'EST LUI QUI CHOISIT",
+      "legende": "VOILÀ L'INVERSION DE MARKOVNIKOV, ET SA RAISON. En milieu ionique, c'est le PROTON qui s'additionne le premier, et il se place de façon à laisser le carbocation le plus stable. Ici, c'est le BROME qui s'additionne le premier — et il se place lui aussi de façon à laisser le RADICAL le plus stable, c'est-à-dire sur le carbone le moins substitué. Le brome se retrouve donc à l'autre bout. Ce n'est pas une exception à la règle de Markovnikov : c'est la même règle, appliquée à un autre premier arrivant.",
+      "fleches": [
+        "L'électron du brome attaque le carbone du bout.",
+        "Un électron de la double liaison complète la liaison C–Br.",
+        "L'autre reste sur le carbone central : radical TERTIAIRE, le plus stable."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "addition_hbr_peroxyde-etape4.svg",
+      "titre": "PROPAGATION : le radical arrache un hydrogène à HBr",
+      "legende": "Le produit est formé et le radical brome régénéré : la chaîne tourne. Un seul peroxyde pour un grand nombre de molécules — d'où la quantité catalytique, environ 10 % (Clayden p. 985).",
+      "fleches": [
+        "L'électron du carbone va chercher l'hydrogène.",
+        "Un électron de H–Br complète la liaison C–H.",
+        "Et le radical brome repart pour un tour."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "addition_hbr_peroxyde-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le 1-bromo-2-méthylpropane : le brome est sur le carbone le MOINS substitué. Sans peroxyde, la même réaction donne le 2-bromo-2-méthylpropane. Deux produits opposés, deux mécanismes — et un flacon de peroxyde pour passer de l'un à l'autre.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "bromation_allylique_nbs": {
+    "1": {
+      "fichier": "bromation_allylique_nbs-etape1.svg",
+      "titre": "Le brome arrache l'hydrogène ALLYLIQUE, et pas un autre",
+      "legende": "POURQUOI CELUI-LÀ ? Parce que la liaison C–H allylique est la plus faible : 364 kJ/mol contre 410 pour une C–H secondaire ordinaire (Clayden p. 990). En chimie radicalaire, c'est la FORCE DES LIAISONS qui décide, pas les charges.",
+      "fleches": [
+        "L'électron du brome forme la liaison H–Br.",
+        "Un électron de la liaison C–H l'y rejoint.",
+        "L'autre reste au carbone : radical ALLYLIQUE, stabilisé par la double liaison voisine."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "bromation_allylique_nbs-etape2.svg",
+      "titre": "Le radical allylique attaque le dibrome",
+      "legende": "Le radical prend un brome et régénère l'autre : la chaîne tourne. Sur ce cycle symétrique, les deux extrémités du système allylique donnent le même produit — ce ne serait pas le cas sur une chaîne ouverte, où l'on obtiendrait DEUX bromures allyliques.",
+      "fleches": [
+        "L'électron du carbone attaque le brome.",
+        "Un électron de Br–Br complète la liaison C–Br.",
+        "Et le radical brome repart."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "bromation_allylique_nbs-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le 3-bromocyclohexène, 85 % de rendement (Clayden p. 990). La double liaison est INTACTE : c'est bien une substitution, et non une addition.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "autoxydation": {
+    "1": {
+      "fichier": "autoxydation-etape1.svg",
+      "titre": "Le dioxygène arrache un hydrogène — il est déjà un DIRADICAL",
+      "legende": "L'OXYGÈNE DE L'AIR N'A PAS BESOIN QU'ON L'AMORCE : sa molécule porte DEUX électrons célibataires à l'état fondamental. C'est ce qui la rend capable de démarrer seule une chaîne — et c'est pourquoi cette réaction se produit toute seule, dans un flacon qu'on a laissé ouvert.\n\nL'hydrogène visé est celui porté par le carbone VOISIN DE L'OXYGÈNE : le doublet de cet oxygène stabilise le radical qui en résulte. C'est ce qui rend les éthers si vulnérables (Grossman p. 304).",
+      "fleches": [
+        "Un électron de l'oxygène forme la liaison O–H.",
+        "Un électron de la liaison C–H l'y rejoint.",
+        "L'autre reste au carbone."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "autoxydation-etape2.svg",
+      "titre": "Le radical carboné s'apparie avec le dioxygène",
+      "legende": "DEUX RADICAUX QUI S'UNISSENT, ET POURTANT LA CHAÎNE NE S'ARRÊTE PAS : c'est très rare, et c'est la signature de cette réaction. Grossman le souligne (p. 304) — une combinaison radical–radical termine normalement une chaîne, mais pas ici, parce que O₂ en apportait DEUX. Il en reste un.",
+      "fleches": [
+        "L'électron du carbone…",
+        "…et l'un des deux de l'oxygène forment la liaison."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "autoxydation-etape3.svg",
+      "titre": "Le radical peroxyle attaque une AUTRE molécule d'éther",
+      "legende": "ET LA CHAÎNE SE BOUCLE : le radical peroxyle prend un hydrogène à une molécule voisine, ce qui donne l'hydroperoxyde et refait un radical carboné, prêt à recommencer.\n\nGrossman met en garde contre l'erreur habituelle (p. 305) : on est tenté de faire réagir ensemble les deux radicaux nés de l'amorçage. Résistez — la concentration en O₂ est bien plus grande que celle du radical HOO•.",
+      "fleches": [
+        "Un électron du peroxyle va chercher l'hydrogène.",
+        "Un électron de la liaison C–H complète la liaison O–H.",
+        "Et un nouveau radical carboné est formé."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "autoxydation-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "UN HYDROPEROXYDE — et c'est une très mauvaise nouvelle. Ces composés s'accumulent lentement dans les éthers stockés, et ils DÉTONENT à la concentration, quand on distille le solvant à sec. C'est l'une des causes d'accident les plus classiques du laboratoire. On date les flacons d'éther, on les teste, et on ne distille jamais un éther ancien jusqu'au bout.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "barton_mccombie": {
+    "1": {
+      "fichier": "barton_mccombie-etape1.svg",
+      "titre": "D'abord, l'alcool devient un XANTHATE",
+      "legende": "L'alcool ne se laisse pas enlever tel quel : HO⁻ est un mauvais groupe partant, et un radical ne s'en préoccupe même pas. On le transforme donc en xanthate — NaH, puis CS₂, puis MeI. Ce qu'on y gagne est un THIOCARBONYLE, C=S, sur lequel l'étain va pouvoir se fixer : le soufre est bien plus accueillant pour un radical que l'oxygène.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "barton_mccombie-etape2.svg",
+      "titre": "Le radical stannylé se fixe sur le SOUFRE",
+      "legende": "POURQUOI LE SOUFRE ET PAS L'OXYGÈNE ? Parce que la liaison Sn–S qui se forme est forte, et parce que le soufre, gros et polarisable, accueille bien un radical. Deux hameçons seulement ici : l'électron de l'étain et l'un des deux de la double liaison C=S. L'autre reste sur le carbone.",
+      "fleches": [
+        "L'électron célibataire de l'étain forme la liaison Sn–S.",
+        "Un électron de la double liaison C=S l'y rejoint.",
+        "L'autre reste au carbone, qui devient radical."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "barton_mccombie-etape3.svg",
+      "titre": "FRAGMENTATION : le radical alkyle s'échappe",
+      "legende": "C'EST L'ÉTAPE QUI FAIT TOUT LE TRAVAIL. Le radical porté par le carbone reforme une double liaison — cette fois avec l'OXYGÈNE, ce qui est bien plus favorable qu'avec le soufre — et pour cela il faut que la liaison C–O se rompe. Le radical alkyle part avec un électron. On vient d'échanger une liaison C=S contre une liaison C=O, et c'est ce gain qui paie la rupture.",
+      "fleches": [
+        "Le radical du carbone forme la double liaison C=O.",
+        "Un électron de la liaison C–O l'y rejoint.",
+        "L'autre part avec le radical alkyle, qui s'échappe."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "barton_mccombie-etape4.svg",
+      "titre": "Le radical alkyle prend l'hydrogène de l'étain",
+      "legende": "La liaison Sn–H est faible : c'est toute la raison d'être de l'hydrure de tributylétain. Le radical alkyle la casse sans difficulté, prend l'hydrogène, et régénère le radical stannylé — la chaîne tourne.",
+      "fleches": [
+        "L'électron du carbone va chercher l'hydrogène.",
+        "Un électron de la liaison Sn–H complète la liaison C–H.",
+        "L'autre reste à l'étain : le radical stannylé est régénéré."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "barton_mccombie-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'alcool a disparu, remplacé par un simple hydrogène. C'est ce que ni une SN2 ni une élimination ne savent faire proprement sur un alcool secondaire encombré — d'où la place de cette réaction dans la synthèse des sucres et des stéroïdes, où l'on a souvent un OH de trop.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "polymerisation_radicalaire": {
+    "1": {
+      "fichier": "polymerisation_radicalaire-etape1.svg",
+      "titre": "AMORÇAGE : le peroxyde de di-tert-butyle se coupe",
+      "legende": "Deux radicaux alcoxyles, et il n'en faut pas plus : chacun va lancer une chaîne qui consommera des milliers de molécules.",
+      "fleches": [
+        "Un électron à gauche.",
+        "Un électron à droite."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "polymerisation_radicalaire-etape2.svg",
+      "titre": "Le radical s'additionne sur l'éthylène",
+      "legende": "L'addition d'un radical sur une double liaison en refait un autre, au bout de la chaîne. C'est la seule chose qui se passera désormais — encore et encore.",
+      "fleches": [
+        "L'électron de l'oxygène attaque le carbone.",
+        "Un électron de la double liaison complète la nouvelle liaison.",
+        "L'autre reste au carbone du bout : le radical s'est DÉPLACÉ."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "polymerisation_radicalaire-etape3.svg",
+      "titre": "PROPAGATION : et de nouveau, et de nouveau",
+      "legende": "LA PROPAGATION N'A QU'UNE SEULE ÉTAPE (Grossman p. 308), et c'est ce qui rend la polymérisation radicalaire si simple et si employée : le radical au bout de la chaîne s'additionne sur un monomère, et se retrouve au bout de la chaîne allongée. Rien d'autre ne se passe, des milliers de fois.",
+      "fleches": [
+        "L'électron du bout de chaîne attaque un nouvel éthylène.",
+        "Un électron de la double liaison complète la liaison.",
+        "Et le radical se retrouve deux carbones plus loin."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "polymerisation_radicalaire-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Du polyéthylène. Ce qui distingue un sac de congélation d'un banc de jardin n'est pas la nature du polymère mais ses RAMIFICATIONS : quand le radical de bout de chaîne va chercher un hydrogène quatre ou cinq atomes en arrière SUR SA PROPRE CHAÎNE, il crée une branche courte ; quand il le prend au milieu d'une AUTRE chaîne, il en crée une longue (Grossman p. 309). On règle tout cela par la pression, la température et la concentration en amorceur.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "cyclisation_radicalaire": {
+    "1": {
+      "fichier": "cyclisation_radicalaire-etape1.svg",
+      "titre": "L'étain arrache le brome",
+      "legende": "Deux hameçons : l'électron de l'étain et l'un des deux de la liaison C–Br. L'autre reste au carbone. La liaison Sn–Br qui se forme est forte, la liaison C–Br était faible : c'est ce bilan qui rend l'étape favorable.",
+      "fleches": [
+        "L'électron de l'étain forme la liaison Sn–Br.",
+        "Un électron de la liaison C–Br l'y rejoint.",
+        "L'autre reste au carbone : voici le radical."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cyclisation_radicalaire-etape2.svg",
+      "titre": "CYCLISATION : le radical se referme sur sa propre double liaison",
+      "legende": "LE RADICAL A DEUX CARBONES À VISER, et le choix n'est pas celui qu'on croit.\n\nS'il attaque le carbone le PLUS PROCHE — celui qui porte la chaîne —, il ferme un cycle à CINQ et le radical se retrouve en dehors du cycle : on dit 5-EXO.\n\nS'il attaque le carbone du bout, il ferme un cycle à SIX et le radical reste dans le cycle : 6-ENDO. Ce serait un radical SECONDAIRE, donc plus stable.\n\nEt pourtant c'est le 5-exo qui l'emporte, 98 contre 2 (Clayden p. 1001). Ce n'est donc PAS la stabilité du produit qui décide, mais la VITESSE : le carbone le plus proche est plus facile à atteindre. Retenez la formule : la cyclisation radicalaire est sous contrôle CINÉTIQUE, et le petit cycle gagne.",
+      "fleches": [
+        "L'électron attaque le carbone le PLUS PROCHE de la double liaison.",
+        "Un électron de la double liaison complète la nouvelle liaison C–C.",
+        "L'autre se retrouve HORS du cycle : c'est le « exo » de 5-exo."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "cyclisation_radicalaire-etape3.svg",
+      "titre": "Le radical prend l'hydrogène de l'étain",
+      "legende": "La chaîne se boucle : le radical stannylé est régénéré et repart chercher un autre bromure.\n\nUN POINT DE PAILLASSE QUI COMPTE : ici l'hydrure d'étain peut être concentré, alors qu'en version INTERMOLÉCULAIRE il faudrait le diluer. La raison est que le piège — la double liaison — est attaché au radical : il est toujours à portée, et la cyclisation est bien plus rapide que la rencontre avec l'hydrure (Clayden p. 1000).",
+      "fleches": [
+        "L'électron du carbone va chercher l'hydrogène.",
+        "Un électron de la liaison Sn–H complète la liaison C–H.",
+        "L'autre reste à l'étain."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "cyclisation_radicalaire-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le méthylcyclopentane. À partir d'une chaîne ouverte, un cycle — en une seule opération, et sans jamais former d'ion. C'est ce que la chimie radicalaire a apporté à la synthèse depuis 1975 : Clayden cite la construction du squelette de l'hirsutène et des stéroïdes par ce seul procédé (p. 992).",
+      "fleches": [],
+      "hamecons": false,
       "coherenceVerifiee": false,
       "valide": false
     }

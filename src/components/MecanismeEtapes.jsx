@@ -10,6 +10,11 @@ import dessins from '../data/mecanismes-dessins.json'
 export default function MecanismeEtapes({ id, etapes }) {
   const schemas = dessins[id] || {}
 
+  // Une flèche à demi-pointe ne veut pas dire la même chose qu'une flèche
+  // ordinaire. On ne l'explique que là où il y en a : sur une fiche ionique,
+  // la précision n'aurait aucun sens.
+  const avecHamecons = Object.values(schemas).some((s) => s.hamecons)
+
   // On parcourt les étapes décrites, plus les schémas complémentaires
   // (bilan, produits formés) numérotés au-delà de la dernière étape.
   const numeros = [...new Set([
@@ -27,6 +32,16 @@ export default function MecanismeEtapes({ id, etapes }) {
         atteignent en <span className="marque-arrivee">rose</span> : la cible
         n'est jamais à deviner.
       </p>
+
+      {avecHamecons && (
+        <p className="note note-fleches">
+          Ici les flèches portent une <strong>demi-pointe</strong> : on les
+          appelle des <strong>hameçons</strong>, et chacune ne déplace
+          qu'<strong>un seul</strong> électron, non un doublet. Une liaison en
+          valant deux, il en faut donc deux, appariés, pour la rompre ou pour
+          la former — comptez-les.
+        </p>
+      )}
 
       <p className="note">
         Chaque jeu de flèches est <strong>appliqué par la machine</strong> avant
