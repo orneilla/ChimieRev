@@ -26,8 +26,36 @@
   "references_par_reaction": {
     "diels_alder": {
       "ouvrages": [
-        "clayden",
-        "carey_sundberg_A",
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "878",
+          "note": "Le mécanisme même : les électrons tournent en rond sur six atomes, plusieurs liaisons se forment en même temps, il n'y a AUCUN intermédiaire. Et la remarque qui désamorce une inquiétude fréquente — dessiner les flèches dans un sens ou dans l'autre ne change strictement rien."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "881",
+          "note": "Ce qui fait un bon diénophile, et ce que veut dire « activé ». Encadré Dieldrine et Aldrine : deux pesticides des années 1950 fabriqués par Diels-Alder, l'Aldrine par deux cycloadditions successives."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "882-883",
+          "note": "La stéréospécificité, démontrée sur le maléate et le fumarate de méthyle : les esters cis restent cis, les trans restent trans. Et la distinction entre substituants « intérieurs » et « extérieurs » du diène, qui fixe leur position dans le produit."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "887",
+          "note": "Le fondement orbitalaire : la HOMO du diène est haute, la LUMO d'un alcène simple l'est aussi — d'où la nécessité d'abaisser cette LUMO par un groupe électroattracteur. Le cas des dimérisations, où un diène joue lui-même le rôle du diénophile."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "890",
+          "note": "La régiosélectivité : la liaison se forme entre les plus gros coefficients de chaque partenaire. Et l'astuce de lecture — écrire un mécanisme ionique par étapes, faux mais commode, pour trouver l'orientation, puis redessiner les flèches correctes."
+        },
         "fleming"
       ],
       "articles_historiques": [
@@ -102,8 +130,7 @@
           "chapitre": "§ 2.3 The SN2 Reaction ; § 2.4 Characteristics of the SN2 Reaction",
           "note": "Traitement parallèle, avec l'attaque dorsale et ses conséquences stéréochimiques (fiche LibreTexts 443775)."
         },
-        "march",
-        "carey_sundberg_A"
+        "march"
       ],
       "articles_historiques": [
         {
@@ -117,7 +144,30 @@
     },
     "grignard": {
       "ouvrages": [
-        "clayden",
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "183-184",
+          "note": "Pourquoi un organométallique est nucléophile : la différence d'électronégativité polarise la liaison carbone–métal, et le diagramme d'orbitales montre que la σ est bien plus proche du carbone. Le réactif porte le nom de son inventeur, Victor Grignard."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "185-186",
+          "note": "Les solvants éthérés — Et₂O, THF, dioxane, DME — et pourquoi ils sont nécessaires. Encadré : la liste des organolithiens et des magnésiens qu'on achète tout faits, personne ne les prépare à petite échelle."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "190",
+          "note": "Le récapitulatif des voies d'accès : insertion oxydante du magnésium ou du lithium dans un halogénure, déprotonation d'un alcyne."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "191",
+          "note": "La règle de paillasse, écrite en toutes lettres : « il est absolument essentiel qu'aucune eau ne soit présente » pendant les deux premières étapes — on ne l'ajoute qu'à la fin, une fois l'organométallique entièrement consommé. Les schémas omettent parfois cette hydrolyse ; elle est pourtant toujours nécessaire."
+        },
         "elschenbroich",
         "march"
       ],

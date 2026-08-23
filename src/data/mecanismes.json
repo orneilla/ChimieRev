@@ -2604,7 +2604,7 @@
         "numero": 4,
         "titre": "Ce qu'on obtient",
         "smiles": "CC1(O)CCCCC1",
-        "legende": "L'alcool tertiaire. Chauffe-le avec de l'acide concentré et tu remonteras le chemin en sens inverse : c'est le même équilibre, lu dans l'autre sens.",
+        "legende": "L'alcool tertiaire. Chauffé avec de l'acide concentré, il remonte le chemin en sens inverse : c'est le même équilibre, lu dans l'autre sens.",
         "fleches": [],
         "valide": false
       }
@@ -4709,7 +4709,7 @@
   "reduction_luche": {
     "etapes": [
       {
-        "numero": 3,
+        "numero": 2,
         "titre": "Ce qu'on obtient",
         "smiles": "OC1CCCC=C1",
         "legende": "Le cyclohex-2-énol : le carbonyle est réduit, l'alcène est intact. Aucune flèche ici — Clayden nomme la réaction et en donne le résultat, mais n'en écrit pas le mécanisme, et aucun des neuf ouvrages indexés ne le fait. On ne l'invente pas.",
@@ -7312,7 +7312,7 @@
   "reduction_nitroarenes": {
     "etapes": [
       {
-        "numero": 3,
+        "numero": 2,
         "titre": "Ce qu'on obtient",
         "smiles": "Nc1ccccc1",
         "legende": "L'aniline. Deux réactifs au choix, et aucun des neuf ouvrages indexés n'en détaille le mécanisme : on n'écrira donc pas de flèches. Ce qui est établi et suffit à s'en servir : l'hydrogénation sur palladium sur charbon, ou l'étain dans HCl dilué, transforment proprement un nitro aromatique en amine.",
@@ -7324,7 +7324,7 @@
   "oxydation_chaines_laterales": {
     "etapes": [
       {
-        "numero": 3,
+        "numero": 2,
         "titre": "Ce qu'on obtient",
         "smiles": "OC(=O)c1ccccc1",
         "legende": "L'acide benzoïque, quelle que soit la longueur de la chaîne de départ. Pas de flèches ici non plus : McMurry écrit que le mécanisme est complexe et passe par des radicaux benzyliques, sans le détailler. On s'arrête où s'arrête la source.",
