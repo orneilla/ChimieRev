@@ -1,11 +1,11 @@
 // Fiche complète d'une réaction.
-import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import reactions from '../data/reactions.json'
 import BlocTexte from '../components/BlocTexte.jsx'
 import StructureMolecule from '../components/StructureMolecule.jsx'
 import MecanismeEtapes from '../components/MecanismeEtapes.jsx'
 import BasculeMode from '../components/BasculeMode.jsx'
+import BarreRetour from '../components/BarreRetour.jsx'
 import ReferencesReaction from '../components/ReferencesReaction.jsx'
 import { couleurFamille } from '../couleurs.js'
 import { useModeLecture } from '../mode.js'
@@ -34,11 +34,6 @@ export default function PageDetailReaction() {
   // Mode de lecture, partagé avec le reste de l'application.
   const [mode, setMode] = useModeLecture()
 
-  // On remonte en haut quand on ouvre une autre fiche.
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [id])
-
   if (!reaction) {
     return (
       <section>
@@ -52,7 +47,9 @@ export default function PageDetailReaction() {
 
   return (
     <article className="fiche" style={{ '--couleur': couleur }}>
-      <Link to="/" className="lien-retour">← Toutes les réactions</Link>
+      {/* Le retour reste à l'écran : une fiche fait quinze écrans de haut,
+          et on doit pouvoir en sortir depuis n'importe lequel. */}
+      <BarreRetour vers="/" libelle="Toutes les réactions" titre={reaction.nom} />
 
       {/* Bandeau coloré : la couleur de la famille, comme sur la tuile. */}
       <header className="bandeau">
@@ -143,7 +140,6 @@ export default function PageDetailReaction() {
 
       <ReferencesReaction id={reaction.id} famille={reaction.famille} />
 
-      <Link to="/" className="lien-retour bas">← Toutes les réactions</Link>
     </article>
   )
 }

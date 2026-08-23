@@ -19,14 +19,15 @@
   --encre-doux: #5F574A;
   --bordure: #E2D5B4;
 
-  /* --- Couleurs des familles (dupliquées de couleurs.js pour la
-         bande de légende et les états de survol) --- */
-  --cyan: #00A3D9;
-  --citron: #C6D42B;
-  --orange: #F59120;
-  --vert: #2FB06A;
-  --rose: #FF8FA3;
-  --petrole: #0E7C86;
+  /* --- Quelques teintes de la palette, reprises ici pour les badges et
+         les états. Elles suivent src/couleurs.js : contraste avec l'encre
+         d'au moins 4,5 pour 1, puisqu'on écrit dessus. --- */
+  --cyan: #3791D4;
+  --citron: #E1D54F;
+  --orange: #F19550;
+  --vert: #67A550;
+  --rose: #F599D0;
+  --petrole: #51DDF9;
 
   /* --- Signal --- */
   --framboise: #D62246;      /* les pièges, ce qui alerte */
@@ -423,6 +424,141 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   text-align: center;
   color: var(--encre-doux);
 }
+
+/* ---------- Le fil de retour, collé sous l'en-tête ---------- */
+
+/* Il se cale exactement sous l'en-tête, dont la hauteur est mesurée et
+   publiée par BarreNavigation : elle change avec la largeur de l'écran,
+   et une valeur écrite en dur laisserait un trou ou un recouvrement. */
+.barre-retour {
+  position: sticky;
+  top: var(--hauteur-entete, 56px);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: -1.5rem -1rem 1rem;
+  padding: 0.35rem 1rem;
+  background: var(--creme);
+  border-bottom: 2px solid var(--encre);
+  /* Le fond du fil doit couvrir ce qui défile dessous : sans cette
+     marge négative il laisserait passer le contenu par les côtés. */
+}
+
+.retour-lien {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 40px;
+  padding: 0 0.55rem 0 0.35rem;
+  flex: 0 0 auto;
+  color: var(--encre);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  background: var(--couleur);
+}
+
+.retour-lien:hover { box-shadow: 2px 2px 0 var(--encre); }
+.retour-fleche { font-size: 1.05rem; line-height: 1; }
+
+/* Où l'on se trouve. Sur un écran étroit il n'y a pas la place : le nom
+   de la réaction s'efface plutôt que de pousser le lien de retour hors
+   du cadre — le retour, lui, ne doit jamais disparaître. */
+.retour-titre {
+  font-family: var(--police-titre);
+  font-size: 0.95rem;
+  font-weight: 700;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 479px) {
+  .retour-titre { display: none; }
+}
+
+/* ---------- Le bouton qui remonte ---------- */
+
+.bouton-remonter {
+  position: fixed;
+  right: 0.9rem;
+  bottom: 0.9rem;
+  z-index: 8;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border: 2px solid var(--encre);
+  border-radius: 50%;
+  background: var(--creme);
+  color: var(--encre);
+  box-shadow: 2px 2px 0 var(--encre);
+  cursor: pointer;
+  /* Hors écran il ne prend aucune place et n'intercepte aucun geste. */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0.5rem);
+  transition: opacity 0.18s, transform 0.18s, visibility 0.18s;
+}
+
+.bouton-remonter.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.remonter-fleche { font-size: 1.3rem; line-height: 1; font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  .bouton-remonter { transition: none; }
+}
+
+/* ---------- Le magasin : les groupes ---------- */
+
+.groupe-outils { margin-top: 1.6rem; }
+
+.titre-groupe {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.1rem;
+  border-bottom: 2px solid var(--encre);
+}
+
+.titre-groupe-compte {
+  font-family: var(--police-texte);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--encre-doux);
+  font-variant-numeric: tabular-nums;
+}
+
+.rangement {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.rangement-etiquette {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--encre-doux);
+  margin-right: 0.1rem;
+}
+
+.rangement .pastille { --couleur: var(--encre); }
+/* Actif, le bouton est noir : son intitulé doit passer au crème, sinon
+   c'est de l'encre sur de l'encre — un rectangle vide. */
+.rangement .pastille.active { color: var(--creme); }
 
 /* ---------- Fiche : bandeau ---------- */
 

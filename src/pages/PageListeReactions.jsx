@@ -4,11 +4,19 @@ import reactions from '../data/reactions.json'
 import programme from '../data/programme.json'
 import CarteReaction from '../components/CarteReaction.jsx'
 import { couleurFamille } from '../couleurs.js'
+import { ordreEntrelace } from '../ordre.js'
 
 // L'ordre du programme, et non celui du fichier de données : les familles
 // se présentent toujours dans le même ordre, celui où on les rencontre en
 // cours. Une liste qui se réorganise à chaque ajout ne s'apprend pas.
 const ORDRE_FAMILLES = programme.familles.map((f) => f.famille)
+
+// Le tableau, une fois pour toutes : les familles entrelacées plutôt
+// qu'empilées (voir src/ordre.js). Le numéro d'une réaction est sa place
+// dans CET ordre — comme un numéro atomique, il ne bouge pas quand on
+// filtre, et il monte régulièrement quand on parcourt la grille.
+const TABLEAU = ordreEntrelace(reactions)
+const NUMEROS = new Map(TABLEAU.map((r, i) => [r.id, i + 1]))
 
 export default function PageListeReactions() {
   const [recherche, setRecherche] = useState('')
@@ -36,7 +44,7 @@ export default function PageListeReactions() {
   const reactionsAffichees = useMemo(() => {
     const texte = recherche.trim().toLowerCase()
 
-    return reactions.filter((r) => {
+    return TABLEAU.filter((r) => {
       const bonneFamille =
         familleChoisie === 'Toutes' || r.famille === familleChoisie
 
@@ -101,9 +109,7 @@ export default function PageListeReactions() {
             <CarteReaction
               key={reaction.id}
               reaction={reaction}
-              // Le numéro suit l'ordre du fichier de données, comme le
-              // numéro atomique suit l'ordre du tableau périodique.
-              numero={reactions.indexOf(reaction) + 1}
+              numero={NUMEROS.get(reaction.id)}
             />
           ))}
         </div>

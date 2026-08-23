@@ -23,6 +23,25 @@ export default function BarreNavigation() {
   const [ouvert, setOuvert] = useState(false)
   const emplacement = useLocation()
   const panneau = useRef(null)
+  const entete = useRef(null)
+
+  // Le fil de retour se colle SOUS l'en-tête : il lui faut sa hauteur, et
+  // cette hauteur n'est pas une constante — la barre passe à la ligne sur
+  // un écran étroit, et le menu déplié la double. On la mesure donc, et on
+  // la publie en variable CSS plutôt que de la deviner.
+  useEffect(() => {
+    const cible = entete.current
+    if (!cible) return
+    const mesurer = () => {
+      document.documentElement.style.setProperty(
+        '--hauteur-entete', `${Math.round(cible.getBoundingClientRect().height)}px`
+      )
+    }
+    mesurer()
+    const observateur = new ResizeObserver(mesurer)
+    observateur.observe(cible)
+    return () => observateur.disconnect()
+  }, [])
 
   // On referme dès qu'on a changé de page : sinon le menu resterait
   // ouvert par-dessus la page qu'on vient de demander.
@@ -41,7 +60,7 @@ export default function BarreNavigation() {
   const classeLien = ({ isActive }) => (isActive ? 'lien-nav actif' : 'lien-nav')
 
   return (
-    <header className="entete">
+    <header className="entete" ref={entete}>
       <div className="entete-interieur">
         <NavLink to="/" className="marque">
           <span className="marque-titre">ChimieRév</span>

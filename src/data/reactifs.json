@@ -3,6 +3,7 @@
     "id": "mcpba",
     "nom": "mCPBA",
     "nom_complet": "acide méta-chloroperoxybenzoïque",
+    "famille": "Oxydants",
     "SMILES": "OOC(=O)c1cccc(Cl)c1",
     "role": "Oxydant — transfère un atome d'oxygène",
     "anatomie_annotations": [
@@ -25,7 +26,7 @@
       "oxydation_sulfure"
     ],
     "explication_reference": "L'acide méta-chloroperoxybenzoïque (mCPBA) est un peroxyacide utilisé comme agent d'oxydation par transfert d'oxygène. Sa liaison peroxyde O–O, faible et polarisée (renforcée par l'effet attracteur du carbonyle et du chlore méta), transfère un atome d'oxygène électrophile à des substrats riches en électrons : époxydation des alcènes (syn-stéréospécifique), oxydation de Baeyer-Villiger des cétones en esters/lactones, oxydation des sulfures en sulfoxydes puis sulfones. Solvants usuels : DCM, chloroforme.",
-    "explication_comprendre": "QU'EST-CE que ce réactif au nom imprononçable ? C'est simplement un « livreur d'oxygène ». Son unique métier : aller déposer un atome d'oxygène sur une autre molécule.\n\nPOURQUOI y arrive-t-il si bien ? Regarde sa structure : il a deux oxygènes accrochés l'un à l'autre par une liaison fragile (O–O), un peu comme deux wagons reliés par un attelage rouillé. Cet attelage casse facilement. Et juste à côté, il y a des morceaux « voleurs d'électrons » (un carbone doublé à un oxygène, et un atome de chlore) qui tirent sur les électrons et fragilisent encore plus l'attelage.\n\nRésultat : un des deux oxygènes devient « affamé » d'électrons. Quand il croise une molécule riche en électrons (comme un alcène, une double liaison bien garnie), il s'y accroche et se fait déposer là. La molécule de départ repart avec un oxygène en plus — elle a été « oxydée ». Retiens juste l'image du livreur avec son colis d'oxygène mal attaché, prêt à le refiler au premier client riche qui passe.",
+    "explication_comprendre": "QU'EST-CE que ce réactif au nom imprononçable ? C'est simplement un « livreur d'oxygène ». Son unique métier : aller déposer un atome d'oxygène sur une autre molécule.\n\nPOURQUOI y arrive-t-il si bien ? Regardez sa structure : il a deux oxygènes accrochés l'un à l'autre par une liaison fragile (O–O), un peu comme deux wagons reliés par un attelage rouillé. Cet attelage casse facilement. Et juste à côté, il y a des morceaux « voleurs d'électrons » (un carbone doublé à un oxygène, et un atome de chlore) qui tirent sur les électrons et fragilisent encore plus l'attelage.\n\nRésultat : un des deux oxygènes devient « affamé » d'électrons. Quand il croise une molécule riche en électrons (comme un alcène, une double liaison bien garnie), il s'y accroche et se fait déposer là. La molécule de départ repart avec un oxygène en plus — elle a été « oxydée ». Retenez juste l'image du livreur avec son colis d'oxygène mal attaché, prêt à le refiler au premier client riche qui passe.",
     "reactions_exemples": [
       {
         "nom": "Alcène → Époxyde",
@@ -57,6 +58,7 @@
     "id": "lda",
     "nom": "LDA",
     "nom_complet": "diisopropylamidure de lithium",
+    "famille": "Bases",
     "SMILES": "[Li]N(C(C)C)C(C)C",
     "role": "Base très forte et encombrée",
     "anatomie_annotations": [
@@ -74,7 +76,7 @@
       "aldolisation"
     ],
     "explication_reference": "Le LDA (diisopropylamidure de lithium) est une base forte, non nucléophile et très encombrée. Il déprotone quantitativement et irréversiblement les protons en α des carbonyles (pKa ~20) pour former des énolates. Son encombrement stérique l'empêche d'agir comme nucléophile et favorise la formation de l'énolate cinétique (le moins substitué) à basse température. Utilisé dans le THF anhydre à –78 °C.",
-    "explication_comprendre": "QUE fait le LDA ? C'est un « attrapeur de protons » ultra-puissant. Son seul but : arracher un atome d'hydrogène (un proton) à une molécule, très efficacement.\n\nPOURQUOI est-il spécial ? Deux raisons. D'abord, il est vraiment très fort pour ça — là où des bases ordinaires hésitent, lui arrache le proton sans discuter. Ensuite, et c'est malin, il est ÉNORME : il porte deux grosses touffes de carbones de chaque côté. Imagine un videur de boîte de nuit avec des bras immenses : il peut attraper un petit truc qui dépasse (un proton), mais il est bien trop encombrant pour se faufiler et attaquer le cœur de la molécule.\n\nCONSÉQUENCE à comprendre : parce qu'il est gros, le LDA ne fait QU'UNE chose — attraper des protons — sans jamais se mêler du reste. C'est exactement ce qu'on veut quand on cherche à activer une molécule à un endroit précis sans tout casser. Retiens : un attrapeur de protons géant, précis parce que trop gros pour faire autre chose.",
+    "explication_comprendre": "QUE fait le LDA ? C'est un « attrapeur de protons » ultra-puissant. Son seul but : arracher un atome d'hydrogène (un proton) à une molécule, très efficacement.\n\nPOURQUOI est-il spécial ? Deux raisons. D'abord, il est vraiment très fort pour ça — là où des bases ordinaires hésitent, lui arrache le proton sans discuter. Ensuite, et c'est malin, il est ÉNORME : il porte deux grosses touffes de carbones de chaque côté. Imaginez un videur de boîte de nuit avec des bras immenses : il peut attraper un petit truc qui dépasse (un proton), mais il est bien trop encombrant pour se faufiler et attaquer le cœur de la molécule.\n\nCONSÉQUENCE à comprendre : parce qu'il est gros, le LDA ne fait QU'UNE chose — attraper des protons — sans jamais se mêler du reste. C'est exactement ce qu'on veut quand on cherche à activer une molécule à un endroit précis sans tout casser. Retenez : un attrapeur de protons géant, précis parce que trop gros pour faire autre chose.",
     "reactions_exemples": [
       {
         "nom": "Formation d'un énolate",
@@ -88,6 +90,7 @@
     "id": "nai",
     "nom": "NaI",
     "nom_complet": "iodure de sodium",
+    "famille": "Nucléophiles",
     "SMILES": "[Na+].[I-]",
     "role": "Source d'iodure — le nucléophile de l'échange de Finkelstein",
     "anatomie_annotations": [
@@ -110,6 +113,7 @@
     "id": "pbr3",
     "nom": "PBr₃",
     "nom_complet": "tribromure de phosphore",
+    "famille": "Activation et groupes partants",
     "SMILES": "BrP(Br)Br",
     "role": "Transforme un alcool en bromure d'alkyle",
     "anatomie_annotations": [
@@ -126,12 +130,13 @@
       "halogenation_alcool_pbr3"
     ],
     "explication_reference": "Réactif d'halogénation des alcools primaires, converti en bromures d'alkyle avec de bons rendements (91 % sur le 2-méthylpropan-1-ol, Clayden p. 348). Le groupe hydroxyle n'étant pas un nucléofuge, la séquence l'active en l'associant au phosphore : substitution nucléophile au phosphore par l'oxygène de l'alcool, déprotonation de l'oxonium, puis déplacement de l'oxyanion lié au phosphore par un ion bromure. La force motrice réside dans l'affinité du phosphore pour l'oxygène et dans la stabilisation de la charge résiduelle par celui-ci.",
-    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ remplacer le OH d'un alcool par un brome. C'est plus difficile qu'il n'y paraît : un groupe OH ne s'en va JAMAIS de lui-même.\n\nPOURQUOI ON NE PEUT PAS FAIRE PLUS SIMPLE\n\nImagine quelqu'un accroché à une rampe. Pour le déloger il faudrait tirer très fort — mais quiconque est assez fort pour tirer si fort commence par lui prendre son chapeau, c'est plus facile. En chimie, le chapeau c'est le proton de l'alcool : tout partenaire assez puissant pour chasser le OH commence par prendre le proton à la place. Résultat : rien ne bouge.\n\nCE QUE PBr₃ APPORTE\n\nUne attraction énorme entre le phosphore et l'oxygène. Le phosphore vient se coller à l'oxygène de l'alcool, et le OH cesse d'être un OH : il devient un morceau qui accepte de partir. Un bromure vient ensuite chasser ce morceau.\n\nÀ RETENIR\n\nDeux attaques par l'arrière dans la même réaction, mais pas sur le même atome : la première sur le phosphore, la seconde sur le carbone. Seule la seconde retourne le carbone."
+    "explication_comprendre": "À QUOI SERT-IL ?\n\nÀ remplacer le OH d'un alcool par un brome. C'est plus difficile qu'il n'y paraît : un groupe OH ne s'en va JAMAIS de lui-même.\n\nPOURQUOI ON NE PEUT PAS FAIRE PLUS SIMPLE\n\nImaginez quelqu'un accroché à une rampe. Pour le déloger il faudrait tirer très fort — mais quiconque est assez fort pour tirer si fort commence par lui prendre son chapeau, c'est plus facile. En chimie, le chapeau c'est le proton de l'alcool : tout partenaire assez puissant pour chasser le OH commence par prendre le proton à la place. Résultat : rien ne bouge.\n\nCE QUE PBr₃ APPORTE\n\nUne attraction énorme entre le phosphore et l'oxygène. Le phosphore vient se coller à l'oxygène de l'alcool, et le OH cesse d'être un OH : il devient un morceau qui accepte de partir. Un bromure vient ensuite chasser ce morceau.\n\nÀ RETENIR\n\nDeux attaques par l'arrière dans la même réaction, mais pas sur le même atome : la première sur le phosphore, la seconde sur le carbone. Seule la seconde retourne le carbone."
   },
   {
     "id": "tscl",
     "nom": "TsCl",
     "nom_complet": "chlorure de para-toluènesulfonyle",
+    "famille": "Activation et groupes partants",
     "SMILES": "Cc1ccc(cc1)S(=O)(=O)Cl",
     "role": "Transforme un alcool en tosylate : un excellent groupe partant",
     "anatomie_annotations": [
@@ -158,6 +163,7 @@
     "id": "pph3",
     "nom": "PPh₃",
     "nom_complet": "triphénylphosphine",
+    "famille": "Activation et groupes partants",
     "SMILES": "c1ccc(cc1)P(c1ccccc1)c1ccccc1",
     "role": "Nucléophile au phosphore — le moteur des réactions qui arrachent un oxygène",
     "anatomie_annotations": [
@@ -180,6 +186,7 @@
     "id": "dead",
     "nom": "DEAD",
     "nom_complet": "azodicarboxylate de diéthyle",
+    "famille": "Activation et groupes partants",
     "SMILES": "CCOC(=O)N=NC(=O)OCC",
     "role": "Accepteur de la phosphine — il fabrique la base qui déclenche la réaction de Mitsunobu",
     "anatomie_annotations": [
@@ -202,6 +209,7 @@
     "id": "ktbuo",
     "nom": "KOtBu",
     "nom_complet": "tert-butanolate de potassium",
+    "famille": "Bases",
     "SMILES": "CC(C)(C)[O-].[K+]",
     "role": "Base forte ET volumineuse — elle élimine là où une petite base substituerait",
     "anatomie_annotations": [
@@ -225,6 +233,7 @@
     "id": "koh",
     "nom": "KOH",
     "nom_complet": "hydroxyde de potassium (potasse)",
+    "famille": "Bases",
     "SMILES": "[K+].[OH-]",
     "role": "Base forte et petite — selon le substrat, elle substitue ou elle élimine",
     "anatomie_annotations": [
@@ -250,6 +259,7 @@
     "id": "nah",
     "nom": "NaH",
     "nom_complet": "hydrure de sodium",
+    "famille": "Bases",
     "SMILES": "[Na+].[H-]",
     "role": "Base très forte, jamais nucléophile — elle déprotone et rien d'autre",
     "anatomie_annotations": [
@@ -272,6 +282,7 @@
     "id": "mei",
     "nom": "MeI",
     "nom_complet": "iodométhane",
+    "famille": "Électrophiles",
     "SMILES": "CI",
     "role": "Agent de méthylation — le partenaire électrophile le plus simple qui soit",
     "anatomie_annotations": [
@@ -295,6 +306,7 @@
     "id": "nabh4",
     "nom": "NaBH₄",
     "nom_complet": "borohydrure de sodium",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "[Na+].[BH4-]",
     "role": "Réducteur doux — il livre un hydrure aux aldéhydes et aux cétones",
     "anatomie_annotations": [
@@ -317,6 +329,7 @@
     "id": "h2so4",
     "nom": "H₂SO₄",
     "nom_complet": "acide sulfurique",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "OS(=O)(=O)O",
     "role": "Acide fort — il protone le OH pour en faire un groupe partant",
     "anatomie_annotations": [
@@ -339,6 +352,7 @@
     "id": "hf",
     "nom": "HF",
     "nom_complet": "fluorure d'hydrogène",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "F",
     "role": "Source d'ion fluorure — le seul partenaire qui s'intéresse vraiment au silicium",
     "anatomie_annotations": [
@@ -361,6 +375,7 @@
     "id": "br2",
     "nom": "Br₂",
     "nom_complet": "dibrome",
+    "famille": "Électrophiles",
     "SMILES": "BrBr",
     "role": "Électrophile qui forme un pont — il additionne deux bromes sur un alcène",
     "anatomie_annotations": [
@@ -384,6 +399,7 @@
     "id": "hbr",
     "nom": "HBr",
     "nom_complet": "bromure d'hydrogène",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "Br",
     "role": "Acide fort — il protone un alcène et donne un bromure d'alkyle",
     "anatomie_annotations": [
@@ -407,6 +423,7 @@
     "id": "hg_oac2",
     "nom": "Hg(OAc)₂",
     "nom_complet": "acétate de mercure(II)",
+    "famille": "Électrophiles",
     "SMILES": "CC(=O)O[Hg]OC(C)=O",
     "role": "Électrophile mou — il hydrate un alcène sans passer par un carbocation libre",
     "anatomie_annotations": [
@@ -429,6 +446,7 @@
     "id": "bh3",
     "nom": "BH₃",
     "nom_complet": "borane (souvent employé sous forme de 9-BBN)",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "B",
     "role": "Il additionne H et B sur un alcène — et met le bore du côté le moins encombré",
     "anatomie_annotations": [
@@ -451,6 +469,7 @@
     "id": "h2o2_naoh",
     "nom": "H₂O₂/NaOH",
     "nom_complet": "peroxyde d'hydrogène en milieu basique",
+    "famille": "Oxydants",
     "SMILES": "OO",
     "role": "Il transforme une liaison carbone–bore en liaison carbone–oxygène, sans toucher au carbone",
     "anatomie_annotations": [
@@ -473,6 +492,7 @@
     "id": "oso4",
     "nom": "OsO₄",
     "nom_complet": "tétroxyde d'osmium",
+    "famille": "Oxydants",
     "SMILES": "O=[Os](=O)(=O)=O",
     "role": "Il pose deux OH sur une double liaison, en même temps et du même côté",
     "anatomie_annotations": [
@@ -495,6 +515,7 @@
     "id": "nmo",
     "nom": "NMO",
     "nom_complet": "N-méthylmorpholine N-oxyde",
+    "famille": "Oxydants",
     "SMILES": "C[N+]1([O-])CCOCC1",
     "role": "Il remet l'osmium à neuf, pour qu'une trace suffise",
     "anatomie_annotations": [
@@ -513,6 +534,7 @@
     "id": "ozone",
     "nom": "O₃",
     "nom_complet": "ozone",
+    "famille": "Oxydants",
     "SMILES": "[O-][O+]=O",
     "role": "Il coupe une double liaison carbone–carbone en deux",
     "anatomie_annotations": [
@@ -535,6 +557,7 @@
     "id": "me2s",
     "nom": "Me₂S",
     "nom_complet": "sulfure de diméthyle",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "CSC",
     "role": "Il prend l'oxygène en trop, à la fin d'une ozonolyse",
     "anatomie_annotations": [
@@ -553,6 +576,7 @@
     "id": "ch2i2",
     "nom": "CH₂I₂",
     "nom_complet": "diiodométhane",
+    "famille": "Carbènes et ylures",
     "SMILES": "ICI",
     "role": "Il fournit le CH₂ qui ferme un cycle à trois carbones",
     "anatomie_annotations": [
@@ -575,6 +599,7 @@
     "id": "zn_cu",
     "nom": "Zn(Cu)",
     "nom_complet": "couple zinc–cuivre",
+    "famille": "Carbènes et ylures",
     "SMILES": "[Zn]",
     "role": "Il s'insère dans une liaison carbone–iode et tient le CH₂",
     "anatomie_annotations": [
@@ -597,6 +622,7 @@
     "id": "h2_pd",
     "nom": "H₂/Pd",
     "nom_complet": "dihydrogène sur palladium",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "[H][H]",
     "role": "Il ajoute deux hydrogènes sur une double liaison, du même côté",
     "anatomie_annotations": [
@@ -619,6 +645,7 @@
     "id": "li_metal",
     "nom": "Li(0)",
     "nom_complet": "lithium métallique dans l'ammoniac",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "[Li]",
     "role": "Il libère des électrons, le plus petit réducteur qui soit",
     "anatomie_annotations": [
@@ -641,6 +668,7 @@
     "id": "lialh4",
     "nom": "LiAlH₄",
     "nom_complet": "tétrahydruroaluminate de lithium",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "[Li+].[Al-]([H])([H])([H])[H]",
     "role": "Il livre un hydrure — et il en livre à bien plus de fonctions que NaBH₄",
     "anatomie_annotations": [
@@ -663,6 +691,7 @@
     "id": "tsoh",
     "nom": "TsOH",
     "nom_complet": "acide para-toluènesulfonique",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "Cc1ccc(cc1)S(=O)(=O)O",
     "role": "Un acide aussi fort que l'acide sulfurique, mais solide et facile à peser",
     "anatomie_annotations": [
@@ -685,6 +714,7 @@
     "id": "menh2",
     "nom": "MeNH₂",
     "nom_complet": "méthylamine, amine primaire",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "CN",
     "role": "Elle apporte l'azote qui remplacera l'oxygène du carbonyle",
     "anatomie_annotations": [
@@ -707,6 +737,7 @@
     "id": "nacn",
     "nom": "NaCN",
     "nom_complet": "cyanure de sodium",
+    "famille": "Nucléophiles",
     "SMILES": "[C-]#N",
     "role": "Il ajoute un carbone, et ce carbone deviendra ensuite un acide ou une amine",
     "anatomie_annotations": [
@@ -729,6 +760,7 @@
     "id": "hcl",
     "nom": "HCl",
     "nom_complet": "acide chlorhydrique",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "Cl",
     "role": "Il fournit les protons du milieu, et son anion ne gêne personne",
     "anatomie_annotations": [
@@ -751,6 +783,7 @@
     "id": "ylure_phosphore",
     "nom": "Ph₃P=CH₂",
     "nom_complet": "ylure de phosphore, ou méthylènetriphénylphosphorane",
+    "famille": "Carbènes et ylures",
     "SMILES": "[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1",
     "role": "Il remplace un oxygène de carbonyle par un carbone, à la place exacte",
     "anatomie_annotations": [
@@ -777,6 +810,7 @@
     "id": "buli",
     "nom": "BuLi",
     "nom_complet": "n-butyllithium",
+    "famille": "Bases",
     "SMILES": "CCCC[Li]",
     "role": "Une des bases les plus fortes qu'on manipule couramment",
     "anatomie_annotations": [
@@ -799,6 +833,7 @@
     "id": "phosphonate",
     "nom": "(EtO)₂P(O)CH₂CO₂Et",
     "nom_complet": "phosphonate d'éthyle, réactif de Horner-Wadsworth-Emmons",
+    "famille": "Carbènes et ylures",
     "SMILES": "CCOP(=O)(OCC)CC(=O)OCC",
     "role": "Il fait le travail du Wittig, en donnant le E et un déchet lavable à l'eau",
     "anatomie_annotations": [
@@ -821,6 +856,7 @@
     "id": "cecl3",
     "nom": "CeCl₃",
     "nom_complet": "chlorure de cérium(III)",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "[Cl-].[Cl-].[Cl-].[Ce+3]",
     "role": "Il force le borohydrure à ne réduire que le carbonyle",
     "anatomie_annotations": [
@@ -839,6 +875,7 @@
     "id": "nacnbh3",
     "nom": "Na(CN)BH₃",
     "nom_complet": "cyanoborohydrure de sodium",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "[BH3-]C#N",
     "role": "Il réduit les iminium et ignore les cétones",
     "anatomie_annotations": [
@@ -861,6 +898,7 @@
     "id": "socl2",
     "nom": "SOCl₂",
     "nom_complet": "chlorure de thionyle",
+    "famille": "Activation et groupes partants",
     "SMILES": "O=S(Cl)Cl",
     "role": "Il change un OH en Cl, et ses déchets s'évaporent",
     "anatomie_annotations": [
@@ -887,6 +925,7 @@
     "id": "naoh",
     "nom": "NaOH",
     "nom_complet": "hydroxyde de sodium, soude",
+    "famille": "Bases",
     "SMILES": "[OH-]",
     "role": "Nucléophile et base à la fois — et ici, il est consommé",
     "anatomie_annotations": [
@@ -910,6 +949,7 @@
     "id": "meoh_reactif",
     "nom": "Méthanol",
     "nom_complet": "méthanol CH₃OH, comme réactif",
+    "famille": "Nucléophiles",
     "SMILES": "CO",
     "role": "Nucléophile faible, mais qu'on emploie en très grand excès",
     "anatomie_annotations": [
@@ -933,6 +973,7 @@
     "id": "dcc",
     "nom": "DCC",
     "nom_complet": "dicyclohexylcarbodiimide",
+    "famille": "Activation et groupes partants",
     "SMILES": "C1CCCCC1N=C=NC1CCCCC1",
     "role": "Il active un acide carboxylique, et son déchet précipite tout seul",
     "anatomie_annotations": [
@@ -955,6 +996,7 @@
     "id": "dibal",
     "nom": "DIBAL",
     "nom_complet": "hydrure de diisobutylaluminium",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "CC(C)C[AlH]CC(C)C",
     "role": "Il réduit un ester en aldéhyde, et s'arrête là",
     "anatomie_annotations": [
@@ -977,6 +1019,7 @@
     "id": "anhydride_acetique",
     "nom": "Anhydride acétique",
     "nom_complet": "anhydride acétique Ac₂O",
+    "famille": "Activation et groupes partants",
     "SMILES": "CC(=O)OC(C)=O",
     "role": "Le réactif d'acétylation ordinaire du laboratoire",
     "anatomie_annotations": [
@@ -999,6 +1042,7 @@
     "id": "hno3",
     "nom": "HNO₃",
     "nom_complet": "acide nitrique",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "O[N+](=O)[O-]",
     "role": "Il fournit l'azote du groupe nitro, mais seulement s'il est activé",
     "anatomie_annotations": [
@@ -1021,6 +1065,7 @@
     "id": "alcl3",
     "nom": "AlCl₃",
     "nom_complet": "trichlorure d'aluminium",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "Cl[Al](Cl)Cl",
     "role": "Un acide de Lewis qui arrache les halogénures",
     "anatomie_annotations": [
@@ -1045,6 +1090,7 @@
     "id": "so3",
     "nom": "SO₃",
     "nom_complet": "trioxyde de soufre, dans l'acide sulfurique (oléum)",
+    "famille": "Électrophiles",
     "SMILES": "O=S(=O)=O",
     "role": "Il pose un groupe sulfonate — et sait le reprendre",
     "anatomie_annotations": [
@@ -1067,6 +1113,7 @@
     "id": "nano2",
     "nom": "NaNO₂",
     "nom_complet": "nitrite de sodium",
+    "famille": "Activation et groupes partants",
     "SMILES": "[O-]N=O",
     "role": "Il fournit NO⁺, qui transforme une amine en sel de diazonium",
     "anatomie_annotations": [
@@ -1089,6 +1136,7 @@
     "id": "nanh2",
     "nom": "NaNH₂",
     "nom_complet": "amidure de sodium",
+    "famille": "Bases",
     "SMILES": "[NH2-]",
     "role": "Une base assez forte pour arracher un proton aromatique",
     "anatomie_annotations": [
@@ -1111,6 +1159,7 @@
     "id": "cucl",
     "nom": "CuCl",
     "nom_complet": "chlorure de cuivre(I)",
+    "famille": "Ligands et catalyseurs",
     "SMILES": "[Cu]Cl",
     "role": "Il livre le nucléophile qui remplace le diazote",
     "anatomie_annotations": [
@@ -1133,6 +1182,7 @@
     "id": "pbr3_hvz",
     "nom": "PBr₃",
     "nom_complet": "tribromure de phosphore",
+    "famille": "Activation et groupes partants",
     "SMILES": "BrP(Br)Br",
     "role": "Il transforme un acide en bromure d'acyle, qui lui s'énolise",
     "anatomie_annotations": [
@@ -1155,6 +1205,7 @@
     "id": "naoet",
     "nom": "NaOEt",
     "nom_complet": "éthanolate de sodium",
+    "famille": "Bases",
     "SMILES": "[Na+].[O-]CC",
     "role": "Base moyenne, alcoolate",
     "anatomie_annotations": [
@@ -1188,6 +1239,7 @@
     "id": "me2nh",
     "nom": "Me₂NH",
     "nom_complet": "diméthylamine",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "CNC",
     "role": "Amine secondaire, partenaire de la réaction de Mannich",
     "anatomie_annotations": [
@@ -1218,6 +1270,7 @@
     "id": "formaldehyde",
     "nom": "Formaldéhyde",
     "nom_complet": "formaldéhyde (formol en solution aqueuse)",
+    "famille": "Électrophiles",
     "SMILES": "C=O",
     "role": "Le plus électrophile des aldéhydes — et le plus difficile à maîtriser",
     "anatomie_annotations": [
@@ -1248,6 +1301,7 @@
     "id": "pyrrolidine",
     "nom": "Pyrrolidine",
     "nom_complet": "pyrrolidine",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "C1CCNC1",
     "role": "Amine secondaire cyclique, pour former les énamines",
     "anatomie_annotations": [
@@ -1278,6 +1332,7 @@
     "id": "mvk",
     "nom": "MVK",
     "nom_complet": "butén-2-one (méthylvinylcétone)",
+    "famille": "Électrophiles",
     "SMILES": "CC(=O)C=C",
     "role": "Accepteur de Michael de référence",
     "anatomie_annotations": [
@@ -1310,6 +1365,7 @@
     "id": "acetylacetate_ethyle",
     "nom": "Acétylacétate d'éthyle",
     "nom_complet": "acétylacétate d'éthyle (3-oxobutanoate d'éthyle)",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "CC(=O)CC(=O)OCC",
     "role": "Donneur de Michael et brique de la synthèse acétylacétique",
     "anatomie_annotations": [
@@ -1347,6 +1403,7 @@
     "id": "malonate_diethyle",
     "nom": "Malonate de diéthyle",
     "nom_complet": "malonate de diéthyle (propanedioate de diéthyle)",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "CCOC(=O)CC(=O)OCC",
     "role": "Brique de la synthèse malonique et donneur de Michael",
     "anatomie_annotations": [
@@ -1379,6 +1436,7 @@
     "id": "piperidine",
     "nom": "Pipéridine",
     "nom_complet": "pipéridine",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "C1CCNCC1",
     "role": "Amine secondaire, catalyseur de la condensation de Knoevenagel",
     "anatomie_annotations": [
@@ -1410,6 +1468,7 @@
     "id": "sel_eschenmoser",
     "nom": "Sel d'Eschenmoser",
     "nom_complet": "sel d'Eschenmoser (iodure de N,N-diméthylméthylèneiminium)",
+    "famille": "Électrophiles",
     "SMILES": "C[N+](C)=C.[I-]",
     "role": "L'iminium de la réaction de Mannich, tout prêt",
     "anatomie_annotations": [
@@ -1440,6 +1499,7 @@
     "id": "pcc",
     "nom": "PCC",
     "nom_complet": "chlorochromate de pyridinium",
+    "famille": "Oxydants",
     "SMILES": "[O-][Cr](=O)(=O)Cl.c1cc[nH+]cc1",
     "role": "Oxydant du chrome(VI), employé en milieu ANHYDRE",
     "anatomie_annotations": [
@@ -1474,6 +1534,7 @@
     "id": "pdc",
     "nom": "PDC",
     "nom_complet": "dichromate de pyridinium",
+    "famille": "Oxydants",
     "SMILES": "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1",
     "role": "Cousin du PCC, particulièrement adapté à l'oxydation en aldéhyde",
     "anatomie_annotations": [
@@ -1504,6 +1565,7 @@
     "id": "tpap",
     "nom": "TPAP",
     "nom_complet": "perruthénate de tétra-n-propylammonium",
+    "famille": "Oxydants",
     "SMILES": "CCC[N+](CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O",
     "role": "Oxydant très doux, employé en quantité CATALYTIQUE",
     "anatomie_annotations": [
@@ -1534,6 +1596,7 @@
     "id": "dess_martin",
     "nom": "Périodinane de Dess-Martin",
     "nom_complet": "1,1,1-triacétoxy-1,1-dihydro-1,2-benziodoxol-3(1H)-one",
+    "famille": "Oxydants",
     "SMILES": "CC(=O)O[I]1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21",
     "role": "Oxydant à l'iode(V), doux et neutre",
     "anatomie_annotations": [
@@ -1568,6 +1631,7 @@
     "id": "chlorure_oxalyle",
     "nom": "Chlorure d'oxalyle",
     "nom_complet": "dichlorure de l'acide oxalique",
+    "famille": "Activation et groupes partants",
     "SMILES": "ClC(=O)C(=O)Cl",
     "role": "Activateur du DMSO — il n'oxyde rien lui-même",
     "anatomie_annotations": [
@@ -1602,6 +1666,7 @@
     "id": "et3n",
     "nom": "Et₃N",
     "nom_complet": "triéthylamine",
+    "famille": "Bases",
     "SMILES": "CCN(CC)CC",
     "role": "Base tertiaire non nucléophile, employée deux fois dans la Swern",
     "anatomie_annotations": [
@@ -1632,6 +1697,7 @@
     "id": "cro3",
     "nom": "CrO₃",
     "nom_complet": "trioxyde de chrome",
+    "famille": "Oxydants",
     "SMILES": "O=[Cr](=O)=O",
     "role": "Oxydant du chrome(VI) en milieu aqueux acide — le réactif de Jones",
     "anatomie_annotations": [
@@ -1662,6 +1728,7 @@
     "id": "kmno4",
     "nom": "KMnO₄",
     "nom_complet": "permanganate de potassium",
+    "famille": "Oxydants",
     "SMILES": "[K+].[O-][Mn](=O)(=O)=O",
     "role": "Oxydant puissant du manganèse(VII)",
     "anatomie_annotations": [
@@ -1693,6 +1760,7 @@
     "id": "hydrazine",
     "nom": "Hydrazine",
     "nom_complet": "hydrazine H₂N–NH₂",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "NN",
     "role": "Apporte les deux azotes qui partiront en diazote",
     "anatomie_annotations": [
@@ -1723,6 +1791,7 @@
     "id": "zn_hg",
     "nom": "Zn(Hg)",
     "nom_complet": "zinc amalgamé",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "[Zn]",
     "role": "Réducteur par dissolution de métal, en milieu acide fort",
     "anatomie_annotations": [
@@ -1753,6 +1822,7 @@
     "id": "naio4",
     "nom": "NaIO₄",
     "nom_complet": "périodate de sodium",
+    "famille": "Oxydants",
     "SMILES": "[Na+].[O-][I+2]([O-])([O-])[O-]",
     "role": "Coupe les diols-1,2 en deux composés carbonylés",
     "anatomie_annotations": [
@@ -1784,6 +1854,7 @@
     "id": "binap",
     "nom": "BINAP",
     "nom_complet": "2,2'-bis(diphénylphosphino)-1,1'-binaphtyle",
+    "famille": "Ligands et catalyseurs",
     "SMILES": "P(c1ccccc1)(c1ccccc1)c1ccc2ccccc2c1-c1c(P(c2ccccc2)c2ccccc2)ccc2ccccc12",
     "role": "Ligand diphosphine chiral, à chiralité AXIALE",
     "anatomie_annotations": [
@@ -1818,6 +1889,7 @@
     "id": "libh4",
     "nom": "LiBH₄",
     "nom_complet": "borohydrure de lithium",
+    "famille": "Hydrures et réducteurs",
     "SMILES": "[Li+].[BH4-]",
     "role": "Réduit les esters, mais épargne acides et amides",
     "anatomie_annotations": [
@@ -1849,6 +1921,7 @@
     "id": "nbs",
     "nom": "NBS",
     "nom_complet": "N-bromosuccinimide",
+    "famille": "Amorceurs et réactifs radicalaires",
     "SMILES": "BrN1C(=O)CCC1=O",
     "role": "Source de dibrome à CONCENTRATION TRÈS BASSE",
     "anatomie_annotations": [
@@ -1883,6 +1956,7 @@
     "id": "aibn",
     "nom": "AIBN",
     "nom_complet": "azobisisobutyronitrile",
+    "famille": "Amorceurs et réactifs radicalaires",
     "SMILES": "CC(C)(C#N)N=NC(C)(C)C#N",
     "role": "Amorceur radicalaire thermique",
     "anatomie_annotations": [
@@ -1919,6 +1993,7 @@
     "id": "peroxyde_ditertbutyle",
     "nom": "(t-BuO)₂",
     "nom_complet": "peroxyde de di-tert-butyle",
+    "famille": "Amorceurs et réactifs radicalaires",
     "SMILES": "CC(C)(C)OOC(C)(C)C",
     "role": "Amorceur radicalaire : sa liaison O–O est faible",
     "anatomie_annotations": [
@@ -1951,6 +2026,7 @@
     "id": "bu3snh",
     "nom": "Bu₃SnH",
     "nom_complet": "hydrure de tributylétain",
+    "famille": "Amorceurs et réactifs radicalaires",
     "SMILES": "[H][Sn](CCCC)(CCCC)CCCC",
     "role": "Donneur d'hydrogène, et arracheur d'hétéroatomes",
     "anatomie_annotations": [
@@ -1986,6 +2062,7 @@
     "id": "dioxygene",
     "nom": "O₂",
     "nom_complet": "dioxygène",
+    "famille": "Amorceurs et réactifs radicalaires",
     "SMILES": "[O][O]",
     "role": "DIRADICAL naturel : amorceur et réactif à la fois",
     "anatomie_annotations": [
@@ -2017,6 +2094,7 @@
     "id": "cs2",
     "nom": "CS₂",
     "nom_complet": "disulfure de carbone",
+    "famille": "Amorceurs et réactifs radicalaires",
     "SMILES": "S=C=S",
     "role": "Apporte le thiocarbonyle sur lequel un radical pourra se fixer",
     "anatomie_annotations": [
@@ -2047,6 +2125,7 @@
     "id": "et3b",
     "nom": "Et₃B",
     "nom_complet": "triéthylborane",
+    "famille": "Amorceurs et réactifs radicalaires",
     "SMILES": "CC[B](CC)CC",
     "role": "Amorceur radicalaire SANS ÉTAIN, activé par des traces d'oxygène",
     "anatomie_annotations": [
@@ -2077,6 +2156,7 @@
     "id": "anhydride_maleique",
     "nom": "Anhydride maléique",
     "nom_complet": "anhydride maléique",
+    "famille": "Électrophiles",
     "SMILES": "O=C1OC(=O)C=C1",
     "role": "Le diénophile et l'énophile de référence",
     "anatomie_annotations": [
@@ -2112,6 +2192,7 @@
     "id": "kh",
     "nom": "KH",
     "nom_complet": "hydrure de potassium",
+    "famille": "Bases",
     "SMILES": "[K+].[H-]",
     "role": "Base très forte et NON nucléophile, qui déprotone irréversiblement",
     "anatomie_annotations": [
@@ -2142,6 +2223,7 @@
     "id": "ti_oipr4",
     "nom": "Ti(OiPr)₄",
     "nom_complet": "tétraisopropanolate de titane",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "CC(C)O[Ti](OC(C)C)(OC(C)C)OC(C)C",
     "role": "Acide de Lewis doux, qui abaisse la LUMO d'un carbonyle",
     "anatomie_annotations": [
@@ -2172,6 +2254,7 @@
     "id": "agno3",
     "nom": "AgNO₃",
     "nom_complet": "nitrate d'argent",
+    "famille": "Acides et acides de Lewis",
     "SMILES": "[Ag+].[O-][N+](=O)[O-]",
     "role": "Il arrache un halogénure que rien d'autre ne délogerait",
     "anatomie_annotations": [
@@ -2202,6 +2285,7 @@
     "id": "naome",
     "nom": "NaOMe",
     "nom_complet": "méthanolate de sodium",
+    "famille": "Bases",
     "SMILES": "[Na+].[O-]C",
     "role": "Base forte et nucléophile — parfois l'une, parfois l'autre",
     "anatomie_annotations": [
@@ -2232,6 +2316,7 @@
     "id": "nan3",
     "nom": "NaN₃",
     "nom_complet": "azoture de sodium",
+    "famille": "Nucléophiles",
     "SMILES": "[Na+].[N-]=[N+]=[N-]",
     "role": "Nucléophile mince, qui apporte un azote — et un futur diazote",
     "anatomie_annotations": [
@@ -2262,6 +2347,7 @@
     "id": "ch2n2",
     "nom": "CH₂N₂",
     "nom_complet": "diazométhane",
+    "famille": "Carbènes et ylures",
     "SMILES": "[CH2-][N+]#N",
     "role": "Il apporte un CH₂ — et son propre groupe partant",
     "anatomie_annotations": [
@@ -2296,6 +2382,7 @@
     "id": "nh2oh",
     "nom": "NH₂OH",
     "nom_complet": "hydroxylamine",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "NO",
     "role": "Elle transforme une cétone en oxime — une imine qui, elle, tient debout",
     "anatomie_annotations": [
@@ -2326,6 +2413,7 @@
     "id": "pocl3",
     "nom": "POCl₃",
     "nom_complet": "oxychlorure de phosphore",
+    "famille": "Activation et groupes partants",
     "SMILES": "O=P(Cl)(Cl)Cl",
     "role": "Il transforme un oxygène en groupe partant, et rien ne le retient",
     "anatomie_annotations": [
@@ -2361,6 +2449,7 @@
     "id": "pcl3",
     "nom": "PCl₃",
     "nom_complet": "trichlorure de phosphore",
+    "famille": "Activation et groupes partants",
     "SMILES": "ClP(Cl)Cl",
     "role": "Il enlève un oxygène : le phosphore trivalent veut sa liaison P=O",
     "anatomie_annotations": [
@@ -2391,6 +2480,7 @@
     "id": "ddq",
     "nom": "DDQ",
     "nom_complet": "dichlorodicyanoquinone",
+    "famille": "Oxydants",
     "SMILES": "O=C1C(Cl)=C(Cl)C(=O)C(C#N)=C1C#N",
     "role": "Elle prend deux hydrogènes et devient aromatique en échange",
     "anatomie_annotations": [
@@ -2422,6 +2512,7 @@
     "id": "phenylhydrazine",
     "nom": "PhNHNH₂",
     "nom_complet": "phénylhydrazine",
+    "famille": "Amines et donneurs de condensation",
     "SMILES": "N([H])([H])N([H])C1=CC=CC=C1",
     "role": "Elle apporte l'azote de l'indole ET son cycle benzénique",
     "anatomie_annotations": [
@@ -2456,6 +2547,7 @@
     "id": "lawesson",
     "nom": "Réactif de Lawesson",
     "nom_complet": "réactif de Lawesson",
+    "famille": "Activation et groupes partants",
     "SMILES": "COC1=CC=C(C=C1)P1(=S)SP(=S)(S1)C1=CC=C(OC)C=C1",
     "role": "Il échange un oxygène contre un soufre",
     "anatomie_annotations": [

@@ -2,10 +2,11 @@
 //
 // Elle existe pour qu'on puisse arriver directement sur « PBr₃ » depuis
 // une fiche de réaction, depuis la recherche, ou depuis un lien partagé.
-import { Link, useParams, Navigate } from 'react-router-dom'
+import { useParams, Navigate } from 'react-router-dom'
 import reactifs from '../data/reactifs.json'
 import solvants from '../data/solvants.json'
 import BasculeMode from '../components/BasculeMode.jsx'
+import BarreRetour from '../components/BarreRetour.jsx'
 import { useModeLecture } from '../mode.js'
 import { FicheReactif, FicheSolvant } from '../components/FichesOutils.jsx'
 
@@ -22,7 +23,7 @@ export default function PageDetailOutil({ genre }) {
 
   return (
     <section className="fiche">
-      <Link to="/reactifs" className="lien-retour">← Réactifs &amp; solvants</Link>
+      <BarreRetour vers="/reactifs" libelle="Réactifs et solvants" titre={entree.nom} />
 
       {genre === 'reactif' ? (
         <>
@@ -33,7 +34,6 @@ export default function PageDetailOutil({ genre }) {
         <FicheSolvant solvant={entree} />
       )}
 
-      <Link to="/reactifs" className="lien-retour bas">← Réactifs &amp; solvants</Link>
     </section>
   )
 }

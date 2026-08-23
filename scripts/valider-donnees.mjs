@@ -12,6 +12,8 @@
  */
 import { readFileSync } from 'fs'
 import { createRequire } from 'module'
+import { FAMILLES_REACTIFS, FAMILLES_SOLVANTS } from '../src/familles-outils.js'
+import { COULEURS_FAMILLES, contraste, ecartCouleurs } from '../src/couleurs.js'
 
 const require = createRequire(import.meta.url)
 const initRDKit = require('@rdkit/rdkit')
@@ -110,13 +112,58 @@ for (const reaction of reactions) {
   }
 }
 
-for (const [nom, liste] of [['réactif', reactifs], ['solvant', solvants]]) {
+for (const [nom, liste, familles] of [
+  ['réactif', reactifs, FAMILLES_REACTIFS],
+  ['solvant', solvants, FAMILLES_SOLVANTS]
+]) {
   for (const entree of liste) {
     if (entree.SMILES && !lisible(entree.SMILES)) {
       anomalies.push(`${nom} « ${entree.id} » : SMILES illisible (${entree.SMILES}).`)
     }
     if (!entree.explication_comprendre) {
       reserves.push(`${nom} « ${entree.id} » : pas d'explication accessible.`)
+    }
+    // La famille est ce qui range le produit dans le magasin. Une faute
+    // de frappe y créerait un groupe d'un seul élément sans rien casser :
+    // c'est exactement le genre de défaut qu'on ne voit jamais.
+    if (!familles.includes(entree.famille)) {
+      anomalies.push(
+        `${nom} « ${entree.id} » : famille inconnue (${entree.famille ?? 'aucune'}).`
+      )
+    }
+  }
+}
+
+// ---------------------------------------------------------------------
+// LA PALETTE. Une couleur de famille est toujours un FOND sur lequel on
+// écrit à l'encre, et elle doit se distinguer des vingt-sept autres. Ces
+// deux propriétés se mesurent ; sans mesure elles se dégradent sans que
+// personne ne s'en aperçoive — c'est ce qui était arrivé.
+
+const ENCRE = '#16130F'
+const CONTRASTE_MINIMAL = 4.5
+const ECART_MINIMAL = 15      // ΔE CIELAB : sous 15, deux aplats se confondent
+
+const palette = Object.entries(COULEURS_FAMILLES)
+
+for (const [famille, couleur] of palette) {
+  const c = contraste(couleur, ENCRE)
+  if (c < CONTRASTE_MINIMAL) {
+    anomalies.push(
+      `couleur de « ${famille} » (${couleur}) : contraste ${c.toFixed(2)} avec l'encre, ` +
+      `il en faut ${CONTRASTE_MINIMAL} — l'intitulé y serait illisible.`
+    )
+  }
+}
+
+for (let i = 0; i < palette.length; i++) {
+  for (let j = i + 1; j < palette.length; j++) {
+    const d = ecartCouleurs(palette[i][1], palette[j][1])
+    if (d < ECART_MINIMAL) {
+      anomalies.push(
+        `« ${palette[i][0]} » (${palette[i][1]}) et « ${palette[j][0]} » ` +
+        `(${palette[j][1]}) : ΔE ${d.toFixed(1)}, elles se confondent.`
+      )
     }
   }
 }

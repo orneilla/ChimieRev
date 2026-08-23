@@ -2,6 +2,8 @@
 // (en-tête + zone de contenu + pied de page) et la liste des routes.
 import { Routes, Route, Navigate } from 'react-router-dom'
 import BarreNavigation from './components/BarreNavigation.jsx'
+import BoutonRemonter from './components/BoutonRemonter.jsx'
+import RestaurationDefilement from './defilement.js'
 import PageListeReactions from './pages/PageListeReactions.jsx'
 import PageReactifs from './pages/PageReactifs.jsx'
 import PageDetailOutil from './pages/PageDetailOutil.jsx'
@@ -12,6 +14,9 @@ import PageAPropos from './pages/PageAPropos.jsx'
 export default function App() {
   return (
     <div className="app">
+      {/* On arrive en haut d'une page qu'on ouvre, et on retrouve son
+          milieu quand on y revient : voir src/defilement.js. */}
+      <RestaurationDefilement />
       <BarreNavigation />
 
       <main className="contenu">
@@ -32,6 +37,8 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
+
+      <BoutonRemonter />
 
       <footer className="pied-de-page">
         <p>ChimieRév — comprendre pour mémoriser, jamais mémoriser bêtement.</p>

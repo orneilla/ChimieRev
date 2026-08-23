@@ -1186,7 +1186,7 @@
         "numero": 3,
         "titre": "Ce qu'on obtient",
         "smiles": "CC=CCN(CC)CC",
-        "legende": "Compare avec le départ : l'azote n'est pas là où était le chlore, et la double liaison a changé de place. Tout a bougé d'un cran — c'est la signature d'une SN2′.",
+        "legende": "Comparez avec le départ : l'azote n'est pas là où était le chlore, et la double liaison a changé de place. Tout a bougé d'un cran — c'est la signature d'une SN2′.",
         "fleches": [],
         "valide": false
       }
@@ -1886,7 +1886,7 @@
         "numero": 4,
         "titre": "Ce qu'on obtient",
         "smiles": "C#CC",
-        "legende": "Le propyne — sous forme lithiée dans le ballon. Compare avec le départ : une molécule entièrement saturée est devenue une triple liaison.",
+        "legende": "Le propyne — sous forme lithiée dans le ballon. Comparez avec le départ : une molécule entièrement saturée est devenue une triple liaison.",
         "fleches": [],
         "valide": false
       }
@@ -1962,7 +1962,7 @@
         "numero": 1,
         "titre": "Tout se joue en un cycle, sans aucun réactif",
         "smiles": "CCC([H])C[N+](C)(C)[O-]",
-        "legende": "Compte les atomes engagés : l'oxygène, l'azote, deux carbones et l'hydrogène — cinq, repliés un instant en anneau. La molécule contient déjà son propre preneur de protons ; il suffit de chauffer. Conséquence directe de cet anneau : l'oxygène et l'hydrogène doivent être du MÊME côté, à l'inverse d'une E2 ordinaire.",
+        "legende": "Comptez les atomes engagés : l'oxygène, l'azote, deux carbones et l'hydrogène — cinq, repliés un instant en anneau. La molécule contient déjà son propre preneur de protons ; il suffit de chauffer. Conséquence directe de cet anneau : l'oxygène et l'hydrogène doivent être du MÊME côté, à l'inverse d'une E2 ordinaire.",
         "fleches": [
           {
             "de": {
@@ -2878,7 +2878,7 @@
         "numero": 1,
         "titre": "Quatre flèches, un seul geste",
         "smiles": "C1=CCCCC1.O([H])OC(=O)c1cccc(Cl)c1",
-        "legende": "Clayden parle lui-même d'un « effet spaghetti ». Suis l'ordre : chaque flèche prend ce que la précédente a libéré. L'alcène attaque la liaison O–O ; ces électrons forment le nouveau C=O de l'acide ; l'ancien C=O va chercher le proton ; et les électrons de O–H ferment la seconde liaison carbone-oxygène.",
+        "legende": "Clayden parle lui-même d'un « effet spaghetti ». Suivez l'ordre : chaque flèche prend ce que la précédente a libéré. L'alcène attaque la liaison O–O ; ces électrons forment le nouveau C=O de l'acide ; l'ancien C=O va chercher le proton ; et les électrons de O–H ferment la seconde liaison carbone-oxygène.",
         "fleches": [
           {
             "de": {

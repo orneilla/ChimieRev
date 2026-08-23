@@ -230,6 +230,15 @@ Trois règles retenues de la première passe :
 python3 outils/normaliser-typographie.py
 ```
 
+- **Le corpus vouvoie de bout en bout.** Un « tu » isolé ne casse rien et
+  ne se voit pas à la relecture — il se voit à l'écran, une fois la fiche
+  en ligne. `outils/verifier-registre.py` le cherche. Même piège que
+  ci-dessus : « Retiens : » s'écrit avec une insécable devant les
+  deux-points, et une recherche sur la chaîne littérale ne trouve rien.
+  L'outil AFFICHE le contexte au lieu de corriger seul, parce qu'un
+  impératif ressemble souvent à un nom commun — « ce **ton** », « une
+  **note** ».
+
 La largeur de lecture reste bornée à 860 px, même sur un grand écran :
 au-delà d'une soixantaine de signes par ligne, l'œil perd la ligne
 suivante. Seule la grille de tuiles s'élargit, parce que ce n'est pas du
@@ -259,6 +268,97 @@ tenant, illisible sur un téléphone.
   « SUR LE ». La virgule est désormais tolérée entre deux mots, et la fin
   d'amorce accepte la ponctuation autant que l'espace.
 
+### Se déplacer d'une page à l'autre
+
+Trois défauts qui, ensemble, rendaient l'application pénible à parcourir.
+Aucun ne se voit dans les données : ils se voient à l'usage.
+
+- **On ne repart jamais du milieu d'une page qu'on vient d'ouvrir.** Sans
+  rien, le navigateur garde la hauteur de défilement d'une page à
+  l'autre : on quittait le bas d'une fiche, on demandait la liste, on
+  arrivait sur les DERNIÈRES réactions. `src/defilement.js` applique la
+  règle d'un site ordinaire — on ouvre une page, on arrive en haut ; on
+  revient en arrière, on retrouve l'endroit qu'on avait quitté.
+
+  Le retour en arrière demande une précaution : **les schémas sont des
+  images, et la page n'atteint sa hauteur définitive qu'une fois
+  qu'elles sont chargées.** Demander « descends à 3 000 px » sur un
+  document qui n'en fait encore que 900 ne descend nulle part. On
+  réessaie à chaque image de l'écran jusqu'à y arriver.
+
+- **Un lien de retour en haut ET en bas de page n'existe nulle part.**
+  Une fiche fait couramment quinze écrans : depuis le milieu du
+  mécanisme, il fallait choisir dans quel sens parcourir dix écrans pour
+  atteindre la sortie. `BarreRetour` reste collé sous l'en-tête.
+
+  Il se colle à `var(--hauteur-entete)`, que `BarreNavigation` **mesure**
+  et publie : cette hauteur change avec la largeur de l'écran, et une
+  valeur écrite en dur laisse un trou ou un recouvrement.
+
+- **Un texte long mérite un retour en haut.** `BoutonRemonter` apparaît
+  passé deux écrans, et se retire du parcours au clavier tant qu'il est
+  invisible.
+
+### La couleur, qui se mesure
+
+La couleur d'une famille est toujours un **fond** sur lequel on écrit à
+l'encre. Deux propriétés en découlent, et **elles se mesurent** — sans
+mesure elles se dégradent sans que personne ne s'en aperçoive :
+
+- **le contraste avec l'encre**, au moins 4,5 pour 1. La palette
+  précédente comptait six couleurs sous ce seuil, dont une à **2,4** : sur
+  la tuile « Catalyse », l'intitulé était illisible ;
+- **l'écart entre deux familles**, en ΔE dans l'espace CIELAB. Sous 15,
+  deux aplats côte à côte se lisent comme « la même couleur, en un peu
+  différent ». La palette précédente descendait à **7,3** — trois verts,
+  trois oranges et quatre turquoises se marchaient dessus.
+
+Comparer deux codes hexadécimaux ne dit rien : `#00FF00` et `#00E000` sont
+loin l'un de l'autre en chiffres et presque identiques à l'œil. D'où
+`ecartCouleurs` et `contraste`, dans `src/couleurs.js`, et le contrôle
+qu'en fait `npm run valider` — qui **arrête la construction**.
+
+Une leçon de méthode : **vingt-huit couleurs mutuellement distinctes ne
+s'écrivent pas à la main.** Une palette dessinée à l'intuition, teinte par
+teinte, est retombée à ΔE 8,8 — à peine mieux que celle qu'elle
+remplaçait. Ce qui marche est le partage du travail : on choisit les
+TEINTES (l'identité d'une famille tient à sa teinte, « Substitutions » est
+bleu depuis le premier jour), et on laisse une recherche numérique régler
+la clarté et la saturation. La palette actuelle tient ΔE 19,1 et contraste
+5,4, chaque famille restant à moins de 20° de sa teinte d'origine.
+
+Attention au piège inverse : un optimiseur laissé libre part dans le
+fluorescent et le délavé — c'est là que se trouvent les couleurs les plus
+éloignées les unes des autres. On borne donc le vivier sur l'enveloppe de
+la direction artistique (clarté 58-90, saturation 38 et plus, jamais sur
+le bord du gamut).
+
+### Le tableau se mélange
+
+Les fiches sont écrites famille par famille, et `reactions.json` garde cet
+ordre — c'est celui du programme, et c'est bien ainsi pour écrire.
+**Affiché tel quel, il donne des paquets** : vingt tuiles bleues, puis
+douze citron, puis neuf orange. On ne lit plus un tableau périodique, on
+lit des blocs, et l'information que porte la teinte se perd.
+
+`src/ordre.js` entrelace. Deux exigences qui tirent en sens contraire :
+chaque famille doit s'étaler sur TOUTE la grille, et deux tuiles voisines
+ne doivent pas porter des couleurs proches. Trois points à retenir :
+
+- **« voisine » vaut aussi verticalement.** La grille compte deux colonnes
+  sur téléphone et trois sur ordinateur : les rangs i+2 et i+3 touchent le
+  rang i tout autant que i+1.
+- **On raisonne en COULEUR, pas en famille.** Écarter deux tuiles de la
+  même famille ne suffit pas : « Réarrangements » est bleu ciel et
+  « Substitutions » bleu franc, et posées l'une au-dessus de l'autre elles
+  font une tache. On mesure l'écart.
+- **Le numéro de la tuile suit cet ordre**, pas celui du fichier. Sans
+  quoi la grille afficherait 2, 47, 13 — un tableau périodique se lit dans
+  l'ordre.
+
+Le résultat ne dépend que des données : le tableau ne se réorganise pas
+d'une visite à l'autre.
+
 ## Les réactifs et les solvants
 
 **Chaque réaction apporte ses réactifs et son solvant** : c'est la règle,
@@ -274,6 +374,22 @@ sans quoi « KOH » l'emporterait sur « KOtBu ».
 `/reactifs` est un index avec recherche ; chaque produit a sa page,
 `/reactif/:id` ou `/solvant/:id`, et son nom est cliquable depuis le bloc
 « Bilan » de toute réaction qui l'emploie.
+
+**Chaque produit porte une `famille`**, déclarée dans
+`src/familles-outils.js` — et `npm run valider` refuse un produit dont la
+famille n'y figure pas : une faute de frappe créerait sans cela un groupe
+d'un seul élément, sans rien casser et sans qu'on le voie. La famille ne
+dit rien de neuf, elle reprend le `role` déjà écrit sur la fiche.
+
+Le magasin propose **deux rangements**, et on ne peut pas trancher pour le
+lecteur : *par famille* quand on cherche un outil sans savoir lequel — « il
+me faut un oxydant doux » — et *de A à Z* quand on connaît déjà le nom.
+Dans les deux cas l'intérieur d'un groupe est alphabétique.
+
+Un piège de tri : **la clé alphabétique ne garde que les LETTRES.** Un nom
+de réactif est plein de parenthèses et d'indices, et
+« (EtO)₂P(O)CH₂CO₂Et » trié tel quel se range avant le A, sous sa
+parenthèse ouvrante — alors qu'on le cherche à E.
 
 Une fiche de réactif dit **à quoi il sert, pourquoi il marche, et ce qu'il
 ne faut pas confondre**. Elle cite ses pages comme le fait une fiche de
