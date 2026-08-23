@@ -1,8 +1,8 @@
 {
-  "genere_le": "2026-08-21",
+  "genere_le": "2026-08-23",
   "total": 289,
-  "redigees": 109,
-  "verifiees": 103,
+  "redigees": 117,
+  "verifiees": 111,
   "relues": 0,
   "familles": [
     {
@@ -904,66 +904,66 @@
       "famille": "Réarrangements",
       "bloc": "Socle organique",
       "total": 8,
-      "absente": 8,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 8,
       "relue": 0,
       "reactions": [
         {
           "nom": "Réarrangement de Wagner-Meerwein",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_wagner_meerwein",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Transposition pinacolique",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "transposition_pinacolique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réarrangement de Beckmann",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_beckmann",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réarrangement de Hofmann",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_hofmann",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réarrangement de Curtius",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_curtius",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réarrangement de Wolff (Arndt-Eistert)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_wolff",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réarrangement de Favorskii",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_favorskii",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Transposition de Baeyer-Villiger : migration",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "baeyer_villiger",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

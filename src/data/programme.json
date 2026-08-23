@@ -641,42 +641,42 @@
         {
           "nom": "Réarrangement de Wagner-Meerwein",
           "niveau": "L3",
-          "id": null
+          "id": "rearrangement_wagner_meerwein"
         },
         {
           "nom": "Transposition pinacolique",
           "niveau": "L3",
-          "id": null
+          "id": "transposition_pinacolique"
         },
         {
           "nom": "Réarrangement de Beckmann",
           "niveau": "M1",
-          "id": null
+          "id": "rearrangement_beckmann"
         },
         {
           "nom": "Réarrangement de Hofmann",
           "niveau": "M1",
-          "id": null
+          "id": "rearrangement_hofmann"
         },
         {
           "nom": "Réarrangement de Curtius",
           "niveau": "M1",
-          "id": null
+          "id": "rearrangement_curtius"
         },
         {
           "nom": "Réarrangement de Wolff (Arndt-Eistert)",
           "niveau": "M2",
-          "id": null
+          "id": "rearrangement_wolff"
         },
         {
           "nom": "Réarrangement de Favorskii",
           "niveau": "M2",
-          "id": null
+          "id": "rearrangement_favorskii"
         },
         {
           "nom": "Transposition de Baeyer-Villiger : migration",
           "niveau": "M1",
-          "id": null
+          "id": "baeyer_villiger"
         }
       ],
       "bloc": "Socle organique"

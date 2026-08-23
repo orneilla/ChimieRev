@@ -1992,6 +1992,18 @@
           "chapitre": "36 — Participation, rearrangement, and fragmentation",
           "pages": "955",
           "note": "La rétention de configuration comme règle générale, même quand l'inversion donnerait un produit plus stable : 63 % du diastéréoisomère syn ; et 87 % de rendement avec 98,5 % de rétention sur une cétone benzylique. La chimiosélectivité de H₂O₂ seul, qui n'époxyde pas les alcènes riches."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "956",
+          "note": "La migration d'un noyau benzénique ne passe pas par un simple état de transition mais par un vrai INTERMÉDIAIRE, où la charge est délocalisée sur tout le cycle — comme dans une substitution électrophile aromatique. Le cycle participe avec ses électrons π."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "958",
+          "note": "L'exigence d'anti-périplanarité entre le groupe migrant et le groupe partant est générale dans les réarrangements. Si elle ne se remarque pas dans une Baeyer-Villiger, c'est que la rotation libre rend toujours la bonne conformation accessible — au contraire des systèmes cycliques contraints et des oximes."
         }
       ],
       "articles_historiques": [],
@@ -2496,6 +2508,156 @@
           "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
           "pages": "898",
           "note": "La régiosélectivité observée, opposée à celle qu'un raisonnement thermique prédirait, et son explication par les interactions HOMO/HOMO et LUMO/LUMO dans l'état excité. L'astuce de calcul : dessiner le produit qu'on n'attend PAS. Et pourquoi la réaction inverse est impossible sous lumière — le cyclobutane n'absorbe pas."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_wagner_meerwein": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "940",
+          "note": "L'iodure de néopentyle : ni SN2 (trop encombré) ni SN1 (le cation serait primaire) — d'où le réarrangement, un méthyle passant du carbone 2 au carbone 1 tandis que l'iodure part, tiré par Ag⁺."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "941",
+          "note": "La preuve par la RMN : le tosylate de néopentyle dans FSO₃H à −77 °C donne à 77 % le cation tertiaire, dont le spectre est identique à celui obtenu à partir du 2-méthylbutan-2-ol. Et la vitesse : 10⁴ fois celle du tosylate d'éthyle, pourtant primaire lui aussi."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "942",
+          "note": "L'explication orbitalaire : la HOMO est la liaison σ qui se rompt, la LUMO l'orbitale p vide du cation ; le groupe glisse de l'une à l'autre avec des interactions liantes tout le long. Et le nom : migration d'un alkyle vers un centre cationique = réarrangement de Wagner-Meerwein. Exemple : camphénilol → santène."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "945",
+          "note": "Les trois conditions pour qu'un réarrangement cationique soit synthétiquement utile — rapidité, gain de stabilité, capture fiable — et le contre-exemple de l'alkylation de Friedel-Crafts par un halogénure primaire."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "transposition_pinacolique": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "945",
+          "note": "Le pinacol traité par un acide se transpose : la réaction est présentée et le squelette du produit comparé à celui du départ."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "946",
+          "note": "Le mécanisme détaillé : départ de l'eau, migration d'un méthyle « poussée » par le doublet de l'oxygène et « tirée » par le carbocation, perte du proton donnant une cétone stable. Le conseil de numéroter les atomes, et le cas spirocyclique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "949",
+          "note": "Le réarrangement semipinacolique : le groupe partant est préformé (tosylate, halogénure, époxyde), ce qui donne la maîtrise de la régiochimie."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "950",
+          "note": "Le réarrangement diénone-phénol, formellement inverse du pinacol : c'est un carbonyle protoné qui se réarrange en carbocation tertiaire, la force motrice étant l'aromatisation. Et le réarrangement de l'acide benzilique, le premier jamais décrit."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_beckmann": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "958",
+          "note": "La réaction industrielle : l'oxime de la cyclohexanone traitée par H₂SO₄ donne le caprolactame, dont la polymérisation anionique fournit le nylon. Le mécanisme, calqué sur celui du pinacol : l'acide fait du OH un groupe partant, un alkyle migre vers l'azote pendant que l'eau part, le cation est capturé par l'eau. Et la règle générale de l'anti-périplanarité du groupe migrant."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "959",
+          "note": "La stéréospécificité : c'est le groupe TRANS du OH qui migre, parce que la double liaison C=N fige la géométrie. Les chiffres : une oxime formée en mélange 75:25 donne 73:27 de lactames ; avec une chaîne ramifiée, le rapport monte à 86:14."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_favorskii": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "950",
+          "note": "L'annonce : après le pinacol, le diénone-phénol et l'acide benzilique, « notre voyage mécanistique prend un virage en épingle »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "951",
+          "note": "Pourquoi ce n'est PAS un réarrangement de type acide benzilique : dans le Favorskii c'est la liaison C–X qui se rompt, non la liaison C=O. L'expérience de 1944 : deux α-chlorocétones isomères donnent le même produit, donc un intermédiaire commun — la cyclopropanone. L'alcoolate agit d'abord en base."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "952",
+          "note": "La contraction de cycle : la 2-bromocyclohexanone et NaOMe donnent le cyclopentanecarboxylate de méthyle à 61 %. Le mécanisme complet, la symétrie de la cyclopropanone qui rend indifférente la liaison rompue, et la synthèse du cubane (1964) par deux Favorskii successifs."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement, and fragmentation",
+          "pages": "953",
+          "note": "Le cas sans proton en α : le Favorskii emprunte alors un mécanisme de type benzilique. Exemple : la synthèse de la péthidine."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_hofmann": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "38 — Synthesis and reactions of carbenes",
+          "pages": "1022",
+          "note": "Le mécanisme complet : deux déprotonations par NaOH encadrant l'attaque de l'azote sur Br₂, puis départ du bromure avec migration concertée vers l'azote, donnant un isocyanate ; hydrolyse en acide carbamique, décarboxylation, amine. « Amide to amine with loss of a carbon atom ». Et la cousine, le réarrangement de Lossen, à partir d'un acide hydroxamique tosylé."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_curtius": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "38 — Synthesis and reactions of carbenes",
+          "pages": "1022",
+          "note": "L'azoture d'acyle, préparé par NaN₃ sur un chlorure d'acyle, perd N₂ au chauffage : il reste un nitrène acyle, azote à six électrons — analogue azoté du carbène. Migration C→N donnant l'isocyanate, puis eau (acide carbamique, puis amine par perte de CO₂) ou alcool (carbamate ; Cbz avec BnOH). Et le DPPA, (PhO)₂PON₃, qui déclenche la réaction directement depuis l'acide."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_wolff": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "38 — Synthesis and reactions of carbenes",
+          "pages": "1021",
+          "note": "Le réarrangement de Wolff : un carbène adjacent à un carbonyle se réarrange en cétène, non isolable, hydrolysé en acide au traitement. Résultat typique du chauffage d'une diazocétone. Et la séquence d'Arndt-Eistert : RCO₂H → RCOCl → RCOCHN₂ → RCH₂CO₂H, le CH₂ ajouté venant du diazométhane."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "38 — Synthesis and reactions of carbenes",
+          "pages": "1022",
+          "note": "L'analogie explicite : remplacez le –CH=N₂ de la diazocétone par un –N=N₂ et vous avez un azoture d'acyle ; le carbène devient nitrène, et Wolff devient Curtius."
         }
       ],
       "articles_historiques": [],

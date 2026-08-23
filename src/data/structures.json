@@ -431,6 +431,34 @@
     "substrat": "cycloaddition_2plus2-substrat.svg",
     "produit": "cycloaddition_2plus2-produit.svg"
   },
+  "rearrangement_wagner_meerwein": {
+    "substrat": "rearrangement_wagner_meerwein-substrat.svg",
+    "produit": "rearrangement_wagner_meerwein-produit.svg"
+  },
+  "transposition_pinacolique": {
+    "substrat": "transposition_pinacolique-substrat.svg",
+    "produit": "transposition_pinacolique-produit.svg"
+  },
+  "rearrangement_beckmann": {
+    "substrat": "rearrangement_beckmann-substrat.svg",
+    "produit": "rearrangement_beckmann-produit.svg"
+  },
+  "rearrangement_favorskii": {
+    "substrat": "rearrangement_favorskii-substrat.svg",
+    "produit": "rearrangement_favorskii-produit.svg"
+  },
+  "rearrangement_hofmann": {
+    "substrat": "rearrangement_hofmann-substrat.svg",
+    "produit": "rearrangement_hofmann-produit.svg"
+  },
+  "rearrangement_curtius": {
+    "substrat": "rearrangement_curtius-substrat.svg",
+    "produit": "rearrangement_curtius-produit.svg"
+  },
+  "rearrangement_wolff": {
+    "substrat": "rearrangement_wolff-substrat.svg",
+    "produit": "rearrangement_wolff-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -824,6 +852,41 @@
   "ti_oipr4-ex0": {
     "substrat": "ti_oipr4-ex0-substrat.svg",
     "produit": "ti_oipr4-ex0-produit.svg"
+  },
+  "agno3": {
+    "molecule": "reactif-agno3.svg"
+  },
+  "agno3-ex0": {
+    "substrat": "agno3-ex0-substrat.svg",
+    "produit": "agno3-ex0-produit.svg"
+  },
+  "naome": {
+    "molecule": "reactif-naome.svg"
+  },
+  "naome-ex0": {
+    "substrat": "naome-ex0-substrat.svg",
+    "produit": "naome-ex0-produit.svg"
+  },
+  "nan3": {
+    "molecule": "reactif-nan3.svg"
+  },
+  "nan3-ex0": {
+    "substrat": "nan3-ex0-substrat.svg",
+    "produit": "nan3-ex0-produit.svg"
+  },
+  "ch2n2": {
+    "molecule": "reactif-ch2n2.svg"
+  },
+  "ch2n2-ex0": {
+    "substrat": "ch2n2-ex0-substrat.svg",
+    "produit": "ch2n2-ex0-produit.svg"
+  },
+  "nh2oh": {
+    "molecule": "reactif-nh2oh.svg"
+  },
+  "nh2oh-ex0": {
+    "substrat": "nh2oh-ex0-substrat.svg",
+    "produit": "nh2oh-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

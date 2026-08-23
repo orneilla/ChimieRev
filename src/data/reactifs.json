@@ -2167,5 +2167,159 @@
         "note": "Il abaisse la LUMO du carbonyle"
       }
     ]
+  },
+  {
+    "id": "agno3",
+    "nom": "AgNO₃",
+    "nom_complet": "nitrate d'argent",
+    "SMILES": "[Ag+].[O-][N+](=O)[O-]",
+    "role": "Il arrache un halogénure que rien d'autre ne délogerait",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion argent(I)",
+        "role": "Il forme avec les halogénures des sels insolubles — AgCl, AgBr, AgI. En tirant l'halogénure hors de la molécule et en le précipitant, il force une ionisation qui n'aurait pas lieu spontanément."
+      },
+      {
+        "partie": "le nitrate",
+        "role": "Contre-ion non nucléophile : il n'entre pas en compétition avec le nucléophile qu'on veut faire réagir."
+      }
+    ],
+    "reactions_liees": [
+      "rearrangement_wagner_meerwein"
+    ],
+    "explication_reference": "Sel d'argent(I) employé pour assister l'ionisation d'un halogénure d'alkyle. La formation du halogénure d'argent insoluble fournit la force motrice du départ du groupe partant et déplace l'équilibre.\n\nLes conditions Ag⁺/H₂O réunissent un excellent groupe partant assisté et un nucléophile médiocre : elles favorisent donc les mécanismes de type SN1 et, lorsque le cation attendu serait trop instable, les réarrangements concertés avec l'ionisation. Clayden note qu'en l'absence d'argent, l'iodure de néopentyle ne réagit pas du tout (p. 940).",
+    "explication_comprendre": "POURQUOI FAUT-IL PARFOIS AIDER UN HALOGÉNURE À PARTIR ?\n\nParce que certains substrats sont bloqués des deux côtés.\n\nPrenez l'iodure de néopentyle. Une attaque par-derrière (SN2) est impossible : un groupe tert-butyle bouche le passage. Une ionisation spontanée (SN1) est impossible aussi : le carbocation qu'on obtiendrait serait primaire, donc inexistant. Résultat : rien ne se passe. Clayden le dit sans détour — sans Ag⁺, aucune réaction.\n\nCOMMENT L'ARGENT DÉBLOQUE LA SITUATION.\n\nL'ion argent adore les halogénures. Tellement qu'il forme avec eux des sels INSOLUBLES, qui précipitent au fond du ballon. Ce précipité est un piège sans retour : une fois l'iodure attrapé, il ne revient plus.\n\nEn tirant sur l'iode, l'argent affaiblit la liaison C–I bien avant qu'elle ne se rompe. Le carbone commence à manquer d'électrons — et c'est justement ce moment qui permet à un groupe voisin de migrer, avant même que le carbocation ne soit formé.\n\nÀ QUOI ÇA SERT EN PRATIQUE : à observer des réarrangements qui, sans cela, n'auraient jamais l'occasion de se produire.\n\nÀ LA PAILLASSE : le nitrate d'argent est photosensible — c'est le principe même de la photographie argentique. On le conserve à l'abri de la lumière, dans un flacon brun. Il tache la peau en noir, durablement.",
+    "reactions_exemples": [
+      {
+        "nom": "Ionisation assistée d'un halogénure",
+        "substrat_SMILES": "CC(C)(C)CI",
+        "produit_SMILES": "CCC(C)(C)O",
+        "note": "L'argent tire l'iodure ; un méthyle migre"
+      }
+    ]
+  },
+  {
+    "id": "naome",
+    "nom": "NaOMe",
+    "nom_complet": "méthanolate de sodium",
+    "SMILES": "[Na+].[O-]C",
+    "role": "Base forte et nucléophile — parfois l'une, parfois l'autre",
+    "anatomie_annotations": [
+      {
+        "partie": "l'oxygène chargé",
+        "role": "Deux rôles possibles : arracher un proton (base) ou attaquer un carbone (nucléophile). Ce qu'il fait dépend du substrat, et c'est parfois la clé du mécanisme."
+      },
+      {
+        "partie": "le méthyle",
+        "role": "Peu encombrant : NaOMe est plus nucléophile que NaOtBu, dont les trois méthyles gênent l'approche."
+      }
+    ],
+    "reactions_liees": [
+      "rearrangement_favorskii"
+    ],
+    "explication_reference": "Alcoolate de sodium employé en solution méthanolique, à la fois base forte (pKa du méthanol ≈ 16) et bon nucléophile.\n\nSon ambivalence est déterminante dans le réarrangement de Favorskii : il agit d'abord en BASE, déprotonant le carbone α opposé à l'halogène pour engendrer l'énolate, puis en NUCLÉOPHILE, s'additionnant sur le carbonyle de la cyclopropanone intermédiaire. Confondre les deux rôles conduit au mécanisme du réarrangement de l'acide benzilique, longtemps proposé à tort (Clayden p. 951).\n\nEmployé aussi en transestérification, en condensation de Claisen et dans les additions conjuguées.",
+    "explication_comprendre": "UNE MÊME ESPÈCE, DEUX MÉTIERS.\n\nUn alcoolate est un alcool à qui l'on a retiré son proton. Il porte donc une charge négative sur l'oxygène, et cette charge lui donne deux talents à la fois : il peut arracher un proton ailleurs (c'est une BASE) ou attaquer un carbone (c'est un NUCLÉOPHILE).\n\nLa plupart du temps, on n'a pas à choisir : le contexte décide. Mais il existe des réactions où l'ordre des deux rôles fait toute la différence.\n\nLE CAS DU FAVORSKII, ET L'ERREUR QUI A DURÉ CINQUANTE ANS.\n\nQuand on met du méthanolate sur une cétone portant un halogène en α, le réflexe est de le faire attaquer le carbonyle. C'est ce qu'on a cru pendant un demi-siècle, et c'est faux.\n\nIl commence en BASE : il arrache un proton du côté OPPOSÉ à l'halogène. L'énolate ainsi formé se replie sur lui-même, fabrique une cyclopropanone — et c'est SEULEMENT ALORS que le méthanolate change de métier et attaque, en nucléophile, le carbonyle tendu du cycle à trois.\n\nRetenez donc la question : quand vous voyez un alcoolate, demandez-vous s'il agit en base ou en nucléophile. Elle n'a pas toujours la réponse évidente.\n\nÀ LA PAILLASSE : on l'achète en solution méthanolique, ou on le prépare en jetant du sodium métallique dans du méthanol sec — réaction vive, qui dégage de l'hydrogène. Il est très hygroscopique : la moindre eau le retransforme en méthanol et en soude.",
+    "reactions_exemples": [
+      {
+        "nom": "Contraction de cycle (Favorskii)",
+        "substrat_SMILES": "O=C1C(Br)CCCC1",
+        "produit_SMILES": "COC(=O)C1CCCC1",
+        "note": "D'abord base, puis nucléophile"
+      }
+    ]
+  },
+  {
+    "id": "nan3",
+    "nom": "NaN₃",
+    "nom_complet": "azoture de sodium",
+    "SMILES": "[Na+].[N-]=[N+]=[N-]",
+    "role": "Nucléophile mince, qui apporte un azote — et un futur diazote",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion azoture N₃⁻",
+        "role": "Trois azotes alignés, nucléophiles aux DEUX bouts. Clayden le décrit comme « une mince tige d'électrons capable de s'insérer dans presque n'importe quel site électrophile » (p. 353)."
+      },
+      {
+        "partie": "la linéarité",
+        "role": "Aucun encombrement latéral : il attaque là où des nucléophiles plus volumineux échouent."
+      }
+    ],
+    "reactions_liees": [
+      "rearrangement_curtius"
+    ],
+    "explication_reference": "Sel soluble dans l'eau, source de l'ion azoture N₃⁻, nucléophile linéaire excellent en SN2 et sur les époxydes (Clayden p. 353-354).\n\nSur un halogénure d'alkyle, il donne l'azoture d'alkyle, qui n'est plus nucléophile — la réaction s'arrête donc proprement à une seule substitution. L'azoture obtenu se réduit en amine primaire par hydrogénation catalytique, LiAlH₄ ou la triphénylphosphine : c'est l'une des meilleures voies vers une amine primaire, là où l'ammoniac donnerait des polyalkylations.\n\nSur un chlorure d'acyle, il donne l'azoture d'acyle, point de départ du réarrangement de Curtius (Clayden p. 1022).",
+    "explication_comprendre": "POURQUOI PASSER PAR UN AZOTURE POUR FAIRE UNE AMINE ?\n\nParce que l'ammoniac ne sait pas s'arrêter.\n\nSi vous mettez de l'ammoniac sur un halogénure d'alkyle, il attaque — et donne une amine primaire. Mais cette amine est encore plus nucléophile que l'ammoniac de départ : elle attaque à son tour, donne une amine secondaire, puis tertiaire, puis un sel d'ammonium. Vous obtenez un mélange.\n\nL'AZOTURE, LUI, S'ARRÊTE TOUT SEUL.\n\nIl attaque une fois. Et le produit — un azoture d'alkyle — n'est plus nucléophile du tout. La réaction s'arrête d'elle-même, proprement.\n\nIl suffit ensuite de réduire cet azoture pour obtenir l'amine primaire : hydrogène sur palladium, ou LiAlH₄, ou triphénylphosphine dans l'eau.\n\nSA FORME EST SON ATOUT.\n\nTrois azotes en ligne droite, nucléophiles aux deux extrémités. Clayden en parle comme d'une « mince tige d'électrons » : rien ne dépasse sur les côtés, il se glisse donc là où des nucléophiles plus larges resteraient à la porte.\n\nSON AUTRE VISAGE : IL PORTE DU DIAZOTE EN RÉSERVE.\n\nDeux des trois azotes ne demandent qu'à partir ensemble sous forme de N₂ — le meilleur groupe partant du monde. C'est ce qui rend possible le réarrangement de Curtius : un azoture d'acyle chauffé lâche son N₂ et laisse un nitrène.\n\nDANGER, ET IL EST RÉEL. L'azoture de sodium est très toxique — comparable au cyanure. En milieu acide, il dégage de l'acide hydrazoïque HN₃, volatil et explosif. Et les azotures d'acyle isolés détonnent. C'est précisément pour cela qu'on leur préfère souvent le DPPA, qui les engendre sans qu'on les voie jamais.",
+    "reactions_exemples": [
+      {
+        "nom": "Préparation d'un azoture d'acyle",
+        "substrat_SMILES": "CCC(=O)Cl",
+        "produit_SMILES": "CCC(=O)[N-][N+]#N",
+        "note": "Substitution sur le chlorure d'acyle"
+      }
+    ]
+  },
+  {
+    "id": "ch2n2",
+    "nom": "CH₂N₂",
+    "nom_complet": "diazométhane",
+    "SMILES": "[CH2-][N+]#N",
+    "role": "Il apporte un CH₂ — et son propre groupe partant",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone chargé négativement",
+        "role": "C'est lui le nucléophile. Il attaque un proton acide ou un carbonyle."
+      },
+      {
+        "partie": "les deux azotes",
+        "role": "Ils partent ensuite en N₂, « le meilleur groupe partant du monde » selon Clayden (p. 1004). C'est ce départ qui rend tout irréversible."
+      },
+      {
+        "partie": "la structure dipolaire",
+        "role": "Le diazométhane ne peut s'écrire sans charges : plusieurs formes limites, toutes portant une séparation de charge (Clayden p. 1004)."
+      }
+    ],
+    "reactions_liees": [
+      "rearrangement_wolff"
+    ],
+    "explication_reference": "Gaz jaune, dipôle-1,3, nucléophile par son carbone et porteur d'un groupe partant interne (N₂).\n\nTrois usages principaux. (1) Estérification méthylique des acides carboxyliques, quantitative et sans acide ajouté : l'acide protone le diazométhane, et le carboxylate déplace N₂ en SN2 (Clayden p. 1004). Sélective des acides face aux alcools et aux phénols. (2) Homologation des chlorures d'acyle en diazocétones, point de départ du réarrangement de Wolff et de la séquence d'Arndt-Eistert ; il faut un excès, car une seconde molécule sert de base pour retirer le proton acide de l'intermédiaire (Clayden p. 1007). (3) Source de carbène par photolyse.\n\nIl insère aussi un CH₂ dans une liaison C–C adjacente à un carbonyle, réaction que Clayden rapproche explicitement de l'insertion d'oxygène de Baeyer-Villiger (p. 953) : dans les deux cas, un nucléophile porteur d'un bon groupe partant s'additionne sur le carbonyle.",
+    "explication_comprendre": "UN RÉACTIF QUI PORTE SA PROPRE PORTE DE SORTIE.\n\nLe diazométhane, c'est un carbone avec deux hydrogènes, et accrochés à lui deux azotes. On ne peut pas le dessiner sans charges : il y a forcément un plus quelque part et un moins ailleurs. Clayden le qualifie de « composé assez curieux ».\n\nCe qui le rend si utile tient en deux propriétés opposées, réunies dans la même petite molécule.\n\nD'un côté, son carbone est NUCLÉOPHILE : il attaque volontiers.\nDe l'autre, ses deux azotes ne demandent qu'à s'en aller ensemble sous forme de N₂ — que Clayden appelle « le meilleur groupe partant du monde ».\n\nSON USAGE LE PLUS COURANT : FAIRE UN ESTER MÉTHYLIQUE.\n\nVersez du diazométhane sur un acide carboxylique. L'acide lui donne son proton ; le carbone du diazométhane porte maintenant une charge positive à côté de lui, sous forme d'un diazonium désespéré de partir. Le carboxylate qui vient de se former est exactement au bon endroit pour l'attaquer par-derrière : N₂ s'en va, l'ester méthylique est fait. Rendement 100 %.\n\nEt c'est SÉLECTIF : les alcools et les phénols, moins acides, ne réagissent pas. Clayden cite le cas d'un stéroïde à trois hydroxyles, dont on n'a méthylé que le phénol.\n\nSON AUTRE USAGE : ALLONGER UNE CHAÎNE.\n\nSur un chlorure d'acyle, il donne une DIAZOCÉTONE, qui est le point de départ du réarrangement de Wolff. Attention, il en faut deux molécules : la première s'accroche, la seconde sert de base pour retirer un proton devenu acide.\n\nDANGER, ET IL FAUT LE PRENDRE AU SÉRIEUX. Le diazométhane est toxique et explosif. On le prépare et on l'emploie en solution éthérée, dans de la verrerie SANS RODAGE ni arête vive — une simple rayure peut suffire à le faire détoner. Sa couleur jaune sert d'indicateur : tant qu'elle persiste, il en reste.",
+    "reactions_exemples": [
+      {
+        "nom": "Homologation d'un chlorure d'acyle",
+        "substrat_SMILES": "CCC(=O)Cl",
+        "produit_SMILES": "CCC(=O)[C-]([N+]#N)",
+        "note": "Il faut deux équivalents"
+      }
+    ]
+  },
+  {
+    "id": "nh2oh",
+    "nom": "NH₂OH",
+    "nom_complet": "hydroxylamine",
+    "SMILES": "NO",
+    "role": "Elle transforme une cétone en oxime — une imine qui, elle, tient debout",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote",
+        "role": "Nucléophile : il attaque le carbonyle comme le ferait une amine."
+      },
+      {
+        "partie": "l'hydroxyle porté par l'azote",
+        "role": "C'est lui qui fait toute la différence. Électronégatif, il délocalise la double liaison C=N, remonte la LUMO et rend l'oxime bien plus stable qu'une imine ordinaire (Clayden p. 232)."
+      }
+    ],
+    "reactions_liees": [
+      "rearrangement_beckmann"
+    ],
+    "explication_reference": "Amine primaire portant un hydroxyle sur l'azote. Employée sous forme de chlorhydrate NH₂OH·HCl avec une base, elle condense sur les aldéhydes et les cétones pour donner des OXIMES.\n\nLa condensation suit le mécanisme classique de formation d'imine — addition puis déshydratation de l'hémiaminal, catalyse acide, optimum vers pH 4-6 (Clayden p. 230-231).\n\nContrairement aux imines ordinaires, les oximes sont isolables : le substituant électronégatif participe à la délocalisation de la double liaison C=N, ce qui diminue la charge positive partielle du carbone et remonte l'énergie de la LUMO (Clayden p. 232). Leur hydrolyse demande une catalyse acide ou basique.\n\nL'oxime est le substrat du réarrangement de Beckmann. Sa géométrie — E ou Z — décide du groupe qui migrera, et elle est fixée dès sa formation.",
+    "explication_comprendre": "POURQUOI CERTAINES IMINES TIENNENT ET D'AUTRES NON ?\n\nUne IMINE, c'est le résultat de la rencontre entre une cétone et une amine : l'oxygène du carbonyle est remplacé par un azote. Sur le papier, c'est simple. En pratique, la plupart des imines sont fragiles — la moindre eau les redécompose.\n\nSauf si l'azote porte un groupe ÉLECTRONÉGATIF. Alors l'imine devient un solide stable, qu'on peut peser, purifier et conserver.\n\nL'HYDROXYLAMINE FAIT EXACTEMENT CELA.\n\nC'est une amine dont l'azote porte un OH. Elle attaque une cétone comme le ferait n'importe quelle amine, et donne ce qu'on appelle une OXIME.\n\nPOURQUOI L'OXIME TIENT-ELLE ? Parce que l'oxygène accroché à l'azote lui prête un doublet, qui se répartit sur toute la double liaison C=N. Le carbone y perd un peu de sa charge positive, et devient beaucoup moins attaquable. Clayden dit cela en termes d'orbitales : la LUMO monte, donc les nucléophiles s'en désintéressent.\n\nÀ QUOI SERVENT LES OXIMES.\n\nAutrefois, à identifier les cétones. Avant la RMN, on ne savait pas distinguer trois cétones isomères qui bouillaient toutes à 102 °C. Mais leurs dérivés — oximes, hydrazones, semicarbazones — sont des solides cristallins dont les points de FUSION diffèrent nettement. On fabriquait donc le dérivé, on mesurait, on concluait.\n\nAujourd'hui, surtout à faire des amides. L'oxime d'une cétone, traitée par un acide, se réarrange en amide : c'est le réarrangement de BECKMANN, et c'est ainsi qu'on fabrique le nylon.\n\nUN DÉTAIL QUI DÉCIDE DE TOUT : la double liaison C=N ne tourne pas. Le OH est donc figé d'un côté ou de l'autre dès la formation de l'oxime — et c'est cette orientation qui décidera, plus tard, quel groupe migrera dans le Beckmann.\n\nÀ LA PAILLASSE : on l'emploie sous forme de chlorhydrate, un solide stable, avec une base (pyridine, acétate de sodium) pour la libérer. L'hydroxylamine libre est instable et se décompose.",
+    "reactions_exemples": [
+      {
+        "nom": "Formation d'une oxime",
+        "substrat_SMILES": "O=C1CCCCC1",
+        "produit_SMILES": "C1(=NO)CCCCC1",
+        "note": "Le substrat du Beckmann"
+      }
+    ]
   }
 ]

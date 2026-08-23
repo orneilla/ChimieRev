@@ -13915,5 +13915,1319 @@
         "valide": false
       }
     ]
+  },
+  "rearrangement_wagner_meerwein": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le méthyle migre AU MOMENT où l'iodure part",
+        "smiles": "CC(C)(C)C[I]",
+        "legende": "CE SUBSTRAT NE SAIT RIEN FAIRE, ET C'EST LÀ TOUT L'INTÉRÊT (Clayden p. 940). L'iodure de néopentyle ne fait pas de SN2 : le tert-butyle voisin encombre trop la face arrière. Il ne fait pas de SN1 non plus : le carbocation serait PRIMAIRE, donc impossible. Sans Ag⁺, il ne se passe rien du tout.\n\nALORS IL FAIT AUTRE CHOSE. Un méthyle du carbone 2 se déplace vers le carbone 1 en même temps que l'iodure s'en va, tiré par l'argent. Le doublet de la liaison C–CH₃ suit le méthyle : c'est lui qui forme la nouvelle liaison, et la charge positive reste derrière, sur un carbone désormais TERTIAIRE.\n\nCE QUE PROUVE LA RMN (Clayden p. 941) : dissous dans l'acide fluorosulfonique à −77 °C, le tosylate de néopentyle donne à 77 % le cation tertiaire — jamais le cation primaire, qui n'a pas vu le jour. Et il réagit 10⁴ fois plus vite que le tosylate d'éthyle, pourtant primaire lui aussi.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "L'iodure part avec le doublet, tiré par l'ion argent."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le méthyle migre du carbone 2 vers le carbone 1, avec son doublet."
+          }
+        ],
+        "produit_attendu": "CC[C+](C)C.[I-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau capture le cation tertiaire",
+        "smiles": "CC[C+](C)C.O([H])[H]",
+        "legende": "LE CATION EST MAINTENANT TERTIAIRE, donc assez stable pour attendre une molécule d'eau. C'est une SN1 ordinaire qui achève le travail.\n\nTROIS CONDITIONS POUR QU'UN RÉARRANGEMENT SOIT UTILE (Clayden p. 945) :\n• il doit être RAPIDE, pour que rien d'autre ne le devance ;\n• le cation d'arrivée doit être NETTEMENT plus stable que celui de départ ;\n• la capture du cation doit être FIABLE — un cation qui hésite entre substitution, élimination et nouveau réarrangement ne donne rien de propre.\nC'est faute de la troisième que l'alkylation de Friedel-Crafts par un halogénure primaire est inutilisable.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                2
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet de l'oxygène de l'eau attaque le carbone chargé."
+          }
+        ],
+        "produit_attendu": "CCC(C)(C)[O+]([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Une seconde molécule d'eau reprend le proton",
+        "smiles": "CCC(C)(C)[O+]([H])[H].O([H])[H]",
+        "legende": "DÉPROTONATION BANALE, et le squelette est changé pour de bon. L'iodure de néopentyle, primaire, a donné un alcool TERTIAIRE dont la chaîne n'est plus la même : le 2-méthylbutan-2-ol.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend l'un des protons de l'oxonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.35,
+            "libelle": "Et l'oxygène récupère le doublet : il redevient neutre."
+          }
+        ],
+        "produit_attendu": "CCC(C)(C)O[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCC(C)(C)O",
+        "legende": "LE 2-MÉTHYLBUTAN-2-OL. Comparez les squelettes : au départ, quatre carbones portés par un cinquième ; à l'arrivée, une chaîne de quatre avec un méthyle au milieu. Un carbone a changé de voisin, et c'est tout le réarrangement.\n\nLA MIGRATION D'UN GROUPE ALKYLE VERS UN CENTRE CATIONIQUE porte le nom de réarrangement — ou de déplacement — de WAGNER-MEERWEIN (Clayden p. 942). On le retrouve partout dans la chimie des terpènes : la déshydratation du camphénilol donne le santène, l'un des parfums du bois de santal, par migration d'un méthyle.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "transposition_pinacolique": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide protone l'un des deux alcools",
+        "smiles": "CC(C)(O[H])C(C)(C)O[H].[O+]([H])([H])[H]",
+        "legende": "LE PINACOL EST UN DIOL-1,2, et ses deux alcools sont identiques : peu importe lequel l'acide protone. Ce qui compte, c'est qu'un groupe partant apparaisse là où il n'y avait qu'un OH.\n\nPOURQUOI PROTONER ? Un ion hydroxyde ne part jamais spontanément — c'est une base trop forte. Protoné, il devient de l'EAU, et l'eau est un excellent groupe partant. C'est le même geste qu'au début d'une SN1 ou d'une déshydratation.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                11
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'alcool prend un proton à l'oxonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": 0.35,
+            "libelle": "Et l'eau repart avec le doublet."
+          }
+        ],
+        "produit_attendu": "CC(C)([O+]([H])[H])C(C)(C)O[H].O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau s'en va : un cation TERTIAIRE apparaît",
+        "smiles": "CC(C)([O+]([H])[H])C(C)(C)O[H]",
+        "legende": "L'EAU PART SEULE, sans qu'aucun nucléophile ne pousse. Elle le peut parce que le carbone qu'elle abandonne porte trois méthyles : le cation formé est TERTIAIRE, donc supportable.\n\nREMARQUEZ CE QUI RESTE EN FACE : l'autre carbone porte toujours son OH, et cet oxygène a deux doublets libres à une liaison du trou électronique. C'est lui qui va commander la suite.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison C–O se rompt : l'eau part avec le doublet."
+          }
+        ],
+        "produit_attendu": "C[C+](C)C(C)(C)O[H].O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "LA MIGRATION : un méthyle traverse, poussé et tiré à la fois",
+        "smiles": "C[C+](C)C(C)(C)O[H]",
+        "legende": "VOICI LE CŒUR DE LA RÉACTION, et Clayden le décrit en deux mots (p. 946) : une POUSSÉE et une TRACTION. Le cation TIRE le méthyle vers lui, parce qu'il lui manque un doublet ; le doublet de l'oxygène POUSSE dans le même mouvement, en formant la double liaison C=O.\n\nLES DEUX FLÈCHES PARTENT DONC ENSEMBLE. C'est ce qui rend la migration si favorable : on n'échange pas un cation contre un autre, on échange un cation contre un CARBONYLE — et un carbonyle, c'est la liaison la plus solide de la chimie organique.\n\nNUMÉROTEZ LES CARBONES avant de regarder le produit, conseille Clayden. Sans cela on ne voit pas qui est passé où.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                1
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Un méthyle migre vers le carbone chargé, avec son doublet."
+          },
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                3
+              ]
+            },
+            "courbure": 0.5,
+            "libelle": "Et l'oxygène pousse : son doublet forme la double liaison C=O."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)C(C)=[O+][H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le carbonyle rend son proton",
+        "smiles": "CC(C)(C)C(C)=[O+][H].O([H])[H]",
+        "legende": "DERNIER GESTE, et il rend la réaction IRRÉVERSIBLE : la perte du proton donne une cétone neutre, très stable. C'est la formation de ce carbonyle qui entraîne toute la séquence.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend le proton porté par l'oxygène."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.35,
+            "libelle": "Le carbonyle redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(C)(C)C(C)=O.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(C)(C)C(C)=O",
+        "legende": "LA PINACOLONE. Un diol symétrique a donné une cétone qui ne l'est pas du tout : trois méthyles d'un côté, un seul de l'autre.\n\nLA MÊME CHIMIE, D'AUTRES NOMS (Clayden p. 949-950). Quand le groupe partant n'est pas un OH protoné mais un tosylate ou un époxyde, on parle de réarrangement SEMIPINACOLIQUE. Et quand on prend la séquence à l'envers — un carbonyle protoné qui se réarrange en carbocation — c'est le réarrangement DIÉNONE-PHÉNOL, poussé cette fois par le gain d'aromaticité.\n\nUNE APPLICATION QUI COMPTE : la version qui forme des systèmes SPIROCYCLIQUES, où le carbone qui migre appartient à un cycle et le fait changer de taille.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "rearrangement_beckmann": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide protone l'oxime",
+        "smiles": "C1(=NO[H])CCCCC1.[O+]([H])([H])[H]",
+        "legende": "TOUT COMMENCE PAR UNE OXIME, c'est-à-dire une cétone dont l'oxygène a été remplacé par un azote portant un OH. Elle se prépare en une ligne : la cyclohexanone et l'hydroxylamine.\n\nPOURQUOI PROTONER L'OXIME ? Pour la même raison que dans toutes les transpositions de ce chapitre : un OH ne part pas, une molécule d'eau si. L'acide sulfurique transforme le mauvais groupe partant en bon.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                10
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'oxygène de l'oxime prend un proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau repart avec le doublet."
+          }
+        ],
+        "produit_attendu": "C1(=N[O+]([H])[H])CCCCC1.O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau part et le carbone migre VERS L'AZOTE",
+        "smiles": "C1(=N[O+]([H])[H])CCCCC1",
+        "legende": "L'ÉTAPE QUI FAIT TOUT, et elle est d'un seul tenant. L'eau s'en va, et au même instant le carbone du cycle qui lui fait face passe du carbone à l'azote. Le cycle à six chaînons devient un cycle à SEPT, dont un chaînon est un azote.\n\nPOURQUOI CELUI-LÀ ET PAS L'AUTRE ? Parce que la migration exige que le groupe qui part et le groupe qui migre soient ANTI-PÉRIPLANAIRES (Clayden p. 958-959) : le doublet qui migre doit pouvoir attaquer l'orbitale σ* de la liaison N–O, et cela ne se fait que de l'autre côté. Sur une double liaison C=N, la géométrie est figée : c'est le groupe TRANS du OH qui migre, toujours.\n\nCE QUI SE VÉRIFIE (Clayden p. 959) : une oxime obtenue sous forme d'un mélange 75:25 de ses deux isomères géométriques donne un mélange 73:27 de lactames. Chaque isomère garde sa préférence.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                9
+              ]
+            },
+            "vers": {
+              "liaison": [
+                9,
+                1
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le carbone du cycle migre vers l'azote, avec son doublet."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "Et l'eau part au même moment, avec le doublet de la liaison N–O."
+          }
+        ],
+        "produit_attendu": "[C+]1=NCCCCC1.O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'eau capture le cation",
+        "smiles": "[C+]1=NCCCCC1.O([H])[H]",
+        "legende": "CE CATION N'EST PAS UN CARBOCATION ORDINAIRE : l'azote voisin lui prête un doublet, et l'on peut aussi bien l'écrire avec une TRIPLE liaison C≡N⁺ — c'est un ion NITRILIUM. C'est cette délocalisation qui le rend assez stable pour attendre l'eau.\n\nL'EAU ATTAQUE LE CARBONE, comme elle le ferait sur n'importe quel carbone déficitaire.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                0
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Un doublet de l'eau attaque le carbone chargé."
+          }
+        ],
+        "produit_attendu": "[O+]([H])([H])C1=NCCCCC1",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "L'eau reprend un proton : on tient le lactime",
+        "smiles": "[O+]([H])([H])C1=NCCCCC1.O([H])[H]",
+        "legende": "UNE DÉPROTONATION BANALE, et l'on obtient un LACTIME : un cycle portant un motif N=C–OH. C'est la forme énol de l'amide.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend l'un des deux protons de l'oxonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène récupère son doublet et redevient neutre."
+          }
+        ],
+        "produit_attendu": "O([H])C1=NCCCCC1.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Tautomérie, premier temps : l'azote prend un proton",
+        "smiles": "O([H])C1=NCCCCC1.[O+]([H])([H])[H]",
+        "legende": "UN LACTIME N'EST PAS STABLE, exactement comme un énol n'est pas stable : la forme amide lui est bien inférieure en énergie. Le milieu acide fait basculer l'un vers l'autre en deux gestes.\n\nPREMIER GESTE : l'azote, qui est le site le plus basique de la molécule, prend un proton.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                10
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote prend un proton à l'oxonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau repart avec le doublet."
+          }
+        ],
+        "produit_attendu": "O([H])C1=[N+]([H])CCCCC1.O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Second temps : l'oxygène rend le sien, et l'amide est là",
+        "smiles": "O([H])C1=[N+]([H])CCCCC1.O([H])[H]",
+        "legende": "L'OXYGÈNE REND SON PROTON, son doublet forme la double liaison C=O, et le doublet de C=N revient sur l'azote. L'amide est formée — et avec elle la stabilité qui entraînait toute la séquence.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau prend le proton de l'oxygène."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                2
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Le doublet forme la double liaison C=O."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "Et le doublet de C=N revient sur l'azote."
+          }
+        ],
+        "produit_attendu": "O=C1N([H])CCCCC1.[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Ce qu'on obtient",
+        "smiles": "O=C1NCCCCC1",
+        "legende": "LE CAPROLACTAME, un amide cyclique à sept chaînons — et l'un des produits les plus fabriqués au monde. Sa polymérisation en milieu basique donne le NYLON (Clayden p. 958).\n\nCE QU'IL FAUT RETENIR DU RÉARRANGEMENT DE BECKMANN : il insère un azote dans une liaison carbone–carbone, exactement comme la réaction de Baeyer-Villiger y insère un oxygène. Même schéma : un groupe partant sur l'hétéroatome, un groupe alkyle qui migre, un cation capturé par l'eau.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "rearrangement_favorskii": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le méthanolate déprotone DU CÔTÉ OPPOSÉ au brome",
+        "smiles": "O=C1C(Br)CCCC1[H].[O-]C",
+        "legende": "PREMIÈRE SURPRISE, ET ELLE EST TOTALE : le méthanolate ne se comporte pas ici en nucléophile mais en BASE. Il ne va pas attaquer le carbonyle, il va arracher un proton — et pas n'importe lequel : celui de l'autre côté de la cétone, loin du brome.\n\nPOURQUOI CELUI-LÀ ? Parce que le carbone qui porte le brome porte déjà un substituant encombrant, et parce que c'est l'autre énolate qui mène quelque part. L'énolate formé a son carbone nucléophile en face du carbone bromé, à trois liaisons de distance.\n\nPENDANT CINQUANTE ANS ON A CRU AUTRE CHOSE (Clayden p. 951). On pensait à un réarrangement de type acide benzilique — l'alcoolate attaquant le carbonyle. En 1944, des chimistes américains ont montré que deux chloro-cétones ISOMÈRES donnaient exactement le même produit. Elles ne pouvaient donc passer que par un intermédiaire commun.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le méthanolate prend le proton du carbone α opposé au brome."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet C–H forme la double liaison C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": 0.4,
+            "libelle": "Et le doublet du carbonyle se replie sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[O-]C1=CCCCC1Br.CO[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énolate s'alkyle LUI-MÊME : la cyclopropanone",
+        "smiles": "[O-]C1=CCCCC1Br",
+        "legende": "VOICI L'INTERMÉDIAIRE COMMUN, et il est déconcertant : une CYCLOPROPANONE. L'énolate se replie sur lui-même et son carbone nucléophile attaque le carbone qui porte le brome, à l'autre bout de la cétone. Le brome part. Un cycle à trois chaînons vient de naître au milieu du cycle à six.\n\nCE QUE ÇA EXPLIQUE : les deux chloro-cétones isomères de 1944 donnent la MÊME cyclopropanone. Voilà pourquoi elles donnaient le même produit.\n\nLA RÉACTION A L'AIR BIZARRE — Clayden le dit franchement — mais beaucoup de chimistes la trouvent raisonnable : c'est une substitution intramoléculaire ordinaire, seulement contrainte par la géométrie.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": -0.3,
+            "libelle": "L'alcoolate repousse son doublet vers le carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                6
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone nucléophile de l'énolate attaque le carbone bromé."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.6,
+            "libelle": "Le bromure part."
+          }
+        ],
+        "produit_attendu": "O=C1C2CCCC12.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le méthanolate attaque enfin le carbonyle",
+        "smiles": "O=C1C2CCCC12.[O-]C",
+        "legende": "MAINTENANT le méthanolate joue son rôle de nucléophile. Il s'ajoute sur le carbonyle de la cyclopropanone.\n\nPOURQUOI CE CARBONYLE-LÀ EST SI RÉACTIF : dans un cycle à trois chaînons, les angles sont écrasés à 60°, très loin des 120° que réclame un carbone sp². Le carbonyle est sous tension ; devenir sp³, avec ses 109°, le soulage un peu.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le méthanolate attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": 0.35,
+            "libelle": "Le doublet du carbonyle se replie sur l'oxygène."
+          }
+        ],
+        "produit_attendu": "[O-]C1(OC)C2CCCC12",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le cycle à trois s'ouvre : l'ester est là",
+        "smiles": "[O-]C1(OC)C2CCCC12.CO[H]",
+        "legende": "L'ALCOOLATE REPOUSSE SON DOUBLET, le carbonyle se reforme, et l'une des deux liaisons du cycle à trois se rompt. Le carbanion qui apparaît prend aussitôt un proton au méthanol.\n\nPEU IMPORTE LAQUELLE DES DEUX SE ROMPT : la cyclopropanone est SYMÉTRIQUE ici, et les deux liaisons mènent au même produit (Clayden p. 952). C'est ce qui rend la réaction propre — 61 % de rendement.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'alcoolate repousse son doublet : le carbonyle se reforme."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.3,
+            "libelle": "L'une des liaisons du cycle à trois se rompt."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                11
+              ]
+            },
+            "courbure": 0.5,
+            "libelle": "Et le carbanion prend un proton au méthanol."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.4,
+            "libelle": "Le méthanolate est régénéré."
+          }
+        ],
+        "produit_attendu": "COC(=O)C1CCCC1.[O-]C",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "COC(=O)C1CCCC1",
+        "legende": "LE CYCLOPENTANECARBOXYLATE DE MÉTHYLE. Comptez les chaînons : on est parti d'un cycle à SIX et l'on arrive à un cycle à CINQ, avec un ester accroché. Le réarrangement de Favorskii CONTRACTE les cycles, et c'est son usage le plus fécond en synthèse.\n\nCE QU'IL FAIT, VU DE LOIN : il transfère un groupe alkyle d'un côté du carbonyle à l'autre. On s'en sert pour fabriquer des acides très ramifiés — ceux dont le CO₂H est porté par un carbone tertiaire — qu'aucune alkylation d'énolate ne sait faire.\n\nLE CUBANE EN EST SORTI (Clayden p. 952) : en 1964, deux chimistes américains ont contracté deux cycles à cinq en cycles à quatre par deux Favorskii successifs. C'est ainsi qu'on a fabriqué pour la première fois cette molécule en forme de cube.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "rearrangement_hofmann": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "La soude arrache un proton à l'amide",
+        "smiles": "CCC(=O)N([H])[H].[O-][H]",
+        "legende": "UN AMIDE PRIMAIRE N'EST PAS UN ACIDE FORT, mais son N–H l'est assez pour la soude : l'anion formé est stabilisé par le carbonyle voisin, exactement comme un énolate.\n\nCE QU'ON PRÉPARE ICI : un azote nucléophile. Il en faudra un pour aller chercher le brome.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde prend un proton à l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote garde le doublet : il devient nucléophile."
+          }
+        ],
+        "produit_attendu": "CCC(=O)[N-][H].O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'azote attaque le brome",
+        "smiles": "CCC(=O)[N-][H].BrBr",
+        "legende": "L'AZOTE ATTAQUE UNE MOLÉCULE DE BROME et en garde un atome. C'est une substitution ordinaire sur le brome : un bromure part.\n\nÀ QUOI SERT CE BROME ? À faire un GROUPE PARTANT sur l'azote. Sans lui, l'azote n'a aucune raison de devenir déficitaire en électrons.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote attaque l'un des deux atomes de brome."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.4,
+            "libelle": "L'autre part en bromure."
+          }
+        ],
+        "produit_attendu": "CCC(=O)N([H])Br.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "La soude arrache le second proton",
+        "smiles": "CCC(=O)N([H])Br.[O-][H]",
+        "legende": "MÊME GESTE QU'À L'ÉTAPE 1, et il est maintenant plus facile : le brome, très électronégatif, rend le N–H restant plus acide encore.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                5
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'hydroxyde prend le second proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.35,
+            "libelle": "L'azote garde le doublet."
+          }
+        ],
+        "produit_attendu": "CCC(=O)[N-]Br.O[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le bromure part et le groupe MIGRE dans le même mouvement",
+        "smiles": "CCC(=O)[N-]Br",
+        "legende": "L'ÉTAPE DÉCISIVE. Le bromure s'en va en emportant son doublet ; l'azote se retrouverait avec six électrons seulement — ce serait un NITRÈNE, l'équivalent azoté d'un carbène. Il n'attend pas : le groupe éthyle migre du carbone vers l'azote au même instant.\n\nCE QU'ON OBTIENT EST UN ISOCYANATE, R–N=C=O. Regardez bien : le carbone du carbonyle a PERDU son substituant alkyle, qui est passé sur l'azote. C'est exactement le geste du réarrangement de Wolff, avec un azote à la place du carbone.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le groupe éthyle migre du carbone vers l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.4,
+            "libelle": "Et le bromure part avec son doublet."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                2
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Et un doublet de l'azote forme la double liaison C=N de l'isocyanate."
+          }
+        ],
+        "produit_attendu": "CCN=C=O.[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "L'eau attaque l'isocyanate",
+        "smiles": "CCN=C=O.O([H])[H]",
+        "legende": "UN ISOCYANATE NE SURVIT PAS EN MILIEU AQUEUX. L'eau s'ajoute sur son carbone central, et le proton passe sur l'azote dans le même mouvement. Le produit est un ACIDE CARBAMIQUE, R–NH–CO₂H.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau attaque le carbone central de l'isocyanate."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet C=N se replie sur l'azote."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                6
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'azote prend le proton de cette même molécule d'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.4,
+            "libelle": "Et l'oxygène récupère son doublet."
+          }
+        ],
+        "produit_attendu": "CCN([H])C(=O)O[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "L'acide carbamique perd du CO₂",
+        "smiles": "CCN([H])C(=O)O[H]",
+        "legende": "AUCUN ACIDE CARBAMIQUE NE TIENT DEBOUT. La liaison C–N se rompt, le proton de l'acide passe sur l'azote, et il part du dioxyde de carbone. Un gaz qui s'échappe rend l'opération irréversible.\n\nCOMPTEZ LES CARBONES : l'amide de départ en avait trois, l'amine n'en a que deux. Le réarrangement de Hofmann RACCOURCIT la chaîne d'un carbone — c'est là son usage.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote prend le proton de l'acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                4
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet O–H forme la seconde double liaison du CO₂."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.45,
+            "libelle": "Et la liaison C–N se rompt."
+          }
+        ],
+        "produit_attendu": "CCN([H])[H].O=C=O",
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCN",
+        "legende": "L'ÉTHYLAMINE. Un amide primaire à trois carbones a donné une amine primaire à deux.\n\nUNE COUSINE À CONNAÎTRE : le réarrangement de LOSSEN part d'un acide hydroxamique (l'amide d'une hydroxylamine) tosylé — le tosylate y joue le rôle du brome. Le reste est identique (Clayden p. 1022).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "rearrangement_curtius": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'azoture perd du diazote",
+        "smiles": "CCC(=O)[N-][N+]#N",
+        "legende": "UN AZOTURE D'ACYLE SE PRÉPARE EN UNE LIGNE : un chlorure d'acyle et de l'azoture de sodium. Il suffit ensuite de chauffer.\n\nPOURQUOI IL PART DU DIAZOTE : parce que N₂ est la molécule la plus stable qu'on puisse imaginer — triple liaison, aucune charge, un gaz. Rien ne résiste à cette force motrice.\n\nCE QUI RESTE EST UN NITRÈNE : un azote à UNE seule liaison et deux doublets libres, soit six électrons au lieu de huit. C'est l'exact analogue azoté d'un carbène, et il est aussi avide.\n\nUN MOT SUR LE SCHÉMA : les deux POINTS dessinés sur l'atome marquent les électrons qui n'ont pas trouvé de partenaire. Ce ne sont pas des radicaux au sens de la chimie radicalaire — aucune flèche à demi-pointe ici — mais la façon dont le logiciel signale un atome à six électrons.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison N–N se rompt : le diazote part avec le doublet."
+          }
+        ],
+        "produit_attendu": "CCC(=O)[N].N#N",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le groupe migre du carbone vers l'azote",
+        "smiles": "CCC(=O)[N]",
+        "legende": "LE NITRÈNE NE SURVIT PAS. Il manque un doublet à son azote, et le groupe éthyle voisin le lui apporte en migrant — exactement comme dans le réarrangement de Wolff, où c'est un carbène qui appelle le groupe.\n\nCE QU'ON OBTIENT EST UN ISOCYANATE. Le carbone qui portait l'éthyle ne porte plus que l'azote et l'oxygène : R–N=C=O.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le groupe éthyle migre vers l'azote déficitaire."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                2
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et un doublet de l'azote forme la double liaison C=N."
+          }
+        ],
+        "produit_attendu": "CCN=C=O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'eau attaque : l'acide carbamique",
+        "smiles": "CCN=C=O.O([H])[H]",
+        "legende": "LA SUITE EST CELLE DU HOFMANN, mot pour mot : l'eau s'ajoute sur le carbone central et le proton passe sur l'azote.\n\nET SI L'ON MET UN ALCOOL À LA PLACE DE L'EAU ? On obtient un CARBAMATE au lieu d'un acide carbamique — et il ne se décompose pas. Avec l'alcool benzylique, on obtient directement une amine protégée en Cbz (Clayden p. 1022). C'est l'un des usages les plus commodes de la réaction.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau attaque le carbone central."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet C=N se replie sur l'azote."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                6
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'azote prend le proton de cette eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène récupère son doublet."
+          }
+        ],
+        "produit_attendu": "CCN([H])C(=O)O[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Perte de CO₂",
+        "smiles": "CCN([H])C(=O)O[H]",
+        "legende": "MÊME FIN QUE POUR LE HOFMANN : la liaison C–N se rompt, le proton passe sur l'azote, le dioxyde de carbone s'échappe.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                7
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'azote prend le proton de l'acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                4
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet O–H forme la seconde double liaison du CO₂."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.45,
+            "libelle": "Et la liaison C–N se rompt."
+          }
+        ],
+        "produit_attendu": "CCN([H])[H].O=C=O",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCN",
+        "legende": "L'ÉTHYLAMINE, avec un carbone de moins que l'acide de départ.\n\nON PEUT SE PASSER DU CHLORURE D'ACYLE : le DPPA, azoture de diphénylphosphoryle (PhO)₂PON₃, déclenche le Curtius directement à partir de l'acide carboxylique (Clayden p. 1022). C'est ce qui en fait une réaction de routine.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "rearrangement_wolff": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "La diazocétone perd du diazote : un carbène",
+        "smiles": "CCC(=O)[C-]([H])[N+]#N",
+        "legende": "LA DIAZOCÉTONE SE PRÉPARE EN UNE LIGNE : un chlorure d'acyle et du diazométhane. Chauffée — ou éclairée, ou traitée à l'oxyde d'argent — elle perd du diazote.\n\nCE QUI RESTE EST UN CARBÈNE : un carbone à DEUX liaisons seulement, avec un doublet libre. Six électrons au lieu de huit ; il lui en manque un doublet, et il va le chercher tout de suite.\n\nPOURQUOI CE CARBÈNE-LÀ SE RÉARRANGE : un carbène ordinaire s'insère dans une liaison C–H voisine. Mais quand il est porté par un carbonyle — un α-céto-carbène — c'est la migration qui l'emporte (Clayden p. 1021).\n\nUN MOT SUR LE SCHÉMA : les deux POINTS dessinés sur l'atome marquent les électrons qui n'ont pas trouvé de partenaire. Ce ne sont pas des radicaux au sens de la chimie radicalaire — aucune flèche à demi-pointe ici — mais la façon dont le logiciel signale un atome à six électrons.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison C–N se rompt : le diazote part avec le doublet."
+          }
+        ],
+        "produit_attendu": "CCC(=O)[C]([H]).N#N",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "LE RÉARRANGEMENT : le groupe passe sur le carbène",
+        "smiles": "CCC(=O)[C]([H])",
+        "legende": "LE GROUPE ÉTHYLE MIGRE du carbone du carbonyle vers le carbène, et le doublet du carbène forme dans le même temps la double liaison C=C.\n\nCE QU'ON OBTIENT EST UN CÉTÈNE, R₂C=C=O. Il ne s'isole pas : c'est une espèce d'une réactivité extrême, dont le carbone central est très déficitaire.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                4
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le groupe éthyle migre vers le carbène."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                2
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Et le doublet du carbène forme la double liaison C=C."
+          }
+        ],
+        "produit_attendu": "CCC([H])=C=O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'eau capture le cétène",
+        "smiles": "CCC([H])=C=O.O([H])[H]",
+        "legende": "AU TRAITEMENT, L'EAU S'ADDITIONNE sur le carbone central du cétène et le proton passe sur l'autre carbone. On obtient un acide carboxylique.\n\nSI L'ON MET UN ALCOOL À LA PLACE, on obtient l'ester ; une amine donne l'amide. Le cétène ne fait pas le difficile.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                4
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'eau attaque le carbone central du cétène."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet C=C se replie sur l'autre carbone."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                7
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Ce carbone prend le proton de la même molécule d'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.4,
+            "libelle": "Et l'oxygène récupère son doublet."
+          }
+        ],
+        "produit_attendu": "CCC([H])([H])C(=O)O[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCC(=O)O",
+        "legende": "L'ACIDE BUTANOÏQUE. Comptez : l'acide de départ, le propanoïque, avait trois carbones ; celui-ci en a quatre. On a ALLONGÉ la chaîne d'un carbone, et le carbone ajouté vient du diazométhane.\n\nC'EST LA SYNTHÈSE D'ARNDT-EISTERT (Clayden p. 1021) : RCO₂H → RCOCl → RCOCHN₂ → RCH₂CO₂H. Trois lignes pour rallonger une chaîne d'exactement un chaînon, ce qui n'est pas si facile autrement.\n\nLE MÊME GESTE, AVEC UN AZOTE : remplacez le –CH=N₂ de la diazocétone par un –N=N₂ et vous avez un azoture d'acyle. Le carbène devient un nitrène, et le réarrangement de Wolff devient celui de CURTIUS.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }
