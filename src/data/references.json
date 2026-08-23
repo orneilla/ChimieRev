@@ -2764,6 +2764,96 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "synthese_paal_knorr": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "758",
+          "note": "La méthode de découpe : « coupez d'abord les liaisons carbone–hétéroatome ». L'azote d'un pyrrole forme une énamine de chaque côté du cycle, et une énamine vient d'un carbonyle et d'une amine — il reste donc une dicétone-1,4. Et l'ouverture du chapitre : « la thermodynamique est de notre côté »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "759",
+          "note": "La dicétone-1,4 et NH₃ donnent le 2,5-diméthylpyrrole à 90 %. L'encadré « éviter le produit d'aldolisation » : une dicétone-1,4 s'auto-condense aussi en cyclopenténone — la BASE donne la cyclopenténone, l'ACIDE donne le furane. Et pour les thiophènes, P₂S₅ ou le réactif de Lawesson, qui convertissent les C=O en C=S."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "760",
+          "note": "La même stratégie appliquée aux autres cycles : hydrazine + dicétone-1,4 → pyridazine (après oxydation) ; hydrazine + dicétone-1,3 → pyrazole ; amidine + dicétone-1,3 → pyrimidine. Et la synthèse du pyrrole du clopirac, à partir d'une amine aromatique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "737",
+          "note": "La réaction dans l'autre sens : l'hydrolyse acide d'un furane rouvre ses deux éthers d'énol et redonne la dicétone-1,4. Le furane est donc un groupe protecteur de ce motif."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "synthese_indolique_fischer": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "775",
+          "note": "La synthèse indolique de Fischer, introduite après les cycloadditions d'azotures."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "776",
+          "note": "Le mécanisme complet, en quatre temps : formation de la phénylhydrazone (isolable), tautomérie en ène-hydrazine, réarrangement [3,3] qui rompt la liaison N–N faible et forme une liaison C–C forte, réaromatisation du benzène par transfert de proton, attaque de l'aniline sur l'imine donnant un AMINAL (l'équivalent azoté d'un acétal), décomposition acide de l'aminal avec perte d'ammoniac, et aromatisation finale. « Le point clé est que la liaison C–C est établie aux dépens d'une liaison N–N faible. » Encadré biographique : Emil Fischer, découvreur de la phénylhydrazine en 1875, prix Nobel 1902."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "synthese_hantzsch": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "763",
+          "note": "La synthèse de Knorr des pyrroles, et l'encadré sur les noms des synthèses hétérocycliques : « il ne vaut simplement pas la peine d'apprendre ces noms » — seuls les plus célèbres servent, dont Hantzsch."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "764",
+          "note": "Le mécanisme complet de la synthèse de Hantzsch : aldolisation entre l'aldéhyde et le céto-ester, addition de Michael sur l'énone, addition de l'ammoniac sur une cétone, cyclisation sur l'autre. « Écrire un mécanisme détaillé est une entreprise hardie… plusieurs de ces étapes pourraient se produire dans un ordre différent. » L'oxydation par la DDQ, où les deux partenaires s'aromatisent dans la même étape. Et la découverte des années 1980 : les dihydropyridines issues d'aldéhydes aromatiques bloquent les canaux calciques."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "765",
+          "note": "La suite de la discussion sur les dihydropyridines et leur oxydation."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "synthese_skraup": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "781",
+          "note": "La déconnexion d'une quinoléine : d'abord la liaison C–N du cycle pyridinique, puis la liaison C–C qui joint la chaîne au benzène. Il faut un synthon en C₃ électrophile aux deux bouts. « Le choix d'une amine aromatique est bon car le groupe NH₂ réagit bien avec les composés carbonylés ET active la position ortho vis-à-vis de l'attaque électrophile. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "782",
+          "note": "La version traditionnelle et la version moderne. L'encadré : « le nom disgracieux de la réaction de Skraup s'applique justement à la pire des synthèses hétérocycliques » — amine, H₂SO₄ concentré, glycérol et nitrobenzène chauffés au-delà de 100 °C avec un large réfrigérant ; « trop souvent, les réactions de Skraup partaient effectivement, avec des résultats destructeurs ». La version moderne : adduit conjugué, cyclisation acide, oxydation par la DDQ. Et l'oxine (8-quinoléinol) obtenue à 90 % depuis l'ortho-aminophénol, qui n'a qu'une position ortho libre."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

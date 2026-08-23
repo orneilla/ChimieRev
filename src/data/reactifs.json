@@ -2386,5 +2386,70 @@
         "note": "La liaison P=O est la force motrice"
       }
     ]
+  },
+  {
+    "id": "ddq",
+    "nom": "DDQ",
+    "nom_complet": "dichlorodicyanoquinone",
+    "SMILES": "O=C1C(Cl)=C(Cl)C(=O)C(C#N)=C1C#N",
+    "role": "Elle prend deux hydrogènes et devient aromatique en échange",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux carbonyles",
+        "role": "Ce sont eux qui reçoivent les hydrogènes. En les recevant, le cycle devient un hydroquinone — donc AROMATIQUE."
+      },
+      {
+        "partie": "les deux nitriles et les deux chlores",
+        "role": "Quatre groupes électroattracteurs qui abaissent la LUMO de la quinone et la rendent bien plus oxydante qu'une benzoquinone ordinaire."
+      }
+    ],
+    "reactions_liees": [
+      "synthese_hantzsch",
+      "synthese_skraup"
+    ],
+    "explication_reference": "Quinone fortement électrophile, employée comme accepteur d'hydrure pour l'aromatisation des dihydro-hétérocycles.\n\nL'hydrogène est transféré avec ses électrons liants sur un oxygène de la quinone ; le proton restant part ensuite. La force motrice est double : le substrat gagne son aromaticité, et la quinone réduite en hydroquinone gagne la sienne. Les deux partenaires s'aromatisent dans la même étape (Clayden p. 764).\n\nLes quatre substituants électroattracteurs — deux chlores, deux nitriles — abaissent la LUMO et font de la DDQ un oxydant bien plus puissant que la benzoquinone. On l'emploie pour les déshydrogénations difficiles : dihydropyridines de Hantzsch, dihydroquinoléines de Skraup, cyclohexénones vers phénols.",
+    "explication_comprendre": "POURQUOI UNE MOLÉCULE ACCEPTERAIT-ELLE DE PRENDRE DEUX HYDROGÈNES ?\n\nParce qu'en les prenant, elle y gagne l'aromaticité.\n\nUne QUINONE est un cycle à six carbones portant deux carbonyles. Elle n'est PAS aromatique — ses six électrons ne circulent pas en anneau. Mais ajoutez-lui deux hydrogènes sur ses deux oxygènes : les carbonyles deviennent des OH, et le cycle devient un benzène substitué. Aromatique.\n\nC'est un marché avantageux, et la quinone est prête à le conclure avec n'importe quelle molécule qui, elle aussi, gagnerait à perdre deux hydrogènes.\n\nD'OÙ L'ÉLÉGANCE DES OXYDATIONS PAR QUINONE : les deux partenaires deviennent aromatiques dans la même étape. C'est ce qui rend l'opération si facile.\n\nPOURQUOI CELLE-CI EN PARTICULIER : la DDQ porte deux chlores et deux groupes nitrile, quatre substituants qui aspirent les électrons. Sa LUMO est très basse, donc elle est bien plus avide que la benzoquinone ordinaire. On la sort pour les déshydrogénations difficiles.\n\nCOMMENT L'HYDROGÈNE PART : avec ses électrons liants, c'est-à-dire sous forme d'HYDRURE, et non de proton. Le proton restant part ensuite, repris par l'alcoolate formé.\n\nÀ LA PAILLASSE : poudre orange, irritante. Le sous-produit — l'hydroquinone correspondante — est coloré et se sépare bien par chromatographie.",
+    "reactions_exemples": [
+      {
+        "nom": "Aromatisation d'une dihydropyridine",
+        "substrat_SMILES": "C1=CC=C2NCCC=C2C=1",
+        "produit_SMILES": "c1ccc2ncccc2c1",
+        "note": "Les deux partenaires s'aromatisent"
+      }
+    ]
+  },
+  {
+    "id": "phenylhydrazine",
+    "nom": "PhNHNH₂",
+    "nom_complet": "phénylhydrazine",
+    "SMILES": "N([H])([H])N([H])C1=CC=CC=C1",
+    "role": "Elle apporte l'azote de l'indole ET son cycle benzénique",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison N–N",
+        "role": "Faible : c'est elle qu'on va rompre. Deux azotes voisins portent chacun un doublet, et ces doublets se repoussent."
+      },
+      {
+        "partie": "l'azote terminal (NH₂)",
+        "role": "Le nucléophile : il condense sur la cétone pour donner l'hydrazone."
+      },
+      {
+        "partie": "le cycle benzénique",
+        "role": "Il deviendra le cycle à six de l'indole, et c'est sa position ortho qui formera la nouvelle liaison C–C."
+      }
+    ],
+    "reactions_liees": [
+      "synthese_indolique_fischer"
+    ],
+    "explication_reference": "Hydrazine arylée, réactif de la synthèse indolique de Fischer et réactif classique de caractérisation des composés carbonylés.\n\nSa condensation sur un aldéhyde ou une cétone livre une PHÉNYLHYDRAZONE, imine stabilisée par l'azote voisin et donc isolable — solide cristallin dont le point de fusion servait autrefois à identifier les carbonyles (Clayden p. 232).\n\nDans la synthèse de Fischer, la phénylhydrazone se tautomérise en ène-hydrazine, qui subit un réarrangement sigmatropique [3,3] : la liaison N–N faible est échangée contre une liaison C–C forte (Clayden p. 776).\n\nEmil Fischer l'a découverte en 1875, alors qu'il était doctorant.",
+    "explication_comprendre": "UNE MOLÉCULE QUI PORTE EN ELLE SA PROPRE LIGNE DE RUPTURE.\n\nLa phénylhydrazine, c'est deux azotes à la file, dont l'un porte un cycle benzénique. Retenez d'abord la liaison entre ces deux azotes : elle est FAIBLE.\n\nPourquoi ? Parce que chaque azote porte un doublet libre, et que deux doublets côte à côte se repoussent. La liaison N–N est donc sous tension, prête à céder.\n\nC'est exactement ce dont on a besoin pour la synthèse de Fischer : on va l'échanger contre une liaison carbone–carbone, l'une des plus solides de la chimie.\n\nCE QU'ELLE APPORTE À L'INDOLE : l'azote du cycle à cinq, et tout le cycle à six. Une seule molécule fournit la moitié du produit.\n\nSON AUTRE MÉTIER, AUJOURD'HUI OUBLIÉ. Avant la RMN, on ne savait pas distinguer trois cétones isomères qui bouillaient toutes à la même température. On les faisait donc réagir avec la phénylhydrazine : les phénylhydrazones obtenues sont des solides cristallins dont les points de FUSION diffèrent nettement. On mesurait, on comparait aux tables, on concluait.\n\nPOURQUOI CES IMINES-LÀ SONT STABLES alors que la plupart ne le sont pas : l'azote voisin prête ses électrons à la double liaison C=N, ce qui remonte sa LUMO et la rend moins attaquable.\n\nDANGER : la phénylhydrazine est toxique et un cancérogène probable. Emil Fischer, qui l'a découverte en 1875 alors qu'il était doctorant, en a manipulé pendant des décennies.",
+    "reactions_exemples": [
+      {
+        "nom": "Formation d'une phénylhydrazone",
+        "substrat_SMILES": "O=C1CCCCC1",
+        "produit_SMILES": "C1=CC=CC=C1N([H])N=C1CCCCC1",
+        "note": "Un solide isolable"
+      }
+    ]
   }
 ]

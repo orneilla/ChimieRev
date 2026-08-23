@@ -475,6 +475,22 @@
     "substrat": "metallation_heterocycle-substrat.svg",
     "produit": "metallation_heterocycle-produit.svg"
   },
+  "synthese_paal_knorr": {
+    "substrat": "synthese_paal_knorr-substrat.svg",
+    "produit": "synthese_paal_knorr-produit.svg"
+  },
+  "synthese_indolique_fischer": {
+    "substrat": "synthese_indolique_fischer-substrat.svg",
+    "produit": "synthese_indolique_fischer-produit.svg"
+  },
+  "synthese_hantzsch": {
+    "substrat": "synthese_hantzsch-substrat.svg",
+    "produit": "synthese_hantzsch-produit.svg"
+  },
+  "synthese_skraup": {
+    "substrat": "synthese_skraup-substrat.svg",
+    "produit": "synthese_skraup-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -917,6 +933,20 @@
   "pcl3-ex0": {
     "substrat": "pcl3-ex0-substrat.svg",
     "produit": "pcl3-ex0-produit.svg"
+  },
+  "ddq": {
+    "molecule": "reactif-ddq.svg"
+  },
+  "ddq-ex0": {
+    "substrat": "ddq-ex0-substrat.svg",
+    "produit": "ddq-ex0-produit.svg"
+  },
+  "phenylhydrazine": {
+    "molecule": "reactif-phenylhydrazine.svg"
+  },
+  "phenylhydrazine-ex0": {
+    "substrat": "phenylhydrazine-ex0-substrat.svg",
+    "produit": "phenylhydrazine-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

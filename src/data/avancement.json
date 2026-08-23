@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-23",
   "total": 289,
-  "redigees": 121,
-  "verifiees": 115,
+  "redigees": 125,
+  "verifiees": 119,
   "relues": 0,
   "familles": [
     {
@@ -973,9 +973,9 @@
       "famille": "Hétérocycles",
       "bloc": "Socle organique",
       "total": 11,
-      "absente": 7,
+      "absente": 3,
       "redigee": 0,
-      "verifiee": 4,
+      "verifiee": 8,
       "relue": 0,
       "reactions": [
         {
@@ -1002,30 +1002,30 @@
         {
           "nom": "Synthèse de Paal-Knorr des furanes, pyrroles et thiophènes",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_paal_knorr",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse indolique de Fischer",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_indolique_fischer",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Hantzsch des pyridines",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_hantzsch",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Skraup des quinoléines",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_skraup",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Knorr des pyrazoles et isoxazoles",

@@ -5506,5 +5506,353 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "synthese_paal_knorr": {
+    "1": {
+      "fichier": "synthese_paal_knorr-etape1.svg",
+      "titre": "L'azote se replie sur le second carbonyle",
+      "legende": "ON REPREND LA RÉACTION APRÈS SA PREMIÈRE CONDENSATION : l'ammoniac s'est déjà additionné sur l'une des deux cétones et l'eau est partie, laissant une imine. C'est la chimie ordinaire des imines, détaillée dans la fiche « Formation des imines et des énamines ».\n\nCE QUI COMMENCE ICI EST LA PARTIE INTÉRESSANTE. L'azote de cette imine porte encore un doublet libre, et à quatre liaisons de lui se trouve la seconde cétone. Il se replie dessus. Le cycle à cinq chaînons se referme.\n\nPOURQUOI CINQ ET PAS AUTRE CHOSE : parce que le composé de départ est une dicétone-1,4. Comptez : les deux carbones portant l'oxygène, plus les deux qui les séparent, plus l'azote — cinq atomes exactement. C'est toute la logique du chapitre 30 de Clayden : on coupe d'abord les liaisons carbone–hétéroatome, et ce qui reste dit quel dicarbonylé il faut.",
+      "fleches": [
+        "Le doublet de l'azote attaque le carbone de la seconde cétone.",
+        "Le doublet du carbonyle se replie sur l'oxygène.",
+        "Cet oxygène reprend aussitôt le proton porté par l'azote.",
+        "Et l'azote garde le doublet : il redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_paal_knorr-etape2.svg",
+      "titre": "L'acide protone l'alcool",
+      "legende": "L'HÉMIAMINAL CYCLIQUE EST FORMÉ, mais il n'est pas encore aromatique : il lui reste un OH et deux carbones saturés.\n\nTOUT LE RESTE DE LA RÉACTION CONSISTE À DEVENIR AROMATIQUE, et c'est cette récompense qui la rend si facile. Clayden ouvre le chapitre par cette phrase : « la thermodynamique est de notre côté ». On mélange les bons atomes en bon nombre, et le système trouve son chemin.\n\nPREMIER GESTE, BANAL : l'acide fait du OH un groupe partant.",
+      "fleches": [
+        "L'oxygène de l'alcool prend un proton.",
+        "L'eau repart avec le doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "synthese_paal_knorr-etape3.svg",
+      "titre": "L'eau part, un proton part : première double liaison",
+      "legende": "ÉLIMINATION ORDINAIRE : l'eau s'en va, un proton du carbone voisin part avec elle, et une double liaison apparaît dans le cycle.\n\nIL RESTE UN CARBONE SATURÉ, celui d'en face. Le cycle n'est donc pas encore aromatique — c'est un 2H-pyrrole, qui a la bonne formule brute mais pas la bonne répartition des hydrogènes.",
+      "fleches": [
+        "L'eau prend un proton du carbone voisin.",
+        "Le doublet C–H forme la double liaison.",
+        "Et l'eau part avec le doublet de la liaison C–O."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "synthese_paal_knorr-etape4.svg",
+      "titre": "Un dernier proton s'en va : l'anion est AROMATIQUE",
+      "legende": "IL SUFFIT DE DÉPLACER UN HYDROGÈNE. Le carbone saturé qui reste porte deux protons ; l'eau en prend un, et le cycle devient d'un coup aromatique.\n\nREGARDEZ CE QU'ON OBTIENT : un anion, mais un anion AROMATIQUE — six électrons π sur cinq atomes, la charge négative portée par l'azote et délocalisée sur tout le cycle. C'est exactement l'anion qu'on obtiendrait en déprotonant le pyrrole lui-même, dont le N–H a un pKa de 16,5 (Clayden p. 733).\n\nC'EST CETTE AROMATICITÉ QUI TIRE TOUTE LA SÉQUENCE. Sans elle, aucune des étapes précédentes n'aurait de raison d'aller dans ce sens.",
+      "fleches": [
+        "L'eau prend l'un des deux protons du carbone saturé.",
+        "Le doublet C–H forme la seconde double liaison du cycle.",
+        "Et le doublet C=N revient sur l'azote : le cycle est aromatique."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "synthese_paal_knorr-etape5.svg",
+      "titre": "L'azote reprend un proton",
+      "legende": "L'ANION EST TRÈS BASIQUE et reprend aussitôt un proton au milieu. On tient le pyrrole neutre.\n\nNOTEZ OÙ VA LE PROTON : sur l'AZOTE, et non sur un carbone. Le doublet de l'azote reste ainsi dans le sextuor aromatique, et le N–H se place dans le plan du cycle.",
+      "fleches": [
+        "L'azote prend un proton à l'oxonium.",
+        "L'eau repart avec le doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "synthese_paal_knorr-etape6.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "LE 2,5-DIMÉTHYLPYRROLE, avec 90 % de rendement à partir de l'hexane-2,5-dione et de l'ammoniac (Clayden p. 759).\n\nLA MÊME DICÉTONE DONNE LES TROIS CYCLES :\n• avec NH₃ ou une amine primaire → un PYRROLE ;\n• avec P₂S₅ ou le réactif de Lawesson, qui transforment les deux C=O en C=S → un THIOPHÈNE ;\n• avec un acide seul, l'oxygène de l'une des cétones jouant le rôle du nucléophile → un FURANE.\n\nUN PIÈGE QUI SE COMMANDE (Clayden p. 759) : une dicétone-1,4 s'auto-condense aussi très facilement en cyclopenténone, par aldolisation intramoléculaire. La règle est simple — LA BASE donne la cyclopenténone, L'ACIDE donne le furane.\n\nET LA RÉCIPROQUE EST VRAIE : un furane traité par l'acide aqueux redonne la dicétone-1,4 (Clayden p. 737). Le furane est autant un groupe protecteur qu'un produit.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "synthese_indolique_fischer": {
+    "1": {
+      "fichier": "synthese_indolique_fischer-etape1.svg",
+      "titre": "LE RÉARRANGEMENT : une liaison C–C naît, la liaison N–N se rompt",
+      "legende": "ON REPREND APRÈS DEUX ÉTAPES ORDINAIRES. La phénylhydrazine et la cyclohexanone ont donné leur hydrazone — une imine, isolable — puis celle-ci s'est tautomérisée en ÈNE-HYDRAZINE, c'est-à-dire en énamine. C'est la chimie des imines, détaillée dans sa propre fiche.\n\nVOICI MAINTENANT LE CŒUR DE LA RÉACTION, et Clayden dit qu'il suffit de le retenir pour que tout le reste se mette en place (p. 776).\n\nTROIS FLÈCHES EN CERCLE SUR SIX ATOMES : la liaison N–N, faible, se rompt ; une liaison C–C, forte, se forme entre le carbone ortho du benzène et le carbone terminal de l'énamine. On échange une mauvaise liaison contre une bonne — voilà la force motrice.\n\nC'EST UN RÉARRANGEMENT SIGMATROPIQUE [3,3] (Clayden p. 776), le même geste que le Cope et le Claisen : numérotez 1 les deux extrémités de l'ancienne liaison σ, comptez dans les deux sens, et la nouvelle liaison joint deux atomes numérotés 3.\n\nLE PRIX À PAYER : le benzène perd son aromaticité. Il la reprendra à l'étape suivante.",
+      "fleches": [
+        "La liaison N–N se rompt et forme la double liaison C=N.",
+        "Le doublet π de l'énamine forme la nouvelle liaison C–C.",
+        "Et le doublet du cycle aromatique forme la seconde double liaison C=N."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_indolique_fischer-etape2.svg",
+      "titre": "Le benzène reprend son aromaticité",
+      "legende": "UN PROTON QUITTE LE CARBONE SATURÉ et le cycle à six redevient aromatique. L'aromaticité perdue à l'étape précédente est récupérée, et c'est elle qui rend le réarrangement irréversible.",
+      "fleches": [
+        "L'eau prend le proton du carbone saturé.",
+        "Le doublet C–H reforme la double liaison du cycle.",
+        "Et le doublet C=N revient sur l'azote."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "synthese_indolique_fischer-etape3.svg",
+      "titre": "L'azote reprend son proton : on tient une aniline",
+      "legende": "L'ANION REPREND UN PROTON. Ce qu'on a maintenant est une ANILINE — une amine aromatique, nucléophile — et, à quelques liaisons de là, une IMINE, électrophile. Les deux vont se trouver.",
+      "fleches": [
+        "L'azote prend un proton à l'oxonium.",
+        "L'eau repart avec le doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "synthese_indolique_fischer-etape4.svg",
+      "titre": "L'amine attaque l'imine : l'aminal",
+      "legende": "L'AMINE AROMATIQUE SE REPLIE sur l'imine et forme le cycle à cinq chaînons. L'intermédiaire porte deux azotes sur le même carbone : c'est un AMINAL, l'équivalent azoté d'un acétal (Clayden p. 776).\n\nET COMME UN ACÉTAL, IL SE DÉFERA en milieu acide — c'est exactement ce qu'on veut.",
+      "fleches": [
+        "L'amine aromatique attaque le carbone de l'imine.",
+        "Le doublet C=N se replie sur l'azote.",
+        "Cet azote reprend un proton à l'amine.",
+        "Et l'amine garde son doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "synthese_indolique_fischer-etape5.svg",
+      "titre": "L'acide décompose l'aminal : l'ammoniac s'en va",
+      "legende": "COMME ON DÉFAIT UN ACÉTAL : on protone l'un des deux azotes, il part sous forme d'AMMONIAC, et l'azote qui reste pousse son doublet pour combler le trou.\n\nPOURQUOI CELUI-LÀ PART, ET PAS L'AUTRE : celui qui reste est lié au cycle benzénique, donc bien plus stabilisé une fois qu'il aura formé sa double liaison. Il gagne l'aromaticité de l'indole ; l'ammoniac, lui, n'a rien à gagner en restant.",
+      "fleches": [
+        "L'azote de l'amine primaire prend un proton.",
+        "L'eau repart avec le doublet.",
+        "La liaison C–N se rompt : l'ammoniac s'en va.",
+        "Et l'azote du cycle pousse son doublet pour combler le trou."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "synthese_indolique_fischer-etape6.svg",
+      "titre": "Un dernier proton, et l'indole est aromatique",
+      "legende": "L'EAU PREND LE PROTON du carbone saturé, la double liaison se déplace, et le cycle à cinq devient AROMATIQUE. C'est la dernière marche, et c'est la plus profitable.\n\nREGARDEZ CE QU'ON A CONSTRUIT : deux cycles accolés, dix atomes, à partir d'une hydrazine et d'une cétone. Fischer n'avait aucune idée du mécanisme, note Clayden ; il a seulement été assez fin pour voir qu'il se passait quelque chose de remarquable, et assez habile pour trouver quoi.",
+      "fleches": [
+        "L'eau prend le proton du carbone saturé.",
+        "Le doublet C–H forme la double liaison du cycle à cinq.",
+        "Et l'azote récupère son doublet : l'indole est aromatique."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "synthese_indolique_fischer-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "LE TÉTRAHYDROCARBAZOLE — un indole portant un cycle à six accolé, puisqu'on est parti de la cyclohexanone.\n\nLA MÉTHODE PRINCIPALE POUR FABRIQUER LES INDOLES, dit Clayden (p. 776), mais pas universelle. Deux questions à se poser avant de l'employer :\n• Le composé carbonylé peut-il s'énoliser des deux côtés ? Si oui, on obtiendra deux indoles. Un ALDÉHYDE, qui ne s'énolise que d'un côté, donne un produit unique.\n• Le cycle aromatique porte-t-il des substituants ? La cyclisation se fait en ORTHO de l'azote ; s'il y a deux positions ortho libres et différentes, il faut prévoir le mélange.\n\nCE QU'IL FAUT RETENIR DU MÉCANISME, en une phrase : la liaison C–C se fait aux dépens d'une liaison N–N faible.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "synthese_hantzsch": {
+    "1": {
+      "fichier": "synthese_hantzsch-etape1.svg",
+      "titre": "L'addition de Michael achève le squelette de carbone",
+      "legende": "QUATRE MOLÉCULES DOIVENT SE TROUVER : deux céto-esters, un aldéhyde et de l'ammoniac. Clayden appelle cela « une reconnaissance moléculaire impressionnante de la part de petites molécules » et prévient qu'écrire un mécanisme détaillé est une entreprise hardie — on sait quels événements doivent avoir lieu, mais leur ordre est conjectural (p. 764).\n\nON COMMENCE PAR CE QUI EST SÛR. L'ammoniac préférerait attaquer l'aldéhyde, plus électrophile que les cétones ; ce n'est donc probablement pas la première étape. C'est l'énol du céto-ester qui attaque l'aldéhyde, une aldolisation ordinaire suivie d'une déshydratation. On obtient l'ÉNONE dessinée ici à gauche.\n\nCETTE ÉNONE EST UN EXCELLENT ACCEPTEUR DE MICHAEL : elle porte deux carbonyles au même bout de sa double liaison. Une seconde molécule d'énolate s'y additionne en 1,4, et le squelette de carbone est complet.",
+      "fleches": [
+        "L'oxygène de l'énolate pousse : le carbonyle se reforme.",
+        "Le carbone nucléophile attaque le carbone β de l'énone.",
+        "Le doublet de la double liaison remonte vers le carbonyle.",
+        "Qui se replie sur son oxygène : on obtient un énolate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_hantzsch-etape2.svg",
+      "titre": "L'énamine se referme sur l'autre cétone",
+      "legende": "L'ÉNOLATE A REPRIS SON PROTON et l'ammoniac s'est condensé sur l'une des deux cétones. Comme les cétones sont plus électrophiles que les esters, c'est bien sur une cétone que l'azote se fixe (Clayden p. 764) — la chimie ordinaire des imines et des énamines, détaillée dans sa propre fiche.\n\nMAINTENANT LA CYCLISATION. L'azote de l'énamine se replie sur la seconde cétone. Comptez les atomes du cycle qui se ferme : l'azote, les deux carbones de l'énamine, celui qui porte le méthyle apporté par l'aldéhyde, et le carbone du second carbonyle — six. C'est bien une pyridine qui se prépare.",
+      "fleches": [
+        "L'azote de l'énamine attaque le carbone de la seconde cétone.",
+        "Le doublet du carbonyle se replie sur son oxygène.",
+        "Cet oxygène reprend un proton à l'azote.",
+        "Et l'azote garde le doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "synthese_hantzsch-etape3.svg",
+      "titre": "L'acide protone l'hydroxyle",
+      "legende": "LE CYCLE EST FERMÉ mais il porte encore un OH, et il lui manque une double liaison. Comme partout dans ce chapitre, l'acide commence par faire du OH un groupe partant.",
+      "fleches": [
+        "L'oxygène de l'alcool prend un proton.",
+        "L'eau repart avec le doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "synthese_hantzsch-etape4.svg",
+      "titre": "L'eau part : la DIHYDROPYRIDINE",
+      "legende": "ÉLIMINATION ORDINAIRE : l'eau s'en va, un proton du carbone voisin part, et la seconde double liaison du cycle apparaît. Le carbone qui portait l'aldéhyde reste tétraédrique — c'est la position 4.\n\nON OBTIENT UNE DIHYDROPYRIDINE, et cet intermédiaire est bien plus qu'un intermédiaire. La synthèse de Hantzsch date de 1882 ; elle a resurgi dans les années 1980 quand on a découvert que les dihydropyridines faites à partir d'aldéhydes AROMATIQUES bloquent les canaux calciques (Clayden p. 764). Ce sont des médicaments majeurs de l'angine de poitrine et de l'hypertension.\n\nLA NATURE EMPLOIE LA MÊME CHIMIE : le NADH, qui réduit tant de choses dans le vivant, est une dihydropyridine.",
+      "fleches": [
+        "L'eau prend le proton du carbone voisin.",
+        "Le doublet C–H forme la seconde double liaison du cycle.",
+        "Et l'eau part avec le doublet de la liaison C–O."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "synthese_hantzsch-etape5.svg",
+      "titre": "La quinone prend un hydrure : les deux cycles s'aromatisent",
+      "legende": "IL RESTE À ENLEVER DEUX ATOMES D'HYDROGÈNE, et Clayden note que c'est facile pour deux raisons (p. 764) : le produit sera aromatique, et l'azote aide à expulser l'hydrogène de la position 4 en poussant son doublet.\n\nL'HYDROGÈNE PART AVEC SES ÉLECTRONS LIANTS — c'est un HYDRURE, pas un proton. Il va se fixer sur l'oxygène de la quinone.\n\nET VOICI CE QUI REND LA DDQ SI ÉLÉGANTE : en recevant ces deux hydrogènes, ELLE AUSSI devient aromatique, puisqu'une quinone réduite est un hydroquinone. Les deux partenaires gagnent leur aromaticité dans la même étape.",
+      "fleches": [
+        "L'azote pousse son doublet dans le cycle.",
+        "La double liaison se déplace d'un cran.",
+        "L'hydrogène de la position 4 part vers la quinone, avec son doublet.",
+        "Le carbonyle de la quinone se replie dans son cycle.",
+        "Le cycle de la quinone se réorganise.",
+        "Et l'autre carbonyle devient un alcoolate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "synthese_hantzsch-etape6.svg",
+      "titre": "Perte du proton : la pyridine est aromatique",
+      "legende": "L'ALCOOLATE DE LA QUINONE RÉDUITE reprend le proton de l'azote. Les deux cycles sont maintenant aromatiques, et la réaction est finie.",
+      "fleches": [
+        "L'alcoolate prend le proton porté par l'azote.",
+        "Et l'azote récupère son doublet : la pyridine est aromatique."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "synthese_hantzsch-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "UNE PYRIDINE SYMÉTRIQUEMENT SUBSTITUÉE, faite en un seul récipient à partir de deux céto-esters, d'un aldéhyde et d'ammoniac.\n\nLE MÉCANISME EN QUATRE LIGNES, comme Clayden le résume (p. 764) :\n• aldolisation entre l'aldéhyde et le céto-ester ;\n• addition de Michael sur l'énone qui en résulte ;\n• addition de l'ammoniac sur l'une des cétones ;\n• cyclisation de l'imine ou de l'énamine sur l'autre cétone.\n« Plusieurs de ces étapes pourraient se produire dans un ordre différent. »\n\nPOURQUOI DEUX CÉTO-ESTERS ET PAS DEUX CÉTONES : l'ester stabilise l'énolate, ce qui rend l'aldolisation et l'addition de Michael faciles à déclencher. Il reste ensuite dans le produit — et l'on peut l'hydrolyser et décarboxyler si l'on n'en veut pas.\n\nLA LIMITE DE LA MÉTHODE : le produit est forcément symétrique en 2 et 6, et en 3 et 5, puisque les deux céto-esters sont identiques. Pour une pyridine dissymétrique, il faut d'autres voies.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "synthese_skraup": {
+    "1": {
+      "fichier": "synthese_skraup-etape1.svg",
+      "titre": "L'acide protone l'aldéhyde",
+      "legende": "ON REPREND APRÈS L'ADDITION CONJUGUÉE. L'aniline s'est additionnée en 1,4 sur l'acroléine — une addition de Michael ordinaire, traitée dans sa propre fiche — et l'on a maintenant un aldéhyde relié à l'azote par trois carbones.\n\nREGARDEZ CE QU'ON A ENTRE LES MAINS : un noyau aromatique riche en électrons, activé par son azote, et un aldéhyde à la bonne distance. Il ne reste qu'à faire de l'aldéhyde un électrophile assez puissant.\n\nPOURQUOI L'AMINE AROMATIQUE EST LE BON CHOIX (Clayden p. 781) : son NH₂ réagit bien avec les composés carbonylés ET il active la position ortho vis-à-vis des électrophiles. Un seul groupe fait les deux travaux.",
+      "fleches": [
+        "L'oxygène de l'aldéhyde prend un proton.",
+        "L'eau repart avec le doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_skraup-etape2.svg",
+      "titre": "Le cycle attaque : Friedel-Crafts intramoléculaire",
+      "legende": "LE CARBONE DE L'ALDÉHYDE PROTONÉ est maintenant très déficitaire, et le cycle aromatique lui fait face. La position ORTHO de l'azote attaque : le second cycle se referme.\n\nCOMPTEZ LES ATOMES : l'azote, les trois carbones venus de l'acroléine, et les deux carbones aromatiques — six. C'est bien une pyridine qui s'accole au benzène.\n\nCOMME DANS TOUTE SUBSTITUTION ÉLECTROPHILE AROMATIQUE, le cycle perd momentanément son aromaticité. L'azote stabilise le cation en poussant son doublet.",
+      "fleches": [
+        "La position ortho du cycle attaque le carbone de l'aldéhyde.",
+        "Le doublet C=O revient sur l'oxygène, qui redevient neutre.",
+        "Et l'azote pousse son doublet pour stabiliser le cation."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "synthese_skraup-etape3.svg",
+      "titre": "Perte du proton : le cycle se réaromatise",
+      "legende": "L'EAU PREND LE PROTON du carbone attaqué et le benzène redevient aromatique. C'est la fin de la substitution électrophile.\n\nON TIENT MAINTENANT UN ALCOOL BENZYLIQUE dans un cycle à six accolé au benzène — une tétrahydroquinoléine hydroxylée. Deux opérations encore : perdre l'eau, puis oxyder.",
+      "fleches": [
+        "L'eau prend le proton du carbone attaqué.",
+        "Le doublet C–H reforme la double liaison du cycle.",
+        "Et l'azote récupère son doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "synthese_skraup-etape4.svg",
+      "titre": "Déshydratation : la dihydroquinoléine",
+      "legende": "L'ALCOOL EST BENZYLIQUE, donc il part facilement : le cation qui en résulterait serait stabilisé par le cycle. L'acide protone l'hydroxyle, l'eau s'en va, un proton du carbone voisin part avec elle, et la double liaison apparaît.\n\nON OBTIENT UNE DIHYDROQUINOLÉINE. Il ne manque plus que deux hydrogènes.",
+      "fleches": [
+        "L'alcool prend un proton à l'oxonium.",
+        "L'eau repart avec le doublet.",
+        "Cette eau prend aussitôt le proton du carbone voisin.",
+        "Le doublet C–H forme la double liaison.",
+        "Et l'eau part avec le doublet de la liaison C–O."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "synthese_skraup-etape5.svg",
+      "titre": "La quinone prend un hydrure",
+      "legende": "MÊME FIN QUE DANS LA SYNTHÈSE DE HANTZSCH : une quinone vient prendre un hydrure, et les deux partenaires s'aromatisent.\n\nL'AZOTE POUSSE SON DOUBLET pour aider l'hydrogène voisin à partir. C'est le même geste que dans la dihydropyridine — et c'est pour cela que Clayden traite les deux oxydations ensemble (p. 782).",
+      "fleches": [
+        "L'azote pousse son doublet.",
+        "L'hydrogène part vers la quinone, avec son doublet.",
+        "Le carbonyle de la quinone se replie dans son cycle.",
+        "Le cycle de la quinone se réorganise.",
+        "Et l'autre carbonyle devient un alcoolate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "synthese_skraup-etape6.svg",
+      "titre": "Perte du proton : la quinoléine",
+      "legende": "L'ALCOOLATE REPREND LE PROTON de l'azote. Les deux cycles sont aromatiques, et la quinone est devenue un hydroquinone.",
+      "fleches": [
+        "L'alcoolate prend le proton porté par l'azote.",
+        "Et l'azote récupère son doublet : la quinoléine est aromatique."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "synthese_skraup-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "LA QUINOLÉINE. Deux cycles accolés partageant une liaison, l'azote dans le cycle à six non benzénique.\n\nLA VERSION TRADITIONNELLE ÉTAIT UN CHAUDRON DE SORCIÈRE, et Clayden ne le cache pas (p. 782) : « le nom disgracieux de la réaction de Skraup s'applique justement à la pire des synthèses hétérocycliques ». On mélangeait l'amine aromatique, l'acide sulfurique concentré, du GLYCÉROL et du NITROBENZÈNE, et l'on chauffait le tout à plus de 100 °C dans un gros ballon muni d'un large réfrigérant. Le glycérol devait fournir l'acroléine par déshydratation, le nitrobenzène servir d'oxydant — et le large réfrigérant… Trop souvent, note Clayden, les réactions de Skraup partaient effectivement, avec des résultats destructeurs. Certains chimistes y ont ajouté des oxydants étranges : acide arsénique, sels de fer(III), sels d'étain(IV), iode.\n\nLA VERSION MODERNE EST SAGE : on prépare d'abord l'adduit conjugué, on le cyclise en milieu acide, puis on l'oxyde par une quinone comme la DDQ.\n\nUN EXEMPLE QUI MARCHE TRÈS BIEN (Clayden p. 782) : l'ortho-aminophénol n'a qu'une seule position ortho libre et il est très nucléophile ; l'acroléine suffit en milieu faiblement acide, avec du fer(III) comme oxydant. On obtient l'OXINE — la 8-quinoléinol — à 90 %. Ce composé forme des complexes remarquablement stables avec Mg(II) ou Al(III), et sert d'inhibiteur de corrosion sur le cuivre.\n\nLES QUINOLONES SE FONT AUTREMENT : elles portent toutes un acide carboxylique en position 3, ce qui suggère de partir du malonate. L'énol éther du diéthylmalonate et de l'orthoformate réagit avec l'amine aromatique par addition-élimination, et l'énamine cyclise au chauffage. C'est la voie des antibiotiques de la famille des quinolones (Clayden p. 782).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
