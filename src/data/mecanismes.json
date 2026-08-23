@@ -17155,5 +17155,869 @@
         "valide": false
       }
     ]
+  },
+  "synthese_knorr_pyrazoles": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'hydrazine s'additionne sur l'un des deux carbonyles",
+        "smiles": "CC(=O)CC(=O)CCC.N([H])([H])N([H])[H]",
+        "legende": "DEUX AZOTES DÉJÀ LIÉS L'UN À L'AUTRE, et un composé dicarbonylé-1,3 : comptez, et vous trouvez cinq atomes. C'est un cycle à cinq qui se prépare, avec ses deux azotes côte à côte — un PYRAZOLE.\n\nLA MÉTHODE DE DÉCOUPE EST TOUJOURS LA MÊME (Clayden p. 758-760) : on coupe les liaisons carbone–azote, et il reste le squelette de carbone. Une dicétone-1,3 donne un cycle à cinq avec l'hydrazine ; une dicétone-1,4 en donnerait un à six.\n\nL'AVANTAGE DE L'HYDRAZINE : ses deux azotes sont déjà attachés. Il n'y a pas de liaison N–N à construire — la nature du réactif l'apporte.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                1
+              ]
+            },
+            "courbure": -0.3,
+            "libelle": "Un azote de l'hydrazine attaque le premier carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.5,
+            "libelle": "Le doublet du carbonyle se replie sur son oxygène."
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                10
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Cet oxygène reprend aussitôt un proton à l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.3,
+            "libelle": "Et l'azote garde le doublet."
+          }
+        ],
+        "produit_attendu": "CC(O[H])(N([H])N([H])[H])CC(=O)CCC",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'acide protone l'alcool",
+        "smiles": "CC(O[H])(N([H])N([H])[H])CC(=O)CCC.[O+]([H])([H])[H]",
+        "legende": "GESTE HABITUEL : le OH devient de l'eau, donc un groupe partant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                16
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcool prend un proton à l'oxonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                16,
+                15
+              ]
+            },
+            "vers": {
+              "atome": 15
+            },
+            "courbure": 0.4,
+            "libelle": "L'eau repart avec le doublet."
+          }
+        ],
+        "produit_attendu": "CC([O+]([H])[H])(N([H])N([H])[H])CC(=O)CCC.O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'eau part : on tient l'hydrazone",
+        "smiles": "CC([O+]([H])[H])(N([H])N([H])[H])CC(=O)CCC.O([H])[H]",
+        "legende": "L'AZOTE POUSSE SON DOUBLET, l'eau s'en va, et l'on obtient une HYDRAZONE — l'imine d'une hydrazine.\n\nCETTE HYDRAZONE EST STABLE et souvent isolable : l'azote voisin lui prête ses électrons, ce qui remonte sa LUMO et la rend moins attaquable qu'une imine ordinaire (Clayden p. 232).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.3,
+            "libelle": "La liaison C–O se rompt : l'eau part."
+          },
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'azote pousse son doublet : la double liaison C=N se forme."
+          },
+          {
+            "de": {
+              "atome": 16
+            },
+            "vers": {
+              "liaison": [
+                16,
+                6
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Une molécule d'eau prend le proton en trop."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.45,
+            "libelle": "Et l'azote redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(=NN([H])[H])CC(=O)CCC.O([H])[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le second azote se referme sur l'autre carbonyle",
+        "smiles": "CC(=NN([H])[H])CC(=O)CCC",
+        "legende": "LE SECOND AZOTE N'A RIEN FAIT JUSQU'ICI. Il porte encore ses deux hydrogènes et son doublet, et l'autre cétone est à portée. Le cycle à cinq se referme.\n\nCOMPTEZ UNE DERNIÈRE FOIS : les deux azotes, les deux carbones qui portaient les oxygènes, et celui qui les sépare. Cinq.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                7
+              ]
+            },
+            "courbure": -0.5,
+            "libelle": "Le second azote attaque le carbone de l'autre cétone."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.5,
+            "libelle": "Le doublet du carbonyle se replie sur son oxygène."
+          },
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                4
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Cet oxygène reprend un proton à l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.4,
+            "libelle": "Et l'azote garde le doublet."
+          }
+        ],
+        "produit_attendu": "CC1=NN([H])C(O[H])(CCC)C1",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Une dernière déshydratation, et le cycle est AROMATIQUE",
+        "smiles": "CC1=NN([H])C(O[H])(CCC)C1([H])[H].[O+]([H])([H])[H]",
+        "legende": "L'EAU PART, UN PROTON PART, et le pyrazole apparaît. Six électrons π sur cinq atomes : l'aromaticité est acquise, et c'est elle qui a tiré toute la séquence.\n\nPAS BESOIN D'OXYDANT ICI, contrairement à la synthèse des pyridazines (Clayden p. 760) : l'imine et l'énamine formées suffisent à donner l'aromaticité au cycle à cinq. Un cycle à six en aurait demandé un.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                15
+              ]
+            },
+            "courbure": -0.3,
+            "libelle": "L'acide protone l'alcool : il devient un groupe partant."
+          },
+          {
+            "de": {
+              "liaison": [
+                15,
+                14
+              ]
+            },
+            "vers": {
+              "atome": 14
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau formée reprend le doublet."
+          },
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                12
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Cette eau prend aussitôt un proton du carbone saturé."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "vers": {
+              "liaison": [
+                11,
+                5
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet C–H forme la double liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.5,
+            "libelle": "Et l'eau part avec le doublet de la liaison C–O."
+          }
+        ],
+        "produit_attendu": "Cc1cc(CCC)[nH]n1.O([H])[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Ce qu'on obtient",
+        "smiles": "Cc1cc(CCC)[nH]n1",
+        "legende": "UN PYRAZOLE, deux azotes voisins dans un cycle à cinq.\n\nLE MÊME GESTE AVEC L'HYDROXYLAMINE DONNE UN ISOXAZOLE (Clayden p. 772-773) : remplacez H₂N–NH₂ par H₂N–OH, et l'azote-oxygène prend la place de l'azote-azote.\n\nMAIS LÀ, UNE QUESTION SE POSE : lequel des deux bouts de l'hydroxylamine attaque en premier ? L'azote, dira-t-on — et c'est vrai, mais cela dépend du pH. L'hydroxylamine est vendue en chlorhydrate ; il faut une base pour la libérer.\n• Avec la pyridine ou l'acétate de sodium, on engendre un peu de NH₂OH neutre, et c'est l'AZOTE qui attaque — on obtient l'isoxazole attendu.\n• Avec NaOEt, on engendre l'ANION, dont la charge est sur l'oxygène, et la régiochimie peut basculer.\nSur un céto-aldéhyde, l'hydroxylamine tamponnée à l'acétate donne l'isoxazole par attaque de l'azote sur l'aldéhyde, le plus électrophile des deux.\n\nET SI LES DEUX CARBONYLES SONT DIFFÉRENTS ET L'HYDRAZINE DISSYMÉTRIQUE ? Le problème devient sérieux, et Clayden montre comment on le contourne (p. 769) : on emploie l'hydrazine SYMÉTRIQUE, on obtient un seul pyrazole, et l'on méthyle ensuite — le sulfate de diméthyle étant le meilleur réactif. L'alkylation est elle-même régiosélective, parce que l'azote méthylé doit devenir l'azote « de type pyrrole » et que la molécule préfère le système conjugué le plus long.\n\nCE PYRAZOLE-LÀ CONDUIT AU VIAGRA. L'acide pyrazolique obtenu par hydrolyse de l'ester est un intermédiaire clé de sa production : nitration sur la seule position libre, puis amidification et réduction (Clayden p. 769).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "cyclisation_imidazoles_thiazoles": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le SOUFRE attaque l'halogénure : mou avec mou",
+        "smiles": "CC(=S)N([H])[H].CC(=O)CBr",
+        "legende": "UN THIOAMIDE PORTE DEUX NUCLÉOPHILES — un azote et un soufre — et l'électrophile en face en porte deux aussi : une cétone et un carbone halogéné. Quatre combinaisons sont concevables. Une seule se produit, et la raison est belle (Clayden p. 772).\n\nLA RÈGLE DUR/MOU. Un carbonyle est un électrophile DUR : sa réaction est commandée par les charges, et il réagit donc le mieux avec les nucléophiles basiques — l'azote. Un halogénure d'alkyle est un électrophile MOU : sa réaction est commandée par les orbitales frontières, et il réagit le mieux avec les gros nucléophiles peu chargés des lignes basses du tableau — le soufre.\n\nLA CÉTONE RÉAGIT DONC AVEC L'AZOTE, ET L'HALOGÉNURE AVEC LE SOUFRE. Dur avec dur, mou avec mou.\n\nD'OÙ VIENT LE THIOAMIDE : d'un amide ordinaire traité par P₂S₅ ou le réactif de Lawesson. Les thioamides sont parmi les rares dérivés thiocarbonylés stables.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                9
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le soufre attaque le carbone porteur du brome."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": 0.4,
+            "libelle": "Le bromure part : c'est une SN2 ordinaire."
+          }
+        ],
+        "produit_attendu": "CC(=[S+]CC(C)=O)N([H])[H].[Br-]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le bromure reprend un proton",
+        "smiles": "CC(=[S+]CC(C)=O)N([H])[H].[Br-]",
+        "legende": "DÉPROTONATION BANALE, et l'on obtient un thioimidate neutre : S–C=N. L'azote porte de nouveau un doublet libre, et il en aura besoin.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le bromure prend un proton à l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                1
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet forme la double liaison C=N."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.45,
+            "libelle": "Et le soufre récupère son doublet : il redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(SCC(C)=O)=N[H].[H]Br",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'AZOTE attaque la cétone : dur avec dur",
+        "smiles": "CC(SCC(C)=O)=N[H]",
+        "legende": "MAINTENANT L'AZOTE JOUE SON RÔLE. Il se replie sur la cétone et ferme le cycle à cinq.\n\nCOMPTEZ : l'azote, le carbone qui le porte, le soufre, le carbone qui vient d'être alkylé, et celui de la cétone. Cinq atomes, deux hétéroatomes — c'est un THIAZOLE.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                4
+              ]
+            },
+            "courbure": -0.5,
+            "libelle": "L'azote attaque le carbone de la cétone."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.5,
+            "libelle": "Le doublet du carbonyle se replie sur son oxygène."
+          },
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                8
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Cet oxygène reprend le proton porté par l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.5,
+            "libelle": "Et l'azote garde le doublet."
+          }
+        ],
+        "produit_attendu": "CC1=NC(C)(O[H])CS1",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Déshydratation : le thiazole est aromatique",
+        "smiles": "CC1=NC(C)(O[H])C([H])([H])S1.[O+]([H])([H])[H]",
+        "legende": "L'EAU PART, UN PROTON PART, et le cycle devient aromatique. Le soufre y apporte un doublet, comme dans le thiophène.\n\nPAS BESOIN D'OXYDANT : les cycles à cinq atteignent l'aromaticité avec les seules imine et énamine formées.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                12
+              ]
+            },
+            "courbure": -0.3,
+            "libelle": "L'acide protone l'alcool."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": 0.35,
+            "libelle": "L'eau formée reprend le doublet."
+          },
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                8
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Cette eau prend un proton du carbone saturé."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                3
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet C–H forme la double liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.5,
+            "libelle": "Et l'eau part avec le doublet de la liaison C–O."
+          }
+        ],
+        "produit_attendu": "Cc1csc(C)n1.O([H])[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "Cc1csc(C)n1",
+        "legende": "UN THIAZOLE : un azote et un soufre dans le même cycle à cinq, séparés par un carbone.\n\nL'EXEMPLE DE CLAYDEN EST LE FENTIAZAC (p. 772), un anti-inflammatoire non stéroïdien : on le déconnecte en thiobenzamide et en une α-halogénocétone facile à faire, puisque la cétone de départ ne peut s'énoliser que d'un côté.\n\nL'IMIDAZOLE SE FAIT SUR LE MÊME PLAN, avec une amidine — H₂N–C(=NH)–R — à la place du thioamide : c'est alors un azote qui prend la place du soufre. Et la même logique gouverne le choix : les deux azotes d'une amidine ne sont pas équivalents dès qu'ils portent des substituants différents.\n\nDEUX HÉTÉROCYCLES À SOUFRE QU'ON RENCONTRE PARTOUT : la vitamine B₁ (thiamine) porte un thiazole, et le noyau des pénicillines en dérive. Le timolol, un bêta-bloquant, porte un 1,2,5-thiadiazole (Clayden p. 752).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "chimie_purines_pyrimidines": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'amidine s'additionne sur l'un des carbonyles",
+        "smiles": "CC(=N[H])N([H])[H].CC(=O)CC(C)=O",
+        "legende": "UNE AMIDINE PORTE DEUX AZOTES SUR LE MÊME CARBONE, et un composé dicarbonylé-1,3 porte deux carbones électrophiles séparés par un troisième. Comptez : deux azotes plus trois carbones plus le carbone de l'amidine — SIX. C'est une PYRIMIDINE.\n\nPOURQUOI ELLE EST DIRECTEMENT AROMATIQUE (Clayden p. 760) : le nucléophile contient DÉJÀ une double liaison, celle de l'amidine. Avec l'hydrazine, un cycle à six exigerait une oxydation ; ici non.\n\nLES PYRIMIDINES SONT PARTOUT DANS LE VIVANT : la cytosine, la thymine et l'uracile de l'ADN et de l'ARN sont des pyrimidines. Les purines — adénine et guanine — sont des pyrimidines auxquelles un imidazole est accolé.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                8
+              ]
+            },
+            "courbure": -0.3,
+            "libelle": "Un azote de l'amidine attaque le premier carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet du carbonyle se replie sur son oxygène."
+          },
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                5
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Cet oxygène reprend un proton à l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.45,
+            "libelle": "Et l'azote garde le doublet."
+          }
+        ],
+        "produit_attendu": "CC(=N[H])N([H])C(C)(O[H])CC(C)=O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'acide protone l'alcool",
+        "smiles": "CC(=N[H])N([H])C(C)(O[H])CC(C)=O.[O+]([H])([H])[H]",
+        "legende": "GESTE HABITUEL DE TOUTE CONDENSATION : le OH devient de l'eau, donc un groupe partant.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                15
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'alcool prend un proton à l'oxonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                15,
+                14
+              ]
+            },
+            "vers": {
+              "atome": 14
+            },
+            "courbure": 0.4,
+            "libelle": "L'eau repart avec le doublet."
+          }
+        ],
+        "produit_attendu": "CC(=N[H])N([H])C(C)([O+]([H])[H])CC(C)=O.O([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'eau part : la première double liaison est en place",
+        "smiles": "CC(=N[H])N([H])C(C)([O+]([H])[H])CC(C)=O.O([H])[H]",
+        "legende": "L'AZOTE POUSSE SON DOUBLET, l'eau s'en va, et il ne reste qu'à refermer. Comptez ce qui est déjà fait : une double liaison venue de l'amidine, une seconde venue de cette condensation. Il en faudra trois pour un cycle à six aromatique — la troisième viendra de la dernière déshydratation, et AUCUN OXYDANT ne sera nécessaire.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                6,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.3,
+            "libelle": "La liaison C–O se rompt : l'eau part."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                6
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'azote pousse son doublet."
+          },
+          {
+            "de": {
+              "atome": 15
+            },
+            "vers": {
+              "liaison": [
+                15,
+                5
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Une molécule d'eau prend le proton en trop."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.45,
+            "libelle": "Et l'azote redevient neutre."
+          }
+        ],
+        "produit_attendu": "CC(=N[H])N=C(C)CC(C)=O.O([H])[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le second azote se referme sur l'autre carbonyle",
+        "smiles": "CC(=N[H])N=C(C)CC(C)=O",
+        "legende": "L'AUTRE AZOTE DE L'AMIDINE — celui qui porte la double liaison — attaque à son tour. Le cycle à six se referme.\n\nREMARQUEZ QUE L'AMIDINE EST SYMÉTRIQUE ICI : ses deux azotes sont équivalents, et la question de savoir lequel attaque en premier ne se pose pas. Avec une amidine substituée, elle se poserait.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                8
+              ]
+            },
+            "courbure": -0.5,
+            "libelle": "Le second azote attaque le carbone de l'autre cétone."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.4,
+            "libelle": "Le doublet du carbonyle se replie sur son oxygène."
+          },
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                3
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Cet oxygène reprend le proton porté par l'azote."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.5,
+            "libelle": "Et l'azote garde le doublet."
+          }
+        ],
+        "produit_attendu": "CC1=NC(C)(O[H])CC(C)=N1",
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Déshydratation : la pyrimidine est aromatique",
+        "smiles": "CC1=NC(C)(O[H])C([H])([H])C(C)=N1.[O+]([H])([H])[H]",
+        "legende": "L'EAU PART, UN PROTON PART, et le cycle à six devient aromatique. Aucun oxydant n'a été nécessaire : la double liaison apportée par l'amidine a suffi.\n\nC'EST TOUTE LA DIFFÉRENCE AVEC LA SYNTHÈSE DE HANTZSCH, où l'ammoniac n'apporte aucune insaturation et où il faut donc oxyder à la fin. Un seul réactif change, et toute la stratégie avec lui.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                14
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "L'acide protone l'alcool."
+          },
+          {
+            "de": {
+              "liaison": [
+                14,
+                13
+              ]
+            },
+            "vers": {
+              "atome": 13
+            },
+            "courbure": 0.5,
+            "libelle": "L'eau formée reprend le doublet."
+          },
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                8
+              ]
+            },
+            "courbure": -0.5,
+            "libelle": "Cette eau prend un proton du carbone saturé."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                3
+              ]
+            },
+            "courbure": -0.35,
+            "libelle": "Le doublet C–H forme la double liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": 0.5,
+            "libelle": "Et l'eau part avec le doublet de la liaison C–O."
+          }
+        ],
+        "produit_attendu": "Cc1cc(C)nc(C)n1.O([H])[H].[O+]([H])([H])[H]",
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "Ce qu'on obtient",
+        "smiles": "Cc1cc(C)nc(C)n1",
+        "legende": "UNE PYRIMIDINE : deux azotes en position 1 et 3 d'un cycle à six.\n\nAVEC LA GUANIDINE À LA PLACE DE L'AMIDINE, on obtient une aminopyrimidine — c'est ainsi qu'on fabrique le TRIMÉTHOPRIME, un antibactérien (Clayden p. 771). La condensation donne d'abord un OH sur le cycle, qu'une substitution nucléophile à la mode des pyridones — POCl₃, puis NH₃ — transforme en NH₂.\n\nLES PURINES SONT DES PYRIMIDINES AUXQUELLES ON A ACCOLÉ UN IMIDAZOLE. Clayden montre comment le second cycle se ferme (p. 770), et fait remarquer que l'attaque de l'azote d'un amide sur le carbonyle d'un autre amide « ne se produirait sûrement pas si le produit n'était pas un hétérocycle aromatique ». L'aromaticité paie tout.\n\nCE QUE CES CYCLES FONT DANS LE VIVANT : l'adénine et la guanine sont des purines ; la cytosine, la thymine et l'uracile sont des pyrimidines. Ce sont les cinq lettres de l'ADN et de l'ARN.\n\nET LEUR CHIMIE DÉRAILLE PARFOIS (Clayden p. 751) : l'acide urique, une purine, sert aux oiseaux et un peu aux humains à évacuer l'azote en excès. Chez nous, cristallisé dans les articulations, il cause la GOUTTE. Le remède est l'ALLOPURINOL, une molécule qui ressemble à la purine substrat de la xanthine oxydase : elle se fixe sur l'enzyme et ne réagit pas. Une inhibition compétitive par un imposteur.\n\nSA SYNTHÈSE EST UNE AUTRE « POTION DE SORCIÈRE » (Clayden p. 758) : de l'hydrazine, un cyano-ester et du formamide. « Il n'est pas trop difficile de voir où vont les atomes — mais auriez-vous planifié cette synthèse ? »",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

@@ -491,6 +491,18 @@
     "substrat": "synthese_skraup-substrat.svg",
     "produit": "synthese_skraup-produit.svg"
   },
+  "synthese_knorr_pyrazoles": {
+    "substrat": "synthese_knorr_pyrazoles-substrat.svg",
+    "produit": "synthese_knorr_pyrazoles-produit.svg"
+  },
+  "cyclisation_imidazoles_thiazoles": {
+    "substrat": "cyclisation_imidazoles_thiazoles-substrat.svg",
+    "produit": "cyclisation_imidazoles_thiazoles-produit.svg"
+  },
+  "chimie_purines_pyrimidines": {
+    "substrat": "chimie_purines_pyrimidines-substrat.svg",
+    "produit": "chimie_purines_pyrimidines-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -947,6 +959,13 @@
   "phenylhydrazine-ex0": {
     "substrat": "phenylhydrazine-ex0-substrat.svg",
     "produit": "phenylhydrazine-ex0-produit.svg"
+  },
+  "lawesson": {
+    "molecule": "reactif-lawesson.svg"
+  },
+  "lawesson-ex0": {
+    "substrat": "lawesson-ex0-substrat.svg",
+    "produit": "lawesson-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

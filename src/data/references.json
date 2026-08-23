@@ -2854,6 +2854,108 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "synthese_knorr_pyrazoles": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "760",
+          "note": "La règle du comptage : une dicétone-1,4 et l'hydrazine donnent une pyridazine, cycle à six qu'il faut ensuite OXYDER ; une dicétone-1,3 donne un pyrazole, cycle à cinq où « l'imine et l'énamine formées suffisent à donner l'aromaticité sans aucun besoin d'oxydation »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "768",
+          "note": "Un exemple complet : le céto-ester trifluorométhylé et l'hydrazine dans EtOH/H₂O, puis aromatisation par Br₂/HOAc, chloration par POCl₃ et substitution par le méthanol."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "769",
+          "note": "Le problème de régiosélectivité et sa solution : avec un dicarbonylé dissymétrique et une hydrazine substituée, on ne sait pas quel azote va sur quel carbonyle. On emploie donc l'hydrazine SYMÉTRIQUE (62 %), puis on méthyle au sulfate de diméthyle — l'alkylation étant elle-même régiosélective, « parce que l'azote méthylé doit devenir l'azote de type pyrrole et que la molécule préfère le système conjugué le plus long ». Cet acide pyrazolique est un intermédiaire clé de la production du Viagra."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "772",
+          "note": "Les isoxazoles à partir de l'hydroxylamine : le thioamide et sa forme tautomère, et l'introduction du principe dur/mou."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "773",
+          "note": "La régiochimie des isoxazoles dépend du pH : « l'extrémité la plus nucléophile de NH₂OH attaquera le carbonyle le plus électrophile — mais laquelle c'est dépend du pH de la solution ». Les bases faibles (pyridine, acétate de sodium) engendrent du NH₂OH neutre réactif ; NaOEt engendre l'anion. Sur un céto-aldéhyde tamponné à l'acétate, l'azote attaque l'aldéhyde."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cyclisation_imidazoles_thiazoles": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "772",
+          "note": "Le principe dur/mou appliqué : le thioamide porte deux nucléophiles, l'α-halogénocétone deux électrophiles. « Les carbonyles sont des électrophiles DURS — leurs réactions sont principalement sous contrôle de charge et ils réagissent donc le mieux avec des nucléophiles basiques. Les halogénures d'alkyle sont des électrophiles MOUS — leurs réactions sont principalement sous contrôle orbitalaire frontière et ils réagissent le mieux avec de gros nucléophiles non chargés des lignes basses du tableau. La cétone réagit avec l'azote et l'halogénure d'alkyle avec le soufre. » Le thioamide, tautomère stable obtenu d'un amide par P₂S₅ ou le réactif de Lawesson. Exemple : le fentiazac."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "752",
+          "note": "Les hétérocycles à soufre dans la nature et la pharmacie : le 1,2,5-thiadiazole du timolol, un bêta-bloquant."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "chimie_purines_pyrimidines": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "760",
+          "note": "Pourquoi l'amidine donne directement une pyrimidine aromatique : « comme le nucléophile contient déjà une double liaison, une pyrimidine aromatique se forme directement ». Comparaison avec l'hydrazine et les dicétones-1,4, qui exigent une oxydation."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "770",
+          "note": "La fermeture du second cycle d'une purine : « l'attaque nucléophile de l'azote d'un amide sur le carbonyle d'un autre ne se produirait sûrement pas si le produit n'était pas un hétérocycle aromatique »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "771",
+          "note": "La synthèse du triméthoprime : condensation avec la guanidine donnant une pyrimidine portant un OH, converti en NH₂ par POCl₃ puis NH₃ — « la substitution nucléophile aromatique à la manière des pyridones du chapitre 29 »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "751",
+          "note": "L'acide urique, la goutte et l'allopurinol : « il imite non pas l'acide urique mais le vrai substrat, la xanthine, de façon compétitive » — il se fixe sur la xanthine oxydase et l'inactive en NE réagissant PAS. L'enzyme ne jouant qu'un rôle mineur dans le métabolisme humain, l'inhiber n'est pas grave."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "752",
+          "note": "Comment distinguer les trois diazines par RMN : pyridazine (azotes 1,2 ; J = 8,8 et 5,1 Hz), pyrimidine (1,3 ; J = 5,0 Hz), pyrazine (1,4 ; J = 1,8 Hz). Tous leurs protons résonnent vers les champs faibles, 7,6 à 9,2 ppm : « nous avons un cycle déblindé, pauvre en électrons, et non un cycle blindé, riche en électrons »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "758",
+          "note": "La synthèse de l'allopurinol, exemple de « potion de sorcière » : hydrazine, cyano-ester et formamide. « Il n'est pas trop difficile de voir où vont les atomes — mais auriez-vous planifié cette synthèse ? »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
+          "pages": "232",
+          "note": "Pourquoi les oximes, hydrazones et semicarbazones sont stables alors que les imines ordinaires ne le sont pas : le substituant électronégatif participe à la délocalisation de la double liaison C=N, diminue la charge positive du carbone et remonte la LUMO."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

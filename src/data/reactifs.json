@@ -2451,5 +2451,40 @@
         "note": "Un solide isolable"
       }
     ]
+  },
+  {
+    "id": "lawesson",
+    "nom": "Réactif de Lawesson",
+    "nom_complet": "réactif de Lawesson",
+    "SMILES": "COC1=CC=C(C=C1)P1(=S)SP(=S)(S1)C1=CC=C(OC)C=C1",
+    "role": "Il échange un oxygène contre un soufre",
+    "anatomie_annotations": [
+      {
+        "partie": "le cycle à quatre P₂S₂",
+        "role": "Il s'ouvre en solution pour donner deux fragments réactifs. Chacun porte un phosphore et un soufre prêts à échanger."
+      },
+      {
+        "partie": "la liaison P=S",
+        "role": "C'est le soufre qu'elle apporte. En échange, le phosphore prend l'oxygène du carbonyle — et forme la liaison P=O, l'une des plus solides de la chimie."
+      },
+      {
+        "partie": "les deux méthoxyphényles",
+        "role": "Ils solubilisent le réactif dans les solvants organiques, là où P₂S₅ reste une poudre difficile."
+      }
+    ],
+    "reactions_liees": [
+      "cyclisation_imidazoles_thiazoles",
+      "synthese_paal_knorr"
+    ],
+    "explication_reference": "Réactif de thionation : il convertit les carbonyles en thiocarbonyles, principalement les amides en thioamides et les cétones en thiocétones.\n\nLa force motrice est l'échange d'une liaison P=S contre une liaison P=O, beaucoup plus forte. Le cycle P₂S₂ s'ouvre en solution en deux ditiophosphines réactives.\n\nUsage principal en synthèse hétérocyclique : préparer le thioamide qui, avec une α-halogénocétone, livre un thiazole (Clayden p. 772) ; ou convertir les deux carbonyles d'une dicétone-1,4 en thiocarbonyles pour obtenir un thiophène (Clayden p. 759). Les thiocétones étant bien moins stables que les cétones, la cyclisation qui suit est immédiate.\n\nAlternative historique : P₂S₅, moins soluble et moins commode.",
+    "explication_comprendre": "POURQUOI FAUT-IL UN RÉACTIF SPÉCIAL POUR METTRE UN SOUFRE ?\n\nParce qu'on ne peut pas simplement verser du sulfure d'hydrogène sur un carbonyle et espérer un thiocarbonyle. L'équilibre ne va pas dans ce sens.\n\nIL FAUT DONC UNE FORCE MOTRICE, et c'est le phosphore qui la fournit.\n\nLe réactif de Lawesson porte des liaisons phosphore–soufre. Quand il rencontre un carbonyle, il échange : le soufre passe sur le carbone, l'oxygène passe sur le phosphore.\n\nPourquoi cet échange est-il favorable ? Parce que la liaison PHOSPHORE–OXYGÈNE est l'une des plus solides de toute la chimie — bien plus que la liaison phosphore–soufre qu'on sacrifie. Le phosphore y gagne, donc la réaction se fait.\n\nVous avez déjà croisé ce ressort : c'est le même qui fait marcher la réaction de Wittig, et celui qui pousse PCl₃ à arracher l'oxygène d'un N-oxyde.\n\nÀ QUOI ÇA SERT DANS CE CHAPITRE : à fabriquer des THIOAMIDES, qui sont le point de départ des thiazoles. Notez que les thioamides sont stables, alors que les thiocétones ne le sont pas — l'azote voisin les stabilise. Cette instabilité des thiocétones est d'ailleurs un atout : quand on convertit une dicétone-1,4 en dithiocétone, elle se cyclise aussitôt en thiophène.\n\nSA FORME EST CURIEUSE : un cycle à quatre où alternent deux phosphores et deux soufres. En solution, ce cycle s'ouvre en deux morceaux, et ce sont eux qui réagissent.\n\nPOURQUOI LUI PLUTÔT QUE P₂S₅ : les deux méthoxyphényles le rendent soluble dans les solvants organiques. P₂S₅ est une poudre qu'on manipule mal.",
+    "reactions_exemples": [
+      {
+        "nom": "Amide → thioamide",
+        "substrat_SMILES": "CC(=O)N",
+        "produit_SMILES": "CC(=S)N",
+        "note": "La liaison P=O est la force motrice"
+      }
+    ]
   }
 ]

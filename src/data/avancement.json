@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-23",
   "total": 289,
-  "redigees": 125,
-  "verifiees": 119,
+  "redigees": 128,
+  "verifiees": 122,
   "relues": 0,
   "familles": [
     {
@@ -973,9 +973,9 @@
       "famille": "Hétérocycles",
       "bloc": "Socle organique",
       "total": 11,
-      "absente": 3,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 8,
+      "verifiee": 11,
       "relue": 0,
       "reactions": [
         {
@@ -1030,16 +1030,16 @@
         {
           "nom": "Synthèse de Knorr des pyrazoles et isoxazoles",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_knorr_pyrazoles",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cyclisation vers les imidazoles et les thiazoles",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cyclisation_imidazoles_thiazoles",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Métallation dirigée d'un hétérocycle",
@@ -1051,9 +1051,9 @@
         {
           "nom": "Chimie des purines et des pyrimidines",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "chimie_purines_pyrimidines",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

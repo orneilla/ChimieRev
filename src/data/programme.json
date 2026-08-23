@@ -725,12 +725,12 @@
         {
           "nom": "Synthèse de Knorr des pyrazoles et isoxazoles",
           "niveau": "M1",
-          "id": null
+          "id": "synthese_knorr_pyrazoles"
         },
         {
           "nom": "Cyclisation vers les imidazoles et les thiazoles",
           "niveau": "M1",
-          "id": null
+          "id": "cyclisation_imidazoles_thiazoles"
         },
         {
           "nom": "Métallation dirigée d'un hétérocycle",
@@ -740,7 +740,7 @@
         {
           "nom": "Chimie des purines et des pyrimidines",
           "niveau": "M2",
-          "id": null
+          "id": "chimie_purines_pyrimidines"
         }
       ],
       "bloc": "Socle organique"
