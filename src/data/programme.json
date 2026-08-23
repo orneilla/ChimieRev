@@ -690,17 +690,17 @@
         {
           "nom": "Substitution électrophile du pyrrole, du furane et du thiophène",
           "niveau": "L3",
-          "id": null
+          "id": "substitution_electrophile_pyrrole"
         },
         {
           "nom": "Substitution nucléophile de la pyridine",
           "niveau": "L3",
-          "id": null
+          "id": "substitution_nucleophile_pyridine"
         },
         {
           "nom": "Oxydation de la pyridine en N-oxyde et réactivité",
           "niveau": "M1",
-          "id": null
+          "id": "pyridine_n_oxyde"
         },
         {
           "nom": "Synthèse de Paal-Knorr des furanes, pyrroles et thiophènes",
@@ -735,7 +735,7 @@
         {
           "nom": "Métallation dirigée d'un hétérocycle",
           "niveau": "M2",
-          "id": null
+          "id": "metallation_heterocycle"
         },
         {
           "nom": "Chimie des purines et des pyrimidines",

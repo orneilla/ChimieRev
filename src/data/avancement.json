@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-23",
   "total": 289,
-  "redigees": 117,
-  "verifiees": 111,
+  "redigees": 121,
+  "verifiees": 115,
   "relues": 0,
   "familles": [
     {
@@ -973,31 +973,31 @@
       "famille": "Hétérocycles",
       "bloc": "Socle organique",
       "total": 11,
-      "absente": 11,
+      "absente": 7,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 4,
       "relue": 0,
       "reactions": [
         {
           "nom": "Substitution électrophile du pyrrole, du furane et du thiophène",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "substitution_electrophile_pyrrole",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Substitution nucléophile de la pyridine",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "substitution_nucleophile_pyridine",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Oxydation de la pyridine en N-oxyde et réactivité",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "pyridine_n_oxyde",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Paal-Knorr des furanes, pyrroles et thiophènes",
@@ -1044,9 +1044,9 @@
         {
           "nom": "Métallation dirigée d'un hétérocycle",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "metallation_heterocycle",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Chimie des purines et des pyrimidines",

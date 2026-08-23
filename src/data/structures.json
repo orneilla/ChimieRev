@@ -459,6 +459,22 @@
     "substrat": "rearrangement_wolff-substrat.svg",
     "produit": "rearrangement_wolff-produit.svg"
   },
+  "substitution_electrophile_pyrrole": {
+    "substrat": "substitution_electrophile_pyrrole-substrat.svg",
+    "produit": "substitution_electrophile_pyrrole-produit.svg"
+  },
+  "substitution_nucleophile_pyridine": {
+    "substrat": "substitution_nucleophile_pyridine-substrat.svg",
+    "produit": "substitution_nucleophile_pyridine-produit.svg"
+  },
+  "pyridine_n_oxyde": {
+    "substrat": "pyridine_n_oxyde-substrat.svg",
+    "produit": "pyridine_n_oxyde-produit.svg"
+  },
+  "metallation_heterocycle": {
+    "substrat": "metallation_heterocycle-substrat.svg",
+    "produit": "metallation_heterocycle-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -887,6 +903,20 @@
   "nh2oh-ex0": {
     "substrat": "nh2oh-ex0-substrat.svg",
     "produit": "nh2oh-ex0-produit.svg"
+  },
+  "pocl3": {
+    "molecule": "reactif-pocl3.svg"
+  },
+  "pocl3-ex0": {
+    "substrat": "pocl3-ex0-substrat.svg",
+    "produit": "pocl3-ex0-produit.svg"
+  },
+  "pcl3": {
+    "molecule": "reactif-pcl3.svg"
+  },
+  "pcl3-ex0": {
+    "substrat": "pcl3-ex0-substrat.svg",
+    "produit": "pcl3-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

@@ -5319,5 +5319,192 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "substitution_electrophile_pyrrole": {
+    "1": {
+      "fichier": "substitution_electrophile_pyrrole-etape1.svg",
+      "titre": "Le cycle attaque l'électrophile par sa position 2",
+      "legende": "TOUT EST À L'ENVERS DE LA PYRIDINE. Le doublet de l'azote n'est pas libre ici : il fait partie du sextuor aromatique, délocalisé sur tout le cycle. Résultat, le cycle est RICHE en électrons — sa HOMO est haute — et il attaque les électrophiles bien plus volontiers que le benzène.\n\nCOMBIEN PLUS VOLONTIERS ? Assez pour que le brome n'ait besoin d'AUCUN acide de Lewis, et substitue les quatre positions libres d'un coup (Clayden p. 733). Comparez la pyridine, qui ne réagit qu'une fois, et sur son azote.\n\nL'ÉLECTROPHILE EMPLOYÉ ICI est un iminium, CH₂=NMe₂⁺, formé sur place à partir de formaldéhyde et de diméthylamine : c'est la réaction de MANNICH, dont vous avez la fiche. Sur le N-méthylpyrrole elle donne proprement le produit en position 2 (Clayden p. 734).",
+      "fleches": [
+        "Le carbone 2 attaque le carbone de l'iminium.",
+        "Le doublet C=N se replie sur l'azote, qui redevient neutre.",
+        "La seconde double liaison du cycle se déplace d'un cran.",
+        "Et le doublet de l'azote vient combler le trou."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "substitution_electrophile_pyrrole-etape2.svg",
+      "titre": "L'acétate reprend le proton : le cycle se réaromatise",
+      "legende": "COMME DANS TOUTE SUBSTITUTION ÉLECTROPHILE AROMATIQUE, la dernière étape est la perte du proton porté par le carbone attaqué. C'est elle qui rend l'aromaticité et qui fait de l'ensemble une SUBSTITUTION et non une addition.\n\nPOURQUOI LA POSITION 2 ET NON LA 3 (Clayden p. 735) : les deux mécanismes s'écrivent aussi bien, et les deux se produisent. Mais le cation intermédiaire de l'attaque en 2 possède un système conjugué LINÉAIRE — ses deux doubles liaisons sont conjuguées avec l'azote positif. Celui de l'attaque en 3 est « conjugué en croix », donc moins stabilisé. La différence est faible mais réelle, et le calcul confirme que la HOMO du pyrrole a son plus gros coefficient en position 2.\n\nET SI LES POSITIONS 2 ET 5 SONT BLOQUÉES ? La réaction se fait proprement en 3. C'est ainsi qu'on fabrique le clopirac ; le tolmétine, lui, vient de l'attaque en 2. Deux anti-inflammatoires, deux positions.",
+      "fleches": [
+        "L'acétate prend le proton du carbone sp³.",
+        "Le doublet C–H reforme une double liaison.",
+        "L'autre double liaison se remet en place.",
+        "Et l'azote récupère son doublet : le cycle est aromatique de nouveau."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "substitution_electrophile_pyrrole-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "LA BASE DE MANNICH, substituée en position 2. Deux étapes de plus la transforment en TOLMÉTINE, un anti-inflammatoire non stéroïdien (Clayden p. 734).\n\nLE PROBLÈME INVERSE DE CELUI DU BENZÈNE : le pyrrole est si réactif qu'il faut parfois FREINER la substitution. On le fait en bloquant la position 2 par un ester, qu'on hydrolyse et décarboxyle ensuite par simple chauffage (Clayden p. 735). Un groupe protecteur qui s'évapore.\n\nLE FURANE ET LE THIOPHÈNE SE COMPORTENT DE MÊME, avec un tempérament différent. Le thiophène ressemble beaucoup au pyrrole. Le furane est MOINS aromatique : quand une addition permet de former des liaisons C–O solides, il la préfère à la substitution. Le brome dans le méthanol ne le bromme pas du tout — il donne un diacétal (Clayden p. 736).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "substitution_nucleophile_pyridine": {
+    "1": {
+      "fichier": "substitution_nucleophile_pyridine-etape1.svg",
+      "titre": "Le nucléophile s'additionne en position 2",
+      "legende": "CE QUE LE BENZÈNE NE SAIT PAS FAIRE, la pyridine le fait sans effort. Un chlorobenzène ne réagit avec l'ammoniac qu'à 300 °C et sous pression ; la 2-chloropyridine réagit dans les conditions ordinaires.\n\nPOURQUOI : l'azote est ÉLECTRONÉGATIF et abaisse toutes les orbitales du système π. La LUMO est basse, donc accessible ; et l'anion qui va se former sera stabilisé par délocalisation, l'azote portant la charge.\n\nNE PENSEZ PAS SNAr, PENSEZ CARBONYLE (Clayden p. 728). Clayden insiste : ces réactions ressemblent bien plus à une addition sur un carbonyle qu'à une SNAr. L'intermédiaire est un « intermédiaire tétraédrique » qui expulse ensuite le meilleur groupe partant pour retrouver l'aromaticité. Une 2- ou 4-chloropyridine se comporte comme un CHLORURE D'ACYLE ; une 2-méthoxypyridine comme un ESTER.",
+      "fleches": [
+        "L'ammoniac attaque le carbone 2, celui qui porte le chlore.",
+        "Le doublet C=N se replie sur l'azote du cycle : il porte la charge."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "substitution_nucleophile_pyridine-etape2.svg",
+      "titre": "Le chlorure part : l'aromaticité revient",
+      "legende": "L'ANION EST STABILISÉ mais il n'est pas aromatique, et c'est cela qui le presse. Le doublet de l'azote redescend dans le cycle, le chlorure part, et le sextuor aromatique se reforme.\n\nPOURQUOI SEULEMENT EN 2 ET EN 4 : c'est là, et seulement là, que la charge négative de l'intermédiaire peut atteindre l'azote. En position 3, elle resterait sur des carbones — beaucoup moins bien portée. La règle est la même que pour les positions ortho et para d'un nitrobenzène.\n\nLE GROUPE PARTANT N'A PAS BESOIN D'ÊTRE BON : un méthoxy suffit, comme un ester suffit là où l'on aurait pu prendre un chlorure d'acyle. C'est ainsi qu'on fabrique la flupirtine, un analgésique, à partir d'une 2-méthoxypyridine (Clayden p. 728).",
+      "fleches": [
+        "Le doublet de l'azote du cycle redescend.",
+        "Et le chlorure part avec son doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "substitution_nucleophile_pyridine-etape3.svg",
+      "titre": "Le chlorure reprend le proton",
+      "legende": "DERNIÈRE DÉPROTONATION, et l'amine est neutre. On tient la 2-aminopyridine.",
+      "fleches": [
+        "Le chlorure prend l'un des protons de l'ammonium.",
+        "L'azote récupère son doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "substitution_nucleophile_pyridine-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "LA 2-AMINOPYRIDINE. Les thiolates marchent aussi bien que les amines ; sur la 4-chloropyridine, la réaction se fait pareillement en para.\n\nD'OÙ VIENNENT LES CHLOROPYRIDINES ? De la même chimie, un cran plus tôt (Clayden p. 728-729). Le point de départ est une PYRIDONE : la 2-hydroxypyridine préfère très largement sa forme tautomère amide, aromatique elle aussi. On la traite par POCl₃, qui transforme son oxygène en groupe partant — exactement comme il transforme un amide en chlorure d'imidoyle.\n\nCE QU'IL FAUT RETENIR : la pyridine est mauvaise en substitution électrophile et excellente en substitution nucléophile. Le benzène est l'inverse. Un seul atome d'azote renverse toute la réactivité.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "pyridine_n_oxyde": {
+    "1": {
+      "fichier": "pyridine_n_oxyde-etape1.svg",
+      "titre": "Le peracide oxyde l'azote",
+      "legende": "LE PROBLÈME À RÉSOUDRE (Clayden p. 730) : on veut nitrer la pyridine, et c'est impossible. Deux obstacles à la fois. D'abord le cycle est PAUVRE en électrons, donc peu attaquable. Ensuite l'azote est basique et nucléophile : dans un mélange HNO₃/H₂SO₄, il se contente d'être protoné — et l'ion pyridinium est totalement inerte.\n\nLA RUSE, ET ELLE EST ÉLÉGANTE : un seul atome règle les deux problèmes. On oxyde l'azote en N-OXYDE. L'azote n'est alors plus disponible pour les électrophiles, et l'oxygène qu'il porte peut renvoyer ses électrons dans le cycle — la HOMO remonte.\n\nL'OXYDATION EST BANALE : le m-CPBA, ou simplement H₂O₂ dans l'acide acétique. L'azote attaque l'oxygène porteur de l'hydrogène, exactement comme un alcène le fait dans une époxydation.",
+      "fleches": [
+        "Le doublet de l'azote attaque l'oxygène porteur de l'hydrogène.",
+        "La liaison O–O se rompt ; ses électrons vont vers le carbone.",
+        "Le doublet du carbonyle va chercher le proton.",
+        "Et l'oxygène garde le doublet de la liaison O–H."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "pyridine_n_oxyde-etape2.svg",
+      "titre": "Le cycle attaque enfin l'électrophile, en position 4",
+      "legende": "LE N-OXYDE EST UNE ESPÈCE DIPOLAIRE STABLE, dont les électrons de l'oxygène se délocalisent dans le cycle. La HOMO est remontée, et l'attaque électrophile devient possible.\n\nOÙ SE FAIT-ELLE : en 2 (ortho) et en 4 (para) — les positions que l'oxygène peut atteindre par délocalisation. Et principalement en 4, dit Clayden, pour s'éloigner de l'azote positivement chargé.\n\nLE CATION FORMÉ EST BIEN TENU : la charge remonte jusqu'à l'azote, et l'oxygène la neutralise en formant une double liaison N=O. C'est tout l'intérêt du montage.",
+      "fleches": [
+        "Le carbone 4 attaque l'azote du nitronium.",
+        "L'un des doublets N=O se replie sur l'oxygène.",
+        "La double liaison du cycle se déplace pour combler le trou.",
+        "Et l'oxygène du N-oxyde pousse : la liaison N=O se forme."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "pyridine_n_oxyde-etape3.svg",
+      "titre": "L'eau reprend le proton",
+      "legende": "PERTE DU PROTON, comme dans toute substitution électrophile aromatique, et le cycle redevient aromatique. On tient le N-oxyde de la 4-nitropyridine — ce que la pyridine seule ne savait pas donner.",
+      "fleches": [
+        "L'eau prend le proton du carbone attaqué.",
+        "Le doublet C–H reforme la double liaison.",
+        "L'autre double liaison se remet en place.",
+        "Et l'oxygène reprend sa charge négative."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "pyridine_n_oxyde-etape4.svg",
+      "titre": "Le phosphore vient chercher l'oxygène",
+      "legende": "IL FAUT MAINTENANT RETIRER L'OXYGÈNE, puisqu'il n'était qu'un échafaudage. Un composé du phosphore trivalent s'en charge : PCl₃, ou (MeO)₃P.\n\nCOMMENT (Clayden p. 730) : le phosphore détache l'oxygène EN UNE SEULE ÉTAPE, et ce qui l'y pousse est la formation de la liaison P=O, l'une des plus solides qui soient. Clayden note que le phosphore agit ici à la fois en nucléophile et en électrophile — surtout en électrophile, puisque PCl₃ y est plus réactif que (MeO)₃P.\n\nLES TROIS FLÈCHES DISENT EXACTEMENT CELA : l'oxygène donne un doublet au phosphore, le phosphore lui en rend un, et la liaison N–O se rompt en laissant son doublet à l'azote.",
+      "fleches": [
+        "L'oxygène donne un doublet au phosphore.",
+        "Le phosphore lui rend le sien : la double liaison P=O se forme.",
+        "Et la liaison N–O se rompt : l'azote récupère son doublet."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "pyridine_n_oxyde-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "LA 4-NITROPYRIDINE, qu'on ne pouvait obtenir directement. Trois opérations : oxyder, substituer, désoxygéner.\n\nLE MÊME ÉCHAFAUDAGE SERT AUSSI AUX NUCLÉOPHILES (Clayden p. 730) : l'azote positif du N-oxyde encourage l'attaque nucléophile, et l'oxygène peut ensuite être transformé en groupe partant par PCl₃. Une seule activation, deux réactivités opposées — c'est ce que résume l'encadré de Clayden p. 731 : « les N-oxydes de pyridine sont utiles pour la substitution électrophile ET nucléophile, sur les mêmes carbones du cycle (2, 4 et 6) ».\n\nUN COUSIN À CONNAÎTRE : avec un anhydride d'acide, et si la position 2 porte un méthyle, l'acétate finit par migrer sur la chaîne latérale — par un réarrangement sigmatropique [3,3], celui-là même que vous avez vu chez Claisen (Clayden p. 731).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "metallation_heterocycle": {
+    "1": {
+      "fichier": "metallation_heterocycle-etape1.svg",
+      "titre": "Le butyllithium arrache le proton de la position α",
+      "legende": "UNE TROISIÈME VOIE, à côté de la substitution électrophile et de la substitution nucléophile : on fabrique un CARBANION et on lui présente ensuite l'électrophile de son choix.\n\nPOURQUOI LE PROTON DE LA POSITION α EST-IL LE PLUS ACIDE ? Deux raisons qui vont dans le même sens. D'abord l'hétéroatome est électronégatif : il attire les électrons par effet inductif et stabilise la charge négative qui naît juste à côté. Ensuite ce même hétéroatome porte des doublets libres qui COORDONNENT le lithium et l'amènent au bon endroit — c'est le mécanisme même de l'ortholithiation (Clayden p. 564).\n\nLE RÉSULTAT EST DONC RÉGIOSÉLECTIF SANS QU'ON AIT RIEN À FAIRE : le lithium se place en 2, ou en 5 si la 2 est occupée. Ici le 2-méthylfurane est lithié en 5 (Clayden p. 738).",
+      "fleches": [
+        "La liaison carbone–lithium prend le proton de la position 5.",
+        "Et le doublet de la liaison C–H se fixe sur le lithium : le carbone est métallé."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "metallation_heterocycle-etape2.svg",
+      "titre": "Le carbanion attaque l'électrophile",
+      "legende": "CES COMPOSÉS LITHIÉS SONT TRÈS RÉACTIFS et se combinent avec presque tous les électrophiles (Clayden p. 738). Ici c'est une simple alkylation par un halogénure ; ce pourrait être un aldéhyde, un ester, du CO₂, du DMF.\n\nCE QUE CELA PERMET, ET QU'AUCUNE AUTRE MÉTHODE NE PERMET : mettre à la position α un groupe qu'aucun électrophile n'y mettrait. La substitution électrophile impose un électrophile ; ici on impose un NUCLÉOPHILE, donc l'inverse.\n\nUNE APPLICATION QUI BOUCLE LA BOUCLE (Clayden p. 737-738) : le furane alkylé ainsi, traité par l'acide aqueux, s'ouvre en DICÉTONE-1,4 — ses deux liaisons sont des éthers d'énol. Et une dicétone-1,4, vous le verrez au chapitre suivant, se referme en furane. Le furane est donc à la fois un produit et un GROUPE PROTECTEUR de dicétone-1,4.",
+      "fleches": [
+        "Le carbone lithié attaque le carbone porteur du brome.",
+        "Le bromure part."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "metallation_heterocycle-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "LE 2,5-DIMÉTHYLFURANE. L'important n'est pas le produit mais la MÉTHODE : on a placé un groupe carboné en position α sans passer par un électrophile.\n\nLE MÊME PRINCIPE, SUR D'AUTRES CYCLES : le thiophène se lithie encore plus facilement que le furane ; le pyrrole doit d'abord voir son N–H protégé, sans quoi c'est lui qui est déprotoné en premier (son pKa est de 16,5, contre 35 environ pour un C–H de cycle).\n\nSUR UN BENZÈNE, LE MÊME GESTE S'APPELLE ORTHOLITHIATION (Clayden p. 564) : un méthoxy, une amine tertiaire, un amide dirigent le butyllithium sur le proton voisin. Les meilleurs groupes directeurs ont un doublet à donner au lithium ET sont électronégatifs, de sorte qu'ils stabilisent l'anion formé. Un hétérocycle porte les deux qualités dans le même atome.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

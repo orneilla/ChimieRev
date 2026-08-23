@@ -2662,6 +2662,108 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "substitution_electrophile_pyrrole": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "733",
+          "note": "Pourquoi le pyrrole est si réactif : le doublet de l'azote est délocalisé dans le cycle, qui devient riche en électrons. Le brome y substitue les quatre positions libres sans aucun acide de Lewis, là où la pyridine ne réagit qu'une fois, et sur son azote. pKa du N–H : 16,5 ; pKa comme base : environ −4, la protonation se faisant sur un carbone."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "734",
+          "note": "La réaction de Vilsmeier (POCl₃ + amide) et la réaction de Mannich sur le pyrrole, toutes deux avec leur mécanisme. Le N-méthylpyrrole réagit proprement en 2 ; un pyrrole dont les positions 2 et 5 sont bloquées réagit proprement en 3. Applications : tolmétine et clopirac, deux anti-inflammatoires."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "735",
+          "note": "L'explication de la régiosélectivité : l'intermédiaire de l'attaque en 2 a un système conjugué LINÉAIRE — ses deux doubles liaisons sont conjuguées avec N⁺ — tandis que celui de l'attaque en 3 est conjugué en croix. Le calcul confirme que la HOMO du pyrrole a son plus gros coefficient en position 2. Et l'astuce du groupe bloquant ester, retiré ensuite par hydrolyse et décarboxylation."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "736",
+          "note": "Le furane est MOINS aromatique que le pyrrole : si une addition permet de former des liaisons C–O solides, il la préfère à la substitution. Le brome dans le méthanol donne un diacétal ; dans les autres solvants, une polybromation."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "738",
+          "note": "La substitution nucléophile sur ces cycles est rare et exige un groupe activant — nitro, carbonyle, sulfonyle. Exemple : la synthèse du kétorolac, où le groupe partant est un sulfinate."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "substitution_nucleophile_pyridine": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "727",
+          "note": "Pourquoi la pyridine est mauvaise en substitution électrophile : ses orbitales π sont plus basses, l'azote déstabilise le cation intermédiaire, et surtout son doublet basique capte les acides — le mélange HNO₃/H₂SO₄ ne fait que la protoner, et l'ion pyridinium est totalement inerte. Les acides de Lewis d'une acylation se fixent eux aussi sur l'azote."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "728",
+          "note": "Le mécanisme complet de la substitution nucléophile en 2 : addition du nucléophile, anion stabilisé par délocalisation sur l'azote, départ du meilleur groupe partant. Clayden insiste : « ces réactions ressemblent plus à des réactions de carbonyle » — l'intermédiaire est un intermédiaire tétraédrique. Les 2- et 4-chloropyridines réagissent comme des chlorures d'acyle, les alcoxypyridines comme des esters. Exemple : la synthèse de la flupirtine."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "729",
+          "note": "D'où viennent les chloropyridines : la 2-hydroxypyridine préfère très largement sa forme tautomère amide, la PYRIDONE, aromatique elle aussi — au contraire du phénol. POCl₃ transforme son oxygène en groupe partant, exactement comme un acide devient chlorure d'acyle. La 3-hydroxypyridine, qui existe sous forme phénol, ne se prête pas à la réaction."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "pyridine_n_oxyde": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "730",
+          "note": "La ruse du N-oxyde, exposée en entier : oxydation par m-CPBA ou H₂O₂/AcOH, délocalisation des électrons de l'oxygène dans le cycle qui remonte la HOMO, nitration en 2 et surtout en 4 pour s'éloigner de l'azote positif, puis désoxygénation par PCl₃ ou (MeO)₃P — le phosphore agissant à la fois en nucléophile et en électrophile, mais surtout en électrophile. Et la même activation ouvre la voie à la substitution nucléophile."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "731",
+          "note": "L'encadré : « les N-oxydes de pyridine sont utiles pour la substitution électrophile comme nucléophile, sur les mêmes carbones du cycle — 2, 4 et 6 ». Et l'addition d'un anhydride sur un N-oxyde portant un méthyle en 2, dont l'acétate migre sur la chaîne latérale, peut-être par un réarrangement sigmatropique [3,3]."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "metallation_heterocycle": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "737",
+          "note": "Le furane comme groupe protecteur de dicétone-1,4 : l'hydrolyse acide de ses deux éthers d'énol rouvre le cycle, et la réaction est réversible — une dicétone-1,4 se referme en furane."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: reactions",
+          "pages": "738",
+          "note": "La métallation en pratique : « 1. BuLi, Et₂O ; 2. BrCH₂Ar » sur le 2-méthylfurane, lithié en 5. « Ces composés lithiés sont très réactifs et se combinent avec la plupart des électrophiles. » L'hydrolyse acide du produit livre la dicétone-1,4, qu'une aldolisation intramoléculaire cyclise ensuite en cyclopenténone."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Regioselectivity",
+          "pages": "564",
+          "note": "Le mécanisme de l'ortholithiation, transposable à tous les hétérocycles : le lithium, acide de Lewis, se coordonne au doublet de l'hétéroatome, ce qui l'amène sur le proton voisin. « Les meilleurs groupes directeurs ont des doublets à donner au lithium et sont aussi électronégatifs, de sorte qu'ils retirent des électrons au cycle et stabilisent l'anion qui se forme. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

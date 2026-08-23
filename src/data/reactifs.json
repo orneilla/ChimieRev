@@ -2321,5 +2321,70 @@
         "note": "Le substrat du Beckmann"
       }
     ]
+  },
+  {
+    "id": "pocl3",
+    "nom": "POCl₃",
+    "nom_complet": "oxychlorure de phosphore",
+    "SMILES": "O=P(Cl)(Cl)Cl",
+    "role": "Il transforme un oxygène en groupe partant, et rien ne le retient",
+    "anatomie_annotations": [
+      {
+        "partie": "le phosphore",
+        "role": "Électrophile : un oxygène nucléophile vient s'y fixer. Le phosphore accepte volontiers une cinquième liaison."
+      },
+      {
+        "partie": "la liaison P=O déjà formée",
+        "role": "Elle indique où va la réaction : le phosphore ne rend jamais un oxygène. Cette liaison est l'une des plus solides de la chimie."
+      },
+      {
+        "partie": "les trois chlores",
+        "role": "Ils partent en chlorure, et l'un d'eux revient souvent comme nucléophile sur le carbone activé."
+      }
+    ],
+    "reactions_liees": [
+      "substitution_electrophile_pyrrole",
+      "substitution_nucleophile_pyridine"
+    ],
+    "explication_reference": "Réactif d'activation des oxygènes, employé pour convertir un carbonyle en centre électrophile porteur d'un bon groupe partant.\n\nSur une pyridone, l'oxygène attaque le phosphore et devient un phosphate — dès lors excellent groupe partant. Une substitution nucléophile aromatique par le chlorure libère la 2- ou 4-chloropyridine. Clayden souligne l'analogie avec la formation d'un chlorure d'acyle à partir d'un acide (p. 729). La réaction n'opère pas sur la 3-hydroxypyridine, qui existe sous forme phénol et non pyridone.\n\nSur un amide, la même activation donne un chlorure d'imidoyle, qui perd HCl pour livrer un cation iminium : c'est le premier temps de la réaction de VILSMEIER. Avec le DMF, l'iminium formé est l'équivalent d'un cation formyle, et il formyle les cycles riches — pyrroles, furanes, indoles — là où une acylation de Friedel-Crafts échouerait (Clayden p. 734).\n\nSert aussi à déshydrater les amides en nitriles et les alcools en alcènes.",
+    "explication_comprendre": "À QUOI SERT UN RÉACTIF QUI NE FAIT QUE PRENDRE UN OXYGÈNE ?\n\nÀ rendre partant ce qui ne l'était pas.\n\nVoici le problème général. Un oxygène de carbonyle, ou un OH, ne quitte jamais une molécule tout seul : il faudrait libérer un ion oxyde ou un hydroxyde, deux espèces beaucoup trop basiques. Tant qu'on ne fait rien, l'oxygène reste.\n\nPOCl₃ change cela d'un seul geste. L'oxygène vient se fixer sur son phosphore, et il devient alors un PHOSPHATE — c'est-à-dire un groupe qui, lui, part très volontiers, parce que sa charge négative est étalée sur plusieurs atomes.\n\nPOURQUOI LE PHOSPHORE ACCEPTE, ET NE REND JAMAIS.\n\nRegardez la molécule : elle contient déjà une liaison P=O. C'est la marque de fabrique du phosphore — il forme avec l'oxygène l'une des liaisons les plus solides de toute la chimie. Une fois qu'il a pris un second oxygène, la réaction ne revient pas en arrière.\n\nDEUX USAGES QU'IL FAUT CONNAÎTRE.\n\nLe premier : fabriquer les chloropyridines. Une pyridone — c'est-à-dire une pyridine portant un carbonyle — traitée par POCl₃ donne la chloropyridine correspondante. Clayden note que c'est exactement le même geste que la transformation d'un acide carboxylique en chlorure d'acyle.\n\nLe second : la réaction de VILSMEIER, qui sert à mettre un groupe CHO sur un cycle riche. POCl₃ active un amide — en général le DMF, le plus banal des solvants — et en fait un iminium, c'est-à-dire un équivalent du cation formyle. Ce cation attaque le pyrrole, et l'hydrolyse finale libère l'aldéhyde. Une acylation de Friedel-Crafts classique n'y parviendrait pas.\n\nÀ LA PAILLASSE : liquide fumant, il réagit violemment avec l'eau en donnant de l'acide phosphorique et de l'acide chlorhydrique. On travaille à l'abri de l'humidité, et l'on détruit l'excès avec précaution.",
+    "reactions_exemples": [
+      {
+        "nom": "Pyridone → chloropyridine",
+        "substrat_SMILES": "O=C1NC=CC=C1",
+        "produit_SMILES": "ClC1=CC=CC=N1",
+        "note": "L'oxygène devient groupe partant"
+      }
+    ]
+  },
+  {
+    "id": "pcl3",
+    "nom": "PCl₃",
+    "nom_complet": "trichlorure de phosphore",
+    "SMILES": "ClP(Cl)Cl",
+    "role": "Il enlève un oxygène : le phosphore trivalent veut sa liaison P=O",
+    "anatomie_annotations": [
+      {
+        "partie": "le phosphore TRIVALENT",
+        "role": "Il lui manque une liaison par rapport au phosphore(V). Son doublet libre en fait un nucléophile ; son déficit d'électrons, un électrophile. Il joue les deux rôles à la fois."
+      },
+      {
+        "partie": "l'absence de liaison P=O",
+        "role": "C'est ce qui le distingue de POCl₃. Toute sa chimie consiste à aller chercher l'oxygène qui lui manque."
+      }
+    ],
+    "reactions_liees": [
+      "pyridine_n_oxyde"
+    ],
+    "explication_reference": "Réactif de désoxygénation, employé notamment sur les N-oxydes d'azines.\n\nLe phosphore(III) détache l'oxygène en une seule étape, la force motrice étant la formation de la liaison P=O. Clayden précise qu'il y agit à la fois en nucléophile et en électrophile, mais principalement en électrophile — PCl₃ est à cet égard plus réactif que le phosphite de triméthyle (MeO)₃P (p. 730).\n\nSert également à convertir les alcools en chlorures d'alkyle avec inversion de configuration, et les acides carboxyliques en chlorures d'acyle.",
+    "explication_comprendre": "UN ATOME QUI CHERCHE SON OXYGÈNE.\n\nLe phosphore existe sous deux régimes : à trois liaisons, ou à cinq. À trois liaisons, il lui reste un doublet libre — et surtout, il lui manque la liaison P=O qui le comblerait.\n\nToute la chimie de PCl₃ tient dans cette envie.\n\nCE QU'IL FAIT DE PLUS ÉLÉGANT : retirer l'oxygène d'un N-oxyde.\n\nQuand on a nitré une pyridine en passant par son N-oxyde, il faut ensuite défaire l'échafaudage. PCl₃ s'en charge en une seule étape, dit Clayden.\n\nRegardez les flèches du mécanisme : l'oxygène donne un doublet au phosphore, le phosphore lui en rend un, et la liaison N–O se rompt. Le phosphore est donc à la fois celui qui donne et celui qui reçoit — nucléophile et électrophile dans le même geste. Clayden ajoute qu'il agit surtout en électrophile, puisque PCl₃ y est plus réactif que le phosphite de triméthyle, pourtant meilleur nucléophile.\n\nNE LE CONFONDEZ PAS AVEC POCl₃. Les deux se ressemblent à une lettre près, mais ils font l'inverse l'un de l'autre. POCl₃ a déjà son oxygène : il DONNE un groupe partant. PCl₃ n'en a pas : il PREND l'oxygène. L'un active, l'autre désoxygène.\n\nSON AUTRE USAGE COURANT : transformer un alcool en chlorure d'alkyle. Le même principe — l'oxygène de l'alcool se fixe sur le phosphore, devient partant, et un chlorure attaque le carbone par-derrière. L'inversion de configuration est totale.",
+    "reactions_exemples": [
+      {
+        "nom": "Désoxygénation d'un N-oxyde",
+        "substrat_SMILES": "[O-][N+]1=CC=CC=C1",
+        "produit_SMILES": "C1=CC=NC=C1",
+        "note": "La liaison P=O est la force motrice"
+      }
+    ]
   }
 ]
