@@ -4618,5 +4618,260 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "retro_diels_alder": {
+    "1": {
+      "fichier": "retro_diels_alder-etape1.svg",
+      "titre": "Les mêmes flèches, dans l'autre sens",
+      "legende": "UNE RÉACTION PÉRICYCLIQUE EST RÉVERSIBLE PAR CONSTRUCTION : rien n'interdit aux électrons de tourner dans l'autre sens. Le mécanisme de la rétro-Diels-Alder est donc EXACTEMENT celui de la Diels-Alder, lu à l'envers — trois flèches en cercle, deux liaisons σ qui redeviennent deux liaisons π.\n\nCE QUI DÉCIDE DU SENS N'EST PAS LE MÉCANISME MAIS LA THERMODYNAMIQUE. Deux liaisons σ valent mieux que deux liaisons π : l'enthalpie pousse vers l'adduit. Mais deux molécules ont plus d'entropie qu'une : l'entropie pousse vers la coupure. Comme ΔG = ΔH − TΔS, il suffit de CHAUFFER pour que le terme entropique l'emporte (Clayden p. 249).",
+      "fleches": [
+        "Une liaison σ se rompt et devient une double liaison.",
+        "La double liaison du cycle se déplace.",
+        "Et la seconde liaison σ se rompt à son tour."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "retro_diels_alder-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le diène et le diénophile, séparés de nouveau. Sur le cyclohexène l'opération demande une température très élevée ; mais dès que l'un des fragments est un GAZ STABLE — CO₂, N₂, l'éthylène — la réaction devient facile et irréversible.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "woodward_hoffmann": {
+    "1": {
+      "fichier": "woodward_hoffmann-etape1.svg",
+      "titre": "Une réaction PERMISE : la Diels-Alder",
+      "legende": "LA RÈGLE (Clayden p. 892) : « Dans une réaction péricyclique thermique, le nombre total de composantes (4q+2)s et (4r)a doit être IMPAIR. »\n\nCOMMENT ON COMPTE ICI. Deux composantes : le diène, qui apporte 4 électrons — c'est une composante π4, de type (4r) —, et l'alcène, qui en apporte 2 — π2, de type (4q+2). Toutes deux réagissent SUPRAFACIALEMENT, c'est-à-dire en formant leurs deux nouvelles liaisons du même côté.\n\nOn compte donc : une composante (4q+2)s — l'alcène — et zéro composante (4r)a. Total = 1. IMPAIR : la réaction est permise.\n\nCE QUI NE COMPTE PAS : les composantes (4q+2)a et (4r)s. On peut en avoir autant qu'on veut.",
+      "fleches": [
+        "La première liaison π du diène se déplace.",
+        "La seconde forme une nouvelle liaison σ.",
+        "Et la liaison π de l'alcène ferme le cycle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "woodward_hoffmann-etape2.svg",
+      "titre": "Une réaction INTERDITE : le [2+2] thermique",
+      "legende": "LES FLÈCHES SONT IMPECCABLES — et pourtant la réaction ne se produit pas au chauffage.\n\nCOMPTONS. Deux composantes π2, toutes deux (4q+2), toutes deux suprafaciales. Total = 2. PAIR : la réaction est INTERDITE.\n\nCE QUE CELA VOUS APPREND, ET C'EST L'ESSENTIEL DE CETTE FICHE : des flèches courbes correctes ne suffisent pas à garantir qu'une réaction a lieu. On peut toujours dessiner un jeu de flèches cohérent ; la SYMÉTRIE DES ORBITALES, elle, ne se dessine pas — et c'est elle qui décide.\n\nDeux alcènes chauffés ensemble ne donnent pas de cyclobutane. Il faut de la lumière.",
+      "fleches": [
+        "Une liaison π forme une nouvelle liaison σ.",
+        "L'autre ferme le cycle à quatre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "woodward_hoffmann-etape3.svg",
+      "titre": "La même, sous LUMIÈRE : permise",
+      "legende": "SOUS ÉCLAIREMENT, LES RÈGLES S'INVERSENT (Clayden p. 897) : tout ce qui est interdit thermiquement devient permis, et réciproquement.\n\nPOURQUOI. La lumière promeut un électron de l'orbitale π vers l'orbitale π* de l'un des deux alcènes. Le problème de symétrie disparaît : en combinant l'état excité de l'un avec l'état fondamental de l'autre, TROIS électrons descendent en énergie et un seul monte. La liaison peut se faire.\n\nLes flèches, elles, sont les mêmes. C'est bien la preuve qu'elles ne disent pas tout.",
+      "fleches": [
+        "Une liaison π forme une nouvelle liaison σ.",
+        "L'autre ferme le cycle à quatre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "woodward_hoffmann-etape4.svg",
+      "titre": "Et une électrocyclisation, pour finir",
+      "legende": "Le butadiène se referme en cyclobutène. UNE SEULE composante ici : le système π4 tout entier, qui réagit AVEC LUI-MÊME. Pour que le compte soit impair, il faut qu'il réagisse ANTARAFACIALEMENT — c'est-à-dire que les deux bouts forment leurs liaisons sur des faces opposées.\n\nCONSÉQUENCE VISIBLE, ET ELLE SE MESURE : les deux substituants des extrémités tournent DANS LE MÊME SENS. On appelle cela CONROTATOIRE, et la stéréochimie du produit le prouve.",
+      "fleches": [
+        "La première liaison π se déplace vers le centre.",
+        "La seconde ferme le cycle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "cycloaddition_dipolaire": {
+    "1": {
+      "fichier": "cycloaddition_dipolaire-etape1.svg",
+      "titre": "Trois atomes, quatre électrons : le dipôle-1,3 attaque",
+      "legende": "POUR FAIRE UN CYCLE À CINQ, IL FAUT UN « DIÈNE » DE TROIS ATOMES. C'est exactement ce qu'est un dipôle-1,3 : trois atomes, quatre électrons, une extrémité nucléophile — ici l'oxygène négatif — et une extrémité électrophile — le carbone du bout, activé par l'azote positif. Ces deux extrémités sont en relation 1,3, d'où le nom (Clayden p. 901).\n\nLes flèches tournent comme dans une Diels-Alder, mais sur cinq atomes au lieu de six.",
+      "fleches": [
+        "L'oxygène négatif attaque un carbone de l'alcène.",
+        "La liaison π de l'alcène forme la nouvelle liaison carbone–carbone.",
+        "Et la double liaison C=N se replie sur l'azote, qui redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cycloaddition_dipolaire-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une isoxazolidine : deux hétéroatomes dans un cycle à cinq.\n\nCE QU'ON EN FAIT, ET C'EST TOUT L'INTÉRÊT (Clayden p. 902) : presque jamais on ne garde ce cycle. On coupe sa liaison N–O, qui est faible, par LiAlH₄, par le zinc dans l'acide acétique, ou par hydrogénation sur nickel. On obtient alors une amine et un alcool en relation 1,3 — avec toute la stéréochimie fixée par la cycloaddition.\n\nAUTREMENT DIT : le cycle n'est pas le but, c'est un GABARIT.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "electrocyclisation": {
+    "1": {
+      "fichier": "electrocyclisation-etape1.svg",
+      "titre": "Six électrons : fermeture DISROTATOIRE",
+      "legende": "UNE SEULE MOLÉCULE, ET AUCUN PARTENAIRE : les deux bouts d'un polyène conjugué se joignent, et une liaison σ apparaît là où il n'y avait rien. C'est une ÉLECTROCYCLISATION.\n\nICI SIX ÉLECTRONS π, donc un système (4n+2). La règle dit alors DISROTATOIRE : les deux extrémités tournent en sens CONTRAIRES — l'une dans le sens des aiguilles, l'autre à l'inverse (Clayden p. 925).\n\nCE QUI SE VOIT : sur un octatriène portant deux méthyles aux extrémités, on obtient UN SEUL diastéréoisomère, celui où les deux méthyles sont du même côté (syn). Clayden note qu'un tel résultat serait très difficile à expliquer sans les règles de Woodward-Hoffmann.",
+      "fleches": [
+        "La première liaison π se déplace.",
+        "La deuxième aussi.",
+        "Et la troisième ferme le cycle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "electrocyclisation-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le cyclohexa-1,3-diène. Ce qui distingue une électrocyclisation de toutes les autres réactions péricycliques, c'est l'ampleur des ROTATIONS : dans une cycloaddition ou un réarrangement sigmatropique, les angles s'ajustent de 109° à 120° ; ici, il faut faire tourner les extrémités de près de 90° (Clayden p. 925). C'est pour cela que la stéréochimie y est si parlante.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "electrocyclisation-etape3.svg",
+      "titre": "Quatre électrons : ouverture CONROTATOIRE",
+      "legende": "LA MÊME RÉACTION, EN SENS INVERSE, ET AVEC DEUX ÉLECTRONS DE MOINS. Le cyclobutène s'ouvre en butadiène : quatre électrons π, système (4n), et la règle bascule — CONROTATOIRE. Les deux extrémités tournent DANS LE MÊME SENS.\n\nREGARDEZ LES DEUX MÉTHYLES : ils sont ici du même côté du cycle — c'est le syn-1,2-diméthylcyclobutène, sous le nom que lui donne Clayden (p. 925). Ce sont EUX qui portent la preuve : ce sont les deux carbones qui les tiennent qui doivent tourner de près de 90° pour que le cycle s'ouvre.\n\nLA PREUVE EXPÉRIMENTALE (Clayden p. 925) : chauffé, il ne donne QU'UN seul isomère géométrique, le E,Z-hexa-2,4-diène. Une ouverture disrotatoire donnerait l'isomère E,E ou Z,Z — qu'on n'observe pas.\n\nRETENEZ LES DEUX LIGNES :\n• thermique, (4n+2) électrons → DISROTATOIRE\n• thermique, (4n) électrons → CONROTATOIRE\nEt sous lumière, tout s'inverse.",
+      "fleches": [
+        "La liaison σ qui joint les deux carbones porteurs de méthyle se rompt : ce sont eux qui vont tourner.",
+        "Et la liaison π se déplace d'un cran, pour donner le second doublet du diène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "rearrangement_cope": {
+    "1": {
+      "fichier": "rearrangement_cope-etape1.svg",
+      "titre": "Une liaison σ traverse la molécule",
+      "legende": "REGARDEZ CE QUI SE PASSE, ET C'EST DÉROUTANT LA PREMIÈRE FOIS : une liaison simple carbone–carbone DISPARAÎT d'un endroit et RÉAPPARAÎT à un autre, six atomes plus loin. Aucun intermédiaire, aucun ion, aucun radical — trois flèches en cercle, et c'est fini.\n\nPOURQUOI « [3,3] » (Clayden p. 910) : numérotez 1 les deux extrémités de l'ancienne liaison σ, puis comptez en vous éloignant dans les deux sens. Les deux extrémités de la NOUVELLE liaison portent toutes deux le numéro 3. D'où le nom.\n\nL'ÉTAT DE TRANSITION EST UNE CHAISE : six atomes disposés comme un cyclohexane. C'est cette géométrie qui rend la réaction si stéréosélective.",
+      "fleches": [
+        "L'ancienne liaison σ se rompt et devient une double liaison.",
+        "Une liaison π forme la nouvelle liaison σ, six atomes plus loin.",
+        "Et l'autre liaison π se déplace d'un cran."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "rearrangement_cope-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le 3-méthylhexa-1,5-diène est devenu l'hepta-1,5-diène. Même formule brute, squelette différent.\n\nCE QUI DÉCIDE DU SENS (Clayden p. 913) : la symétrie orbitalaire autorise le [3,3] DANS LES DEUX SENS. C'est donc la stabilité qui tranche — ici une double liaison plus substituée, ailleurs la conjugaison.\n\nD'OÙ L'ASTUCE DU COPE ANIONIQUE (Clayden p. 914) : si l'un des carbones porte un alcool, on le déprotone par KH. Le produit est alors un ÉNOLATE, bien plus stable que l'alcoolate de départ — et la réaction, autrement lente, devient rapide et irréversible. C'est ainsi qu'on a fabriqué des alcènes de tête de pont, en dilatant un cycle à quatre en cycle à huit.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "rearrangement_claisen": {
+    "1": {
+      "fichier": "rearrangement_claisen-etape1.svg",
+      "titre": "Le [3,3] : la liaison passe de l'oxygène au carbone",
+      "legende": "C'EST LE PREMIER RÉARRANGEMENT SIGMATROPIQUE DÉCOUVERT (Clayden p. 909). Le cycle aromatique joue ici le rôle de la double liaison : l'allyle quitte l'oxygène et vient se poser sur le carbone ORTHO.\n\nCOMPTEZ COMME POUR UN COPE : les deux bouts de l'ancienne liaison σ sont l'oxygène et le CH₂ allylique. Trois atomes de chaque côté — O, C ipso, C ortho d'une part ; CH₂, CH, CH₂ d'autre part. La nouvelle liaison joint les deux positions 3.\n\nLE PRIX À PAYER : le cycle perd son aromaticité. C'est cher — mais on le récupère à l'étape suivante.",
+      "fleches": [
+        "L'ancienne liaison σ se rompt ; l'oxygène forme une double liaison C=O.",
+        "Une double liaison du cycle forme la nouvelle liaison carbone–carbone, en ortho.",
+        "Et la double liaison de l'allyle se déplace d'un cran."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "rearrangement_claisen-etape2.svg",
+      "titre": "L'aromaticité se reforme : le carbone rend son proton",
+      "legende": "CETTE ÉTAPE N'EST PLUS PÉRICYCLIQUE : c'est une simple tautomérisation ionique, et Clayden la note comme telle (p. 910). Mais c'est elle qui rend la réaction irréversible — le gain d'aromaticité est trop grand pour qu'on revienne en arrière.",
+      "fleches": [
+        "L'eau prend le proton du carbone sp³.",
+        "La liaison C–H devient une double liaison : le cycle redevient aromatique.",
+        "Et le carbonyle se replie sur son oxygène, qui devient phénolate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "rearrangement_claisen-etape3.svg",
+      "titre": "Protonation du phénolate",
+      "legende": "Le phénol est libéré, et l'eau restituée.",
+      "fleches": [
+        "Le phénolate prend un proton.",
+        "L'eau est restituée."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "rearrangement_claisen-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le 2-allylphénol. LA PREUVE QUE LE MÉCANISME EST BIEN CELUI-LÀ (Clayden p. 910) : si l'allyle est dissymétrique, il se retrouve RETOURNÉ dans le produit — le carbone qui était attaché à l'oxygène n'est plus celui qui est attaché au cycle. Un mécanisme ionique par migration simple ne ferait pas cela.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reaction_ene": {
+    "1": {
+      "fichier": "reaction_ene-etape1.svg",
+      "titre": "Comme une Diels-Alder, mais une liaison C–H remplace une double liaison",
+      "legende": "LA MEILLEURE FAÇON DE COMPRENDRE CETTE RÉACTION (Clayden p. 895) : prenez une Diels-Alder, et remplacez l'une des deux doubles liaisons du diène par une LIAISON C–H. Tout le reste est identique — six électrons, un état de transition cyclique, aucun intermédiaire.\n\nDEUX DIFFÉRENCES SEULEMENT : il ne se forme pas de cycle, et un atome d'hydrogène est TRANSFÉRÉ à travers l'espace.\n\nEN TERMES DE WOODWARD-HOFFMANN, il faut découper l'« ène » en DEUX composantes — une π2 et une σ2 — car on ne peut pas mélanger électrons π et σ dans une même composante. Trois composantes suprafaciales de type (4q+2) : total = 3, impair, la réaction est permise.",
+      "fleches": [
+        "La liaison C–H devient une double liaison.",
+        "L'ancienne double liaison forme la nouvelle liaison carbone–carbone.",
+        "Et l'énophile récupère l'hydrogène, à travers l'espace."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reaction_ene-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une seule liaison carbone–carbone nouvelle, et la double liaison DÉPLACÉE d'un cran. Clayden avertit (p. 896) qu'on ne repère pas toujours une réaction ène du premier coup, justement parce que la double liaison du produit n'est pas là où elle était.\n\nÀ RETENIR : la plupart des réactions ène simples se font avec l'anhydride maléique. Les autres énophiles exigent une activation — un acide de Lewis comme Ti(OR)₄, par exemple, qui abaisse la LUMO du carbonyle.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "cycloaddition_2plus2": {
+    "1": {
+      "fichier": "cycloaddition_2plus2-etape1.svg",
+      "titre": "Le cycle à quatre, que seule la lumière permet",
+      "legende": "AVERTISSEMENT SUR CE DESSIN, ET IL EST IMPORTANT. Clayden écrit qu'« il est difficile de dessiner un mécanisme pour ces réactions, car nous n'avons pas de façon simple de représenter l'alcène excité » (p. 897). Les deux flèches ci-dessous rendent compte du BILAN — quelles liaisons se rompent, lesquelles se forment — mais elles ne décrivent pas ce qui arrive réellement.\n\nCE QUI ARRIVE RÉELLEMENT : la lumière promeut un électron de π vers π* dans l'énone, qui est la seule des deux molécules à absorber. En combinant cet état excité avec l'état fondamental de l'alcène, trois électrons descendent en énergie et un seul monte : la liaison devient possible. Au chauffage, le compte de Woodward-Hoffmann donne 2 — pair — et rien ne se passe.",
+      "fleches": [
+        "Une liaison π forme une nouvelle liaison σ.",
+        "L'autre ferme le cycle à quatre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cycloaddition_2plus2-etape2.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un cyclobutane — l'un des cycles les plus difficiles à construire autrement, parce qu'il est tendu.\n\nLA RÉGIOSÉLECTIVITÉ EST À L'ENVERS DE CE QU'ON ATTENDRAIT (Clayden p. 898). En raisonnement ionique ordinaire, on ferait interagir la HOMO de l'alcène avec la LUMO de l'énone, ce qui donnerait l'autre orientation. Mais on n'est pas dans une réaction thermique : dans l'état excité, ce sont les interactions HOMO/HOMO et LUMO/LUMO qui comptent.\n\nL'ASTUCE DE CALCUL QUE DONNE CLAYDEN : dessinez le produit que vous n'attendez PAS d'une réaction à flèches courbes ordinaire. C'est celui-là que vous obtiendrez.\n\nET UN POINT QUI SURPREND : la réaction inverse, photochimique, est impossible — le cyclobutane n'a pas d'orbitale vacante assez basse pour absorber la lumière. Ce qui est fait est fait.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

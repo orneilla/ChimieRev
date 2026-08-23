@@ -235,6 +235,30 @@ au-delà d'une soixantaine de signes par ligne, l'œil perd la ligne
 suivante. Seule la grille de tuiles s'élargit, parce que ce n'est pas du
 texte.
 
+### Un texte long ne s'affiche pas tel quel
+
+Trois pièges, découverts en regardant l'application plutôt que les
+données. Tous produisaient le même symptôme : un pavé de texte d'un seul
+tenant, illisible sur un téléphone.
+
+- **Tout texte long passe par `BlocTexte`.** La légende d'une étape de
+  mécanisme, elle, était posée brute dans son `<figcaption>` : les lignes
+  vides du JSON disparaissaient, et les 108 mécanismes affichaient leur
+  légende en un bloc. Un texte à paragraphes ne s'écrit jamais en clair
+  dans du JSX.
+- **Une liste à puces s'écrit `•` en tête de ligne**, avec un simple
+  retour à la ligne — et `BlocTexte` la regroupe en vraie liste. Sans
+  cela, les quatre règles de Woodward-Hoffmann se lisaient comme une seule
+  phrase. Un retour à la ligne isolé coupe la ligne sans ouvrir de
+  paragraphe : c'est ce qu'il faut pour une formule sur trois lignes.
+- **L'amorce en capitales s'arrêtait à la première virgule.** « LA MÊME
+  RÉACTION, EN SENS INVERSE, ET AVEC DEUX ÉLECTRONS DE MOINS. » ne mettait
+  en valeur que « LA MÊME » : le mot suivant la virgule ne correspondait
+  pas, et le moteur reculait jusqu'au dernier mot suivi d'une espace.
+  354 lignes étaient tronquées ainsi — « LE CONTRASTE À », « CE QUI SE »,
+  « SUR LE ». La virgule est désormais tolérée entre deux mots, et la fin
+  d'amorce accepte la ponctuation autant que l'espace.
+
 ## Les réactifs et les solvants
 
 **Chaque réaction apporte ses réactifs et son solvant** : c'est la règle,

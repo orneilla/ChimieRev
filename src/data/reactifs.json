@@ -2072,5 +2072,100 @@
         "note": "Avec O₂ catalytique et H₃PO₂, 82 % de rendement"
       }
     ]
+  },
+  {
+    "id": "anhydride_maleique",
+    "nom": "Anhydride maléique",
+    "nom_complet": "anhydride maléique",
+    "SMILES": "O=C1OC(=O)C=C1",
+    "role": "Le diénophile et l'énophile de référence",
+    "anatomie_annotations": [
+      {
+        "partie": "la double liaison du cycle",
+        "role": "Encadrée par DEUX carbonyles : sa LUMO est très basse, elle est donc extrêmement électrophile."
+      },
+      {
+        "partie": "les deux carbonyles",
+        "role": "Ils appauvrissent la double liaison — et, dans une Diels-Alder, ce sont eux qui assurent la sélectivité endo en interagissant à travers l'espace avec l'arrière du diène."
+      },
+      {
+        "partie": "le cycle à cinq",
+        "role": "Il maintient les deux carbonyles dans le plan de la double liaison, donc parfaitement conjugués. Un diester acyclique serait bien moins réactif."
+      }
+    ],
+    "reactions_liees": [
+      "diels_alder",
+      "reaction_ene"
+    ],
+    "explication_reference": "Anhydride cyclique de l'acide maléique, dont la double liaison, encadrée de deux groupes carbonyle coplanaires, présente une orbitale vacante de très basse énergie. Il constitue le diénophile de référence des cycloadditions de Diels-Alder et le seul énophile réagissant sans activation dans les réactions ène avec des alcènes simples. Ses carbonyles assurent en outre la sélectivité endo par interaction secondaire avec le système π en formation.",
+    "explication_comprendre": "POURQUOI CETTE MOLÉCULE REVIENT-ELLE PARTOUT ?\n\nParce qu'elle est le partenaire le plus électrophile qu'on puisse raisonnablement mettre dans un ballon.\n\nRegardez sa double liaison : elle est prise en tenaille entre DEUX carbonyles. Chacun lui retire de la densité électronique, et sa LUMO descend très bas.\n\nOr une réaction de Diels-Alder marche d'autant mieux que la LUMO du diénophile est basse — c'est elle qui doit rencontrer la HOMO du diène.\n\nPOURQUOI LE CYCLE À CINQ COMPTE : il force les deux carbonyles à rester dans le plan de la double liaison. Un diester acyclique pourrait tourner, et perdrait une partie de la conjugaison. Ici, tout est bloqué dans la bonne géométrie.\n\nSON SECOND MÉRITE, DANS LA DIELS-ALDER : ce sont ses carbonyles qui font la sélectivité ENDO. Ils viennent interagir à travers l'espace avec la liaison π qui se forme à l'arrière du diène, ce qui abaisse l'énergie d'un des deux états de transition.\n\nDANS LA RÉACTION ÈNE, il est à peu près le seul à fonctionner sans aide. Clayden le note franchement (p. 895) : les autres énophiles ne marchent pas, sauf activation par un acide de Lewis.\n\nÀ LA PAILLASSE : solide blanc, il s'hydrolyse à l'humidité en acide maléique. On le garde au sec.",
+    "reactions_exemples": [
+      {
+        "nom": "Diels-Alder avec le butadiène",
+        "substrat_SMILES": "C=CC=C",
+        "produit_SMILES": "O=C1OC(=O)C2CC=CCC12",
+        "note": "Le diénophile de référence"
+      }
+    ]
+  },
+  {
+    "id": "kh",
+    "nom": "KH",
+    "nom_complet": "hydrure de potassium",
+    "SMILES": "[K+].[H-]",
+    "role": "Base très forte et NON nucléophile, qui déprotone irréversiblement",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ion hydrure",
+        "role": "Une base extrêmement forte : le dihydrogène qu'il libère a un pKa d'environ 35. La déprotonation est donc totale et irréversible."
+      },
+      {
+        "partie": "le potassium",
+        "role": "Gros et peu polarisant, il laisse l'alcoolate « nu » et donc très réactif — c'est ce qui distingue KH de NaH."
+      }
+    ],
+    "reactions_liees": [
+      "rearrangement_cope"
+    ],
+    "explication_reference": "Hydrure alcalin employé comme base forte non nucléophile. La déprotonation, qui libère du dihydrogène, est irréversible. Le cation potassium, volumineux et faiblement polarisant, coordonne peu l'anion formé et en accroît la réactivité par rapport aux dérivés sodés — propriété mise à profit dans le réarrangement de Cope anionique, où l'alcoolate de potassium se réarrange bien plus rapidement que l'alcool correspondant.",
+    "explication_comprendre": "POURQUOI KH ET PAS NaH ?\n\nLes deux déprotonent. Mais le potassium est plus GROS que le sodium, et moins polarisant.\n\nConséquence : il tient moins bien l'alcoolate. L'anion est plus « nu », donc plus réactif.\n\nDans le réarrangement de Cope anionique, c'est décisif — Clayden précise que KH est le meilleur choix (p. 914).\n\nCE QUI REND CETTE BASE IRRÉVERSIBLE : elle libère du DIHYDROGÈNE, qui s'échappe. Une base dont le produit conjugué quitte le ballon ne peut pas faire marche arrière.\n\nET NON NUCLÉOPHILE : l'ion hydrure est petit et dur ; il prend les protons mais n'attaque presque jamais un carbone. On peut donc l'employer en présence de fonctions électrophiles.\n\nÀ LA PAILLASSE : vendu en dispersion dans l'huile minérale, qu'il faut laver au pentane avant emploi. Il réagit violemment avec l'eau et s'enflamme à l'air humide.",
+    "reactions_exemples": [
+      {
+        "nom": "Cope anionique",
+        "substrat_SMILES": "C=CC(O)CC=C",
+        "produit_SMILES": "CC(=O)CCCC=C",
+        "note": "L'alcoolate se réarrange bien plus vite que l'alcool"
+      }
+    ]
+  },
+  {
+    "id": "ti_oipr4",
+    "nom": "Ti(OiPr)₄",
+    "nom_complet": "tétraisopropanolate de titane",
+    "SMILES": "CC(C)O[Ti](OC(C)C)(OC(C)C)OC(C)C",
+    "role": "Acide de Lewis doux, qui abaisse la LUMO d'un carbonyle",
+    "anatomie_annotations": [
+      {
+        "partie": "le titane(IV)",
+        "role": "Déficient en électrons : il se coordonne à l'oxygène d'un carbonyle et en abaisse la LUMO."
+      },
+      {
+        "partie": "les quatre alcoolates",
+        "role": "Ils modèrent son acidité — Ti(OiPr)₄ est bien plus doux qu'AlCl₃ ou TiCl₄, ce qui le rend compatible avec des substrats fragiles."
+      }
+    ],
+    "reactions_liees": [
+      "reaction_ene"
+    ],
+    "explication_reference": "Alcoolate de titane(IV) employé comme acide de Lewis modéré. Sa coordination à l'oxygène d'un composé carbonylé abaisse l'énergie de l'orbitale vacante de ce dernier, ce qui l'active vis-à-vis des cycloadditions et des réactions ène. Le caractère peu acide que lui confèrent ses quatre ligands alcoolate le rend compatible avec des substrats sensibles, contrairement aux halogénures de titane ou d'aluminium.",
+    "explication_comprendre": "À QUOI SERT UN ACIDE DE LEWIS DANS UNE RÉACTION PÉRICYCLIQUE ?\n\nÀ rapprocher deux orbitales.\n\nUne cycloaddition marche d'autant mieux que la HOMO d'un partenaire et la LUMO de l'autre sont proches en énergie. Si l'écart est trop grand, la réaction est lente.\n\nUn acide de Lewis se coordonne à l'oxygène du carbonyle et lui retire de la densité électronique. Sa LUMO descend. L'écart se réduit. La réaction s'accélère.\n\nPOURQUOI CELUI-LÀ EN PARTICULIER : il est DOUX.\n\nAlCl₃ ou TiCl₄ sont des acides de Lewis violents — ils décomposent bien des substrats fonctionnalisés. Ti(OiPr)₄, entouré de quatre alcoolates qui le calment, est bien plus tolérant.\n\nOn l'emploie donc quand la molécule est trop élaborée pour supporter les acides forts.\n\nUN AUTRE USAGE, QUE VOUS AVEZ DÉJÀ CROISÉ : c'est le titane de l'époxydation asymétrique de Sharpless, où il porte le tartrate chiral.\n\nÀ LA PAILLASSE : liquide, il s'hydrolyse à l'humidité en donnant de l'oxyde de titane. On le manipule sous atmosphère inerte.",
+    "reactions_exemples": [
+      {
+        "nom": "Activation d'un énophile",
+        "substrat_SMILES": "CC=C",
+        "produit_SMILES": "CC(O)CC=C",
+        "note": "Il abaisse la LUMO du carbonyle"
+      }
+    ]
   }
 ]

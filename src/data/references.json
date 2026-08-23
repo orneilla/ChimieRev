@@ -2308,6 +2308,198 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "woodward_hoffmann": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "878",
+          "note": "Ce qu'est une réaction péricyclique : les électrons tournent en rond, plusieurs liaisons se forment en même temps, il n'y a AUCUN intermédiaire. Et la remarque qui désamorce une inquiétude fréquente — dessiner les flèches dans un sens ou dans l'autre ne change rien, les électrons ne tournent pas vraiment."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "892",
+          "note": "L'énoncé de la règle, et sa version alternative plus maniable. La définition d'une composante, l'interdiction de mêler électrons π et σ, et le sens de « suprafacial » et « antarafacial ». Le prix Nobel de 1981 pour Fukui et Hoffmann, et l'absence de Woodward, mort en 1979."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "893",
+          "note": "La procédure en six étapes appliquée à la Diels-Alder, et l'aveu qu'elle n'y apporte pas grand-chose : elle n'explique ni l'endo ni la régiosélectivité. Son vrai domaine sont les réactions électrocycliques. Et l'interdiction de mélanger le raisonnement frontalier et celui de Woodward-Hoffmann."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "897",
+          "note": "Pourquoi les règles s'inversent sous éclairement : la lumière promeut un électron de π vers π*, et le compte des électrons qui descendent ou montent en énergie montre que la liaison devient possible."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "913",
+          "note": "La symétrie d'une liaison σ, qui ne se lit pas comme celle d'une liaison π : rétention ou inversion à chaque extrémité, et les quatre combinaisons possibles. Et la démonstration que le compte ne dépend pas de la façon de tracer les raccordements."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "retro_diels_alder": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — Equilibria, rates and mechanisms",
+          "pages": "249",
+          "note": "Le raisonnement thermodynamique complet sur la dimérisation du cyclopentadiène : deux liaisons σ remplacent deux liaisons π, mais deux molécules ont plus d'entropie qu'une. ΔG = ΔH − TΔS explique pourquoi il faut chauffer pour « craquer » le dimère — et pourquoi le monomère laissé une nuit se redimérise."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "29 — Aromatic heterocycles 1: structures and reactions",
+          "pages": "740",
+          "note": "Une Diels-Alder suivie immédiatement d'une rétro-Diels-Alder qui expulse du CO₂ : le fragment gazeux rend la coupure irréversible et le produit devient aromatique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "878",
+          "note": "Le mécanisme de la Diels-Alder, dont la rétro n'est que la lecture inverse."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cycloaddition_dipolaire": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "901",
+          "note": "Le problème posé — comment faire un cycle à CINQ — et la solution : un composant de trois atomes à quatre électrons. La définition d'un dipôle-1,3, avec son extrémité nucléophile et son extrémité électrophile en relation 1,3."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "902",
+          "note": "L'absence de règle endo, faute de groupe conjugant à l'arrière ; la préférence exo dictée par l'encombrement. Le cas intramoléculaire, où la géométrie ne laisse qu'un seul repliement possible. Et surtout ce qu'on fait de l'adduit : la liaison N–O faible est coupée par LiAlH₄, par Zn/AcOH ou par hydrogénation, livrant un aminoalcool 1,3 dont la stéréochimie a été fixée par la cycloaddition."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "electrocyclisation": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "924",
+          "note": "L'application de la règle à une électrocyclisation, et le moment où le compte donne d'abord ZÉRO — donc « interdit » — alors que la réaction marche. La leçon : ce n'était pas la règle qui était fausse mais la façon de faire se recouvrir les orbitales. En choisissant l'autre recouvrement, le compte donne 1."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "925",
+          "note": "Les quatre règles des réactions électrocycliques, con- et disrotatoire définis avec le piège de vocabulaire ; les deux preuves expérimentales — l'octatriène qui donne un seul diastéréoisomère syn, le syn-1,2-diméthylcyclobutène qui donne uniquement le E,Z-hexa-2,4-diène. Et pourquoi la stéréochimie est ici si parlante : les rotations atteignent 90°, contre quelques degrés dans les autres réactions péricycliques."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_cope": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "910",
+          "note": "D'où vient le nom « [3,3] » : on numérote 1 les deux extrémités de l'ancienne liaison σ et l'on compte dans les deux sens ; les extrémités de la nouvelle liaison portent toutes deux le numéro 3."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "913",
+          "note": "Que la symétrie orbitalaire autorise le [3,3] dans les DEUX sens et ne dit rien du sens réel : c'est la stabilité qui tranche."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "914",
+          "note": "Le réarrangement de Cope ANIONIQUE : l'alcool déprotoné par KH donne un énolate après réarrangement, bien plus stable que l'alcoolate de départ — d'où une accélération considérable. Et l'exploit qu'il permet : la dilatation d'un cycle à quatre en cycle à huit portant une double liaison trans."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "rearrangement_claisen": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "909",
+          "note": "Le premier réarrangement sigmatropique découvert, et le mécanisme de la version aromatique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "910",
+          "note": "La preuve du mécanisme : un allyle dissymétrique se retrouve RETOURNÉ dans le produit — ce qu'une migration ionique ne ferait pas. La tautomérisation finale, notée comme ionique et non péricyclique. Et la version aliphatique, dite Claisen-Cope."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "914",
+          "note": "Pourquoi un oxygène dans le cycle et un autre à l'extérieur accélèrent tant les [3,3], et comment l'arranger : l'énolate de lithium d'un ester d'alcool allylique."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reaction_ene": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "894",
+          "note": "L'origine du nom : la Diels-Alder s'appelait d'abord « réaction du diène » ; quand Alder découvrit l'analogue à un seul alcène, on l'appela réaction ène."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "895",
+          "note": "La comparaison directe avec la Diels-Alder — une double liaison du diène remplacée par une liaison C–H —, l'exigence que cette liaison soit parallèle aux orbitales p, et le découpage de l'ène en DEUX composantes π2 et σ2 pour le comptage de Woodward-Hoffmann, qui donne trois et autorise la réaction. Et le fait que l'anhydride maléique soit à peu près le seul énophile qui marche sans activation."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "896",
+          "note": "L'activation d'un énophile par un acide de Lewis comme Ti(OR)₄, et l'avertissement qu'une réaction ène ne se repère pas toujours, la double liaison du produit n'étant pas là où elle était."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
+          "pages": "919",
+          "note": "L'oxydation allylique par SeO₂, qui commence par une réaction de type ène avant un réarrangement [2,3] : un méthyle allylique devient CH₂OH ou CHO."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cycloaddition_2plus2": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "897",
+          "note": "Pourquoi le [2+2] est interdit thermiquement et permis photochimiquement : la lumière promeut un électron de π vers π*, et le décompte des électrons qui descendent ou montent en énergie. Et l'aveu qu'on ne sait pas dessiner simplement un alcène excité."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
+          "pages": "898",
+          "note": "La régiosélectivité observée, opposée à celle qu'un raisonnement thermique prédirait, et son explication par les interactions HOMO/HOMO et LUMO/LUMO dans l'état excité. L'astuce de calcul : dessiner le produit qu'on n'attend PAS. Et pourquoi la réaction inverse est impossible sous lumière — le cyclobutane n'absorbe pas."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

@@ -399,6 +399,38 @@
     "substrat": "cyclisation_radicalaire-substrat.svg",
     "produit": "cyclisation_radicalaire-produit.svg"
   },
+  "retro_diels_alder": {
+    "substrat": "retro_diels_alder-substrat.svg",
+    "produit": "retro_diels_alder-produit.svg"
+  },
+  "woodward_hoffmann": {
+    "substrat": "woodward_hoffmann-substrat.svg",
+    "produit": "woodward_hoffmann-produit.svg"
+  },
+  "cycloaddition_dipolaire": {
+    "substrat": "cycloaddition_dipolaire-substrat.svg",
+    "produit": "cycloaddition_dipolaire-produit.svg"
+  },
+  "electrocyclisation": {
+    "substrat": "electrocyclisation-substrat.svg",
+    "produit": "electrocyclisation-produit.svg"
+  },
+  "rearrangement_cope": {
+    "substrat": "rearrangement_cope-substrat.svg",
+    "produit": "rearrangement_cope-produit.svg"
+  },
+  "rearrangement_claisen": {
+    "substrat": "rearrangement_claisen-substrat.svg",
+    "produit": "rearrangement_claisen-produit.svg"
+  },
+  "reaction_ene": {
+    "substrat": "reaction_ene-substrat.svg",
+    "produit": "reaction_ene-produit.svg"
+  },
+  "cycloaddition_2plus2": {
+    "substrat": "cycloaddition_2plus2-substrat.svg",
+    "produit": "cycloaddition_2plus2-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -772,6 +804,27 @@
     "substrat": "et3b-ex0-substrat.svg",
     "produit": "et3b-ex0-produit.svg"
   },
+  "anhydride_maleique": {
+    "molecule": "reactif-anhydride_maleique.svg"
+  },
+  "anhydride_maleique-ex0": {
+    "substrat": "anhydride_maleique-ex0-substrat.svg",
+    "produit": "anhydride_maleique-ex0-produit.svg"
+  },
+  "kh": {
+    "molecule": "reactif-kh.svg"
+  },
+  "kh-ex0": {
+    "substrat": "kh-ex0-substrat.svg",
+    "produit": "kh-ex0-produit.svg"
+  },
+  "ti_oipr4": {
+    "molecule": "reactif-ti_oipr4.svg"
+  },
+  "ti_oipr4-ex0": {
+    "substrat": "ti_oipr4-ex0-substrat.svg",
+    "produit": "ti_oipr4-ex0-produit.svg"
+  },
   "dcm": {
     "molecule": "solvant-dcm.svg"
   },
@@ -819,5 +872,8 @@
   },
   "benzene": {
     "molecule": "solvant-benzene.svg"
+  },
+  "acetonitrile": {
+    "molecule": "solvant-acetonitrile.svg"
   }
 }

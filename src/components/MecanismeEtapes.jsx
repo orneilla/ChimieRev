@@ -6,6 +6,7 @@
 // (un état de transition, par exemple, ne se représente pas honnêtement
 // avec des liaisons entières).
 import dessins from '../data/mecanismes-dessins.json'
+import BlocTexte from './BlocTexte.jsx'
 
 export default function MecanismeEtapes({ id, etapes }) {
   const schemas = dessins[id] || {}
@@ -84,7 +85,7 @@ export default function MecanismeEtapes({ id, etapes }) {
                     )}
 
                     <figcaption>
-                      {schema.legende}
+                      <BlocTexte texte={schema.legende} />
 
                       <span className="etats-schema">
                         {schema.coherenceVerifiee && (

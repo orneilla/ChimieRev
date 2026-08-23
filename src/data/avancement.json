@@ -1,8 +1,8 @@
 {
-  "genere_le": "2026-08-20",
+  "genere_le": "2026-08-21",
   "total": 289,
-  "redigees": 101,
-  "verifiees": 95,
+  "redigees": 109,
+  "verifiees": 103,
   "relues": 0,
   "familles": [
     {
@@ -828,9 +828,9 @@
       "famille": "Péricycliques",
       "bloc": "Socle organique",
       "total": 9,
-      "absente": 8,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 1,
+      "verifiee": 9,
       "relue": 0,
       "reactions": [
         {
@@ -843,58 +843,58 @@
         {
           "nom": "Rétro-Diels-Alder",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "retro_diels_alder",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Règles de Woodward-Hoffmann",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "woodward_hoffmann",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cycloadditions 1,3-dipolaires",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cycloaddition_dipolaire",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Électrocyclisations",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "electrocyclisation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réarrangement de Cope",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_cope",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réarrangement de Claisen",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "rearrangement_claisen",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction ène",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reaction_ene",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cycloadditions [2+2] photochimiques",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cycloaddition_2plus2",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

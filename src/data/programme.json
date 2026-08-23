@@ -593,42 +593,42 @@
         {
           "nom": "Rétro-Diels-Alder",
           "niveau": "M1",
-          "id": null
+          "id": "retro_diels_alder"
         },
         {
           "nom": "Règles de Woodward-Hoffmann",
           "niveau": "M1",
-          "id": null
+          "id": "woodward_hoffmann"
         },
         {
           "nom": "Cycloadditions 1,3-dipolaires",
           "niveau": "M1",
-          "id": null
+          "id": "cycloaddition_dipolaire"
         },
         {
           "nom": "Électrocyclisations",
           "niveau": "M1",
-          "id": null
+          "id": "electrocyclisation"
         },
         {
           "nom": "Réarrangement de Cope",
           "niveau": "M1",
-          "id": null
+          "id": "rearrangement_cope"
         },
         {
           "nom": "Réarrangement de Claisen",
           "niveau": "M1",
-          "id": null
+          "id": "rearrangement_claisen"
         },
         {
           "nom": "Réaction ène",
           "niveau": "M2",
-          "id": null
+          "id": "reaction_ene"
         },
         {
           "nom": "Cycloadditions [2+2] photochimiques",
           "niveau": "M2",
-          "id": null
+          "id": "cycloaddition_2plus2"
         }
       ],
       "bloc": "Socle organique"

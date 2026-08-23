@@ -910,6 +910,33 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   margin-top: 0.5rem;
 }
 
+.schema-etape figcaption p { margin: 0 0 0.7rem; }
+.schema-etape figcaption p:last-of-type { margin-bottom: 0; }
+
+/* Une liste à puces dans un texte long : « • » en tête de ligne dans le
+   JSON. Le retrait reste faible pour ne pas rogner la largeur de lecture
+   sur un téléphone étroit. */
+.liste-puces {
+  margin: 0 0 0.9rem;
+  padding-left: 1.1rem;
+  list-style: none;
+}
+
+.liste-puces li {
+  position: relative;
+  margin-bottom: 0.3rem;
+}
+
+.liste-puces li::before {
+  content: '\2022';
+  position: absolute;
+  left: -0.9rem;
+  color: var(--framboise);
+  font-weight: 700;
+}
+
+.liste-puces li:last-child { margin-bottom: 0; }
+
 /* ---------- Réactifs & solvants ---------- */
 
 .fiche-outil { margin-bottom: 1.2rem; }

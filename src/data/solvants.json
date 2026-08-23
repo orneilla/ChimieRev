@@ -206,5 +206,35 @@
         "note": "Reflux à 80 °C, avec AIBN"
       }
     ]
+  },
+  {
+    "id": "acetonitrile",
+    "nom": "Acétonitrile",
+    "nom_complet": "acétonitrile CH₃CN",
+    "SMILES": "CC#N",
+    "role": "Solvant polaire aprotique, TRANSPARENT aux ultraviolets",
+    "anatomie_annotations": [
+      {
+        "partie": "le nitrile",
+        "role": "Très polaire : il dissout les sels et les espèces chargées, sans avoir de proton acide à céder."
+      },
+      {
+        "partie": "l'absence d'absorption dans l'ultraviolet proche",
+        "role": "C'est LA propriété qui compte en photochimie : le solvant ne doit pas intercepter la lumière destinée au substrat."
+      }
+    ],
+    "reactions_liees": [
+      "cycloaddition_2plus2"
+    ],
+    "explication_reference": "Solvant polaire aprotique de constante diélectrique élevée, transparent au rayonnement ultraviolet proche. Cette transparence en fait le milieu de choix des réactions photochimiques, où toute absorption par le solvant priverait le substrat de l'énergie lumineuse. Il ne possède aucun proton acide susceptible d'être arraché.",
+    "explication_comprendre": "POURQUOI CE SOLVANT-LÀ POUR LA PHOTOCHIMIE ?\n\nPosez-vous la question à l'envers : que se passerait-il si le solvant absorbait la lumière ?\n\nIl y a mille fois plus de molécules de solvant que de substrat. Si le solvant absorbe, c'est LUI qui reçoit l'énergie, et votre substrat n'en voit rien.\n\nL'acétonitrile est TRANSPARENT dans l'ultraviolet proche. La lumière le traverse et va au substrat.\n\nSES AUTRES MÉRITES : très polaire, il dissout à peu près tout, y compris les sels. Et aprotique, il n'a aucun proton acide à céder.\n\nCE QU'ON ÉVITE EN PHOTOCHIMIE : l'acétone, qui absorbe fortement et devient elle-même un photosensibilisateur ; les solvants aromatiques, pour la même raison.\n\nET LE RÉCIPIENT COMPTE AUSSI : le verre ordinaire arrête les ultraviolets en dessous de 300 nm. Une photochimie sérieuse se fait en QUARTZ.",
+    "reactions_exemples": [
+      {
+        "nom": "Cycloaddition photochimique",
+        "substrat_SMILES": "CC(=O)C=C",
+        "produit_SMILES": "CC(=O)C1CCC1",
+        "note": "Transparent aux UV, contrairement à l'acétone"
+      }
+    ]
   }
 ]
