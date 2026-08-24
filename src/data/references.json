@@ -2444,6 +2444,18 @@
           "chapitre": "27 — Sulfur, silicon, and phosphorus in organic chemistry",
           "pages": "668",
           "note": "Le mécanisme complet : formation de l'ion chlorosulfonium par le chlorure d'oxalyle, avec dégagement de CO et CO₂ ; l'alcool resté spectateur jusque-là ; l'ion alcoxysulfonium ; la formation de l'ylure par Et₃N ; et l'élimination finale à travers un cycle à cinq — que Clayden annonce comme une réaction péricyclique."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions, § 2.6.1",
+          "pages": "115",
+          "note": "Le problème posé en une phrase : « la transformation d'ensemble est une élimination des éléments de H₂ ; le problème est que H⁻ n'est pas un groupe partant » — d'où le rôle du couple DMSO/chlorure d'oxalyle, « produire un électrophile qui devienne un groupe partant une fois attaché à l'oxygène ». L'ordre d'addition explicité (chlorure d'oxalyle sur le DMSO, PUIS la triéthylamine et l'alcool) et les quatre coproduits : Me₂S (« très malodorant »), CO₂, CO, Et₃NH⁺Cl⁻."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions, § 2.6.1",
+          "pages": "116",
+          "note": "La correction du mécanisme naïf : « bien que cette dernière étape soit raisonnable, ce n'est pas ainsi que l'élimination se produit réellement. Dans le mécanisme actuellement admis, le groupe CH₃ est déprotoné pour donner un ylure de soufre, et une rétro-hétéro-ène s'ensuit. » L'élimination est donc concertée et syn, sans base extérieure au moment décisif."
         }
       ],
       "articles_historiques": [],
@@ -2498,6 +2510,30 @@
           "chapitre": "36 — Participation, rearrangement, and fragmentation",
           "pages": "958",
           "note": "L'exigence d'anti-périplanarité entre le groupe migrant et le groupe partant est générale dans les réarrangements. Si elle ne se remarque pas dans une Baeyer-Villiger, c'est que la rotation libre rend toujours la bonne conformation accessible — au contraire des systèmes cycliques contraints et des oximes."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "169-170",
+          "note": "La Baeyer-Villiger rangée dans la famille des migrations vers un hétéroatome, avec la réaction des cétones et du diazométhane : un nucléophile porteur d'un groupe partant s'additionne, un groupe migre, le groupe partant s'en va. La condition qui la rend possible en milieu acide — le nucléophile doit être assez peu basique pour y survivre — et les trois peracides usuels : mCPBA, acide peracétique, acide trifluoroperacétique. Le mécanisme complet est dessiné p. 170."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-Radical Reactions",
+          "pages": "305",
+          "note": "La Baeyer-Villiger involontaire : les aldéhydes s'autoxydent facilement, le peracide formé réagit sur l'aldéhyde de départ par une Baeyer-Villiger et donne deux molécules d'acide carboxylique. C'est le mécanisme du vieillissement d'un aldéhyde à l'air. Dans le même passage, l'autoxydation comme étape clé de la synthèse industrielle du phénol et de l'acétone à partir du benzène et du propène."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.1 Oxidoreduction",
+          "pages": "517",
+          "note": "L'équivalent enzymatique : les monooxygénases à flavine font une réduction à quatre électrons du dioxygène, deux venant du cofacteur nicotinamide réduit et deux du substrat — « une bonne illustration de la bien connue réaction de Baeyer-Villiger en chimie organique ». Le FAD couplé au NADH tient le rôle du peracide."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic Chemistry of Amino Acids and Polypeptides",
+          "pages": "28",
+          "note": "Le tableau qui met chaque geste biologique en regard de son équivalent organique ; la ligne de la Baeyer-Villiger s'y lit « insertion d'oxygène »."
         }
       ],
       "articles_historiques": [],
@@ -2522,6 +2558,12 @@
           "chapitre": "22 — Friedel–Crafts and other electrophilic aromatic substitutions",
           "pages": "494",
           "note": "L'emploi classique : après une acylation de Friedel-Crafts, l'amalgame de zinc dans l'acide chlorhydrique donne le n-alkylbenzène — précisément le composé que l'alkylation directe ne sait pas faire proprement."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "11 — Reactions of Aromatic Compounds",
+          "pages": "§ 11.12",
+          "note": "L'usage stratégique de la réduction carbonyle-vers-méthylène : on acyle puis on réduit pour éviter le réarrangement d'une alkylation de Friedel-Crafts ; et l'ordre est imposé, car un acyle est méta-directeur tandis qu'un alkyle est ortho-para-directeur — il faut donc réduire AVANT de nitrer si l'on veut le para. Avec l'exercice de détection d'erreur sur la séquence nitration / bromation / Wolff-Kishner, et le rappel qu'une Friedel-Crafts échoue sur un cycle fortement désactivé."
         }
       ],
       "articles_historiques": [],
@@ -2540,6 +2582,12 @@
           "chapitre": "24 — Chemoselectivity and protecting groups",
           "pages": "541",
           "note": "La synthèse de la muscalure, phéromone de la mouche domestique : l'acide érucique du colza converti en cétone par deux équivalents de méthyllithium, puis Wolff-Kishner — hydrazine puis KOH à chaud."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "11 — Reactions of Aromatic Compounds",
+          "pages": "§ 11.12",
+          "note": "L'usage stratégique de la réduction carbonyle-vers-méthylène : on acyle puis on réduit pour éviter le réarrangement d'une alkylation de Friedel-Crafts ; et l'ordre est imposé, car un acyle est méta-directeur tandis qu'un alkyle est ortho-para-directeur — il faut donc réduire AVANT de nitrer si l'on veut le para. Avec l'exercice de détection d'erreur sur la séquence nitration / bromation / Wolff-Kishner, et le rappel qu'une Friedel-Crafts échoue sur un cycle fortement désactivé."
         }
       ],
       "articles_historiques": [],
@@ -2570,6 +2618,36 @@
           "chapitre": "41 — Asymmetric synthesis",
           "pages": "1120",
           "note": "La préparation du BINAP énantiopur par cristallisation d'un sel du di-O-benzoyl-L-tartrate puis réduction de l'oxyde de phosphine ; et la comparaison entre hydrogénation asymétrique — qui crée des centres sans créer de fonction — et oxydation asymétrique."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "791",
+          "note": "Le chiffre qui pose le problème : ΔG° = −101 kJ mol⁻¹ pour l'addition de H₂ sur l'éthène — la réaction est très favorable, seule la barrière cinétique l'empêche. Et l'exigence de tout catalyseur homogène : passer par des espèces à seize électrons, coordinativement insaturées, capables de changer de nombre de coordination. Avantages (conditions douces, sélectivité) et défaut (séparer le catalyseur pour le recycler) de la catalyse homogène."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "792",
+          "note": "La notion d'alcène PROCHIRAL, et la raison précise du racémique avec un catalyseur achiral : le complexe σ-alkyle formé dans le cycle a une chance égale d'être R ou S. Les bisphosphines chirales dont le (R,R)-DIOP ; la table des excès énantiomériques obtenus sur un même alcène avec des catalyseurs différents ; la L-DOPA contre la maladie de Parkinson, « un premier triomphe » de la méthode, avec la référence de Knowles (J. Chem. Educ. 1986, 63, 222) ; et le naproxen, actif sous sa forme (S), dont l'énantiomère (R) est un toxique hépatique."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "793",
+          "note": "L'équation industrielle du naproxen : hydrogénation asymétrique d'un alcène prochiral sur Ru{(S)-BINAP}Cl₂. Suivie d'un exercice sur la chiralité des bisphosphines."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements",
+          "pages": "733",
+          "note": "L'encadré « Énantiosélectivité dans la préparation de l'herbicide S-métolachlore » : Novartis en fabrique environ 10 000 tonnes par an, et « la clé de l'énantiosélectivité est la première étape, une hydrogénation asymétrique »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions",
+          "pages": "358",
+          "note": "La portée du même cycle : hydrosilylation, hydroboration, hydrostannylation et diborylation suivent le mécanisme de l'hydrogénation, l'addition oxydante portant sur R₃Si–H, R₃Sn–H, R₂B–H ou R₂B–BR₂ au lieu de H–H."
         }
       ],
       "articles_historiques": [],
@@ -2618,6 +2696,24 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "443",
           "note": "La coupure complète d'une double liaison : oxyder la liaison π puis la liaison σ. Le couple OsO₄/NaIO₄, l'ester périodique et son mécanisme cyclique, et le fait que le périodate réoxyde l'osmium — d'où l'emploi catalytique de ce dernier. Le périodate coupe par ailleurs n'importe quel diol. Comparaison avec l'ozonolyse, qui fait les deux oxydations d'un coup."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "244",
+          "note": "Le périodate cyclique dessiné — l'iode portant les deux oxygènes du diol dans un cycle à cinq — et deux exemples chiffrés dans HIO₄/H₂O/THF : cyclopentanone à 81 % depuis un diol cyclique, 6-oxoheptanal à 86 % depuis un diol de chaîne ouverte."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "243",
+          "note": "L'ozonolyse comme voie concurrente : O₃ dans CH₂Cl₂ à −78 °C, molozonide puis ozonide, réduction par Zn dans l'acide acétique vers deux composés carbonylés."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "21 — d-Block metal chemistry: the first row metals",
+          "pages": "612",
+          "note": "La mesure de la puissance oxydante du périodate, prise ailleurs : en chimie analytique, le dosage du manganèse passe par l'oxydation de Mn(II) en [MnO₄]⁻ par le bismuthate, le périodate ou le peroxodisulfate."
         }
       ],
       "articles_historiques": [],
