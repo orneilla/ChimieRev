@@ -45,7 +45,7 @@ COUVERTURE = {
     "dugas": "bioorganique, intégral",
     "multicomposants": "réactions multicomposants, chimie durable",
     "carey_sundberg_A": "photochimie (ch. 12) seulement",
-    "roberts_caserio": "photochimie (ch. 28) seulement",
+    "roberts_caserio": "principes de base, ch. 28-31",
 }
 
 

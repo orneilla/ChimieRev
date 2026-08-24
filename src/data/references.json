@@ -3182,6 +3182,24 @@
           "chapitre": "29 — Aromatic heterocycles 1: reactions",
           "pages": "738",
           "note": "La substitution nucléophile sur ces cycles est rare et exige un groupe activant — nitro, carbonyle, sulfonyle. Exemple : la synthèse du kétorolac, où le groupe partant est un sulfinate."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "15 — Benzene and Aromaticity, § 15-5",
+          "pages": "464-465",
+          "note": "Le dessin des orbitales, et la distinction qui commande tout le chapitre : un azote « de type pyridine » est dans une double liaison, donne un électron au sextuor et garde son doublet dans une orbitale sp² du plan ; un azote « de type pyrrole » n'est dans aucune double liaison, loge son doublet dans une orbitale p et le donne au sextuor."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "15 — Benzene and Aromaticity, § 15-5",
+          "pages": "466",
+          "note": "L'exemple résolu sur le thiophène : le soufre est sp², met un doublet dans une orbitale p perpendiculaire — et conserve un SECOND doublet dans le plan du cycle. Suivi de l'exercice sur le noyau thiazolium de la thiamine."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "10 — Aromaticity",
+          "pages": "§ 10.6",
+          "note": "Deux chiffres et une raison : l'ion pyrrolium a un pKa de 0,4 — le pyrrole est une base très faible parce que le protoner détruit l'aromaticité. Et l'oxygène du furane, qui « paraît sp³ », se réhybride en sp² pour gagner la stabilisation de la conjugaison."
         }
       ],
       "articles_historiques": [],
@@ -3206,6 +3224,24 @@
           "chapitre": "29 — Aromatic heterocycles 1: reactions",
           "pages": "729",
           "note": "D'où viennent les chloropyridines : la 2-hydroxypyridine préfère très largement sa forme tautomère amide, la PYRIDONE, aromatique elle aussi — au contraire du phénol. POCl₃ transforme son oxygène en groupe partant, exactement comme un acide devient chlorure d'acyle. La 3-hydroxypyridine, qui existe sous forme phénol, ne se prête pas à la réaction."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "24 — Amines and Heterocycles, § 24-9",
+          "pages": "819",
+          "note": "La basicité de la pyridine (pKa 5,25) expliquée par l'hybridation, non par le cycle : le doublet est dans une orbitale sp² (33 % de caractère s) et non sp³ (25 %) ; une orbitale s a son maximum de densité sur le noyau, une orbitale p y a un nœud — plus de caractère s, donc doublet moins disponible."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "24 — Amines and Heterocycles, § 24-9",
+          "pages": "821",
+          "note": "L'exercice complémentaire, qui éclaire la sélectivité par son miroir : la substitution ÉLECTROPHILE de la pyridine se fait normalement en C3 ; dessiner les carbocations d'une attaque en C2, C3 et C4 fait voir pourquoi — la charge positive ne peut pas se poser sur l'azote, là où la charge négative de la SNAr est justement la bienvenue."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "10 — Aromaticity",
+          "pages": "§ 10.6",
+          "note": "La carte de potentiel électrostatique : le doublet de la pyridine est « verrouillé sur l'azote » et non distribué autour du cycle — l'image de ce que l'hybridation sp² fait au doublet."
         }
       ],
       "articles_historiques": [],
@@ -3248,6 +3284,18 @@
           "chapitre": "24 — Regioselectivity",
           "pages": "564",
           "note": "Le mécanisme de l'ortholithiation, transposable à tous les hétérocycles : le lithium, acide de Lewis, se coordonne au doublet de l'hétéroatome, ce qui l'amène sur le proton voisin. « Les meilleurs groupes directeurs ont des doublets à donner au lithium et sont aussi électronégatifs, de sorte qu'ils retirent des électrons au cycle et stabilisent l'anion qui se forme. »"
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "100",
+          "note": "L'échange halogène-métal comme voie alternative vers un organolithien aromatique : plus rapide que le mélange à −78 °C ; bromures et iodures oui, chlorures très lents, pseudohalogénures jamais. Et la raison des DEUX équivalents de t-BuLi — le second détruit le coproduit t-BuX par β-élimination (isobutane, isobutylène, LiX). Avec MeLi ou n-BuLi, le coproduit électrophile peut alkyler l'organolithien et simuler une substitution nucléophile aromatique."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "105",
+          "note": "La limite : l'échange est bien moins général sur C(sp³)–X, où il n'avance qu'avec les iodures primaires et deux équivalents de t-BuLi. Exception des bromocyclopropanes, dont les liaisons exocycliques ont beaucoup de caractère s."
         }
       ],
       "articles_historiques": [],
@@ -3278,6 +3326,24 @@
           "chapitre": "29 — Aromatic heterocycles 1: reactions",
           "pages": "737",
           "note": "La réaction dans l'autre sens : l'hydrolyse acide d'un furane rouvre ses deux éthers d'énol et redonne la dicétone-1,4. Le furane est donc un groupe protecteur de ce motif."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "763",
+          "note": "La réaction concurrente, décrite pour elle-même : traitée par NaOH, la 2,5-hexanedione (dicétone-1,4) s'aldolise en intramoléculaire et donne la 3-méthyl-2-cyclopenténone ; la 2,6-heptanedione (dicétone-1,5) donne la 3-méthyl-2-cyclohexénone. C'est la confirmation indépendante de la règle « base → cyclopenténone, acide → furane »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.5 — Hantzsch multicomponent synthesis of heterocycles",
+          "pages": "472",
+          "note": "La synthèse de pyrrole de Hantzsch, 1890 : chloroacétone + acétylacétate d'éthyle + ammoniac. L'ouvrage note que le produit et sa réactivité étaient les mêmes que ceux d'un composé obtenu par Knorr la même année."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.5 — Hantzsch multicomponent synthesis of heterocycles",
+          "pages": "474",
+          "note": "Le mécanisme de cette voie : le β-cétocarbonylé et l'ammoniac (ou une amine secondaire) forment d'abord une énamine, qui réagit avec l'α-halogénocétone par substitution nucléophile, puis tautomérisation et condensation ferment le cycle. Une déconnexion entièrement différente de celle de la Paal-Knorr."
         }
       ],
       "articles_historiques": [],
@@ -3296,6 +3362,12 @@
           "chapitre": "30 — Aromatic heterocycles 2: synthesis",
           "pages": "776",
           "note": "Le mécanisme complet, en quatre temps : formation de la phénylhydrazone (isolable), tautomérie en ène-hydrazine, réarrangement [3,3] qui rompt la liaison N–N faible et forme une liaison C–C forte, réaromatisation du benzène par transfert de proton, attaque de l'aniline sur l'imine donnant un AMINAL (l'équivalent azoté d'un acétal), décomposition acide de l'aminal avec perte d'ammoniac, et aromatisation finale. « Le point clé est que la liaison C–C est établie aux dépens d'une liaison N–N faible. » Encadré biographique : Emil Fischer, découvreur de la phénylhydrazine en 1875, prix Nobel 1902."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "278",
+          "note": "La Fischer posée en exercice, ZnCl₂ sur la flèche, avec pour toute consigne : « Attention au coproduit ! » — l'ammoniac, qui ne peut être prévu que si l'on a écrit l'aminal et sa décomposition. Le contrôle qui distingue un mécanisme compris d'un mécanisme récité."
         }
       ],
       "articles_historiques": [],
@@ -3320,6 +3392,36 @@
           "chapitre": "30 — Aromatic heterocycles 2: synthesis",
           "pages": "765",
           "note": "La suite de la discussion sur les dihydropyridines et leur oxydation."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.5 — Hantzsch multicomponent synthesis of heterocycles",
+          "pages": "472",
+          "note": "L'expérience de 1881 : acétylacétate d'éthyle, ammoniac et acétaldéhyde en présence de chlorure de zinc comme acide de Lewis ; c'est APRÈS oxydation et décarboxylation que Hantzsch isole la 2,4,6-collidine."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.5 — Hantzsch multicomponent synthesis of heterocycles",
+          "pages": "473",
+          "note": "Les dihydropyridines-1,4 médicamenteuses nommées : félodipine, nifédipine, nimodipine, amlodipine — inhibiteurs calciques employés contre l'hypertension, l'angine de poitrine, le spasme vasculaire et la maladie coronarienne, toutes accessibles par la réaction de Hantzsch ou une variante."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.5 — Hantzsch multicomponent synthesis of heterocycles",
+          "pages": "474",
+          "note": "L'ordre des étapes, que Clayden laisse ouvert, est ici tranché : le β-cétocarbonylé condense d'un côté avec la source d'azote (énamine) et de l'autre avec l'aldéhyde (Knoevenagel) ; les deux intermédiaires se rencontrent dans une addition de Michael, puis tautomérisation et condensation. Le catalogue des catalyseurs — jusqu'à l'iode moléculaire, aux acides aminés et à la THIAMINE."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.5 — Hantzsch multicomponent synthesis of heterocycles",
+          "pages": "479-480",
+          "note": "Le piège de l'oxydation finale : beaucoup d'oxydants coupent aussi la liaison C–C entre C4 et son substituant, dès que celui-ci peut partir sous forme d'un groupe stabilisé (isopropyle, benzyle, 1-phényléthyle, cyclohexyle). Le choix de l'oxydant n'est donc pas libre si l'on veut garder le substituant en 4."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.1 Oxidoreduction",
+          "pages": "488",
+          "note": "L'autre vie de l'intermédiaire : la dihydropyridine-1,4 est le motif actif du NADH. L'arrangement du pyruvate dans le site actif de la lactate déshydrogénase spécifique de (S) qui permet le transfert de l'hydrogène pro-R depuis le cycle dihydropyridine — et celui qui ne donne aucun transfert d'hydrure."
         }
       ],
       "articles_historiques": [],
@@ -3338,6 +3440,18 @@
           "chapitre": "30 — Aromatic heterocycles 2: synthesis",
           "pages": "782",
           "note": "La version traditionnelle et la version moderne. L'encadré : « le nom disgracieux de la réaction de Skraup s'applique justement à la pire des synthèses hétérocycliques » — amine, H₂SO₄ concentré, glycérol et nitrobenzène chauffés au-delà de 100 °C avec un large réfrigérant ; « trop souvent, les réactions de Skraup partaient effectivement, avec des résultats destructeurs ». La version moderne : adduit conjugué, cyclisation acide, oxydation par la DDQ. Et l'oxine (8-quinoléinol) obtenue à 90 % depuis l'ortho-aminophénol, qui n'a qu'une position ortho libre."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.4 — Povarov MCRs",
+          "pages": "466",
+          "note": "L'alternative moderne à la déconnexion de Skraup : Povarov observe en 1963 la formation de tétrahydroquinoléines-1,2,3,4 à partir d'une N-benzylidèneaniline et d'un éther vinylique, en présence de BF₃·OEt₂. Applications en synthèse totale : la lutonine A, cytotoxique sur les cellules leucémiques, et l'acide martinellique (Batey, 2002), dont le cœur tétrahydroquinoléine est bâti en deux étapes."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.4 — Povarov MCRs",
+          "pages": "470",
+          "note": "Le passage à la quinoléine elle-même : réaction de Povarov entre une aniline, un aldéhyde et un alcène riche à 45 °C dans le dichlorométhane, suivie de l'oxydation de la tétrahydroquinoléine. Variantes domino avec élimination-décarboxylation, et oxydation directe au palladium."
         }
       ],
       "articles_historiques": [],
@@ -3374,6 +3488,18 @@
           "chapitre": "30 — Aromatic heterocycles 2: synthesis",
           "pages": "773",
           "note": "La régiochimie des isoxazoles dépend du pH : « l'extrémité la plus nucléophile de NH₂OH attaquera le carbonyle le plus électrophile — mais laquelle c'est dépend du pH de la solution ». Les bases faibles (pyridine, acétate de sodium) engendrent du NH₂OH neutre réactif ; NaOEt engendre l'anion. Sur un céto-aldéhyde tamponné à l'acétate, l'azote attaque l'aldéhyde."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "11 — MCRs under solvent-free conditions",
+          "pages": "366",
+          "note": "Une extension multicomposants de la déconnexion de Knorr : hydrazine, acétylacétate d'éthyle, malononitrile et aldéhyde aromatique, sans solvant et à température ambiante, catalysés par la per-6-amino-β-cyclodextrine, donnent des pyranopyrazoles en une opération."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "21 — d-Block metal chemistry: coordination complexes",
+          "pages": "617",
+          "note": "Le 1H-pyrazole (Hpz) au répertoire des ligands azotés de la chimie de coordination, aux côtés de la phtalocyanine et des éthers-couronnes — l'autre vie du cycle que la synthèse de Knorr fabrique."
         }
       ],
       "articles_historiques": [],
@@ -3392,6 +3518,60 @@
           "chapitre": "29 — Aromatic heterocycles 1: reactions",
           "pages": "752",
           "note": "Les hétérocycles à soufre dans la nature et la pharmacie : le 1,2,5-thiadiazole du timolol, un bêta-bloquant."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "15 — Benzene and Aromaticity, § 15-5",
+          "pages": "465",
+          "note": "L'imidazole, cas rare où les deux sortes d'azote coexistent : un azote « de type pyridine » engagé dans une double liaison, qui donne un électron au sextuor et garde son doublet dans une orbitale sp² du plan ; un azote « de type pyrrole » qui loge son doublet dans une orbitale p et le verse au sextuor."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "24 — Amines and Heterocycles, § 24-9",
+          "pages": "819",
+          "note": "Les pKa mesurés : imidazole 6,95 ; imidazole de l'histidine 6,00 ; thiazole 2,44. Et le thiazole comme squelette de la thiamine, où l'azote est alkylé en ammonium quaternaire."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "4 — Enzyme Chemistry",
+          "pages": "164",
+          "note": "L'imidazole comme catalyseur NUCLÉOPHILE — non comme base — dans l'hydrolyse de l'acétate de p-nitrophényle : il attaque l'ester, l'acylimidazole formé est ensuite détruit très vite par l'eau. Rangé avec l'acétylation des alcools par l'anhydride acétique dans la pyridine, où l'on croit à tort que la pyridine ne fait que piéger l'acide."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "88",
+          "note": "Le mécanisme complet des protéases à sérine, écrit flèche par flèche : l'imidazole d'une histidine déprotone la sérine, l'alcoolate s'ajoute sur l'amide, l'intermédiaire tétraédrique s'effondre en expulsant l'azote qui déprotone l'imidazolium — puis l'eau reprend le même chemin sur l'O-acylsérine."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.4 Thiamine Pyrophosphate",
+          "pages": "562",
+          "note": "Breslow montre par RMN que l'ion thiazolium est acide : le proton du carbone 2 s'échange contre du deutérium dans l'eau lourde basique. L'ylure (ion dipolaire) qui en résulte, et le rôle probable du groupe amino en 4' du cycle pyrimidine, qui viendrait assister l'arrachement de ce proton."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.4 Thiamine Pyrophosphate",
+          "pages": "563",
+          "note": "Le cycle thiazolium forme un intermédiaire covalent avec le substrat et sert tour à tour d'électrophile et de nucléophile — « un catalyseur à double fonctionnalité ». L'ylure s'additionne sur le pyruvate, le cycle joue le « puits d'électrons », la décarboxylation suit, et l'intermédiaire énolique (isolé) est nucléophile."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.4 Thiamine Pyrophosphate",
+          "pages": "566",
+          "note": "L'analogie explicite : « les transformations de la thiamine montrent clairement son analogie avec l'ion cyanure, où le carbanion résultant est relativement stable parce que la charge négative est en partie partagée par l'azote ». Et la note qui relie tout : « le synthon dithiane de Corey et Seebach est l'un des analogues organiques les plus proches » de cette inversion de polarité."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "12.1 — Radziszewski reactions (imidazole synthesis)",
+          "pages": "382",
+          "note": "La réaction de Debus-Radziszewski : un composé α-dicarbonylé (glyoxal, méthylglyoxal, benzile), un aldéhyde et deux équivalents d'ammoniac sec dans l'alcool donnent un imidazole ; remplacer un ammoniac par une amine primaire donne l'imidazole N-substitué. Mécanisme par l'α-diimine, avec l'oxazole en sous-produit possible. Publiée par Debus en 1858, reprise et généralisée par Radziszewski en 1882. Motif du kétoconazole et du losartan."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "12.1 — Radziszewski reactions (imidazole synthesis)",
+          "pages": "383",
+          "note": "Le schéma mécanistique détaillé : double condensation de l'ammoniac sur l'α-dicarbonylé, formation de l'α-diimine, addition de l'aldéhyde, cyclisation et déshydratations successives."
         }
       ],
       "articles_historiques": [],
@@ -3440,6 +3620,54 @@
           "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
           "pages": "232",
           "note": "Pourquoi les oximes, hydrazones et semicarbazones sont stables alors que les imines ordinaires ne le sont pas : le substituant électronégatif participe à la délocalisation de la double liaison C=N, diminue la charge positive du carbone et remonte la LUMO."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "15 — Benzene and Aromaticity, § 15-6",
+          "pages": "468",
+          "note": "Les analogues hétérocycliques du naphtalène : quinoléine, isoquinoléine, indole et purine. Quinoléine, isoquinoléine et purine portent des azotes « de type pyridine » ; indole et purine portent des azotes « de type pyrrole ». La purine contient les deux."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "15 — Benzene and Aromaticity, § 15-6",
+          "pages": "469",
+          "note": "L'exercice qui met le compte à l'épreuve : « combien d'électrons chacun des quatre azotes de la purine donne-t-il au système aromatique ? » — trois en donnent un, celui qui porte l'hydrogène en donne deux."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "10 — Aromaticity",
+          "pages": "§ 10.7",
+          "note": "Les hétérocycles aromatiques polycycliques — indole, quinoléine, isoquinoléine, purine — comptent tous DIX électrons π, comme le naphtalène : deux orbitales liantes de plus que le benzène, donc quatre électrons de plus pour les remplir."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "3 — Bioorganic Chemistry of the Phosphate Groups and Polynucleotides",
+          "pages": "112",
+          "note": "Où se fixe le sucre : la liaison glycosidique passe par l'azote 9 des purines et par l'azote 1 des pyrimidines — dans les deux cas l'azote « de type pyrrole ». Les définitions de nucléoside (base + sucre) et de nucléotide (base + sucre + phosphate), et les bases mineures : 5-méthylcytosine, 5-hydroxyméthylcytosine, 4-thiouracile."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "3 — Bioorganic Chemistry of the Phosphate Groups and Polynucleotides",
+          "pages": "117",
+          "note": "Dans l'ATP, l'ion métallique peut être chélaté non seulement par les oxyanions du triphosphate mais aussi par l'AZOTE 7 du cycle purine — il sert alors de catalyseur électrophile (acide de Lewis) pour l'hydrolyse. Et l'origine de l'énergie de l'anhydride : la « résonance compétitive » de deux fonctions se disputant les doublets d'un même oxygène."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "3 — Bioorganic Chemistry of the Phosphate Groups and Polynucleotides",
+          "pages": "142",
+          "note": "L'appariement de Watson-Crick compté en liaisons hydrogène : une purine s'apparie toujours à une pyrimidine ; adénine et thymine (ou uracile) en forment DEUX, guanine et cytosine en forment TROIS. Avec la note sur les appariements non-Watson-Crick, importants dans la structure des ARNt."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "3 — Bioorganic Chemistry of the Phosphate Groups and Polynucleotides",
+          "pages": "152",
+          "note": "La photochimie des bases pyrimidiques : les psoralènes s'intercalent dans l'ADN et s'additionnent sous lumière sur la thymine et l'uracile ; les doubles liaisons du furane et de la coumarine du psoralène sont les sites de pontage, donnant monoadduits et diadduits."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "8 — Molecular Devices",
+          "pages": "591",
+          "note": "La statistique qui dit le rôle général de ces cycles : à l'exception de la biotine et de l'acide lipoïque, tous les coenzymes contiennent au moins un cycle purine ou pyrimidine dans leur structure."
         }
       ],
       "articles_historiques": [],
@@ -3563,6 +3791,18 @@
           "chapitre": "28 — Retrosynthetic analysis",
           "pages": "719-720",
           "note": "Le vocabulaire des synthons donneurs et accepteurs, et la parité qui les gouverne : accepteurs impairs, donneurs pairs. C'est ce comptage qui rend les composés 1,2- et 1,4-difonctionnalisés difficiles, et qui donne son sens au mot « umpolung »."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.4 Thiamine Pyrophosphate",
+          "pages": "563",
+          "note": "L'équivalent biologique du dithiane : l'ylure du thiazolium s'additionne sur le pyruvate, le cycle joue le « puits d'électrons », la décarboxylation suit, et l'intermédiaire énolique — isolé — est nucléophile. « Un catalyseur à double fonctionnalité », électrophile puis nucléophile."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.4 Thiamine Pyrophosphate",
+          "pages": "566",
+          "note": "La note de bas de page qui relie explicitement les deux mondes : « le synthon dithiane de Corey et Seebach est l'un des analogues organiques les plus proches » d'une transformation où un carbone à caractère C=O électrophile devient nucléophile. Et l'analogie avec l'ion cyanure, dont le carbanion est stabilisé par le partage de la charge avec l'azote."
         }
       ],
       "articles_historiques": [
