@@ -523,6 +523,26 @@
     "substrat": "ortholithiation-substrat.svg",
     "produit": "ortholithiation-produit.svg"
   },
+  "cycle_catalytique_palladium": {
+    "substrat": "cycle_catalytique_palladium-substrat.svg",
+    "produit": "cycle_catalytique_palladium-produit.svg"
+  },
+  "couplage_suzuki": {
+    "substrat": "couplage_suzuki-substrat.svg",
+    "produit": "couplage_suzuki-produit.svg"
+  },
+  "reaction_heck": {
+    "substrat": "reaction_heck-substrat.svg",
+    "produit": "reaction_heck-produit.svg"
+  },
+  "couplage_sonogashira": {
+    "substrat": "couplage_sonogashira-substrat.svg",
+    "produit": "couplage_sonogashira-produit.svg"
+  },
+  "couplage_stille": {
+    "substrat": "couplage_stille-substrat.svg",
+    "produit": "couplage_stille-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1016,6 +1036,33 @@
   },
   "co2": {
     "molecule": "reactif-co2.svg"
+  },
+  "pd_pph3_4": {
+    "molecule": "reactif-pd_pph3_4.svg"
+  },
+  "pd_oac2": {
+    "molecule": "reactif-pd_oac2.svg"
+  },
+  "cui": {
+    "molecule": "reactif-cui.svg"
+  },
+  "licl": {
+    "molecule": "reactif-licl.svg"
+  },
+  "k2co3": {
+    "molecule": "reactif-k2co3.svg"
+  },
+  "acide_phenylboronique": {
+    "molecule": "reactif-acide_phenylboronique.svg"
+  },
+  "tributylvinylstannane": {
+    "molecule": "reactif-tributylvinylstannane.svg"
+  },
+  "acrylate_ethyle": {
+    "molecule": "reactif-acrylate_ethyle.svg"
+  },
+  "et2nh": {
+    "molecule": "reactif-et2nh.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

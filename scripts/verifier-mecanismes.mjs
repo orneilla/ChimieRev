@@ -43,13 +43,19 @@ const VALENCE = {
   // Le cuivre(I) des cuprates n'en engage qu'UN : le cuprate R₂Cu⁻ porte
   // deux liaisons et une charge négative, et c'est ce compte-là qui rend
   // la charge du réactif de Gilman.
-  24: 6, 29: 1, 50: 4, 76: 8, 80: 2
+  // Le palladium en engage DEUX, et c'est tout le cycle catalytique : le
+  // Pd(0) part avec un doublet disponible, l'addition oxydante le change
+  // en deux liaisons σ — Pd(II) —, l'élimination réductrice les rend. Les
+  // ligands (phosphines, solvant) ne sont pas écrits : ils ne changent
+  // pas, et les faire figurer imposerait des charges formelles que la
+  // liaison dative crée sans qu'elles existent.
+  24: 6, 29: 1, 46: 2, 50: 4, 76: 8, 80: 2
 }
 const SYMBOLE = {
   1: 'H', 3: 'Li', 5: 'B', 6: 'C', 7: 'N', 8: 'O', 9: 'F', 11: 'Na', 12: 'Mg',
   13: 'Al',
   14: 'Si', 15: 'P', 16: 'S', 17: 'Cl', 19: 'K', 24: 'Cr', 29: 'Cu', 30: 'Zn',
-  35: 'Br', 50: 'Sn', 53: 'I', 76: 'Os', 80: 'Hg'
+  35: 'Br', 46: 'Pd', 50: 'Sn', 53: 'I', 76: 'Os', 80: 'Hg'
 }
 
 const RDKit = await initRDKit()

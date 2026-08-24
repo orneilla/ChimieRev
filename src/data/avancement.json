@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 131,
+  "redigees": 136,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1118,45 +1118,45 @@
       "famille": "Couplages",
       "bloc": "Organométallique et catalyse",
       "total": 9,
-      "absente": 9,
-      "redigee": 0,
+      "absente": 4,
+      "redigee": 5,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
           "nom": "Cycle catalytique du palladium (les trois étapes)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cycle_catalytique_palladium",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Couplage de Suzuki-Miyaura",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_suzuki",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réaction de Heck",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reaction_heck",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Couplage de Sonogashira",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_sonogashira",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Couplage de Stille",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_stille",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Couplage de Negishi",

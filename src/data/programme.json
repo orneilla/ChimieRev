@@ -791,27 +791,27 @@
         {
           "nom": "Cycle catalytique du palladium (les trois étapes)",
           "niveau": "M1",
-          "id": null
+          "id": "cycle_catalytique_palladium"
         },
         {
           "nom": "Couplage de Suzuki-Miyaura",
           "niveau": "M1",
-          "id": null
+          "id": "couplage_suzuki"
         },
         {
           "nom": "Réaction de Heck",
           "niveau": "M1",
-          "id": null
+          "id": "reaction_heck"
         },
         {
           "nom": "Couplage de Sonogashira",
           "niveau": "M1",
-          "id": null
+          "id": "couplage_sonogashira"
         },
         {
           "nom": "Couplage de Stille",
           "niveau": "M2",
-          "id": null
+          "id": "couplage_stille"
         },
         {
           "nom": "Couplage de Negishi",

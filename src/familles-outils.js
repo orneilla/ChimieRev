@@ -17,6 +17,7 @@ export const FAMILLES_REACTIFS = [
   'Activation et groupes partants',
   'Amines et donneurs de condensation',
   'Carbènes et ylures',
+  'Partenaires de couplage',
   'Amorceurs et réactifs radicalaires',
   'Ligands et catalyseurs'
 ]

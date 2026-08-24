@@ -16,6 +16,15 @@ export default function MecanismeEtapes({ id, etapes }) {
   // la précision n'aurait aucun sens.
   const avecHamecons = Object.values(schemas).some((s) => s.hamecons)
 
+  // Onze mécanismes n'ont AUCUNE flèche, et c'est délibéré. Deux raisons se
+  // rencontrent : autour d'un métal de transition les étapes sont concertées
+  // et l'ouvrage lui-même ne les dessine pas autrement (couplages, cycle du
+  // palladium) ; ailleurs, l'ouvrage ne donne tout simplement pas le détail
+  // (Clemmensen, hydrogénations, Luche). Annoncer des flèches rouges là où il
+  // n'y en a pas promettrait ce que la fiche ne donne pas, et laisserait
+  // croire à un oubli. On dit donc ce qu'il en est.
+  const avecFleches = Object.values(schemas).some((s) => (s.fleches || []).length > 0)
+
   // On parcourt les étapes décrites, plus les schémas complémentaires
   // (bilan, produits formés) numérotés au-delà de la dernière étape.
   const numeros = [...new Set([
@@ -27,12 +36,24 @@ export default function MecanismeEtapes({ id, etapes }) {
     <section className="bloc bloc-mecanisme">
       <h3>Le mécanisme, pas à pas</h3>
 
-      <p className="note note-fleches">
-        Les flèches rouges suivent les électrons. Ce qu'elles quittent est
-        marqué en <span className="marque-depart">bleu</span>, ce qu'elles
-        atteignent en <span className="marque-arrivee">rose</span> : la cible
-        n'est jamais à deviner.
-      </p>
+      {avecFleches ? (
+        <p className="note note-fleches">
+          Les flèches rouges suivent les électrons. Ce qu'elles quittent est
+          marqué en <span className="marque-depart">bleu</span>, ce qu'elles
+          atteignent en <span className="marque-arrivee">rose</span> : la cible
+          n'est jamais à deviner.
+        </p>
+      ) : (
+        <p className="note note-sans-fleches">
+          <strong>Ce mécanisme se lit sans flèches courbes</strong>, et ce n'est
+          pas un oubli. Ou bien les étapes en jeu sont <strong>concertées</strong> —
+          tout y bouge en même temps, et une flèche laisserait croire à une
+          séquence — ou bien l'ouvrage d'où vient la fiche ne les détaille pas.
+          Dans les deux cas, <strong>on ne dessine pas ce qu'on n'a pas lu</strong> :
+          chaque schéma montre l'<strong>état</strong> du système, et la légende
+          de l'étape dit ce qui s'y passe et pourquoi.
+        </p>
+      )}
 
       {avecHamecons && (
         <p className="note note-fleches">
@@ -44,11 +65,13 @@ export default function MecanismeEtapes({ id, etapes }) {
         </p>
       )}
 
-      <p className="note">
-        Chaque jeu de flèches est <strong>appliqué par la machine</strong> avant
-        publication : s'il ne mène pas au produit annoncé, ou s'il ne conserve
-        pas la charge, le schéma n'est pas publié.
-      </p>
+      {avecFleches && (
+        <p className="note">
+          Chaque jeu de flèches est <strong>appliqué par la machine</strong> avant
+          publication : s'il ne mène pas au produit annoncé, ou s'il ne conserve
+          pas la charge, le schéma n'est pas publié.
+        </p>
+      )}
 
       <ol className="liste-etapes">
         {numeros.map((numero) => {

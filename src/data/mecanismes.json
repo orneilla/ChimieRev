@@ -18609,5 +18609,185 @@
         "valide": false
       }
     ]
+  },
+  "cycle_catalytique_palladium": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Après l'addition oxydante",
+        "smiles": "Br[Pd]c1ccccc1",
+        "legende": "Le palladium(0) s'est glissé dans la liaison carbone–brome. Une liaison est devenue deux, et le métal est au milieu.\n\nIl a donné deux électrons pour les faire : il est passé de Pd(0) à Pd(II). C'est ce que veut dire « oxydante » — le métal s'oxyde en même temps qu'il gagne deux liaisons.\n\nLe compte d'électrons a suivi : PdL₄ à 18 électrons était INERTE, PdL₂ à 14 est réactif, et ce complexe-ci en a 16 (Clayden p. 1079). Les phosphines ne sont pas dessinées : elles ne changent pas.\n\nPAS DE FLÈCHES ICI. L'étape est concertée, et Clayden ne la dessine pas autrement. Sa boîte sur le complexe de Vaska (p. 1074) explique pourquoi on ne peut pas généraliser : l'addition oxydante de H₂ se fait en cis, donc en un seul geste ; celle de l'iodométhane se fait en trans, « géométriquement impossible pour un processus concerté », donc par un mécanisme de type SN2. Même métal, deux mécanismes.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Après la transmétallation",
+        "smiles": "c1ccccc1[Pd]c1ccccc1",
+        "legende": "Le second partenaire a cédé son groupe carboné au palladium, à la place du brome. Le métal porte maintenant DEUX carbones, côte à côte.\n\nC'est exactement la situation qu'on cherchait : deux morceaux qui ne se seraient jamais rencontrés, tenus à distance de liaison sur le même atome.\n\nC'est aussi l'étape LENTE. Clayden l'écrit sans nuance (p. 1085) : « la transmétallation est toujours l'étape lente de ces réactions de couplage ». Le couplage de Stille en tire d'ailleurs une astuce — voir sa fiche.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Après l'élimination réductrice",
+        "smiles": "c1ccccc1-c1ccccc1.[Pd]",
+        "legende": "Les deux carbones se sont liés l'un à l'autre et ont quitté le métal d'un seul mouvement. Le palladium a récupéré ses deux électrons : il est redevenu Pd(0), prêt pour un tour de plus.\n\nUNE CONDITION GÉOMÉTRIQUE, et l'expérience qui la prouve (Clayden p. 1075). Le processus étant concerté, les deux groupes doivent être CIS. Deux complexes de palladium portant chacun deux méthyles : dans le premier, une bisphosphine souple les laisse côte à côte, et le chauffage en DMSO libère de l'éthane. Dans le second, une bisphosphine plus élaborée les force en trans : rien ne se passe.\n\nMême métal, même groupe, mêmes conditions. Seule la géométrie a changé.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "c1ccccc1-c1ccccc1",
+        "legende": "Le biphényle : une liaison entre deux carbones aromatiques, que rien d'autre ne sait faire proprement.\n\nEt un palladium(0) intact, qui recommence. C'est pourquoi on en met 1 ou 2 % et non un équivalent.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "couplage_suzuki": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le palladium tient l'aryle ; l'acide boronique attend",
+        "smiles": "Br[Pd]c1ccccc1.OB(O)c1ccccc1",
+        "legende": "À gauche, le produit de l'addition oxydante : un palladium(II) portant l'aryle et le brome.\n\nÀ droite, l'acide phénylboronique, stable à l'air et à l'eau, souvent cristallin. C'est lui qui a fait le succès industriel de ce couplage : son déchet est l'acide borique.\n\nTel quel, ce bore ne cède rien : son carbone n'est pas assez donneur. Il faut la base.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Après la transmétallation",
+        "smiles": "c1ccccc1[Pd]c1ccccc1",
+        "legende": "La base s'est posée sur le bore — qui a une case vide, c'est un acide de Lewis — et l'a rendu négatif. Le carbone est alors devenu assez donneur pour passer sur le palladium.\n\nClayden le formule ainsi (p. 1086) : la base « accélère l'étape de transmétallation, conduisant directement au borate, VRAISEMBLABLEMENT via un complexe « ate » plus nucléophile ».\n\nL'adverbe est de lui. L'intermédiaire exact n'est pas affirmé dans l'ouvrage : il n'est donc pas dessiné ici.\n\nC'est le seul point où ce couplage diffère de celui de Stille — et c'est pourquoi le Suzuki demande une base et le Stille non.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Après l'élimination réductrice",
+        "smiles": "c1ccccc1-c1ccccc1.[Pd]",
+        "legende": "Les deux aryles partent liés, le palladium(0) revient.\n\nCe qu'il faut retenir de la géométrie : elle est conservée des deux côtés. Un acide vinylboronique E couplé à un bromure vinylique Z donne le diène E,Z, et rien d'autre (Clayden p. 1086, 75 % de rendement). C'est ce qui rend ce couplage précieux avant une Diels-Alder.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "c1ccccc1-c1ccccc1",
+        "legende": "Le biphényle. Et une mise en garde de Clayden qu'il vaut mieux avoir lue (p. 1087) : ne voyez pas l'acide boronique comme « le carbone nucléophile ». Les deux partenaires sont ÉGAUX ; le brome et le bore ne sont que des éléments de contrôle, là pour garantir le croisement et empêcher la dimérisation.\n\nLa preuve : il fabrique le même produit dans les deux sens, en échangeant lequel porte le brome et lequel porte le bore. 56 % d'un côté, 83 % de l'autre.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reaction_heck": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le palladium tient l'aryle ; l'alcène arrive",
+        "smiles": "I[Pd]c1ccccc1.C=CC(=O)OCC",
+        "legende": "Après l'addition oxydante, le palladium(II) porte l'aryle et l'iode.\n\nEn face, un simple alcène — ici l'acrylate d'éthyle. C'est ce qui distingue le Heck des autres couplages : il n'y a pas de partenaire organométallique à préparer d'avance, on prend l'alcène tel quel.\n\nOn part en général de Pd(OAc)₂, stable à l'air et bien moins cher : il est réduit en Pd(0) dans le ballon, et Clayden donne quatre mécanismes possibles pour cette réduction (p. 1081).",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "La carbopalladation",
+        "smiles": "CCOC(=O)C([Pd]I)Cc1ccccc1",
+        "legende": "L'alcène s'est coordiné au métal, puis s'est glissé ENTRE le palladium et l'aryle. Après quoi le carbone et le métal se retrouvent sur les deux bouts de l'ancienne double liaison — d'où le nom de carbopalladation (Clayden p. 1079).\n\nIls se sont posés du MÊME CÔTÉ du plan : c'est une addition syn.\n\nREGARDEZ OÙ L'ARYLE EST ARRIVÉ. Sur le carbone le plus éloigné de l'ester. C'est la règle avec un groupe électroattracteur : « quand l'alcène est polarisé par un groupe électroattracteur, la nouvelle liaison C–C se forme à l'autre bout de l'alcène » (p. 1080).\n\nAvec un groupe DONNEUR — un éther d'énol —, c'est l'inverse : l'attaque a lieu du côté de l'oxygène et donne le produit 1,1-disubstitué (p. 1081). Deux régiochimies opposées : cela ne se devine pas.\n\nLe degré d'oxydation n'a pas changé : le palladium est toujours au (II).",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'élimination β-hydrure libère le produit",
+        "smiles": "CCOC(=O)C=Cc1ccccc1.[Pd](I)[H]",
+        "legende": "Le palladium regarde le carbone d'à côté, y trouve un hydrogène, et le prend. En le prenant, il laisse derrière lui une double liaison : l'alcène substitué se détache.\n\nL'élimination est SYN, et davantage : « les liaisons C–Pd et C–H doivent s'ÉCLIPSER pour que la liaison Pd–H se forme » (Clayden p. 1081). Dans une chaîne souple on tourne pour y arriver ; dans un cycle, les positions sont figées et il arrive qu'un seul hydrogène convienne — la double liaison sort alors ailleurs qu'on l'attendait.\n\nELLE EST RÉVERSIBLE, et c'est le piège. « Quand il y a le choix, c'est l'alcène le plus stable qui résulte habituellement » (p. 1081). Sur un alcool allylique, le plus stable est l'ÉNOL — qui bascule aussitôt en composé carbonylé. On voulait un alcène, on obtient un aldéhyde.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCOC(=O)C=Cc1ccccc1",
+        "legende": "Le cinnamate d'éthyle : un aryle et un ester de part et d'autre d'une double liaison E.\n\nIl reste au palladium à se débarrasser de son hydrogène et de son iode : la base les emporte sous forme de HI, et le Pd(0) est rendu. Le cycle repart.\n\nLes conditions sont assez douces pour qu'on puisse « préparer des acides aminés protégés sans aucune racémisation » (Clayden p. 1080).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "couplage_sonogashira": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Deux métaux, deux métiers",
+        "smiles": "I[Pd]c1ccccc1.CCCCC#C[Cu]",
+        "legende": "À gauche, le palladium(II) issu de l'addition oxydante : il tient l'aryle et l'iode.\n\nÀ droite, un acétylure de cuivre. C'est le cuivre(I), avec l'amine, qui l'a fabriqué à partir de l'alcyne — et c'est tout l'intérêt du procédé : « l'alcyne n'a besoin d'aucun métal pour être activé : la réaction marche avec l'alcyne lui-même » (Clayden p. 1087). Rien à préparer d'avance, contrairement au Stille et au Suzuki.\n\nLE DÉTAIL DE CETTE FORMATION N'EST PAS DONNÉ dans l'ouvrage. Il n'est donc pas dessiné ici. Un mécanisme qu'on n'a pas lu ne s'invente pas.\n\nCe qu'on peut dire : le proton d'un alcyne terminal est porté par un carbone sp, qui tient ses électrons près de lui. Son pKa tombe vers 25, contre 50 pour un alcane. C'est ce qui rend l'opération possible.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Après la transmétallation",
+        "smiles": "CCCCC#C[Pd]c1ccccc1",
+        "legende": "L'acétylure est passé du cuivre au palladium. Le métal porte maintenant l'aryle et l'alcyne, côte à côte.\n\nLe cuivre, lui, est libre de recommencer : il est co-catalytique, comme le palladium.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Après l'élimination réductrice",
+        "smiles": "CCCCC#Cc1ccccc1.[Pd]",
+        "legende": "Les deux carbones partent liés : un aryle attaché à un alcyne. Le palladium(0) revient.\n\nLes conditions sont remarquablement douces — « 25 °C, 3 à 6 heures » (Clayden p. 1087) —, ce qui est rare pour une liaison carbone–carbone entre deux carbones insaturés.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCCC#Cc1ccccc1",
+        "legende": "Un arylalcyne. C'est le motif des ène-diynes, ces antibiotiques qu'on fabrique en couplant deux alcynes terminaux sur un dihaloéthylène Z (p. 1088).\n\nCes molécules se glissent dans l'ADN, puis se referment toutes seules en un diradical benzénique — la cyclisation de Bergmann. Le diradical attaque l'ADN de l'intérieur : c'est de là que vient leur activité anticancéreuse.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "couplage_stille": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le palladium tient l'aryle ; le stannane attend",
+        "smiles": "I[Pd]c1ccccc1.C=C[Sn](C)(C)C",
+        "legende": "À gauche, le palladium(II) de l'addition oxydante.\n\nÀ droite, un organostannane vinylique. La liaison carbone–étain est peu polarisée : le composé n'est pas agressif, on peut le purifier sur colonne et le mettre en flacon. Clayden explique par là le succès du Stille et du Suzuki (p. 1084) : ce sont « des intermédiaires stables en eux-mêmes, qui peuvent être préparés et purifiés séparément avant la réaction de couplage ».\n\nAucune base n'est nécessaire ici, contrairement au Suzuki : l'étain cède son groupe sans qu'on l'active.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Après la transmétallation — l'étape lente",
+        "smiles": "C=C[Pd]c1ccccc1",
+        "legende": "Le vinyle est passé de l'étain au palladium, qui porte maintenant deux carbones.\n\nC'EST L'ÉTAPE LENTE, et Clayden l'écrit sans nuance (p. 1085) : « la transmétallation est toujours l'étape lente de ces réactions de couplage ».\n\nOn s'en sert. Conduisez la même réaction sous UNE atmosphère de monoxyde de carbone : le CO prend la place d'une phosphine et « s'insère très rapidement pour produire un complexe acyle de palladium(II) ». L'insertion est rapide, la transmétallation est lente : le CO passe donc AVANT le second carbone.\n\nOn obtient une cétone au lieu du couplage direct — 80 % de rendement, « sans aucune trace du produit de couplage normal ». Une lenteur transformée en outil.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Après l'élimination réductrice",
+        "smiles": "C=Cc1ccccc1.[Pd]",
+        "legende": "Le styrène sort, le palladium(0) revient.\n\nUne note de paillasse : avec un triflate au lieu d'un halogénure, il faut ajouter LiCl. « Le triflate est un contre-ion et peut ne pas se lier au métal comme ligand : le chlorure peut prendre sa place » (Clayden p. 1084). Les triflates vinyliques se font à partir de cétones énolisables, les aromatiques à partir de phénols — ce qui ouvre le couplage à des substrats sans halogène.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "C=Cc1ccccc1",
+        "legende": "Le styrène. La géométrie des deux partenaires insaturés a été conservée : c'est ce qui fait de ce couplage, comme du Suzuki, une bonne voie d'accès aux diènes de géométrie choisie.\n\nCe qui lui a fait perdre du terrain n'est pas son mécanisme mais son déchet : les composés de l'étain sont toxiques et leurs résidus se séparent mal du produit. À mécanisme égal, le bore a gagné.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

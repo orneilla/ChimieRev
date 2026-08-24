@@ -972,11 +972,17 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 /* ---------- Mécanisme pas à pas ---------- */
 
-.note-fleches {
+.note-fleches,
+.note-sans-fleches {
   margin: 0 0 1rem;
   border-left: 4px solid var(--framboise);
   padding-left: 0.7rem;
 }
+
+/* Un mécanisme sans flèches courbes : on le dit, plutôt que de laisser
+   croire à un oubli. Le liseré prend la couleur de la famille, pour qu'on
+   voie tout de suite que ce n'est pas le même avertissement. */
+.note-sans-fleches { border-left-color: var(--couleur); }
 
 .etape-corps { flex: 1; min-width: 0; }
 

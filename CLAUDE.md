@@ -359,6 +359,39 @@ ne doivent pas porter des couleurs proches. Trois points à retenir :
 Le résultat ne dépend que des données : le tableau ne se réorganise pas
 d'une visite à l'autre.
 
+### Quand un mécanisme n'a pas de flèches
+
+Onze mécanismes n'en portent aucune, et ce n'est pas un manque. Deux
+raisons se rencontrent :
+
+- **les étapes sont concertées.** Autour d'un métal de transition —
+  addition oxydante, élimination réductrice, insertion migratoire,
+  élimination β-hydrure — tout bouge en même temps. Une flèche courbe
+  raconte un déplacement de doublets d'un atome à un autre ; l'employer
+  ici laisserait croire à une séquence qui n'existe pas. **Clayden ne les
+  dessine pas non plus**, et sa boîte sur le complexe de Vaska (p. 1074)
+  dit pourquoi il ne faut surtout pas généraliser : l'addition oxydante
+  de H₂ se fait en *cis*, donc en un seul geste ; celle de l'iodométhane
+  se fait en *trans*, « géométriquement impossible pour un processus
+  concerté », donc par un mécanisme de type SN2. Même métal, deux
+  mécanismes.
+- **l'ouvrage ne donne pas le détail.** C'est le cas de la Clemmensen, des
+  hydrogénations, de la réduction de Luche. On ne dessine pas ce qu'on
+  n'a pas lu.
+
+`MecanismeEtapes` le détecte et remplace l'en-tête. Sans cela, la fiche
+promettait des « flèches rouges » qu'elle ne donnait pas, et le lecteur
+concluait à un oubli. La note prend le liseré de la famille, pour qu'on
+voie tout de suite que ce n'est pas le même avertissement.
+
+**Le palladium entre dans le comptage électronique** du vérificateur avec
+**deux** électrons de valence engagés : Pd(0) part avec un doublet
+disponible, l'addition oxydante le change en deux liaisons σ, l'élimination
+réductrice les rend. Les ligands — phosphines, solvant — ne sont pas
+écrits dans les SMILES : ils ne changent pas, et les faire figurer
+imposerait des charges formelles que la liaison dative crée sans qu'elles
+existent.
+
 ## Les réactifs et les solvants
 
 **Chaque réaction apporte ses réactifs et son solvant** : c'est la règle,

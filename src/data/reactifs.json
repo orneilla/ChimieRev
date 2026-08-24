@@ -2810,5 +2810,209 @@
     ],
     "explication_reference": "Le dioxyde de carbone réagit avec les organométalliques pour donner, après hydrolyse acide, un acide carboxylique (Clayden p. 190-191). La séquence se conduit en trois temps : formation de l'organométallique, réaction avec CO₂, puis traitement acide — l'eau n'intervenant qu'à la fin.\n\nOn l'introduit en général sous forme de neige carbonique, ce qui assure à la fois l'excès et la basse température.",
     "explication_comprendre": "POURQUOI le gaz le plus inerte de l'atmosphère serait-il un réactif ?\n\nParce qu'il est inerte devant les nucléophiles ordinaires, pas devant un carbanion.\n\nLe carbone du CO₂ est coincé entre deux oxygènes qui lui tirent ses électrons des deux côtés. Il est donc très appauvri — franchement électrophile. Ce qui lui manque, ce n'est pas l'envie de se faire attaquer : c'est un nucléophile assez fort pour le faire.\n\nUn organolithien l'est.\n\nCE QU'ON GAGNE EN UNE ÉTAPE\n\nUn carbone de plus, et il arrive déjà au bon degré d'oxydation.\n\nSi on ajoutait ce carbone sous forme de méthyle, il faudrait ensuite l'oxyder trois fois pour en faire un acide. Ici, l'acide sort directement : les deux oxygènes étaient déjà là.\n\nCOMMENT ON L'INTRODUIT\n\nSous forme de neige carbonique — du CO₂ solide, qu'on verse dans le ballon.\n\nDeux avantages d'un coup : on en met forcément en excès, et il refroidit le milieu en subliment. Un organométallique aime les deux."
+  },
+  {
+    "id": "pd_pph3_4",
+    "nom": "Pd(PPh₃)₄",
+    "nom_complet": "tétrakis(triphénylphosphine)palladium(0)",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "[Pd]",
+    "role": "La source de palladium(0) — celle qu'on pèse pour un couplage",
+    "anatomie_annotations": [
+      {
+        "partie": "le palladium(0)",
+        "role": "Il a un doublet disponible : c'est lui qui se glisse dans la liaison carbone–halogène. Après quoi il est Pd(II), et il faudra l'élimination réductrice pour le rendre."
+      },
+      {
+        "partie": "les quatre phosphines",
+        "role": "Elles le stabilisent et le rendent manipulable — mais elles saturent aussi le métal à 18 électrons. Il doit en perdre DEUX pour devenir réactif."
+      }
+    ],
+    "reactions_liees": [
+      "cycle_catalytique_palladium",
+      "couplage_suzuki",
+      "couplage_sonogashira",
+      "couplage_stille"
+    ],
+    "explication_reference": "Tétrakis(triphénylphosphine)palladium(0) est, avec Pd₂(dba)₃, la source de palladium(0) la plus courante (Clayden p. 1078). Solide jaune, sensible à l'air.\n\nÀ 18 électrons il est INERTE : il doit perdre deux phosphines pour donner PdL₂, à 14 électrons, qui est l'espèce réactive (p. 1079). L'addition oxydante le porte ensuite à 16.\n\nLe métal coûte 50 à 100 £ le gramme, mais « très peu suffit pour une réaction catalytique » (p. 1078) : on l'emploie à 1-5 mol %.",
+    "explication_comprendre": "POURQUOI le complexe qu'on achète est-il celui qui ne fait rien ?\n\nC'est le paradoxe qu'il faut avoir compris avant tout le reste.\n\nUn métal de transition est « plein » à 18 électrons. Dans cet état, toutes ses places sont prises : il ne peut RIEN accepter de nouveau. Pd(PPh₃)₄ est exactement dans ce cas.\n\nCE QUI SE PASSE DANS LE BALLON\n\nIl se déshabille.\n\nDeux phosphines se détachent, et le palladium se retrouve à 14 électrons — insaturé, avec deux places libres. C'est cette espèce-là, PdL₂, qui va travailler (Clayden p. 1079).\n\nLes quatre phosphines ne sont donc pas là pour la réaction : elles sont là pour que le flacon se conserve.\n\nPOURQUOI IL FAUT DÉGAZER\n\nLe palladium(0) s'oxyde à l'air, et les phosphines aussi — elles finissent en oxyde de phosphine, qui ne coordine plus rien.\n\nUn milieu mal dégazé consomme le catalyseur avant qu'il n'ait servi. C'est la cause la plus fréquente d'un couplage qui ne part pas."
+  },
+  {
+    "id": "pd_oac2",
+    "nom": "Pd(OAc)₂",
+    "nom_complet": "acétate de palladium(II)",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "CC(=O)O[Pd]OC(C)=O",
+    "role": "Précurseur stable à l'air, réduit en Pd(0) dans le ballon",
+    "anatomie_annotations": [
+      {
+        "partie": "le palladium(II)",
+        "role": "Il n'est pas actif tel quel : il doit d'abord être réduit en Pd(0). Clayden donne quatre mécanismes possibles pour cette réduction in situ."
+      },
+      {
+        "partie": "les deux acétates",
+        "role": "Ligands labiles. Ils partent facilement, et l'un d'eux emporte souvent l'hydrogène qui réduit le métal."
+      }
+    ],
+    "reactions_liees": [
+      "reaction_heck"
+    ],
+    "explication_reference": "L'acétate de palladium(II) est la source de palladium la plus employée dans les réactions de Heck (Clayden p. 1080, exemples à 1, 5 et 10 mol %). Les complexes de palladium(II) « sont généralement plus stables que leurs homologues au palladium(0) » (p. 1078).\n\nIl est réduit en palladium(0) sur place. Clayden donne quatre mécanismes possibles (p. 1081) : par une amine tertiaire (échange de ligand, élimination β-hydrure, élimination réductrice), par une phosphine qui finit en oxyde de phosphine, par l'alcène lui-même, ou par deux équivalents de l'organométallique.",
+    "explication_comprendre": "POURQUOI partir du mauvais degré d'oxydation ?\n\nParce que le bon ne se conserve pas.\n\nLe cycle catalytique a besoin de palladium(0). Mais le palladium(0) s'oxyde à l'air, se conserve mal, et coûte plus cher. Le palladium(II), lui, est un solide stable qu'on pèse à l'air libre.\n\nOn achète donc le mauvais et on le corrige sur place.\n\nCOMMENT LA CORRECTION SE FAIT\n\nQuelque chose dans le ballon donne deux électrons au métal.\n\nCe quelque chose peut être l'amine qui sert de base, la phosphine du ligand — qui finit en oxyde de phosphine —, l'alcène lui-même, ou l'organométallique partenaire. Clayden dessine les quatre chemins (p. 1081).\n\nAutrement dit : on n'a rien à ajouter. La réduction se fait avec ce qui est déjà là.\n\nCE QUE ÇA CHANGE EN PRATIQUE\n\nRien au mécanisme, tout à la manipulation. C'est pourquoi la plupart des modes opératoires de Heck commencent par « Pd(OAc)₂, 5 mol % » et non par un palladium(0)."
+  },
+  {
+    "id": "cui",
+    "nom": "CuI",
+    "nom_complet": "iodure de cuivre(I)",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "[Cu]I",
+    "role": "Co-catalyseur — il prépare l'alcyne que le palladium assemblera",
+    "anatomie_annotations": [
+      {
+        "partie": "le cuivre(I)",
+        "role": "Il forme avec l'alcyne terminal un acétylure de cuivre, qui est le partenaire de la transmétallation vers le palladium. Il est rendu à chaque tour : co-catalytique, comme le palladium."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_sonogashira"
+    ],
+    "explication_reference": "L'iodure de cuivre(I) est le co-catalyseur du couplage de Sonogashira : la réaction « demande un complexe de palladium(0), se conduit en présence de base, et emploie généralement l'iodure de cuivre comme co-catalyseur » (Clayden p. 1087).\n\nSon rôle est de porter l'alcyne : avec l'amine, il en forme un acétylure de cuivre, partenaire de la transmétallation. Clayden ne détaille pas le mécanisme de cette formation.",
+    "explication_comprendre": "POURQUOI deux métaux au lieu d'un ?\n\nParce qu'ils ne font pas le même métier.\n\nLe palladium sait assembler deux carbones qu'on lui présente. Mais il faut les lui PRÉSENTER — c'est-à-dire les lui apporter sous une forme qu'il puisse prendre.\n\nUn alcyne terminal, tel quel, ne se donne pas au palladium. Le cuivre s'en charge : il en fait un acétylure, et c'est cet acétylure qui passe sur le palladium.\n\nDeux métaux, deux rôles : le cuivre prépare, le palladium assemble.\n\nUN PIÈGE DE PAILLASSE QUI COÛTE CHER\n\nEn présence d'oxygène, les acétylures de cuivre se couplent ENTRE EUX — c'est le couplage de Glaser, et il donne le diyne symétrique.\n\nVous vouliez Ar–C≡C–R, vous obtenez R–C≡C–C≡C–R. Le remède est le même que pour le palladium : dégazer sérieusement."
+  },
+  {
+    "id": "licl",
+    "nom": "LiCl",
+    "nom_complet": "chlorure de lithium",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "[Li]Cl",
+    "role": "Il fournit le chlorure qui remplace un triflate sur le métal",
+    "anatomie_annotations": [
+      {
+        "partie": "le chlorure",
+        "role": "C'est lui qui compte : il se lie au palladium là où le triflate ne le peut pas, complétant la sphère de coordination du métal."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_stille"
+    ],
+    "explication_reference": "Le chlorure de lithium accompagne les couplages de Stille conduits sur des triflates. Clayden le note en marge (p. 1084) : « dans les réactions des triflates, une source d'halogénure — typiquement LiCl — est généralement nécessaire, puisque le triflate est un contre-ion et peut ne pas se lier au métal comme ligand : le chlorure peut prendre sa place. »",
+    "explication_comprendre": "POURQUOI ajouter un sel qui ne participe à rien ?\n\nParce qu'après l'addition oxydante, il manque une pièce au palladium.\n\nQuand le métal se glisse dans une liaison carbone–brome, il garde le brome : Ar–Pd–Br. Le brome est un ligand, il occupe une place, tout va bien.\n\nCE QUE LE TRIFLATE FAIT DIFFÉREMMENT\n\nIl s'en va complètement.\n\nUn triflate est un anion extrêmement stable — c'est justement ce qui en fait un si bon groupe partant. Une fois parti, il n'a aucune envie de revenir se coordiner au métal : il reste dans la solution comme simple contre-ion.\n\nLe palladium se retrouve donc avec une place vide et une charge positive. C'est moins bien.\n\nLE REMÈDE\n\nOn met du chlorure dans le milieu. Il prend la place que le triflate a laissée, et le complexe redevient celui qu'on connaît : Ar–Pd–Cl.\n\nC'est un cas où un additif ne change ni le mécanisme ni le produit : il rend simplement au métal une géométrie qu'il sait manipuler."
+  },
+  {
+    "id": "k2co3",
+    "nom": "K₂CO₃",
+    "nom_complet": "carbonate de potassium",
+    "famille": "Bases",
+    "SMILES": "[K+].[K+].[O-]C([O-])=O",
+    "role": "Base moyenne, solide, peu chère — celle des couplages",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbonate",
+        "role": "Base assez forte pour neutraliser HX au fur et à mesure, assez douce pour ne pas attaquer les esters ni provoquer d'élimination."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_suzuki",
+      "reaction_heck"
+    ],
+    "explication_reference": "Le carbonate de potassium est l'une des bases usuelles des couplages pallado-catalysés. Dans le Suzuki, la base est indispensable : elle « accélère l'étape de transmétallation, conduisant directement au borate » (Clayden p. 1086) — l'hydroxyde et l'éthanolate de sodium ou de potassium sont également employés.\n\nDans le Heck, elle a un autre rôle : reprendre HX au palladium pour régénérer le palladium(0) (p. 1080).",
+    "explication_comprendre": "POURQUOI une base dans un couplage ?\n\nElle n'y fait pas la même chose selon la réaction, et c'est le genre de détail qui distingue une lecture attentive d'une lecture pressée.\n\nDANS UN SUZUKI, elle active le bore. Sans elle, le bore ne cède pas son carbone et la transmétallation ne se fait pas. Elle est indispensable au MÉCANISME.\n\nDANS UN HECK, elle nettoie. À la fin du cycle, le palladium porte un hydrogène et un halogène : la base les emporte sous forme de HX, et rend le métal disponible. Elle est indispensable au CYCLE, pas à l'étape.\n\nPOURQUOI CELLE-CI PLUTÔT QU'UNE AUTRE\n\nParce qu'elle est assez forte sans être agressive.\n\nUne soude attaquerait les esters. Un alcoolate provoquerait des éliminations. Le carbonate, lui, neutralise un acide fort sans rien faire d'autre — et c'est un solide qu'on pèse à l'air, pour presque rien."
+  },
+  {
+    "id": "acide_phenylboronique",
+    "nom": "PhB(OH)₂",
+    "nom_complet": "acide phénylboronique",
+    "famille": "Partenaires de couplage",
+    "SMILES": "OB(O)c1ccccc1",
+    "role": "Le partenaire du Suzuki — stable, cristallin, et son déchet est anodin",
+    "anatomie_annotations": [
+      {
+        "partie": "le bore",
+        "role": "Six électrons seulement autour de lui : une case vide. C'est là que la base vient se poser pour former le borate, et c'est ce qui rend le carbone assez donneur pour passer sur le palladium."
+      },
+      {
+        "partie": "les deux OH",
+        "role": "Ils rendent le composé cristallin et manipulable à l'air. À la fin, ils partent sous forme d'acide borique — le déchet le plus anodin de toute la chimie du couplage."
+      },
+      {
+        "partie": "le phényle",
+        "role": "Le groupe qu'on veut transférer. Il sort du couplage exactement tel qu'il était, géométrie comprise."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_suzuki"
+    ],
+    "explication_reference": "Les acides boroniques sont les partenaires du couplage de Suzuki-Miyaura. Clayden les range avec les stannanes parmi les deux classes les plus employées, pour la même raison (p. 1084) : ce sont « des intermédiaires stables en eux-mêmes, qui peuvent être préparés et purifiés séparément avant la réaction de couplage ».\n\nLa transmétallation depuis le bore exige une base : elle l'accélère « en conduisant directement au borate, vraisemblablement via un complexe « ate » plus nucléophile » (p. 1086).\n\nUne mise en garde de l'auteur (p. 1087) : il est « clairement erroné » de voir dans l'acide boronique le porteur d'« un carbone nucléophile ». Halogène et bore sont des éléments de CONTRÔLE, qui assurent le croisement et empêchent la dimérisation.",
+    "explication_comprendre": "POURQUOI le bore a-t-il gagné contre l'étain ?\n\nÀ cause de ce qui reste à la fin.\n\nLe couplage de Stille marche très bien, avec le même mécanisme. Mais son déchet est un composé de l'étain : toxique, et difficile à séparer du produit — il passe la colonne avec lui.\n\nLe déchet d'un acide boronique est l'acide borique. On en trouve en pharmacie.\n\nSur une paillasse la question se discute. Sur une tonne de principe actif, elle ne se discute plus.\n\nCE QU'EST UN ACIDE BORONIQUE\n\nUn carbone attaché à un bore qui porte deux OH.\n\nLe bore n'a que six électrons autour de lui : il lui manque une paire. C'est un acide de Lewis, avec une case vide bien visible.\n\nCette lacune, qui pourrait sembler un défaut, est exactement ce dont on a besoin : c'est là que la base viendra se poser pour déclencher la transmétallation.\n\nUNE ERREUR DE LECTURE QU'IL VAUT MIEUX NE PAS FAIRE\n\nOn dit souvent : « l'acide boronique apporte le nucléophile ».\n\nClayden dit que c'est faux, et il le dit fermement (p. 1087). Les deux partenaires d'un couplage croisé sont ÉGAUX. Le brome et le bore ne sont pas des polarités : ce sont des marques, là pour garantir qu'un partenaire A se lie à un partenaire B et non à un autre A.\n\nLa preuve tient en deux exemples : il fabrique le même produit dans les deux sens, en échangeant lequel porte le brome et lequel porte le bore."
+  },
+  {
+    "id": "tributylvinylstannane",
+    "nom": "Bu₃Sn",
+    "nom_complet": "organostannane (tributylvinylstannane)",
+    "famille": "Partenaires de couplage",
+    "SMILES": "C=C[Sn](CCCC)(CCCC)CCCC",
+    "role": "Le partenaire du Stille — efficace, stable, et toxique",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison carbone–étain",
+        "role": "Peu polarisée : le composé n'est pas agressif, ce qui permet de le purifier sur colonne et de le conserver. C'est ce qui a fait le succès du couplage de Stille."
+      },
+      {
+        "partie": "les trois butyles",
+        "role": "Ils restent sur l'étain et partent avec les déchets. Ce sont eux le problème : les résidus organostanniques sont toxiques et suivent le produit sur la colonne."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_stille"
+    ],
+    "explication_reference": "Les organostannanes sont les partenaires du couplage de Stille, employé « depuis sa découverte à la fin des années 1970 pour le couplage des systèmes aromatiques et vinyliques » (Clayden p. 1084).\n\nIls transmétallent vers le palladium sans qu'une base soit nécessaire — contrairement aux acides boroniques. La transmétallation reste néanmoins l'étape LENTE du cycle (p. 1085), ce qui permet d'y intercaler une carbonylation sous atmosphère de CO.\n\nLa géométrie du partenaire insaturé est conservée (p. 1086).",
+    "explication_comprendre": "POURQUOI un réactif toxique a-t-il été si employé ?\n\nParce qu'il se conserve, et que ses concurrents ne se conservaient pas.\n\nUn magnésien ou un organolithien porte un carbone si riche qu'il attaque tout, à commencer par l'eau. On ne peut ni le purifier ni le stocker : on le fabrique et on l'utilise dans la foulée.\n\nUn organostannane, non. La liaison carbone–étain est peu polarisée : le composé est calme. On le passe sur colonne, on le met en flacon, on le pèse le lendemain.\n\nClayden explique par là le succès du Stille et du Suzuki (p. 1084) : ce sont « des intermédiaires stables en eux-mêmes, qui peuvent être préparés et purifiés séparément avant la réaction de couplage ».\n\nCE QUI L'A FAIT RECULER\n\nLes trois butyles qu'on ne voit jamais dans les schémas.\n\nIls restent sur l'étain, ils partent avec les déchets, et ces déchets sont toxiques. Pire : ils sont apolaires, donc ils migrent sur une colonne exactement comme le produit organique qu'on cherche à purifier. On les retrouve dans le spectre.\n\nDans un médicament, c'est rédhibitoire. À mécanisme égal, le bore a gagné."
+  },
+  {
+    "id": "acrylate_ethyle",
+    "nom": "Acrylate d'éthyle",
+    "nom_complet": "prop-2-énoate d'éthyle (CH₂=CH–CO₂Et)",
+    "famille": "Électrophiles",
+    "SMILES": "C=CC(=O)OCC",
+    "role": "Alcène pauvre — le partenaire type de la réaction de Heck",
+    "anatomie_annotations": [
+      {
+        "partie": "la double liaison",
+        "role": "Elle se coordine au palladium puis s'insère dans la liaison métal–carbone. C'est elle le partenaire, et elle n'a besoin d'aucune préparation."
+      },
+      {
+        "partie": "l'ester",
+        "role": "Groupe électroattracteur : il polarise l'alcène, et c'est cette polarisation qui décide de l'extrémité où l'aryle va se poser — l'autre bout."
+      }
+    ],
+    "reactions_liees": [
+      "reaction_heck",
+      "addition_michael"
+    ],
+    "explication_reference": "L'acrylate d'éthyle est le partenaire alcène classique de la réaction de Heck. Sa polarisation par le groupe ester fixe la régiochimie : « quand l'alcène est polarisé par un groupe électroattracteur, la nouvelle liaison C–C se forme à l'autre bout de l'alcène » (Clayden p. 1080).\n\nContrairement aux partenaires du Stille et du Suzuki, il n'a besoin d'aucune préparation ni d'aucun métal : on l'emploie tel quel.",
+    "explication_comprendre": "POURQUOI un simple alcène suffit-il ici ?\n\nParce que le mécanisme du Heck ne passe pas par une transmétallation.\n\nDans un Suzuki ou un Stille, le second carbone doit être apporté PAR un métal — bore, étain, zinc. Il faut donc le préparer d'avance.\n\nDans un Heck, le second carbone arrive sous forme d'alcène, et l'alcène se contente de se glisser entre le palladium et l'aryle. Aucun métal, aucune préparation.\n\nC'est la réaction la plus économique des trois en nombre d'opérations.\n\nOÙ L'ARYLE SE POSE-T-IL ?\n\nLoin de l'ester.\n\nL'ester tire les électrons de la double liaison vers lui. Le carbone du bout se retrouve appauvri d'un côté et le système est polarisé : la liaison carbone–carbone se fait à l'extrémité opposée à l'ester (Clayden p. 1080).\n\nRetenez que la règle S'INVERSE avec un groupe DONNEUR : sur un éther d'énol, l'aryle se pose du côté de l'oxygène. Ce n'est plus la polarité qui commande alors, c'est le recouvrement orbitalaire."
+  },
+  {
+    "id": "et2nh",
+    "nom": "Et₂NH",
+    "nom_complet": "diéthylamine",
+    "famille": "Bases",
+    "SMILES": "CCNCC",
+    "role": "Base et solvant à la fois — le milieu du couplage de Sonogashira",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote",
+        "role": "Son doublet fait la base : il neutralise HX au fur et à mesure et participe, avec le cuivre, à la formation de l'acétylure."
+      },
+      {
+        "partie": "les deux éthyles",
+        "role": "Ils font d'elle un liquide, ce qui permet de l'employer comme milieu réactionnel et non seulement comme réactif."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_sonogashira"
+    ],
+    "explication_reference": "La diéthylamine sert de base et souvent de solvant dans le couplage de Sonogashira, qui « se conduit en présence de base » (Clayden p. 1087). Les exemples de la page 1088 emploient Et₂NH ou la butylamine.\n\nElle neutralise l'halogénure d'hydrogène libéré et participe, avec le cuivre(I), à la formation de l'acétylure de cuivre — dont Clayden ne détaille pas le mécanisme.",
+    "explication_comprendre": "POURQUOI une amine plutôt qu'un carbonate ?\n\nParce qu'elle peut être le solvant en même temps.\n\nUn carbonate est un solide : il faut un liquide autour de lui. Une amine liquide fait les deux — elle remplit le ballon et elle prend les protons.\n\nCela simplifie beaucoup un mode opératoire déjà simple : on met l'halogénure, l'alcyne, les deux catalyseurs, et on complète à l'amine.\n\nCE QU'ELLE FAIT EXACTEMENT\n\nDeux choses.\n\nElle neutralise l'acide qui se forme : à chaque tour, un HX est libéré, et sans base il s'accumulerait jusqu'à tout arrêter.\n\nEt elle participe, avec le cuivre, à la préparation de l'alcyne. Clayden ne détaille pas cette étape, et ce n'est pas la peine de faire semblant : ce qu'on sait, c'est que les deux sont nécessaires.\n\nUN DÉTAIL QUI COMPTE\n\nUne amine à basse température d'ébullition s'évapore facilement à la fin : on la retire au rotavap avec le reste. Un carbonate, lui, se filtre. Les deux marchent : la première est plus commode."
   }
 ]

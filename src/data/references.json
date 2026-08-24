@@ -3167,6 +3167,191 @@
         }
       ],
       "revues_modernes": []
+    },
+    "cycle_catalytique_palladium": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1073",
+          "note": "La liaison dans les complexes de métaux de transition : donation σ du ligand vers le métal, rétrodonation π du métal vers les orbitales π* du ligand. La preuve directe de la rétrodonation dans les carbonyles métalliques — allongement de la liaison C–O et abaissement de sa fréquence infrarouge."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1074",
+          "note": "L'addition oxydante : deux ligands de plus, deux degrés d'oxydation de plus, et l'exigence d'un complexe insaturé. Les partenaires possibles, polaires ou non. Et la boîte sur le complexe de Vaska, décisive : H₂ s'additionne en cis (concerté), MeI en trans (« géométriquement impossible pour un processus concerté », donc SN2). Le même métal, deux mécanismes."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1075",
+          "note": "L'élimination réductrice, et l'expérience qui prouve l'exigence cis : deux complexes de palladium à deux méthyles, l'un souple qui libère de l'éthane en DMSO à 80 °C, l'autre contraint en trans qui ne fait rien."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1076",
+          "note": "L'insertion migratoire : le ligand à insérer doit être insaturé (CO, alcène, alcyne), le processus est poussé par un ligand extérieur, et répété indéfiniment il donne la polymérisation de Ziegler-Natta."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1077-1078",
+          "note": "L'élimination β-hydrure : site vacant nécessaire, relation syn entre métal et hydrogène, et le revers — elle est si rapide que les complexes Pd–alkyle ne sont pas utilisables. D'où le choix universel des partenaires aryle et vinyle."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1078",
+          "note": "Pourquoi le palladium plutôt qu'un autre métal, et le catalogue des complexes qu'on achète : Pd(PPh₃)₄, Pd₂(dba)₃ pour le Pd(0) ; PdCl₂ et ses formes solubles, Pd(OAc)₂ pour le Pd(II). Le prix aussi — 50 à 100 £ le gramme, mais il en faut très peu."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1079",
+          "note": "Le comptage d'électrons porté sur le cycle lui-même : PdL₄ à 18 électrons est inerte, PdL₂ à 14 est réactif, l'addition oxydante donne 16. Et la carbopalladation, définie."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1081",
+          "note": "Les quatre mécanismes de réduction in situ de Pd(II) en Pd(0) : par une amine tertiaire, par une phosphine (qui finit en oxyde), par l'alcène, ou par deux équivalents d'organométallique."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Chatt, J. ; Davidson, J. M. « The Tautomerism of Arene and Ditertiary Phosphine Complexes of Ruthenium(0) ». Journal of the Chemical Society, 1965, 843–855.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "couplage_suzuki": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1083",
+          "note": "Le couplage croisé d'organométalliques et d'halogénures, et les noms : Suzuki pour le bore, Kumada pour le magnésium, Stille pour l'étain, Negishi pour le zinc."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1086",
+          "note": "Le mécanisme, « très semblable à celui du couplage de Stille », et la seule différence qui compte : le rôle de la base. « La base accélère l'étape de transmétallation, conduisant directement au borate, vraisemblablement via un complexe « ate » plus nucléophile. » La conservation de la géométrie des deux partenaires, avec l'exemple du diène E,Z obtenu à 75 %."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1087",
+          "note": "La mise en garde à retenir : ne pas voir l'acide boronique comme apportant « un carbone nucléophile ». « Il vaut mieux voir la réaction comme le couplage de deux partenaires égaux, les deux substituants servant d'éléments de contrôle pour assurer le couplage croisé et empêcher la dimérisation. » Et la démonstration : le même produit fait dans les deux sens, à 56 et 83 %."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1084",
+          "note": "Le prix Nobel de chimie 2010 est allé à Heck, Negishi et Suzuki pour les couplages catalysés par les métaux de transition ; Stille, mort en 1989, ne pouvait pas le recevoir. Clayden le rappelle en marge (p. 1084)."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Miyaura, N. ; Suzuki, A. « Stereoselective Synthesis of Arylated (E)-Alkenes by the Reaction of Alk-1-enylboranes with Aryl Halides in the Presence of Palladium Catalyst ». Journal of the Chemical Society, Chemical Communications, 1979, 866–867.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "reaction_heck": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1079",
+          "note": "La carbopalladation définie : « carbone et palladium se retrouvent attachés aux deux extrémités du système alcène ». Pas de changement de degré d'oxydation, mais les ligands doivent se dissocier puis se réassocier."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1080",
+          "note": "Le cycle complet du Heck, l'énoncé de la régiosélectivité — avec un groupe électroattracteur, la liaison C–C se fait à l'autre bout de l'alcène —, et les conditions douces qui permettent de préparer des acides aminés protégés sans racémisation. Les exemples emploient Pd(OAc)₂ à 1, 5 ou 10 mol % avec la tri(o-tolyl)phosphine."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1081",
+          "note": "Trois points qui ne se devinent pas. La régiochimie INVERSE avec un groupe donneur (éther d'énol), sous contrôle orbitalaire. La réversibilité de l'élimination β, qui fait qu'un alcool allylique donne un aldéhyde. Et l'exigence syn avec éclipse des liaisons C–Pd et C–H, qui dans un cycle ne laisse parfois qu'un seul hydrogène éliminable."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Heck, R. F. ; Nolley, J. P. « Palladium-Catalyzed Vinylic Hydrogen Substitution Reactions with Aryl, Benzyl, and Styryl Halides ». The Journal of Organic Chemistry, 1972, 37, 2320–2322.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "couplage_sonogashira": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1087",
+          "note": "Le couplage aux alcynes : « c'est un processus catalytique, qui demande un complexe de palladium(0), se conduit en présence de base, et emploie généralement l'iodure de cuivre comme co-catalyseur ». Et la particularité : « l'alcyne n'a besoin d'aucun métal pour être activé — la réaction marche avec l'alcyne lui-même ». Conditions : 25 °C, 3 à 6 heures."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1088",
+          "note": "Les ène-diynes et la cyclisation de Bergmann : la molécule pénètre l'ADN, se referme en diradical benzénique, et y réagit — d'où l'activité anticancéreuse. Un couplage double en une étape à partir d'un dihaloéthylène Z, ou séquentiel (75 puis 80 %) pour différencier les deux alcynes."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Sonogashira, K. ; Tohda, Y. ; Hagihara, N. « A Convenient Synthesis of Acetylenes: Catalytic Substitutions of Acetylenic Hydrogen with Bromoalkenes, Iodoarenes, and Bromopyridines ». Tetrahedron Letters, 1975, 16, 4467–4470.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "couplage_stille": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1084",
+          "note": "Le mécanisme complet, dessiné en quatre structures : addition oxydante, transmétallation (lente), élimination réductrice, catalyseur régénéré. Pourquoi le Stille et le Suzuki ont été les plus employés — leurs partenaires organométalliques « sont des intermédiaires stables en eux-mêmes, qui peuvent être préparés et purifiés séparément ». La note de marge sur LiCl avec les triflates. Et l'exemple sp : un cycle à dix chaînons contenant deux alcynes, 46 %. Le prix Nobel de chimie 2010 est allé à Heck, Negishi et Suzuki pour les couplages catalysés par les métaux de transition ; Stille, mort en 1989, ne pouvait pas le recevoir. Clayden le rappelle en marge (p. 1084)."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1085",
+          "note": "La variante carbonylante, et le raisonnement qui la rend possible : « la transmétallation est toujours l'étape lente de ces réactions de couplage, ce qui laisse le temps à l'insertion du monoxyde de carbone ». Une atmosphère de CO suffit ; le produit est une cétone, à 80 %, « sans aucune trace du produit de couplage normal »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1086",
+          "note": "La conservation de la géométrie des deux composants insaturés, commune au Stille et au Suzuki."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Milstein, D. ; Stille, J. K. « A General, Selective, and Facile Method for Ketone Synthesis from Acid Chlorides and Organotin Compounds Catalyzed by Palladium ». Journal of the American Chemical Society, 1978, 100, 3636–3638.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié."
+        }
+      ],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {
