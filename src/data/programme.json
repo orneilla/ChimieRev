@@ -960,42 +960,42 @@
         {
           "nom": "Fixation réversible du dioxygène par l'hémoglobine",
           "niveau": "M1",
-          "id": null
+          "id": "fixation_dioxygene_hemoglobine"
         },
         {
           "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
           "niveau": "M1",
-          "id": null
+          "id": "anhydrase_carbonique_zinc"
         },
         {
           "nom": "Transport du fer : sidérophores",
           "niveau": "M2",
-          "id": null
+          "id": "siderophores_transport_fer"
         },
         {
           "nom": "Stockage du fer : la ferritine",
           "niveau": "M2",
-          "id": null
+          "id": "ferritine_stockage_fer"
         },
         {
           "nom": "Transfert d'électron par les cytochromes",
           "niveau": "M2",
-          "id": null
+          "id": "cytochromes_transfert_electron"
         },
         {
           "nom": "Hydroxylation par le cytochrome P-450",
           "niveau": "M2",
-          "id": null
+          "id": "cytochrome_p450_hydroxylation"
         },
         {
           "nom": "Réduction du diazote par la nitrogénase",
           "niveau": "M2",
-          "id": null
+          "id": "nitrogenase_reduction_diazote"
         },
         {
           "nom": "Oxydation de l'eau par le complexe au manganèse du photosystème II",
           "niveau": "M2",
-          "id": null
+          "id": "photosysteme_ii_oxydation_eau"
         }
       ],
       "bloc": "Inorganique"

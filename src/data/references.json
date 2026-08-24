@@ -5198,6 +5198,264 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "fixation_dioxygene_hemoglobine": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.3",
+          "pages": "838",
+          "note": "La nature de la liaison M–O₂, mesurée sur des modèles au cobalt(II) à base de Schiff : « la molécule O₂ est liée EN BOUT au centre métallique ; l'angle Co–O–O est d'environ 125° et la longueur de liaison O–O d'environ 126 pm » — à comparer aux 121 pm d'O₂ et aux 134 pm de [O₂]⁻. Le complexe de Co(III) formé « peut être considéré comme contenant du [O₂]⁻ coordonné », la fixation s'accompagnant d'un transfert PARTIEL d'électron. Et la condition qu'on oublie : « la présence de la base axiale L est CRUCIALE à la formation du produit monomère »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.3",
+          "pages": "839",
+          "note": "La menace et la parade. La réaction 28.5 montre la formation du pont µ-oxo Fe(III)–O–Fe(III) entre deux hèmes, irréversible. La solution de synthèse : « l'interaction avec le second centre de fer peut être empêchée en employant un ligand porphyrine à substituants encombrants ; un exemple est la porphyrine dite “à palissade” (picket-fence). Les quatre substituants forment une CAVITÉ », le ligand axial étant le 1-méthylimidazole, « structurellement similaire à un résidu His » — d'où la conclusion : « le système ressemble clairement à l'environnement du fer dans l'hémoglobine ». La poche protéique remplacée par de l'encombrement stérique."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.3",
+          "pages": "840",
+          "note": "L'autre solution du vivant : l'hémocyanine. Deux Cu(I) « chacun lié par trois résidus histidine », Cu···Cu = 354 pm, non liés. À l'oxygénation, « l'unité O₂ est liée en mode PONTANT avec une longueur de liaison O–O de 140 pm, typique de celle trouvée dans les complexes peroxo. Le site de fixation d'O₂ se formule Cu(II)–[O₂]²⁻–Cu(II), c'est-à-dire qu'un transfert d'électron accompagne la fixation d'O₂. » La confirmation spectroscopique : « ν(O–O) ≈ 750 cm⁻¹ comparé à environ 800 cm⁻¹ pour [O₂]²⁻ », les deux Cu(II) étant « fortement couplés antiferromagnétiquement »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.3",
+          "pages": "841",
+          "note": "La limite des modèles, énoncée sur deux composés voisins : le complexe peroxo-dicuivre 28.11 reproduit la structure et le spectre Raman de l'oxyhémocyanine, mais « la fixation d'O₂ dans le complexe 28.11 est IRRÉVERSIBLE ». Le complexe 28.12, lui, « libère O₂ dans MeCN/CH₂Cl₂ à 353 K sous vide ; quand O₂ est ajouté à température ambiante, le complexe 28.12 est régénéré ». Ressembler n'est pas fonctionner."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.4",
+          "pages": "407",
+          "note": "La contrainte qui commande tout : « dans ce système, seule la forme Fe(II) existe ; l'hémoglobine-Fe(III) NE TRANSPORTE PAS l'oxygène. » Avec le contexte — les ions fer servent aussi au transport et au stockage de l'oxygène moléculaire, fonction « essentielle à la vie de tous les vertébrés »."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.4",
+          "pages": "409",
+          "note": "Le cahier des charges de la protéine, énoncé comme un problème d'ingénierie : « il fallait éviter la formation de rouille ou d'oxyde de fer insoluble dans la porphyrine. Pour cela, le ligand macrocyclique porphyrine devait être encapsulé dans une POCHE HYDROPHOBE formée par les chaînes polypeptidiques de l'hémoglobine et de la myoglobine. » La protéine n'entoure pas le site actif pour l'aider à réagir : elle l'entoure pour l'isoler."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.4",
+          "pages": "408",
+          "note": "La coopérativité vue de l'usage : « l'hémoglobine fixe l'oxygène de façon réversible, de sorte que sous conditions de haute pression d'oxygène, comme celle qui règne dans les poumons, l'oxygène s'associe préférentiellement à la protéine. Inversement, dans les tissus où l'oxygène est requis », il est relâché. Avec les quatre fonctions des hémoprotéines à fer : transport d'oxygène aux tissus, oxydation catalytique de composés organiques, décomposition du peroxyde d'hydrogène, transfert d'électron."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.4",
+          "pages": "413",
+          "note": "Une observation qui dérange les certitudes : un modèle simple lie le dioxygène avec une affinité comparable à celle de la myoglobine de cachalot à température ambiante. « Ce résultat montre que la protéine pourrait ne pas être aussi importante pour le site actif qu'on le croyait autrefois, bien que les théories actuelles expliquent la fixation efficace de l'oxygène par l'hémoglobine par un type d'interaction bénéfique entre les quatre sous-unités. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "anhydrase_carbonique_zinc": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.5",
+          "pages": "854",
+          "note": "Le choix du métal, raisonné : « le zinc(II) n'est PAS un centre rédox actif, et ne peut donc pas participer à des processus de transfert d'électron. Il est cependant un centre métallique DUR, idéalement adapté à la coordination par des donneurs N et O. Il est aussi fortement POLARISANT, et l'activité des métalloenzymes à Zn(II) dépend de l'ACIDITÉ DE LEWIS du centre métallique. » Les chiffres : la réaction non catalysée a k = 0,037 s⁻¹, « mais elle est fondamentale pour l'élimination du CO₂ des sites en métabolisme actif ; CAII augmente la vitesse d'hydrolyse d'un facteur d'environ 10⁷ au pH physiologique ». Le site : « 260 acides aminés… un ion Zn²⁺ lié par TROIS résidus His dans une poche d'environ 1500 pm de profondeur ; la sphère de coordination tétraédrique est complétée par un ion HYDROXYDE ». Et ce qui l'oriente : « l'environnement de la chaîne peptidique autour du site actif est CRUCIAL… le ligand [OH]⁻ est lié par liaison hydrogène à un résidu acide glutamique adjacent, et au groupe OH d'un résidu thréonine adjacent. À côté du centre Zn²⁺ se trouve une poche HYDROPHOBE qui capture le CO₂. » Enfin la phrase qui rend le cyanure toxique : « c'est la forte fixation de [CN]⁻ au Fe(III) dans les cytochromes »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.5",
+          "pages": "855",
+          "note": "Les modèles du site actif : des complexes de tris(pyrazolyl)hydroborato de zinc portant un hydroxyde, où trois azotes de pyrazolyle remplacent les trois histidines — la même stratégie que la porphyrine à palissade pour l'hémoglobine."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.2",
+          "pages": "390",
+          "note": "Le même site actif vu du côté bioorganique, avec la numérotation des résidus — His-93, His-95, His-117 — et la lecture mécanistique : « on pense qu'un ion hydroxyde COORDONNÉ facilite l'hydratation du CO₂ », complétée par l'hypothèse « qu'une structure d'eau ordonnée, semblable à de la glace, au site actif induise l'ionisation ». Avec le cadre plus large : les hydrolases d'amides et d'esters se rangent en trois classes, dont la troisième « requiert un ion métallique pour son activité » — dipeptidases, carboxypeptidase, leucine aminopeptidase —, et « l'ion métallique est impliqué dans la STABILISATION DE L'INTERMÉDIAIRE TÉTRAÉDRIQUE »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "siderophores_transport_fer": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.2",
+          "pages": "834",
+          "note": "Les sidérophores, « des ligands qui partent en quête de fer » : entérobactine, desferrichrome, desferrioxamine. « L'entérobactine, H₆L, est dérivée de trois résidus L-sérine, chacun portant un groupe 2,3-dihydroxybenzoyle. La forme déprotonée, L⁶⁻, lie Fe³⁺ pour donner le complexe [FeL]³⁻ dans lequel Fe³⁺ est dans un environnement octaédrique. » La stéréosélectivité : « les données spectroscopiques (spectres électroniques et de dichroïsme circulaire) montrent que le complexe Δ est formé DIASTÉRÉOSÉLECTIVEMENT ». Et l'honnêteté sur ce qu'on sait : « la structure cristalline de l'entérobactine de fer(III) n'a pas été déterminée, mais les études sur composés modèles fournissent une information pertinente » — le complexe de V(IV), lui, est caractérisé par diffraction, et « bien que le rayon d'un centre V(IV) (58 nm) soit plus petit que celui de Fe(III) (65 nm), les traits structuraux généraux… devraient être similaires ». On y voit que « les trois bras du ligand se placent au-dessus du macrocycle central, permettant à chaque bras d'agir comme donneur O,O′ »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.2",
+          "pages": "835",
+          "note": "L'exercice qui relie deux chapitres : « expliquez pourquoi les complexes de sidérophores du Fe³⁺ haut spin sont cinétiquement LABILES, tandis que les complexes modèles analogues contenant Cr³⁺ sont cinétiquement INERTES » — la réponse renvoyant à la section sur la substitution des ligands. La conséquence biologique est directe : un transporteur doit RENDRE sa charge. Et la voie parallèle pour les métaux mous : les métallothionéines, « de petites protéines contenant environ 62 acides aminés, dont environ un tiers de cystéine », les résidus Cys étant « soit adjacents les uns aux autres, soit séparés par un seul autre résidu, fournissant ainsi des poches de sites donneurs S idéalement adaptées à la capture d'ions métalliques mous »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.2",
+          "pages": "833",
+          "note": "Le transport chez les mammifères : les transferrines, glycoprotéines incluant « la transferrine sérique, la lactoferrine (présente dans le lait) et l'ovotransferrine (présente dans le blanc d'œuf) ». La transferrine sérique humaine « transporte environ 40 mg de fer par jour vers la moelle osseuse » ; sa chaîne polypeptidique unique (Mr ≈ 80 000) est enroulée de façon à contenir deux poches propres à lier Fe³⁺, chacune présentant au métal des donneurs N et O DURS."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions",
+          "pages": "432",
+          "note": "Les sidérophores replacés dans la chimie hôte-invité : des récepteurs synthétiques de taille variable, dont « le plus petit lie Fe(III) très fortement » alors que le plus grand ne le fait pas — l'ajustement de la cavité au cation comptant autant que la nature des donneurs."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "ferritine_stockage_fer": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.2",
+          "pages": "832",
+          "note": "Le vocabulaire qui sert à tout le chapitre : « la protéine dont le métal a été retiré s'appelle l'APOPROTÉINE ; le préfixe apo- devant un nom de protéine (par exemple ferritine et apoferritine) signifie l'espèce sans métal. La différence entre une protéine et l'apoprotéine correspondante est ANALOGUE à celle entre un complexe métallique et le ligand libre correspondant. » Puis la physiologie du fer, avec le fait qui surprend : apport de 6 à 40 mg par jour, mais « il n'y a AUCUNE perte excrétoire de fer, un phénomène que ne partagent pas les autres métaux présents dans le corps » ; « la quantité de fer stockée dans le corps excède de loin celle absorbée par jour, mais seule une très petite fraction est réellement en usage à un instant donné ; le système des mammifères est très efficace pour RECYCLER le fer ». Le stockage se fait dans le foie (250 à 1400 ppm), la moelle osseuse et la rate, et le trajet passe par l'absorption du Fe(II) puis le transport sous forme de transferrine, qui porte du Fe(III)."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.2",
+          "pages": "833",
+          "note": "Ce que la ferritine fabrique, et ce qu'on n'en sait pas. « Il est proposé que le fer entre sous forme de Fe²⁺ et soit OXYDÉ une fois à l'intérieur. La formation du cœur cristallin est un exemple de BIOMINÉRALISATION, et c'est une réalisation remarquable de l'évolution que le fer puisse être stocké chez les mammifères effectivement sous forme d'oxyde de fer(III) hydraté, c'est-à-dire une forme étroitement apparentée à la ROUILLE ! » Puis l'aveu : « alors que les structures de l'apoferritine et de la ferritine sont assez bien établies, la manière dont le fer est transporté vers l'intérieur et l'extérieur de la cavité protéique est ENCORE À L'ÉTUDE. » Enfin la méthode du chapitre : « comme nous l'illustrons tout au long de ce chapitre, l'étude de composés modèles appropriés donne un aperçu précieux de systèmes bioinorganiques apparentés mais plus compliqués » — d'où la synthèse de grands agrégats fer-oxo modélisant le cœur, dont un produit à cœur Fe₆O₁₄."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cytochromes_transfert_electron": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.4",
+          "pages": "852",
+          "note": "La différence qui fait tout : « dans les hémoprotéines porteuses d'O₂, l'“état de repos” contient un centre Fe(II) PENTACOORDONNÉ qui devient hexacoordonné après captation d'O₂. En revanche, les cytochromes b et c de transfert d'électron contiennent un Fe HEXACOORDONNÉ, présent soit comme Fe(II) soit comme Fe(III) ; il y a PEU DE CHANGEMENT de conformation des ligands quand le changement rédox se produit. » Dans le cytochrome c, l'hème est lié au squelette par des résidus axiaux His et Met. Avec les distances Fe···Fe du cytochrome c554 : environ 950, 1220 et 920 pm."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.4",
+          "pages": "853",
+          "note": "Le chemin de l'électron et l'architecture qui le confirme : « il est proposé qu'un électron soit transféré par EFFET TUNNEL à travers l'un des bords exposés de l'unité hème (rappelons que le cycle porphyrinique est conjugué) » ; et dans le cytochrome c554, « les quatre unités hème sont arrangées par paires telles que les cycles porphyriniques soient approximativement parallèles, et aient des bords qui SE RECOUVRENT. Les paires adjacentes sont ensuite approximativement perpendiculaires les unes aux autres… vraisemblablement mises en place pour fournir des chemins de transfert d'électron efficaces entre les bords des groupes hème. » Puis la cytochrome c oxydase, dont « la nature exacte des sites métalliques a été résolue en 1995 » : quatre centres — CuA, CuB, hème a et hème a₃ — « qui couplent le transfert d'électron au pompage de protons » ; CuA et hème a convoient l'électron, « hème a₃ et CuB fournissent le site de fixation d'O₂ et de conversion d'O₂ en H₂O, et sont impliqués dans le pompage de H⁺ (QUATRE par molécule d'O₂) à travers la membrane interne mitochondriale »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.4",
+          "pages": "846",
+          "note": "L'échelle des potentiels physiologiques : la cytochrome c oxydase « catalyse la réduction d'O₂ en H₂O », E°′ = +815 mV ; l'échelle « s'étend jusqu'à −414 mV, ce qui correspond à la réaction 2H⁺ + 2e⁻ ⇌ H₂ à pH 7, et cette gamme de potentiels correspond à ceux accessibles dans les conditions physiologiques ». Avec la remarque qui situe la chimie du vivant : « la plupart des réactions rédox impliquant des molécules organiques se produisent dans la gamme 0 mV > E°′ > −400 mV »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.4",
+          "pages": "844",
+          "note": "Les deux notions préalables au chapitre, dont l'une renvoie directement à la chimie de coordination : l'accord du potentiel d'un couple Fe³⁺/Fe²⁺ par le choix des ligands, et « la discussion de la théorie de Marcus-Hush… cette théorie s'applique au transfert d'électron dans les systèmes bioinorganiques où la communication entre centres métalliques rédox actifs peut se faire sur des distances relativement grandes ». Puis la classification des cuivres : Type 1, « absorption intense vers 600 nm, avec ε environ CENT FOIS celui du Cu²⁺ aqueux », attribuée à un transfert de charge d'un ligand cystéine vers Cu²⁺ ; Type 2, caractéristiques d'un Cu²⁺ ordinaire ; Type 3, absorption vers 330 nm et « paire de centres Cu(II) couplés antiferromagnétiquement pour donner un système diamagnétique », sans signature RPE — « l'unité Cu₂ peut fonctionner comme centre de transfert à DEUX électrons et est impliquée dans la réduction d'O₂ »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.5",
+          "pages": "854",
+          "note": "La cause chimique d'une toxicité célèbre : « c'est la forte fixation de [CN]⁻ au Fe(III) dans les cytochromes qui rend le cyanure toxique. »"
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.4",
+          "pages": "434",
+          "note": "La chaîne vue du côté métabolique : « la façon dont nous, êtres humains, fonctionnons consiste essentiellement à employer des enzymes pour dégrader la nourriture ; les électrons qui en résultent passent par les mitochondries et finissent par réagir avec l'oxygène moléculaire pour former de l'eau… Tous ces processus impliquent des réactions d'oxydation et le transfert d'électrons par des protéines de transfert d'électron, les CYTOCHROMES. La Nature opère ainsi en employant, dans une constellation fascinante, différentes protéines compartimentées à différentes distances le long de cette voie métabolique. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cytochrome_p450_hydroxylation": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.4.3",
+          "pages": "434",
+          "note": "Ce qui définit la famille : « ces hémoprotéines sont des MONOOXYGÉNASES, catalysant l'hydroxylation de substrats aux dépens de l'oxygène moléculaire. Le clivage RÉDUCTIF de O₂ résulte en l'incorporation d'UN oxygène dans le substrat, l'autre étant converti en eau » — R–H + O₂ + 2e⁻ + 2H⁺ → R–OH + H₂O. Puis la propriété qui la distingue de toutes les autres hémoprotéines : « la propriété la plus importante attribuée au cytochrome P-450 est sa capacité à former un agent oxydant EXTRÊMEMENT PUISSANT à partir du dioxygène. Cela contraste vivement avec les fonctions plus familières de transport d'oxygène ou d'électron. » Les rôles — « aussi divers que la biosynthèse des stéroïdes et l'hydroxylation de substances lipidiques, de médicaments et d'hydrocarbures » — et leur revers : « un exemple bien connu est l'oxydation in vivo des composés polyaromatiques présents dans la fumée de tabac, et la CARCINOGÉNICITÉ qui en résulte »."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions, § 6.4.3",
+          "pages": "435",
+          "note": "L'espèce active nommée — « l'oxygène “actif” dans P-450 (complexe fer-oxo) » — et distinguée de la « molécule porteuse d'O₂ ». Les modèles à porphyrine thiolate « à sangle », dont l'adduit au monoxyde de carbone donne « un doublet associé à la liaison S–Fe–CO » et montre « que le fer est resté à l'état ferreux ». Puis les modèles fonctionnels : Collman et Tabushi ont rapporté « des systèmes modèles synthétiques très efficaces qui emploient des porphyrines de Mn(III) et un ligand imidazole substitué pour catalyser le transfert d'un oxygène depuis O₂ ou ClO⁻ vers des oléfines », avec « une monoépoxydation régiosélective de polyoléfines » sur support de platine colloïdal et recyclage du catalyseur."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.3",
+          "pages": "843",
+          "note": "Le mécanisme d'insertion, en une ligne qui tranche : « l'insertion de O dans la liaison C–H de RH est supposée impliquer une voie RADICALAIRE. »"
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Radical Reactions",
+          "pages": "327",
+          "note": "Le seul des neuf ouvrages à écrire ce mécanisme en flèches : « l'enzyme cytochrome P450 métabolise les amines tertiaires dans le foie par un mécanisme de transfert à UN ÉLECTRON. Un électron est transféré de N vers un groupe hème portant une liaison Fe=O pour donner un cation radical aminium et le radical anion [Fe–O]. Un atome d'hydrogène en α est ensuite… » Deux espèces radicalaires naissent du même geste — la chimie des hameçons, transposée dans un foie."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "nitrogenase_reduction_diazote": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.4",
+          "pages": "850",
+          "note": "Le bilan et son anomalie : « la fixation de l'azote par les bactéries implique la réduction de N₂ en NH₃ catalysée par les nitrogénases ; concomitante à ce processus est l'hydrolyse d'ATP, qui est un processus libérateur d'énergie » — N₂ + 8 H⁺ + 8 e⁻ → 2 NH₃ + H₂, soit deux électrons de plus que les six requis, et une molécule de dihydrogène en prime. Sur la même page, l'hydrogénase à fer seul : le site Fe est coordinativement insaturé chez D. desulficans mais porte une eau terminale chez C. pasteurianum, différence attribuée à un état oxydé de repos contre un état réduit ; « les détails mécanistiques restent à déterminer. Cependant, il a été établi que l'addition de CO INHIBE l'activité enzymatique », les données cristallographiques confirmant que le CO se lie précisément au site insaturé de l'enzyme native."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.4",
+          "pages": "851",
+          "note": "Le cofacteur FeMo pièce par pièce, et deux aveux d'ignorance sur la même page. La structure : « il consiste en une unité [4Fe–3S] connectée par TROIS atomes S pontants à une unité [3Fe–1Mo–3S]. Un atome central hexacoordonné (détecté pour la PREMIÈRE FOIS en 2002) complète le motif cubane de chaque unité. L'assignation non ambiguë de cet atome à partir des données de densité électronique cristallographique est difficile. Les atomes possibles sont C, N, O et S et, de ceux-ci, le candidat favorisé est N. Cette assignation est soutenue par des études théoriques. » Puis : « COMMENT — ou même SI — la présence de cet atome central est liée à la conversion de N₂ en NH₃ dans la nitrogénase est, à ce jour, INCONNU. » Le molybdène est « approximativement octaédrique ; il est lié au squelette protéique par un résidu His et est également coordonné par un ligand HOMOCITRATE bidenté ». La distance entre agrégats : « environ 1400 pm, une séparation qui est compatible avec un transfert d'électron ». Et le second aveu : « la façon dont les protéines Fe et FeMo agissent ensemble pour catalyser la conversion de N₂ en NH₃ reste à établir. » Enfin le rôle des modèles, « en particulier AVANT que les données structurales de rayons X sur les protéines ne soient disponibles » : propriétés magnétiques, spectres électroniques, électrochimie, spectres Mössbauer du ⁵⁷Fe et structures par diffraction."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.1",
+          "pages": "831",
+          "note": "Le tableau des métaux-traces d'un humain de 70 kg, qui situe chaque fiche de cette famille : V 0,11 mg (nitrogénases, haloperoxydases) ; Mn 12 mg, dont « l'activité photorédox dans le Photosystème II » ; Fe 4200 mg, pour « les systèmes de transfert d'électron (protéines Fe–S, cytochromes), le stockage et le transport d'O₂ (hémoglobine, myoglobine, hémérythrine), le stockage du Fe (ferritine, transferrine), les protéines de transport du Fe (sidérophores) » et les enzymes — nitrogénases, hydrogénases."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "6 — Metal Ions",
+          "pages": "444",
+          "note": "La nitrogénase replacée parmi les enzymes à fer du métabolisme, aux côtés des cytochromes — le seul des ouvrages bioorganiques indexés à la mentionner."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "photosysteme_ii_oxydation_eau": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "21 — d-Block metal chemistry: the first row metals, § 21.9",
+          "pages": "614",
+          "note": "La réaction et le site, avec la prudence du verbe : « une série de complexes polynucléaires de manganèse ont été étudiés comme MODÈLES pour l'enzyme Photosystème II (PSII) qui convertit H₂O en O₂ » — 2 H₂O → O₂ + 4 H⁺ + 4 e⁻. « Il est proposé que le site au sein de PSII qui facilite cette réaction soit un agrégat Mn₄ avec une unité [Mn(µ-O)₂Mn(µ-O)₂Mn] en combinaison avec un QUATRIÈME centre Mn. » Puis la confirmation structurale : « des données cristallographiques récentes pour PSII obtenu des bactéries Thermosynechococcus elongatus et Thermosynechococcus vulcanus CONFIRMENT la présence d'un agrégat Mn₄, coordonné par des atomes donneurs dans les squelettes polypeptidiques de l'enzyme. L'arrangement des atomes métalliques APPARAÎT plan ou proche du plan. » Et le modèle de synthèse : [Mn₃O₄(O₂CMe)₄(bpy)₂], à cœur [Mn^IV₃(µ-O)₄]⁴⁺, dont la structure a été déterminée par diffraction des rayons X à 110 K."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.4",
+          "pages": "844",
+          "note": "L'aval de la chaîne : les plastocyanines, protéines bleues à cuivre de type 1, « sont présentes chez les plantes supérieures et les algues bleu-vert, où elles transportent les électrons ENTRE les photosystèmes I et II ». Leur chaîne compte « entre 97 et 104 résidus d'acides aminés (le plus typiquement 99) » pour Mr ≈ 10 500. Les azurines, chez certaines bactéries, participent au transport d'électron dans la conversion de [NO₃]⁻ en N₂."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.1",
+          "pages": "831",
+          "note": "La place du manganèse au tableau des métaux-traces : 12 mg chez un humain de 70 kg, pour des enzymes (phosphatase, superoxyde dismutase mitochondriale, glycosyl transférase) et « l'activité photorédox dans le Photosystème II »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, problèmes",
+          "pages": "862",
+          "note": "L'exercice qui replace l'enzyme dans son appareil : « le Photosystème II opère conjointement avec le cytochrome b₆f », dont la structure cristalline a été déterminée chez l'algue Chlamydomonas reinhardtii."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

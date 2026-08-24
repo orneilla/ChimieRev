@@ -19325,5 +19325,165 @@
         "valide": false
       }
     ]
+  },
+  "fixation_dioxygene_hemoglobine": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le dioxygène libre — 121 pm entre ses deux atomes",
+        "smiles": "O=O",
+        "legende": "Retenez ce nombre, il servira deux fois : dans le dioxygène libre, la liaison O–O mesure 121 pm (Housecroft p. 838).\n\nLE PROBLÈME QUE CETTE MOLÉCULE POSE. Pour la capter, il faut un métal qui lui donne des électrons. Mais le dioxygène, une fois qu'il en reçoit, ne s'arrête pas : il oxyde le fer(II) en fer(III), qui ne transporte plus rien. Dugas le pose d'emblée (p. 407) : « dans ce système, seule la forme Fe(II) existe ; l'hémoglobine-Fe(III) NE TRANSPORTE PAS l'oxygène. »\n\nCE QUI TUE LE SITE N'EST PAS L'OXYGÈNE SEUL, C'EST LE VOISIN. Deux hèmes oxygénés qui se rencontrent forment un pont µ-oxo Fe(III)–O–Fe(III), irréversible (Housecroft p. 839).\n\nD'OÙ LA POCHE. Dugas énonce le cahier des charges (p. 409) : « il fallait éviter la formation de rouille ou d'oxyde de fer insoluble dans la porphyrine. Pour cela, le ligand macrocyclique porphyrine devait être encapsulé dans une poche HYDROPHOBE formée par les chaînes polypeptidiques. » La protéine n'entoure pas le site actif pour l'aider à réagir : elle l'entoure pour l'isoler.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Capté — et à mi-chemin du superoxyde",
+        "smiles": "[O-][O-]",
+        "legende": "Le dioxygène s'est posé sur le fer. Housecroft donne la géométrie et les longueurs, mesurées sur des modèles au cobalt(II) (p. 838) : la molécule « est liée EN BOUT au centre métallique ; l'angle Co–O–O est d'environ 125° et la longueur de liaison O–O d'environ 126 pm ».\n\nCOMPAREZ LES TROIS NOMBRES : 121 pm dans O₂ libre, 126 pm ici, 134 pm dans le superoxyde [O₂]⁻.\n\nL'ADDUIT EST À MI-CHEMIN. Le métal n'a pas donné son électron, il l'a PRÊTÉ — Housecroft écrit que le produit « peut être considéré comme contenant du [O₂]⁻ coordonné ». Et c'est cette demi-mesure qui rend la liaison réversible : ce qui est à moitié fait se défait.\n\nLA BASE AXIALE EST INDISPENSABLE (p. 838) : « la présence de la base axiale L est CRUCIALE à la formation du produit monomère. » Sans elle, le système part en dimère. L'histidine du côté opposé n'est pas décorative.\n\nLA PREUVE PAR LA COPIE (Housecroft p. 839). On a fabriqué une porphyrine « à palissade » dont « les quatre substituants forment une CAVITÉ », avec du 1-méthylimidazole comme ligand axial — « structurellement similaire à un résidu His ». Résultat : « le système ressemble clairement à l'environnement du fer dans l'hémoglobine ». On a remplacé des milliers d'atomes de protéine par quatre groupes encombrants, et la fonction est revenue.\n\nUNE AUTRE VIE A CHOISI LE CUIVRE (p. 840). Dans l'hémocyanine, deux Cu(I) distants de 354 pm captent O₂ EN PONT, avec O–O = 140 pm : « le site se formule Cu(II)–[O₂]²⁻–Cu(II) ». Deux électrons entiers cette fois, et un peroxyde. La spectroscopie Raman le confirme — ν(O–O) ≈ 750 cm⁻¹ contre ≈ 800 pour [O₂]²⁻.\n\nET RESSEMBLER N'EST PAS FONCTIONNER (p. 841) : un modèle peroxo-dicuivre reproduit structure et spectre de l'oxyhémocyanine, et « la fixation d'O₂ y est IRRÉVERSIBLE ». La seule propriété qui compte — rendre ce qu'on a pris — n'est visible sur aucune photographie du site actif.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "anhydrase_carbonique_zinc": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le dioxyde de carbone, capturé par une poche apolaire",
+        "smiles": "O=C=O",
+        "legende": "Une petite molécule apolaire, qui ne se plaît pas dans l'eau. L'enzyme creuse donc à côté de son zinc « une poche HYDROPHOBE qui capture le CO₂ » (Housecroft p. 854).\n\nLe substrat n'est pas attendu : il est CONCENTRÉ à l'endroit exact où le nucléophile pointera.\n\nCE QUE L'ENZYME FAIT GAGNER (p. 854) : la réaction non catalysée est lente — k = 0,037 s⁻¹ — « mais fondamentale pour l'élimination du CO₂ des sites en métabolisme actif ; l'anhydrase carbonique II augmente la vitesse d'hydrolyse d'un facteur d'environ 10⁷ au pH physiologique ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'hydrogénocarbonate — et le nucléophile qui n'aurait pas dû exister",
+        "smiles": "OC(=O)[O-]",
+        "legende": "L'attaque a eu lieu. Reste à comprendre d'où venait l'attaquant.\n\nÀ pH 7, il n'y a presque pas d'ion hydroxyde. Pour en avoir, il faudrait de la soude — qui détruirait la protéine.\n\nLE ZINC RÈGLE CELA À LUI SEUL (Housecroft p. 854) : « le zinc(II) n'est PAS un centre rédox actif… Il est cependant un centre métallique DUR… Il est aussi fortement POLARISANT, et l'activité des métalloenzymes à Zn(II) dépend de l'ACIDITÉ DE LEWIS du centre métallique. » Une eau accrochée à un Zn²⁺ perd son proton bien plus facilement qu'une eau libre : le pKa tombe assez pour qu'à pH neutre le ligand soit DÉJÀ un hydroxyde.\n\nL'enzyme n'a pas changé le pH du sang. Elle a créé une exception locale, sur un seul atome.\n\nLE SITE, EN CHIFFRES (p. 854) : 260 acides aminés, un Zn²⁺ « lié par TROIS résidus His dans une poche d'environ 1500 pm de profondeur », la sphère tétraédrique complétée par l'hydroxyde. Dugas les numérote — His-93, His-95, His-117 (p. 390) — et donne la même lecture mécanistique : « on pense qu'un ion hydroxyde COORDONNÉ facilite l'hydratation du CO₂ ».\n\nET IL EST ORIENTÉ, PAS SEULEMENT FABRIQUÉ (p. 854) : « le ligand [OH]⁻ est lié par liaison hydrogène à un résidu acide glutamique adjacent, et au groupe OH d'un résidu thréonine adjacent » — deux liaisons que Housecroft dit CRUCIALES.\n\nCOMPTEZ CE QUI A ÉTÉ ASSEMBLÉ : un nucléophile puissant dans un milieu qui n'en contient pas, tenu dans la bonne direction, et un substrat concentré juste en face. UNE SEULE de ces trois choses est de la chimie du zinc.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "siderophores_transport_fer": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un bras de desferrioxamine — l'hydroxamate qui accroche",
+        "smiles": "O=C(NCCCCCN(O)C=O)CCC(=O)O",
+        "legende": "Le fer est le quatrième élément de la croûte terrestre, et en milieu aqueux aérobie il est introuvable : sous forme de Fe³⁺, ses hydroxydes comptent parmi les solides les moins solubles connus.\n\nD'OÙ DES MOLÉCULES FABRIQUÉES POUR ALLER LE CHERCHER (Housecroft p. 834) : « des ligands appelés SIDÉROPHORES, qui partent en quête de fer. Des exemples sont les anions dérivés de l'entérobactine, du desferrichrome et de la desferrioxamine. »\n\nLE CHOIX DES DONNEURS N'EST PAS INDIFFÉRENT. Le fer(III) est un cation DUR — petit, fortement chargé. Les oxygènes déprotonés d'un hydroxamate ou d'un catéchol sont des donneurs durs et anioniques. Dur avec dur : le même principe qui, dans la synthèse des thiazoles, envoie l'azote sur le carbonyle et le soufre sur l'halogénure.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Un bras d'entérobactine — trois de ceux-ci font un octaèdre",
+        "smiles": "Oc1cccc(O)c1C(=O)NCC(=O)O",
+        "legende": "L'entérobactine, H₆L, « est dérivée de trois résidus L-sérine, chacun portant un groupe 2,3-dihydroxybenzoyle. La forme déprotonée, L⁶⁻, lie Fe³⁺ pour donner le complexe [FeL]³⁻ dans lequel Fe³⁺ est dans un environnement octaédrique » (Housecroft p. 834).\n\nCOMPTEZ : trois bras, deux oxygènes par bras, six donneurs. Exactement ce qu'il faut, et pas un de plus.\n\nPOURQUOI LES ATTACHER ENSEMBLE. Six petites molécules indépendantes devraient toutes trouver le même ion de fer dans un océan où il n'y en a presque pas. En les montant sur un même squelette, on ne compte plus sur six rencontres mais sur une seule.\n\nLA CHIRALITÉ S'EN MÊLE (p. 834) : « les données spectroscopiques montrent que le complexe Δ est formé DIASTÉRÉOSÉLECTIVEMENT. » Les trois sérines sont toutes de configuration L, et le complexe s'enroule donc toujours dans le même sens — ce qui compte, puisqu'un récepteur devra le reconnaître pour le faire rentrer.\n\nCE QU'ON SAIT ET CE QU'ON TRANSPOSE (p. 834) : « la structure cristalline de l'entérobactine de fer(III) n'a pas été déterminée. » On a cristallisé le complexe de V(IV), dont l'ion a presque la même taille — 58 nm contre 65 —, et l'on suppose que le fer se place pareil. Housecroft l'écrit au lieu de le taire.\n\nET L'AFFINITÉ NE SUFFIT PAS. Housecroft pose l'exercice (p. 835) : pourquoi les complexes de Fe³⁺ haut spin sont-ils labiles là où leurs analogues au Cr³⁺ sont inertes ? La réponse est dans la fiche sur les ligands aqua — d⁵ contre d³, onze ordres de grandeur. Et c'est une chance : un sidérophore doit RENDRE son fer une fois entré. Un ligand qui tiendrait comme le chrome serait un piège, pas un transporteur.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "ferritine_stockage_fer": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le fer entre au degré II — parce que c'est le seul qui passe",
+        "smiles": "[Fe+2]",
+        "legende": "UN FAIT QUI SURPREND TOUJOURS (Housecroft p. 832) : « il n'y a AUCUNE perte excrétoire de fer, un phénomène que ne partagent pas les autres métaux présents dans le corps. »\n\nVotre corps ne sait pas éliminer le fer. Il ne peut que le ranger — et le problème cesse d'être un problème d'approvisionnement pour devenir un problème de STOCKAGE non toxique.\n\nLE TRAJET (p. 832) : absorption du Fe(II) après passage par l'estomac, puis prise en charge dans le sang par les TRANSFERRINES, qui portent du Fe(III), « jusqu'aux “vaisseaux de stockage” protéiques jusqu'à ce qu'il soit requis pour incorporation dans l'hémoglobine » — laquelle exige du Fe(II).\n\nQUATRE CHANGEMENTS DE DEGRÉ D'OXYDATION LE LONG DU CHEMIN, et chacun est un point de contrôle. C'est le degré qui commande la solubilité, donc le passage.\n\nUN MOT DE VOCABULAIRE QUI SERT PARTOUT (p. 832) : « la protéine dont le métal a été retiré s'appelle l'APOPROTÉINE… La différence entre une protéine et l'apoprotéine correspondante est ANALOGUE à celle entre un complexe métallique et le ligand libre. » Une métalloprotéine est un complexe de coordination — très gros, mais un complexe.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Oxydé à l'intérieur : votre foie fabrique de la rouille",
+        "smiles": "O=[Fe]O[Fe]=O",
+        "legende": "Housecroft ne prend pas de détour (p. 833) : « il est proposé que le fer entre sous forme de Fe²⁺ et soit OXYDÉ une fois à l'intérieur. La formation du cœur cristallin est un exemple de BIOMINÉRALISATION, et c'est une réalisation remarquable de l'évolution que le fer puisse être stocké chez les mammifères effectivement sous forme d'oxyde de fer(III) hydraté, c'est-à-dire une forme étroitement apparentée à la ROUILLE ! »\n\nLe point d'exclamation est de lui.\n\nPOURQUOI C'EST INTELLIGENT : ce qui ne se dissout pas ne circule pas, et ce qui ne circule pas ne catalyse aucune réaction de Fenton. Du fer insoluble enfermé dans une coque est un fer inoffensif — et récupérable, puisqu'il suffit de le réduire pour le remettre en solution.\n\nET VOICI LA COMPARAISON QUI EST LE VRAI SUJET DE CETTE FICHE. L'hémoglobine passe son existence à EMPÊCHER la formation d'oxyde de fer — Dugas écrit qu'il fallait « éviter la formation de rouille » (p. 409). La ferritine la PROVOQUE, la confine, et l'organise en cristal.\n\nMÊME RÉACTION. Catastrophe d'un côté, fonction de l'autre. Ce qui fait la différence n'est ni le métal ni la chimie : c'est l'endroit où on laisse la réaction se produire.\n\nCE QUI RESTE OUVERT, ET C'EST DIT (p. 833) : « alors que les structures de l'apoferritine et de la ferritine sont assez bien établies, la manière dont le fer est transporté vers l'intérieur et l'extérieur de la cavité protéique est ENCORE À L'ÉTUDE. » On sait à quoi ressemble le coffre, pas comment on l'ouvre.\n\nD'où les modèles : « la synthèse de grands agrégats fer-oxo à partir de précurseurs mono- et dinucléaires présente un intérêt de recherche en relation avec la modélisation de la formation du cœur de la ferritine ». On apprend à fabriquer le cristal avant de comprendre comment la protéine le fabrique.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "cytochromes_transfert_electron": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le dioxygène, au bout de la chaîne",
+        "smiles": "O=O",
+        "legende": "L'accepteur final. La cytochrome c oxydase le réduit en eau, avec E°′ = +815 mV (Housecroft p. 846). L'échelle physiologique descend jusqu'à −414 mV — le couple 2H⁺/H₂ à pH 7 — et « la plupart des réactions rédox impliquant des molécules organiques se produisent dans la gamme 0 mV > E°′ > −400 mV ».\n\nCE QUI DISTINGUE UN CYTOCHROME D'UNE HÉMOGLOBINE, ET C'EST TOUT LE SUJET (Housecroft p. 852) : « dans les hémoprotéines porteuses d'O₂, l'état de repos contient un centre Fe(II) PENTACOORDONNÉ qui devient hexacoordonné après captation d'O₂. En revanche, les cytochromes b et c contiennent un Fe HEXACOORDONNÉ… il y a PEU DE CHANGEMENT de conformation des ligands quand le changement rédox se produit. »\n\nUn cytochrome est saturé des deux côtés : rien n'entre, rien ne sort. Le fer bascule entre Fe(II) et Fe(III) sans que sa sphère bouge.\n\nET C'EST PRÉCISÉMENT CE QU'IL FAUT POUR ALLER VITE. La fiche sur la sphère externe le dit : plus les longueurs de liaison doivent changer, plus le transfert est lent. L'évolution a résolu le problème de Franck-Condon par la construction — en rendant les deux états géométriquement identiques.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'eau — et les quatre protons pompés au passage",
+        "smiles": "O",
+        "legende": "COMMENT L'ÉLECTRON A VOYAGÉ (Housecroft p. 853) : « il est proposé qu'un électron soit transféré par EFFET TUNNEL à travers l'un des bords exposés de l'unité hème — rappelons que le cycle porphyrinique est CONJUGUÉ. »\n\nLA STRUCTURE CONFIRME LE MÉCANISME. Dans le cytochrome c554, quatre hèmes sont espacés de 950, 1220 et 920 pm (p. 852), et « les quatre unités hème sont arrangées par PAIRES telles que les cycles porphyriniques soient approximativement parallèles, et aient des bords qui SE RECOUVRENT… vraisemblablement mis en place pour fournir des chemins de transfert d'électron efficaces entre les bords des groupes hème » (p. 853).\n\nSi l'électron passe par les bords, les bords doivent se faire face. Ils se font face.\n\nLE TERMINUS EST UNE MACHINE À QUATRE MÉTAUX (p. 853), résolue en 1995 : CuA, CuB, hème a et hème a₃, « qui COUPLENT le transfert d'électron au POMPAGE DE PROTONS ». CuA et hème a convoient l'électron ; hème a₃ et CuB fixent O₂, le convertissent en H₂O et pompent QUATRE H⁺ par molécule d'O₂ à travers la membrane interne.\n\nLe flux d'électrons devient un gradient — c'est-à-dire de l'énergie stockée.\n\nPOURQUOI LE CYANURE TUE (p. 854) : « c'est la forte fixation de [CN]⁻ au Fe(III) dans les cytochromes qui rend le cyanure toxique. » Ce n'est pas le transport de l'oxygène qui est bloqué, c'est son EMPLOI : on meurt d'asphyxie avec du sang parfaitement oxygéné.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "cytochrome_p450_hydroxylation": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un alcane — c'est-à-dire rien à quoi se prendre",
+        "smiles": "CCCCCC",
+        "legende": "Une liaison C–H d'alcane n'offre ni doublet libre, ni charge, ni polarisation exploitable. Aucun nucléophile ne peut l'attaquer.\n\nPOUR L'ÉLIMINER, IL FAUT POURTANT Y ACCROCHER UN OH. Un xénobiotique apolaire ne se dissout pas, donc les reins ne l'évacuent pas.\n\nD'OÙ UNE ENZYME QUI FABRIQUE UNE ARME (Dugas p. 434) : « la propriété la plus importante attribuée au cytochrome P-450 est sa capacité à former un agent oxydant EXTRÊMEMENT PUISSANT à partir du dioxygène. Cela contraste vivement avec les fonctions plus familières de transport d'oxygène ou d'électron de nombreuses autres hémoprotéines. »\n\nLE BILAN (Dugas p. 434) : R–H + O₂ + 2e⁻ + 2H⁺ → R–OH + H₂O — « le clivage RÉDUCTIF de O₂ résulte en l'incorporation d'UN oxygène dans le substrat, l'autre étant converti en eau ». D'où le nom : MONOoxygénase.\n\nCE QUI REND CE FER DIFFÉRENT : son ligand axial est un THIOLATE de cystéine, non une histidine. Dugas travaille sur des « porphyrines thiolate à sangle » dont l'adduit au CO montre la signature « S–Fe–CO » (p. 435). Un soufre anionique pousse bien plus d'électrons vers le fer qu'un azote neutre — assez pour qu'il rompe la liaison O–O au lieu de simplement porter O₂.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'alcool — obtenu par une chimie à un électron",
+        "smiles": "CCCCCCO",
+        "legende": "L'espèce qui a fait le travail est un oxo-fer, que Dugas nomme « l'oxygène “actif” dans P-450 (complexe fer-oxo) » (p. 435).\n\nCOMMENT ELLE S'Y PREND. Housecroft répond en une ligne (p. 843) : « l'insertion de O dans la liaison C–H de RH est supposée impliquer une voie RADICALAIRE. »\n\nGROSSMAN DONNE LE DÉTAIL QUE PERSONNE D'AUTRE NE DONNE (p. 327), sur le métabolisme hépatique des amines tertiaires : « le cytochrome P450 métabolise les amines tertiaires dans le foie par un mécanisme de transfert à UN ÉLECTRON. Un électron est transféré de N vers un groupe hème portant une liaison Fe=O pour donner un cation radical aminium et le radical anion [Fe–O]. Un atome d'hydrogène en α est ensuite… »\n\nDEUX RADICAUX NAISSENT DU MÊME GESTE. C'est la chimie des hameçons — celle des demi-flèches — transposée dans un foie.\n\nLE REVERS, ET IL EST SÉRIEUX (Dugas p. 434). Les rôles du P-450 vont « de la biosynthèse des stéroïdes à l'hydroxylation de substances lipidiques, de médicaments et d'hydrocarbures ». Mais : « un exemple bien connu est l'oxydation in vivo des composés polyaromatiques présents dans la fumée de tabac, et la CARCINOGÉNICITÉ qui en résulte ».\n\nUn aromatique inerte, une fois hydroxylé, devient réactif — et peut s'attaquer à l'ADN. L'enzyme qui détoxique active parfois. Ce n'est pas un dysfonctionnement : c'est la même chimie sur un substrat qu'elle n'attendait pas.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "nitrogenase_reduction_diazote": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le diazote, et la facture que quelqu'un doit payer",
+        "smiles": "N#N",
+        "legende": "La même triple liaison que dans la fiche Haber-Bosch, et le même verrou.\n\nLE BILAN BIOLOGIQUE (Housecroft p. 850) : N₂ + 8 H⁺ + 8 e⁻ → 2 NH₃ + H₂.\n\nCOMPTEZ. Réduire N₂ en deux NH₃ demande SIX électrons. L'enzyme en consomme HUIT et fabrique une molécule de dihydrogène en prime. Ce n'est pas un rendement médiocre — c'est obligatoire, et aucune nitrogénase connue n'y échappe.\n\nCe genre de fait CONTRAINT le mécanisme : quelle que soit la voie, elle doit passer par une étape produisant de l'hydrogène.\n\nET L'ÉNERGIE VIENT D'AILLEURS (p. 850) : « concomitante à ce processus est l'hydrolyse d'ATP, qui est un processus libérateur d'énergie. »\n\nL'industrie casse N≡N à 700 K sous 200 bar ; la bactérie le fait dans un sol tiède, en brûlant de l'ATP. Deux façons de payer la même facture — personne ne casse cette liaison gratuitement.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'ammoniac — et deux aveux d'ignorance sur la même page",
+        "smiles": "N",
+        "legende": "LE COFACTEUR FeMo (Housecroft p. 851) : « il consiste en une unité [4Fe–3S] connectée par TROIS atomes S pontants à une unité [3Fe–1Mo–3S]. » Le molybdène y est « approximativement octaédrique ; il est lié au squelette protéique par un résidu His et est également coordonné par un ligand HOMOCITRATE bidenté ».\n\nET IL A GARDÉ UN SECRET JUSQU'EN 2002 : « un atome central hexacoordonné (détecté pour la PREMIÈRE FOIS en 2002) complète le motif cubane de chaque unité. » Un atome au cœur d'un cofacteur étudié depuis des décennies.\n\nON NE SAIT MÊME PAS LEQUEL. « L'assignation non ambiguë de cet atome à partir des données de densité électronique cristallographique est DIFFICILE. Les atomes possibles sont C, N, O et S et, de ceux-ci, le candidat favorisé est N. » Une carte de densité compte des électrons, elle ne nomme pas les atomes.\n\nET VOICI LA PHRASE À RETENIR : « COMMENT — ou même SI — la présence de cet atome central est liée à la conversion de N₂ en NH₃ dans la nitrogénase est, à ce jour, INCONNU. »\n\nNon seulement son rôle est inconnu : on ignore s'il en a un.\n\nLE SECOND AVEU, quelques lignes plus loin : « la façon dont les protéines Fe et FeMo agissent ENSEMBLE pour catalyser la conversion de N₂ en NH₃ reste à établir. »\n\nCE QUI RELIE CETTE FICHE À CELLE DES TRANSFERTS D'ÉLECTRON : « la distance la plus courte entre centres métalliques dans les deux agrégats de la protéine FeMo est d'environ 1400 pm, une séparation qui est COMPATIBLE avec un transfert d'électron. » On justifie une architecture biologique par une théorie de cinétique physique.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "photosysteme_ii_oxydation_eau": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'eau — et pourquoi on ne peut pas l'oxyder par petits bouts",
+        "smiles": "O",
+        "legende": "LA RÉACTION LA PLUS IMPORTANTE DE LA BIOSPHÈRE (Housecroft p. 614, équation 21.53) : 2 H₂O → O₂ + 4 H⁺ + 4 e⁻. Tout l'oxygène que vous respirez vient de là.\n\nLE PROBLÈME EST ARITHMÉTIQUE. La lumière ne livre qu'UN électron à la fois — un photon, une séparation de charge. L'oxydation de deux eaux en exige QUATRE.\n\nET ON NE PEUT PAS S'ARRÊTER EN CHEMIN. Retirez un électron à une molécule d'eau : vous obtenez un radical hydroxyle, l'une des espèces les plus destructrices de la chimie. Deux : du peroxyde. Il n'y a rien de fréquentable entre l'eau et le dioxygène.\n\nIL FAUT DONC ACCUMULER AVANT DE DÉPENSER — et c'est toute la raison d'être de l'agrégat de manganèse.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le dioxygène — quatre métaux montés d'un cran chacun",
+        "smiles": "O=O",
+        "legende": "L'ARCHITECTURE (Housecroft p. 614) : « il est proposé que le site au sein de PSII qui facilite la réaction 21.53 soit un agrégat Mn₄, avec une unité [Mn(µ-O)₂Mn(µ-O)₂Mn] en combinaison avec un QUATRIÈME centre Mn. »\n\nPOURQUOI QUATRE. Un seul métal ne saurait pas monter de quatre degrés d'oxydation d'affilée : cela coûterait trop cher à chaque cran. Quatre métaux montent chacun d'UN cran.\n\nRETENEZ LE PRINCIPE, IL EST GÉNÉRAL : quand une réaction demande plusieurs électrons à la fois, la nature n'emploie pas un métal héroïque, elle emploie plusieurs métaux ordinaires reliés entre eux. C'est la même logique que le centre à deux cuivres qui transfère deux électrons.\n\nCE QUE LA CRISTALLOGRAPHIE A CONFIRMÉ (p. 614) : les données obtenues de Thermosynechococcus elongatus et T. vulcanus « CONFIRMENT la présence d'un agrégat Mn₄, coordonné par des atomes donneurs dans les squelettes polypeptidiques… L'arrangement des atomes métalliques APPARAÎT plan ou proche du plan. » Notez le verbe : une structure de protéine donne une forme, pas des certitudes.\n\nLES MODÈLES ONT PRÉCÉDÉ (p. 614) : « une série de complexes polynucléaires de manganèse ont été étudiés comme MODÈLES pour l'enzyme Photosystème II », dont [Mn₃O₄(O₂CMe)₄(bpy)₂] à cœur [Mn^IV₃(µ-O)₄]⁴⁺, caractérisé par diffraction à 110 K. On a fabriqué au ballon le motif qu'on soupçonnait dans la feuille.\n\nET LES ÉLECTRONS ARRACHÉS PARTENT DANS UNE CHAÎNE (p. 844) : les PLASTOCYANINES, protéines bleues à cuivre de type 1, « transportent les électrons entre les photosystèmes I et II ». Une chaîne cuivre puis fer, qui ressemble beaucoup à celle des mitochondries — prise à l'envers.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

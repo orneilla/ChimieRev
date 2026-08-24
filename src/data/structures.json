@@ -631,6 +631,38 @@
     "substrat": "transfert_electron_sphere_interne-substrat.svg",
     "produit": "transfert_electron_sphere_interne-produit.svg"
   },
+  "fixation_dioxygene_hemoglobine": {
+    "substrat": "fixation_dioxygene_hemoglobine-substrat.svg",
+    "produit": "fixation_dioxygene_hemoglobine-produit.svg"
+  },
+  "anhydrase_carbonique_zinc": {
+    "substrat": "anhydrase_carbonique_zinc-substrat.svg",
+    "produit": "anhydrase_carbonique_zinc-produit.svg"
+  },
+  "siderophores_transport_fer": {
+    "substrat": "siderophores_transport_fer-substrat.svg",
+    "produit": "siderophores_transport_fer-produit.svg"
+  },
+  "ferritine_stockage_fer": {
+    "substrat": "ferritine_stockage_fer-substrat.svg",
+    "produit": "ferritine_stockage_fer-produit.svg"
+  },
+  "cytochromes_transfert_electron": {
+    "substrat": "cytochromes_transfert_electron-substrat.svg",
+    "produit": "cytochromes_transfert_electron-produit.svg"
+  },
+  "cytochrome_p450_hydroxylation": {
+    "substrat": "cytochrome_p450_hydroxylation-substrat.svg",
+    "produit": "cytochrome_p450_hydroxylation-produit.svg"
+  },
+  "nitrogenase_reduction_diazote": {
+    "substrat": "nitrogenase_reduction_diazote-substrat.svg",
+    "produit": "nitrogenase_reduction_diazote-produit.svg"
+  },
+  "photosysteme_ii_oxydation_eau": {
+    "substrat": "photosysteme_ii_oxydation_eau-substrat.svg",
+    "produit": "photosysteme_ii_oxydation_eau-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

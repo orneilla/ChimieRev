@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 158,
+  "redigees": 166,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1360,66 +1360,66 @@
       "famille": "Bioinorganique",
       "bloc": "Inorganique",
       "total": 8,
-      "absente": 8,
-      "redigee": 0,
+      "absente": 0,
+      "redigee": 8,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
           "nom": "Fixation réversible du dioxygène par l'hémoglobine",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "fixation_dioxygene_hemoglobine",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Le zinc, acide de Lewis : l'anhydrase carbonique",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "anhydrase_carbonique_zinc",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Transport du fer : sidérophores",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "siderophores_transport_fer",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Stockage du fer : la ferritine",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ferritine_stockage_fer",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Transfert d'électron par les cytochromes",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cytochromes_transfert_electron",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Hydroxylation par le cytochrome P-450",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cytochrome_p450_hydroxylation",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réduction du diazote par la nitrogénase",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "nitrogenase_reduction_diazote",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Oxydation de l'eau par le complexe au manganèse du photosystème II",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "photosysteme_ii_oxydation_eau",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },
