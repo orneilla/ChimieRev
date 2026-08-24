@@ -1088,6 +1088,12 @@
           "chapitre": "6 — Nucleophilic addition to the carbonyl group",
           "pages": "136",
           "note": "La filiation explicite entre hydratation et formation d'hémiacétal : « le mécanisme suit les pas de celui de l'hydrate — il suffit de mettre ROH à la place de HOH »."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "19 — Aldehydes and Ketones: Nucleophilic Addition Reactions",
+          "pages": "614",
+          "note": "Les chiffres qui rendent l'équilibre concret : une solution aqueuse de formaldéhyde est à 99,9 % gem-diol, une solution aqueuse d'acétone à 99,9 % cétone — un facteur un million entre deux carbonyles simples. Et la cause : « l'équilibre favorise généralement le composé carbonylé pour des raisons STÉRIQUES ». C'est de l'encombrement, pas de l'électronique."
         }
       ],
       "articles_historiques": [],
@@ -1112,6 +1118,12 @@
           "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
           "pages": "227–229",
           "note": "L'acide para-toluènesulfonique comme catalyseur ; le déplacement de l'équilibre par excès de réactif, par gaz chlorhydrique sec (60 % en deux minutes à 20 °C) ou par tamis moléculaire (62 % en deux heures à 0 °C) ; la distillation azéotropique et l'appareil de Dean-Stark ; le dioxolane formé avec l'éthylène glycol, 78 % ; l'hydrolyse des acétals, qui n'a lieu qu'en présence d'acide ; l'emploi comme groupe protecteur, illustré par une synthèse de stéroïde exigeant un organomagnésien impossible ; et les acétals dans la nature — maltose, amidon, cellulose."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "19 — Aldehydes and Ketones: Nucleophilic Addition Reactions",
+          "pages": "628",
+          "note": "Comment on pousse l'équilibre dans chaque sens : vers l'acétal en DISTILLANT l'eau au fur et à mesure, vers le carbonyle par un grand excès d'acide aqueux. La liste de ce contre quoi un acétal protège : « inertes vis-à-vis des bases, des hydrures réducteurs, des réactifs de Grignard et de l'hydrogénation catalytique, mais clivés par les acides ». Et l'exemple qui justifie le détour : réduire le seul ester du 4-oxopentanoate d'éthyle, impossible sans protéger la cétone."
         }
       ],
       "articles_historiques": [],
@@ -1130,6 +1142,12 @@
           "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
           "pages": "233–234",
           "note": "La pyrrolidine, amine secondaire, réagissant avec l'isobutyraldéhyde pour donner une énamine : faute d'hydrogène sur l'azote, l'iminium perd un proton porté par le carbone. Et l'encadré de synthèse : imines à partir des amines primaires, énamines à partir des amines secondaires, les deux exigeant catalyse acide et élimination de l'eau."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "19 — Aldehydes and Ketones: Nucleophilic Addition Reactions",
+          "pages": "620-622",
+          "note": "Les deux mécanismes décomposés en parallèle, ce qui situe exactement leur divergence : tronc commun jusqu'à l'ion iminium — attaque, transfert de proton, carbinolamine, protonation, départ de l'eau —, puis la dernière étape seule diffère. Avec une amine secondaire, « la perte d'un proton du CARBONE ALPHA donne le produit énamine ». C'est l'amine qui décide quel proton reste disponible."
         }
       ],
       "articles_historiques": [],
@@ -1178,6 +1196,12 @@
           "chapitre": "27 — Synthesis of alkenes",
           "pages": "689–693",
           "note": "« Peut-être la façon la plus importante de fabriquer des alcènes » ; 86 % de rendement sur le méthylènecyclohexane, 65 % sur un autre exemple ; la stéréosélectivité gouvernée par le substituant de l'ylure, avec l'analyse en deux temps — formation de l'oxaphosphétane, puis élimination stéréospécifique syn-périplanaire — qui explique pourquoi un ylure non stabilisé donne le Z ; la synthèse des isomères E et Z de la capsaïcine, 91:9 en Z par Wittig et 90:10 en E par oléfination de Julia ; la stabilité extrême des ylures stabilisés, dont l'un se recristallise dans l'eau, et le passage au phosphonate qui en découle ; et le tableau récapitulatif des méthodes de synthèse stéréospécifique des alcènes."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "19 — Aldehydes and Ketones: Nucleophilic Addition Reactions",
+          "pages": "631",
+          "note": "Ce qui fait sa vraie valeur, avec la comparaison qui le prouve : « elle donne un alcène PUR, de structure prévisible ; la double liaison est toujours exactement là où était le C=O, et aucun isomère n'est formé ». La cyclohexanone donne le seul méthylènecyclohexane par Wittig, contre « un mélange environ 9:1 de deux alcènes » par Grignard puis déshydratation. Et sa limite : « les alcènes tétrasubstitués ne peuvent pas être préparés ainsi »."
         }
       ],
       "articles_historiques": [],
@@ -1226,6 +1250,12 @@
           "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
           "pages": "507",
           "note": "Le thiophénol s'additionnant sur une énone à 94 % de rendement, 25 °C, cinq heures, sans catalyseur ; et la distinction entre nucléophiles durs, gouvernés par l'électrostatique, et nucléophiles mous, gouvernés par le recouvrement orbitalaire, avec le tableau de classement."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "19 — Aldehydes and Ketones: Nucleophilic Addition Reactions",
+          "pages": "636",
+          "note": "Pourquoi le carbone β est électrophile : « l'oxygène électronégatif retire des électrons du carbone β, le rendant plus électrophile qu'un carbone d'alcène ordinaire » — même polarisation que l'addition directe, transmise par la conjugaison. Et la preuve par l'absence : « sans le groupe carbonyle, la double liaison ne serait pas activée et AUCUNE réaction ne se produirait »."
         }
       ],
       "articles_historiques": [],
@@ -1268,6 +1298,12 @@
           "chapitre": "8 — Acidity, basicity and pKa",
           "pages": "165",
           "note": "L'amination réductrice citée comme la voie générale d'accès aux amines, avant même que le mécanisme en soit donné."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "24 — Amines and Heterocycles",
+          "pages": "802",
+          "note": "La table de correspondance : « l'ammoniac, les amines primaires et les amines secondaires donnent respectivement des amines primaires, secondaires et tertiaires » — on choisit le degré de substitution final en choisissant l'amine de départ. Et l'usage biologique : la biosynthèse de la proline, où le glutamate-5-semialdéhyde fait une formation d'imine INTERNE avant d'être réduit."
         }
       ],
       "articles_historiques": [],
@@ -1280,6 +1316,12 @@
           "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
           "pages": "197–207",
           "note": "Le cadre général : le produit d'addition sur un carbonyle n'est pas toujours stable, d'où la substitution en deux temps par un intermédiaire tétraédrique ; l'inventaire des dérivés d'acide ; l'analyse de l'instabilité des intermédiaires tétraédriques ; l'échelle de réactivité et sa mesure par l'hydrolyse — rapide à 20 °C pour un chlorure d'acyle, lente pour un anhydride, seulement à chaud avec catalyse pour un ester, et par chauffage prolongé en acide ou base forts pour un amide ; l'explication double, qualité du nucléofuge et conjugaison du doublet du substituant ; le lien entre pKa, nucléophilie et aptitude nucléofuge, qui varient en sens inverse ; la supériorité des anions sur les espèces neutres, un alcoolate réagissant en quelques secondes à 0 °C là où l'alcool met des heures ; et l'avertissement sur la force des liaisons, illustré par l'acide acétique dont la liaison la plus forte, O–H, est celle que toutes les réactions rompent."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "Preview of Carbonyl Chemistry",
+          "pages": "600",
+          "note": "Ce qui distingue cette famille de toute l'autre chimie du carbonyle : « la substitution nucléophile acyle ne se produit QU'AVEC LES DÉRIVÉS D'ACIDE, et non avec les aldéhydes et les cétones », parce que « les dérivés portent un GROUPE PARTANT lié au carbone du carbonyle, si bien que l'intermédiaire tétraédrique peut réagir plus loin en l'expulsant ». L'échelle de réactivité n'est donc que le classement de ces groupes partants."
         }
       ],
       "articles_historiques": [],
@@ -1304,6 +1346,12 @@
           "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
           "pages": "211",
           "note": "La preuve du mécanisme par marquage à l'oxygène 18, qui établit la substitution au carbone carbonylé et écarte la substitution au carbone saturé."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "20 — Carboxylic Acids and Nitriles",
+          "pages": "691",
+          "note": "La preuve par l'oxygène 18, qui tranche entre quatre hypothèses de rupture : « quand du méthanol marqué à l'¹⁸O réagit avec l'acide benzoïque, le benzoate de méthyle produit se révèle marqué, tandis que l'eau produite ne l'est pas ». Donc « c'est la liaison C–OH de l'acide qui est rompue, et la liaison RO–H de l'alcool ». Avec la constante d'équilibre « proche de 1 », d'où l'excès d'alcool ou d'eau selon le sens voulu."
         }
       ],
       "articles_historiques": [],
@@ -1322,6 +1370,12 @@
           "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
           "pages": "212",
           "note": "L'encadré sur la saponification proprement dite : le suif de bœuf, tristéarate de glycérol, hydrolysé par la soude en stéarate de sodium, principal constituant du savon ; les savons plus fins issus de l'huile de palme et plus riches en palmitate ; les carboxylates de potassium des savons liquides ; et l'origine du pouvoir détergent, dans la coexistence d'une tête polaire et d'une queue apolaire."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+          "pages": "705",
+          "note": "Les quatre étapes, dont l'avant-dernière est le verrou : « l'ion alcoolate arrache le proton acide de l'acide carboxylique et donne un ion carboxylate ». C'est cette déprotonation qui rend la saponification irréversible là où l'estérification de Fischer est un équilibre — et qui impose une étape d'acidification séparée pour récupérer l'acide."
         }
       ],
       "articles_historiques": [],
@@ -1340,6 +1394,12 @@
           "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
           "pages": "224",
           "note": "La catalyse basique, qui agit en accroissant la nucléophilie de l'alcool par déprotonation, et le rappel qu'un catalyseur ne déplace jamais la position d'un équilibre."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+          "pages": "706",
+          "note": "Le mécanisme qu'on n'a pas à réapprendre : « parce que cette réaction d'hydrolyse est L'INVERSE d'une estérification de Fischer, la figure 21-8 est l'inverse de la figure 21-4 ». Quatre étapes lisibles dans les deux sens — protonation, attaque, transfert de proton, expulsion —, la réversibilité microscopique appliquée à la lettre."
         }
       ],
       "articles_historiques": [],
@@ -1364,6 +1424,12 @@
           "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
           "pages": "214",
           "note": "L'hydrolyse des nitriles, qui passe par l'amide primaire : PhCN donne PhCO₂H à 80 % dans l'eau et l'acide sulfurique, 100 °C, trois heures, et le lien avec les cyanhydrines pour préparer l'acide mandélique à partir du benzaldéhyde."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+          "pages": "711",
+          "note": "Pourquoi l'hydrolyse basique d'un amide est si difficile, en un mot : elle l'est « parce que l'ion amidure est un TRÈS MAUVAIS groupe partant, ce qui rend l'étape d'élimination difficile ». L'intermédiaire tétraédrique se forme sans peine ; c'est pour en sortir qu'il faut de l'énergie."
         }
       ],
       "articles_historiques": [],
@@ -1388,6 +1454,12 @@
           "chapitre": "31 — Aromatic heterocycles 2",
           "pages": "747",
           "note": "La limite du procédé pour la synthèse peptidique : les chlorures d'acyle d'acides aminés sont trop réactifs et conduisent à des réactions parasites, d'où l'emploi d'esters activés."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+          "pages": "699",
+          "note": "Le détail de stœchiométrie qu'on paie si on l'oublie : le HCl libéré protone l'amine, si bien qu'il en faut deux équivalents — ou « un équivalent de l'amine plus un équivalent d'une base bon marché comme NaOH ». Avec l'exemple industriel de la trimétozine, préparée du chlorure de 3,4,5-triméthoxybenzoyle et de la morpholine en présence d'un équivalent de NaOH."
         }
       ],
       "articles_historiques": [],
@@ -1430,6 +1502,12 @@
           "chapitre": "23 — Chemoselectivity and protecting groups",
           "pages": "556–558",
           "note": "L'ester de tert-butyle comme protecteur d'acide : préparé à partir de l'isobutène en milieu sulfurique, résistant à l'attaque nucléophile — hydrolyse basique comprise — par encombrement, mais hydrolysé aisément en milieu acide par un mécanisme tout différent, passant par un carbocation tertiaire. Le Cbz comme protecteur d'amine, posé par BnOCOCl et une base, ôté par HBr dans l'acide acétique ou par hydrogénolyse sur palladium. Et les esters activés de p-nitrophényle et de 2,4,6-trichlorophényle, employés faute de pouvoir utiliser les chlorures d'acyle."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "20 — Carboxylic Acids and Nitriles",
+          "pages": "692",
+          "note": "Pourquoi on ne peut pas simplement chauffer un acide avec une amine : « les amines sont des BASES qui convertissent les groupes carboxyle en leurs anions carboxylate INERTES ; il faut donc remplacer le –OH par un groupe partant meilleur et non acide ». Et une ambiguïté qu'on tait souvent : selon le solvant, l'intermédiaire acyle « peut aussi réagir avec un second équivalent de carboxylate pour engendrer un ANHYDRIDE, qui réagit ensuite avec l'amine. Le produit est le même dans les deux cas. »"
         }
       ],
       "articles_historiques": [],
@@ -1478,6 +1556,12 @@
           "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
           "pages": "219–220",
           "note": "Les amides de Weinreb, amides N-méthoxy-N-méthylés, dont l'addition d'un organolithien ou d'un organomagnésien donne un intermédiaire tétraédrique stabilisé par CHÉLATION du métal par les deux oxygènes — l'ouvrage définit au passage la chélation comme « la coordination de plus d'un atome donneur d'électrons d'une molécule à un même atome métallique ». Les deux stratégies voisines : le dianion obtenu par trois équivalents d'organolithien sur un acide carboxylique, dépourvu de groupe partant, qui ne s'effondre qu'au traitement aqueux via la cétone hydratée (65 % sur un intermédiaire de macrolide) ; et le nitrile, dont l'intermédiaire est un anion d'imine « pas électrophile du tout — en fait plutôt nucléophile ». Et le résumé final du chapitre, qui pose les quatre questions à se poser devant toute substitution acyle."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "92",
+          "note": "Une explication CINÉTIQUE plutôt que structurale, et plus prudente que celle du chélate : « l'étape d'élimination est LENTE à −78 °C, particulièrement quand la composante amine est –N(Me)OMe ; quand l'intermédiaire tétraédrique est suffisamment durable, le traitement par l'eau à −78 °C donne la cétone plutôt que l'alcool ». Avec le point de comparaison qui éclaire : sur un nitrile, « l'addition s'arrête après une seule addition parce qu'aucun groupe partant ne peut être expulsé »."
         }
       ],
       "articles_historiques": [],
