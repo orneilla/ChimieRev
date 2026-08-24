@@ -711,6 +711,46 @@
     "substrat": "glycosylation_stereocontrolee-substrat.svg",
     "produit": "glycosylation_stereocontrolee-produit.svg"
   },
+  "synthese_strecker": {
+    "substrat": "synthese_strecker-substrat.svg",
+    "produit": "synthese_strecker-produit.svg"
+  },
+  "amination_reductrice_ceto_acide": {
+    "substrat": "amination_reductrice_ceto_acide-substrat.svg",
+    "produit": "amination_reductrice_ceto_acide-produit.svg"
+  },
+  "synthese_amidomalonate": {
+    "substrat": "synthese_amidomalonate-substrat.svg",
+    "produit": "synthese_amidomalonate-produit.svg"
+  },
+  "resolution_acide_amine": {
+    "substrat": "resolution_acide_amine-substrat.svg",
+    "produit": "resolution_acide_amine-produit.svg"
+  },
+  "protection_boc": {
+    "substrat": "protection_boc-substrat.svg",
+    "produit": "protection_boc-produit.svg"
+  },
+  "protection_fmoc": {
+    "substrat": "protection_fmoc-substrat.svg",
+    "produit": "protection_fmoc-produit.svg"
+  },
+  "degradation_edman": {
+    "substrat": "degradation_edman-substrat.svg",
+    "produit": "degradation_edman-produit.svg"
+  },
+  "synthese_merrifield": {
+    "substrat": "synthese_merrifield-substrat.svg",
+    "produit": "synthese_merrifield-produit.svg"
+  },
+  "hydrolyse_liaison_peptidique": {
+    "substrat": "hydrolyse_liaison_peptidique-substrat.svg",
+    "produit": "hydrolyse_liaison_peptidique-produit.svg"
+  },
+  "citrate_synthase": {
+    "substrat": "citrate_synthase-substrat.svg",
+    "produit": "citrate_synthase-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1261,6 +1301,33 @@
   },
   "gaz_de_synthese": {
     "molecule": "reactif-gaz_de_synthese.svg"
+  },
+  "kcn": {
+    "molecule": "reactif-kcn.svg"
+  },
+  "nh4cl": {
+    "molecule": "reactif-nh4cl.svg"
+  },
+  "boc2o": {
+    "molecule": "reactif-boc2o.svg"
+  },
+  "fmoc_cl": {
+    "molecule": "reactif-fmoc_cl.svg"
+  },
+  "pitc": {
+    "molecule": "reactif-pitc.svg"
+  },
+  "acetamidomalonate": {
+    "molecule": "reactif-acetamidomalonate.svg"
+  },
+  "tfa": {
+    "molecule": "reactif-tfa.svg"
+  },
+  "resine_merrifield": {
+    "molecule": "reactif-resine_merrifield.svg"
+  },
+  "menthol": {
+    "molecule": "reactif-menthol.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

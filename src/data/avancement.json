@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-24",
-  "total": 287,
-  "redigees": 178,
-  "verifiees": 125,
+  "total": 286,
+  "redigees": 188,
+  "verifiees": 133,
   "relues": 0,
   "familles": [
     {
@@ -1526,87 +1526,87 @@
       "famille": "Acides aminés",
       "bloc": "Biomolécules et vivant",
       "total": 11,
-      "absente": 11,
-      "redigee": 0,
-      "verifiee": 0,
+      "absente": 0,
+      "redigee": 2,
+      "verifiee": 9,
       "relue": 0,
       "reactions": [
         {
           "nom": "Synthèse d'un acide aminé par amination réductrice",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "amination_reductrice_ceto_acide",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Strecker",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_strecker",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse malonique amidée",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_amidomalonate",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Résolution enzymatique d'un acide aminé racémique",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "resolution_acide_amine",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Couplage peptidique par le DCC",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_peptidique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Protection et déprotection Boc",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "protection_boc",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Protection et déprotection Fmoc",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "protection_fmoc",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Dégradation d'Edman",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "degradation_edman",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse peptidique en phase solide (Merrifield)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_merrifield",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Hydrolyse acide d'une liaison peptidique",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydrolyse_liaison_peptidique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Mécanisme d'une enzyme : la citrate synthase",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "citrate_synthase",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

@@ -22,34 +22,74 @@ const EST_UN_MOT = /[a-z0-9]/
  * « Escheǀnmoǀser », et le sel d'Eschenmoser renvoyait vers le
  * N-méthylmorpholine N-oxyde. Un nom de trois lettres se cache facilement.
  */
-function contient(texte, terme) {
-  if (!terme || terme.length < 2) return false
+function occurrences(texte, terme) {
+  if (!terme || terme.length < 2) return []
   const ou = normalise(texte)
   const quoi = normalise(terme)
+  const trouvees = []
 
   for (let i = ou.indexOf(quoi); i !== -1; i = ou.indexOf(quoi, i + 1)) {
     const avant = i > 0 ? ou[i - 1] : ' '
     const apres = i + quoi.length < ou.length ? ou[i + quoi.length] : ' '
-    if (!EST_UN_MOT.test(avant) && !EST_UN_MOT.test(apres)) return true
+    if (!EST_UN_MOT.test(avant) && !EST_UN_MOT.test(apres)) {
+      trouvees.push({ debut: i, fin: i + quoi.length })
+    }
   }
-  return false
+  return trouvees
+}
+
+function contient(texte, terme) {
+  return occurrences(texte, terme).length > 0
+}
+
+/**
+ * Les produits dont le nom apparaît dans cette ligne — le plus long gagnant.
+ *
+ * La frontière de mot ne suffit pas, parce que les indices typographiques
+ * n'en sont pas : le « ₂ » de K₂CO₃ n'est ni une lettre ni un chiffre, si
+ * bien que « CO » y passait pour un mot entier. Le monoxyde de carbone
+ * annonçait donc être employé par le couplage de Suzuki, la réaction de
+ * Heck et l'amination de Buchwald-Hartwig — vingt-quatre liens faux dans
+ * le corpus, dont aucun ne se voyait autrement qu'en ouvrant la page du
+ * réactif. « BH₃ » se cachait dans « Na(CN)BH₃ », « O₂ » dans « H₂O₂/NaOH »,
+ * « Zn » dans « Zn(Hg) » — l'amalgame de la Clemmensen n'est pas du zinc
+ * en poudre.
+ *
+ * La règle appliquée est celle qu'emploie déjà `chercher` pour la ligne de
+ * conditions : à un endroit donné du texte, c'est le nom LE PLUS LONG qui
+ * l'emporte. Un produit n'est retenu que s'il possède au moins une
+ * occurrence qu'aucun nom plus long ne recouvre.
+ */
+function produitsCitesDans(liste, ligne) {
+  const marques = []
+  for (const entree of liste) {
+    for (const nom of [entree.nom, entree.nom_complet].filter(Boolean)) {
+      for (const ou of occurrences(ligne, nom)) marques.push({ entree, ...ou })
+    }
+  }
+
+  const recouverte = (m) =>
+    marques.some(
+      (autre) =>
+        autre.entree !== m.entree &&
+        autre.debut <= m.debut &&
+        autre.fin >= m.fin &&
+        autre.fin - autre.debut > m.fin - m.debut
+    )
+
+  return new Set(marques.filter((m) => !recouverte(m)).map((m) => m.entree))
 }
 
 /** Réactions dont la ligne « réactifs » mentionne ce réactif. */
 export function reactionsUtilisantReactif(reactif) {
-  const noms = [reactif.nom, reactif.nom_complet].filter(Boolean)
-
-  return reactions.filter((reaction) => {
-    const ligne = reaction.reactifs.join(' ')
-    return noms.some((nom) => contient(ligne, nom))
-  })
+  return reactions.filter((reaction) =>
+    produitsCitesDans(reactifs, reaction.reactifs.join(' ')).has(reactif)
+  )
 }
 
 /** Réactions dont la ligne « solvant » mentionne ce solvant. */
 export function reactionsUtilisantSolvant(solvant) {
-  const noms = [solvant.nom, solvant.nom_complet].filter(Boolean)
-
-  return reactions.filter((reaction) => noms.some((nom) => contient(reaction.solvant, nom)))
+  return reactions.filter((reaction) => produitsCitesDans(solvants, reaction.solvant).has(solvant))
 }
 
 /** Retrouve une réaction par son identifiant (ou undefined si absente). */

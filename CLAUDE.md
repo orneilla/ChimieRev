@@ -112,6 +112,23 @@ pièges se sont présentés, tous silencieux.
   Roberts & Caserio sur la Beckmann et l'hydroboration. Une page d'index
   d'un ouvrage indexé PARTIELLEMENT est un piège parfait : elle contient le
   bon mot et pointe vers ce qu'on n'a pas.
+
+  Le cas s'est représenté quatre fois d'affilée sur la seule résolution
+  enzymatique : « acylase », « lipase », « kinetic resolution » et
+  « enzymatic resolution » rendaient toutes des pages du Carey & Sundberg —
+  1170, 1184, 1189, 1193, 1197 — qui sont son index, relié en fin de volume
+  et donc DANS l'extrait indexé alors que ce qu'il désigne n'y est pas.
+  Un ouvrage dont on n'a qu'un chapitre rend son index en entier : c'est la
+  configuration la plus trompeuse qui soit.
+
+- **Un mot de trois lettres ne se cherche pas.** « BOC » rend 108 pages du
+  Clayden, 93 du McMurry, 67 de LibreTexts — la chaîne se loge à l'intérieur
+  de mots quelconques. Le groupe protecteur, lui, se cherche sous
+  « Boc group » ou « BOC anhydride », qui rendent quatre pages, toutes
+  justes. À l'inverse « t-butoxycarbonyl » et « tert-butyl carbamate » ne
+  rendent RIEN : le nom développé n'est pas celui qu'emploient les manuels.
+  Devant un résultat pléthorique comme devant un silence, on essaie une
+  autre formulation avant de conclure.
 - **Un homonyme n'est pas une source.** « cuprate » rend huit pages du
   Housecroft — qui parlent des supraconducteurs YBa₂Cu₃O₇, pas des réactifs
   de Gilman. « pyrazole » y rend une ligne de tableau de ligands. Le mot
@@ -587,6 +604,37 @@ parenthèse ouvrante — alors qu'on le cherche à E.
 Une fiche de réactif dit **à quoi il sert, pourquoi il marche, et ce qu'il
 ne faut pas confondre**. Elle cite ses pages comme le fait une fiche de
 réaction.
+
+### « Le plus long gagne » vaut aussi dans l'autre sens
+
+La règle était écrite plus haut et appliquée à un seul endroit. `chercher`,
+qui rend le réactif désigné par une ligne de conditions, prenait bien le nom
+le plus long. `reactionsUtilisantReactif`, qui fait le chemin inverse — dans
+quelles réactions ce produit apparaît-il ? —, se contentait d'une frontière
+de mot.
+
+Or **les indices typographiques ne sont pas des frontières de mot** : le
+« ₂ » de K₂CO₃ n'est ni une lettre ni un chiffre, si bien que « CO » y
+passait pour un mot entier. La page du monoxyde de carbone annonçait donc
+être employée par le couplage de Suzuki, la réaction de Heck, l'amination de
+Buchwald-Hartwig et la Reformatsky. « BH₃ » se cachait dans « Na(CN)BH₃ »,
+« O₂ » dans « H₂O₂/NaOH », « Zn » dans « Zn(Hg) » — or l'amalgame de la
+Clemmensen n'est pas du zinc en poudre.
+
+**Vingt-quatre liens faux**, et aucun ne se voyait autrement qu'en ouvrant
+la page du réactif. Le défaut ne casse rien, ne lève aucune erreur, et
+n'apparaît dans aucun compte : c'est exactement le genre que ce dépôt
+cherche à rendre visible. `produitsCitesDans` applique désormais la même
+règle dans les deux sens — à un endroit donné du texte, un nom court ne
+compte pas s'il est recouvert par un nom plus long.
+
+### La famille d'une fiche est une CLÉ, pas un intitulé
+
+`programme.json` distingue `nom` (« Acides aminés, peptides et protéines »,
+ce que lit l'utilisateur) et `famille` (« Acides aminés », ce qui porte la
+couleur). Une fiche doit déclarer la **clé**. Écrire l'intitulé n'échoue pas
+silencieusement — `npm run valider` le refuse et liste les clés connues —,
+mais il faut savoir que la question se pose.
 
 ## Écrire une fiche
 

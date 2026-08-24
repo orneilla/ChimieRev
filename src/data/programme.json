@@ -1076,57 +1076,57 @@
         {
           "nom": "Synthèse d'un acide aminé par amination réductrice",
           "niveau": "L3",
-          "id": null
+          "id": "amination_reductrice_ceto_acide"
         },
         {
           "nom": "Synthèse de Strecker",
           "niveau": "L3",
-          "id": null
+          "id": "synthese_strecker"
         },
         {
           "nom": "Synthèse malonique amidée",
           "niveau": "L3",
-          "id": null
+          "id": "synthese_amidomalonate"
         },
         {
           "nom": "Résolution enzymatique d'un acide aminé racémique",
           "niveau": "M1",
-          "id": null
+          "id": "resolution_acide_amine"
         },
         {
           "nom": "Couplage peptidique par le DCC",
           "niveau": "L3",
-          "id": null
+          "id": "couplage_peptidique"
         },
         {
           "nom": "Protection et déprotection Boc",
           "niveau": "L3",
-          "id": null
+          "id": "protection_boc"
         },
         {
           "nom": "Protection et déprotection Fmoc",
           "niveau": "L3",
-          "id": null
+          "id": "protection_fmoc"
         },
         {
           "nom": "Dégradation d'Edman",
           "niveau": "M1",
-          "id": null
+          "id": "degradation_edman"
         },
         {
           "nom": "Synthèse peptidique en phase solide (Merrifield)",
           "niveau": "M1",
-          "id": null
+          "id": "synthese_merrifield"
         },
         {
           "nom": "Hydrolyse acide d'une liaison peptidique",
           "niveau": "L2",
-          "id": null
+          "id": "hydrolyse_liaison_peptidique"
         },
         {
           "nom": "Mécanisme d'une enzyme : la citrate synthase",
           "niveau": "M2",
-          "id": null
+          "id": "citrate_synthase"
         }
       ],
       "bloc": "Biomolécules et vivant"
