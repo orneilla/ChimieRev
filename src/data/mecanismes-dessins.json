@@ -8512,5 +8512,351 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "isomerisation_glucose_fructose": {
+    "1": {
+      "fichier": "isomerisation_glucose_fructose-etape1.svg",
+      "titre": "Une base arrache le proton du carbone 2",
+      "legende": "Le carbone 2 porte un proton VOISIN d'un aldéhyde : il est donc légèrement acide. Une base du site actif l'enlève.\n\nCE QUI SE FORME EST UN ÉNEDIOLATE : la charge se répartit sur les deux oxygènes, celui du carbone 1 et celui du carbone 2. C'est la clé de toute l'isomérisation.\n\nLE SCHÉMA EST UN MODÈLE : on emploie le glycéraldéhyde à trois carbones plutôt que le glucose-6-phosphate à six. La chimie est identique — un aldose, un proton en α, un énediolate — et le schéma reste lisible.\n\nMcMURRY DESSINE CETTE ÉTAPE AVEC DES LETTRES (p. 985) : un « B » pour la base, un « A » pour l'acide, sans nommer les résidus. C'est l'usage des biochimistes quand l'identité du résidu n'est pas le sujet.",
+      "fleches": [
+        "La base arrache le proton du carbone 2.",
+        "Les électrons de la liaison C–H forment la double liaison C=C.",
+        "Et ceux du carbonyle se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "isomerisation_glucose_fructose-etape2.svg",
+      "titre": "L'énediol : la forme qui ne choisit pas encore",
+      "legende": "Voici le pivot de la réaction. DEUX carbones portent chacun un hydroxyle, et ils sont reliés par une double liaison. On appelle cela un ÉNEDIOL.\n\nCE QU'IL FAUT VOIR : cette molécule est SYMÉTRIQUE dans son principe. Elle peut retomber d'un côté ou de l'autre.\n\n• Si le proton revient sur le carbone 2, on retrouve l'ALDOSE de départ.\n• S'il se pose sur le carbone 1, on obtient un CÉTOSE.\n\nRIEN DANS LA MOLÉCULE NE DÉCIDE. C'est l'enzyme qui décide, en plaçant l'acide en face du carbone qu'elle veut protoner.\n\nET LE MÊME INTERMÉDIAIRE A DÉJÀ ÉTÉ RENCONTRÉ DANS CE CORPUS : c'est exactement l'énediol de l'épimérisation des oses en milieu basique. McMurry le souligne — la réaction de laboratoire et l'étape 2 de la glycolyse passent par la même espèce. La différence n'est pas chimique, elle est de CONTRÔLE : en ballon, on obtient un mélange ; dans l'enzyme, un seul produit.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "isomerisation_glucose_fructose-etape3.svg",
+      "titre": "L'acide protone l'autre carbone",
+      "legende": "Un acide du site actif protone le carbone 1 — celui qui portait l'aldéhyde. Le carbone 2 devient alors un cation stabilisé par son oxygène.\n\nPOURQUOI CE CATION EST ACCEPTABLE. Il n'est pas nu : l'oxygène voisin lui prête un doublet, et l'on écrit tout aussi bien un OXOCARBÉNIUM, C=O⁺H. C'est la forme la plus stable d'un carbocation portant un oxygène.\n\nET C'EST ICI QUE LE SORT DE LA MOLÉCULE SE JOUE. Protoner le carbone 1 mène au cétose ; protoner le carbone 2 ramènerait à l'aldose. Un proton, deux sucres.",
+      "fleches": [
+        "La double liaison va chercher le proton.",
+        "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "isomerisation_glucose_fructose-etape4.svg",
+      "titre": "Ce qu'on obtient : un cétose",
+      "legende": "Le carbonyle a MIGRÉ du carbone 1 au carbone 2. L'aldose est devenu un cétose.\n\nPOURQUOI LA CELLULE FAIT CE DÉTOUR APPAREMMENT INUTILE. Parce que l'étape SUIVANTE de la glycolyse est une coupure rétro-aldol, et qu'une rétro-aldol a besoin d'un carbonyle en position β de la liaison à rompre.\n\nSur le glucose, le carbonyle est en 1 : couper au milieu donnerait deux fragments inégaux, dont l'un serait inexploitable. Sur le fructose, il est en 2 : la coupure entre C3 et C4 donne DEUX fragments à trois carbones, tous deux utilisables.\n\nDÉPLACER UN CARBONYLE D'UNE POSITION, C'EST DÉPLACER LE POINT DE COUPURE. Toute l'étape 2 de la glycolyse n'a que ce but.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "retro_aldolisation_aldolase": {
+    "1": {
+      "fichier": "retro_aldolisation_aldolase-etape1.svg",
+      "titre": "Une lysine de l'enzyme attaque la cétone",
+      "legende": "L'aldolase de classe I commence par se LIER À SON SUBSTRAT par une liaison covalente : l'amine d'une lysine attaque le carbonyle.\n\nPOURQUOI UNE ENZYME S'ACCROCHERAIT À CE QU'ELLE DOIT COUPER. Parce que ce qu'elle veut fabriquer ensuite, c'est un ÉNAMINE — et un énamine est bien plus nucléophile qu'un énol. L'enzyme se donne un meilleur outil que celui que la molécule lui offrait.\n\nLE SCHÉMA EST UN MODÈLE : une méthylamine tient lieu de la chaîne latérale de la lysine, et l'on emploie un sucre à cinq carbones plutôt que le fructose-1,6-bisphosphate à six. La coupure a lieu au même endroit, entre le carbone α et le carbone β du carbonyle.",
+      "fleches": [
+        "Le doublet de l'azote attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "retro_aldolisation_aldolase-etape2.svg",
+      "titre": "La coupure : trois flèches, et la molécule se sépare en deux",
+      "legende": "L'iminium est formé — c'est la BASE DE SCHIFF — et l'alcool du carbone β a été déprotoné. Tout est en place.\n\nTrois flèches suffisent alors : l'alcoolate pousse et devient un aldéhyde, la liaison carbone-carbone se rompt, et ses électrons remontent jusqu'à l'azote.\n\nCE QU'ON APPELLE UNE RÉTRO-ALDOL, ET McMURRY LA DÉFINIT PAR CONTRASTE (p. 986) : une réaction aldol « donne un composé carbonylé β-hydroxylé, tandis qu'une réaction RÉTRO-ALDOL, comme dans ce cas, clive un composé carbonylé β-hydroxylé en DEUX aldéhydes ou cétones. »\n\nPOURQUOI L'IMINIUM EST INDISPENSABLE. Les électrons de la liaison qui se rompt doivent aller QUELQUE PART. Un carbonyle les accueillerait en formant un énolate — chargé, donc coûteux. L'iminium, lui, les accueille en devenant un ÉNAMINE NEUTRE. L'enzyme a remplacé une charge par une neutralité, et c'est ce qui rend la coupure facile.",
+      "fleches": [
+        "L'alcoolate pousse ses électrons et devient un aldéhyde.",
+        "La liaison carbone-carbone se rompt.",
+        "Et ses électrons remontent sur l'azote : l'énamine est né."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "retro_aldolisation_aldolase-etape3.svg",
+      "titre": "L'énamine reprend un proton",
+      "legende": "La moitié restée accrochée à l'enzyme est un énamine. Elle capte un proton sur son carbone et redevient un iminium.\n\nCE QU'ON A GAGNÉ AU PASSAGE. La molécule de départ avait six carbones ; il en reste trois de ce côté, et trois sont partis de l'autre. La glycolyse a réussi sa coupure — et la suite du chemin traitera les DEUX moitiés de la même façon, puisqu'une isomérase les rend interconvertibles.",
+      "fleches": [
+        "La double liaison de l'énamine va chercher le proton.",
+        "Les électrons de la liaison O–H restent sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "retro_aldolisation_aldolase-etape4.svg",
+      "titre": "L'hydrolyse rend l'enzyme à elle-même",
+      "legende": "L'eau hydrolyse l'iminium : la lysine est rendue, et la dihydroxyacétone phosphate est libérée.\n\nLE BILAN DE L'ENZYME EST NUL. Elle a formé une liaison covalente avec son substrat, s'en est servie, puis l'a défaite. Elle ressort intacte — c'est la définition d'un catalyseur, et c'est ce qui distingue une CATALYSE COVALENTE d'une simple réaction stœchiométrique.\n\nUNE AUTRE ENZYME FAIT LE MÊME TRAVAIL AUTREMENT. Les aldolases de classe II, chez les bactéries et les levures, n'emploient pas de lysine mais un ion ZINC : il polarise le carbonyle et stabilise l'énolate, sans jamais former de liaison covalente. Même coupure, deux stratégies — l'une organique, l'autre métallique.\n\nAUCUNE FLÈCHE ICI : l'hydrolyse d'un iminium est écrite ailleurs dans ce corpus, à la fiche « Formation des imines et des énamines », et la redessiner n'apprendrait rien de neuf.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "transamination_plp": {
+    "1": {
+      "fichier": "transamination_plp-etape1.svg",
+      "titre": "L'acide aminé attaque l'aldéhyde du phosphate de pyridoxal",
+      "legende": "Le phosphate de pyridoxal — le PLP — est un dérivé de la vitamine B₆. Ce qui compte sur lui tient en trois traits, et Dugas les énumère (p. 525) : « le groupe hydroxyle est IDÉALEMENT PLACÉ pour fournir une catalyse acide et basique générale. Étant intramoléculaire, il est particulièrement efficace. Deuxièmement, l'azote chargé POSITIVEMENT du cycle pyridine agit comme un PUITS À ÉLECTRONS pour abaisser l'énergie libre de la tautomérisation de la liaison C–H. Enfin, les groupes sont positionnés dans exactement la bonne géométrie à la surface de l'enzyme. »\n\nRetenez le deuxième point : PUITS À ÉLECTRONS. C'est lui qui explique tout ce qui suit.\n\nL'amine de l'acide aminé attaque l'aldéhyde. Dans l'enzyme, le PLP est en réalité déjà accroché à une lysine sous forme d'imine, et l'acide aminé la DÉPLACE — McMurry le précise (p. 1006) : « un acide aminé réagit avec l'imine du PLP liée à l'enzyme par addition nucléophile de son groupe –NH₂ sur la liaison C=N de l'imine, donnant une imine PLP–acide aminé et LIBÉRANT le groupe amino de l'enzyme. »\n\nLE PHOSPHATE N'EST PAS DESSINÉ : il sert d'ancrage à l'enzyme et ne participe pas à la chimie.",
+      "fleches": [
+        "Le doublet de l'azote attaque l'aldéhyde.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "transamination_plp-etape2.svg",
+      "titre": "La déprotonation du carbone α, et le puits à électrons",
+      "legende": "L'aldimine est formée. Une base du site actif arrache maintenant le proton porté par le carbone α de l'acide aminé.\n\nET VOICI POURQUOI CE PROTON, D'ORDINAIRE INARRACHABLE, PART ICI. Les électrons qu'il laisse ne restent pas sur le carbone : ils descendent le long du système conjugué jusqu'à l'AZOTE POSITIF du cycle pyridine, qui les absorbe. C'est le puits à électrons de Dugas.\n\nUn carbanion nu serait impensable. Un carbanion dont la charge finit sur un azote chargé positivement est parfaitement stable — on l'appelle l'intermédiaire QUINONOÏDE.\n\nMcMURRY DÉCRIT L'ÉTAPE (p. 1006) : « la déprotonation du carbone α acide de l'acide aminé donne un intermédiaire imine d'α-céto-acide… qui est REPROTONÉ sur le carbone du PLP. Le résultat net de cette séquence déprotonation/reprotonation est la TAUTOMÉRISATION de la liaison C=N de l'imine. »\n\nON NE DESSINE ICI QUE LES TROIS PREMIÈRES FLÈCHES. La délocalisation se poursuit dans le cycle aromatique jusqu'à l'azote : la dessiner demanderait quatre flèches de plus sur un cycle déjà chargé, et le schéma deviendrait illisible. Le texte dit où vont les électrons.",
+      "fleches": [
+        "La base arrache le proton du carbone α.",
+        "Ses électrons forment la nouvelle double liaison C=N.",
+        "Et l'ancienne double liaison se replie vers le PLP — d'où les électrons gagneront l'azote du cycle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "transamination_plp-etape3.svg",
+      "titre": "La reprotonation, mais sur l'AUTRE carbone",
+      "legende": "Le même acide qui avait pris le proton le rend — mais PAS AU MÊME ENDROIT. Il le pose sur le carbone du PLP, et non sur le carbone α de l'acide aminé.\n\nET C'EST TOUTE LA RÉACTION. La double liaison C=N a changé de côté : elle était entre le PLP et l'azote, elle est maintenant entre l'azote et l'acide aminé. On appelle cela une CÉTIMINE.\n\nUn proton enlevé d'un côté, remis de l'autre. C'est le geste le plus économique qu'on puisse imaginer pour déplacer une fonction d'une molécule à une autre.\n\nSI L'ENZYME AVAIT REPROTONÉ AU MÊME ENDROIT, il ne se serait rien passé — sinon un échange isotopique. C'est la GÉOMÉTRIE du site actif qui décide de la face et du carbone, donc du résultat.",
+      "fleches": [
+        "Le carbanion va chercher le proton de l'acide.",
+        "Les électrons de la liaison O–H restent sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "transamination_plp-etape4.svg",
+      "titre": "L'hydrolyse sépare les deux moitiés",
+      "legende": "L'eau hydrolyse la cétimine. Il en sort DEUX molécules : l'α-céto-acide — ici le pyruvate, venu de l'alanine — et le PLP transformé en PYRIDOXAMINE, le PMP.\n\nMcMURRY BOUCLE (p. 1006) : « l'hydrolyse de l'imine d'α-céto-acide par addition nucléophile d'eau sur la liaison C=N donne les produits de transamination : phosphate de pyridoxamine (PMP) et α-céto-acide. »\n\nET LA SECONDE MOITIÉ DU CYCLE EST LA PREMIÈRE À L'ENVERS (McMurry p. 1005) : « le processus global se produit en DEUX parties. » Le PMP rencontre alors l'α-cétoglutarate et lui cède l'azote, redevenant PLP. Le bilan : l'amine a changé de squelette carboné.\n\nOÙ CELA MÈNE (McMurry p. 1005) : « (1) le groupe α-amino est d'abord retiré sous forme d'ammoniac par un processus de désamination, (2) l'ammoniac est converti en urée, et (3) le squelette carboné restant — habituellement un α-céto-acide — est converti en un composé qui entre dans le CYCLE DE L'ACIDE CITRIQUE. »\n\nAUCUNE FLÈCHE ICI : l'hydrolyse d'une imine est écrite ailleurs dans ce corpus.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "pyruvate_acetyl_coa": {
+    "1": {
+      "fichier": "pyruvate_acetyl_coa-etape1.svg",
+      "titre": "La base arrache le proton du cycle thiazolium",
+      "legende": "Le diphosphate de thiamine — la vitamine B₁ — porte un cycle THIAZOLIUM : cinq chaînons, un soufre, un azote chargé positivement.\n\nET LE PROTON COINCÉ ENTRE LES DEUX EST ACIDE. McMurry donne le chiffre (p. 990) : « le cycle thiazolium est faiblement acide, avec un pKa d'environ 18 pour l'hydrogène du cycle situé ENTRE N et S. Les bases peuvent donc déprotoner le diphosphate de thiamine, menant à la formation d'un YLURE, tout comme les ylures de phosphonium employés dans les réactions de Wittig. »\n\nPourquoi 18 et non 50 ? Parce que le carbanion formé est directement voisin d'un azote POSITIF, qui le stabilise électrostatiquement.\n\nLE SCHÉMA NE DESSINE QUE LE CYCLE THIAZOLIUM : le diphosphate et la pyrimidine du cofacteur servent à l'ancrage dans l'enzyme et ne participent pas à la chimie.",
+      "fleches": [
+        "La base arrache le proton du cycle.",
+        "Ses électrons restent sur le carbone : l'ylure est né."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "pyruvate_acetyl_coa-etape2.svg",
+      "titre": "L'ylure attaque la cétone du pyruvate",
+      "legende": "L'ylure est un carbanion : il attaque la cétone du pyruvate.\n\nMcMURRY FAIT LE RAPPROCHEMENT (p. 990) : « comme dans la réaction de Wittig, l'ylure du TPP est un NUCLÉOPHILE et s'additionne sur le groupe carbonyle cétonique du pyruvate pour donner un produit d'addition alcool. »\n\nCE QU'ON VIENT DE FABRIQUER EST L'OUTIL DE TOUTE LA RÉACTION. Le pyruvate porte maintenant, juste à côté de son carboxylate, un cycle dont l'azote est positif. Ce cycle est un puits à électrons — exactement comme la pyridine du PLP.\n\nDugas lui donne d'ailleurs un surnom (p. 28) : la thiamine est l'« ION CYANURE BIOLOGIQUE ». Comme le cyanure, elle s'additionne sur un carbonyle et rend le carbone voisin capable de porter une charge négative. La nature a trouvé un équivalent non toxique.",
+      "fleches": [
+        "Le carbanion de l'ylure attaque la cétone.",
+        "Les électrons du carbonyle se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "pyruvate_acetyl_coa-etape3.svg",
+      "titre": "La décarboxylation : le CO₂ part, l'azote encaisse",
+      "legende": "Le carboxylate s'en va sous forme de CO₂. Les électrons de la liaison carbone-carbone n'ont nulle part où aller… sauf dans le cycle, jusqu'à l'azote positif.\n\nET C'EST TOUTE LA RAISON D'ÊTRE DE LA THIAMINE. Un α-céto-acide ne se décarboxyle pas tout seul : à la différence d'un β-céto-acide, il n'a pas de carbonyle bien placé pour accueillir les électrons libérés. Le carbanion serait nu.\n\nLa thiamine fournit l'accepteur qui manquait. Elle transforme une décarboxylation impossible en décarboxylation facile — et elle le fait en s'installant à la place exacte où un carbonyle aurait dû se trouver.\n\nMcMURRY NOMME LE PROCESSUS D'ENSEMBLE (p. 990) : « le pyruvate est converti par un processus appelé DÉCARBOXYLATION OXYDATIVE pour donner l'acétyl-CoA plus CO₂. Oxydative parce que le degré d'oxydation du carbone carbonylé s'élève de celui d'une CÉTONE à celui d'un THIOESTER. »\n\nCOMPAREZ AVEC LA FICHE VOISINE. Un β-céto-acide se décarboxyle spontanément, sans aucun cofacteur. Un α-céto-acide en exige un. Un carbone d'écart, et il faut une vitamine.",
+      "fleches": [
+        "Le carboxylate forme la seconde double liaison du CO₂ qui part.",
+        "Et les électrons de la liaison C–C restent sur le carbone : le carbanion est stabilisé par l'azote positif du cycle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "pyruvate_acetyl_coa-etape4.svg",
+      "titre": "Ce qu'on obtient, après oxydation et transfert",
+      "legende": "La suite met en jeu deux autres cofacteurs, et McMurry la résume (p. 990) : « la conversion se produit par une séquence de réactions à plusieurs étapes catalysée par un complexe d'enzymes et de cofacteurs appelé COMPLEXE DE LA PYRUVATE DÉSHYDROGÉNASE. Le processus se produit en TROIS étapes, chacune catalysée par l'une des enzymes du complexe. »\n\nLe carbanion stabilisé par la thiamine attaque le pont disulfure d'un LIPOAMIDE — c'est là que se fait l'oxydation. Puis le groupe acétyle est transféré sur le coenzyme A. Le lipoamide réduit est réoxydé par la FAD, elle-même réoxydée par le NAD⁺.\n\nAUCUNE FLÈCHE POUR CES DEUX DERNIÈRES ÉTAPES : les pages du McMurry qui les portent ne figurent pas dans le fichier indexé, et l'on ne dessine pas ce qu'on n'a pas lu.\n\nOÙ CELA MÈNE (McMurry p. 990) : « l'acétyl-CoA, le produit ultime, agit alors comme carburant pour l'étape finale du catabolisme, le CYCLE DE L'ACIDE CITRIQUE. »\n\nET CE QUI SE PASSE SI L'OXYGÈNE MANQUE (p. 990) : « en l'absence d'oxygène, le pyruvate peut soit être réduit par le NADH pour donner du LACTATE, soit, chez la levure, être fermenté pour donner de l'ÉTHANOL. » Trois destins pour une seule molécule, et c'est la disponibilité de l'oxygène qui tranche.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "decarboxylation_beta_cetoacide": {
+    "1": {
+      "fichier": "decarboxylation_beta_cetoacide-etape1.svg",
+      "titre": "Six atomes en cercle, et le CO₂ s'échappe",
+      "legende": "Un acide carboxylique ordinaire ne se décarboxyle pas : chauffez de l'acide acétique autant que vous voudrez, il ne rendra pas son CO₂. Il faudrait laisser un carbanion nu.\n\nUN β-CÉTO-ACIDE, LUI, SE DÉCARBOXYLE TOUT SEUL, souvent à peine au-dessus de la température ambiante. La différence tient à UN groupe carbonyle placé deux carbones plus loin.\n\nTROIS FLÈCHES TOURNENT DANS UN CYCLE À SIX CHAÎNONS : la double liaison C=O du carbonyle va chercher le proton de l'acide, les électrons de la liaison O–H forment la seconde double liaison du CO₂, et la liaison carbone-carbone se rompt en donnant la double liaison C=C.\n\nCE QUI SORT EST UN GAZ. La réaction est donc IRRÉVERSIBLE : le produit quitte le milieu.\n\nET CE QUI RESTE EST UN ÉNOL, qui se tautomérisera aussitôt en cétone.",
+      "fleches": [
+        "La double liaison C=O va chercher le proton de l'acide.",
+        "Les électrons de la liaison O–H forment la seconde double liaison du CO₂.",
+        "Et la liaison carbone-carbone se rompt en formant la double liaison C=C."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "decarboxylation_beta_cetoacide-etape2.svg",
+      "titre": "L'énol se retourne : une cétone",
+      "legende": "L'énol formé se tautomérise en cétone. Le bilan : un β-céto-acide a perdu son carboxyle et rendu une cétone.\n\nPOURQUOI CETTE RÉACTION EST PARTOUT DANS LE MÉTABOLISME. Parce qu'elle est la manière la moins coûteuse de retirer un carbone d'une chaîne. On la retrouve :\n\n• dans la synthèse malonique amidée, où le carboxyle sacrificiel s'échappe après avoir servi à acidifier un proton ;\n• dans le cycle de Krebs, deux fois, où elle libère les deux CO₂ de la respiration ;\n• dans la biosynthèse des acides gras, où le CO₂ ajouté à l'acétyl-CoA repart au moment de la condensation.\n\nDANS CE DERNIER CAS, ELLE EST EMPLOYÉE À L'ENVERS DE CE QU'ON ATTENDRAIT. On ne décarboxyle pas pour se débarrasser d'un carbone : on a AJOUTÉ ce carbone, en payant une ATP, uniquement pour pouvoir le perdre au bon moment et rendre une réaction irréversible.\n\nLA COMPARAISON QUI ÉCLAIRE TOUT : un α-céto-acide, lui, ne se décarboxyle PAS spontanément. Le carbonyle y est trop près — il n'y a pas de cycle à six chaînons possible, et les électrons libérés n'ont pas d'accepteur. Il faut alors un cofacteur, la thiamine, qui vient jouer le rôle du carbonyle manquant. Un carbone d'écart, et il faut une vitamine.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "glycolyse": {
+    "1": {
+      "fichier": "glycolyse-etape1.svg",
+      "titre": "Le glucose, et les deux ATP qu'il va coûter",
+      "legende": "La glycolyse commence par DÉPENSER de l'énergie avant d'en produire. C'est contre-intuitif, et c'est essentiel.\n\nDeux phosphorylations par l'ATP ouvrent la voie : l'une sur le carbone 6, l'autre sur le carbone 1. Entre les deux, l'isomérisation qui déplace le carbonyle — la fiche « Isomérisation glucose-6-P → fructose-6-P ».\n\nÀ QUOI SERT LE PREMIER PHOSPHATE : à ENFERMER le sucre. Un glucose neutre traverse les membranes ; un glucose portant deux charges négatives n'en sort plus. La cellule paye une ATP pour ne pas laisser filer sa matière première.\n\nÀ QUOI SERT LE SECOND : à préparer la coupure. Les deux moitiés qui vont naître porteront chacune un phosphate, et resteront donc l'une et l'autre prisonnières.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "glycolyse-etape2.svg",
+      "titre": "Le fructose-1,6-bisphosphate : prêt à être coupé",
+      "legende": "Le carbonyle est en position 2, un phosphate à chaque bout. Cette molécule a été FABRIQUÉE pour se couper au milieu.\n\nLA COUPURE est celle de la fiche « Aldolisation rétro de l'aldolase » : une lysine forme un iminium, la liaison entre les carbones 3 et 4 se rompt, et il en sort deux fragments à trois carbones.\n\nMcMURRY LES NOMME (p. 986) : « le glycéraldéhyde-3-phosphate (GAP) » et « la dihydroxyacétone phosphate (DHAP) ».\n\nET UNE ISOMÉRASE LES REND IDENTIQUES. La DHAP est convertie en GAP — même isomérisation aldose/cétose qu'à l'étape 2, sur trois carbones cette fois. UNE molécule de glucose donne donc DEUX glycéraldéhyde-3-phosphates.\n\nÀ PARTIR D'ICI, TOUS LES COMPTES DOUBLENT. C'est la source de toutes les erreurs de bilan sur la glycolyse.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "glycolyse-etape3.svg",
+      "titre": "Le glycéraldéhyde-3-phosphate : là où la cellule commence à gagner",
+      "legende": "La seconde moitié de la glycolyse est celle du remboursement. Cinq étapes conduisent chaque triose au pyruvate, et deux d'entre elles fabriquent de l'ATP.\n\nLA PREMIÈRE EST LA PLUS INSTRUCTIVE. L'aldéhyde est oxydé en acide — mais au lieu de relâcher cette énergie en chaleur, la cellule la PIÈGE sous forme d'un anhydride mixte avec un phosphate. Ce 1,3-bisphosphoglycérate cède ensuite son phosphate à l'ADP.\n\nC'est le principe de la PHOSPHORYLATION AU NIVEAU DU SUBSTRAT : on ne fabrique pas l'ATP à partir de rien, on couple sa formation à une réaction qui, seule, serait très favorable.\n\nLA SECONDE EST UN COUP DE FORCE. Le 2-phosphoglycérate perd de l'eau et devient le PHOSPHOÉNOLPYRUVATE — un énol dont l'oxygène porte le phosphate. Cet énol ne demande qu'à se tautomériser en cétone, et cette tautomérisation à elle seule suffit à financer un second ATP.\n\nClayden consacre une section entière à ce composé (p. 1153) : « la nature emploie l'énol phosphate de l'acide pyruvique (phosphoénolpyruvate ou PEP) comme réactif important. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "glycolyse-etape4.svg",
+      "titre": "Le pyruvate, et le bilan",
+      "legende": "DEUX pyruvates par glucose. Le bilan net : deux ATP dépensés, quatre produits, donc DEUX de gain, plus deux NADH.\n\nC'EST PEU, ET C'EST VOULU. La glycolyse n'extrait qu'une fraction de l'énergie du glucose. Le reste est encore dans le pyruvate, et il faudra le cycle de Krebs et la chaîne respiratoire pour l'en tirer.\n\nMAIS ELLE NE DEMANDE PAS D'OXYGÈNE. C'est son avantage décisif : elle fonctionne dans un muscle en effort, dans une cellule cancéreuse mal irriguée, chez une bactérie anaérobie. Elle est probablement la plus ancienne voie métabolique du vivant, et c'est la seule que TOUS les organismes possèdent.\n\nCE QUE DEVIENT LE PYRUVATE (McMurry p. 990) : « en l'absence d'oxygène, le pyruvate peut soit être réduit par le NADH pour donner du LACTATE, soit, chez la levure, être FERMENTÉ pour donner de l'éthanol. En conditions aérobies typiques chez les mammifères, cependant, le pyruvate est converti par décarboxylation oxydative pour donner l'acétyl-CoA plus CO₂. »\n\nAUCUNE FLÈCHE DANS CETTE FICHE : elle est une CARTE, pas un mécanisme. Chacune de ses étapes est écrite ailleurs — l'isomérisation, la rétro-aldol, la conversion du pyruvate. Ce que cette fiche ajoute est l'ordre, et la raison de l'ordre.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "cycle_krebs": {
+    "1": {
+      "fichier": "cycle_krebs-etape1.svg",
+      "titre": "L'acétyl-CoA entre, et le citrate se forme",
+      "legende": "Deux carbones entrent à chaque tour, sous forme d'acétyl-CoA. Ils se condensent sur l'oxaloacétate à quatre carbones pour donner le CITRATE, à six.\n\nC'est la fiche « Mécanisme d'une enzyme : la citrate synthase », et Clayden en donne la nature (p. 1153) : « la réaction est essentiellement une réaction ALDOL entre l'énol d'un ester acétique et une cétone électrophile. »\n\nMcMURRY SITUE LE CYCLE (p. 898) : c'est « le cycle de l'acide citrique, dans lequel les groupes acétyle produits par la dégradation des molécules alimentaires sont métabolisés pour donner CO₂ et H₂O ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cycle_krebs-etape2.svg",
+      "titre": "Le citrate est isomérisé — et voici pourquoi",
+      "legende": "Le citrate est un alcool TERTIAIRE. Regardez son carbone central : il porte l'hydroxyle et trois autres carbones, aucun hydrogène.\n\nET C'EST UN PROBLÈME. Pour oxyder un alcool en cétone, il faut lui enlever un hydrogène de son propre carbone. Un alcool tertiaire n'en a pas.\n\nLA CELLULE DÉPLACE DONC L'HYDROXYLE d'un carbone, par une déshydratation suivie d'une réhydratation. Le produit, l'ISOCITRATE, est un alcool SECONDAIRE — oxydable.\n\nUne étape entière, deux enzymes, uniquement pour rendre un hydroxyle oxydable. C'est le même genre de détour que l'isomérisation du glucose en fructose : on ne change pas la formule, on change ce qu'on peut faire avec.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "cycle_krebs-etape3.svg",
+      "titre": "Deux décarboxylations, deux CO₂",
+      "legende": "L'isocitrate est oxydé en cétone, ce qui en fait un β-CÉTO-ACIDE — et un β-céto-acide se décarboxyle tout seul. C'est la fiche « Décarboxylation d'un β-céto-acide ».\n\nOn obtient l'α-cétoglutarate, à cinq carbones. Puis une seconde décarboxylation, oxydative celle-là, en donne le succinyl-CoA à quatre — par exactement le mécanisme à thiamine de la conversion du pyruvate.\n\nDEUX CARBONES SONT ENTRÉS, DEUX CARBONES SONT SORTIS EN CO₂. Le cycle est bouclé du point de vue de la matière.\n\nET C'EST BIEN CE CO₂ QUE VOUS EXPIREZ. Le gaz carbonique de votre respiration ne vient pas de l'air que vous inspirez : il vient d'ici, de ces deux décarboxylations, répétées des milliards de fois par seconde.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "cycle_krebs-etape4.svg",
+      "titre": "Quatre étapes pour régénérer l'oxaloacétate",
+      "legende": "Le succinyl-CoA à quatre carbones doit redevenir l'oxaloacétate à quatre carbones. Aucun carbone n'entre ni ne sort : tout le travail restant est de l'OXYDATION.\n\nQuatre étapes s'y emploient, et ce sont des réactions que ce corpus décrit déjà : l'hydrolyse du thioester (qui finance un GTP), une déshydrogénation par la FAD, une hydratation d'alcène, et une oxydation d'alcool secondaire par le NAD⁺.\n\nREGARDEZ CETTE SÉQUENCE : déshydrogénation, hydratation, oxydation. C'est EXACTEMENT la séquence de la β-oxydation des acides gras.\n\nLa nature ne recommence pas à chaque fois. Elle réemploie le même enchaînement de trois réactions partout où il faut transformer une liaison C–C simple en carbonyle.\n\nCE QUE LE CYCLE RAPPORTE PAR TOUR : trois NADH, une FADH₂, un GTP, et deux CO₂. Les électrons portés par ces coenzymes iront à la chaîne respiratoire — c'est là, et non ici, que l'essentiel de l'ATP se fabrique.\n\nAUCUNE FLÈCHE DANS CETTE FICHE : elle est une CARTE. Chacune de ses huit étapes est un mécanisme écrit ailleurs, et ce qu'elle ajoute est la LOGIQUE de leur enchaînement.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "neoglucogenese": {
+    "1": {
+      "fichier": "neoglucogenese-etape1.svg",
+      "titre": "Le pyruvate, et le mur qu'il faut franchir",
+      "legende": "Refaire du glucose à partir du pyruvate, ce n'est PAS refaire la glycolyse à l'envers. McMurry en donne la raison générale (p. 977) : « la voie ANABOLIQUE par laquelle une substance est fabriquée n'est pas l'inverse de la voie CATABOLIQUE par laquelle la même substance est dégradée. Les deux voies doivent différer en quelque point pour que TOUTES DEUX soient énergétiquement favorables. »\n\nUne réaction très favorable dans un sens est très défavorable dans l'autre. Sur les dix étapes de la glycolyse, sept sont assez proches de l'équilibre pour être empruntées dans les deux sens. TROIS ne le sont pas.\n\nCE SONT PRÉCISÉMENT LES TROIS QUI CONSOMMENT OU PRODUISENT L'ATP : l'hexokinase, la phosphofructokinase, et la pyruvate kinase. Chacune doit être CONTOURNÉE.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "neoglucogenese-etape2.svg",
+      "titre": "Le premier contournement passe par un détour à quatre carbones",
+      "legende": "Pour remonter du pyruvate au phosphoénolpyruvate, la cellule fait un détour surprenant : elle AJOUTE un carbone, puis le retire.\n\nLa pyruvate carboxylase carboxyle d'abord le pyruvate en OXALOACÉTATE, à quatre carbones — en dépensant une ATP, et avec la BIOTINE comme transporteur de CO₂.\n\nPuis la PEP carboxykinase décarboxyle cet oxaloacétate et phosphoryle l'énol formé — en dépensant un GTP.\n\nUN CARBONE AJOUTÉ POUR ÊTRE AUSSITÔT PERDU. C'est exactement le raisonnement de la biosynthèse des acides gras, où le CO₂ du malonyl-CoA ne sert qu'à rendre la condensation irréversible.\n\nOn ne paye pas pour construire quelque chose : on paye pour rendre une étape POSSIBLE dans le sens voulu.\n\nDEUX ATP PAR PYRUVATE, ET IL EN FAUT DEUX. Fabriquer un glucose coûte donc au moins quatre équivalents d'ATP là où la glycolyse n'en rendait que deux. Le bilan est franchement déficitaire — et c'est le prix de la réversibilité.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "neoglucogenese-etape3.svg",
+      "titre": "Les deux autres contournements sont de simples hydrolyses",
+      "legende": "Les deux dernières étapes irréversibles de la glycolyse étaient des PHOSPHORYLATIONS par l'ATP. Les contourner ne demande pas d'astuce : il suffit d'HYDROLYSER le phosphate au lieu de le rendre à l'ADP.\n\nLa fructose-1,6-bisphosphatase enlève le phosphate en 1 ; la glucose-6-phosphatase enlève celui en 6.\n\nCE N'EST PAS ÉCONOMIQUE, ET C'EST ASSUMÉ. L'énergie du phosphate est perdue en chaleur au lieu d'être récupérée en ATP. Mais une hydrolyse est irréversible dans le bon sens, et c'est tout ce qu'on demande.\n\nET C'EST CE QUI PERMET DE RÉGULER LES DEUX VOIES SÉPARÉMENT. Puisque les étapes irréversibles ne sont pas les mêmes dans un sens et dans l'autre, la cellule peut accélérer l'une et freiner l'autre par des signaux distincts. Si les deux voies étaient rigoureusement inverses, elles tourneraient à vide en consommant de l'ATP sans rien produire — ce qu'on appelle un CYCLE FUTILE.\n\nLA DERNIÈRE ENZYME N'EXISTE PAS PARTOUT. La glucose-6-phosphatase se trouve dans le foie et le rein, pas dans le muscle. C'est pourquoi le muscle ne rend jamais de glucose au sang : il garde le sien.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "neoglucogenese-etape4.svg",
+      "titre": "Le glucose, refait",
+      "legende": "Sept étapes empruntées à la glycolyse, trois contournements. Le glucose est reconstitué.\n\nÀ QUOI CELA SERT. Le cerveau consomme environ 120 grammes de glucose par jour et ne sait pas brûler les acides gras. Après une nuit de jeûne, les réserves de glycogène du foie sont entamées : il faut fabriquer du glucose à partir d'autre chose.\n\nÀ PARTIR DE QUOI, JUSTEMENT. Du lactate rendu par les muscles, du glycérol des graisses, et des acides aminés — ceux dont le squelette carboné donne du pyruvate ou un intermédiaire du cycle de Krebs.\n\nET SURTOUT PAS À PARTIR DES ACIDES GRAS. C'est un point qui surprend, et il découle directement de ce corpus : la β-oxydation ne rend que de l'acétyl-CoA, or l'acétyl-CoA entre dans le cycle de Krebs à deux carbones et en ressort deux CO₂ plus loin. Aucun carbone ne peut être détourné vers le glucose.\n\nOn ne convertit pas la graisse en sucre. On convertit le sucre en graisse, et le chemin ne se remonte pas.\n\nAUCUNE FLÈCHE DANS CETTE FICHE : elle est une carte des contournements, et chaque contournement s'appuie sur des mécanismes écrits ailleurs.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "desamination_oxydative": {
+    "1": {
+      "fichier": "desamination_oxydative-etape1.svg",
+      "titre": "L'azote arrive sur le glutamate, et nulle part ailleurs",
+      "legende": "Les vingt acides aminés se dégradent chacun par sa voie propre — McMurry le pose d'emblée (p. 1005) : « le catabolisme des protéines est bien plus complexe que celui des graisses et des glucides parce que chacun des 20 acides α-aminés est dégradé par sa propre voie unique. »\n\nMAIS LEURS AZOTES CONVERGENT TOUS AU MÊME ENDROIT. Les aminotransférases les transfèrent tous sur l'α-cétoglutarate, qui devient le GLUTAMATE.\n\nMcMURRY DÉCRIT CE RAMASSAGE (p. 1005) : « la désamination est habituellement accomplie par une réaction de TRANSAMINATION dans laquelle le groupe –NH₂ de l'acide aminé est échangé avec le groupe cétone de l'α-cétoglutarate, formant un nouvel α-céto-acide plus du GLUTAMATE. »\n\nVINGT VOIES POUR LES SQUELETTES, UNE SEULE POUR L'AZOTE. C'est un principe d'organisation qu'on retrouve partout dans le métabolisme : on multiplie les entrées, on centralise la sortie.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "desamination_oxydative-etape2.svg",
+      "titre": "Et là seulement, l'azote est vraiment retiré",
+      "legende": "Le glutamate est oxydé par le NAD⁺. Son amine devient une imine, que l'eau hydrolyse aussitôt : il en sort de l'AMMONIAC libre et l'α-cétoglutarate est rendu.\n\nDEUX RÉACTIONS QU'IL FAUT DISTINGUER, ET QU'ON CONFOND SOUVENT :\n\n• La TRANSAMINATION ne retire aucun azote — elle le DÉPLACE d'un squelette à un autre. Le bilan en azote est nul.\n• La DÉSAMINATION OXYDATIVE le retire pour de bon, sous forme d'ammoniac.\n\nLa première est réversible et se produit vingt fois ; la seconde est le point de sortie unique.\n\nPOURQUOI CENTRALISER. Parce que l'ammoniac est TOXIQUE — il perturbe le pH et le métabolisme du cerveau. On ne peut pas le laisser apparaître un peu partout dans la cellule. En le produisant en un seul endroit, l'organisme peut le convertir immédiatement.\n\nCE QU'IL EN FAIT (McMurry p. 1005) : « (1) le groupe α-amino est d'abord retiré sous forme d'ammoniac par un processus de désamination, (2) l'ammoniac est converti en URÉE, et (3) le squelette carboné restant — habituellement un α-céto-acide — est converti en un composé qui entre dans le CYCLE DE L'ACIDE CITRIQUE. »\n\nAUCUNE FLÈCHE ICI, ET IL FAUT LE DIRE : « oxidative deamination » et « glutamate dehydrogenase » ne rendent RIEN dans les neuf ouvrages indexés. Le McMurry nomme la réaction et son rôle (p. 1005) sans en écrire le mécanisme ; le Dugas la mentionne parmi ce que les modèles non enzymatiques du PLP savent reproduire (p. 525). On ne dessine pas ce qu'on n'a pas lu.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

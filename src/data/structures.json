@@ -799,6 +799,42 @@
     "substrat": "synthese_phosphoramidite-substrat.svg",
     "produit": "synthese_phosphoramidite-produit.svg"
   },
+  "isomerisation_glucose_fructose": {
+    "substrat": "isomerisation_glucose_fructose-substrat.svg",
+    "produit": "isomerisation_glucose_fructose-produit.svg"
+  },
+  "retro_aldolisation_aldolase": {
+    "substrat": "retro_aldolisation_aldolase-substrat.svg",
+    "produit": "retro_aldolisation_aldolase-produit.svg"
+  },
+  "transamination_plp": {
+    "substrat": "transamination_plp-substrat.svg",
+    "produit": "transamination_plp-produit.svg"
+  },
+  "pyruvate_acetyl_coa": {
+    "substrat": "pyruvate_acetyl_coa-substrat.svg",
+    "produit": "pyruvate_acetyl_coa-produit.svg"
+  },
+  "decarboxylation_beta_cetoacide": {
+    "substrat": "decarboxylation_beta_cetoacide-substrat.svg",
+    "produit": "decarboxylation_beta_cetoacide-produit.svg"
+  },
+  "glycolyse": {
+    "substrat": "glycolyse-substrat.svg",
+    "produit": "glycolyse-produit.svg"
+  },
+  "cycle_krebs": {
+    "substrat": "cycle_krebs-substrat.svg",
+    "produit": "cycle_krebs-produit.svg"
+  },
+  "neoglucogenese": {
+    "substrat": "neoglucogenese-substrat.svg",
+    "produit": "neoglucogenese-produit.svg"
+  },
+  "desamination_oxydative": {
+    "substrat": "desamination_oxydative-substrat.svg",
+    "produit": "desamination_oxydative-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

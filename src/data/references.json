@@ -6650,6 +6650,330 @@
           "note": "L'étape de couplage, en entier : « la troisième étape est le COUPLAGE du désoxynucléoside lié au polymère avec un désoxynucléoside protégé portant un groupe PHOSPHORAMIDITE [R₂NP(OR)₂] à sa position 3'. La réaction de couplage a lieu dans le solvant aprotique polaire ACÉTONITRILE, requiert une catalyse par l'amine hétérocyclique TÉTRAZOLE, et donne un PHOSPHITE, P(OR)₃, comme produit. Notez que l'un des atomes d'oxygène du phosphore est protégé par un groupe β-CYANOÉTHYLE, –OCH₂CH₂C≡N. L'étape de couplage a lieu avec MIEUX QUE 99 % de rendement. »"
         }
       ]
+    },
+    "isomerisation_glucose_fructose": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "985",
+          "note": "Le schéma de l'isomérisation, avec l'ÉNEDIOL nommé au centre et les résidus notés « A » pour l'acide et « B » pour la base de part et d'autre. La conversion du α-glucose-6-phosphate en α-fructose-6-phosphate y est écrite en trois structures : aldose, énediol, cétose."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "986",
+          "note": "La suite immédiate, qui donne sa raison d'être à l'isomérisation : la coupure rétro-aldol du fructose-1,6-bisphosphate « clive un composé carbonylé β-hydroxylé en deux aldéhydes ou cétones » — ce que la position du carbonyle en 2 rend possible."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1154",
+          "note": "Le panorama métabolique qui situe l'étape dans la glycolyse, entre la première phosphorylation et la coupure."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "Glycolysis",
+          "pages": "§ 349",
+          "note": "La deuxième étape de la glycolyse et son mécanisme par l'énediol, avec la réversibilité de l'isomérase."
+        }
+      ]
+    },
+    "retro_aldolisation_aldolase": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "986",
+          "note": "La définition par contraste, et les produits nommés : une réaction aldol donne « un composé carbonylé β-hydroxylé, tandis qu'une réaction RÉTRO-ALDOL, comme dans ce cas, CLIVE un composé carbonylé β-hydroxylé en deux aldéhydes ou cétones ». Le fructose-1,6-bisphosphate donne « le glycéraldéhyde-3-phosphate (GAP) » et « la dihydroxyacétone phosphate (DHAP) »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1151",
+          "note": "L'introduction par la chimie de laboratoire : l'amination réductrice donne des amines racémiques, « mais la nature transforme cette réaction simple en une réaction énantiosélective et réversible qui est belle dans sa simplicité »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1152",
+          "note": "La structure du fructose-1,6-bisphosphate et sa place dans la voie."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "Glycolysis — aldolase",
+          "pages": "§ 347-351",
+          "note": "Le mécanisme de l'aldolase de classe I par la base de Schiff, avec la lysine du site actif et l'énamine intermédiaire."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "4 — Enzyme Chemistry",
+          "pages": "173",
+          "note": "L'aldolase citée comme « la voie majeure de la nature pour faire des liaisons C–C » dans le tableau des transformations enzymatiques et de leurs analogues de laboratoire."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions (mentions biologiques)",
+          "pages": "178",
+          "note": "Une mention de l'aldolase dans le contexte des réactions de formation de liaison carbone-carbone."
+        }
+      ]
+    },
+    "transamination_plp": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "1005",
+          "note": "Le cadre général du catabolisme des protéines et le rôle de la transamination : « le catabolisme des protéines est bien plus complexe que celui des graisses et des glucides parce que chacun des 20 acides α-aminés est dégradé par sa PROPRE VOIE UNIQUE. […] La désamination est habituellement accomplie par une réaction de TRANSAMINATION dans laquelle le groupe –NH₂ de l'acide aminé est échangé avec le groupe cétone de l'α-cétoglutarate, formant un nouvel α-céto-acide plus du glutamate. Le processus global se produit en DEUX parties, est catalysé par des aminotransférases, et implique la participation du coenzyme PHOSPHATE DE PYRIDOXAL, abrégé PLP, un dérivé de la pyridoxine (vitamine B6). »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "1006",
+          "note": "Le mécanisme complet, en quatre temps : « un acide aminé réagit avec l'imine du PLP liée à l'enzyme par addition nucléophile de son groupe –NH₂ sur la liaison C=N de l'imine, donnant une imine PLP–acide aminé et LIBÉRANT le groupe amino de l'enzyme. La déprotonation du carbone α ACIDE de l'acide aminé donne un intermédiaire imine d'α-céto-acide… qui est REPROTONÉ sur le carbone du PLP. Le résultat net de cette séquence déprotonation/reprotonation est la TAUTOMÉRISATION de la liaison C=N de l'imine. L'hydrolyse de l'imine d'α-céto-acide par addition nucléophile d'eau sur la liaison C=N donne les produits de transamination : phosphate de pyridoxamine (PMP) et α-céto-acide. »"
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Metabolic Processes and Enzyme Systems (cofacteurs)",
+          "pages": "525",
+          "note": "Les TROIS raisons structurales qui font du PLP un catalyseur, et l'image qui explique tout : « le phosphate de pyridoxal a plusieurs traits qui en font un excellent catalyseur pour les réactions de transamination. En particulier, le groupe hydroxyle est IDÉALEMENT PLACÉ pour fournir une catalyse acide et basique générale. Étant intramoléculaire, il est particulièrement efficace. Deuxièmement, l'azote chargé POSITIVEMENT du cycle pyridine agit comme un PUITS À ÉLECTRONS pour abaisser l'énergie libre de la tautomérisation de la liaison C–H. Enfin, les groupes sont positionnés dans exactement la bonne géométrie à la surface de l'enzyme. » Et ce que les modèles savent faire : « dans les systèmes modèles, TOUTES les réactions catalysées par les enzymes SAUF la décarboxylation ont été reproduites : transamination, désamination oxydative, élimination de substituants β et γ. »"
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Metabolic Processes and Enzyme Systems (cofacteurs)",
+          "pages": "521",
+          "note": "L'ouverture de la section 7.2 sur le phosphate de pyridoxal et la variété des réactions qu'il catalyse."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Mécanismes en chimie biologique",
+          "pages": "180",
+          "note": "Le mécanisme de la transamination écrit en flèches, avec la base qui arrache le proton α et le système conjugué qui accueille les électrons."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Mécanismes en chimie biologique",
+          "pages": "181",
+          "note": "La polyvalence du cofacteur, et c'est le point remarquable : « dans la réaction de décarboxylation, le H⁺ qui réagit avec le C de l'imine peut être remplacé par d'autres ÉLECTROPHILES. Par exemple, le phosphate de pyridoxal catalyse la condensation de la sérine et du palmitoyl-CoA (un thioester) pour donner la déhydrosphingosine […]. Après l'étape de décarboxylation, la paire d'électrons sur l'azote pyridinique peut alors migrer en retour vers l'atome de C de l'imine, lui permettant de réagir avec le thioester par un mécanisme standard d'addition-élimination. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1157",
+          "note": "La transamination présentée comme la version naturelle, énantiosélective et réversible, de l'amination réductrice de laboratoire."
+        }
+      ]
+    },
+    "pyruvate_acetyl_coa": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "990",
+          "note": "La page maîtresse. Le contexte : « en l'absence d'oxygène, le pyruvate peut soit être réduit par le NADH pour donner du LACTATE, soit, chez la levure, être fermenté pour donner de l'ÉTHANOL. En conditions aérobies typiques chez les mammifères, cependant, le pyruvate est converti par un processus appelé DÉCARBOXYLATION OXYDATIVE pour donner l'acétyl-CoA plus CO₂. (Oxydative parce que le degré d'oxydation du carbone carbonylé s'élève de celui d'une cétone à celui d'un thioester.) » Et la chimie du cofacteur : « l'élément structural clé du diphosphate de thiamine est le cycle THIAZOLIUM — un hétérocycle insaturé à cinq chaînons contenant un atome de soufre et un atome d'azote chargé positivement. Le cycle thiazolium est faiblement acide, avec un pKa d'environ 18 pour l'hydrogène du cycle situé entre N et S. Les bases peuvent donc déprotoner le diphosphate de thiamine, menant à la formation d'un YLURE, tout comme les ylures de phosphonium employés dans les réactions de Wittig. Comme dans la réaction de Wittig, l'ylure du TPP est un nucléophile et s'additionne sur le groupe carbonyle cétonique du pyruvate. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "991",
+          "note": "Le schéma de la décarboxylation : l'ylure additionné sur le pyruvate, le départ du CO₂, et le carbanion stabilisé par l'azote positif du cycle."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic Chemistry of Amino Acids (tableau 2.1)",
+          "pages": "28",
+          "note": "Le surnom qui dit tout : la thiamine pyrophosphate y est décrite comme l'« ION CYANURE BIOLOGIQUE », dans le tableau qui met en regard les transformations enzymatiques et leurs analogues de chimie organique."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Metabolic Processes and Enzyme Systems (cofacteurs)",
+          "pages": "569",
+          "note": "Le rôle du pyrophosphate de thiamine dans les décarboxylases, et le mécanisme général de l'ylure."
+        }
+      ]
+    },
+    "decarboxylation_beta_cetoacide": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Enolates / 28 — Synthèse malonique",
+          "pages": "597",
+          "note": "La décarboxylation des acides β-cétoniques par un état de transition cyclique à six chaînons, et l'énol comme produit direct."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "26 — Enolates",
+          "pages": "598",
+          "note": "Pourquoi un acide carboxylique ordinaire ne se décarboxyle pas, et ce que le carbonyle en β change : il fournit l'accepteur d'électrons qui manquait."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "22 — Carbonyl Alpha-Substitution / 26 — Biomolecules",
+          "pages": "880",
+          "note": "La décarboxylation employée dans la synthèse amidomalonique : « la décarboxylation a alors lieu pour donner un acide α-aminé. » Le carboxyle sacrificiel n'existait que pour acidifier un proton."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "978",
+          "note": "La décarboxylation dans la biosynthèse des acides gras, où le CO₂ ajouté à l'acétyl-CoA repart au moment de la condensation."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "980",
+          "note": "Le mécanisme de la carboxylation de l'acétyl-CoA par la biotine, contrepoint exact de la décarboxylation : le CO₂ est ajouté au prix d'une ATP pour être perdu ensuite."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions under Basic Conditions",
+          "pages": "175",
+          "note": "La décarboxylation des β-céto-acides parmi les réactions qui procèdent par état de transition cyclique."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic Chemistry (tableau 2.1)",
+          "pages": "28",
+          "note": "La « décarboxylation des acides β-activés » citée comme transformation du cycle de Krebs, en regard de son analogue de laboratoire."
+        }
+      ]
+    },
+    "glycolyse": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "982",
+          "note": "L'ouverture de la section sur la glycolyse : la voie, son emplacement cytosolique, et son indépendance vis-à-vis de l'oxygène."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "985",
+          "note": "La deuxième étape, l'isomérisation par l'énediol, avec l'acide et la base du site actif."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "986",
+          "note": "La coupure rétro-aldol et les deux trioses phosphates qui en sortent, nommés GAP et DHAP."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "987",
+          "note": "La suite de la voie : oxydation du glycéraldéhyde-3-phosphate et phosphorylation au niveau du substrat."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1153",
+          "note": "Le phosphoénolpyruvate et sa raison d'être : « la nature emploie l'énol phosphate de l'acide pyruvique (phosphoénolpyruvate ou PEP) comme réactif important. » Avec l'explication de sa réactivité : « avoir les deux groupes carbonyle adjacents les rend plus réactifs : la cétone est plus électrophile et s'énolise plus facilement, et l'acide est plus fort. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1154",
+          "note": "Le panorama de la voie, du glucose au pyruvate."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "Glycolysis",
+          "pages": "§ 244, 349",
+          "note": "La séquence complète des dix étapes, avec les bilans en ATP et NADH."
+        }
+      ]
+    },
+    "cycle_krebs": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "965",
+          "note": "L'ouverture de la section sur le cycle de l'acide citrique et sa place dans le catabolisme."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "966",
+          "note": "La séquence des huit étapes et le bilan par tour : trois NADH, une FADH₂, un GTP, deux CO₂."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "972",
+          "note": "La fin du cycle et la régénération de l'oxaloacétate, par la séquence déshydrogénation-hydratation-oxydation."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1153",
+          "note": "La première étape, et sa nature : « la réaction est essentiellement une réaction ALDOL entre l'énol d'un ester acétique et une cétone électrophile, et l'enzyme qui catalyse la réaction est connue sous le nom de citrate synthase. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "42 — Mechanisms in biological chemistry",
+          "pages": "1151",
+          "note": "Le cycle de l'acide citrique situé dans le panorama du métabolisme."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
+          "pages": "898",
+          "note": "La place du cycle : « le cycle de l'acide citrique, dans lequel les groupes acétyle produits par la dégradation des molécules alimentaires sont métabolisés pour donner CO₂ et H₂O. »"
+        }
+      ]
+    },
+    "neoglucogenese": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "998",
+          "note": "L'ouverture de la section sur la néoglucogenèse : les précurseurs non glucidiques et la nécessité de contourner les étapes irréversibles."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "999",
+          "note": "Les contournements enzymatiques : la carboxylation du pyruvate en oxaloacétate, puis la décarboxylation-phosphorylation en phosphoénolpyruvate."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "1000",
+          "note": "Les deux hydrolyses de phosphate qui remplacent les phosphorylations de la glycolyse, et le bilan énergétique de la voie."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "977",
+          "note": "La règle générale qui commande toute la fiche : « en règle générale en chimie biologique, la voie ANABOLIQUE par laquelle une substance est fabriquée n'est PAS l'inverse de la voie CATABOLIQUE par laquelle la même substance est dégradée. Les deux voies doivent différer en quelque point pour que TOUTES DEUX soient énergétiquement favorables. »"
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "Gluconeogenesis",
+          "pages": "§ 347, 349",
+          "note": "La voie et ses quatre enzymes propres, avec la comparaison étape par étape avec la glycolyse."
+        }
+      ]
+    },
+    "desamination_oxydative": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "1005",
+          "note": "La seule page des neuf ouvrages qui décrive la réaction et son rôle : « le catabolisme des protéines est bien plus complexe que celui des graisses et des glucides parce que chacun des 20 acides α-aminés est dégradé par sa PROPRE VOIE UNIQUE. L'idée générale, cependant, est que (1) le groupe α-amino est d'abord retiré sous forme d'ammoniac par un processus de DÉSAMINATION, (2) l'ammoniac est converti en URÉE, et (3) le squelette carboné restant — habituellement un α-céto-acide — est converti en un composé qui entre dans le cycle de l'acide citrique. » Avec le mécanisme de la collecte : « la désamination est habituellement accomplie par une réaction de transamination dans laquelle le groupe –NH₂ de l'acide aminé est échangé avec le groupe cétone de l'α-cétoglutarate, formant un nouvel α-céto-acide plus du GLUTAMATE. »"
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Metabolic Processes and Enzyme Systems (cofacteurs)",
+          "pages": "525",
+          "note": "La mention qui atteste que la réaction se reproduit hors enzyme, sans en donner le mécanisme : avec un ion métallique à la place de l'enzyme, « dans les systèmes modèles, TOUTES les réactions catalysées par les enzymes SAUF la décarboxylation ont été reproduites : transamination, DÉSAMINATION OXYDATIVE, élimination de substituants β et γ, et ainsi de suite. »"
+        }
+      ]
     }
   },
   "instructions_pour_completer": {

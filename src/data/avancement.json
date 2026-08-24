@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-24",
   "total": 286,
-  "redigees": 200,
-  "verifiees": 141,
+  "redigees": 209,
+  "verifiees": 146,
   "relues": 0,
   "familles": [
     {
@@ -1740,73 +1740,73 @@
       "famille": "Métabolisme",
       "bloc": "Biomolécules et vivant",
       "total": 9,
-      "absente": 9,
-      "redigee": 0,
-      "verifiee": 0,
+      "absente": 0,
+      "redigee": 4,
+      "verifiee": 5,
       "relue": 0,
       "reactions": [
         {
           "nom": "Glycolyse : la séquence complète",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "glycolyse",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Aldolisation rétro de l'aldolase",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "retro_aldolisation_aldolase",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Isomérisation glucose-6-P → fructose-6-P",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "isomerisation_glucose_fructose",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Conversion du pyruvate en acétyl-CoA",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "pyruvate_acetyl_coa",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cycle de Krebs : la séquence complète",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cycle_krebs",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Décarboxylation d'un β-cétoacide",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "decarboxylation_beta_cetoacide",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Néoglucogenèse",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "neoglucogenese",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Transamination par le phosphate de pyridoxal",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "transamination_plp",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Désamination oxydative",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "desamination_oxydative",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

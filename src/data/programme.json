@@ -1225,47 +1225,47 @@
         {
           "nom": "Glycolyse : la séquence complète",
           "niveau": "M1",
-          "id": null
+          "id": "glycolyse"
         },
         {
           "nom": "Aldolisation rétro de l'aldolase",
           "niveau": "M1",
-          "id": null
+          "id": "retro_aldolisation_aldolase"
         },
         {
           "nom": "Isomérisation glucose-6-P → fructose-6-P",
           "niveau": "M1",
-          "id": null
+          "id": "isomerisation_glucose_fructose"
         },
         {
           "nom": "Conversion du pyruvate en acétyl-CoA",
           "niveau": "M1",
-          "id": null
+          "id": "pyruvate_acetyl_coa"
         },
         {
           "nom": "Cycle de Krebs : la séquence complète",
           "niveau": "M1",
-          "id": null
+          "id": "cycle_krebs"
         },
         {
           "nom": "Décarboxylation d'un β-cétoacide",
           "niveau": "L3",
-          "id": null
+          "id": "decarboxylation_beta_cetoacide"
         },
         {
           "nom": "Néoglucogenèse",
           "niveau": "M2",
-          "id": null
+          "id": "neoglucogenese"
         },
         {
           "nom": "Transamination par le phosphate de pyridoxal",
           "niveau": "M1",
-          "id": null
+          "id": "transamination_plp"
         },
         {
           "nom": "Désamination oxydative",
           "niveau": "M1",
-          "id": null
+          "id": "desamination_oxydative"
         }
       ],
       "bloc": "Biomolécules et vivant"
