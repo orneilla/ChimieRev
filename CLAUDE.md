@@ -236,6 +236,34 @@ Deux pièges appris à la dure :
 - **Une charge ne doit pas être recouverte** par le crochet d'une flèche.
   Changer la courbure jusqu'à ce qu'elle se voie.
 
+### Les flèches d'une réaction péricyclique ne racontent pas la même chose
+
+Le Grossman le dit là où personne d'autre ne le dit (p. 198), et cela
+change la façon de relire un schéma :
+
+> « Quand on dessine le changement de schéma de liaison dans une réaction
+> péricyclique, PEU IMPORTE qu'on dessine les électrons tournant dans un
+> sens ou dans l'autre, parce que les réactions péricycliques ne sont pas
+> caractérisées par un déplacement de densité électronique d'un site riche
+> vers un site pauvre. Les flèches ne servent qu'à montrer le changement
+> de schéma de liaison entre réactif et produit. »
+
+Deux conséquences pour ce dépôt :
+
+- **Le sens de rotation est libre**, sauf quand un composant porte une
+  charge formelle négative — cycloaddition [3+2], sigmatropique [2,3],
+  rétro-hétéro-ène — où **il faut commencer là**. Le vérificateur
+  n'attrape pas cette faute : elle est de lecture, pas de bilan.
+- **Un test de relecture** qui attrape la faute la plus fréquente du
+  domaine : « s'assurer qu'on peut NOMMER chaque étape péricyclique de son
+  mécanisme ». Il n'y a que quatre archétypes — électrocyclique,
+  cycloaddition, sigmatropique, ène. Si l'étape qu'on vient de dessiner ne
+  porte aucun de ces noms, elle n'existe probablement pas.
+
+Et un piège de comptage, du même auteur (p. 194) : **les doublets libres
+d'un hétéroatome ne comptent pas** dans le décompte électronique d'une
+électrocyclisation s'ils ne font pas partie du système π qui se referme.
+
 Après écriture : `node scripts/verifier-mecanismes.mjs`, puis
 `node scripts/dessiner-mecanismes.mjs`, puis **regarder les schémas rendus
 à 390 px**. Un schéma qui passe les contrôles peut rester confus.

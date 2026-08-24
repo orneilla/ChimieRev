@@ -56,7 +56,13 @@
           "pages": "890",
           "note": "La régiosélectivité : la liaison se forme entre les plus gros coefficients de chaque partenaire. Et l'astuce de lecture — écrire un mécanisme ionique par étapes, faux mais commode, pour trouver l'orientation, puis redessiner les flèches correctes."
         },
-        "fleming"
+        "fleming",
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "225",
+          "note": "Des diénophiles qui ne sont pas des alcènes : « les diénophiles hétéroatomiques tels que les aldéhydes et les imines ont des orbitales BASSES, si bien qu'ils subissent des Diels-Alder à demande normale avec des diènes riches ». Et l'oxygène singulet comme diénophile, avec ce qui le distingue de l'oxygène qu'on respire : « l'O₂ atmosphérique est un TRIPLET, mieux décrit comme un 1,2-diradical, tandis que l'¹O₂ a une liaison π O=O normale » — la conversion se fait par hν et un sensibilisateur comme le Rose Bengale."
+        }
       ],
       "articles_historiques": [
         {
@@ -2720,6 +2726,12 @@
           "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
           "pages": "913",
           "note": "La symétrie d'une liaison σ, qui ne se lit pas comme celle d'une liaison π : rétention ou inversion à chaque extrémité, et les quatre combinaisons possibles. Et la démonstration que le compte ne dépend pas de la façon de tracer les raccordements."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "198-200",
+          "note": "Les QUATRE archétypes péricycliques dessinés côte à côte, chacun à trois flèches en cercle, et le test de relecture qui en découle : « une bonne garde contre ce genre d'erreur est de s'assurer qu'on peut NOMMER chaque étape péricyclique de son mécanisme ». Avec la convention de flèches, que peu d'ouvrages énoncent : « peu importe qu'on dessine les électrons dans un sens ou dans l'autre, parce que les réactions péricycliques ne sont PAS caractérisées par un déplacement de densité électronique d'un site riche vers un site pauvre » — sauf quand un composant porte une charge formelle négative, où « il est important de commencer à cet endroit ». Et le fait expérimental qui a fondé les règles : le 2,4,6-octatriène donne le cis par chauffage et le trans par photolyse."
         }
       ],
       "articles_historiques": [],
@@ -2744,6 +2756,12 @@
           "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
           "pages": "878",
           "note": "Le mécanisme de la Diels-Alder, dont la rétro n'est que la lecture inverse."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "200",
+          "note": "Le principe de réversibilité microscopique, illustré par le col des Appalaches : « le chemin choisi ne dépendrait pas de la direction du voyage. LES RÉACTIONS OBÉISSENT AU MÊME PRINCIPE. » L'état de transition est le même dans les deux sens, donc la rétro est elle aussi suprafaciale-suprafaciale et stéréospécifique ; seule la thermodynamique distingue les directions."
         }
       ],
       "articles_historiques": [],
@@ -2762,6 +2780,12 @@
           "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
           "pages": "902",
           "note": "L'absence de règle endo, faute de groupe conjugant à l'arrière ; la préférence exo dictée par l'encombrement. Le cas intramoléculaire, où la géométrie ne laisse qu'un seul repliement possible. Et surtout ce qu'on fait de l'adduit : la liaison N–O faible est coupée par LiAlH₄, par Zn/AcOH ou par hydrogénation, livrant un aminoalcool 1,3 dont la stéréochimie a été fixée par la cycloaddition."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "194, 225-226",
+          "note": "La note de bas de page qui lève une confusion durable : « DEUX conventions de nomenclature coexistent. L'ancienne, employée ici, est que m et n désignent le nombre d'ATOMES. Woodward et Hoffmann l'ont modifiée pour que m et n désignent le nombre d'ÉLECTRONS. » D'où [4+2] et [3+2] pour deux réactions à six électrons. Avec le catalogue des dipôles — ozone, azotures, ylures d'azométhine, oxydes de carbonyle — et leur intérêt : « beaucoup d'agrochimiques et de médicaments contiennent des hétérocycles à cinq chaînons »."
         }
       ],
       "articles_historiques": [],
@@ -2780,6 +2804,12 @@
           "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
           "pages": "925",
           "note": "Les quatre règles des réactions électrocycliques, con- et disrotatoire définis avec le piège de vocabulaire ; les deux preuves expérimentales — l'octatriène qui donne un seul diastéréoisomère syn, le syn-1,2-diméthylcyclobutène qui donne uniquement le E,Z-hexa-2,4-diène. Et pourquoi la stéréochimie est ici si parlante : les rotations atteignent 90°, contre quelques degrés dans les autres réactions péricycliques."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "194",
+          "note": "La définition dans les deux sens, la sous-classification « à 2π, 4π, 6π selon le NOMBRE D'ÉLECTRONS », et le piège de comptage signalé explicitement : sur un système à trois atomes, « LES DOUBLETS LIBRES DE L'OXYGÈNE NE FONT PAS PARTIE du système π et ne sont donc pas comptés ». Avec cette ouverture : « des orbitales p VIDES ou pleines peuvent participer au système π »."
         }
       ],
       "articles_historiques": [],
@@ -2804,6 +2834,12 @@
           "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
           "pages": "914",
           "note": "Le réarrangement de Cope ANIONIQUE : l'alcool déprotoné par KH donne un énolate après réarrangement, bien plus stable que l'alcoolate de départ — d'où une accélération considérable. Et l'exploit qu'il permet : la dilatation d'un cycle à quatre en cycle à huit portant une double liaison trans."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "198-200",
+          "note": "Le principe de réversibilité microscopique expliqué par une image qu'on n'oublie pas — le col le plus bas des Appalaches, emprunté dans les deux sens —, et sa conséquence pour une réaction dégénérée. Avec cette remarque en passant : « notez la DÉGÉNÉRESCENCE du réarrangement sigmatropique archétypal » — sur un 1,5-hexadiène non substitué, le produit est identique au réactif, et il a fallu marquer les atomes pour voir la réaction."
         }
       ],
       "articles_historiques": [],
@@ -2828,6 +2864,12 @@
           "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
           "pages": "914",
           "note": "Pourquoi un oxygène dans le cycle et un autre à l'extérieur accélèrent tant les [3,3], et comment l'arranger : l'énolate de lithium d'un ester d'alcool allylique."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "18 — Ethers and Epoxides; Thiols and Sulfides",
+          "pages": "576",
+          "note": "Les deux versions mises côte à côte. L'aliphatique : « comme la Diels-Alder, le réarrangement de Claisen se fait EN UNE SEULE ÉTAPE par un mécanisme péricyclique, dans un état de transition cyclique à six chaînons ». L'aromatique et son étape cachée : le [3,3] donne d'abord « la 6-allyl-2,4-cyclohexadiénone », qui « s'isomérise ensuite en o-allylphénol » — une tautomérie ordinaire, non péricyclique, mais irréversible, et c'est elle qui pousse la réaction."
         }
       ],
       "articles_historiques": [],
@@ -2858,6 +2900,12 @@
           "chapitre": "35 — Pericyclic reactions 2: sigmatropic and electrocyclic reactions",
           "pages": "919",
           "note": "L'oxydation allylique par SeO₂, qui commence par une réaction de type ène avant un réarrangement [2,3] : un méthyle allylique devient CH₂OH ou CHO."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "198",
+          "note": "La réaction ène rangée au même rang que les trois grandes familles péricycliques, et dessinée avec elles : « chaque réaction archétypale a trois flèches se déplaçant en cercle, mais chacune produit un changement différent dans les schémas de liaison ». Avec la règle de dessin pour la rétro-hétéro-ène : commencer à l'atome portant la charge formelle négative."
         }
       ],
       "articles_historiques": [],
@@ -2876,6 +2924,12 @@
           "chapitre": "34 — Pericyclic reactions 1: cycloadditions",
           "pages": "898",
           "note": "La régiosélectivité observée, opposée à celle qu'un raisonnement thermique prédirait, et son explication par les interactions HOMO/HOMO et LUMO/LUMO dans l'état excité. L'astuce de calcul : dessiner le produit qu'on n'attend PAS. Et pourquoi la réaction inverse est impossible sous lumière — le cyclobutane n'absorbe pas."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "9 — Orbitals and Organic Chemistry: Pericyclic Reactions",
+          "pages": "§ 9.6",
+          "note": "Pourquoi elle ne revient pas en arrière : « ces réactions produisent des cycles tendus à quatre chaînons mais NE SONT PAS RÉVERSIBLES, parce que les produits n'ont plus de conjugaison et ne peuvent donc pas absorber la lumière pour permettre une cycloréversion ». Il faut de la lumière pour aller, il en faudrait pour revenir, et le produit ne sait plus l'absorber. Avec le contre-exemple : un alcène non conjugué irradié ne donne rien."
         }
       ],
       "articles_historiques": [],
