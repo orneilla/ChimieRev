@@ -1892,6 +1892,18 @@
           "chapitre": "20 — Formation and reactions of enols and enolates",
           "pages": "449–453",
           "note": "La mise en évidence de l'énol par RMN sur la dimédone — OH large vers 8,15 ppm et signal net vers 5,5 ppm dans la région des doubles liaisons, deux carbones sp² distincts ; la définition de la tautomérie comme toute réaction ne mettant en jeu que le transfert intramoléculaire d'un proton, avec les exemples de l'acide carboxylique et de l'imidazole ; la constante d'énolisation de l'acétone, environ 10⁻⁶, et son explication par la balance des énergies de liaison — O–H plus forte que C–H, mais C=O bien plus forte que C=C ; l'échange isotopique en D₂O, limité aux positions α et suivi par la disparition lente du signal correspondant ; la catalyse acide, où l'on protone d'abord l'oxygène puis on perd un proton du carbone ; la formation de l'énolate, soit par perte du proton C–H du composé carbonylé, soit par perte du proton O–H de l'énol ; et la description de l'énolate comme système à trois atomes et quatre électrons apparenté à l'anion allyle, la charge résidant principalement sur l'oxygène."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "6 — Alpha substitutions of carbonyl compounds",
+          "pages": "§ 6.2",
+          "note": "Les taux d'énolisation mesurés et mis côte à côte : acétone 1,7 × 10⁻⁷ % d'énol (cétone > 99,999 %) ; 2,4-pentanedione 85 % d'énol contre 15 % de cétone, avec la liaison hydrogène intramoléculaire dessinée. Et la définition des positions α, β, γ, avec l'exercice d'identification des hydrogènes α."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "6 — Alpha substitutions of carbonyl compounds",
+          "pages": "§ 6.2 (p. 243, 247)",
+          "note": "Le mécanisme détaillé de la tautomérie en catalyse acide dans les deux sens, et la raison géométrique de l'acidité : « recouvrement d'orbitales p » pour l'hydrogène le plus acide, « aucun recouvrement d'orbitales p » pour l'autre. Avec l'exercice sur l'isomérisation acide d'une cétone β,γ-insaturée en son isomère α,β."
         }
       ],
       "articles_historiques": [],
@@ -1904,6 +1916,12 @@
           "chapitre": "25 — Alkylation of enolates",
           "pages": "598–601",
           "note": "Le problème de régiosélectivité posé par les cétones dissymétriques ; le contrôle thermodynamique, avec l'exemple de l'acétoacétate d'éthyle où seul l'énolate le plus stable se forme avec des bases faibles ; le contrôle cinétique par le LDA à −78 °C, avec la déprotonation sélective des méthylcétones et des cyclohexanones 2-substituées — sur la 2-phénylcyclohexanone, pourtant fortement portée vers l'énolate conjugué, « 100 % formé » du moins substitué et « 0 % formé » de l'autre ; la benzylation de la 2-méthylcyclohexanone, 99 % de l'énolate voulu et 45 % de rendement ; l'encadré récapitulatif opposant terme à terme énolates thermodynamiques et cinétiques ; la voie par l'éther d'énol silylé le plus substitué, avec l'explication par un état de transition cationique que les méthyles stabilisent ; et le cas du dianion de l'acétoacétate de méthyle, où l'anion formé en dernier réagit le premier, 79 % de rendement."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "6 — Alpha substitutions of carbonyl compounds",
+          "pages": "§ 6.8",
+          "note": "La même distinction énoncée du côté du SUBSTRAT plutôt que du produit : sur une cétone dissymétrique, retirer l'hydrogène secondaire (le moins encombré) donne l'énolate cinétique, moins substitué et plus rapide à se former ; retirer l'hydrogène tertiaire (le plus encombré) donne l'énolate thermodynamique, plus substitué et plus stable."
         }
       ],
       "articles_historiques": [],
@@ -1928,6 +1946,18 @@
           "chapitre": "25 — Alkylation of enolates",
           "pages": "601",
           "note": "Deux exemples chiffrés : 77 % pour la benzylation d'une méthylcétone via l'énolate cinétique, et 45 % pour la 2-méthylcyclohexanone, avec 99 % de l'énolate voulu."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "6 — Alpha substitutions of carbonyl compounds",
+          "pages": "§ 6.7",
+          "note": "Deux raisons supplémentaires à la sélectivité C plutôt que O : le contre-ion (Li⁺, Na⁺) est étroitement associé à l'oxygène de l'énolate et bloque l'approche de l'électrophile ; et le produit d'alkylation au carbone garde la liaison C=O, plus stable. Puis la conséquence stéréochimique : la formation de l'énolate rend le carbone α plan et sp², l'électrophile revient par l'une ou l'autre face, et le produit est racémique."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "6 — Alpha substitutions of carbonyl compounds",
+          "pages": "§ 6.8",
+          "note": "Quels substrats s'alkylent directement : esters, lactones et cétones symétriques oui ; aldéhydes non (leurs énolates préfèrent la condensation) ; acides carboxyliques non (le proton acide empêche la formation de l'énolate). D'où les synthèses malonique et acétylacétique — le malonate de diéthyle a des hydrogènes α de pKa 12,6 — et le choix de l'éthanolate de sodium comme base, pour éviter la transestérification d'un ester d'éthyle."
         }
       ],
       "articles_historiques": [],
@@ -1958,6 +1988,18 @@
           "chapitre": "20 — Formation and reactions of enols and enolates",
           "pages": "462–463",
           "note": "L'halogénation en milieu basique, « différente et plus compliquée parce qu'elle ne s'arrête habituellement pas après un seul halogène » ; le passage par l'énolate, plus réactif encore que l'énol puisqu'il porte une charge négative ; l'attaque de l'hydroxyde sur le carbonyle du dérivé trihalogéné, l'effondrement expulsant le carbanion CBr₃⁻, et le transfert de proton final révélant les vrais produits — un carboxylate et le tribromométhane ; la nécessité d'un groupe méthyle, « parce que trois halogènes sont nécessaires pour faire du carbanion un groupe partant » ; et la remarque que c'est « l'un des rares cas où une substitution nucléophile sur un groupe carbonyle aboutit à la coupure d'une liaison carbone–carbone simple ». L'ouvrage rappelle aussi l'origine du nom : iodoforme était l'ancien nom du triiodométhane, comme chloroforme l'est encore du trichlorométhane."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "22 — Carbonyl alpha-substitution reactions",
+          "pages": "739",
+          "note": "Deux points dits avec les mots justes : « un carbanion stabilisé par les halogènes joue le rôle de groupe partant » dans la substitution nucléophile acyle de ⁻CX₃ par ⁻OH ; et la raison pour laquelle on n'halogène jamais en α sous base — le produit monohalogéné est plus acide que la cétone de départ, à cause de l'effet inductif de l'halogène, donc il se réénolise et s'halogène à nouveau."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "6 — Alpha substitutions of carbonyl compounds",
+          "pages": "§ 6.7",
+          "note": "La réaction haloforme présentée comme une MÉTHODE de conversion des méthylcétones en acides carboxyliques, autant que comme un test. Les trois haloformes (CHCl₃, CHBr₃, CHI₃) ; l'essai est mené à l'iode et s'appelle le test à l'iodoforme, essai qualitatif classique de laboratoire pour les méthylcétones."
         }
       ],
       "articles_historiques": [],
@@ -2006,6 +2048,18 @@
           "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
           "pages": "619",
           "note": "Pourquoi une condensation croisée peut réussir : l'énolate choisit le meilleur électrophile, et un aldéhyde sans proton en α ne peut jouer que ce rôle."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "23 — Carbonyl condensation reactions",
+          "pages": "781",
+          "note": "Le résumé du chapitre, qui range la difficulté : une aldolisation croisée donne en général les quatre produits, mais elle réussit si l'un des partenaires est un donneur exceptionnellement bon (acétylacétate d'éthyle) ou s'il ne peut être qu'accepteur (formaldéhyde, benzaldéhyde). Et la règle jumelle pour la Claisen croisée : elle ne marche que si l'un des esters n'a aucun hydrogène α (benzoate, formiate d'éthyle) — la cyclisation de Dieckmann, intramoléculaire, y échappe."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "7 — Carbonyl condensations",
+          "pages": "§ 7.6",
+          "note": "Le compte explicite des quatre produits A–A, B–B, A–B, B–A, en quantités égales si toutes les vitesses l'étaient. Les deux combinaisons qui donnent un produit unique, et le second effet qui joue dans la première : un aldéhyde est un accepteur plus réactif qu'une cétone. La condensation de Claisen-Schmidt (aldéhyde aromatique sans hydrogène α + carbonylé aliphatique), dont le produit est l'énone conjuguée de configuration (E). Et l'emploi de l'éthanolate de sodium pour éviter l'hydrolyse de l'ester de l'acétylacétate."
         }
       ],
       "articles_historiques": [],
@@ -2162,6 +2216,36 @@
           "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
           "pages": "622",
           "note": "La stratégie qui consiste à stocker la base de Mannich et à ne libérer l'énone qu'au moment voulu ; l'emploi des amines cycliques ; et la liste des substituants qui bloquent l'énolisation, classés par électrophilie."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "172",
+          "note": "La Mannich rangée comme « une autre version de l'aldolisation qui se fait en milieu faiblement acide », passant par un ion iminium formé d'un aldéhyde (souvent le formaldéhyde) et d'un ion ammonium primaire OU secondaire."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "173",
+          "note": "Les deux mécanismes rivaux et leur réfutation expérimentale. Contre l'aldolisation-élimination-Michael : des cétones ne portant qu'UN SEUL hydrogène α font la réaction, alors qu'elles ne peuvent pas donner d'énone. Contre l'aldolisation puis SN2 : une SN2 en milieu acide demande un milieu fortement acide, or la Mannich se fait en milieu à peine acide."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2 — Organocatalytic asymmetric multicomponent reactions, § 2.2",
+          "pages": "17",
+          "note": "La version moderne : la première réaction de Mannich à trois composants directe, asymétrique et organocatalytique, due à List — acétone, p-anisidine et divers aldéhydes sous catalyse par la (S)-proline, jusqu'à 95 % d'excès énantiomérique ; plus de 99 % avec l'hydroxyacétone, vers des amino-alcools-1,2. Ni aldolisation ni auto-Mannich n'ont été observées."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2 — Organocatalytic asymmetric multicomponent reactions, § 2.2",
+          "pages": "18",
+          "note": "Le mécanisme de la version à la proline : activation par ÉNAMINE du carbonylé énolisable, attaque nucléophile sur l'imine engendrée en parallèle par l'aldéhyde et l'amine, le groupe carboxylique de la proline orientant l'état de transition."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "1 — Multicomponent reactions: importance and evolution",
+          "pages": "2-3",
+          "note": "La place de la Mannich au catalogue des réactions multicomposants classiques, avec ses deux dates : 1912, condensation du formaldéhyde, de l'ammoniac et de l'antipyrine (Mannich et Krösche, Arch. Pharm. 250, 647) ; 1917, la forme générale vers les composés β-amino carbonylés."
         }
       ],
       "articles_historiques": [],
@@ -2216,6 +2300,30 @@
           "chapitre": "26 — Reactions of enolates with carbonyl compounds: the aldol and Claisen reactions",
           "pages": "630",
           "note": "La variante sur l'acide malonique, avec décarboxylation spontanée pendant la réaction, catalysée par pipéridine et pyridine ; le dianion stabilisé par délocalisation et liaison hydrogène interne."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "82",
+          "note": "La Knoevenagel définie — condensation de composés 1,3-dicarbonylés avec des aldéhydes vers des composés insaturés — et catalysée par les amines secondaires, avec l'annonce du mécanisme par l'iminium."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "83",
+          "note": "Le mécanisme complet, écrit flèche par flèche : « l'ion iminium est plus électrophile que la cétone dont il dérive » ; il réagit avec le composé 1,3-dicarbonylé déprotoné ; l'amine est ensuite protonée pour devenir un bon groupe partant et une élimination E1cb donne le produit en régénérant le catalyseur. Une catalyse covalente, non une catalyse basique."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.1 — Knoevenagel reactions in multicomponent syntheses",
+          "pages": "416",
+          "note": "L'origine — Emil Knoevenagel, fin du XIXᵉ siècle, aldéhydes et dérivés de l'acide malonique sous catalyse par diverses amines — et les TROIS mécanismes selon les conditions : Hann-Lapworth sous base (énolate, addition-1,2, E1cb) ; voie de l'iminium avec les amines primaires et secondaires, les tertiaires n'agissant qu'en bases ; formation de l'énol puis addition-1,2 et déshydratation sous acide de Lewis ou de Brønsted. Et ce à quoi sert le produit : accepteur de Michael, hétéro-Diels-Alder à demande inverse, cycloaddition-1,3-dipolaire."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.1 — Knoevenagel reactions in multicomponent syntheses",
+          "pages": "417-418",
+          "note": "Les schémas des trois mécanismes, et la suite immédiate : sous base, les composés à CH acide (carbonylés comme nitrilés) s'additionnent en Michael sur le produit de Knoevenagel, puis cyclisent — hémiacétal déshydraté vers le 4H-pyrane, ou tautomérie imine/énamine vers le 2-amino-4H-pyrane."
         }
       ],
       "articles_historiques": [],
