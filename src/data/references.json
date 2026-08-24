@@ -248,6 +248,12 @@
           "chapitre": "36",
           "pages": "935",
           "note": "La participation passe le plus souvent par un cycle à trois ou cinq chaînons."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "154",
+          "note": "Le phénomène énoncé là où on le rencontre vraiment — au milieu de l'addition électrophile, juste après avoir posé la règle de l'addition anti : « il arrive que l'addition anti ne soit pas observée. La participation TEMPORAIRE d'un groupe voisin peut donner des résultats stéréochimiques ou régiochimiques inhabituels. » Le résultat anormal est le symptôme, la participation est le diagnostic."
         }
       ],
       "articles_historiques": [],
@@ -272,6 +278,12 @@
           "chapitre": "15",
           "pages": "352",
           "note": "Conditions typiques comparées : NaH dans le DMF pour l'éther méthylique, contre un simple acide pour l'éther tertiaire, qui passe lui par un carbocation."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols / 18 — Ethers and Epoxides",
+          "pages": "570-571",
+          "note": "La règle de choix des partenaires, énoncée comme une consigne : « les éthers dissymétriques doivent être synthétisés par réaction entre l'alcoolate le plus encombré et l'halogénure le moins encombré, plutôt que l'inverse », avec l'exemple du MTBE. Et la variante à l'oxyde d'argent : Ag₂O comme base douce permet à l'alcool LIBRE de réagir directement, sans préformer l'alcoolate — le glucose donne ainsi son pentaéther à 85 %."
         }
       ],
       "articles_historiques": [],
@@ -290,6 +302,12 @@
           "chapitre": "15",
           "pages": "344",
           "note": "Exemple d'un tosylate déplacé par l'acétate, nucléophile pourtant faible — preuve de la qualité du groupe partant."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols / 18 — Ethers and Epoxides",
+          "pages": "545",
+          "note": "La raison stéréochimique de préférer un tosylate : « la réaction SN2 d'un alcool via un halogénure d'alkyle procède avec DEUX inversions et donne un produit de même stéréochimie que l'alcool de départ ; via un tosylate, elle procède avec UNE SEULE inversion et donne la stéréochimie opposée ». Démontré sur le (R)-2-octanol mené par les deux voies."
         }
       ],
       "articles_historiques": [],
@@ -308,6 +326,12 @@
           "chapitre": "15",
           "pages": "351",
           "note": "La conséquence stéréochimique et son intérêt : moyen fiable de remplacer un OH avec inversion. Formation d'esters à partir d'alcools secondaires avec inversion, là où l'estérification ordinaire conserve la configuration."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "117-118",
+          "note": "Comment on DÉDUIT ce mécanisme, et le Grossman est le seul à le montrer : équilibrer l'équation révèle la perte de H₂O ; Ph₃P finit toujours en Ph₃PO ; un seul déplacement SN2 impose que les deux oxygènes du produit viennent de l'acide, donc que l'oxygène de l'alcool finisse sur le phosphore ; le rôle du DEAD est donc de convertir un nucléophile en électrophile, et c'est le phosphore qui s'y additionne car « P est bien plus nucléophile ». L'addition est précédée de la protonation du DEAD par l'acide. Et sa valeur : « peu ou pas d'élimination ne se produit », là où toute autre méthode sur un carbone secondaire en donnerait."
         }
       ],
       "articles_historiques": [],
@@ -320,6 +344,12 @@
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "352",
           "note": "La tension de cycle comme moteur : angles de 60° au lieu de 109°, qu'une seule attaque nucléophile suffit à relâcher. Les amines donnent de bons résultats avec les époxydes, à la différence des halogénoalcanes. Démonstration de l'inversion sur un époxyde fusionné à un cycle à cinq chaînons, qui donne le produit trans."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols / 18 — Ethers and Epoxides",
+          "pages": "578-579",
+          "note": "L'époxyde comme synthèse d'éther de Williamson INTRAMOLÉCULAIRE : une halohydrine traitée par une base se referme parce que « l'ion alcoolate nucléophile et l'halogénure d'alkyle électrophile sont dans la même molécule ». Et le parallèle entre l'ouverture d'un époxyde protoné et celle d'un ion bromonium — même attaque dorsale de type SN2, même anti, mêmes produits trans-1,2."
         }
       ],
       "articles_historiques": [],
@@ -362,6 +392,12 @@
           "chapitre": "15",
           "pages": "329",
           "note": "Le contraste entre alcools tertiaires (HBr seul, SN1) et alcools primaires (PBr₃, SN2)."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols / 18 — Ethers and Epoxides",
+          "pages": "544-545",
+          "note": "Les deux régimes séparés : « les réactions des alcools primaires et secondaires avec SOCl₂ et PBr₃ se font par des mécanismes SN2 », tandis qu'un alcool tertiaire avec HX passe par un carbocation — mécanisme SN1. Et la conséquence stéréochimique : passer par l'halogénure pour faire ensuite une SN2, c'est inverser deux fois, donc revenir à la configuration de départ."
         }
       ],
       "articles_historiques": [],
@@ -392,6 +428,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "438",
           "note": "Les deux régiochimies opposées à partir du même époxyde trisubstitué : méthanolate en milieu basique (attaque du carbone le moins substitué, SN2 pure) contre méthanol en milieu acide (attaque du carbone le plus substitué). Le mécanisme acide est détaillé avec son état de transition de SN2 « lâche » et la charge positive stabilisée par les groupes alkyle. La page ajoute la réserve : même en milieu acide, la SN2 sur un centre primaire reste rapide."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols / 18 — Ethers and Epoxides",
+          "pages": "580-581",
+          "note": "Les chiffres qui situent la vraie frontière : l'oxyde de propylène et HCl donnent 90 % de 1-chloro-2-propanol, donc l'attaque sur le carbone PRIMAIRE. La consigne qui en découle est plus fine que la règle courante : « un époxyde ne portant que des carbones primaires et secondaires subit une coupure par attaque SN2 sur le carbone le moins encombré, mais un époxyde portant un carbone TERTIAIRE subit une attaque dorsale sur le carbone le plus encombré »."
         }
       ],
       "articles_historiques": [],
@@ -416,6 +458,12 @@
           "chapitre": "15",
           "pages": "340",
           "note": "Méthyle et primaire réagissent toujours par SN2, jamais par SN1 : la borne haute du critère de squelette."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "69-70",
+          "note": "La classification qui manque au Clayden : deux facteurs (nucléophilie/basicité du partenaire, classe du substrat) et l'alerte d'erreur — « le résultat est une NÉGOCIATION entre le nucléophile et l'électrophile ; ni l'un ni l'autre ne le détermine à lui seul ». Trois classes de partenaires : deuxième période = bon nucléophile, mauvaise base ; première période non encombrée = bon des deux côtés ; première période encombrée = mauvais nucléophile, bonne base. Avec ce détail qu'on ne devine pas : NaH et KH « ne paraissent pas encombrés, mais leur forme polymérique insoluble les rend tels »."
         }
       ],
       "articles_historiques": [],
@@ -446,6 +494,12 @@
           "chapitre": "17 — Elimination reactions",
           "pages": "384–385",
           "note": "Substitution ou élimination : basicité, encombrement et température. L'élimination fait trois molécules à partir de deux, d'où l'effet de la température."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "11 — Reactions of Alkyl Halides: Nucleophilic Substitutions and Eliminations",
+          "pages": "340",
+          "note": "La raison orbitalaire de l'antipériplanaire — « les orbitales σ sp³ des liaisons C–H et C–X doivent se recouvrir et devenir les orbitales π du produit » — et l'analogie qui relie l'E2 à la SN2 : dans les deux cas un doublet chasse le groupe partant du côté opposé, venu du nucléophile dans un cas, d'une liaison C–H voisine dans l'autre. Avec la preuve : le méso-1,2-dibromo-1,2-diphényléthane donne UNIQUEMENT l'alcène E, l'isomère Z exigeant un état de transition syn périplanaire."
         }
       ],
       "articles_historiques": [],
@@ -476,6 +530,12 @@
           "chapitre": "17 — Elimination reactions",
           "pages": "399",
           "note": "Régiosélectivité : une E1 donne l'alcène le plus substitué."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "11 — Reactions of Alkyl Halides: Nucleophilic Substitutions and Eliminations",
+          "pages": "344",
+          "note": "E1 et SN1 ne se séparent pas : « les réactions E1 et SN1 se produisent normalement ensemble chaque fois qu'un halogénure d'alkyle est traité dans un solvant protique par un nucléophile non basique », et « les meilleurs substrats E1 sont aussi les meilleurs substrats SN1 ». Les chiffres d'un cas type : le 2-chloro-2-méthylpropane à 65 °C dans l'éthanol aqueux donne 64 % d'alcool (SN1) et 36 % d'alcène (E1)."
         }
       ],
       "articles_historiques": [],
@@ -500,6 +560,12 @@
           "chapitre": "17 — Elimination reactions",
           "pages": "390",
           "note": "Pourquoi la déshydratation basique est impossible : OH⁻ n'est jamais groupe partant dans une E2, une base forte arracherait d'abord le proton de l'alcool. Pour les alcools primaires et secondaires, on passe par un tosylate ou un mésylate."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "7 — Alkenes: Structure and Reactivity",
+          "pages": "222",
+          "note": "Ce que fait le vivant à la place : « dans les voies biologiques, les déshydratations se produisent rarement sur des alcools isolés ; elles ont normalement lieu sur des substrats où le –OH est placé à deux carbones d'un groupe carbonyle », avec la conversion du β-hydroxybutyryl-ACP en trans-crotonyl-ACP."
         }
       ],
       "articles_historiques": [],
@@ -518,6 +584,18 @@
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "348",
           "note": "Le rappel que l'ion hydroxyde n'est jamais groupe partant — avec la mention explicite de l'unique exception, la réaction E1cB."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "11 — Reactions of Alkyl Halides: Nucleophilic Substitutions and Eliminations",
+          "pages": "345",
+          "note": "Le profil du substrat : « la réaction est particulièrement fréquente sur les substrats qui ont un MAUVAIS groupe partant, tel que –OH, à deux carbones d'un carbonyle. Le mauvais groupe partant défavorise les possibilités E1 et E2 concurrentes, et le carbonyle rend l'hydrogène voisin exceptionnellement acide. » Et l'angle biologique : « les trois éliminations se produisent dans les voies biologiques, mais le mécanisme E1cB est particulièrement courant » — la déshydratation du 3-hydroxybutyryl-ACP en crotonyl-ACP dans la biosynthèse des graisses."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "2 — Substitution and Elimination Reactions",
+          "pages": "§ 2.12",
+          "note": "Les éliminations biologiques, et la nuance qui manque ailleurs : « les modèles E2 et E1 représentent deux extrêmes mécanistiques, et les éliminations enzymatiques réelles peuvent se situer quelque part entre les deux ». Dans une élimination hybride E1/E2, « la rupture de C–X peut être très avancée mais non complète avant l'arrachement du proton ». Avec l'exemple de la biosynthèse de l'histidine, où l'E1cB est impossible faute de groupe électroattracteur, mais où le doublet d'un azote stabilise la charge positive."
         }
       ],
       "articles_historiques": [],
@@ -536,6 +614,12 @@
           "chapitre": "17 — Elimination reactions",
           "pages": "398",
           "note": "Le rôle de LDA : obtenue en déprotonant la diisopropylamine par BuLi, très basique (pKa de l'amine voisin de 35) mais trop encombrée pour être nucléophile — idéale pour promouvoir une E2."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "1 — Reactions of Alkynes",
+          "pages": "§ 1.3.2",
+          "note": "Le détail de stœchiométrie qui décide du résultat : « si un alcyne TERMINAL se forme pendant la réaction, TROIS équivalents de base sont nécessaires au lieu de deux » — le troisième étant consommé par la déprotonation de l'alcyne terminal formé. Et les deux points de départ possibles (§ 1.S.1) : « les alcynes peuvent être préparés par deux éliminations successives de HX à partir d'un dihalogénure vicinal ou géminal »."
         }
       ],
       "articles_historiques": [],
@@ -554,6 +638,12 @@
           "chapitre": "17 — Elimination reactions",
           "pages": "399",
           "note": "La régiosélectivité vers l'alcène le moins substitué avec les bases et les groupes partants encombrés, et l'encadré « Hofmann and Saytsev » qui conseille de comprendre les raisons plutôt que de retenir les noms."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "24 — Amines and Heterocycles",
+          "pages": "808",
+          "note": "Les chiffres du résultat non-Zaïtsev : l'hydroxyde de (1-méthylbutyl)triméthylammonium donne 94 % de pent-1-ène contre 6 % de pent-2-ène. Et la cause, énoncée avec la prudence qui convient : « la raison de ce résultat non-Zaïtsev est PROBABLEMENT stérique — à cause de la grande taille du groupe partant trialkylamine, la base doit arracher un hydrogène de la position la plus accessible ». Enfin son statut actuel : peu employée au laboratoire, mais ses analogues biologiques sont fréquents, avec des ammoniums protonés plutôt que quaternaires."
         }
       ],
       "articles_historiques": [],
