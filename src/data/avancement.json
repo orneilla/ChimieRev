@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 166,
+  "redigees": 178,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1429,94 +1429,94 @@
       "famille": "Glucides",
       "bloc": "Biomolécules et vivant",
       "total": 12,
-      "absente": 12,
-      "redigee": 0,
+      "absente": 0,
+      "redigee": 12,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
           "nom": "Mutarotation et équilibre des anomères",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "mutarotation_anomeres",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Cyclisation d'un ose : formation de l'hémiacétal",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cyclisation_ose_hemiacetal",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Glycosidation de Fischer",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "glycosidation_fischer",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réduction en alditol (NaBH₄)",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reduction_alditol",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Oxydation en acide aldonique (Tollens, Benedict)",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "oxydation_acide_aldonique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Oxydation en acide aldarique (HNO₃)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "oxydation_acide_aldarique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Acétylation et éthérification des oses",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "acetylation_etherification_oses",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Allongement de chaîne : synthèse de Kiliani-Fischer",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_kiliani_fischer",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Raccourcissement de chaîne : dégradation de Wohl",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "degradation_wohl",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Épimérisation en milieu basique",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "epimerisation_milieu_basique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Hydrolyse d'un disaccharide",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydrolyse_disaccharide",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Glycosylation stéréocontrôlée (participation du groupe voisin)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "glycosylation_stereocontrolee",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

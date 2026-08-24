@@ -1008,62 +1008,62 @@
         {
           "nom": "Mutarotation et équilibre des anomères",
           "niveau": "L2",
-          "id": null
+          "id": "mutarotation_anomeres"
         },
         {
           "nom": "Cyclisation d'un ose : formation de l'hémiacétal",
           "niveau": "L2",
-          "id": null
+          "id": "cyclisation_ose_hemiacetal"
         },
         {
           "nom": "Glycosidation de Fischer",
           "niveau": "L2",
-          "id": null
+          "id": "glycosidation_fischer"
         },
         {
           "nom": "Réduction en alditol (NaBH₄)",
           "niveau": "L2",
-          "id": null
+          "id": "reduction_alditol"
         },
         {
           "nom": "Oxydation en acide aldonique (Tollens, Benedict)",
           "niveau": "L2",
-          "id": null
+          "id": "oxydation_acide_aldonique"
         },
         {
           "nom": "Oxydation en acide aldarique (HNO₃)",
           "niveau": "L3",
-          "id": null
+          "id": "oxydation_acide_aldarique"
         },
         {
           "nom": "Acétylation et éthérification des oses",
           "niveau": "L3",
-          "id": null
+          "id": "acetylation_etherification_oses"
         },
         {
           "nom": "Allongement de chaîne : synthèse de Kiliani-Fischer",
           "niveau": "L3",
-          "id": null
+          "id": "synthese_kiliani_fischer"
         },
         {
           "nom": "Raccourcissement de chaîne : dégradation de Wohl",
           "niveau": "L3",
-          "id": null
+          "id": "degradation_wohl"
         },
         {
           "nom": "Épimérisation en milieu basique",
           "niveau": "L3",
-          "id": null
+          "id": "epimerisation_milieu_basique"
         },
         {
           "nom": "Hydrolyse d'un disaccharide",
           "niveau": "L2",
-          "id": null
+          "id": "hydrolyse_disaccharide"
         },
         {
           "nom": "Glycosylation stéréocontrôlée (participation du groupe voisin)",
           "niveau": "M1",
-          "id": null
+          "id": "glycosylation_stereocontrolee"
         }
       ],
       "bloc": "Biomolécules et vivant"

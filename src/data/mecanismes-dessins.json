@@ -7179,5 +7179,245 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "cyclisation_ose_hemiacetal": {
+    "1": {
+      "fichier": "cyclisation_ose_hemiacetal-etape1.svg",
+      "titre": "La forme ouverte, qu'on dessine et qu'on ne voit presque jamais",
+      "legende": "Un aldéhyde à un bout, des hydroxyles tout du long. L'un d'eux finira par attaquer l'autre.\n\nCE N'EST PAS UNE RÉACTION EXOTIQUE : c'est l'addition d'un alcool sur un aldéhyde, la formation d'un hémiacétal. Sa seule particularité est d'être INTRAMOLÉCULAIRE — les deux partenaires ne se cherchent pas.\n\nPOURQUOI LE CARBONE 5 : parce qu'il donne un cycle à SIX. Le carbone 4 donnerait un cycle à cinq — la forme furanose —, le carbone 3 un cycle à quatre, trop tendu. Les noms viennent des hétérocycles : PYRANOSE du pyrane, FURANOSE du furane.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cyclisation_ose_hemiacetal-etape2.svg",
+      "titre": "Le cycle fermé — et un centre asymétrique qui vient de naître",
+      "legende": "Le carbone 1 était plan et trigonal ; il est maintenant tétraédrique, portant quatre groupes différents. C'est le carbone ANOMÉRIQUE, et ses deux configurations donnent les anomères α et β.\n\nUN CENTRE DE CHIRALITÉ EST APPARU LÀ OÙ IL N'Y EN AVAIT PAS.\n\nLES PROPORTIONS SE MESURENT (McMurry p. 845) : le D-glucose donne « en solution aqueuse un mélange 37:63 de deux anomères ». Le β l'emporte, et pour une raison qu'on peut dessiner : « dans le β-D-glucopyranose, TOUS les substituants du cycle sont ÉQUATORIAUX. Ainsi, le β-D-glucopyranose est le moins encombré stériquement et LE PLUS STABLE DES HUIT ALDOHEXOSES D. »\n\nRETENEZ CETTE PHRASE. Il existe huit aldohexoses de la série D ; un seul peut mettre tous ses substituants en équatorial. C'est celui que le vivant a choisi comme monnaie universelle.\n\nET LE FRUCTOSE NE SUIT PAS LES MÊMES PROPORTIONS (p. 846) : 68,2 % de β-D-fructopyranose contre 2,7 % de l'anomère α.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "mutarotation_anomeres": {
+    "1": {
+      "fichier": "mutarotation_anomeres-etape1.svg",
+      "titre": "L'anomère α, dissous pur",
+      "legende": "On dissout un anomère pur et l'on mesure le pouvoir rotatoire. Une heure plus tard, il a changé — puis il se stabilise.\n\nCE QUE CELA PROUVE. Une configuration figée garderait son pouvoir rotatoire. S'il évolue, c'est qu'une liaison se rompt et se reforme.\n\nLA LIAISON EN QUESTION EST CELLE DE L'HÉMIACÉTAL : le cycle s'ouvre, le carbone 1 redevient un aldéhyde PLAN, et toute mémoire de sa configuration disparaît. Puis il se referme, indifféremment par l'une ou l'autre face.\n\nLA FORME OUVERTE EST LE PASSAGE OBLIGÉ, et elle n'est jamais présente qu'en traces. Un intermédiaire n'a pas besoin d'être abondant pour être décisif : il lui suffit d'être accessible.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "mutarotation_anomeres-etape2.svg",
+      "titre": "L'anomère β — et le même point d'arrivée quel que soit le départ",
+      "legende": "Quel que soit l'anomère qu'on dissout, on aboutit au « mélange 37:63 » (McMurry p. 845).\n\nC'EST LA SIGNATURE D'UN ÉQUILIBRE THERMODYNAMIQUE : la composition finale est fixée par les stabilités relatives, pas par l'histoire. Et la stabilité s'explique — le β place tous ses substituants en équatorial.\n\nCE QUI NE MUTAROTE PAS EST AUSSI INSTRUCTIF (McMurry p. 850). Les glycosides « ne sont PAS en équilibre avec une forme à chaîne ouverte, et ils NE MONTRENT PAS de mutarotation ».\n\nPOURQUOI. Un hémiacétal porte un OH anomérique et peut rouvrir ; un acétal devrait expulser un alcoolate, ce qui ne se fait pas en milieu neutre. L'hémiacétal respire, l'acétal est verrouillé.\n\nET C'EST LE MÊME CRITÈRE QUE LE CARACTÈRE RÉDUCTEUR. Deux tests sans rapport apparent — le polarimètre et le miroir d'argent — interrogent la même question : le cycle peut-il s'ouvrir ?",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "glycosidation_fischer": {
+    "1": {
+      "fichier": "glycosidation_fischer-etape1.svg",
+      "titre": "L'hémiacétal — un sucre qui respire encore",
+      "legende": "Tant que le carbone anomérique porte un OH, le cycle s'ouvre et se referme sans cesse. Le sucre mutarote, il est réducteur, il ne tient pas en place.\n\nPOUR CONSTRUIRE QUELQUE CHOSE AVEC, IL FAUT L'IMMOBILISER — et l'on va pour cela remplacer ce OH par un OR.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "glycosidation_fischer-etape2.svg",
+      "titre": "L'acétal — un sucre verrouillé, et deux anomères",
+      "legende": "LE RÉSULTAT, CHIFFRÉ (McMurry p. 850) : le α-D-glucopyranose traité par MeOH et HCl donne « le méthyl α-D-glucopyranoside (66 %) et le méthyl β-D-glucopyranoside (33 %) ».\n\nDEUX ANOMÈRES, ET C'EST INÉVITABLE ICI. La réaction passe par un ion OXOCARBÉNIUM plan — l'acide protone l'hydroxyle anomérique, l'eau part, et l'oxygène du cycle stabilise le cation en donnant son doublet. L'alcool attaque ensuite des deux côtés.\n\nC'EST PRÉCISÉMENT CETTE LIMITE QUI A FAIT INVENTER AUTRE CHOSE : quand on veut UN anomère, il faut la participation du groupe voisin.\n\nCE QUE LE PRODUIT A PERDU (McMurry p. 850) : « comme tous les acétals, les glycosides sont stables en eau neutre. Ils ne sont pas en équilibre avec une forme à chaîne ouverte, et ils ne montrent pas de mutarotation. Ils peuvent cependant être hydrolysés… par traitement à l'acide aqueux. »\n\nTROIS PROPRIÉTÉS DISPARAISSENT ENSEMBLE, parce qu'elles avaient la même cause.\n\nET LE VIVANT S'Y PREND AUTREMENT (McMurry p. 852) : il ne protone pas, il PHOSPHORYLE — le glucose devient glucosyl phosphate par l'ATP. Une cellule ne peut pas travailler dans l'acide ; elle paie en énergie ce que le laboratoire obtient par les conditions.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reduction_alditol": {
+    "1": {
+      "fichier": "reduction_alditol-etape1.svg",
+      "titre": "La forme ouverte — moins d'un pour cent, et pourtant tout le substrat",
+      "legende": "Un hémiacétal ne se réduit pas. C'est la forme OUVERTE, minoritaire, que l'hydrure attaque.\n\nET C'EST SUFFISANT : chaque molécule réduite quitte l'équilibre irréversiblement, et la mutarotation en régénère aussitôt. La conversion est totale.\n\nLE PRINCIPE DE LE CHATELIER EMPLOYÉ COMME MÉTHODE DE SYNTHÈSE. En chimie des sucres, on travaille presque toujours sur une espèce minoritaire.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_alditol-etape2.svg",
+      "titre": "L'alditol — et deux exercices qui valent un cours de stéréochimie",
+      "legende": "« Le groupe carbonyle d'un monosaccharide peut être réduit par NaBH₄ pour former un ALDITOL » (McMurry p. 868). Plus de carbonyle, donc plus de cyclisation, plus de mutarotation, plus de caractère réducteur.\n\nVOUS EN MANGEZ (McMurry p. 853) : « le D-glucitol, l'alditol produit par réduction du D-glucose… est employé sous le nom de D-SORBITOL comme édulcorant et substitut du sucre dans de nombreux aliments. »\n\nDEUX EXERCICES DE McMURRY (p. 853). « La réduction du D-glucose conduit à un alditol optiquement ACTIF, alors que la réduction du D-galactose conduit à un alditol optiquement INACTIF. Expliquez. » Et : « la réduction du L-gulose conduit au MÊME alditol que la réduction du D-glucose. Expliquez. »\n\nMÊME CAUSE POUR LES DEUX. En réduisant l'aldéhyde, on a fait de la chaîne un objet à DEUX BOUTS IDENTIQUES — deux CH₂OH. Un plan de symétrie interne devient possible, et l'on obtient un composé MÉSO, achiral malgré ses centres asymétriques. Et la numérotation n'ayant plus de sens, deux sucres différents convergent.\n\nRENDRE LES DEUX BOUTS IDENTIQUES EFFACE DE L'INFORMATION.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxydation_acide_aldonique": {
+    "1": {
+      "fichier": "oxydation_acide_aldonique-etape1.svg",
+      "titre": "La forme ouverte expose son aldéhyde",
+      "legende": "« Comme les autres aldéhydes, les aldoses sont facilement oxydés pour donner les acides carboxyliques correspondants, appelés ACIDES ALDONIQUES. Une solution aqueuse tamponnée de Br₂ est souvent employée à cette fin » (McMurry p. 853).\n\nLE pH 6 N'EST PAS UN DÉTAIL : en milieu basique l'ose s'épimériserait avant d'être oxydé.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxydation_acide_aldonique-etape2.svg",
+      "titre": "L'acide aldonique — et le mot « réducteur », qu'on comprend à l'envers",
+      "legende": "LES DEUX RÉACTIFS HISTORIQUES SONT DES TESTS (McMurry p. 853) : « l'oxydation d'un aldose soit par Ag⁺ en ammoniaque aqueuse (réactif de TOLLENS) soit par Cu²⁺ avec du citrate de sodium aqueux (réactif de BENEDICT) a formé la base de tests simples pour ce qu'on appelle les SUCRES RÉDUCTEURS. Réducteurs parce que l'aldose RÉDUIT l'agent oxydant métallique. »\n\nUn sucre réducteur n'est pas un sucre qu'on réduit : c'est un sucre qui réduit l'argent en miroir métallique, ou le cuivre(II) bleu en oxyde de cuivre(I) rouge brique.\n\nCE QUE LE TEST MESURE VRAIMENT : la capacité du cycle à s'OUVRIR. Un glycoside ne s'ouvre pas et ne réduit rien — c'est le même critère que pour la mutarotation.\n\nET LA SÉLECTIVITÉ NE VIENT PAS DE L'OXYDANT MAIS DU SUBSTRAT : un aldéhyde s'oxyde bien plus facilement qu'un alcool. On choisit donc un oxydant assez doux pour s'arrêter là. Plus dur — HNO₃ — il oxyde aussi l'autre bout (McMurry p. 868).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxydation_acide_aldarique": {
+    "1": {
+      "fichier": "oxydation_acide_aldarique-etape1.svg",
+      "titre": "Le sucre, avec ses deux extrémités différentes",
+      "legende": "Un aldéhyde d'un côté, un alcool primaire de l'autre. C'est cette différence qui permet de numéroter la chaîne.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxydation_acide_aldarique-etape2.svg",
+      "titre": "Le diacide — et la symétrie qui apparaît",
+      "legende": "« Le groupe carbonyle d'un monosaccharide peut être oxydé par Br₂ aqueux pour former un acide aldonique, oxydé par HNO₃ pour former un acide ALDARIQUE, oxydé enzymatiquement pour former un acide URONIQUE » (McMurry p. 868).\n\nTROIS OXYDANTS, TROIS PRODUITS, UN SEUL SUBSTRAT. La différence est dans la puissance de ce qu'on envoie, pas dans le sucre.\n\nCE QUE LES DEUX BOUTS IDENTIQUES PERMETTENT : un plan de symétrie interne. Certains acides aldariques sont donc MÉSO — optiquement inactifs malgré quatre carbones asymétriques.\n\nET C'EST DEVENU UN OUTIL DE PREUVE. Avant la RMN et les rayons X, Emil Fischer oxydait un sucre en diacide et regardait au polarimètre : inactif, le sucre avait une certaine symétrie ; actif, il ne l'avait pas. Chaque mesure éliminait des possibilités.\n\nC'est ainsi que la configuration des seize aldohexoses a été établie — sans jamais voir une molécule. McMurry pose le même raisonnement du côté réducteur (p. 853).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "acetylation_etherification_oses": {
+    "1": {
+      "fichier": "acetylation_etherification_oses-etape1.svg",
+      "titre": "Cinq hydroxyles, et aucun moyen de les distinguer",
+      "legende": "C'est le problème central de la chimie des sucres. En chimie organique ordinaire, on distingue les fonctions par leur nature ; ici tout est alcool.\n\nLA PREMIÈRE STRATÉGIE EST DONC DE NE RIEN DISTINGUER : on protège TOUT.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "acetylation_etherification_oses-etape2.svg",
+      "titre": "Le pentaacétate — et ce qu'on a gagné",
+      "legende": "« Le β-D-glucopyranose est converti en son PENTAACÉTATE par traitement à l'anhydride acétique en solution de pyridine », à 0 °C, 91 % (McMurry p. 849). Quand on renonce à choisir, la réaction devient propre.\n\nTROIS GAINS D'UN COUP. La SOLUBILITÉ — un ose nu ne se dissout que dans l'eau, un ose peracétylé se comporte comme une molécule organique ordinaire. Le CALME — plus d'hydroxyle libre pour réagir de travers. Et une PRISE — il ne reste qu'une position manipulable, l'anomérique.\n\nL'ÉTHÉRIFICATION DEMANDE UNE PRÉCAUTION (McMurry p. 849) : « les conditions standard de Williamson, employant une base FORTE, tendent à DÉGRADER les molécules de sucre sensibles, mais l'oxyde d'argent fonctionne bien comme base DOUCE » — 85 % pour le pentaméthyl éther avec CH₃I et Ag₂O.\n\nRETENEZ LE RENVERSEMENT : quand la base détruit le substrat, on n'affaiblit pas la base — on active l'ÉLECTROPHILE. L'argent arrache l'iodure.\n\nET LES DEUX NE SE RETIRENT PAS PAREIL. Les acétates partent en milieu basique doux ; les éthers méthyliques ne partent PAS. D'où deux usages opposés : protection temporaire, ou marquage définitif — la méthylation exhaustive suivie d'hydrolyse révélant, par les positions restées libres, où étaient les liaisons glycosidiques.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "synthese_kiliani_fischer": {
+    "1": {
+      "fichier": "synthese_kiliani_fischer-etape1.svg",
+      "titre": "Un aldose à cinq carbones",
+      "legende": "« La découverte de la séquence d'allongement de chaîne a été initiée par l'observation de Heinrich KILIANI en 1886 que les aldoses réagissent avec HCN pour former des cyanhydrines. Emil FISCHER a immédiatement réalisé l'importance de la découverte de Kiliani et a conçu une méthode pour convertir le groupe nitrile de la cyanhydrine en aldéhyde » (McMurry p. 855).\n\nDEUX CONTRIBUTIONS DISTINCTES, et le nom les garde toutes deux.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_kiliani_fischer-etape2.svg",
+      "titre": "Un aldose à six carbones — mais il y en a DEUX",
+      "legende": "LA MÉTHODE A ÉTÉ MODERNISÉE (McMurry p. 855) : la voie de Fischer passait par « l'hydrolyse en acide carboxylique, la fermeture en ester cyclique (LACTONE), et la réduction subséquente » ; aujourd'hui on réduit le nitrile sur palladium, « donnant un intermédiaire IMINE qui est hydrolysé en aldéhyde ».\n\nLa subtilité : hydrogéné jusqu'au bout, un nitrile donnerait une amine. C'est l'eau qui happe l'imine avant qu'elle ne soit réduite — un contrôle cinétique, pas thermodynamique.\n\nLE POINT QUI COMMANDE LE RÉSULTAT (McMurry p. 855) : « la cyanhydrine est formée comme un MÉLANGE de stéréoisomères au nouveau centre de chiralité, de sorte que DEUX nouveaux aldoses, différant seulement par leur stéréochimie en C2, résultent de la synthèse de Kiliani-Fischer. L'extension de chaîne du D-arabinose, par exemple, donne un mélange de D-GLUCOSE et de D-MANNOSE. »\n\nPOURQUOI DEUX : le cyanure attaque un aldéhyde plan, et les centres asymétriques du sucre sont trop loin pour orienter l'approche.\n\nCE N'EST PAS UN ÉCHEC POUR FISCHER. Que ces deux sucres naissent du MÊME précurseur prouve qu'ils sont identiques partout sauf en un point. La divergence est une information.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "degradation_wohl": {
+    "1": {
+      "fichier": "degradation_wohl-etape1.svg",
+      "titre": "Un aldose à six carbones",
+      "legende": "La réaction inverse de Kiliani-Fischer. Les deux passent par un nitrile : là on l'ajoutait, ici on le fabrique à partir du carbone qui existe — puis on le laisse partir.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "degradation_wohl-etape2.svg",
+      "titre": "Un aldose à cinq carbones — et un centre asymétrique effacé",
+      "legende": "LA SÉQUENCE (McMurry p. 856) : « la conversion de l'aldéhyde en nitrile est accomplie par traitement d'un aldose avec de l'HYDROXYLAMINE pour donner une imine appelée OXIME, suivie de la DÉSHYDRATATION de l'oxime avec de l'anhydride acétique. »\n\nL'anhydride fait deux choses à la fois : il acétyle l'oxygène de l'oxime, ce qui permet l'élimination vers le nitrile, et il acétyle tous les hydroxyles du sucre. Sur un substrat fragile, chaque étape évitée est un gain.\n\nL'HONNÊTETÉ SUR LE RENDEMENT (McMurry p. 856) : « la dégradation de Wohl ne donne pas de rendements particulièrement élevés d'aldoses raccourcis, mais la réaction est GÉNÉRALE pour tous les aldopentoses et aldohexoses. Par exemple, le D-galactose est converti par dégradation de Wohl en D-LYXOSE. »\n\nDEUX QUALITÉS QUI NE VONT PAS ENSEMBLE D'ORDINAIRE — et pour une méthode d'ANALYSE, la généralité compte plus que le rendement.\n\nCE QU'ELLE EFFACE : l'ancien C2, qui portait un centre asymétrique, devient le nouvel aldéhyde et perd sa configuration. Deux sucres épimères en C2 convergent donc vers le même produit — et cette convergence est une preuve de parenté.\n\nDEUX PRÉCAUTIONS DE SOURÇAGE. Le Roberts & Caserio mentionne cette réaction dans son index, mais renvoie à son chapitre 20, hors de l'extrait indexé : on ne peut pas le citer. Et le « Wohl » du Multicomposants (p. 370, 380) désigne la réaction de Wohl-Ziegler, une bromation allylique au NBS.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "epimerisation_milieu_basique": {
+    "1": {
+      "fichier": "epimerisation_milieu_basique-etape1.svg",
+      "titre": "Le fructose — une cétose, sans aucun aldéhyde",
+      "legende": "Et pourtant il donne un test de Tollens POSITIF.\n\nDEUX EXPLICATIONS SONT CONCEVABLES : ou bien le test détecte aussi les cétones — auquel cas il ne vaut rien —, ou bien le fructose se TRANSFORME en aldéhyde dans les conditions de l'essai. Et ces conditions sont basiques.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "epimerisation_milieu_basique-etape2.svg",
+      "titre": "Le glucose — et le mannose avec lui",
+      "legende": "McMURRY TRANCHE (p. 853) : le fructose « est un sucre réducteur, même s'il ne contient AUCUN groupe aldéhyde. La réduction se produit parce que le fructose est facilement isomérisé en un mélange d'aldoses (GLUCOSE et MANNOSE) en solution basique, par une série de déplacements tautomères céto-énoliques. »\n\nL'INTERMÉDIAIRE PORTE UN NOM : un ÉNEDIOL — une double liaison C=C portant un OH sur chacun de ses carbones.\n\nPOURQUOI IL EXPLIQUE TOUT. Ses deux carbones sont équivalents du point de vue de la tautomérie : il peut retomber en cétose d'un côté, en aldose de l'autre. Et comme le carbone reprotoné est plan, deux aldoses ÉPIMÈRES naissent.\n\nTROIS SUCRES EN ÉQUILIBRE, RELIÉS PAR UN SEUL INTERMÉDIAIRE.\n\nET LE VIVANT EMPLOIE EXACTEMENT CE MÉCANISME (McMurry p. 984) : à la deuxième étape de la glycolyse, « le glucose 6-phosphate est isomérisé… par ouverture initiale du cycle hémiacétal vers sa forme à chaîne ouverte, suivie d'une tautomérisation céto-énolique en un ÉNEDIOL cis. Mais parce que le glucose et le fructose partagent un énediol COMMUN, une tautomérisation supplémentaire vers une forme céto différente produit le fructose. »\n\nQU'APPORTE L'ENZYME, ALORS ? Pas le mécanisme, qui existe sans elle — la SÉLECTIVITÉ. En ballon l'énediol retombe où il veut ; dans l'enzyme, une seule face est accessible.\n\nLe mécanisme appartient à la molécule, le choix du produit appartient à la protéine.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydrolyse_disaccharide": {
+    "1": {
+      "fichier": "hydrolyse_disaccharide-etape1.svg",
+      "titre": "Le maltose — deux glucoses et une liaison α",
+      "legende": "« Les disaccharides contiennent une liaison acétal glycosidique entre le carbone anomérique d'un sucre et un groupe –OH à N'IMPORTE QUELLE position de l'autre sucre… Une telle liaison est appelée une liaison 1→4 » (McMurry p. 858).\n\nDEUX PARAMÈTRES LA DÉCRIVENT : quelle position, et quelle configuration. « Le MALTOSE, le disaccharide obtenu par hydrolyse enzymatique de l'AMIDON, consiste en deux unités α-D-glucopyranose jointes par une liaison 1→4-α-glycosidique. »\n\nLE CELLOBIOSE EST LE MÊME, EN β — et il vient de la cellulose. Ce qui sépare votre alimentation du bois tient à l'orientation d'un seul oxygène.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydrolyse_disaccharide-etape2.svg",
+      "titre": "Le glucose libéré — et l'information anomérique perdue",
+      "legende": "L'acide protone l'oxygène glycosidique, qui devient groupe partant ; l'oxocarbénium formé est capté par l'eau.\n\nC'EST EXACTEMENT L'INVERSE DE LA GLYCOSIDATION DE FISCHER — même mécanisme, même intermédiaire, sens opposé. Ce qui décide du sens n'est ni le catalyseur ni la température : c'est ce qu'il y a en excès.\n\nD'OÙ UNE CONSÉQUENCE : l'hydrolyse acide ne respecte AUCUNE configuration. Le cation est plan, l'eau attaque des deux côtés, et le produit mutarote de toute façon.\n\nL'ENZYME, ELLE, LA RESPECTE — et c'est ce qui la rend spécifique. Une maltase coupe les α et refuse les β. Vous possédez des maltases, pas de cellulases : les ruminants non plus, ils hébergent des bactéries qui en fabriquent.\n\nL'INTOLÉRANCE AU LACTOSE RELÈVE DU MÊME PRINCIPE : une liaison β, une lactase qui s'éteint après l'enfance, et un aliment qui devient un problème.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "glycosylation_stereocontrolee": {
+    "1": {
+      "fichier": "glycosylation_stereocontrolee-etape1.svg",
+      "titre": "Le bromure de glycosyle — et le fait qui démolit la SN2",
+      "legende": "LE FAIT EXPÉRIMENTAL (McMurry p. 851) : « les DEUX anomères α et β du bromure de tétraacétyl-D-glucopyranosyle donnent LE MÊME β-glycoside, ce qui implique qu'ils réagissent par un chemin COMMUN. »\n\nAUCUNE SN2 NE PEUT FAIRE CELA. Une SN2 inverse la configuration : deux départs différents donneraient deux arrivées différentes.\n\nMcMurry pose d'ailleurs le problème avant de le résoudre : « bien que la réaction de KOENIGS-KNORR semble impliquer un simple déplacement SN2 par l'arrière de l'ion bromure par l'ion alcoolate, la situation est en réalité plus COMPLEXE. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "glycosylation_stereocontrolee-etape2.svg",
+      "titre": "Un seul anomère — parce qu'une face était bouchée",
+      "legende": "LA SOLUTION (McMurry p. 851) : le bromure « subit une perte SPONTANÉE, de type SN1, de Br⁻, suivie d'une réaction INTERNE avec le groupe ESTER en C2 pour former un ion OXONIUM. Puisque l'acétate en C2 est sur le DESSOUS du cycle du glucose, la liaison C–O se forme également par le dessous. Un déplacement SN2 par l'arrière de l'ion oxonium se produit alors avec l'inversion de configuration habituelle, donnant un β-glycoside et RÉGÉNÉRANT l'acétate en C2. »\n\nREGARDEZ LES TROIS CONSÉQUENCES ENSEMBLE : la configuration de départ ne compte plus, puisqu'on passe par un cation commun ; celle d'arrivée est IMPOSÉE, puisqu'une face est physiquement bloquée par le pont ; et le groupe qui a fait le travail est RESTITUÉ intact.\n\nUN GROUPE QUI DIRIGE SANS ÊTRE CONSOMMÉ — c'est la participation du groupe voisin, ou assistance anchimérique.\n\nCE QUE CELA CORRIGE. La glycosidation de Fischer donnait 66:33 parce que l'oxocarbénium plan était attaqué des deux côtés. Ici le contrôle ne tient pas à un écart d'énergie mais à un OBSTACLE — bien plus fiable.\n\nD'OÙ LA VRAIE FONCTION DE L'ACÉTYLATION PRÉALABLE : le choix du groupe en C2 décide de la stéréochimie. Un groupe participant — acétate, benzoate — impose la liaison 1,2-trans ; un éther benzylique ne participe pas, et il faut chercher le contrôle ailleurs.\n\nET CE N'EST PAS UN RAFFINEMENT ACADÉMIQUE : l'amidon et la cellulose ne diffèrent que par là. Une glycosylation sans contrôle anomérique donne un mélange de deux composés dont l'un nourrit et l'autre non.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

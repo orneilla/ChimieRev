@@ -5456,6 +5456,324 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "cyclisation_ose_hemiacetal": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "845",
+          "note": "La définition des anomères et la raison de leur inégalité : le D-glucose donne « en solution aqueuse un mélange 37:63 de deux anomères ». « Le composé dont le OH nouvellement engendré en C1 est CIS au OH du centre de chiralité le plus bas dans une projection de Fischer est appelé l'anomère α… Le composé dont le OH nouvellement engendré est TRANS à celui-ci est appelé l'anomère β. » Et la cause conformationnelle : « notez que dans le β-D-glucopyranose, TOUS les substituants du cycle sont ÉQUATORIAUX. Ainsi, le β-D-glucopyranose est le moins encombré stériquement et LE PLUS STABLE DES HUIT ALDOHEXOSES D. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "846",
+          "note": "Le cas du fructose, qui interdit de généraliser les proportions du glucose : sa forme majoritaire en solution est le β-D-fructopyranose à 68,2 %, l'anomère α ne comptant que pour 2,7 %. Une cétose cyclise comme une aldose — l'hémicétal se forme comme l'hémiacétal — mais les équilibres n'ont rien à voir."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "847",
+          "note": "La construction du dessin, étape par étape : « d'abord dessiner une projection de Fischer. Puis la coucher sur le côté, et l'enrouler de sorte que le groupe –CHO (C1) soit devant à droite et le groupe –CH₂OH (C6) vers l'arrière gauche. Maintenant, connecter le OH en C5 au groupe carbonyle C1 pour former le cycle pyranose. En dessinant la forme chaise, LEVER le carbone le plus à gauche (C4) et ABAISSER celui le plus à droite (C1). »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "801",
+          "note": "L'EFFET ANOMÉRIQUE, que les manuels d'organique générale ne traitent pas. Clayden y arrive par les effets stéréoélectroniques : « certains substituants des hétérocycles saturés préfèrent être AXIAUX : c'est l'effet anomérique ». Il donne au passage la composition complète du glucose en solution — « environ deux tiers du glucose en solution existe sous ce stéréoisomère, mais la formation et la coupure de l'hémiacétal sont rapides, et il est en équilibre avec un tiers supplémentaire qui porte le groupe hydroxyle hémiacétalique AXIAL (MOINS DE 1 % est sous forme à chaîne ouverte) ». Et, sur la même page, la mesure qui fonde tout le raisonnement stéréoélectronique : deux acétals voisins dont l'un ne peut pas aligner un doublet de l'oxygène avec la σ* de la liaison qui se rompt ; « l'acétal de droite s'hydrolyse environ 10¹⁰ fois plus vite »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "803",
+          "note": "La CAUSE de l'effet, et sa signature cristallographique. Un doublet de l'oxygène endocyclique se délocalise dans la σ* de la liaison C–X axiale : « la liaison C–Cl est affaiblie, et une partie de la densité électronique de l'oxygène est délocalisée sur Cl. Cela se voit dans les structures cristallines : les composés présentant un effet anomérique ont une liaison PLUS LONGUE (donc affaiblie) à l'EXTÉRIEUR du cycle, et une liaison C–O PLUS COURTE, plus forte, DANS le cycle. » Clayden rattache l'effet à la délocalisation d'un amide, et note que « si le processus se poursuivait, Cl⁻ partirait » — c'est le début d'une hydrolyse d'acétal."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "mutarotation_anomeres": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "845",
+          "note": "La définition des anomères et la raison de leur inégalité : le D-glucose donne « en solution aqueuse un mélange 37:63 de deux anomères ». « Le composé dont le OH nouvellement engendré en C1 est CIS au OH du centre de chiralité le plus bas dans une projection de Fischer est appelé l'anomère α… Le composé dont le OH nouvellement engendré est TRANS à celui-ci est appelé l'anomère β. » Et la cause conformationnelle : « notez que dans le β-D-glucopyranose, TOUS les substituants du cycle sont ÉQUATORIAUX. Ainsi, le β-D-glucopyranose est le moins encombré stériquement et LE PLUS STABLE DES HUIT ALDOHEXOSES D. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "850",
+          "note": "La glycosidation de Fischer, chiffrée et commentée : le α-D-glucopyranose traité par MeOH et HCl donne « le méthyl α-D-glucopyranoside (66 %) et le méthyl β-D-glucopyranoside (33 %) ». La nomenclature : « les glycosides sont nommés en citant d'abord le groupe alkyle puis en remplaçant la terminaison -ose du sucre par -oside. » Et ce que le produit a perdu : « comme tous les acétals, les glycosides sont STABLES en eau neutre. Ils ne sont PAS en équilibre avec une forme à chaîne ouverte, et ils NE MONTRENT PAS de mutarotation. Ils peuvent cependant être hydrolysés pour redonner le monosaccharide libre plus l'alcool, par traitement à l'acide aqueux. » Avec l'exemple naturel : la DIGITOXINE, « le composant actif des préparations de digitale employées dans le traitement des maladies cardiaques, est un glycoside consistant en un alcool stéroïdien lié à un trisaccharide » — les trois sucres étant eux-mêmes reliés par des liaisons glycosidiques."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "3 — Bioorganic Chemistry of the Phosphates",
+          "pages": "181",
+          "note": "La mutarotation employée comme réaction MODÈLE pour l'étude de la catalyse acide-base générale — elle est propre, suivie au polarimètre, et sans produit secondaire."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "801",
+          "note": "L'EFFET ANOMÉRIQUE, que les manuels d'organique générale ne traitent pas. Clayden y arrive par les effets stéréoélectroniques : « certains substituants des hétérocycles saturés préfèrent être AXIAUX : c'est l'effet anomérique ». Il donne au passage la composition complète du glucose en solution — « environ deux tiers du glucose en solution existe sous ce stéréoisomère, mais la formation et la coupure de l'hémiacétal sont rapides, et il est en équilibre avec un tiers supplémentaire qui porte le groupe hydroxyle hémiacétalique AXIAL (MOINS DE 1 % est sous forme à chaîne ouverte) ». Et, sur la même page, la mesure qui fonde tout le raisonnement stéréoélectronique : deux acétals voisins dont l'un ne peut pas aligner un doublet de l'oxygène avec la σ* de la liaison qui se rompt ; « l'acétal de droite s'hydrolyse environ 10¹⁰ fois plus vite »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "802",
+          "note": "La PREUVE de l'effet anomérique, par les constantes de couplage. Sur un triacétate de tétrahydropyrane chloré, « le point clé est que les couplages axial-axial sont grands (plus de 8 Hz, disons) » ; or H1 couple à H2 avec seulement 2,0 Hz, et les deux H5 couplent à H4 avec J < 4 Hz. « Avec ces preuves, nous devons conclure que H1 et H4 (et donc H2 et H3) sont ÉQUATORIAUX, de sorte que le composé existe principalement dans la conformation TOUT-AXIALE. Cette préférence axiale s'appelle l'effet anomérique. » Le composé n'étant pas un hémiacétal, aucun changement de configuration n'est possible : la conformation est bien celle qu'on mesure."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "glycosidation_fischer": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "850",
+          "note": "La glycosidation de Fischer, chiffrée et commentée : le α-D-glucopyranose traité par MeOH et HCl donne « le méthyl α-D-glucopyranoside (66 %) et le méthyl β-D-glucopyranoside (33 %) ». La nomenclature : « les glycosides sont nommés en citant d'abord le groupe alkyle puis en remplaçant la terminaison -ose du sucre par -oside. » Et ce que le produit a perdu : « comme tous les acétals, les glycosides sont STABLES en eau neutre. Ils ne sont PAS en équilibre avec une forme à chaîne ouverte, et ils NE MONTRENT PAS de mutarotation. Ils peuvent cependant être hydrolysés pour redonner le monosaccharide libre plus l'alcool, par traitement à l'acide aqueux. » Avec l'exemple naturel : la DIGITOXINE, « le composant actif des préparations de digitale employées dans le traitement des maladies cardiaques, est un glycoside consistant en un alcool stéroïdien lié à un trisaccharide » — les trois sucres étant eux-mêmes reliés par des liaisons glycosidiques."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "852",
+          "note": "La voie biologique, qui n'emploie pas d'acide : le glucose est d'abord converti en GLUCOSYL PHOSPHATE par l'ATP, puis en dérivé de l'UDP. Le groupe partant est un ester de phosphate, et l'enzyme impose la face attaquée. Deux façons de rendre un hydroxyle partant — le protoner, ou le phosphoryler ; la première est celle du ballon, la seconde celle de la cellule, qui ne peut pas travailler en milieu acide."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "49 — Natural products",
+          "pages": "1144-1145",
+          "note": "Les glycosides dans la nature, avec une classification que McMurry ne donne pas : « beaucoup d'alcools, thiols et amines existent dans la nature sous forme de glycosides, c'est-à-dire d'acétals O-, S- ou N- en position ANOMÉRIQUE » — d'où les O-glycosides, les S-glycosides et les N-glycosides. « Les O-glycosides existent en immense variété, le glucose et d'autres sucres étant joints aux groupes OH d'alcools et de phénols pour former des acétals. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "6 — Nucleophilic Addition to the Carbonyl Group",
+          "pages": "129",
+          "note": "La RÉVERSIBILITÉ de la formation d'une cyanhydrine, et ce qu'elle coûte : « la réversibilité de la formation de cyanhydrine est d'un intérêt plus que théorique. Dans certaines parties de l'Afrique, l'aliment de base est le MANIOC. Cet aliment contient des quantités substantielles du GLUCOSIDE de la cyanhydrine de l'acétone (un glucoside est un acétal dérivé de… ) » — deux chimies de cette famille dans une seule molécule, la cyanhydrine et le glycoside, et un poison qui se libère si l'on prépare mal l'aliment. Clayden note aussi (p. 129) que l'encombrement décide de la position de l'équilibre : « vous devrez vous habituer à penser à la question de savoir si la présence de gros substituants… est un facteur déterminant de la bonne marche d'une réaction »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "reduction_alditol": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "853",
+          "note": "Les trois oxydations et la réduction, sur une seule page. « Comme les autres aldéhydes, les aldoses sont facilement oxydés pour donner les acides carboxyliques correspondants, appelés ACIDES ALDONIQUES. Une solution aqueuse tamponnée de Br₂ est souvent employée à cette fin. » Les tests historiques : « l'oxydation d'un aldose soit par Ag⁺ en ammoniaque aqueuse (réactif de TOLLENS) soit par Cu²⁺ avec du citrate de sodium aqueux (réactif de BENEDICT) a formé la base de tests simples pour ce qu'on appelle les SUCRES RÉDUCTEURS. Réducteurs parce que l'aldose RÉDUIT l'agent oxydant métallique. » L'anomalie du fructose et sa cause : il « est un sucre réducteur, même s'il ne contient AUCUN groupe aldéhyde. La réduction se produit parce que le fructose est facilement isomérisé en un mélange d'aldoses (glucose et mannose) en solution basique, par une série de déplacements tautomères céto-énoliques » via un ÉNEDIOL ; « les glycosides, cependant, sont non réducteurs parce que le groupe acétal n'est pas hydrolysé en aldéhyde dans les conditions basiques ». Enfin le sorbitol : « le D-glucitol, l'alditol produit par réduction du D-glucose, est lui-même une substance naturelle trouvée dans de nombreux fruits et baies. Il est employé sous le nom de D-SORBITOL comme édulcorant. » Et les deux exercices de stéréochimie : la réduction du D-galactose donne un alditol optiquement INACTIF, et celle du L-gulose donne le MÊME alditol que celle du D-glucose."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "868",
+          "note": "Le résumé du chapitre, qui range les quatre niveaux d'oxydation en une phrase : « le groupe carbonyle d'un monosaccharide peut être RÉDUIT par NaBH₄ pour former un ALDITOL, oxydé par Br₂ aqueux pour former un ACIDE ALDONIQUE, oxydé par HNO₃ pour former un ACIDE ALDARIQUE, oxydé enzymatiquement pour former un ACIDE URONIQUE, ou traité par un alcool en présence d'acide pour former un GLYCOSIDE. Les monosaccharides peuvent aussi être allongés par la synthèse multi-étapes de KILIANI-FISCHER et raccourcis par… »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxydation_acide_aldonique": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "853",
+          "note": "Les trois oxydations et la réduction, sur une seule page. « Comme les autres aldéhydes, les aldoses sont facilement oxydés pour donner les acides carboxyliques correspondants, appelés ACIDES ALDONIQUES. Une solution aqueuse tamponnée de Br₂ est souvent employée à cette fin. » Les tests historiques : « l'oxydation d'un aldose soit par Ag⁺ en ammoniaque aqueuse (réactif de TOLLENS) soit par Cu²⁺ avec du citrate de sodium aqueux (réactif de BENEDICT) a formé la base de tests simples pour ce qu'on appelle les SUCRES RÉDUCTEURS. Réducteurs parce que l'aldose RÉDUIT l'agent oxydant métallique. » L'anomalie du fructose et sa cause : il « est un sucre réducteur, même s'il ne contient AUCUN groupe aldéhyde. La réduction se produit parce que le fructose est facilement isomérisé en un mélange d'aldoses (glucose et mannose) en solution basique, par une série de déplacements tautomères céto-énoliques » via un ÉNEDIOL ; « les glycosides, cependant, sont non réducteurs parce que le groupe acétal n'est pas hydrolysé en aldéhyde dans les conditions basiques ». Enfin le sorbitol : « le D-glucitol, l'alditol produit par réduction du D-glucose, est lui-même une substance naturelle trouvée dans de nombreux fruits et baies. Il est employé sous le nom de D-SORBITOL comme édulcorant. » Et les deux exercices de stéréochimie : la réduction du D-galactose donne un alditol optiquement INACTIF, et celle du L-gulose donne le MÊME alditol que celle du D-glucose."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "868",
+          "note": "Le résumé du chapitre, qui range les quatre niveaux d'oxydation en une phrase : « le groupe carbonyle d'un monosaccharide peut être RÉDUIT par NaBH₄ pour former un ALDITOL, oxydé par Br₂ aqueux pour former un ACIDE ALDONIQUE, oxydé par HNO₃ pour former un ACIDE ALDARIQUE, oxydé enzymatiquement pour former un ACIDE URONIQUE, ou traité par un alcool en présence d'acide pour former un GLYCOSIDE. Les monosaccharides peuvent aussi être allongés par la synthèse multi-étapes de KILIANI-FISCHER et raccourcis par… »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxydation_acide_aldarique": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "868",
+          "note": "Le résumé du chapitre, qui range les quatre niveaux d'oxydation en une phrase : « le groupe carbonyle d'un monosaccharide peut être RÉDUIT par NaBH₄ pour former un ALDITOL, oxydé par Br₂ aqueux pour former un ACIDE ALDONIQUE, oxydé par HNO₃ pour former un ACIDE ALDARIQUE, oxydé enzymatiquement pour former un ACIDE URONIQUE, ou traité par un alcool en présence d'acide pour former un GLYCOSIDE. Les monosaccharides peuvent aussi être allongés par la synthèse multi-étapes de KILIANI-FISCHER et raccourcis par… »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "853",
+          "note": "Les trois oxydations et la réduction, sur une seule page. « Comme les autres aldéhydes, les aldoses sont facilement oxydés pour donner les acides carboxyliques correspondants, appelés ACIDES ALDONIQUES. Une solution aqueuse tamponnée de Br₂ est souvent employée à cette fin. » Les tests historiques : « l'oxydation d'un aldose soit par Ag⁺ en ammoniaque aqueuse (réactif de TOLLENS) soit par Cu²⁺ avec du citrate de sodium aqueux (réactif de BENEDICT) a formé la base de tests simples pour ce qu'on appelle les SUCRES RÉDUCTEURS. Réducteurs parce que l'aldose RÉDUIT l'agent oxydant métallique. » L'anomalie du fructose et sa cause : il « est un sucre réducteur, même s'il ne contient AUCUN groupe aldéhyde. La réduction se produit parce que le fructose est facilement isomérisé en un mélange d'aldoses (glucose et mannose) en solution basique, par une série de déplacements tautomères céto-énoliques » via un ÉNEDIOL ; « les glycosides, cependant, sont non réducteurs parce que le groupe acétal n'est pas hydrolysé en aldéhyde dans les conditions basiques ». Enfin le sorbitol : « le D-glucitol, l'alditol produit par réduction du D-glucose, est lui-même une substance naturelle trouvée dans de nombreux fruits et baies. Il est employé sous le nom de D-SORBITOL comme édulcorant. » Et les deux exercices de stéréochimie : la réduction du D-galactose donne un alditol optiquement INACTIF, et celle du L-gulose donne le MÊME alditol que celle du D-glucose."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "5 — Stereochemistry at Tetrahedral Centers",
+          "pages": "132",
+          "note": "La définition employée dans toute la famille, donnée au chapitre de stéréochimie : « dans le cas particulier où deux diastéréoisomères diffèrent en UN SEUL centre de chiralité mais sont identiques en tous les autres, nous disons que les composés sont des ÉPIMÈRES. » Avec l'exemple du cholestanol et du coprostanol, qui ont neuf centres de chiralité dont huit identiques."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "acetylation_etherification_oses": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "849",
+          "note": "Les deux protections, et la précaution qui distingue les sucres des alcools ordinaires. L'acétylation : « le β-D-glucopyranose est converti en son PENTAACÉTATE par traitement à l'anhydride acétique en solution de pyridine » à 0 °C, 91 %. L'éthérification : « les glucides sont convertis en éthers par traitement avec un halogénure d'alkyle en présence de base — la synthèse d'éther de Williamson. Les conditions standard de Williamson, employant une base FORTE, tendent à DÉGRADER les molécules de sucre sensibles, mais l'OXYDE D'ARGENT fonctionne bien comme base douce et donne de hauts rendements d'éthers. Par exemple, le α-D-glucopyranose est converti en son pentaméthyl éther avec 85 % de rendement par réaction avec l'iodométhane et Ag₂O. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "851",
+          "note": "Ce qui fait de l'acétate du C2 autre chose qu'une protection : il PARTICIPE au départ du groupe partant anomérique et impose la face d'attaque — le mécanisme détaillé est celui de la fiche sur la glycosylation stéréocontrôlée."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "synthese_kiliani_fischer": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "855",
+          "note": "L'histoire, les deux voies et le résultat stéréochimique. « La découverte de la séquence d'allongement de chaîne a été initiée par l'observation de Heinrich KILIANI en 1886 que les aldoses réagissent avec HCN pour former des cyanhydrines. Emil FISCHER a immédiatement réalisé l'importance de la découverte de Kiliani et a conçu une méthode pour convertir le groupe nitrile de la cyanhydrine en aldéhyde. » « La méthode originale de Fischer… impliquait l'hydrolyse en acide carboxylique, la fermeture en ester cyclique (LACTONE), et la réduction subséquente. Une amélioration moderne implique la réduction du nitrile sur un catalyseur au PALLADIUM, donnant un intermédiaire IMINE qui est hydrolysé en aldéhyde. » Et le point décisif : « la cyanhydrine est formée comme un MÉLANGE de stéréoisomères au nouveau centre de chiralité, de sorte que DEUX nouveaux aldoses, différant seulement par leur stéréochimie en C2, résultent de la synthèse de Kiliani-Fischer. L'extension de chaîne du D-arabinose, par exemple, donne un mélange de D-glucose et de D-mannose. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "868",
+          "note": "Le résumé du chapitre, qui range les quatre niveaux d'oxydation en une phrase : « le groupe carbonyle d'un monosaccharide peut être RÉDUIT par NaBH₄ pour former un ALDITOL, oxydé par Br₂ aqueux pour former un ACIDE ALDONIQUE, oxydé par HNO₃ pour former un ACIDE ALDARIQUE, oxydé enzymatiquement pour former un ACIDE URONIQUE, ou traité par un alcool en présence d'acide pour former un GLYCOSIDE. Les monosaccharides peuvent aussi être allongés par la synthèse multi-étapes de KILIANI-FISCHER et raccourcis par… »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "6 — Nucleophilic Addition to the Carbonyl Group",
+          "pages": "127-128",
+          "note": "La formation de cyanhydrine par les orbitales, ce que McMurry ne fait pas : « le cyanure contient des atomes C et N hybridés sp, et sa HOMO est une orbitale sp sur le carbone. La réaction est une réaction d'addition nucléophile typique sur un groupe carbonyle : le doublet de la HOMO du CN⁻ » entre dans la π* du carbonyle. Avec la portée synthétique : « les cyanhydrines sont d'importants intermédiaires de synthèse »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "6 — Nucleophilic Addition to the Carbonyl Group",
+          "pages": "129",
+          "note": "La RÉVERSIBILITÉ de la formation d'une cyanhydrine, et ce qu'elle coûte : « la réversibilité de la formation de cyanhydrine est d'un intérêt plus que théorique. Dans certaines parties de l'Afrique, l'aliment de base est le MANIOC. Cet aliment contient des quantités substantielles du GLUCOSIDE de la cyanhydrine de l'acétone (un glucoside est un acétal dérivé de… ) » — deux chimies de cette famille dans une seule molécule, la cyanhydrine et le glycoside, et un poison qui se libère si l'on prépare mal l'aliment. Clayden note aussi (p. 129) que l'encombrement décide de la position de l'équilibre : « vous devrez vous habituer à penser à la question de savoir si la présence de gros substituants… est un facteur déterminant de la bonne marche d'une réaction »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "degradation_wohl": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "856",
+          "note": "La séquence et son honnêteté sur les rendements : « la conversion de l'aldéhyde en nitrile est accomplie par traitement d'un aldose avec de l'HYDROXYLAMINE pour donner une imine appelée OXIME, suivie de la DÉSHYDRATATION de l'oxime avec de l'anhydride acétique. La dégradation de Wohl ne donne pas de rendements particulièrement élevés d'aldoses raccourcis, mais la réaction est GÉNÉRALE pour tous les aldopentoses et aldohexoses. Par exemple, le D-galactose est converti par dégradation de Wohl en D-LYXOSE. » Deux qualités qui ne vont pas ensemble d'ordinaire — et pour une méthode d'analyse structurale, la généralité compte plus que le rendement."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "868",
+          "note": "Le résumé du chapitre, qui range les quatre niveaux d'oxydation en une phrase : « le groupe carbonyle d'un monosaccharide peut être RÉDUIT par NaBH₄ pour former un ALDITOL, oxydé par Br₂ aqueux pour former un ACIDE ALDONIQUE, oxydé par HNO₃ pour former un ACIDE ALDARIQUE, oxydé enzymatiquement pour former un ACIDE URONIQUE, ou traité par un alcool en présence d'acide pour former un GLYCOSIDE. Les monosaccharides peuvent aussi être allongés par la synthèse multi-étapes de KILIANI-FISCHER et raccourcis par… »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "epimerisation_milieu_basique": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "853",
+          "note": "Les trois oxydations et la réduction, sur une seule page. « Comme les autres aldéhydes, les aldoses sont facilement oxydés pour donner les acides carboxyliques correspondants, appelés ACIDES ALDONIQUES. Une solution aqueuse tamponnée de Br₂ est souvent employée à cette fin. » Les tests historiques : « l'oxydation d'un aldose soit par Ag⁺ en ammoniaque aqueuse (réactif de TOLLENS) soit par Cu²⁺ avec du citrate de sodium aqueux (réactif de BENEDICT) a formé la base de tests simples pour ce qu'on appelle les SUCRES RÉDUCTEURS. Réducteurs parce que l'aldose RÉDUIT l'agent oxydant métallique. » L'anomalie du fructose et sa cause : il « est un sucre réducteur, même s'il ne contient AUCUN groupe aldéhyde. La réduction se produit parce que le fructose est facilement isomérisé en un mélange d'aldoses (glucose et mannose) en solution basique, par une série de déplacements tautomères céto-énoliques » via un ÉNEDIOL ; « les glycosides, cependant, sont non réducteurs parce que le groupe acétal n'est pas hydrolysé en aldéhyde dans les conditions basiques ». Enfin le sorbitol : « le D-glucitol, l'alditol produit par réduction du D-glucose, est lui-même une substance naturelle trouvée dans de nombreux fruits et baies. Il est employé sous le nom de D-SORBITOL comme édulcorant. » Et les deux exercices de stéréochimie : la réduction du D-galactose donne un alditol optiquement INACTIF, et celle du L-gulose donne le MÊME alditol que celle du D-glucose."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "984",
+          "note": "Le même mécanisme dans la glycolyse, mot pour mot : « le glucose 6-phosphate est ensuite isomérisé par la glucose 6-phosphate isomérase pour donner le fructose 6-phosphate. Cette isomérisation a lieu par ouverture initiale du cycle hémiacétal du glucose vers sa forme à chaîne ouverte, suivie d'une tautomérisation céto-énolique en un ÉNEDIOL cis. Mais parce que le glucose et le fructose partagent un énediol COMMUN, une tautomérisation supplémentaire vers une forme céto différente produit le fructose à chaîne ouverte, et la cyclisation achève le processus. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "987",
+          "note": "Le même énediol à l'étape 5, avec un détail que seul le marquage isotopique pouvait établir : « le phosphate de dihydroxyacétone est isomérisé par la triose phosphate isomérase… l'isomérisation a lieu par tautomérisation céto-énolique via un intermédiaire énediol commun. Une base DÉPROTONE C1 puis REPROTONE C2 en employant le MÊME hydrogène. » Le proton est transporté d'un carbone à l'autre sans passer par le solvant."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydrolyse_disaccharide": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "858",
+          "note": "Ce qu'est une liaison glycosidique, et les deux paramètres qui la décrivent : « les disaccharides contiennent une liaison acétal glycosidique entre le carbone anomérique d'un sucre et un groupe –OH à N'IMPORTE QUELLE position de l'autre sucre. Une liaison glycosidique entre C1 du premier sucre et le –OH en C4 du second est particulièrement courante. Une telle liaison est appelée une liaison 1→4. La liaison glycosidique vers un carbone anomérique peut être soit α soit β. Le MALTOSE, le disaccharide obtenu par hydrolyse enzymatique de l'AMIDON, consiste en deux unités α-D-glucopyranose jointes par une liaison 1→4-α-glycosidique. Le CELLOBIOSE… » Même sucre, même position, configuration opposée — et l'un vient de l'amidon quand l'autre vient de la cellulose."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "850",
+          "note": "La glycosidation de Fischer, chiffrée et commentée : le α-D-glucopyranose traité par MeOH et HCl donne « le méthyl α-D-glucopyranoside (66 %) et le méthyl β-D-glucopyranoside (33 %) ». La nomenclature : « les glycosides sont nommés en citant d'abord le groupe alkyle puis en remplaçant la terminaison -ose du sucre par -oside. » Et ce que le produit a perdu : « comme tous les acétals, les glycosides sont STABLES en eau neutre. Ils ne sont PAS en équilibre avec une forme à chaîne ouverte, et ils NE MONTRENT PAS de mutarotation. Ils peuvent cependant être hydrolysés pour redonner le monosaccharide libre plus l'alcool, par traitement à l'acide aqueux. » Avec l'exemple naturel : la DIGITOXINE, « le composant actif des préparations de digitale employées dans le traitement des maladies cardiaques, est un glycoside consistant en un alcool stéroïdien lié à un trisaccharide » — les trois sucres étant eux-mêmes reliés par des liaisons glycosidiques."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "801",
+          "note": "L'EFFET ANOMÉRIQUE, que les manuels d'organique générale ne traitent pas. Clayden y arrive par les effets stéréoélectroniques : « certains substituants des hétérocycles saturés préfèrent être AXIAUX : c'est l'effet anomérique ». Il donne au passage la composition complète du glucose en solution — « environ deux tiers du glucose en solution existe sous ce stéréoisomère, mais la formation et la coupure de l'hémiacétal sont rapides, et il est en équilibre avec un tiers supplémentaire qui porte le groupe hydroxyle hémiacétalique AXIAL (MOINS DE 1 % est sous forme à chaîne ouverte) ». Et, sur la même page, la mesure qui fonde tout le raisonnement stéréoélectronique : deux acétals voisins dont l'un ne peut pas aligner un doublet de l'oxygène avec la σ* de la liaison qui se rompt ; « l'acétal de droite s'hydrolyse environ 10¹⁰ fois plus vite »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "803",
+          "note": "La CAUSE de l'effet, et sa signature cristallographique. Un doublet de l'oxygène endocyclique se délocalise dans la σ* de la liaison C–X axiale : « la liaison C–Cl est affaiblie, et une partie de la densité électronique de l'oxygène est délocalisée sur Cl. Cela se voit dans les structures cristallines : les composés présentant un effet anomérique ont une liaison PLUS LONGUE (donc affaiblie) à l'EXTÉRIEUR du cycle, et une liaison C–O PLUS COURTE, plus forte, DANS le cycle. » Clayden rattache l'effet à la délocalisation d'un amide, et note que « si le processus se poursuivait, Cl⁻ partirait » — c'est le début d'une hydrolyse d'acétal."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "glycosylation_stereocontrolee": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "851",
+          "note": "Le fait expérimental qui démolit la SN2, et le mécanisme qui le remplace. « Bien que la réaction de KOENIGS-KNORR semble impliquer un simple déplacement SN2 par l'arrière de l'ion bromure par l'ion alcoolate, la situation est en réalité plus COMPLEXE. Les DEUX anomères α et β du bromure de tétraacétyl-D-glucopyranosyle donnent LE MÊME β-glycoside, ce qui implique qu'ils réagissent par un chemin COMMUN. » Puis : « ce résultat peut être compris en supposant que le bromure de tétraacétyl-D-glucopyranosyle (l'un ou l'autre anomère) subit une perte SPONTANÉE, de type SN1, de Br⁻, suivie d'une réaction INTERNE avec le groupe ESTER en C2 pour former un ion OXONIUM. Puisque l'acétate en C2 est sur le DESSOUS du cycle du glucose, la liaison C–O se forme également par le dessous. Un déplacement SN2 par l'arrière de l'ion oxonium se produit alors avec l'inversion de configuration habituelle, donnant un β-glycoside et RÉGÉNÉRANT l'acétate en C2. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "850",
+          "note": "La glycosidation de Fischer, chiffrée et commentée : le α-D-glucopyranose traité par MeOH et HCl donne « le méthyl α-D-glucopyranoside (66 %) et le méthyl β-D-glucopyranoside (33 %) ». La nomenclature : « les glycosides sont nommés en citant d'abord le groupe alkyle puis en remplaçant la terminaison -ose du sucre par -oside. » Et ce que le produit a perdu : « comme tous les acétals, les glycosides sont STABLES en eau neutre. Ils ne sont PAS en équilibre avec une forme à chaîne ouverte, et ils NE MONTRENT PAS de mutarotation. Ils peuvent cependant être hydrolysés pour redonner le monosaccharide libre plus l'alcool, par traitement à l'acide aqueux. » Avec l'exemple naturel : la DIGITOXINE, « le composant actif des préparations de digitale employées dans le traitement des maladies cardiaques, est un glycoside consistant en un alcool stéroïdien lié à un trisaccharide » — les trois sucres étant eux-mêmes reliés par des liaisons glycosidiques."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "25 — Biomolecules: Carbohydrates",
+          "pages": "849",
+          "note": "L'acétylation exhaustive qui rend la méthode possible : le pentaacétate à 91 %, et c'est l'acétate du C2 qui dirigera la stéréochimie."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "801",
+          "note": "L'EFFET ANOMÉRIQUE, que les manuels d'organique générale ne traitent pas. Clayden y arrive par les effets stéréoélectroniques : « certains substituants des hétérocycles saturés préfèrent être AXIAUX : c'est l'effet anomérique ». Il donne au passage la composition complète du glucose en solution — « environ deux tiers du glucose en solution existe sous ce stéréoisomère, mais la formation et la coupure de l'hémiacétal sont rapides, et il est en équilibre avec un tiers supplémentaire qui porte le groupe hydroxyle hémiacétalique AXIAL (MOINS DE 1 % est sous forme à chaîne ouverte) ». Et, sur la même page, la mesure qui fonde tout le raisonnement stéréoélectronique : deux acétals voisins dont l'un ne peut pas aligner un doublet de l'oxygène avec la σ* de la liaison qui se rompt ; « l'acétal de droite s'hydrolyse environ 10¹⁰ fois plus vite »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12 — NMR: Determining Structure, § effets stéréoélectroniques",
+          "pages": "803",
+          "note": "La CAUSE de l'effet, et sa signature cristallographique. Un doublet de l'oxygène endocyclique se délocalise dans la σ* de la liaison C–X axiale : « la liaison C–Cl est affaiblie, et une partie de la densité électronique de l'oxygène est délocalisée sur Cl. Cela se voit dans les structures cristallines : les composés présentant un effet anomérique ont une liaison PLUS LONGUE (donc affaiblie) à l'EXTÉRIEUR du cycle, et une liaison C–O PLUS COURTE, plus forte, DANS le cycle. » Clayden rattache l'effet à la délocalisation d'un amide, et note que « si le processus se poursuivait, Cl⁻ partirait » — c'est le début d'une hydrolyse d'acétal."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

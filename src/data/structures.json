@@ -663,6 +663,54 @@
     "substrat": "photosysteme_ii_oxydation_eau-substrat.svg",
     "produit": "photosysteme_ii_oxydation_eau-produit.svg"
   },
+  "cyclisation_ose_hemiacetal": {
+    "substrat": "cyclisation_ose_hemiacetal-substrat.svg",
+    "produit": "cyclisation_ose_hemiacetal-produit.svg"
+  },
+  "mutarotation_anomeres": {
+    "substrat": "mutarotation_anomeres-substrat.svg",
+    "produit": "mutarotation_anomeres-produit.svg"
+  },
+  "glycosidation_fischer": {
+    "substrat": "glycosidation_fischer-substrat.svg",
+    "produit": "glycosidation_fischer-produit.svg"
+  },
+  "reduction_alditol": {
+    "substrat": "reduction_alditol-substrat.svg",
+    "produit": "reduction_alditol-produit.svg"
+  },
+  "oxydation_acide_aldonique": {
+    "substrat": "oxydation_acide_aldonique-substrat.svg",
+    "produit": "oxydation_acide_aldonique-produit.svg"
+  },
+  "oxydation_acide_aldarique": {
+    "substrat": "oxydation_acide_aldarique-substrat.svg",
+    "produit": "oxydation_acide_aldarique-produit.svg"
+  },
+  "acetylation_etherification_oses": {
+    "substrat": "acetylation_etherification_oses-substrat.svg",
+    "produit": "acetylation_etherification_oses-produit.svg"
+  },
+  "synthese_kiliani_fischer": {
+    "substrat": "synthese_kiliani_fischer-substrat.svg",
+    "produit": "synthese_kiliani_fischer-produit.svg"
+  },
+  "degradation_wohl": {
+    "substrat": "degradation_wohl-substrat.svg",
+    "produit": "degradation_wohl-produit.svg"
+  },
+  "epimerisation_milieu_basique": {
+    "substrat": "epimerisation_milieu_basique-substrat.svg",
+    "produit": "epimerisation_milieu_basique-produit.svg"
+  },
+  "hydrolyse_disaccharide": {
+    "substrat": "hydrolyse_disaccharide-substrat.svg",
+    "produit": "hydrolyse_disaccharide-produit.svg"
+  },
+  "glycosylation_stereocontrolee": {
+    "substrat": "glycosylation_stereocontrolee-substrat.svg",
+    "produit": "glycosylation_stereocontrolee-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
