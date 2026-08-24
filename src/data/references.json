@@ -3217,6 +3217,30 @@
           "chapitre": "40 — Organometallic chemistry",
           "pages": "1081",
           "note": "Les quatre mécanismes de réduction in situ de Pd(II) en Pd(0) : par une amine tertiaire, par une phosphine (qui finit en oxyde), par l'alcène, ou par deux équivalents d'organométallique."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements",
+          "pages": "719-720",
+          "note": "Le cadre inorganique que le Clayden ne donne pas. L'addition oxydante fait passer le centre de 16 à 18 électrons ; le précurseur doit être en d⁸ ou d¹⁰ — Rh(I), Ir(I), Pd(0), Pd(II), Pt(0), Pt(II) — et « le métal doit avoir un degré d'oxydation supérieur accessible ». D'où l'interdiction, énoncée sans détour : un centre à 18 électrons ne peut PAS faire d'addition oxydante sans perdre d'abord un ligand à 2 électrons, avec l'équation Os(CO)₅ + H₂ → H₂Os(CO)₄ + CO qui le montre. Et la nuance sur la géométrie : « l'addition oxydante donne initialement un produit cis, mais des réarrangements de ligands peuvent se produire »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements",
+          "pages": "721",
+          "note": "L'expérience qui a donné son nom à l'insertion MIGRATOIRE : le marquage au ¹³C de la décarbonylation montre que « la distribution des produits est compatible avec la migration du groupe méthyle, et non avec un mécanisme impliquant le déplacement du CO « inséré » ». C'est le carbone qui va vers le CO, et non l'inverse. Et l'intermédiaire cyclique à interaction agostique M···H···C par lequel passe l'élimination β."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis",
+          "pages": "787",
+          "note": "Ce qu'est un cycle catalytique, défini : « une série de réactions stœchiométriques, souvent réversibles, qui forment une boucle fermée ; le catalyseur doit être régénéré ». Le critère du PUITS D'ÉNERGIE — le chemin catalysé ne doit pas passer par un minimum plus bas que les produits. Et la phrase qui justifie de ne pas dessiner de flèches : les intermédiaires doivent être de courte durée de vie, ce qui rend le cycle difficile à étudier, si bien que « pour bien des cycles, les mécanismes ne sont pas fermement établis »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions",
+          "pages": "386",
+          "note": "Comment un cycle S'ÉCRIT : chaque étape nommée à côté d'une structure — « (a) addition oxydante ; (b) coordination ; (c) insertion ; (d) dissociation » — et aucune flèche courbe. L'espèce active : « souvent désignée LnPd, les ligands pouvant s'associer et se dissocier tout au long de la réaction. L'espèce active est probablement (Ph₃P)₂Pd, dérivée de (Ph₃P)₄Pd par perte de 2 Ph₃P, mais ce peut être (Ph₃P)₃Pd. »"
         }
       ],
       "articles_historiques": [
@@ -3254,6 +3278,18 @@
           "chapitre": "40 — Organometallic chemistry",
           "pages": "1084",
           "note": "Le prix Nobel de chimie 2010 est allé à Heck, Negishi et Suzuki pour les couplages catalysés par les métaux de transition ; Stille, mort en 1989, ne pouvait pas le recevoir. Clayden le rappelle en marge (p. 1084)."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions",
+          "pages": "390",
+          "note": "Le rôle de la base, dit sans réserve là où le Clayden écrit « vraisemblablement » : la soude « s'additionne au bore à SIX ÉLECTRONS de l'acide boronique ou du borane nucléophile, rendant le groupe R attaché au bore plus nucléophile et plus enclin à la transmétallation vers le palladium ». Et la portée : « le cycle catalytique est exactement le même pour le couplage de Negishi et pour beaucoup d'autres couplages d'alkylmétaux »."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "12 — Transition Metal Catalyzed Carbon-Carbon Bond Forming Reactions",
+          "pages": "§ 12.2",
+          "note": "Le chapitre LibreTexts sur les couplages pallado-catalysés, avec le cycle dessiné pour chacun et la phrase qui les rassemble (§ 12.2.6) : « les trois réactions précédentes — Stille, Suzuki et Sonogashira — partagent un mécanisme semblable, qui comprend une addition oxydante, une transmétallation et une élimination réductrice »."
         }
       ],
       "articles_historiques": [
@@ -3285,6 +3321,12 @@
           "chapitre": "40 — Organometallic chemistry",
           "pages": "1081",
           "note": "Trois points qui ne se devinent pas. La régiochimie INVERSE avec un groupe donneur (éther d'énol), sous contrôle orbitalaire. La réversibilité de l'élimination β, qui fait qu'un alcool allylique donne un aldéhyde. Et l'exigence syn avec éclipse des liaisons C–Pd et C–H, qui dans un cycle ne laisse parfois qu'un seul hydrogène éliminable."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions",
+          "pages": "388",
+          "note": "Le cycle découpé en SIX étapes nommées, dont une que le Clayden ne nomme pas : « (a) addition oxydante ; (b) coordination ; (c) insertion ; (d) ROTATION ; (e) élimination β-hydrure ; (f) déprotonation, dissociation ». La rotation est ce qui permet aux liaisons C–Pd et C–H de s'éclipser avant l'élimination syn. Et la portée : « dans les réactions intermoléculaires, la réaction se déroule le mieux quand l'alcène est électrophile ; dans les réactions intramoléculaires, on peut employer des alcènes plus substitués »."
         }
       ],
       "articles_historiques": [
@@ -3310,6 +3352,12 @@
           "chapitre": "40 — Organometallic chemistry",
           "pages": "1088",
           "note": "Les ène-diynes et la cyclisation de Bergmann : la molécule pénètre l'ADN, se referme en diradical benzénique, et y réagit — d'où l'activité anticancéreuse. Un couplage double en une étape à partir d'un dihaloéthylène Z, ou séquentiel (75 puis 80 %) pour différencier les deux alcynes."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "12 — Transition Metal Catalyzed Carbon-Carbon Bond Forming Reactions",
+          "pages": "§ 12.2.6",
+          "note": "Le cycle du CUIVRE, que le Clayden ne donne pas : l'alcyne terminal, CuI et Et₂NH donnent l'acétylure de cuivre et le sel d'ammonium Et₂NH₂⁺ I⁻ — l'amine prend le proton, le cuivre prend le carbone —, puis le cuivre est régénéré. Deux cycles couplés qui se rejoignent à la transmétallation. L'exemple travaillé emploie PdCl₂(PPh₃)₂ et CuI catalytiques dans Et₂NH."
         }
       ],
       "articles_historiques": [
@@ -3341,6 +3389,18 @@
           "chapitre": "40 — Organometallic chemistry",
           "pages": "1086",
           "note": "La conservation de la géométrie des deux composants insaturés, commune au Stille et au Suzuki."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions",
+          "pages": "386",
+          "note": "Le cycle écrit étape par étape, sans flèche courbe, et l'espèce active LnPd — « probablement (Ph₃P)₂Pd, mais ce peut être (Ph₃P)₃Pd ». La carbonylation rangée sous « carbonylation des halogénures d'alkyle », avec l'image qui la rend intelligible : « le complexe acylpalladium peut être regardé comme un halogénure d'acyle compliqué »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions",
+          "pages": "390-392",
+          "note": "« Le cycle catalytique est exactement le même pour le couplage de Negishi et pour beaucoup d'autres couplages d'alkylmétaux. » Et les couplages sur liaisons métal–métal : Me₃Sn–SnMe₃ et le bis(pinacolato)dibore servent à POSER l'étain ou le bore sur un halogénure — à fabriquer le partenaire du couplage suivant. Avec (pin)BH, « le mécanisme par lequel la liaison B–H est convertie en liaison B–Pd est quelque peu obscur »."
         }
       ],
       "articles_historiques": [

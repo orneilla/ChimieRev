@@ -23,10 +23,24 @@ def sans_accents(texte: str) -> str:
                    if unicodedata.category(c) != "Mn").lower()
 
 
+# Le nom court d'un ouvrage (celui du tableau de CLAUDE.md, celui qu'on
+# écrit dans references.json) ne coïncide pas toujours avec le nom du
+# dossier d'index. Le Housecroft a été indexé sous « inorganique ». Sans
+# cet alias, `--nom housecroft` échoue — et on conclut trop vite que
+# l'ouvrage ne traite pas le sujet.
+ALIAS = {
+    "housecroft": "inorganique",
+}
+
+
 def charger(nom: str) -> dict:
-    fichier = DOSSIER / nom / "pages.json"
+    dossier = ALIAS.get(nom, nom)
+    fichier = DOSSIER / dossier / "pages.json"
     if not fichier.exists():
+        disponibles = sorted(d.name for d in DOSSIER.iterdir()
+                             if (d / "pages.json").exists())
         sys.exit(f"Manuel non indexé : {fichier}\n"
+                 f"Indexés : {', '.join(disponibles)}\n"
                  f"Lancer d'abord :  python3 outils/indexer-manuel.py <pdf> --nom {nom}")
     return json.loads(fichier.read_text(encoding="utf-8"))
 

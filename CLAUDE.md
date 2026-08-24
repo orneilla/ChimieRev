@@ -57,6 +57,49 @@ compris pour un ouvrage en plusieurs volumes. **Regarder la page est
 indispensable** : dans un manuel de chimie l'essentiel est dessiné, et le
 texte extrait ne contient que la prose autour des figures.
 
+### Croiser les ouvrages, et ne pas croire à un silence
+
+**Une fiche adossée à un seul manuel est une fiche appauvrie.** Le socle
+organique s'est écrit presque entièrement sur le Clayden, ce qui se
+défend — il porte l'essentiel de la matière. Le bloc catalyse ne le
+permet pas : le Housecroft en dit davantage, le Grossman montre comment
+s'écrit un cycle, LibreTexts donne des étapes que les autres omettent.
+Sur chaque sujet, on ouvre les neuf.
+
+Trois exemples de ce que le croisement a rapporté sur le seul cycle du
+palladium :
+
+- le Clayden compte les électrons (14, 16, 18) ; le **Housecroft** dit la
+  règle qui en découle — un centre à 18 électrons ne peut PAS faire
+  d'addition oxydante sans perdre d'abord un ligand à deux électrons, et
+  il donne l'équation qui le montre (p. 720) ;
+- le Clayden nomme l'insertion migratoire ; le **Housecroft** donne
+  l'expérience de marquage au ¹³C qui prouve que c'est le MÉTHYLE qui
+  migre et non le CO qui s'insère (p. 721) ;
+- le Clayden ne détaille pas la formation de l'acétylure de cuivre du
+  Sonogashira ; **LibreTexts** l'écrit (§ 12.2.6).
+
+**Un « aucune occurrence » ne prouve rien.** Le nom passé à `--nom` est
+celui du dossier d'index, qui ne coïncide pas toujours avec le nom court
+du tableau — le Housecroft y est rangé sous `inorganique`. Les deux outils
+acceptent désormais les deux noms, et une recherche sous un nom inconnu
+liste les ouvrages disponibles au lieu de laisser croire à un silence.
+
+**Le défaut ne se voit pas fiche par fiche, il se voit au compte.** D'où :
+
+```bash
+python3 outils/mesurer-sources.py            # la répartition
+python3 outils/mesurer-sources.py --seules   # les fiches mono-source
+```
+
+Il vérifie au passage que chaque page citée existe dans l'index : une
+citation vers une page absente est une citation qu'on n'a pas ouverte.
+
+L'état au moment où cet outil a été écrit, et il n'est pas flatteur :
+**79 % des fiches ne citent qu'un seul ouvrage**, et le Clayden apparaît
+sur 96 % d'entre elles. Le Housecroft, sur une seule. C'est le chantier
+de fond du corpus.
+
 ### La pagination, qui a menti une fois
 
 Le décalage entre pagination PDF et pagination imprimée ne se devine pas.

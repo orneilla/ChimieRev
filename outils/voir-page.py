@@ -52,9 +52,16 @@ def rendre(pdf: Path, imprimee: int, decalage: int, suivantes: int, dossier: Pat
     document.close()
 
 
+# Même alias que dans chercher-source.py : le nom court documenté du
+# Housecroft ne correspond pas au dossier où il a été indexé.
+ALIAS = {
+    "housecroft": "inorganique",
+}
+
+
 def resoudre(nom: str, imprimee: int) -> tuple[Path, int]:
     """Retrouve, dans l'index, le fichier qui contient cette page imprimée."""
-    index = Path("sources-locales") / nom / "pages.json"
+    index = Path("sources-locales") / ALIAS.get(nom, nom) / "pages.json"
     if not index.exists():
         sys.exit(f"Manuel non indexé : {index}")
     donnees = json.loads(index.read_text(encoding="utf-8"))
