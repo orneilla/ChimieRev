@@ -884,12 +884,12 @@
         {
           "nom": "Procédé Haber-Bosch",
           "niveau": "M1",
-          "id": null
+          "id": "procede_haber_bosch"
         },
         {
           "nom": "Synthèse Fischer-Tropsch",
           "niveau": "M2",
-          "id": null
+          "id": "synthese_fischer_tropsch"
         },
         {
           "nom": "Réaction du gaz à l'eau",
@@ -899,7 +899,7 @@
         {
           "nom": "Catalyse acide par les zéolithes",
           "niveau": "M2",
-          "id": null
+          "id": "catalyse_zeolithes"
         }
       ],
       "bloc": "Organométallique et catalyse"

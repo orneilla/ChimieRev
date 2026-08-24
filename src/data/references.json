@@ -4916,6 +4916,78 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "procede_haber_bosch": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.6",
+          "pages": "804",
+          "note": "Le problème et sa solution, en deux phrases. « Sans catalyseur, la réaction entre N₂ et H₂ ne se produit que lentement, car la barrière d'activation pour la dissociation de N₂ et H₂ en phase gazeuse est très élevée. En présence d'un catalyseur adapté tel que Fe, la dissociation de N₂ et H₂ pour donner des atomes adsorbés est facile, l'énergie libérée par la formation des liaisons M–N et M–H compensant plus que largement l'énergie requise pour la fission N–N et H–H. » Puis l'étape lente : « l'étape cinétiquement déterminante est l'adsorption dissociative de N₂ ». Avec la Figure 26.13, qui « illustre l'échelle immense sur laquelle la production industrielle de NH₃ est menée, et sa croissance durant la seconde partie du XXᵉ siècle »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.6",
+          "pages": "805",
+          "note": "LE CHOIX DU MÉTAL, raisonné aux deux bouts : « des vitesses élevées sont observées pour Fe, Ru et Os. Puisque l'étape cinétiquement déterminante est la chimisorption de N₂, une énergie d'activation élevée pour cette étape, comme on l'observe pour les métaux d tardifs (Co, Rh, Ir, Ni et Pt), ralentit la formation globale de NH₃. Les métaux d précoces tels que Mo et Re chimisorbent N₂ efficacement, mais l'interaction M–N est assez forte pour favoriser la rétention des atomes adsorbés ; cela bloque des sites de surface et inhibe la réaction ultérieure. » Le catalyseur réel : « α-Fe actif, produit en réduisant Fe₃O₄ mélangé à K₂O (un promoteur électronique qui améliore l'activité catalytique), SiO₂ et Al₂O₃ (promoteurs structuraux qui stabilisent la structure du catalyseur) » — fondus électriquement, refroidis pour distribuer les promoteurs, puis broyés à une taille de grain optimale. Les poisons et leur chiffre : H₂O, CO, CO₂ et O₂ sont temporaires, « la réduction du catalyseur restaure son activité, mais une exposition excessive aux composés oxygénés diminue son efficacité irréversiblement ; une teneur de 5 ppm en CO dans l'alimentation en H₂ diminue l'activité du catalyseur d'environ 5 % par an ». Et la fenêtre de température : 770-790 K."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.6",
+          "pages": "801",
+          "note": "Les notions générales de la catalyse hétérogène, indispensables à la fiche : « la physisorption implique de faibles interactions de van der Waals entre la surface et l'adsorbat. La chimisorption implique la formation de liaisons chimiques entre les atomes de surface et l'espèce adsorbée. Le processus d'adsorption ACTIVE les molécules, soit en rompant des liaisons, soit en les affaiblissant. » Et le compromis qui gouverne tout : « l'équilibre entre les énergies de liaison contribuantes est un facteur qui détermine si un métal donné facilitera ou non la fission de liaison dans l'adsorbat. Cependant, si les liaisons métal-adsorbat sont particulièrement fortes, il devient énergétiquement moins favorable pour l'espèce adsorbée de quitter la surface, et cela bloque des sites d'adsorption, réduisant l'activité catalytique. » Avec la Table 26.6, qui recense les grands procédés hétérogènes industriels."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "synthese_fischer_tropsch": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.6",
+          "pages": "803",
+          "note": "L'essentiel de la fiche tient sur cette page. Les catalyseurs : « une gamme de catalyseurs peut être employée (Ru, Ni, Fe, Co) mais Fe et Co sont actuellement préférés », le fer donnant hydrocarbures, composés oxygénés et CO₂, le cobalt hydrocarbures et H₂O. L'économie : « si le pétrole est bon marché et facilement disponible, le procédé FT n'est pas commercialement viable, et dans les années 1960 de nombreuses installations industrielles ont fermé. En Afrique du Sud, le procédé Sasol continue d'employer H₂ et CO comme matières premières. » Le pilotage : « la distribution des produits, y compris la longueur de chaîne carbonée, peut être contrôlée par le choix du catalyseur, la conception du réacteur et les conditions de réaction ; l'addition de promoteurs tels que des sels de métaux des groupes 1 ou 2 (par exemple K₂CO₃) affecte la sélectivité. » Et l'aveu, qu'il faut rapporter tel quel : « le mécanisme exact par lequel la réaction FT se produit n'est pas connu » — avec le mécanisme original de Fischer et Tropsch (carbure de surface puis CH₂ polymérisant), l'opinion actuelle (dissociation de CO en C et O de surface, formation de CH et CH₂, libération de H₂O), et le critère qu'une proposition doit satisfaire. Enfin la terminaison : « la réaction de la chaîne alkyle attachée à la surface libérerait un alcane ; si elle subit une β-élimination, un alcène est libéré. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.6",
+          "pages": "804",
+          "note": "L'isomérisation de surface, qui produit les alcanes et alcènes ramifiés de la gamme, et la règle de terminaison complémentaire : « un alcène terminal résulte si la réaction de l'adsorbat se fait avec H au lieu de CH₂ »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.8",
+          "pages": "809",
+          "note": "Le glossaire du chapitre, qui range la réaction de Fischer-Tropsch parmi les notions à maîtriser, aux côtés de la chimisorption, de la physisorption et de la catalyse de Ziegler-Natta."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "catalyse_zeolithes": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.7",
+          "pages": "807",
+          "note": "La sélectivité de forme, avec ses chiffres et sa nuance : les canaux font 53 × 56 pm et 51 × 55 pm, et « la taille de pore effective est comparable au diamètre moléculaire cinétique d'une molécule telle que le 2-méthylpropane ou le benzène, conduisant aux propriétés de sélectivité de forme des catalyseurs zéolithiques. La taille de pore effective diffère de celle déterminée cristallographiquement parce qu'elle prend en compte la flexibilité de la charpente zéolithique en fonction de la température ; de même, le diamètre moléculaire cinétique tient compte des mouvements moléculaires des espèces entrant dans les canaux ou cavités. » L'origine de l'activité : « la haute activité catalytique des zéolithes provient de l'acidité de Brønsted des sites Al… le rapport Si:Al affecte le nombre de tels sites et la force acide. » Le craquage : « leurs sélectivités élevées et leurs vitesses de réaction élevées, associées à des effets de cokage réduits, sont des avantages majeurs sur les catalyseurs alumine/silice que les zéolithes ont remplacés » ; USY est choisie parce qu'elle augmente l'indice d'octane, ZSM-5 sert de co-catalyseur pour sa sélectivité de forme. Et l'exemple à retenir : « la croissance des chaînes carbonées est restreinte par la taille des canaux de la zéolithe, et donne ainsi une distribution sélective de produits hydrocarbonés » — d'où le procédé MTG, industriel en Nouvelle-Zélande depuis 1985, dont « la viabilité commerciale dépend des prix courants du pétrole », et le procédé MTO vers les alcènes C₂-C₄."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.6",
+          "pages": "801",
+          "note": "La Table 26.6 des procédés industriels hétérogènes, qui situe les zéolithes : « craquage catalytique des distillats lourds de pétrole — zéolithes »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "11 — Unusual Approach for Multicomponent Reactions, § 11.1",
+          "pages": "358",
+          "note": "Le point de vue de la chimie durable, absent de l'ouvrage inorganique. Les zéolithes « ont gagné une importance considérable, en raison non seulement de la possibilité de conduire des synthèses respectueuses de l'environnement, mais aussi de bons rendements » ; leurs atouts sont « une acidité modulable et des structures et dimensions de pores diverses, exhibant des propriétés exceptionnelles en termes tant d'activité que de sélectivité », plus « leur faible coût et leur excellente stabilité thermique ». Elles permettent de « surmonter les inconvénients des technologies conventionnelles, principalement la pollution environnementale et la corrosion des équipements ». Et une propriété qui rapproche le minéral de l'enzyme : la structure « permet l'incorporation et l'immobilisation de cations adaptés ou de catalyseurs chiraux à la surface des pores zéolithiques. Ces procédés augmentent non seulement l'aire de surface disponible, mais fournissent aussi des cavités hautement structurées et confinées qui peuvent augmenter la stéréosélectivité. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

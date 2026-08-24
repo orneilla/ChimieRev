@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 148,
+  "redigees": 151,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1194,8 +1194,8 @@
       "famille": "Catalyse",
       "bloc": "Organométallique et catalyse",
       "total": 12,
-      "absente": 4,
-      "redigee": 8,
+      "absente": 1,
+      "redigee": 11,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
@@ -1258,16 +1258,16 @@
         {
           "nom": "Procédé Haber-Bosch",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "procede_haber_bosch",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Synthèse Fischer-Tropsch",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_fischer_tropsch",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réaction du gaz à l'eau",
@@ -1279,9 +1279,9 @@
         {
           "nom": "Catalyse acide par les zéolithes",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "catalyse_zeolithes",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

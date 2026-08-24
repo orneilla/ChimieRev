@@ -591,6 +591,18 @@
     "substrat": "procede_wacker-substrat.svg",
     "produit": "procede_wacker-produit.svg"
   },
+  "procede_haber_bosch": {
+    "substrat": "procede_haber_bosch-substrat.svg",
+    "produit": "procede_haber_bosch-produit.svg"
+  },
+  "synthese_fischer_tropsch": {
+    "substrat": "synthese_fischer_tropsch-substrat.svg",
+    "produit": "synthese_fischer_tropsch-produit.svg"
+  },
+  "catalyse_zeolithes": {
+    "substrat": "catalyse_zeolithes-substrat.svg",
+    "produit": "catalyse_zeolithes-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

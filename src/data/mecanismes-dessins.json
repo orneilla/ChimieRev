@@ -6819,5 +6819,65 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "procede_haber_bosch": {
+    "1": {
+      "fichier": "procede_haber_bosch-etape1.svg",
+      "titre": "Le diazote, et la liaison qui coûte si cher",
+      "legende": "Une triple liaison, l'une des plus solides de la chimie. C'est tout le problème du procédé.\n\nHousecroft pose la difficulté (p. 804) : « sans catalyseur, la réaction entre N₂ et H₂ ne se produit que lentement, car la barrière d'activation pour la dissociation de N₂ et H₂ EN PHASE GAZEUSE est très élevée. »\n\nEn phase gazeuse, rompre cette liaison ne rapporte rien : il faut payer, et rien ne rembourse. C'est pourquoi l'azote de l'air, dont l'atmosphère est faite à 78 %, est resté inutilisable jusqu'au XXᵉ siècle.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "procede_haber_bosch-etape2.svg",
+      "titre": "Sur le fer, la rupture se paie d'avance",
+      "legende": "L'ammoniac, formé et désorbé. Entre les deux, ce que Housecroft décrit en une phrase qui vaut pour toute la catalyse de surface (p. 804) : « en présence d'un catalyseur adapté comme le fer, la dissociation de N₂ et H₂ en atomes adsorbés est FACILE, l'énergie libérée par la formation des liaisons M–N et M–H compensant plus que largement l'énergie requise pour la fission N–N et H–H. »\n\nON NE ROMPT PAS UNE LIAISON POUR RIEN : on l'échange contre deux autres.\n\nL'ÉTAPE LENTE EST NOMMÉE : « l'étape cinétiquement déterminante est l'adsorption dissociative de N₂ ».\n\nPOURQUOI LE FER, ET PAS UN AUTRE (Housecroft p. 805). Il faut être bon aux deux bouts. Les métaux d TARDIFS — Co, Rh, Ir, Ni, Pt — ont « une énergie d'activation élevée » pour la chimisorption : ils ne cassent pas l'azote. Les métaux d PRÉCOCES — Mo, Re — le chimisorbent très bien, mais « l'interaction M–N est assez forte pour favoriser la RÉTENTION des atomes adsorbés ; cela bloque des sites de surface et inhibe la réaction ultérieure ». Ils cassent, et ne rendent pas.\n\n« Des vitesses élevées sont observées pour Fe, Ru et Os » — ceux du milieu. Un bon catalyseur ne se lie ni trop peu ni trop fort : c'est un compromis, pas un maximum.\n\nET CE N'EST PAS DU FER (p. 805), mais « du α-Fe actif, produit en réduisant Fe₃O₄ mélangé à K₂O — un promoteur électronique — SiO₂ et Al₂O₃ », promoteurs structuraux. Fondu à l'électricité, refroidi, broyé à une granulométrie optimale. Et d'une fragilité qui surprend : « une teneur de 5 ppm en CO dans l'alimentation en H₂ diminue l'activité du catalyseur d'environ 5 % par an ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "synthese_fischer_tropsch": {
+    "1": {
+      "fichier": "synthese_fischer_tropsch-etape1.svg",
+      "titre": "Le monoxyde de carbone se défait sur la surface",
+      "legende": "Le gaz de synthèse arrive : CO et H₂, tirés du charbon ou du méthane.\n\nCE QU'ON PENSE AUJOURD'HUI (Housecroft p. 803) : « l'opinion actuelle favorise la dissociation de CO sur la surface du catalyseur pour donner C et O de surface et, en présence d'atomes H adsorbés, la formation d'unités CH et CH₂ de surface et la libération de H₂O. »\n\nMAIS IL FAUT LE DIRE AVEC LA MÊME PRUDENCE QUE L'AUTEUR (p. 803) : « le mécanisme exact par lequel la réaction FT se produit N'EST PAS CONNU, et de nombreuses études sur modèles ont été menées en employant des agrégats métalliques discrets. »\n\nUn procédé centenaire, des millions de tonnes de carburant, et un mécanisme qu'on ne fait que proposer. Housecroft donne d'ailleurs le critère qu'une proposition doit satisfaire : « tout mécanisme doit rendre compte de la formation de carbure de surface, de graphite et de CH₄, et de la distribution des produits organiques ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_fischer_tropsch-etape2.svg",
+      "titre": "La chaîne pousse, un carbone à la fois",
+      "legende": "À la surface du métal, une population de fragments à un carbone. Ils se lient entre eux, et la chaîne s'allonge tant qu'elle reste accrochée. Housecroft (p. 803) : « si la dissociation de CO et la formation subséquente des groupes CHₓ est efficace — comme elle l'est sur Fe —, l'accumulation d'unités CHₓ conduit à une réaction entre elles et à la croissance de chaînes carbonées. »\n\nLA FAÇON DONT LA CHAÎNE SE DÉTACHE DÉCIDE DU PRODUIT (Housecroft p. 803) : « la réaction de la chaîne alkyle attachée à la surface libérerait un ALCANE ; si elle subit une β-ÉLIMINATION, un ALCÈNE est libéré. »\n\nVOUS RECONNAISSEZ CETTE SECONDE ÉTAPE. C'est l'élimination β-hydrure — celle qui, en catalyse homogène, ruine les couplages sur les halogénures d'alkyle. La même étape élémentaire, sur une surface de fer au lieu d'un atome de palladium, décide ici si l'usine produit du carburant ou des alcènes pour la pétrochimie.\n\nDEUX MÉTAUX, DEUX BILANS (p. 803) : le FER donne hydrocarbures, composés oxygénés et CO₂ ; le COBALT, hydrocarbures et H₂O.\n\nET TROIS LEVIERS POUR PILOTER LA LONGUEUR DES CHAÎNES, dont l'un n'est pas chimique : « le choix du catalyseur, la conception du RÉACTEUR et les conditions de réaction » ; s'y ajoutent des promoteurs comme K₂CO₃, qui « affectent la sélectivité ».\n\nUNE DERNIÈRE CHOSE, ET ELLE N'EST PAS DE LA CHIMIE (p. 803) : « si le pétrole est bon marché et facilement disponible, le procédé FT n'est pas commercialement viable, et dans les années 1960 de nombreuses installations industrielles ont fermé. En Afrique du Sud, le procédé Sasol continue. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "catalyse_zeolithes": {
+    "1": {
+      "fichier": "catalyse_zeolithes-etape1.svg",
+      "titre": "Le méthanol entre — s'il tient dans le canal",
+      "legende": "Une zéolithe est un aluminosilicate percé de canaux réguliers dont le diamètre est de l'ordre de celui d'une molécule.\n\nHousecroft donne les chiffres (p. 807) : une section de 53 × 56 pm et 51 × 55 pm, et « la taille de pore EFFECTIVE est comparable au diamètre moléculaire cinétique d'une molécule telle que le 2-méthylpropane ou le benzène, ce qui conduit aux propriétés de SÉLECTIVITÉ DE FORME des catalyseurs zéolithiques ».\n\nDEUX PRÉCISIONS QUI NE SONT PAS DE STYLE. La taille effective n'est pas la taille cristallographique : elle « prend en compte la flexibilité de la charpente zéolithique en fonction de la température ». Et le diamètre cinétique « tient compte des mouvements moléculaires des espèces entrant dans les canaux ». Ni le trou ni la molécule ne sont rigides.\n\nD'OÙ VIENT L'ACIDITÉ QUI FERA LA CHIMIE (p. 807) : « la haute activité catalytique des zéolithes provient de l'acidité de Brønsted des sites Al… le rapport Si:Al affecte le nombre de tels sites et la force acide de la zéolithe. » Un paramètre de SYNTHÈSE, pas de manipulation.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "catalyse_zeolithes-etape2.svg",
+      "titre": "La chaîne ne peut pas dépasser la longueur du tunnel",
+      "legende": "Les carbones du méthanol s'assemblent en chaînes — c'est de l'essence. Mais une chaîne qui pousse dans un tunnel bute.\n\nHousecroft le formule ainsi (p. 807) : « la sélectivité de forme de ZSM-5 est aussi cruciale pour son activité comme catalyseur dans la conversion du méthanol en carburants hydrocarbonés ; LA CROISSANCE DES CHAÎNES CARBONÉES EST RESTREINTE PAR LA TAILLE DES CANAUX DE LA ZÉOLITHE, et donne ainsi une distribution sélective de produits hydrocarbonés. »\n\nON N'A RIEN RÉGLÉ CHIMIQUEMENT. Pas de température délicate, pas de ligand encombré, pas de promoteur : on a choisi un minéral dont les couloirs font la bonne longueur.\n\nCOMPAREZ AVEC FISCHER-TROPSCH, qui fabrique aussi des chaînes à partir d'un gaz : là, la distribution est large et l'on passe son temps à la corriger. Ici, un mur physique.\n\nLE PROCÉDÉ EXISTE (p. 807) : « le procédé MTG (méthanol vers essence) fonctionne à l'échelle industrielle en Nouvelle-Zélande depuis 1985… cependant, la viabilité commerciale du procédé dépend des prix courants du pétrole. » Le procédé MTO, sur la même ZSM-5, donne des alcènes C₂-C₄.\n\nET CE QUI A VRAIMENT FAIT ADOPTER LES ZÉOLITHES AU RAFFINAGE (p. 807) : « leurs sélectivités élevées et leurs vitesses de réaction élevées, associées à des effets de COKAGE réduits, sont des avantages majeurs sur les catalyseurs alumine/silice que les zéolithes ont remplacés. » Un catalyseur qui se bouche moins vite est un catalyseur qu'on arrête moins souvent — et c'est souvent cela, plus que la performance de pointe, qui décide d'un choix industriel.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

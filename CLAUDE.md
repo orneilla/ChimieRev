@@ -601,7 +601,24 @@ Deux modes obligatoires, dans `src/data/reactions.json` :
 Les paragraphes sont séparés par une ligne vide ; une amorce en capitales
 (« POURQUOI … ? ») est mise en valeur automatiquement.
 
+## Les réactions qu'aucun ouvrage ne traite
+
+Elles restent au programme avec `id` à `null`, et ce n'est pas un oubli :
+c'est la règle de sourçage appliquée. On ne les écrira que le jour où un
+ouvrage les traitant sera indexé. La liste se tient ici pour qu'on ne
+recommence pas la recherche à chaque passage.
+
+| réaction | ce que la recherche a rendu |
+|---|---|
+| Réduction de Meerwein-Ponndorf-Verley | aucune occurrence dans les neuf. |
+| Réaction du gaz à l'eau | le Housecroft la traite à ses pages 239 et 366 — **hors de l'extrait indexé** (ch. 20-28). Dans l'extrait, elle n'apparaît que dans un tableau de procédés (p. 801), une ligne de catalyseur (p. 722) et une mention de passage (p. 596). C'est exactement le piège de l'entrée d'index d'un ouvrage indexé PARTIELLEMENT : le bon mot, pointant vers ce qu'on n'a pas. |
+
+**Le silence se vérifie sur le fragment le plus court avant d'être déclaré.**
+« Fischer-Tropsch » ne rend rien, « Tropsch » rend six pages ; « water-gas
+shift » ne rend rien, « gas shift » rend quatre pages. Le tiret, une fois de
+plus.
+
 ## Ce qui reste à faire
 
 Phase 3 — 3D interactive et orbitales. Phase 4 — flashcards et exercices.
-Phase 6 — les 265 réactions du programme encore à écrire.
+Phase 6 — les réactions du programme encore à écrire.
