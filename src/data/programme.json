@@ -1139,47 +1139,47 @@
         {
           "nom": "Saponification d'un triglycéride",
           "niveau": "L2",
-          "id": null
+          "id": "saponification_triglyceride"
         },
         {
           "nom": "Transestérification (biodiesel)",
           "niveau": "L3",
-          "id": null
+          "id": "transesterification_biodiesel"
         },
         {
           "nom": "Hydrogénation catalytique d'une huile",
           "niveau": "L2",
-          "id": null
+          "id": "hydrogenation_huile"
         },
         {
           "nom": "Biosynthèse des acides gras : condensation de Claisen",
           "niveau": "M1",
-          "id": null
+          "id": "biosynthese_acides_gras"
         },
         {
           "nom": "β-oxydation des acides gras",
           "niveau": "M1",
-          "id": null
+          "id": "beta_oxydation"
         },
         {
           "nom": "Couplage prényle : biosynthèse des terpènes",
           "niveau": "M1",
-          "id": null
+          "id": "couplage_prenyle"
         },
         {
           "nom": "Cyclisation cationique du squalène",
           "niveau": "M2",
-          "id": null
+          "id": "cyclisation_squalene"
         },
         {
           "nom": "Biosynthèse des stéroïdes",
           "niveau": "M2",
-          "id": null
+          "id": "biosynthese_steroides"
         },
         {
           "nom": "Biosynthèse des prostaglandines",
           "niveau": "M2",
-          "id": null
+          "id": "biosynthese_prostaglandines"
         }
       ],
       "bloc": "Biomolécules et vivant"

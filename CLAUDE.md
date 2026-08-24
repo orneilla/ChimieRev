@@ -136,6 +136,13 @@ pièges se sont présentés, tous silencieux.
 - **Une extraction fautive ressemble à un résultat.** « Knorr » rend deux
   pages du McMurry qui traitent du glucose : du bruit d'OCR. Rien ne le
   signale, sauf la lecture.
+- **Une lettre grecque ne s'extrait pas.** « beta-oxidation » ne rend RIEN
+  dans les neuf ouvrages. La section existe pourtant — McMurry lui consacre
+  ses pages 972 à 976 — mais il compose le nom avec un β grec, que
+  l'extraction de texte rend par un signe quelconque. Le même piège vaut
+  pour « α-amino acid », « γ-lactone », « Δ⁹ ». On cherche sur le mot
+  latin voisin (« oxidation of fatty acids », « catabolism ») ou sur le
+  fragment sans la lettre.
 - **Un tiret peut cacher un ouvrage entier.** « Baeyer-Villiger » ne rend
   RIEN dans le Clayden, qui compose ce nom avec un tiret demi-cadratin ;
   « Villiger » seul rend vingt-cinq pages. Devant un silence surprenant, on
@@ -284,6 +291,30 @@ ordre :
 
 Ce que la machine ne contrôle pas, c'est le **choix** du mécanisme. D'où le
 badge « à relire par un chimiste » tant que `valide` vaut `false`.
+
+### Une molécule trop grande ne montre plus ses petits détails
+
+Le 2,3-oxydosqualène compte trente-et-un atomes lourds. Dessiné à 390 px, son
+époxyde — un cycle à TROIS chaînons — se réduit à une tache : l'oxygène tombe
+à 9 px de quatre liaisons auxquelles il n'appartient pas. Le contrôle de
+lisibilité l'a refusé, et il avait raison : ce schéma ne prouvait rien.
+
+Aucun réglage de courbure n'y change quoi que ce soit, parce que le défaut
+n'est pas dans les flèches — il n'y en avait aucune. Il est dans l'échelle.
+Trois écritures différentes du même SMILES ont été essayées : toutes
+refusées.
+
+**La parade est le GROS PLAN, et il se déclare.** On dessine le fragment
+concerné — ici l'extrémité époxydée de la chaîne — et la légende dit en
+toutes lettres que le reste continue. C'est la même convention que le
+`SC` mis pour `SCoA` ou que la lumiflavine mise pour la FAD : une
+simplification de schéma, énoncée, jamais une approximation de mécanisme.
+
+Le seuil est empirique et vaut d'être connu : **au-delà d'une trentaine
+d'atomes lourds, un cycle à trois ou quatre chaînons ne passe plus.** Un
+squelette stéroïdien à vingt-huit atomes, lui, passe très bien — c'est la
+taille du détail rapporté à celle de la molécule qui décide, pas le nombre
+d'atomes seul.
 
 ### La mise en page, qui a menti elle aussi
 

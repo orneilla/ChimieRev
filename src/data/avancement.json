@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-24",
   "total": 286,
-  "redigees": 188,
-  "verifiees": 133,
+  "redigees": 197,
+  "verifiees": 139,
   "relues": 0,
   "familles": [
     {
@@ -1616,73 +1616,73 @@
       "famille": "Lipides",
       "bloc": "Biomolécules et vivant",
       "total": 9,
-      "absente": 9,
-      "redigee": 0,
-      "verifiee": 0,
+      "absente": 0,
+      "redigee": 3,
+      "verifiee": 6,
       "relue": 0,
       "reactions": [
         {
           "nom": "Saponification d'un triglycéride",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "saponification_triglyceride",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Transestérification (biodiesel)",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "transesterification_biodiesel",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Hydrogénation catalytique d'une huile",
           "niveau": "L2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydrogenation_huile",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Biosynthèse des acides gras : condensation de Claisen",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "biosynthese_acides_gras",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "β-oxydation des acides gras",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "beta_oxydation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Couplage prényle : biosynthèse des terpènes",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_prenyle",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cyclisation cationique du squalène",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cyclisation_squalene",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Biosynthèse des stéroïdes",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "biosynthese_steroides",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Biosynthèse des prostaglandines",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "biosynthese_prostaglandines",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

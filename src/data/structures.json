@@ -751,6 +751,42 @@
     "substrat": "citrate_synthase-substrat.svg",
     "produit": "citrate_synthase-produit.svg"
   },
+  "saponification_triglyceride": {
+    "substrat": "saponification_triglyceride-substrat.svg",
+    "produit": "saponification_triglyceride-produit.svg"
+  },
+  "transesterification_biodiesel": {
+    "substrat": "transesterification_biodiesel-substrat.svg",
+    "produit": "transesterification_biodiesel-produit.svg"
+  },
+  "hydrogenation_huile": {
+    "substrat": "hydrogenation_huile-substrat.svg",
+    "produit": "hydrogenation_huile-produit.svg"
+  },
+  "biosynthese_acides_gras": {
+    "substrat": "biosynthese_acides_gras-substrat.svg",
+    "produit": "biosynthese_acides_gras-produit.svg"
+  },
+  "beta_oxydation": {
+    "substrat": "beta_oxydation-substrat.svg",
+    "produit": "beta_oxydation-produit.svg"
+  },
+  "couplage_prenyle": {
+    "substrat": "couplage_prenyle-substrat.svg",
+    "produit": "couplage_prenyle-produit.svg"
+  },
+  "cyclisation_squalene": {
+    "substrat": "cyclisation_squalene-substrat.svg",
+    "produit": "cyclisation_squalene-produit.svg"
+  },
+  "biosynthese_steroides": {
+    "substrat": "biosynthese_steroides-substrat.svg",
+    "produit": "biosynthese_steroides-produit.svg"
+  },
+  "biosynthese_prostaglandines": {
+    "substrat": "biosynthese_prostaglandines-substrat.svg",
+    "produit": "biosynthese_prostaglandines-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1328,6 +1364,27 @@
   },
   "menthol": {
     "molecule": "reactif-menthol.svg"
+  },
+  "h2_ni": {
+    "molecule": "reactif-h2_ni.svg"
+  },
+  "nadph": {
+    "molecule": "reactif-nadph.svg"
+  },
+  "fad": {
+    "molecule": "reactif-fad.svg"
+  },
+  "acetyl_coa": {
+    "molecule": "reactif-acetyl_coa.svg"
+  },
+  "coenzyme_a": {
+    "molecule": "reactif-coenzyme_a.svg"
+  },
+  "atp": {
+    "molecule": "reactif-atp.svg"
+  },
+  "ipp": {
+    "molecule": "reactif-ipp.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

@@ -5781,69 +5781,69 @@
      "ouvrage": "clayden",
      "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
      "pages": "236",
-     "note": "Le classement de la réaction, qui n'est pas anodin : elle figure sous le titre « le cyanure attaquera les ions iminium : la synthèse de Strecker des acides aminés ». L'électrophile n'est donc pas l'aldéhyde mais l'IMINIUM. Et la suite : « bien que ces composés soient relativement sans importance en eux-mêmes, une simple étape d'hydrolyse produit des acides α-aminés. »"
+     "note": "Le classement de la réaction, qui n'est pas anodin : elle figure sous le titre « le cyanure attaquera les ions iminium : la synthèse de Strecker des acides aminés ». L'électrophile n'est donc pas l'aldéhyde mais l'IMINIUM. Et la suite : « bien que ces composés soient relativement sans importance en eux-mêmes, une simple étape d'hydrolyse produit des acides α-aminés. »"
     },
     {
      "ouvrage": "clayden",
      "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
      "pages": "234",
-     "note": "La raison de fond pour laquelle la réaction fonctionne : « les ions iminium sont, cependant, de très bons électrophiles, et significativement plus réactifs que les composés carbonylés. » Avec la mise en garde qui vaut ici : un acide fort peut libérer du HCN mortel à partir de Na(CN)BH₃ — or la synthèse de Strecker se termine par une hydrolyse en milieu acide fort."
+     "note": "La raison de fond pour laquelle la réaction fonctionne : « les ions iminium sont, cependant, de très bons électrophiles, et significativement plus réactifs que les composés carbonylés. » Avec la mise en garde qui vaut ici : un acide fort peut libérer du HCN mortel à partir de Na(CN)BH₃ — or la synthèse de Strecker se termine par une hydrolyse en milieu acide fort."
     },
     {
      "ouvrage": "clayden",
      "chapitre": "14 — Stereochemistry",
      "pages": "307",
-     "note": "Pourquoi le produit est nécessairement racémique, formulé sur le cas voisin de la cyanhydrine : « il n'y avait rien pour favoriser une face plutôt que l'autre, les énantiomères doivent donc se former en quantités égales. » Et la définition qui suit : « un mélange de quantités égales d'une paire d'énantiomères s'appelle un mélange racémique. »"
+     "note": "Pourquoi le produit est nécessairement racémique, formulé sur le cas voisin de la cyanhydrine : « il n'y avait rien pour favoriser une face plutôt que l'autre, les énantiomères doivent donc se former en quantités égales. » Et la définition qui suit : « un mélange de quantités égales d'une paire d'énantiomères s'appelle un mélange racémique. »"
     },
     {
      "ouvrage": "clayden",
      "chapitre": "14 — Stereochemistry",
      "pages": "324",
-     "note": "La synthèse de Strecker employée pour de bon, sur une cétone aromatique : KCN et NH₄Cl, puis HCl aqueux, donnent un acide aminé QUATERNAIRE racémique — que la suite de la page résout par formation de diastéréoisomères."
+     "note": "La synthèse de Strecker employée pour de bon, sur une cétone aromatique : KCN et NH₄Cl, puis HCl aqueux, donnent un acide aminé QUATERNAIRE racémique — que la suite de la page résout par formation de diastéréoisomères."
     },
     {
      "ouvrage": "multicomposants",
      "chapitre": "1 — Multicomponent Reactions: An Introduction",
      "pages": "1",
-     "note": "Le statut historique de la réaction : « la réaction de Strecker pourrait être considérée comme la PREMIÈRE RMC rapportée, du fait que c'était la première fois qu'un auteur était capable de déterminer la structure d'un produit formé dans une réaction multicomposants. »"
+     "note": "Le statut historique de la réaction : « la réaction de Strecker pourrait être considérée comme la PREMIÈRE RMC rapportée, du fait que c'était la première fois qu'un auteur était capable de déterminer la structure d'un produit formé dans une réaction multicomposants. »"
     },
     {
      "ouvrage": "multicomposants",
      "chapitre": "1 — Multicomponent Reactions: An Introduction",
      "pages": "2",
-     "note": "Le tableau 1.1 des RMC historiquement significatives place « Strecker [14], 1850 » en tête, avec le schéma R-CHO + HCN + NH₃ → α-aminonitrile → acide α-aminé, et la mention de son but : « synthèse d'acides α-aminés »."
+     "note": "Le tableau 1.1 des RMC historiquement significatives place « Strecker [14], 1850 » en tête, avec le schéma R-CHO + HCN + NH₃ → α-aminonitrile → acide α-aminé, et la mention de son but : « synthèse d'acides α-aminés »."
     },
     {
      "ouvrage": "multicomposants",
      "chapitre": "10 — Bucherer–Bergs and Strecker Multicomponent Reactions",
      "pages": "340",
-     "note": "La définition moderne : « la réaction de Strecker, découverte en 1850, est l'outil le plus pratique et le plus efficace pour la préparation des acides α-aminés via la formation d'α-aminonitriles. Ce couplage à trois composants entre une amine ou son équivalent, un composé carbonylé (généralement un aldéhyde) et le cyanure d'hydrogène ou ses cyanures de métaux alcalins peut aussi être réalisé énantiosélectivement, par l'emploi de catalyseurs métalliques comme d'organocatalyseurs chiraux. »"
+     "note": "La définition moderne : « la réaction de Strecker, découverte en 1850, est l'outil le plus pratique et le plus efficace pour la préparation des acides α-aminés via la formation d'α-aminonitriles. Ce couplage à trois composants entre une amine ou son équivalent, un composé carbonylé (généralement un aldéhyde) et le cyanure d'hydrogène ou ses cyanures de métaux alcalins peut aussi être réalisé énantiosélectivement, par l'emploi de catalyseurs métalliques comme d'organocatalyseurs chiraux. »"
     },
     {
      "ouvrage": "multicomposants",
      "chapitre": "10 — Bucherer–Bergs and Strecker Multicomponent Reactions",
      "pages": "341",
-     "note": "La portée prébiotique : le travail de Miller « soutenant le rôle probablement clé de la réaction de Strecker dans l'origine de la vie dans les conditions de la Terre primitive, pour quoi Miller a employé une synthèse prébiotique mimétique d'acides aminés à partir d'un mélange de CH₄, NH₃, H₂ et H₂O »."
+     "note": "La portée prébiotique : le travail de Miller « soutenant le rôle probablement clé de la réaction de Strecker dans l'origine de la vie dans les conditions de la Terre primitive, pour quoi Miller a employé une synthèse prébiotique mimétique d'acides aminés à partir d'un mélange de CH₄, NH₃, H₂ et H₂O »."
     },
     {
      "ouvrage": "multicomposants",
      "chapitre": "10 — Bucherer–Bergs and Strecker Multicomponent Reactions",
      "pages": "331",
-     "note": "La mise en regard avec Bucherer-Bergs : « les réactions de Strecker et de Bucherer-Bergs sont les stratégies les plus importantes et les outils les plus puissants pour la synthèse d'acides α-aminés à partir d'un composé carbonylé. »"
+     "note": "La mise en regard avec Bucherer-Bergs : « les réactions de Strecker et de Bucherer-Bergs sont les stratégies les plus importantes et les outils les plus puissants pour la synthèse d'acides α-aminés à partir d'un composé carbonylé. »"
     },
     {
      "ouvrage": "multicomposants",
      "chapitre": "10 — Bucherer–Bergs and Strecker Multicomponent Reactions",
      "pages": "342",
-     "note": "La version douce et catalytique : TMSCN comme source de cyanure, 0,5 mol % de catalyseur, MgSO₄ dans CH₂Cl₂ à 25 °C pendant 12 h."
+     "note": "La version douce et catalytique : TMSCN comme source de cyanure, 0,5 mol % de catalyseur, MgSO₄ dans CH₂Cl₂ à 25 °C pendant 12 h."
     }
    ],
    "articles_historiques": [
     {
-     "citation": "Strecker, A. « Ueber die künstliche Bildung der Milchsäure und einen neuen, dem Glycocoll homologen Körper ». Justus Liebigs Annalen der Chemie, 1850, 75, 27–45.",
+     "citation": "Strecker, A. « Ueber die künstliche Bildung der Milchsäure und einen neuen, dem Glycocoll homologen Körper ». Justus Liebigs Annalen der Chemie, 1850, 75, 27–45.",
      "doi": null,
      "verifie": false,
-     "note": "Référence relevée telle quelle dans la bibliographie de Multicomponent Reactions (p. 13, référence 14, et p. 196, référence 66) — donc non écrite de mémoire. Publication de 1850, antérieure aux DOI : à sourcer par archive numérique."
+     "note": "Référence relevée telle quelle dans la bibliographie de Multicomponent Reactions (p. 13, référence 14, et p. 196, référence 66) — donc non écrite de mémoire. Publication de 1850, antérieure aux DOI : à sourcer par archive numérique."
     }
    ]
   },
@@ -5853,31 +5853,31 @@
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "880",
-     "note": "La réaction, énoncée : « une autre méthode encore pour la synthèse des acides α-aminés est l'amination réductrice d'un α-céto-acide par l'ammoniac et un réducteur. L'alanine, par exemple, se prépare en traitant l'acide pyruvique par l'ammoniac en présence de NaBH₄. La réaction procède par formation d'une imine intermédiaire, qui est ensuite réduite. »"
+     "note": "La réaction, énoncée : « une autre méthode encore pour la synthèse des acides α-aminés est l'amination réductrice d'un α-céto-acide par l'ammoniac et un réducteur. L'alanine, par exemple, se prépare en traitant l'acide pyruvique par l'ammoniac en présence de NaBH₄. La réaction procède par formation d'une imine intermédiaire, qui est ensuite réduite. »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "24 — Amines and Heterocycles",
      "pages": "802",
-     "note": "Le degré de substitution de l'amine obtenue : « ammoniac, amines primaires et amines secondaires peuvent tous être employés dans la réaction d'amination réductrice, donnant respectivement des amines primaires, secondaires et tertiaires. » Et l'analogie biologique : « les aminations réductrices interviennent aussi dans diverses voies biologiques. Dans la biosynthèse de l'acide aminé proline, par exemple, le semialdéhyde de glutamate subit une formation d'imine INTERNE pour donner le 1-pyrrolinium 5-carboxylate, qui est ensuite réduit par addition nucléophile d'ion hydrure sur la liaison C=N. Le nicotinamide adénine dinucléotide réduit, NADH, joue le rôle de réducteur biologique. »"
+     "note": "Le degré de substitution de l'amine obtenue : « ammoniac, amines primaires et amines secondaires peuvent tous être employés dans la réaction d'amination réductrice, donnant respectivement des amines primaires, secondaires et tertiaires. » Et l'analogie biologique : « les aminations réductrices interviennent aussi dans diverses voies biologiques. Dans la biosynthèse de l'acide aminé proline, par exemple, le semialdéhyde de glutamate subit une formation d'imine INTERNE pour donner le 1-pyrrolinium 5-carboxylate, qui est ensuite réduit par addition nucléophile d'ion hydrure sur la liaison C=N. Le nicotinamide adénine dinucléotide réduit, NADH, joue le rôle de réducteur biologique. »"
     },
     {
      "ouvrage": "clayden",
      "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
      "pages": "234",
-     "note": "La sélectivité mesurée, montrée par deux essais côte à côte : Na(CN)BH₃ réduit un iminium à pH 6 avec 90 % de rendement et ne donne AUCUNE réaction sur un composé carbonylé. « Les ions iminium sont réduits rapidement par le réducteur doux cyanoborohydrure de sodium, tandis que les composés carbonylés ne le sont pas. » Avec l'alternative plus sûre : NaBH(OAc)₃."
+     "note": "La sélectivité mesurée, montrée par deux essais côte à côte : Na(CN)BH₃ réduit un iminium à pH 6 avec 90 % de rendement et ne donne AUCUNE réaction sur un composé carbonylé. « Les ions iminium sont réduits rapidement par le réducteur doux cyanoborohydrure de sodium, tandis que les composés carbonylés ne le sont pas. » Avec l'alternative plus sûre : NaBH(OAc)₃."
     },
     {
      "ouvrage": "clayden",
      "chapitre": "11 — Nucleophilic substitution at C=O with loss of carbonyl oxygen",
      "pages": "235",
-     "note": "Le réglage du pH, expliqué : « dans la première étape, la cétone et l'ammoniac sont en équilibre avec leur imine, qui, à pH 6, est partiellement protonée en ion iminium. L'ion iminium est rapidement réduit par le cyanoborohydrure. […] À pH 6, l'ammoniac sera de toute façon majoritairement protoné, le pKa de NH₄⁺ valant environ 10. »"
+     "note": "Le réglage du pH, expliqué : « dans la première étape, la cétone et l'ammoniac sont en équilibre avec leur imine, qui, à pH 6, est partiellement protonée en ion iminium. L'ion iminium est rapidement réduit par le cyanoborohydrure. […] À pH 6, l'ammoniac sera de toute façon majoritairement protoné, le pKa de NH₄⁺ valant environ 10. »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "904",
-     "note": "Le classement des trois voies racémiques, et l'issue : « les acides aminés peuvent être synthétisés SOUS FORME RACÉMIQUE par plusieurs méthodes, dont l'ammonolyse d'un α-bromoacide, l'alkylation de l'acétamidomalonate de diéthyle, et l'amination réductrice d'un α-céto-acide. Alternativement, une synthèse ÉNANTIOSÉLECTIVE d'acides aminés peut être réalisée avec un catalyseur d'hydrogénation chiral. »"
+     "note": "Le classement des trois voies racémiques, et l'issue : « les acides aminés peuvent être synthétisés SOUS FORME RACÉMIQUE par plusieurs méthodes, dont l'ammonolyse d'un α-bromoacide, l'alkylation de l'acétamidomalonate de diéthyle, et l'amination réductrice d'un α-céto-acide. Alternativement, une synthèse ÉNANTIOSÉLECTIVE d'acides aminés peut être réalisée avec un catalyseur d'hydrogénation chiral. »"
     }
    ]
   },
@@ -5887,19 +5887,19 @@
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "880",
-     "note": "La description complète, et c'est la seule des neuf : « une méthode plus générale pour la préparation des acides α-aminés est la SYNTHÈSE AMIDOMALONIQUE, une extension directe de la synthèse malonique. La réaction commence par la conversion de l'acétamidomalonate de diéthyle en ion énolate par traitement par une base, suivie d'une alkylation SN2 par un halogénure d'alkyle PRIMAIRE. L'hydrolyse à la fois de l'amide protecteur et des esters se produit quand le produit alkylé est chauffé en milieu acide aqueux, et la décarboxylation a alors lieu pour donner un acide α-aminé. » Avec l'exemple chiffré : bromoacétate d'éthyle → acide (R,S)-aspartique, 55 %. Et l'exercice qui montre la généralité : quels halogénures pour la leucine, l'histidine, le tryptophane, la méthionine ?"
+     "note": "La description complète, et c'est la seule des neuf : « une méthode plus générale pour la préparation des acides α-aminés est la SYNTHÈSE AMIDOMALONIQUE, une extension directe de la synthèse malonique. La réaction commence par la conversion de l'acétamidomalonate de diéthyle en ion énolate par traitement par une base, suivie d'une alkylation SN2 par un halogénure d'alkyle PRIMAIRE. L'hydrolyse à la fois de l'amide protecteur et des esters se produit quand le produit alkylé est chauffé en milieu acide aqueux, et la décarboxylation a alors lieu pour donner un acide α-aminé. » Avec l'exemple chiffré : bromoacétate d'éthyle → acide (R,S)-aspartique, 55 %. Et l'exercice qui montre la généralité : quels halogénures pour la leucine, l'histidine, le tryptophane, la méthionine ?"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "904",
-     "note": "Le rappel du résumé de chapitre, qui range la méthode parmi les trois voies racémiques : « l'alkylation de l'acétamidomalonate de diéthyle »."
+     "note": "Le rappel du résumé de chapitre, qui range la méthode parmi les trois voies racémiques : « l'alkylation de l'acétamidomalonate de diéthyle »."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "905",
-     "note": "La méthode figure au « résumé des réactions » du chapitre, section 26-3, parmi les synthèses d'acides aminés."
+     "note": "La méthode figure au « résumé des réactions » du chapitre, section 26-3, parmi les synthèses d'acides aminés."
     }
    ]
   },
@@ -5909,55 +5909,55 @@
      "ouvrage": "clayden",
      "chapitre": "14 — Stereochemistry",
      "pages": "322",
-     "note": "Le problème posé, et pourquoi il est inévitable : « dans le laboratoire, si nous fabriquons des composés chiraux à partir de produits de départ achiraux, nous sommes CONDAMNÉS à obtenir des mélanges racémiques. Comment les chimistes isolent-ils donc jamais des composés sous forme d'énantiomères uniques, autrement qu'en les extrayant de sources naturelles ? […] Ce processus s'appelle la RÉSOLUTION. »"
+     "note": "Le problème posé, et pourquoi il est inévitable : « dans le laboratoire, si nous fabriquons des composés chiraux à partir de produits de départ achiraux, nous sommes CONDAMNÉS à obtenir des mélanges racémiques. Comment les chimistes isolent-ils donc jamais des composés sous forme d'énantiomères uniques, autrement qu'en les extrayant de sources naturelles ? […] Ce processus s'appelle la RÉSOLUTION. »"
     },
     {
      "ouvrage": "clayden",
      "chapitre": "14 — Stereochemistry",
      "pages": "323",
-     "note": "Le principe en acte : un alcool racémique estérifié par un acide énantiomériquement pur donne deux DIASTÉRÉOISOMÈRES, séparés par chromatographie, puis hydrolysés séparément — « nous avons réussi à séparer deux énantiomères de l'alcool de départ »."
+     "note": "Le principe en acte : un alcool racémique estérifié par un acide énantiomériquement pur donne deux DIASTÉRÉOISOMÈRES, séparés par chromatographie, puis hydrolysés séparément — « nous avons réussi à séparer deux énantiomères de l'alcool de départ »."
     },
     {
      "ouvrage": "clayden",
      "chapitre": "14 — Stereochemistry",
      "pages": "324",
-     "note": "L'exemple complet sur un ACIDE AMINÉ, avec tous ses chiffres : le racémique issu d'une synthèse de Strecker est acétylé (Ac₂O) puis estérifié par le menthoxyde de sodium ; les deux diastéréoisomères fondent à 103-104 °C et 72,5-73,5 °C et se séparent par cristallisation ; KOH/EtOH/H₂O coupe les esters ; NaOH à 20 % au reflux pendant 40 HEURES coupe les amides. Les deux acides aminés obtenus fondent à 152-153 °C et 152,5-154 °C et tournent de −7,3° et +8,0°. Et le principe, énoncé : « des diastéréoisomères SÉPARABLES sont créés à partir d'énantiomères INSÉPARABLES. » Avec la note de marge : les rotations des diastéréoisomères, elles, n'ont aucune raison d'être égales — « ce sont des énantiomères uniques de composés DIFFÉRENTS »."
+     "note": "L'exemple complet sur un ACIDE AMINÉ, avec tous ses chiffres : le racémique issu d'une synthèse de Strecker est acétylé (Ac₂O) puis estérifié par le menthoxyde de sodium ; les deux diastéréoisomères fondent à 103-104 °C et 72,5-73,5 °C et se séparent par cristallisation ; KOH/EtOH/H₂O coupe les esters ; NaOH à 20 % au reflux pendant 40 HEURES coupe les amides. Les deux acides aminés obtenus fondent à 152-153 °C et 152,5-154 °C et tournent de −7,3° et +8,0°. Et le principe, énoncé : « des diastéréoisomères SÉPARABLES sont créés à partir d'énantiomères INSÉPARABLES. » Avec la note de marge : les rotations des diastéréoisomères, elles, n'ont aucune raison d'être égales — « ce sont des énantiomères uniques de composés DIFFÉRENTS »."
     },
     {
      "ouvrage": "clayden",
      "chapitre": "14 — Stereochemistry",
      "pages": "325",
-     "note": "Le cas industriel du naproxène, et la leçon de méthode : on a dû employer un sel d'amine dérivée du glucose, « un agent de résolution inhabituel, car une amine plus simple serait d'ordinaire préférée. Cela illustre cependant le fait que BEAUCOUP d'agents de résolution peuvent devoir être essayés avant d'en trouver un qui fonctionne. » Avec la justification biologique : seule la forme (S) est anti-inflammatoire."
+     "note": "Le cas industriel du naproxène, et la leçon de méthode : on a dû employer un sel d'amine dérivée du glucose, « un agent de résolution inhabituel, car une amine plus simple serait d'ordinaire préférée. Cela illustre cependant le fait que BEAUCOUP d'agents de résolution peuvent devoir être essayés avant d'en trouver un qui fonctionne. » Avec la justification biologique : seule la forme (S) est anti-inflammatoire."
     },
     {
      "ouvrage": "clayden",
      "chapitre": "14 — Stereochemistry",
      "pages": "326",
-     "note": "La raison pour laquelle deux énantiomères d'un médicament diffèrent : « les récepteurs de médicaments […] sont presque toujours des molécules protéiques, qui sont énantiomériquement pures parce qu'elles sont faites uniquement de L-acides aminés. » Chiffré : « dans le cas du naproxène, l'énantiomère (S) est 28 fois plus efficace que le (R). » Et la troisième voie : la chromatographie sur phase stationnaire chirale."
+     "note": "La raison pour laquelle deux énantiomères d'un médicament diffèrent : « les récepteurs de médicaments […] sont presque toujours des molécules protéiques, qui sont énantiomériquement pures parce qu'elles sont faites uniquement de L-acides aminés. » Chiffré : « dans le cas du naproxène, l'énantiomère (S) est 28 fois plus efficace que le (R). » Et la troisième voie : la chromatographie sur phase stationnaire chirale."
     },
     {
      "ouvrage": "dugas",
      "chapitre": "4 — Enzyme Chemistry",
      "pages": "238",
-     "note": "Le principe enzymatique : « il est bien connu que les enzymes ont la capacité de DISCRIMINER ENTRE LES ÉNANTIOMÈRES de substrats racémiques. La présentation suivante explorera cette capacité en donnant quelques exemples de spécificité énantiomérique et de spécificité prochirale. »"
+     "note": "Le principe enzymatique : « il est bien connu que les enzymes ont la capacité de DISCRIMINER ENTRE LES ÉNANTIOMÈRES de substrats racémiques. La présentation suivante explorera cette capacité en donnant quelques exemples de spécificité énantiomérique et de spécificité prochirale. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "4 — Enzyme Chemistry",
      "pages": "239",
-     "note": "Les résultats chiffrés : l'estérase de foie de porc (PLE) hydrolyse un diester méso avec « 82 % d'excès énantiomérique pour 83 % de rendement », et sur un autre substrat « 97 % d'excès énantiomérique ». « PLE montre une large tolérance à la variation structurale dans ses substrats diesters méso. »"
+     "note": "Les résultats chiffrés : l'estérase de foie de porc (PLE) hydrolyse un diester méso avec « 82 % d'excès énantiomérique pour 83 % de rendement », et sur un autre substrat « 97 % d'excès énantiomérique ». « PLE montre une large tolérance à la variation structurale dans ses substrats diesters méso. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "4 — Enzyme Chemistry",
      "pages": "240",
-     "note": "La conclusion générale, et la citation de Whitesides : « ces méthodes biochimiques de catalyse asymétrique enzymatique ont le grand avantage de pouvoir engendrer, avec de hauts rendements, des synthons chiraux bifonctionnels avec des puretés optiques non obtenables autrement. […] Ceux qui répugnent à employer ces techniques de synthèse dérivées de la biologie pourraient se trouver EXCLUS de certains des problèmes les plus passionnants de la science moléculaire. »"
+     "note": "La conclusion générale, et la citation de Whitesides : « ces méthodes biochimiques de catalyse asymétrique enzymatique ont le grand avantage de pouvoir engendrer, avec de hauts rendements, des synthons chiraux bifonctionnels avec des puretés optiques non obtenables autrement. […] Ceux qui répugnent à employer ces techniques de synthèse dérivées de la biologie pourraient se trouver EXCLUS de certains des problèmes les plus passionnants de la science moléculaire. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "4 — Enzyme Chemistry",
      "pages": "237",
-     "note": "Les exemples introductifs : l'aspartase transforme un précurseur achiral en L-acide aspartique, une estérase désymétrise un diester prochiral. « Ces deux exemples illustrent que des molécules chirales peuvent être obtenues DIRECTEMENT à partir de précurseurs achiraux. »"
+     "note": "Les exemples introductifs : l'aspartase transforme un précurseur achiral en L-acide aspartique, une estérase désymétrise un diester prochiral. « Ces deux exemples illustrent que des molécules chirales peuvent être obtenues DIRECTEMENT à partir de précurseurs achiraux. »"
     }
    ]
   },
@@ -5967,37 +5967,37 @@
      "ouvrage": "clayden",
      "chapitre": "24 — Chemoselectivity and protecting groups",
      "pages": "559",
-     "note": "La ligne du tableau, complète : « Boc (t-BuOCO) — protège les AMINES — contre les ÉLECTROPHILES — pour protéger : (t-BuOCO)₂O, base — pour déprotéger : H⁺, H₂O. » Et la propriété qui fait tout son intérêt : « l'acide aqueux enlève le groupe Boc SANS hydrolyser les liaisons peptidiques ni les liaisons ester. »"
+     "note": "La ligne du tableau, complète : « Boc (t-BuOCO) — protège les AMINES — contre les ÉLECTROPHILES — pour protéger : (t-BuOCO)₂O, base — pour déprotéger : H⁺, H₂O. » Et la propriété qui fait tout son intérêt : « l'acide aqueux enlève le groupe Boc SANS hydrolyser les liaisons peptidiques ni les liaisons ester. »"
     },
     {
      "ouvrage": "clayden",
      "chapitre": "24 — Chemoselectivity and protecting groups",
      "pages": "556",
-     "note": "Le mécanisme de retrait, décrit sur l'ester de tert-butyle qui est le même cas : « l'encombrement stérique fait que les esters de tert-butyle résistent à l'attaque nucléophile sur le groupe carbonyle, y compris l'hydrolyse en conditions basiques. Mais ils s'hydrolysent relativement facilement en milieu acide, parce que le mécanisme d'hydrolyse des esters de tert-butyle en acide est tout à fait différent. Au lieu de subir une attaque nucléophile sur le groupe carbonyle, l'ester de tert-butyle perd un CARBOCATION STABLE, qui est soit capturé par le solvant dans une réaction SN1, soit perd un proton dans une réaction E1. »"
+     "note": "Le mécanisme de retrait, décrit sur l'ester de tert-butyle qui est le même cas : « l'encombrement stérique fait que les esters de tert-butyle résistent à l'attaque nucléophile sur le groupe carbonyle, y compris l'hydrolyse en conditions basiques. Mais ils s'hydrolysent relativement facilement en milieu acide, parce que le mécanisme d'hydrolyse des esters de tert-butyle en acide est tout à fait différent. Au lieu de subir une attaque nucléophile sur le groupe carbonyle, l'ester de tert-butyle perd un CARBOCATION STABLE, qui est soit capturé par le solvant dans une réaction SN1, soit perd un proton dans une réaction E1. »"
     },
     {
      "ouvrage": "clayden",
      "chapitre": "24 — Chemoselectivity and protecting groups",
      "pages": "553",
-     "note": "La raison d'être des groupes protecteurs en chimie peptidique : « la synthèse peptidique est devenue l'un des domaines les plus fiables et les plus prévisibles de la chimie organique pratique, PRINCIPALEMENT À CAUSE DE L'EFFICACITÉ DES GROUPES PROTECTEURS QU'ELLE EMPLOIE. Pour cette raison, les peptides sont l'une des rares classes de molécules organiques complexes qui peuvent être routinièrement fabriquées PAR DES MACHINES […] sans aucune intervention humaine. »"
+     "note": "La raison d'être des groupes protecteurs en chimie peptidique : « la synthèse peptidique est devenue l'un des domaines les plus fiables et les plus prévisibles de la chimie organique pratique, PRINCIPALEMENT À CAUSE DE L'EFFICACITÉ DES GROUPES PROTECTEURS QU'ELLE EMPLOIE. Pour cette raison, les peptides sont l'une des rares classes de molécules organiques complexes qui peuvent être routinièrement fabriquées PAR DES MACHINES […] sans aucune intervention humaine. »"
     },
     {
      "ouvrage": "clayden",
      "chapitre": "24 — Chemoselectivity and protecting groups",
      "pages": "557",
-     "note": "Le groupe Cbz, à ne pas confondre : posé par BnOCOCl et une base, ôté par HBr dans AcOH — où c'est le BROMURE qui rompt la liaison C–O benzylique, donc un NUCLÉOPHILE — ou par hydrogénolyse sur palladium. Le mécanisme est donc l'inverse de celui du Boc."
+     "note": "Le groupe Cbz, à ne pas confondre : posé par BnOCOCl et une base, ôté par HBr dans AcOH — où c'est le BROMURE qui rompt la liaison C–O benzylique, donc un NUCLÉOPHILE — ou par hydrogénolyse sur palladium. Le mécanisme est donc l'inverse de celui du Boc."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "890",
-     "note": "La séquence complète d'une synthèse de dipeptide en cinq étapes, avec ses réactifs : « (1) le groupe amino de l'alanine est protégé sous forme de dérivé Boc [(t-BuOC)₂O] et le groupe carboxyle de la leucine est protégé sous forme d'ester méthylique [CH₃OH, catalyseur H⁺] ; (2) les deux acides aminés protégés sont couplés par le DCC ; (3) le groupe protecteur Boc est enlevé par traitement acide [CF₃CO₂H] ; (4-5) l'ester méthylique est enlevé par hydrolyse basique [NaOH, H₂O]. »"
+     "note": "La séquence complète d'une synthèse de dipeptide en cinq étapes, avec ses réactifs : « (1) le groupe amino de l'alanine est protégé sous forme de dérivé Boc [(t-BuOC)₂O] et le groupe carboxyle de la leucine est protégé sous forme d'ester méthylique [CH₃OH, catalyseur H⁺] ; (2) les deux acides aminés protégés sont couplés par le DCC ; (3) le groupe protecteur Boc est enlevé par traitement acide [CF₃CO₂H] ; (4-5) l'ester méthylique est enlevé par hydrolyse basique [NaOH, H₂O]. »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "905",
-     "note": "Le résumé du chapitre : « les amines sont d'ordinaire protégées sous forme de leurs dérivés tert-butyloxycarbonyle (Boc) ou fluorénylméthyloxycarbonyle (Fmoc) ; les acides sont d'ordinaire protégés sous forme d'esters. »"
+     "note": "Le résumé du chapitre : « les amines sont d'ordinaire protégées sous forme de leurs dérivés tert-butyloxycarbonyle (Boc) ou fluorénylméthyloxycarbonyle (Fmoc) ; les acides sont d'ordinaire protégés sous forme d'esters. »"
     }
    ]
   },
@@ -6007,19 +6007,19 @@
      "ouvrage": "clayden",
      "chapitre": "24 — Chemoselectivity and protecting groups",
      "pages": "559",
-     "note": "La page qui porte tout le mécanisme, et c'est la seule des neuf. Le principe : « notre dernier groupe protecteur a une sensibilité INVERSE de celle du Boc. Le groupe protecteur Fmoc […] ne peut pas être perdu par substitution à la manière du Cbz ou du t-Boc, parce que NI SN1 NI SN2 ne peuvent opérer sur le carbone entouré : il est à la fois PRIMAIRE ET ENCOMBRÉ. » Puis la faille : « où est le cran de sûreté ? Le talon d'Achille du Fmoc est son proton plutôt acide (pKa environ 25) […]. Il est acide parce que le produit anionique de la déprotonation est AROMATIQUE. Seule une très faible concentration de cet anion aromatique se forme jamais, mais À MESURE QU'IL SE FORME il subit immédiatement l'élimination. Les amines protégées par Fmoc se déprotègent facilement en milieu basique. » Le schéma final porte la mention « système aromatique à 14 électrons » et « CO₂ + H₂N–R »."
+     "note": "La page qui porte tout le mécanisme, et c'est la seule des neuf. Le principe : « notre dernier groupe protecteur a une sensibilité INVERSE de celle du Boc. Le groupe protecteur Fmoc […] ne peut pas être perdu par substitution à la manière du Cbz ou du t-Boc, parce que NI SN1 NI SN2 ne peuvent opérer sur le carbone entouré : il est à la fois PRIMAIRE ET ENCOMBRÉ. » Puis la faille : « où est le cran de sûreté ? Le talon d'Achille du Fmoc est son proton plutôt acide (pKa environ 25) […]. Il est acide parce que le produit anionique de la déprotonation est AROMATIQUE. Seule une très faible concentration de cet anion aromatique se forme jamais, mais À MESURE QU'IL SE FORME il subit immédiatement l'élimination. Les amines protégées par Fmoc se déprotègent facilement en milieu basique. » Le schéma final porte la mention « système aromatique à 14 électrons » et « CO₂ + H₂N–R »."
     },
     {
      "ouvrage": "clayden",
      "chapitre": "17 — Aromaticity",
      "pages": "401",
-     "note": "Le renvoi que fait Clayden lui-même depuis la page 559 : l'aromaticité des anions cyclopentadiényle, qui est ce qui rend le proton du fluorène si acide."
+     "note": "Le renvoi que fait Clayden lui-même depuis la page 559 : l'aromaticité des anions cyclopentadiényle, qui est ce qui rend le proton du fluorène si acide."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "905",
-     "note": "La mention du Fmoc dans le résumé de chapitre, à côté du Boc : « les amines sont d'ordinaire protégées sous forme de leurs dérivés tert-butyloxycarbonyle (Boc) ou FLUORÉNYLMÉTHYLOXYCARBONYLE (Fmoc). »"
+     "note": "La mention du Fmoc dans le résumé de chapitre, à côté du Boc : « les amines sont d'ordinaire protégées sous forme de leurs dérivés tert-butyloxycarbonyle (Boc) ou FLUORÉNYLMÉTHYLOXYCARBONYLE (Fmoc). »"
     }
    ]
   },
@@ -6029,19 +6029,19 @@
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "885",
-     "note": "L'idée de la méthode : « l'idée générale du séquençage peptidique par dégradation d'Edman est de couper UN acide aminé à la fois depuis une extrémité de la chaîne. Cet acide aminé terminal est alors séparé et identifié, et les réactions de coupure sont répétées sur la chaîne raccourcie jusqu'à ce que la séquence entière soit connue. Des séquenceurs automatisés de protéines sont disponibles. » Avec la mise en perspective : « beaucoup de séquençage peptidique se fait maintenant par SPECTROMÉTRIE DE MASSE, par ionisation électrospray (ESI) ou par désorption-ionisation laser assistée par matrice (MALDI) couplées à un analyseur à temps de vol (TOF). »"
+     "note": "L'idée de la méthode : « l'idée générale du séquençage peptidique par dégradation d'Edman est de couper UN acide aminé à la fois depuis une extrémité de la chaîne. Cet acide aminé terminal est alors séparé et identifié, et les réactions de coupure sont répétées sur la chaîne raccourcie jusqu'à ce que la séquence entière soit connue. Des séquenceurs automatisés de protéines sont disponibles. » Avec la mise en perspective : « beaucoup de séquençage peptidique se fait maintenant par SPECTROMÉTRIE DE MASSE, par ionisation électrospray (ESI) ou par désorption-ionisation laser assistée par matrice (MALDI) couplées à un analyseur à temps de vol (TOF). »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "886",
-     "note": "La chimie, et les limites : « la dégradation d'Edman implique le traitement d'un peptide par l'isothiocyanate de phényle (PITC), C₆H₅–N=C=S, suivi d'une réaction avec l'acide trifluoroacétique. La première étape attache le PITC au groupe –NH₂ de l'acide aminé N-terminal, et la seconde étape sépare le résidu N-terminal de la chaîne peptidique, donnant un dérivé ANILINOTHIAZOLINONE (ATZ) plus le peptide raccourci. Un réarrangement acido-catalysé ultérieur de l'ATZ en milieu aqueux le convertit en PHÉNYLTHIOHYDANTOÏNE (PTH), qui est identifiée par comparaison de son temps d'élution avec les temps d'élution connus des dérivés PTH des 20 acides aminés courants. » Puis : « le séquençage complet de grandes protéines par dégradation d'Edman est IMPRATICABLE, à cause de l'accumulation de sous-produits indésirables. » La parade : hydrolyse partielle en fragments, séquençage de chacun, raccordement par recouvrement — « des chaînes protéiques de plus de 400 acides aminés ont été séquencées ». Et la spécificité des protéases : « la TRYPSINE catalyse l'hydrolyse des peptides uniquement du côté carboxyle des acides aminés basiques, arginine et lysine ; la CHYMOTRYPSINE ne coupe que du côté carboxyle des acides aminés à substituant aryle, phénylalanine, tyrosine et tryptophane. »"
+     "note": "La chimie, et les limites : « la dégradation d'Edman implique le traitement d'un peptide par l'isothiocyanate de phényle (PITC), C₆H₅–N=C=S, suivi d'une réaction avec l'acide trifluoroacétique. La première étape attache le PITC au groupe –NH₂ de l'acide aminé N-terminal, et la seconde étape sépare le résidu N-terminal de la chaîne peptidique, donnant un dérivé ANILINOTHIAZOLINONE (ATZ) plus le peptide raccourci. Un réarrangement acido-catalysé ultérieur de l'ATZ en milieu aqueux le convertit en PHÉNYLTHIOHYDANTOÏNE (PTH), qui est identifiée par comparaison de son temps d'élution avec les temps d'élution connus des dérivés PTH des 20 acides aminés courants. » Puis : « le séquençage complet de grandes protéines par dégradation d'Edman est IMPRATICABLE, à cause de l'accumulation de sous-produits indésirables. » La parade : hydrolyse partielle en fragments, séquençage de chacun, raccordement par recouvrement — « des chaînes protéiques de plus de 400 acides aminés ont été séquencées ». Et la spécificité des protéases : « la TRYPSINE catalyse l'hydrolyse des peptides uniquement du côté carboxyle des acides aminés basiques, arginine et lysine ; la CHYMOTRYPSINE ne coupe que du côté carboxyle des acides aminés à substituant aryle, phénylalanine, tyrosine et tryptophane. »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "884",
-     "note": "Ce qui précède tout séquençage : « pour déterminer la structure d'une protéine ou d'un peptide, nous devons répondre à trois questions : quels acides aminés sont présents ? combien de chacun est présent ? dans quelle séquence les acides aminés apparaissent-ils dans la chaîne peptidique ? Les réponses aux deux premières questions sont fournies par un instrument automatisé appelé analyseur d'acides aminés. »"
+     "note": "Ce qui précède tout séquençage : « pour déterminer la structure d'une protéine ou d'un peptide, nous devons répondre à trois questions : quels acides aminés sont présents ? combien de chacun est présent ? dans quelle séquence les acides aminés apparaissent-ils dans la chaîne peptidique ? Les réponses aux deux premières questions sont fournies par un instrument automatisé appelé analyseur d'acides aminés. »"
     },
     {
      "ouvrage": "dugas",
@@ -6057,37 +6057,37 @@
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "890",
-     "note": "Le problème que la méthode résout, posé sans détour : « comme vous pouvez l'imaginer, la synthèse d'une longue chaîne peptidique par addition séquentielle d'un acide aminé à la fois est un processus LONG ET ARDU. » C'est la phrase d'ouverture de la section « synthèse peptidique automatisée : la méthode en phase solide de Merrifield »."
+     "note": "Le problème que la méthode résout, posé sans détour : « comme vous pouvez l'imaginer, la synthèse d'une longue chaîne peptidique par addition séquentielle d'un acide aminé à la fois est un processus LONG ET ARDU. » C'est la phrase d'ouverture de la section « synthèse peptidique automatisée : la méthode en phase solide de Merrifield »."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "893",
-     "note": "Le principe et son résultat chiffré : « les intermédiaires peptidiques ne sont JAMAIS retirés du polymère insoluble avant l'étape finale. Selon cette procédure, 25 à 30 mg d'un peptide de 20 acides aminés peuvent être préparés en routine EN QUELQUES HEURES. »"
+     "note": "Le principe et son résultat chiffré : « les intermédiaires peptidiques ne sont JAMAIS retirés du polymère insoluble avant l'étape finale. Selon cette procédure, 25 à 30 mg d'un peptide de 20 acides aminés peuvent être préparés en routine EN QUELQUES HEURES. »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "905",
-     "note": "Le résumé : « la synthèse est souvent réalisée par la méthode en phase solide de Merrifield, dans laquelle le peptide est lié à des billes de polymère insolubles. »"
+     "note": "Le résumé : « la synthèse est souvent réalisée par la méthode en phase solide de Merrifield, dans laquelle le peptide est lié à des billes de polymère insolubles. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "2 — Bioorganic Chemistry of Amino Acids and Polypeptides",
      "pages": "33",
-     "note": "Le tableau 2.3, qui met en colonnes la catalyse Ziegler-Natta, la synthèse peptidique en phase solide de Merrifield et la synthèse protéique cellulaire. Pour Merrifield : « chimie hétérogène également ; matrice de polystyrène et de divinylstyrène ; l'acide aminé est d'abord attaché au support solide ; le processus est automatisé par addition séquentielle d'un autre acide aminé protégé ; le DCC est employé comme agent d'activation (chimie de l'anhydride mixte). » Pour le ribosome : « activation de chaque acide aminé par l'ATP (chimie de l'anhydride mixte À NOUVEAU) […] appariement de bases Watson-Crick entre l'ARNt et l'ARNm pour coder la bonne séquence d'acides aminés. » Et la légende : « le degré de complexité moléculaire croît de gauche à droite. »"
+     "note": "Le tableau 2.3, qui met en colonnes la catalyse Ziegler-Natta, la synthèse peptidique en phase solide de Merrifield et la synthèse protéique cellulaire. Pour Merrifield : « chimie hétérogène également ; matrice de polystyrène et de divinylstyrène ; l'acide aminé est d'abord attaché au support solide ; le processus est automatisé par addition séquentielle d'un autre acide aminé protégé ; le DCC est employé comme agent d'activation (chimie de l'anhydride mixte). » Pour le ribosome : « activation de chaque acide aminé par l'ATP (chimie de l'anhydride mixte À NOUVEAU) […] appariement de bases Watson-Crick entre l'ARNt et l'ARNm pour coder la bonne séquence d'acides aminés. » Et la légende : « le degré de complexité moléculaire croît de gauche à droite. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "2 — Bioorganic Chemistry of Amino Acids and Polypeptides",
      "pages": "45",
-     "note": "L'aveu de ce qui sépare encore le laboratoire du vivant, à propos de la synthèse non ribosomale de la gramicidine S : « nous sommes encore LOIN d'être capables de produire une synthèse peptidique aussi efficace au laboratoire, MÊME AVEC la méthode en phase solide de Merrifield. Toutefois, l'analogie est apparente. »"
+     "note": "L'aveu de ce qui sépare encore le laboratoire du vivant, à propos de la synthèse non ribosomale de la gramicidine S : « nous sommes encore LOIN d'être capables de produire une synthèse peptidique aussi efficace au laboratoire, MÊME AVEC la méthode en phase solide de Merrifield. Toutefois, l'analogie est apparente. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "2 — Bioorganic Chemistry of Amino Acids and Polypeptides",
      "pages": "48",
-     "note": "La logique du support solide, exposée sur un modèle voisin : « pour passer à l'étape de couplage suivante, les oligonucléotides non liés sont SIMPLEMENT LAVÉS du support solide insoluble. » C'est exactement le geste qui fait l'économie de la méthode. Et le renvoi explicite : « la synthèse peptidique en phase solide développée par Merrifield et la synthèse peptidique classique sur la surface ribosomale par les cellules vivantes sont bien couvertes dans les manuels de biochimie. Le parallèle qu'on peut faire entre elles a été résumé au tableau 2.3. »"
+     "note": "La logique du support solide, exposée sur un modèle voisin : « pour passer à l'étape de couplage suivante, les oligonucléotides non liés sont SIMPLEMENT LAVÉS du support solide insoluble. » C'est exactement le geste qui fait l'économie de la méthode. Et le renvoi explicite : « la synthèse peptidique en phase solide développée par Merrifield et la synthèse peptidique classique sur la surface ribosomale par les cellules vivantes sont bien couvertes dans les manuels de biochimie. Le parallèle qu'on peut faire entre elles a été résumé au tableau 2.3. »"
     }
    ]
   },
@@ -6097,43 +6097,43 @@
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "884",
-     "note": "Les conditions, et la préparation de l'échantillon : « le peptide est décomposé en ses acides aminés constitutifs en réduisant tous les ponts disulfure, en coiffant les groupes –SH des résidus cystéine par réaction SN2 avec l'acide iodoacétique, et en HYDROLYSANT LES LIAISONS AMIDES PAR CHAUFFAGE AVEC HCl AQUEUX 6 M À 110 °C PENDANT 24 HEURES. » Puis la séparation par HPLC ou échange d'ions, et la révélation à la ninhydrine — « une réaction rapide qui produit une couleur violette intense »."
+     "note": "Les conditions, et la préparation de l'échantillon : « le peptide est décomposé en ses acides aminés constitutifs en réduisant tous les ponts disulfure, en coiffant les groupes –SH des résidus cystéine par réaction SN2 avec l'acide iodoacétique, et en HYDROLYSANT LES LIAISONS AMIDES PAR CHAUFFAGE AVEC HCl AQUEUX 6 M À 110 °C PENDANT 24 HEURES. » Puis la séparation par HPLC ou échange d'ions, et la révélation à la ninhydrine — « une réaction rapide qui produit une couleur violette intense »."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "885",
-     "note": "La sensibilité de la méthode, et le nombre de pics : « un mélange équimolaire de 17 acides aminés α […] l'analyse d'acides aminés requiert typiquement environ 100 picomoles, 2 à 3 µg d'échantillon pour une protéine d'environ 200 résidus. » Le chromatogramme porte un pic « NH₃ » qui n'est pas un acide aminé."
+     "note": "La sensibilité de la méthode, et le nombre de pics : « un mélange équimolaire de 17 acides aminés α […] l'analyse d'acides aminés requiert typiquement environ 100 picomoles, 2 à 3 µg d'échantillon pour une protéine d'environ 200 résidus. » Le chromatogramme porte un pic « NH₃ » qui n'est pas un acide aminé."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "883",
-     "note": "Ce qui rend la liaison si difficile à couper, et si précieuse : « la liaison amide est donc PLANE, et le N–H est orienté à 180° du C=O », avec la structure de résonance qui met une charge négative sur l'oxygène et une charge positive sur l'azote — c'est-à-dire un caractère de double liaison sur C–N, et une rotation bloquée."
+     "note": "Ce qui rend la liaison si difficile à couper, et si précieuse : « la liaison amide est donc PLANE, et le N–H est orienté à 180° du C=O », avec la structure de résonance qui met une charge négative sur l'oxygène et une charge positive sur l'azote — c'est-à-dire un caractère de double liaison sur C–N, et une rotation bloquée."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "886",
-     "note": "La comparaison des deux hydrolyses : « l'hydrolyse partielle d'un peptide peut être réalisée soit chimiquement par l'acide aqueux, soit enzymatiquement. L'hydrolyse acide n'est PAS SÉLECTIVE et donne un mélange plus ou moins aléatoire de petits fragments, mais l'hydrolyse enzymatique est TRÈS SPÉCIFIQUE. »"
+     "note": "La comparaison des deux hydrolyses : « l'hydrolyse partielle d'un peptide peut être réalisée soit chimiquement par l'acide aqueux, soit enzymatiquement. L'hydrolyse acide n'est PAS SÉLECTIVE et donne un mélange plus ou moins aléatoire de petits fragments, mais l'hydrolyse enzymatique est TRÈS SPÉCIFIQUE. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "4 — Enzyme Chemistry",
      "pages": "187",
-     "note": "Le mécanisme enzymatique de la même coupure, par l'α-chymotrypsine : le relais de charge Asp-102 / His-57 / Ser-195, de pKa 6,7, la « poche hydrophobe permettant la liaison productive du substrat », l'intermédiaire tétraédrique, puis l'« acyl-enzyme, qui NE S'ACCUMULE PAS mais est rapidement hydrolysée »."
+     "note": "Le mécanisme enzymatique de la même coupure, par l'α-chymotrypsine : le relais de charge Asp-102 / His-57 / Ser-195, de pKa 6,7, la « poche hydrophobe permettant la liaison productive du substrat », l'intermédiaire tétraédrique, puis l'« acyl-enzyme, qui NE S'ACCUMULE PAS mais est rapidement hydrolysée »."
     },
     {
      "ouvrage": "dugas",
      "chapitre": "4 — Enzyme Chemistry",
      "pages": "188",
-     "note": "La suite du cycle catalytique : le résidu partant « devient ionisé et quitte la cavité enzymatique », puis « une seconde molécule de substrat est prête à entrer et le même processus se répète ». Et la nature de la preuve : « des indices se sont accumulés en faveur de l'existence d'un intermédiaire tétraédrique et d'un mécanisme de transfert de proton CONCERTÉ depuis Ser-195. »"
+     "note": "La suite du cycle catalytique : le résidu partant « devient ionisé et quitte la cavité enzymatique », puis « une seconde molécule de substrat est prête à entrer et le même processus se répète ». Et la nature de la preuve : « des indices se sont accumulés en faveur de l'existence d'un intermédiaire tétraédrique et d'un mécanisme de transfert de proton CONCERTÉ depuis Ser-195. »"
     },
     {
      "ouvrage": "dugas",
      "chapitre": "2 — Bioorganic Chemistry of Amino Acids and Polypeptides (tableau 2.1)",
      "pages": "26",
-     "note": "Le tableau 2.1 met la coupure enzymatique en regard de son analogue chimique : « protéase, hydrolyse d'une liaison peptidique, α-chymotrypsine (relais de charge via Asp-His-Ser), carboxypeptidase (Zn²⁺, Glu) » face à « clivage d'une liaison C–N par une base, un nucléophile »."
+     "note": "Le tableau 2.1 met la coupure enzymatique en regard de son analogue chimique : « protéase, hydrolyse d'une liaison peptidique, α-chymotrypsine (relais de charge via Asp-His-Ser), carboxypeptidase (Zn²⁺, Glu) » face à « clivage d'une liaison C–N par une base, un nucléophile »."
     }
    ]
   },
@@ -6143,25 +6143,409 @@
      "ouvrage": "clayden",
      "chapitre": "42 — Mechanisms in biological chemistry",
      "pages": "1153",
-     "note": "La page maîtresse. La nature de la réaction : « la réaction est essentiellement une RÉACTION ALDOL entre l'énol d'un ester acétique et une cétone électrophile, et l'enzyme qui catalyse la réaction est connue sous le nom de citrate synthase. » Le rôle des deux histidines : « une histidine enlève le proton de l'énol et une autre histidine, sous sa forme PROTONÉE, est placée pour donner un proton à l'oxygène de la cétone. Vous devriez comprendre maintenant pourquoi l'histidine est si utile aux enzymes : son cycle imidazole lui permet d'agir SOIT comme acide, SOIT comme base, à pH neutre. » Le choix du thioester, deux fois justifié : « les thioesters sont moins conjugués que les esters ordinaires, et l'hydrolyse de l'ester se produit plus rapidement avec les thioesters […] parce que dans l'étape déterminante il y a moins de conjugaison à détruire. Le thiolate est en outre un meilleur groupe partant » ; et « un thioester a MOINS À PERDRE et se trouve donc PLUS ÉNOLISÉ ». Enfin : « même l'hydrolyse du thioester réactif est catalysée par l'enzyme, et l'histidine fonctionne à nouveau comme donneur de proton. » Note de marge : « le pKa de l'imidazole protoné est d'environ 7. »"
+     "note": "La page maîtresse. La nature de la réaction : « la réaction est essentiellement une RÉACTION ALDOL entre l'énol d'un ester acétique et une cétone électrophile, et l'enzyme qui catalyse la réaction est connue sous le nom de citrate synthase. » Le rôle des deux histidines : « une histidine enlève le proton de l'énol et une autre histidine, sous sa forme PROTONÉE, est placée pour donner un proton à l'oxygène de la cétone. Vous devriez comprendre maintenant pourquoi l'histidine est si utile aux enzymes : son cycle imidazole lui permet d'agir SOIT comme acide, SOIT comme base, à pH neutre. » Le choix du thioester, deux fois justifié : « les thioesters sont moins conjugués que les esters ordinaires, et l'hydrolyse de l'ester se produit plus rapidement avec les thioesters […] parce que dans l'étape déterminante il y a moins de conjugaison à détruire. Le thiolate est en outre un meilleur groupe partant » ; et « un thioester a MOINS À PERDRE et se trouve donc PLUS ÉNOLISÉ ». Enfin : « même l'hydrolyse du thioester réactif est catalysée par l'enzyme, et l'histidine fonctionne à nouveau comme donneur de proton. » Note de marge : « le pKa de l'imidazole protoné est d'environ 7. »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "898",
-     "note": "Ce que fait une enzyme, en une phrase : « les enzymes travaillent en rapprochant le substrat et les autres molécules réactives, en les maintenant dans l'ORIENTATION nécessaire à la réaction, en fournissant tous les sites acides ou basiques nécessaires pour catalyser des étapes spécifiques, et en STABILISANT L'ÉTAT DE TRANSITION. » Et la place de la réaction : « cette réaction est la PREMIÈRE ÉTAPE du cycle de l'acide citrique, dans lequel les groupes acétyle produits par la dégradation des molécules alimentaires sont métabolisés pour donner CO₂ et H₂O. » Avec la définition du coenzyme : « un coenzyme n'est PAS un catalyseur mais un RÉACTIF, qui subit un changement chimique au cours de la réaction et requiert une étape supplémentaire pour revenir à son état initial. »"
+     "note": "Ce que fait une enzyme, en une phrase : « les enzymes travaillent en rapprochant le substrat et les autres molécules réactives, en les maintenant dans l'ORIENTATION nécessaire à la réaction, en fournissant tous les sites acides ou basiques nécessaires pour catalyser des étapes spécifiques, et en STABILISANT L'ÉTAT DE TRANSITION. » Et la place de la réaction : « cette réaction est la PREMIÈRE ÉTAPE du cycle de l'acide citrique, dans lequel les groupes acétyle produits par la dégradation des molécules alimentaires sont métabolisés pour donner CO₂ et H₂O. » Avec la définition du coenzyme : « un coenzyme n'est PAS un catalyseur mais un RÉACTIF, qui subit un changement chimique au cours de la réaction et requiert une étape supplémentaire pour revenir à son état initial. »"
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "901",
-     "note": "Les résidus, nommés sur la structure cristallographique — HISTIDINE 274, HISTIDINE 320, ASPARTATE 375 — et leurs rôles distribués : « la chaîne latérale carboxyle d'un résidu ASPARTATE agit comme base pour arracher un proton α acide, tandis qu'AU MÊME MOMENT le cycle imidazole latéral d'une histidine donne H⁺ à l'oxygène du carbonyle. L'énol ainsi produit effectue alors une addition nucléophile sur le carbonyle cétonique de l'oxaloacétate. La première histidine agit comme base pour enlever l'hydrogène –OH de l'énol, tandis qu'un second résidu histidine donne SIMULTANÉMENT un proton au carbonyle de l'oxaloacétate, donnant le citryl-CoA. L'eau hydrolyse alors le groupe thioester du citryl-CoA dans une réaction de substitution nucléophile acyle, libérant le citrate et le coenzyme A comme produits finaux. » Et la structure : « l'enzyme est un DIMÈRE de deux sous-unités identiques », avec dans le site actif « l'oxaloacétate et un MIME NON RÉACTIF de l'acétyl-CoA »."
+     "note": "Les résidus, nommés sur la structure cristallographique — HISTIDINE 274, HISTIDINE 320, ASPARTATE 375 — et leurs rôles distribués : « la chaîne latérale carboxyle d'un résidu ASPARTATE agit comme base pour arracher un proton α acide, tandis qu'AU MÊME MOMENT le cycle imidazole latéral d'une histidine donne H⁺ à l'oxygène du carbonyle. L'énol ainsi produit effectue alors une addition nucléophile sur le carbonyle cétonique de l'oxaloacétate. La première histidine agit comme base pour enlever l'hydrogène –OH de l'énol, tandis qu'un second résidu histidine donne SIMULTANÉMENT un proton au carbonyle de l'oxaloacétate, donnant le citryl-CoA. L'eau hydrolyse alors le groupe thioester du citryl-CoA dans une réaction de substitution nucléophile acyle, libérant le citrate et le coenzyme A comme produits finaux. » Et la structure : « l'enzyme est un DIMÈRE de deux sous-unités identiques », avec dans le site actif « l'oxaloacétate et un MIME NON RÉACTIF de l'acétyl-CoA »."
     },
     {
      "ouvrage": "mcmurry",
      "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
      "pages": "904",
-     "note": "La référence structurale citée par McMurry, avec son code PDB : entrée 5CTS, « Mécanisme proposé pour la réaction de condensation de la citrate synthase : structure à 1,9 ångström du complexe ternaire avec l'oxaloacétate et le carboxyméthyl-coenzyme A »."
+     "note": "La référence structurale citée par McMurry, avec son code PDB : entrée 5CTS, « Mécanisme proposé pour la réaction de condensation de la citrate synthase : structure à 1,9 ångström du complexe ternaire avec l'oxaloacétate et le carboxyméthyl-coenzyme A »."
+    }
+   ]
+  },
+  "saponification_triglyceride": {
+   "ouvrages": [
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "911",
+     "note": "La définition et l'histoire : « le savon est en usage depuis près de 5000 ans. Dès 2800 avant notre ère, les Babyloniens faisaient bouillir des graisses avec des CENDRES pour créer une substance savonneuse. […] Chimiquement, un savon est un mélange des sels de sodium ou de potassium des acides gras à longue chaîne produits par hydrolyse (saponification) de la graisse animale par un alcali. On employa la cendre de bois comme source d'alcali jusqu'au début des années 1800. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "912",
+     "note": "L'isolement par relargage — « les caillots de savon brut […] peuvent être purifiés en les faisant bouillir dans l'eau et en ajoutant NaCl ou KCl pour faire précipiter les carboxylates purs » — et le mécanisme du lavage : « les savons agissent comme détergents parce que les DEUX BOUTS d'une molécule de savon sont si différents. […] Les longues queues hydrocarbonées se regroupent à l'intérieur d'une boule hydrophobe enchevêtrée, tandis que les têtes ioniques à la surface de l'amas font saillie dans la couche d'eau. Ces amas sphériques sont appelés MICELLES. » Avec le défaut : « dans l'eau dure, qui contient des ions métalliques, les carboxylates de sodium solubles sont convertis en sels de magnésium et de calcium INSOLUBLES. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "913",
+     "note": "La parade industrielle : les détergents synthétiques, sels d'acides alkylbenzènesulfoniques. « Le mécanisme des détergents synthétiques est le même que celui des savons […]. Contrairement aux savons, cependant, les détergents sulfonates ne forment pas de sels métalliques insolubles en eau dure et ne laissent pas d'écume déplaisante. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "21 — Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+     "pages": "704",
+     "note": "L'hydrolyse basique des esters, mécanisme général : addition de l'hydroxyde, effondrement de l'intermédiaire tétraédrique, et le transfert de proton final qui rend la réaction irréversible."
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "21 — Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+     "pages": "707",
+     "note": "La saponification comme cas particulier de la substitution nucléophile acyle sur les esters, avec le bilan stœchiométrique : une mole de base par fonction ester."
+    },
+    {
+     "ouvrage": "oc2",
+     "chapitre": "21.6 — Chemistry of Esters",
+     "pages": "§ 21.6",
+     "note": "L'hydrolyse basique des esters et le terme de saponification, avec le mécanisme en trois étapes."
+    }
+   ]
+  },
+  "transesterification_biodiesel": {
+   "ouvrages": [
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "21 — Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+     "pages": "706",
+     "note": "La transestérification : un ester chauffé avec un alcool en présence d'acide ou de base donne un ester différent. La réaction est un ÉQUILIBRE, qu'on déplace par un large excès de l'alcool employé."
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "908",
+     "note": "La structure des triglycérides — triesters du glycérol — et la variété des acides gras qui les composent, avec le tableau 27-1 des points de fusion."
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "1 — What is organic chemistry?",
+     "pages": "6",
+     "note": "La seule mention du biodiesel dans les neuf ouvrages indexés : les esters méthyliques d'acides gras comme carburant renouvelable, cités parmi les produits de la chimie industrielle contemporaine."
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "51 — Organic chemistry today",
+     "pages": "1194",
+     "note": "Le biodiesel dans le contexte de la chimie durable et des matières premières renouvelables."
+    },
+    {
+     "ouvrage": "oc2",
+     "chapitre": "21.6 — Chemistry of Esters",
+     "pages": "§ 21.6",
+     "note": "La transestérification et son caractère d'équilibre, avec les deux catalyses possibles — acide et basique."
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "3 — Bioorganic Chemistry of the Phosphates",
+     "pages": "132",
+     "note": "La transestérification employée dans un tout autre contexte — les phosphodiesters — mais avec la même logique mécanistique : attaque nucléophile, intermédiaire à cinq liaisons, départ de l'alcoolate."
+    }
+   ]
+  },
+  "hydrogenation_huile": {
+   "ouvrages": [
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "910",
+     "note": "La page maîtresse. La cause conformationnelle de l'état physique : « les graisses saturées ont une forme UNIFORME qui leur permet de s'empiler efficacement dans un réseau cristallin. Dans les huiles végétales insaturées, en revanche, les liaisons C=C introduisent des COUDES ET DES PLIS dans les chaînes hydrocarbonées, rendant la formation du cristal plus difficile. Plus il y a de doubles liaisons, plus il est difficile aux molécules de cristalliser et plus bas est le point de fusion de l'huile. » Le procédé : « les liaisons C=C des huiles végétales peuvent être réduites par hydrogénation catalytique, typiquement conduite à haute température avec un catalyseur au nickel […]. La margarine et le shortening sont produits en hydrogénant l'huile de soja, d'arachide ou de coton jusqu'à obtenir la consistance voulue. » Et la réaction parasite : « malheureusement, la réaction d'hydrogénation s'accompagne d'une certaine ISOMÉRISATION CIS-TRANS des doubles liaisons restantes, produisant des graisses contenant environ 10 à 15 % d'acides gras trans insaturés. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "911",
+     "note": "La conséquence sanitaire, et l'exemple nommé : « l'apport alimentaire d'acides gras trans augmente les taux de cholestérol dans le sang, augmentant ainsi le risque de problèmes cardiaques. La conversion de l'acide linoléique en acide ÉLAÏDIQUE en est un exemple. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "8 — Alkenes: Reactions and Synthesis",
+     "pages": "217",
+     "note": "L'hydrogénation catalytique en général : mécanisme hétérogène, adsorption dissociative de H₂ sur le métal, livraison SYN des deux hydrogènes depuis la surface."
+    }
+   ]
+  },
+  "biosynthese_acides_gras": {
+   "ouvrages": [
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1161",
+     "note": "L'architecture de toute la biosynthèse en une phrase : « il y a deux voies principales à partir de l'acétyl-CoA, par le malonyl-CoA et par l'acide mévalonique, et chacune donne naissance à deux séries importantes de produits naturels. Le MALONYL-CoA mène aux acides gras et aux polycétides, tandis que l'acide MÉVALONIQUE donne les terpènes et les stéroïdes. »"
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1162",
+     "note": "La page maîtresse. La preuve isotopique : « si de l'acétate marqué est donné à des plantes, les acides gras ressortent avec des marques sur des carbones ALTERNÉS. […] En fait, les réactions sont plus complexes que cela ne le suggère, car le CO₂ est également nécessaire, et il se trouve que SEULE la première unité à deux carbones est introduite comme acétyl-CoA. Toutes les autres sont ajoutées comme malonyl-CoA. Si du malonyl-CoA marqué est donné, l'unité de départ n'est PAS marquée. » Le contraste avec la chimie de laboratoire : « quand les chimistes emploient des malonates, nous aimons faire l'énol stable en utilisant les deux groupes carbonyle, condenser, et ne libérer le CO₂ qu'après. […] Ici les choses fonctionnent différemment. » Et les deux réductions : « cette réaction du NADPH est typiquement stéréo- et chimiosélective, bien que la stéréochimie soit plutôt GASPILLÉE ici, puisque l'étape suivante est une déshydratation […] par un mécanisme E1cB catalysé par l'enzyme. L'élimination est connue pour être une élimination CIS de H et OH, et la double liaison est exclusivement TRANS (E). »"
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1163",
+     "note": "La biosynthèse des acides gras INSATURÉS et son point de fuite biologique : l'acide arachidonique, « un acide gras rare qui est le précurseur des messagers biologiques très importants que sont les prostaglandines, les thromboxanes et les leucotriènes ». Avec la mention, sous le schéma, que les mammifères NE SAVENT PAS insérer certaines doubles liaisons — d'où la notion d'acide gras essentiel."
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1164",
+     "note": "Ce que la même chimie donne quand on n'arrête pas les cycles à temps : les POLYCÉTIDES. Le thioester de l'acide 4-hydroxycinnamique plus trois malonyl-CoA donne un tétracétone qui « peut se cycliser en RESVÉRATROL, un composé des peaux de raisin rouge qu'on a suggéré comme l'un des composés du vin rouge protégeant contre les maladies cardiaques »."
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "977",
+     "note": "L'origine du nombre pair de carbones, et la règle générale de la biochimie : « en règle générale en chimie biologique, la voie ANABOLIQUE par laquelle une substance est fabriquée n'est PAS l'inverse de la voie CATABOLIQUE par laquelle la même substance est dégradée. Les deux voies doivent différer en quelque point pour que TOUTES DEUX soient énergétiquement favorables. » Avec les trois différences nommées, et l'échelle : « pour un acide gras à 18 carbones, la synthase catalyse 42 ÉTAPES SÉPARÉES ! »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "979",
+     "note": "Le transfert d'acyle de l'acétyl-CoA à l'acétyl-ACP, avec le mécanisme abrégé que les biochimistes emploient — et la nature de l'ACP : « chez les bactéries, l'ACP est une petite protéine de 77 résidus qui transporte un groupe acyle. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "980",
+     "note": "La carboxylation de l'acétyl-CoA en malonyl-CoA, et le rôle de la biotine : « le mécanisme de la réaction de transfert de CO₂ avec l'acétyl-CoA pour donner le malonyl-CoA est supposé impliquer le CO₂ comme espèce réactive. […] La déprotonation SIMULTANÉE de l'acétyl-CoA par un site basique de l'enzyme donne un ion énolate de thioester qui peut réagir avec le CO₂ AU MOMENT OÙ IL SE FORME. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "981",
+     "note": "La condensation de Claisen elle-même, et le rôle des deux porteurs de soufre : l'effondrement de l'intermédiaire « donne le produit de condensation à quatre carbones, l'acétoacétyl-ACP, et LIBÈRE le site de liaison de la synthase pour l'attachement du groupe acyle allongé à la fin de la séquence »."
+    },
+    {
+     "ouvrage": "roberts_caserio",
+     "chapitre": "30 — Natural Products and Biosynthesis (LibreTexts)",
+     "pages": "82-83",
+     "note": "§ 30.5.1 — la biosynthèse des acides gras vue par les traceurs, et la remarque de portée : « le schéma précédent est représentatif de la biosynthèse des acides gras chez les plantes, les animaux et les bactéries. La différence majeure est que les acides gras des plantes et des bactéries contiennent d'ordinaire plus de doubles liaisons — voire des triples — que les acides gras animaux. »"
+    }
+   ]
+  },
+  "beta_oxydation": {
+   "ouvrages": [
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "973",
+     "note": "La première étape et son coenzyme : « la voie de la β-oxydation commence quand DEUX atomes d'hydrogène sont retirés de C2 et C3 de l'acyl-CoA par l'une d'une famille d'acyl-CoA déshydrogénases, pour donner un acyl-CoA α,β-insaturé. Ce genre d'oxydation — l'introduction d'une double liaison CONJUGUÉE dans un composé carbonylé — se produit fréquemment dans les voies biochimiques et implique d'ordinaire le coenzyme flavine adénine dinucléotide (FAD). La FADH₂ réduite est le sous-produit. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "974",
+     "note": "Le mécanisme proposé de cette déshydrogénation, avec ses trois conditionnels : « UN MÉCANISME SUGGÉRÉ fait que la réaction se produit par addition nucléophile conjuguée d'hydrure, analogue à ce qui se produit lors des oxydations d'alcool par NAD⁺. Les électrons de l'ion énolate POURRAIENT expulser un hydrure β, qui POURRAIT s'additionner sur l'azote N5 doublement lié de la FAD. La protonation de l'intermédiaire en N1 DONNERAIT le produit. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "975",
+     "note": "L'oxydation de l'alcool β en cétone par le NAD⁺, avec la structure du nicotinamide et le transfert d'hydrure vers le C4 du cycle."
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "976",
+     "note": "Le décompte, sur l'acide myristique : « le premier passage convertit le myristoyl-CoA à 14 carbones en lauroyl-CoA à 12 carbones plus acétyl-CoA, le deuxième passage convertit le lauroyl-CoA en caproyl-CoA à 10 carbones plus acétyl-CoA […]. Notez que le DERNIER passage produit DEUX molécules d'acétyl-CoA, parce que le précurseur en a quatre. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+     "pages": "977",
+     "note": "La comparaison explicite avec la biosynthèse : « la voie de la β-oxydation pour convertir les acides gras en acétyl-CoA et la biosynthèse des acides gras à partir de l'acétyl-CoA sont APPARENTÉES mais ne sont PAS des inverses exacts. Les différences incluent l'identité du porteur de groupe acyle, la stéréochimie de l'intermédiaire β-hydroxyacyle, et l'identité du coenzyme rédox. La FAD est employée pour introduire une double liaison dans la β-oxydation, tandis que le NADPH est employé pour réduire la double liaison dans la biosynthèse des acides gras. »"
+    }
+   ]
+  },
+  "couplage_prenyle": {
+   "ouvrages": [
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1166",
+     "note": "La page maîtresse. La formation de l'IPP à partir de l'acide mévalonique par l'ATP, puis : « il existe en fait DEUX intermédiaires en C₅ étroitement apparentés, chacun ayant un rôle spécifique et approprié dans la biosynthèse des terpènes. Le pyrophosphate d'isopentényle est en équilibre avec le pyrophosphate de diméthylallyle par un simple transfert de proton allylique. » Et la répartition des rôles : « le pyrophosphate de diméthylallyle est le MEILLEUR ÉLECTROPHILE parce qu'il est allylique, et les composés allyliques sont bons à la fois en SN1 et en SN2. Le pyrophosphate d'isopentényle est le MEILLEUR NUCLÉOPHILE parce qu'il peut réagir par un carbone primaire non encombré pour produire un cation TERTIAIRE. »"
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1167",
+     "note": "Le devenir du cation, et l'origine de la diversité : « des composés plus intéressants viennent de la CYCLISATION du cation formé en premier. L'alcène restant peut attaquer le cation pour former ce qui semble d'abord un composé très instable mais qui est en fait un carbocation tertiaire portant le squelette du PINÈNE. Il existe des MILLIERS de terpènes à unités C₅ multiples, tous faits à partir de l'acide mévalonique. » Avec le limonène et l'α-pinène en exemples, et la transition vers les stéroïdes."
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "922",
+     "note": "La conversion du mévalonate en IPP : « trois réactions supplémentaires sont nécessaires pour convertir le mévalonate en diphosphate d'isopentényle. Les deux premières sont des phosphorylations directes par l'ATP qui se produisent par substitution nucléophile sur le phosphore terminal. […] La troisième réaction résulte en la phosphorylation du groupe hydroxyle TERTIAIRE, suivie de DÉCARBOXYLATION et de perte de l'ion phosphate. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "923",
+     "note": "L'isomérisation et le couplage : « la conversion du diphosphate d'isopentényle (IPP) en terpénoïdes commence par son isomérisation en diphosphate de diméthylallyle, abrégé DMAPP […]. Ces deux briques en C₅ se combinent alors pour donner l'unité en C₁₀, le diphosphate de géranyle (GPP). L'alcool correspondant, le GÉRANIOL, est lui-même un terpénoïde odorant qu'on trouve dans l'essence de rose. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "917",
+     "note": "La définition et la classification des terpénoïdes par le nombre d'unités isoprène : mono- (C₁₀), sesqui- (C₁₅), di- (C₂₀), tri- (C₃₀)."
+    },
+    {
+     "ouvrage": "roberts_caserio",
+     "chapitre": "30 — Natural Products and Biosynthesis (LibreTexts)",
+     "pages": "83",
+     "note": "§ 30.5.3 — la biosynthèse des terpènes et la preuve isotopique du carbone perdu : « l'acide mévalonique a six atomes de carbone, tandis que l'unité isoprène n'en a que cinq. Donc, si l'acide mévalonique est le précurseur des unités isoprène, il doit perdre un atome de carbone à un certain stade. La synthèse d'acide mévalonique marqué au groupe carboxyle par ¹⁴C, et l'emploi de ce matériau comme produit de départ pour la production de cholestérol, donne un cholestérol NON marqué. Donc, le carbone carboxylique est celui qui est perdu. »"
+    },
+    {
+     "ouvrage": "roberts_caserio",
+     "chapitre": "30 — Natural Products and Biosynthesis (LibreTexts)",
+     "pages": "84",
+     "note": "§ 30.5.3 (suite) — l'assemblage tête-à-queue des unités C₅ et la règle de l'isoprène comme conséquence du mécanisme, non comme observation isolée."
+    }
+   ]
+  },
+  "cyclisation_squalene": {
+   "ouvrages": [
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "931",
+     "note": "La page maîtresse côté McMurry. L'époxydation : « la biosynthèse du lanostérol commence par l'époxydation SÉLECTIVE du squalène pour donner le (3S)-2,3-oxydosqualène, catalysée par la squalène époxydase. Le dioxygène moléculaire fournit l'atome d'oxygène de l'époxyde, et le NADPH est requis, avec un coenzyme flavinique. […] Ce mécanisme d'époxydation biologique est étroitement ANALOGUE au mécanisme par lequel les peracides (RCO₃H) réagissent avec les alcènes pour donner des époxydes au laboratoire. » Et la cascade : « le squalène est PLIÉ par l'enzyme dans une conformation qui aligne les diverses doubles liaisons pour une cascade d'additions électrophiles intramoléculaires successives, suivie d'une série de migrations d'hydrure et de méthyle. À l'exception de la protonation/cyclisation initiale de l'époxyde, le processus est PROBABLEMENT par étapes et SEMBLE impliquer des intermédiaires carbocationiques discrets, stabilisés par des interactions électrostatiques avec les acides aminés aromatiques riches en électrons de l'enzyme. »"
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "5 — Enzyme Models",
+     "pages": "374",
+     "note": "La figure 5.30 : la synthèse chimique du 2,3-oxydosqualène et sa transformation biochimique en cholestérol, avec la mention sous le schéma d'« une série de migrations de CH₃ et de H via un réarrangement de WAGNER-MEERWEIN » convertissant le cation en lanostérol."
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "5 — Enzyme Models",
+     "pages": "375",
+     "note": "La preuve que l'époxyde est sur le chemin : « il a été démontré que le 2,3-oxydosqualène est synthétisé DIRECTEMENT à partir du squalène dans le système hépatique de rat formateur de stérols. Le premier est un précurseur des stérols et est incorporé BIEN PLUS EFFICACEMENT que le squalène en conditions aérobies. […] Bien sûr, dans le processus enzymatique, un SEUL isomère de l'époxyde est formé. » Et l'analyse géométrique : « un examen plus attentif du squelette du 2,3-oxydosqualène révèle la présence de TROIS systèmes π distincts, désignés régions α, β et γ. Pour que la cyclisation se produise, la région α est essentielle. »"
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "5 — Enzyme Models",
+     "pages": "377",
+     "note": "L'expérience de double marquage, exposée en entier : quatre squalènes marqués au ¹³C, cyclisation enzymatique, dégradation du lanostérol en acétate par oxydation de Kuhn-Roth puis en éthylène, analyse par spectrométrie de masse. « La considération des schémas de marquage révèle que SEULE la structure D peut donner naissance à un éthylène contenant du ¹³C sur LES DEUX atomes de carbone. Puisqu'un tel éthylène doublement marqué a effectivement été détecté, on a conclu que le processus de DEUX migrations 1,2 de méthyle se produit réellement. »"
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "5 — Enzyme Models",
+     "pages": "378",
+     "note": "§ 5.8.2 — l'approche biomimétique et sa question directrice : « combien de l'opération biosynthétique peut-on espérer simuler au laboratoire organique ? » Le résultat de van Tamelen : « si le cycle D est PRÉFORMÉ, le système isoeuphénol peut être obtenu avec un bon rendement en traitant le précurseur époxyde par un acide de Lewis » — 35 % de rendement, « cinq carbones asymétriques formés en une fois ». Et la raison du cycle préformé : il « agit comme un ISOLANT pour empêcher l'implication de la liaison π de la chaîne latérale avec tout ion carbonium se développant pendant la cyclisation. Il empêche aussi le cycle C de devenir à cinq chaînons, ce qui était l'une des difficultés précédentes. » L'approche de Johnson : « la production d'un certain nombre de cycles stéréospécifiquement en une seule étape par la fermeture de cycle d'une chaîne acyclique portant des liaisons oléfiniques trans OPPOSÉES. »"
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "5 — Enzyme Models",
+     "pages": "373",
+     "note": "L'ouverture de la section 5.8 : le squalène comme précurseur commun des triterpènes et des stéroïdes."
+    },
+    {
+     "ouvrage": "roberts_caserio",
+     "chapitre": "30 — Natural Products and Biosynthesis (LibreTexts)",
+     "pages": "85",
+     "note": "§ 30.5.3 — la cyclisation du squalène en lanostérol et le passage au cholestérol, avec la perte des trois méthyles."
+    },
+    {
+     "ouvrage": "grossman",
+     "chapitre": "10 — Transition-Metal-Mediated and -Catalyzed Reactions (mentions)",
+     "pages": "428",
+     "note": "Une mention de la cyclisation du lanostérol dans le contexte des cascades cationiques — sans mécanisme détaillé."
+    }
+   ]
+  },
+  "biosynthese_steroides": {
+   "ouvrages": [
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "931",
+     "note": "La figure 27-11 : « vue d'ensemble de la biosynthèse des stéroïdes à partir du diphosphate de farnésyle » — deux farnésyl-PP se dimérisent en squalène, le squalène donne le lanostérol, le lanostérol donne les stéroïdes."
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "930",
+     "note": "Les quatre familles d'hormones stéroïdiennes et leurs représentants : l'ALDOSTÉRONE (minéralocorticoïde), l'HYDROCORTISONE (glucocorticoïde). Et les stéroïdes de synthèse : « en plus des nombreuses centaines de stéroïdes isolés de plantes et d'animaux, des MILLIERS d'autres ont été synthétisés dans les laboratoires pharmaceutiques à la recherche de nouveaux médicaments. Parmi les stéroïdes de synthèse les mieux connus figurent les contraceptifs oraux et les agents anabolisants. La plupart des pilules contraceptives sont un mélange de deux composés, un œstrogène de synthèse comme l'éthynylestradiol, et un progestatif de synthèse comme la NORÉTHINDRONE. Les stéroïdes anabolisants, comme la méthandrosténolone (Dianabol), sont des androgènes de synthèse qui imitent les effets constructeurs de tissus de la testostérone naturelle. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "926",
+     "note": "La structure du noyau stéroïdien : quatre cycles accolés, leur nomenclature A, B, C, D, et la stéréochimie des jonctions."
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1167",
+     "note": "Le contexte biologique, et les deux visages du cholestérol : « les stéroïdes sont un autre groupe de composés dérivés de l'acide mévalonique. Ils incluent les hormones sexuelles comme la TESTOSTÉRONE et la PROGESTÉRONE, et le CHOLESTÉROL nécessaire à la construction des membranes cellulaires, mais aussi impliqué dans les dommages aux artères causés par l'athérosclérose. » Avec le renvoi : « la synthèse des stéroïdes est discutée dans le chapitre en ligne » — ce qui explique que le mécanisme détaillé ne figure pas dans l'ouvrage indexé."
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "5 — Enzyme Models",
+     "pages": "374",
+     "note": "La figure 5.30, qui va jusqu'au bout : « lanostérol → cholestérol », sans détail des étapes intermédiaires."
+    },
+    {
+     "ouvrage": "dugas",
+     "chapitre": "7 — Metabolic Processes and Enzyme Systems",
+     "pages": "434",
+     "note": "Le cholestérol comme précurseur des hormones stéroïdiennes dans le contexte des systèmes enzymatiques."
+    }
+   ]
+  },
+  "biosynthese_prostaglandines": {
+   "ouvrages": [
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "6 — An Overview of Organic Reactions / 8 — Alkenes",
+     "pages": "153",
+     "note": "L'amorçage, en une phrase : « la biosynthèse des prostaglandines est amorcée par l'ARRACHEMENT d'un atome d'hydrogène de l'acide arachidonique par un radical FER-OXYGÈNE, engendrant ainsi un radical carboné. » Avec la liste de ce que les prostaglandines commandent : « induire le travail lors de l'accouchement, réduire la pression intraoculaire dans le glaucome, contrôler l'asthme bronchique, et aider à traiter les malformations cardiaques congénitales. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "6 — An Overview of Organic Reactions / 8 — Alkenes",
+     "pages": "252",
+     "note": "Le problème de fond de la chimie radicalaire, et sa résolution biologique. Le problème : « l'intermédiaire d'une réaction radicalaire n'est habituellement PAS piégé. Au lieu de cela, il réagit encore et encore, d'une manière largement INCONTRÔLABLE. » La résolution : « dans les réactions biologiques, la situation est DIFFÉRENTE de celle du laboratoire. Une SEULE molécule de substrat à la fois est présente dans le site actif de l'enzyme. » Et l'entrée en matière : « la biosynthèse des prostaglandines commence par l'arrachement d'un atome d'hydrogène du C13 de l'acide arachidonique par un radical fer-oxy, pour donner un radical carboné qui […] subit une séquence de QUATRE additions radicalaires. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "6 — An Overview of Organic Reactions / 8 — Alkenes",
+     "pages": "253",
+     "note": "La figure 8-10, qui porte la voie complète en six étapes, avec ses hameçons et sa numérotation des carbones. La légende classe les étapes : « les étapes 2 et 5 sont des additions radicalaires sur O₂ ; les étapes 3 et 4 sont des additions radicalaires sur des doubles liaisons carbone-carbone. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "915",
+     "note": "Ce que sont les prostaglandines et ce qu'elles font : « les prostaglandines sont un groupe de lipides en C₂₀ qui contiennent un cycle à cinq chaînons avec deux longues chaînes latérales. […] Parmi leurs nombreuses propriétés, elles peuvent abaisser la pression artérielle, affecter l'agrégation plaquettaire lors de la coagulation, RÉDUIRE LES SÉCRÉTIONS GASTRIQUES, contrôler l'inflammation, affecter la fonction rénale, affecter les systèmes reproducteurs et stimuler les contractions utérines lors de l'accouchement. » Et la famille : « les prostaglandines, avec des composés apparentés appelés THROMBOXANES et LEUCOTRIÈNES, constituent une classe de composés appelés EICOSANOÏDES, parce qu'ils dérivent biologiquement de l'acide 5,8,11,14-eicosatétraénoïque, ou acide arachidonique. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "916",
+     "note": "La nomenclature des eicosanoïdes — PG, TX, LT — et la distinction structurale : « les prostaglandines ont un cycle cyclopentane avec deux longues chaînes latérales ; les thromboxanes ont un cycle à SIX chaînons contenant de l'oxygène ; et les leucotriènes sont ACYCLIQUES. »"
+    },
+    {
+     "ouvrage": "mcmurry",
+     "chapitre": "27 — Biomolecules: Lipids",
+     "pages": "917",
+     "note": "Ce que devient la PGH₂, et une incertitude assumée : « le coenzyme glutathion est nécessaire à l'activité enzymatique, bien qu'il ne soit PAS chimiquement modifié au cours de l'isomérisation, et SON RÔLE N'EST PAS PLEINEMENT COMPRIS. Une possibilité est que l'anion thiolate du glutathion rompe la liaison O–O de la PGH₂ par une attaque de type SN2 sur l'un des atomes d'oxygène, donnant un intermédiaire thioperoxy (R–S–O–R') qui élimine le glutathion pour donner la cétone. »"
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "42 — Mechanisms in biological chemistry",
+     "pages": "1163",
+     "note": "Le précurseur, et pourquoi il compte : l'acide arachidonique est « le précurseur des messagers biologiques très importants que sont les prostaglandines, les thromboxanes et les leucotriènes ». Avec la biosynthèse des acides gras insaturés qui y mène, et la mention que les mammifères ne savent pas insérer certaines doubles liaisons."
+    },
+    {
+     "ouvrage": "clayden",
+     "chapitre": "24 — Chemoselectivity and protecting groups",
+     "pages": "533",
+     "note": "Les prostaglandines comme cibles de synthèse totale — un exemple classique de l'emploi des groupes protecteurs."
     }
    ]
   }

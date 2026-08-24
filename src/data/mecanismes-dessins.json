@@ -7957,5 +7957,425 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "saponification_triglyceride": {
+    "1": {
+      "fichier": "saponification_triglyceride-etape1.svg",
+      "titre": "L'hydroxyde attaque le carbonyle de l'ester",
+      "legende": "Un triglycéride porte TROIS esters sur le même glycérol. On n'en dessine qu'un ici — les deux autres subissent exactement la même chose.\n\nL'ion hydroxyde apporte ses électrons sur le carbone du carbonyle, et la double liaison C=O se replie sur l'oxygène. C'est la substitution nucléophile acyle la plus ordinaire qui soit.\n\nLA RECETTE A CINQ MILLE ANS (McMurry p. 911) : « dès 2800 avant notre ère, les Babyloniens faisaient bouillir des graisses avec des CENDRES pour créer une substance savonneuse. » Les cendres de bois apportaient l'alcali — « on employa la cendre de bois comme source d'alcali jusqu'au début des années 1800 ».",
+      "fleches": [
+        "Le doublet de l'oxygène forme la liaison C–O.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "saponification_triglyceride-etape2.svg",
+      "titre": "L'intermédiaire s'effondre et rend le glycérol",
+      "legende": "L'oxygène chargé pousse ses électrons, reforme la double liaison, et chasse l'alcoolate du glycérol.\n\nPOURQUOI C'EST BIEN L'ALCOOLATE QUI PART, ET NON L'HYDROXYDE QU'ON VIENT D'AJOUTER. Les deux sont des groupes partants médiocres, et à ce stade la réaction est parfaitement réversible : elle repart en arrière autant qu'en avant. Ce n'est pas cette étape qui décide — c'est la suivante.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "Les électrons de la liaison C–O partent avec le glycérol."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "saponification_triglyceride-etape3.svg",
+      "titre": "Le transfert de proton verrouille tout",
+      "legende": "L'alcoolate qui vient de partir arrache le proton de l'acide qui vient de se former. Cette étape est le VERROU de toute la réaction.\n\nPOURQUOI ELLE EST IRRÉVERSIBLE. Un acide carboxylique a un pKa d'environ 5 ; un alcool, d'environ 16. L'écart est de onze unités — un facteur cent milliards. Le proton passe donc à sens unique.\n\nET CE QUI EN RÉSULTE NE PEUT PLUS ÊTRE ATTAQUÉ : un carboxylate est chargé négativement, aucun nucléophile ne s'en approche. Le glycérol ne peut pas revenir se recoller.\n\nC'EST POURQUOI ON DIT « SAPONIFICATION » ET NON « HYDROLYSE BASIQUE RÉVERSIBLE ». La base n'est pas un catalyseur ici : elle est CONSOMMÉE, une mole par ester.",
+      "fleches": [
+        "L'alcoolate va chercher le proton de l'acide.",
+        "Les électrons de la liaison O–H restent sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "saponification_triglyceride-etape4.svg",
+      "titre": "Le savon, et pourquoi il lave",
+      "legende": "Le produit est le sel de sodium d'un acide gras à longue chaîne. McMurry le définit ainsi (p. 911) : « chimiquement, un savon est un mélange des sels de sodium ou de potassium des acides gras à longue chaîne produits par hydrolyse (saponification) de la graisse animale par un alcali. »\n\nPOURQUOI IL LAVE (McMurry p. 912) : « les savons agissent comme détergents parce que les DEUX BOUTS d'une molécule de savon sont si différents. Le bout carboxylate de la molécule à longue chaîne est ionique et donc hydrophile, ou attiré par l'eau. La longue portion hydrocarbonée de la molécule, en revanche, est apolaire et hydrophobe, fuyant l'eau et donc plus soluble dans les huiles. »\n\nCE QU'IL FORME DANS L'EAU (p. 912) : « les longues queues hydrocarbonées se regroupent à l'intérieur d'une boule hydrophobe enchevêtrée, tandis que les têtes ioniques à la surface de l'amas font saillie dans la couche d'eau. Ces amas sphériques sont appelés MICELLES. » La graisse est enfermée au centre, puis rincée avec la micelle.\n\nSON DÉFAUT (p. 912-913) : « dans l'eau dure, qui contient des ions métalliques, les carboxylates de sodium solubles sont convertis en sels de magnésium et de calcium INSOLUBLES » — le cerne de la baignoire. Les détergents synthétiques, sels d'acides alkylbenzènesulfoniques, marchent sur le même principe « mais ne forment pas de sels métalliques insolubles en eau dure ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "transesterification_biodiesel": {
+    "1": {
+      "fichier": "transesterification_biodiesel-etape1.svg",
+      "titre": "Le méthanolate attaque l'ester",
+      "legende": "Même geste que dans la saponification, mais le nucléophile n'est plus l'eau : c'est un ALCOOLATE de méthanol.\n\nCE QU'ON CHANGE EN CHANGEANT DE NUCLÉOPHILE. L'hydroxyde donne un carboxylate — un savon, chargé, insoluble dans les hydrocarbures. Le méthanolate donne un ESTER MÉTHYLIQUE, neutre, fluide, et qui brûle dans un moteur Diesel.",
+      "fleches": [
+        "L'alcoolate attaque le carbone du carbonyle.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "transesterification_biodiesel-etape2.svg",
+      "titre": "L'intermédiaire choisit lequel des deux alcoolates il rend",
+      "legende": "L'intermédiaire tétraédrique porte DEUX oxygènes qui peuvent repartir : celui du méthanol et celui du glycérol. Il rend l'un ou l'autre, et la réaction est parfaitement réversible dans les deux sens.\n\nALORS COMMENT LA POUSSE-T-ON DANS LE BON SENS ? Par la loi d'action de masse, tout simplement : on met le méthanol en LARGE EXCÈS — six moles pour une d'huile en pratique, là où trois suffiraient en théorie.\n\nCE N'EST PAS UNE ASTUCE DE PROCÉDÉ, C'EST LA SEULE MANIÈRE. Contrairement à la saponification, aucune étape irréversible ne vient verrouiller le résultat : il n'y a pas ici de transfert de proton entre un acide de pKa 5 et un alcool de pKa 16. Les deux alcools ont des pKa voisins.",
+      "fleches": [
+        "L'oxygène reforme la double liaison C=O.",
+        "Les électrons de la liaison C–O partent avec le glycérol."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "transesterification_biodiesel-etape3.svg",
+      "titre": "L'alcoolate régénéré : le catalyseur tourne",
+      "legende": "L'alcoolate du glycérol arrache un proton au méthanol et régénère le méthanolate.\n\nET C'EST CE QUI FAIT DE LA BASE UN VRAI CATALYSEUR ICI, à la différence de la saponification. Dans la saponification, la base finit prisonnière du carboxylate : elle est consommée. Ici elle repasse d'une molécule à l'autre indéfiniment : quelques pour cent de soude ou de méthanolate de sodium suffisent à transformer une tonne d'huile.",
+      "fleches": [
+        "L'alcoolate du glycérol va chercher le proton du méthanol.",
+        "Les électrons de la liaison O–H restent sur l'oxygène du méthanol : le méthanolate est régénéré."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "transesterification_biodiesel-etape4.svg",
+      "titre": "Ce qu'on obtient : un ester méthylique",
+      "legende": "L'oléate de méthyle — le constituant principal du biodiesel.\n\nPOURQUOI UN ESTER MÉTHYLIQUE PLUTÔT QUE L'HUILE ELLE-MÊME. Une huile est un TRIester du glycérol : trois longues chaînes accrochées au même point. Elle est visqueuse, elle s'écoule mal à froid, et elle encrasse un injecteur. En coupant les trois chaînes et en les coiffant chacune d'un méthyle, on obtient trois molécules trois fois plus petites : la viscosité chute d'un facteur dix.\n\nET LE GLYCÉROL N'EST PAS UN DÉCHET : c'est un coproduit vendu, employé en cosmétique, en pharmacie et comme matière première chimique. Un procédé qui valorise son sous-produit est un procédé qui tient économiquement.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydrogenation_huile": {
+    "1": {
+      "fichier": "hydrogenation_huile-etape1.svg",
+      "titre": "L'huile de départ, et pourquoi elle est liquide",
+      "legende": "L'acide linoléique, deux doubles liaisons, toutes deux CIS. C'est un constituant majeur des huiles végétales.\n\nPOURQUOI IL EST LIQUIDE LÀ OÙ L'ACIDE STÉARIQUE EST SOLIDE. La cause est purement géométrique, et McMurry l'énonce (p. 910) : « les graisses saturées ont une forme UNIFORME qui leur permet de s'empiler efficacement dans un réseau cristallin. Dans les huiles végétales insaturées, en revanche, les liaisons C=C introduisent des COUDES ET DES PLIS dans les chaînes hydrocarbonées, rendant la formation du cristal plus difficile. PLUS il y a de doubles liaisons, PLUS il est difficile aux molécules de cristalliser et PLUS BAS est le point de fusion de l'huile. »\n\nUne double liaison cis fait un coude d'une trentaine de degrés. Une chaîne coudée ne s'empile pas — et ce qui ne s'empile pas ne cristallise pas.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydrogenation_huile-etape2.svg",
+      "titre": "Le dihydrogène s'additionne sur le nickel",
+      "legende": "On chauffe l'huile sous hydrogène en présence de nickel finement divisé. Les doubles liaisons se saturent, et l'on obtient l'acide stéarique — solide à température ambiante.\n\nAUCUNE FLÈCHE ICI, ET CE N'EST PAS UN OUBLI. L'hydrogénation catalytique se produit à la SURFACE du métal : l'alcène et le dihydrogène s'adsorbent tous deux sur le nickel, et les deux hydrogènes sont livrés depuis la surface. Il n'y a ni nucléophile, ni électrophile, ni doublet qui se déplace d'un atome vers un autre. Dessiner une flèche courbe raconterait une histoire qui n'a pas lieu.\n\nLES CONDITIONS RÉELLES (McMurry p. 910) : « les liaisons C=C des huiles végétales peuvent être réduites par HYDROGÉNATION CATALYTIQUE, typiquement conduite à haute température avec un catalyseur au nickel, pour produire des graisses solides ou semi-solides saturées. La margarine et le shortening sont produits en hydrogénant l'huile de soja, d'arachide ou de coton jusqu'à obtenir la consistance voulue. »\n\nCE QUE VEUT DIRE « JUSQU'À LA CONSISTANCE VOULUE » : on ARRÊTE avant la fin. Une hydrogénation complète donnerait un suif dur. C'est une réaction qu'on pilote au point d'arrêt, pas qu'on mène à terme.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydrogenation_huile-etape3.svg",
+      "titre": "Ce qui se produit AUSSI, et qu'on n'avait pas prévu",
+      "legende": "L'acide élaïdique : la double liaison n'a pas été réduite, elle a été RETOURNÉE. Le cis est devenu trans.\n\nPOURQUOI CELA ARRIVE. À la surface du métal, l'alcène s'adsorbe, prend un hydrogène et devient un radical ou un alkyle de surface — qui peut tourner librement autour de la liaison simple. S'il rend ensuite son hydrogène au lieu d'en prendre un second, il repart en alcène, mais dans la géométrie la plus stable : TRANS.\n\nLE CHIFFRE, ET IL EST GROS (McMurry p. 910) : « malheureusement, la réaction d'hydrogénation s'accompagne d'une certaine isomérisation cis-trans des doubles liaisons restantes, produisant des graisses contenant environ 10 à 15 % d'acides gras trans insaturés. »\n\nET CE QUE CELA COÛTE (p. 910-911) : « l'apport alimentaire d'acides gras trans augmente les taux de cholestérol dans le sang, augmentant ainsi le risque de problèmes cardiaques. » McMurry donne l'exemple exact : « la conversion de l'acide linoléique en acide élaïdique ».\n\nUNE LEÇON QUI DÉPASSE LA CHIMIE : ce procédé a été conçu pour un but précis — durcir une huile bon marché — et il a fabriqué, sans qu'on le cherche, une molécule que le corps humain ne sait pas gérer. La réaction parasite n'était pas un détail de rendement.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "biosynthese_acides_gras": {
+    "1": {
+      "fichier": "biosynthese_acides_gras-etape1.svg",
+      "titre": "La décarboxylation ET la condensation, d'un seul geste",
+      "legende": "Trois flèches, un seul mouvement. Le carboxylate part en CO₂ AU MOMENT MÊME où la nouvelle liaison carbone-carbone se forme.\n\nET C'EST LÀ QUE LA NATURE FAIT AUTREMENT QUE NOUS. Clayden le souligne (p. 1162) : « quand les chimistes emploient des malonates, nous aimons faire l'énol stable en utilisant les DEUX groupes carbonyle, condenser, et ne libérer le CO₂ qu'APRÈS. […] Ici les choses fonctionnent différemment. » Le chimiste fait deux étapes ; l'enzyme n'en fait qu'une.\n\nPOURQUOI ELLE PEUT SE LE PERMETTRE. Une décarboxylation isolée engendrerait un carbanion nu — trop instable pour exister librement. En la couplant à la formation de la liaison C–C, l'enzyme ne laisse jamais ce carbanion seul : il est consommé à l'instant où il naît.\n\nCE QUE LE MARQUAGE ISOTOPIQUE A PROUVÉ (Clayden p. 1162) : si l'on nourrit une plante avec de l'acétate marqué, les acides gras ressortent marqués sur un carbone sur deux. Et si l'on marque le malonyl-CoA, « l'unité de départ, comme on l'appelle, n'est PAS marquée ». Seule la première unité arrive en acétyl-CoA ; toutes les suivantes arrivent en malonyl-CoA.",
+      "fleches": [
+        "Le carboxylate forme la seconde double liaison du CO₂ qui part.",
+        "Les électrons de la liaison C–C attaquent le carbonyle voisin.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "biosynthese_acides_gras-etape2.svg",
+      "titre": "L'intermédiaire rend l'enzyme à elle-même",
+      "legende": "L'alcoolate pousse, la double liaison se reforme, et le thiolate de la SYNTHASE est expulsé. C'est une condensation de Claisen achevée.\n\nCE QUI PART EST UNE CYSTÉINE DE L'ENZYME. McMurry le dit (p. 981) : l'effondrement de l'intermédiaire « donne le produit de condensation à quatre carbones, l'acétoacétyl-ACP, et LIBÈRE le site de liaison de la synthase » pour l'acyle allongé du tour suivant.\n\nDEUX PORTEURS DE SOUFRE, ET ILS NE FONT PAS LE MÊME TRAVAIL : la cystéine de la synthase tient l'unité de DÉPART, l'ACP tient l'unité qui S'ALLONGE. Sans cette division, la chaîne ne saurait pas de quel côté croître.",
+      "fleches": [
+        "L'alcoolate reforme la double liaison C=O.",
+        "Les électrons de la liaison C–S partent avec le thiolate de l'enzyme."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "biosynthese_acides_gras-etape3.svg",
+      "titre": "Le NADPH réduit la cétone",
+      "legende": "Un hydrure s'additionne sur la cétone. Le porteur est le NADPH, et non le NADH : la cellule sépare ses deux monnaies d'électrons, le NADH pour dégrader, le NADPH pour construire.\n\nCLAYDEN NOTE UNE IRONIE (p. 1162) : « cette réaction du NADPH est typiquement STÉRÉO- et chimiosélective, bien que la stéréochimie soit plutôt GASPILLÉE ici, puisque l'étape suivante est une déshydratation. » L'enzyme fabrique soigneusement un centre asymétrique… qu'elle détruit au coup d'après.\n\nPOURQUOI ELLE LE FAIT QUAND MÊME : parce qu'une enzyme ne sait pas faire autrement. Un site actif chiral ne peut livrer son hydrure que d'un côté. La sélectivité n'est pas un choix, c'est une conséquence.\n\nL'HYDRURE EST DESSINÉ NU ICI : le mécanisme complet du NAD(P)H, avec son cycle nicotinamide, est traité dans la fiche « Oxydoréduction par NAD(P)H ».",
+      "fleches": [
+        "L'hydrure s'additionne sur le carbone de la cétone.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "biosynthese_acides_gras-etape4.svg",
+      "titre": "La déshydratation, par E1cb",
+      "legende": "Une base enzymatique arrache le proton en α du thioester ; l'énolate qui en résulte expulse l'hydroxyle. C'est un E1cb — élimination par la base conjuguée —, exactement le mécanisme d'une crotonisation.\n\nDEUX CHOSES SONT CONNUES DE CETTE ÉTAPE, ET CLAYDEN LES DONNE (p. 1162) : « l'élimination est connue pour être une élimination CIS de H et OH, et la double liaison est EXCLUSIVEMENT trans (E). »\n\nCE QUE CELA APPREND. Une élimination cis n'est pas ce que ferait un E2 en solution, qui préfère l'anti-périplanaire. C'est la signature d'une enzyme : elle tient le substrat dans UNE conformation, et ce qu'elle obtient est ce que cette conformation permet, pas ce que la thermodynamique préférerait.\n\nICI ON DESSINE LE DÉPART DIRECT DE L'HYDROXYLE POUR ALLÉGER LE SCHÉMA : dans l'enzyme, un résidu acide le protone d'abord.",
+      "fleches": [
+        "Les électrons de la liaison C–H forment la double liaison C=C.",
+        "Les électrons de la liaison C–O partent avec l'hydroxyle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "biosynthese_acides_gras-etape5.svg",
+      "titre": "Un second NADPH réduit la double liaison",
+      "legende": "Addition conjuguée d'un hydrure sur le carbone β, puis protonation en α. Le thioester est de nouveau saturé, allongé de DEUX carbones.\n\nET LE CYCLE RECOMMENCE. Condensation, réduction, déshydratation, réduction — quatre étapes par tour, deux carbones par tour. McMurry donne l'ampleur (p. 977) : chez les vertébrés, « la synthèse des acides gras est catalysée par un immense complexe multienzymatique appelé SYNTHASE, qui contient deux sous-unités identiques de 2505 acides aminés chacune. En fait, pour un acide gras à 18 carbones, la synthase catalyse 42 ÉTAPES SÉPARÉES ! »\n\nET VOILÀ POURQUOI LES ACIDES GRAS ONT UN NOMBRE PAIR DE CARBONES (McMurry p. 977) : « l'un des traits les plus frappants des acides gras communs est qu'ils ont un NOMBRE PAIR d'atomes de carbone. Cela vient de ce que tous les acides gras dérivent biosynthétiquement de l'acétyl-CoA par addition séquentielle d'unités à DEUX carbones sur une chaîne en croissance. »",
+      "fleches": [
+        "L'hydrure s'additionne sur le carbone β.",
+        "Les électrons de la double liaison C=C se replient sur le carbone α."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "beta_oxydation": {
+    "1": {
+      "fichier": "beta_oxydation-etape1.svg",
+      "titre": "Une base arrache le proton α",
+      "legende": "Le premier tour de la β-oxydation commence par une déshydrogénation : on va enlever un hydrogène en α et un en β pour créer une double liaison conjuguée au thioester.\n\nICI, LE PREMIER DES DEUX. Un carboxylate de l'enzyme arrache le proton α. Un thioester s'énolise bien mieux qu'un ester ordinaire — c'est la même propriété qui sert à la citrate synthase.\n\nMcMURRY POSE L'ÉTAPE (p. 973) : « la voie de la β-oxydation commence quand DEUX atomes d'hydrogène sont retirés de C2 et C3 de l'acyl-CoA par l'une d'une famille d'acyl-CoA déshydrogénases, pour donner un acyl-CoA α,β-insaturé. Ce genre d'oxydation — l'introduction d'une double liaison CONJUGUÉE dans un composé carbonylé — se produit fréquemment dans les voies biochimiques et implique d'ordinaire le coenzyme FLAVINE ADÉNINE DINUCLÉOTIDE (FAD). »",
+      "fleches": [
+        "Le carboxylate de l'enzyme arrache le proton α.",
+        "Les électrons de la liaison C–H forment la double liaison vers le carbonyle.",
+        "Et ceux du carbonyle se replient sur l'oxygène : l'énolate est né."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "beta_oxydation-etape2.svg",
+      "titre": "L'énolate expulse un hydrure vers la FAD",
+      "legende": "Cinq flèches, un seul geste, et deux molécules qui se transforment en même temps.\n\nCÔTÉ SUBSTRAT : l'oxygène de l'énolate pousse, la double liaison se déplace, et un hydrure est CHASSÉ du carbone β.\n\nCÔTÉ FLAVINE : cet hydrure atterrit sur l'azote N5. Les électrons circulent alors à travers le cycle jusqu'à l'azote N1, qui devient un anion — protoné ensuite pour donner la FADH₂.\n\nMcMURRY DONNE CE MÉCANISME COMME UNE PROPOSITION, ET IL FAUT LE DIRE (p. 974) : « UN MÉCANISME SUGGÉRÉ fait que la réaction se produit par addition nucléophile conjuguée d'hydrure, analogue à ce qui se produit lors des oxydations d'alcool par NAD⁺. Les électrons de l'ion énolate pourraient expulser un hydrure β, qui pourrait s'additionner sur l'azote N5 doublement lié de la FAD. La protonation de l'intermédiaire en N1 donnerait le produit. » Trois conditionnels dans trois phrases : c'est un mécanisme proposé, pas établi.\n\nLA FLAVINE EST DESSINÉE ICI SOUS SA FORME MINIMALE, la lumiflavine : la FAD y ajoute un ribitol et un adénosine diphosphate qui ne participent pas à la chimie.",
+      "fleches": [
+        "L'oxygène de l'énolate reforme la double liaison C=O.",
+        "Les électrons de la double liaison se déplacent vers le carbone β.",
+        "L'hydrure quitte le carbone β et gagne l'azote N5 de la flavine.",
+        "La double liaison N5=C4a se déplace dans le cycle.",
+        "Les électrons se replient sur l'azote N1, qui sera protoné ensuite."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "beta_oxydation-etape3.svg",
+      "titre": "L'eau s'additionne en conjugué",
+      "legende": "L'eau attaque le carbone β de l'énone. C'est une addition CONJUGUÉE — la double liaison est activée par le thioester, exactement comme dans une addition de Michael.\n\nPOURQUOI L'EAU N'ATTAQUE PAS LE CARBONYLE. Parce qu'elle le fait aussi, mais réversiblement et sans issue : l'attaque sur le carbonyle d'un thioester rendrait le thiolate, ce qui coupe la chaîne au mauvais endroit. L'enzyme oriente la molécule d'eau vers le carbone β, et elle seule.\n\nLA STÉRÉOCHIMIE OBTENUE EST FIXE : la β-oxydation donne l'alcool (S), et la biosynthèse des acides gras passe par le (R). McMurry range cette différence parmi les raisons pour lesquelles les deux voies ne sont pas l'inverse l'une de l'autre (p. 977).",
+      "fleches": [
+        "L'oxygène de l'eau attaque le carbone β.",
+        "Les électrons de la double liaison C=C se déplacent vers le carbone α.",
+        "Et ceux du carbonyle se replient sur l'oxygène : l'énolate est formé."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "beta_oxydation-etape4.svg",
+      "titre": "Le NAD⁺ oxyde l'alcool en cétone",
+      "legende": "L'alcool β est oxydé en cétone. Le porteur d'électrons est ici le NAD⁺ et non la FAD : la cellule emploie la flavine pour créer une double liaison C=C, et le nicotinamide pour créer une double liaison C=O.\n\nCE N'EST PAS UNE COQUETTERIE DE NOMENCLATURE. Une flavine peut prendre UN électron à la fois ; un nicotinamide n'échange que des paires. Chaque coenzyme est employé là où sa chimie convient.\n\nON DESSINE ICI LA DÉPROTONATION DE L'ALCOOL, première moitié du geste : l'alcoolate cède ensuite son hydrure au NAD⁺. Le mécanisme complet est traité dans la fiche « Oxydoréduction par NAD(P)H ».",
+      "fleches": [
+        "L'hydroxyde arrache le proton de l'alcool β.",
+        "Les électrons de la liaison O–H restent sur l'oxygène : l'alcoolate est prêt à céder son hydrure."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "beta_oxydation-etape5.svg",
+      "titre": "La rétro-Claisen coupe deux carbones",
+      "legende": "Le thiolate du coenzyme A attaque le carbonyle β. L'intermédiaire s'effondre en coupant la liaison C–C : c'est une condensation de Claisen EN SENS INVERSE.\n\nCE QUI SORT est un acétyl-CoA — deux carbones — et un acyl-CoA raccourci de deux carbones, prêt pour un nouveau tour.\n\nLE COMPTE, SUR UN EXEMPLE (McMurry p. 976) : « le premier passage convertit le myristoyl-CoA à 14 carbones en lauroyl-CoA à 12 carbones plus acétyl-CoA, le deuxième passage convertit le lauroyl-CoA en caproyl-CoA à 10 carbones plus acétyl-CoA […]. Notez que le DERNIER passage produit DEUX molécules d'acétyl-CoA, parce que le précurseur en a quatre. »\n\nET LA RÈGLE GÉNÉRALE QUE McMURRY EN TIRE (p. 977), qui vaut pour toute la biochimie : « en règle générale en chimie biologique, la voie ANABOLIQUE par laquelle une substance est fabriquée n'est PAS l'inverse de la voie CATABOLIQUE par laquelle la même substance est dégradée. Les deux voies doivent différer en quelque point pour que TOUTES DEUX soient énergétiquement favorables. »\n\nEt il énumère les différences : le porteur d'acyle (CoA contre ACP), la stéréochimie de l'intermédiaire β-hydroxylé, et le coenzyme rédox — « la FAD est employée pour introduire une double liaison dans la β-oxydation, tandis que le NADPH est employé pour réduire la double liaison dans la biosynthèse des acides gras ».",
+      "fleches": [
+        "Le thiolate du coenzyme A attaque le carbonyle β.",
+        "Les électrons de la double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "couplage_prenyle": {
+    "1": {
+      "fichier": "couplage_prenyle-etape1.svg",
+      "titre": "Le pyrophosphate part, et le cation allylique est stable",
+      "legende": "Le pyrophosphate d'allyle diméthyle — le DMAPP — ionise tout seul. La liaison C–O se rompt et il reste un cation ALLYLIQUE.\n\nPOURQUOI CE CATION EST ACCEPTABLE. Il est allylique : sa charge se répartit sur deux carbones par conjugaison avec la double liaison voisine. Un cation primaire ordinaire serait impensable ; celui-ci est en équilibre avec sa forme tertiaire.\n\nET POURQUOI LE GROUPE PARTANT EST BON. Clayden l'explique (p. 1166) : le pyrophosphate diméthylallylique « est le meilleur ÉLECTROPHILE parce qu'il est ALLYLIQUE, et les composés allyliques sont bons à la fois en SN1 et en SN2 ».\n\nUNE SIMPLIFICATION DE SCHÉMA, ET IL FAUT LA DIRE : le groupe partant réel est un PYROphosphate, deux phosphates enchaînés. On n'en dessine qu'un seul pour que le schéma tienne sur la largeur d'un téléphone. La chimie est la même — un anion dont la charge se délocalise sur plusieurs oxygènes est un excellent groupe partant.",
+      "fleches": [
+        "Les électrons de la liaison C–O partent avec le phosphate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "couplage_prenyle-etape2.svg",
+      "titre": "L'autre C₅ attaque : la liaison carbone-carbone se forme",
+      "legende": "Le pyrophosphate d'isopentényle — l'IPP — attaque le cation par sa double liaison.\n\nPOURQUOI CHACUN JOUE LE RÔLE QU'IL JOUE. Clayden le formule en une phrase (p. 1166) : « le pyrophosphate diméthylallylique est le MEILLEUR ÉLECTROPHILE parce qu'il est allylique […]. Le pyrophosphate d'isopentényle est le MEILLEUR NUCLÉOPHILE parce qu'il peut réagir par un carbone primaire non encombré pour produire un CATION TERTIAIRE. »\n\nDEUX MOLÉCULES QUI NE DIFFÈRENT QUE PAR LA POSITION D'UNE DOUBLE LIAISON, et qui ont des rôles opposés. Elles sont d'ailleurs interconverties l'une en l'autre par une simple isomérase — « le pyrophosphate d'isopentényle est en équilibre avec le pyrophosphate de diméthylallyle par un simple transfert de proton allylique » (p. 1166).\n\nCE QUI SE FORME EST UN CATION TERTIAIRE : l'attaque se fait de manière à placer la charge sur le carbone le plus substitué.",
+      "fleches": [
+        "La double liaison de l'IPP attaque le cation allylique."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "couplage_prenyle-etape3.svg",
+      "titre": "Une base prend un proton : le géranyl-PP",
+      "legende": "Une base enzymatique arrache un proton voisin du cation, et la double liaison se reforme. Le produit est le pyrophosphate de géranyle — dix carbones.\n\nCE QU'ON A FAIT EST UNE ADDITION SUIVIE D'UNE ÉLIMINATION, et cela recommencera. Le géranyl-PP peut ioniser à son tour et capturer un nouvel IPP : on obtient le farnésyl-PP (15 C), puis le géranylgéranyl-PP (20 C).\n\nLA RÈGLE DE L'ISOPRÈNE DÉCOULE DE CE MÉCANISME. Toutes les unités s'assemblent tête-à-queue, et c'est pourquoi on reconnaît un terpène en y comptant des blocs de cinq carbones — jamais quatre, jamais six.\n\nL'ALCOOL CORRESPONDANT EST FAMILIER (McMurry p. 923) : « l'alcool correspondant, le GÉRANIOL, est lui-même un terpénoïde odorant qu'on trouve dans l'essence de rose. »",
+      "fleches": [
+        "Une base enzymatique arrache le proton.",
+        "Les électrons de la liaison C–H forment la nouvelle double liaison."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "couplage_prenyle-etape4.svg",
+      "titre": "Et si le cation ne trouve pas de base : il se referme",
+      "legende": "Un cation carboné entouré de doubles liaisons n'attend pas toujours une base : il peut être attaqué de l'INTÉRIEUR par sa propre chaîne.\n\nCLAYDEN LE DIT AINSI (p. 1167) : « des composés plus intéressants viennent de la CYCLISATION du cation formé en premier. L'alcène restant peut attaquer le cation pour former ce qui semble d'abord un composé très instable mais qui est en fait un CARBOCATION TERTIAIRE portant le squelette du pinène. »\n\nET VOILÀ D'OÙ VIENNENT LES MILLIERS DE TERPÈNES. Le même cation, replié autrement, donne le limonène, l'α-pinène, le menthol, le camphre. Ce n'est pas la molécule de départ qui change : c'est la CONFORMATION dans laquelle l'enzyme la tient.\n\nCLAYDEN CONCLUT (p. 1167) : « il existe des MILLIERS de terpènes à unités C₅ multiples, tous faits à partir de l'acide mévalonique. »\n\nAUCUNE FLÈCHE ICI : le repliement qui décide du produit ne se dessine pas en deux dimensions. C'est la géométrie du site actif qui choisit, et un schéma plan ne peut pas la montrer.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "cyclisation_squalene": {
+    "1": {
+      "fichier": "cyclisation_squalene-etape1.svg",
+      "titre": "Le squalène : trente carbones, six doubles liaisons, aucun cycle",
+      "legende": "Deux unités farnésyle en C₁₅ se sont soudées bout à bout. Le résultat est parfaitement symétrique — et parfaitement acyclique.\n\nCE QU'IL FAUT REGARDER SUR CE SCHÉMA : les six doubles liaisons, régulièrement espacées. C'est cet espacement qui rend possible ce qui va suivre. Repliée convenablement, la chaîne place chaque alcène exactement en face du carbone qu'il devra attaquer.\n\nMcMURRY DONNE L'ORIGINE (p. 931) : deux pyrophosphates de farnésyle se DIMÉRISENT pour donner le squalène, qui donne les stéroïdes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cyclisation_squalene-etape2.svg",
+      "titre": "Une seule époxydation, et elle décide de tout",
+      "legende": "CE SCHÉMA EST UN GROS PLAN, ET IL FAUT LE DIRE : on ne montre que l'EXTRÉMITÉ de la chaîne à trente carbones. Le reste continue à droite — vingt-deux carbones et quatre doubles liaisons de plus. À la largeur d'un téléphone, un cycle à trois chaînons posé sur une molécule en C₃₀ devient illisible ; le contrôle de lisibilité de ce dépôt l'a refusé, et il avait raison.\n\nUNE MONOOXYGÉNASE ÉPOXYDE UNE SEULE des six doubles liaisons — celle du bout. Le produit est le 2,3-oxydosqualène.\n\nPOURQUOI CELLE-LÀ ET PAS UNE AUTRE : parce que c'est elle qui portera l'amorce. L'époxyde n'est pas là pour rester dans le produit ; il est là pour s'ouvrir et engendrer un carbocation, qui déclenchera la cascade.\n\nLE MÉCANISME DE L'ÉPOXYDATION (McMurry p. 931) : « le dioxygène moléculaire fournit l'atome d'oxygène de l'époxyde, et le NADPH est requis, avec un coenzyme flavinique. Le mécanisme proposé implique la réaction de la FADH₂ avec O₂ pour produire un intermédiaire flavine hydroperoxyde (ROOH), qui transfère un oxygène au squalène par une voie amorcée par l'attaque nucléophile de la double liaison du squalène sur l'oxygène terminal de l'hydroperoxyde. »\n\nET McMURRY SIGNALE LA PARENTÉ (p. 931) : « ce mécanisme d'époxydation biologique est étroitement ANALOGUE au mécanisme par lequel les peracides (RCO₃H) réagissent avec les alcènes pour donner des époxydes au laboratoire. » La nature et la paillasse font ici le même geste.\n\nLA PREUVE QUE C'EST BIEN CETTE VOIE (Dugas p. 375) : « il a été démontré que le 2,3-oxydosqualène est synthétisé DIRECTEMENT à partir du squalène dans le système hépatique de rat formateur de stérols. Le premier est un précurseur des stérols et est incorporé BIEN PLUS EFFICACEMENT que le squalène en conditions aérobies. » Et une précision de stéréochimie : « dans le processus enzymatique, un SEUL isomère de l'époxyde est formé. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "cyclisation_squalene-etape3.svg",
+      "titre": "La cascade : quatre cycles en un seul geste",
+      "legende": "L'époxyde s'ouvre, un carbocation tertiaire naît, et la chaîne se referme quatre fois de suite. Chaque alcène attaque le cation précédent et en engendre un nouveau, plus loin. Aucun intermédiaire n'est jamais libéré.\n\nCE QUE FAIT L'ENZYME, ET C'EST TOUT CE QU'ELLE FAIT (McMurry p. 931) : « le squalène est PLIÉ par l'enzyme dans une conformation qui aligne les diverses doubles liaisons pour une CASCADE d'additions électrophiles intramoléculaires successives, suivie d'une série de migrations d'hydrure et de méthyle. » L'enzyme ne fournit pas de réactif : elle fournit une FORME.\n\nET McMURRY DONNE LE STATUT DE CE MÉCANISME (p. 931) : « à l'exception de la protonation/cyclisation initiale de l'époxyde, le processus est PROBABLEMENT par étapes et semble impliquer des intermédiaires carbocationiques DISCRETS, stabilisés par des interactions électrostatiques avec les acides aminés aromatiques riches en électrons de l'enzyme. » Probablement, semble : on relaie la prudence de la source.\n\nAUCUNE FLÈCHE N'EST DESSINÉE ICI, ET C'EST UN CHOIX. Sur trente carbones, à la largeur d'un téléphone, six flèches courbes formeraient une tache illisible — et un schéma qu'on ne peut pas lire ne prouve rien. Le texte dit ce que les flèches diraient : chaque double liaison attaque le cation qui la précède, et en crée un nouveau plus loin sur la chaîne.\n\nCE QU'IL FAUT MESURER : quatre cycles et sept centres asymétriques sont créés en un seul acte, sans qu'aucun intermédiaire ne soit isolé ni purifié. Aucune synthèse de laboratoire n'approche cette efficacité.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "cyclisation_squalene-etape4.svg",
+      "titre": "Les migrations : deux méthyles et deux hydrures",
+      "legende": "Le cation formé par la cascade n'est pas encore le lanostérol. Une série de migrations 1,2 — deux méthyles et deux hydrures, de type Wagner-Meerwein — déplace les groupes le long du squelette, et une élimination finale donne la double liaison.\n\nDUGAS L'ÉCRIT EN UNE LIGNE SOUS SON SCHÉMA (p. 374) : « une série de migrations de CH₃ et de H via un réarrangement de Wagner-Meerwein » convertit le cation en lanostérol.\n\nET VOICI COMMENT ON L'A PROUVÉ, CE QUI EST LE PLUS BEAU DE L'HISTOIRE (Dugas p. 377). On a préparé QUATRE squalènes marqués au ¹³C en des positions différentes — A, B, C et D. Chacun donnerait un lanostérol différemment marqué. On a ensuite dégradé le lanostérol obtenu en acétate par oxydation de Kuhn-Roth, puis l'acétate en ÉTHYLÈNE, analysé par spectrométrie de masse.\n\n« La considération des schémas de marquage révèle que SEULE la structure D peut donner naissance à un éthylène contenant du ¹³C sur LES DEUX atomes de carbone. Puisqu'un tel éthylène DOUBLEMENT marqué a effectivement été détecté, on a conclu que le processus de DEUX migrations 1,2 de méthyle se produit réellement. »\n\nQuatre molécules marquées, une dégradation en deux temps, une mesure de masse — et l'on sait quels atomes ont bougé à l'intérieur d'une enzyme.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "biosynthese_steroides": {
+    "1": {
+      "fichier": "biosynthese_steroides-etape1.svg",
+      "titre": "Le lanostérol, tel que la cyclase le rend",
+      "legende": "Quatre cycles, trente carbones, et TROIS méthyles de trop : deux en position 4, un en position 14.\n\nCE N'EST PAS ENCORE UN STÉROÏDE UTILISABLE. Le lanostérol n'a aucune fonction connue chez l'animal : il n'est qu'une étape. Toute la chimie qui suit consiste à le DÉBLAYER.\n\nMcMURRY LE PLACE (p. 931) : deux pyrophosphates de farnésyle donnent le squalène ; le squalène époxydé donne le lanostérol ; le lanostérol donne les stéroïdes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "biosynthese_steroides-etape2.svg",
+      "titre": "Le cholestérol, dix-neuf étapes plus loin",
+      "legende": "Vingt-sept carbones au lieu de trente. Les trois méthyles ont été ÔTÉS — oxydés en acides carboxyliques, puis décarboxylés —, la double liaison a été déplacée, et une autre a été réduite.\n\nPOURQUOI LA CELLULE FABRIQUE UNE MOLÉCULE POUR EN RETIRER DES MORCEAUX. Parce que la cascade cationique ne sait pas s'arrêter ailleurs. Le repliement du squalène impose le squelette et les méthyles : c'est le prix de l'efficacité de l'étape précédente. Une chaîne repliée en un seul geste ne se règle pas au détail près.\n\nET CE QU'ON EN FAIT ENSUITE (Clayden p. 1167) : « les stéroïdes sont un autre groupe de composés dérivés de l'acide mévalonique. Ils incluent les hormones sexuelles comme la TESTOSTÉRONE et la PROGESTÉRONE, et le CHOLESTÉROL nécessaire à la construction des membranes cellulaires, mais aussi impliqué dans les dommages aux artères causés par l'athérosclérose. »\n\nLE CHOLESTÉROL EST DONC À LA FOIS UN MATÉRIAU ET UN CARREFOUR : il rigidifie les membranes, et il est le point de départ de la testostérone, de la progestérone, de l'aldostérone, de l'hydrocortisone et des acides biliaires.\n\nAUCUNE FLÈCHE : dix-neuf transformations enzymatiques séparent ces deux schémas. Aucun des neuf ouvrages indexés n'en écrit le détail mécanistique, et l'on ne dessine pas ce qu'on n'a pas lu.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "biosynthese_steroides-etape3.svg",
+      "titre": "Et ce que la pharmacie en a tiré",
+      "legende": "La noréthindrone — un progestatif de synthèse, principe actif de la première pilule contraceptive.\n\nMcMURRY LA PLACE DANS SON CONTEXTE (p. 930) : « en plus des nombreuses centaines de stéroïdes isolés de plantes et d'animaux, des MILLIERS d'autres ont été synthétisés dans les laboratoires pharmaceutiques à la recherche de nouveaux médicaments. Parmi les stéroïdes de synthèse les mieux connus figurent les contraceptifs oraux et les agents anabolisants. La plupart des pilules contraceptives sont un mélange de deux composés, un œstrogène de synthèse comme l'ÉTHYNYLESTRADIOL, et un progestatif de synthèse comme la NORÉTHINDRONE. »\n\nREGARDEZ CE QUI A ÉTÉ CHANGÉ : un alcyne terminal a été greffé sur le carbone qui porte l'alcool. Ce groupe minuscule empêche le foie de dégrader la molécule assez vite pour l'inactiver — ce qui la rend efficace PAR VOIE ORALE. Toute la contraception hormonale tient à cette modification.\n\nET McMURRY MENTIONNE LE REVERS (p. 930) : « les stéroïdes anabolisants, comme la méthandrosténolone (Dianabol), sont des androgènes de synthèse qui imitent les effets constructeurs de tissus de la testostérone naturelle. » Le même squelette, la même logique de conception, un tout autre usage.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "biosynthese_prostaglandines": {
+    "1": {
+      "fichier": "biosynthese_prostaglandines-etape1.svg",
+      "titre": "Un radical arrache un hydrogène, et un seul",
+      "legende": "L'acide arachidonique porte quatre doubles liaisons et trente-deux hydrogènes. La cyclooxygénase n'en enlève QU'UN — celui du carbone 13.\n\nPOURQUOI CELUI-LÀ. Le carbone 13 est coincé ENTRE deux doubles liaisons. Le radical qu'on y crée est donc stabilisé des deux côtés à la fois : on l'appelle pentadiényle, et c'est le radical carboné le plus stable qu'on puisse faire sans cycle aromatique.\n\nMcMURRY POSE L'ÉTAPE (p. 153) : « la biosynthèse des prostaglandines est amorcée par l'ARRACHEMENT d'un atome d'hydrogène de l'acide arachidonique par un radical FER-OXYGÈNE. »\n\nDEUX HAMEÇONS, PAS DEUX FLÈCHES. Chaque demi-pointe ne porte qu'UN électron : l'un part vers l'oxygène, l'autre reste sur le carbone. C'est la signature de la chimie radicalaire, et la raison pour laquelle il en faut deux pour rompre une liaison.\n\nLE RADICAL ABSTRACTEUR EST DESSINÉ ICI SOUS SA FORME MINIMALE. Le vrai est un oxo-fer porté par l'hème de l'enzyme ; on n'en dessine que le fragment oxygéné, qui repart en Fe–O–H.",
+      "fleches": [
+        "Un électron de la liaison C–H reste sur le carbone 13 : le radical est né.",
+        "L'autre part avec l'hydrogène vers l'oxygène.",
+        "Et l'électron célibataire de l'oxygène vient s'y apparier : la liaison O–H est faite."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "biosynthese_prostaglandines-etape2.svg",
+      "titre": "Le dioxygène s'additionne — parce qu'il est lui-même un radical",
+      "legende": "Le radical s'est délocalisé : il n'est plus sur le carbone 13 mais sur le carbone 11, et la double liaison a glissé. C'est la même espèce, écrite autrement.\n\nET C'EST LÀ QUE LE DIOXYGÈNE ENTRE. O₂ est l'une des rares molécules stables de la nature à porter des électrons célibataires : c'est un DIRADICAL. Il ne réagit pas avec les molécules ordinaires — c'est heureux, sinon nous brûlerions — mais il se jette sur un radical carboné.\n\nTROIS HAMEÇONS ICI : l'électron du carbone forme la nouvelle liaison, un électron de la double liaison O=O vient s'y apparier, et le dernier reste sur l'oxygène terminal. Il faut bien DEUX électrons pour faire une liaison, même quand ils viennent d'endroits différents.\n\nCE QU'ON OBTIENT est un radical PEROXYLE — et il n'est pas plus calme que le précédent.",
+      "fleches": [
+        "L'électron célibataire du carbone forme la liaison C–O.",
+        "Un électron de la double liaison O=O vient s'y apparier.",
+        "Le dernier reste sur l'oxygène terminal : le radical peroxyle."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "biosynthese_prostaglandines-etape3.svg",
+      "titre": "Le radical peroxyle attaque une double liaison : le pont se forme",
+      "legende": "L'oxygène terminal du peroxyle attaque le carbone 9 de la molécule. Un cycle à cinq chaînons se referme — deux carbones, un troisième, et les DEUX oxygènes : c'est le pont ENDOPEROXYDE, la signature des prostaglandines.\n\nET LE RADICAL N'A PAS DISPARU. Il s'est déplacé sur le carbone 8, prêt pour le tour suivant.\n\nC'EST LE PROPRE DE LA CHIMIE RADICALAIRE, ET McMURRY EN FAIT LA LEÇON DE SA PAGE (p. 252) : « l'intermédiaire d'une réaction radicalaire n'est habituellement PAS piégé. Au lieu de cela, il réagit encore et encore, d'une manière largement INCONTRÔLABLE. » Chaque étape en engendre une autre.\n\nALORS POURQUOI CELLE-CI EST-ELLE CONTRÔLÉE ? McMurry répond à la ligne suivante : « dans les réactions biologiques, la situation est différente de celle du laboratoire. Une SEULE molécule de substrat à la fois est présente dans le site actif de l'enzyme. » Le radical ne peut réagir qu'avec lui-même, et dans la seule conformation que l'enzyme lui laisse.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "biosynthese_prostaglandines-etape4.svg",
+      "titre": "Le cycle à cinq carbones se referme, et un second O₂ arrive",
+      "legende": "Deux étapes de plus, et le squelette est complet.\n\nD'ABORD le radical du carbone 8 attaque la double liaison C12=C13 : le cycle à cinq carbones se ferme — c'est le CYCLOPENTANE qui donne son nom à la famille — et le radical passe sur le carbone 13.\n\nENSUITE ce radical, allylique donc délocalisé jusqu'au carbone 15, capture un SECOND dioxygène. On obtient un hydroperoxyde en C15.\n\nMcMURRY RÉSUME SA FIGURE EN UNE LIGNE (p. 253) : « les étapes 2 et 5 sont des additions radicalaires sur O₂ ; les étapes 3 et 4 sont des additions radicalaires sur des doubles liaisons carbone-carbone. » Quatre additions radicalaires, deux sur l'oxygène et deux sur le carbone.\n\nAUCUNE FLÈCHE POUR CES DEUX ÉTAPES : elles se lisent exactement comme les deux précédentes — trois hameçons chacune —, et les dessiner sur une chaîne de vingt carbones déjà pontée donnerait un schéma illisible. Ce qui compte est visible : le cycle à cinq, le pont à deux oxygènes, l'hydroperoxyde de la chaîne latérale.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "5": {
+      "fichier": "biosynthese_prostaglandines-etape5.svg",
+      "titre": "La prostaglandine H₂, carrefour de toute la famille",
+      "legende": "L'hydroperoxyde est réduit en alcool. Le produit est la PROSTAGLANDINE H₂ — et ce n'est pas une fin, c'est un carrefour.\n\nCE QU'ON EN TIRE (McMurry p. 915-917) : la PGH₂ donne les autres prostaglandines, les THROMBOXANES — « qui ont un cycle à six chaînons contenant de l'oxygène » — et les LEUCOTRIÈNES, « qui sont acycliques ». Tous portent le nom d'EICOSANOÏDES, « parce qu'ils dérivent biologiquement de l'acide 5,8,11,14-eicosatétraénoïque, c'est-à-dire l'acide arachidonique ».\n\nUN EXEMPLE DE CE QUE FAIT L'ENZYME SUIVANTE (McMurry p. 917) : pour convertir la PGH₂ en PGE₂, il faut ouvrir le pont peroxyde. « Une possibilité est que l'anion thiolate du GLUTATHION rompe la liaison O–O de la PGH₂ par une attaque de type SN2 sur l'un des atomes d'oxygène, donnant un intermédiaire thioperoxy (R–S–O–R') qui élimine le glutathion pour donner la cétone. » Le glutathion est nécessaire « bien qu'il ne soit pas chimiquement modifié au cours de l'isomérisation, et son rôle n'est pas pleinement compris ».\n\nET VOICI POURQUOI CETTE VOIE VOUS CONCERNE (McMurry p. 915) : les prostaglandines « peuvent abaisser la pression artérielle, affecter l'agrégation plaquettaire lors de la coagulation, réduire les sécrétions gastriques, CONTRÔLER L'INFLAMMATION, affecter la fonction rénale, affecter les systèmes reproducteurs et stimuler les contractions utérines lors de l'accouchement ».\n\nL'aspirine et l'ibuprofène agissent en bloquant la toute PREMIÈRE étape de cette fiche — l'arrachement de l'hydrogène du carbone 13.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
