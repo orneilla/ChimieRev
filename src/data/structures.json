@@ -603,6 +603,34 @@
     "substrat": "catalyse_zeolithes-substrat.svg",
     "produit": "catalyse_zeolithes-produit.svg"
   },
+  "substitution_ligands_aqua": {
+    "substrat": "substitution_ligands_aqua-substrat.svg",
+    "produit": "substitution_ligands_aqua-produit.svg"
+  },
+  "substitution_plan_carre_effet_trans": {
+    "substrat": "substitution_plan_carre_effet_trans-substrat.svg",
+    "produit": "substitution_plan_carre_effet_trans-produit.svg"
+  },
+  "substitution_dissociative_octaedrique": {
+    "substrat": "substitution_dissociative_octaedrique-substrat.svg",
+    "produit": "substitution_dissociative_octaedrique-produit.svg"
+  },
+  "substitution_associative_interchange": {
+    "substrat": "substitution_associative_interchange-substrat.svg",
+    "produit": "substitution_associative_interchange-produit.svg"
+  },
+  "racemisation_tris_chelate": {
+    "substrat": "racemisation_tris_chelate-substrat.svg",
+    "produit": "racemisation_tris_chelate-produit.svg"
+  },
+  "transfert_electron_sphere_externe": {
+    "substrat": "transfert_electron_sphere_externe-substrat.svg",
+    "produit": "transfert_electron_sphere_externe-produit.svg"
+  },
+  "transfert_electron_sphere_interne": {
+    "substrat": "transfert_electron_sphere_interne-substrat.svg",
+    "produit": "transfert_electron_sphere_interne-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

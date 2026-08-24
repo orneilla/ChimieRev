@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 151,
+  "redigees": 158,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1291,17 +1291,17 @@
       "famille": "Coordination",
       "bloc": "Inorganique",
       "total": 8,
-      "absente": 8,
-      "redigee": 0,
+      "absente": 1,
+      "redigee": 7,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
           "nom": "Formation d'un complexe : substitution des ligands aqua",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "substitution_ligands_aqua",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Effet chélate",
@@ -1313,44 +1313,44 @@
         {
           "nom": "Substitution en géométrie plan-carré et effet trans",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "substitution_plan_carre_effet_trans",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Substitution dissociative en géométrie octaédrique",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "substitution_dissociative_octaedrique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Substitution associative et échange d'interchange",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "substitution_associative_interchange",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Racémisation d'un complexe tris-chélate",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "racemisation_tris_chelate",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Transfert d'électron par sphère externe (théorie de Marcus)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "transfert_electron_sphere_externe",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Transfert d'électron par sphère interne (mécanisme de Taube)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "transfert_electron_sphere_interne",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

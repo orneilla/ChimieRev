@@ -6879,5 +6879,145 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "substitution_ligands_aqua": {
+    "1": {
+      "fichier": "substitution_ligands_aqua-etape1.svg",
+      "titre": "Un ion métallique en solution n'est jamais nu",
+      "legende": "Ce qu'on écrit « Ni²⁺ en solution » est en réalité ceci : six molécules d'eau tendant leurs doublets au métal, aux sommets d'un octaèdre. Les flèches disent la liaison DATIVE — le ligand apporte les deux électrons, le métal garde sa charge réelle.\n\nFABRIQUER UN COMPLEXE N'EST DONC JAMAIS UNE CONSTRUCTION : c'est un remplacement.\n\nET VOICI CE QU'IL FAUT AVOIR COMPRIS AVANT TOUT LE RESTE (Housecroft p. 764) : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution. » Les valeurs de ΔhydG° de Cr³⁺ et Fe³⁺ sont presque égales, et pourtant [Cr(H₂O)₆]³⁺ se substitue lentement quand [Fe(H₂O)₆]³⁺ le fait vite.\n\nLE SEUIL EST CHIFFRÉ : « les complexes qui réagissent avec t½ ≤ 1 min sont dits cinétiquement LABILES. Si la réaction prend significativement plus de temps, le complexe est cinétiquement INERTE. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "substitution_ligands_aqua-etape2.svg",
+      "titre": "Une eau remplacée — et onze ordres de grandeur d'écart selon le métal",
+      "legende": "Une seule eau a cédé la place. Le reste de la sphère n'a pas bougé.\n\nCOMMENT MESURER UN ÉCHANGE QUI NE CHANGE RIEN ? On marque l'eau. Housecroft donne la réaction suivie par RMN de l'¹⁷O (p. 770) : [M(H₂O)₆]ⁿ⁺ + H₂(¹⁷O) → [M(H₂O)₅{H₂(¹⁷O)}]ⁿ⁺ + H₂O.\n\nLES CHIFFRES (p. 771-772), pour les M²⁺ hexaaqua haut spin : Cr²⁺ (d⁴) et Cu²⁺ (d⁹) à k ≈ 10⁸ s⁻¹ ; Mn²⁺ à Ni²⁺ entre 10⁴ et 10⁷ ; V²⁺ (d²) à 10² ; et Cr³⁺ (d³) INERTE, à 10⁻³ s⁻¹.\n\nONZE ORDRES DE GRANDEUR entre le chrome(III) et le cuivre(II).\n\nCE N'EST PAS LA TAILLE QUI COMMANDE (p. 771) : « parmi les ions M²⁺ du bloc d, il n'y a AUCUNE corrélation entre les constantes de vitesse et la taille ionique, mais les tendances indiquent une corrélation avec la configuration électronique. » La charge compte aussi : [Mn(H₂O)₆]²⁺ à 2,1 × 10⁷ s⁻¹ contre [Fe(H₂O)₆]³⁺ à 1,6 × 10² s⁻¹, tous deux d⁵ haut spin.\n\nET DEUX EXCEPTIONS ONT LEUR CAUSE PROPRE : « les effets Jahn-Teller contribuent aux vitesses élevées de Cr²⁺ et Cu²⁺ » (p. 772). Un octaèdre déjà distordu a des liaisons axiales longues, donc faciles à rompre.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "substitution_plan_carre_effet_trans": {
+    "1": {
+      "fichier": "substitution_plan_carre_effet_trans-etape1.svg",
+      "titre": "Le tétrachloroplatinate, et le ligand qui commandera",
+      "legende": "Quatre chlorures autour d'un platine(II) : un plan-carré. Chaque ligand a un voisin EN FACE de lui.\n\nLA RÈGLE, ET ELLE EST CONTRE-INTUITIVE (Housecroft p. 768) : « le choix du groupe partant dans un complexe plan-carré est déterminé par la nature du ligand qui lui est TRANS ; c'est l'effet trans, et il est d'origine CINÉTIQUE. »\n\nCe n'est pas la solidité de la liaison du partant qui décide. C'est l'identité de celui d'en face.\n\nLE MÉCANISME EST ASSOCIATIF, et la loi de vitesse a deux termes : k_obs = k₁ + k₂[Y]. Attention au premier (p. 767) : « le terme k₁ POURRAIT SEMBLER indiquer une voie dissociative concurrente. Cependant… le terme k₁ devient dominant dans les solvants POLAIRES et sa contribution diminue dans les solvants apolaires. Cela indique une participation du SOLVANT. » Un réactif partout présent est un réactif qu'on oublie de compter.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "substitution_plan_carre_effet_trans-etape2.svg",
+      "titre": "Le cisplatine — et pourquoi l'ordre d'introduction décide de tout",
+      "legende": "Deux ammoniacs du MÊME côté : c'est le cisplatine, l'un des anticancéreux les plus employés au monde. Son isomère trans, de formule identique, est inactif.\n\nCOMMENT OBTENIR L'UN PLUTÔT QUE L'AUTRE (Housecroft p. 768) : « le cis- et le trans-[PtCl₂(NH₃)₂] sont préparés SPÉCIFIQUEMENT par des voies de substitution différentes. » NH₃ sur [PtCl₄]²⁻ donne le cis ; Cl⁻ sur [Pt(NH₃)₄]²⁺ donne le trans.\n\nMêmes ligands, mêmes conditions. Seul l'ORDRE change.\n\nPOURQUOI. Le chlorure exerce un effet trans plus fort que l'ammoniac. Première voie : le premier NH₃ entré a un Cl en face, que rien n'active — le second NH₃ va donc à côté. Seconde voie : le premier Cl entré active la position d'en face, et le second Cl y va.\n\nEN CHIMIE DE COORDINATION, L'ORDRE D'INTRODUCTION EST UN OUTIL DE SYNTHÈSE.\n\nET LES NUCLÉOPHILES SE CLASSENT (p. 769) : H₂O < NH₃ ≈ Cl⁻ < py < Br⁻ < I⁻ < [CN]⁻ < PR₃. C'est un ordre de MOLLESSE — le platine(II) est un centre mou.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "substitution_dissociative_octaedrique": {
+    "1": {
+      "fichier": "substitution_dissociative_octaedrique-etape1.svg",
+      "titre": "Le complexe de départ, et le proton qui va tout décider",
+      "legende": "Un cobalt(III) portant cinq ammoniacs et un chlorure. Le Co(III) est d⁶ bas spin, donc cinétiquement INERTE — Housecroft rattache cette inertie aux effets de champ cristallin (p. 764).\n\nON MESURE LE MÉCANISME AVEC UNE PRESSE (Housecroft p. 766). Le volume d'activation ΔV‡ se tire de la dépendance de la vitesse à la pression : « une valeur NÉGATIVE de ΔV‡ indique un mécanisme ASSOCIATIF », l'état de transition étant « comprimé par rapport aux réactifs ». Deux espèces qui se rassemblent occupent moins de place ; une espèce qui se coupe en deux en occupe plus. On lit le mécanisme dans un volume.\n\nET LE SIGNE BASCULE LE LONG DE LA SÉRIE (p. 771) : de d³ à d⁸, ΔV‡ passe du négatif au positif — « la formation de liaison devient moins importante, et la rupture plus importante ». Même géométrie, mécanisme inverse.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "substitution_dissociative_octaedrique-etape2.svg",
+      "titre": "Le complexe aqua — et le mécanisme qu'on avait mal lu",
+      "legende": "L'eau a pris la place du chlorure.\n\nEN MILIEU BASIQUE, LA VITESSE DÉPEND DE [OH⁻]. Conclusion apparemment inévitable : l'hydroxyde attaque le métal, donc mécanisme associatif.\n\nC'EST FAUX. L'hydroxyde ne touche jamais le cobalt. Housecroft donne le mécanisme de la BASE CONJUGUÉE (p. 775) : [OH]⁻ déprotone un AMMONIAC ; l'amidure ainsi formé labilise le chlorure, qui part tout seul ; l'eau complète ensuite la sphère dans une étape rapide.\n\nLA DISSOCIATION EST BIEN LÀ, MASQUÉE PAR UN ÉQUILIBRE ACIDE-BASE. Une loi du second ordre ne prouve donc pas un mécanisme associatif.\n\nCOMMENT ON LE MONTRE — l'expérience de contrôle est parfaite (p. 775) : « si NH₃ est remplacé par la pyridine ou une autre amine tertiaire, l'hydrolyse basique est BEAUCOUP plus lente. » Une amine tertiaire n'a pas de proton à céder : pas d'amidure, pas de labilisation. On retire l'ingrédient que le mécanisme exige, et l'effet disparaît.\n\nHousecroft garde pourtant sa réserve : ces observations sont « cohérentes avec, mais ne peuvent pas rigidement établir » le mécanisme. Et la règle du chapitre (p. 764) : « un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "substitution_associative_interchange": {
+    "1": {
+      "fichier": "substitution_associative_interchange-etape1.svg",
+      "titre": "Le complexe et l'entrant, appariés sans être liés",
+      "legende": "Avant toute réaction, le ligand entrant et le complexe doivent se TROUVER dans la solution. Ils ne sont pas liés — simplement l'un près de l'autre, retenus par des attractions électrostatiques.\n\nC'est le COUPLE D'ENCONTRE du mécanisme d'Eigen-Wilkins (Housecroft p. 773), et il change la loi de vitesse :\n\nvitesse = k·K_E·[M]_total·[Y] / (1 + K_E[Y])\n\nÀ FAIBLE [Y] la vitesse est proportionnelle à [Y] ; à FORTE [Y] elle SATURE. Une saturation est une signature : elle dit qu'un complexe préalable existe et finit par être complet. C'est la même forme que Michaelis-Menten en enzymologie, et pour la même raison.\n\nUNE HONNÊTETÉ À NOTER (p. 773) : « la concentration de {ML₆, Y} ne peut pas être mesurée directement, et nous devons faire usage d'une valeur ESTIMÉE de K_E. » Housecroft distingue ce qu'on mesure de ce qu'on calcule.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "substitution_associative_interchange-etape2.svg",
+      "titre": "L'échange : le nouveau entre pendant que l'ancien sort",
+      "legende": "Aucun intermédiaire n'a existé. La liaison nouvelle s'est formée pendant que l'ancienne se rompait.\n\nLA DIFFÉRENCE EST TOPOGRAPHIQUE (Housecroft p. 765) : « un INTERMÉDIAIRE se trouve à un minimum local d'énergie ; il peut être détecté et, parfois, isolé. Un ÉTAT DE TRANSITION se trouve à un maximum d'énergie, et ne peut pas être isolé. » On peut s'arrêter dans un creux, jamais sur un sommet.\n\nDEUX NUANCES, ET C'EST UN CURSEUR PLUTÔT QU'UNE CATÉGORIE. Iₐ : la formation de liaison est plus avancée que la rupture — la vitesse dépend de QUI entre. I_d : la rupture domine — la vitesse en dépend peu.\n\nCOMMENT SITUER LE CURSEUR : on change le ligand entrant et l'on regarde si la vitesse bouge.\n\nET LA TAILLE DU MÉTAL COMPTE (p. 771) : « un processus associatif semble opérer pour les ions métalliques des deuxième et troisième séries, ce qui est cohérent avec l'idée que des centres métalliques PLUS GRANDS peuvent faciliter l'association avec le ligand entrant. » Il y a plus de place autour d'un ruthénium que d'un fer.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "racemisation_tris_chelate": {
+    "1": {
+      "fichier": "racemisation_tris_chelate-etape1.svg",
+      "titre": "Le cycle chélate fermé — et pourquoi ce schéma n'est pas le complexe entier",
+      "legende": "DEUX AVERTISSEMENTS AVANT DE LIRE CE DESSIN, et ils font partie du sujet.\n\nLe complexe réel porte TROIS de ces cycles autour d'un octaèdre. Un tris-chélate ne se dessine pas lisiblement à plat, à la taille où l'on lit : les étiquettes se chevauchent, et le contrôle de mise en page de ce dépôt refuse — à juste titre — un tel schéma. On montre donc le MOTIF, celui qui se répète trois fois.\n\nEt surtout : un dessin PLAN ne peut pas montrer Λ ni Δ. Il n'y a ici aucun carbone asymétrique à marquer — la chiralité est celle de l'ARRANGEMENT des trois cycles, qui s'enroulent comme les pas d'une hélice. Comme un escalier en colimaçon, dont aucune marche n'est chirale.\n\nCE QU'IL FAUT RETENIR DU MOTIF : le ligand tient le métal par DEUX bouts. C'est ce qui rend le complexe rigide — et c'est en lâchant UN seul de ces bouts qu'il pourra se retourner.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "racemisation_tris_chelate-etape2.svg",
+      "titre": "Une extrémité lâchée — et comment on a su que c'était bien cela",
+      "legende": "Un seul bout s'est décroché. Le complexe est passé à cinq coordinations, et Housecroft décrit la fenêtre qui s'ouvre alors (p. 777) : l'espèce pentacoordonnée « peut subir un RÉARRANGEMENT pendant le temps où l'atome donneur reste non coordonné ».\n\nSi l'extrémité se recroche avant que la géométrie n'ait bougé, rien ne s'est passé. Si le réarrangement a eu lieu, le complexe a changé de main.\n\nDEUX EXPÉRIENCES ÉTABLISSENT CE CHEMIN, et elles valent d'être suivies en entier.\n\nPREMIÈRE — on compare deux vitesses (p. 777) : « en solution aqueuse, la racémisation des complexes tris-oxalato est PLUS RAPIDE que l'échange de ox²⁻ par deux ligands H₂O ». Or on ne peut pas faire une chose plus vite qu'une étape qu'elle exigerait. Le ligand ne part donc pas en entier.\n\nSECONDE — on marque les oxygènes de [Rh(ox)₃]³⁻ (p. 777). L'oxalate en porte deux sortes : ceux qui sont liés au rhodium, et ceux qui pendent. « Les atomes O NON coordonnés s'échangent avec l'¹⁸O plus vite que les atomes O coordonnés, la vitesse pour ces derniers étant COMPARABLE à la vitesse de racémisation. »\n\nDEUX PROCESSUS QUI VONT À LA MÊME ALLURE PARTAGENT LEUR ÉTAPE LENTE. Et un oxygène coordonné ne s'échange qu'en se décrochant. Le mécanisme est établi — pas vu, établi.\n\nUNE CONSÉQUENCE QUI A L'AIR D'UN PARADOXE : seuls les complexes cinétiquement INERTES — Cr(III) d³, Co(III) et Rh(III) d⁶ bas spin — se conservent énantiopurs. La même lenteur qui empêche de réagir empêche d'oublier.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "transfert_electron_sphere_externe": {
+    "1": {
+      "fichier": "transfert_electron_sphere_externe-etape1.svg",
+      "titre": "Le réducteur, avec ses liaisons longues",
+      "legende": "Un ruthénium(II) hexaammine. Ses liaisons Ru–N sont plus LONGUES que celles du Ru(III) : un métal moins chargé retient moins ses ligands.\n\nCETTE DIFFÉRENCE DE LONGUEUR EST TOUT LE PROBLÈME.\n\nLE PRINCIPE DE FRANCK-CONDON (Housecroft p. 780) : « une transition électronique moléculaire est beaucoup plus rapide qu'une vibration moléculaire. » Pendant le passage de l'électron, les noyaux sont FIGÉS.\n\nSi l'électron sautait maintenant, on obtiendrait un Ru(III) aux liaisons trop longues et un Ru(II) aux liaisons trop courtes : deux espèces excitées, plus hautes en énergie que le départ. On aurait créé de l'énergie à partir de rien.\n\nD'OÙ LA CONDITION : le transfert « ne peut se produire QU'ENTRE DES ÉTATS VIBRATIONNELLEMENT EXCITÉS DE STRUCTURES IDENTIQUES ». Les deux complexes doivent d'abord se déformer jusqu'à se ressembler.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "transfert_electron_sphere_externe-etape2.svg",
+      "titre": "Après le transfert — et ce qui a vraiment coûté du temps",
+      "legende": "Le ruthénium(III), aux liaisons plus courtes. Sa sphère de coordination n'a pas changé : aucun ligand n'a été échangé ni partagé — c'est ce que veut dire « sphère externe ».\n\nCE QUI FIXE LA VITESSE N'EST PAS LE SAUT, qui est instantané et gratuit. C'est le TEMPS D'ATTENTE avant que les deux géométries coïncident (Housecroft p. 780) : « plus grands sont les changements de longueurs de liaison requis pour atteindre le complexe d'encontre, plus lent est le transfert d'électron. »\n\nUNE ANOMALIE QUI S'EXPLIQUE (p. 780) : l'auto-échange [Co(phen)₃]²⁺/³⁺ est bien plus rapide que ceux des hexaammines ou des tris(en) de cobalt, pourtant tous entre Co(II) haut spin et Co(III) bas spin. « Cela est cohérent avec la capacité des ligands phen à utiliser leurs orbitales π pour faciliter la migration intermoléculaire d'un électron. » Le ligand cesse d'être spectateur et devient conducteur.\n\nL'ÉQUATION DE MARCUS-HUSH (p. 782) : k₁₂ ≈ (k₁₁·k₂₂·K₁₂)^½. Elle prédit la vitesse d'une réaction entre A et B à partir de la façon dont chacun se comporte SEUL. L'exemple chiffré donne 9,2 × 10⁴ contre 1,5 × 10⁴ observé — « en assez bon accord… suggère que le mécanisme est un transfert par sphère externe ». C'est un test de MÉCANISME, pas une prédiction de chiffre.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "transfert_electron_sphere_interne": {
+    "1": {
+      "fichier": "transfert_electron_sphere_interne-etape1.svg",
+      "titre": "L'oxydant inerte, et son chlorure qui servira de pont",
+      "legende": "Un cobalt(III) portant cinq ammoniacs et un chlorure, face à [Cr(H₂O)₆]²⁺.\n\nLES TROIS ÉTAPES SONT NOMMÉES (Housecroft p. 778) : « les étapes d'un mécanisme de sphère interne sont la FORMATION DU PONT, le TRANSFERT D'ÉLECTRON et la RUPTURE DU PONT. »\n\nLE PONT CHANGE LA NATURE DU PROBLÈME. Si un même ligand est accroché aux DEUX métaux, il n'y a plus de vide à franchir : il y a un chemin de liaisons continu. L'électron ne saute plus, il passe.\n\nQUELS LIGANDS SAVENT PONTER (p. 778) : « les halogénures, [OH]⁻, [CN]⁻, [NCS]⁻, la pyrazine et la 4,4'-bipyridine » — la pyrazine servant de pont dans le cation de Creutz-Taube.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "transfert_electron_sphere_interne-etape2.svg",
+      "titre": "Le chlorure a changé de métal — et cela ne peut pas être un hasard",
+      "legende": "Le chlorure était sur le cobalt. Il finit sur le chrome.\n\nL'OBJECTION ÉVIDENTE : il s'est peut-être détaché, a nagé dans la solution, et s'est recollé par hasard.\n\nLA RÉPONSE TIENT AUX VITESSES DE SUBSTITUTION, et c'est le cœur de l'expérience qui a valu son Nobel à Taube. Le chrome de départ, au degré II, est LABILE. Mais le chrome d'arrivée, au degré III, est l'un des ions les plus INERTES qui soient. Or on trouve le chlorure dessus immédiatement après la réaction.\n\nIL NE PEUT DONC PAS Y ÊTRE ARRIVÉ APRÈS. Il y était pendant l'acte rédox : le pont existait.\n\nOn n'a pas observé le pont — on a construit une situation où toute autre explication est exclue.\n\nUNE NUANCE QU'ON GÉNÉRALISE TROP VITE (p. 778) : le transfert du pont « est souvent (mais pas nécessairement) observé ». Entre [Fe(CN)₆]³⁻ et [Co(CN)₅]³⁻, l'intermédiaire ponté « est assez stable pour être précipité comme sel de Ba²⁺ » et s'hydrolyse SANS transfert du pont. On a tenu l'intermédiaire dans un flacon.\n\nQUELLE ÉTAPE EST LENTE ? Cela dépend (p. 779). Avec [V(H₂O)₆]²⁺, la vitesse de réduction égale celle de l'échange d'eau et ne dépend pas du pont : c'est sa CONSTRUCTION qui traîne. Avec [Cr(H₂O)₆]²⁺, c'est le transfert lui-même, et « l'augmentation de k le long de la série F⁻, Cl⁻, Br⁻, I⁻ corrèle avec la capacité accrue de l'halogénure à agir comme pont ».\n\nUNE ÉNIGME RÉSOLUE PAR UN DÉTAIL : pour H₂O, k est très petit ET DÉPEND DU pH. Or l'eau n'a aucune raison de dépendre du pH — à moins que ce ne soit pas elle qui ponte. C'est [OH]⁻, « dont la disponibilité en solution varie avec le pH ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

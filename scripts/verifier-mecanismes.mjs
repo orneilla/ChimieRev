@@ -91,10 +91,26 @@ function lire(smiles) {
     charge: a.chg ?? 0,
     hydrogenes: a.impHs ?? 0
   }))
-  const liaisons = json.bonds.map((b) => ({
-    atomes: b.atoms,
-    ordre: b.bo ?? 1
-  }))
+  // RDKit ne code PAS une liaison dative par un ordre : il lui donne la
+  // valeur sentinelle 17. Une telle liaison passée au comptage électronique
+  // rendrait des doublets libres absurdes — et sans bruit, puisque le calcul
+  // aboutit quand même. Un ordre inconnu est donc refusé ici, à la lecture.
+  //
+  // Les complexes de coordination s'écrivent avec des liaisons datives, qui
+  // disent la vérité — le ligand apporte les deux électrons, le métal garde
+  // sa charge réelle. Leurs étapes se dessinent SANS flèches courbes, et le
+  // comptage ne les voit jamais. Le jour où l'on voudrait y mettre une
+  // flèche, ce refus le dira au lieu de laisser passer un faux.
+  const liaisons = json.bonds.map((b) => {
+    const ordre = b.bo ?? 1
+    if (![1, 2, 3].includes(ordre)) {
+      throw new Error(
+        `ordre de liaison inconnu (${ordre}) dans ${smiles} — ` +
+        `une liaison dative (17) ne se compte pas comme une liaison ordinaire.`
+      )
+    }
+    return { atomes: b.atoms, ordre }
+  })
   return { atomes, liaisons }
 }
 

@@ -611,6 +611,7 @@ recommence pas la recherche à chaque passage.
 | réaction | ce que la recherche a rendu |
 |---|---|
 | Réduction de Meerwein-Ponndorf-Verley | aucune occurrence dans les neuf. |
+| Effet chélate | le Housecroft le traite à sa page 185 — **hors de l'extrait indexé** (ch. 20-28). Dans l'extrait, « chelate » ne rend que des ligands particuliers (p. 677, 759) et l'angle de morsure en catalyse (p. 789) : jamais l'argument entropique qui fait le sujet. Le Clayden définit la chélation (p. 863) mais dans son sens organique — le contrôle stéréochimique par un métal —, et le Dugas ne montre que des cycles chélates de catalyseurs chiraux. |
 | Réaction du gaz à l'eau | le Housecroft la traite à ses pages 239 et 366 — **hors de l'extrait indexé** (ch. 20-28). Dans l'extrait, elle n'apparaît que dans un tableau de procédés (p. 801), une ligne de catalyseur (p. 722) et une mention de passage (p. 596). C'est exactement le piège de l'entrée d'index d'un ouvrage indexé PARTIELLEMENT : le bon mot, pointant vers ce qu'on n'a pas. |
 
 **Le silence se vérifie sur le fragment le plus court avant d'être déclaré.**

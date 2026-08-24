@@ -4988,6 +4988,216 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "substitution_ligands_aqua": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.1-25.2",
+          "pages": "764",
+          "note": "Le cadre de tout le chapitre, et il est méthodologique autant que chimique. « Un mécanisme proposé doit être cohérent avec TOUS les faits expérimentaux. Un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données expérimentales. » Puis les définitions chiffrées : « les complexes métalliques qui réagissent avec t½ ≤ 1 min sont dits cinétiquement labiles. Si la réaction prend significativement plus de temps, le complexe est cinétiquement inerte. » Et l'avertissement central : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution » — démontré par deux couples, Cr³⁺/Fe³⁺ à ΔhydG° presque égaux et pourtant de labilités opposées, et [Hg(CN)₄]²⁻ plus stable que [Fe(CN)₆]⁴⁻ mais échangeant son cyanure bien plus vite. Enfin : « les équations stœchiométriques ne disent rien du mécanisme », avec le marquage à l'¹⁸O de l'acidolyse de [(H₃N)₅Co(CO₃)]⁺, qui montre que tout l'oxygène du complexe aqua vient du carbonate et non du solvant."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.4",
+          "pages": "770",
+          "note": "La mesure : l'échange de l'eau coordonnée contre de l'eau enrichie en ¹⁷O, [M(H₂O)₆]ⁿ⁺ + H₂(¹⁷O) → [M(H₂O)₅{H₂(¹⁷O)}]ⁿ⁺ + H₂O, suivi par RMN de l'¹⁷O — Co³⁺ excepté, « instable en solution aqueuse ». Et les premières tendances : dans les blocs s et p, « la constante de vitesse augmente avec le rayon cationique croissant »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.4",
+          "pages": "771",
+          "note": "Ce qui commande, et ce qui ne commande pas : « pour des cations de rayons similaires (par exemple Li⁺, Mg²⁺, Ga³⁺), une augmentation de la charge ionique RALENTIT la substitution » ; « parmi les ions M²⁺ du bloc d, il n'y a AUCUNE corrélation entre les constantes de vitesse et la taille ionique, mais les tendances indiquent une corrélation avec la configuration électronique ». Avec les premiers chiffres : Cr²⁺ (d⁴) et Cu²⁺ (d⁹) « cinétiquement très labiles (k ≈ 10⁸ s⁻¹) »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.4",
+          "pages": "772",
+          "note": "Le tableau complet des labilités : Cr³⁺ (d³) « cinétiquement inerte (k ≈ 10⁻³ s⁻¹) » ; Mn²⁺, Fe²⁺, Co²⁺ et Ni²⁺ labiles (10⁴ à 10⁷ s⁻¹) ; V²⁺ (d²) à 10² s⁻¹, « considérablement moins labile ». Les séquences observées, V²⁺ < Ni²⁺ < Co²⁺ < Fe²⁺ < Mn²⁺ < Zn²⁺ < Cr²⁺ < Cu²⁺ et Cr³⁺ ≪ V³⁺ < Fe³⁺ < Ti³⁺. Le rôle de la charge, isolé sur deux d⁵ haut spin : [Mn(H₂O)₆]²⁺ à 2,1 × 10⁷ s⁻¹ contre [Fe(H₂O)₆]³⁺ à 1,6 × 10² s⁻¹. Et l'explication par la CFSE, donnée avec ses réserves : « de tels calculs font des hypothèses qui sont en fait peu susceptibles d'être valides (par exemple des longueurs de liaison M–L constantes), mais à des fins comparatives les résultats devraient avoir un sens » — pour un accord final « moyennement bon », les effets Jahn-Teller expliquant à part les vitesses de Cr²⁺ et Cu²⁺."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "substitution_plan_carre_effet_trans": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.1-25.2",
+          "pages": "764",
+          "note": "Le cadre de tout le chapitre, et il est méthodologique autant que chimique. « Un mécanisme proposé doit être cohérent avec TOUS les faits expérimentaux. Un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données expérimentales. » Puis les définitions chiffrées : « les complexes métalliques qui réagissent avec t½ ≤ 1 min sont dits cinétiquement labiles. Si la réaction prend significativement plus de temps, le complexe est cinétiquement inerte. » Et l'avertissement central : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution » — démontré par deux couples, Cr³⁺/Fe³⁺ à ΔhydG° presque égaux et pourtant de labilités opposées, et [Hg(CN)₄]²⁻ plus stable que [Fe(CN)₆]⁴⁻ mais échangeant son cyanure bien plus vite. Enfin : « les équations stœchiométriques ne disent rien du mécanisme », avec le marquage à l'¹⁸O de l'acidolyse de [(H₃N)₅Co(CO₃)]⁺, qui montre que tout l'oxygène du complexe aqua vient du carbonate et non du solvant."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.3",
+          "pages": "767",
+          "note": "La loi de vitesse à deux termes, k_obs = k₁ + k₂[Y], et le piège qu'elle tend : « le terme k₂ provient d'un mécanisme associatif impliquant l'attaque de Y sur PtL₃X dans l'étape cinétiquement déterminante, et lorsque Y est un bon nucléophile, le terme k₂ est dominant. Le terme k₁ POURRAIT SEMBLER indiquer une voie dissociative concurrente. Cependant, l'expérience montre que le terme k₁ devient dominant si la réaction est menée dans des solvants polaires, et que sa contribution diminue dans les solvants apolaires. Cela indique une participation du SOLVANT » — d'où k₁ = k₃[S], le solvant étant en très large excès. Quand le solvant est un ligand potentiel comme H₂O, il concurrence Y dans l'étape lente, et sa substitution par Y se fait ensuite dans une étape rapide."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.3",
+          "pages": "768",
+          "note": "La définition, et son emploi en synthèse : « le choix du groupe partant dans un complexe plan-carré est déterminé par la nature du ligand qui lui est trans ; c'est l'effet trans, et il est d'origine CINÉTIQUE. » Puis les deux voies : « le cis- et le trans-[PtCl₂(NH₃)₂] sont préparés SPÉCIFIQUEMENT par des voies de substitution différentes » — NH₃ sur [PtCl₄]²⁻ donnant le cis, Cl⁻ sur [Pt(NH₃)₄]²⁺ donnant le trans. Housecroft rattache l'effet trans à l'influence trans, qui en est un facteur contributif de nature thermodynamique."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.3",
+          "pages": "769",
+          "note": "La démonstration refaite avec un troisième ligand : l'ordre d'introduction de NH₃ et de [NO₂]⁻ sur [PtCl₄]²⁻ donne deux produits différents. La nuance qu'on oublie : « nous devrions noter qu'un petit effet CIS existe, mais il est habituellement d'importance bien moindre que l'effet trans ». Et l'ordre de nucléophilie de l'entrant, qui est un ordre de mollesse : « pour la plupart des réactions sur Pt(II), la constante de vitesse k₂ augmente dans l'ordre H₂O < NH₃ ≈ Cl⁻ < py < Br⁻ < I⁻ < [CN]⁻ < PR₃ »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.3",
+          "pages": "770-771",
+          "note": "Le facteur de discrimination nucléophile s, pente de log k₂ contre le paramètre n_Pt, et sa table (Table 25.3) : 1,43 pour trans-[PtCl₂(PEt₃)₂] ; 1,25 pour trans-[PtCl₂(AsEt₃)₂] ; 1,0 pour trans-[PtCl₂(py)₂], qui sert de référence ; 0,75 pour [PtBr(dien)]⁺ ; 0,65 pour [PtCl(dien)]⁺ ; 0,64 pour [PtCl₂(en)]. La sensibilité au partenaire est donc une propriété du complexe, pas de la géométrie."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "substitution_dissociative_octaedrique": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.1-25.2",
+          "pages": "764",
+          "note": "Le cadre de tout le chapitre, et il est méthodologique autant que chimique. « Un mécanisme proposé doit être cohérent avec TOUS les faits expérimentaux. Un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données expérimentales. » Puis les définitions chiffrées : « les complexes métalliques qui réagissent avec t½ ≤ 1 min sont dits cinétiquement labiles. Si la réaction prend significativement plus de temps, le complexe est cinétiquement inerte. » Et l'avertissement central : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution » — démontré par deux couples, Cr³⁺/Fe³⁺ à ΔhydG° presque égaux et pourtant de labilités opposées, et [Hg(CN)₄]²⁻ plus stable que [Fe(CN)₆]⁴⁻ mais échangeant son cyanure bien plus vite. Enfin : « les équations stœchiométriques ne disent rien du mécanisme », avec le marquage à l'¹⁸O de l'acidolyse de [(H₃N)₅Co(CO₃)]⁺, qui montre que tout l'oxygène du complexe aqua vient du carbonate et non du solvant."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.2",
+          "pages": "765",
+          "note": "Les mécanismes limites et le vocabulaire qui les sépare : « en substitution inorganique, les mécanismes limites sont dissociatif (D), dans lequel l'intermédiaire a un nombre de coordination plus BAS que le complexe de départ, et associatif (A), dans lequel l'intermédiaire a un nombre de coordination plus ÉLEVÉ. Les mécanismes dissociatif et associatif impliquent des chemins à deux étapes et un intermédiaire. » Puis la distinction qui n'est pas de vocabulaire : « un INTERMÉDIAIRE se trouve à un minimum local d'énergie ; il peut être détecté et, parfois, isolé. Un ÉTAT DE TRANSITION se trouve à un maximum d'énergie, et ne peut pas être isolé. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.2",
+          "pages": "766",
+          "note": "Le volume d'activation, et la façon dont on lit un mécanisme dans un volume : « une réaction dans laquelle l'état de transition a un volume plus grand que l'état initial montre un ΔV‡ positif, tandis qu'un ΔV‡ négatif correspond à un état de transition comprimé par rapport aux réactifs. Après correction de tout changement de volume du solvant (ce qui est important si des ions solvatés sont impliqués), le signe de ΔV‡ devrait, en principe, distinguer entre un mécanisme associatif et dissociatif. Une valeur NÉGATIVE de ΔV‡ indique un mécanisme ASSOCIATIF. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.5",
+          "pages": "774",
+          "note": "La stéréochimie comme signature de l'intermédiaire : l'espèce à cinq coordinations peut être bipyramidale trigonale ou pyramidale à base carrée, et les distributions d'isomères issues des réactions de H₂O sur cis- et trans-[CoCl(en)₂Z]⁺ diffèrent. « La spécificité des substitutions dans cis-[CoCl(en)₂Z]⁺ s'étend à d'autres nucléophiles (et à d'autres complexes cis) et s'explique en termes d'une espèce pyramidale à base carrée qui n'a qu'un SEUL site d'attaque par H₂O. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.6",
+          "pages": "775",
+          "note": "Le mécanisme de la base conjuguée, en trois équations : [Co(NH₃)₅X]²⁺ + [OH]⁻ ⇌ [Co(NH₃)₄(NH₂)X]⁺ + H₂O ; [Co(NH₃)₄(NH₂)X]⁺ → [Co(NH₃)₄(NH₂)]²⁺ + X⁻ ; [Co(NH₃)₄(NH₂)]²⁺ + H₂O → [Co(NH₃)₅(OH)]²⁺ en étape rapide. L'hydroxyde déprotone un ammoniac au lieu d'attaquer le métal : une loi du second ordre ne prouve donc PAS un mécanisme associatif. Et l'expérience de contrôle, présentée avec la prudence qui convient — deux observations « cohérentes avec (mais qui ne peuvent pas rigidement établir) » le mécanisme, dont : « si NH₃ est remplacé par la pyridine ou une autre amine tertiaire, l'hydrolyse basique est beaucoup plus lente. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "substitution_associative_interchange": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.1-25.2",
+          "pages": "764",
+          "note": "Le cadre de tout le chapitre, et il est méthodologique autant que chimique. « Un mécanisme proposé doit être cohérent avec TOUS les faits expérimentaux. Un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données expérimentales. » Puis les définitions chiffrées : « les complexes métalliques qui réagissent avec t½ ≤ 1 min sont dits cinétiquement labiles. Si la réaction prend significativement plus de temps, le complexe est cinétiquement inerte. » Et l'avertissement central : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution » — démontré par deux couples, Cr³⁺/Fe³⁺ à ΔhydG° presque égaux et pourtant de labilités opposées, et [Hg(CN)₄]²⁻ plus stable que [Fe(CN)₆]⁴⁻ mais échangeant son cyanure bien plus vite. Enfin : « les équations stœchiométriques ne disent rien du mécanisme », avec le marquage à l'¹⁸O de l'acidolyse de [(H₃N)₅Co(CO₃)]⁺, qui montre que tout l'oxygène du complexe aqua vient du carbonate et non du solvant."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.2",
+          "pages": "765",
+          "note": "Les définitions de A, D et de l'échange, et la distinction entre intermédiaire (minimum d'énergie, parfois isolable) et état de transition (maximum, jamais isolable) — c'est elle qui sépare un mécanisme limite d'un mécanisme d'échange."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.2",
+          "pages": "766",
+          "note": "Le volume d'activation comme critère : « une valeur négative de ΔV‡ indique un mécanisme associatif », l'état de transition étant « comprimé par rapport aux réactifs »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.4",
+          "pages": "771",
+          "note": "La bascule de mécanisme le long de la première série : « le changement de valeurs négatives à positives de ΔV‡ indique un passage d'un mécanisme associatif à dissociatif, et suggère que la formation de liaison devient moins (et la rupture de liaison plus) importante en allant d'une configuration d³ à d⁸. Pour les ions M³⁺ de la Table 25.4, les valeurs de ΔV‡ suggèrent un mécanisme associatif. Là où des données sont disponibles, un processus associatif semble opérer pour les ions métalliques des deuxième et troisième séries, cohérent avec l'idée que des centres métalliques plus grands peuvent faciliter l'association avec le ligand entrant. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.4",
+          "pages": "773",
+          "note": "Le mécanisme d'Eigen-Wilkins et sa loi de vitesse, vitesse = k K_E [M]_total [Y] / (1 + K_E[Y]) — du second ordre à faible [Y], saturante à forte [Y]. Avec l'aveu qui rend la démarche lisible : « la concentration de {ML₆, Y} ne peut pas être mesurée directement, et nous devons faire usage d'une valeur ESTIMÉE de K_E », estimée par des modèles théoriques."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "racemisation_tris_chelate": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.1-25.2",
+          "pages": "764",
+          "note": "Le cadre de tout le chapitre, et il est méthodologique autant que chimique. « Un mécanisme proposé doit être cohérent avec TOUS les faits expérimentaux. Un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données expérimentales. » Puis les définitions chiffrées : « les complexes métalliques qui réagissent avec t½ ≤ 1 min sont dits cinétiquement labiles. Si la réaction prend significativement plus de temps, le complexe est cinétiquement inerte. » Et l'avertissement central : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution » — démontré par deux couples, Cr³⁺/Fe³⁺ à ΔhydG° presque égaux et pourtant de labilités opposées, et [Hg(CN)₄]²⁻ plus stable que [Fe(CN)₆]⁴⁻ mais échangeant son cyanure bien plus vite. Enfin : « les équations stœchiométriques ne disent rien du mécanisme », avec le marquage à l'¹⁸O de l'acidolyse de [(H₃N)₅Co(CO₃)]⁺, qui montre que tout l'oxygène du complexe aqua vient du carbonate et non du solvant."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.7",
+          "pages": "777",
+          "note": "Le mécanisme et ses DEUX preuves. Le chemin d'abord : le complexe perd une extrémité de ligand pour donner une espèce à cinq coordinations « qui peut subir un réarrangement pendant le temps où l'atome donneur reste non coordonné », le schéma 25.45 résumant les voies d'interconversion de Λ et Δ pour M(L–L)₃ par bipyramide trigonale ou pyramide à base carrée. Puis la première preuve, par comparaison de vitesses : « en solution aqueuse, la racémisation des complexes tris-oxalato est plus rapide que l'échange de ox²⁻ par deux ligands H₂O, ce qui suggère que les deux processus sont mécanistiquement différents. » Et la seconde, par marquage isotopique sur [Rh(ox)₃]³⁻ : « les atomes O non coordonnés s'échangent avec l'¹⁸O (venant d'eau marquée) plus vite que les atomes O coordonnés, la vitesse pour ces derniers étant comparable à la vitesse de racémisation. Cela est cohérent avec un mécanisme impliquant la dissociation d'UNE EXTRÉMITÉ du ligand ox²⁻, à la fois pour l'échange isotopique de l'O coordonné et pour la racémisation. » L'identité des deux vitesses désigne une étape lente commune."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "transfert_electron_sphere_externe": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.1-25.2",
+          "pages": "764",
+          "note": "Le cadre de tout le chapitre, et il est méthodologique autant que chimique. « Un mécanisme proposé doit être cohérent avec TOUS les faits expérimentaux. Un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données expérimentales. » Puis les définitions chiffrées : « les complexes métalliques qui réagissent avec t½ ≤ 1 min sont dits cinétiquement labiles. Si la réaction prend significativement plus de temps, le complexe est cinétiquement inerte. » Et l'avertissement central : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution » — démontré par deux couples, Cr³⁺/Fe³⁺ à ΔhydG° presque égaux et pourtant de labilités opposées, et [Hg(CN)₄]²⁻ plus stable que [Fe(CN)₆]⁴⁻ mais échangeant son cyanure bien plus vite. Enfin : « les équations stœchiométriques ne disent rien du mécanisme », avec le marquage à l'¹⁸O de l'acidolyse de [(H₃N)₅Co(CO₃)]⁺, qui montre que tout l'oxygène du complexe aqua vient du carbonate et non du solvant."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.9",
+          "pages": "780",
+          "note": "La contrainte de Franck-Condon et ce qu'elle impose : « une transition électronique moléculaire est beaucoup plus rapide qu'une vibration moléculaire », donc « le transfert d'électron entre [Co(NH₃)₆]²⁺ et [Co(NH₃)₆]³⁺ — ou entre d'autres partenaires rédox de longueurs de liaison différentes — ne peut se produire QU'ENTRE des états vibrationnellement excités de structures IDENTIQUES. Ce couple réducteur-oxydant est appelé complexe d'encontre, ou précurseur. » D'où la règle : « plus grands sont les changements de longueurs de liaison requis pour atteindre le complexe d'encontre, plus lent est le transfert d'électron. » La Table 25.9 le confirme — auto-échange lent pour [Co(NH₃)₆]²⁺/³⁺, très rapide pour [Fe(bpy)₃]²⁺/³⁺ — et donne l'anomalie qui s'explique : [Co(phen)₃]²⁺/³⁺ est bien plus rapide que les hexaammines ou les tris(en) de cobalt, « cohérent avec la capacité des ligands phen à utiliser leurs orbitales π pour faciliter la migration intermoléculaire d'un électron d'un ligand à l'autre ». Enfin le rôle des contre-ions : sans effet entre cations, décisif entre anions — l'auto-échange [Fe(CN)₆]³⁻/⁴⁻ « procède par un chemin catalysé par les ions K⁺ », ce qu'on démontre en séquestrant K⁺ par le 18-crown-6 ou le crypt-[222]."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.9",
+          "pages": "781",
+          "note": "La décomposition de la barrière en quatre contributions, chacune avec son sens physique : « ΔwG‡ est l'énergie associée au rapprochement du réducteur et de l'oxydant, et inclut le travail fait pour contrer les répulsions électrostatiques ; ΔoG‡ est l'énergie associée aux changements de distances de liaison ; ΔsG‡ provient des réarrangements au sein des sphères de solvatation ; le dernier terme rend compte de la perte d'énergie de translation et de rotation à la formation du complexe d'encontre. » Et la validation : « les résultats de tels calculs ont été confrontés à de nombreuses données expérimentales, et la validité de la théorie est confirmée. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.9",
+          "pages": "782",
+          "note": "L'équation de Marcus-Hush sous forme approchée, k₁₂ ≈ (k₁₁ k₂₂ K₁₂)^½, avec son exemple travaillé : k₁₁ = 8,2 × 10² dm³ mol⁻¹ s⁻¹ pour [Ru(NH₃)₆]²⁺/³⁺, k₂₂ = 40 pour [Co(phen)₃]²⁺/³⁺, K₁₂ = 2,6 × 10⁵, d'où k₁₂ ≈ 9,2 × 10⁴ contre 1,5 × 10⁴ observé. « C'est en assez bon accord avec la valeur observée, et suggère que le mécanisme est un transfert d'électron par sphère externe. » L'usage principal de l'équation est donc un TEST de mécanisme."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "transfert_electron_sphere_interne": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.1-25.2",
+          "pages": "764",
+          "note": "Le cadre de tout le chapitre, et il est méthodologique autant que chimique. « Un mécanisme proposé doit être cohérent avec TOUS les faits expérimentaux. Un mécanisme ne peut pas être PROUVÉ, puisqu'un autre mécanisme peut aussi être cohérent avec les données expérimentales. » Puis les définitions chiffrées : « les complexes métalliques qui réagissent avec t½ ≤ 1 min sont dits cinétiquement labiles. Si la réaction prend significativement plus de temps, le complexe est cinétiquement inerte. » Et l'avertissement central : « IL N'Y A AUCUN LIEN entre la stabilité thermodynamique d'un complexe et sa labilité vis-à-vis de la substitution » — démontré par deux couples, Cr³⁺/Fe³⁺ à ΔhydG° presque égaux et pourtant de labilités opposées, et [Hg(CN)₄]²⁻ plus stable que [Fe(CN)₆]⁴⁻ mais échangeant son cyanure bien plus vite. Enfin : « les équations stœchiométriques ne disent rien du mécanisme », avec le marquage à l'¹⁸O de l'acidolyse de [(H₃N)₅Co(CO₃)]⁺, qui montre que tout l'oxygène du complexe aqua vient du carbonate et non du solvant."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.8",
+          "pages": "778",
+          "note": "Les trois étapes — « les étapes d'un mécanisme de sphère interne sont la formation du pont, le transfert d'électron et la rupture du pont » — et la nuance qu'on généralise trop vite : le transfert du ligand pontant « est souvent (mais pas nécessairement) observé ». Le contre-exemple est décisif : dans la réaction entre [Fe(CN)₆]³⁻ et [Co(CN)₅]³⁻, l'intermédiaire ponté « est assez stable pour être précipité comme sel de Ba²⁺ » et s'hydrolyse lentement « sans transfert du ligand pontant ». Avec la liste des ponts courants : « halogénures, [OH]⁻, [CN]⁻, [NCS]⁻, pyrazine et 4,4'-bipyridine », la pyrazine servant de pont de transfert d'électron dans le cation de Creutz-Taube."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "25 — d-Block metal complexes: reaction mechanisms, § 25.8",
+          "pages": "779",
+          "note": "Quelle étape commande, et comment on le sait. Avec [V(H₂O)₆]²⁺ (d³), « la constante de vitesse pour la réduction est semblable à celle de l'échange d'eau » — de même avec [Co(NH₃)₅Br]²⁺ ou [Co(CN)₅(N₃)]³⁻ —, « indiquant que le groupe pontant a peu d'effet sur la vitesse et que l'étape cinétiquement déterminante est la substitution de ligand requise pour la formation du pont ». Avec [Cr(H₂O)₆]²⁺ sur [Co(NH₃)₅X]²⁺ au contraire, « l'étape cinétiquement déterminante est le transfert d'électron, et les vitesses dépendent de X : l'augmentation de k le long de la série F⁻, Cl⁻, Br⁻, I⁻ corrèle avec la capacité accrue de l'halogénure à agir comme pont ». Puis l'énigme résolue par un détail : « k pour [OH]⁻ est semblable à celui pour Br⁻, mais pour H₂O, k est très petit et dépend aussi du pH. Cette observation est cohérente avec le fait que H₂O n'est PAS l'espèce pontante du tout, mais plutôt [OH]⁻, dont la disponibilité en solution varie avec le pH. » Enfin la mémoire du pont dans le produit : [Co(NH₃)₅(NCS-S)]²⁺ avec [Cr(H₂O)₆]²⁺ donne les isomères de liaison [Cr(H₂O)₅(NCS-N)]²⁺ (70 %) et [Cr(H₂O)₅(NCS-S)]²⁺ (30 %), « expliqués en termes de structures de pont différentes »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

@@ -912,7 +912,7 @@
         {
           "nom": "Formation d'un complexe : substitution des ligands aqua",
           "niveau": "L3",
-          "id": null
+          "id": "substitution_ligands_aqua"
         },
         {
           "nom": "Effet chélate",
@@ -922,32 +922,32 @@
         {
           "nom": "Substitution en géométrie plan-carré et effet trans",
           "niveau": "M1",
-          "id": null
+          "id": "substitution_plan_carre_effet_trans"
         },
         {
           "nom": "Substitution dissociative en géométrie octaédrique",
           "niveau": "M1",
-          "id": null
+          "id": "substitution_dissociative_octaedrique"
         },
         {
           "nom": "Substitution associative et échange d'interchange",
           "niveau": "M2",
-          "id": null
+          "id": "substitution_associative_interchange"
         },
         {
           "nom": "Racémisation d'un complexe tris-chélate",
           "niveau": "M2",
-          "id": null
+          "id": "racemisation_tris_chelate"
         },
         {
           "nom": "Transfert d'électron par sphère externe (théorie de Marcus)",
           "niveau": "M2",
-          "id": null
+          "id": "transfert_electron_sphere_externe"
         },
         {
           "nom": "Transfert d'électron par sphère interne (mécanisme de Taube)",
           "niveau": "M2",
-          "id": null
+          "id": "transfert_electron_sphere_interne"
         }
       ],
       "bloc": "Inorganique"

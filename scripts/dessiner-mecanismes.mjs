@@ -103,6 +103,52 @@ const optionsDessin = (extra = {}) => JSON.stringify({
 })
 
 /**
+ * Un molblock est-il au format V3000 ?
+ *
+ * RDKit bascule en V3000 dès qu'une molécule contient quelque chose que le
+ * V2000 ne sait pas écrire — et une LIAISON DATIVE en fait partie. Les
+ * complexes de coordination sortent donc tous dans ce format.
+ *
+ * Le piège est silencieux : la ligne de comptage d'un molblock V3000 porte
+ * « 0 0 », et un lecteur V2000 y trouve ZÉRO atome. Aucune erreur n'est
+ * levée — les contrôles de lisibilité tournent simplement à vide, et un
+ * schéma illisible passerait. C'est ce qui est arrivé à la première fiche
+ * de chimie de coordination.
+ */
+function estV3000(lignes) {
+  return (lignes[3] || '').includes('V3000')
+}
+
+/** Symbole et charge de chaque atome d'un molblock V3000. */
+function atomesV3000(lignes) {
+  const atomes = []
+  let dedans = false
+  for (const ligne of lignes) {
+    if (ligne.startsWith('M  V30 BEGIN ATOM')) { dedans = true; continue }
+    if (ligne.startsWith('M  V30 END ATOM')) break
+    if (!dedans) continue
+    const champs = ligne.slice(7).trim().split(/\s+/)
+    const charge = champs.find((c) => c.startsWith('CHG='))
+    atomes.push({ symbole: champs[1], charge: charge ? Number(charge.slice(4)) : 0 })
+  }
+  return atomes
+}
+
+/** Paires d'atomes de chaque liaison d'un molblock V3000, numérotées depuis 0. */
+function liaisonsV3000(lignes) {
+  const liaisons = []
+  let dedans = false
+  for (const ligne of lignes) {
+    if (ligne.startsWith('M  V30 BEGIN BOND')) { dedans = true; continue }
+    if (ligne.startsWith('M  V30 END BOND')) break
+    if (!dedans) continue
+    const champs = ligne.slice(7).trim().split(/\s+/)
+    liaisons.push([Number(champs[2]) - 1, Number(champs[3]) - 1])
+  }
+  return liaisons
+}
+
+/**
  * Quels atomes portent une étiquette écrite.
  *
  * RDKit ne dessine un symbole que pour ce qui n'est pas un carbone neutre :
@@ -113,6 +159,12 @@ const optionsDessin = (extra = {}) => JSON.stringify({
  */
 function etiquettesDe(molecule) {
   const lignes = molecule.get_molblock().split('\n')
+  if (estV3000(lignes)) {
+    return atomesV3000(lignes).map(({ symbole, charge }) => ({
+      symbole,
+      ecrit: symbole !== 'C' || charge !== 0
+    }))
+  }
   const nbAtomes = Number(lignes[3].slice(0, 3))
   const charges = new Set()
   for (const ligne of lignes) {
@@ -129,6 +181,7 @@ function etiquettesDe(molecule) {
 /** Liste des liaisons (paires d'atomes), dans l'ordre des numéros de RDKit. */
 function liaisonsDe(molecule) {
   const lignes = molecule.get_molblock().split('\n')
+  if (estV3000(lignes)) return liaisonsV3000(lignes)
   const [nbAtomes, nbLiaisons] = [
     Number(lignes[3].slice(0, 3)),
     Number(lignes[3].slice(3, 6))
