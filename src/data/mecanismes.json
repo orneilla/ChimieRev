@@ -18917,5 +18917,113 @@
         "valide": false
       }
     ]
+  },
+  "addition_oxydante": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le métal insaturé, et la liaison qu'il va rompre",
+        "smiles": "Ic1ccccc1.[Pd]",
+        "legende": "À droite, le palladium(0). Ses ligands ne sont pas écrits — ils ne changent pas —, mais leur COMPTE décide de tout.\n\nHousecroft pose la condition d'entrée (p. 720) : « chaque addition se produit sur un centre métallique à 16 électrons, et le porte à 18 électrons dans le produit ». Un complexe déjà saturé est plein : « si le composé de départ contient un centre métallique à 18 électrons, l'addition oxydante NE PEUT PAS avoir lieu sans perte d'un ligand à deux électrons ». Il en donne l'équation : Os(CO)₅ + H₂ → H₂Os(CO)₄ + CO, à 80 bar.\n\nQUELS MÉTAUX : le plus souvent d⁸ ou d¹⁰ — Rh(I), Ir(I), Pd(0), Pt(0) —, et il faut « un degré d'oxydation supérieur ACCESSIBLE ». Grossman pose la même règle par le bas et signale l'erreur courante (p. 350) : « les métaux d⁰ ne peuvent PAS subir d'addition oxydante ». Un titane(IV) n'a plus rien à donner.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le métal s'est glissé dans la liaison",
+        "smiles": "I[Pd]c1ccccc1",
+        "legende": "Là où il y avait une liaison C–I, il y en a maintenant deux. Rien n'est parti, rien n'est arrivé : un atome s'est intercalé.\n\nTROIS CHOSES ONT AUGMENTÉ DE DEUX EN MÊME TEMPS (Housecroft p. 720), et c'est la signature de l'étape : le degré d'oxydation du métal, son nombre de coordination, et son compte électronique — de 16 à 18.\n\nLE MOT « OXYDANTE » VIENT DE LÀ. Le palladium avait un doublet disponible ; il est maintenant engagé dans les deux liaisons nouvelles. Au sens du comptage, le métal a perdu deux électrons.\n\nET L'ADDITION EST D'ABORD CIS. Housecroft prévient qu'on ne peut pas remonter du produit au mécanisme : « l'addition oxydante donne initialement un produit d'addition cis, mais des réarrangements de ligands peuvent se produire, et le produit isolé peut contenir les groupes ajoutés mutuellement cis ou trans ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Deux chemins pour un même bilan",
+        "smiles": "I[Pd](I)c1ccccc1",
+        "legende": "Le nom de l'étape dit ce qui a changé. Il ne dit pas COMMENT — et Clayden le montre sur un seul complexe, celui de Vaska (p. 1074). L'addition de H₂ s'y fait en cis, donc d'un seul geste ; celle de l'iodométhane se fait en trans, « géométriquement impossible pour un processus concerté », donc par une SN2. Même métal, deux mécanismes.\n\nLA STÉRÉOCHIMIE TRANCHE (Grossman p. 350). Sur un halogénure secondaire de configuration pure, « on observe une INVERSION de configuration au carbone, ce qui soutient le mécanisme SN2 ». Sur un halogénure vinylique ou aromatique, elle se fait « TOUJOURS avec rétention de configuration autour de la double liaison » — ce qui exclut la SN2.\n\nPour ce second cas, Grossman propose une coordination π, puis une forme mésomère métallacyclopropane, puis une ouverture ÉLECTROCYCLIQUE torquosélective : « le carbone terminal tourne de sorte que les électrons de la liaison Pd–C qui se rompt soient anti à l'atome d'iode ».",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "elimination_reductrice": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Deux ligands sur le même métal — et voisins",
+        "smiles": "CC[Pd]c1ccccc1",
+        "legende": "Le palladium(II) porte deux ligands carbonés. Ils vont se lier et partir ensemble.\n\nLA CONDITION EST GÉOMÉTRIQUE ET SANS APPEL (Grossman p. 350) : « il est établi que les deux groupes doivent être ADJACENTS l'un à l'autre dans la sphère de coordination du métal. Dans les complexes plans carrés de palladium [(R₃P)₂PdR₂], si les groupes R sont forcés d'être trans l'un de l'autre » — par un chélatant, par exemple —, il ne se passe rien.\n\nCe n'est pas une lenteur, c'est une impossibilité. D'où une part du métier : on dessine des ligands dont le seul rôle est d'occuper deux positions voisines, et donc de contraindre les deux autres à l'être.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le produit sort, le métal est rendu",
+        "smiles": "CCc1ccccc1.[Pd]",
+        "legende": "Les deux liaisons Pd–C se rompent tandis que la liaison C–C se forme, d'un seul geste. Le degré d'oxydation baisse de deux, le nombre de coordination aussi, et le compte électronique redescend de 18 à 16.\n\nCE DERNIER POINT N'EST PAS UN DÉTAIL : un métal qui ressortirait à 18 électrons serait un catalyseur mort après un tour. C'est la case libre qui le rend disponible.\n\nCE QUI TIRE L'ÉTAPE (Grossman p. 350) : « cette réaction est habituellement d'autant plus aisée que la liaison X–Y est FORTE ». On perd deux liaisons métal-carbone médiocres, on gagne une liaison carbone-carbone solide. Le bilan est favorable, et le produit part de lui-même.\n\nCHANGEZ LES LIGANDS, CHANGEZ LA RÉACTION : deux carbones donnent un couplage croisé, un carbone et un hydrogène un alcane, un aryle et un amidure la liaison C–N du Buchwald-Hartwig. Et un ACYLE avec un hydrure donnent un ALDÉHYDE — Housecroft en donne l'équation (p. 720), H₂Co{C(O)R}(CO)₃ → HCo(CO)₃ + RCHO, qui est la dernière étape de l'hydroformylation.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "insertion_migratoire": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le métal porte un méthyle ; le CO se coordonne",
+        "smiles": "C[Pd]I.[C-]#[O+]",
+        "legende": "Le monoxyde de carbone vient occuper une place libre sur le palladium. Rien n'a encore bougé du côté du méthyle.\n\nLE LIGAND À INSÉRER DOIT ÊTRE INSATURÉ (Clayden p. 1076) : « le groupe à insérer doit être insaturé afin de pouvoir accommoder les liaisons supplémentaires ». CO, alcènes et alcynes donnent respectivement des complexes acyle, alkyle et alcényle.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le méthyle a migré — et l'expérience le prouve",
+        "smiles": "CC(=O)[Pd]I",
+        "legende": "On dit « insertion du CO », comme si le monoxyde de carbone s'enfonçait dans la liaison métal-carbone. C'EST L'INVERSE : c'est le méthyle qui migre sur le CO, lequel n'a pas bougé.\n\nLES DEUX MÉCANISMES DONNENT LE MÊME PRODUIT. Aucun raisonnement ne les départage — il a fallu une expérience. Housecroft la rapporte (p. 721) : on marque le composé au ¹³C, on étudie la décarbonylation, et « la distribution des produits est cohérente avec la migration du groupe Me, et NON avec un mécanisme impliquant le déplacement du CO “inséré” ». Le suivi se fait par RMN du ¹³C.\n\nCE QUI N'A PAS CHANGÉ, ET C'EST LA SIGNATURE DE L'ÉTAPE (Grossman p. 351) : « aucun changement du degré d'oxydation, du compte d'électrons d, ni du compte électronique total. Cependant, une nouvelle liaison σ est formée aux dépens d'une liaison π. » Comparez avec l'addition oxydante, où trois choses changeaient de deux.\n\nET L'ÉTAPE EST INDUSTRIELLE. Housecroft donne l'équation (p. 721) : [Rh(Me)(CO)₂I₃]⁻ + CO → [Rh(C(O)Me)(CO)₂I₃]⁻, une étape du procédé Monsanto de production de l'acide acétique.\n\nLa migration a libéré une place de coordination — le méthyle en occupait une, il n'en occupe plus. Or une place vide invite au retour : l'étape est réversible, et c'est bien pourquoi la décarbonylation existe.\n\nD'OÙ CE QUI POUSSE L'INSERTION (Clayden p. 1076) : un apport de ligands externes. « Une pression accrue de monoxyde de carbone dans le cas de la carbonylation, ou simplement un excès de phosphine pour les insertions d'alcène et d'alcyne. »\n\nAugmenter la pression de CO ne sert donc pas à fournir plus de réactif. Cela sert à boucher le trou.\n\nET CELA PEUT RECOMMENCER. Housecroft note que « des migrations d'alkyle apparentées se produisent et entraînent la CROISSANCE DE LA CHAÎNE CARBONÉE » (p. 721) ; Clayden va au bout (p. 1076) : « en principe, ce processus d'allongement de chaîne peut être répété indéfiniment pour produire des polymères par polymérisation de Ziegler-Natta ». Le polyéthylène est cette seule étape, répétée.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "elimination_beta_hydrure": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un alkyle sur le métal, un hydrogène deux carbones plus loin",
+        "smiles": "CC[Pd]I",
+        "legende": "Rien de menaçant à première vue : un palladium portant un éthyle, et un hydrogène ordinaire sur le carbone β.\n\nMAIS LA CHAÎNE EST SOUPLE. Elle tourne, et en tournant elle peut amener cet hydrogène juste en face du métal.\n\nTROIS CONDITIONS, ET IL SUFFIT D'EN SUPPRIMER UNE pour bloquer la réaction : un hydrogène sur le carbone β, une place de coordination VIDE sur le métal, et une géométrie qui permette de les mettre face à face. C'est pourquoi les substrats méthylique, benzylique et néopentylique passent : ils n'ont pas d'hydrogène β.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'hydrure est passé sur le métal, l'alcène est né",
+        "smiles": "C=C.I[Pd][H]",
+        "legende": "La liaison C–H ne s'est pas rompue d'un coup : elle s'est PENCHÉE vers le métal. Housecroft décrit le chemin (p. 721) : « on pense que la première étape implique un intermédiaire cyclique avec une interaction agostique M···H···C ». Une liaison à trois centres, à mi-chemin entre une liaison C–H intacte et un hydrure métallique — le métal, Cα, Cβ et H formant un cycle plan à quatre.\n\nC'EST L'INVERSE MICROSCOPIQUE DE L'INSERTION (Grossman p. 351), et cela se voit à ce qui ne change pas : « comme une insertion, une β-élimination n'entraîne aucun changement du degré d'oxydation, du compte d'électrons d, ni du compte électronique total ».\n\nPOURQUOI ON LA REDOUTE. Grossman n'y va pas par quatre chemins : « l'élimination β-hydrure est LE FLÉAU DE L'EXISTENCE DU CHIMISTE ORGANOMÉTALLICIEN, car elle rend beaucoup de liaisons métal-alkyle extrêmement labiles. »\n\nLA CONSÉQUENCE PRATIQUE EST ÉNORME : un couplage sur un halogénure d'alkyle ordinaire échoue. Le palladium s'insère bien dans la liaison C–Br, puis l'élimination β-hydrure part la première et l'on récupère l'alcène. Voilà pourquoi les couplages se font sur des cycles aromatiques et des alcènes — non par goût des molécules plates, mais parce qu'un carbone sp² n'a pas d'hydrogène β accessible.\n\nQUAND ON LA VEUT, elle fait tout le travail : c'est elle qui termine la réaction de Heck.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "hydrogenation_wilkinson": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le catalyseur commence par se défaire",
+        "smiles": "C=CCCCC",
+        "legende": "Le catalyseur de Wilkinson est un complexe ROUGE de rhodium(I) à SEIZE électrons, RhCl(PPh₃)₃, préparé à partir de RhCl₃ et de PPh₃ (Housecroft p. 791).\n\nCE N'EST PAS LUI QUI TRAVAILLE. En solution benzène/éthanol il se dissocie : RhCl(PPh₃)₃ ⇌ RhCl(PPh₃)₂ + PPh₃, avec K = 1,4 × 10⁻⁴. Un solvant vient occuper la quatrième place.\n\nGrossman généralise (p. 357) : « tout catalyseur d'hydrogénation à métal tardif, homogène ou hétérogène, emploie probablement exactement le même cycle catalytique — bien que certains, en particulier les encombrés comme celui de Wilkinson, exigent qu'une dissociation ou une substitution de ligand se produise avant que le cycle ne démarre ».\n\nÀ l'écran, l'hex-1-ène : le substrat. Le rhodium et ses ligands ne sont pas dessinés — ils ne rentrent pas dans le produit.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'alcane, et ce que le catalyseur a vraiment fait",
+        "smiles": "CCCCCC",
+        "legende": "Quatre gestes ont eu lieu, et ce sont les quatre étapes élémentaires de toute la catalyse organométallique : addition oxydante CIS de H₂ sur le rhodium(I), coordination de l'alcène, insertion migratoire dans une liaison Rh–H, élimination réductrice qui rend l'alcane et le rhodium(I).\n\nLA RÉACTION N'AVAIT PAS BESOIN D'ÊTRE RENDUE POSSIBLE. Housecroft donne le chiffre (p. 791) : ΔG° = −101 kJ mol⁻¹ pour CH₂=CH₂ + H₂ → C₂H₆. « Bien que l'addition de H₂ à une double liaison soit thermodynamiquement favorisée, la barrière cinétique est haute, et un catalyseur est nécessaire pour permettre à la réaction de se faire à une vitesse viable. » Un catalyseur ne rend jamais possible ce qui ne l'était pas.\n\nLES DEUX HYDROGÈNES ARRIVENT DU MÊME CÔTÉ, parce qu'ils n'ont jamais été séparés : l'addition de H₂ est cis, ils restent voisins sur le métal, et ils se posent l'un après l'autre sur la même face. Grossman en fait un argument (p. 356) : « le fait que l'addition soit stéréospécifiquement syn suggère qu'une réaction d'INSERTION se produit ».\n\nET LA SÉLECTIVITÉ SE MESURE (Housecroft p. 792, Table 26.1, en 10⁻² dm³ mol⁻¹ s⁻¹) : styrène 93,0 ; dodéc-1-ène 34,3 ; cyclohexène 31,6 ; hex-1-ène 29,1 ; 2-méthylpent-1-ène 26,6 ; 1-méthylcyclohexène 0,6.\n\nRegardez le dernier : un alcène trisubstitué est CINQUANTE FOIS plus lent qu'un alcène terminal. On peut donc hydrogéner une double liaison en laissant l'autre intacte — ce qu'un catalyseur en poudre ne sait pas faire.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

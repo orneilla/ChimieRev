@@ -559,6 +559,26 @@
     "substrat": "carbonylation_catalysee-substrat.svg",
     "produit": "carbonylation_catalysee-produit.svg"
   },
+  "addition_oxydante": {
+    "substrat": "addition_oxydante-substrat.svg",
+    "produit": "addition_oxydante-produit.svg"
+  },
+  "elimination_reductrice": {
+    "substrat": "elimination_reductrice-substrat.svg",
+    "produit": "elimination_reductrice-produit.svg"
+  },
+  "insertion_migratoire": {
+    "substrat": "insertion_migratoire-substrat.svg",
+    "produit": "insertion_migratoire-produit.svg"
+  },
+  "elimination_beta_hydrure": {
+    "substrat": "elimination_beta_hydrure-substrat.svg",
+    "produit": "elimination_beta_hydrure-produit.svg"
+  },
+  "hydrogenation_wilkinson": {
+    "substrat": "hydrogenation_wilkinson-substrat.svg",
+    "produit": "hydrogenation_wilkinson-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1103,6 +1123,9 @@
   },
   "pd_dba2": {
     "molecule": "reactif-pd_dba2.svg"
+  },
+  "catalyseur_wilkinson": {
+    "molecule": "reactif-catalyseur_wilkinson.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

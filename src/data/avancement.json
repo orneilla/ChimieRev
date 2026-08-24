@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 140,
+  "redigees": 145,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1194,45 +1194,45 @@
       "famille": "Catalyse",
       "bloc": "Organométallique et catalyse",
       "total": 12,
-      "absente": 12,
-      "redigee": 0,
+      "absente": 7,
+      "redigee": 5,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
           "nom": "Addition oxydante",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "addition_oxydante",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Élimination réductrice",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "elimination_reductrice",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Insertion migratoire",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "insertion_migratoire",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Élimination β-hydrure",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "elimination_beta_hydrure",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Hydrogénation catalytique de Wilkinson",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydrogenation_wilkinson",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Procédé Monsanto : synthèse de l'acide acétique",

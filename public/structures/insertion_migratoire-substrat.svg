@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='300px' height='180px' viewBox='0 0 300 180'>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:#FFFFFF00;stroke:none' width='300.0' height='180.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 95.5,89.9 L 136.8,89.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 162.2,89.9 L 181.4,89.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 181.4,89.9 L 200.7,89.9' style='fill:none;fill-rule:evenodd;stroke:#A01EEF;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-1' d='M 143.1 82.8
+Q 145.7 82.8, 147.0 84.0
+Q 148.3 85.2, 148.3 87.3
+Q 148.3 89.4, 147.0 90.6
+Q 145.6 91.8, 143.1 91.8
+L 140.6 91.8
+L 140.6 98.1
+L 138.6 98.1
+L 138.6 82.8
+L 143.1 82.8
+M 143.1 90.1
+Q 144.6 90.1, 145.4 89.4
+Q 146.2 88.7, 146.2 87.3
+Q 146.2 85.9, 145.4 85.3
+Q 144.6 84.5, 143.1 84.5
+L 140.6 84.5
+L 140.6 90.1
+L 143.1 90.1
+' fill='#000000'/>
+<path class='atom-1' d='M 160.4 81.7
+L 160.4 98.1
+L 158.8 98.1
+L 158.5 96.7
+Q 157.3 98.3, 155.2 98.3
+Q 152.9 98.3, 151.6 96.9
+Q 150.3 95.4, 150.3 92.7
+Q 150.3 89.9, 151.8 88.4
+Q 153.4 86.8, 156.0 86.8
+Q 157.2 86.8, 158.4 87.1
+L 158.4 81.7
+L 160.4 81.7
+M 155.3 96.7
+Q 156.5 96.7, 157.3 96.1
+Q 158.1 95.5, 158.4 94.4
+L 158.4 88.7
+Q 157.3 88.4, 156.1 88.4
+Q 154.3 88.4, 153.4 89.6
+Q 152.4 90.7, 152.4 92.7
+Q 152.4 94.6, 153.2 95.7
+Q 153.9 96.7, 155.3 96.7
+' fill='#000000'/>
+<path class='atom-2' d='M 202.5 82.2
+L 204.5 82.2
+L 204.5 97.6
+L 202.5 97.6
+L 202.5 82.2
+' fill='#A01EEF'/>
+</svg>

@@ -3224,5 +3224,37 @@
     "explication_reference": "Pd(dba)₂ et son homologue Pd₂(dba)₃ sont des sources de palladium au degré ZÉRO, prêtes à entrer dans un cycle catalytique sans étape de réduction. Clayden les emploie dans ses deux exemples de couplage de Negishi (p. 1084) : un organozincique alkyle sur un iodure d'aryle avec un ligand phosphine dans le THF à 65 °C, 74-89 % ; et un organozincique sur un triflate vinylique à température ambiante, 72-88 %.\n\nCE QUE LE CHIMISTE Y GAGNE : il choisit lui-même la phosphine. Les ligands dibenzylidèneacétone sont faiblement liés et s'échangent contre celle qu'on ajoute — ce qui permet d'apparier une même source de métal à n'importe quel ligand.\n\nLA COMPARAISON AVEC LES AUTRES SOURCES. Pd(PPh₃)₄ arrive avec ses quatre phosphines : commode, mais on ne choisit rien. Pd(OAc)₂ est un palladium(II), qu'il faut réduire in situ — LibreTexts note à ce propos que « ces réactifs de Pd sont réduits dans les conditions de réaction par plusieurs mécanismes possibles dont nous ne nous préoccuperons pas ici ; le résultat net est que du Pd(0) est produit dans le ballon » (§ 12.2).",
     "explication_comprendre": "POURQUOI acheter un palladium accompagné de ligands qu'on va jeter ?\n\nParce que le palladium(0) tout nu n'existe pas en flacon.\n\nUn atome de métal au degré zéro, laissé seul, cherche ses semblables : les atomes s'assemblent et l'on obtient du métal, une poudre noire inerte. Pour le garder en solution et disponible, il faut qu'un ligand le tienne.\n\nMAIS PAS TROP FORT. Si le ligand tient trop bien, il ne partira pas quand il faudra faire de la place au substrat. Le catalyseur sera stable et inutile.\n\nLA DIBENZYLIDÈNEACÉTONE EST LE COMPROMIS. Elle tient le palladium par ses doubles liaisons carbone-carbone — une prise réelle mais faible. Ajoutez la phosphine de votre choix, et elle s'en va sans se faire prier.\n\nCE QUE CELA PERMET, ET C'EST TOUT L'INTÉRÊT : vous décidez du ligand. Or c'est le ligand qui décide de presque tout dans ces réactions — quel halogénure réagira, à quelle température, avec quelle sélectivité. LibreTexts insiste : « beaucoup des avancées récentes de ce domaine ont été rendues possibles par le développement de nouvelles phosphines. »\n\nAvec Pd(PPh₃)₄, vous achetez le métal ET son ligand ensemble, sans choix. Avec Pd(dba)₂, vous achetez le métal, et vous apportez le ligand.\n\nC'est la différence entre un plat tout prêt et des ingrédients.",
     "reactions_exemples": []
+  },
+  {
+    "id": "catalyseur_wilkinson",
+    "nom": "RhCl(PPh₃)₃",
+    "nom_complet": "catalyseur de Wilkinson",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "Cl[Rh]",
+    "role": "Le premier catalyseur d'hydrogénation soluble — et celui qui a rendu le mécanisme observable",
+    "anatomie_annotations": [
+      {
+        "partie": "le rhodium(I)",
+        "role": "Un centre à SEIZE électrons, donc insaturé, donc actif. C'est la case manquante qui fait le catalyseur, pas le complexe parfait."
+      },
+      {
+        "partie": "les trois phosphines",
+        "role": "L'une d'elles s'en va en solution — K = 1,4 × 10⁻⁴ — et un solvant prend sa place. Ce n'est donc pas la molécule qu'on pèse qui travaille (Housecroft p. 791)."
+      },
+      {
+        "partie": "l'encombrement des phényles",
+        "role": "Il fait toute la sélectivité : un alcène terminal entre facilement, un alcène trisubstitué cinquante fois moins vite."
+      },
+      {
+        "partie": "le chlorure",
+        "role": "Spectateur. Il ne bouge pas du cycle, et c'est pourquoi on ne l'écrit pas dans les schémas de mécanisme."
+      }
+    ],
+    "reactions_liees": [
+      "hydrogenation_wilkinson"
+    ],
+    "explication_reference": "RhCl(PPh₃)₃ est un complexe ROUGE de rhodium(I) à 16 électrons, préparé à partir de RhCl₃ et de PPh₃, qui hydrogène les alcènes à 298 K sous 1 bar de H₂ (Housecroft p. 791).\n\nIL SE DÉFAIT AVANT DE TRAVAILLER : RhCl(PPh₃)₃ ⇌ RhCl(PPh₃)₂ + PPh₃, K = 1,4 × 10⁻⁴, un solvant occupant la quatrième place. Grossman généralise (p. 357) : les catalyseurs encombrés « exigent qu'une dissociation ou une substitution de ligand se produise avant que le cycle ne démarre ».\n\nSA SÉLECTIVITÉ EST STÉRIQUE ET SE MESURE (Housecroft p. 792, Table 26.1) : styrène 93,0 ; hex-1-ène 29,1 ; 1-méthylcyclohexène 0,6, en 10⁻² dm³ mol⁻¹ s⁻¹. Un facteur cinquante entre un alcène terminal et un alcène trisubstitué.\n\nCE QU'IL A VRAIMENT APPORTÉ (Grossman p. 356) : « pendant longtemps, les mécanismes des hydrogénations hétérogènes ont été considérés comme assez mystérieux, mais avec l'avènement de catalyseurs homogènes comme celui de Wilkinson, il est devenu possible d'étudier les mécanismes en détail. »\n\nIL EST ACHIRAL, donc un alcène prochiral donne un racémique. C'est en remplaçant PPh₃ par une phosphine chirale — (R,R)-DIOP, (S)-BINAP — qu'on a obtenu la L-DOPA et le naproxène (Housecroft p. 792).",
+    "explication_comprendre": "POURQUOI un catalyseur qu'on peut dissoudre a-t-il changé la chimie, alors qu'on savait déjà hydrogéner avec de la poudre de palladium ?\n\nParce qu'on ne voyait rien.\n\nUn catalyseur en poudre travaille à sa surface. On met les réactifs, on agite, on filtre, on constate. Ce qui s'est passé entre-temps, sur quelques atomes de surface au milieu de milliards d'autres, reste hors de portée.\n\nUN CATALYSEUR DISSOUS EST UNE MOLÉCULE COMME UNE AUTRE. On peut la mettre dans un tube RMN, la refroidir, l'attraper au milieu de son travail, mesurer combien de temps chaque étape dure.\n\nC'est ce qu'on a fait avec celui de Wilkinson — et ce qu'on a découvert vaut aussi pour la poudre : le cycle est probablement le même.\n\nUNE SURPRISE, TOUT DE MÊME. Ce n'est pas la molécule qu'on pèse qui travaille. En solution, elle perd l'une de ses trois phosphines. Ce qui catalyse est ce qui reste — un complexe incomplet, avec une place libre.\n\nRETENEZ CE POINT, IL EST GÉNÉRAL : un catalyseur actif est un catalyseur à qui il manque quelque chose. Un complexe parfaitement entouré n'a nulle part où mettre le substrat.\n\nET IL EST DIFFICILE — CE QUI EST UNE QUALITÉ. Ses trois phosphines portent chacune trois cycles aromatiques : c'est une molécule volumineuse. Un alcène en bout de chaîne, bien dégagé, s'approche sans peine. Un alcène coincé entre trois substituants n'y arrive presque pas.\n\nCinquante fois plus lent, pour être précis. Ce qui veut dire qu'on peut hydrogéner une double liaison d'une molécule en laissant l'autre intacte, simplement parce qu'elle est plus encombrée.\n\nUn catalyseur en poudre, lui, prend tout ce qui passe.",
+    "reactions_exemples": []
   }
 ]

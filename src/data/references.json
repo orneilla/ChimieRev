@@ -4640,6 +4640,174 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "addition_oxydante": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements, § 23.7",
+          "pages": "719",
+          "note": "Le sommaire des six types de réactions organométalliques, qui donne à l'étape sa place dans un ensemble : substitution de ligand, addition oxydante (y compris l'orthométallation), élimination réductrice, migrations d'alkyle et d'hydrogène, élimination β-hydrogène, abstraction α-hydrogène."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements, § 23.7",
+          "pages": "720",
+          "note": "La condition arithmétique, énoncée sans ambiguïté : « chaque addition se produit sur un centre métallique à 16 électrons, le portant à 18 électrons dans le produit… si le composé de départ contient un centre métallique à 18 électrons, l'addition oxydante ne peut pas avoir lieu sans perte d'un ligand à deux électrons » — avec l'équation Os(CO)₅ + H₂ → H₂Os(CO)₄ + CO à 80 bar. Les configurations qui conviennent : d⁸ ou d¹⁰, Rh(I), Ir(I), Pd(0), Pd(II), Pt(0), Pt(II), le métal devant avoir « un degré d'oxydation supérieur accessible ». Les trois marqueurs de l'étape : oxydation du métal de deux unités, nombre de coordination augmenté de deux, compte électronique 16 → 18. Les formes moins attendues : métallacycle à partir d'un alcyne, orthométallation d'une liaison C–H, complexe η²-peroxo avec O₂. Et l'avertissement de stéréochimie : « l'addition oxydante donne initialement un produit d'addition cis, mais des réarrangements de ligands peuvent se produire, et le produit isolé peut contenir les groupes ajoutés mutuellement cis ou trans »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.1",
+          "pages": "350",
+          "note": "Les preuves stéréochimiques, décisives : sur un halogénure secondaire C(sp³) de configuration pure, « on observe une inversion de configuration au carbone, ce qui soutient le mécanisme SN2 » ; sur un halogénure vinylique ou aromatique, l'addition « se produit toujours avec rétention de configuration autour de la double liaison » et « ne peut évidemment pas passer par un mécanisme SN2 » — d'où la voie proposée : coordination π, forme mésomère métallacyclopropane, ouverture électrocyclique TORQUOSÉLECTIVE où « le carbone terminal tourne de sorte que les électrons de la liaison Pd–C qui se rompt soient anti à l'atome d'iode ». Et la règle par le bas : « tout métal ayant un compte d'électrons d de d² ou plus peut subir une addition oxydante, mais les complexes à 18 électrons n'en subissent pas », avec l'encadré « ALERTE À L'ERREUR COURANTE : les métaux d⁰ ne peuvent pas subir d'addition oxydante »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1074",
+          "note": "L'encadré sur le complexe de Vaska, qui interdit de généraliser : l'addition oxydante de H₂ se fait en cis, donc en un seul geste concerté ; celle de l'iodométhane se fait en trans, « géométriquement impossible pour un processus concerté », donc par un mécanisme de type SN2. Même métal, deux mécanismes. Et la condition d'entrée : « le complexe de départ est habituellement à bas degré d'oxydation (0 ou 1) et coordinativement insaturé, c'est-à-dire qu'il a un site vide pour un ligand »."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "12 — Transition Metal Catalyzed Carbon-Carbon Bond Forming Reactions",
+          "pages": "§ 12.1",
+          "note": "L'étape présentée pour elle-même dans un cours d'organique, avec l'ordre de réactivité des halogénures et la convention d'écriture LₙPd(0)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "elimination_reductrice": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.1",
+          "pages": "350",
+          "note": "Trois affirmations qu'on ne trouve pas ailleurs. L'identité de l'étape : « l'élimination réductrice, X–M–Y → M + X–Y, est l'INVERSE MICROSCOPIQUE de l'addition oxydante ». La force motrice : « cette réaction est habituellement d'autant plus aisée que la liaison X–Y est forte », avec l'exemple H–Ti–Bu → Bu–H + Ti. Et la contrainte géométrique, établie expérimentalement : « il est établi que les deux groupes doivent être adjacents l'un à l'autre dans la sphère de coordination du métal. Dans les complexes plans carrés de palladium [(R₃P)₂PdR₂], si les groupes R sont forcés d'être trans l'un de l'autre… » Grossman reconnaît aussi la limite de l'état des connaissances : « on ne connaît pas aussi bien le mécanisme de l'élimination réductrice que celui de l'addition oxydante »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements, § 23.7",
+          "pages": "720",
+          "note": "L'étape définie comme l'inverse de l'addition oxydante, avec un exemple qui n'est pas d'école : H₂Co{C(O)R}(CO)₃ → HCo(CO)₃ + RCHO, « dans laquelle un substituant acyle est converti en aldéhyde » — c'est la dernière étape de l'hydroformylation."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1075",
+          "note": "L'élimination réductrice dans son rôle de sortie de cycle, et la baisse du compte électronique qui rend le métal de nouveau disponible."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "12 — Transition Metal Catalyzed Carbon-Carbon Bond Forming Reactions",
+          "pages": "§ 12.1",
+          "note": "L'étape replacée dans le cycle catalytique complet, avec l'exercice qui demande d'étiqueter chaque flèche du cycle."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "insertion_migratoire": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements, § 23.7",
+          "pages": "721",
+          "note": "L'EXPÉRIENCE QUI DONNE SON NOM À L'ÉTAPE : « la migration du groupe méthyle est réversible et la réaction de décarbonylation a été étudiée avec le composé marqué au ¹³C… la distribution des produits est cohérente avec la migration du groupe Me, et NON avec un mécanisme impliquant le déplacement du CO “inséré”. Les produits de la réaction peuvent être suivis par spectroscopie RMN du ¹³C. » Avec l'exemple industriel chiffré, [Rh(Me)(CO)₂I₃]⁻ + CO → [Rh(C(O)Me)(CO)₂I₃]⁻, « une étape du procédé Monsanto pour la production de l'acide acétique ». Et la généralisation : « les migrations d'alkyle ne se limitent pas à la formation de groupes acyle » — l'insertion d'alcène convertit un alcène coordonné en groupe alkyle lié en σ, et « des migrations d'alkyle apparentées se produisent et entraînent la croissance de la chaîne carbonée »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.1",
+          "pages": "351",
+          "note": "Ce qui ne change pas, et qui sert à reconnaître l'étape : « il n'y a aucun changement du degré d'oxydation, du compte d'électrons d, ni du compte électronique total. Cependant, une nouvelle liaison σ est formée aux dépens d'une liaison π. » La stéréochimie imposée : « la nature de la réaction exige que les nouvelles liaisons C–M et C–H se forment sur la même face de l'alcène, d'où une addition syn » — et le rattachement à une réaction déjà connue : « la réaction d'un borane R₂BH avec un alcène pour donner un alkylborane est une réaction d'insertion typique que vous avez probablement déjà vue ». Le domaine : l'insertion est très aisée quand le ligand porté est un hydrure (B–H, Zr–H, Pd–H), rare quand c'est un halogène ou un alcoxy ; la liaison π insérée peut être C=C, C=N, C=O."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.1",
+          "pages": "352",
+          "note": "La distinction des deux géométries : « les espèces carbénoïdes comme CO et RNC subissent aussi des insertions et des éliminations (par exemple M–R + CO ⇌ M–C(O)–R). Ce sont des insertions 1,1, par opposition aux… » insertions 1,2 des alcènes. Ce n'est pas un point de vocabulaire : c'est la différence entre allonger une chaîne d'un carbone et l'allonger de deux."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1076",
+          "note": "L'insertion migratoire comme « principale façon d'allonger la chaîne d'un ligand organique avant l'élimination ». La condition sur le ligand : « le groupe à insérer doit être insaturé afin de pouvoir accommoder les liaisons supplémentaires » — CO, alcènes et alcynes donnant des complexes acyle, alkyle et alcényle. Ce qui la pousse : « dans chaque cas, l'insertion est poussée par des ligands externes supplémentaires — une pression accrue de monoxyde de carbone dans le cas de la carbonylation, ou simplement un excès de phosphine pour les insertions d'alcène et d'alcyne ». Et l'ouverture : « en principe, ce processus d'allongement de chaîne peut être répété indéfiniment pour produire des polymères par polymérisation de Ziegler-Natta »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "elimination_beta_hydrure": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements, § 23.7",
+          "pages": "721",
+          "note": "Le mécanisme, et le mot qu'il faut connaître : « l'inverse de la réaction 23.37 est une étape de β-élimination. Elle implique le transfert d'un atome de H en β depuis le groupe alkyle vers le métal, et la conversion du groupe σ-alkyle en un alcène lié en π, c'est-à-dire qu'une liaison C–H est ACTIVÉE. On pense que la première étape implique un intermédiaire cyclique avec une interaction agostique M···H···C. » Avec la figure qui distingue les hydrogènes α des hydrogènes β."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.1",
+          "pages": "351",
+          "note": "L'identité de l'étape et son coût pratique : « la β-élimination est l'inverse microscopique de l'insertion. Comme une insertion, une β-élimination n'entraîne aucun changement du degré d'oxydation, du compte d'électrons d, ni du compte électronique total du métal. De loin la plus courante est l'élimination β-hydrure, M–A–B–H → M–H + A=B. L'élimination β-hydrure est LE FLÉAU DE L'EXISTENCE DU CHIMISTE ORGANOMÉTALLICIEN, car elle rend beaucoup de liaisons métal-alkyle extrêmement labiles. » Et les cousines : « les β-éliminations d'alcoxy et d'halogénure sont également connues, comme dans la réaction de BrCH₂CH₂Br avec le magnésium »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.1",
+          "pages": "352",
+          "note": "L'usage détourné de la réversibilité : sur un complexe de zirconocène, insertion et élimination β-hydrure s'enchaînent en boucle jusqu'à ce que le métal se retrouve au bout le moins encombré de la chaîne — « le seul produit observé ». La réversibilité sert ici d'algorithme de tri."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.3",
+          "pages": "387",
+          "note": "La conséquence sur le domaine des couplages, énoncée comme une limite : « les seuls halogénures C(sp³) qui peuvent subir la réaction sont ceux qui n'ont pas d'hydrogènes β, comme les halogénures méthylique, benzylique et néopentylique. Les halogénures d'alkyle porteurs d'hydrogènes β subissent l'élimination β-hydrure après l'étape d'addition oxydante, ne donnant que le produit issu de l'élimination de HX. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1079",
+          "note": "L'élimination β-hydrure dans son rôle utile : elle termine la réaction de Heck, en libérant l'alcène substitué et en laissant un hydrure de palladium que la base régénère en Pd(0)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydrogenation_wilkinson": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "791",
+          "note": "Le catalyseur en chiffres : RhCl(PPh₃)₃, « complexe rouge de Rh(I) à 16 électrons », préparé à partir de RhCl₃ et PPh₃, employé en solution benzène/éthanol, hydrogénant « à 298 K et 1 bar de pression de H₂ ». La dissociation préalable : RhCl(PPh₃)₃ ⇌ RhCl(PPh₃)₂ + PPh₃, K = 1,4 × 10⁻⁴, un solvant occupant la quatrième place. L'addition oxydante CIS de H₂. Et la distinction qui vaut pour toute la catalyse : « bien que l'addition de H₂ à une double liaison soit thermodynamiquement favorisée (ΔG° = −101 kJ mol⁻¹), la barrière cinétique est haute et un catalyseur est nécessaire pour permettre à la réaction de se faire à une vitesse viable sans hautes températures ni pressions ». Enfin le bilan de l'homogène : deux avantages — « les conditions relativement douces » et « la sélectivité qu'on peut atteindre » —, un inconvénient — « la nécessité de séparer le catalyseur en fin de réaction pour le recycler », comme le HCo(CO)₄ volatil qu'on retire par évaporation flash dans l'hydroformylation."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "792",
+          "note": "La sélectivité MESURÉE (Table 26.1), constantes de vitesse à 298 K dans C₆H₆, en 10⁻² dm³ mol⁻¹ s⁻¹ : styrène 93,0 ; dodéc-1-ène 34,3 ; cyclohexène 31,6 ; hex-1-ène 29,1 ; 2-méthylpent-1-ène 26,6 ; 1-méthylcyclohexène 0,6 — un facteur cinquante entre un alcène terminal et un alcène trisubstitué. Le passage à l'asymétrique : RhCl(PPh₃)₃ étant achiral, un alcène prochiral donne un racémique, « il y a une chance égale que le complexe σ-alkyle formé au cours du cycle catalytique soit un énantiomère R ou S » ; une phosphine chirale ou une bisphosphine bidentée comme la (R,R)-DIOP ou le (S)-BINAP rend l'hydrogénation énantiosélective. Les deux médicaments : la L-DOPA contre la maladie de Parkinson, « un premier triomphe de l'application de l'hydrogénation asymétrique à la fabrication de médicaments », et le naproxène, actif sous sa forme (S) — « l'énantiopureté est essentielle, puisque l'énantiomère (R) est un toxique hépatique »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.2.1",
+          "pages": "356",
+          "note": "Ce que « homogène » et « hétérogène » veulent dire — « simplement soluble ou insoluble » — et ce que le catalyseur soluble a apporté : « pendant longtemps, les mécanismes des hydrogénations hétérogènes, celles où le métal ne se dissolvait pas dans la solution, ont été considérés comme assez mystérieux, mais avec l'avènement de catalyseurs homogènes comme celui de Wilkinson, IL EST DEVENU POSSIBLE D'ÉTUDIER LES MÉCANISMES EN DÉTAIL. » Avec l'argument stéréochimique : « le fait que l'addition soit stéréospécifiquement syn suggère qu'une réaction d'insertion se produit »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.2.1",
+          "pages": "357",
+          "note": "La généralisation : « tout catalyseur d'hydrogénation à métal tardif, homogène ou hétérogène, emploie probablement exactement le même cycle catalytique, bien que certains catalyseurs, en particulier les encombrés comme celui de Wilkinson, exigent qu'une dissociation ou une substitution de ligand se produise avant que le cycle ne démarre ». Et la note de méthode qui justifie qu'on ne dessine pas de flèches sur ces schémas : « on n'emploie typiquement pas de flèches de déplacement électronique pour montrer le flux d'électrons dans chaque étape mécanistique. En revanche, le cycle catalytique est dessiné explicitement, et chaque étape est l'une des réactions typiques des métaux. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1075",
+          "note": "Le catalyseur de Wilkinson replacé parmi les complexes qui font l'addition oxydante de H₂, et le cycle d'hydrogénation dans son ensemble."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

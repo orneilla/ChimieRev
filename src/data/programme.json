@@ -844,27 +844,27 @@
         {
           "nom": "Addition oxydante",
           "niveau": "M1",
-          "id": null
+          "id": "addition_oxydante"
         },
         {
           "nom": "Élimination réductrice",
           "niveau": "M1",
-          "id": null
+          "id": "elimination_reductrice"
         },
         {
           "nom": "Insertion migratoire",
           "niveau": "M1",
-          "id": null
+          "id": "insertion_migratoire"
         },
         {
           "nom": "Élimination β-hydrure",
           "niveau": "M1",
-          "id": null
+          "id": "elimination_beta_hydrure"
         },
         {
           "nom": "Hydrogénation catalytique de Wilkinson",
           "niveau": "M1",
-          "id": null
+          "id": "hydrogenation_wilkinson"
         },
         {
           "nom": "Procédé Monsanto : synthèse de l'acide acétique",
