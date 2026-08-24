@@ -8269,7 +8269,7 @@
     "2": {
       "fichier": "cyclisation_squalene-etape2.svg",
       "titre": "Une seule époxydation, et elle décide de tout",
-      "legende": "CE SCHÉMA EST UN GROS PLAN, ET IL FAUT LE DIRE : on ne montre que l'EXTRÉMITÉ de la chaîne à trente carbones. Le reste continue à droite — vingt-deux carbones et quatre doubles liaisons de plus. À la largeur d'un téléphone, un cycle à trois chaînons posé sur une molécule en C₃₀ devient illisible ; le contrôle de lisibilité de ce dépôt l'a refusé, et il avait raison.\n\nUNE MONOOXYGÉNASE ÉPOXYDE UNE SEULE des six doubles liaisons — celle du bout. Le produit est le 2,3-oxydosqualène.\n\nPOURQUOI CELLE-LÀ ET PAS UNE AUTRE : parce que c'est elle qui portera l'amorce. L'époxyde n'est pas là pour rester dans le produit ; il est là pour s'ouvrir et engendrer un carbocation, qui déclenchera la cascade.\n\nLE MÉCANISME DE L'ÉPOXYDATION (McMurry p. 931) : « le dioxygène moléculaire fournit l'atome d'oxygène de l'époxyde, et le NADPH est requis, avec un coenzyme flavinique. Le mécanisme proposé implique la réaction de la FADH₂ avec O₂ pour produire un intermédiaire flavine hydroperoxyde (ROOH), qui transfère un oxygène au squalène par une voie amorcée par l'attaque nucléophile de la double liaison du squalène sur l'oxygène terminal de l'hydroperoxyde. »\n\nET McMURRY SIGNALE LA PARENTÉ (p. 931) : « ce mécanisme d'époxydation biologique est étroitement ANALOGUE au mécanisme par lequel les peracides (RCO₃H) réagissent avec les alcènes pour donner des époxydes au laboratoire. » La nature et la paillasse font ici le même geste.\n\nLA PREUVE QUE C'EST BIEN CETTE VOIE (Dugas p. 375) : « il a été démontré que le 2,3-oxydosqualène est synthétisé DIRECTEMENT à partir du squalène dans le système hépatique de rat formateur de stérols. Le premier est un précurseur des stérols et est incorporé BIEN PLUS EFFICACEMENT que le squalène en conditions aérobies. » Et une précision de stéréochimie : « dans le processus enzymatique, un SEUL isomère de l'époxyde est formé. »",
+      "legende": "CE SCHÉMA EST UN GROS PLAN, ET IL FAUT LE DIRE : on ne montre que l'EXTRÉMITÉ de la chaîne à trente carbones. Le reste continue à droite — vingt-deux carbones et quatre doubles liaisons de plus. À la largeur d'un téléphone, un cycle à trois chaînons posé sur une molécule en C₃₀ devient illisible ; le contrôle de lisibilité de ce dépôt l'a refusé, et il avait raison.\n\nUNE MONOOXYGÉNASE ÉPOXYDE UNE SEULE des six doubles liaisons — celle du bout. Le produit est le 2,3-oxydosqualène.\n\nPOURQUOI CELLE-LÀ ET PAS UNE AUTRE : parce que c'est elle qui portera l'amorce. L'époxyde n'est pas là pour rester dans le produit ; il est là pour s'ouvrir et engendrer un carbocation, qui déclenchera la cascade.\n\nLE MÉCANISME DE L'ÉPOXYDATION (McMurry p. 931) : « le dioxygène moléculaire fournit l'atome d'oxygène de l'époxyde, et le NADPH est requis, avec un coenzyme flavinique. Le mécanisme proposé implique la réaction de la FADH₂ avec O₂ pour produire un intermédiaire flavine hydroperoxyde (ROOH), qui transfère un oxygène au squalène par une voie amorcée par l'attaque nucléophile de la double liaison du squalène sur l'oxygène terminal de l'hydroperoxyde. »\n\nET McMURRY SIGNALE LA PARENTÉ (p. 931) : « ce mécanisme d'époxydation biologique est étroitement ANALOGUE au mécanisme par lequel les peracides (RCO₃H) réagissent avec les alcènes pour donner des époxydes au laboratoire. » La nature et la paillasse font ici le même geste.\n\nLA PREUVE QUE C'EST BIEN CETTE VOIE (Dugas p. 375) : « il a été démontré que le 2,3-oxydosqualène est synthétisé DIRECTEMENT à partir du squalène dans le système hépatique de rat formateur de stérols. Le premier est un précurseur des stérols et est incorporé BIEN PLUS EFFICACEMENT que le squalène en conditions aérobies. » Et une précision de stéréochimie : « dans le processus enzymatique, un SEUL isomère de l'époxyde est formé. »",
       "fleches": [],
       "hamecons": false,
       "coherenceVerifiee": false,
@@ -8372,6 +8372,141 @@
       "fichier": "biosynthese_prostaglandines-etape5.svg",
       "titre": "La prostaglandine H₂, carrefour de toute la famille",
       "legende": "L'hydroperoxyde est réduit en alcool. Le produit est la PROSTAGLANDINE H₂ — et ce n'est pas une fin, c'est un carrefour.\n\nCE QU'ON EN TIRE (McMurry p. 915-917) : la PGH₂ donne les autres prostaglandines, les THROMBOXANES — « qui ont un cycle à six chaînons contenant de l'oxygène » — et les LEUCOTRIÈNES, « qui sont acycliques ». Tous portent le nom d'EICOSANOÏDES, « parce qu'ils dérivent biologiquement de l'acide 5,8,11,14-eicosatétraénoïque, c'est-à-dire l'acide arachidonique ».\n\nUN EXEMPLE DE CE QUE FAIT L'ENZYME SUIVANTE (McMurry p. 917) : pour convertir la PGH₂ en PGE₂, il faut ouvrir le pont peroxyde. « Une possibilité est que l'anion thiolate du GLUTATHION rompe la liaison O–O de la PGH₂ par une attaque de type SN2 sur l'un des atomes d'oxygène, donnant un intermédiaire thioperoxy (R–S–O–R') qui élimine le glutathion pour donner la cétone. » Le glutathion est nécessaire « bien qu'il ne soit pas chimiquement modifié au cours de l'isomérisation, et son rôle n'est pas pleinement compris ».\n\nET VOICI POURQUOI CETTE VOIE VOUS CONCERNE (McMurry p. 915) : les prostaglandines « peuvent abaisser la pression artérielle, affecter l'agrégation plaquettaire lors de la coagulation, réduire les sécrétions gastriques, CONTRÔLER L'INFLAMMATION, affecter la fonction rénale, affecter les systèmes reproducteurs et stimuler les contractions utérines lors de l'accouchement ».\n\nL'aspirine et l'ibuprofène agissent en bloquant la toute PREMIÈRE étape de cette fiche — l'arrachement de l'hydrogène du carbone 13.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "liaison_phosphodiester": {
+    "1": {
+      "fichier": "liaison_phosphodiester-etape1.svg",
+      "titre": "L'attaque se fait par le haut, et la double liaison se replie",
+      "legende": "Un alcoolate attaque le PHOSPHORE. La double liaison P=O se replie sur son oxygène, et le phosphore passe de quatre à CINQ liaisons.\n\nCE N'EST PAS UNE SN2 ORDINAIRE, ET DUGAS INSISTE (p. 128) : « tout comme l'hydrolyse des esters carboxyliques procède par un intermédiaire tétraédrique, l'hydrolyse des esters phosphoriques procède par un intermédiaire PENTACOORDONNÉ hybridé dsp³. La géométrie de cet intermédiaire est celle qui représente cinq paires électroniques autour d'un atome central : BIPYRAMIDALE TRIGONALE. »\n\nD'OÙ VIENT L'ANGLE D'ATTAQUE (Dugas p. 129) : « le groupe entrant s'approcherait de loin, perpendiculairement à trois ligands, de sorte qu'il sera perpendiculaire au plan des atomes équatoriaux dans l'intermédiaire pentacoordonné. C'est attendu, car la nouvelle liaison en formation sera, au moins au début, LONGUE — ce qui est compatible avec la longue liaison d'un ligand APICAL. Ceci est analogue à la formation de longue liaison initiale qui se produit dans les déplacements SN2. »",
+      "fleches": [
+        "L'alcoolate attaque le phosphore, par une position apicale.",
+        "Les électrons de la double liaison P=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "liaison_phosphodiester-etape2.svg",
+      "titre": "Le départ est apical lui aussi : le mécanisme « en ligne »",
+      "legende": "Le groupe partant s'en va par l'AUTRE position apicale — de l'autre côté du plan équatorial. Nucléophile entrant et groupe partant se font face : c'est le mécanisme dit EN LIGNE.\n\nL'ALTERNATIVE EXISTE, ET ELLE A UN NOM (Dugas p. 133) : « les deux mécanismes sont dits  « en ligne »  ou  « adjacent » , le type dépendant de la géométrie relative des groupes entrant et partant. En référence au plan des trois ligands équatoriaux, le mécanisme stéréochimique est EN LIGNE si le groupe entrant entre d'un côté du plan tandis que le groupe partant part de l'autre côté. En revanche, si le groupe entrant entre d'un côté du plan tandis que le groupe partant est SITUÉ DANS LE PLAN, le mécanisme est ADJACENT. »\n\nET LE MÉCANISME ADJACENT COÛTE UNE ÉTAPE (Dugas p. 133) : « selon les règles de préférence, le mécanisme adjacent REQUIERT une PSEUDOROTATION pour transformer le groupe partant d'une géométrie équatoriale en une géométrie apicale. »\n\nLA CONSÉQUENCE STÉRÉOCHIMIQUE SE MESURE : en ligne donne l'INVERSION au phosphore, adjacent donne la RÉTENTION. C'est cette différence qui a permis de trancher expérimentalement.",
+      "fleches": [
+        "L'oxygène reforme la double liaison P=O.",
+        "Le méthanolate part par la position apicale opposée."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "liaison_phosphodiester-etape3.svg",
+      "titre": "Ce que fait la RNase : une histidine arrache le proton du 2'-OH",
+      "legende": "L'ARN porte, sur son sucre, un hydroxyle en 2' que l'ADN n'a pas. Toute la suite en découle.\n\nDUGAS DÉCRIT L'AMORCE (p. 133) : « la transestérification commence par un imidazole NON PROTONÉ du site actif arrachant un proton du 2'-hydroxyle (catalyse générale basique) du substrat ARN. À mesure qu'un ion alcoolate est engendré, il devient un [nucléophile] puissant. »\n\nDEUX HISTIDINES, ET ELLES NE FONT PAS LA MÊME CHOSE (Dugas p. 133) : « diverses études indiquent la participation d'au moins TROIS résidus d'acides aminés dans la chimie du site actif de la ribonucléase : deux HISTIDINES et une LYSINE. […] Notez qu'au pH physiologique, l'un des deux cycles imidazole est protoné tandis que l'autre ne l'est pas. Les cycles imidazole fonctionnent comme catalyseur acide général-basique général, tandis que la lysine cationique aide probablement à la stabilisation de l'intermédiaire pentacoordonné. »\n\nC'est exactement le même dispositif que dans la citrate synthase : un pKa d'imidazolium voisin de 7 met, au même endroit, un donneur et un accepteur de proton.\n\nLE SCHÉMA EST UN MODÈLE : on remplace le ribose par un fragment à deux carbones portant les mêmes deux oxygènes, pour que la géométrie du cycle qui va se former reste lisible.",
+      "fleches": [
+        "L'azote de l'histidine arrache le proton du 2'-OH.",
+        "Les électrons de la liaison O–H restent sur l'oxygène : l'alcoolate est né."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "liaison_phosphodiester-etape4.svg",
+      "titre": "L'alcoolate attaque son propre phosphore : un cycle à cinq",
+      "legende": "ON DESSINE ICI LE DÉPLACEMENT D'UN SEUL TRAIT. L'intermédiaire pentacoordonné existe bien — il est dessiné aux étapes 1 et 2 —, mais le représenter une seconde fois sur un cycle en formation surchargerait le schéma sans rien apprendre.\n\nL'alcoolate n'a pas loin à aller : le phosphore est à deux atomes de lui. Il attaque, et le cycle qui se forme compte CINQ chaînons — deux carbones, deux oxygènes, un phosphore.\n\nPOURQUOI C'EST SI RAPIDE. Une réaction intramoléculaire qui referme un cycle à cinq est des millions de fois plus rapide que la même réaction entre deux molécules. Le nucléophile est déjà à côté de sa cible.\n\nET C'EST POURQUOI L'ARN NE TIENT PAS (Dugas p. 128) : « ces données suggèrent que l'ARN, qui fonctionne comme porteur d'information génétique et a donc un taux de renouvellement élevé, est INSTABLE ou facilement dégradable. En effet, l'ARN sera dégradé dans la soude 0,1 N, à température ambiante, pour donner un mélange de 2'- et 3'-phosphates » — par ce même « intermédiaire phosphate cyclique à cinq chaînons TENDU ».\n\nDE LA SOUDE DILUÉE, À TEMPÉRATURE AMBIANTE. L'ADN, lui, n'a pas de 2'-OH : il n'a pas cette arme braquée sur lui-même, et il traverse les millénaires. Un seul atome d'oxygène sépare la molécule qui archive de la molécule qui transmet.",
+      "fleches": [
+        "L'alcoolate attaque le phosphore et referme le cycle.",
+        "Et le groupe partant s'en va par la position apicale opposée."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "liaison_phosphodiester-etape5.svg",
+      "titre": "L'eau ouvre le cycle : la chaîne est coupée",
+      "legende": "Le phosphate cyclique est tendu : l'eau l'ouvre, et l'on obtient un phosphate ouvert. La chaîne d'ARN a été coupée en deux.\n\nDEUX ÉTAPES, ET UNE SEULE ENZYME (Dugas p. 132) : la RNase A « catalyse la dégradation de l'ARN par un mécanisme en DEUX ÉTAPES : transestérification suivie de l'HYDROLYSE de l'intermédiaire cyclique à cinq chaînons ».\n\nET ELLE NE COUPE PAS N'IMPORTE OÙ (Dugas p. 132) : « l'enzyme ne clivera PAS chaque liaison phosphodiester du polymère d'ARN, mais attaquera seulement en certains points de la chaîne. La susceptibilité d'un atome de phosphore particulier dépend de la base purique ou pyrimidique présente sur le sucre estérifié au phosphate par un 3'-hydroxyle. » La RNase pancréatique bovine coupe après une PYRIMIDINE ; celle de B. subtilis coupe après une PURINE.\n\nLA PREUVE QUE LES DEUX ÉTAPES SONT « EN LIGNE » EST UN CHEF-D'ŒUVRE (Dugas p. 137) : « par une série d'expériences élégantes, il a été déterminé que LES DEUX étapes du mécanisme de la RNase procèdent par un mécanisme en ligne. » On a isolé les deux DIASTÉRÉOISOMÈRES d'un phosphorothioate cyclique — un soufre remplaçant un oxygène rend le phosphore asymétrique — et on les a hydrolysés dans de l'eau marquée à l'¹⁸O. La fermeture chimique ultérieure procédant avec inversion connue, le comptage de l'¹⁸O tranche entre rétention et inversion. « Comme attendu, l'¹⁸O n'était PAS » là où le mécanisme adjacent l'aurait mis.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "sequencage_sanger": {
+    "1": {
+      "fichier": "sequencage_sanger-etape1.svg",
+      "titre": "Le nucléotide normal, et son 3'-OH",
+      "legende": "Un désoxyribonucléoside triphosphate — un dNTP. C'est la brique que l'ADN polymérase incorpore.\n\nREGARDEZ L'HYDROXYLE EN 3'. C'est lui, et lui seul, qui permettra au nucléotide SUIVANT de s'accrocher : son oxygène attaquera le phosphore α du dNTP suivant, et le pyrophosphate partira.\n\nUne chaîne d'ADN ne pousse que dans un sens, et c'est cet hydroxyle qui en décide.\n\nLE SCHÉMA NE PORTE QU'UN PHOSPHATE, ET IL FAUT LE DIRE : le réactif réel est un TRIphosphate. Dessinés à la largeur d'un téléphone, ses neuf oxygènes se recouvrent et le contrôle de lisibilité refuse le schéma. Ce qui se joue ici est ailleurs — sur le sucre, pas sur le phosphate.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "sequencage_sanger-etape2.svg",
+      "titre": "Le nucléotide truqué : on a retiré le 3'-OH",
+      "legende": "Comparez ce schéma au précédent : il manque UN atome d'oxygène. C'est un didésoxyribonucléoside triphosphate — un ddNTP.\n\nMcMURRY LE DÉFINIT AINSI (p. 955) : « un 2',3'-didésoxyribonucléoside triphosphate est un nucléotide dans lequel les DEUX groupes –OH, en 2' et en 3', manquent au ribose. »\n\nL'ADN POLYMÉRASE NE VOIT PAS LA DIFFÉRENCE. Elle incorpore le ddNTP exactement comme un dNTP — il a le même triphosphate, la même base, la même forme générale.\n\nMAIS LA CHAÎNE S'ARRÊTE LÀ (McMurry p. 955) : « la plupart du temps, seuls des désoxyribonucléotides normaux sont incorporés dans la chaîne en croissance, à cause de leur concentration bien plus élevée dans le mélange, mais DE TEMPS EN TEMPS un didésoxyribonucléotide est incorporé. Quand cela se produit, la synthèse d'ADN S'ARRÊTE, parce que l'extrémité de la chaîne n'a plus de 3'-hydroxyle pour ajouter d'autres nucléotides. »\n\nUN ATOME EN MOINS, ET LA MACHINE CALE. Tout le séquençage tient là-dedans.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "sequencage_sanger-etape3.svg",
+      "titre": "Ce qu'on obtient : autant de fragments que de positions",
+      "legende": "On mélange les quatre dNTP normaux EN GRAND EXCÈS et les quatre ddNTP en très petite quantité, chacun portant un colorant fluorescent d'une COULEUR DIFFÉRENTE (McMurry p. 955).\n\nLA POLYMÉRASE COPIE, ET DE TEMPS EN TEMPS ELLE TRÉBUCHE. Chaque brin en croissance s'arrête à un endroit au hasard — mais toujours à un endroit où se trouvait une base précise, et la couleur du colorant dit LAQUELLE.\n\nAVEC DES MILLIONS DE BRINS, ON OBTIENT TOUTES LES LONGUEURS POSSIBLES. Un fragment de 1 base, un de 2, un de 3… chacun terminé par une couleur.\n\nIL NE RESTE QU'À LES TRIER PAR TAILLE — l'électrophorèse capillaire les fait défiler du plus court au plus long — et à lire les couleurs dans l'ordre. C'est la séquence.\n\nLE RENDEMENT DE LA MÉTHODE AUTOMATISÉE (McMurry p. 956) : « des séquences allant jusqu'à 1100 nucléotides de longueur, avec un débit atteignant 19 000 bases par heure, peuvent être séquencées avec 98 % d'exactitude. »\n\nAUCUNE FLÈCHE DANS CETTE FICHE, ET C'EST NORMAL : Sanger n'est pas une réaction, c'est une MÉTHODE. La seule chimie en jeu — l'attaque du 3'-OH sur un phosphore — est celle de la fiche « Formation de la liaison phosphodiester ». L'invention est de l'avoir empêchée, à volonté et de façon mesurable.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "synthese_phosphoramidite": {
+    "1": {
+      "fichier": "synthese_phosphoramidite-etape1.svg",
+      "titre": "Le tétrazole protone l'azote : on fabrique un groupe partant",
+      "legende": "Le réactif est un PHOSPHORAMIDITE : un phosphore au degré III, portant deux oxygènes et un AZOTE. McMurry en donne la formule générale (p. 958) : « R₂NP(OR)₂ ».\n\nUne amine dialkylée est un très mauvais groupe partant. Le tétrazole la protone : elle devient un ammonium, et un ammonium part très bien.\n\nPOURQUOI LE TÉTRAZOLE ET PAS UN ACIDE ORDINAIRE. Son pKa vaut environ 4,9 — assez acide pour protoner l'amine, pas assez pour attaquer les groupes protecteurs acido-labiles qui couvrent le reste de la molécule. C'est un acide DOSÉ, choisi pour ne rien casser d'autre.\n\nMcMURRY LE NOMME SANS DÉTOUR (p. 958) : la réaction de couplage « REQUIERT une catalyse par l'amine hétérocyclique TÉTRAZOLE ».\n\nLE SCHÉMA EST UN MODÈLE : on remplace les deux nucléosides par des méthyles, pour que le phosphore reste visible.",
+      "fleches": [
+        "Le doublet de l'azote va chercher le proton du tétrazole.",
+        "Les électrons de la liaison N–H restent sur l'azote du tétrazole."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_phosphoramidite-etape2.svg",
+      "titre": "L'hydroxyle en 5' attaque le phosphore, l'amine s'en va",
+      "legende": "L'hydroxyle libre du nucléoside fixé sur la silice attaque le phosphore. L'ammonium part. Ce qu'on obtient est un PHOSPHITE — un phosphore au degré III, à trois oxygènes.\n\nMcMURRY DÉCRIT L'ÉTAPE ENTIÈRE (p. 958) : « la troisième étape est le COUPLAGE du désoxynucléoside lié au polymère avec un désoxynucléoside protégé portant un groupe phosphoramidite à sa position 3'. La réaction de couplage a lieu dans le solvant aprotique polaire ACÉTONITRILE, requiert une catalyse par l'amine hétérocyclique tétrazole, et donne un PHOSPHITE, P(OR)₃, comme produit. »\n\nET LE RENDEMENT EST LE CHIFFRE QUI DÉCIDE DE TOUT (McMurry p. 958) : « l'étape de couplage a lieu avec MIEUX QUE 99 % de rendement. »\n\nPOURQUOI 99 % NE SUFFIT PAS TOUJOURS. Sur une chaîne de 200 nucléotides, un rendement de 99 % par étape ne laisse que 0,99²⁰⁰ ≈ 13 % de chaînes complètes. C'est pour cela que McMurry borne la méthode à « des segments d'ADN jusqu'à 200 nucléotides de longueur » (p. 956) : ce n'est pas la chimie qui limite, c'est l'arithmétique.\n\nUN DÉTAIL DE CONCEPTION (McMurry p. 958) : « notez que l'un des atomes d'oxygène du phosphore est protégé par un groupe β-CYANOÉTHYLE, –OCH₂CH₂C≡N. » Il tombera à la fin par élimination E2 — le proton en α du nitrile est acide.",
+      "fleches": [
+        "L'hydroxyle attaque le phosphore.",
+        "Les électrons de la liaison P–N partent avec l'amine."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "synthese_phosphoramidite-etape3.svg",
+      "titre": "Le tétrazolure reprend le proton",
+      "legende": "L'anion tétrazolure formé à la première étape récupère le proton. Le tétrazole est régénéré : il n'a été qu'emprunté.\n\nC'EST CE QUI EN FAIT UN CATALYSEUR, et non un réactif. Il donne un proton au début, il le reprend à la fin, et il est prêt pour le cycle suivant. Quelques pour cent suffisent à traiter toute une synthèse.\n\nCE QU'ON A ENTRE LES MAINS est un phosphite triester : un phosphore au degré d'oxydation III, qui n'est PAS encore le phosphodiester de l'ADN.",
+      "fleches": [
+        "L'azote du tétrazolure reprend le proton.",
+        "Les électrons de la liaison O–H restent sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "synthese_phosphoramidite-etape4.svg",
+      "titre": "L'iode oxyde le phosphore : III devient V",
+      "legende": "L'iode dans l'eau oxyde le phosphite en PHOSPHATE. Le phosphore passe du degré III au degré V, et la liaison P=O apparaît.\n\nPOURQUOI ON N'A PAS TRAVAILLÉ DIRECTEMENT AU DEGRÉ V. Parce qu'un phosphore(III) est bien plus RÉACTIF : son doublet libre le rend nucléophile, et son électrophilie est moins bridée. Le couplage à 99 % n'aurait pas été atteint sur un phosphore(V), plus paresseux.\n\nC'est un raisonnement qu'on retrouve souvent : on fait la réaction difficile au degré d'oxydation qui l'autorise, puis on ajuste le degré. On appelle cela travailler avec un ÉQUIVALENT SYNTHÉTIQUE.\n\nAUCUNE FLÈCHE ICI : les pages 957 et 959 du McMurry, qui portent le détail des étapes 2, 4 et 5, MANQUENT du fichier indexé — les trois fichiers du McMurry sont des scans partiels. On ne dessine pas ce qu'on n'a pas lu.\n\nCE QUI RESTE À FAIRE, ET McMURRY LE RÉSUME (p. 956) : « après que le nucléotide final a été ajouté, TOUS les groupes protecteurs sont enlevés et l'ADN synthétique est clivé du support solide. » Le β-cyanoéthyle part par élimination, les benzoyles des bases par ammonolyse, le DMT par un acide doux.\n\nET LE PARALLÈLE EST EXPLICITE (McMurry p. 956) : « les synthétiseurs d'ADN fonctionnent sur un principe semblable à celui du synthétiseur peptidique en phase solide de MERRIFIELD. »",
       "fleches": [],
       "hamecons": false,
       "coherenceVerifiee": false,

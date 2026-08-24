@@ -1197,7 +1197,7 @@
         {
           "nom": "Formation de la liaison phosphodiester",
           "niveau": "L3",
-          "id": null
+          "id": "liaison_phosphodiester"
         },
         {
           "nom": "Dépurination : hydrolyse acide d'une purine",
@@ -1207,12 +1207,12 @@
         {
           "nom": "Séquençage de Sanger (didésoxy)",
           "niveau": "M1",
-          "id": null
+          "id": "sequencage_sanger"
         },
         {
           "nom": "Synthèse d'ADN par la méthode phosphoramidite",
           "niveau": "M1",
-          "id": null
+          "id": "synthese_phosphoramidite"
         }
       ],
       "bloc": "Biomolécules et vivant"

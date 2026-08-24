@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-24",
   "total": 286,
-  "redigees": 197,
-  "verifiees": 139,
+  "redigees": 200,
+  "verifiees": 141,
   "relues": 0,
   "familles": [
     {
@@ -1692,9 +1692,9 @@
       "famille": "Acides nucléiques",
       "bloc": "Biomolécules et vivant",
       "total": 5,
-      "absente": 5,
-      "redigee": 0,
-      "verifiee": 0,
+      "absente": 2,
+      "redigee": 1,
+      "verifiee": 2,
       "relue": 0,
       "reactions": [
         {
@@ -1707,9 +1707,9 @@
         {
           "nom": "Formation de la liaison phosphodiester",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "liaison_phosphodiester",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Dépurination : hydrolyse acide d'une purine",
@@ -1721,16 +1721,16 @@
         {
           "nom": "Séquençage de Sanger (didésoxy)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "sequencage_sanger",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Synthèse d'ADN par la méthode phosphoramidite",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_phosphoramidite",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

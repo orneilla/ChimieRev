@@ -787,6 +787,18 @@
     "substrat": "biosynthese_prostaglandines-substrat.svg",
     "produit": "biosynthese_prostaglandines-produit.svg"
   },
+  "liaison_phosphodiester": {
+    "substrat": "liaison_phosphodiester-substrat.svg",
+    "produit": "liaison_phosphodiester-produit.svg"
+  },
+  "sequencage_sanger": {
+    "substrat": "sequencage_sanger-substrat.svg",
+    "produit": "sequencage_sanger-produit.svg"
+  },
+  "synthese_phosphoramidite": {
+    "substrat": "synthese_phosphoramidite-substrat.svg",
+    "produit": "synthese_phosphoramidite-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
