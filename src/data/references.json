@@ -1592,6 +1592,12 @@
           "chapitre": "21 — Electrophilic aromatic substitution",
           "pages": "495",
           "note": "La versatilité du groupe nitro : réduction aisée en amine par l'étain en HCl dilué ou par hydrogénation sur Pd/C, et le renversement d'orientation qui en résulte — le nitro méta-directeur devenant une amine ortho-para directrice, ce qui donne accès à des amines méta-substituées autrement inaccessibles."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution",
+          "pages": "486",
+          "note": "Le rôle industriel des groupes attracteurs posés sur un cycle : les sulfamides, « dont le sulfanilamide employé contre la méningite et les infections urinaires, sont préparés commercialement par un procédé dont la sulfonation aromatique est l'étape clé ». Nitration et sulfonation partagent la même fonction : poser un groupe qu'on transformera plus tard."
         }
       ],
       "articles_historiques": [],
@@ -1610,6 +1616,12 @@
           "chapitre": "21 — Electrophilic aromatic substitution",
           "pages": "478",
           "note": "Le tableau récapitulatif : bromation par Br₂ et un acide de Lewis — AlCl₃, FeBr₃, ou simplement de la limaille de fer."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution",
+          "pages": "481",
+          "note": "Laquelle des deux étapes est lente, porté sur le schéma : l'attaque du cycle sur le brome, qui laisse « un intermédiaire carbocation NON AROMATIQUE », est LENTE ; la perte de H⁺ qui « reforme le cycle aromatique » est RAPIDE. Tout le profil énergétique de la substitution électrophile aromatique tient là — on paie l'aromaticité, puis on la récupère."
         }
       ],
       "articles_historiques": [],
@@ -1628,6 +1640,12 @@
           "chapitre": "21 — Electrophilic aromatic substitution",
           "pages": "486",
           "note": "La chlorosulfonation par ClSO₂OH : aucun autre acide n'est nécessaire, ce réactif étant si fort qu'il se protone lui-même, et c'est le OH qui part et non le Cl — d'où une chlorosulfonation et non une sulfonation. Environ 40 % d'isomère ortho isolé par distillation sur le toluène, et la synthèse de la saccharine qui s'ensuit : sulfonamide à 89 %, oxydation du méthyle par KMnO₄, cyclisation à 58 %."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution",
+          "pages": "486",
+          "note": "L'application qui justifie la réaction à elle seule : les sulfamides, premiers antibactériens de synthèse, « sont préparés commercialement par un procédé dont la SULFONATION aromatique est l'étape clé ». Avec l'exemple du sulfanilamide."
         }
       ],
       "articles_historiques": [],
@@ -1658,6 +1676,12 @@
           "chapitre": "21 — Electrophilic aromatic substitution",
           "pages": "494",
           "note": "La solution : la réduction d'un produit d'acylation, par l'amalgame de zinc en milieu chlorhydrique par exemple, donne « toujours un n-alkylbenzène, exactement le type de composé qui pose problème en alkylation »."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution",
+          "pages": "489",
+          "note": "Trois limites énoncées comme des interdits : les halogénures aryliques et vinyliques ne réagissent pas « parce que les carbocations aryliques et vinyliques sont trop hauts en énergie » ; les cycles portant un attracteur ou une amine basique protonable ne réagissent pas, avec la liste complète des substituants bloquants ; et la polyalkylation."
         }
       ],
       "articles_historiques": [],
@@ -1676,6 +1700,12 @@
           "chapitre": "21 — Electrophilic aromatic substitution",
           "pages": "494",
           "note": "La formation de l'ion acylium détaillée, à partir d'un chlorure d'acyle comme d'un anhydride ; le cas des anhydrides cycliques, qui conduisent à des céto-acides ; et la réduction du produit d'acylation en n-alkylbenzène par l'amalgame de zinc en milieu chlorhydrique."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution",
+          "pages": "489",
+          "note": "Les trois limites de l'alkylation, dont l'acylation en lève deux — parce que le produit est une cétone, donc un cycle désactivé qui ne repart pas, et parce que l'acylium stabilisé par l'oxygène ne se réarrange pas. La liste des substituants qui bloquent l'une comme l'autre y figure."
         }
       ],
       "articles_historiques": [],
@@ -1706,6 +1736,12 @@
           "chapitre": "21 — Electrophilic aromatic substitution",
           "pages": "491–492",
           "note": "La compétition entre plusieurs substituants : considérer les effets électroniques d'abord, les effets stériques ensuite, et retenir qu'en général un effet activant l'emporte sur un effet désactivant. Exemple détaillé du 3,4-diméthoxybenzaldéhyde, où trois groupes orientent vers des positions différentes."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution",
+          "pages": "495",
+          "note": "Les trois familles de substituants, et celle qu'on retient mal : « les halogènes sont UNIQUES en étant orienteurs ortho et para mais faiblement DÉSACTIVANTS ». Avec la liste complète des trois cases — activants ortho-para, désactivants méta, et les halogènes seuls dans la troisième."
         }
       ],
       "articles_historiques": [],
@@ -1724,6 +1760,12 @@
           "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
           "pages": "520",
           "note": "Le cas où la stabilisation ne peut pas se faire par mésomérie : sur un cycle polyfluoré, l'effet inductif combiné de trois fluors suffit à stabiliser l'anion intermédiaire, y compris pour une attaque en méta d'une cétone."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "94",
+          "note": "L'exemple canonique du 1-fluoro-2,4-dinitrobenzène, dessiné de façon à montrer que la charge de l'intermédiaire de Meisenheimer se délocalise jusque sur les OXYGÈNES des groupes nitro — ce qui explique pourquoi un nitro en méta n'active pas. Avec un conseil de méthode en exercice : « le problème sera bien plus facile à résoudre si vous dessinez le COPRODUIT »."
         }
       ],
       "articles_historiques": [],
@@ -1736,6 +1778,12 @@
           "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
           "pages": "523–526",
           "note": "La présentation du mécanisme, que l'ouvrage annonce comme « le plus étrange que vous ayez vu, avec l'intermédiaire le plus improbable » ; les conditions vigoureuses — bromobenzène et soude fondus à haute température, ou NaNH₂ à température plus basse ; le caractère très faible de la troisième liaison et l'électrophilie du benzyne qui en résulte, à l'inverse d'un alcyne ordinaire ; l'appellation d'élimination-addition, inverse de l'addition-élimination de la SNAr ; l'éventail des bases utilisables — oxanions, amidures, carbanions, et le tertiobutylate de potassium dans le DMSO ; la preuve régiochimique décisive, un aryléther ortho-chloré traité par NaNH₂ dans l'ammoniac liquide donnant le produit MÉTA et non ortho, l'attaque ayant lieu loin du méthoxy parce que le carbanion y est stabilisé ; l'intérêt synthétique — accès aux amino-éthers méta, que la substitution électrophile ne donne jamais ; le cas des halogénures para-disubstitués, environ 50:50 avec un simple alkyle ; et le rappel que peu de chimistes crurent d'abord à cette structure."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution",
+          "pages": "509",
+          "note": "Deux preuves indépendantes de l'existence du benzyne, « trop réactif pour être isolé comme composé pur ». Le marquage au ¹⁴C donne l'aniline marquée à deux positions dans un rapport 50:50, ce qui impose un intermédiaire symétrique. Et le piégeage : « en présence d'un diène conjugué tel que le furane, une réaction de DIELS-ALDER se produit, ce qui implique que l'intermédiaire est un benzyne ». Deux méthodes de nature différente, une seule conclusion."
         }
       ],
       "articles_historiques": [],
@@ -1760,6 +1808,12 @@
           "chapitre": "22 — Conjugate addition and nucleophilic aromatic substitution",
           "pages": "522",
           "note": "Un exemple de stratégie : des chimistes pharmaceutiques français introduisant un second hydroxyle par la voie diazonium plutôt que de partir d'un composé à deux OH, pour éviter toute ambiguïté d'alkylation. Le groupe nitroso employé plutôt que le nitro, sa réduction par NH₄SH étant plus facile, et l'acétylation de l'amine comme protection avant l'alkylation."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "24 — Amines and Heterocycles",
+          "pages": "812",
+          "note": "Pourquoi un diazonium aromatique s'isole et pas un aliphatique, et la réponse renverse le raisonnement habituel : « les alcanediazonium sont si réactifs qu'on ne peut pas les isoler — ils perdent l'azote instantanément pour donner des carbocations. La perte analogue de N₂ à partir d'un arènediazonium, qui donnerait un cation ARYLE, est DÉFAVORISÉE PAR L'INSTABILITÉ DE CE CATION. » Ce n'est pas sa propre stabilité qui protège le diazonium, c'est l'instabilité de ce qu'il deviendrait."
         }
       ],
       "articles_historiques": [],
@@ -1784,6 +1838,12 @@
           "chapitre": "21 — Electrophilic aromatic substitution",
           "pages": "483",
           "note": "La nécessité d'« apprivoiser » l'amine obtenue, trop activante pour être employée telle quelle dans une substitution électrophile ultérieure."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "11 — Reactions of Aromatic Compounds",
+          "pages": "§ 11.11",
+          "note": "Le motif stratégique qui dépasse la réaction : « la nitration et l'acylation de Friedel-Crafts introduisent des substituants désactivants et orienteurs méta ; les atomes fixés sont à un degré d'oxydation ÉLEVÉ, et leur réduction convertit ces fonctions électroattractrices en fonctions électrodonneuses ». Le nitro oriente en méta, l'amine qu'il devient oriente en ortho-para. Avec le catalogue des voies : hydrogénation catalytique, métaux en milieu acide, zinc ou étain en acide dilué, et sulfure de sodium en hydroxyde d'ammonium."
         }
       ],
       "articles_historiques": [],
