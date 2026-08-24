@@ -81,36 +81,6 @@
         }
       ]
     },
-    "woodward_hoffmann_pericycliques": {
-      "_note": "Série fondatrice des règles de conservation de la symétrie orbitalaire. Nobel de chimie 1981 (Hoffmann & Fukui ; Woodward décédé en 1979). Ces 4 DOI sont tous vérifiés et confirmés par plusieurs sources (ACS, Springer, PubMed).",
-      "ouvrages": [
-        "fleming",
-        "carey_sundberg_A",
-        "clayden"
-      ],
-      "articles_historiques": [
-        {
-          "citation": "Woodward, R. B.; Hoffmann, R. « Stereochemistry of Electrocyclic Reactions ». J. Am. Chem. Soc., 1965, 87 (2), 395–397.",
-          "doi": "10.1021/ja01080a054",
-          "verifie": true
-        },
-        {
-          "citation": "Hoffmann, R.; Woodward, R. B. « Selection Rules for Concerted Cycloaddition Reactions ». J. Am. Chem. Soc., 1965, 87 (9), 2046–2048.",
-          "doi": "10.1021/ja01087a034",
-          "verifie": true
-        },
-        {
-          "citation": "Woodward, R. B.; Hoffmann, R. « Selection Rules for Sigmatropic Reactions ». J. Am. Chem. Soc., 1965, 87 (11), 2511–2513.",
-          "doi": "10.1021/ja01089a050",
-          "verifie": true
-        },
-        {
-          "citation": "Woodward, R. B.; Hoffmann, R. « The Conservation of Orbital Symmetry ». Angew. Chem. Int. Ed., 1969, 8 (11), 781–853.",
-          "doi": "10.1002/anie.196907811",
-          "verifie": true
-        }
-      ]
-    },
     "sn2": {
       "ouvrages": [
         {
@@ -175,7 +145,19 @@
           "note": "La règle de paillasse, écrite en toutes lettres : « il est absolument essentiel qu'aucune eau ne soit présente » pendant les deux premières étapes — on ne l'ajoute qu'à la fin, une fois l'organométallique entièrement consommé. Les schémas omettent parfois cette hydrolyse ; elle est pourtant toujours nécessaire."
         },
         "elschenbroich",
-        "march"
+        "march",
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-6",
+          "pages": "299",
+          "note": "Le domaine de la préparation : halogénures alkyle, alcényle (vinyliques) et aryle ; « les chlorures sont moins réactifs que les bromures et les iodures » et « les organofluorés ne réagissent que rarement avec le magnésium ». La liaison C–Mg polarisée rend le carbone à la fois nucléophile et basique, ce que montre la carte de potentiel électrostatique de MeMgI."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-6",
+          "pages": "300",
+          "note": "Deux exercices qui font travailler la basicité : un Grignard déprotone-t-il un alcyne terminal ? l'ammoniac (pKa 35) ? Et l'usage préparatif qui en découle — remplacer un halogène par un deutérium en passant par le Grignard."
+        }
       ],
       "articles_historiques": [
         {
@@ -1226,6 +1208,18 @@
           "chapitre": "24 — Regioselectivity",
           "pages": "570",
           "note": "L'emploi stratégique de la réaction pour obtenir un ester conjugué avec la régiosélectivité qu'on n'obtiendrait pas autrement, l'ouvrage renvoyant au chapitre 27 pour le mécanisme."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2 — Organocatalytic asymmetric multicomponent reactions",
+          "pages": "58",
+          "note": "La HWE employée comme étape finale d'un domino organocatalytique : addition de Michael asymétrique, réaction de Michael domino puis Horner-Wadsworth-Emmons, sous catalyse par un éther silylé de diphénylprolinol, pour bâtir un cyclohexane fortement substitué servant de brique à deux médicaments."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "6 — Biginelli reactions",
+          "pages": "228",
+          "note": "Une préparation de thiazine-2-thiones en une seule opération par approche Horner-Wadsworth-Emmons, rendements de 30 à 72 %, avec la mise en garde des auteurs : les produits sont peu stables et se décomposent lentement en solution."
         }
       ],
       "articles_historiques": [],
@@ -3032,10 +3026,74 @@
           "chapitre": "4 — Pericyclic Reactions",
           "pages": "198-200",
           "note": "Les QUATRE archétypes péricycliques dessinés côte à côte, chacun à trois flèches en cercle, et le test de relecture qui en découle : « une bonne garde contre ce genre d'erreur est de s'assurer qu'on peut NOMMER chaque étape péricyclique de son mécanisme ». Avec la convention de flèches, que peu d'ouvrages énoncent : « peu importe qu'on dessine les électrons dans un sens ou dans l'autre, parce que les réactions péricycliques ne sont PAS caractérisées par un déplacement de densité électronique d'un site riche vers un site pauvre » — sauf quand un composant porte une charge formelle négative, où « il est important de commencer à cet endroit ». Et le fait expérimental qui a fondé les règles : le 2,4,6-octatriène donne le cis par chauffage et le trans par photolyse."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "30 — Orbitals and Organic Chemistry: Pericyclic Reactions, § 30-2",
+          "pages": "1016",
+          "note": "Les faits stéréochimiques qui fondent la règle : le (2E,4Z,6E)-octa-2,4,6-triène chauffé donne uniquement le cis-5,6-diméthylcyclohexadiène-1,3, le (2E,4Z,6Z) uniquement le trans — et le premier, irradié à l'ultraviolet, donne le trans. Avec la position des équilibres : triène ⇌ cyclohexadiène favorise le cycle, diène ⇌ cyclobutène favorise la chaîne ouverte."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "30 — Pericyclic Reactions, § 30-3",
+          "pages": "1018",
+          "note": "Pourquoi la HOMO suffit : ce sont les électrons de plus haute énergie, les plus faciles à déplacer. Pour une réaction thermique on lit la configuration de l'état fondamental, pour une photochimique celle de l'état excité — dont la symétrie diffère. Avec les définitions de conrotatoire et disrotatoire."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "30 — Pericyclic Reactions, § 30-4",
+          "pages": "1021",
+          "note": "La table des règles stéréochimiques des réactions électrocycliques : nombre PAIR de paires d'électrons → thermique conrotatoire, photochimique disrotatoire ; nombre IMPAIR → thermique disrotatoire, photochimique conrotatoire."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "9 — Orbitals and Organic Chemistry: Pericyclic Reactions",
+          "pages": "§ 9.4",
+          "note": "La même table, à l'identique. À signaler : la prose de cette page se contredit elle-même en qualifiant de « conrotatoire » une cyclisation photochimique de diène, là où sa propre table — et McMurry — donnent disrotatoire. C'est la confrontation des deux ouvrages qui tranche."
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.2",
+          "pages": "1099",
+          "note": "L'énoncé général — « ce qui est permis photochimiquement est interdit thermiquement, et réciproquement » — et sa raison physique, rarement donnée : « la barrière élevée associée aux réactions thermiques interdites fournit un point d'interaction forte entre l'état fondamental et l'état excité ; comme les deux états sont proches en énergie et de même symétrie, ils se mélangent et permettent à la molécule excitée de rejoindre l'état fondamental. Cette interaction est nécessaire à l'efficacité des réactions photochimiques. »"
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.2",
+          "pages": "1098",
+          "note": "La cycloaddition [2+2] photochimique analysée par trois méthodes indépendantes qui concordent : diagramme de corrélation d'orbitales (Fig. 12.17-12.18), interaction HOMO-LUMO (la HOMO est le π* de l'alcène excité, la LUMO le π* de l'alcène fondamental, liante aux deux points de formation), et état de transition aromatique (ensemble antiaromatique à 4 électrons, donc permis photochimiquement)."
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.2",
+          "pages": "1105",
+          "note": "La limite expérimentale des règles côté photochimique : l'ouverture de cyclobutènes substitués à 185 nm dans le pentane n'est PAS stéréospécifique — tous les stéréoisomères du diène se forment, dans des proportions différentes. « Ces résultats ne sont pas compatibles avec un mécanisme disrotatoire concerté. » L'explication admise passe par une intersection conique vrillée où tous les électrons π sont dépariés."
         }
       ],
-      "articles_historiques": [],
-      "revues_modernes": []
+      "articles_historiques": [
+        {
+          "citation": "Woodward, R. B.; Hoffmann, R. « Stereochemistry of Electrocyclic Reactions ». J. Am. Chem. Soc., 1965, 87 (2), 395–397.",
+          "doi": "10.1021/ja01080a054",
+          "verifie": true
+        },
+        {
+          "citation": "Hoffmann, R.; Woodward, R. B. « Selection Rules for Concerted Cycloaddition Reactions ». J. Am. Chem. Soc., 1965, 87 (9), 2046–2048.",
+          "doi": "10.1021/ja01087a034",
+          "verifie": true
+        },
+        {
+          "citation": "Woodward, R. B.; Hoffmann, R. « Selection Rules for Sigmatropic Reactions ». J. Am. Chem. Soc., 1965, 87 (11), 2511–2513.",
+          "doi": "10.1021/ja01089a050",
+          "verifie": true
+        },
+        {
+          "citation": "Woodward, R. B.; Hoffmann, R. « The Conservation of Orbital Symmetry ». Angew. Chem. Int. Ed., 1969, 8 (11), 781–853.",
+          "doi": "10.1002/anie.196907811",
+          "verifie": true
+        }
+      ],
+      "revues_modernes": [],
+      "_note": "Série fondatrice des règles de conservation de la symétrie orbitalaire. Nobel de chimie 1981 (Hoffmann & Fukui ; Woodward décédé en 1979). Ces 4 DOI sont tous vérifiés et confirmés par plusieurs sources (ACS, Springer, PubMed)."
     },
     "retro_diels_alder": {
       "ouvrages": [
@@ -3986,6 +4044,12 @@
           "chapitre": "8 — Acidity, basicity and pKa",
           "pages": "253",
           "note": "Les organolithiens attaquent le THF, le solvant dans lequel ils se dissolvent le mieux. D'où les basses températures et les solvants hydrocarbonés."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-7",
+          "pages": "300",
+          "note": "La stœchiométrie et sa raison : un organolithien se prépare d'un halogénure et de DEUX équivalents de lithium, chaque atome ne cédant qu'un électron. « Les alkyllithiens sont à la fois nucléophiles et bases fortes, et leur chimie ressemble à bien des égards à celle des halogénures d'alkylmagnésium. » Et leur usage le plus précieux — la préparation des diorganocuprates de lithium par réaction avec l'iodure de cuivre(I)."
         }
       ],
       "articles_historiques": [
@@ -4011,6 +4075,24 @@
           "chapitre": "22 — Conjugate addition",
           "pages": "510",
           "note": "Le tableau 1,4 contre 1,2, en quatre lignes : conditions, structure de l'énone, type de nucléophile, organométallique employé. C'est la ligne « nucléophile mou → conjugué, nucléophile dur → direct » qui porte l'explication."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-7",
+          "pages": "300",
+          "note": "La préparation : deux équivalents d'organolithien et CuI dans l'éther diéthylique — le lithien venant lui-même de l'halogénure et de deux équivalents de lithium, chaque atome n'apportant qu'un électron. Le couplage marche sur les chlorures, bromures et iodures mais pas sur les fluorures ; le diméthylcuprate de lithium sur le 1-iododécane donne l'undécane à 90 %."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "7 — Carbonyl condensations, § 7.11",
+          "pages": "§ 7.11",
+          "note": "Le mécanisme détaillé de l'addition-1,4 : l'anion R₂Cu⁻ s'additionne sur le carbone β en formant une liaison Cu–C, un groupe R est transféré sur ce carbone avec départ de l'organocuivre neutre RCu, puis l'énolate est protoné et tautomérise. Avec le tableau de contraste — LiAlH₄, Grignard et organolithien additionnent en 1,2, seul le cuprate en 1,4 — et la règle de rétrosynthèse : couper la liaison C3–C4, faire du fragment un cuprate, « en se rappelant qu'il y a DEUX fragments alkyle dans le réactif »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions",
+          "pages": "341",
+          "note": "Le classement en une expression : les dialkylcuprates de lithium (réactifs de Gilman) sont des nucléophiles « mous »."
         }
       ],
       "articles_historiques": [

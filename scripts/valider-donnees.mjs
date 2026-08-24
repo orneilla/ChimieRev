@@ -168,6 +168,21 @@ for (let i = 0; i < palette.length; i++) {
   }
 }
 
+// Une entrée de references.json qui ne correspond à AUCUNE fiche ne s'affiche
+// nulle part : elle est perdue sans bruit. C'est arrivé — quatre DOI vérifiés
+// des articles fondateurs de Woodward et Hoffmann dormaient sous la clé
+// « woodward_hoffmann_pericycliques », alors que la fiche s'appelle
+// « woodward_hoffmann ». Rien ne cassait, rien ne s'affichait.
+const idsFiches = new Set(reactions.map((r) => r.id))
+for (const cle of Object.keys(references.references_par_reaction)) {
+  if (!idsFiches.has(cle)) {
+    anomalies.push(
+      `references.json : la clé « ${cle} » ne correspond à aucune fiche — ` +
+      'ses références ne sont affichées nulle part.'
+    )
+  }
+}
+
 if (reserves.length) {
   console.log(`\n${reserves.length} réserve(s) — publiable, mais incomplet :`)
   for (const reserve of reserves) console.log('  · ' + reserve)

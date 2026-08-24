@@ -99,6 +99,46 @@ et ne traite pas le sujet, la fiche le dit — « un seul ouvrage la traite,
 et voici lesquels ne la traitent pas ». Sans cela, on ne distingue plus
 une fiche bien sourcée d'une fiche écrite sans chercher.
 
+### Ce que la recherche rend n'est pas encore une source
+
+La reprise famille par famille a fait tomber le mono-sourçage de 79 % à
+5 %. Elle a surtout appris que **`chercher-partout.py` rend des PAGES, pas
+des contenus** : entre le résultat et la citation, il faut ouvrir. Quatre
+pièges se sont présentés, tous silencieux.
+
+- **Une entrée d'index n'est pas un contenu.** Le Carey & Sundberg semblait
+  traiter l'élimination de Peterson à cinq endroits : c'était son index, et
+  il renvoyait à des pages hors de l'extrait indexé. Même chose pour le
+  Roberts & Caserio sur la Beckmann et l'hydroboration. Une page d'index
+  d'un ouvrage indexé PARTIELLEMENT est un piège parfait : elle contient le
+  bon mot et pointe vers ce qu'on n'a pas.
+- **Un homonyme n'est pas une source.** « cuprate » rend huit pages du
+  Housecroft — qui parlent des supraconducteurs YBa₂Cu₃O₇, pas des réactifs
+  de Gilman. « pyrazole » y rend une ligne de tableau de ligands. Le mot
+  est le bon, le sujet n'est pas le nôtre.
+- **Une extraction fautive ressemble à un résultat.** « Knorr » rend deux
+  pages du McMurry qui traitent du glucose : du bruit d'OCR. Rien ne le
+  signale, sauf la lecture.
+- **Un tiret peut cacher un ouvrage entier.** « Baeyer-Villiger » ne rend
+  RIEN dans le Clayden, qui compose ce nom avec un tiret demi-cadratin ;
+  « Villiger » seul rend vingt-cinq pages. Devant un silence surprenant, on
+  cherche sur le fragment le plus court avant de conclure.
+
+Et une leçon qui ne concerne pas la recherche mais la lecture :
+**deux affirmations d'un même ouvrage peuvent se contredire.** La page
+§ 9.4 de LibreTexts donne la table de Woodward-Hoffmann, puis l'illustre
+par une phrase qui la contredit. C'est le second ouvrage qui a tranché —
+exactement ce à quoi sert la règle des neuf.
+
+### Une référence orpheline ne s'affiche nulle part
+
+`references.json` est indexé par identifiant de fiche. Une clé qui ne
+correspond à aucune fiche ne casse rien, ne se voit pas, et ne s'affiche
+pas : quatre DOI vérifiés des articles fondateurs de Woodward et Hoffmann
+dormaient sous `woodward_hoffmann_pericycliques` alors que la fiche
+s'appelle `woodward_hoffmann`. `npm run valider` refuse désormais toute
+clé orpheline — et le refus a été prouvé en en injectant une.
+
 Le compte se surveille :
 
 ```bash
