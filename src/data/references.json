@@ -2756,6 +2756,24 @@
           "chapitre": "37 — Radical reactions",
           "pages": "989",
           "note": "La bromation, bien plus sélective : moins de 1 % de produit primaire. L'explication par le postulat de Hammond. Et pourquoi le fluor explose tandis que l'iode ne réagit pas."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-3",
+          "pages": "291",
+          "note": "Le verdict — « l'halogénation des alcanes est une mauvaise méthode de synthèse, parce qu'on obtient invariablement des mélanges » — et les deux preuves : la chloration du méthane ne s'arrête pas au monochloré mais va jusqu'à CCl₄ ; celle du butane donne les deux monochlorés dans le rapport 30 : 70, plus les polychlorés."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-4",
+          "pages": "292",
+          "note": "La sélectivité chiffrée par hydrogène : sur le 2-méthylpropane, neuf hydrogènes primaires se partagent 65 % du produit (7,2 % chacun) contre 35 % pour l'unique tertiaire — un facteur cinq. L'échelle primaire 1,0 / secondaire 3,5 / tertiaire 5,0, et les énergies de dissociation qui l'expliquent : C–H tertiaire 400 kJ mol⁻¹, secondaire 410, primaire 421."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-Radical Reactions, § 5.2.1",
+          "pages": "301-302",
+          "note": "L'amorçage par coupure homolytique de Br₂ sous lumière et la propagation en « deux réactions d'arrachement d'atome ». Et la terminaison : « elle est presque toujours la même — deux radicaux issus de la propagation réagissent l'un avec l'autre, par combinaison ou par dismutation », que Grossman annonce ne pas dessiner systématiquement."
         }
       ],
       "articles_historiques": [],
@@ -2786,6 +2804,18 @@
           "chapitre": "37 — Radical reactions",
           "pages": "986",
           "note": "Les étapes de terminaison, et le fait que trois types de radicaux coexistent dans le milieu en réagissant chacun avec un partenaire choisi."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "5 — Radical reactions",
+          "pages": "§ 5.2",
+          "note": "La restriction énoncée et justifiée : « cette réaction radicalaire n'est possible qu'avec HBr ; HCl et HI ont des énergies de liaison différentes, qui ne permettent pas d'atteindre les vitesses nécessaires à un processus en chaîne ». Et la comparaison directe des deux voies sur le même alcène : la voie polaire forme le carbocation le plus stable, la voie radicalaire le radical le plus stable — même règle, intermédiaires différents, produits inverses. Le détail de l'amorçage : ROOR se coupe en deux RO•, qui arrachent l'hydrogène de HBr pour donner ROH (éliminé au traitement) et Br•, porteur de chaîne."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-Radical Reactions",
+          "pages": "307",
+          "note": "Un exemple où l'amorceur est simplement le dioxygène de l'air, avec la stéréochimie du produit d'addition."
         }
       ],
       "articles_historiques": [],
@@ -2798,6 +2828,24 @@
           "chapitre": "37 — Radical reactions",
           "pages": "990",
           "note": "La bromation allylique du cyclohexène par le NBS dans CCl₄ sous lumière, 85 % de rendement ; le mécanisme de propagation ; l'énergie de la liaison C–H allylique, 364 kJ/mol contre 410 pour une secondaire. Et surtout le rôle exact du NBS : maintenir la concentration en Br₂ basse pour empêcher l'addition radicalaire concurrente, dont la première étape est réversible et n'est rendue irréversible que par le piégeage du radical par une seconde molécule de Br₂. Le CCl₄ non polaire décourage en outre l'addition ionique."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-5",
+          "pages": "294",
+          "note": "Les énergies de dissociation qui fondent la sélectivité : C–H allylique 370 kJ mol⁻¹ contre 410 pour une C–H alkyle et 465 pour une C–H vinylique — le radical allylique est plus stable d'environ 40 kJ mol⁻¹. Et l'échelle complète : vinylique < méthyle < primaire < secondaire < tertiaire < allylique."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "10 — Organohalides, § 10-5",
+          "pages": "295",
+          "note": "La limite de la méthode, chiffrée : l'oct-1-ène traité par NBS dans CCl₄ sous lumière donne 83 % de 1-bromo-oct-2-ène (rapport trans : cis de 53 : 47) et 17 % de 3-bromo-oct-1-ène — la double liaison s'est déplacée dans le produit majoritaire, l'attaque se faisant de préférence sur l'extrémité primaire, moins encombrée."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-Radical Reactions, § 5.2.1",
+          "pages": "302",
+          "note": "Le point décisif : « dans les bromations au NBS, on pense que le véritable agent d'halogénation est Br₂ », engendré par la réaction polaire de HBr — coproduit de l'arrachement — avec le NBS. Cette étape polaire s'intercale entre l'arrachement de H et l'arrachement de Br dans la propagation. Avec le rappel que « la transposition de la double liaison peut facilement se produire »."
         }
       ],
       "articles_historiques": [],
@@ -2816,6 +2864,24 @@
           "chapitre": "5 — Free-radical reactions",
           "pages": "305",
           "note": "Le mécanisme complet sur l'éther diéthylique, et l'avertissement contre l'erreur habituelle : ne pas faire réagir ensemble les deux radicaux nés de l'amorçage, la concentration en O₂ étant bien supérieure à celle de HOO•. Les éthers sont les plus vulnérables parce que l'oxygène abaisse l'énergie du radical voisin ; les aldéhydes le sont aussi, le peracide formé réagissant ensuite par Baeyer-Villiger. Et le procédé au cumène, source industrielle du phénol et de l'acétone."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "3 — Alcohols, ethers and thiols",
+          "pages": "§ 3.2",
+          "note": "Le danger de paillasse : « beaucoup d'éthers réagissent avec l'oxygène pour former des composés peroxydés explosifs, par un processus radicalaire appelé autoxydation ». D'où les consignes — ne pas conserver un éther longtemps, ne pas le conserver en flacon de verre, et surtout ne jamais distiller une solution éthérée jusqu'à siccité, les hydroperoxydes se concentrant dans le résidu."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols, § 17-8",
+          "pages": "555",
+          "note": "Le procédé industriel au cumène, qui a remplacé le procédé Dow (chlorobenzène et soude à haute température et sous pression) : le cumène réagit avec l'air à haute température par oxydation benzylique selon un mécanisme radicalaire, et donne l'hydroperoxyde de cumène, que l'acide convertit en phénol et acétone."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols, § 17-8",
+          "pages": "556",
+          "note": "Le mécanisme du réarrangement acide de l'hydroperoxyde de cumène, étape par étape : migration d'un groupe aryle d'un carbone vers l'oxygène voisin, formation d'un hémicétal (« un composé portant un OR et un OH sur le même carbone »), puis élimination du phénol avec l'acétone pour coproduit et régénération du catalyseur acide."
         }
       ],
       "articles_historiques": [],
@@ -2906,6 +2972,24 @@
           "chapitre": "37 — Radical reactions",
           "pages": "999",
           "note": "L'amorçage par le couple borane–oxygène : Brown découvre que 5 % de galvinoxyl inhibent complètement la réaction, et que des traces d'oxygène lui sont nécessaires. L'oxygène s'additionne sur l'orbitale p vide du bore et libère un radical alkyle — une substitution homolytique d'ordre deux, ou SH2."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "5 — Radical reactions",
+          "pages": "§ 5.4",
+          "note": "Les quantités et leur raison : l'AIBN suffit à 1 % molaire (0,01 équivalent) — « ce n'est pas un vrai catalyseur, mais on peut y penser comme au catalyseur qui doit être présent » — tandis que Bu₃SnH est consommé et demande au moins un équivalent. Le test d'un mécanisme écrit : le radical porteur de chaîne doit être réactif de la première étape de propagation et produit de la dernière. Et l'avertissement : « votre produit ne viendra jamais d'une étape de terminaison ». Enfin la raison des cycles à cinq — les réactions radicalaires sont sous contrôle cinétique, le petit cycle se ferme plus vite — et le conseil d'employer un alcène pauvre en électrons en intermoléculaire."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-Radical Reactions",
+          "pages": "310-311",
+          "note": "Deux exemples complets : un bromure de sucre cyclisé par Bu₃SnH sous lumière, et un sélénure de phényle cyclisé par Bu₃SnH et l'AIBN — le radical stannylé arrache le sélénium aussi bien que le brome. Avec la remarque qu'une addition-fragmentation en deux temps, passant par un sélénium à neuf électrons, pourrait être écrite à la place de l'arrachement d'atome."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-Radical Reactions",
+          "pages": "306",
+          "note": "La réaction de Hofmann-Löffler-Freytag : l'arrachement d'hydrogène se fait de façon INTRAMOLÉCULAIRE, avec une régiosélectivité très élevée pour l'hydrogène en C4 pour des raisons entropiques et stéréoélectroniques ; une substitution nucléophile interne ferme ensuite une pyrrolidine."
         }
       ],
       "articles_historiques": [],
