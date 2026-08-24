@@ -447,6 +447,43 @@ python3 outils/normaliser-typographie.py
   impératif ressemble souvent à un nom commun — « ce **ton** », « une
   **note** ».
 
+### La page blanche, que rien n'attrapait
+
+Dix-neuf fiches ont été publiées avec le champ `pieges` écrit comme une
+CHAÎNE au lieu d'une liste. La page fait `reaction.pieges.map(...)` : une
+chaîne y lève un `TypeError`, et l'on n'obtient qu'un **écran blanc**.
+
+Aucun contrôle ne l'a vu, et il faut comprendre pourquoi. `valider` trouvait
+le champ « présent et non vide » — une chaîne l'est. `verifier` ne regarde
+que les flèches. Les dessins sortaient. L'inventaire comptait juste. Le
+défaut n'était visible qu'en OUVRANT la page.
+
+Et il ne s'arrêtait pas à la fiche fautive : **le routeur est en `hash`**,
+donc l'erreur tuait l'application entière jusqu'au rechargement complet. Une
+seule fiche cassée rendait tout le reste inaccessible sans que rien ne
+l'explique à l'utilisateur.
+
+Deux garde-fous en découlent, et le premier a été prouvé en injectant la
+faute :
+
+- `npm run valider` refuse désormais un champ dont la FORME est fausse, et
+  non plus seulement un champ absent. `FORMES` déclare, pour chaque champ,
+  s'il est une liste ou du texte. Contrôler la présence ne suffit pas.
+- `npm run pages` ouvre les **356 pages** de l'application une à une et
+  refuse toute page qui lève une erreur ou qui reste vide. Il faut un
+  `about:blank` entre chaque : sans lui, le balayage lui-même mentirait, en
+  attribuant à toutes les pages suivantes la panne de la première.
+
+```bash
+npx vite preview --port 4173 &
+npm run pages
+```
+
+La leçon dépasse ce champ-là : **un défaut de données qui ne casse aucun
+contrôle mais casse l'affichage ne se voit qu'en regardant l'écran.** Les
+sept maillons de la chaîne vérifient la chimie ; celui-ci vérifie qu'elle
+s'affiche.
+
 La largeur de lecture reste bornée à 860 px, même sur un grand écran :
 au-delà d'une soixantaine de signes par ligne, l'œil perd la ligne
 suivante. Seule la grille de tuiles s'élargit, parce que ce n'est pas du

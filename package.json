@@ -15,7 +15,8 @@
     "tester": "node scripts/tester-verificateur.mjs",
     "inventaire": "node scripts/inventaire.mjs",
     "valider": "node scripts/valider-donnees.mjs",
-    "affichage": "node scripts/controler-affichage.mjs"
+    "affichage": "node scripts/controler-affichage.mjs",
+    "pages": "node scripts/ouvrir-toutes-les-pages.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

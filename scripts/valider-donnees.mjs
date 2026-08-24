@@ -43,6 +43,30 @@ const CHAMPS = [
   'explication_reference', 'explication_comprendre', 'niveau_difficulte'
 ]
 
+// La FORME attendue de chaque champ, et non sa seule présence.
+//
+// Le contrôle précédent ne vérifiait que « présent et non vide ». Or une
+// LISTE écrite par mégarde comme une chaîne est présente et non vide : elle
+// passait. Dix-neuf fiches ont ainsi été publiées avec « pieges » en texte
+// d'un seul tenant, là où la page fait `reaction.pieges.map(...)`. Résultat :
+// un TypeError, un écran BLANC — et, le routeur étant en `hash`, l'erreur
+// tuait l'application entière jusqu'au rechargement complet, pas seulement
+// la fiche fautive.
+//
+// Rien ne le signalait : ni `valider`, ni `verifier`, ni les dessins, ni
+// l'inventaire. Il fallait ouvrir la page.
+const FORMES = {
+  reactifs: 'liste',
+  mecanisme_etapes: 'liste',
+  pieges: 'liste',
+  nom: 'texte',
+  famille: 'texte',
+  solvant: 'texte',
+  selectivite: 'texte',
+  explication_reference: 'texte',
+  explication_comprendre: 'texte'
+}
+
 const anomalies = []
 const reserves = []
 
@@ -63,6 +87,17 @@ for (const reaction of reactions) {
     const vide = valeur === undefined || valeur === null || valeur === '' ||
       (Array.isArray(valeur) && valeur.length === 0)
     if (vide) anomalies.push(`${ou} : champ « ${champ} » manquant ou vide.`)
+
+    const forme = FORMES[champ]
+    if (!vide && forme === 'liste' && !Array.isArray(valeur)) {
+      anomalies.push(
+        `${ou} : champ « ${champ} » doit être une LISTE, pas ${typeof valeur}. ` +
+        `La page l'affiche par .map() : une chaîne y provoque un écran blanc.`
+      )
+    }
+    if (!vide && forme === 'texte' && typeof valeur !== 'string') {
+      anomalies.push(`${ou} : champ « ${champ} » doit être du TEXTE, pas ${typeof valeur}.`)
+    }
   }
 
   if (reaction.id && !/^[a-z0-9_]+$/.test(reaction.id)) {
