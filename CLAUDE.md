@@ -37,7 +37,7 @@ explications réécrites et les citations bibliographiques sont publiées.
 | `dugas` | Dugas, *Bioorganic Chemistry* 3e | intégral |
 | `multicomposants` | Herrera & Marqués-López, *Multicomponent Reactions* | intégral — inclut la chimie durable (ch. 1.3) |
 | `carey_sundberg_A` | Carey & Sundberg, *Advanced Organic Chemistry* A, 4e | ch. 12, photochimie (p. 1073-1197) |
-| `roberts_caserio` | Roberts & Caserio, *Basic Principles of Organic Chemistry* | ch. 28, photochimie, cité par section |
+| `roberts_caserio` | Roberts & Caserio, *Basic Principles of Organic Chemistry* | ch. 28-31 — photochimie, polymères, produits naturels ; cité par section |
 
 Les ouvrages marqués `NON INDEXÉ` dans `src/data/references.json` (March,
 Carey & Sundberg B, Fleming, Elschenbroich) ne sont **pas** disponibles :
@@ -56,6 +56,55 @@ python3 outils/indexer-manuel.py fichier.pdf --nom x [--ajouter] # indexer
 compris pour un ouvrage en plusieurs volumes. **Regarder la page est
 indispensable** : dans un manuel de chimie l'essentiel est dessiné, et le
 texte extrait ne contient que la prose autour des figures.
+
+### La règle des neuf ouvrages
+
+**On ne s'appuie jamais sur un seul manuel.** Avant d'écrire une fiche, on
+interroge les NEUF, sans exception :
+
+```bash
+python3 outils/chercher-partout.py "Beckmann"
+python3 outils/chercher-partout.py "Beckmann" --extraits
+```
+
+L'outil existe pour une raison précise. `chercher-source.py` demande un
+`--nom`, et on tape celui qu'on a en tête — le Clayden, presque toujours.
+Le résultat s'est mesuré : **79 % des fiches ne citaient qu'un ouvrage**,
+et le Housecroft n'apparaissait qu'une fois sur cent trente-sept. Ce
+n'était pas un choix, c'était la pente.
+
+`chercher-partout.py` supprime la pente : il interroge les neuf index d'un
+coup et dit qui traite le sujet. Y compris ceux auxquels on n'aurait pas
+pensé — le Dugas sur un mécanisme enzymatique, le Multicomposants sur une
+condensation, le Roberts & Caserio sur un polymère.
+
+**Trois raisons de fond**, et aucune n'est une question de forme :
+
+- **Un manuel a des silences, et ils ne se voient pas de l'intérieur.**
+  Le Clayden ne nomme ni la Chugaev ni l'élimination de Cope ; le Grossman
+  les range dans leur vraie famille. Un lecteur du seul Clayden ne saurait
+  même pas qu'il lui manque quelque chose.
+- **Un manuel a un angle.** Le Clayden explique, le McMurry chiffre, le
+  Grossman montre comment on DÉDUIT, le Housecroft compte les électrons,
+  LibreTexts donne le détail que les autres sautent. Les preuves
+  expérimentales — le marquage à l'¹⁸O, le piégeage du benzyne au furane,
+  le ¹³C de l'insertion migratoire — viennent presque toutes d'un ouvrage
+  qui n'était pas le premier consulté.
+- **Deux ouvrages qui divergent sont une information.** Le Clayden écrit
+  « vraisemblablement » là où le Grossman affirme ; on relaie les deux, et
+  le lecteur sait ce qui est établi et ce qui est proposé.
+
+**Un ouvrage muet est un RÉSULTAT, pas un oubli.** S'il couvre le domaine
+et ne traite pas le sujet, la fiche le dit — « un seul ouvrage la traite,
+et voici lesquels ne la traitent pas ». Sans cela, on ne distingue plus
+une fiche bien sourcée d'une fiche écrite sans chercher.
+
+Le compte se surveille :
+
+```bash
+python3 outils/mesurer-sources.py            # la répartition
+python3 outils/mesurer-sources.py --seules   # les fiches mono-source
+```
 
 ### Croiser les ouvrages, et ne pas croire à un silence
 

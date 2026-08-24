@@ -1484,6 +1484,18 @@
           "chapitre": "10 — Nucleophilic substitution at the carbonyl group",
           "pages": "205–206",
           "note": "Les vitesses comparées vis-à-vis de l'anhydride acétique : une amine réagit en quelques heures à température ambiante, un alcool neutre très lentement, un alcoolate en quelques secondes à 0 °C — et une quantité catalytique de base faible suffit à obtenir cet effet. Le tableau d'hydrolyse par l'eau, où l'anhydride est « lent à 20 °C ». Et la note expliquant que le partage du doublet de l'oxygène central entre deux carbonyles rend les anhydrides plus réactifs que les esters."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic Chemistry of Amino Acids and Polypeptides",
+          "pages": "31, 35",
+          "note": "L'anhydride vu depuis la cellule, avec un critère chiffré : « tout composé possédant une structure d'anhydride présentera un ΔG d'hydrolyse SUPÉRIEUR À 29,3 kJ/mol » — anhydride acétique, acétyl phosphate, acétyl imidazole. Et le point qui change la perspective : « le stock d'énergie biologique ATP possède lui aussi la structure d'anhydride dans sa chaîne latérale triphosphate ». Avec l'expérience de l'homogénat de foie : glycine + acide benzoïque + ATP donnent l'acide hippurique, par un anhydride mixte — un mécanisme de DÉTOXICATION."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives",
+          "pages": "682",
+          "note": "Les acyl phosphates RCO–PO₃²⁻ nommés et situés : « en chimie biologique, les acyl adénosyl phosphates sont particulièrement courants ». Le pont entre la nomenclature des dérivés d'acide et les intermédiaires du métabolisme."
         }
       ],
       "articles_historiques": [],
@@ -2960,6 +2972,18 @@
           "chapitre": "36 — Participation, rearrangement, and fragmentation",
           "pages": "945",
           "note": "Les trois conditions pour qu'un réarrangement cationique soit synthétiquement utile — rapidité, gain de stabilité, capture fiable — et le contre-exemple de l'alkylation de Friedel-Crafts par un halogénure primaire."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "5 — Enzyme Models",
+          "pages": "374-376",
+          "note": "Le SEUL des neuf ouvrages indexés à employer ce nom — et dans le contexte le plus spectaculaire : la biosynthèse du cholestérol. Le 2,3-oxidosqualène cyclisé subit « une SÉRIE de migrations de CH₃ et de H par réarrangement de Wagner-Meerwein » pour donner le lanostérol. Avec une différence entre règnes : « chez les animaux, le squalène adopte le repliement CHAISE-BATEAU-CHAISE ; dans les stérols de plantes, un repliement TOUT-CHAISE a lieu ». Et l'expérience de Bloch (1958), qui tranche entre un déplacement 1,3 unique et deux 1,2 successifs, par quatre squalènes différemment marqués au ¹³C obtenus d'un double Wittig sur des ψ-ionones enrichies."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "142",
+          "note": "La preuve stéréochimique que la migration est CONCERTÉE avec le départ : deux diastéréoisomères d'un ion diazonium qui, via un carbocation commun, devraient donner le même rapport aldéhyde/cétone. « En fait, un diastéréoisomère ne donne QUE l'aldéhyde, et l'autre QUE la cétone. Ce résultat suggère qu'il n'y a pas d'intermédiaire carbocationique. » Migre donc le groupe ANTIPÉRIPLANAIRE au groupe partant, non le plus apte à migrer."
         }
       ],
       "articles_historiques": [],
@@ -2990,6 +3014,12 @@
           "chapitre": "36 — Participation, rearrangement, and fragmentation",
           "pages": "950",
           "note": "Le réarrangement diénone-phénol, formellement inverse du pinacol : c'est un carbonyle protoné qui se réarrange en carbocation tertiaire, la force motrice étant l'aromatisation. Et le réarrangement de l'acide benzilique, le premier jamais décrit."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "142",
+          "note": "L'expérience qui tranche entre carbocation libre et migration concertée : deux diastéréoisomères d'un diazonium donnent l'un UNIQUEMENT l'aldéhyde, l'autre UNIQUEMENT la cétone. Un carbocation libre aurait oublié d'où il vient. « Le réarrangement est concerté avec le départ du groupe partant » — d'où la primauté de la règle géométrique sur la règle électronique."
         }
       ],
       "articles_historiques": [],
@@ -3008,6 +3038,18 @@
           "chapitre": "36 — Participation, rearrangement, and fragmentation",
           "pages": "959",
           "note": "La stéréospécificité : c'est le groupe TRANS du OH qui migre, parce que la double liaison C=N fige la géométrie. Les chiffres : une oxime formée en mélange 75:25 donne 73:27 de lactames ; avec une chaîne ramifiée, le rapport monte à 86:14."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3 — Polar Reactions Under Acidic Conditions",
+          "pages": "142",
+          "note": "La règle de migration rattachée à sa cause générale : « le même phénomène est observé dans le réarrangement de Beckmann, où une oxime est convertie en amide après un déplacement 1,2 d'alkyle. LE GROUPE QUI EST TRANS AU GROUPE OH MIGRE SÉLECTIVEMENT. » Ce n'est pas une propriété isolée de la Beckmann : c'est la conséquence du fait que la migration est concertée avec le départ, comme sur les ions diazonium traités juste avant."
+        },
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "29 — Polymers",
+          "pages": "§ 29.6",
+          "note": "L'application massive : « le nylon 6 peut être préparé par polymérisation du 1-aza-2-cycloheptanone (ε-caprolactame), OBTENU PAR LE RÉARRANGEMENT DE BECKMANN DE L'OXIME DE CYCLOHEXANONE ». Avec la comparaison éclairante : le nylon 66 demande DEUX monomères, le nylon 6 un seul — parce que la Beckmann a fabriqué un cycle portant déjà les deux fonctions."
         }
       ],
       "articles_historiques": [],
@@ -3038,6 +3080,12 @@
           "chapitre": "36 — Participation, rearrangement, and fragmentation",
           "pages": "953",
           "note": "Le cas sans proton en α : le Favorskii emprunte alors un mécanisme de type benzilique. Exemple : la synthèse de la péthidine."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "111",
+          "note": "La bifurcation que la plupart des présentations passent sous silence : « le mécanisme SEMIBENZILIQUE n'opère QUE lorsque la cétone NE PEUT PAS s'énoliser du côté opposé au groupe partant, comme dans les cétones aryliques. Lorsque la cétone PEUT s'énoliser, un mécanisme DIFFÉRENT opère » — celui de la cyclopropanone. Ce qu'il faut donc vérifier avant de dessiner : y a-t-il un hydrogène en α du côté opposé à l'halogène ?"
         }
       ],
       "articles_historiques": [],
@@ -3050,6 +3098,12 @@
           "chapitre": "38 — Synthesis and reactions of carbenes",
           "pages": "1022",
           "note": "Le mécanisme complet : deux déprotonations par NaOH encadrant l'attaque de l'azote sur Br₂, puis départ du bromure avec migration concertée vers l'azote, donnant un isocyanate ; hydrolyse en acide carbamique, décarboxylation, amine. « Amide to amine with loss of a carbon atom ». Et la cousine, le réarrangement de Lossen, à partir d'un acide hydroxamique tosylé."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "113",
+          "note": "Pourquoi le brome va sur l'azote et non sur l'oxygène, et la réponse est acide-base : « l'azote de l'amide est plus réactif que l'oxygène dans l'étape de bromation PARCE QUE L'AZOTE EST DÉPROTONÉ dans les conditions de la réaction ». La base ne neutralise pas seulement HBr, elle CHOISIT le site. Avec le compte exact des étapes : déprotonation, N-bromation, SECONDE déprotonation, réarrangement."
         }
       ],
       "articles_historiques": [],
@@ -3062,6 +3116,12 @@
           "chapitre": "38 — Synthesis and reactions of carbenes",
           "pages": "1022",
           "note": "L'azoture d'acyle, préparé par NaN₃ sur un chlorure d'acyle, perd N₂ au chauffage : il reste un nitrène acyle, azote à six électrons — analogue azoté du carbène. Migration C→N donnant l'isocyanate, puis eau (acide carbamique, puis amine par perte de CO₂) ou alcool (carbamate ; Cbz avec BnOH). Et le DPPA, (PhO)₂PON₃, qui déclenche la réaction directement depuis l'acide."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "113",
+          "note": "La parenté énoncée sans détour : « le mécanisme est EXACTEMENT ANALOGUE à celui du réarrangement de Wolff ». Seul l'atome vers lequel R migre change — un azote ici, un carbone là. Avec les deux voies d'accès à l'azoture d'acyle : en conditions basiques par NaN₃ sur un chlorure d'acyle, ou en conditions acides par HNO₂ sur un hydrazide."
         }
       ],
       "articles_historiques": [],
@@ -3080,6 +3140,12 @@
           "chapitre": "38 — Synthesis and reactions of carbenes",
           "pages": "1022",
           "note": "L'analogie explicite : remplacez le –CH=N₂ de la diazocétone par un –N=N₂ et vous avez un azoture d'acyle ; le carbène devient nitrène, et Wolff devient Curtius."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "111, 113",
+          "note": "La parenté avec le Curtius — « exactement analogue » — et, sur l'homologation, une précision stéréochimique qui vaut pour toute la famille : « SI LE GROUPE R QUI MIGRE EST UN STÉRÉOCENTRE, LA RÉTENTION DE CONFIGURATION A LIEU ». Avec la raison pour laquelle on n'emploie que CH₂N₂ : les autres composés diazo sont « bien plus difficiles à préparer »."
         }
       ],
       "articles_historiques": [],
