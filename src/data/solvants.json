@@ -253,5 +253,15 @@
         "note": "Transparent aux UV, contrairement à l'acétone"
       }
     ]
+  },
+  {
+    "id": "dioxane",
+    "nom": "Dioxane",
+    "nom_complet": "1,4-dioxane",
+    "famille": "Aprotiques peu polaires",
+    "type": "aprotique peu polaire (diéther cyclique)",
+    "usage": "Solvant des couplages pallado-catalysés et des carbonylations. Il bout à 101 °C, là où le THF bout à 66 °C : c'est un THF qu'on peut chauffer. Ses deux oxygènes coordonnent les métaux comme le fait le THF. Il forme des peroxydes à l'air et se distille sur un desséchant avant emploi.",
+    "explication_comprendre": "C'est le grand frère du THF. Même famille — un éther refermé en cycle —, mêmes petits bras électroniques qui viennent stabiliser un métal, mais avec deux oxygènes au lieu d'un et un point d'ébullition bien plus haut : 101 °C contre 66 °C.\n\nOn le choisit exactement pour cela. Un couplage qui traîne à 66 °C avancera à 90 °C, et le THF ne peut pas y aller.\n\nUne précaution, la même que pour tous les éthers : à l'air, il se forme lentement des peroxydes explosifs. On ne le garde pas ouvert, et on ne distille jamais une solution de dioxane jusqu'à siccité.",
+    "SMILES": "C1COCCO1"
   }
 ]

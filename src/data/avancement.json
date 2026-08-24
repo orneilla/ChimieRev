@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 136,
+  "redigees": 140,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1118,8 +1118,8 @@
       "famille": "Couplages",
       "bloc": "Organométallique et catalyse",
       "total": 9,
-      "absente": 4,
-      "redigee": 5,
+      "absente": 0,
+      "redigee": 9,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
@@ -1161,30 +1161,30 @@
         {
           "nom": "Couplage de Negishi",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_negishi",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Amination de Buchwald-Hartwig",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "amination_buchwald_hartwig",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Métathèse des oléfines (Grubbs)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "metathese_olefines",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Carbonylations catalysées",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "carbonylation_catalysee",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

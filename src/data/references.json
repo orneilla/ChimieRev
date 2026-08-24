@@ -4466,6 +4466,180 @@
         }
       ],
       "revues_modernes": []
+    },
+    "couplage_negishi": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1083",
+          "note": "Le mécanisme général du couplage croisé pallado-catalysé, et le sens exact du mot transmétallation : « le nucléophile est transféré du métal du réactif organométallique vers le palladium, et le contre-ion se déplace en sens opposé ». La transmétallation y est signalée comme l'étape LENTE."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1084",
+          "note": "Deux exemples chiffrés de Negishi : un organozincique alkyle sur un iodure d'aryle avec Pd(dba)₂ et un ligand phosphine dans le THF à 65 °C, 74-89 % ; et un organozincique sur un triflate vinylique, Pd(dba)₂, THF, température ambiante, 72-88 %. Et l'explication du succès du Stille et du Suzuki : stannanes et acides boroniques « sont des intermédiaires stables en eux-mêmes, qui peuvent être préparés et purifiés séparément avant la réaction de couplage »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.4",
+          "pages": "389",
+          "note": "Pourquoi le couplage a dû être inventé : les trois mécanismes classiques de substitution d'un halogénure d'aryle posent chacun une condition dure — cycle appauvri pour l'addition-élimination, lumière ou nucléophile stabilisant un radical pour la SRN1, milieu très basique pour l'élimination-addition. « Beaucoup de couples halogénure d'aryle / nucléophile ne remplissent aucune de ces conditions, et cette transformation a longtemps été l'une des plus difficiles à réaliser. » Puis l'origine au nickel : le couplage de Kumada, milieu des années 1970."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.4",
+          "pages": "390",
+          "note": "La famille rangée d'un coup — Stille (étain), Suzuki-Miyaura (bore), Negishi (R–ZnCl) — avec l'affirmation qui les unit : « le cycle catalytique est exactement le même pour le couplage de Negishi et pour beaucoup d'autres couplages d'alkylmétaux ». La seule exception est le Suzuki, dont la soude aqueuse s'additionne sur le bore à six électrons pour rendre le groupe R plus nucléophile. Et la révision du mécanisme de Kumada : l'espèce active pourrait être un nickel(I) formé par transfert d'électron depuis le Grignard."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.4",
+          "pages": "391",
+          "note": "Le domaine et sa limite : les électrophiles sont presque toujours C(sp²)–X ; la réaction est rapide avec I, lente avec Cl — mais des phosphines très encombrées comme t-Bu₃P permettent de coupler les chlorures d'aryle à température ambiante. Les halogénures C(sp³) porteurs d'hydrogènes β subissent l'élimination β-hydrure juste après l'addition oxydante."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "12 — Transition Metal Catalyzed Carbon-Carbon Bond Forming Reactions",
+          "pages": "§ 12.2",
+          "note": "Le prix Nobel de chimie 2010 à Richard Heck, Ei-ichi Negishi et Akira Suzuki, et la raison de fond : avant le palladium, les grandes méthodes de liaison carbone-carbone — Grignard ou organolithien sur un carbonyle ou un époxyde — avaient toujours un partenaire sp³, ce qui rendait impossible une liaison sp²–sp². Avec les conventions d'écriture : pourquoi l'on note LₙPd(0) sans préciser les ligands, et pourquoi un précurseur de Pd(II) comme PdCl₂(PPh₃)₂ convient — il est réduit in situ."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "12 — Transition Metal Catalyzed Carbon-Carbon Bond Forming Reactions",
+          "pages": "§ 12.1",
+          "note": "La transmétallation décrite pour elle-même, et la remarque de comptage : « le degré d'oxydation du palladium ne change pas, ce n'est donc ni une oxydation ni une réduction ». Avec un exercice qui demande d'étiqueter chaque étape du cycle de Negishi."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "amination_buchwald_hartwig": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1093",
+          "note": "Le mécanisme complet : insertion oxydante du Pd(0) dans la liaison aryle-halogène, puis « le complexe de palladium(II) additionne l'amine, de sorte que les deux partenaires du couplage se retrouvent liés au même atome de palladium » ; « la base élimine H–I du complexe » et l'élimination réductrice forme la liaison Ar–N. Les bases qui conviennent : t-BuONa, MeONa, LiN(TMS)₂, K₂CO₃ ; et les ligands les plus efficaces, dont un complexe préformé employé en quantité catalytique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1094",
+          "note": "Deux aminations chiffrées avec Pd(OAc)₂, le xantphos et Cs₂CO₃ : 78 % sur un bromure aromatique et une lactame, 94 % pour une amination par le N-méthylformamide. Et un cas de conception industrielle : pour l'itraconazole de Sepracor, un antifongique dont le cœur est une pipérazine reliée à deux benzènes différents — l'un par un oxygène, l'autre par un azote —, « la chimie de couplage C–N de Buchwald et Hartwig aurait pu être faite pour ce problème »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1095",
+          "note": "Le tableau qui oppose la SNAr et le Buchwald-Hartwig. Groupe partant : F > Cl > Br > I pour la SNAr, où « le fluorure n'est pas le meilleur groupe partant mais accélère l'addition » ; I > Br > Cl >> F pour le palladium, où « l'iodure est le meilleur à l'étape d'addition oxydante, mais le chlorure convient et les chlorures d'aryle coûtent moins cher ». Régiochimie : la SNAr exige « un groupe électroattracteur en ortho ou en para de l'halogénure », le couplage accepte « n'importe quel motif de substitution »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.4",
+          "pages": "391",
+          "note": "La condition de ligand, énoncée comme une nécessité : « des phosphines particulièrement encombrées comme t-Bu₃P sont requises pour que ces réactions aient lieu. On pense que les ligands imposent au catalyseur de palladium un nombre de coordination plus bas, ce qui en fait un catalyseur plus actif. » Et la remarque d'histoire : « employer des amines ou des alcools dans un couplage catalysé par le palladium pourrait sembler une extension évidente à partir des nucléophiles carbonés, mais en réalité les réactions de Buchwald-Hartwig ont été découvertes bien plus tard. »"
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "3 — Palladium-catalyzed MCRs, § 3.2.4.2",
+          "pages": "84-85",
+          "note": "L'amination de Buchwald-Hartwig comme brique de réactions multicomposants : une amination intermoléculaire suivie d'une amination intramoléculaire construit des indoles en une opération (57-76 %), et un enchaînement Sonogashira puis Buchwald-Hartwig les fabrique à partir de dibromures — 15 exemples, 39 à 75 %."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "metathese_olefines": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement and fragmentation",
+          "pages": "1024",
+          "note": "Le mécanisme en deux gestes : le complexe carbénique s'additionne sur un alcène « en ce qu'on peut dessiner comme une cycloaddition [2+2] », donnant « un cycle à quatre chaînons portant l'atome métallique dans le cycle — un métallacyclobutane » ; puis « la même réaction se produit à l'envers, soit de façon improductive pour redonner les produits de départ, soit, par coupure des deux autres liaisons, un nouveau complexe carbénique et du styrène »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement and fragmentation",
+          "pages": "1025",
+          "note": "Le prix Nobel 2005 à Yves Chauvin, Richard Schrock et Robert Grubbs. Et l'évolution des catalyseurs : « le développement le plus important a été la découverte d'alternatives aux ligands phosphine, un changement qui augmente l'activité du catalyseur ; les ligands alternatifs les plus importants sont eux-mêmes des carbènes, du type N-hétérocyclique stable », obtenus par déprotonation d'un cation hétérocyclique."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "36 — Participation, rearrangement and fragmentation",
+          "pages": "1027",
+          "note": "La métathèse ène-yne, « une façon précieuse de construire des diènes — de ceux qu'on peut vouloir pour une réaction de Diels-Alder, par exemple ». Et la tolérance fonctionnelle, qui est la vraie supériorité de la méthode : « contrairement à des organométalliques plus réactifs comme les organolithiens et les réactifs de Grignard, les carbènes de ruthénium sont parfaitement compatibles avec les liaisons N–H et O–H acides et avec les groupes carbonyle électrophiles »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.4",
+          "pages": "403",
+          "note": "Trois points que Clayden ne donne pas. « Aucun changement du degré d'oxydation du métal n'a lieu au cours de la réaction. » « La réaction établit un équilibre entre tous les alcènes possibles, mais il est possible de le déplacer dans un sens ou dans l'autre, par exemple en retirant l'éthylène gazeux. » Et l'initiation : « les deux catalyseurs de Grubbs perdent un ligand Cy₃P avant que le cycle catalytique ne commence », de sorte que l'alcène puisse se coordonner avant chaque [2+2] ; au premier tour seulement, le carbène porte le substituant du catalyseur, souvent un phényle."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-5",
+          "pages": "1046",
+          "note": "La métathèse présentée du point de vue des polymères, avec la structure générale du catalyseur — « une double liaison carbone-métal, généralement au ruthénium » — et le mécanisme par métallacycle « qui s'ouvre immédiatement pour donner un catalyseur différent et un alcène différent »."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-5",
+          "pages": "1047",
+          "note": "Les deux façons de faire des polymères par métathèse, et ce qui déplace l'équilibre dans chaque cas. La ROMP part d'un cycloalcène modérément tendu comme le cyclopentène — « la tension du cycle favorise l'ouverture, ce qui pousse à la formation du produit à chaîne ouverte ». L'ADMET part d'une chaîne à deux doubles liaisons terminales — « l'éthylène gazeux s'échappe, déplaçant l'équilibre vers le polymère » —, jusqu'à des masses de 80 000 unités."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "790",
+          "note": "Une application qui montre la portée : une métathèse cyclisante au catalyseur de Grubbs referme les deux boucles d'un CATÉNATE — deux anneaux entrelacés — à partir d'un complexe [Cu(L)₂]⁺ où le cuivre(I) tétraédrique sert de gabarit et fixe les deux ligands perpendiculairement l'un à l'autre."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.3",
+          "pages": "789",
+          "note": "Les grandeurs qui mesurent un catalyseur, et qu'on cite rarement dans un cours d'organique : le nombre de rotation catalytique (TON), nombre de moles de produit par mole de catalyseur, employé pour les procédés en réacteur fermé ; et la fréquence de rotation (TOF), la même quantité par unité de temps, employée pour les procédés continus."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "carbonylation_catalysee": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1076",
+          "note": "L'insertion migratoire comme geste général : « la principale façon d'allonger la chaîne d'un ligand organique avant l'élimination ». Le groupe inséré « doit être insaturé afin de pouvoir accommoder les liaisons supplémentaires » — CO, alcènes et alcynes donnant des complexes acyle, alkyle et alcényle. « Dans chaque cas, l'insertion est poussée par des ligands externes supplémentaires », pression de CO ou excès de phosphine. Et l'ouverture vers les polymères : « en principe, ce processus d'allongement de chaîne peut être répété indéfiniment pour produire des polymères par polymérisation de Ziegler-Natta »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1085",
+          "note": "La carbonylation greffée sur un couplage de Stille : en solution saturée de CO sous une atmosphère, on obtient la cétone à 80 % « sans aucune trace du produit de couplage normal ». Le mécanisme — le CO échange d'abord avec une phosphine puis « s'insère très rapidement pour produire un complexe acyle de palladium(II) » — et sa cause cinétique : « la transmétallation est toujours l'étape lente de ces réactions de couplage, ce qui laisse le temps à l'insertion du monoxyde de carbone »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.3",
+          "pages": "386",
+          "note": "Le cycle de l'alcoxycarbonylation étape par étape, et la phrase qui le rend familier : « le complexe acylpalladium peut être vu comme un chlorure d'acyle compliqué. La liaison Pd–C peut être remplacée par une liaison MeO–C par une réaction d'addition-élimination. » Avec l'identité probable de l'espèce active : (Ph₃P)₂Pd, issue de (Ph₃P)₄Pd par perte de deux phosphines."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.3",
+          "pages": "387",
+          "note": "La limite de domaine, avec sa cause : « R doit presque toujours être un C(sp²). Les seuls halogénures C(sp³) qui peuvent subir la réaction sont ceux qui n'ont pas d'hydrogènes β, comme les halogénures méthylique, benzylique et néopentylique. Les halogénures d'alkyle porteurs d'hydrogènes β subissent l'élimination β-hydrure après l'étape d'addition oxydante, ne donnant que le produit issu de l'élimination de HX. » Les triflates, préparés à partir des cétones, sont largement employés."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "3 — Palladium-catalyzed MCRs, § 3.2",
+          "pages": "72-73",
+          "note": "L'adoucissement moderne des conditions : Buchwald décrit en 2007 la première méthode générale d'aminocarbonylation des CHLORURES d'aryle, à pression atmosphérique de CO et à température modérée, avec une bisphosphine encombrée et riche en électrons — le phénolate de sodium y jouant un double rôle, base et agent de transfert d'acyle par des esters de phényle intermédiaires. Puis les travaux de Beller sur le système palladium / di-1-adamantyl-n-butylphosphine : l'ammoniac comme source d'azote pour des amides primaires, et les premières carbonylations par activation C–H d'hétéroarènes (oxazoles, thiazoles, imidazoles) vers des cétones diaryliques, sous 40 atm de CO et avec une phosphine chélatante pour écarter le couplage non carbonylé."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

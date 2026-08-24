@@ -816,22 +816,22 @@
         {
           "nom": "Couplage de Negishi",
           "niveau": "M2",
-          "id": null
+          "id": "couplage_negishi"
         },
         {
           "nom": "Amination de Buchwald-Hartwig",
           "niveau": "M2",
-          "id": null
+          "id": "amination_buchwald_hartwig"
         },
         {
           "nom": "Métathèse des oléfines (Grubbs)",
           "niveau": "M2",
-          "id": null
+          "id": "metathese_olefines"
         },
         {
           "nom": "Carbonylations catalysées",
           "niveau": "M2",
-          "id": null
+          "id": "carbonylation_catalysee"
         }
       ],
       "bloc": "Organométallique et catalyse"

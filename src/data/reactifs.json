@@ -3014,5 +3014,215 @@
     ],
     "explication_reference": "La diéthylamine sert de base et souvent de solvant dans le couplage de Sonogashira, qui « se conduit en présence de base » (Clayden p. 1087). Les exemples de la page 1088 emploient Et₂NH ou la butylamine.\n\nElle neutralise l'halogénure d'hydrogène libéré et participe, avec le cuivre(I), à la formation de l'acétylure de cuivre — dont Clayden ne détaille pas le mécanisme.",
     "explication_comprendre": "POURQUOI une amine plutôt qu'un carbonate ?\n\nParce qu'elle peut être le solvant en même temps.\n\nUn carbonate est un solide : il faut un liquide autour de lui. Une amine liquide fait les deux — elle remplit le ballon et elle prend les protons.\n\nCela simplifie beaucoup un mode opératoire déjà simple : on met l'halogénure, l'alcyne, les deux catalyseurs, et on complète à l'amine.\n\nCE QU'ELLE FAIT EXACTEMENT\n\nDeux choses.\n\nElle neutralise l'acide qui se forme : à chaque tour, un HX est libéré, et sans base il s'accumulerait jusqu'à tout arrêter.\n\nEt elle participe, avec le cuivre, à la préparation de l'alcyne. Clayden ne détaille pas cette étape, et ce n'est pas la peine de faire semblant : ce qu'on sait, c'est que les deux sont nécessaires.\n\nUN DÉTAIL QUI COMPTE\n\nUne amine à basse température d'ébullition s'évapore facilement à la fin : on la retire au rotavap avec le reste. Un carbonate, lui, se filtre. Les deux marchent : la première est plus commode."
+  },
+  {
+    "id": "organozincique",
+    "nom": "EtZnBr",
+    "nom_complet": "organozincique (bromure d'éthylzinc)",
+    "famille": "Partenaires de couplage",
+    "SMILES": "CC[Zn]Br",
+    "role": "Le partenaire du Negishi — le plus rapide à céder son groupe, et le moins commode à garder",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison C–Zn",
+        "role": "Polarisée, mais moins qu'une liaison C–Mg : le carbone est nucléophile sans être agressif. C'est ce qui lui permet de côtoyer un ester ou une cétone sans les attaquer."
+      },
+      {
+        "partie": "le zinc",
+        "role": "Il transmétalle plus vite que l'étain et que le bore. Comme la transmétallation est l'étape lente de tous ces couplages, c'est là tout l'avantage du Negishi."
+      },
+      {
+        "partie": "le brome",
+        "role": "Le contre-ion. Il fera le trajet inverse du groupe éthyle pendant la transmétallation : le carbone passe sur le palladium, l'halogénure revient sur le zinc."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_negishi"
+    ],
+    "explication_reference": "Les organozinciques sont les partenaires nucléophiles du couplage de Negishi. Grossman les range avec les stannanes du Stille et les acides boroniques du Suzuki, et note que « le cycle catalytique est exactement le même » pour tous (p. 390).\n\nDEUX AVANTAGES SUR LES AUTRES. La transmétallation depuis le zinc est plus rapide que depuis l'étain ou le bore ; et elle ne demande AUCUNE base. Le Suzuki en exige une, dont Grossman précise le rôle : la soude aqueuse s'additionne sur le bore à six électrons de l'acide boronique, « rendant le groupe R attaché au bore plus nucléophile et plus prompt à subir la transmétallation vers le palladium ».\n\nUN AVANTAGE DE DOMAINE : le groupe porté par le zinc peut être un carbone sp³, ce que les autres couplages font mal.\n\nLE PRIX. L'organozincique ne se purifie pas et ne se stocke pas. Clayden explique le succès du Stille et du Suzuki par la raison exactement inverse (p. 1084) : stannanes et acides boroniques « sont des intermédiaires stables en eux-mêmes, qui peuvent être préparés et purifiés séparément avant la réaction de couplage ».",
+    "explication_comprendre": "POURQUOI en fabriquer un de plus, quand l'étain et le bore marchent déjà ?\n\nParce qu'il est plus rapide, et que la vitesse est ici le vrai problème.\n\nDans un couplage, le palladium doit recevoir deux morceaux. Le premier, il va le chercher lui-même en s'insérant dans une liaison carbone-halogène. Le second, il faut qu'on le lui apporte — et c'est un autre métal qui s'en charge.\n\nCE PASSAGE DE MAIN EST LE MOMENT LE PLUS LENT DE TOUT LE CYCLE. Pendant qu'il traîne, le reste du mélange a le temps de faire autre chose. Un métal qui cède vite son groupe raccourcit ce moment, et la réaction devient plus propre.\n\nLe zinc cède vite. L'étain cède lentement. Le bore ne cède pas du tout tant qu'on ne l'a pas activé par une base.\n\nET IL Y A UN SECOND GAIN, moins connu. Puisqu'aucune base n'est nécessaire, on peut employer le Negishi sur des molécules qu'une base détruirait.\n\nMAIS. Un réactif qui donne vite est un réactif qui ne se garde pas. On n'achète pas un organozincique dans un flacon : on le fabrique dans le ballon même où il servira, quelques minutes avant, sous atmosphère inerte.\n\nRETENEZ CETTE BALANCE, ELLE VAUT DANS TOUTE LA CHIMIE : ce qui est stable est peu réactif, ce qui est réactif est peu stable. On ne choisit pas le meilleur réactif dans l'absolu — on choisit le bout de la balance qui convient au problème.",
+    "reactions_exemples": []
+  },
+  {
+    "id": "catalyseur_grubbs",
+    "nom": "Catalyseur de Grubbs",
+    "nom_complet": "carbène de ruthénium de Grubbs",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "Cl[Ru](Cl)=Cc1ccccc1",
+    "role": "Le carbène qui échange les moitiés de deux doubles liaisons — et qui ne dérange rien d'autre",
+    "anatomie_annotations": [
+      {
+        "partie": "la double liaison Ru=CHPh",
+        "role": "Le cœur de la réaction. C'est elle qui s'additionne sur l'alcène du substrat et qui donne le cycle à quatre chaînons contenant le métal."
+      },
+      {
+        "partie": "le phényle du carbène",
+        "role": "Il ne sert qu'au PREMIER tour : il sort sous forme de styrène, en quantité catalytique. Ensuite c'est un méthylidène qui tourne (Grossman p. 403)."
+      },
+      {
+        "partie": "les deux chlorures",
+        "role": "Ils ne bougent pas de tout le cycle. C'est pourquoi on ne les écrit pas dans les schémas de mécanisme."
+      },
+      {
+        "partie": "les phosphines tricyclohexyle (non représentées)",
+        "role": "L'une d'elles PART avant que le cycle ne commence, pour libérer la place où l'alcène viendra se coordonner. En deuxième génération, l'autre est remplacée par un carbène N-hétérocyclique, ce qui augmente l'activité (Clayden p. 1025)."
+      }
+    ],
+    "reactions_liees": [
+      "metathese_olefines"
+    ],
+    "explication_reference": "Le catalyseur de Grubbs est un carbène de ruthénium(II) portant deux chlorures et deux phosphines tricyclohexyle. Prix Nobel 2005 à Yves Chauvin, Richard Schrock et Robert Grubbs (Clayden p. 1025).\n\nCE QU'IL FAIT. Il s'additionne sur une double liaison en une cycloaddition [2+2] formelle, donnant un métallacyclobutane, qui se rouvre ensuite par rétro-cycloaddition — soit d'où il vient, soit par les deux autres liaisons, ce qui échange les moitiés (Clayden p. 1024).\n\nSON DEGRÉ D'OXYDATION NE CHANGE JAMAIS (Grossman p. 403). Ni addition oxydante, ni élimination réductrice : le ruthénium porte tour à tour une double liaison ou deux liaisons simples, et le compte reste le même.\n\nCE QU'IL TOLÈRE, ET C'EST SA VRAIE SUPÉRIORITÉ (Clayden p. 1027) : « contrairement à des organométalliques plus réactifs comme les organolithiens et les réactifs de Grignard, les carbènes de ruthénium sont parfaitement compatibles avec les liaisons N–H et O–H acides et avec les groupes carbonyle électrophiles. » On ne protège rien.\n\nLA DEUXIÈME GÉNÉRATION (Clayden p. 1025) remplace une phosphine par un carbène N-hétérocyclique stable, obtenu par déprotonation d'un cation hétérocyclique. C'est « le développement le plus important » de la période, et il augmente nettement l'activité.\n\nIL SAIT AUSSI FAIRE DES NŒUDS (Housecroft p. 790) : une métathèse cyclisante referme les deux boucles d'un caténate, deux anneaux entrelacés autour d'un cuivre(I) qui sert de gabarit.",
+    "explication_comprendre": "POURQUOI un catalyseur porte-t-il lui-même ce qu'il doit fabriquer ?\n\nParce qu'il ne fabrique rien : il ÉCHANGE. Et pour échanger, il faut avoir quelque chose à donner.\n\nLe catalyseur de Grubbs porte une double liaison entre son ruthénium et un carbone. Il vient poser cette double liaison contre celle du substrat, et l'ensemble se referme un instant en un petit carré : trois carbones et un métal.\n\nUn carré peut se rouvrir de deux façons. Par où il s'est fermé — et rien ne s'est passé. Ou par les deux autres côtés — et alors tout a changé de place.\n\nÀ LA SORTIE, LE MÉTAL PORTE ENCORE UNE DOUBLE LIAISON, mais avec un autre carbone. Il est prêt à recommencer. C'est ce qui en fait un catalyseur : il ressort de chaque tour dans un état où il peut refaire le tour suivant.\n\nCE QUI LE REND PRÉCIEUX EST AILLEURS. Un réactif de Grignard, si on le lâche sur une molécule compliquée, attaque tout ce qui ressemble à un carbonyle. Un organolithien fait pire. On ne peut donc les employer qu'au début d'une synthèse, quand la molécule est encore simple.\n\nLe carbène de ruthénium, lui, ne voit que les doubles liaisons carbone-carbone. Un alcool, une amine, un ester, un acide : rien de tout cela ne l'intéresse. On peut donc s'en servir à la fin, sur une molécule déjà longue à fabriquer et déjà chère.\n\nEt c'est bien pour cela qu'il a changé la synthèse totale : il permet de refermer un grand cycle en dernière étape, ce qu'on ne savait pas faire proprement autrement.",
+    "reactions_exemples": []
+  },
+  {
+    "id": "monoxyde_carbone",
+    "nom": "CO",
+    "nom_complet": "monoxyde de carbone",
+    "famille": "Électrophiles",
+    "SMILES": "[C-]#[O+]",
+    "role": "Le carbone à un atome qu'on glisse entre deux partenaires — et un poison mortel, pour la même raison",
+    "anatomie_annotations": [
+      {
+        "partie": "la triple liaison C≡O",
+        "role": "C'est elle qui rend le CO insaturé, donc capable de s'insérer : le groupe qui migre a besoin d'une liaison π à ouvrir pour l'accueillir (Clayden p. 1076)."
+      },
+      {
+        "partie": "le doublet du carbone",
+        "role": "C'est par le CARBONE que le CO se lie au métal, pas par l'oxygène. Le même doublet le lie au fer de l'hémoglobine — et c'est ce qui le rend mortel."
+      }
+    ],
+    "reactions_liees": [
+      "carbonylation_catalysee"
+    ],
+    "explication_reference": "Le monoxyde de carbone est le ligand insérable par excellence. Clayden le range en tête des groupes qui subissent l'insertion migratoire, aux côtés des alcènes et des alcynes, en précisant la condition commune (p. 1076) : « le groupe à insérer doit être INSATURÉ afin de pouvoir accommoder les liaisons supplémentaires ».\n\nCE QUI POUSSE L'INSERTION est un apport de ligands externes — « une pression accrue de monoxyde de carbone dans le cas de la carbonylation, ou simplement un excès de phosphine pour les insertions d'alcène et d'alcyne ».\n\nCE QU'IL LAISSE DERRIÈRE LUI (Grossman p. 386) : un complexe acylpalladium, « qui peut être vu comme un chlorure d'acyle compliqué ». Un alcool en fait un ester, une amine un amide, l'eau un acide, un organométallique une cétone.\n\nSA RAPIDITÉ EST SON ARGUMENT (Clayden p. 1085). Sous une atmosphère de CO, un couplage de Stille donne la cétone à 80 % « sans aucune trace du produit de couplage normal », parce que le CO « s'insère très rapidement » alors que « la transmétallation est toujours l'étape lente de ces réactions de couplage ».\n\nLES CONDITIONS SE SONT ADOUCIES (Multicomposants p. 72-73) : l'aminocarbonylation des chlorures d'aryle se fait depuis 2007 à pression atmosphérique, avec une bisphosphine encombrée et riche en électrons.",
+    "explication_comprendre": "POURQUOI un gaz mortel est-il l'un des réactifs les plus utiles de la chimie industrielle ?\n\nParce que ce qui le rend mortel est exactement ce qui le rend utile.\n\nLe monoxyde de carbone tue parce qu'il se lie très bien au fer de l'hémoglobine — mieux que le dioxygène, et il ne s'en va plus. Le sang continue de circuler, mais il ne transporte plus rien.\n\nOr le fer de l'hémoglobine est un métal de transition. Le palladium en est un autre. Ce qui vaut pour l'un vaut pour l'autre : le CO se lie très bien au palladium, et c'est précisément ce qu'on lui demande.\n\nCE QU'IL APPORTE. Un couplage ordinaire soude deux carbones bout à bout et donne un hydrocarbure — inerte, sans prise, difficile à modifier ensuite. Glissez un CO au milieu, et vous obtenez un ester, un amide ou une cétone : une molécule sur laquelle on peut encore travailler, et qui ressemble beaucoup plus à un médicament.\n\nUn seul atome de carbone change la nature du produit.\n\nCOMMENT IL S'INSÈRE. Il vient d'abord se poser sur une place libre du métal. Puis le groupe que le métal tenait déjà glisse sur lui. On appelle cela une insertion migratoire — le mot « insertion » est un peu trompeur, puisque ce n'est pas le CO qui s'enfonce, mais l'autre groupe qui vient sur lui.\n\nUNE MISE EN GARDE QUI N'EST PAS DE STYLE. Le monoxyde de carbone est inodore, incolore et sans saveur. On ne le sent pas venir — littéralement. On ne le manipule que sous sorbonne, avec un détecteur, et jamais seul au laboratoire.",
+    "reactions_exemples": []
+  },
+  {
+    "id": "tbu3p",
+    "nom": "t-Bu₃P",
+    "nom_complet": "tri-tert-butylphosphine",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "CC(C)(C)P(C(C)(C)C)C(C)(C)C",
+    "role": "La phosphine si encombrée qu'elle libère le métal au lieu de l'occuper",
+    "anatomie_annotations": [
+      {
+        "partie": "les trois tert-butyles",
+        "role": "Ils prennent tellement de place qu'une SECONDE phosphine ne peut plus venir. La place restée vide autour du palladium est ce qui accueille le substrat."
+      },
+      {
+        "partie": "le doublet du phosphore",
+        "role": "Il lie le ligand au métal. Les trois alkyles le rendent en outre très donneur, ce qui enrichit le palladium et facilite son insertion dans une liaison C–Cl."
+      }
+    ],
+    "reactions_liees": [
+      "amination_buchwald_hartwig",
+      "couplage_negishi"
+    ],
+    "explication_reference": "Les phosphines très encombrées ne sont pas un raffinement de l'amination de Buchwald-Hartwig : elles en sont la condition. Grossman est net (p. 391) : « des phosphines particulièrement encombrées comme t-Bu₃P sont REQUISES pour que ces réactions aient lieu. On pense que les ligands imposent au catalyseur de palladium un nombre de coordination plus BAS, ce qui en fait un catalyseur plus actif. »\n\nDEUX AUTRES SERVICES, sur les couplages carbone-carbone (Grossman p. 391) :\n• elles permettent de coupler les CHLORURES d'aryle à température ambiante, alors que la réaction est normalement lente avec X = Cl ;\n• elles répriment l'élimination β-hydrure, ce qui rend accessibles des électrophiles C(sp³)–X qui, autrement, ne donneraient que l'alcène.\n\nUN LIGAND ENCOMBRANT NE GÊNE DONC PAS : il dégage. C'est l'un des renversements les plus utiles de la chimie organométallique.",
+    "explication_comprendre": "POURQUOI un ligand énorme AIDE-t-il, alors qu'il devrait gêner ?\n\nL'intuition dit qu'un gros ligand encombre le métal et l'empêche de travailler. C'est l'inverse qui se produit, et la raison mérite d'être vue en entier.\n\nUn atome de palladium en solution ne reste jamais nu : il s'entoure de tout ce qui traîne. Avec des phosphines ordinaires et petites, il en accroche quatre, et se retrouve saturé — toutes ses places sont prises.\n\nOr un catalyseur a besoin d'une place LIBRE. C'est là que le substrat vient se poser ; sans place libre, il n'entre pas.\n\nMETTEZ MAINTENANT UNE PHOSPHINE ÉNORME. La première s'installe. La deuxième ne peut plus approcher : la première occupe déjà tout l'espace autour. Le métal se retrouve donc avec une ou deux places libres au lieu d'aucune.\n\nLE LIGAND N'A PAS OUVERT LA PLACE : IL A EMPÊCHÉ QU'ON LA PRENNE. C'est une différence de raisonnement, et elle vaut la peine d'être retenue, parce qu'on la retrouve partout en catalyse — un catalyseur actif n'est pas un catalyseur bien entouré, c'est un catalyseur à qui il manque quelque chose.\n\nET IL Y A UN SECOND EFFET. Trois groupes tert-butyle poussent des électrons vers le phosphore, qui les pousse vers le palladium. Un palladium riche en électrons s'insère plus facilement dans une liaison carbone-chlore — la plus solide des trois, et la moins chère à acheter.\n\nDeux effets d'une même molécule : elle dégage la place, et elle enrichit le métal.",
+    "reactions_exemples": []
+  },
+  {
+    "id": "xantphos",
+    "nom": "Xantphos",
+    "nom_complet": "4,5-bis(diphénylphosphino)-9,9-diméthylxanthène",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c1cccc2P(c1ccccc1)c1ccccc1",
+    "role": "La bisphosphine dont l'écartement est imposé par un squelette rigide",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux phosphores",
+        "role": "Ils saisissent le métal tous les deux à la fois. Un ligand bidenté ne peut pas se dissocier à moitié : le palladium reste tenu pendant tout le cycle."
+      },
+      {
+        "partie": "le squelette xanthène",
+        "role": "Rigide, il fixe l'écartement des deux phosphores — donc l'angle sous lequel ils voient le métal. C'est cet angle, et non l'encombrement seul, qui règle l'activité."
+      },
+      {
+        "partie": "les deux méthyles",
+        "role": "Ils ferment le squelette et l'empêchent de se replier, ce qui garantit que l'écartement reste celui qu'on a dessiné."
+      }
+    ],
+    "reactions_liees": [
+      "amination_buchwald_hartwig"
+    ],
+    "explication_reference": "Le xantphos est l'un des ligands qui ont rendu l'amination de Buchwald-Hartwig praticable à l'échelle industrielle. Clayden le montre à l'œuvre avec Pd(OAc)₂ et Cs₂CO₃ sur deux exemples (p. 1094) : 78 % sur un bromure aromatique et une lactame, 94 % pour une amination par le N-méthylformamide.\n\nCE QU'UN LIGAND BIDENTÉ APPORTE. Clayden explique le principe à propos des hydrogénations asymétriques (p. 1118) : une seule molécule portant DEUX atomes de phosphore vaut mieux que deux ligands séparés, qui pourraient se dissocier. Le métal se loge entre les deux phosphores, solidement ancré.\n\nET L'ANGLE COMPTE. Un squelette rigide fixe l'écartement des deux phosphores, donc l'angle sous lequel ils voient le métal. Clayden montre plusieurs ligands parmi « les plus efficaces » pour cette chimie (p. 1093), et la quatrième structure qu'il donne est un complexe préformé employé en quantité catalytique.",
+    "explication_comprendre": "POURQUOI attacher deux phosphines ensemble plutôt que d'en mettre deux séparées ?\n\nPour la même raison qu'on attache un chien en laisse plutôt que de compter sur sa bonne volonté.\n\nUne phosphine seule va et vient : elle se pose sur le métal, elle s'en détache, elle revient. C'est parfois utile — il faut bien qu'une place se libère pour que le substrat entre. Mais si les deux phosphines partent en même temps, le palladium se retrouve nu, s'agglomère avec ses voisins et précipite en poudre noire. Le catalyseur est mort.\n\nUN LIGAND BIDENTÉ NE PEUT PAS PARTIR EN ENTIER D'UN COUP. S'il lâche d'un côté, il tient toujours de l'autre, et il revient. Le métal reste tenu pendant tout le cycle.\n\nET IL Y A MIEUX. Comme les deux phosphores sont montés sur un squelette RIGIDE, la distance qui les sépare ne change pas. Ils voient donc toujours le métal sous le même angle.\n\nCET ANGLE EST UN PARAMÈTRE DE RÉGLAGE, et c'est ce qu'il faut retenir : en changeant le squelette, on change l'angle, et l'on change la réactivité — sans toucher à la chimie du phosphore lui-même. C'est ainsi qu'on met au point un ligand pour un problème donné, en faisant varier la charpente plutôt que le site actif.\n\nDeux méthyles ferment le squelette pour l'empêcher de se replier. Sans eux, l'angle qu'on a dessiné ne serait pas celui qu'on obtient.",
+    "reactions_exemples": []
+  },
+  {
+    "id": "naotbu",
+    "nom": "NaOt-Bu",
+    "nom_complet": "tert-butanolate de sodium",
+    "famille": "Bases",
+    "SMILES": "CC(C)(C)[O-].[Na+]",
+    "role": "La base qui déprotone l'amine coordonnée sans attaquer le palladium",
+    "anatomie_annotations": [
+      {
+        "partie": "l'oxygène chargé",
+        "role": "Le site basique. Assez fort pour arracher le proton d'une amine liée au palladium, ce qu'une amine tertiaire ne ferait pas."
+      },
+      {
+        "partie": "le tert-butyle",
+        "role": "Il encombre l'oxygène et le rend NON nucléophile : la base déprotone sans venir se lier elle-même au métal ni attaquer le substrat."
+      }
+    ],
+    "reactions_liees": [
+      "amination_buchwald_hartwig"
+    ],
+    "explication_reference": "Dans l'amination de Buchwald-Hartwig, la base fait le travail que la transmétallation fait ailleurs. Clayden décrit son intervention (p. 1093) : une fois l'amine coordonnée au palladium(II), « la base élimine H–I du complexe », et il ne reste au métal que deux ligands prêts à se joindre par élimination réductrice.\n\nLES BASES QUI CONVIENNENT (Clayden p. 1093) : t-BuONa, MeONa, LiN(TMS)₂ et K₂CO₃. Le choix suit l'acidité de l'amine et la fragilité du substrat — Clayden emploie ailleurs le Cs₂CO₃, plus doux, avec le xantphos (p. 1094).\n\nPOURQUOI UN ALCOOLATE ENCOMBRÉ. Un alcoolate peu encombré serait aussi un bon nucléophile : il viendrait se lier au palladium et concurrencerait l'amine, voire donnerait l'éther d'aryle. Le tert-butanolate est basique sans être nucléophile — c'est la même propriété qui le fait choisir pour les éliminations E2 plutôt que les substitutions.",
+    "explication_comprendre": "POURQUOI faut-il une base dans un couplage qui n'a rien d'acide ?\n\nParce que l'azote arrive avec un hydrogène de trop.\n\nDans les couplages carbone-carbone, le second partenaire arrive porté par un métal — l'étain, le bore, le zinc — qui le lâche sur le palladium. Le morceau qui arrive est donc déjà tout prêt.\n\nUne amine, elle, arrive seule. Elle se pose bien sur le palladium, mais elle garde son hydrogène. Et tant que cet hydrogène est là, rien ne peut se produire : pour que deux morceaux se joignent et se détachent du métal, il faut qu'ils soient tous deux des ligands anioniques.\n\nLA BASE RETIRE CET HYDROGÈNE. Elle emporte aussi l'halogène. Le palladium ne tient alors plus que deux choses — le cycle aromatique et l'azote — et elles se joignent.\n\nPOURQUOI UNE BASE SI ENCOMBRÉE. Parce qu'une base peu encombrée serait aussi un bon attaquant. Un méthanolate, par exemple, viendrait se lier au palladium à la place de l'amine, et l'on obtiendrait un éther au lieu de l'amine voulue.\n\nLe tert-butanolate porte trois méthyles autour de son oxygène. Il peut encore attraper un proton — un proton est minuscule — mais il ne peut plus atteindre un atome de carbone ni un métal encombré.\n\nRETENEZ CETTE DISTINCTION, ELLE REVIENT SANS CESSE : basique et nucléophile ne sont pas la même chose. L'encombrement supprime la seconde qualité et laisse la première intacte.",
+    "reactions_exemples": []
+  },
+  {
+    "id": "cs2co3",
+    "nom": "Cs₂CO₃",
+    "nom_complet": "carbonate de césium",
+    "famille": "Bases",
+    "SMILES": "[O-]C([O-])=O.[Cs+].[Cs+]",
+    "role": "Le carbonate qui passe en solution organique — même base que K₂CO₃, mais soluble",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbonate",
+        "role": "Base modérée. Assez pour déprotoner une amine liée au palladium ou un amide, pas assez pour attaquer un ester ou racémiser un centre voisin d'un carbonyle."
+      },
+      {
+        "partie": "les deux césiums",
+        "role": "Un gros cation, très peu chargé pour sa taille : il retient mal son anion. C'est ce qui rend le sel bien plus soluble en milieu organique que son homologue au potassium — et l'anion, moins apparié, plus réactif."
+      }
+    ],
+    "reactions_liees": [
+      "amination_buchwald_hartwig"
+    ],
+    "explication_reference": "Le carbonate de césium est la base douce de la chimie de Buchwald-Hartwig. Clayden le montre à l'œuvre avec Pd(OAc)₂ et le xantphos sur deux aminations (p. 1094) : 78 % sur un bromure aromatique et une lactame, 94 % pour une amination par le N-méthylformamide.\n\nSA PLACE DANS LA LISTE. Clayden énumère les bases qui réussissent dans cette chimie (p. 1093) : t-BuONa, MeONa, LiN(TMS)₂, K₂CO₃. Le césium prolonge cette liste vers le bas en force et vers le haut en solubilité.\n\nL'EFFET CÉSIUM. Le carbonate est le même que dans K₂CO₃ ; seul le contre-ion change. Mais un cation plus gros retient moins bien son anion : le sel se dissout mieux dans les solvants organiques, et l'anion, moins apparié, réagit mieux. C'est la même raison qui fait préférer le césium pour les alkylations de phénols et les macrolactonisations.",
+    "explication_comprendre": "POURQUOI changer de métal, quand c'est l'anion qui travaille ?\n\nParce que l'anion ne travaille que s'il est libre.\n\nDans un sel solide, chaque anion est collé à un cation. Pour qu'il agisse, il faut d'abord les séparer — et c'est le solvant qui s'en charge. En milieu aqueux, cela se fait tout seul. En milieu organique, beaucoup moins.\n\nCE QUI DÉCIDE, C'EST LA TAILLE DU CATION. Une charge répartie sur une petite sphère est concentrée : elle tient l'anion fermement. La même charge répartie sur une grosse sphère est diluée : elle le tient mal.\n\nLe césium est l'un des plus gros cations que la chimie ordinaire propose. Sa charge est donc très diluée, et il lâche son carbonate sans difficulté.\n\nDEUX CONSÉQUENCES, ET ELLES VONT DANS LE MÊME SENS : le sel se dissout mieux dans un solvant organique, et l'anion, une fois en solution, est moins retenu donc plus réactif.\n\nC'est tout ce qu'on appelle « l'effet césium ». Ce n'est pas de la chimie du césium — le césium ne fait rien. C'est de la chimie du carbonate, rendue possible parce que le césium ne le retient pas.\n\nET POURQUOI UNE BASE DOUCE PLUTÔT QU'UNE FORTE ? Parce qu'un substrat de synthèse tardive contient souvent un ester, ou un centre asymétrique voisin d'un carbonyle. Une base forte les détruirait. Le carbonate suffit à déprotoner une amine liée au palladium, et s'arrête là.",
+    "reactions_exemples": []
+  },
+  {
+    "id": "pd_dba2",
+    "nom": "Pd(dba)₂",
+    "nom_complet": "bis(dibenzylidèneacétone)palladium(0)",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1",
+    "role": "Une source de palladium(0) dont les ligands s'en vont dès qu'on met la phosphine qu'on a choisie",
+    "anatomie_annotations": [
+      {
+        "partie": "les doubles liaisons de la dibenzylidèneacétone",
+        "role": "Ce sont elles qui tiennent le palladium(0), par leurs orbitales π. Une liaison faible, faite pour être rompue : la phosphine qu'on ajoute prend leur place."
+      },
+      {
+        "partie": "le carbonyle central",
+        "role": "Il appauvrit les deux doubles liaisons, ce qui les rend meilleures accepteuses en retour depuis le métal — donc juste assez liantes pour stabiliser le Pd(0) sans le bloquer."
+      }
+    ],
+    "reactions_liees": [
+      "couplage_negishi",
+      "amination_buchwald_hartwig"
+    ],
+    "explication_reference": "Pd(dba)₂ et son homologue Pd₂(dba)₃ sont des sources de palladium au degré ZÉRO, prêtes à entrer dans un cycle catalytique sans étape de réduction. Clayden les emploie dans ses deux exemples de couplage de Negishi (p. 1084) : un organozincique alkyle sur un iodure d'aryle avec un ligand phosphine dans le THF à 65 °C, 74-89 % ; et un organozincique sur un triflate vinylique à température ambiante, 72-88 %.\n\nCE QUE LE CHIMISTE Y GAGNE : il choisit lui-même la phosphine. Les ligands dibenzylidèneacétone sont faiblement liés et s'échangent contre celle qu'on ajoute — ce qui permet d'apparier une même source de métal à n'importe quel ligand.\n\nLA COMPARAISON AVEC LES AUTRES SOURCES. Pd(PPh₃)₄ arrive avec ses quatre phosphines : commode, mais on ne choisit rien. Pd(OAc)₂ est un palladium(II), qu'il faut réduire in situ — LibreTexts note à ce propos que « ces réactifs de Pd sont réduits dans les conditions de réaction par plusieurs mécanismes possibles dont nous ne nous préoccuperons pas ici ; le résultat net est que du Pd(0) est produit dans le ballon » (§ 12.2).",
+    "explication_comprendre": "POURQUOI acheter un palladium accompagné de ligands qu'on va jeter ?\n\nParce que le palladium(0) tout nu n'existe pas en flacon.\n\nUn atome de métal au degré zéro, laissé seul, cherche ses semblables : les atomes s'assemblent et l'on obtient du métal, une poudre noire inerte. Pour le garder en solution et disponible, il faut qu'un ligand le tienne.\n\nMAIS PAS TROP FORT. Si le ligand tient trop bien, il ne partira pas quand il faudra faire de la place au substrat. Le catalyseur sera stable et inutile.\n\nLA DIBENZYLIDÈNEACÉTONE EST LE COMPROMIS. Elle tient le palladium par ses doubles liaisons carbone-carbone — une prise réelle mais faible. Ajoutez la phosphine de votre choix, et elle s'en va sans se faire prier.\n\nCE QUE CELA PERMET, ET C'EST TOUT L'INTÉRÊT : vous décidez du ligand. Or c'est le ligand qui décide de presque tout dans ces réactions — quel halogénure réagira, à quelle température, avec quelle sélectivité. LibreTexts insiste : « beaucoup des avancées récentes de ce domaine ont été rendues possibles par le développement de nouvelles phosphines. »\n\nAvec Pd(PPh₃)₄, vous achetez le métal ET son ligand ensemble, sans choix. Avec Pd(dba)₂, vous achetez le métal, et vous apportez le ligand.\n\nC'est la différence entre un plat tout prêt et des ingrédients.",
+    "reactions_exemples": []
   }
 ]

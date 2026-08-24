@@ -18789,5 +18789,133 @@
         "valide": false
       }
     ]
+  },
+  "couplage_negishi": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le palladium tient l'aryle ; le zinc tient l'alkyle",
+        "smiles": "I[Pd]c1ccccc1.CC[Zn]Br",
+        "legende": "À gauche, le palladium(II) issu de l'addition oxydante : il porte le cycle aromatique d'un côté, l'iodure de l'autre.\n\nÀ droite, l'organozincique. Il ne se garde pas en flacon — on le prépare dans le ballon même, quelques minutes avant.\n\nC'est le prix de sa vitesse. Clayden explique le succès du Stille et du Suzuki par la raison inverse : stannanes et acides boroniques « sont des intermédiaires stables en eux-mêmes, qui peuvent être préparés et purifiés séparément avant la réaction de couplage » (p. 1084). Le zinc échange cette commodité contre une transmétallation plus rapide.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Après la transmétallation",
+        "smiles": "CC[Pd]c1ccccc1",
+        "legende": "L'éthyle est passé du zinc au palladium, l'iodure a fait le trajet inverse — c'est là le sens du mot transmétallation, que Clayden explicite (p. 1083) : « le nucléophile est transféré du métal du réactif organométallique vers le palladium, et le contre-ion se déplace en sens opposé ».\n\nLe palladium porte maintenant DEUX liaisons σ vers des carbones. C'est la configuration commune à tous ces couplages, quel que soit le métal d'où vient le second groupe.\n\nAucune base n'a été nécessaire. Le Suzuki en exige une, parce que la soude doit s'additionner sur le bore à six électrons pour rendre le groupe R plus nucléophile (Grossman p. 390). Le zinc n'a pas besoin qu'on l'active.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Après l'élimination réductrice",
+        "smiles": "CCc1ccccc1.[Pd]",
+        "legende": "Les deux carbones se joignent, l'éthylbenzène sort, le palladium(0) est rendu.\n\nGrossman résume la parenté de toute la famille en une phrase (p. 390) : « le cycle catalytique est exactement le même pour le couplage de Negishi et pour beaucoup d'autres couplages d'alkylmétaux ».\n\nCe qui distingue le Negishi n'est donc pas son mécanisme mais son domaine : le partenaire zincique peut être un carbone sp³, ce que les autres couplages font mal. L'ÉLECTROPHILE, lui, doit rester sp² — un halogénure alkyle porteur d'hydrogènes β partirait en élimination β-hydrure juste après l'addition oxydante (Grossman p. 391).",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "amination_buchwald_hartwig": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le palladium tient l'aryle ; l'amine approche",
+        "smiles": "I[Pd]c1ccccc1.CNC",
+        "legende": "Le palladium(II) de l'addition oxydante, et l'amine libre.\n\nRien ne ressemble ici à un couplage carbone-carbone : l'azote arrive SEUL, sans métal porteur. Il n'y aura donc pas de transmétallation.\n\nC'est aussi pourquoi le ligand compte tant. Une phosphine encombrée comme t-Bu₃P est requise, et Grossman en donne la raison (p. 391) : « on pense que les ligands imposent au catalyseur de palladium un nombre de coordination plus BAS, ce qui en fait un catalyseur plus actif ». Un ligand qui prend de la place empêche un second ligand de venir — et c'est la place restée vide qui accueille l'amine.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'amine s'est posée, la base l'a déprotonée : un amidure de palladium",
+        "smiles": "CN(C)[Pd]c1ccccc1",
+        "legende": "L'amine s'est coordonnée. Clayden décrit exactement cet instant (p. 1093) : « le complexe de palladium(II) additionne alors l'amine, de sorte que les deux partenaires du couplage se retrouvent liés au MÊME atome de palladium ».\n\nMais l'azote porte encore son hydrogène, et il est donc chargé positivement une fois lié au métal. Dans cet état, rien ne peut se joindre : une élimination réductrice demande deux ligands anioniques.\n\nC'est ici qu'intervient la base — et c'est elle qui remplace, dans ce cycle, la transmétallation des autres couplages.\n\n« La base élimine H–I du complexe » (Clayden p. 1093). Le proton part avec l'halogénure, et il ne reste au palladium que deux ligands carbonés ou azotés — l'aryle et l'amidure.\n\nClayden liste les bases qui conviennent : t-BuONa, MeONa, LiN(TMS)₂, K₂CO₃. Le choix n'est pas indifférent : une amine peu acide demande une base forte, un substrat fragile en demande une douce.\n\nOn est maintenant dans la configuration commune à tous les couplages : deux ligands sur le métal, prêts à se joindre.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Après l'élimination réductrice",
+        "smiles": "CN(C)c1ccccc1.[Pd]",
+        "legende": "La liaison C–N est faite, la N,N-diméthylaniline sort, le palladium(0) repart.\n\nCe qu'on vient d'obtenir, une substitution nucléophile aromatique l'aurait donné aussi — mais à une condition que le palladium ne pose pas. Clayden met les deux méthodes en regard (p. 1095) : la SNAr exige « un groupe électroattracteur en ortho ou en para de l'halogénure », l'amination pallado-catalysée accepte « n'importe quel motif de substitution ».\n\nEt l'ordre des groupes partants s'inverse : F > Cl > Br > I pour la SNAr, où le fluor accélère l'addition ; I > Br > Cl >> F ici, où l'iode facilite l'addition oxydante — « mais le chlorure convient, et les chlorures d'aryle coûtent moins cher ».",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "metathese_olefines": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le carbène de ruthénium, place libérée",
+        "smiles": "[Ru]=Cc1ccccc1.C=CCCCCC=C",
+        "legende": "À gauche, le carbène de ruthénium du catalyseur de Grubbs — sa double liaison Ru=CHPh est le cœur de la réaction. Les deux chlorures et les phosphines ne sont pas écrits : ils ne changent pas au cours du cycle.\n\nUne d'entre elles vient pourtant de partir. Grossman le précise (p. 403) : « les deux catalyseurs de Grubbs perdent un ligand Cy₃P AVANT que le cycle catalytique ne commence », de sorte que l'alcène puisse se coordonner au métal.\n\nÀ droite, l'octa-1,7-diène : deux doubles liaisons terminales aux deux bouts d'une chaîne.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le métallacyclobutane",
+        "smiles": "[Ru]1C(c2ccccc2)CC1CCCCC=C",
+        "legende": "Le carbène s'est additionné sur l'une des doubles liaisons « en ce qu'on peut dessiner comme une cycloaddition [2+2] » (Clayden p. 1024), et l'on obtient « un cycle à quatre chaînons portant l'atome métallique dans le cycle — un MÉTALLACYCLOBUTANE ».\n\nRegardez le ruthénium : il portait une double liaison, il porte maintenant deux liaisons simples. Le compte est le même. C'est pourquoi Grossman peut écrire (p. 403) qu'« aucun changement du degré d'oxydation du métal n'a lieu au cours de la réaction ».\n\nAucune addition oxydante, aucune élimination réductrice : c'est ce qui sépare la métathèse de tous les autres cycles catalytiques.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "La rétro-[2+2], et le styrène qui sort",
+        "smiles": "[Ru]=CCCCCC=C.C=Cc1ccccc1",
+        "legende": "Le carré se rouvre — mais par les DEUX AUTRES côtés. Clayden décrit les deux issues (p. 1024) : « la même réaction se produit à l'envers, soit de façon improductive pour redonner les produits de départ, soit, par coupure des deux autres liaisons, un nouveau complexe carbénique et du styrène ».\n\nLe styrène qu'on voit ici ne reviendra plus. Il porte le phényle qui appartenait au CATALYSEUR, et Grossman prévient (p. 403) : « au premier tour du cycle catalytique, R est le substituant alkylidène du catalyseur — souvent Ph ; ensuite R = Me, venu du substrat ».\n\nLe styrène n'apparaît donc qu'une fois, en quantité catalytique. Le voir dans un chromatogramme n'est pas un mauvais signe.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Le second métallacyclobutane, cette fois refermé sur lui-même",
+        "smiles": "[Ru]1CC2CCCCC12",
+        "legende": "Le nouveau carbène va chercher la SECONDE double liaison de sa propre molécule. Le même [2+2] se produit, mais en intramoléculaire : le cycle à six qu'on cherchait est déjà formé, accolé au métallacyclobutane.\n\nC'est ici que la dilution compte. Si une autre molécule passe avant que la chaîne ne se soit repliée, le carbène l'attaque et l'on obtient un oligomère. On travaille donc très dilué — non pour ralentir la réaction, mais pour rendre la rencontre intramoléculaire plus probable que l'intermoléculaire.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Le cycle sort, le méthylidène reste",
+        "smiles": "C1=CCCCC1.[Ru]=C",
+        "legende": "La rétro-cycloaddition finale libère le cyclohexène et laisse un méthylidène de ruthénium, qui recommencera sur une autre molécule.\n\nCE QUE CE SCHÉMA NE MONTRE PAS, et qu'il faut savoir : tout ceci est RÉVERSIBLE. Grossman est net (p. 403) : « la réaction établit un équilibre entre tous les alcènes possibles ». Le carbène sait aussi bien défaire le cyclohexène que le faire.\n\nCE QUI TRANCHE : l'autre produit de la séquence est l'ÉTHYLÈNE, formé au tour suivant quand le méthylidène rencontre une autre double liaison terminale. L'éthylène est un gaz — il quitte le ballon et ne revient pas. « Il est possible de déplacer l'équilibre dans un sens ou dans l'autre, par exemple en retirant l'éthylène gazeux. »\n\nOn ne rend pas la réaction irréversible : on fait sortir un produit du ballon.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "carbonylation_catalysee": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le palladium tient l'aryle ; le CO prend la place d'une phosphine",
+        "smiles": "I[Pd]c1ccccc1.[C-]#[O+]",
+        "legende": "Le palladium(II) de l'addition oxydante, et le monoxyde de carbone.\n\nClayden décrit l'entrée en scène (p. 1085) : « le monoxyde de carbone échange d'abord avec l'un des ligands phosphine ». Rien d'étonnant — le CO est un excellent ligand des métaux de transition, et c'est d'ailleurs pour cette raison qu'il est mortel : il se lie au fer de l'hémoglobine par le même mécanisme.\n\nLes ligands ne sont pas écrits, mais celui-là compte : sans place libre, pas d'insertion.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Après l'insertion migratoire : un complexe acyle",
+        "smiles": "I[Pd]C(=O)c1ccccc1",
+        "legende": "Le cycle aromatique a migré du palladium vers le carbone du CO. Clayden note que l'insertion est « très rapide » (p. 1085).\n\nCE QU'IL FAUT VOIR MAINTENANT, et c'est la phrase de Grossman qui éclaire tout le cycle (p. 386) : « le complexe acylpalladium peut être vu comme un CHLORURE D'ACYLE compliqué ».\n\nLe palladium porte un groupe acyle et un halogénure. C'est la situation d'un chlorure d'acyle — la chimie qu'on connaît depuis le chapitre des dérivés d'acide. Tout nucléophile sait quoi en faire.\n\nCLAYDEN GÉNÉRALISE (p. 1076) : le groupe qui s'insère doit être INSATURÉ pour accueillir les liaisons nouvelles. CO, alcènes et alcynes donnent respectivement des complexes acyle, alkyle et alcényle — « et en principe ce processus d'allongement de chaîne peut être répété indéfiniment pour produire des polymères par polymérisation de Ziegler-Natta ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le nucléophile attaque, le palladium repart",
+        "smiles": "COC(=O)c1ccccc1.[Pd]",
+        "legende": "Le méthanol attaque le complexe acyle en addition-élimination — « la liaison Pd–C peut être remplacée par une liaison MeO–C » (Grossman p. 386) — et le benzoate de méthyle sort. Le départ de l'iodure rend le palladium(0).\n\nCHANGEZ DE NUCLÉOPHILE, CHANGEZ DE FAMILLE : un alcool donne un ester, une amine un amide, l'eau un acide, un organométallique une cétone. Une seule réaction, quatre débouchés — parce qu'on est retombé sur un carrefour connu.\n\nET VOICI POURQUOI LE CO A EU LE TEMPS DE S'INSÉRER. Sur un couplage de Stille conduit sous CO, Clayden observe la cétone à 80 % « sans aucune trace du produit de couplage normal », et il en donne la cause (p. 1085) : « la transmétallation est TOUJOURS l'étape lente de ces réactions de couplage, ce qui laisse le temps à l'insertion du monoxyde de carbone ».\n\nLe défaut du couplage est devenu la condition de la carbonylation.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

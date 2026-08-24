@@ -543,6 +543,22 @@
     "substrat": "couplage_stille-substrat.svg",
     "produit": "couplage_stille-produit.svg"
   },
+  "couplage_negishi": {
+    "substrat": "couplage_negishi-substrat.svg",
+    "produit": "couplage_negishi-produit.svg"
+  },
+  "amination_buchwald_hartwig": {
+    "substrat": "amination_buchwald_hartwig-substrat.svg",
+    "produit": "amination_buchwald_hartwig-produit.svg"
+  },
+  "metathese_olefines": {
+    "substrat": "metathese_olefines-substrat.svg",
+    "produit": "metathese_olefines-produit.svg"
+  },
+  "carbonylation_catalysee": {
+    "substrat": "carbonylation_catalysee-substrat.svg",
+    "produit": "carbonylation_catalysee-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1064,6 +1080,30 @@
   "et2nh": {
     "molecule": "reactif-et2nh.svg"
   },
+  "organozincique": {
+    "molecule": "reactif-organozincique.svg"
+  },
+  "catalyseur_grubbs": {
+    "molecule": "reactif-catalyseur_grubbs.svg"
+  },
+  "monoxyde_carbone": {
+    "molecule": "reactif-monoxyde_carbone.svg"
+  },
+  "tbu3p": {
+    "molecule": "reactif-tbu3p.svg"
+  },
+  "xantphos": {
+    "molecule": "reactif-xantphos.svg"
+  },
+  "naotbu": {
+    "molecule": "reactif-naotbu.svg"
+  },
+  "cs2co3": {
+    "molecule": "reactif-cs2co3.svg"
+  },
+  "pd_dba2": {
+    "molecule": "reactif-pd_dba2.svg"
+  },
   "dcm": {
     "molecule": "solvant-dcm.svg"
   },
@@ -1114,5 +1154,8 @@
   },
   "acetonitrile": {
     "molecule": "solvant-acetonitrile.svg"
+  },
+  "dioxane": {
+    "molecule": "solvant-dioxane.svg"
   }
 }
