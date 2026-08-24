@@ -18019,5 +18019,595 @@
         "valide": false
       }
     ]
+  },
+  "organolithiens": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le butyle arrache le proton de l'alcyne",
+        "smiles": "CCCCC#C[H].CCCC[Li]",
+        "legende": "Le lithium a laissé ses électrons au carbone du butyle : ce carbone est un carbanion, et le pKa du méthane — environ 50 (Clayden p. 186) — dit qu'un tel carbanion ne rend jamais un proton qu'il a pris.\n\nEn face, l'hydrogène de l'alcyne terminal a un pKa d'environ 25. Vingt-cinq unités d'écart : l'équilibre est déplacé au point de ne plus être un équilibre.\n\nLe butyle prend le proton et devient du butane, qui s'échappe. Les électrons de la liaison C–H restent sur le carbone de l'alcyne, où le lithium vient se poser.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                10,
+                11
+              ]
+            },
+            "vers": {
+              "liaison": [
+                10,
+                6
+              ]
+            },
+            "courbure": 0.25,
+            "libelle": "Le carbone du butyle, riche en électrons, va chercher le proton de l'alcyne."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                11
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Les électrons de la liaison C–H restent sur le carbone : l'acétylure de lithium est né."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCCC.CCCCC#C[Li]"
+      },
+      {
+        "numero": 2,
+        "titre": "L'acétylure attaque un électrophile",
+        "smiles": "CCCCC#C[Li].CI",
+        "legende": "On tient maintenant un carbone donneur là où il n'y en avait pas. On lui présente un iodométhane : substitution nucléophile ordinaire, l'iodure part avec ses électrons.\n\nLa chaîne s'est allongée par le bout de l'alcyne — et c'est bien pour cela qu'on avait fabriqué le réactif.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                7
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone de l'acétylure attaque le carbone porteur de l'iode."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": 0.35,
+            "libelle": "L'iodure part avec les électrons de la liaison C–I."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCCCC#CC.[Li+].[I-]"
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCCC#CC",
+        "legende": "Un alcyne interne. Le squelette a gagné un carbone, et il l'a gagné du côté qu'aucune autre base n'aurait su activer.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "cuprate_gilman": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Deux organolithiens fabriquent le cuprate",
+        "smiles": "C[Li].C[Li].Br[Cu]",
+        "legende": "Deux équivalents d'organolithien pour un sel de cuivre(I) : les deux groupes méthyle quittent leur lithium et se posent sur le cuivre, qui lâche son brome (Clayden p. 509).\n\nLe cuprate obtenu porte une charge négative sur le cuivre et deux Li⁺ en contre-ions. Il n'est pas stable : on le prépare à −78 °C et on l'emploie immédiatement.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                5
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le premier méthyle passe du lithium au cuivre."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": 0.25,
+            "libelle": "Le bromure part avec ses électrons."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                5
+              ]
+            },
+            "courbure": 0.25,
+            "libelle": "Le second méthyle rejoint le cuivre : le cuprate est formé."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "C[Cu-]C.[Br-].[Li+].[Li+]"
+      },
+      {
+        "numero": 2,
+        "titre": "Le cuprate livre son méthyle en position β",
+        "smiles": "C[Cu-]C.C=CC(C)=O",
+        "legende": "Voici le geste qui distingue le cuivre du magnésium. Le carbone du cuprate ne va PAS sur le carbonyle : il va tout au bout, sur le carbone β.\n\nLa raison est de mollesse (Clayden p. 510) : le cuivre étale les électrons sur des orbitales larges, la charge n'est concentrée nulle part. Un tel nucléophile recouvre bien mieux l'extrémité diffuse du système conjugué que le point de charge qu'est le carbone du carbonyle.\n\nLes électrons remontent alors la chaîne et se rassemblent sur l'oxygène : on obtient un énolate.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                3
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le méthyle quitte le cuivre et attaque le carbone β."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": -0.32,
+            "libelle": "La double liaison C=C se déplace vers le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": 0.34,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène : l'énolate est là."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCC=C([O-])C.C[Cu]"
+      },
+      {
+        "numero": 3,
+        "titre": "L'hydrolyse rend le carbonyle",
+        "smiles": "CCC=C([O-])C.O([H])[H]",
+        "legende": "L'énolate reprend un proton sur son carbone, et l'oxygène rend ses électrons à la double liaison C=O. La cétone est reformée — un carbone plus longue qu'au départ.\n\nOn peut aussi ne PAS hydrolyser et piéger l'énolate au chlorure de triméthylsilyle : Clayden note que l'addition « se passe bien mieux » ainsi (p. 509), et l'éther d'énol silylé obtenu est lui-même un réactif.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                7
+              ]
+            },
+            "courbure": 0.32,
+            "libelle": "Le carbone de l'énolate va chercher un proton de l'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": 0.36,
+            "libelle": "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "courbure": -0.34,
+            "libelle": "Un doublet de l'oxygène reforme la double liaison C=O."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCCC(C)=O.[OH-]"
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CCCC(C)=O",
+        "legende": "La pentan-2-one : le méthyle s'est ajouté en β, la cétone est intacte. Un magnésien nu aurait donné un alcool tertiaire, et une tout autre molécule.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "reformatsky": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "L'énolate de zinc attaque l'aldéhyde",
+        "smiles": "C=C(OCC)O[Zn]Br.CC=O",
+        "legende": "Le zinc s'est inséré dans la liaison C–Br de l'α-bromoester — insertion oxydante, Zn(0) → Zn(II), le même geste que pour un magnésien. Il en résulte un énolate de zinc, que Clayden dessine avec le métal porté par l'oxygène (p. 632).\n\nLe carbone terminal attaque le carbonyle de l'aldéhyde. Dans le même mouvement, l'ester reprend sa double liaison C=O et le zinc passe sur le nouvel alcoolate.\n\nLes deux partenaires sont tenus par le métal dans un anneau à six atomes : le carbone nucléophile n'a rien d'autre en face de lui que le carbone du carbonyle. C'est ce que Clayden appelle le mécanisme cyclique, et c'est ce qui interdit l'addition conjuguée (p. 631).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                9
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone terminal de l'énolate attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": 0.34,
+            "libelle": "Les électrons du C=O de l'aldéhyde se replient sur l'oxygène."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "courbure": -0.36,
+            "libelle": "La liaison O–Zn se rompt et l'ester reprend sa double liaison C=O."
+          },
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                6
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le nouvel alcoolate prend la place laissée libre sur le zinc."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCOC(=O)CC(C)O[Zn]Br"
+      },
+      {
+        "numero": 3,
+        "titre": "L'hydrolyse libère l'alcool",
+        "smiles": "CC(O[Zn]Br)CC(=O)OCC.O([H])[H]",
+        "legende": "L'eau n'arrive qu'ici. L'oxygène lié au zinc va chercher un proton : le β-hydroxyester apparaît, et le zinc part avec les sels.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                12
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "L'oxygène porté par le zinc va chercher un proton de l'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": 0.35,
+            "libelle": "Les électrons de la liaison O–H restent sur l'oxygène de l'eau."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.34,
+            "libelle": "La liaison oxygène–zinc se rompt, les électrons restant sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCOC(=O)CC(C)O.[OH-].[Zn+]Br"
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(O)CC(=O)OCC",
+        "legende": "Un β-hydroxyester : l'alcool d'un côté, l'ester trois atomes plus loin. La liaison carbone–carbone s'est faite exactement là où le brome l'avait annoncée.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "dithiane_umpolung": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "Le butyllithium déprotone le carbone masqué",
+        "smiles": "CC1([H])SCCCS1.CCCC[Li]",
+        "legende": "Le carbone du milieu portait l'oxygène de l'aldéhyde : il porte maintenant deux soufres, et son proton est devenu arrachable.\n\nDeux effets s'additionnent. Les deux soufres stabilisent la charge négative qui va naître ; et l'anion se délocalise dans l'orbitale σ* de la liaison C–S d'en face — ce qui explique, note Clayden, que le proton ÉQUATORIAL soit plus acide que l'axial (p. 661).\n\nÀ l'arrivée, le carbone qui était électrophile est devenu nucléophile. C'est tout l'umpolung, en une flèche.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "liaison": [
+                11,
+                2
+              ]
+            },
+            "courbure": 0.25,
+            "libelle": "Le carbone du butyle va chercher le proton du carbone acétalique."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                12
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Les électrons de la liaison C–H restent sur le carbone : le lithium s'y pose."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCCC.CC1([Li])SCCCS1"
+      },
+      {
+        "numero": 3,
+        "titre": "Le carbone retourné attaque un halogénure",
+        "smiles": "CC1([Li])SCCCS1.CC(C)I",
+        "legende": "Substitution nucléophile ordinaire — sauf que le nucléophile est un carbone qui, sous sa forme d'aldéhyde, se serait fait attaquer.\n\nClayden donne exactement cet exemple : l'éthanal devient un dithiane, le butyllithium le déprotone, l'iodure d'isopropyle l'alkyle (p. 662).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                9
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone du dithiane attaque le carbone porteur de l'iode."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": 0.35,
+            "libelle": "L'iodure part avec les électrons de la liaison C–I."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(C)C1(C)SCCCS1.[Li+].[I-]"
+      },
+      {
+        "numero": 4,
+        "titre": "Enlever le masque, et pourquoi c'est le point dur",
+        "smiles": "CC(C)C1(C)SCCCS1",
+        "legende": "AUCUNE FLÈCHE ICI, ET C'EST VOULU. Clayden explique pourquoi l'hydrolyse résiste, mais ne donne pas le détail de la voie au mercure : on ne dessine donc pas un mécanisme qu'on n'a pas lu.\n\nCe qu'il DIT (p. 663), et qui suffit à comprendre :\n\n• Le soufre est moins basique que l'oxygène. L'espèce protonée, indispensable, reste donc en très faible concentration à un pH donné.\n• Les doublets 3p du soufre forment une liaison π bien moins stable avec le carbone que les doublets 2p de l'oxygène. L'intermédiaire à double liaison C=S coûte cher.\n\nDeux marches trop hautes, l'une après l'autre. D'où sa conclusion : « la solution la plus évidente est de fournir au soufre un meilleur électrophile que le proton. Le mercure, Hg(II), en est une. » L'autre consiste à oxyder un soufre en sulfoxyde, pour protoner sur l'oxygène.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)C(C)C",
+        "legende": "Une cétone. Le carbone qui était celui d'un aldéhyde porte maintenant un carbone de plus — celui qu'il est allé chercher lui-même.\n\nDans le vocabulaire des synthons (Clayden p. 719-720), on vient d'employer un donneur en position 1 : un d¹, contre nature, et l'une des rares façons d'atteindre les composés 1,2- et 1,4-difonctionnalisés.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "ortholithiation": {
+    "etapes": [
+      {
+        "numero": 2,
+        "titre": "La base, tenue en laisse, ne peut prendre que l'ortho",
+        "smiles": "COC1=C([H])C=CC=C1.CCCC[Li]",
+        "legende": "Le doublet de l'oxygène du méthoxy retient le lithium, acide de Lewis — Clayden l'écrit ainsi : « complexation entre l'oxygène et le lithium » (p. 564). Cette coordination n'est pas dessinée ici, parce qu'une liaison dative se compterait formellement O⁺ / Li⁻ et ferait apparaître deux charges qui n'existent pas.\n\nMais c'est elle qui décide de tout. Le carbone du butyle, maintenu à courte distance, n'a qu'un proton à portée : celui de la position ortho. Il l'arrache.\n\nCe n'est PAS une affaire d'acidité : un proton méta est tout aussi acide, il est simplement hors d'atteinte. « Ce mécanisme fait que seuls les protons ortho au groupe fonctionnel peuvent être enlevés » (p. 564).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                12,
+                13
+              ]
+            },
+            "vers": {
+              "liaison": [
+                12,
+                4
+              ]
+            },
+            "courbure": 0.34,
+            "libelle": "Le carbone du butyle arrache le proton ortho, le seul qu'il puisse atteindre."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                13
+              ]
+            },
+            "courbure": -0.36,
+            "libelle": "Les électrons de la liaison C–H restent sur le carbone du cycle : l'aryllithium est né."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCCC.COC1=C([Li])C=CC=C1"
+      },
+      {
+        "numero": 3,
+        "titre": "L'aryllithium attaque le dioxyde de carbone",
+        "smiles": "COC1=C([Li])C=CC=C1.O=C=O",
+        "legende": "Le cycle est devenu nucléophile à un endroit choisi. On lui présente du dioxyde de carbone : le carbone aromatique attaque le carbone du CO₂, qui est électrophile parce qu'il est pris entre deux oxygènes.\n\nAprès hydrolyse acide, c'est un acide benzoïque — placé en ortho du méthoxy, et nulle part ailleurs. Clayden donne cette suite pour les organométalliques en général (p. 191).",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                10
+              ]
+            },
+            "courbure": 0.3,
+            "libelle": "Le carbone aromatique attaque le carbone du dioxyde de carbone."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": 0.34,
+            "libelle": "Les électrons d'une double liaison C=O se replient sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "COC1=C(C(=O)[O-])C=CC=C1.[Li+]"
+      },
+      {
+        "numero": 4,
+        "titre": "Ce qu'on obtient",
+        "smiles": "COC1=C(C(=O)O)C=CC=C1",
+        "legende": "L'acide 2-méthoxybenzoïque, seul. Aucun isomère para : la position n'a pas été choisie par un électrophile, elle a été imposée par une laisse de deux atomes.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

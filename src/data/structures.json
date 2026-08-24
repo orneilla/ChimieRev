@@ -503,6 +503,26 @@
     "substrat": "chimie_purines_pyrimidines-substrat.svg",
     "produit": "chimie_purines_pyrimidines-produit.svg"
   },
+  "organolithiens": {
+    "substrat": "organolithiens-substrat.svg",
+    "produit": "organolithiens-produit.svg"
+  },
+  "cuprate_gilman": {
+    "substrat": "cuprate_gilman-substrat.svg",
+    "produit": "cuprate_gilman-produit.svg"
+  },
+  "reformatsky": {
+    "substrat": "reformatsky-substrat.svg",
+    "produit": "reformatsky-produit.svg"
+  },
+  "dithiane_umpolung": {
+    "substrat": "dithiane_umpolung-substrat.svg",
+    "produit": "dithiane_umpolung-produit.svg"
+  },
+  "ortholithiation": {
+    "substrat": "ortholithiation-substrat.svg",
+    "produit": "ortholithiation-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -966,6 +986,36 @@
   "lawesson-ex0": {
     "substrat": "lawesson-ex0-substrat.svg",
     "produit": "lawesson-ex0-produit.svg"
+  },
+  "meli": {
+    "molecule": "reactif-meli.svg"
+  },
+  "cubr": {
+    "molecule": "reactif-cubr.svg"
+  },
+  "tmscl": {
+    "molecule": "reactif-tmscl.svg"
+  },
+  "zn_poudre": {
+    "molecule": "reactif-zn_poudre.svg"
+  },
+  "bromoacetate_ethyle": {
+    "molecule": "reactif-bromoacetate_ethyle.svg"
+  },
+  "propanedithiol": {
+    "molecule": "reactif-propanedithiol.svg"
+  },
+  "bf3": {
+    "molecule": "reactif-bf3.svg"
+  },
+  "ipri": {
+    "molecule": "reactif-ipri.svg"
+  },
+  "hgcl2": {
+    "molecule": "reactif-hgcl2.svg"
+  },
+  "co2": {
+    "molecule": "reactif-co2.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

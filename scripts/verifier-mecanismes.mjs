@@ -40,12 +40,15 @@ const VALENCE = {
   // L'étain(IV) de l'hydrure de tributylétain en a quatre, comme le carbone
   // qu'il surplombe dans sa colonne : c'est la faiblesse de la liaison
   // Sn–H, et non une valence exotique, qui fait tout son intérêt.
-  24: 6, 50: 4, 76: 8, 80: 2
+  // Le cuivre(I) des cuprates n'en engage qu'UN : le cuprate R₂Cu⁻ porte
+  // deux liaisons et une charge négative, et c'est ce compte-là qui rend
+  // la charge du réactif de Gilman.
+  24: 6, 29: 1, 50: 4, 76: 8, 80: 2
 }
 const SYMBOLE = {
   1: 'H', 3: 'Li', 5: 'B', 6: 'C', 7: 'N', 8: 'O', 9: 'F', 11: 'Na', 12: 'Mg',
   13: 'Al',
-  14: 'Si', 15: 'P', 16: 'S', 17: 'Cl', 19: 'K', 24: 'Cr', 30: 'Zn',
+  14: 'Si', 15: 'P', 16: 'S', 17: 'Cl', 19: 'K', 24: 'Cr', 29: 'Cu', 30: 'Zn',
   35: 'Br', 50: 'Sn', 53: 'I', 76: 'Os', 80: 'Hg'
 }
 

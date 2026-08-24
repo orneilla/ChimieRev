@@ -2578,5 +2578,237 @@
         "note": "La liaison P=O est la force motrice"
       }
     ]
+  },
+  {
+    "id": "meli",
+    "nom": "MeLi",
+    "nom_complet": "méthyllithium",
+    "famille": "Bases",
+    "SMILES": "C[Li]",
+    "role": "Organolithien le plus simple — base extrême et nucléophile dur",
+    "anatomie_annotations": [
+      {
+        "partie": "liaison carbone–lithium",
+        "role": "Le lithium est si électropositif (1,0 contre 2,5 pour le carbone) qu'il abandonne presque entièrement ses électrons : le carbone devient un carbanion. C'est la source de toute la réactivité."
+      },
+      {
+        "partie": "le méthyle",
+        "role": "Le plus petit groupe possible : rien ne gêne l'approche. C'est ce qui fait de MeLi le réactif de choix pour les carbonyles encombrés."
+      }
+    ],
+    "reactions_liees": [
+      "cuprate_gilman",
+      "organolithiens"
+    ],
+    "explication_reference": "Le méthyllithium est commercialisé en solution dans l'éther ou le DME (Clayden p. 186). La liaison C–Li fortement polarisée en fait à la fois un nucléophile dur et une base d'une force extrême : le pKa du méthane, son acide conjugué, est de l'ordre de 50 (p. 186), ce qui rend toute déprotonation irréversible.\n\nDeux emplois principaux : addition directe (1,2) sur un composé carbonylé, et préparation de cuprates de Gilman par action de deux équivalents sur un sel de cuivre(I) (p. 509).",
+    "explication_comprendre": "QU'EST-CE QUE C'EST, exactement ?\n\nUn méthyle à qui on a donné des électrons.\n\nLe lithium tient si mal les siens que, lié à un carbone, il les lui laisse. Le carbone se retrouve chargé négativement : c'est le contraire de sa situation habituelle, où c'est lui qu'on attaque.\n\nPOURQUOI LE PLUS PETIT EST LE PLUS UTILE\n\nUn méthyle n'a aucun volume. Devant une cétone entourée de gros groupes, où un réactif encombré n'arriverait pas à passer, MeLi passe.\n\nCE QU'IL FAUT SAVOIR AVANT DE L'OUVRIR\n\nC'est une base avant d'être un nucléophile. Devant un alcool, une amine ou un acide, il déprotone et ne fait rien d'autre. Et l'eau le détruit instantanément — il devient du méthane, qui s'échappe."
+  },
+  {
+    "id": "cubr",
+    "nom": "CuBr",
+    "nom_complet": "bromure de cuivre(I)",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "[Cu]Br",
+    "role": "Il rend un carbanion MOU, et l'envoie en position β",
+    "anatomie_annotations": [
+      {
+        "partie": "le cuivre(I)",
+        "role": "Un métal à couche d pleine : ses orbitales sont larges et diffuses. C'est ce qui « ramollit » le carbone qu'il porte, et le fait viser la double liaison plutôt que le carbonyle."
+      },
+      {
+        "partie": "le bromure",
+        "role": "Simple partenaire de départ : il quitte le cuivre quand les deux groupes organiques s'y fixent."
+      }
+    ],
+    "reactions_liees": [
+      "cuprate_gilman"
+    ],
+    "explication_reference": "Le bromure de cuivre(I) sert à préparer les diorganocuprates de lithium : 2 R–Li + CuBr → R₂CuLi + LiBr, dans l'éther ou le THF à −78 °C (Clayden p. 509). Le cuprate obtenu n'est pas stable et s'emploie immédiatement.\n\nSon rôle est de changer la DURETÉ du nucléophile. Un carbanion lithié est dur et attaque le carbonyle (addition 1,2) ; porté par le cuivre, il devient mou et attaque le carbone β d'un système conjugué (addition 1,4) — c'est la ligne décisive du tableau de la page 510.\n\nUne variante emploie CuCl en quantité CATALYTIQUE avec un magnésien : le cuivre transmétalle, livre, et se régénère (p. 509).",
+    "explication_comprendre": "POURQUOI ajouter un métal à un réactif qui marche déjà ?\n\nParce qu'on veut qu'il attaque ailleurs.\n\nDevant une cétone α,β-insaturée, un magnésien va sur le carbonyle. Si c'est le carbone du bout qu'on visait, il faut changer le réactif — pas les conditions.\n\nCE QUE LE CUIVRE FAIT AU CARBONE\n\nIl étale ses électrons.\n\nLe cuivre a une couche d pleine, aux orbitales larges. Le carbone qu'il porte n'a plus une charge concentrée en un point : elle est répartie, floue. On dit qu'il est devenu MOU.\n\nEt un nucléophile mou ne cherche pas un point de charge : il cherche une surface. Le carbone β d'une énone, extrémité d'un système d'orbitales étalé, est exactement cette surface.\n\nUNE HONNÊTETÉ À CONNAÎTRE\n\nClayden écrit l'organocuivre « Me–Cu » et précise pourquoi : « sa structure précise n'est pas connue » (p. 509). On sait ce que le réactif fait ; on ne sait pas le dessiner exactement."
+  },
+  {
+    "id": "tmscl",
+    "nom": "TMSCl",
+    "nom_complet": "chlorure de triméthylsilyle (Me₃SiCl)",
+    "famille": "Activation et groupes partants",
+    "SMILES": "C[Si](C)(C)Cl",
+    "role": "Il piège un énolate au passage, et tire la réaction",
+    "anatomie_annotations": [
+      {
+        "partie": "le silicium",
+        "role": "Il a une affinité remarquable pour l'oxygène : la liaison Si–O est l'une des plus fortes de la chimie organique. C'est ce qui rend le piégeage d'un énolate irréversible."
+      },
+      {
+        "partie": "le chlore",
+        "role": "Bon groupe partant : l'oxygène de l'énolate le remplace sans difficulté."
+      },
+      {
+        "partie": "les trois méthyles",
+        "role": "Ils encombrent le silicium juste ce qu'il faut : le groupe est stable à la manipulation, et se retire par un fluorure quand on le décide."
+      }
+    ],
+    "reactions_liees": [
+      "cuprate_gilman"
+    ],
+    "explication_reference": "Le chlorure de triméthylsilyle piège un énolate sous forme d'éther d'énol silylé. Clayden note que l'addition des cuprates de lithium aux cétones α,β-insaturées « se passe bien mieux » en sa présence (p. 509).\n\nLe même réactif sert à préparer les éthers d'énol silylés d'esters, à partir de l'énolate de lithium (p. 631) : c'est l'un des trois équivalents d'énolate d'ester utilisables en aldol croisé.",
+    "explication_comprendre": "POURQUOI ajouter un réactif qui ne participe pas à la liaison qu'on veut faire ?\n\nPour empêcher le produit de revenir en arrière.\n\nUne addition conjuguée donne un énolate. Tant qu'il reste énolate, il peut se reprotoner, se réarranger, ou se faire attaquer une seconde fois. Il est en équilibre avec son milieu.\n\nCE QUE LE SILICIUM CHANGE\n\nLa liaison silicium–oxygène est l'une des plus solides qu'on rencontre. Une fois l'énolate silylé, il ne revient pas.\n\nC'est le principe du verrou : à chaque fois qu'une molécule de produit se forme, on la met de côté immédiatement, hors d'atteinte. L'équilibre n'a plus qu'à avancer.\n\nET ON PEUT ROUVRIR\n\nUn ion fluorure défait la liaison Si–O quand on le décide : le silicium a plus d'affinité encore pour le fluor que pour l'oxygène. Le verrou a donc une clé."
+  },
+  {
+    "id": "zn_poudre",
+    "nom": "Zn",
+    "nom_complet": "zinc en poudre (activé)",
+    "famille": "Hydrures et réducteurs",
+    "SMILES": "[Zn]",
+    "role": "Il s'insère dans une liaison carbone–halogène, plus doucement que le magnésium",
+    "anatomie_annotations": [
+      {
+        "partie": "le zinc(0)",
+        "role": "Il passe à Zn(II) en s'insérant dans la liaison carbone–brome — le même geste que le magnésium. Mais le carbanion qui en résulte est bien moins réactif."
+      }
+    ],
+    "reactions_liees": [
+      "reformatsky"
+    ],
+    "explication_reference": "Le zinc métallique s'insère dans la liaison carbone–halogène d'un α-halogénoester pour donner un énolate de zinc, que Clayden dessine avec le métal porté par l'oxygène (p. 632).\n\nSon intérêt est sa DOUCEUR. Un énolate d'ester lithié attaque l'ester dont il provient et exige −78 °C ; l'énolate de zinc supporte le reflux et coexiste sans dommage avec son précurseur. Clayden le range parmi les trois équivalents d'énolate d'ester employables en aldol croisé (p. 632).\n\nLe métal doit être activé : sa couche d'oxyde superficielle empêche l'insertion.",
+    "explication_comprendre": "POURQUOI pas simplement du magnésium ?\n\nParce qu'il serait trop bon.\n\nLe magnésium donne un carbanion d'une réactivité extrême. Sur un α-bromoester, cet organomagnésien attaquerait immédiatement l'ester de la molécule voisine — celle-là même dont il vient. On obtiendrait une bouillie.\n\nCE QUE LE ZINC APPORTE\n\nLe même geste, en moins fort.\n\nLe zinc s'insère de la même façon dans la liaison carbone–brome. Mais l'espèce obtenue est nettement moins nucléophile : assez pour attaquer un aldéhyde, plus assez pour s'en prendre à un ester.\n\nC'est un réactif qu'on peut laisser au reflux sans le surveiller. C'est rare, et c'est précieux.\n\nUN DÉTAIL DE PAILLASSE QUI DÉCIDE DE TOUT\n\nUn zinc qui sort du flacon ne réagit pas. Sa surface porte une couche d'oxyde qui isole le métal.\n\nIl faut la détruire : poudre fraîche, lavage acide, ou quelques cristaux d'iode. Sans cette activation, rien ne se passe et on cherche longtemps pourquoi."
+  },
+  {
+    "id": "bromoacetate_ethyle",
+    "nom": "BrCH₂CO₂Et",
+    "nom_complet": "bromoacétate d'éthyle",
+    "famille": "Amines et donneurs de condensation",
+    "SMILES": "BrCC(=O)OCC",
+    "role": "Il désigne à l'avance la position qui deviendra nucléophile",
+    "anatomie_annotations": [
+      {
+        "partie": "le brome en α",
+        "role": "C'est le marqueur. Le zinc s'insère là et nulle part ailleurs : la régiochimie de l'énolate n'est jamais un pari."
+      },
+      {
+        "partie": "l'ester",
+        "role": "Il restera intact pendant toute la réaction — c'est justement ce que la douceur du zinc permet."
+      }
+    ],
+    "reactions_liees": [
+      "reformatsky"
+    ],
+    "explication_reference": "Le bromoacétate d'éthyle est le précurseur classique de l'énolate de zinc de la réaction de Reformatsky (Clayden p. 632). Le zinc s'insère dans la liaison C–Br, engendrant l'énolate à la position marquée par l'halogène.\n\nCette façon de procéder résout le problème que pose l'aldolisation croisée d'un ester et d'un aldéhyde : on n'a pas à demander à une base de choisir entre deux partenaires, puisque la position métallée est fixée par le substrat (p. 631).",
+    "explication_comprendre": "POURQUOI partir d'un ester déjà bromé ?\n\nPour ne pas avoir à demander à une base de bien choisir.\n\nSi on jette une base dans un mélange d'ester et d'aldéhyde, elle déprotonera l'aldéhyde : il est plus facile à énoliser. On aurait le mauvais énolate, et le mauvais produit.\n\nCE QUE LE BROME CHANGE\n\nIl désigne la position d'avance.\n\nLe zinc ne cherche pas un proton acide : il cherche une liaison carbone–halogène. Il n'y en a qu'une, on l'a posée nous-mêmes. La régiochimie est donc décidée avant que la réaction ne commence.\n\nC'est une leçon de méthode qui dépasse la Reformatsky : quand une sélectivité est difficile à obtenir, on la déplace en amont, dans la préparation du substrat."
+  },
+  {
+    "id": "propanedithiol",
+    "nom": "HS(CH₂)₃SH",
+    "nom_complet": "propane-1,3-dithiol",
+    "famille": "Activation et groupes partants",
+    "SMILES": "SCCCS",
+    "role": "Il masque un carbonyle — et en inverse la polarité",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux thiols",
+        "role": "Ils remplacent l'oxygène du carbonyle. Le carbone n'est plus électrophile — et, une fois déprotoné, il devient nucléophile."
+      },
+      {
+        "partie": "les trois carbones de la chaîne",
+        "role": "Ils referment un cycle à six chaînons, le plus stable. C'est pourquoi c'est ce dithiol-là qu'on emploie, et pas un autre."
+      }
+    ],
+    "reactions_liees": [
+      "dithiane_umpolung"
+    ],
+    "explication_reference": "Le propane-1,3-dithiol convertit un aldéhyde ou une cétone en 1,3-dithiane, sous catalyse par un acide de Lewis — BF₃ typiquement, un acide protique ne suffisant pas (Clayden p. 662).\n\nClayden justifie ce choix parmi les thioacétals : les dithianes issus du propane-1,3-dithiol sont « les plus faciles à faire, les plus stables vis-à-vis de l'hydrolyse, et les plus réactifs vis-à-vis de l'alkylation » (p. 662). Le cycle à six chaînons explique les deux premières qualités.\n\nLa troisième vient de l'acidité du proton acétalique : les deux soufres stabilisent l'anion, et la délocalisation dans la σ* de la liaison C–S d'en face rend le proton équatorial plus acide que l'axial (p. 661).",
+    "explication_comprendre": "POURQUOI remplacer un oxygène par deux soufres ?\n\nParce qu'un oxygène, même masqué, ne rend pas le carbone nucléophile.\n\nUn acétal ordinaire — deux oxygènes — protège très bien un carbonyle. Mais son proton central reste inarrachable : on ne peut rien en faire d'autre que le protéger.\n\nCE QUE LE SOUFRE AJOUTE\n\nIl stabilise la charge négative voisine.\n\nDeux soufres autour d'un même carbone le stabilisent assez pour qu'un organolithien puisse lui prendre son proton. Le carbone porte alors une charge négative : il est devenu nucléophile.\n\nLe déguisement ne cache donc pas seulement le carbone : il le retourne. C'est ce qu'on appelle l'umpolung.\n\nPOURQUOI TROIS CARBONES, ET PAS DEUX OU QUATRE\n\nParce que trois carbones plus le carbone acétalique plus deux soufres font six atomes : le cycle le plus stable qu'on sache faire.\n\nC'est aussi ce qui rend l'hydrolyse difficile à la fin — la stabilité se paie toujours quelque part."
+  },
+  {
+    "id": "bf3",
+    "nom": "BF₃",
+    "nom_complet": "trifluorure de bore (souvent BF₃·OEt₂)",
+    "famille": "Acides et acides de Lewis",
+    "SMILES": "FB(F)F",
+    "role": "Acide de Lewis fort, sans le moindre proton",
+    "anatomie_annotations": [
+      {
+        "partie": "le bore",
+        "role": "Il n'a que six électrons autour de lui : une case quantique vide. Il arrache donc un doublet à tout ce qui en porte un."
+      },
+      {
+        "partie": "les trois fluors",
+        "role": "Les atomes les plus électronégatifs qui soient : ils appauvrissent encore le bore et font de BF₃ l'un des acides de Lewis les plus forts qu'on manipule couramment."
+      }
+    ],
+    "reactions_liees": [
+      "dithiane_umpolung"
+    ],
+    "explication_reference": "Le trifluorure de bore catalyse la formation des thioacétals à partir d'un composé carbonylé et d'un thiol : « un acide de Lewis tel que BF₃ est habituellement nécessaire plutôt qu'un acide protique » (Clayden p. 662).\n\nIl s'emploie ordinairement sous forme de complexe avec l'éther diéthylique, BF₃·OEt₂, liquide manipulable.",
+    "explication_comprendre": "POURQUOI un acide sans proton ?\n\nParce qu'il y a deux façons d'être acide, et qu'ici la première ne marche pas.\n\nUn acide ordinaire donne un proton. Un acide de Lewis, lui, PREND un doublet — c'est un trou à électrons.\n\nLe bore de BF₃ n'a que six électrons autour de lui au lieu de huit. Il lui manque une paire, et il ira la chercher partout où il en trouve.\n\nPOURQUOI ÇA CHANGE QUELQUE CHOSE POUR UN THIOACÉTAL\n\nParce que le soufre ne s'intéresse pas beaucoup aux protons.\n\nFormer un acétal ordinaire demande de protoner un carbonyle : un acide protique suffit. Former un thioacétal demande d'activer une chimie où le soufre est en jeu, et le soufre est un atome MOU : un proton, dur et petit, n'a pas prise sur lui.\n\nBF₃ active le carbonyle autrement, en s'accrochant directement à son oxygène. La réaction repart."
+  },
+  {
+    "id": "ipri",
+    "nom": "i-PrI",
+    "nom_complet": "2-iodopropane (iodure d'isopropyle)",
+    "famille": "Électrophiles",
+    "SMILES": "CC(C)I",
+    "role": "Halogénure secondaire — l'électrophile qu'on présente à un carbanion",
+    "anatomie_annotations": [
+      {
+        "partie": "l'iode",
+        "role": "Le meilleur des groupes partants halogénés : gros, mou, très peu basique. Il part sans se faire prier."
+      },
+      {
+        "partie": "le carbone secondaire",
+        "role": "Deux méthyles autour : la SN2 y passe encore, mais on n'ira pas plus loin. Sur un carbone tertiaire, la substitution est fermée."
+      }
+    ],
+    "reactions_liees": [
+      "dithiane_umpolung"
+    ],
+    "explication_reference": "L'iodure d'isopropyle est l'électrophile de l'exemple que donne Clayden pour l'alkylation d'un dithiane lithié (p. 662) : le 2-méthyldithiane lithié l'attaque en SN2, avec 84 % de rendement sur la séquence.\n\nHalogénure secondaire : la substitution y reste possible, mais l'élimination concurrence dès que la base est forte et encombrée.",
+    "explication_comprendre": "POURQUOI l'iodure plutôt que le chlorure ?\n\nParce qu'un bon groupe partant est un anion stable.\n\nL'iodure est gros : sa charge est étalée sur un volume important, donc peu gênante. Il est mou, très peu basique, et ne cherche pas à revenir. Le chlorure et surtout le fluorure sont plus petits, plus basiques, et repartent volontiers en arrière.\n\nCE QUE « SECONDAIRE » VEUT DIRE ICI\n\nDeux groupes autour du carbone attaqué. C'est la limite haute d'une SN2 : le nucléophile passe encore, mais il faut qu'il ne soit pas trop volumineux lui-même.\n\nAvec un carbanion de dithiane, ça passe. Avec une base plus encombrée, on obtiendrait du propène — l'élimination l'aurait emporté."
+  },
+  {
+    "id": "hgcl2",
+    "nom": "HgCl₂",
+    "nom_complet": "chlorure de mercure(II)",
+    "famille": "Acides et acides de Lewis",
+    "SMILES": "Cl[Hg]Cl",
+    "role": "Électrophile MOU — le seul qui intéresse vraiment le soufre",
+    "anatomie_annotations": [
+      {
+        "partie": "le mercure(II)",
+        "role": "Un cation lourd, polarisable, aux orbitales diffuses : l'électrophile mou par excellence. C'est ce qui lui donne prise sur le soufre là où un proton n'en a pas."
+      },
+      {
+        "partie": "les deux chlorures",
+        "role": "Contre-ions, sans rôle propre. Ils partent avec le mercure dans les déchets — qui sont très toxiques."
+      }
+    ],
+    "reactions_liees": [
+      "dithiane_umpolung"
+    ],
+    "explication_reference": "Le chlorure de mercure(II) sert à hydrolyser un dithiane, c'est-à-dire à démasquer le carbonyle qu'il protégeait.\n\nClayden pose le problème puis nomme la solution (p. 663) : l'hydrolyse d'un thioacétal résiste parce que le soufre est moins basique que l'oxygène — donc l'espèce protonée reste en très faible concentration — et parce que la liaison π C=S est moins stable que C=O. « La solution la plus évidente est de fournir au soufre un meilleur électrophile que le proton. Le mercure, Hg(II), en est une. »\n\nUne alternative consiste à oxyder un soufre en sulfoxyde : la protonation se fait alors sur l'oxygène, bien plus basique.",
+    "explication_comprendre": "POURQUOI un sel de mercure pour une simple hydrolyse ?\n\nParce que l'eau et l'acide n'y suffisent pas.\n\nUn acétal ordinaire tombe avec un peu d'acide dilué : on protone un oxygène, et tout s'enchaîne. Un dithiane, lui, résiste — et Clayden dit exactement pourquoi (p. 663) : le soufre n'aime pas les protons, et la double liaison carbone–soufre qu'il faudrait former est trop coûteuse.\n\nL'IMAGE : DUR ET MOU, ENCORE\n\nUn proton est petit, chargé, concentré : c'est un électrophile DUR. Il se marie bien avec l'oxygène, qui est un atome dur lui aussi.\n\nLe soufre est gros, polarisable, diffus : c'est un atome MOU. Le proton n'a pas prise sur lui.\n\nLe mercure(II), lui, est aussi mou que le soufre. Ils se trouvent. Le mercure tire sur le soufre là où le proton ne tirait rien, et l'hydrolyse repart.\n\nCE QU'IL FAUT SAVOIR AVANT DE L'EMPLOYER\n\nLes sels de mercure sont très toxiques, et leurs déchets ne se jettent pas. Ils empoisonnent aussi les catalyseurs au palladium : si une étape pallado-catalysée vient plus loin dans la synthèse, il faut y penser."
+  },
+  {
+    "id": "co2",
+    "nom": "CO₂",
+    "nom_complet": "dioxyde de carbone (neige carbonique)",
+    "famille": "Électrophiles",
+    "SMILES": "O=C=O",
+    "role": "Il ajoute un carbone, et ce carbone est déjà au degré d'oxydation de l'acide",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone central",
+        "role": "Pris entre deux oxygènes qui tirent chacun de leur côté : il est très appauvri, donc franchement électrophile. C'est lui que l'organométallique attaque."
+      },
+      {
+        "partie": "les deux doubles liaisons",
+        "role": "L'une d'elles se replie sur son oxygène quand l'attaque a lieu : on obtient un carboxylate, qui donne l'acide après hydrolyse."
+      }
+    ],
+    "reactions_liees": [
+      "ortholithiation",
+      "organolithiens"
+    ],
+    "explication_reference": "Le dioxyde de carbone réagit avec les organométalliques pour donner, après hydrolyse acide, un acide carboxylique (Clayden p. 190-191). La séquence se conduit en trois temps : formation de l'organométallique, réaction avec CO₂, puis traitement acide — l'eau n'intervenant qu'à la fin.\n\nOn l'introduit en général sous forme de neige carbonique, ce qui assure à la fois l'excès et la basse température.",
+    "explication_comprendre": "POURQUOI le gaz le plus inerte de l'atmosphère serait-il un réactif ?\n\nParce qu'il est inerte devant les nucléophiles ordinaires, pas devant un carbanion.\n\nLe carbone du CO₂ est coincé entre deux oxygènes qui lui tirent ses électrons des deux côtés. Il est donc très appauvri — franchement électrophile. Ce qui lui manque, ce n'est pas l'envie de se faire attaquer : c'est un nucléophile assez fort pour le faire.\n\nUn organolithien l'est.\n\nCE QU'ON GAGNE EN UNE ÉTAPE\n\nUn carbone de plus, et il arrive déjà au bon degré d'oxydation.\n\nSi on ajoutait ce carbone sous forme de méthyle, il faudrait ensuite l'oxyder trois fois pour en faire un acide. Ici, l'acide sort directement : les deux oxygènes étaient déjà là.\n\nCOMMENT ON L'INTRODUIT\n\nSous forme de neige carbonique — du CO₂ solide, qu'on verse dans le ballon.\n\nDeux avantages d'un coup : on en met forcément en excès, et il refroidit le milieu en subliment. Un organométallique aime les deux."
   }
 ]

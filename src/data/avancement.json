@@ -1,8 +1,8 @@
 {
-  "genere_le": "2026-08-23",
-  "total": 289,
-  "redigees": 128,
-  "verifiees": 122,
+  "genere_le": "2026-08-24",
+  "total": 287,
+  "redigees": 131,
+  "verifiees": 125,
   "relues": 0,
   "familles": [
     {
@@ -1063,9 +1063,9 @@
       "famille": "Organométalliques",
       "bloc": "Organométallique et catalyse",
       "total": 6,
-      "absente": 5,
+      "absente": 0,
       "redigee": 0,
-      "verifiee": 1,
+      "verifiee": 6,
       "relue": 0,
       "reactions": [
         {
@@ -1078,37 +1078,37 @@
         {
           "nom": "Organolithiens",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "organolithiens",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cuprates de Gilman (addition 1,4)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cuprate_gilman",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Reformatsky",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reformatsky",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Umpolung : dithianes",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "dithiane_umpolung",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Métallation dirigée (ortho-lithiation)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ortholithiation",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

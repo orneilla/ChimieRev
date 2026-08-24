@@ -3006,6 +3006,167 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "organolithiens": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "186",
+          "note": "Le tableau des organolithiens et des magnésiens qu'on achète tout faits, avec leur solvant de conditionnement. Et surtout le pKa du méthane, « aux environs de 50 » : c'est ce chiffre qui explique qu'une réaction acide-base d'organolithien soit irréversible. Pourquoi le lithium demande DEUX atomes là où le magnésium n'en demande qu'un."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "190",
+          "note": "Le récapitulatif des quatre voies d'accès, sur une seule page : insertion oxydante, déprotonation d'un alcyne, échange halogène–métal à −100 °C, transmétallation vers le zinc. Et la phrase qui autorise à traiter organolithiens et magnésiens ensemble : « dans presque tous les cas, les deux classes s'emploient indifféremment »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "191",
+          "note": "La règle de paillasse écrite en toutes lettres : aucune eau pendant les deux premières étapes, on ne l'ajoute qu'à la fin. Les organométalliques et le dioxyde de carbone : l'acide carboxylique en trois temps."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "8 — Acidity, basicity and pKa",
+          "pages": "253",
+          "note": "Les organolithiens attaquent le THF, le solvant dans lequel ils se dissolvent le mieux. D'où les basses températures et les solvants hydrocarbonés."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Gilman, H. ; Zoellner, E. A. ; Selby, W. M. « The Preparation of Organolithium Compounds by the Transmetalation Method ». Journal of the American Chemical Society, 1932, 54, 1957–1962.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié — il n'est pas écrit tant qu'il n'a pas été confirmé par deux sources indépendantes."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "cuprate_gilman": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition",
+          "pages": "509",
+          "note": "La préparation du cuprate : deux équivalents d'organolithien sur CuBr dans l'éther ou le THF à −78 °C, et l'avertissement — le cuprate « n'est pas stable et doit être employé immédiatement ». La variante catalytique au CuCl avec un magnésien, et l'honnêteté de Clayden sur la structure de l'organocuivre : « écrit ici Me–Cu parce que sa structure précise n'est pas connue ». Le chlorure de triméthylsilyle améliore nettement l'addition."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "22 — Conjugate addition",
+          "pages": "510",
+          "note": "Le tableau 1,4 contre 1,2, en quatre lignes : conditions, structure de l'énone, type de nucléophile, organométallique employé. C'est la ligne « nucléophile mou → conjugué, nucléophile dur → direct » qui porte l'explication."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "House, H. O. ; Respess, W. L. ; Whitesides, G. M. « The Chemistry of Carbanions. XII. The Role of Copper in the Conjugate Addition of Organometallic Reagents ». The Journal of Organic Chemistry, 1966, 31, 3128–3141.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "reformatsky": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "27 — Reactions of enolates with carbonyl compounds",
+          "pages": "631",
+          "note": "Pourquoi l'aldol croisé ester + aldéhyde échoue avec une base ordinaire : « l'aldéhyde est à la fois plus énolisable et plus électrophile que l'ester ; il se condensera avec lui-même et ignorera l'ester ». Et le mécanisme cyclique, qui « fait que l'énolate s'additionne directement sur le carbonyle et non de façon conjuguée »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "27 — Reactions of enolates with carbonyl compounds",
+          "pages": "632",
+          "note": "Les trois équivalents d'énolate d'ester alignés sur une même ligne : énolate de lithium, éther d'énol silylé, énolate de zinc. « Les énolates de zinc, faits à partir des bromoesters, sont une bonne alternative aux énolates de lithium. » Le schéma donne le zinc porté par l'oxygène."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Reformatsky, S. « Neue Synthese zweiatomiger einbasischer Säuren aus den Ketonen ». Berichte der deutschen chemischen Gesellschaft, 1887, 20, 1210–1211.",
+          "doi": null,
+          "verifie": false,
+          "note": "Publication de 1887 — DOI non vérifié ; à sourcer via les archives des Berichte plutôt que par DOI."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "dithiane_umpolung": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "31 — Sulfur, silicon and phosphorus in organic chemistry",
+          "pages": "661",
+          "note": "L'acidité du proton acétalique d'un dithiane, et le facteur qu'on oublie : la délocalisation dans l'orbitale σ* de la liaison C–S d'en face. C'est pourquoi le proton ÉQUATORIAL est plus acide que l'axial, et l'anion équatorial plus stable."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "31 — Sulfur, silicon and phosphorus in organic chemistry",
+          "pages": "662",
+          "note": "La formation du thioacétal cyclique à partir du propane-1,3-dithiol, avec un acide de Lewis (BF₃) et non un acide protique. Les trois qualités des dithianes : les plus faciles à faire, les plus stables à l'hydrolyse, les plus réactifs à l'alkylation. Et le schéma de l'umpolung : carbone électrophile → carbone nucléophile, sur le même atome."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "31 — Sulfur, silicon and phosphorus in organic chemistry",
+          "pages": "663",
+          "note": "Pourquoi l'hydrolyse résiste, en deux raisons chiffrables : le soufre est moins basique que l'oxygène (espèce protonée en faible concentration) et la liaison π C=S est moins stable que C=O. D'où la solution : « fournir au soufre un meilleur électrophile que le proton. Le mercure, Hg(II), en est une. » L'autre est l'oxydation d'un soufre en sulfoxyde."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "28 — Retrosynthetic analysis",
+          "pages": "719-720",
+          "note": "Le vocabulaire des synthons donneurs et accepteurs, et la parité qui les gouverne : accepteurs impairs, donneurs pairs. C'est ce comptage qui rend les composés 1,2- et 1,4-difonctionnalisés difficiles, et qui donne son sens au mot « umpolung »."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Corey, E. J. ; Seebach, D. « Carbanions of 1,3-Dithianes. Reagents for C–C Bond Formation by Nucleophilic Displacement and Carbonyl Addition ». Angewandte Chemie International Edition, 1965, 4, 1075–1077.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié — l'article est bien celui-ci, mais son identifiant n'a pas été confirmé par deux sources indépendantes."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "ortholithiation": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Regioselectivity",
+          "pages": "563",
+          "note": "Le problème posé : un groupe donneur oriente en ortho ET en para, et on sait obtenir le para pur mais pas l'ortho. « Mais il existe un moyen général de diriger les électrophiles vers la position ortho : l'activation par métallation. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Regioselectivity",
+          "pages": "564",
+          "note": "Le mécanisme, dessiné : « complexation entre l'oxygène et le lithium, acide de Lewis », puis la déprotonation. La phrase qui porte toute la sélectivité : « ce mécanisme fait que seuls les protons ORTHO au groupe fonctionnel peuvent être enlevés ». La double condition d'un bon groupe directeur — donner un doublet au lithium, et retirer des électrons du cycle. L'exemple à la benzylamine tertiaire, 73 % de rendement. Et la limite, dite sans détour : « bien moins générale que les autres voies »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "24 — Regioselectivity",
+          "pages": "565",
+          "note": "L'alternative sans lithium : la sulfonation, qui donne une sélectivité ortho et dont le groupe sait ensuite se retirer."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "9 — Using organometallic reagents to make C–C bonds",
+          "pages": "191",
+          "note": "La suite synthétique : l'organométallique et le dioxyde de carbone donnent l'acide carboxylique, en trois temps dont l'hydrolyse finale."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Gilman, H. ; Bebb, R. L. « Relative Reactivities of Organometallic Compounds. XX. Metalation ». Journal of the American Chemical Society, 1939, 61, 109–112.",
+          "doi": null,
+          "verifie": false,
+          "note": "DOI non vérifié."
+        }
+      ],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

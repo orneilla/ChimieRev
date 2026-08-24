@@ -758,27 +758,27 @@
         {
           "nom": "Organolithiens",
           "niveau": "L3",
-          "id": null
+          "id": "organolithiens"
         },
         {
           "nom": "Cuprates de Gilman (addition 1,4)",
           "niveau": "M1",
-          "id": null
+          "id": "cuprate_gilman"
         },
         {
           "nom": "Réaction de Reformatsky",
           "niveau": "M1",
-          "id": null
+          "id": "reformatsky"
         },
         {
           "nom": "Umpolung : dithianes",
           "niveau": "M2",
-          "id": null
+          "id": "dithiane_umpolung"
         },
         {
           "nom": "Métallation dirigée (ortho-lithiation)",
           "niveau": "M2",
-          "id": null
+          "id": "ortholithiation"
         }
       ],
       "bloc": "Organométallique et catalyse"

@@ -60,12 +60,28 @@ const familles = programme.familles.map((famille) => {
   }
 })
 
+// Le total général compte les réactions DISTINCTES, pas les lignes du
+// programme. Une même réaction y figure parfois dans deux familles — le
+// Grignard est une addition sur le carbonyle ET un organométallique, la
+// Baeyer-Villiger une oxydation ET un réarrangement. C'est juste du point
+// de vue du programme, et faux du point de vue du compteur : sans cette
+// précaution l'avancement annonçait deux fiches de plus qu'il n'en existe.
+const vues = new Map()
+for (const famille of familles) {
+  for (const reaction of famille.reactions) {
+    const cle = reaction.id || `${famille.famille}/${reaction.nom}`
+    if (!vues.has(cle)) vues.set(cle, reaction.statut)
+  }
+}
+const distinctes = [...vues.values()]
+const combien = (...statuts) => distinctes.filter((s) => statuts.includes(s)).length
+
 const avancement = {
   genere_le: new Date().toISOString().slice(0, 10),
-  total: familles.reduce((t, f) => t + f.total, 0),
-  redigees: familles.reduce((t, f) => t + f.redigee + f.verifiee + f.relue, 0),
-  verifiees: familles.reduce((t, f) => t + f.verifiee + f.relue, 0),
-  relues: familles.reduce((t, f) => t + f.relue, 0),
+  total: distinctes.length,
+  redigees: combien('redigee', 'verifiee', 'relue'),
+  verifiees: combien('verifiee', 'relue'),
+  relues: combien('relue'),
   familles
 }
 

@@ -6079,5 +6079,207 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "organolithiens": {
+    "1": {
+      "fichier": "organolithiens-etape1.svg",
+      "titre": "Le butyle arrache le proton de l'alcyne",
+      "legende": "Le lithium a laissé ses électrons au carbone du butyle : ce carbone est un carbanion, et le pKa du méthane — environ 50 (Clayden p. 186) — dit qu'un tel carbanion ne rend jamais un proton qu'il a pris.\n\nEn face, l'hydrogène de l'alcyne terminal a un pKa d'environ 25. Vingt-cinq unités d'écart : l'équilibre est déplacé au point de ne plus être un équilibre.\n\nLe butyle prend le proton et devient du butane, qui s'échappe. Les électrons de la liaison C–H restent sur le carbone de l'alcyne, où le lithium vient se poser.",
+      "fleches": [
+        "Le carbone du butyle, riche en électrons, va chercher le proton de l'alcyne.",
+        "Les électrons de la liaison C–H restent sur le carbone : l'acétylure de lithium est né."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "organolithiens-etape2.svg",
+      "titre": "L'acétylure attaque un électrophile",
+      "legende": "On tient maintenant un carbone donneur là où il n'y en avait pas. On lui présente un iodométhane : substitution nucléophile ordinaire, l'iodure part avec ses électrons.\n\nLa chaîne s'est allongée par le bout de l'alcyne — et c'est bien pour cela qu'on avait fabriqué le réactif.",
+      "fleches": [
+        "Le carbone de l'acétylure attaque le carbone porteur de l'iode.",
+        "L'iodure part avec les électrons de la liaison C–I."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "organolithiens-etape3.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un alcyne interne. Le squelette a gagné un carbone, et il l'a gagné du côté qu'aucune autre base n'aurait su activer.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "cuprate_gilman": {
+    "1": {
+      "fichier": "cuprate_gilman-etape1.svg",
+      "titre": "Deux organolithiens fabriquent le cuprate",
+      "legende": "Deux équivalents d'organolithien pour un sel de cuivre(I) : les deux groupes méthyle quittent leur lithium et se posent sur le cuivre, qui lâche son brome (Clayden p. 509).\n\nLe cuprate obtenu porte une charge négative sur le cuivre et deux Li⁺ en contre-ions. Il n'est pas stable : on le prépare à −78 °C et on l'emploie immédiatement.",
+      "fleches": [
+        "Le premier méthyle passe du lithium au cuivre.",
+        "Le bromure part avec ses électrons.",
+        "Le second méthyle rejoint le cuivre : le cuprate est formé."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cuprate_gilman-etape2.svg",
+      "titre": "Le cuprate livre son méthyle en position β",
+      "legende": "Voici le geste qui distingue le cuivre du magnésium. Le carbone du cuprate ne va PAS sur le carbonyle : il va tout au bout, sur le carbone β.\n\nLa raison est de mollesse (Clayden p. 510) : le cuivre étale les électrons sur des orbitales larges, la charge n'est concentrée nulle part. Un tel nucléophile recouvre bien mieux l'extrémité diffuse du système conjugué que le point de charge qu'est le carbone du carbonyle.\n\nLes électrons remontent alors la chaîne et se rassemblent sur l'oxygène : on obtient un énolate.",
+      "fleches": [
+        "Le méthyle quitte le cuivre et attaque le carbone β.",
+        "La double liaison C=C se déplace vers le carbonyle.",
+        "Les électrons du C=O se replient sur l'oxygène : l'énolate est là."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "cuprate_gilman-etape3.svg",
+      "titre": "L'hydrolyse rend le carbonyle",
+      "legende": "L'énolate reprend un proton sur son carbone, et l'oxygène rend ses électrons à la double liaison C=O. La cétone est reformée — un carbone plus longue qu'au départ.\n\nOn peut aussi ne PAS hydrolyser et piéger l'énolate au chlorure de triméthylsilyle : Clayden note que l'addition « se passe bien mieux » ainsi (p. 509), et l'éther d'énol silylé obtenu est lui-même un réactif.",
+      "fleches": [
+        "Le carbone de l'énolate va chercher un proton de l'eau.",
+        "Les électrons de la liaison O–H restent sur l'oxygène de l'eau.",
+        "Un doublet de l'oxygène reforme la double liaison C=O."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "cuprate_gilman-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "La pentan-2-one : le méthyle s'est ajouté en β, la cétone est intacte. Un magnésien nu aurait donné un alcool tertiaire, et une tout autre molécule.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "reformatsky": {
+    "2": {
+      "fichier": "reformatsky-etape2.svg",
+      "titre": "L'énolate de zinc attaque l'aldéhyde",
+      "legende": "Le zinc s'est inséré dans la liaison C–Br de l'α-bromoester — insertion oxydante, Zn(0) → Zn(II), le même geste que pour un magnésien. Il en résulte un énolate de zinc, que Clayden dessine avec le métal porté par l'oxygène (p. 632).\n\nLe carbone terminal attaque le carbonyle de l'aldéhyde. Dans le même mouvement, l'ester reprend sa double liaison C=O et le zinc passe sur le nouvel alcoolate.\n\nLes deux partenaires sont tenus par le métal dans un anneau à six atomes : le carbone nucléophile n'a rien d'autre en face de lui que le carbone du carbonyle. C'est ce que Clayden appelle le mécanisme cyclique, et c'est ce qui interdit l'addition conjuguée (p. 631).",
+      "fleches": [
+        "Le carbone terminal de l'énolate attaque le carbone du carbonyle.",
+        "Les électrons du C=O de l'aldéhyde se replient sur l'oxygène.",
+        "La liaison O–Zn se rompt et l'ester reprend sa double liaison C=O.",
+        "Le nouvel alcoolate prend la place laissée libre sur le zinc."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reformatsky-etape3.svg",
+      "titre": "L'hydrolyse libère l'alcool",
+      "legende": "L'eau n'arrive qu'ici. L'oxygène lié au zinc va chercher un proton : le β-hydroxyester apparaît, et le zinc part avec les sels.",
+      "fleches": [
+        "L'oxygène porté par le zinc va chercher un proton de l'eau.",
+        "Les électrons de la liaison O–H restent sur l'oxygène de l'eau.",
+        "La liaison oxygène–zinc se rompt, les électrons restant sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "reformatsky-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un β-hydroxyester : l'alcool d'un côté, l'ester trois atomes plus loin. La liaison carbone–carbone s'est faite exactement là où le brome l'avait annoncée.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "dithiane_umpolung": {
+    "2": {
+      "fichier": "dithiane_umpolung-etape2.svg",
+      "titre": "Le butyllithium déprotone le carbone masqué",
+      "legende": "Le carbone du milieu portait l'oxygène de l'aldéhyde : il porte maintenant deux soufres, et son proton est devenu arrachable.\n\nDeux effets s'additionnent. Les deux soufres stabilisent la charge négative qui va naître ; et l'anion se délocalise dans l'orbitale σ* de la liaison C–S d'en face — ce qui explique, note Clayden, que le proton ÉQUATORIAL soit plus acide que l'axial (p. 661).\n\nÀ l'arrivée, le carbone qui était électrophile est devenu nucléophile. C'est tout l'umpolung, en une flèche.",
+      "fleches": [
+        "Le carbone du butyle va chercher le proton du carbone acétalique.",
+        "Les électrons de la liaison C–H restent sur le carbone : le lithium s'y pose."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "dithiane_umpolung-etape3.svg",
+      "titre": "Le carbone retourné attaque un halogénure",
+      "legende": "Substitution nucléophile ordinaire — sauf que le nucléophile est un carbone qui, sous sa forme d'aldéhyde, se serait fait attaquer.\n\nClayden donne exactement cet exemple : l'éthanal devient un dithiane, le butyllithium le déprotone, l'iodure d'isopropyle l'alkyle (p. 662).",
+      "fleches": [
+        "Le carbone du dithiane attaque le carbone porteur de l'iode.",
+        "L'iodure part avec les électrons de la liaison C–I."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "dithiane_umpolung-etape4.svg",
+      "titre": "Enlever le masque, et pourquoi c'est le point dur",
+      "legende": "AUCUNE FLÈCHE ICI, ET C'EST VOULU. Clayden explique pourquoi l'hydrolyse résiste, mais ne donne pas le détail de la voie au mercure : on ne dessine donc pas un mécanisme qu'on n'a pas lu.\n\nCe qu'il DIT (p. 663), et qui suffit à comprendre :\n\n• Le soufre est moins basique que l'oxygène. L'espèce protonée, indispensable, reste donc en très faible concentration à un pH donné.\n• Les doublets 3p du soufre forment une liaison π bien moins stable avec le carbone que les doublets 2p de l'oxygène. L'intermédiaire à double liaison C=S coûte cher.\n\nDeux marches trop hautes, l'une après l'autre. D'où sa conclusion : « la solution la plus évidente est de fournir au soufre un meilleur électrophile que le proton. Le mercure, Hg(II), en est une. » L'autre consiste à oxyder un soufre en sulfoxyde, pour protoner sur l'oxygène.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "5": {
+      "fichier": "dithiane_umpolung-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une cétone. Le carbone qui était celui d'un aldéhyde porte maintenant un carbone de plus — celui qu'il est allé chercher lui-même.\n\nDans le vocabulaire des synthons (Clayden p. 719-720), on vient d'employer un donneur en position 1 : un d¹, contre nature, et l'une des rares façons d'atteindre les composés 1,2- et 1,4-difonctionnalisés.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "ortholithiation": {
+    "2": {
+      "fichier": "ortholithiation-etape2.svg",
+      "titre": "La base, tenue en laisse, ne peut prendre que l'ortho",
+      "legende": "Le doublet de l'oxygène du méthoxy retient le lithium, acide de Lewis — Clayden l'écrit ainsi : « complexation entre l'oxygène et le lithium » (p. 564). Cette coordination n'est pas dessinée ici, parce qu'une liaison dative se compterait formellement O⁺ / Li⁻ et ferait apparaître deux charges qui n'existent pas.\n\nMais c'est elle qui décide de tout. Le carbone du butyle, maintenu à courte distance, n'a qu'un proton à portée : celui de la position ortho. Il l'arrache.\n\nCe n'est PAS une affaire d'acidité : un proton méta est tout aussi acide, il est simplement hors d'atteinte. « Ce mécanisme fait que seuls les protons ortho au groupe fonctionnel peuvent être enlevés » (p. 564).",
+      "fleches": [
+        "Le carbone du butyle arrache le proton ortho, le seul qu'il puisse atteindre.",
+        "Les électrons de la liaison C–H restent sur le carbone du cycle : l'aryllithium est né."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "ortholithiation-etape3.svg",
+      "titre": "L'aryllithium attaque le dioxyde de carbone",
+      "legende": "Le cycle est devenu nucléophile à un endroit choisi. On lui présente du dioxyde de carbone : le carbone aromatique attaque le carbone du CO₂, qui est électrophile parce qu'il est pris entre deux oxygènes.\n\nAprès hydrolyse acide, c'est un acide benzoïque — placé en ortho du méthoxy, et nulle part ailleurs. Clayden donne cette suite pour les organométalliques en général (p. 191).",
+      "fleches": [
+        "Le carbone aromatique attaque le carbone du dioxyde de carbone.",
+        "Les électrons d'une double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "ortholithiation-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'acide 2-méthoxybenzoïque, seul. Aucun isomère para : la position n'a pas été choisie par un électrophile, elle a été imposée par une laisse de deux atomes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
