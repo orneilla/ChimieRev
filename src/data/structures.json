@@ -579,6 +579,18 @@
     "substrat": "hydrogenation_wilkinson-substrat.svg",
     "produit": "hydrogenation_wilkinson-produit.svg"
   },
+  "procede_monsanto": {
+    "substrat": "procede_monsanto-substrat.svg",
+    "produit": "procede_monsanto-produit.svg"
+  },
+  "hydroformylation": {
+    "substrat": "hydroformylation-substrat.svg",
+    "produit": "hydroformylation-produit.svg"
+  },
+  "procede_wacker": {
+    "substrat": "procede_wacker-substrat.svg",
+    "produit": "procede_wacker-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1126,6 +1138,9 @@
   },
   "catalyseur_wilkinson": {
     "molecule": "reactif-catalyseur_wilkinson.svg"
+  },
+  "gaz_de_synthese": {
+    "molecule": "reactif-gaz_de_synthese.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

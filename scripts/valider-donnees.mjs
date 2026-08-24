@@ -29,6 +29,14 @@ const programme = lire('src/data/programme.json')
 const RDKit = await initRDKit()
 
 const FAMILLES_CONNUES = new Set(programme.familles.map((f) => f.famille))
+
+// Les identifiants que le programme déclare pointer vers une fiche écrite.
+// Une fiche absente de cette liste existe dans les données et ne s'atteint
+// depuis aucune page « programme » : elle ne se voit pas, et le compte
+// d'avancement l'ignore.
+const IDS_AU_PROGRAMME = new Set(
+  programme.familles.flatMap((f) => (f.reactions || []).map((r) => r && r.id).filter(Boolean))
+)
 const CHAMPS = [
   'id', 'nom', 'famille', 'substrat_SMILES', 'produit_SMILES', 'reactifs',
   'solvant', 'mecanisme_etapes', 'selectivite', 'pieges',
@@ -82,6 +90,20 @@ for (const reaction of reactions) {
     anomalies.push(
       `${ou} : famille « ${reaction.famille} » absente du programme. ` +
       `Familles connues : ${[...FAMILLES_CONNUES].join(', ')}.`
+    )
+  }
+
+  // Le piège s'est présenté cinq fois : le programme écrit « Procédé
+  // Monsanto\u00a0: … » avec une insécable, la fiche s'appelait pareil avec une
+  // espace ordinaire, et le rapprochement par le nom a silencieusement échoué.
+  // Rien ne cassait — la fiche existait, elle n'était simplement reliée à
+  // rien. C'est le COMPTE d'avancement qui l'a trahie, et seulement parce
+  // qu'on le regardait.
+  if (!IDS_AU_PROGRAMME.has(reaction.id)) {
+    anomalies.push(
+      `${ou} : la fiche n'est reliée à aucune ligne du programme. ` +
+      `Poser "id": "${reaction.id}" sur la ligne correspondante de programme.json ` +
+      `— en comparant les noms APRÈS normalisation, l'insécable devant « : » ne se voit pas.`
     )
   }
 

@@ -4808,6 +4808,114 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "procede_monsanto": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "793",
+          "note": "L'échelle et l'histoire : « la conversion de MeOH en MeCO₂H est menée à une échelle industrielle énorme : actuellement 3,5 Mt d'acide acétique sont produites par an dans le monde, et 60 % des acétyles mondiaux sont fabriqués par le procédé Monsanto ». Et ce qu'il a remplacé : « avant 1970, le procédé BASF (employant des catalyseurs au cobalt) était utilisé commercialement, mais son remplacement par le procédé Monsanto a apporté les avantages de conditions plus douces et d'une plus grande sélectivité ». La structure en deux cycles reliés, et l'étape lente nommée : MeI « entre dans le cycle du Rh en s'additionnant oxydativement au complexe à 16 électrons cis-[Rh(CO)₂I₂]⁻. Cette addition est l'étape cinétiquement déterminante du procédé. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "794",
+          "note": "La désactivation du catalyseur et sa récupération, en trois équations : [Rh(CO)₂I₂]⁻ + 2 HI → [Rh(CO)₂I₄]⁻ + H₂ ; [Rh(CO)₂I₄]⁻ → RhI₃(s) + 2 CO + I⁻ ; [Rh(CO)₂I₄]⁻ + CO + H₂O → [Rh(CO)₂I₂]⁻ + 2 HI + CO₂. Les catalyseurs à l'iridium : « la combinaison de [Ir(CO)₂I₂]⁻ avec Ru₂(CO)₆I₂(µ-I)₂ comme promoteur de catalyseur fournit un système commercialement viable ». Et le procédé Tennessee-Eastman, en service depuis 1983, qui convertit l'acétate de méthyle en anhydride acétique : « il ressemble étroitement au procédé Monsanto », avec le même catalyseur et la même étape lente."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements, § 23.7",
+          "pages": "721",
+          "note": "L'étape d'insertion migratoire du procédé, écrite pour elle-même : « l'“insertion de CO” dans les liaisons M–C(alkyle) est bien illustrée en chimie organométallique, et un exemple industriel est une étape du procédé Monsanto pour la production de l'acide acétique » — [Rh(Me)(CO)₂I₃]⁻ + CO → [Rh(C(O)Me)(CO)₂I₃]⁻."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.3",
+          "pages": "787",
+          "note": "L'exercice de comptage électronique qui confirme que cis-[Rh(CO)₂I₂]⁻ est bien un centre à SEIZE électrons — donc insaturé, donc capable d'addition oxydante. Et la définition d'un cycle catalytique : « une série de réactions stœchiométriques (souvent réversibles) qui forment une boucle fermée ; le catalyseur doit être régénéré pour pouvoir participer au cycle plus d'une fois »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.3",
+          "pages": "387",
+          "note": "Le procédé ramené à trois équations — MeOH + HI → MeI + H₂O ; MeI + CO → MeCOI sous catalyse au Rh ; MeCOI + H₂O → MeCO₂H + HI — avec la note de praticien : « un précatalyseur de Rh (presque n'importe quel complexe de Rh fera l'affaire) est converti en Rh(CO)₂I₂⁻, le catalyseur actif, dans les conditions de la réaction ». Et le cycle détaillé de la deuxième étape : addition oxydante de MeI sur Rh(I), insertion de CO, coordination de plus de CO, élimination réductrice de MeCOI."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "hydroformylation": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "795",
+          "note": "La réaction écrite avec ses DEUX produits — RCH=CH₂ + CO + H₂ → RCH₂CH₂CHO (linéaire, n) + RCHMeCHO (ramifié, i) —, l'amorçage du catalyseur au cobalt (370-470 K, 100-400 bar ; Co₂(CO)₈ + H₂ → HCo(CO)₄, précurseur de l'actif HCo(CO)₃), et le point où tout se décide : « à ce point, le cycle se scinde en deux voies selon l'atome de carbone impliqué dans la formation de la liaison Co–C… le cycle intérieur élimine un aldéhyde linéaire, tandis que le cycle extérieur produit l'isomère ramifié ». Toutes les étapes sauf la libération de l'aldéhyde sont réversibles. Les deux complications et leurs parades : l'hydrogénation des aldéhydes en alcools, contrôlée « en employant des rapports H₂:CO supérieurs à 1:1, par exemple 1,5:1 » ; et l'isomérisation de l'alcène, qu'on combat ou « qu'on tourne à son avantage en préparant délibérément des mélanges d'isomères à séparer plus tard »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "796",
+          "note": "Le catalogue des catalyseurs et ce qui les sépare. HCo(CO)₃(PBu₃), qui doit lui aussi perdre un CO ; HRh(CO)(PPh₃)₃, qui perd une PPh₃ pour donner l'actif HRh(CO)(PPh₃)₂ — « le catalyseur au Rh(I) est particulièrement sélectif vers la formation d'aldéhyde, et dans certaines conditions le rapport n:i est aussi élevé que 20:1 ». Pourquoi l'excès de PPh₃ : il empêche le CO de déplacer les phosphines, réactions dont « les produits sont eux aussi des catalyseurs d'hydroformylation, mais manquent de la sélectivité de HRh(CO)(PPh₃)₂ ». Et les deux bornes du domaine : « le complexe phosphine parent, HRh(PPh₃)₃, est inactif vis-à-vis de l'hydroformylation, et bien que RhCl(PPh₃)₃ soit actif, Cl⁻ agit comme un inhibiteur ». Avec la table des constantes de vitesse sur HCo(CO)₃ à 383 K, qui montre le même effet stérique que pour l'hydrogénation."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.4",
+          "pages": "791",
+          "note": "Le prix de la catalyse homogène, illustré sur ce procédé même : « la nécessité de séparer le catalyseur en fin de réaction afin de le recycler, par exemple dans le procédé d'hydroformylation, le HCo(CO)₄ volatil peut être retiré par évaporation flash »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic compounds of d-block elements, § 23.7",
+          "pages": "720",
+          "note": "L'avant-dernière étape du cycle, donnée bien plus tôt comme exemple d'élimination réductrice : H₂Co{C(O)R}(CO)₃ → HCo(CO)₃ + RCHO, « dans laquelle un substituant acyle est converti en aldéhyde »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.2.2",
+          "pages": "359",
+          "note": "L'usage et l'histoire : « l'hydroformylation fut l'une des premières réactions organométalliques à être employée industriellement. L'hydroformylation du propène sert à fabriquer le butyraldéhyde, qui est hydrogéné pour donner le butanol, un solvant très utilisé. La réaction originale était menée avec un catalyseur au Co dans de la Ph₃P fondue, mais aujourd'hui la réaction est menée dans des conditions bien plus douces. » Et le mécanisme rapporté à celui qu'on connaît déjà : « presque le même que celui de l'hydrogénation », avec deux étapes de plus — coordination puis insertion du CO dans la liaison M–C, donnant un acylmétal(III)."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1077",
+          "note": "L'hydroformylation présentée comme application de l'insertion migratoire du CO, dans la suite immédiate de l'étape élémentaire."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "procede_wacker": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Homogeneous and heterogeneous catalysis, § 26.3",
+          "pages": "788",
+          "note": "Le cycle complet, étape par étape, et l'honnêteté sur sa place actuelle : « le procédé a été développé dans les années 1950 et bien qu'il ne soit pas d'une grande importance industrielle de nos jours, il fournit un exemple bien étudié pour un examen attentif ». La substitution initiale, [PdCl₄]²⁻ + CH₂=CH₂ → [PdCl₃(η²-C₂H₄)]⁻ + Cl⁻ ; l'attaque nucléophile de H₂O avec perte de H⁺ — « rappelons que les alcènes coordonnés sont susceptibles d'attaque nucléophile » ; la β-élimination, la réattaque du chlorure avec migration d'un H, et l'élimination de CH₃CHO avec réduction de Pd(II) en Pd(0). Puis les deux équations du cycle secondaire : Pd + 2 Cu²⁺ + 8 Cl⁻ → [PdCl₄]²⁻ + 2 [CuCl₂]⁻ et 2 [CuCl₂]⁻ + ½ O₂ + 2 HCl → 2 CuCl₂ + 2 Cl⁻ + H₂O."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1096",
+          "note": "L'activation expliquée, et les deux règles qui en découlent. « La coordination d'un alcène riche en électrons à un ion de métal de transition tel que le palladium(II) change radicalement sa réactivité : la densité électronique est attirée vers le métal et hors des orbitales π de l'alcène. Cela conduit à une activation vis-à-vis de l'attaque par les nucléophiles, exactement comme dans une addition conjuguée… Inhabituelle, c'est-à-dire, pour l'alcène ; le centre palladium se comporte exactement comme on l'attend. » Puis : les nucléophiles « peuvent attaquer l'alcène complexé du côté opposé au palladium. L'attaque du nucléophile est régiosélective pour la position la plus substituée. Cela est parallèle à l'attaque sur les ions bromonium mais est probablement gouverné par le besoin pour le palladium encombrant d'être dans la position la moins gênée. »"
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.6",
+          "pages": "396",
+          "note": "La généralisation dont le Wacker n'est qu'un cas : « les sels de Pd(II) catalysent la réaction de nucléophiles tels que les alcools et les amines avec les alcènes pour donner des alcènes plus substitués. Une quantité stœchiométrique d'un oxydant tel que la benzoquinone, CuCl ou O₂ (avec ou sans sels de Cu catalytiques) est requise pour que la réaction soit catalytique en Pd. » Avec le mécanisme général : coordination de l'alcène en complexe π électrophile, attaque du nucléophile sur un carbone, formation de la liaison σ Pd–C sur l'autre, puis élimination β-hydrure."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated and -Catalyzed Reactions, § 6.3.6",
+          "pages": "397",
+          "note": "Trois choses décisives. La comparaison avec l'oxymercuration : « l'intermédiaire alkylmercure(II) est stable et isolable, tandis que l'intermédiaire alkylpalladium(II) subit une élimination β-hydrure rapide ». Le fait que seul un marquage isotopique peut établir : « l'oxygène du produit vient de l'eau, pas de l'O₂ ». Et le détail qui impose DEUX éliminations β-hydrure : « H₂O s'additionne sur un complexe de Pd(II) de l'éthylène, et une élimination β-hydrure se produit pour donner un complexe π de l'énol de l'acétaldéhyde. Après rotation autour de la liaison σ Pd(II)–alcène, l'alcène se réinsère dans la liaison Pd(II)–H pour donner un nouveau Pd(II)–alkyle. Ce complexe subit une élimination β-hydrure une fois de plus pour donner l'acétaldéhyde lui-même. » Avec la prononciation, que Grossman prend la peine de donner : « vocker »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-24",
   "total": 287,
-  "redigees": 145,
+  "redigees": 148,
   "verifiees": 125,
   "relues": 0,
   "familles": [
@@ -1194,8 +1194,8 @@
       "famille": "Catalyse",
       "bloc": "Organométallique et catalyse",
       "total": 12,
-      "absente": 7,
-      "redigee": 5,
+      "absente": 4,
+      "redigee": 8,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
@@ -1237,23 +1237,23 @@
         {
           "nom": "Procédé Monsanto : synthèse de l'acide acétique",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "procede_monsanto",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Hydroformylation (procédé oxo)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydroformylation",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Procédé Wacker",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "procede_wacker",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Procédé Haber-Bosch",

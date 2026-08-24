@@ -6714,5 +6714,110 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "procede_monsanto": {
+    "1": {
+      "fichier": "procede_monsanto-etape1.svg",
+      "titre": "Le méthanol devient iodométhane — hors du cycle du métal",
+      "legende": "À gauche le méthanol, à droite l'iodométhane. Entre les deux, une substitution nucléophile de première année : HI protone l'alcool, l'iodure attaque le carbone, l'eau part.\n\nPOURQUOI CE DÉTOUR. Un alcool ne fait pas d'addition oxydante : la liaison C–O est solide et l'oxygène est un mauvais groupe partant. Le rhodium ne saurait pas s'y insérer. La liaison C–I, elle, se laisse faire.\n\nHousecroft décrit le procédé comme « deux cycles reliés » (p. 793) : celui-ci est le cycle organique, celui du rhodium est l'autre. L'iodure est ce qui les joint — il n'apparaît pas dans le bilan MeOH + CO → MeCO₂H, et sans lui rien ne se passe.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "procede_monsanto-etape2.svg",
+      "titre": "Addition oxydante — et c'est l'étape lente du procédé",
+      "legende": "L'iodométhane s'additionne sur cis-[Rh(CO)₂I₂]⁻, complexe à SEIZE électrons — donc insaturé, donc capable de recevoir. Housecroft en fait un exercice de comptage (p. 787).\n\nCETTE ÉTAPE COMMANDE TOUT LE DÉBIT. « Cette addition est l'étape cinétiquement déterminante du procédé, et donc la formation de MeI est » décisive (p. 793). Une usine d'acide acétique se pilote sur sa concentration en iodométhane.\n\nLes carbonyles et les iodures du complexe réel ne sont pas écrits : ils ne changent pas d'une étape à l'autre, et les faire figurer imposerait des charges formelles que la liaison dative crée sans qu'elles existent.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "procede_monsanto-etape3.svg",
+      "titre": "Insertion migratoire : le méthyle passe sur le CO",
+      "legende": "Housecroft donne cette étape deux cents pages plus tôt, comme exemple canonique d'insertion migratoire (p. 721) : [Rh(Me)(CO)₂I₃]⁻ + CO → [Rh(C(O)Me)(CO)₂I₃]⁻.\n\nET C'EST LÀ QUE LE MARQUAGE AU ¹³C A PARLÉ. Sur le manganèse, l'expérience a montré que « la distribution des produits est cohérente avec la migration du groupe Me, et NON avec un mécanisme impliquant le déplacement du CO “inséré” ». Ce n'est pas le monoxyde de carbone qui s'enfonce : c'est le méthyle qui vient sur lui.\n\nLe rhodium tient maintenant un groupe acétyle. Rien n'a changé de son degré d'oxydation.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "procede_monsanto-etape4.svg",
+      "titre": "L'iodure d'acétyle sort, l'eau finit le travail",
+      "legende": "L'élimination réductrice libère l'iodure d'acétyle et rend le rhodium(I) — reconnaissable ici à son doublet disponible.\n\nCE QUI SUIT N'EST PLUS DE LA CHIMIE ORGANOMÉTALLIQUE : l'eau hydrolyse l'iodure d'acétyle en acide acétique, et rend HI. Grossman résume le tout en trois lignes (p. 387) :\n• MeOH + HI → MeI + H₂O\n• MeI + CO → MeCOI (catalyse au rhodium)\n• MeCOI + H₂O → MeCO₂H + HI\n\nREGARDEZ CE QUI TOURNE. L'eau produite à la première ligne est consommée à la troisième. HI consommé à la première est rendu à la troisième. Le rhodium est revenu tel quel. Au bilan on n'a consommé que du méthanol et du monoxyde de carbone — les deux choses les moins chères du réacteur.\n\nGrossman ajoute une note de praticien : « presque n'importe quel complexe de Rh fera l'affaire » comme précatalyseur, l'espèce active se formant dans les conditions de la réaction.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "hydroformylation": {
+    "1": {
+      "fichier": "hydroformylation-etape1.svg",
+      "titre": "L'alcène, et un catalyseur qui doit d'abord se dégarnir",
+      "legende": "L'hex-1-ène. En face, un carbonyle métallique qui n'est pas encore actif.\n\nHousecroft décrit l'amorçage (p. 795) : dans les conditions de la réaction — 370-470 K et 100-400 bar avec le cobalt —, Co₂(CO)₈ réagit avec H₂ pour donner HCo(CO)₄, « habituellement représenté dans les cycles catalytiques comme le précurseur de l'espèce coordinativement insaturée (c'est-à-dire ACTIVE) HCo(CO)₃ ».\n\nTOUJOURS LA MÊME RÈGLE : ce n'est pas le complexe qu'on charge dans le réacteur qui travaille, c'est celui à qui il manque une place. Le catalyseur au rhodium fait de même — HRh(CO)(PPh₃)₃ perd une phosphine pour donner l'actif HRh(CO)(PPh₃)₂ (p. 796).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "hydroformylation-etape2.svg",
+      "titre": "La bifurcation — une seule étape décide de toute la production",
+      "legende": "L'alcène s'est coordonné, l'hydrogène a migré, et un alkyle lié en σ est né. MAIS DE DEUX FAÇONS.\n\nHousecroft nomme le moment (p. 795) : « à ce point, le cycle se scinde en deux voies selon l'atome de carbone impliqué dans la formation de la liaison Co–C. Les deux chemins sont montrés comme les cycles intérieur et extérieur… Le cycle intérieur élimine un aldéhyde LINÉAIRE, tandis que le cycle extérieur produit l'isomère RAMIFIÉ. »\n\nÀ gauche l'alkyle linéaire, à droite le ramifié. Tout est joué : le CO viendra ensuite se greffer sur le carbone lié au métal, et pas sur l'autre.\n\nCOMMENT ON PILOTE CE CHOIX : par l'encombrement autour du métal. Un métal nu prend l'un ou l'autre ; un métal portant deux triphénylphosphines ne peut se lier qu'au carbone du bout. Le rapport passe d'environ 2:1 avec le cobalt à « 20:1 dans certaines conditions » avec HRh(CO)(PPh₃)₂ (p. 796).\n\nEt toutes ces étapes sont RÉVERSIBLES — « toutes, sauf la libération finale de l'aldéhyde ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "hydroformylation-etape3.svg",
+      "titre": "Les deux aldéhydes, et celui qu'on voulait",
+      "legende": "Insertion du CO, addition oxydante de H₂, puis transfert d'un hydrogène sur l'alkyle : l'aldéhyde s'élimine. C'est la seule étape irréversible du cycle.\n\nHousecroft avait donné cette dernière étape deux cents pages plus tôt, comme exemple d'élimination réductrice (p. 720) : H₂Co{C(O)R}(CO)₃ → HCo(CO)₃ + RCHO, « dans laquelle un substituant acyle est converti en aldéhyde ».\n\nÀ gauche l'heptanal, linéaire — celui qui vaut cher, parce qu'il sert aux plastifiants et aux détergents. À droite le 2-méthylhexanal, ramifié.\n\nDEUX PARASITES GUETTENT (Housecroft p. 795). L'hydrogénation des aldéhydes en alcools, qu'on contient « en employant des rapports H₂:CO supérieurs à 1:1, par exemple 1,5:1 ». Et l'isomérisation de l'alcène, elle aussi catalysée par HCo(CO)₃ — qu'on combat en changeant de catalyseur, ou « qu'on tourne à son avantage en préparant délibérément des mélanges d'isomères à séparer plus tard ». La seconde solution n'est plus une décision de chimiste.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "procede_wacker": {
+    "1": {
+      "fichier": "procede_wacker-etape1.svg",
+      "titre": "Le palladium vide l'alcène de ses électrons",
+      "legende": "L'éthylène substitue un chlorure de [PdCl₄]²⁻ (Housecroft p. 788) ; un second chlorure sera remplacé par l'eau.\n\nCE QUI SE PASSE ALORS EST LE CŒUR DE LA RÉACTION (Clayden p. 1096) : « la coordination d'un alcène riche en électrons à un ion de métal de transition tel que le palladium(II) change RADICALEMENT sa réactivité : la densité électronique est attirée vers le métal et hors des orbitales π de l'alcène. Cela conduit à une activation vis-à-vis de l'attaque par les nucléophiles, exactement comme dans une addition conjuguée. »\n\nLE MÉTAL NE DONNE RIEN, IL PREND. Un alcène vidé cesse d'être donneur et devient accepteur — sans qu'on ait eu besoin d'y accrocher un groupe attracteur.\n\nClayden remet d'ailleurs les choses à leur place : c'est inhabituel « pour l'alcène ; le centre palladium se comporte exactement comme on l'attend ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "procede_wacker-etape2.svg",
+      "titre": "L'eau attaque — de l'autre côté, et sur le carbone le plus substitué",
+      "legende": "DEUX RÈGLES, ET IL FAUT LES TENIR ENSEMBLE (Clayden p. 1096). D'abord, les nucléophiles « peuvent attaquer l'alcène complexé DU CÔTÉ OPPOSÉ au palladium » : c'est une attaque externe, anti. Le métal ne livre pas l'eau, il se contente d'appâter.\n\nEnsuite, « l'attaque du nucléophile est régiosélective pour la position la plus SUBSTITUÉE. Cela est parallèle à l'attaque sur les ions bromonium, mais est probablement gouverné par le besoin pour le palladium encombrant d'occuper la position la moins gênée. » Sur l'éthylène, symétrique, la question ne se pose pas ; sur un alcène substitué, elle décide du produit.\n\nD'OÙ VIENT CET OXYGÈNE ? Grossman tranche (p. 397) : « l'oxygène du produit vient de l'EAU, pas de l'O₂. » Le dioxygène ne touche jamais la molécule organique. C'est le genre d'affirmation qu'aucun raisonnement ne donne et qu'un marquage isotopique établit — sans elle, on écrirait un mécanisme où l'O₂ s'additionne, plausible et faux.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "procede_wacker-etape3.svg",
+      "titre": "Une première élimination β-hydrure — mais elle ne donne que l'énol",
+      "legende": "ICI SE SÉPARENT DEUX RÉACTIONS QU'ON CROIRAIT JUMELLES. Grossman met l'oxymercuration en regard (p. 397) : le mécanisme commence exactement de la même façon, mais « l'intermédiaire alkylmercure(II) est STABLE ET ISOLABLE, tandis que l'intermédiaire alkylpalladium(II) subit une élimination β-hydrure RAPIDE ».\n\nLe mercure s'arrête et l'on obtient un alcool. Le palladium continue et l'on obtient un aldéhyde. Même début, deux chimies — et la cause tient en une seule étape élémentaire, celle que le palladium sait faire et que le mercure ne sait pas.\n\nMAIS ON N'EST PAS ARRIVÉ. Ce qui vient de naître est l'ÉNOL de l'acétaldéhyde, encore coordonné. Grossman décrit la suite (p. 397) : « après rotation autour de la liaison σ Pd(II)–alcène, l'alcène se réinsère dans la liaison Pd(II)–H pour donner un nouveau Pd(II)–alkyle. Ce complexe subit une élimination β-hydrure une fois de plus pour donner l'acétaldéhyde lui-même. »\n\nDEUX ÉLIMINATIONS β-HYDRURE, séparées par une rotation et une réinsertion. Un mécanisme qui n'en écrirait qu'une serait faux.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "procede_wacker-etape4.svg",
+      "titre": "L'acétaldéhyde, et la chaîne à trois maillons qui rend le palladium",
+      "legende": "Le produit sort, et le palladium se retrouve au degré ZÉRO. Pour recommencer, il doit revenir à deux.\n\nLE DIOXYGÈNE POURRAIT LE FAIRE, mais trop lentement pour une usine. On intercale donc un relais, et Housecroft en donne les deux équations (p. 788) :\n• Pd + 2 Cu²⁺ + 8 Cl⁻ → [PdCl₄]²⁻ + 2 [CuCl₂]⁻\n• 2 [CuCl₂]⁻ + ½ O₂ + 2 HCl → 2 CuCl₂ + 2 Cl⁻ + H₂O\n\nUNE CHAÎNE À TROIS MAILLONS : l'air oxyde le cuivre, le cuivre oxyde le palladium, le palladium oxyde l'alcène. Chacun fait ce qu'il fait bien.\n\nPOURQUOI ON L'APPREND ENCORE. Housecroft ne s'en cache pas (p. 788) : « le procédé a été développé dans les années 1950 et bien qu'il ne soit pas d'une grande importance industrielle de nos jours, il fournit un exemple BIEN ÉTUDIÉ pour un examen attentif ».\n\nChacune de ses étapes est l'une des réactions élémentaires de la chimie des métaux — substitution de ligand, attaque nucléophile sur un alcène coordonné, élimination β-hydrure, réinsertion —, et elles sont toutes là, à la suite, dans un seul cycle.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

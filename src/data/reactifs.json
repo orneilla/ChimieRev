@@ -3256,5 +3256,33 @@
     "explication_reference": "RhCl(PPh₃)₃ est un complexe ROUGE de rhodium(I) à 16 électrons, préparé à partir de RhCl₃ et de PPh₃, qui hydrogène les alcènes à 298 K sous 1 bar de H₂ (Housecroft p. 791).\n\nIL SE DÉFAIT AVANT DE TRAVAILLER : RhCl(PPh₃)₃ ⇌ RhCl(PPh₃)₂ + PPh₃, K = 1,4 × 10⁻⁴, un solvant occupant la quatrième place. Grossman généralise (p. 357) : les catalyseurs encombrés « exigent qu'une dissociation ou une substitution de ligand se produise avant que le cycle ne démarre ».\n\nSA SÉLECTIVITÉ EST STÉRIQUE ET SE MESURE (Housecroft p. 792, Table 26.1) : styrène 93,0 ; hex-1-ène 29,1 ; 1-méthylcyclohexène 0,6, en 10⁻² dm³ mol⁻¹ s⁻¹. Un facteur cinquante entre un alcène terminal et un alcène trisubstitué.\n\nCE QU'IL A VRAIMENT APPORTÉ (Grossman p. 356) : « pendant longtemps, les mécanismes des hydrogénations hétérogènes ont été considérés comme assez mystérieux, mais avec l'avènement de catalyseurs homogènes comme celui de Wilkinson, il est devenu possible d'étudier les mécanismes en détail. »\n\nIL EST ACHIRAL, donc un alcène prochiral donne un racémique. C'est en remplaçant PPh₃ par une phosphine chirale — (R,R)-DIOP, (S)-BINAP — qu'on a obtenu la L-DOPA et le naproxène (Housecroft p. 792).",
     "explication_comprendre": "POURQUOI un catalyseur qu'on peut dissoudre a-t-il changé la chimie, alors qu'on savait déjà hydrogéner avec de la poudre de palladium ?\n\nParce qu'on ne voyait rien.\n\nUn catalyseur en poudre travaille à sa surface. On met les réactifs, on agite, on filtre, on constate. Ce qui s'est passé entre-temps, sur quelques atomes de surface au milieu de milliards d'autres, reste hors de portée.\n\nUN CATALYSEUR DISSOUS EST UNE MOLÉCULE COMME UNE AUTRE. On peut la mettre dans un tube RMN, la refroidir, l'attraper au milieu de son travail, mesurer combien de temps chaque étape dure.\n\nC'est ce qu'on a fait avec celui de Wilkinson — et ce qu'on a découvert vaut aussi pour la poudre : le cycle est probablement le même.\n\nUNE SURPRISE, TOUT DE MÊME. Ce n'est pas la molécule qu'on pèse qui travaille. En solution, elle perd l'une de ses trois phosphines. Ce qui catalyse est ce qui reste — un complexe incomplet, avec une place libre.\n\nRETENEZ CE POINT, IL EST GÉNÉRAL : un catalyseur actif est un catalyseur à qui il manque quelque chose. Un complexe parfaitement entouré n'a nulle part où mettre le substrat.\n\nET IL EST DIFFICILE — CE QUI EST UNE QUALITÉ. Ses trois phosphines portent chacune trois cycles aromatiques : c'est une molécule volumineuse. Un alcène en bout de chaîne, bien dégagé, s'approche sans peine. Un alcène coincé entre trois substituants n'y arrive presque pas.\n\nCinquante fois plus lent, pour être précis. Ce qui veut dire qu'on peut hydrogéner une double liaison d'une molécule en laissant l'autre intacte, simplement parce qu'elle est plus encombrée.\n\nUn catalyseur en poudre, lui, prend tout ce qui passe.",
     "reactions_exemples": []
+  },
+  {
+    "id": "gaz_de_synthese",
+    "nom": "CO/H₂",
+    "nom_complet": "gaz de synthèse",
+    "famille": "Électrophiles",
+    "SMILES": "[C-]#[O+]",
+    "role": "Le mélange le moins cher de l'industrie chimique — et celui qui allonge une chaîne d'un carbone",
+    "anatomie_annotations": [
+      {
+        "partie": "le monoxyde de carbone",
+        "role": "Le carbone qu'on ajoute. Il s'insère dans la liaison métal-alkyle et donne un acyle, donc à terme un aldéhyde, un ester ou un acide."
+      },
+      {
+        "partie": "le dihydrogène",
+        "role": "Il apporte les deux hydrogènes : l'un se place sur la double liaison, l'autre coiffe l'acyle pour en faire un aldéhyde."
+      },
+      {
+        "partie": "le rapport des deux",
+        "role": "Ce n'est pas un détail de recette. À 1:1 les aldéhydes se font hydrogéner en alcools ; on monte à 1,5:1 pour l'éviter (Housecroft p. 795)."
+      }
+    ],
+    "reactions_liees": [
+      "hydroformylation"
+    ],
+    "explication_reference": "Le gaz de synthèse est un mélange de monoxyde de carbone et de dihydrogène, obtenu à partir du charbon, du méthane ou de la biomasse. C'est la matière première de l'hydroformylation, de la synthèse du méthanol et du procédé Fischer-Tropsch.\n\nDANS L'HYDROFORMYLATION (Housecroft p. 795), les deux gaz jouent des rôles distincts : le CO s'insère dans la liaison métal-alkyle pour donner l'acyle, H₂ s'additionne oxydativement puis fournit l'hydrogène qui coiffe l'acyle en aldéhyde.\n\nLEUR RAPPORT SE RÈGLE. À 1:1 la réaction parasite d'hydrogénation des aldéhydes en alcools prend de l'ampleur ; Housecroft indique qu'on la contrôle « en employant des rapports H₂:CO supérieurs à 1:1, par exemple 1,5:1 ».\n\nUNE MISE EN GARDE QUI N'EST PAS DE STYLE : le monoxyde de carbone est inodore, incolore et mortel. Il se lie au fer de l'hémoglobine exactement comme il se lie au cobalt du catalyseur.",
+    "explication_comprendre": "POURQUOI deux gaz plutôt qu'un réactif propre ?\n\nParce qu'on ne fabrique pas des mégatonnes avec des réactifs de flacon.\n\nÀ l'échelle du laboratoire, on choisit le réactif qui marche. À l'échelle d'une usine, on choisit le réactif qu'on peut se permettre — et le gaz de synthèse est l'un des moins chers qui soient : il sort du charbon, du méthane ou de la biomasse, par des procédés vieux d'un siècle.\n\nCE QU'IL APPORTE. Un carbone et deux hydrogènes, exactement ce qu'il faut pour transformer un alcène en aldéhyde. Le CO fournit le carbone et son oxygène ; H₂ fournit les hydrogènes.\n\nET LEUR PROPORTION COMPTE, ce qui surprend toujours. On pourrait croire qu'il suffit d'en mettre assez. Mais l'hydrogène ne s'arrête pas forcément là où on voudrait : s'il y en a trop peu, l'aldéhyde qu'on vient de faire est réduit en alcool.\n\nOn met donc un peu plus d'hydrogène que de monoxyde de carbone — environ trois pour deux. Régler un procédé industriel, c'est souvent régler un rapport comme celui-là.\n\nUNE PRUDENCE, ENFIN. Le monoxyde de carbone n'a ni odeur ni couleur, et il se fixe sur le fer de votre sang par le même mécanisme qui le fixe sur le cobalt du catalyseur. La chimie qui rend le procédé possible est celle qui rend le gaz mortel.",
+    "reactions_exemples": []
   }
 ]

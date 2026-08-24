@@ -55,13 +55,23 @@ const VALENCE = {
   // degré d'oxydation ne change JAMAIS au cours de la métathèse — Grossman
   // le souligne (p. 403). Les chlorures et les phosphines ne sont pas
   // écrits : ils ne bougent pas.
-  24: 6, 29: 1, 44: 2, 46: 2, 50: 4, 76: 8, 80: 2
+  // Le rhodium du procédé Monsanto et de l'hydroformylation compte comme le
+  // palladium — DEUX électrons engagés : le Rh(I) part avec un doublet
+  // disponible, l'addition oxydante de MeI le change en deux liaisons σ,
+  // l'élimination réductrice les rend. Les carbonyles et les iodures du
+  // complexe réel ne sont pas écrits : ils ne changent pas d'une étape à
+  // l'autre.
+  // Le cobalt de HCo(CO)₃ n'en engage qu'UN, comme le cuivre(I) : il ne
+  // porte jamais qu'une liaison σ à la fois dans le cycle — l'hydrure, puis
+  // l'alkyle, puis l'acyle.
+  24: 6, 27: 1, 29: 1, 44: 2, 45: 2, 46: 2, 50: 4, 76: 8, 80: 2
 }
 const SYMBOLE = {
   1: 'H', 3: 'Li', 5: 'B', 6: 'C', 7: 'N', 8: 'O', 9: 'F', 11: 'Na', 12: 'Mg',
   13: 'Al',
   14: 'Si', 15: 'P', 16: 'S', 17: 'Cl', 19: 'K', 24: 'Cr', 29: 'Cu', 30: 'Zn',
-  35: 'Br', 44: 'Ru', 46: 'Pd', 50: 'Sn', 53: 'I', 76: 'Os', 80: 'Hg'
+  27: 'Co', 35: 'Br', 44: 'Ru', 45: 'Rh', 46: 'Pd', 50: 'Sn', 53: 'I',
+  76: 'Os', 80: 'Hg'
 }
 
 const RDKit = await initRDKit()
