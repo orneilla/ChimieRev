@@ -704,6 +704,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "434",
           "note": "L'encadré sur la règle de Markovnikov, que l'ouvrage énonce puis déconseille d'apprendre : elle décrit le résultat sans en donner la cause."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "7 — Alkenes: Structure and Reactivity",
+          "pages": "206",
+          "note": "La règle de Markovnikov reformulée là où elle se décide : « dans l'addition de HX sur un alcène, c'est le carbocation LE PLUS SUBSTITUÉ qui se forme comme intermédiaire ». On n'a plus à mémoriser une position, on compare deux carbocations. Et le cas où la règle n'a rien à dire : le pent-2-ène donne un mélange, les deux carbocations étant secondaires."
         }
       ],
       "articles_historiques": [],
@@ -734,6 +740,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "437",
           "note": "L'échelle des vitesses de bromation selon le nombre de substituants de l'alcène — un facteur proche de deux millions entre l'éthylène et le tétraméthyléthylène."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "224",
+          "note": "L'histoire du pont bromonium, déduit avant d'être vu : « le postulat de l'ion bromonium, fait il y a plus de 75 ans pour expliquer la stéréochimie, est un exemple remarquable de logique déductive en chimie ». La confirmation vint des travaux de George Olah, « qui prépara et étudia des solutions STABLES d'ions bromonium cycliques dans le SO₂ liquide »."
         }
       ],
       "articles_historiques": [],
@@ -746,6 +758,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "436–437",
           "note": "La régiosélectivité de l'ouverture des bromoniums dissymétriques, expliquée par l'inégale longueur des deux liaisons C–Br et par l'état de transition de substitution bimoléculaire « lâche », où la charge positive est déjà largement développée sur le carbone le plus substitué. La page nomme les bromhydrines et montre leur cyclisation en époxyde par la soude, présentée comme une alternative aux peracides."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "225-227",
+          "note": "Le nom trompe sur le mode opératoire : « la formation d'une halohydrine ne se fait PAS par réaction directe d'un alcène avec HOBr ou HOCl ; l'addition se fait indirectement, par réaction de l'alcène avec Br₂ ou Cl₂ en présence d'eau ». Et la version biologique : les haloperoxydases oxydent Br⁻ ou Cl⁻ en HOBr ou HOCl lié à un métal de l'enzyme, d'où l'halomon, pentahalogénure anticancéreux d'une algue rouge."
         }
       ],
       "articles_historiques": [],
@@ -758,6 +776,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "444",
           "note": "L'hydratation acide présentée comme la déshydratation E1 parcourue à l'envers, avec le mécanisme complet sur le méthylènecyclohexane. L'ouvrage précise que la méthode n'opère que si la protonation engendre un carbocation tertiaire stable, qu'il reste difficile de prévoir lequel des deux sens l'emportera, et recommande pour cette raison l'oxymercuration."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "229",
+          "note": "Ce que coûte la réaction — « peu d'intérêt au laboratoire ordinaire, car elle exige 250 °C dans le cas de l'éthylène et des conditions fortement acides » — et ce que le vivant fait à la place : « les hydratations biologiques exigent que la double liaison soit voisine d'un groupe carbonyle », comme le fumarate hydraté en malate dans le cycle de Krebs. Le mécanisme y est l'inverse exact d'une E1cB : « la réaction n'est pas une addition électrophile, mais implique la formation d'un ANION intermédiaire suivie d'une protonation »."
         }
       ],
       "articles_historiques": [],
@@ -782,6 +806,12 @@
           "chapitre": "15 — Nucleophilic substitution at saturated carbon",
           "pages": "357",
           "note": "La notion de nucléophiles et d'électrophiles durs et mous, sur laquelle repose l'affinité entre l'alcène et le mercure."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "230",
+          "note": "La parenté avec l'halohydrine — l'ion mercurinium « dont la structure ressemble à celle d'un ion bromonium » — et l'aveu sur la dernière étape : « la démercuration par le borohydrure de sodium est COMPLEXE et implique des RADICAUX », si bien que « l'hydrogène qui remplace le mercure peut se fixer de l'un ou l'autre côté selon les circonstances exactes ». On perd donc l'information stéréochimique sur ce carbone."
         }
       ],
       "articles_historiques": [],
@@ -800,6 +830,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "447",
           "note": "Le bilan stéréochimique : addition syn, et rétention de configuration lors de l'oxydation, la migration se faisant sans rupture de la liaison au carbone."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "231",
+          "note": "La séquence posée en deux temps et deux mécanismes distincts : addition d'une liaison B–H sur l'alcène donnant l'organoborane, puis oxydation par H₂O₂ en milieu basique. L'exemple du 2-méthylpent-2-ène donnant le 2-méthylpentan-3-ol montre la régiochimie inverse de l'hydratation acide."
         }
       ],
       "articles_historiques": [],
@@ -818,6 +854,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "437",
           "note": "La vitesse d'époxydation croît avec le nombre de substituants de l'alcène, comme celle de la bromation : l'alcène est le nucléophile."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "240",
+          "note": "Deux précisions qui évitent une erreur de dessin : « l'oxygène le PLUS ÉLOIGNÉ du groupe carbonyle est celui qui est transféré », et le mécanisme est « en une seule étape, sans intermédiaire », d'où la stéréochimie syn. Avec l'autre voie vers le même produit : une halohydrine traitée par une base."
         }
       ],
       "articles_historiques": [],
@@ -884,6 +926,12 @@
           "chapitre": "33 — Stereoselectivity in cyclic molecules",
           "pages": "851",
           "note": "Le renvoi à la cyclopropanation de Simmons-Smith comme exemple de réactif livré par un état de transition cyclique, à partir d'un alcool allylique."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "246",
+          "note": "Ce qu'est un carbène, comparé à ce qu'on connaît : « le carbone du dichlorocarbène est hybridé sp², avec une orbitale p VACANTE », description « semblable à celle d'un carbocation, à la fois par l'hybridation sp² et par l'orbitale p vacante » — les cartes de potentiel électrostatique le montrent. Et la stéréospécificité comme signature du concerté : d'un alcène cis, seul le cyclopropane cis ; d'un trans, seul le trans."
         }
       ],
       "articles_historiques": [],
@@ -896,6 +944,12 @@
           "chapitre": "19 — Electrophilic addition to alkenes",
           "pages": "445",
           "note": "L'oxymercuration des alcynes et le produit attendu par analogie avec les alcènes ; le fait que le produit isolé soit en réalité une cétone ; l'ordre explicite de la tautomérie — protoner d'abord sur C, déprotoner ensuite sur O ; l'argument des forces de liaison, C=O plus forte que C=C, et la rapidité du basculement ; la démercuration aisée grâce au carbonyle voisin ; et l'enchaînement NaNH₂ puis R–Br puis Hg(OAc)₂/H₂SO₄ comme voie d'accès aux méthylcétones."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "9 — Alkynes: An Introduction to Organic Synthesis",
+          "pages": "269",
+          "note": "La différence avec l'alcène, qu'on n'anticipe pas : « PAR CONTRASTE AVEC L'OXYMERCURATION DES ALCÈNES, aucun traitement au NaBH₄ n'est nécessaire pour retirer le mercure ; les conditions acides suffisent à elles seules ». La liaison carbone–mercure d'un vinylmercure est bien plus fragile que celle d'un alkylmercure. Et la dernière étape qu'on oublie : « la tautomérisation donne alors la cétone finale »."
         }
       ],
       "articles_historiques": [],
@@ -908,6 +962,24 @@
           "chapitre": "8 — Alkenes: Reactions and Synthesis, § 8-6",
           "pages": "235–236",
           "note": "La définition organique de la réduction, distinguée de celle de la chimie générale ; le palladium sur charbon et le PtO₂ dit catalyseur d'Adams ; le caractère hétérogène de la réaction, qui se déroule à la surface des particules solides ; la stéréochimie syn, avec 82 % de cis-1,2-diméthylcyclohexane ; le mécanisme en quatre étapes détaillé par la figure 8-6 — adsorption dissociative de H₂, adsorption de l'alcène par sa liaison π, transfert d'un premier hydrogène avec formation d'une liaison carbone–métal, transfert du second et régénération du catalyseur ; et la sensibilité à l'encombrement, illustrée par l'α-pinène."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis",
+          "pages": "236",
+          "note": "Le mécanisme de surface en quatre temps — adsorption et dissociation de H₂, complexation de l'alcène par sa liaison π, transfert du premier hydrogène donnant une liaison σ carbone–métal, transfert du second — et la conclusion qui découle de la géométrie plutôt que d'une règle : « parce que les deux hydrogènes sont transférés sur la MÊME FACE, la réduction a une stéréochimie syn »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "536",
+          "note": "Là où cette réaction se pratique vraiment : l'hydrogénation des huiles végétales. Pourquoi les huiles fondent bas — « leurs points de fusion bas tiennent largement aux doubles liaisons CIS, qui perturbent l'empilement des chaînes alkyle à l'état solide » — avec les quatre acides en C18 et leurs points de fusion : linolénique −11 °C, linoléique −5 °C, oléique 16 °C, stéarique 71 °C. Et le revers du procédé : l'isomérisation partielle en acides gras trans."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "537",
+          "note": "L'honnêteté sur le choix du catalyseur : « il peut être affaire d'essais et d'erreurs, et il est difficile de prédire quel métal réussira le mieux — généralement Pt, Rh ou Ni pour les arènes ». Deux exemples où un cycle aromatique est réduit tandis qu'un ester ou un acide survit. Et le catalyseur de Lindlar, qui demande « une chimiosélectivité assez subtile puisque les alcènes sont d'ordinaire hydrogénés au moins aussi vite que les alcynes »."
         }
       ],
       "articles_historiques": [],
@@ -926,6 +998,18 @@
           "chapitre": "23 — Chemoselectivity and protecting groups",
           "pages": "561",
           "note": "La référence de revue donnée par l'ouvrage : P. W. Rabideau et Z. Marcinow, Organic Reactions, 1992, 42, 1."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Free-Radical Reactions",
+          "pages": "321-323",
+          "note": "La famille des réductions par métal dissous, et ce que le voisinage éclaire : la Bouveault-Blanc « donne TOUJOURS le diastéréoisomère le plus bas en énergie, par contraste avec les hydrures, où le produit majoritaire est souvent le plus haut ». Pour la réduction des alcynes en alcènes trans, « l'étape qui détermine la stéréochimie est la protonation du carbanion obtenu après le second transfert d'électron ». Et un usage inattendu : Li/NH₃ clive les éthers de benzyle, « les produits étant l'alcool désiré plus du toluène, facilement éliminé par évaporation »."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "11 — Reactions of Aromatic Compounds",
+          "pages": "§ 11.11",
+          "note": "Le cadre en une phrase : « la réduction de Birch est la réduction par métal dissous des noyaux aromatiques EN PRÉSENCE D'UN ALCOOL ». L'alcool n'est pas un solvant mais le donneur de protons."
         }
       ],
       "articles_historiques": [],
@@ -3172,6 +3256,12 @@
           "chapitre": "27 — Reactions of enolates with carbonyl compounds",
           "pages": "632",
           "note": "Les trois équivalents d'énolate d'ester alignés sur une même ligne : énolate de lithium, éther d'énol silylé, énolate de zinc. « Les énolates de zinc, faits à partir des bromoesters, sont une bonne alternative aux énolates de lithium. » Le schéma donne le zinc porté par l'oxygène."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions Under Basic Conditions",
+          "pages": "323",
+          "note": "Ce qui situe la réaction dans son époque : « AVANT L'AVÈNEMENT DES BASES FORTES NON NUCLÉOPHILES comme le LDA, la réaction de Reformatsky était la SEULE façon de préparer quantitativement les énolates de composés carbonylés simples ». Et une prudence sur le mécanisme : « après le transfert d'électron initial, plusieurs chemins sont possibles, mais tous mènent à l'énolate »."
         }
       ],
       "articles_historiques": [
