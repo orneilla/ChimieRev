@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 283,
-  "redigees": 251,
-  "verifiees": 168,
+  "redigees": 253,
+  "verifiees": 169,
   "relues": 0,
   "familles": [
     {
@@ -2121,9 +2121,9 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 11,
-      "redigee": 0,
-      "verifiee": 8,
+      "absente": 9,
+      "redigee": 1,
+      "verifiee": 9,
       "relue": 0,
       "reactions": [
         {
@@ -2192,16 +2192,16 @@
         {
           "nom": "Couplage A3 : aldéhyde, alcyne, amine",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "couplage_a3",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Cycloaddition azoture-alcyne catalysée au cuivre (CuAAC)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cuaac",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Synthèse d'imidazoles de Radziszewski",

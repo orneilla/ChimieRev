@@ -10367,5 +10367,93 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "cuaac": {
+    "1": {
+      "fichier": "cuaac-etape1.svg",
+      "titre": "Un alcyne, un azoture, et du cuivre(I)",
+      "legende": "Deux partenaires qui, laissés seuls et chauffés, réagiraient tout de même — c'est la cycloaddition de Huisgen, traitée dans la fiche « Cycloadditions 1,3-dipolaires ». Mais ils y mettraient des heures, à haute température, et donneraient un MÉLANGE des deux régiochimies.\n\nLE CUIVRE(I) change les trois choses à la fois : la température, la vitesse, et la régiosélectivité.\n\nAUCUNE FLÈCHE COURBE ICI. Autour d'un métal de transition, les étapes ne sont pas des déplacements de doublets d'un atome vers un autre : les liaisons se font et se défont ensemble. On dessine les espèces, on ne dessine pas de flèches — comme pour le cycle du palladium.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cuaac-etape2.svg",
+      "titre": "L'acétylure de cuivre",
+      "legende": "Le cuivre se lie au carbone terminal de l'alcyne et un proton part. Herrera & Marqués-López décrivent l'étape ainsi (p. 92) : « la génération de l'acétylure de cuivre(I) XXIII par réaction avec l'alcyne ».\n\nPOURQUOI CE PROTON PART SI FACILEMENT : un hydrogène porté par un carbone sp est bien plus acide qu'un hydrogène ordinaire — pKa 25 contre 50 —, et la coordination au cuivre l'acidifie encore.\n\nET C'EST DÉJÀ LA RÉPONSE À LA RÉGIOSÉLECTIVITÉ. À partir de là, ce n'est plus une cycloaddition entre deux molécules libres : c'est une séquence sur un centre métallique, où seul le carbone lié au cuivre peut recevoir l'azote.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "cuaac-etape3.svg",
+      "titre": "L'azoture arrive, le cycle se ferme",
+      "legende": "L'azoture se coordonne au cuivre puis se referme sur l'acétylure. L'ouvrage écrit « la cycloaddition concertée » (p. 92) ; le produit est un TRIAZOLURE de cuivre, l'intermédiaire XXIV.\n\nREGARDEZ OÙ SE TROUVE LE CUIVRE : sur le carbone n° 5. L'azote substitué est en position 1, le substituant de l'alcyne en position 4. Cette disposition n'est pas un choix — elle est imposée par la géométrie du complexe.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "cuaac-etape4.svg",
+      "titre": "Un proton rend le triazole et reprend le cuivre",
+      "legende": "Le proton libéré à l'étape 2 revient prendre la place du cuivre. Le 1,2,3-triazole 1,4-disubstitué est libéré, et le catalyseur repart pour un tour.\n\nUN SEUL RÉGIOISOMÈRE, ET C'EST TOUT L'INTÉRÊT. La cycloaddition thermique donne un mélange 1,4 et 1,5 ; celle-ci ne donne que le 1,4.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "couplage_a3": {
+    "1": {
+      "fichier": "couplage_a3-etape1.svg",
+      "titre": "Trois composants et un métal",
+      "legende": "Un alcyne vrai, un aldéhyde, une amine. Le catalyseur est du cuivre(I), de l'or(I) ou de l'argent(I) — « principalement catalysée par le cuivre, l'or et l'argent » (Multicomposants p. 94).\n\nA³ VEUT DIRE ALDÉHYDE, ALCYNE, AMINE. Le produit sera une PROPARGYLAMINE : une amine portant une triple liaison à deux carbones de là.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "couplage_a3-etape2.svg",
+      "titre": "L'acétylure de métal",
+      "legende": "Comme dans la CuAAC : le métal se lie au carbone terminal, un proton part. C'est ce geste qui rend l'alcyne nucléophile.\n\nSANS LE MÉTAL, RIEN. Un alcyne vrai n'attaque pas un iminium : sa triple liaison est trop peu nucléophile. Il faudrait passer par un organomagnésien ou un organolithien, et l'on ne pourrait alors plus mettre l'aldéhyde et l'amine dans le même ballon.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "couplage_a3-etape3.svg",
+      "titre": "Pendant ce temps, l'iminium se forme",
+      "legende": "L'amine et l'aldéhyde se condensent en ion iminium. Le détail est écrit dans la fiche « Formation des imines et des énamines ».\n\nET VOICI POURQUOI ON EMPLOIE UNE AMINE SECONDAIRE (p. 94) : « le couplage A³ est relativement plus facile et peut être conduit dans des conditions plus douces avec les amines secondaires qu'avec les primaires, principalement du fait que les ions iminium, dérivés des amines secondaires, sont bien plus ÉLECTROPHILES que leurs homologues imines, dérivées des amines primaires ».\n\nC'EST EXACTEMENT L'ARGUMENT DE LA RÉACTION DE MANNICH, et le même raisonnement sur le comptage des protons de l'azote : une amine secondaire perd un proton, ne peut pas en perdre un second, et reste donc chargée.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "couplage_a3-etape4.svg",
+      "titre": "L'acétylure attaque l'iminium",
+      "legende": "La liaison carbone-métal cède ses électrons au carbone de l'iminium. Le métal repart sous forme de Cu(I), et reprend le proton libéré à l'étape 2 : le cycle est bouclé.\n\nCETTE ÉTAPE-LÀ EST UNE ATTAQUE ORDINAIRE : un nucléophile carboné sur un électrophile carboné, comme dans une réaction de Mannich. C'est pourquoi on la dessine avec des flèches, alors que les deux étapes précédentes n'en portaient pas.",
+      "fleches": [
+        "La liaison carbone-cuivre cède ses électrons au carbone de l'iminium.",
+        "La double liaison C=N se replie : l'azote redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "couplage_a3-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une propargylamine. Trois molécules, une seule perte — la molécule d'eau de la condensation.\n\nCE N'EST PAS LA CIBLE FINALE, LE PLUS SOUVENT (p. 95) : « l'utilité synthétique du couplage A³ tient à ce que les propargylamines sont des intermédiaires clés pour la construction d'une variété d'hétérocycles ». La triple liaison, activée par le même métal, se referme sur l'azote ou sur un voisin : on obtient des indolizines, des imidazoles, des pyrroles, des benzazépines — souvent sans changer de ballon.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

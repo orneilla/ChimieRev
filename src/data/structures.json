@@ -1003,6 +1003,14 @@
     "substrat": "petasis_borono_mannich-substrat.svg",
     "produit": "petasis_borono_mannich-produit.svg"
   },
+  "cuaac": {
+    "substrat": "cuaac-substrat.svg",
+    "produit": "cuaac-produit.svg"
+  },
+  "couplage_a3": {
+    "substrat": "couplage_a3-substrat.svg",
+    "produit": "couplage_a3-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1744,6 +1752,13 @@
   "carbonate_ammonium-ex0": {
     "substrat": "carbonate_ammonium-ex0-substrat.svg",
     "produit": "carbonate_ammonium-ex0-produit.svg"
+  },
+  "ascorbate_sodium": {
+    "molecule": "reactif-ascorbate_sodium.svg"
+  },
+  "ascorbate_sodium-ex0": {
+    "substrat": "ascorbate_sodium-ex0-substrat.svg",
+    "produit": "ascorbate_sodium-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

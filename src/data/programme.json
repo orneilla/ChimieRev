@@ -1540,12 +1540,12 @@
         {
           "nom": "Couplage A3 : aldéhyde, alcyne, amine",
           "niveau": "M1",
-          "id": null
+          "id": "couplage_a3"
         },
         {
           "nom": "Cycloaddition azoture-alcyne catalysée au cuivre (CuAAC)",
           "niveau": "M1",
-          "id": null
+          "id": "cuaac"
         },
         {
           "nom": "Synthèse d'imidazoles de Radziszewski",

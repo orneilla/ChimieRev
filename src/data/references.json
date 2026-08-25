@@ -7820,6 +7820,82 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "cuaac": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "3.4.1 — Copper-Catalyzed Azide-Alkyne Cycloaddition",
+          "pages": "91-93",
+          "note": "Le cœur de la fiche. Les systèmes catalytiques (p. 91) : sels de cuivre(I), complexes [Cu(CH₃CN)₄]PF₆ ou OTf, et surtout « des sels de cuivre(II) (sulfate ou acétate) en conjonction avec l'ascorbate comme réducteur, ce dernier système étant largement accepté comme la méthode de choix pour la synthèse des 1,2,3-triazoles ». Le statut de la réaction depuis Sharpless 2001 : « une méthode hautement fiable et directe pour la construction de nouvelles liaisons covalentes entre des blocs de construction contenant différents groupes fonctionnels ». Le mécanisme est le schéma 3.38 (p. 93) : acétylure de cuivre XXIII, « cycloaddition concertée », triazolure de cuivre XXIV, protonolyse. Les versions multicomposants (p. 91-92) engendrent l'azoture sur place à partir d'un époxyde ou d'une N-tosylaziridine, dans l'eau, en conservant l'excès énantiomérique. La bifurcation vers les cétènimines avec un azoture sulfonylé est p. 93 (schéma 3.39)."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "3 — Références 63, 64",
+          "pages": "120",
+          "note": "NOTE DE RECHERCHE, ET UNE DIVERGENCE INTERNE À L'OUVRAGE. La référence 63 est Kolb, Finn & Sharpless, Angew. Chem. Int. Ed. 2001, 40, 2004-2021, « Click chemistry : diverse chemical function from a few good reactions » — c'est de là que vient le mot. La référence 64a est Rostovtsev, Green, Fokin & Sharpless, Angew. Chem. Int. Ed. 2002, 41, 2596-2599, et son titre dit « A STEPWISE Huisgen cycloaddition process » — par étapes, là où le schéma 3.38 du même ouvrage écrit « concertée ». La référence 64b est le travail parallèle et indépendant de Tornøe, Christensen & Meldal, J. Org. Chem. 2002, 67, 3057-3064, sur support solide."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "30 — Aromatic heterocycles 2: synthesis",
+          "pages": "743-744",
+          "note": "Ce que le Clayden apporte, et ce qu'il n'apporte pas. Il donne la structure des deux triazoles, leur tautomérie — « dans le 1,2,3-triazole les tautomères sont identiques » —, leur acidité suffisante pour que « même NaHCO₃ produise une petite quantité de l'anion », et le fluconazole de Pfizer « qui contient en fait deux triazoles ». Il ne traite PAS la catalyse au cuivre : la réaction date de 2001. L'encadré « Nitrogen atoms and explosions » (p. 744) fournit le piège de sécurité : « les composés qui portent ne serait-ce que deux ou trois atomes d'azote liés entre eux, comme le diazométhane ou les azotures, sont potentiellement explosifs, parce qu'ils peuvent dégager brutalement de l'azote gazeux stable »."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "auteurs": "H. C. Kolb, M. G. Finn, K. B. Sharpless",
+          "titre": "Click chemistry: diverse chemical function from a few good reactions",
+          "journal": "Angewandte Chemie International Edition",
+          "annee": 2001,
+          "volume": "40",
+          "pages": "2004-2021",
+          "doi": null,
+          "verifie": false,
+          "note": "Référence 63 du chapitre 3 (Multicomposants p. 120). Le DOI n'a pas été vérifié : il s'écrit null."
+        },
+        {
+          "auteurs": "V. V. Rostovtsev, L. G. Green, V. V. Fokin, K. B. Sharpless",
+          "titre": "A stepwise Huisgen cycloaddition process: copper(I)-catalyzed regioselective « ligation » of azides and terminal alkynes",
+          "journal": "Angewandte Chemie International Edition",
+          "annee": 2002,
+          "volume": "41",
+          "pages": "2596-2599",
+          "doi": null,
+          "verifie": false,
+          "note": "Référence 64a. Son titre contredit le schéma 3.38 du même ouvrage : « stepwise » contre « concertée »."
+        },
+        {
+          "auteurs": "C. W. Tornøe, C. Christensen, M. Meldal",
+          "titre": "Peptidotriazoles on solid phase: [1,2,3]-triazoles by regiospecific copper(I)-catalyzed 1,3-dipolar cycloadditions of terminal alkynes to azides",
+          "journal": "Journal of Organic Chemistry",
+          "annee": 2002,
+          "volume": "67",
+          "pages": "3057-3064",
+          "doi": null,
+          "verifie": false,
+          "note": "Référence 64b. Travail parallèle et indépendant, sur support solide."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "couplage_a3": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "3.4.2 — A³-Coupling",
+          "pages": "94-95",
+          "note": "Tout ce que porte la fiche. La définition (p. 94) : « la réaction d'un aldéhyde, d'un alcyne et d'une amine (couplage A³) représente la méthode la plus directe et la plus efficace pour la préparation des propargylamines », premier exemple catalysé au cuivre en 1998, « principalement catalysée par le cuivre, l'or et l'argent ». Le mécanisme est le schéma 3.40. La règle sur l'amine : « le couplage A³ est relativement plus facile et peut être conduit dans des conditions plus douces avec les amines secondaires qu'avec les primaires, principalement du fait que les ions iminium, dérivés des amines secondaires, sont bien plus électrophiles que leurs homologues imines, dérivées des amines primaires ». L'ouverture aux amines primaires date de 2010 (Van der Eycken, CuBr, micro-ondes, 26 exemples, 41-89 %), et l'extension aux cétones — couplage KA² — du même groupe. La catalyse hétérogène est détaillée p. 94-95 : CuCN en liquide ionique réutilisé cinq fois, sel d'argent de l'acide 12-tungstophosphorique, nanoparticules d'or (2007), oxyde d'argent réutilisé six fois, carbène N-hétérocyclique d'argent sur polystyrène sans solvant (23 exemples, 85-98 %). Et l'usage réel (p. 95) : « l'utilité synthétique du couplage A³ tient à ce que les propargylamines sont des intermédiaires clés pour la construction d'une variété d'hétérocycles » — indolizines par catalyse à l'or(III), benzazépines, triazolodibenzazocines, 2-aminoimidazoles."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "note de recherche",
+          "pages": "94",
+          "note": "PIÈGE DE RECHERCHE. « A3 coupling » ne rend AUCUNE occurrence dans les neuf ouvrages : le nom porte un exposant, que l'extraction de texte ne rend pas. C'est le mot « propargylamine » — le produit — qui rend dix-sept pages du Multicomposants. Les deux pages que rend le Dugas (550, 697) ne traitent pas cette réaction."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

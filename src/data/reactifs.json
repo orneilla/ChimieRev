@@ -4364,5 +4364,40 @@
         "note": "L'azote ET le carbonyle du cycle viennent du même sel"
       }
     ]
+  },
+  {
+    "id": "ascorbate_sodium",
+    "nom": "ascorbate de sodium",
+    "nom_complet": "sel de sodium de la vitamine C",
+    "famille": "Hydrures et réducteurs",
+    "SMILES": "OCC(O)C1OC(=O)C([O-])=C1O.[Na+]",
+    "role": "Réduit le cuivre(II) en cuivre(I), et l'y maintient contre l'oxygène de l'air",
+    "anatomie_annotations": [
+      {
+        "partie": "l'ène-diol du cycle",
+        "role": "Deux hydroxyles portés par une double liaison : c'est le motif réducteur. Il cède deux électrons et deux protons, et devient un dicétone — l'acide déshydroascorbique. La réaction est réversible dans la cellule, ce qui fait de la vitamine C un antioxydant régénérable."
+      },
+      {
+        "partie": "la charge négative",
+        "role": "L'un des deux hydroxyles est nettement acide (pKa 4,2), parce que sa base conjuguée est stabilisée par la double liaison et le carbonyle voisins. Le sel de sodium est donc la forme courante, et elle est soluble dans l'eau."
+      },
+      {
+        "partie": "la chaîne diol latérale",
+        "role": "Elle ne participe pas à la réduction. Elle assure la solubilité dans l'eau, ce qui permet d'employer le réactif dans les milieux aqueux où se fait la CuAAC."
+      }
+    ],
+    "reactions_liees": [
+      "cuaac"
+    ],
+    "explication_reference": "L'ascorbate de sodium est le réducteur de référence des cycloadditions azoture-alcyne catalysées au cuivre. Herrera & Marqués-López décrivent le système (Multicomposants p. 91) : on emploie « des sels de cuivre(II) (sulfate ou acétate) en conjonction avec l'ascorbate comme réducteur, ce dernier système étant largement accepté comme la MÉTHODE DE CHOIX pour la synthèse des 1,2,3-triazoles ».\n\nSON RÔLE EST DOUBLE. Il réduit d'abord le cuivre(II), commode et stable, en cuivre(I), qui est l'espèce catalytique. Il le MAINTIENT ensuite à l'état réduit : le cuivre(I) est sensible à l'oxygène dissous, et sans excès de réducteur le catalyseur se désactive au cours de la réaction.\n\nC'EST POURQUOI ON NE PART PAS DIRECTEMENT D'UN SEL DE CUIVRE(I). CuI et CuBr fonctionnent, mais ils s'oxydent au stockage et exigent une atmosphère inerte ; le couple CuSO₄/ascorbate se pèse à l'air et engendre le cuivre(I) au moment voulu, en quantité contrôlée.\n\nLE MOTIF RÉDUCTEUR est l'ène-diol du cycle lactone, qui cède deux électrons et deux protons pour donner l'acide déshydroascorbique.",
+    "explication_comprendre": "DE LA VITAMINE C DANS UN BALLON\n\nL'ascorbate de sodium est le sel de la vitamine C. On l'achète en kilogrammes, il est inoffensif, et il se dissout dans l'eau.\n\nQue fait-il dans une réaction de chimie organique ?\n\nLE PROBLÈME QU'IL RÉSOUT\n\nLa cycloaddition azoture-alcyne a besoin de cuivre au degré d'oxydation +I.\n\nOn peut acheter du cuivre(I) — CuI, CuBr. Mais le cuivre(I) est fragile : l'oxygène de l'air le transforme lentement en cuivre(II), qui ne catalyse rien. Un flacon ouvert depuis six mois n'est plus fiable.\n\nLE CUIVRE(II), LUI, EST INDESTRUCTIBLE\n\nLe sulfate de cuivre est cette poudre bleue que tout le monde a vue. Il se conserve indéfiniment, il se pèse à l'air, il coûte trois fois rien.\n\nSeul ennui : il a un électron de trop.\n\nL'ASTUCE\n\nOn met les deux ensemble. Le cuivre(II) apporte le cuivre, l'ascorbate apporte l'électron manquant.\n\nLe cuivre(I) se forme dans le ballon, au moment où l'on en a besoin, et non six mois plus tôt dans une usine.\n\nET IL RESTE DE GARDE\n\nOn en met un excès, et pour une bonne raison : pendant que la réaction tourne, l'oxygène dissous dans l'eau grignote le cuivre(I).\n\nL'ascorbate le réduit à nouveau, en continu. C'est exactement son métier dans votre corps, où il protège d'autres molécules de l'oxydation — d'où le nom d'antioxydant.\n\nRetenez le principe : quand une espèce active est fragile, mieux vaut l'ENGENDRER SUR PLACE à partir d'un précurseur stable que d'essayer de la conserver.",
+    "reactions_exemples": [
+      {
+        "nom": "CuAAC : alcyne + azoture → triazole 1,4",
+        "substrat_SMILES": "C#Cc1ccccc1",
+        "produit_SMILES": "Cn1cc(-c2ccccc2)nn1",
+        "note": "CuSO₄ + ascorbate dans l'eau"
+      }
+    ]
   }
 ]
