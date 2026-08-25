@@ -7896,6 +7896,36 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "ugi_smiles": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "7.6 — Ugi-Smiles Approach",
+          "pages": "270-272",
+          "note": "La méthode d'invention, énoncée en toutes lettres (p. 270) : « l'une des meilleures stratégies pour découvrir de nouvelles réactions dans le domaine des RMC est le remplacement de l'un des composants, ce qu'on appelle aussi le remplacement d'un réactif unique (SRR). Cette stratégie exige une analyse détaillée du mécanisme de la réaction. » Ce que faisait l'acide, en trois endroits (p. 271) : « il permettait la formation de l'iminium, piégeait l'intermédiaire nitrilium, et intervenait enfin dans la transposition de Mumm ». La définition de la transposition qui le remplace : « une migration intramoléculaire d'un cycle aromatique entre les deux centres nucléophiles de l'intermédiaire imidate de phénol ». L'histoire : Passerini et Marcaccini avaient noté que les phénols pouvaient tenir le rôle acide, « cependant, après plusieurs décennies, El Kaïm et Grimaud ont rapporté le premier couplage Ugi-Smiles ». Les limites : p-nitrophénols activés oui, dérivés salicyliques rendements moindres. Et l'observation contre-intuitive : « de façon inattendue, la polarité du solvant n'avait pas une forte influence sur la réactivité, et la réaction pouvait être conduite dans le toluène, dans le méthanol, ou même dans l'eau ». Les schémas 7.41 à 7.43 donnent le mécanisme comparé, le premier couplage d'El Kaïm et Grimaud (8 exemples, 33-98 %) et les produits hétérocycliques (14 exemples, 38-96 %)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "radziszewski": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "12.1 — Radziszewski Reactions (Imidazole Synthesis)",
+          "pages": "382-383",
+          "note": "La définition (p. 382) : condensation d'un composé α-dicarbonylé — « glyoxal, pyruvaldéhyde, porphyrine-2,3-diones, benzile » —, d'un aldéhyde et de deux équivalents d'ammoniac SEC dans l'alcool ; le remplacement d'un ammoniac par une amine primaire donne l'imidazole 1-substitué. Le mécanisme, en une phrase : « les deux molécules d'ammoniac (ou d'amine primaire) réagissent avec le composé α-dicarbonylé pour former une α-diimine, qui se condense avec l'aldéhyde en donnant un intermédiaire qui cyclise pour donner le dérivé imidazole comme produit principal, mais il peut aussi rendre l'OXAZOLE comme sous-produit » — le schéma 12.2 (p. 383) dessine les deux branches. Et l'histoire d'attribution, qui est rare dans un manuel : « publiée pour la première fois par Debus en 1858 [...] plus de deux décennies plus tard, Radziszewski a répété cette réaction, et selon Hofmann, la méthode porte le nom de Radziszewski parce qu'il l'a étendue à la préparation d'imidazoles plus simples et a démontré son applicabilité générale. Cependant, Japp avait travaillé sur la réaction de formation des imidazoles avant le premier article de Radziszewski, et Plater a demandé qu'on lui reconnaisse ses contributions cruciales. » L'exemple industriel du schéma 12.3 (p. 383) emploie l'acétate d'ammonium comme source d'ammoniac."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "1 — Table 1.1",
+          "pages": "2",
+          "note": "La ligne historique : Debus-Radziszewski [15], 1858 et 1882, composé 1,2-dicarbonylé + aldéhyde + 2 NH₃ vers l'imidazole. La table donne les DEUX dates, celle de Debus et celle de Radziszewski, ce que le nom composé reflète."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

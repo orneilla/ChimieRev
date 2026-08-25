@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 283,
-  "redigees": 253,
-  "verifiees": 169,
+  "redigees": 255,
+  "verifiees": 171,
   "relues": 0,
   "familles": [
     {
@@ -2121,9 +2121,9 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 9,
+      "absente": 7,
       "redigee": 1,
-      "verifiee": 9,
+      "verifiee": 11,
       "relue": 0,
       "reactions": [
         {
@@ -2157,9 +2157,9 @@
         {
           "nom": "Approche Ugi-Smiles",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ugi_smiles",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Biginelli",
@@ -2206,9 +2206,9 @@
         {
           "nom": "Synthèse d'imidazoles de Radziszewski",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "radziszewski",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Sakurai et aza-Sakurai multicomposant",

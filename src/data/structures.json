@@ -1011,6 +1011,14 @@
     "substrat": "couplage_a3-substrat.svg",
     "produit": "couplage_a3-produit.svg"
   },
+  "ugi_smiles": {
+    "substrat": "ugi_smiles-substrat.svg",
+    "produit": "ugi_smiles-produit.svg"
+  },
+  "radziszewski": {
+    "substrat": "radziszewski-substrat.svg",
+    "produit": "radziszewski-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

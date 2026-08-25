@@ -1515,7 +1515,7 @@
         {
           "nom": "Approche Ugi-Smiles",
           "niveau": "M2",
-          "id": null
+          "id": "ugi_smiles"
         },
         {
           "nom": "Réaction de Biginelli",
@@ -1550,7 +1550,7 @@
         {
           "nom": "Synthèse d'imidazoles de Radziszewski",
           "niveau": "M2",
-          "id": null
+          "id": "radziszewski"
         },
         {
           "nom": "Réaction de Sakurai et aza-Sakurai multicomposant",

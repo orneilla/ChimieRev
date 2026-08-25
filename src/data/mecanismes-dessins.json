@@ -10455,5 +10455,163 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "ugi_smiles": {
+    "1": {
+      "fichier": "ugi_smiles-etape1.svg",
+      "titre": "Un seul réactif change",
+      "legende": "Aldéhyde, amine primaire, isonitrile — les trois premiers composants de la réaction d'Ugi, inchangés. Le quatrième n'est plus un acide carboxylique : c'est un PHÉNOL, et il est nitré.\n\nCETTE SUBSTITUTION A UN NOM ET UNE MÉTHODE (Multicomposants p. 270) : « l'une des meilleures stratégies pour découvrir de nouvelles réactions dans le domaine des RMC est le remplacement de l'un des composants, ce qu'on appelle aussi le REMPLACEMENT D'UN RÉACTIF UNIQUE. Cette stratégie exige une analyse détaillée du mécanisme de la réaction. » On ne remplace pas au hasard : on remplace en sachant ce que le réactif faisait.\n\nCE QUE FAISAIT L'ACIDE, EN TROIS ENDROITS (p. 271) : « l'une des clés de la haute efficacité de l'Ugi-4CR tenait à l'emploi de l'acide, qui permettait la formation de l'iminium, piégeait l'intermédiaire nitrilium, et intervenait enfin dans la transposition de Mumm ». Trois métiers pour une molécule. Un phénol nitré sait faire les trois.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "ugi_smiles-etape2.svg",
+      "titre": "Jusqu'ici, c'est la réaction d'Ugi",
+      "legende": "Imine, protonation, addition de l'isonitrile : l'ion NITRILIUM se forme exactement comme dans la réaction d'Ugi, dont la fiche donne le détail des flèches. Le phénol nitré, assez acide, remplit ici le rôle du proton.\n\nON NE REDESSINE PAS CE QUI EST DÉJÀ ÉCRIT AILLEURS.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "ugi_smiles-etape3.svg",
+      "titre": "Le phénolate piège le nitrilium",
+      "legende": "Le phénolate attaque le carbone du nitrilium, comme le faisait le carboxylate. On obtient un IMIDATE DE PHÉNOL — l'intermédiaire 105 de l'ouvrage.\n\nJUSQU'ICI TOUT EST PARALLÈLE. C'est à l'étape suivante que les deux réactions divergent, et la divergence tient à la nature de ce qui est accroché sur l'oxygène : un acyle chez Ugi, un ARYLE ici.",
+      "fleches": [
+        "Le phénolate attaque le carbone du nitrilium.",
+        "La triple liaison C≡N se replie sur l'azote."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "ugi_smiles-etape4.svg",
+      "titre": "Transposition de Smiles, premier temps : l'azote attaque le cycle",
+      "legende": "L'azote de l'amine attaque le carbone du cycle aromatique qui porte l'oxygène. L'aromaticité est momentanément perdue : on obtient un COMPLEXE DE MEISENHEIMER, la charge négative se logeant sur le carbone voisin.\n\nC'EST UNE SUBSTITUTION NUCLÉOPHILE AROMATIQUE, faite à l'intérieur d'une seule molécule. Et c'est pourquoi le GROUPE NITRO n'est pas décoratif : sans lui, aucun cycle aromatique n'accepterait cette charge. Il la reçoit et la stabilise — la forme limite où elle se pose sur le nitro n'est pas dessinée ici, mais c'est elle qui rend la réaction possible.\n\nL'ouvrage définit la transposition ainsi (p. 271) : « une migration intramoléculaire d'un cycle aromatique entre les deux centres nucléophiles de l'intermédiaire imidate de phénol ».",
+      "fleches": [
+        "L'azote de l'amine attaque le carbone porteur de l'oxygène.",
+        "Le cycle perd son aromaticité : la charge se pose sur le carbone voisin, celui qui porte le nitro."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "ugi_smiles-etape5.svg",
+      "titre": "Transposition de Smiles, second temps : le cycle se réaromatise",
+      "legende": "La charge revient dans le cycle, l'aromaticité est restaurée, et la liaison carbone-oxygène se rompt. L'ARYLE A CHANGÉ DE PORTEUR : il était sur l'oxygène, il est maintenant sur l'azote.\n\nMUMM ET SMILES SE RESSEMBLENT ET NE SE RESSEMBLENT PAS. Toutes deux déplacent un groupe de l'oxygène vers l'azote, à l'intérieur d'une seule molécule, et toutes deux sont irréversibles. Mais la transposition de Mumm déplace un ACYLE par addition-élimination sur un carbonyle, tandis que celle de Smiles déplace un ARYLE par substitution nucléophile aromatique. Le premier mécanisme n'exige rien de particulier ; le second exige un cycle appauvri en électrons.",
+      "fleches": [
+        "La charge revient dans le cycle : l'aromaticité est restaurée.",
+        "La liaison carbone-oxygène se rompt : l'aryle a changé de porteur."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "ugi_smiles-etape6.svg",
+      "titre": "L'imidate s'effondre, comme chez Ugi",
+      "legende": "Dernier geste, et c'est mot pour mot celui de la réaction d'Ugi : l'anion imidate reforme son carbonyle, la double liaison C=N se replie sur l'azote de l'isonitrile, et cet azote prend le proton resté sur l'ammonium.\n\nLE PRODUIT EST UN α-ARYLAMINO AMIDE. Comparez-le au produit d'Ugi : même squelette, mais l'azote central porte un ARYLE au lieu d'un acyle. C'est une aniline substituée — le motif qu'on obtiendrait autrement par un couplage de Buchwald-Hartwig, avec du palladium et un ligand sur mesure.",
+      "fleches": [
+        "L'oxygène rend son doublet : le carbonyle de l'amide se forme.",
+        "La double liaison C=N se replie sur l'azote.",
+        "L'azote va chercher le proton.",
+        "La liaison N–H se rompt : l'azote central redevient neutre, porteur de son aryle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "ugi_smiles-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une amine N-arylée portant un amide : l'azote central a reçu le cycle aromatique du phénol.\n\nQUATRE MOLÉCULES, UN BALLON, UN SEUL RÉACTIF CHANGÉ PAR RAPPORT À LA RÉACTION D'UGI — et une famille de produits entièrement différente.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "radziszewski": {
+    "1": {
+      "fichier": "radziszewski-etape1.svg",
+      "titre": "Un dicarbonyle, un aldéhyde, deux ammoniacs",
+      "legende": "Un composé α-dicarbonylé — glyoxal, pyruvaldéhyde, benzile —, un aldéhyde ordinaire, et DEUX équivalents d'ammoniac sec dans l'alcool.\n\nCOMPTEZ LES ATOMES DU CYCLE : l'imidazole en compte cinq, trois carbones et deux azotes. Les deux azotes viennent des deux ammoniacs. Deux carbones viennent du dicarbonyle, le troisième de l'aldéhyde — et c'est celui-là qui se retrouve entre les deux azotes, en position 2.\n\nREMPLACEZ UN AMMONIAC PAR UNE AMINE PRIMAIRE et vous obtenez un imidazole N-substitué (p. 382). Le réactif qu'on change décide de la position substituée.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "radziszewski-etape2.svg",
+      "titre": "Les deux ammoniacs font une α-diimine",
+      "legende": "Chaque ammoniac condense sur l'un des deux carbonyles, et deux molécules d'eau partent. Le détail de la condensation est écrit dans la fiche « Formation des imines et des énamines ».\n\nL'INTERMÉDIAIRE 5 EST UNE α-DIIMINE : deux liaisons C=N côte à côte. Il porte donc DEUX azotes nucléophiles, tenus à la bonne distance l'un de l'autre — exactement l'écartement d'un cycle à cinq chaînons.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "radziszewski-etape3.svg",
+      "titre": "Un des deux azotes attaque l'aldéhyde",
+      "legende": "L'un des azotes de la diimine attaque le carbone de l'aldéhyde. Peu importe lequel : ils sont équivalents.\n\nC'est l'intermédiaire 6 de l'ouvrage. À partir d'ici, les trois molécules sont réunies, et il ne reste qu'à fermer.",
+      "fleches": [
+        "L'azote de la diimine attaque le carbone de l'aldéhyde.",
+        "Les électrons du C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "radziszewski-etape4.svg",
+      "titre": "Le proton passe",
+      "legende": "L'oxygène chargé négativement prend le proton porté par l'azote chargé positivement. Les deux charges disparaissent : on tient un alcool neutre.",
+      "fleches": [
+        "L'oxygène va chercher le proton de l'azote.",
+        "La liaison N–H se rompt : l'azote redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "radziszewski-etape5.svg",
+      "titre": "Le second azote referme le cycle",
+      "legende": "L'alcool, protoné par le milieu, s'en va sous l'attaque du SECOND azote. Cycle à cinq chaînons.\n\nLES DEUX AZOTES ONT SERVI L'UN APRÈS L'AUTRE, comme les deux azotes de l'urée dans la réaction de Biginelli. C'est le même principe : un réactif qui porte deux sites nucléophiles à la bonne distance ferme un cycle sans qu'on ait à l'y aider.\n\nET C'EST ICI QUE NAÎT LE SOUS-PRODUIT. Si c'est l'OXYGÈNE de l'alcool qui attaque l'autre imine au lieu de partir, on obtient un OXAZOLE (composé 7 de l'ouvrage) au lieu de l'imidazole. Deux nucléophiles en compétition sur la même molécule, deux hétérocycles.",
+      "fleches": [
+        "Le second azote attaque le carbone porteur de l'alcool.",
+        "L'eau s'en va."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "radziszewski-etape6.svg",
+      "titre": "Un dernier proton, et le cycle devient aromatique",
+      "legende": "L'eau prend le proton du carbone situé entre les deux azotes. Les doubles liaisons se réarrangent, et le cycle gagne ses six électrons π : il est AROMATIQUE.\n\nC'EST CE GAIN D'AROMATICITÉ QUI TIRE TOUTE LA RÉACTION. Rien de ce qui précède n'était très favorable ; la dernière étape l'est massivement, et elle vide les équilibres en amont — le même raisonnement que la transposition de Mumm dans les réactions à isonitrile, avec une force motrice différente.",
+      "fleches": [
+        "L'eau prend le proton du carbone central.",
+        "Les électrons de la liaison C–H forment une double liaison C=N.",
+        "La double liaison voisine glisse.",
+        "Et la dernière se replie sur l'azote, qui garde son hydrogène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "radziszewski-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un imidazole. Quatre molécules y sont entrées — deux ammoniacs, un dicarbonyle, un aldéhyde — et trois molécules d'eau en sont sorties.\n\nCE CYCLE EST CELUI DE L'HISTIDINE, donc celui du site actif de milliers d'enzymes : voir les fiches « Triade catalytique de la chymotrypsine » et « Anhydrase carbonique », où c'est un imidazole qui prend ou rend le proton.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
