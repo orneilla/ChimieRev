@@ -1362,17 +1362,17 @@
         {
           "nom": "Polymérisation radicalaire en chaîne",
           "niveau": "L3",
-          "id": null
+          "id": "polymerisation_radicalaire"
         },
         {
           "nom": "Polymérisation cationique",
           "niveau": "L3",
-          "id": null
+          "id": "polymerisation_cationique"
         },
         {
           "nom": "Polymérisation anionique",
           "niveau": "L3",
-          "id": null
+          "id": "polymerisation_anionique"
         },
         {
           "nom": "Polymérisation Ziegler-Natta et stéréorégularité",

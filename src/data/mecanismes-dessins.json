@@ -9200,5 +9200,56 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "polymerisation_cationique": {
+    "1": {
+      "fichier": "polymerisation_cationique-etape1.svg",
+      "titre": "L'acide protone le monomère — et le carbocation décide de tout",
+      "legende": "L'isobutène est protoné, et le proton se pose sur le carbone qui donne le MEILLEUR carbocation : le tertiaire.\n\nMcMURRY POSE LA CONDITION D'ENTRÉE DE TOUTE CETTE VOIE (p. 1038) : « la polymérisation catalysée par un acide (CATIONIQUE), en revanche, n'est efficace QU'AVEC les monomères vinyliques portant un GROUPE DONNEUR D'ÉLECTRONS capable de stabiliser le carbocation intermédiaire porteur de chaîne. »\n\nRELISEZ « QU'AVEC ». Ce n'est pas une préférence, c'est une condition. Sans groupe donneur, le carbocation n'existe pas, et il n'y a pas de chaîne du tout.\n\nL'ISOBUTÈNE EST LE CAS D'ÉCOLE, et McMurry le nomme (p. 1038) : « l'isobutylène (2-méthylpropène) est un bon exemple de monomère qui polymérise rapidement dans des conditions cationiques. »\n\nROBERTS & CASERIO VONT PLUS LOIN (§ 29.7.3) : « la polymérisation par le mécanisme cationique est surtout importante pour le 2-méthylpropène (isobutylène), QUI NE POLYMÉRISE PAS BIEN PAR D'AUTRES MÉTHODES. »\n\nVoilà ce qu'il faut retenir : chaque voie a son domaine, et ces domaines ne se recouvrent pas. Le monomère qui résiste à l'une est justement celui qu'il faut confier à l'autre.",
+      "fleches": [
+        "La double liaison attaque le proton par son carbone le moins substitué…",
+        "…et le chlorure part avec les électrons. Le carbocation qui reste est TERTIAIRE, donc vivable."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "polymerisation_cationique-etape2.svg",
+      "titre": "La propagation : le cation mange l'alcène, et se reforme identique",
+      "legende": "Le carbocation est attaqué par la double liaison d'un nouveau monomère. Le carbone qui se lie est celui qui laisse le cation sur la position la plus substituée — la même règle qu'à l'étape précédente, et la même qu'en addition électrophile ordinaire.\n\nCE QUI SE PASSE ALORS EST REMARQUABLE PAR SA MONOTONIE : on repart d'un carbocation tertiaire, exactement comme au départ. La chaîne s'est allongée de quatre carbones, et rien d'autre n'a changé.\n\nLA CHAÎNE PORTE DONC SA PROPRE RÉACTIVITÉ, et c'est la définition d'une polymérisation en chaîne. McMurry la formule ainsi (p. 1038) : « un amorceur s'additionne sur une double liaison carbone-carbone d'un substrat insaturé (un monomère vinylique) pour donner un INTERMÉDIAIRE RÉACTIF. Cet intermédiaire réagit avec une deuxième molécule de monomère pour donner un nouvel intermédiaire, qui réagit avec une troisième unité monomère, et ainsi de suite. »\n\nDEUX MOTS SUR LA TEMPÉRATURE. Un carbocation fait aussi tout ce qu'un carbocation sait faire : il se réarrange, il élimine un proton, il attaque un cycle aromatique voisin. C'est pourquoi la polymérisation cationique industrielle se conduit très froid — vers −100 °C pour le caoutchouc butyle. On ne supprime pas les réactions parasites, on les ralentit davantage que la bonne.",
+      "fleches": [
+        "La double liaison du nouveau monomère attaque le carbocation par son CH₂ — et le cation renaît, tertiaire, sur le carbone d'à côté."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "polymerisation_anionique": {
+    "1": {
+      "fichier": "polymerisation_anionique-etape1.svg",
+      "titre": "Le butyllithium s'additionne, et le carbanion doit être TENU",
+      "legende": "Le butyllithium s'additionne sur le styrène. Le carbanion qui se forme se pose sur le carbone benzylique — celui que le cycle aromatique sait délocaliser.\n\nLA CONDITION D'ENTRÉE EST L'EXACTE SYMÉTRIQUE DE LA VOIE CATIONIQUE. Roberts & Caserio l'écrivent ainsi (§ 29.7.4) : « on s'attend à ce que la polymérisation anionique soit favorable quand le monomère porte des substituants qui STABILISERONT L'ANION formé lorsqu'un amorceur basique tel que l'ion amidure s'additionne sur la double liaison. »\n\nET ILS NOMMENT LES BONS SUBSTITUANTS (§ 29.7.4) : « les groupes cyano et alcoxycarbonyle sont favorables à cet égard, et le propènenitrile et le 2-méthylpropénoate de méthyle peuvent être polymérisés par l'amidure de sodium dans l'ammoniac liquide. L'éthénylbenzène et le 2-méthyl-1,3-butadiène subissent une polymérisation anionique sous l'action de composés organolithiens et organosodiques, tels que le butyllithium. »\n\nDONNEUR POUR LA VOIE CATIONIQUE, ATTRACTEUR POUR L'ANIONIQUE. Le même monomère ne peut pas convenir aux deux, et c'est pourquoi les trois voies ne se font pas concurrence : elles se partagent le catalogue.",
+      "fleches": [
+        "Le carbone du butyllithium attaque le CH₂ du styrène…",
+        "…et les électrons de la double liaison se replient sur le carbone benzylique, que le cycle sait porter."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "polymerisation_anionique-etape2.svg",
+      "titre": "Le polymère VIVANT : rien ne l'arrête, et c'est tout l'intérêt",
+      "legende": "Le carbanion attaque un nouveau monomère, et le carbanion se retrouve au bout de la chaîne allongée. Comme dans les deux autres voies.\n\nSAUF QU'ICI, RIEN NE VIENT L'ARRÊTER. Deux carbanions ne se combinent pas — ils se repoussent. Il n'y a pas d'équivalent anionique de la terminaison radicalaire.\n\nROBERTS & CASERIO EN TIRENT LA CONSÉQUENCE, ET C'EST LE PLUS BEAU RÉSULTAT DE CE CHAPITRE (§ 29.7.4) : « si l'humidité et l'oxygène sont RIGOUREUSEMENT exclus, les groupes anioniques sont stables INDÉFINIMENT, et si l'on ajoute davantage de monomère, la polymérisation CONTINUERA. D'où le nom de POLYMÈRE VIVANT — par contraste avec une polymérisation induite par radicaux, qui ne peut être relancée qu'avec du monomère frais ET de l'amorceur frais, et même alors pas par croissance sur les extrémités des chaînes existantes. »\n\nLE PROCÉDÉ EST DE M. SZWARC, et son amorceur mérite d'être connu : le naphtalénure de sodium, un radical-anion qui transfère un électron au styrène. Deux de ces radicaux-anions se dimérisent — ce que le naphtalène ne pourrait pas faire sans perdre son aromaticité — pour donner un DIANION dont les deux bouts poussent en même temps.\n\nCE QUE CELA PERMET, ET QUE RIEN D'AUTRE NE PERMET (§ 29.7.4) : « la beauté du procédé de Szwarc est que les chaînes peuvent être terminées par hydrolyse, oxydation, carboxylation par CO₂, et ainsi de suite, pour donner un polymère portant LE MÊME GROUPE À CHAQUE EXTRÉMITÉ. »\n\nET SURTOUT (§ 29.7.4) : « on peut commencer avec de l'éthénylbenzène, et quand la réaction est complète, ajouter du 2-méthylpropénoate de méthyle pour obtenir un COPOLYMÈRE À BLOCS. » On ne mélange plus deux monomères en espérant : on les sert l'un après l'autre.",
+      "fleches": [
+        "Le carbanion attaque le CH₂ du monomère suivant…",
+        "…et la charge négative se retrouve au bout de la chaîne allongée, prête à recommencer. Indéfiniment."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    }
   }
 }

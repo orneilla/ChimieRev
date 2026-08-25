@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
-  "total": 286,
-  "redigees": 224,
-  "verifiees": 150,
+  "total": 285,
+  "redigees": 226,
+  "verifiees": 152,
   "relues": 0,
   "familles": [
     {
@@ -1934,31 +1934,31 @@
       "famille": "Polymères",
       "bloc": "Méthodes et matériaux",
       "total": 10,
-      "absente": 10,
+      "absente": 7,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 3,
       "relue": 0,
       "reactions": [
         {
           "nom": "Polymérisation radicalaire en chaîne",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polymerisation_radicalaire",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Polymérisation cationique",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polymerisation_cationique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Polymérisation anionique",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polymerisation_anionique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Polymérisation Ziegler-Natta et stéréorégularité",

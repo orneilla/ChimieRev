@@ -895,6 +895,14 @@
     "substrat": "cyclisation_polyenique_biomimetique-substrat.svg",
     "produit": "cyclisation_polyenique_biomimetique-produit.svg"
   },
+  "polymerisation_cationique": {
+    "substrat": "polymerisation_cationique-substrat.svg",
+    "produit": "polymerisation_cationique-produit.svg"
+  },
+  "polymerisation_anionique": {
+    "substrat": "polymerisation_anionique-substrat.svg",
+    "produit": "polymerisation_anionique-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1579,6 +1587,13 @@
   "dfp-ex0": {
     "substrat": "dfp-ex0-substrat.svg",
     "produit": "dfp-ex0-produit.svg"
+  },
+  "naphtalenure_sodium": {
+    "molecule": "reactif-naphtalenure_sodium.svg"
+  },
+  "naphtalenure_sodium-ex0": {
+    "substrat": "naphtalenure_sodium-ex0-substrat.svg",
+    "produit": "naphtalenure_sodium-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

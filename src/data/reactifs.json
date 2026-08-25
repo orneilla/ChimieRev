@@ -4106,5 +4106,40 @@
         "note": "Un méthanol tient lieu de la sérine ; le fluor part"
       }
     ]
+  },
+  {
+    "id": "naphtalenure_sodium",
+    "nom": "naphtalénure de sodium",
+    "nom_complet": "radical-anion du naphtalène, Na⁺·C₁₀H₈⁻˙",
+    "famille": "Amorceurs et réactifs radicalaires",
+    "SMILES": "[Na].c1ccc2ccccc2c1",
+    "role": "Donneur d'UN électron — l'amorceur des polymères vivants de Szwarc",
+    "anatomie_annotations": [
+      {
+        "partie": "l'électron supplémentaire du naphtalène",
+        "role": "Il occupe une orbitale π antiliante. Le naphtalène le rend volontiers, parce qu'il récupère alors son aromaticité pleine."
+      },
+      {
+        "partie": "le sodium",
+        "role": "Il n'est que le donneur d'origine et le contre-ion. C'est le naphtalène qui porte l'électron et le transmet."
+      },
+      {
+        "partie": "la couleur vert foncé",
+        "role": "Un radical-anion aromatique absorbe dans le visible. La solution est vert bouteille tant que le réactif est vivant — et se décolore dès qu'une trace d'eau l'a tué. C'est un titrage à l'œil."
+      }
+    ],
+    "reactions_liees": [
+      "polymerisation_anionique"
+    ],
+    "explication_reference": "Radical-anion obtenu par action du sodium métallique sur le naphtalène en solvant éthéré (THF, 1,2-diméthoxyéthane). Donneur d'un électron.\n\nEMPLOI PRINCIPAL : amorceur de la POLYMÉRISATION ANIONIQUE selon M. Szwarc. Il transfère un électron au styrène pour donner un nouveau radical-anion (Roberts & Caserio § 29.7.4).\n\nCE QUI REND LE TRANSFERT FAVORABLE : le naphtalène ne peut pas dimériser lui-même, car « la dimérisation du radical-anion du naphtalénure de sodium entraînerait une PERTE DE STABILISATION AROMATIQUE » (§ 29.7.4) — tandis que deux radicaux-anions de styrène, eux, se dimérisent volontiers en un DIANION résonant.\n\nLE DIANION CROÎT PAR SES DEUX EXTRÉMITÉS, d'où les copolymères à blocs symétriques A-B-A.\n\nCONDITIONS : exclusion rigoureuse de l'eau et de l'oxygène ; la solution vert foncé se décolore dès qu'elle est tuée.\n\nAUTRE EMPLOI : réduction monoélectronique de substrats organiques, et clivage de groupes protecteurs sulfonamides.",
+    "explication_comprendre": "QU'EST-CE qu'un réactif dont la couleur dit s'il est encore vivant ?\n\nLe naphtalénure de sodium est du naphtalène auquel on a donné un électron de trop. Cet électron se loge dans une orbitale que la molécule préférerait laisser vide — et de là, il ne demande qu'à repartir.\n\nD'OÙ SON MÉTIER : donner UN électron, et un seul, à ce qu'on lui présente.\n\nPOURQUOI LE NAPHTALÈNE PLUTÔT QU'AUTRE CHOSE ? Parce qu'il est stable juste ce qu'il faut. Assez pour qu'on puisse le préparer et le conserver ; pas assez pour garder son électron quand on lui présente un preneur.\n\nRoberts & Caserio donnent la raison précise pour laquelle il ne se consomme pas lui-même (§ 29.7.4) : sa propre dimérisation « entraînerait une perte de stabilisation aromatique ». Il tient à son aromaticité — alors le styrène, qui n'a pas ce scrupule, prend l'électron et dimérise à sa place.\n\nCE QUE CELA DONNE : un DIANION, c'est-à-dire une chaîne qui pousse PAR LES DEUX BOUTS en même temps. C'est ainsi qu'on fabrique en une opération un copolymère à blocs symétrique.\n\nET CE QU'IL NE FAUT PAS CONFONDRE : ce n'est pas un réducteur ordinaire qui donne deux électrons d'un coup. Il en donne UN. La chimie qui s'ensuit est radicalaire au premier pas, anionique ensuite — les deux dans la même minute.\n\nLA COULEUR EST UN INSTRUMENT. La solution est vert bouteille tant que le réactif est intact, et se décolore dès qu'une trace d'eau l'a détruit. On sait à l'œil si le milieu est assez sec pour travailler — ce qui, dans une chimie où une seule molécule d'eau tue une chaîne, n'est pas un luxe.",
+    "reactions_exemples": [
+      {
+        "nom": "Transfert d'un électron au styrène",
+        "substrat_SMILES": "C=Cc1ccccc1",
+        "produit_SMILES": "[CH2][CH-]c1ccccc1",
+        "note": "Un radical-anion, qui dimérisera en dianion"
+      }
+    ]
   }
 ]

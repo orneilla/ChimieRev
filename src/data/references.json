@@ -7238,6 +7238,42 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "polymerisation_cationique": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-2",
+          "pages": "1038",
+          "note": "La condition d'entrée, posée sans nuance : « la polymérisation catalysée par un acide (CATIONIQUE), en revanche, n'est efficace QU'AVEC les monomères vinyliques portant un GROUPE DONNEUR D'ÉLECTRONS capable de stabiliser le carbocation intermédiaire porteur de chaîne. » Et le monomère de référence : « l'isobutylène (2-méthylpropène) est un bon exemple de monomère qui polymérise rapidement dans des conditions cationiques. » La même page pose le schéma général des trois voies en chaîne : « l'amorceur peut être un radical, un acide ou une base »."
+        },
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "29 — Polymers, § 29.7.3",
+          "pages": "58",
+          "note": "La raison d'être de la méthode, qui n'est pas une commodité : « la polymérisation par le mécanisme cationique est surtout importante pour le 2-méthylpropène (isobutylène), QUI NE POLYMÉRISE PAS BIEN PAR D'AUTRES MÉTHODES. » La section 29.7.1 pose par ailleurs le cadre des quatre mécanismes — radicalaire, cationique, anionique et par COORDINATION —, ce dernier « essentiellement imposé à nous par la découverte des catalyseurs de Ziegler »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "polymerisation_anionique": {
+      "ouvrages": [
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "29 — Polymers, § 29.7.4",
+          "pages": "58-59",
+          "note": "La condition d'entrée : « on s'attend à ce que la polymérisation anionique soit favorable quand le monomère porte des substituants qui STABILISERONT L'ANION formé lorsqu'un amorceur basique tel que l'ion amidure s'additionne sur la double liaison » — les groupes « CYANO et ALCOXYCARBONYLE » étant les bons. Et le résultat qui fait la fiche : « si l'humidité et l'oxygène sont RIGOUREUSEMENT exclus, les groupes anioniques sont stables INDÉFINIMENT, et si l'on ajoute davantage de monomère, la polymérisation CONTINUERA. D'où le nom de POLYMÈRE VIVANT — par contraste avec une polymérisation induite par radicaux, qui ne peut être relancée qu'avec du monomère frais ET de l'amorceur frais, et même alors pas par croissance sur les extrémités des chaînes existantes. » Le procédé de M. Szwarc part du naphtalénure de sodium, dont la dimérisation « entraînerait une perte de stabilisation aromatique » — d'où le transfert d'électron au styrène et le DIANION qui croît par les deux bouts. Ce que cela permet : terminer « par hydrolyse, oxydation, carboxylation par CO₂ […] pour donner un polymère portant LE MÊME GROUPE À CHAQUE EXTRÉMITÉ », et obtenir un COPOLYMÈRE À BLOCS en servant les monomères l'un après l'autre."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-2",
+          "pages": "1038-1039",
+          "note": "Le styrène amorcé au butyllithium, et surtout l'exemple domestique : la colle forte est « simplement une solution d'α-cyanoacrylate de méthyle pur, qui porte DEUX groupes attracteurs d'électrons rendant l'addition anionique particulièrement facile. Des traces d'eau ou de base à la surface d'un objet suffisent à amorcer la polymérisation. » McMurry ajoute que « la peau est une bonne source des amorceurs basiques nécessaires, et bien des gens se sont retrouvé les doigts collés », et que « la colle forte lie si bien les tissus » que des cyanoacrylates apparentés — le Dermabond — servent « à fermer les plaies à la place des sutures ». Une goutte supporte jusqu'à 2000 livres."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {
