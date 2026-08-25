@@ -1555,7 +1555,7 @@
         {
           "nom": "Réaction de Sakurai et aza-Sakurai multicomposant",
           "niveau": "M2",
-          "id": null
+          "id": "sakurai"
         },
         {
           "nom": "Synthèse de Gewald des 2-aminothiophènes",
@@ -1585,7 +1585,7 @@
         {
           "nom": "Multicomposants avec l'acide de Meldrum",
           "niveau": "M2",
-          "id": null
+          "id": "acide_meldrum"
         }
       ],
       "bloc": "Méthodes et matériaux"

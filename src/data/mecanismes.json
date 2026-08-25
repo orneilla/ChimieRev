@@ -27237,5 +27237,409 @@
         "valide": false
       }
     ]
+  },
+  "sakurai": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un allylsilane, un carbonyle, un acide de Lewis",
+        "smiles": "C=CC[Si](C)(C)C.C=O.CNC",
+        "legende": "L'allyltriméthylsilane, un composé carbonylé — et, dans la version multicomposant, une amine ou un alcool qui transforme ce carbonyle en iminium ou en oxocarbénium.\n\nIL FAUT UN ACIDE DE LEWIS, et l'ouvrage en donne la liste (p. 388) : TiCl₄, SnCl₄, BF₃·OEt₂, AlCl₃, Et₂AlCl. Il ne figure pas sur le schéma : son rôle est d'activer l'électrophile, et l'on ne dessine pas les ligands qui ne changent pas.\n\nQUE FAIT LE SILICIUM ICI ? Rien, en apparence : il est à deux liaisons de la double liaison, il n'est pas conjugué, et il finit par partir. Toute la fiche tient à comprendre pourquoi il est indispensable.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'électrophile est activé",
+        "smiles": "C[N+](C)=C",
+        "legende": "L'amine et l'aldéhyde donnent un ion iminium — c'est l'AZA-SAKURAI. Avec un alcool ou un éther silylé, on obtiendrait un ion oxocarbénium, et le produit serait un éther homoallylique au lieu d'une amine homoallylique.\n\nLe détail de la condensation est écrit dans la fiche « Formation des imines et des énamines ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'allylsilane attaque par son autre bout",
+        "smiles": "C=CC[Si](C)(C)C.C[N+](C)=C",
+        "legende": "La double liaison de l'allylsilane attaque l'iminium — et regardez PAR OÙ : par le carbone le plus ÉLOIGNÉ du silicium.\n\nCE CHOIX N'EST PAS LIBRE, et c'est le cœur de la réaction. En attaquant par ce bout-là, la charge positive se retrouve sur le carbone VOISIN du carbone porteur du silicium — la position β. Or un carbocation en β d'un silicium est extraordinairement stabilisé.\n\nGROSSMAN LE DIT EN TERMES DE MÉCANISME (p. 163) : « les alcénylsilanes et les alcénylstannanes sont des substrats particulièrement bons pour les réactions de substitution électrophile parce que le carbocation intermédiaire est fortement stabilisé par la liaison C–Si ou C–Sn ». Herrera & Marqués-López le disent en termes d'orbitales (p. 388) : « un carbocation secondaire intermédiaire (cation β-silylé) stabilisé par HYPERCONJUGATION est formé ». Les électrons de la liaison C–Si se déversent dans la case vide voisine.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                10
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "La double liaison attaque l'iminium par son carbone terminal."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CN(C)CC[CH+]C[Si](C)(C)C"
+      },
+      {
+        "numero": 4,
+        "titre": "Le silicium s'en va, la double liaison renaît",
+        "smiles": "[Cl-].CN(C)CC[CH+]C[Si](C)(C)C",
+        "legende": "Un chlorure — venu de l'acide de Lewis — attaque le silicium, et les électrons de la liaison carbone-silicium forment la nouvelle double liaison.\n\nLA DOUBLE LIAISON N'EST PLUS AU MÊME ENDROIT QU'AU DÉPART. Elle a glissé d'une position. Grossman nomme le phénomène (p. 163) : « le processus global reste une substitution vis-à-vis de l'allylsilane, parce qu'une nouvelle liaison σ est faite aux dépens d'une autre liaison σ, mais la nouvelle liaison n'est pas faite sur le même atome que l'ancienne, et une TRANSPOSITION ALLYLIQUE se produit ». L'ouvrage sur les multicomposants parle d'une « transposition régiospécifique du fragment allylique » (p. 388).\n\nDEUX OUVRAGES, DEUX VOCABULAIRES, LE MÊME FAIT : Grossman classe la réaction parmi les SUBSTITUTIONS ÉLECTROPHILES ALIPHATIQUES en γ ; l'autre la décrit comme une allylation. Elle est les deux.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                8
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Un chlorure attaque le silicium."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons de la liaison C–Si forment la nouvelle double liaison."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "C=CCCN(C)C.C[Si](C)(C)Cl"
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "C=CCCN(C)C",
+        "legende": "Une AMINE HOMOALLYLIQUE : l'azote et la double liaison séparés par deux carbones.\n\nAVEC UN ALCOOL À LA PLACE DE L'AMINE, on obtient un ÉTHER homoallylique — c'est la réaction de Sakurai modifiée par le silyle, développée par Markó en 1991 (p. 388). Le même mécanisme, un électrophile différent.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "acide_meldrum": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un acide qui n'est pas un acide",
+        "smiles": "CC1(C)OC(=O)CC(=O)O1.CC=O.CN",
+        "legende": "L'acide de Meldrum, un aldéhyde, une amine. Regardez d'abord l'acide de Meldrum lui-même : c'est un DIESTER cyclique, sans le moindre groupe carboxyle. Son nom est une erreur historique.\n\nMeldrum le prépare en 1908 « à partir d'acide malonique, d'acétone, d'anhydride acétique et d'une quantité catalytique d'acide sulfurique concentré », et l'attribue à un acide β-lactonique (p. 457). « Du fait que sa première attribution structurale était INCORRECTE, sa structure a été révisée environ quatre décennies plus tard en 2,2-diméthyl-1,3-dioxane-4,6-dione. » Le nom, lui, est resté.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Condensation de Knoevenagel",
+        "smiles": "CC=C1C(=O)OC(C)(C)OC1=O",
+        "legende": "L'acide de Meldrum se condense avec l'aldéhyde. Le détail est écrit dans la fiche « Condensation de Knoevenagel ».\n\nCETTE CONDENSATION EST FACILE, et c'est là tout l'intérêt du réactif : son proton central est ANORMALEMENT acide. Clayden le mesure (p. 1090) : « l'acide de Meldrum a un énolate délocalisé très stable : il est aussi acide qu'un acide carboxylique (pKa 4,97), et la stabilité inhabituelle de l'énolate vient de la CONFORMATION FIXE des deux groupes carbonyle ». Herrera & Marqués-López donnent la valeur dans un autre solvant (p. 458) : « l'acidité CH comparativement élevée (pKa dans le DMSO = 7,325) aide à engendrer une espèce nucléophile même en présence de bases faibles ».\n\nUn diester ordinaire — le malonate de diéthyle — a un pKa de 13. Enfermez les deux esters dans un cycle qui leur interdit de tourner, et vous gagnez huit unités.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'amine s'additionne en conjugué",
+        "smiles": "CC=C1C(=O)OC(C)(C)OC1=O.CN",
+        "legende": "L'amine attaque le carbone en bout de la double liaison — une addition de Michael. L'alcène formé par la condensation est très appauvri : il porte deux carbonyles.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'amine attaque le carbone en β."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "La double liaison glisse vers le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène : voici l'énolate."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "C[NH2+]C(C)C1=C([O-])OC(C)(C)OC1=O"
+      },
+      {
+        "numero": 4,
+        "titre": "Le proton passe",
+        "smiles": "C[N+]([H])([H])C(C)C1=C([O-])OC(C)(C)OC1=O",
+        "legende": "L'énolate reprend le proton laissé sur l'azote. On tient un adduit neutre, où l'acide de Meldrum est toujours entier.\n\nÀ CE STADE ON POURRAIT S'ARRÊTER. L'ouvrage classe d'ailleurs la littérature en deux moitiés (p. 458) : « les réactions dans lesquelles le motif acide de Meldrum est INTACT dans le produit seront suivies des réactions dans lesquelles il sert d'équivalent –CH₂C(O)– ». Nous suivons la seconde.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène rend son doublet : le carbonyle se reforme."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                6
+              ]
+            },
+            "vers": {
+              "liaison": [
+                6,
+                2
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le carbone de l'énolate va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": -0.4,
+            "libelle": "L'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CNC(C)C1C(=O)OC(C)(C)OC1=O"
+      },
+      {
+        "numero": 5,
+        "titre": "L'eau attaque un des deux carbonyles",
+        "smiles": "CNC(C)C1C(=O)OC(C)(C)OC1=O.O",
+        "legende": "Un nucléophile — ici l'eau — attaque l'un des deux carbonyles du cycle. Il se forme un intermédiaire tétraédrique.\n\nL'ouvrage décrit la suite en une phrase (p. 458) : « l'attaque nucléophile sur l'un des groupes carbonyle de l'acide de Meldrum conduit à un intermédiaire tétraédrique, qui se décompose FACILEMENT pour engendrer du dioxyde de carbone, de l'ACÉTONE, et un produit énolate ».",
+        "fleches": [
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                5
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'eau attaque un carbonyle du cycle."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CNC(C)C1C(=O)OC(C)(C)OC1([O-])[OH2+]"
+      },
+      {
+        "numero": 6,
+        "titre": "Le cycle s'effondre : l'acétone s'en va",
+        "smiles": "CNC(C)C1C(=O)OC(C)(C)OC1([O-])[O+]([H])[H]",
+        "legende": "Quatre flèches à la file, et le cycle n'existe plus. L'oxygène chargé négativement reforme un carbonyle et chasse l'oxygène du cycle ; celui-ci, devenu alcoolate, reforme à son tour un carbonyle et chasse le second oxygène du cycle.\n\nCE SECOND CARBONYLE EST DE L'ACÉTONE. Elle vient du groupe isopropylidène qu'on avait mis là en 1908 pour tenir les deux esters, et elle repart en emportant sa fonction. On ne l'avait jamais autrement destinée.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                12
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène reforme un carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                12,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": -0.4,
+            "libelle": "Le cycle s'ouvre."
+          },
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                8
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'alcoolate reforme un carbonyle : c'est de l'acétone."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.45,
+            "libelle": "Et le second oxygène du cycle est libéré."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(C)=O.CNC(C)C(C(=O)[O-])C(=O)[OH2+]"
+      },
+      {
+        "numero": 7,
+        "titre": "Et le dioxyde de carbone part à son tour",
+        "smiles": "CNC(C)C(C(=O)O)C(=O)O[H]",
+        "legende": "Après un transfert de proton, on tient un acide malonique substitué — deux carboxyles sur le même carbone. Et un tel composé se décarboxyle tout seul au chauffage, par un état de transition à SIX chaînons : le proton d'un carboxyle passe sur l'oxygène de l'autre pendant que la liaison carbone-carbone se rompt.\n\nCE MÉCANISME EST CELUI DE LA DÉCARBOXYLATION DES β-CÉTOACIDES, traité dans la fiche « Décarboxylation » s'il y en a une, et qu'on retrouve dans la synthèse malonique.\n\nBILAN DES DÉPARTS : une molécule d'eau à la condensation de Knoevenagel, une molécule d'ACÉTONE à l'ouverture du cycle, une molécule de DIOXYDE DE CARBONE ici. L'acide de Meldrum a apporté deux carbones et n'en laisse qu'un.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                11
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène d'un carboxyle va chercher le proton de l'autre."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                11
+              ]
+            },
+            "vers": {
+              "liaison": [
+                10,
+                8
+              ]
+            },
+            "courbure": -0.4,
+            "libelle": "L'oxygène libéré forme la seconde double liaison du CO₂."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                4
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "La liaison carbone-carbone se rompt : le dioxyde de carbone s'en va."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.45,
+            "libelle": "Et les électrons du carbonyle se replient sur l'oxygène qui reçoit le proton."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CNC(C)C=C(O)O.O=C=O"
+      },
+      {
+        "numero": 8,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CNC(C)CC(=O)O",
+        "legende": "Un β-AMINOACIDE : l'azote et le carboxyle séparés par deux carbones. L'énol libéré à l'étape précédente s'est tautomérisé en acide.\n\nADIB ET SES COLLÈGUES obtiennent ainsi, DANS L'EAU, des β-aminoacides à partir de 2-aminopyridines, d'aldéhydes et d'acide de Meldrum, avec 74 à 98 % de rendement (Multicomposants p. 235).\n\nET C'EST TOUT LE PROPOS DE CE RÉACTIF. Il n'est presque jamais dans le produit final : il sert d'ÉQUIVALENT –CH₂C(O)–, c'est-à-dire de porteur commode pour un fragment à deux atomes qu'aucun réactif simple ne saurait livrer avec cette acidité.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

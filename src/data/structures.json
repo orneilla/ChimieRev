@@ -1027,6 +1027,14 @@
     "substrat": "kabachnik_fields-substrat.svg",
     "produit": "kabachnik_fields-produit.svg"
   },
+  "sakurai": {
+    "substrat": "sakurai-substrat.svg",
+    "produit": "sakurai-produit.svg"
+  },
+  "acide_meldrum": {
+    "substrat": "acide_meldrum-substrat.svg",
+    "produit": "acide_meldrum-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

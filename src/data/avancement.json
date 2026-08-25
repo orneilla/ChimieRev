@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 283,
-  "redigees": 257,
-  "verifiees": 173,
+  "redigees": 259,
+  "verifiees": 175,
   "relues": 0,
   "familles": [
     {
@@ -2121,9 +2121,9 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 5,
+      "absente": 3,
       "redigee": 1,
-      "verifiee": 13,
+      "verifiee": 15,
       "relue": 0,
       "reactions": [
         {
@@ -2213,9 +2213,9 @@
         {
           "nom": "Réaction de Sakurai et aza-Sakurai multicomposant",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "sakurai",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Gewald des 2-aminothiophènes",
@@ -2255,9 +2255,9 @@
         {
           "nom": "Multicomposants avec l'acide de Meldrum",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "acide_meldrum",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

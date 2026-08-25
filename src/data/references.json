@@ -7962,6 +7962,60 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "sakurai": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "3.4.3 — Electrophilic Aliphatic Substitution",
+          "pages": "163-164",
+          "note": "Le second ouvrage, et c'est lui qui donne le MÉCANISME et le CLASSEMENT. La raison de la réactivité : « les alcénylsilanes et les alcénylstannanes sont des substrats particulièrement bons pour les réactions de substitution électrophile parce que le carbocation intermédiaire est fortement stabilisé par la liaison C–Si ou C–Sn. La fragmentation de cette liaison se produit ensuite presque toujours, pour donner un produit désilylé ou déstannylé. » La régiochimie : « la substitution en γ est le plus communément observée dans les réactions des allylsilanes et des allylstannanes. Le processus global reste une substitution vis-à-vis de l'allylsilane, parce qu'une nouvelle liaison σ est faite aux dépens d'une autre liaison σ, mais la nouvelle liaison n'est pas faite sur le même atome que l'ancienne, et une TRANSPOSITION ALLYLIQUE se produit. » Et le rôle exact de l'acide de Lewis (p. 163-164) : « TiCl₄ est un acide de Lewis ; il se coordonne à l'oxygène du carbonyle, ce qui rend le carbonyle et le carbone β cationiques. L'alcène attaque alors le carbone β de façon à placer le nouveau carbocation sur le carbone adjacent à la liaison C–Si. La fragmentation de la liaison C–Si donne un énolate de titane. Le traitement aqueux protone l'énolate pour donner le produit observé. »"
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "12.2 — Sakurai MCRs",
+          "pages": "388",
+          "note": "La définition et les versions multicomposants : « l'allylation d'un composé carbonylé, ou de son équivalent (aldéhydes, cétones, acétals, cétals, énones, chlorures d'acide, époxydes, etc.), conduite avec un allylsilane promu par un acide de Lewis (TiCl₄, SnCl₄, BF₃·OEt₂, AlCl₃, Et₂AlCl, etc.) est connue sous le nom de réaction de Hosomi-Sakurai », décrite en 1976 sur les aldéhydes et les cétones, étendue l'année suivante aux cétals — d'où les éthers homoallyliques — puis aux cétones α,β-insaturées. Le mécanisme : « un mécanisme général de cette réaction implique globalement une TRANSPOSITION RÉGIOSPÉCIFIQUE du fragment allylique [...] un carbocation secondaire intermédiaire (cation β-silylé) stabilisé par HYPERCONJUGATION est formé ». Les deux versions multicomposants : éthers homoallyliques par combinaison d'un aldéhyde, d'un éther silylé ou de l'alcool correspondant et d'un allylsilane (réaction de Sakurai modifiée par le silyle, Markó 1991) ; et l'AZA-SAKURAI, « où l'allylsilane réagit avec une imine formée in situ à partir du composé carbonylé et d'une amine »."
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry",
+          "pages": "1094",
+          "note": "NOTE DE RECHERCHE, ET FAUX POSITIF. « Sakurai » rend cette page, et l'on croirait tenir un troisième ouvrage. C'est une BIBLIOGRAPHIE : H. Sakurai y est coauteur d'un article de photochimie de 1975 sur l'isomérisation des cyclo-alcènes. Un nom propre dans une bibliographie n'est pas une source. La page 432 du Grossman est de même son index."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "acide_meldrum": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.3 — MCRs Involving Meldrum's Acid",
+          "pages": "457-458",
+          "note": "L'histoire du nom (p. 457) : « en 1908, Andrew N. Meldrum prépara une substance cristalline blanche à partir d'acide malonique, d'acétone, d'anhydride acétique et d'une quantité catalytique d'acide sulfurique concentré, qu'il attribua comme étant l'acide β-lactonique 421 [...] du fait que sa première attribution structurale était incorrecte, sa structure fut révisée environ quatre décennies plus tard en 2,2-diméthyl-1,3-dioxane-4,6-dione ». L'acidité et sa conséquence (p. 458) : « l'acidité CH comparativement élevée (pKa dans le DMSO = 7,325) aide à engendrer une espèce nucléophile même en présence de bases faibles ». Les trois modes de réaction, dont celui qui compte : « l'attaque nucléophile sur l'un des groupes carbonyle de l'acide de Meldrum conduit à un intermédiaire tétraédrique, qui se décompose facilement pour engendrer du dioxyde de carbone, de l'acétone, et un produit énolate. Cette réaction de déplacement nucléophile équivaut à l'emploi de l'acide de Meldrum comme ÉQUIVALENT –CH₂C(O)–. C'est en effet une application très commune de l'acide de Meldrum dans les synthèses multicomposants. » Et le partage de la littérature en deux catégories, selon que le motif reste intact ou non dans le produit."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1090",
+          "note": "La note de marge qui donne la RAISON de l'acidité, et que l'ouvrage sur les multicomposants ne donne pas : « l'acide de Meldrum a un énolate délocalisé très stable : il est aussi acide qu'un acide carboxylique (pKa 4,97), et la stabilité inhabituelle de l'énolate vient de la CONFORMATION FIXE des deux groupes carbonyle ». Deux ouvrages, deux solvants, deux valeurs — et l'explication n'est que dans l'un des deux. La page montre par ailleurs l'énolate de l'acide de Meldrum comme nucléophile d'une substitution allylique au palladium(0) sur un tétraacétate symétrique, expérience conçue pour démontrer la rétention de configuration : « le tétraacétate et le complexe π-allyle intermédiaire sont symétriques, ce qui retire toute ambiguïté dans la formation ou la réaction du complexe π-allyle »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "6 — MCRs in the synthesis of bioactive compounds",
+          "pages": "235",
+          "note": "L'exemple aqueux : Adib et coll. préparent des β-aminoacides « par une réaction à trois composants employant la 2-aminopyridine, des aldéhydes et l'acide de Meldrum », avec 74 à 98 % de rendement, dans l'eau et en un seul pot."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2 — Organocatalytic MCRs",
+          "pages": "28, 50",
+          "note": "L'acide de Meldrum comme partenaire acide CH des séquences domino Knoevenagel/Diels-Alder, rendues énantiosélectives : par la 9-amino-9-désoxy-épi-quinine sur des énones et des aldéhydes (p. 28), et par un dérivé de la proline où « seul le solvant avait un effet significatif » (p. 50)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {
