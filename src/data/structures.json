@@ -1019,6 +1019,14 @@
     "substrat": "radziszewski-substrat.svg",
     "produit": "radziszewski-produit.svg"
   },
+  "gewald": {
+    "substrat": "gewald-substrat.svg",
+    "produit": "gewald-produit.svg"
+  },
+  "kabachnik_fields": {
+    "substrat": "kabachnik_fields-substrat.svg",
+    "produit": "kabachnik_fields-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

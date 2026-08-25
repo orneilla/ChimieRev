@@ -26881,5 +26881,361 @@
         "valide": false
       }
     ]
+  },
+  "gewald": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Une cétone, un nitrile activé, et du soufre",
+        "smiles": "CC(=O)CC.N#CCC#N.S1SSSSSSS1",
+        "legende": "Un composé carbonylé, un nitrile portant un hydrogène acide — malononitrile, cyanoacétate d'éthyle ou cyanoacétamide —, et du SOUFRE ÉLÉMENTAIRE, qui existe sous forme de cycles S₈. Une base, triéthylamine ou pyridine.\n\nMETTRE DU SOUFRE EN POUDRE DANS UN BALLON EST INHABITUEL. La plupart des synthèses d'hétérocycles soufrés emploient un réactif soufré organique ; celle-ci prend le soufre tel qu'on l'extrait.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Condensation de Knoevenagel",
+        "smiles": "N#CC(C#N)=C(C)CC",
+        "legende": "La base arrache l'hydrogène coincé entre les deux groupes attracteurs du nitrile activé ; le carbanion attaque la cétone, l'eau part. On obtient un nitrile α,β-insaturé — le composé 72 de l'ouvrage.\n\nLE DÉTAIL EST ÉCRIT DANS LA FICHE « Condensation de Knoevenagel ». L'ouvrage l'admet comme point de départ (p. 394) : « la formation initiale du nitrile α,β-insaturé par condensation de Knoevenagel [...] est acceptée comme mécanisme proposé pour la réaction de Gewald à trois composants ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "La base déprotone en position allylique",
+        "smiles": "N#CC(C#N)=C(C)C([H])([H])C.CCN(CC)CC",
+        "legende": "La triéthylamine prend un proton au carbone voisin de la double liaison. Le carbanion formé est stabilisé par conjugaison avec l'alcène et, au-delà, avec les deux nitriles.\n\nC'EST CE CARBONE-LÀ qui portera le soufre, et il deviendra la position 5 du thiophène.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 13
+            },
+            "vers": {
+              "liaison": [
+                13,
+                8
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "La base va chercher le proton allylique."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons de la liaison C–H restent sur le carbone."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC[NH+](CC)CC.C[CH-]C(C)=C(C#N)C#N"
+      },
+      {
+        "numero": 4,
+        "titre": "Le carbanion ouvre le cycle de soufre",
+        "smiles": "N#CC(C#N)=C(C)[CH-]C.S1SSSSSSS1",
+        "legende": "Le carbanion attaque un atome de soufre du cycle S₈, et une liaison soufre-soufre se rompt. Il reste une chaîne polysulfure portant une charge négative à son extrémité.\n\nL'OUVRAGE SIGNALE UNE CONDITION (p. 394-395) : « le soufre élémentaire doit être ACTIVÉ pour réagir avec le composé 72, soit par une base, soit par une activation électrochimique ». Le cycle S₈ est stable ; il ne s'ouvre pas de lui-même.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                9
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le carbanion attaque un soufre du cycle."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                16
+              ]
+            },
+            "vers": {
+              "atome": 16
+            },
+            "courbure": -0.4,
+            "libelle": "Une liaison S–S se rompt : la chaîne s'ouvre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=C(C#N)C#N)C(C)SSSSSSS[S-]"
+      },
+      {
+        "numero": 5,
+        "titre": "Le soufre se referme sur le nitrile",
+        "smiles": "N#CC(C#N)=C(C)C(C)SSSSSSS[S-]",
+        "legende": "Le soufre porté par le carbone attaque le carbone d'un des deux nitriles. Cycle à CINQ chaînons — c'est le squelette du thiophène.\n\nREGARDEZ CE QUI EST DÉJÀ EN PLACE : quatre carbones et un soufre en anneau, un azote qui pend, une chaîne de sept soufres à retirer. Tout le reste n'est que ménage.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le soufre attaque le carbone du nitrile."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "atome": 0
+            },
+            "courbure": -0.4,
+            "libelle": "La triple liaison C≡N se replie sur l'azote."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC1=C(C#N)C(=[N-])[S+](SSSSSS[S-])C1C"
+      },
+      {
+        "numero": 6,
+        "titre": "La chaîne de soufre s'en va",
+        "smiles": "CC1([H])SC(=N[H])C(C#N)=C1C",
+        "legende": "Le fragment S₇ se retire et l'azote reprend un proton. L'ouvrage écrit simplement « –S₇ » sur sa flèche (schéma 12.24) : le détail du départ n'est pas donné, et l'on ne dessine pas ce qu'on n'a pas lu.\n\nON TIENT L'INTERMÉDIAIRE 75 : un cycle à cinq chaînons portant une IMINE exocyclique et un carbone encore tétraédrique. Il ne lui manque que d'être aromatique.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 7,
+        "titre": "Le cycle devient aromatique",
+        "smiles": "CC1([H])SC(=N[H])C(C#N)=C1C.CCN(CC)CC",
+        "legende": "La base prend le dernier proton du carbone tétraédrique, les doubles liaisons se redistribuent, et le cycle gagne ses six électrons π.\n\nL'OUVRAGE APPELLE CETTE ÉTAPE « tautomérie amino-imino » — l'imine exocyclique devient une amine, et le cycle devient un thiophène. C'est encore l'aromaticité qui paie, comme dans la synthèse d'imidazoles de Radziszewski.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                2
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "La base prend le dernier proton du carbone tétraédrique."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                10
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Les électrons de la liaison C–H forment une double liaison."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                7
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                4
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "La double liaison voisine glisse."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                5
+              ]
+            },
+            "vers": {
+              "atome": 5
+            },
+            "courbure": -0.4,
+            "libelle": "Et la liaison C=N se replie sur l'azote."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC[NH+](CC)CC.Cc1sc([NH-])c(C#N)c1C"
+      },
+      {
+        "numero": 8,
+        "titre": "L'azote reprend son proton",
+        "smiles": "Cc1sc([N-][H])c(C#N)c1C.CC[N+]([H])(CC)CC",
+        "legende": "L'ammonium formé à l'étape précédente rend son proton à l'azote : la base est régénérée, et l'amine aromatique est là.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                14
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                13,
+                14
+              ]
+            },
+            "vers": {
+              "atome": 13
+            },
+            "courbure": -0.4,
+            "libelle": "La base est régénérée."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CCN(CC)CC.Cc1sc(N)c(C#N)c1C"
+      },
+      {
+        "numero": 9,
+        "titre": "Ce qu'on obtient",
+        "smiles": "Cc1sc(N)c(C#N)c1C",
+        "legende": "Un 2-AMINOTHIOPHÈNE. Trois composants, dont l'un est du soufre en poudre.\n\nCE MOTIF EST DANS LA PHARMACIE. La figure 12.3 de l'ouvrage (p. 395) en aligne quatre : l'OLANZAPINE — le Zyprexa®, antipsychotique —, le PD81723 qui module le récepteur A1 de l'adénosine, l'AX20017 antituberculeux, et le TPCA-1 inhibiteur de la kinase IKKβ.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "kabachnik_fields": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un carbonyle, une amine, un phosphite",
+        "smiles": "CC=O.CN.COP(=O)([H])OC",
+        "legende": "Herrera & Marqués-López la définissent ainsi (p. 396) : « une réaction à trois composants entre un composé carbonylé (cétone ou aldéhyde), une amine, et un phosphite de dialkyle, pour former des α-aminoalkylphosphonates ». Décrite en 1952, INDÉPENDAMMENT, par Kabachnik et par Fields.\n\nCE QU'ON VISE : un carbone portant à la fois un azote et un PHOSPHORE. Regardez ce que cela imite — un acide α-aminé où le carboxyle serait remplacé par un phosphonate. C'est ce qui fait l'intérêt de ces composés.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Chemin I : l'imine se forme d'abord",
+        "smiles": "CC=[N+](C)[H]",
+        "legende": "L'amine et le composé carbonylé se condensent en imine, protonée par le milieu. Le détail est écrit dans la fiche « Formation des imines et des énamines ».\n\nC'EST LE CHEMIN I DE L'OUVRAGE, et c'est le plus probable — on verra à l'étape 5 pourquoi.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "La base réveille le phosphite",
+        "smiles": "COP(=O)([H])OC.CCN(CC)CC",
+        "legende": "Un phosphite de dialkyle n'est pas ce que son nom laisse croire : il existe très majoritairement sous la forme P(V), avec une liaison P–H et une liaison P=O, et non sous la forme P(III) à trois oxygènes.\n\nCE PROTON EST ACIDE, et la base le prend. L'anion obtenu porte sa charge sur l'oxygène ET sur le phosphore — deux formes limites —, et c'est par le PHOSPHORE qu'il attaque.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                4
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "La base prend le proton porté par le phosphore."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons de la liaison P–H restent sur le phosphore."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC[NH+](CC)CC.CO[P-](=O)OC"
+      },
+      {
+        "numero": 4,
+        "titre": "Le phosphore attaque l'iminium",
+        "smiles": "CO[P-](=O)OC.CC=[N+](C)[H]",
+        "legende": "C'est l'ADDITION DE PUDOVIK : un anion phosphite sur un accepteur C=N. La liaison carbone-phosphore est faite.\n\nL'AZOTE PORTAIT DÉJÀ SON HYDROGÈNE — il vient de l'iminium —, si bien que le produit sort neutre : l'α-aminoalkylphosphonate est formé d'un coup.\n\nET VOICI POURQUOI CE CHEMIN-LÀ ET PAS L'AUTRE (p. 398). Il existe un chemin II : le phosphite attaquerait d'abord le carbonyle — c'est l'ADDITION D'ABRAMOV — pour donner un α-hydroxyphosphonate, que l'amine substituerait ensuite.\n\nL'ouvrage donne d'abord un argument de principe : « il y a compétition entre les deux nucléophiles, le phosphite de dialkyle (MOU) et l'amine (DUR), pour le composant carbonylé électrophile ». Puis il donne la mesure : Keglevich et ses collègues ont suivi la réaction du benzaldéhyde, de la cyclohexylamine et d'un phosphite par SPECTROSCOPIE INFRAROUGE, et le chemin de l'imine est le plus probable. Ils ont bien vu 13 % d'α-hydroxyphosphonate — « mais cette route a été considérée comme une IMPASSE ». Les calculs théoriques confirment.\n\nRETENEZ LA DISTINCTION : un composé qui se forme n'est pas pour autant un intermédiaire. Il peut être un cul-de-sac, d'où la réaction revient en arrière au lieu d'avancer.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                7
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le phosphore attaque le carbone de l'iminium."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie sur l'azote."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CNC(C)P(=O)(OC)OC"
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "COP(=O)(OC)C(C)NC",
+        "legende": "L'α-aminoalkylphosphonate : l'analogue phosphoré d'un acide α-aminé.\n\nL'OUVRAGE PARLE D'« une classe de composés d'importance » sur les cinq dernières décennies. La géométrie tétraédrique du phosphonate imite l'état de transition de l'hydrolyse d'un amide — c'est pourquoi ces composés font de bons inhibiteurs d'enzymes.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 6,
+        "titre": "L'impasse, qu'on dessine parce qu'elle existe",
+        "smiles": "COP(=O)(OC)C(C)O",
+        "legende": "L'α-HYDROXYPHOSPHONATE, produit du chemin II — l'addition d'Abramov du phosphite sur le carbonyle.\n\nIl se forme réellement : Keglevich en a mesuré 13 % par infrarouge. Mais il ne mène nulle part : « cette route a été considérée comme une impasse » (p. 398). L'équilibre le rend au composé carbonylé, qui repart par le chemin de l'imine.\n\nON LE DESSINE PARCE QU'UN MÉCANISME NE SE COMPREND PAS SANS SES FAUSSES ROUTES.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

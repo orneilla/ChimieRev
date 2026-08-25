@@ -7926,6 +7926,42 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "gewald": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "12.3 — Gewald MCRs",
+          "pages": "394-396",
+          "note": "L'origine et les quatre protocoles (p. 394) : réaction rapportée en 1961, à partir d'α-mercaptoaldéhydes ou de cétones ; trois versions améliorées ont suivi « cherchant à résoudre le problème de l'instabilité des substrats carbonylés employés ». La deuxième est le protocole multicomposant courant, où le soufre « réagit avec le nitrile α,β-insaturé engendré in situ à partir des deux autres réactifs » ; la troisième isole ce nitrile d'abord, ce qui la rend « efficace pour les cétones alkyl-aryliques et certaines cétones cycloalkyliques, substrats qui ne sont pas assez actifs pour les première et deuxième versions ». Le mécanisme est le schéma 12.24 (p. 395), et la condition d'activation du soufre y est écrite : « le soufre élémentaire doit être activé pour réagir avec le composé 72, soit par une base, soit par une activation électrochimique ». L'aveu sur la portée (p. 395) : « la G-3CR est considérée comme une RMC à FAIBLE DIMENSIONNALITÉ, c'est-à-dire qu'il n'y a pas beaucoup de variations possibles des différents composants, le composé carbonylé étant celui qui offre le plus d'alternatives ». L'organocatalyse (p. 396) : l-proline à 0,1 mol % (Xu et Zeng, 64-98 %), imidazole à 10 mol %, Cs₂CO₃, oxyde mixte Mg/La, ZnO sans solvant, polysiloxane aminée, albumine de sérum bovin."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "12.3 — Figure 12.3",
+          "pages": "395",
+          "note": "Quatre composés actifs portant un 2-aminothiophène : l'OLANZAPINE (Zyprexa®, antipsychotique), le PD81723 « activateur allostérique du récepteur A1 de l'adénosine », l'AX20017 « aux propriétés antituberculeuses », et le TPCA-1, inhibiteur de la kinase IKKβ."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "kabachnik_fields": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "12.4 — Kabachnik-Fields Reactions",
+          "pages": "396-398",
+          "note": "La définition (p. 396) : « une réaction à trois composants entre un composé carbonylé (cétone et aldéhydes), une amine, et un phosphite de dialkyle, pour former des α-aminoalkylphosphonates », décrite en 1952 « indépendamment par Kabachnik et par Fields ». Les deux mécanismes rivaux sont p. 398 : chemin I par l'imine puis addition de PUDOVIK, chemin II par addition d'ABRAMOV du phosphite sur le carbonyle puis substitution de l'hydroxyle. L'argument de principe : « il y a compétition entre les deux nucléophiles, le phosphite de dialkyle (mou) et l'amine (dur), pour le composant carbonylé électrophile ; en ce sens, la réaction avec le composant P sera favorisée comme plus molle que celle avec le composant C ». L'argument expérimental : Keglevich et coll. ont suivi par spectroscopie infrarouge la réaction du benzaldéhyde, de la cyclohexylamine et de phosphites de dialkyle, et « ont observé, en outre, la formation en faible proportion (13 %) de l'α-hydroxyphosphonate alternatif, mais cette route a été considérée comme une IMPASSE ; les calculs théoriques ont soutenu toutes ces observations expérimentales ». Et la prudence de conclusion : « en général, le mécanisme de la réaction dépend des produits de départ ainsi que des conditions réactionnelles, mais il semble que le chemin I (voie de l'imine) soit plus général que le chemin II »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "note de recherche",
+          "pages": "396",
+          "note": "PIÈGE DE RECHERCHE : « alpha-aminophosphonate » ne rend AUCUNE occurrence dans les neuf ouvrages — le nom s'écrit avec un α grec, que l'extraction de texte ne rend pas. C'est « Kabachnik » qui rend les seize pages utiles, et lui seul. Même famille de piège que « beta-oxidation » et « di-pi-methane », déjà consignés."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

@@ -10613,5 +10613,167 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "gewald": {
+    "1": {
+      "fichier": "gewald-etape1.svg",
+      "titre": "Une cétone, un nitrile activé, et du soufre",
+      "legende": "Un composé carbonylé, un nitrile portant un hydrogène acide — malononitrile, cyanoacétate d'éthyle ou cyanoacétamide —, et du SOUFRE ÉLÉMENTAIRE, qui existe sous forme de cycles S₈. Une base, triéthylamine ou pyridine.\n\nMETTRE DU SOUFRE EN POUDRE DANS UN BALLON EST INHABITUEL. La plupart des synthèses d'hétérocycles soufrés emploient un réactif soufré organique ; celle-ci prend le soufre tel qu'on l'extrait.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "gewald-etape2.svg",
+      "titre": "Condensation de Knoevenagel",
+      "legende": "La base arrache l'hydrogène coincé entre les deux groupes attracteurs du nitrile activé ; le carbanion attaque la cétone, l'eau part. On obtient un nitrile α,β-insaturé — le composé 72 de l'ouvrage.\n\nLE DÉTAIL EST ÉCRIT DANS LA FICHE « Condensation de Knoevenagel ». L'ouvrage l'admet comme point de départ (p. 394) : « la formation initiale du nitrile α,β-insaturé par condensation de Knoevenagel [...] est acceptée comme mécanisme proposé pour la réaction de Gewald à trois composants ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "gewald-etape3.svg",
+      "titre": "La base déprotone en position allylique",
+      "legende": "La triéthylamine prend un proton au carbone voisin de la double liaison. Le carbanion formé est stabilisé par conjugaison avec l'alcène et, au-delà, avec les deux nitriles.\n\nC'EST CE CARBONE-LÀ qui portera le soufre, et il deviendra la position 5 du thiophène.",
+      "fleches": [
+        "La base va chercher le proton allylique.",
+        "Les électrons de la liaison C–H restent sur le carbone."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "gewald-etape4.svg",
+      "titre": "Le carbanion ouvre le cycle de soufre",
+      "legende": "Le carbanion attaque un atome de soufre du cycle S₈, et une liaison soufre-soufre se rompt. Il reste une chaîne polysulfure portant une charge négative à son extrémité.\n\nL'OUVRAGE SIGNALE UNE CONDITION (p. 394-395) : « le soufre élémentaire doit être ACTIVÉ pour réagir avec le composé 72, soit par une base, soit par une activation électrochimique ». Le cycle S₈ est stable ; il ne s'ouvre pas de lui-même.",
+      "fleches": [
+        "Le carbanion attaque un soufre du cycle.",
+        "Une liaison S–S se rompt : la chaîne s'ouvre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "gewald-etape5.svg",
+      "titre": "Le soufre se referme sur le nitrile",
+      "legende": "Le soufre porté par le carbone attaque le carbone d'un des deux nitriles. Cycle à CINQ chaînons — c'est le squelette du thiophène.\n\nREGARDEZ CE QUI EST DÉJÀ EN PLACE : quatre carbones et un soufre en anneau, un azote qui pend, une chaîne de sept soufres à retirer. Tout le reste n'est que ménage.",
+      "fleches": [
+        "Le soufre attaque le carbone du nitrile.",
+        "La triple liaison C≡N se replie sur l'azote."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "gewald-etape6.svg",
+      "titre": "La chaîne de soufre s'en va",
+      "legende": "Le fragment S₇ se retire et l'azote reprend un proton. L'ouvrage écrit simplement « –S₇ » sur sa flèche (schéma 12.24) : le détail du départ n'est pas donné, et l'on ne dessine pas ce qu'on n'a pas lu.\n\nON TIENT L'INTERMÉDIAIRE 75 : un cycle à cinq chaînons portant une IMINE exocyclique et un carbone encore tétraédrique. Il ne lui manque que d'être aromatique.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "7": {
+      "fichier": "gewald-etape7.svg",
+      "titre": "Le cycle devient aromatique",
+      "legende": "La base prend le dernier proton du carbone tétraédrique, les doubles liaisons se redistribuent, et le cycle gagne ses six électrons π.\n\nL'OUVRAGE APPELLE CETTE ÉTAPE « tautomérie amino-imino » — l'imine exocyclique devient une amine, et le cycle devient un thiophène. C'est encore l'aromaticité qui paie, comme dans la synthèse d'imidazoles de Radziszewski.",
+      "fleches": [
+        "La base prend le dernier proton du carbone tétraédrique.",
+        "Les électrons de la liaison C–H forment une double liaison.",
+        "La double liaison voisine glisse.",
+        "Et la liaison C=N se replie sur l'azote."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "8": {
+      "fichier": "gewald-etape8.svg",
+      "titre": "L'azote reprend son proton",
+      "legende": "L'ammonium formé à l'étape précédente rend son proton à l'azote : la base est régénérée, et l'amine aromatique est là.",
+      "fleches": [
+        "L'azote va chercher le proton.",
+        "La base est régénérée."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "9": {
+      "fichier": "gewald-etape9.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un 2-AMINOTHIOPHÈNE. Trois composants, dont l'un est du soufre en poudre.\n\nCE MOTIF EST DANS LA PHARMACIE. La figure 12.3 de l'ouvrage (p. 395) en aligne quatre : l'OLANZAPINE — le Zyprexa®, antipsychotique —, le PD81723 qui module le récepteur A1 de l'adénosine, l'AX20017 antituberculeux, et le TPCA-1 inhibiteur de la kinase IKKβ.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "kabachnik_fields": {
+    "1": {
+      "fichier": "kabachnik_fields-etape1.svg",
+      "titre": "Un carbonyle, une amine, un phosphite",
+      "legende": "Herrera & Marqués-López la définissent ainsi (p. 396) : « une réaction à trois composants entre un composé carbonylé (cétone ou aldéhyde), une amine, et un phosphite de dialkyle, pour former des α-aminoalkylphosphonates ». Décrite en 1952, INDÉPENDAMMENT, par Kabachnik et par Fields.\n\nCE QU'ON VISE : un carbone portant à la fois un azote et un PHOSPHORE. Regardez ce que cela imite — un acide α-aminé où le carboxyle serait remplacé par un phosphonate. C'est ce qui fait l'intérêt de ces composés.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "kabachnik_fields-etape2.svg",
+      "titre": "Chemin I : l'imine se forme d'abord",
+      "legende": "L'amine et le composé carbonylé se condensent en imine, protonée par le milieu. Le détail est écrit dans la fiche « Formation des imines et des énamines ».\n\nC'EST LE CHEMIN I DE L'OUVRAGE, et c'est le plus probable — on verra à l'étape 5 pourquoi.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "kabachnik_fields-etape3.svg",
+      "titre": "La base réveille le phosphite",
+      "legende": "Un phosphite de dialkyle n'est pas ce que son nom laisse croire : il existe très majoritairement sous la forme P(V), avec une liaison P–H et une liaison P=O, et non sous la forme P(III) à trois oxygènes.\n\nCE PROTON EST ACIDE, et la base le prend. L'anion obtenu porte sa charge sur l'oxygène ET sur le phosphore — deux formes limites —, et c'est par le PHOSPHORE qu'il attaque.",
+      "fleches": [
+        "La base prend le proton porté par le phosphore.",
+        "Les électrons de la liaison P–H restent sur le phosphore."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "kabachnik_fields-etape4.svg",
+      "titre": "Le phosphore attaque l'iminium",
+      "legende": "C'est l'ADDITION DE PUDOVIK : un anion phosphite sur un accepteur C=N. La liaison carbone-phosphore est faite.\n\nL'AZOTE PORTAIT DÉJÀ SON HYDROGÈNE — il vient de l'iminium —, si bien que le produit sort neutre : l'α-aminoalkylphosphonate est formé d'un coup.\n\nET VOICI POURQUOI CE CHEMIN-LÀ ET PAS L'AUTRE (p. 398). Il existe un chemin II : le phosphite attaquerait d'abord le carbonyle — c'est l'ADDITION D'ABRAMOV — pour donner un α-hydroxyphosphonate, que l'amine substituerait ensuite.\n\nL'ouvrage donne d'abord un argument de principe : « il y a compétition entre les deux nucléophiles, le phosphite de dialkyle (MOU) et l'amine (DUR), pour le composant carbonylé électrophile ». Puis il donne la mesure : Keglevich et ses collègues ont suivi la réaction du benzaldéhyde, de la cyclohexylamine et d'un phosphite par SPECTROSCOPIE INFRAROUGE, et le chemin de l'imine est le plus probable. Ils ont bien vu 13 % d'α-hydroxyphosphonate — « mais cette route a été considérée comme une IMPASSE ». Les calculs théoriques confirment.\n\nRETENEZ LA DISTINCTION : un composé qui se forme n'est pas pour autant un intermédiaire. Il peut être un cul-de-sac, d'où la réaction revient en arrière au lieu d'avancer.",
+      "fleches": [
+        "Le phosphore attaque le carbone de l'iminium.",
+        "La double liaison C=N se replie sur l'azote."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "kabachnik_fields-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'α-aminoalkylphosphonate : l'analogue phosphoré d'un acide α-aminé.\n\nL'OUVRAGE PARLE D'« une classe de composés d'importance » sur les cinq dernières décennies. La géométrie tétraédrique du phosphonate imite l'état de transition de l'hydrolyse d'un amide — c'est pourquoi ces composés font de bons inhibiteurs d'enzymes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "6": {
+      "fichier": "kabachnik_fields-etape6.svg",
+      "titre": "L'impasse, qu'on dessine parce qu'elle existe",
+      "legende": "L'α-HYDROXYPHOSPHONATE, produit du chemin II — l'addition d'Abramov du phosphite sur le carbonyle.\n\nIl se forme réellement : Keglevich en a mesuré 13 % par infrarouge. Mais il ne mène nulle part : « cette route a été considérée comme une impasse » (p. 398). L'équilibre le rend au composé carbonylé, qui repart par le chemin de l'imine.\n\nON LE DESSINE PARCE QU'UN MÉCANISME NE SE COMPREND PAS SANS SES FAUSSES ROUTES.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

@@ -1560,12 +1560,12 @@
         {
           "nom": "Synthèse de Gewald des 2-aminothiophènes",
           "niveau": "M2",
-          "id": null
+          "id": "gewald"
         },
         {
           "nom": "Réaction de Kabachnik-Fields",
           "niveau": "M2",
-          "id": null
+          "id": "kabachnik_fields"
         },
         {
           "nom": "Domino Knoevenagel / hétéro-Diels-Alder",
