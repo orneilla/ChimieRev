@@ -7598,6 +7598,102 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "passerini_p3cr": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "8 — Passerini Multicomponent Reactions",
+          "pages": "283-284",
+          "note": "Le chapitre entier. La définition (p. 283) : la P-3CR, découverte en 1921, donne des α-acyloxycarboxamides en un seul ballon à partir d'un aldéhyde, d'un acide carboxylique et d'un isonitrile. La raison du réactif : « l'importance de l'emploi des isocyanures tient à leur double rôle de nucléophile et d'électrophile ». Le mécanisme accepté est le schéma 8.2 (p. 284) : adduit lié par hydrogène 5, puis intermédiaire 6, puis transposition de Mumm. Et l'aveu qui compte : « la manière dont 6 se forme est encore l'objet d'un débat actif ». Le rôle de l'acide y est dit crucial : c'est lui qui active l'aldéhyde et ouvre la séquence."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "8.2 — O-Alkylative and Silylative Passerini Three-Component Reactions",
+          "pages": "283-285",
+          "note": "Les variantes qui se passent de l'acide carboxylique : phénols (El Kaim et Grimaud) avec transposition de SMILES au lieu de Mumm, alcools sous In(OTf)₃ (Taguchi), silanols (Soeta et Inomata). Le principe commun est énoncé p. 285 : on cherche des molécules « possédant une fonction acide similaire, avec une partie électrophile et une partie nucléophile, de forme générale Z-OH »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "8.9 — Green approaches",
+          "pages": "300",
+          "note": "La chimie durable, mesurée. Les temps de réaction comparés : CH₂Cl₂ 18 h, PEG 0,5-6 h, liquides ioniques 2-14 h, eau 3-3,5 h, micro-ondes moins d'une minute à 120 °C. Les liquides ioniques recyclés cinq fois « avec des rendements similaires ». Et le sans-solvant à chaud : 64 à 95 %, sur les isatines de Biju y compris — une cétone encombrée, « là où d'autres protocoles ont échoué »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "6.6 — Industrial Applications",
+          "pages": "238-239",
+          "note": "Le mandipropamid, fongicide de Syngenta commercialisé depuis 2007 sous les noms Revus® et Pergado®, actif contre Phytophthora infestans — « qui a causé la dévastation complète de la récolte irlandaise de pommes de terre entre 1845 et 1849, quand un million d'Irlandais sont morts de faim et deux millions ont émigré vers l'Amérique du Nord ». La voie de Zeun et coll. emploie la variation de Seebach : « l'application d'acides de Lewis, comme TiCl₄, à la place de l'acide carboxylique comme composant acide, ne délivre pas les α-acyloxycarboxamides habituels mais directement des α-hydroxycarboxamides »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "1 — The Basics",
+          "pages": "39",
+          "note": "La phrase qui explique tout le reste, et qui vient d'un ouvrage qui ignore les multicomposants : « Le monoxyde de carbone et les isocyanures peuvent être décrits comme des carbènes particulièrement stabilisés. » Un carbène a six électrons : un doublet à donner, une lacune à combler. Le double rôle nucléophile/électrophile en découle."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "40 — Organometallic chemistry",
+          "pages": "1072",
+          "note": "La seule mention de l'isonitrile dans tout le Clayden, et elle n'a rien à voir : c'est un ligand du comptage à dix-huit électrons, aux côtés du monoxyde de carbone. Ce silence est un résultat : les manuels généraux d'organique ne traitent pas les réactions à isonitrile."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "auteurs": "M. Passerini",
+          "titre": "Sopra gli isonitrili (I). Composto del p-isonitril-azobenzolo con acetone ed acido acetico",
+          "journal": "Gazzetta Chimica Italiana",
+          "annee": 1921,
+          "volume": "51",
+          "pages": "126-129",
+          "doi": null,
+          "verifie": false,
+          "note": "Référence [22] de la table historique des réactions multicomposants (Multicomposants p. 13). Antérieure aux DOI : aucun identifiant n'est écrit ici plutôt qu'un identifiant approché."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "ugi_u4cr": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "7.3 — Ugi Four-Component Reactions",
+          "pages": "254-256",
+          "note": "Le mécanisme, schéma 7.15 (p. 256), et son texte (p. 254-255). L'ordre des étapes : imine, protonation de l'azote « pour augmenter l'électrophilie de la liaison C=N », addition de l'isonitrile en ion nitrilium 37, piégeage par le carboxylate en O-acylimidate 38, puis « l'étape finale et NON RÉVERSIBLE — connue sous le nom de transposition de Mumm — [qui] est le transfert intramoléculaire du groupe acyle de l'oxygène vers l'atome d'azote ». Les acides de Lewis cités comme substituts de l'acide : TiCl₄, Sc(OTf)₃, Yb(OTf)₃. La preuve du nitrilium : Neto et coll., 2014, par spectrométrie de masse électrospray sur réactifs porteurs d'une charge, « ont pu isoler et caractériser l'ion nitrilium intermédiaire ». Et les applications : peptoïdes en moins de cinq minutes sous micro-ondes et sans solvant, pentapeptoïdes par une seconde Ugi, massadine, analogues de la muraymycine, macrocycles, épelsiban."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "7.1 — Introduction",
+          "pages": "247",
+          "note": "La date et la portée : « En 1959, Ugi rapporta pour la première fois la réaction multicomposant entre un acide carboxylique, une amine, un composé carbonylé et un isocyanure. » Et la limite haute : « aujourd'hui le nombre de composants peut dépasser quatre, atteignant des exemples extraordinairement complexes allant jusqu'à huit réactifs »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "7.2 — Ugi Three-Component Reactions",
+          "pages": "253-255",
+          "note": "Les versions énantiosélectives, qui sont récentes. Un acide phosphorique chiral (catalyseur 19, 20 mol %) donne 82 % de rendement à 90 % d'excès énantiomérique ; le catalyseur BOROX (R)-30 monte à 92:8 de rapport énantiomérique. Et l'Ugi-4C-3CR assistée par micro-ondes de Van der Eycken, qui bâtit des dibenzo[c,e]azépinones en un seul diastéréoisomère (40-98 %)."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "1 — The Basics",
+          "pages": "39",
+          "note": "Voir la fiche de la réaction de Passerini : la même phrase sur les isocyanures « carbènes particulièrement stabilisés » fonde le mécanisme des deux réactions."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "auteurs": "I. Ugi, R. Meyr, U. Fetzer, C. Steinbrückner",
+          "titre": "Versuche mit Isonitrilen",
+          "journal": "Angewandte Chemie",
+          "annee": 1959,
+          "volume": "71",
+          "pages": "386",
+          "doi": null,
+          "verifie": false,
+          "note": "Référence [1] du chapitre 7 (Multicomposants p. 247, 278). Le DOI n'a pas été vérifié : il s'écrit null plutôt qu'approché."
+        }
+      ],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

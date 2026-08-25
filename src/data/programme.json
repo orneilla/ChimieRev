@@ -1495,22 +1495,22 @@
         {
           "nom": "Réaction de Strecker multicomposant",
           "niveau": "L3",
-          "id": null
+          "id": "synthese_strecker"
         },
         {
           "nom": "Réaction de Mannich à trois composants",
           "niveau": "L3",
-          "id": null
+          "id": "reaction_mannich"
         },
         {
           "nom": "Réaction de Passerini (P-3CR)",
           "niveau": "M1",
-          "id": null
+          "id": "passerini_p3cr"
         },
         {
           "nom": "Réaction d'Ugi (U-4CR)",
           "niveau": "M1",
-          "id": null
+          "id": "ugi_u4cr"
         },
         {
           "nom": "Approche Ugi-Smiles",

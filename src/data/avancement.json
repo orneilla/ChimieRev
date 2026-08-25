@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
-  "total": 285,
-  "redigees": 245,
-  "verifiees": 162,
+  "total": 283,
+  "redigees": 247,
+  "verifiees": 164,
   "relues": 0,
   "familles": [
     {
@@ -2121,38 +2121,38 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 19,
+      "absente": 15,
       "redigee": 0,
-      "verifiee": 0,
+      "verifiee": 4,
       "relue": 0,
       "reactions": [
         {
           "nom": "Réaction de Strecker multicomposant",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_strecker",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Mannich à trois composants",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reaction_mannich",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Passerini (P-3CR)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "passerini_p3cr",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction d'Ugi (U-4CR)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ugi_u4cr",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Approche Ugi-Smiles",

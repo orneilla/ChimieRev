@@ -4252,5 +4252,47 @@
         "note": "L'acide carbamique perd son CO₂ : c'est la mousse"
       }
     ]
+  },
+  {
+    "id": "isocyanure_tertbutyle",
+    "nom": "tBuNC",
+    "nom_complet": "isocyanure de tert-butyle",
+    "famille": "Carbènes et ylures",
+    "SMILES": "CC(C)(C)[N+]#[C-]",
+    "role": "Nucléophile ET électrophile sur le même atome — le réactif des réactions multicomposants",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone terminal",
+        "role": "Il n'a que six électrons : un doublet libre, qui lui permet d'ATTAQUER, et une lacune, qui le rend ATTAQUABLE. Les deux rôles sur le même atome : c'est ce qui permet à trois ou quatre molécules de s'assembler sans quitter le ballon."
+      },
+      {
+        "partie": "la liaison N≡C",
+        "role": "Elle porte les charges formelles — moins sur le carbone, plus sur l'azote — mais le carbone n'est pas pour autant un anion ordinaire. Après l'attaque, cette liaison devient un ion nitrilium, qui n'attend que le nucléophile suivant."
+      },
+      {
+        "partie": "le groupe tert-butyle",
+        "role": "Il n'intervient pas dans le mécanisme : il est là pour rendre le réactif maniable, et pour se retirer proprement en fin de synthèse. On emploie aussi l'isocyanoacétate de méthyle quand on veut garder une fonction."
+      }
+    ],
+    "reactions_liees": [
+      "passerini_p3cr",
+      "ugi_u4cr"
+    ],
+    "explication_reference": "L'isocyanure de tert-butyle est l'isonitrile de référence des réactions multicomposants : réaction de Passerini (P-3CR), réaction d'Ugi (U-4CR) et leurs variantes.\n\nSA PARTICULARITÉ TIENT À SON CARBONE TERMINAL, divalent : il porte un doublet libre et une lacune électronique. Herrera & Marqués-López y voient la clé de ces réactions (Multicomposants p. 283) : « l'importance de l'emploi des isocyanures tient à leur double rôle de nucléophile et d'électrophile ». Grossman (p. 39) donne la même chose sous un autre angle : « Le monoxyde de carbone et les isocyanures peuvent être décrits comme des carbènes particulièrement stabilisés. »\n\nDANS LE MÉCANISME, il attaque d'abord un ion iminium ou un carbonyle activé, ce qui l'engage en ION NITRILIUM ; ce nitrilium est ensuite piégé par un carboxylate. Une transposition de Mumm achève la séquence.\n\nAUTRES EMPLOIS : Grossman le rencontre aussi en chimie radicalaire (p. 294, 312), où un radical s'additionne sur son carbone terminal pour donner un radical iminyle, et en chimie organométallique (p. 343, 360), où il se comporte en donneur de deux électrons, isoélectronique du monoxyde de carbone. Le Clayden ne le mentionne qu'à ce dernier titre, dans son comptage à dix-huit électrons (p. 1072).",
+    "explication_comprendre": "UN RÉACTIF QUI JOUE LES DEUX RÔLES\n\nEn chimie organique, les molécules se répartissent d'ordinaire en deux camps : celles qui ont des électrons à donner, et celles qui en manquent. Les premières attaquent, les secondes sont attaquées.\n\nL'isonitrile refuse de choisir.\n\nSon carbone du bout — celui qui n'est accroché qu'à une seule chose — se trouve dans un état inhabituel : il lui manque des électrons pour être complet, ET il en a une paire disponible. Il peut donc attaquer, puis, une fois attaché, se faire attaquer à son tour.\n\nPOURQUOI EST-CE SI RARE ?\n\nParce que ce carbone n'a que six électrons au lieu des huit habituels. Les chimistes appellent cela un CARBÈNE, et un carbène ordinaire ne vit qu'une fraction de seconde.\n\nIci l'azote voisin le stabilise, et le réactif se conserve en flacon. Grossman le dit en une phrase : les isocyanures sont « des carbènes particulièrement stabilisés ».\n\nCE QUE CELA PERMET\n\nMettez dans le même ballon un aldéhyde, une amine, un acide et un isonitrile. L'isonitrile attend que les trois autres aient formé ce qu'ils ont à former, attaque, puis tend l'autre main. Quatre molécules assemblées en une seule opération : c'est la réaction d'Ugi.\n\nUNE ODEUR QU'ON N'OUBLIE PAS\n\nLes isonitriles sentent atrocement mauvais, et à des concentrations minuscules. On travaille sous hotte, sans exception — non par toxicité particulière, mais parce qu'un flacon mal fermé rend un laboratoire inhabitable pour la journée.\n\nNE PAS CONFONDRE AVEC LE NITRILE\n\nR–N≡C et R–C≡N ont les mêmes atomes dans un ordre différent, et une chimie sans rapport. Dans le nitrile, c'est l'azote qui est au bout ; dans l'isonitrile, c'est le carbone. Et c'est ce carbone-là qui fait tout.",
+    "reactions_exemples": [
+      {
+        "nom": "Passerini : aldéhyde + acide + isonitrile",
+        "substrat_SMILES": "CC=O",
+        "produit_SMILES": "CC(OC(C)=O)C(=O)NC",
+        "note": "α-acyloxyamide, trois composants"
+      },
+      {
+        "nom": "Ugi : aldéhyde + amine + acide + isonitrile",
+        "substrat_SMILES": "CC=O",
+        "produit_SMILES": "CC(N(C)C(C)=O)C(=O)NC",
+        "note": "α-acylamino amide, quatre composants"
+      }
+    ]
   }
 ]

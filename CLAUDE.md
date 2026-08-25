@@ -231,10 +231,10 @@ L'état au moment où cet outil a été écrit, et il n'était pas flatteur :
 **79 % des fiches ne citaient qu'un seul ouvrage**, et le Clayden
 apparaissait sur 96 % d'entre elles. Le Housecroft, sur une seule.
 
-Aujourd'hui, sur 224 fiches et 965 citations : Clayden 75 %, McMurry 56 %,
-Grossman 28 %, Dugas 19 %, LibreTexts 16 %, **Housecroft 15 %**,
-Multicomposants 6 %, Roberts & Caserio 2 %, Carey & Sundberg 0 %. Le
-mono-sourçage est à 14 %.
+Aujourd'hui, sur 247 fiches et 1 015 citations : Clayden 69 %, McMurry
+55 %, Grossman 30 %, Dugas 18 %, LibreTexts 15 %, **Housecroft 14 %**,
+Multicomposants 6 %, Roberts & Caserio 4 %, Carey & Sundberg 4 %. Le
+mono-sourçage est à 15 %.
 
 Ces chiffres se relisent à chaque bloc terminé, et ils se REMPLACENT ici :
 un compte périmé dans ce fichier est pire qu'aucun compte, puisqu'on le
@@ -358,6 +358,34 @@ donc à rien ; il faut tenir le drapeau levé pendant tous les appels à
 cinq liaisons, un chrome, un phosphore — mais il échoue sur une espèce
 réduite à un seul atome, où il ne rend aucune coordonnée : l'ion hydrure
 disparaît du schéma. On le réserve donc aux espèces qui ont une liaison.
+
+### CoordGen pose parfois la charge SUR la liaison
+
+Le même CoordGen a un second défaut, plus discret, et aucun contrôle ne
+l'attrape. L'isonitrile `[C-]#[N+]C` sort dessiné `C≡N⁺—`, et le signe
+moins du carbone est **absent à l'œil**. Il n'est pourtant pas absent du
+fichier : le SVG compte bien deux glyphes pour cet atome, la lettre et la
+charge. Simplement, RDKit dégage la place du LABEL en raccourcissant les
+liaisons, et il ne dégage pas celle de la CHARGE : le petit trait se
+retrouve posé à un demi-pixel du trait de la triple liaison, où il devient
+un morceau de liaison.
+
+Sans CoordGen, la même molécule est dessinée dans l'autre sens et la
+charge se voit. Le défaut ne tient donc ni à la charge ni au réactif : il
+tient à l'ORIENTATION que CoordGen choisit, et il ne se manifeste que sur
+un fragment linéaire dont l'atome chargé est du côté de la liaison.
+
+**La parade est l'ordre d'écriture du SMILES.** `C[N+]#[C-]` — le carbone
+en dernier — rend `—N⁺≡C⁻`, charge dégagée. Le tert-butyle ne change rien :
+`CC(C)(C)[N+]#[C-]` cache de nouveau le moins.
+
+Une tentative de contrôle automatique a été faite et n'a pas abouti : elle
+signalait 328 schémas sur 871, presque tous des faux positifs — le « H »
+d'un hydroxyle passe près d'une liaison sans gêner personne. Distinguer
+les deux demande de mesurer le RECOUVREMENT du glyphe, pas sa distance,
+et c'est un travail en soi. En attendant, **la seule garantie est de
+regarder les schémas où figure un atome chargé au bout d'un fragment
+linéaire.**
 
 Deux outils en découlent :
 

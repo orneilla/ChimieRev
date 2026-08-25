@@ -9836,5 +9836,183 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "passerini_p3cr": {
+    "1": {
+      "fichier": "passerini_p3cr-etape1.svg",
+      "titre": "L'acide et l'aldéhyde s'accrochent l'un à l'autre",
+      "legende": "Rien ne réagit encore. L'acide carboxylique et l'aldéhyde s'assemblent par une liaison HYDROGÈNE : le proton de l'acide se penche sur l'oxygène du carbonyle. Herrera & Marqués-López dessinent cet adduit sous le numéro 5 (p. 284) et le placent en tête du mécanisme accepté.\n\nCet assemblage n'est pas un détail de présentation : c'est lui qui explique pourquoi la réaction de Passerini aime les solvants APOLAIRES et les fortes concentrations. Une liaison hydrogène entre deux molécules ne survit pas dans l'eau, où le solvant en offre partout de meilleures.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "passerini_p3cr-etape2.svg",
+      "titre": "L'isonitrile attaque, le proton passe",
+      "legende": "Le carbone terminal de l'isonitrile — celui qui porte le doublet — attaque le carbone du carbonyle ; les électrons du C=O se replient sur l'oxygène, qui prend au passage le proton de l'acide. Le carboxylate est libéré.\n\nLE PRODUIT S'APPELLE UN ION NITRILIUM : un carbone triplement lié à un azote chargé positivement. C'est la pièce centrale des deux grandes réactions à isonitrile.\n\nUNE HONNÊTETÉ NÉCESSAIRE : l'ouvrage écrit que « la manière dont 6 se forme est encore l'objet d'un débat actif » (p. 283). Les quatre flèches dessinées ici sont l'écriture la plus courante, pas une certitude expérimentale.",
+      "fleches": [
+        "Le carbone divalent de l'isonitrile attaque le carbone du carbonyle.",
+        "Les électrons du C=O se replient sur l'oxygène.",
+        "L'oxygène, devenu riche, prend le proton de l'acide.",
+        "La liaison O–H se rompt : voici le carboxylate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "passerini_p3cr-etape3.svg",
+      "titre": "Le carboxylate se jette sur le nitrilium",
+      "legende": "Le carboxylate qu'on vient de libérer attaque le carbone du nitrilium. La triple liaison se replie sur l'azote, qui redevient neutre.\n\nOn obtient un O-ACYLIMIDATE : un ester et une imine partageant le même carbone. C'est l'intermédiaire numéroté 6 dans l'ouvrage (p. 284).",
+      "fleches": [
+        "Le carboxylate attaque le carbone du nitrilium.",
+        "La triple liaison C≡N se replie : l'azote redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "passerini_p3cr-etape4.svg",
+      "titre": "Transposition de Mumm, premier temps : le cycle se ferme",
+      "legende": "L'alcool voisin attaque le carbonyle de l'acyle. Le cycle qui se forme compte CINQ chaînons — c'est ce qui rend le transfert facile.\n\nLA TRANSPOSITION DE MUMM est le dernier acte des deux réactions à isonitrile, et le seul qui soit IRRÉVERSIBLE. Tout ce qui précède est un jeu d'équilibres ; c'est cette étape qui tire l'ensemble.",
+      "fleches": [
+        "L'oxygène de l'alcool attaque le carbone de l'acyle.",
+        "Les électrons du C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "passerini_p3cr-etape5.svg",
+      "titre": "Transposition de Mumm, second temps : le cycle s'ouvre de l'autre côté",
+      "legende": "L'oxygène chargé négativement reforme la double liaison C=O et chasse l'autre oxygène. L'acyle a changé de porteur : il était sur l'oxygène de l'imidate, il est maintenant sur celui de l'alcool.\n\nRegardez ce qui reste : un ANION IMIDATE, dont on va voir qu'il n'a qu'une envie.",
+      "fleches": [
+        "L'oxygène rend son doublet : le carbonyle se reforme.",
+        "La liaison avec l'oxygène de l'imidate se rompt."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "passerini_p3cr-etape6.svg",
+      "titre": "L'imidate s'effondre en amide",
+      "legende": "L'anion imidate reforme un carbonyle, la double liaison C=N se replie sur l'azote, et l'azote va chercher le proton resté sur l'oxygène chargé positivement. Le produit est un α-ACYLOXYAMIDE — le motif que Herrera & Marqués-López disent présent « dans le squelette de nombreux produits bioactifs » (p. 283).\n\nTROIS MOLÉCULES, UN BALLON, UN PRODUIT. Aucun intermédiaire n'a été isolé.",
+      "fleches": [
+        "L'oxygène rend son doublet : le carbonyle de l'amide se forme.",
+        "La double liaison C=N se replie sur l'azote.",
+        "L'azote va chercher le proton.",
+        "La liaison O–H se rompt : l'oxygène redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "passerini_p3cr-etape7.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'α-acyloxyamide. Un aldéhyde, un acide et un isonitrile s'y retrouvent entiers : l'économie d'atomes est totale, aucun sous-produit n'a été rejeté.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "ugi_u4cr": {
+    "1": {
+      "fichier": "ugi_u4cr-etape1.svg",
+      "titre": "L'amine et l'aldéhyde donnent l'imine",
+      "legende": "Premier des quatre partenaires à se rencontrer : l'amine primaire condense sur l'aldéhyde et l'eau part. Le détail de cette condensation est traité dans la fiche « Formation d'une imine » ; on ne le redessine pas ici.\n\nC'est un ÉQUILIBRE, et c'est important pour la suite : rien de ce qui précède la dernière étape n'est acquis.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "ugi_u4cr-etape2.svg",
+      "titre": "L'acide protone l'imine",
+      "legende": "L'acide carboxylique — le quatrième partenaire — cède son proton à l'azote de l'imine. « L'acide protone l'atome d'azote de l'imine pour augmenter l'électrophilie de la liaison C=N » (p. 254).\n\nDEUX ESPÈCES NAISSENT D'UN COUP, et toutes deux serviront : l'ion iminium, qui va recevoir l'isonitrile, et le carboxylate, qui interviendra à l'étape suivante. Une seule molécule d'acide fait les deux métiers.\n\nL'ouvrage note qu'un acide de Lewis — TiCl₄, Sc(OTf)₃, Yb(OTf)₃ — remplit le même office.",
+      "fleches": [
+        "Le doublet de l'azote va chercher le proton de l'acide.",
+        "La liaison O–H se rompt : voici le carboxylate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "ugi_u4cr-etape3.svg",
+      "titre": "L'isonitrile attaque l'iminium",
+      "legende": "Le carbone divalent de l'isonitrile attaque le carbone de l'iminium ; la double liaison C=N se replie sur l'azote, qui redevient une amine neutre.\n\nON RETROUVE L'ION NITRILIUM — le même intermédiaire que dans la réaction de Passerini. L'ouvrage souligne qu'il n'est pas resté une hypothèse : Neto et coll. l'ont « isolé et caractérisé » en 2014 par spectrométrie de masse sur des réactifs porteurs d'une charge (p. 256).",
+      "fleches": [
+        "Le carbone divalent de l'isonitrile attaque le carbone de l'iminium.",
+        "La double liaison C=N se replie : l'azote redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "ugi_u4cr-etape4.svg",
+      "titre": "Le carboxylate se jette sur le nitrilium",
+      "legende": "Le carboxylate libéré à l'étape 2 attaque le carbone du nitrilium : on obtient l'O-acylimidate, numéroté 38 dans l'ouvrage (p. 255).\n\nTOUT CELA EST ENCORE RÉVERSIBLE. Les flèches doubles du schéma 7.15 le disent : imine, iminium, nitrilium, imidate — quatre équilibres à la file.",
+      "fleches": [
+        "Le carboxylate attaque le carbone du nitrilium.",
+        "La triple liaison C≡N se replie sur l'azote."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "ugi_u4cr-etape5.svg",
+      "titre": "Transposition de Mumm, premier temps : l'azote attaque l'acyle",
+      "legende": "L'azote de l'amine — celui qui vient de l'amine primaire de départ — attaque le carbonyle de l'acyle. Cycle à cinq chaînons, comme dans la Passerini.\n\nLA DIFFÉRENCE AVEC LA PASSERINI TIENT EN UN ATOME. Là-bas l'acyle passait d'un oxygène à un autre ; ici il passe de l'oxygène à l'AZOTE. C'est pourquoi la Passerini donne un ester et l'Ugi un amide — et pourquoi c'est l'Ugi, et non la Passerini, qui fabrique des peptides.",
+      "fleches": [
+        "L'azote attaque le carbone de l'acyle.",
+        "Les électrons du C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "ugi_u4cr-etape6.svg",
+      "titre": "Transposition de Mumm, second temps : le cycle s'ouvre",
+      "legende": "L'oxygène rend son doublet, le carbonyle se reforme, et la liaison avec l'oxygène de l'imidate se rompt. L'acyle est désormais porté par l'azote.\n\n« L'étape finale et NON RÉVERSIBLE — connue sous le nom de transposition de Mumm — est le transfert intramoléculaire du groupe acyle de l'oxygène vers l'atome d'azote » (p. 255). C'est cette irréversibilité qui vide tous les équilibres précédents en faveur du produit.",
+      "fleches": [
+        "L'oxygène rend son doublet : le carbonyle se reforme.",
+        "La liaison avec l'oxygène de l'imidate se rompt."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "ugi_u4cr-etape7.svg",
+      "titre": "L'imidate s'effondre en amide",
+      "legende": "Dernier geste : l'anion imidate reforme son carbonyle, la double liaison C=N se replie sur l'azote de l'isonitrile, et cet azote prend le proton resté sur l'ammonium.\n\nLE PRODUIT EST UN α-ACYLAMINO AMIDE. Regardez son squelette : un carbone qui porte un azote acylé d'un côté et un carbonyle amide de l'autre. C'est exactement l'enchaînement d'un DIPEPTIDE — et c'est pourquoi l'Ugi sert à fabriquer des peptoïdes en une seule opération.",
+      "fleches": [
+        "L'oxygène rend son doublet : le carbonyle de l'amide se forme.",
+        "La double liaison C=N se replie sur l'azote.",
+        "L'azote va chercher le proton resté sur l'ammonium.",
+        "La liaison N–H se rompt : l'azote redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "8": {
+      "fichier": "ugi_u4cr-etape8.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'α-acylamino amide. Quatre molécules y sont entrées, une seule en sort — et la seule perte est la molécule d'eau de la condensation initiale.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

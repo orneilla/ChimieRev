@@ -979,6 +979,14 @@
     "substrat": "vision_retinal-substrat.svg",
     "produit": "vision_retinal-produit.svg"
   },
+  "passerini_p3cr": {
+    "substrat": "passerini_p3cr-substrat.svg",
+    "produit": "passerini_p3cr-produit.svg"
+  },
+  "ugi_u4cr": {
+    "substrat": "ugi_u4cr-substrat.svg",
+    "produit": "ugi_u4cr-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1695,6 +1703,17 @@
   "tdi-ex1": {
     "substrat": "tdi-ex1-substrat.svg",
     "produit": "tdi-ex1-produit.svg"
+  },
+  "isocyanure_tertbutyle": {
+    "molecule": "reactif-isocyanure_tertbutyle.svg"
+  },
+  "isocyanure_tertbutyle-ex0": {
+    "substrat": "isocyanure_tertbutyle-ex0-substrat.svg",
+    "produit": "isocyanure_tertbutyle-ex0-produit.svg"
+  },
+  "isocyanure_tertbutyle-ex1": {
+    "substrat": "isocyanure_tertbutyle-ex1-substrat.svg",
+    "produit": "isocyanure_tertbutyle-ex1-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

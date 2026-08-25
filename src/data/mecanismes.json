@@ -24926,5 +24926,519 @@
         "valide": false
       }
     ]
+  },
+  "passerini_p3cr": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'acide et l'aldéhyde s'accrochent l'un à l'autre",
+        "smiles": "CC(=O)O.CC=O",
+        "legende": "Rien ne réagit encore. L'acide carboxylique et l'aldéhyde s'assemblent par une liaison HYDROGÈNE : le proton de l'acide se penche sur l'oxygène du carbonyle. Herrera & Marqués-López dessinent cet adduit sous le numéro 5 (p. 284) et le placent en tête du mécanisme accepté.\n\nCet assemblage n'est pas un détail de présentation : c'est lui qui explique pourquoi la réaction de Passerini aime les solvants APOLAIRES et les fortes concentrations. Une liaison hydrogène entre deux molécules ne survit pas dans l'eau, où le solvant en offre partout de meilleures.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'isonitrile attaque, le proton passe",
+        "smiles": "CC(=O)O[H].CC=O.C[N+]#[C-]",
+        "legende": "Le carbone terminal de l'isonitrile — celui qui porte le doublet — attaque le carbone du carbonyle ; les électrons du C=O se replient sur l'oxygène, qui prend au passage le proton de l'acide. Le carboxylate est libéré.\n\nLE PRODUIT S'APPELLE UN ION NITRILIUM : un carbone triplement lié à un azote chargé positivement. C'est la pièce centrale des deux grandes réactions à isonitrile.\n\nUNE HONNÊTETÉ NÉCESSAIRE : l'ouvrage écrit que « la manière dont 6 se forme est encore l'objet d'un débat actif » (p. 283). Les quatre flèches dessinées ici sont l'écriture la plus courante, pas une certitude expérimentale.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                6
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le carbone divalent de l'isonitrile attaque le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.45,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène."
+          },
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                4
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "L'oxygène, devenu riche, prend le proton de l'acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": 0.4,
+            "libelle": "La liaison O–H se rompt : voici le carboxylate."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)[O-].C[N+]#CC(C)O"
+      },
+      {
+        "numero": 3,
+        "titre": "Le carboxylate se jette sur le nitrilium",
+        "smiles": "CC(O)C#[N+]C.CC(=O)[O-]",
+        "legende": "Le carboxylate qu'on vient de libérer attaque le carbone du nitrilium. La triple liaison se replie sur l'azote, qui redevient neutre.\n\nOn obtient un O-ACYLIMIDATE : un ester et une imine partageant le même carbone. C'est l'intermédiaire numéroté 6 dans l'ouvrage (p. 284).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                3
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le carboxylate attaque le carbone du nitrilium."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 4
+            },
+            "courbure": -0.4,
+            "libelle": "La triple liaison C≡N se replie : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CN=C(OC(C)=O)C(C)O"
+      },
+      {
+        "numero": 4,
+        "titre": "Transposition de Mumm, premier temps : le cycle se ferme",
+        "smiles": "CC(O[H])C(=NC)OC(C)=O",
+        "legende": "L'alcool voisin attaque le carbonyle de l'acyle. Le cycle qui se forme compte CINQ chaînons — c'est ce qui rend le transfert facile.\n\nLA TRANSPOSITION DE MUMM est le dernier acte des deux réactions à isonitrile, et le seul qui soit IRRÉVERSIBLE. Tout ce qui précède est un jeu d'équilibres ; c'est cette étape qui tire l'ensemble.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                8
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'oxygène de l'alcool attaque le carbone de l'acyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CN=C1OC(C)([O-])[OH+]C1C"
+      },
+      {
+        "numero": 5,
+        "titre": "Transposition de Mumm, second temps : le cycle s'ouvre de l'autre côté",
+        "smiles": "CC1[O+]([H])C(C)([O-])OC1=NC",
+        "legende": "L'oxygène chargé négativement reforme la double liaison C=O et chasse l'autre oxygène. L'acyle a changé de porteur : il était sur l'oxygène de l'imidate, il est maintenant sur celui de l'alcool.\n\nRegardez ce qui reste : un ANION IMIDATE, dont on va voir qu'il n'a qu'une envie.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                4
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène rend son doublet : le carbonyle se reforme."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.45,
+            "libelle": "La liaison avec l'oxygène de l'imidate se rompt."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CN=C([O-])C(C)[OH+]C(C)=O"
+      },
+      {
+        "numero": 6,
+        "titre": "L'imidate s'effondre en amide",
+        "smiles": "CC([O+]([H])C(C)=O)C(=NC)[O-]",
+        "legende": "L'anion imidate reforme un carbonyle, la double liaison C=N se replie sur l'azote, et l'azote va chercher le proton resté sur l'oxygène chargé positivement. Le produit est un α-ACYLOXYAMIDE — le motif que Herrera & Marqués-López disent présent « dans le squelette de nombreux produits bioactifs » (p. 283).\n\nTROIS MOLÉCULES, UN BALLON, UN PRODUIT. Aucun intermédiaire n'a été isolé.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                7
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène rend son doublet : le carbonyle de l'amide se forme."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie sur l'azote."
+          },
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                3
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison O–H se rompt : l'oxygène redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CNC(=O)C(C)OC(C)=O"
+      },
+      {
+        "numero": 7,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(OC(C)=O)C(=O)NC",
+        "legende": "L'α-acyloxyamide. Un aldéhyde, un acide et un isonitrile s'y retrouvent entiers : l'économie d'atomes est totale, aucun sous-produit n'a été rejeté.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "ugi_u4cr": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'amine et l'aldéhyde donnent l'imine",
+        "smiles": "CC=O.CN",
+        "legende": "Premier des quatre partenaires à se rencontrer : l'amine primaire condense sur l'aldéhyde et l'eau part. Le détail de cette condensation est traité dans la fiche « Formation d'une imine » ; on ne le redessine pas ici.\n\nC'est un ÉQUILIBRE, et c'est important pour la suite : rien de ce qui précède la dernière étape n'est acquis.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'acide protone l'imine",
+        "smiles": "CC=NC.CC(=O)O[H]",
+        "legende": "L'acide carboxylique — le quatrième partenaire — cède son proton à l'azote de l'imine. « L'acide protone l'atome d'azote de l'imine pour augmenter l'électrophilie de la liaison C=N » (p. 254).\n\nDEUX ESPÈCES NAISSENT D'UN COUP, et toutes deux serviront : l'ion iminium, qui va recevoir l'isonitrile, et le carboxylate, qui interviendra à l'étape suivante. Une seule molécule d'acide fait les deux métiers.\n\nL'ouvrage note qu'un acide de Lewis — TiCl₄, Sc(OTf)₃, Yb(OTf)₃ — remplit le même office.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                8
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet de l'azote va chercher le proton de l'acide."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.4,
+            "libelle": "La liaison O–H se rompt : voici le carboxylate."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)[O-].CC=[NH+]C"
+      },
+      {
+        "numero": 3,
+        "titre": "L'isonitrile attaque l'iminium",
+        "smiles": "CC=[NH+]C.C[N+]#[C-].CC(=O)[O-]",
+        "legende": "Le carbone divalent de l'isonitrile attaque le carbone de l'iminium ; la double liaison C=N se replie sur l'azote, qui redevient une amine neutre.\n\nON RETROUVE L'ION NITRILIUM — le même intermédiaire que dans la réaction de Passerini. L'ouvrage souligne qu'il n'est pas resté une hypothèse : Neto et coll. l'ont « isolé et caractérisé » en 2014 par spectrométrie de masse sur des réactifs porteurs d'une charge (p. 256).",
+        "fleches": [
+          {
+            "de": {
+              "atome": 6
+            },
+            "vers": {
+              "liaison": [
+                6,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le carbone divalent de l'isonitrile attaque le carbone de l'iminium."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)[O-].C[N+]#CC(C)NC"
+      },
+      {
+        "numero": 4,
+        "titre": "Le carboxylate se jette sur le nitrilium",
+        "smiles": "CC(N([H])C)C#[N+]C.CC(=O)[O-]",
+        "legende": "Le carboxylate libéré à l'étape 2 attaque le carbone du nitrilium : on obtient l'O-acylimidate, numéroté 38 dans l'ouvrage (p. 255).\n\nTOUT CELA EST ENCORE RÉVERSIBLE. Les flèches doubles du schéma 7.15 le disent : imine, iminium, nitrilium, imidate — quatre équilibres à la file.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                5
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le carboxylate attaque le carbone du nitrilium."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                6
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.4,
+            "libelle": "La triple liaison C≡N se replie sur l'azote."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CN=C(OC(C)=O)C(C)NC"
+      },
+      {
+        "numero": 5,
+        "titre": "Transposition de Mumm, premier temps : l'azote attaque l'acyle",
+        "smiles": "CC(N([H])C)C(=NC)OC(C)=O",
+        "legende": "L'azote de l'amine — celui qui vient de l'amine primaire de départ — attaque le carbonyle de l'acyle. Cycle à cinq chaînons, comme dans la Passerini.\n\nLA DIFFÉRENCE AVEC LA PASSERINI TIENT EN UN ATOME. Là-bas l'acyle passait d'un oxygène à un autre ; ici il passe de l'oxygène à l'AZOTE. C'est pourquoi la Passerini donne un ester et l'Ugi un amide — et pourquoi c'est l'Ugi, et non la Passerini, qui fabrique des peptides.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                9
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote attaque le carbone de l'acyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CN=C1OC(C)([O-])[NH+](C)C1C"
+      },
+      {
+        "numero": 6,
+        "titre": "Transposition de Mumm, second temps : le cycle s'ouvre",
+        "smiles": "CC1[N+]([H])(C)C(C)([O-])OC1=NC",
+        "legende": "L'oxygène rend son doublet, le carbonyle se reforme, et la liaison avec l'oxygène de l'imidate se rompt. L'acyle est désormais porté par l'azote.\n\n« L'étape finale et NON RÉVERSIBLE — connue sous le nom de transposition de Mumm — est le transfert intramoléculaire du groupe acyle de l'oxygène vers l'atome d'azote » (p. 255). C'est cette irréversibilité qui vide tous les équilibres précédents en faveur du produit.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                5
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène rend son doublet : le carbonyle se reforme."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.45,
+            "libelle": "La liaison avec l'oxygène de l'imidate se rompt."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CN=C([O-])C(C)[NH+](C)C(C)=O"
+      },
+      {
+        "numero": 7,
+        "titre": "L'imidate s'effondre en amide",
+        "smiles": "CC([N+]([H])(C)C(C)=O)C(=NC)[O-]",
+        "legende": "Dernier geste : l'anion imidate reforme son carbonyle, la double liaison C=N se replie sur l'azote de l'isonitrile, et cet azote prend le proton resté sur l'ammonium.\n\nLE PRODUIT EST UN α-ACYLAMINO AMIDE. Regardez son squelette : un carbone qui porte un azote acylé d'un côté et un carbonyle amide de l'autre. C'est exactement l'enchaînement d'un DIPEPTIDE — et c'est pourquoi l'Ugi sert à fabriquer des peptoïdes en une seule opération.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 11
+            },
+            "vers": {
+              "liaison": [
+                11,
+                8
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène rend son doublet : le carbonyle de l'amide se forme."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie sur l'azote."
+          },
+          {
+            "de": {
+              "atome": 9
+            },
+            "vers": {
+              "liaison": [
+                9,
+                3
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote va chercher le proton resté sur l'ammonium."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison N–H se rompt : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CNC(=O)C(C)N(C)C(C)=O"
+      },
+      {
+        "numero": 8,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(N(C)C(C)=O)C(=O)NC",
+        "legende": "L'α-acylamino amide. Quatre molécules y sont entrées, une seule en sort — et la seule perte est la molécule d'eau de la condensation initiale.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }
