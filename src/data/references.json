@@ -7274,6 +7274,144 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "ziegler_natta": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-3",
+          "pages": "1040-1041",
+          "note": "Le cycle, les chiffres et la nomenclature de la tacticité. La préparation : « les catalyseurs de Ziegler-Natta — il en existe de nombreuses formulations — sont des complexes organométalliques de métaux de transition, préparés par traitement d'un ALKYLALUMINIUM par un composé du TITANE. » Les deux acquis : « après leur introduction en 1953 […] premièrement, les polymères obtenus sont LINÉAIRES, pratiquement sans ramification de chaîne ; deuxièmement, ils sont STÉRÉOCHIMIQUEMENT CONTRÔLABLES. » Le mécanisme : « la forme active […] est un intermédiaire ALKYLTITANE portant un SITE DE COORDINATION VACANT sur le métal » ; « un NOUVEAU SITE DE COORDINATION S'OUVRE pendant l'étape d'insertion, si bien que le processus se répète indéfiniment. » Et les produits : polyéthylène haute densité, 4000 à 7000 unités, M = 100 000-200 000 ; UHMW, plus de 100 000 unités, M = 3 à 6 millions, employé « dans les paliers, les tapis convoyeurs et les gilets pare-balles ». Les trois tacticités sont définies p. 1040."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "23 — Organometallic chemistry, boîte 23.7 ; 26 — Catalysis, § 26.7",
+          "pages": "734, 802",
+          "note": "La réponse que le McMurry ne donne pas : ce qui décide de la tacticité. Boîte 23.7 (p. 734) : « le développement des catalyseurs de type Ziegler-Natta a inclus, depuis les années 1980, l'usage de dérivés du ZIRCONOCÈNE. En présence de MÉTHYLALUMINOXANE [MeAl(μ-O)]ₙ comme co-catalyseur, les composés A, B et C sont des catalyseurs actifs pour la polymérisation du propène. Les composés A et B sont CHIRAUX en raison des orientations relatives des deux moitiés du ligand organique. Un mélange RACÉMIQUE de A facilite la formation de polypropène ISOTACTIQUE, tandis que l'emploi du catalyseur C résulte en polypropène SYNDIOTACTIQUE. Si l'on emploie (η⁵-Cp)₂ZrCl₂, c'est du polypropène ATACTIQUE qui est produit. » Et l'espèce active : « un CATION du type général [Cp₂ZrR]⁺ ». La préparation industrielle des catalyseurs hétérogènes est p. 802 : « les catalyseurs de PREMIÈRE GÉNÉRATION étaient faits en faisant réagir TiCl₄ avec Et₃Al pour précipiter β-TiCl₃·xAlCl₃, converti ensuite en γ-TiCl₃. Bien que ce dernier catalysât la production de polypropène isotactique, sa sélectivité et son efficacité demandaient une amélioration considérable. »"
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated Reactions, § 6.2.4",
+          "pages": "361-363",
+          "note": "Les terminaisons, que personne d'autre ne donne : « une étape de terminaison courante est l'ÉLIMINATION β-HYDRURE, qui donne Cp₂ZrH⁺ et le polymère avec une DOUBLE LIAISON TERMINALE. Quand la polymérisation est conduite SOUS H₂, une MÉTATHÈSE DE LIAISON σ peut avoir lieu pour donner le polymère SATURÉ et Cp₂ZrH⁺ » (p. 362). La régiochimie de l'insertion (p. 363) : « le complexe alkyle 1° est habituellement favorisé thermodynamiquement et est habituellement observé. » Et le cas limite, posé en exercice : « en présence d'une concentration suffisamment élevée de H₂ gazeux, c'est l'HYDROGÉNATION de l'alcène qui se produit AU LIEU de la polymérisation. »"
+        },
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "29 — Polymers, § 29.7.1",
+          "pages": "56",
+          "note": "Le quatrième mécanisme, et la réserve de ses auteurs. « En général, nous reconnaissons quatre types fondamentaux de mécanismes pour la polymérisation des monomères vinyliques — radicalaire, cationique, anionique et par COORDINATION. […] La possibilité, en fait la réalité, d'un quatrième mécanisme nous est essentiellement imposée par la découverte des catalyseurs de Ziegler. » Puis, après la description du transfert de chaîne au monomère : « parce que ce mécanisme ne donne AUCUN RÔLE EXPLICITE À L'ALUMINIUM, il est sûrement trop simplifié. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "copolymeres": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-4",
+          "pages": "1041-1043",
+          "note": "Les quatre architectures et leur raison d'être : « la copolymérisation de mélanges de monomères conduit souvent à des matériaux dont les propriétés sont TOUT À FAIT DIFFÉRENTES de celles de l'un ou l'autre homopolymère correspondant, donnant au chimiste des polymères une VASTE SOUPLESSE pour concevoir de nouveaux matériaux » (p. 1042), et l'observation qui remet les choses à l'endroit : « en pratique, cependant, les copolymères sont plus importants commercialement » (p. 1041). La distribution : « dépend des PROPORTIONS INITIALES des deux monomères réactifs ET DE LEURS RÉACTIVITÉS RELATIVES », avec la réserve qu'« on ne trouve habituellement NI copolymère parfaitement aléatoire, NI copolymère parfaitement alterné » (p. 1043). Blocs et greffes y sont définis. La table 31-1 donne les copolymères commerciaux : Saran (chlorure de vinyle/vinylidène), SBR (styrène/butadiène, pneumatiques), et les élastomères fluorés."
+        },
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "29 — Polymers, § 29.7.5",
+          "pages": "59-60",
+          "note": "Les réactivités croisées, chiffrées : « un radical de type 1-phényléthyle sur la chaîne en croissance réagit environ DEUX FOIS plus volontiers avec le 2-méthylpropénoate de méthyle qu'avec l'éthénylbenzène ; une extrémité 2-méthylpropénoate de méthyle montre le comportement INVERSE. […] Ce genre de comportement favorise l'ALTERNANCE des monomères dans la chaîne. » Et le cas extrême : « ni l'un ni l'autre de ces monomères [2-méthylpropène et anhydride butènedioïque] ne polymérise bien avec des amorceurs radicalaires. Néanmoins, un mélange polymérise très bien, avec une ALTERNANCE PARFAITE des unités monomères. Il est possible que, dans ce cas, ce soit un COMPLEXE 1:1 des deux monomères qui polymérise. » La section signale aussi deux copolymérisations curieuses : celle de l'éthénylbenzène avec l'OXYGÈNE gazeux, et celle de l'éthène avec le monoxyde de carbone, qui donne un polymère PHOTODÉGRADABLE par coupure des liaisons voisines du carbonyle."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "polyester_polycondensation": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives, § 21-9 ; 31 — Synthetic Polymers",
+          "pages": "715-718, 1043-1044",
+          "note": "La recette réelle, qui n'est pas celle qu'on attend : « le polyester le plus généralement utile est obtenu par réaction entre le TÉRÉPHTALATE DE DIMÉTHYLE (1,4-benzènedicarboxylate de diméthyle) et l'ÉTHYLÈNEGLYCOL » à 200 °C, avec départ de 2n méthanol (p. 717) — donc une transestérification. Les noms et l'usage : « le produit est employé sous le nom commercial DACRON pour faire des fibres textiles ou des câblés de pneumatique, et sous le nom MYLAR pour faire des bandes d'enregistrement. La résistance à la traction du film de poly(téréphtalate d'éthylène) est PRESQUE ÉGALE À CELLE DE L'ACIER. » Le principe de toute la famille est posé p. 715 : « chaque partenaire formerait deux liaisons amide, reliant de plus en plus de molécules entre elles, jusqu'à ce qu'un GÉANT polyamide en résulte. De la même façon, la réaction d'un diol avec un diacide conduirait à un POLYESTER. » Et la définition des polymères par étapes, p. 1053 : « les liaisons individuelles du polymère se forment INDÉPENDAMMENT les unes des autres. » Le LEXAN, polycarbonate de carbonate de diphényle et de bisphénol A, « a une résistance au choc inhabituellement élevée » (p. 717, 1044)."
+        },
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "29 — Polymers, § 29.6",
+          "pages": "50-51",
+          "note": "Les polyesters thermodurcissables et les résines alkydes, absents du McMurry : l'estérification préférentielle des hydroxyles primaires, puis l'estérification lente des secondaires ; le durcissement mené « juste au point où le polymère n'est pas encore réticulé au point d'être insoluble », l'application en solution, puis la cuisson jusqu'à estérification complète — « le produit est dur, infusible et insoluble, réticulé au point d'être essentiellement UNE SEULE GRANDE MOLÉCULE »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "polyamide_nylon": {
+      "ouvrages": [
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "29 — Polymers, § 29.6.2",
+          "pages": "51-52",
+          "note": "L'origine du nom : « le plus généralement utile de ceux-ci est le NYLON 66, la désignation 66 venant du fait qu'il est fait à partir de la diamine à SIX carbones, la 1,6-hexanediamine, et d'un diacide à SIX carbones, l'acide hexanedioïque. » La voie industrielle : « une variété de polyamides peut être obtenue en CHAUFFANT des diamines avec des acides dicarboxyliques. » La mise en forme : « le polymère peut être converti en fibres par EXTRUSION au-dessus de son point de fusion à travers des filières, puis refroidissement et ÉTIRAGE des filaments. […] Le nylon 66 est exceptionnellement résistant et résistant à l'abrasion. » Les matières premières : « apparemment, la meilleure voie vers l'acide hexanedioïque est l'OXYDATION PAR L'AIR du cyclohexane, en passant par la cyclohexanone. » Et le nylon 6 : préparé « par polymérisation du 1-aza-2-cycloheptanone (ε-caprolactame), obtenu par le RÉARRANGEMENT DE BECKMANN de l'oxime de la cyclohexanone »."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives, § 21-9 ; 31 — Synthetic Polymers",
+          "pages": "715, 1043-1044",
+          "note": "Le raisonnement qui ouvre le chapitre des polymères par étapes : « quand une amine réagit avec un chlorure d'acyle, il se forme un amide. Que se passerait-il, cependant, si l'on faisait réagir une DIAMINE et un DICHLORURE D'ACIDE ? » Les deux nylons sont écrits côte à côte p. 1044 : le nylon 66 à partir de l'acide adipique et de l'hexaméthylènediamine par chauffage, le nylon 6 à partir du caprolactame."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "12, 20, 33 — passages sur les amides et les fibres",
+          "pages": "155, 444, 958, 986",
+          "note": "Le nylon y est mentionné comme illustration de la robustesse de la liaison amide et de la chimie des polyamides, sans que le procédé soit décrit. Une occurrence relevée, non une source de mécanisme."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "polyurethane": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-5",
+          "pages": "1044-1045",
+          "note": "La définition et la chimie : « un uréthane est typiquement préparé par réaction d'ADDITION NUCLÉOPHILE entre un alcool et un ISOCYANATE (R–N=C=O), si bien qu'un polyuréthane est préparé par réaction entre un DIOL et un DIISOCYANATE. Le diol est habituellement un polymère de faible masse moléculaire (M ≈ 1000) portant des groupes hydroxyle terminaux ; le diisocyanate est souvent le TOLUÈNE-2,4-DIISOCYANATE. » La famille est située entre carbonate et urée. Les deux usages majeurs : « les fibres extensibles SPANDEX employées pour les maillots de bain et les vêtements de sport. Ces polyuréthanes ont un degré de réticulation assez FAIBLE, si bien que le polymère résultant est souple et élastique. Un second usage majeur est dans les MOUSSES employées comme isolants. » Et la chimie du moussage : « le moussage se produit quand on ajoute une petite quantité d'EAU pendant la polymérisation, donnant un intermédiaire ACIDE CARBAMIQUE qui perd spontanément des bulles de CO₂. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "romp": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "31 — Synthetic Polymers, § 31-6",
+          "pages": "1046-1047",
+          "note": "L'annonce : « l'avancée la plus importante de ces dernières années dans la synthèse des polymères a peut-être été le développement de la POLYMÉRISATION PAR MÉTATHÈSE DES OLÉFINES. » La ROMP : « une méthode […] met en jeu un cycloalcène MODÉRÉMENT TENDU, tel le cyclopentène. La TENSION du cycle favorise son ouverture, et pousse ainsi à la formation du produit à chaîne ouverte. Le polymère obtenu a des doubles liaisons espacées RÉGULIÈREMENT le long de la chaîne, permettant soit l'hydrogénation soit une fonctionnalisation ultérieure. » L'ADMET : « le sous-produit ÉTHYLÈNE GAZEUX s'échappe, déplaçant ainsi l'équilibre vers le produit polymère. Cette réaction est si efficace que des polymères de masses moléculaires atteignant 80 000 ont été préparés. » Et l'argument décisif : « les procédés ROMP et ADMET sont particulièrement précieux parce que la réaction de métathèse est COMPATIBLE avec la présence, dans le monomère oléfinique, de nombreux GROUPES FONCTIONNELS différents. » Produit commercial cité : le Vestenamer."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Mediated Reactions, § 6.4",
+          "pages": "403-404",
+          "note": "Le cadre mécanistique : « la réaction de métathèse des oléfines procède par une série de CYCLOADDITIONS [2+2] et de RÉTROCYCLOADDITIONS. AUCUN CHANGEMENT DU DEGRÉ D'OXYDATION du métal ne se produit au cours de la réaction. La réaction établit un ÉQUILIBRE entre tous les alcènes possibles, mais il est possible de le déplacer dans un sens ou dans l'autre, par exemple par élimination de l'éthylène gazeux. » Et la stéréochimie du produit de ROMP, que personne d'autre ne donne : « dans la polymérisation par métathèse par ouverture de cycle (ROMP), un alcène TENDU tel que le norbornène subit une métathèse avec lui-même pour donner un polymère. Chaque cycle cyclopentane du produit est CIS-DISUBSTITUÉ, mais l'ORIENTATION de chaque cyclopentane par rapport à ses voisins est ALÉATOIRE. »"
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "27 — Catalysis and some industrial processes",
+          "pages": "939",
+          "note": "La ROMP citée parmi les procédés de catalyse homogène par les métaux de transition — une mention de situation, non un exposé."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "polylactide": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "21 — Carboxylic Acid Derivatives ; 31 — Synthetic Polymers, encadré « Biodegradable Polymers »",
+          "pages": "718, 1052-1053",
+          "note": "Les trois polyesters biodégradables, dessinés côte à côte avec « CHALEUR » pour seul réactif (p. 718) : PGA, PLA, PHB. « Parmi les polymères biodégradables les plus courants figurent le poly(acide glycolique) (PGA), le poly(acide lactique) (PLA) et le poly(hydroxybutyrate) (PHB). Tous sont des POLYESTERS et sont donc sujets à l'HYDROLYSE de leurs liaisons ester » (p. 1052). L'usage chirurgical : un copolymère 90:10 de PGA et de PLA « sert à faire des sutures résorbables qui sont entièrement hydrolysées et absorbées par le corps DANS LES 90 JOURS suivant l'opération » (p. 718). La double voie de dégradation du PHB : « le polymère se dégrade en QUATRE SEMAINES dans les décharges, à la fois par HYDROLYSE DE L'ESTER et par une réaction d'ÉLIMINATION E1cB de l'atome d'oxygène en α du groupe carbonyle. » Et l'obstacle : « l'usage du poly(hydroxybutyrate) est actuellement limité par son COÛT — environ QUATRE FOIS celui du polypropylène. » Le contexte est posé p. 1052 : « la haute stabilité chimique de nombreux polymères est à la fois une bénédiction et une malédiction […] le RECYCLAGE des polymères non désirés est la MEILLEURE solution », avec la table des six codes de la Society of the Plastics Industry."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

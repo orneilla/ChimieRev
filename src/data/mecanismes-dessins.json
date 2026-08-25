@@ -9251,5 +9251,244 @@
       "coherenceVerifiee": true,
       "valide": false
     }
+  },
+  "ziegler_natta": {
+    "1": {
+      "fichier": "ziegler_natta-etape1.svg",
+      "titre": "Deux composés qui ne font rien séparément",
+      "legende": "Le tétrachlorure de titane ne polymérise rien. Le triéthylaluminium non plus. Ensemble, ils changent l'industrie du plastique.\n\nMcMURRY DONNE LA PRÉPARATION TYPE (p. 1040) : « les catalyseurs de Ziegler-Natta — il en existe de nombreuses formulations — sont des complexes organométalliques de métaux de transition, préparés par traitement d'un ALKYLALUMINIUM par un composé du TITANE. Le triéthylaluminium et le tétrachlorure de titane forment une préparation typique. »\n\nCE QUE L'ALUMINIUM APPORTE EST UN GROUPE ALKYLE. Il le cède au titane, et l'on obtient une liaison titane-carbone. C'est elle qui portera la chaîne.\n\nLE HOUSECROFT DONNE LA CHIMIE INDUSTRIELLE RÉELLE, ET ELLE EST MOINS SIMPLE (p. 802) : « les catalyseurs de PREMIÈRE GÉNÉRATION étaient faits en faisant réagir TiCl₄ avec Et₃Al pour précipiter β-TiCl₃·xAlCl₃, converti ensuite en γ-TiCl₃. Bien que ce dernier catalysât la production de polypropène ISOTACTIQUE, sa sélectivité et son efficacité demandaient une amélioration considérable. »\n\nRetenez que le catalyseur est un SOLIDE, et que la réaction se passe à sa surface. C'est une catalyse hétérogène, et c'est pourquoi le mécanisme a mis si longtemps à s'établir.\n\nMcMURRY DIT L'ENJEU EN DEUX POINTS (p. 1040) : « après leur introduction en 1953, les catalyseurs de Ziegler-Natta ont RÉVOLUTIONNÉ le domaine de la chimie des polymères, pour deux avantages : premièrement, les polymères obtenus sont LINÉAIRES, pratiquement sans ramification de chaîne ; deuxièmement, ils sont STÉRÉOCHIMIQUEMENT CONTRÔLABLES. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "ziegler_natta-etape2.svg",
+      "titre": "L'alcène se pose sur la lacune — et tout tient à cette lacune",
+      "legende": "Le titane alkylé possède un SITE DE COORDINATION VACANT — une place libre autour du métal. McMurry insiste dessus (p. 1040) : « la forme active d'un catalyseur de Ziegler-Natta est un intermédiaire ALKYLTITANE portant un SITE DE COORDINATION VACANT sur le métal. »\n\nL'alcène vient s'y loger. Il donne ses deux électrons π au métal, qui lui rend en échange de la densité de ses orbitales d — c'est la liaison de Dewar-Chatt-Duncanson, décrite ailleurs dans ce corpus.\n\nAUCUNE FLÈCHE SUR CE SCHÉMA, ET CE N'EST PAS UN OUBLI. Une flèche courbe raconte un déplacement de doublet d'un atome vers un autre. Ici, deux flux d'électrons vont en sens opposés en même temps, et le résultat n'est ni une liaison σ ordinaire ni une paire libre. La notation par flèches ne sait pas l'écrire — c'est la même raison qui fait que Clayden ne dessine pas de flèches sur l'addition oxydante.\n\nLA PLACE LIBRE EST LA RESSOURCE RARE DE TOUTE CETTE CHIMIE. Un métal saturé ne coordonne rien ; il faut qu'une place s'ouvre, et qu'elle se rouvre à chaque tour.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "ziegler_natta-etape3.svg",
+      "titre": "L'insertion migratoire : la chaîne saute sur l'alcène",
+      "legende": "La chaîne alkyle migre sur le carbone de l'alcène coordonné. La liaison titane-carbone se refait, mais deux carbones plus loin.\n\nMcMURRY DÉCRIT LE CYCLE EN UNE PHRASE (p. 1040-1041) : « la coordination du monomère alcène au titane se produit, et l'alcène coordonné S'INSÈRE alors dans la liaison carbone-titane pour allonger la chaîne alkyle. Un NOUVEAU SITE DE COORDINATION S'OUVRE pendant l'étape d'insertion, si bien que le processus se répète indéfiniment. »\n\nRELISEZ LA FIN. Ce qui rend le cycle possible n'est pas que l'insertion allonge la chaîne — c'est qu'elle ROUVRE la place. Sans cela, le catalyseur travaillerait une fois et s'arrêterait.\n\nROBERTS & CASERIO DISENT LE MÊME MÉCANISME AUTREMENT (§ 29.7.1), et leur formulation vaut d'être lue : « dans la coordination du monomère avec le titane, le métal se comporte probablement comme un agent ÉLECTROPHILE, et l'extrémité de chaîne en croissance peut être considérée comme transférée au monomère SOUS FORME D'ANION. » Puis ils ajoutent, avec une honnêteté rare : « parce que ce mécanisme ne donne AUCUN RÔLE EXPLICITE À L'ALUMINIUM, il est sûrement trop simplifié. »\n\nUN MÉCANISME QUI EXPLIQUE LE PRODUIT PEUT RESTER INCOMPLET. Celui-ci l'est, et ses auteurs le disent.\n\nCE QUE LE PROCÉDÉ DONNE (McMurry p. 1041) : « le polyéthylène linéaire produit par le procédé Ziegler-Natta, appelé polyéthylène HAUTE DENSITÉ, est un polymère hautement cristallin comptant 4000 à 7000 unités éthylène par chaîne et des masses moléculaires de 100 000 à 200 000. Il a une résistance et une tenue à la chaleur supérieures au produit ramifié de la polymérisation radicalaire, appelé polyéthylène BASSE DENSITÉ. »\n\nMême monomère, même polymère au sens chimique. Ce qui sépare le sac de course du tuyau enterré est l'ABSENCE DE RAMIFICATIONS.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "ziegler_natta-etape4.svg",
+      "titre": "Comment la chaîne s'arrête — et comment on la coupe exprès",
+      "legende": "GROSSMAN DONNE LES DEUX TERMINAISONS, et la seconde est un outil (p. 362) :\n\n« Il existe plusieurs mécanismes de terminaison de la chaîne en croissance. Une étape de terminaison courante est l'ÉLIMINATION β-HYDRURE, qui donne Cp₂ZrH⁺ et le polymère avec une DOUBLE LIAISON TERMINALE. Quand la polymérisation est conduite SOUS H₂, une MÉTATHÈSE DE LIAISON σ peut avoir lieu pour donner le polymère SATURÉ et Cp₂ZrH⁺. »\n\nDEUX FINS, DEUX PRODUITS DIFFÉRENTS. L'une laisse un alcène au bout de la chaîne — un point de fragilité, mais aussi une poignée pour fonctionnaliser. L'autre laisse une chaîne saturée, inerte.\n\nET LA SECONDE SE COMMANDE : on ajoute du dihydrogène. C'est ainsi qu'on règle la masse moléculaire dans un réacteur industriel — non pas en arrêtant la réaction, mais en dosant combien de fois on la coupe.\n\nGROSSMAN POSE D'AILLEURS LE CAS LIMITE EN EXERCICE (p. 363) : « quand des alcènes sont soumis aux conditions de polymérisation en présence d'une concentration SUFFISAMMENT ÉLEVÉE de H₂ gazeux, c'est l'HYDROGÉNATION de l'alcène qui se produit au lieu de la polymérisation. »\n\nTrop de coupures, et l'on ne fait plus de polymère du tout : on hydrogène. Le même réactif règle la longueur et, poussé trop loin, supprime le produit.\n\nLE DIHYDROGÈNE N'EST PAS DESSINÉ, et pour une raison technique qui vaut d'être connue : une molécule réduite à deux atomes d'hydrogène ne reçoit aucune coordonnée du moteur de placement, et disparaîtrait du schéma. C'est le même piège que l'ion hydrure seul, noté ailleurs dans ce dépôt. On l'énonce plutôt que de le dessiner à moitié.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "5": {
+      "fichier": "ziegler_natta-etape5.svg",
+      "titre": "La tacticité : ce que la SYMÉTRIE du catalyseur décide",
+      "legende": "Voici un fragment de polypropylène. Chaque carbone portant un méthyle est un centre stéréogène, et il y en a des milliers par chaîne.\n\nMcMURRY NOMME LES TROIS ARRANGEMENTS (p. 1040) : « un polymère dont tous les groupes méthyle sont du MÊME CÔTÉ du squelette en zigzag est dit ISOTACTIQUE ; celui où les méthyles alternent régulièrement de part et d'autre est dit SYNDIOTACTIQUE ; et celui dont les méthyles sont orientés au hasard est dit ATACTIQUE. »\n\nET LES TROIS N'ONT PAS LES MÊMES PROPRIÉTÉS (p. 1040) : « les trois formes stéréochimiques du polypropylène ont des propriétés quelque peu différentes, et toutes peuvent être obtenues en employant le bon catalyseur de polymérisation. » L'isotactique cristallise et donne un matériau rigide ; l'atactique ne cristallise pas et reste mou.\n\nLE SCHÉMA NE PEUT PAS MONTRER CELA, ET IL FAUT LE DIRE. Un squelette dessiné à plat n'a pas de tacticité : il faudrait des coins et des tirets sur chaque centre, et ils seraient illisibles à cette échelle. Les manuels dessinent pour cela un zigzag étiré, méthyle par méthyle. C'est une limite du schéma, pas du mécanisme.\n\nMAIS COMMENT LE CATALYSEUR CHOISIT-IL ? McMurry ne le dit pas — il écrit seulement « selon le système catalytique employé » (p. 1040). C'est le HOUSECROFT qui répond, et sa réponse est la meilleure raison d'ouvrir un ouvrage d'inorganique sur un sujet de polymères.\n\nSA BOÎTE 23.7 DÉCRIT LES CATALYSEURS MODERNES (p. 734) : « le développement des catalyseurs de type Ziegler-Natta a inclus, depuis les années 1980, l'usage de dérivés du ZIRCONOCÈNE. En présence de MÉTHYLALUMINOXANE [MeAl(μ-O)]ₙ comme co-catalyseur, les composés A, B et C sont des catalyseurs actifs pour la polymérisation du propène. »\n\nET VOICI CE QUI DÉCIDE (Housecroft p. 734) : « les composés A et B sont CHIRAUX en raison des orientations relatives des deux moitiés du ligand organique. Un mélange RACÉMIQUE de A facilite la formation de polypropène ISOTACTIQUE, tandis que l'emploi du catalyseur C donne du polypropène SYNDIOTACTIQUE. Si l'on emploie (η⁵-Cp)₂ZrCl₂, c'est du polypropène ATACTIQUE qui est produit. »\n\nLA SYMÉTRIE DU CATALYSEUR EST LA TACTICITÉ DU POLYMÈRE. Un catalyseur chiral présente toujours la même face au monomère : tous les méthyles se rangent du même côté. Un catalyseur de symétrie différente alterne. Un métallocène banal, non contraint, ne présente rien de particulier : le hasard décide.\n\nET LE HOUSECROFT NOMME L'ESPÈCE ACTIVE (p. 734) : « l'espèce active dans le système catalytique est un CATION du type général [Cp₂ZrR]⁺. » On ne travaille plus à la surface d'un solide, mais avec une molécule qu'on peut dessiner — et donc modifier.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "copolymeres": {
+    "1": {
+      "fichier": "copolymeres-etape1.svg",
+      "titre": "Statistique : ce que deux monomères font quand on les mélange",
+      "legende": "Voici un fragment de caoutchouc styrène-butadiène — le SBR des pneumatiques, et le copolymère le plus produit au monde.\n\nON A MÉLANGÉ DEUX MONOMÈRES ET AMORCÉ. Ce qui entre dans la chaîne dépend alors d'une compétition, et McMurry pose la règle (p. 1043) : « la distribution exacte des unités monomères dépend des PROPORTIONS INITIALES des deux monomères réactifs ET DE LEURS RÉACTIVITÉS RELATIVES. »\n\nET IL AJOUTE UNE PHRASE QU'ON OUBLIE DE LIRE (p. 1043) : « en pratique, on ne trouve habituellement NI copolymère parfaitement aléatoire, NI copolymère parfaitement alterné. La plupart des copolymères ont de nombreuses imperfections aléatoires. »\n\nLES DEUX IDÉAUX SONT DES IDÉAUX. Ce qu'on obtient est entre les deux, et plus près de l'un ou de l'autre selon les réactivités.\n\nROBERTS & CASERIO CHIFFRENT CETTE COMPÉTITION, et c'est ce qui la rend compréhensible (§ 29.7.5) : « un radical de type 1-phényléthyle en bout de chaîne réagit environ DEUX FOIS plus volontiers avec le 2-méthylpropénoate de méthyle qu'avec l'éthénylbenzène ; une extrémité 2-méthylpropénoate de méthyle montre le comportement INVERSE, étant deux fois plus réactive envers l'éthénylbenzène qu'envers le 2-méthylpropénoate de méthyle. »\n\nRELISEZ : chaque bout de chaîne préfère l'AUTRE monomère. Et Roberts & Caserio en tirent la conséquence : « ce genre de comportement FAVORISE L'ALTERNANCE des monomères dans la chaîne. »\n\nCE N'EST DONC PAS LE HASARD QUI DÉCIDE, mais un jeu de préférences croisées.\n\nAUCUNE FLÈCHE SUR CES SCHÉMAS : ce qui se joue ici n'est pas un mécanisme — c'est déjà celui de la polymérisation en chaîne — mais une STATISTIQUE d'incorporation. On dessine des architectures, pas des étapes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "copolymeres-etape2.svg",
+      "titre": "Alterné : deux monomères qui ne peuvent rien seuls, et tout ensemble",
+      "legende": "Voici le cas extrême, et il est spectaculaire. Roberts & Caserio le rapportent (§ 29.7.5) :\n\n« Ce comportement […] atteint un extrême dans le cas du 2-méthylpropène et de l'anhydride butènedioïque. NI L'UN NI L'AUTRE de ces monomères, SÉPARÉMENT, ne polymérise bien avec des amorceurs radicalaires. Néanmoins, un MÉLANGE polymérise très bien, avec une ALTERNANCE PARFAITE des unités monomères. »\n\nARRÊTEZ-VOUS SUR CE RÉSULTAT. Deux monomères inertes chacun de son côté ; mélangés, ils donnent un polymère régulier.\n\nPOURQUOI. L'isobutène est riche en électrons — deux méthyles donneurs. L'anhydride maléique est pauvre — deux carbonyles attracteurs. Un radical sur l'un cherche l'autre, et jamais son semblable.\n\nCHAQUE MONOMÈRE EST LE MAUVAIS PARTENAIRE DE LUI-MÊME ET LE BON PARTENAIRE DE L'AUTRE. L'alternance n'est alors plus une tendance : c'est la seule chose possible.\n\nET LES AUTEURS AVANCENT UNE HYPOTHÈSE PLUS FORTE (§ 29.7.5) : « il est possible que, dans ce cas, ce soit un COMPLEXE 1:1 des deux monomères qui polymérise. » Les deux partenaires s'associeraient AVANT la réaction, et c'est la paire toute faite qui s'incorporerait.\n\nUn mécanisme qui explique tout n'est pas toujours le mécanisme.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "copolymeres-etape3.svg",
+      "titre": "À blocs : on ne mélange plus, on sert l'un puis l'autre",
+      "legende": "Un copolymère à BLOCS n'est pas un mélange mieux réussi : c'est une autre façon de faire.\n\nMcMURRY DÉFINIT LES DEUX ARCHITECTURES RESTANTES (p. 1043) : « les copolymères À BLOCS sont ceux dans lesquels des blocs différents d'unités monomères identiques alternent les uns avec les autres ; les copolymères GREFFÉS sont ceux dans lesquels des branches d'homopolymère d'un monomère sont GREFFÉES sur une chaîne d'homopolymère d'un autre monomère. »\n\nMAIS COMMENT FABRIQUE-T-ON DES BLOCS ? Pas en mélangeant — le mélange donne du statistique. Il faut une chaîne qui ATTENDE.\n\nC'est ce que fournit la polymérisation ANIONIQUE, décrite dans sa propre fiche. Roberts & Caserio font le lien explicitement (§ 29.7.4) : « on peut commencer avec de l'éthénylbenzène, et quand la réaction est COMPLÈTE, ajouter du 2-méthylpropénoate de méthyle pour obtenir un COPOLYMÈRE À BLOCS. »\n\nLA CONDITION EST QUE LA CHAÎNE SOIT VIVANTE. Une chaîne radicalaire morte ne reprendrait rien ; une chaîne anionique attend indéfiniment le monomère suivant.\n\nCE QUE LES BLOCS PERMETTENT, ET QUE RIEN D'AUTRE NE PERMET. Un bloc dur aux deux bouts, un bloc souple au milieu, et l'on obtient un ÉLASTOMÈRE THERMOPLASTIQUE : les blocs durs s'agrègent entre eux et jouent le rôle des ponts de vulcanisation, mais ils fondent à la chaleur. On obtient un caoutchouc qu'on peut REFONDRE — ce que le caoutchouc vulcanisé, ponté par des liaisons covalentes, ne permettra jamais.\n\nLE SCHÉMA EST UN MOTIF, DÉCLARÉ : deux unités de chaque bloc, là où un vrai bloc en compte des centaines.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "copolymeres-etape4.svg",
+      "titre": "Greffé : des branches d'un polymère sur le tronc d'un autre",
+      "legende": "Un copolymère GREFFÉ a un tronc d'un monomère et des branches d'un autre.\n\nCOMMENT ON LE FABRIQUE : on arrache un hydrogène quelque part sur une chaîne déjà faite — par un radical, par irradiation —, et l'on fait pousser une nouvelle chaîne à partir de ce point. Le radical se trouve alors AU MILIEU d'une chaîne, exactement comme dans le mécanisme des ramifications du polyéthylène basse densité, sauf qu'ici on le veut.\n\nÀ QUOI CELA SERT. À donner à un matériau une propriété qu'il n'a pas, sans changer ce qu'il est. Greffez des branches hydrophiles sur un tronc hydrophobe, et vous obtenez une surface mouillable sur un cœur qui reste gras.\n\nL'EXEMPLE DOMESTIQUE EST LE PLASTIQUE ABS des boîtiers d'appareils : un tronc de polybutadiène souple, des greffes de styrène-acrylonitrile rigide. La souplesse encaisse le choc, la rigidité tient la forme.\n\nCE QU'IL FAUT RETENIR DE CES QUATRE ARCHITECTURES. McMurry en donne la raison d'être (p. 1042) : « la copolymérisation de mélanges de monomères conduit souvent à des matériaux dont les propriétés sont TOUT À FAIT DIFFÉRENTES de celles de l'un ou l'autre homopolymère correspondant, donnant au chimiste des polymères une VASTE SOUPLESSE pour concevoir de nouveaux matériaux. »\n\nDeux monomères, quatre façons de les assembler, quatre matériaux. Et le nombre de combinaisons possibles est, en pratique, la raison pour laquelle la chimie des polymères ne s'épuise pas.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "polyester_polycondensation": {
+    "1": {
+      "fichier": "polyester_polycondensation-etape1.svg",
+      "titre": "L'alcoolate attaque l'ester : l'intermédiaire tétraédrique",
+      "legende": "Le polyester le plus employé au monde ne se fabrique PAS à partir de l'acide. McMurry donne la vraie recette (p. 717) : « le polyester le plus généralement utile est obtenu par réaction entre le TÉRÉPHTALATE DE DIMÉTHYLE […] et l'ÉTHYLÈNEGLYCOL », à 200 °C.\n\nC'EST DONC UNE TRANSESTÉRIFICATION, et non une estérification. On part d'un ester pour arriver à un autre ester — et ce qui part est du méthanol.\n\nLE MÉCANISME EST CELUI, ARCHI-CONNU, DE L'ADDITION-ÉLIMINATION SUR UN ACYLE. Le nucléophile s'additionne, l'intermédiaire tétraédrique se forme, puis s'effondre en expulsant le meilleur groupe partant.\n\nCE QUI EST NEUF ICI N'EST PAS LE MÉCANISME. C'est que chaque partenaire porte DEUX fonctions. Le diester peut réagir des deux côtés, le diol aussi — et chaque liaison formée en appelle une autre.\n\nMcMURRY POSE LE PRINCIPE DE TOUTE LA FAMILLE (p. 715) : « chaque partenaire formerait deux liaisons amide, reliant de plus en plus de molécules entre elles, jusqu'à ce qu'un GÉANT polyamide en résulte. De la même façon, la réaction d'un diol avec un diacide conduirait à un POLYESTER. »\n\nOn ne change pas de chimie : on change de compte de fonctions.",
+      "fleches": [
+        "L'alcoolate attaque le carbone du carbonyle…",
+        "…et les électrons du C=O se replient sur l'oxygène. Voici l'intermédiaire tétraédrique."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "polyester_polycondensation-etape2.svg",
+      "titre": "L'effondrement : c'est le méthanol qui part, et il faut le chasser",
+      "legende": "L'intermédiaire tétraédrique se rompt, et le méthanolate s'en va. On a échangé un méthyle contre le glycol.\n\nMAIS LA RÉACTION EST ÉQUILIBRÉE, et c'est tout le problème d'une polycondensation. Le méthanol qui vient de partir peut revenir et défaire ce qu'on a fait.\n\nD'OÙ LES 200 °C DE McMURRY (p. 717) : ils ne servent pas d'abord à accélérer, ils servent à DISTILLER le méthanol hors du milieu. On déplace l'équilibre en retirant le produit volatil, réaction après réaction.\n\nCE QUE CELA IMPOSE À LA STŒCHIOMÉTRIE, ET C'EST LA SIGNATURE DES POLYMÈRES PAR ÉTAPES. Pour obtenir une chaîne longue, il faut que PRESQUE TOUTES les fonctions aient réagi. Un excès de 1 % d'un partenaire plafonne la longueur : les bouts de chaîne se retrouvent tous du même type et ne peuvent plus se lier.\n\nUne polymérisation en chaîne pardonne l'imprécision — la chaîne est longue dès la première seconde. Une polycondensation ne la pardonne pas : la longueur ne vient qu'à la toute fin de la conversion.\n\nC'est pourquoi McMurry emploie le mot CROISSANCE PAR ÉTAPES (step-growth) : « les liaisons individuelles du polymère se forment INDÉPENDAMMENT les unes des autres » (p. 1053). Tout le milieu s'allonge ensemble, au lieu que quelques chaînes croissent seules.",
+      "fleches": [
+        "L'alcoolate rend ses électrons : le carbonyle se reforme…",
+        "…et c'est le méthanolate qui part. On a échangé un méthyle contre le glycol."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "polyester_polycondensation-etape3.svg",
+      "titre": "Le motif obtenu, et pourquoi il est aussi solide",
+      "legende": "Voici l'unité qui se répète : un cycle aromatique rigide, relié par des esters à un pont de deux carbones.\n\nCE QUE McMURRY EN DIT (p. 717) : « le produit est employé sous le nom commercial DACRON pour faire des fibres textiles ou des câblés de pneumatique, et sous le nom MYLAR pour faire des bandes d'enregistrement. La résistance à la traction du film de poly(téréphtalate d'éthylène) est PRESQUE ÉGALE À CELLE DE L'ACIER. »\n\nPRESQUE ÉGALE À CELLE DE L'ACIER. Pour une matière faite de carbone, d'hydrogène et d'oxygène, cela vaut d'être expliqué.\n\nTROIS RAISONS SE CUMULENT :\n\n• le cycle AROMATIQUE ne peut pas tourner ni se plier — chaque motif est une barre rigide ;\n• le pont à deux carbones est assez court pour que les chaînes s'empilent régulièrement, donc elles CRISTALLISENT ;\n• et les carbonyles des esters s'attirent d'une chaîne à l'autre par interactions dipolaires.\n\nUNE FIBRE ÉTIRÉE ALIGNE ENCORE CES CHAÎNES dans le sens de la traction. On ne tire plus alors sur des liaisons faibles entre chaînes, mais sur des liaisons covalentes le long des chaînes.\n\nLE MÊME POLYMÈRE EST LA BOUTEILLE D'EAU. McMurry le range en tête de sa table des plastiques recyclables (p. 1052) : « poly(téréphtalate d'éthylène), code 1 — PET, bouteilles de boisson ». Une matière, trois objets sans rapport apparent : un vêtement, une bande magnétique, une bouteille.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "polyamide_nylon": {
+    "1": {
+      "fichier": "polyamide_nylon-etape1.svg",
+      "titre": "L'amine attaque le chlorure d'acyle",
+      "legende": "Une diamine et un dichlorure d'acide. Chaque partenaire porte DEUX fonctions, et c'est tout ce qui distingue cette réaction d'une amidification ordinaire.\n\nMcMURRY POSE LE RAISONNEMENT QUI OUVRE LE CHAPITRE (p. 715) : « quand une amine réagit avec un chlorure d'acyle, il se forme un amide. Que se passerait-il, cependant, si l'on faisait réagir une DIAMINE et un DICHLORURE D'ACIDE ? Chaque partenaire formerait DEUX liaisons amide, reliant de plus en plus de molécules entre elles, jusqu'à ce qu'un GÉANT polyamide en résulte. »\n\nL'AZOTE ATTAQUE LE CARBONE DU CARBONYLE, et les électrons du C=O se replient sur l'oxygène. C'est le premier temps de toute substitution nucléophile sur un acyle : on additionne AVANT d'éliminer.\n\nLA VERSION INDUSTRIELLE N'EMPLOIE PAS LE CHLORURE D'ACIDE. Roberts & Caserio donnent la vraie voie (§ 29.6.2) : « une variété de polyamides peut être obtenue en CHAUFFANT des diamines avec des acides dicarboxyliques. » On passe alors par le sel d'ammonium — le « sel de nylon » —, qu'on déshydrate à chaud. Le chlorure d'acide est le réactif de la paillasse et de la démonstration, pas celui de l'usine.",
+      "fleches": [
+        "Le doublet de l'azote attaque le carbone du carbonyle…",
+        "…et les électrons du C=O montent sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "polyamide_nylon-etape2.svg",
+      "titre": "L'intermédiaire s'effondre : le chlorure part, et l'amide est fait",
+      "legende": "L'oxygène rend ses électrons, le carbonyle se reforme, et le chlorure est expulsé. C'est le second temps de toute substitution nucléophile sur un acyle : on ADDITIONNE d'abord, on ÉLIMINE ensuite.\n\nPOURQUOI LE CHLORURE PART PLUTÔT QUE L'AZOTE. Parce que l'ion chlorure est une base très faible — il supporte parfaitement sa charge —, tandis qu'un amidure ne la supporte pas. L'intermédiaire tétraédrique expulse toujours le meilleur groupe partant, c'est-à-dire la base la plus faible.\n\nIL RESTE UNE CHARGE POSITIVE SUR L'AZOTE, et une base du milieu la lui prendra. Dans la démonstration de la « corde de nylon », c'est un carbonate ou un hydroxyde en phase aqueuse ; dans le procédé industriel, il n'y a pas de chlorure du tout et la question ne se pose pas.\n\nCE QUI COMPTE EST QU'IL RESTE, À L'AUTRE BOUT DE CHAQUE PARTENAIRE, UNE FONCTION INTACTE. Le diacide a encore un chlorure ; la diamine a encore une amine. Chacun peut recommencer — et c'est de là que vient le polymère.\n\nLE SCHÉMA EST UN GROS PLAN, ET IL SE DÉCLARE : on ne dessine que l'extrémité qui réagit, un méthyle tenant lieu du reste de la chaîne à six carbones de la diamine. Le carbone tétraédrique porte ici quatre substituants encombrants — O⁻, Cl, N⁺ et une chaîne —, et à la largeur d'un téléphone les étiquettes de l'oxygène et du chlore se recouvraient : le contrôle de lisibilité a refusé le dessin complet. C'est une simplification de schéma, énoncée, jamais une approximation de mécanisme.",
+      "fleches": [
+        "L'oxygène rend ses électrons et reforme le carbonyle…",
+        "…ce qui expulse le chlorure. La liaison amide est faite."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "polyamide_nylon-etape3.svg",
+      "titre": "Le motif du nylon 6,6, et d'où viennent ses deux six",
+      "legende": "Voici le motif. Roberts & Caserio expliquent le nom (§ 29.6.2) : « le plus généralement utile de ceux-ci est le NYLON 66, la désignation 66 venant du fait qu'il est fait à partir de la diamine à SIX carbones, la 1,6-hexanediamine, et d'un diacide à SIX carbones, l'acide hexanedioïque. »\n\nDEUX CHIFFRES, DEUX RÉACTIFS. Le nylon 6, lui, n'a qu'un chiffre parce qu'il n'a qu'un réactif : le caprolactame, un lactame à sept chaînons qui s'ouvre sur lui-même. Roberts & Caserio précisent d'où il vient (§ 29.6.2) : « obtenu par le RÉARRANGEMENT DE BECKMANN de l'oxime de la cyclohexanone » — une réaction que ce corpus décrit par ailleurs.\n\nCE QUI FAIT LA FORCE DU NYLON EST LA LIAISON HYDROGÈNE. Chaque motif porte un N–H et un C=O ; d'une chaîne à l'autre, ils s'apparient comme dans un feuillet β de protéine. C'est la même chimie qui tient la soie, et c'est ce que Carothers cherchait à imiter.\n\nET LE PROCÉDÉ EST DÉCRIT (§ 29.6.2) : « le polymère peut être converti en fibres par EXTRUSION au-dessus de son point de fusion à travers des filières, puis refroidissement et ÉTIRAGE des filaments. » L'étirage n'est pas une mise en forme : il ALIGNE les chaînes, et c'est lui qui donne la résistance. « Le nylon 66 est exceptionnellement résistant et résistant à l'abrasion. »\n\nD'OÙ VIENNENT LES MATIÈRES PREMIÈRES, ET C'EST INSTRUCTIF (§ 29.6.2) : « apparemment, la meilleure voie vers l'acide hexanedioïque est l'OXYDATION PAR L'AIR du cyclohexane, en passant par la cyclohexanone. » De l'air et du pétrole — la chimie des grands tonnages n'emploie pas de réactifs coûteux.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "polyurethane": {
+    "1": {
+      "fichier": "polyurethane-etape1.svg",
+      "titre": "L'alcool attaque l'isocyanate — et rien ne part",
+      "legende": "Un diol et un diisocyanate. McMurry donne la définition et la recette (p. 1045) : « un uréthane est typiquement préparé par réaction d'ADDITION NUCLÉOPHILE entre un alcool et un ISOCYANATE (R–N=C=O), si bien qu'un polyuréthane est préparé par réaction entre un DIOL et un DIISOCYANATE. »\n\nRETENEZ « ADDITION », ET NON « SUBSTITUTION ». C'est ce qui distingue cette polycondensation de toutes les autres : IL NE PART RIEN. Pas d'eau, pas de méthanol, pas de HCl.\n\nCE QUE CELA CHANGE EN PRATIQUE. Une polycondensation ordinaire est un équilibre qu'il faut déplacer en chassant le petit produit. Ici, il n'y a pas d'équilibre à déplacer : chaque addition est acquise. On peut donc travailler en masse, sans distillation, et même dans un moule.\n\nLE CARBONE CENTRAL DE L'ISOCYANATE EST TRÈS ÉLECTROPHILE : il est pris entre un azote et un oxygène, tous deux attracteurs. L'alcool l'attaque sans qu'on ait besoin d'activer quoi que ce soit.\n\nMcMURRY PRÉCISE LE PARTENAIRE HABITUEL (p. 1045) : « le diol est habituellement un polymère de faible masse moléculaire (M ≈ 1000) portant des groupes hydroxyle terminaux ; le diisocyanate est souvent le TOLUÈNE-2,4-DIISOCYANATE. »\n\nOn relie donc des morceaux de polymère DÉJÀ FAITS. C'est une chimie de blocs, pas de monomères.",
+      "fleches": [
+        "L'oxygène de l'alcool attaque le carbone central de l'isocyanate…",
+        "…et les électrons de la liaison C=N descendent sur l'azote."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "polyurethane-etape2.svg",
+      "titre": "Le proton change de camp, et l'uréthane est fait",
+      "legende": "L'oxygène porte une charge positive et un proton ; l'azote porte une charge négative. Le proton passe de l'un à l'autre, et les deux charges disparaissent.\n\nCE N'EST PAS UN DÉTAIL DE COMPTABILITÉ. Tant que le proton n'a pas migré, la molécule est un zwitterion — instable, et prêt à revenir en arrière. Le transfert de proton est ce qui rend l'addition IRRÉVERSIBLE.\n\nCE QU'ON OBTIENT S'APPELLE UN URÉTHANE, et McMurry le situe dans une famille de trois (p. 1045) : un CARBONATE porte deux OR sur le carbonyle, un URÉTHANE porte un OR et un NR′₂, une URÉE porte deux NR′₂. Trois degrés de remplacement de l'oxygène par l'azote, trois familles de polymères.\n\nET L'AZOTE DE L'URÉTHANE PORTE UN N–H, donc une liaison hydrogène. C'est elle qui tient les segments rigides ensemble, et qui fait qu'un polyuréthane élastique reprend sa forme.",
+      "fleches": [
+        "Le doublet de l'azote va chercher le proton…",
+        "…et l'oxygène le lâche avec ses électrons. Les deux charges s'annulent : l'uréthane est fait."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "polyurethane-etape3.svg",
+      "titre": "Une goutte d'eau, et le polymère se met à mousser",
+      "legende": "Voici la chimie qui fait les mousses, et elle tient en une réaction parasite qu'on a décidé d'exploiter.\n\nMcMURRY LA DÉCRIT (p. 1045) : « une utilisation majeure des polyuréthanes est dans les MOUSSES employées comme isolants. Le moussage se produit quand on ajoute une petite quantité d'EAU pendant la polymérisation, donnant un intermédiaire ACIDE CARBAMIQUE qui perd spontanément des bulles de CO₂. »\n\nLE RAISONNEMENT EST LE SUIVANT. L'eau est un nucléophile comme l'alcool : elle attaque aussi l'isocyanate. Mais ce qu'elle donne n'est pas un uréthane — c'est un acide carbamique, R–NH–CO₂H.\n\nET UN ACIDE CARBAMIQUE N'EXISTE PAS. Il perd immédiatement du CO₂ pour donner l'amine.\n\nLE GAZ NAÎT DONC À L'INTÉRIEUR DU POLYMÈRE EN TRAIN DE PRENDRE. Il ne peut pas s'échapper d'une masse qui durcit : il y reste en bulles. Le matériau gonfle et fige gonflé.\n\nDEUX RÉACTIONS EN COMPÉTITION, ET ON RÈGLE LA MOUSSE EN DOSANT L'EAU. Sans eau, un élastomère plein ; quelques pour cent, une mousse. C'est la même chimie qui donne le bloc de mousse d'un matelas et la semelle souple d'une chaussure de sport.\n\nET L'AMINE LIBÉRÉE N'EST PAS PERDUE : elle attaque à son tour un isocyanate pour donner une URÉE, qui ponte les chaînes. L'eau ne fait donc pas que gonfler — elle RÉTICULE.\n\nMcMURRY DONNE L'AUTRE GRAND USAGE (p. 1045) : « une utilisation majeure du polyuréthane est dans les fibres extensibles SPANDEX employées pour les maillots de bain et les vêtements de sport. Ces polyuréthanes ont un degré de réticulation assez FAIBLE, si bien que le polymère résultant est souple et élastique. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "romp": {
+    "1": {
+      "fichier": "romp-etape1.svg",
+      "titre": "Un cycle tendu, et un carbène de ruthénium",
+      "legende": "Le norbornène et un carbène métallique. C'est tout ce qu'il faut.\n\nLE CYCLE CATALYTIQUE EST CELUI DE LA MÉTATHÈSE, décrit en détail dans la fiche « Métathèse des oléfines (Grubbs) » de ce corpus : cycloaddition [2+2] du carbène sur l'alcène, métallacyclobutane, puis rétro-[2+2] dans l'autre sens. On ne le réécrit pas ici.\n\nCE QUI CHANGE EST LE SENS DANS LEQUEL ON POUSSE L'ÉQUILIBRE.\n\nGROSSMAN POSE LE CADRE (p. 403) : « la réaction de métathèse des oléfines procède par une série de CYCLOADDITIONS [2+2] et de RÉTROCYCLOADDITIONS. Aucun changement du degré d'oxydation du métal ne se produit au cours de la réaction. La réaction établit un ÉQUILIBRE entre tous les alcènes possibles, mais il est possible de le déplacer dans un sens ou dans l'autre. »\n\nRETENEZ « ÉQUILIBRE ENTRE TOUS LES ALCÈNES POSSIBLES ». La métathèse ne fabrique rien : elle redistribue. Ce qu'on obtient dépend entièrement de ce qu'on retire du système, ou de ce qui coûte le plus cher à garder.\n\nICI, C'EST LA TENSION DE CYCLE QUI POUSSE. McMurry le dit en une phrase (p. 1047) : « une méthode, appelée POLYMÉRISATION PAR MÉTATHÈSE PAR OUVERTURE DE CYCLE, ou ROMP, met en jeu un cycloalcène MODÉRÉMENT TENDU, tel le cyclopentène. La TENSION du cycle favorise son ouverture, et pousse ainsi à la formation du produit à chaîne ouverte. »\n\nLE MOTEUR N'EST DONC NI UN RÉACTIF NI UNE CONDITION : C'EST DE L'ÉNERGIE STOCKÉE DANS LE SUBSTRAT. Un cycle non tendu — un cyclohexène — ne polymérise pas : il n'a rien à gagner à s'ouvrir.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "romp-etape2.svg",
+      "titre": "Ce qui sort : des cycles cis, orientés au hasard",
+      "legende": "L'ouverture du norbornène laisse un CYCLOPENTANE, relié à ses voisins par les carbones de l'ancienne double liaison.\n\nGROSSMAN DÉCRIT LE PRODUIT AVEC UNE PRÉCISION QUE PERSONNE D'AUTRE N'APPORTE (p. 404) : « dans la polymérisation par métathèse par ouverture de cycle (ROMP), un alcène TENDU tel que le norbornène subit une métathèse avec lui-même pour donner un polymère. Chaque cycle cyclopentane du produit est CIS-DISUBSTITUÉ, mais l'ORIENTATION de chaque cyclopentane par rapport à ses voisins est ALÉATOIRE. »\n\nDEUX AFFIRMATIONS, ET IL FAUT LES SÉPARER.\n\nLA PREMIÈRE EST UNE CONTRAINTE ABSOLUE. Les deux substituants du cyclopentane sont cis, et ils le resteront : ils viennent du pont du bicycle, qui les tenait du même côté. La métathèse ne touche pas à ces liaisons-là.\n\nLA SECONDE EST UNE LIBERTÉ TOTALE. Rien ne dit dans quel sens chaque cyclopentane se présentera par rapport au précédent. Le polymère est stéréorégulier À L'INTÉRIEUR de chaque motif et désordonné ENTRE les motifs.\n\nC'est un contraste instructif avec la polymérisation Ziegler-Natta, où c'est exactement l'inverse : c'est la relation entre motifs successifs que le catalyseur commande.\n\nET LE POLYMÈRE GARDE SES DOUBLES LIAISONS (McMurry p. 1047) : « le polymère obtenu a des doubles liaisons espacées RÉGULIÈREMENT le long de la chaîne, permettant soit l'HYDROGÉNATION soit une fonctionnalisation ultérieure si on le souhaite. »\n\nUn polymère qu'on peut encore modifier après l'avoir fait — ce que ni le polyéthylène ni le nylon ne permettent.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "romp-etape3.svg",
+      "titre": "L'autre voie : l'ADMET, où c'est l'éthylène qui s'échappe",
+      "legende": "Il existe une seconde façon de faire un polymère par métathèse, et son moteur n'est pas la tension mais un GAZ qui s'en va.\n\nMcMURRY LA DÉCRIT (p. 1047) : « une deuxième méthode d'emploi de la métathèse des oléfines pour préparer des polymères est la MÉTATHÈSE DE DIÈNES ACYCLIQUES, ou ADMET. Comme son nom l'indique, l'ADMET met en jeu la métathèse d'un substrat à chaîne ouverte portant deux doubles liaisons AUX EXTRÉMITÉS d'une longue chaîne, tel le 1,8-nonadiène. À mesure que la réaction progresse, le sous-produit ÉTHYLÈNE GAZEUX s'échappe, déplaçant ainsi l'équilibre vers le produit polymère. »\n\nET LE RÉSULTAT EST CHIFFRÉ (p. 1047) : « cette réaction est si efficace que des polymères de masses moléculaires atteignant 80 000 ont été préparés. »\n\nDEUX MOTEURS, DEUX STRATÉGIES POUR LE MÊME ÉQUILIBRE. La ROMP dépense la tension d'un cycle ; l'ADMET laisse partir un gaz. Dans les deux cas, on ne rend pas la réaction plus favorable — on empêche le retour.\n\nCE QUI FAIT LA VALEUR DES DEUX MÉTHODES (McMurry p. 1047) : « les procédés ROMP et ADMET sont particulièrement précieux parce que la réaction de métathèse est COMPATIBLE avec la présence, dans le monomère oléfinique, de nombreux GROUPES FONCTIONNELS différents. »\n\nC'est l'argument décisif face aux voies ioniques. Une polymérisation anionique meurt sur une trace d'eau ; une polymérisation cationique meurt sur un alcool. La métathèse les tolère.\n\nMcMURRY VA JUSQU'À ÉCRIRE (p. 1046) : « l'avancée la plus importante de ces dernières années dans la synthèse des polymères a peut-être été le développement de la POLYMÉRISATION PAR MÉTATHÈSE DES OLÉFINES. » Et il nomme le produit commercial : le Vestenamer.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "polylactide": {
+    "1": {
+      "fichier": "polylactide-etape1.svg",
+      "titre": "Un acide qui porte aussi l'alcool : il se condense sur lui-même",
+      "legende": "L'acide lactique porte les DEUX fonctions d'une polyestérification sur la même molécule : un alcool et un acide.\n\nIl n'a donc besoin de personne. Chauffé, il se condense sur lui-même.\n\nMcMURRY DESSINE EXACTEMENT CETTE OPÉRATION (p. 718) pour trois hydroxyacides à la file — l'acide glycolique, l'acide lactique et l'acide 3-hydroxybutyrique —, avec un seul mot au-dessus de la flèche : « CHALEUR ». Il n'en faut pas plus.\n\nCE QUE CELA DONNE : le poly(acide glycolique) PGA, le poly(acide lactique) PLA, le poly(hydroxybutyrate) PHB.\n\nET IL LES RANGE ENSEMBLE POUR UNE RAISON PRÉCISE (p. 1052) : « parmi les polymères biodégradables les plus courants figurent le poly(acide glycolique) (PGA), le poly(acide lactique) (PLA) et le poly(hydroxybutyrate) (PHB). Tous sont des POLYESTERS et sont donc sujets à l'HYDROLYSE de leurs liaisons ester. »\n\nLA BIODÉGRADABILITÉ N'EST PAS UNE PROPRIÉTÉ AJOUTÉE : C'EST LA FONCTION ESTER ELLE-MÊME. Ce qui rend la liaison facile à faire la rend facile à défaire.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "polylactide-etape2.svg",
+      "titre": "Le motif, et ce qui le fait disparaître",
+      "legende": "Voici deux unités enchaînées. Le motif se répète, et chaque maillon est un ester.\n\nCOMBIEN DE TEMPS CELA TIENT-IL ? McMurry donne le chiffre pour l'usage chirurgical (p. 718) : un copolymère 90:10 de PGA et de PLA « sert à faire des SUTURES RÉSORBABLES qui sont entièrement hydrolysées et absorbées par le corps DANS LES 90 JOURS suivant l'opération ».\n\nQuatre-vingt-dix jours — le temps qu'une plaie mette à tenir seule. Le matériau est calibré pour disparaître quand il ne sert plus.\n\nET LE PHB FAIT MIEUX ENCORE (p. 718) : « le polymère se dégrade en QUATRE SEMAINES dans les décharges, à la fois par HYDROLYSE DE L'ESTER et par une réaction d'ÉLIMINATION E1cB de l'atome d'oxygène en α du groupe carbonyle. »\n\nDEUX MÉCANISMES, ET LE SECOND VAUT D'ÊTRE REMARQUÉ. L'E1cB est une réaction que ce corpus décrit ailleurs : on arrache un proton, le carbanion expulse un groupe partant. Ici, le carbanion en α du carbonyle chasse l'oxygène de l'ester voisin, et la chaîne se coupe — sans eau.\n\nUN POLYMÈRE QUI SE DÉTRUIT PAR DEUX VOIES INDÉPENDANTES est bien plus fiable qu'un polymère qui n'en a qu'une : il ne dépend pas des conditions du milieu.\n\nMAIS McMURRY DONNE AUSSI LA RAISON POUR LAQUELLE ON N'EN VOIT PAS PARTOUT (p. 718) : « l'usage du poly(hydroxybutyrate) est actuellement limité par son COÛT — environ QUATRE FOIS celui du polypropylène. »\n\nQuatre fois. C'est le vrai obstacle, et aucune chimie ne le lèvera seule.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

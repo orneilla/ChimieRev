@@ -4141,5 +4141,116 @@
         "note": "Un radical-anion, qui dimérisera en dianion"
       }
     ]
+  },
+  {
+    "id": "ticl4",
+    "nom": "TiCl₄",
+    "nom_complet": "tétrachlorure de titane",
+    "famille": "Acides et acides de Lewis",
+    "SMILES": "Cl[Ti](Cl)(Cl)Cl",
+    "role": "Acide de Lewis, et moitié titane d'un catalyseur de Ziegler-Natta",
+    "anatomie_annotations": [
+      {
+        "partie": "le titane, d⁰",
+        "role": "Il n'a aucun électron d. Il ne peut donc rien donner en rétrodonation, mais il accepte volontiers — c'est un acide de Lewis franc, et une place vacante y est toujours disponible."
+      },
+      {
+        "partie": "les quatre chlores",
+        "role": "Attracteurs, ils appauvrissent encore le métal. Ils sont aussi les groupes que l'aluminium viendra remplacer par un alkyle."
+      },
+      {
+        "partie": "la volatilité",
+        "role": "TiCl₄ est un LIQUIDE qui fume à l'air — il s'hydrolyse violemment en donnant HCl et TiO₂. C'est ce qui impose le milieu strictement anhydre."
+      }
+    ],
+    "reactions_liees": [
+      "ziegler_natta"
+    ],
+    "explication_reference": "Acide de Lewis fort et précurseur des catalyseurs de polymérisation par coordination.\n\nAVEC UN ALKYLALUMINIUM, il forme le catalyseur de Ziegler-Natta. McMurry (p. 1040) : « les catalyseurs de Ziegler-Natta […] sont préparés par traitement d'un ALKYLALUMINIUM par un composé du TITANE. Le triéthylaluminium et le tétrachlorure de titane forment une préparation typique. »\n\nLA CHIMIE INDUSTRIELLE RÉELLE est hétérogène (Housecroft p. 802) : « les catalyseurs de PREMIÈRE GÉNÉRATION étaient faits en faisant réagir TiCl₄ avec Et₃Al pour précipiter β-TiCl₃·xAlCl₃, converti ensuite en γ-TiCl₃. »\n\nL'espèce active est un ALKYLTITANE portant un site de coordination vacant.\n\nAUTRES EMPLOIS : acide de Lewis en réaction de Mukaiyama et en aldolisation, et catalyseur d'acylation. Sensible à l'eau — il fume à l'air.",
+    "explication_comprendre": "QU'EST-CE qu'un métal qui n'a aucun électron à donner peut bien apporter ?\n\nUne PLACE.\n\nLe titane de TiCl₄ est au degré d'oxydation +4 : il a cédé tous ses électrons de valence. Il ne peut donc rien offrir — mais il a des orbitales vides, et il accepte tout ce qu'on lui présente.\n\nC'est la définition d'un acide de Lewis.\n\nCE QU'IL FAIT DANS UN CATALYSEUR DE ZIEGLER-NATTA. Seul, il ne polymérise rien. C'est l'aluminium qui lui apporte un groupe alkyle — et une fois le titane porteur d'une liaison Ti–C, la chaîne peut commencer à pousser dessus.\n\nEt à côté de cette liaison, il reste une place libre. C'est là que l'alcène viendra se poser, tour après tour.\n\nCE QU'IL NE FAUT PAS CONFONDRE : TiCl₄ n'est pas le catalyseur. Il en est la moitié. Deux composés parfaitement inertes séparément deviennent, mélangés, l'un des systèmes les plus importants de l'industrie chimique.\n\nET IL FAUT LE MANIPULER SEC. TiCl₄ est un liquide qui fume à l'air : il s'hydrolyse en TiO₂ et HCl. C'est pourquoi toute cette chimie se fait sous atmosphère inerte.",
+    "reactions_exemples": [
+      {
+        "nom": "Préparation du catalyseur",
+        "substrat_SMILES": "Cl[Ti](Cl)(Cl)Cl",
+        "produit_SMILES": "CC[Ti](Cl)(Cl)Cl",
+        "note": "L'aluminium cède un éthyle au titane"
+      }
+    ]
+  },
+  {
+    "id": "et3al",
+    "nom": "Et₃Al",
+    "nom_complet": "triéthylaluminium",
+    "famille": "Acides et acides de Lewis",
+    "SMILES": "CC[Al](CC)CC",
+    "role": "Donne un alkyle au métal de transition, et capte tout ce qui traîne",
+    "anatomie_annotations": [
+      {
+        "partie": "les trois liaisons Al–C",
+        "role": "Fortement polarisées : le carbone y est riche, presque carbanionique. C'est l'un de ces éthyles que le titane recevra."
+      },
+      {
+        "partie": "l'aluminium, à six électrons",
+        "role": "Il lui manque un doublet pour être satisfait. C'est donc aussi un acide de Lewis — et c'est pourquoi il capte les traces d'eau et d'oxygène du milieu."
+      },
+      {
+        "partie": "le caractère pyrophorique",
+        "role": "Il s'enflamme spontanément à l'air. Ce n'est pas un détail de sécurité : c'est la même réactivité qui lui fait nettoyer le milieu de ses impuretés."
+      }
+    ],
+    "reactions_liees": [
+      "ziegler_natta"
+    ],
+    "explication_reference": "Organoaluminique employé comme co-catalyseur des polymérisations par coordination.\n\nDEUX RÔLES SIMULTANÉS :\n• ALKYLANT — il transfère un éthyle au métal de transition, créant la liaison M–C sur laquelle la chaîne poussera (McMurry p. 1040) ;\n• PIÉGEUR — acide de Lewis lui-même, il capte l'eau et l'oxygène résiduels, qui tueraient le catalyseur.\n\nDANS LES CATALYSEURS MODERNES, il est remplacé par le MÉTHYLALUMINOXANE [MeAl(μ-O)]ₙ, obtenu par hydrolyse contrôlée du triméthylaluminium (Housecroft p. 734).\n\nROBERTS & CASERIO SIGNALENT UNE LACUNE DU MÉCANISME COURANT (§ 29.7.1) : « parce que ce mécanisme ne donne AUCUN RÔLE EXPLICITE À L'ALUMINIUM, il est sûrement trop simplifié. »\n\nPYROPHORIQUE : s'enflamme à l'air.",
+    "explication_comprendre": "POURQUOI faut-il deux composés pour faire un catalyseur qui n'en emploie qu'un ?\n\nParce que le titane ne peut pas s'alkyler tout seul.\n\nPour qu'une chaîne pousse sur un métal, il faut d'abord qu'il y ait une liaison métal-carbone. Or TiCl₄ ne porte que des chlores.\n\nL'ALUMINIUM APPORTE LE CARBONE. Ses liaisons Al–C sont fortement polarisées — le carbone y est riche, presque un carbanion — et il le cède volontiers au titane, en échange d'un chlore.\n\nAprès l'échange : un titane portant un éthyle, et une place libre à côté. La chaîne peut commencer.\n\nMAIS IL FAIT UNE SECONDE CHOSE, MOINS VISIBLE ET AUSSI IMPORTANTE. L'aluminium n'a que six électrons : c'est lui aussi un acide de Lewis, et il attrape tout ce qui traîne — l'eau, l'oxygène, l'alcool résiduel.\n\nOr ces impuretés tueraient le titane. En les captant, l'aluminium NETTOIE le milieu.\n\nC'est pourquoi on en met bien plus que la stœchiométrie ne l'exigerait : une part sert à alkyler, le reste sert à faire le ménage.\n\nCE QU'IL NE FAUT PAS CONFONDRE : il ne se contente pas d'être un réactif de préparation. Roberts & Caserio notent que le mécanisme couramment enseigné « ne donne aucun rôle explicite à l'aluminium » et est de ce fait « sûrement trop simplifié » (§ 29.7.1). Il reste dans le système, et on ne sait pas bien ce qu'il y fait.\n\nET IL S'ENFLAMME À L'AIR. C'est la contrepartie directe de son avidité.",
+    "reactions_exemples": [
+      {
+        "nom": "Alkylation du titane",
+        "substrat_SMILES": "Cl[Ti](Cl)(Cl)Cl",
+        "produit_SMILES": "CC[Ti](Cl)(Cl)Cl",
+        "note": "Un éthyle contre un chlore"
+      }
+    ]
+  },
+  {
+    "id": "tdi",
+    "nom": "TDI",
+    "nom_complet": "toluène-2,4-diisocyanate",
+    "famille": "Électrophiles",
+    "SMILES": "Cc1ccc(N=C=O)cc1N=C=O",
+    "role": "Deux électrophiles sur une molécule — la brique rigide des polyuréthanes",
+    "anatomie_annotations": [
+      {
+        "partie": "le carbone central de chaque isocyanate",
+        "role": "Pris entre un azote et un oxygène, tous deux attracteurs, il est très pauvre en électrons. Un alcool l'attaque sans qu'on ait rien à activer."
+      },
+      {
+        "partie": "les DEUX fonctions isocyanate",
+        "role": "C'est ce qui en fait un monomère et non un simple réactif : chaque molécule peut se lier à deux partenaires."
+      },
+      {
+        "partie": "le cycle aromatique",
+        "role": "Il rend le segment rigide. Dans un polyuréthane à segments, c'est lui qui donne les blocs durs, tandis que le polyol donne les blocs souples."
+      }
+    ],
+    "reactions_liees": [
+      "polyurethane"
+    ],
+    "explication_reference": "Diisocyanate aromatique, monomère standard des polyuréthanes. McMurry (p. 1045) : « le diisocyanate est souvent le TOLUÈNE-2,4-DIISOCYANATE. »\n\nRÉACTIONS :\n• avec un ALCOOL → URÉTHANE, par ADDITION nucléophile, sans expulsion de sous-produit ;\n• avec l'EAU → ACIDE CARBAMIQUE, qui « perd spontanément des bulles de CO₂ » (p. 1045), d'où le moussage ; l'amine libérée réagit ensuite avec un autre isocyanate pour donner une URÉE, qui réticule.\n\nSENSIBILISANT RESPIRATOIRE MAJEUR : la même électrophilie qui le rend utile le rend réactif vis-à-vis des nucléophiles biologiques.\n\nLES DEUX ISOCYANATES N'ONT PAS LA MÊME RÉACTIVITÉ : celui de la position 4, dégagé, réagit plus vite que celui de la position 2, voisin du méthyle. Cette différence sert à contrôler l'ordre des additions.",
+    "explication_comprendre": "QU'EST-CE qu'un groupe qui réagit sans que rien ne parte ?\n\nUn isocyanate s'écrit R–N=C=O. Regardez le carbone du milieu : il est coincé entre un azote et un oxygène, deux atomes qui tirent sur les électrons.\n\nCE CARBONE EST DONC EXTRÊMEMENT PAUVRE, et il n'attend qu'une chose : qu'un nucléophile vienne.\n\nQuand un alcool arrive, il s'additionne — et rien n'a besoin de partir. Il n'y avait pas de groupe en trop : les deux molécules se sont simplement soudées.\n\nC'est ce qui distingue les polyuréthanes de toutes les autres polycondensations : pas d'eau à chasser, pas d'équilibre à déplacer. On peut couler la réaction dans un moule.\n\nDEUX FONCTIONS SUR LA MÊME MOLÉCULE. C'est ce qui en fait un monomère : chaque bout peut s'accrocher à un partenaire différent, et la chaîne se construit.\n\nCE QU'IL NE FAUT PAS CONFONDRE : l'eau n'est pas ici une simple impureté. Elle attaque aussi l'isocyanate, mais donne un acide carbamique — qui perd immédiatement du CO₂. C'est exactement ce qu'on exploite pour faire mousser, en dosant quelques pour cent d'eau (McMurry p. 1045).\n\nET IL FAUT S'EN MÉFIER. La propriété qui rend un isocyanate utile — son carbone très électrophile — le rend aussi réactif envers les nucléophiles des voies respiratoires. Les diisocyanates sont parmi les sensibilisants professionnels les mieux documentés.",
+    "reactions_exemples": [
+      {
+        "nom": "Avec un alcool → uréthane",
+        "substrat_SMILES": "Cc1ccc(N=C=O)cc1N=C=O",
+        "produit_SMILES": "Cc1ccc(NC(=O)OCCCCO)cc1NC(=O)OCCCCO",
+        "note": "Addition : rien ne part"
+      },
+      {
+        "nom": "Avec l'eau → CO₂ et une amine",
+        "substrat_SMILES": "O=C(O)Nc1ccc(C)cc1",
+        "produit_SMILES": "Cc1ccc(N)cc1",
+        "note": "L'acide carbamique perd son CO₂ : c'est la mousse"
+      }
+    ]
   }
 ]

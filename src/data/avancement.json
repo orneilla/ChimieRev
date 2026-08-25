@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 285,
-  "redigees": 226,
-  "verifiees": 152,
+  "redigees": 233,
+  "verifiees": 155,
   "relues": 0,
   "familles": [
     {
@@ -1934,9 +1934,9 @@
       "famille": "Polymères",
       "bloc": "Méthodes et matériaux",
       "total": 10,
-      "absente": 7,
-      "redigee": 0,
-      "verifiee": 3,
+      "absente": 0,
+      "redigee": 4,
+      "verifiee": 6,
       "relue": 0,
       "reactions": [
         {
@@ -1963,51 +1963,51 @@
         {
           "nom": "Polymérisation Ziegler-Natta et stéréorégularité",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ziegler_natta",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Copolymères statistiques, à blocs et greffés",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "copolymeres",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Polyester par polycondensation",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polyester_polycondensation",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Polyamide (nylon) par polycondensation",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polyamide_nylon",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Polyuréthane",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polyurethane",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Polymérisation par métathèse par ouverture de cycle (ROMP)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "romp",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Polylactide : polymérisation par ouverture de lactone",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "polylactide",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

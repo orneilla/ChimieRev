@@ -1377,37 +1377,37 @@
         {
           "nom": "Polymérisation Ziegler-Natta et stéréorégularité",
           "niveau": "M1",
-          "id": null
+          "id": "ziegler_natta"
         },
         {
           "nom": "Copolymères statistiques, à blocs et greffés",
           "niveau": "M1",
-          "id": null
+          "id": "copolymeres"
         },
         {
           "nom": "Polyester par polycondensation",
           "niveau": "L3",
-          "id": null
+          "id": "polyester_polycondensation"
         },
         {
           "nom": "Polyamide (nylon) par polycondensation",
           "niveau": "L3",
-          "id": null
+          "id": "polyamide_nylon"
         },
         {
           "nom": "Polyuréthane",
           "niveau": "L3",
-          "id": null
+          "id": "polyurethane"
         },
         {
           "nom": "Polymérisation par métathèse par ouverture de cycle (ROMP)",
           "niveau": "M2",
-          "id": null
+          "id": "romp"
         },
         {
           "nom": "Polylactide : polymérisation par ouverture de lactone",
           "niveau": "M2",
-          "id": null
+          "id": "polylactide"
         }
       ],
       "bloc": "Méthodes et matériaux"

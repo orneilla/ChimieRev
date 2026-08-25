@@ -903,6 +903,34 @@
     "substrat": "polymerisation_anionique-substrat.svg",
     "produit": "polymerisation_anionique-produit.svg"
   },
+  "ziegler_natta": {
+    "substrat": "ziegler_natta-substrat.svg",
+    "produit": "ziegler_natta-produit.svg"
+  },
+  "copolymeres": {
+    "substrat": "copolymeres-substrat.svg",
+    "produit": "copolymeres-produit.svg"
+  },
+  "polyester_polycondensation": {
+    "substrat": "polyester_polycondensation-substrat.svg",
+    "produit": "polyester_polycondensation-produit.svg"
+  },
+  "polyamide_nylon": {
+    "substrat": "polyamide_nylon-substrat.svg",
+    "produit": "polyamide_nylon-produit.svg"
+  },
+  "polyurethane": {
+    "substrat": "polyurethane-substrat.svg",
+    "produit": "polyurethane-produit.svg"
+  },
+  "romp": {
+    "substrat": "romp-substrat.svg",
+    "produit": "romp-produit.svg"
+  },
+  "polylactide": {
+    "substrat": "polylactide-substrat.svg",
+    "produit": "polylactide-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1594,6 +1622,31 @@
   "naphtalenure_sodium-ex0": {
     "substrat": "naphtalenure_sodium-ex0-substrat.svg",
     "produit": "naphtalenure_sodium-ex0-produit.svg"
+  },
+  "ticl4": {
+    "molecule": "reactif-ticl4.svg"
+  },
+  "ticl4-ex0": {
+    "substrat": "ticl4-ex0-substrat.svg",
+    "produit": "ticl4-ex0-produit.svg"
+  },
+  "et3al": {
+    "molecule": "reactif-et3al.svg"
+  },
+  "et3al-ex0": {
+    "substrat": "et3al-ex0-substrat.svg",
+    "produit": "et3al-ex0-produit.svg"
+  },
+  "tdi": {
+    "molecule": "reactif-tdi.svg"
+  },
+  "tdi-ex0": {
+    "substrat": "tdi-ex0-substrat.svg",
+    "produit": "tdi-ex0-produit.svg"
+  },
+  "tdi-ex1": {
+    "substrat": "tdi-ex1-substrat.svg",
+    "produit": "tdi-ex1-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"
