@@ -28049,5 +28049,61 @@
         "valide": false
       }
     ]
+  },
+  "epoxydation_sharpless": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un alcool allylique, un peroxyde, un titane et un tartrate",
+        "smiles": "CC=CCO.CC(C)(C)OO.CCOC(=O)C(O)C(O)C(=O)OCC",
+        "legende": "Le substrat doit être un ALCOOL ALLYLIQUE — un alcool porté par le carbone voisin d'une double liaison. Ce n'est pas une préférence : c'est une condition, et l'étape suivante dit pourquoi.\n\nL'oxydant est l'hydroperoxyde de tert-butyle. Le catalyseur est le tétraisopropylate de titane, et le ligand chiral le TARTRATE DE DIÉTHYLE.\n\nPOURQUOI LE TARTRATE (Clayden p. 1121) : « le tartrate est idéal comme ligand chiral parce qu'il est disponible à relativement bas prix dans l'un OU L'AUTRE de ses énantiomères. Le L-tartrate est extrait du raisin ; le D-(–)-tartrate est plus rare et plus cher, mais reste bon marché comparé à certains des ligands bisphosphine de la section précédente. » Un catalyseur asymétrique ne vaut que si l'on peut acheter ses deux mains.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Tout se rassemble sur le même métal",
+        "smiles": "CC(C)(C)OO[Ti](OC(C)C)(OC(C)C)OCC=CC",
+        "legende": "L'alcool allylique et l'hydroperoxyde se lient TOUS DEUX au titane, par échange avec ses isopropylates. Le tartrate, lui, y est déjà.\n\nVOILÀ POURQUOI IL FAUT UN ALCOOL ALLYLIQUE : c'est par son OH que le substrat s'accroche au métal. Sans lui, rien ne le tient, et l'oxygène ne sait plus de quel côté arriver. Clayden l'écrit (p. 1121) : « différents alcools allyliques se coordonnent de la même façon au titane et présentent de façon FIABLE la même face énantiotope à l'agent oxydant lié ».\n\nUNE SIMPLIFICATION DE SCHÉMA, déclarée : le vrai catalyseur est un DIMÈRE de titane portant deux tartrates, que Clayden dessine à sa page 1121. On n'en montre ici qu'un centre, avec ses isopropylates ; le tartrate n'est pas figuré. Le point à retenir tient dans le fait que les deux réactifs sont sur le même atome.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'oxygène est livré par en dessous",
+        "smiles": "CC1OC1CO.CC(C)(C)O",
+        "legende": "L'oxygène de l'hydroperoxyde passe sur l'alcène — mais sur UNE SEULE de ses deux faces, parce que le complexe ne lui laisse pas le choix. Il reste l'alcool tert-butylique, et l'époxyde chiral.\n\nLE MOYEN MNÉMOTECHNIQUE DE CLAYDEN (encadré p. 1121), et il est infaillible : DESSINEZ L'ALCOOL ALLYLIQUE AVEC SON HYDROXYLE EN HAUT À GAUCHE. Alors le D-(–)-tartrate de diéthyle livre l'oxygène par le DESSUS, et le L-(+)-tartrate par le DESSOUS.\n\nUne convention de dessin, deux flèches, et l'énantiomère se prédit sans calcul.\n\nENSUITE, LE CYCLE REPART : « le déplacement du produit par une autre molécule d'hydroperoxyde recommence le cycle » (p. 1121). C'est ce qui rend la réaction CATALYTIQUE en titane.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "dihydroxylation_sharpless": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un alcène, un osmium catalytique, un ligand alcaloïde",
+        "smiles": "c1ccccc1/C=C/c1ccccc1.O=[Os](=O)(=O)=O",
+        "legende": "L'alcène peut être à peu près n'importe lequel. C'est la première différence avec l'époxydation de Sharpless, et Clayden la souligne (p. 1125) : « la dihydroxylation asymétrique est bien MOINS DIFFICILE sur les alcènes qu'elle veut bien oxyder que l'époxydation asymétrique de Sharpless. Le tétroxyde d'osmium est lui-même un réactif remarquable, puisqu'il oxyde à peu près toute sorte d'alcène, riche ou pauvre en électrons, et il en va de même du réactif de dihydroxylation asymétrique. »\n\nL'osmium est employé en quantité CATALYTIQUE — 0,2 % dans l'exemple industriel de la page 1126 —, et un réoxydant stœchiométrique, le ferricyanure de potassium, le régénère.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le ligand fait la poche, et il fait plus que cela",
+        "smiles": "c1ccccc1/C=C/c1ccccc1.O=[Os](=O)(=O)=O",
+        "legende": "Les ligands sont deux alcaloïdes du quinquina — la DIHYDROQUINIDINE (DHQD) et la DIHYDROQUININE (DHQ) —, portés deux par deux sur une phtalazine.\n\nUNE PRÉCISION DE CLAYDEN QU'IL NE FAUT PAS MANQUER (p. 1124) : ces deux alcaloïdes sont « PAS TOUT À FAIT des énantiomères ». Ils viennent de la nature, qui ne fabrique pas de couples parfaits ; ils se comportent pourtant comme tels, et l'on choisit l'un ou l'autre pour obtenir l'un ou l'autre diol.\n\nLA POCHE N'EST PAS SEULEMENT CHIRALE, ELLE EST SÉLECTIVE (p. 1125) : « il apparaît qu'une partie de la poche est ATTIRANTE pour les groupes aromatiques ou fortement hydrophobes. Cette partie semble accueillir R_L » — le plus gros substituant. C'est pourquoi la sélectivité sur le trans-stilbène est si élevée.\n\nLE MÉCANISME DE L'OXYDATION LUI-MÊME est celui du tétroxyde d'osmium, écrit dans la fiche « Dihydroxylation syn (OsO₄) ». On ne le redessine pas : ce qui change ici est le ligand, pas le geste.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Ce qu'on obtient",
+        "smiles": "OC(c1ccccc1)C(O)c1ccccc1",
+        "legende": "Un diol SYN, et d'une seule main.\n\nET VOICI L'IDÉE LA PLUS PROFONDE DE TOUT LE CHAPITRE, que Clayden place sous le titre « catalyse accélérée par le ligand » (p. 1126) :\n\n« La dihydroxylation asymétrique est une si bonne réaction non pas seulement en raison du soin avec lequel les ligands ont été conçus. C'est une bonne réaction pour une raison plus FONDAMENTALE : la réaction sur laquelle elle repose — la dihydroxylation catalysée par l'osmium — ne marche que TRÈS MAL en l'absence du ligand aminé. Les ligands aminés chiraux ne se contentent pas de fournir un environnement chiral, ils ACCÉLÈRENT la réaction en même temps. »\n\nRÉFLÉCHISSEZ À CE QUE CELA ÉVITE. Si le ligand ne faisait que créer une poche chirale, la réaction se ferait AUSSI sans lui, en arrière-plan, et donnerait un racémique qui viendrait diluer l'excès énantiomérique. Parce qu'il accélère, la voie chirale distance la voie de fond, et l'excès énantiomérique reste intact.\n\nC'est une exigence que l'on peut poser à tout catalyseur asymétrique : il ne suffit pas d'orienter, il faut aller plus vite que la réaction non orientée.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

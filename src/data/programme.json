@@ -1599,12 +1599,12 @@
         {
           "nom": "Époxydation asymétrique de Sharpless",
           "niveau": "M1",
-          "id": null
+          "id": "epoxydation_sharpless"
         },
         {
           "nom": "Dihydroxylation asymétrique de Sharpless",
           "niveau": "M1",
-          "id": null
+          "id": "dihydroxylation_sharpless"
         },
         {
           "nom": "Réduction CBS d'une cétone",
@@ -1619,7 +1619,7 @@
         {
           "nom": "Hydrogénation asymétrique catalysée par un complexe chiral",
           "niveau": "M1",
-          "id": null
+          "id": "hydrogenation_asymetrique"
         },
         {
           "nom": "Organocatalyse par la proline : aldolisation énantiosélective",

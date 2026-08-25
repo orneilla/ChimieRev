@@ -1047,6 +1047,14 @@
     "substrat": "domino_knoevenagel_diels_alder-substrat.svg",
     "produit": "domino_knoevenagel_diels_alder-produit.svg"
   },
+  "epoxydation_sharpless": {
+    "substrat": "epoxydation_sharpless-substrat.svg",
+    "produit": "epoxydation_sharpless-produit.svg"
+  },
+  "dihydroxylation_sharpless": {
+    "substrat": "dihydroxylation_sharpless-substrat.svg",
+    "produit": "dihydroxylation_sharpless-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

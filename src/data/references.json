@@ -8076,6 +8076,36 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "epoxydation_sharpless": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1120-1121",
+          "note": "La réaction entière. Le cadre (p. 1120) : « l'hydrogénation asymétrique d'un alcène peut créer deux nouveaux centres chiraux, mais n'introduit aucune fonctionnalité nouvelle en le faisant. L'oxydation asymétrique d'un alcène est différente : elle peut créer deux nouveaux centres chiraux ET deux nouveaux groupes fonctionnels en même temps. » Le catalyseur : Ti(OiPr)₄ et tartrate de diéthyle, « Sharpless et son collaborateur Tsutomu Katsuki supposèrent qu'en ajoutant un ligand chiral au catalyseur de titane ils pourraient rendre la réaction asymétrique ». Le cycle catalytique est dessiné p. 1121 : l'alcool allylique et l'hydroperoxyde se lient au même titane, « l'atome d'oxygène réactif de l'hydroperoxyde lié doit être livré à la face inférieure de l'alcène », et « le déplacement du produit par une autre molécule d'hydroperoxyde recommence le cycle ». La fiabilité : « différents alcools allyliques se coordonnent de la même façon au titane et présentent de façon fiable la même face énantiotope à l'agent oxydant lié ». Le choix du ligand : « le tartrate est idéal comme ligand chiral parce qu'il est disponible à relativement bas prix dans l'un ou l'autre de ses énantiomères. Le L-tartrate est extrait du raisin ; le D-(–)-tartrate est plus rare et plus cher, mais reste bon marché comparé à certains des ligands bisphosphine. » L'encadré « Enantioselectivity in the Sharpless asymmetric epoxidation » donne le moyen mnémotechnique : alcool allylique dessiné hydroxyle en haut à gauche, D-(–)-DET par le dessus, L-(+)-DET par le dessous. L'application industrielle : J. T. Baker et la disparlure, phéromone du bombyx disparate (80 %, 91 % ee). Et l'usage des époxydes : « peu de molécules cibles sont elles-mêmes des époxydes, mais [ils] sont extrêmement versatiles — ils réagissent avec de nombreux types de nucléophiles pour donner des produits 1,2-disubstitués »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1123, 1126",
+          "note": "Les deux limites, données par comparaison. L'époxydation de JACOBSEN (p. 1123) : complexe salen de manganèse(III), « catalyse l'époxydation des alcènes simples par l'hypochlorite de sodium, NaOCl, l'eau de Javel domestique ordinaire. Les meilleurs résultats sont obtenus quand les alcènes sont CIS. » Et le verdict de Bristol-Myers Squibb (p. 1126) : « l'époxydation de Sharpless ne marche qu'avec les alcools allyliques, et l'époxydation de Jacobsen se comporte mal ici, ne donnant que 70-74 % d'excès énantiomérique »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "dihydroxylation_sharpless": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1124-1126",
+          "note": "Les ligands (p. 1124) : dihydroquinidine (DHQD) et dihydroquinine (DHQ), « PAS TOUT À FAIT des énantiomères », portées par paires sur une phtalazine. La poche (p. 1125) : « il apparaît qu'une partie de la poche est attirante pour les groupes aromatiques ou fortement hydrophobes. Cette partie semble accueillir R_L, ce qui explique en partie pourquoi la sélectivité dans la dihydroxylation du trans-stilbène est si élevée. » La portée : « la dihydroxylation asymétrique est bien moins difficile sur les alcènes qu'elle veut bien oxyder que l'époxydation asymétrique de Sharpless. Le tétroxyde d'osmium est lui-même un réactif remarquable, puisqu'il oxyde à peu près toute sorte d'alcène, riche ou pauvre en électrons. » Et surtout, sous le titre « Ligand-accelerated catalysis » (p. 1126) : « la réaction sur laquelle elle repose — la dihydroxylation catalysée par l'osmium — ne marche que très mal en l'absence du ligand aminé. Les ligands aminés chiraux ne se contentent pas de fournir un environnement chiral, ils ACCÉLÈRENT la réaction en même temps. » La page 1126 donne aussi les conditions industrielles de Bristol-Myers Squibb — 0,2 % K₂OsO₄·2H₂O, 0,8 % (DHQ)₂PHAL, 3 équiv. K₂CO₃ et K₃Fe(CN)₆, H₂O/t-BuOH 2:1, 90 % et 98 % ee — et la page 1125 la transformation du diol en sulfate cyclique par SO₂Cl₂ chez Lilly Espagne : « les sulfates cycliques se comportent comme des époxydes »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

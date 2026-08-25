@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-25",
-  "total": 283,
-  "redigees": 262,
+  "total": 282,
+  "redigees": 264,
   "verifiees": 178,
   "relues": 0,
   "familles": [
@@ -2267,24 +2267,24 @@
       "famille": "Synthèse asymétrique",
       "bloc": "Méthodes et matériaux",
       "total": 9,
-      "absente": 9,
-      "redigee": 0,
+      "absente": 6,
+      "redigee": 3,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
           "nom": "Époxydation asymétrique de Sharpless",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "epoxydation_sharpless",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Dihydroxylation asymétrique de Sharpless",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "dihydroxylation_sharpless",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réduction CBS d'une cétone",
@@ -2303,9 +2303,9 @@
         {
           "nom": "Hydrogénation asymétrique catalysée par un complexe chiral",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hydrogenation_asymetrique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
