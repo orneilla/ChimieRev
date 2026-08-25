@@ -7412,6 +7412,42 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "norrish_type_i": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5.3.1 — Photochemical Reactions",
+          "pages": "317-318",
+          "note": "Les deux clivages, définis et distingués : « la photoexcitation d'un composé carbonylé en un DIRADICAL-1,2 est souvent suivie d'une réaction de fragmentation. La fragmentation peut prendre l'un de deux chemins, appelés clivages de Norrish de type I et de type II. Dans le clivage de type I, la liaison entre le carbone α et le carbone du carbonyle se rompt pour donner un RADICAL ACYLE et un RADICAL ALKYLE. […] Le radical acyle peut DÉCARBONYLER […] Alternativement, les radicaux acyle et alkyle peuvent subir une DISMUTATION pour donner un aldéhyde et une liaison π C=C. Une troisième possibilité, la RECOMBINAISON radical-radical, régénère simplement le produit de départ. » Et le type II : « le radical O arrache un H du carbone γ dans un ÉTAT DE TRANSITION À SIX CHAÎNONS, et le diradical-1,4 fragmente ensuite pour donner un ALCÈNE et un ÉNOL, ce dernier se tautomérisant en cétone. Parfois le diradical-1,4 subit une combinaison radical-radical pour donner un CYCLOBUTANE, à la place. Le clivage de Norrish de type II est étroitement apparenté au RÉARRANGEMENT DE McLAFFERTY qu'on observe souvent dans les spectres de masse des composés carbonylés. »"
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.1 et § 12.3",
+          "pages": "1075, 1132",
+          "note": "L'ouvrage de photochimie du corpus ne prononce JAMAIS le nom de Norrish — « Norrish » ne rend aucune occurrence dans l'extrait indexé. Il décrit la même chimie sous d'autres noms, et résume les étapes élémentaires ainsi (p. 1132) : « pour les cétones, les plus importantes sont l'arrachement d'hydrogène INTER- et INTRAMOLÉCULAIRE, l'α-CLIVAGE au niveau du groupe carbonyle, et la migration de substituant vers le carbone β des cétones α,β-insaturées. Un réexamen des mécanismes illustrés dans cette section révélera que la plupart des réactions des composés carbonylés décrites mettent en jeu des COMBINAISONS de ces processus fondamentaux. » Le cadre de l'excitation est posé p. 1075 : « l'excitation promeut un électron d'une orbitale remplie vers une orbitale vide […] habituellement une orbitale ANTILIANTE » ; « à l'instant de l'excitation, seuls les ÉLECTRONS sont réorganisés. Les noyaux conservent leur géométrie de l'état fondamental. L'excitation est appelée une TRANSITION VERTICALE, et l'énoncé de cette condition est le principe de FRANCK-CONDON » ; et « les électrons ne subissent pas d'inversion de spin à l'instant de l'excitation », l'état initial étant donc un SINGULET. Les durées : 10⁻¹⁵ s pour l'excitation, moins de 50 ps pour atteindre la géométrie d'équilibre de l'état excité."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "norrish_type_ii": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5.3.1 — Photochemical Reactions",
+          "pages": "317-318",
+          "note": "Les deux clivages, définis et distingués : « la photoexcitation d'un composé carbonylé en un DIRADICAL-1,2 est souvent suivie d'une réaction de fragmentation. La fragmentation peut prendre l'un de deux chemins, appelés clivages de Norrish de type I et de type II. Dans le clivage de type I, la liaison entre le carbone α et le carbone du carbonyle se rompt pour donner un RADICAL ACYLE et un RADICAL ALKYLE. […] Le radical acyle peut DÉCARBONYLER […] Alternativement, les radicaux acyle et alkyle peuvent subir une DISMUTATION pour donner un aldéhyde et une liaison π C=C. Une troisième possibilité, la RECOMBINAISON radical-radical, régénère simplement le produit de départ. » Et le type II : « le radical O arrache un H du carbone γ dans un ÉTAT DE TRANSITION À SIX CHAÎNONS, et le diradical-1,4 fragmente ensuite pour donner un ALCÈNE et un ÉNOL, ce dernier se tautomérisant en cétone. Parfois le diradical-1,4 subit une combinaison radical-radical pour donner un CYCLOBUTANE, à la place. Le clivage de Norrish de type II est étroitement apparenté au RÉARRANGEMENT DE McLAFFERTY qu'on observe souvent dans les spectres de masse des composés carbonylés. »"
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.1 et § 12.3",
+          "pages": "1075, 1132",
+          "note": "L'ouvrage de photochimie du corpus ne prononce JAMAIS le nom de Norrish — « Norrish » ne rend aucune occurrence dans l'extrait indexé. Il décrit la même chimie sous d'autres noms, et résume les étapes élémentaires ainsi (p. 1132) : « pour les cétones, les plus importantes sont l'arrachement d'hydrogène INTER- et INTRAMOLÉCULAIRE, l'α-CLIVAGE au niveau du groupe carbonyle, et la migration de substituant vers le carbone β des cétones α,β-insaturées. Un réexamen des mécanismes illustrés dans cette section révélera que la plupart des réactions des composés carbonylés décrites mettent en jeu des COMBINAISONS de ces processus fondamentaux. » Le cadre de l'excitation est posé p. 1075 : « l'excitation promeut un électron d'une orbitale remplie vers une orbitale vide […] habituellement une orbitale ANTILIANTE » ; « à l'instant de l'excitation, seuls les ÉLECTRONS sont réorganisés. Les noyaux conservent leur géométrie de l'état fondamental. L'excitation est appelée une TRANSITION VERTICALE, et l'énoncé de cette condition est le principe de FRANCK-CONDON » ; et « les électrons ne subissent pas d'inversion de spin à l'instant de l'excitation », l'état initial étant donc un SINGULET. Les durées : 10⁻¹⁵ s pour l'excitation, moins de 50 ps pour atteindre la géométrie d'équilibre de l'état excité."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

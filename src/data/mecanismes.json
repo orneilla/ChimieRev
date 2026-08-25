@@ -24054,5 +24054,265 @@
         "valide": false
       }
     ]
+  },
+  "norrish_type_i": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le photon fait de la cétone un diradical",
+        "smiles": "CC(=O)C(C)(C)C",
+        "legende": "Une cétone absorbe un photon. Un électron passe d'un doublet libre de l'oxygène — l'orbitale n — vers l'orbitale π* du carbonyle. On note cette transition n→π*.\n\nCE QU'ON OBTIENT N'EST PLUS UN CARBONYLE. Grossman le nomme sans détour (p. 317) : « la photoexcitation d'un composé carbonylé en un DIRADICAL-1,2 est souvent suivie d'une réaction de fragmentation. »\n\nUn électron célibataire sur l'oxygène, un autre sur le carbone. L'oxygène, qui était le site riche de la molécule, se comporte désormais comme un RADICAL ALCOXYLE — c'est-à-dire comme l'un des arracheurs d'hydrogène les plus voraces de la chimie.\n\nLA MOLÉCULE A CHANGÉ DE MÉTIER. À l'état fondamental, une cétone est un électrophile qu'on attaque. Excitée, elle devient un radical qui attaque.\n\nAUCUNE FLÈCHE SUR CETTE ÉTAPE, ET LA RAISON EST DE FOND. Une flèche courbe raconte le déplacement d'électrons SOUS L'EFFET D'UNE DIFFÉRENCE DE DENSITÉ — un site riche pousse, un site pauvre attire. L'absorption d'un photon n'est rien de tel : c'est une transition verticale, instantanée, imposée de l'extérieur.\n\nCAREY & SUNDBERG POSENT LES TROIS RÈGLES DE L'EXCITATION (p. 1075), et il faut les avoir en tête pour tout ce chapitre :\n\n• « L'excitation promeut un électron d'une orbitale remplie vers une orbitale vide. Dans bien des cas, la promotion va de la HO vers la BV, qui est habituellement une orbitale ANTILIANTE. »\n• « À l'instant de l'excitation, seuls les ÉLECTRONS sont réorganisés. Les noyaux conservent leur géométrie de l'état fondamental. L'excitation est appelée une TRANSITION VERTICALE, et l'énoncé de cette condition est le principe de FRANCK-CONDON. »\n• « Les électrons ne subissent PAS d'inversion de spin à l'instant de l'excitation. » L'état initialement formé est donc un SINGULET.\n\nET LES ORDRES DE GRANDEUR DÉCIDENT DE TOUT (p. 1075) : l'excitation dure 10⁻¹⁵ s ; la molécule atteint la géométrie d'équilibre de son état excité en moins de 50 ps.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'α-clivage : la liaison voisine du carbonyle se rompt",
+        "smiles": "C[C]([O])C(C)(C)C",
+        "legende": "GROSSMAN DÉFINIT LA COUPURE (p. 317) : « dans le clivage de Norrish de type I, la liaison entre le carbone α et le carbone du carbonyle se rompt pour donner un RADICAL ACYLE et un RADICAL ALKYLE. »\n\nPOURQUOI CETTE LIAISON-LÀ. Parce que le radical qui reste sur le carbone du carbonyle est stabilisé : c'est un radical acyle, dont l'électron célibataire est délocalisé sur l'oxygène voisin. Et parce que la liaison qui se rompt est celle qui donne le radical alkyle le plus stable — ici un tertiaire.\n\nDEUX HAMEÇONS, ET C'EST LA RÈGLE DE TOUTE HOMOLYSE : une liaison en vaut deux électrons, chacun repart de son côté. Le vérificateur refuserait une liaison à moitié rompue.\n\nLE SCHÉMA DESSINE UN CARBONE TERTIAIRE DU CÔTÉ QUI PART, et ce n'est pas un hasard : c'est ainsi qu'on rend la coupure sélective. Une cétone symétrique donnerait les deux coupures.\n\nQUATRE HAMEÇONS, ET LES DEUX DERNIERS SONT CEUX QU'ON OUBLIE. Sans eux, la machine rend un CARBÈNE — un carbone à deux électrons célibataires — au lieu d'un radical acyle. Le bilan serait juste et l'écriture fausse : le fragment qui part emporte un électron, mais celui qui reste doit REFERMER son carbonyle en appariant l'électron du carbone avec celui de l'oxygène. C'est la même vigilance que pour le NAD⁺ ailleurs dans ce dépôt — une forme limite juste n'est pas la forme qu'on écrit.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.45,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison C–C part sur le carbone tertiaire : voici le radical alkyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "L'autre reste sur le carbone du carbonyle."
+          },
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.6,
+            "electrons": 1,
+            "libelle": "L'électron que le carbone portait déjà se replie dans la liaison π…"
+          },
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": -0.6,
+            "electrons": 1,
+            "libelle": "…où celui de l'oxygène vient s'apparier : le carbonyle se referme, et il reste un RADICAL ACYLE."
+          }
+        ],
+        "produit_attendu": "C[C](C)C.C[C]=O",
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le radical acyle perd son CO — et trois fins deviennent possibles",
+        "smiles": "O=[C]C.C[C](C)C",
+        "legende": "GROSSMAN ÉNUMÈRE LES TROIS SUITES, ET ELLES EXPLIQUENT TOUT CE QU'ON OBSERVE (p. 317) :\n\n« Ces radicaux peuvent ensuite subir diverses réactions. Par exemple, le radical acyle peut DÉCARBONYLER pour donner un nouveau radical alkyle, qui peut subir une combinaison radical-radical avec le radical alkyle engendré dans la coupure de Norrish. Alternativement, les radicaux acyle et alkyle peuvent subir une DISMUTATION pour donner un aldéhyde et une liaison π C=C. Une troisième possibilité, la RECOMBINAISON radical-radical, régénère simplement le produit de départ. »\n\nTROIS ISSUES, ET ELLES NE DONNENT PAS LE MÊME BILAN :\n\n• DÉCARBONYLATION puis combinaison → on a perdu un CO, et soudé les deux fragments restants. La molécule a rétréci d'un carbone.\n• DISMUTATION → un aldéhyde et un alcène. On n'a rien perdu, on a redistribué un hydrogène.\n• RECOMBINAISON → rien ne s'est passé. C'est la voie la plus fréquente, et c'est pourquoi le rendement quantique des Norrish I est souvent médiocre.\n\nLE SCHÉMA MONTRE LA DÉCARBONYLATION. Les deux hameçons rompent la liaison entre le carbone acyle et son substituant ; le monoxyde de carbone s'en va, et il ne reviendra pas.\n\nCE QUI POUSSE CETTE ÉTAPE EST LA STABILITÉ DU CO, une molécule à triple liaison que rien n'égale. C'est le même argument que pour la perte de CO₂ ailleurs dans ce corpus : une réaction qui peut libérer une petite molécule très stable le fait.\n\nLA DERNIÈRE FLÈCHE EST UNE FLÈCHE ENTIÈRE, PAS UN HAMEÇON, et elle mérite une explication. Les deux hameçons seuls laisseraient un carbone à deux électrons célibataires — un carbène, forme limite acceptable du CO mais qui n'est pas celle qu'on écrit. En dessinant la poussée d'un doublet de l'oxygène, on obtient le monoxyde de carbone conventionnel, à triple liaison et charges formelles séparées.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.45,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison C–C part sur le méthyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "L'autre reste sur le carbone."
+          },
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "courbure": 0.55,
+            "libelle": "Et un doublet de l'oxygène ferme la troisième liaison : le monoxyde de carbone s'en va."
+          }
+        ],
+        "produit_attendu": "C[C](C)C.[C-]#[O+].[CH3]",
+        "valide": false
+      }
+    ]
+  },
+  "norrish_type_ii": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'oxygène excité va chercher un hydrogène à SIX atomes de lui",
+        "smiles": "CC([H])CC[C](C)[O]",
+        "legende": "Le diradical excité ne se rompt pas toujours à côté du carbonyle. Quand la chaîne est assez longue, il fait autre chose — et ce qu'il fait est d'une précision géométrique remarquable.\n\nGROSSMAN DÉCRIT L'ÉTAPE (p. 317) : « dans le clivage de Norrish de type II, le radical O arrache un H du carbone γ dans un ÉTAT DE TRANSITION À SIX CHAÎNONS, et le diradical-1,4 fragmente ensuite pour donner un ALCÈNE et un ÉNOL, ce dernier se tautomérisant en cétone. »\n\nPOURQUOI LE CARBONE γ, ET PAS UN AUTRE. Comptez : oxygène, carbone du carbonyle, carbone α, carbone β, carbone γ, plus l'hydrogène qu'on arrache — six atomes dans le cycle de l'état de transition.\n\nUN CYCLE À SIX EST LA GÉOMÉTRIE LA MOINS CHÈRE QUI SOIT. Ni tension d'angle, ni gêne entre substituants. Un arrachement en β passerait par un cycle à cinq, en δ par un cycle à sept : les deux coûtent plus cher.\n\nCE N'EST DONC PAS LA FORCE DE LA LIAISON C–H QUI DÉCIDE — elles se valent toutes — MAIS LA DISTANCE. La molécule se replie sur elle-même, et l'hydrogène qui se trouve au bon endroit est celui qui part.\n\nGROSSMAN FAIT LE RAPPROCHEMENT QUI ANCRE LA CHOSE (p. 317) : « le clivage de Norrish de type II est étroitement apparenté au RÉARRANGEMENT DE McLAFFERTY qu'on observe souvent dans les spectres de masse des composés carbonylés. »\n\nMême géométrie, même cycle à six, même arrachement en γ — d'un côté sous photon en solution, de l'autre sous impact électronique dans un spectromètre. Si vous savez lire un pic de McLafferty, vous savez déjà écrire un Norrish II.\n\nTROIS HAMEÇONS, ET C'EST LA RÈGLE DE TOUT ARRACHEMENT D'HYDROGÈNE PAR UN RADICAL : un électron vient du radical, les deux autres de la liaison C–H qui se défait. Deux hameçons ne suffiraient pas — la liaison O–H se retrouverait à moitié formée, et le vérificateur le refuse.\n\nL'HYDROGÈNE EST ÉCRIT EXPLICITEMENT sur le schéma, parce qu'une flèche doit pouvoir le viser. Sans cela, la pointe atterrirait sur le carbone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                2
+              ]
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "L'électron célibataire de l'oxygène part former la liaison O–H…"
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                7,
+                2
+              ]
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "…où un électron de la liaison C–H vient s'apparier avec lui."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "L'autre électron reste sur le carbone γ : voici le diradical-1,4."
+          }
+        ],
+        "produit_attendu": "C[CH]CC[C](C)O",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le diradical-1,4 se coupe en deux — ou se referme",
+        "smiles": "C[CH]CC[C](C)O",
+        "legende": "Le diradical-1,4 a deux issues, et Grossman les donne toutes les deux (p. 317) :\n\n« Le diradical-1,4 fragmente ensuite pour donner un ALCÈNE et un ÉNOL, ce dernier se tautomérisant en cétone. Parfois le diradical-1,4 subit une combinaison radical-radical pour donner un CYCLOBUTANE, à la place. »\n\nLA FRAGMENTATION est ce qu'on appelle une coupure de Norrish II proprement dite. La liaison entre les carbones α et β se rompt ; ses deux électrons vont, l'un former la double liaison de l'alcène, l'autre celle de l'énol. Une molécule devient deux.\n\nLA CYCLISATION est l'autre voie : les deux extrémités radicalaires se joignent et donnent un cyclobutanol. On l'appelle la CYCLISATION DE YANG, et c'est l'une des rares façons simples de fabriquer un cycle à quatre chaînons.\n\nCE QUI DÉCIDE ENTRE LES DEUX est la géométrie du diradical au moment où il se décide : s'il est étiré, il fragmente ; s'il est replié, il cyclise. On oriente le résultat par la rigidité du substrat et par le solvant.\n\nET L'ÉNOL NE RESTE PAS ÉNOL. Il se tautomérise en cétone, et c'est cette cétone qu'on isole — d'où le fait qu'on ne voie jamais l'énol dans le bilan de la réaction, alors qu'il est le vrai produit de l'étape.\n\nQUATRE HAMEÇONS, DEUX PAR LIAISON FORMÉE. La liaison Cα–Cβ apporte un électron à chacune des deux nouvelles doubles liaisons ; les deux radicaux apportent le second. C'est le décompte obligé d'une fragmentation homolytique qui crée deux liaisons π d'un seul geste.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "Un électron de la liaison Cα–Cβ part former la double liaison de l'alcène…"
+          },
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "courbure": -0.45,
+            "electrons": 1,
+            "libelle": "…où l'électron célibataire du carbone γ vient s'apparier avec lui."
+          },
+          {
+            "de": {
+              "liaison": [
+                2,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "courbure": -0.45,
+            "electrons": 1,
+            "libelle": "L'autre électron de la liaison rompue part de l'autre côté…"
+          },
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "…et s'apparie avec le radical du carbone du carbonyle : voici l'énol."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "C=C(C)O.C=CC"
+      }
+    ]
   }
 }

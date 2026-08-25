@@ -931,6 +931,14 @@
     "substrat": "polylactide-substrat.svg",
     "produit": "polylactide-produit.svg"
   },
+  "norrish_type_i": {
+    "substrat": "norrish_type_i-substrat.svg",
+    "produit": "norrish_type_i-produit.svg"
+  },
+  "norrish_type_ii": {
+    "substrat": "norrish_type_ii-substrat.svg",
+    "produit": "norrish_type_ii-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

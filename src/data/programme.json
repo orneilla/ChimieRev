@@ -1436,12 +1436,12 @@
         {
           "nom": "Norrish type I : α-clivage d'une cétone",
           "niveau": "M1",
-          "id": null
+          "id": "norrish_type_i"
         },
         {
           "nom": "Norrish type II : arrachement d'hydrogène en γ",
           "niveau": "M1",
-          "id": null
+          "id": "norrish_type_ii"
         },
         {
           "nom": "Photoréduction d'une cétone : formation de pinacol",
