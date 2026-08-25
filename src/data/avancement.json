@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-25",
-  "total": 282,
-  "redigees": 268,
+  "total": 281,
+  "redigees": 269,
   "verifiees": 181,
   "relues": 0,
   "familles": [
@@ -2267,8 +2267,8 @@
       "famille": "Synthèse asymétrique",
       "bloc": "Méthodes et matériaux",
       "total": 9,
-      "absente": 2,
-      "redigee": 4,
+      "absente": 0,
+      "redigee": 6,
       "verifiee": 3,
       "relue": 0,
       "reactions": [
@@ -2317,16 +2317,16 @@
         {
           "nom": "Résolution cinétique",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "resolution_acide_amine",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Dédoublement d'un racémique par un sel diastéréoisomère",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "dedoublement_sel_diastereoisomere",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Alkylation asymétrique d'un énolate",

@@ -28431,5 +28431,41 @@
         "valide": false
       }
     ]
+  },
+  "dedoublement_sel_diastereoisomere": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un racémique, et rien pour le séparer",
+        "smiles": "COc1ccc2cc(ccc2c1)C(C)C(=O)O",
+        "legende": "Le naproxène, tel qu'il sort d'une synthèse de laboratoire : moitié (S), moitié (R).\n\nET LES DEUX MOITIÉS SONT PHYSIQUEMENT IDENTIQUES. Même point de fusion, même solubilité, même temps de rétention. Aucune distillation, aucune cristallisation, aucune chromatographie ordinaire ne les distingue.\n\nOR SEUL L'ÉNANTIOMÈRE (S) EST ANTI-INFLAMMATOIRE (Clayden p. 325-326) : « seul l'énantiomère (S) du naproxène a une activité anti-inflammatoire », et il est « 28 fois plus efficace que le (R) ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "On ajoute une amine chirale : deux SELS diastéréoisomères",
+        "smiles": "COc1ccc2cc([C@H](C)C(=O)[O-])ccc2c1.C[NH3+]",
+        "legende": "Le naproxène est un acide. On lui ajoute une amine énantiomériquement pure, et il se forme un sel — un simple transfert de proton, aucune liaison covalente créée.\n\nMAIS LES DEUX SELS NE SONT PLUS ÉNANTIOMÈRES. L'un associe l'amine (R) au naproxène (S), l'autre l'amine (R) au naproxène (R) : ce sont des DIASTÉRÉOISOMÈRES, donc des composés différents, avec des solubilités différentes.\n\nUNE SIMPLIFICATION DE SCHÉMA, déclarée : on dessine ici une méthylamine à la place de l'amine réellement employée. Chez Syntex, « le plus efficace fut un dérivé du GLUCOSE » (p. 325).",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'un cristallise, l'autre reste dissous",
+        "smiles": "COc1ccc2cc([C@H](C)C(=O)[O-])ccc2c1.C[NH3+]",
+        "legende": "C'est toute la méthode, et elle tient en une phrase de Clayden (p. 325) : « des cristaux se formèrent, qui consistaient en le sel de l'amine et du (S)-naproxène, le sel de l'amine avec le (R)-naproxène — le diastéréoisomère du sel cristallin — étant PLUS SOLUBLE et restant donc en solution ».\n\nUne filtration sépare ce qu'aucune méthode ne séparait.\n\nET L'OUVRAGE AJOUTE UNE REMARQUE QUI VAUT UN AVERTISSEMENT : « c'est un agent de résolution inhabituel, car on préférerait d'ordinaire une amine plus simple. Cela illustre cependant le fait que BEAUCOUP D'AGENTS DE RÉSOLUTION peuvent devoir être essayés avant qu'on en trouve un qui marche. » La méthode est sûre dans son principe et empirique dans sa mise en œuvre.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "On rend le proton, on récupère tout",
+        "smiles": "COc1ccc2cc([C@@H](C)C(=O)O)ccc2c1",
+        "legende": "Les cristaux sont traités par une base : elle « libère l'amine (qui peut être récupérée et réutilisée plus tard) et permet au (S)-naproxène de cristalliser sous forme de son sel de sodium » (p. 325).\n\nL'AGENT DE RÉSOLUTION EST RENDU INTACT. Il n'a jamais formé de liaison covalente : c'est l'avantage du sel sur le dérivé estérifié, qui exige deux réactions et deux hydrolyses.\n\nLE RENDEMENT MAXIMAL RESTE 50 %. La moitié (R) est perdue — ou racémisée et recyclée, quand c'est possible. C'est le prix de toute résolution, et c'est ce qui pousse à préférer, quand on le peut, une synthèse asymétrique.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

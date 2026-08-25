@@ -1629,12 +1629,12 @@
         {
           "nom": "Résolution cinétique",
           "niveau": "M2",
-          "id": null
+          "id": "resolution_acide_amine"
         },
         {
           "nom": "Dédoublement d'un racémique par un sel diastéréoisomère",
           "niveau": "L3",
-          "id": null
+          "id": "dedoublement_sel_diastereoisomere"
         },
         {
           "nom": "Alkylation asymétrique d'un énolate",

@@ -8184,6 +8184,18 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "dedoublement_sel_diastereoisomere": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "14 — Stereochemistry (Separating enantiomers is called resolution)",
+          "pages": "322-326",
+          "note": "Le principe (p. 324) : « le point clé de la résolution est que nous devons rapprocher deux centres stéréogènes de telle sorte qu'il y ait un degré d'interaction entre eux : des diastéréoisomères SÉPARABLES sont créés à partir d'énantiomères INSÉPARABLES. » L'exemple industriel (p. 325) : « puisque le naproxène est un acide carboxylique, ils choisirent de faire le sel carboxylate d'une amine énantiomériquement pure, et trouvèrent que le plus efficace était un dérivé du glucose. Des cristaux se formèrent, qui consistaient en le sel de l'amine et du (S)-naproxène, le sel de l'amine avec le (R)-naproxène — le diastéréoisomère du sel cristallin — étant PLUS SOLUBLE et restant donc en solution. Ces cristaux furent filtrés et traités par une base, libérant l'amine (qui peut être récupérée et réutilisée plus tard) et permettant au (S)-naproxène de cristalliser sous forme de son sel de sodium. » Et l'aveu sur la pratique : « c'est un agent de résolution inhabituel, car on préférerait d'ordinaire une amine plus simple. Cela illustre cependant le fait que beaucoup d'agents de résolution peuvent devoir être essayés avant qu'on en trouve un qui marche. » L'encadré de la page 326 donne la pharmacologie : (S)-naproxène « 28 fois plus efficace que le (R) » ; ibuprofène vendu racémique « parce que le composé se racémise dans la circulation sanguine » ; Darvon antalgique et son énantiomère Novrad antitussif, « remarquez comme la relation énantiomérique entre ces deux médicaments s'étend au-delà de leurs structures chimiques » ; et la raison de fond : « les récepteurs des médicaments [...] sont presque toujours des molécules de protéine, qui sont énantiomériquement pures parce qu'elles sont faites uniquement d'acides aminés L ». La même page introduit la chromatographie sur phase stationnaire chirale : « des interactions encore plus faibles que les liaisons ioniques peuvent servir à séparer des énantiomères »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

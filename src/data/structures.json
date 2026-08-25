@@ -1071,6 +1071,10 @@
     "substrat": "alkylation_asymetrique_enolate-substrat.svg",
     "produit": "alkylation_asymetrique_enolate-produit.svg"
   },
+  "dedoublement_sel_diastereoisomere": {
+    "substrat": "dedoublement_sel_diastereoisomere-substrat.svg",
+    "produit": "dedoublement_sel_diastereoisomere-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
