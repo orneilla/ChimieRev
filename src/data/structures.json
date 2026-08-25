@@ -1043,6 +1043,10 @@
     "substrat": "povarov-substrat.svg",
     "produit": "povarov-produit.svg"
   },
+  "domino_knoevenagel_diels_alder": {
+    "substrat": "domino_knoevenagel_diels_alder-substrat.svg",
+    "produit": "domino_knoevenagel_diels_alder-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

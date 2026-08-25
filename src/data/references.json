@@ -8058,6 +8058,24 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "domino_knoevenagel_diels_alder": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2.4.2 — Miscellaneous Domino Reactions",
+          "pages": "49-50",
+          "note": "Le travail de Barbas et coll. : « la première hétérodomino Knoevenagel/Diels-Alder/épimérisation organocatalytique directe hautement diastéréosélective », donnant des spiro[cyclohexane-1,2′-indan]-1′,3′,4-triones « avec d'excellents rendements (jusqu'à 99 %) et de façon hautement diastéréosélective [rd (cis/trans) jusqu'à 99:1] MAIS AVEC UNE ÉNANTIOSÉLECTIVITÉ FAIBLE À MODÉRÉE ». Le double rôle du catalyseur (p. 49) : « l'aldéhyde réagit avec la 1,3-indandione par condensation de Knoevenagel catalysée par l'amine pour fournir la benzylidène-indandione via un ion iminium, qui est un EXCELLENT ACIDE DE LEWIS ORGANIQUE. Cet intermédiaire subit alors une Diels-Alder ou une DOUBLE ADDITION DE MICHAEL ». L'épimérisation finale (p. 50) : « l'isomère cinétique minoritaire, le spirane trans, était épimérisé en spirane cis thermodynamiquement stable, par déprotonation/reprotonation ou par des réactions rétro-Michael/Michael catalysées elles aussi par la (S)-proline ». Et la version à l'acide de Meldrum, « diastéréospécifique et énantiosélective », donnant les spiro[5,5]undécane-1,5,9-triones, « intermédiaires attrayants dans la synthèse des produits naturels et en chimie médicinale », où « seul le solvant avait un effet significatif sur les vitesses, les rendements et les valeurs d'excès énantiomérique »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "note de recherche",
+          "pages": "49",
+          "note": "PIÈGE DE RECHERCHE : « hetero-Diels-Alder » et « 1-oxa-1,3-butadiene » ne rendent AUCUNE occurrence dans les neuf ouvrages — les tirets et les préfixes numériques ne s'extraient pas. C'est « domino Knoevenagel » qui rend les quatorze pages utiles."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

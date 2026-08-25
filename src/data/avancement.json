@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 283,
-  "redigees": 261,
-  "verifiees": 177,
+  "redigees": 262,
+  "verifiees": 178,
   "relues": 0,
   "familles": [
     {
@@ -2121,9 +2121,9 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 1,
+      "absente": 0,
       "redigee": 1,
-      "verifiee": 17,
+      "verifiee": 18,
       "relue": 0,
       "reactions": [
         {
@@ -2234,9 +2234,9 @@
         {
           "nom": "Domino Knoevenagel / hétéro-Diels-Alder",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "domino_knoevenagel_diels_alder",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Povarov",

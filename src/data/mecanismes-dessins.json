@@ -11046,5 +11046,47 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "domino_knoevenagel_diels_alder": {
+    "1": {
+      "fichier": "domino_knoevenagel_diels_alder-etape1.svg",
+      "titre": "Trois composants et une amine catalytique",
+      "legende": "Une cétone α,β-insaturée, un aldéhyde, et un composé acide CH — acide de Meldrum ou 1,3-indandione. Le catalyseur est la (S)-proline ou l'un de ses dérivés, en quantité catalytique.\n\nTROIS RÉACTIONS VONT S'ENCHAÎNER SANS QU'ON TOUCHE AU BALLON : une condensation de Knoevenagel, une cycloaddition, puis une épimérisation. C'est ce qu'on appelle une séquence DOMINO — chaque étape crée le substrat de la suivante.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "domino_knoevenagel_diels_alder-etape2.svg",
+      "titre": "L'amine fait deux choses à la fois",
+      "legende": "À GAUCHE : l'amine condense avec l'ALDÉHYDE en iminium, que le composé acide CH attaque ; l'amine se retire, et il reste l'adduit de Knoevenagel. L'ouvrage qualifie l'iminium formé au passage (p. 49) d'« excellent ACIDE DE LEWIS ORGANIQUE ».\n\nÀ DROITE : la même amine condense avec la CÉTONE α,β-insaturée et donne une DIÉNAMINE — un diène portant un azote au milieu, donc très riche en électrons.\n\nUN SEUL CATALYSEUR, DEUX RÔLES OPPOSÉS : il appauvrit un partenaire et enrichit l'autre. C'est ce qui rend la cycloaddition suivante possible.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "domino_knoevenagel_diels_alder-etape3.svg",
+      "titre": "La cycloaddition — ou la double addition de Michael",
+      "legende": "Le diène riche et l'alcène appauvri s'assemblent en un cycle à six chaînons. Trois flèches en rond, deux liaisons σ nouvelles, une liaison π déplacée.\n\nET L'OUVRAGE NE TRANCHE PAS (p. 49) : « cet intermédiaire subit alors une DIELS-ALDER OU UNE DOUBLE ADDITION DE MICHAEL ». Les deux chemins donnent le même cycle : l'un en un seul geste, l'autre en deux additions successives passant par un énolate.\n\nON DESSINE LE CHEMIN CONCERTÉ parce qu'il est le plus économe à lire, et l'on signale l'autre. C'est le même doute que sur la réaction de Povarov, et la même leçon : le bilan ne dit pas le mécanisme.\n\nLE CARBONE DE L'ACIDE DE MELDRUM DEVIENT UN CENTRE SPIRO : il appartient désormais à deux cycles à la fois.",
+      "fleches": [
+        "Une extrémité du diène attaque le carbone du diénophile porteur des carbonyles.",
+        "La double liaison du diénophile forme la seconde liaison nouvelle.",
+        "Et la seconde double liaison du diène se déplace au milieu du cycle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "domino_knoevenagel_diels_alder-etape4.svg",
+      "titre": "Ce qu'on obtient, et ce que la proline en fait ensuite",
+      "legende": "L'énamine s'hydrolyse au traitement et rend une cétone : le produit est un spiro[5,5]undécane-1,5,9-trione, « intermédiaire attrayant dans la synthèse des produits naturels et en chimie médicinale » (p. 50).\n\nET LA PROLINE TRAVAILLE ENCORE APRÈS LA CYCLOADDITION. Sur la version à l'indandione, l'ouvrage écrit (p. 50) : « l'isomère cinétique minoritaire, le spirane TRANS, était épimérisé en spirane CIS thermodynamiquement stable, par déprotonation/reprotonation ou par des réactions rétro-Michael/Michael catalysées elles aussi par la (S)-proline ».\n\nUNE ÉPIMÉRISATION EST UNE TROISIÈME RÉACTION, et elle explique le rendement diastéréomérique : jusqu'à 99:1. Ce que la cycloaddition n'a pas su faire proprement, l'équilibrage le corrige après coup.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

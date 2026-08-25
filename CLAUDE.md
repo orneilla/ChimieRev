@@ -231,10 +231,19 @@ L'état au moment où cet outil a été écrit, et il n'était pas flatteur :
 **79 % des fiches ne citaient qu'un seul ouvrage**, et le Clayden
 apparaissait sur 96 % d'entre elles. Le Housecroft, sur une seule.
 
-Aujourd'hui, sur 247 fiches et 1 015 citations : Clayden 69 %, McMurry
-55 %, Grossman 30 %, Dugas 18 %, LibreTexts 15 %, **Housecroft 14 %**,
-Multicomposants 6 %, Roberts & Caserio 4 %, Carey & Sundberg 4 %. Le
-mono-sourçage est à 15 %.
+Aujourd'hui, sur 262 fiches : Clayden 66 %, McMurry 52 %, Grossman 29 %,
+Dugas 17 %, LibreTexts 14 %, **Housecroft 13 %**, **Multicomposants 11 %**,
+Carey & Sundberg 5 %, Roberts & Caserio 4 %. Le mono-sourçage est à **18 %**.
+
+Il est remonté, et la cause est la même que celle déjà décrite plus haut,
+appliquée à un nouveau bloc : **neuf** des quarante-sept fiches mono-sourcées
+tiennent sur le seul Multicomposants, parce que les réactions du bloc
+« multicomposants » sont pour la plupart postérieures aux manuels du corpus —
+Ugi 1959, CuAAC 2001, couplage A³ 1998, Ugi-Smiles années 2000. Ce n'est pas
+un défaut de recherche : chacune de ces fiches NOMME les huit ouvrages muets,
+et plusieurs relaient les faux positifs rencontrés (« Sakurai » dans une
+bibliographie du Carey & Sundberg, « Petasis » désignant le titanocène chez
+Grossman, « hydantoin » désignant la dégradation d'Edman chez McMurry).
 
 Ces chiffres se relisent à chaque bloc terminé, et ils se REMPLACENT ici :
 un compte périmé dans ce fichier est pire qu'aucun compte, puisqu'on le
