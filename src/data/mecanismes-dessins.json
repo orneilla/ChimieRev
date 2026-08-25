@@ -10923,5 +10923,128 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "yonemitsu": {
+    "1": {
+      "fichier": "yonemitsu-etape1.svg",
+      "titre": "Trois composants, et un catalyseur qui est un acide aminé",
+      "legende": "L'acide de Meldrum, un aldéhyde, et l'INDOLE. Herrera & Marqués-López datent la publication de 1978 (p. 448) : Yonemitsu et ses collègues obtiennent les produits de condensation « avec de hauts rendements (80-98 %) » dans l'acétonitrile, à température légèrement élevée.\n\nET UNE REMARQUE QUI A FAIT CARRIÈRE : « cette réaction s'est révélée ACCÉLÉRÉE par l'addition de 5 mol % de proline ». C'est de l'organocatalyse avant la lettre.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "yonemitsu-etape2.svg",
+      "titre": "La proline fabrique un iminium, puis se retire",
+      "legende": "L'ouvrage décrit le rôle du catalyseur avec précision (p. 449) : « la proline se condense d'abord avec l'aldéhyde pour former un intermédiaire iminium. Celui-ci est attaqué par l'acide de Meldrum, acide CH, avec élimination subséquente de la proline pour fournir le produit de condensation de Knoevenagel. »\n\nLA PROLINE N'ENTRE PAS DANS LE PRODUIT. Elle transforme un aldéhyde en iminium — bien plus électrophile — puis s'en va. C'est la définition d'un catalyseur, et c'est le mécanisme de toute l'organocatalyse par les amines secondaires. Voir la fiche « Multicomposants avec l'acide de Meldrum » pour ce que fait l'acide de Meldrum.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "yonemitsu-etape3.svg",
+      "titre": "L'indole attaque par son carbone n° 3",
+      "legende": "L'ouvrage écrit « addition nucléophile 1,4 de l'indole » (p. 449). Regardez PAR OÙ il attaque : par son carbone n° 3, et non par son azote.\n\nPOURQUOI PAS L'AZOTE, QUI PORTE POURTANT LE DOUBLET ? Parce que ce doublet fait partie des six électrons π du cycle à cinq chaînons : le retirer coûterait l'aromaticité. En attaquant par le carbone 3, l'indole se comporte comme une ÉNAMINE dont l'azote pousse — et le cycle benzénique, lui, reste aromatique.\n\nC'est pourquoi l'ouvrage parle d'un « hétérocycle riche en électrons » : la richesse est sur le carbone 3, pas sur l'azote.",
+      "fleches": [
+        "Le doublet de l'azote pousse.",
+        "Le carbone n° 3 attaque le carbone en β.",
+        "La double liaison glisse vers le carbonyle.",
+        "Les électrons du C=O se replient : voici l'énolate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "yonemitsu-etape4.svg",
+      "titre": "L'indole reprend son aromaticité",
+      "legende": "L'énolate va chercher le proton resté sur le carbone n° 3, et l'indole se réaromatise. L'ouvrage parle de « tautomérisations de l'intermédiaire plutôt INSTABLE » (p. 449) : l'indolénine formée à l'étape précédente n'a aucune envie de le rester.\n\nC'EST TOUJOURS LA MÊME FORCE QUI TIRE : le retour à l'aromaticité. On l'a vue dans la synthèse d'imidazoles de Radziszewski, dans celle de Gewald, et dans toute substitution électrophile aromatique.",
+      "fleches": [
+        "L'oxygène rend son doublet : le carbonyle se reforme.",
+        "Le carbone de l'énolate va chercher le proton du carbone n° 3.",
+        "Les électrons de la liaison C–H reforment la double liaison du cycle.",
+        "L'azote redevient neutre : l'indole est réaromatisé."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "yonemitsu-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le produit de Yonemitsu. Chauffé dans l'éthanol, il perd son acétone et son dioxyde de carbone comme tout adduit de l'acide de Meldrum : « une éthanolyse décarboxylante subséquente donna des indolepropionates d'éthyle diversement substitués avec de bons rendements (62-87 %) » (p. 448).\n\nUNE REMARQUE DE L'OUVRAGE SUR LA LITTÉRATURE, ET ELLE EST HONNÊTE (p. 449) : « la réaction de Yonemitsu originale se rencontre relativement rarement dans la littérature contemporaine, mais de nombreuses modifications par échange du composant acide CH ou du composant hétérocyclique ont été publiées. Ces modifications font de la réaction de Yonemitsu une RMC largement appliquée en synthèse organique, bien que leur classification comme modification de la réaction de Yonemitsu NE SOIT PAS TOUJOURS MENTIONNÉE dans la littérature. »\n\nAutrement dit : on emploie cette réaction bien plus souvent qu'on ne la nomme.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "povarov": {
+    "1": {
+      "fichier": "povarov-etape1.svg",
+      "titre": "Une aniline, un aldéhyde, un alcène riche",
+      "legende": "Povarov observe la réaction en 1963 (p. 466) : « la formation de dérivés de 1,2,3,4-tétrahydroquinoléine par la réaction de la N-benzylidèneaniline et d'éthers vinyliques d'alkyle en présence d'étherate de trifluorure de bore ».\n\nCOMPTEZ LES ATOMES DU NOUVEAU CYCLE : il en faut six, et il se referme sur le cycle aromatique de l'aniline. L'azote et le carbone ipso viennent de l'aniline ; le carbone porteur de l'ancien carbonyle vient de l'aldéhyde ; les deux derniers viennent de l'alcène. Et le sixième est le carbone ORTHO de l'aniline, qui devra être attaqué.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "povarov-etape2.svg",
+      "titre": "La base de Schiff, activée par l'acide",
+      "legende": "L'aniline et l'aldéhyde se condensent en base de Schiff ; l'acide de Brønsted ou de Lewis la protone et la rend électrophile. Le détail de la condensation est écrit dans la fiche « Formation des imines et des énamines ».\n\nUNE PRÉCAUTION DE LECTURE AVANT LA SUITE (p. 466-467) : « bien que le mécanisme de la réaction de Povarov soit encore DÉBATTU, un mécanisme par étapes passant par des intermédiaires ioniques est le plus probable ». On dessine donc le chemin ionique, en sachant qu'il n'est pas démontré.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "povarov-etape3.svg",
+      "titre": "L'éther vinylique s'additionne",
+      "legende": "L'alcène riche en électrons attaque l'iminium par son carbone TERMINAL. Le carbocation qui en résulte se retrouve sur le carbone porteur de l'oxygène — donc massivement stabilisé par le doublet de cet oxygène.\n\nC'EST LE MÊME RAISONNEMENT QUE POUR LA RÉACTION DE SAKURAI : l'alcène attaque par le bout qui place la charge là où elle sera secourue. L'ouvrage écrit (p. 467) : « engendrant un ion carbénium, qui est stabilisé par un groupe électrodonneur ».",
+      "fleches": [
+        "L'éther vinylique attaque l'iminium par son carbone terminal.",
+        "La double liaison C=N se replie : l'azote redevient une amine."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "povarov-etape4.svg",
+      "titre": "Le cycle aromatique attaque son propre carbocation",
+      "legende": "Voici l'étape qui donne son nom au produit. Le cycle aromatique de l'aniline attaque le carbocation par son carbone ORTHO : une SUBSTITUTION ÉLECTROPHILE AROMATIQUE, faite à l'intérieur d'une seule molécule. Le cycle à six chaînons se referme.\n\nPOURQUOI L'ORTHO ? Parce que la charge positive qui en résulte tombe sur le carbone ipso, celui qui porte l'azote — et l'azote la reprend aussitôt. C'est la règle d'orientation des anilines, appliquée ici sans qu'on ait le choix.\n\nL'ouvrage écrit (p. 467) : « une substitution électrophile aromatique intramoléculaire finale donne les 1,2,3,4-tétrahydroquinoléines ».",
+      "fleches": [
+        "Le carbone ortho attaque le carbocation.",
+        "L'azote reprend la charge : c'est lui qui rend l'attaque possible."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "povarov-etape5.svg",
+      "titre": "Le cycle se réaromatise",
+      "legende": "Une base emporte le proton du carbone attaqué, et le cycle benzénique redevient aromatique.\n\nC'EST LA SECONDE MOITIÉ DE TOUTE SUBSTITUTION ÉLECTROPHILE AROMATIQUE. On additionne, puis on élimine un proton : le bilan est un échange, et l'aromaticité est rendue.",
+      "fleches": [
+        "L'eau emporte le proton du carbone attaqué.",
+        "Les électrons de la liaison C–H reforment la double liaison du cycle.",
+        "L'azote redevient neutre : le cycle est réaromatisé."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "povarov-etape6.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Une 1,2,3,4-TÉTRAHYDROQUINOLÉINE. Trois composants, un cycle nouveau, et aucun sous-produit sinon l'eau de la condensation initiale.\n\nCE SQUELETTE EST DANS DES PRODUITS NATURELS (p. 466) : la LUOTONINE A, « de structure plutôt simple mais à la cytotoxicité prometteuse contre les cellules leucémiques », a été obtenue en quatre étapes dont une Povarov suivie d'une oxydation ; et l'ACIDE MARTINELLIQUE, préparé par Batey en 2002, dont « le cœur tétrahydroquinoléine hautement substitué » a été bâti « en deux étapes seulement, avec une bonne diastéréosélectivité ».\n\nUNE VARIANTE À CONNAÎTRE (p. 467) : « selon la stabilité du groupe électrodonneur, une élimination peut avoir lieu pour donner la 1,2-dihydroquinoléine, qu'on peut aussi obtenir directement par la réaction d'ALCYNES au lieu d'alcènes ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

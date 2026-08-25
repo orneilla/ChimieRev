@@ -1575,12 +1575,12 @@
         {
           "nom": "Réaction de Povarov",
           "niveau": "M2",
-          "id": null
+          "id": "povarov"
         },
         {
           "nom": "Condensation trimoléculaire de Yonemitsu",
           "niveau": "M2",
-          "id": null
+          "id": "yonemitsu"
         },
         {
           "nom": "Multicomposants avec l'acide de Meldrum",

@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 283,
-  "redigees": 259,
-  "verifiees": 175,
+  "redigees": 261,
+  "verifiees": 177,
   "relues": 0,
   "familles": [
     {
@@ -2121,9 +2121,9 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 3,
+      "absente": 1,
       "redigee": 1,
-      "verifiee": 15,
+      "verifiee": 17,
       "relue": 0,
       "reactions": [
         {
@@ -2241,16 +2241,16 @@
         {
           "nom": "Réaction de Povarov",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "povarov",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Condensation trimoléculaire de Yonemitsu",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "yonemitsu",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Multicomposants avec l'acide de Meldrum",

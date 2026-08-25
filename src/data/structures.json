@@ -1035,6 +1035,14 @@
     "substrat": "acide_meldrum-substrat.svg",
     "produit": "acide_meldrum-produit.svg"
   },
+  "yonemitsu": {
+    "substrat": "yonemitsu-substrat.svg",
+    "produit": "yonemitsu-produit.svg"
+  },
+  "povarov": {
+    "substrat": "povarov-substrat.svg",
+    "produit": "povarov-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

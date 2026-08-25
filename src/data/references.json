@@ -8016,6 +8016,48 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "yonemitsu": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.2 — Yonemitsu-Type Trimolecular Condensations",
+          "pages": "448-449",
+          "note": "L'origine (p. 448) : « en 1978, Yonemitsu et coll. publièrent la réaction à trois composants de l'acide de Meldrum avec divers aldéhydes et l'indole dans l'acétonitrile à températures légèrement élevées, fournissant leurs produits de condensation avec de hauts rendements (80-98 %) ; cette réaction s'est révélée accélérée par l'addition de 5 mol % de proline. Une éthanolyse décarboxylante subséquente donna des indolepropionates d'éthyle diversement substitués avec de bons rendements (62-87 %). » Le mécanisme (p. 449) : « la réaction combine une condensation de Knoevenagel catalysée par la proline avec l'addition de Michael de l'hétérocycle riche en électrons. La proline se condense d'abord avec l'aldéhyde pour former un intermédiaire iminium. Celui-ci est attaqué par l'acide de Meldrum, acide CH, avec élimination subséquente de la proline pour fournir le produit de condensation de Knoevenagel. L'addition nucléophile 1,4 de l'indole, suivie de tautomérisations de l'intermédiaire plutôt instable, libère les produits désirés. » Et la remarque sur la littérature : « la réaction de Yonemitsu originale se rencontre relativement rarement dans la littérature contemporaine, mais de nombreuses modifications [...] font de la réaction de Yonemitsu une RMC largement appliquée en synthèse organique, bien que leur classification comme modification de la réaction de Yonemitsu ne soit pas toujours mentionnée dans la littérature. » L'application de Sapi et coll. (2005) aux tétrahydro-β-carbolines annelées y est décrite : « la configuration du d-glycéraldéhyde ou de l'aldéhyde de Garner dictait la stéréochimie des nouveaux centres stéréogènes »."
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "index",
+          "pages": "1162",
+          "note": "NOTE DE RECHERCHE : « Yonemitsu » rend cette page, et c'est l'INDEX du Carey & Sundberg, qui renvoie hors de l'extrait indexé. Les sept autres ouvrages sont muets."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "povarov": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "13.4 — Povarov MCRs",
+          "pages": "466-467",
+          "note": "L'origine (p. 466) : « en 1963, Povarov observa la formation de dérivés de 1,2,3,4-tétrahydroquinoléine par la réaction de la N-benzylidèneaniline et d'éthers vinyliques d'alkyle en présence d'étherate de trifluorure de bore ». La prudence sur le mécanisme : « bien que le mécanisme de la réaction de Povarov soit encore DÉBATTU, un mécanisme par étapes passant par des intermédiaires ioniques est le plus probable ». Et son détail (p. 467) : condensation en base de Schiff, puis « l'acide de Brønsted ou de Lewis présent active la base de Schiff pour une addition électrophile d'un alcène riche en électrons, engendrant un ion carbénium, qui est stabilisé par un groupe électrodonneur. Une substitution électrophile aromatique intramoléculaire finale donne les 1,2,3,4-tétrahydroquinoléines. » La variante : « selon la stabilité du groupe électrodonneur, une élimination peut avoir lieu pour donner la 1,2-dihydroquinoléine, qu'on peut aussi obtenir directement par la réaction d'alcynes au lieu d'alcènes ». Les deux synthèses totales citées : la luotonine A, « de structure plutôt simple mais à la cytotoxicité prometteuse contre les cellules leucémiques », et l'acide martinellique de Batey (2002), dont le cœur est bâti « en deux étapes seulement, avec une bonne diastéréosélectivité »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "6 — MCRs in the synthesis of bioactive compounds",
+          "pages": "204",
+          "note": "Le contexte de la martinelline : antagoniste du récepteur B2 de la bradykinine. « Batey et Powell étaient convaincus que la martinelline serait accessible par une réaction de Povarov BIOMIMÉTIQUE », et ont traité le 4-aminobenzoate de méthyle par la 2-pyrroline protégée par Cbz et une quantité catalytique d'acide protique."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2 — Organocatalytic MCRs",
+          "pages": "59",
+          "note": "La Povarov comme terminaison d'une cascade organocatalytique : un aldéhyde α,β-insaturé et le malononitrile donnent un intermédiaire qui « évolue par une cascade condensation/Povarov, en présence d'anilines, en conditions acides, pour donner les octahydroacridines désirées avec de hautes diastéréosélectivités »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {
