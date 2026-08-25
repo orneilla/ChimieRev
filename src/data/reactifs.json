@@ -4294,5 +4294,40 @@
         "note": "α-acylamino amide, quatre composants"
       }
     ]
+  },
+  {
+    "id": "uree",
+    "nom": "urée",
+    "nom_complet": "carbamide, H₂N–CO–NH₂",
+    "famille": "Amines et donneurs de condensation",
+    "SMILES": "NC(N)=O",
+    "role": "Apporte DEUX azotes et un carbonyle — la moitié d'un cycle en une molécule",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux azotes",
+        "role": "Ils sont équivalents et réagissent l'un après l'autre : le premier s'additionne sur un carbonyle, le second referme le cycle. C'est ce qui fait de l'urée un partenaire de choix pour construire des hétérocycles en une opération."
+      },
+      {
+        "partie": "le carbonyle central",
+        "role": "Il appauvrit les deux azotes en électrons — l'urée est bien moins nucléophile qu'une amine ordinaire. C'est aussi lui qui devient le carbonyle du cycle : rien n'est perdu."
+      },
+      {
+        "partie": "la conjugaison N–C(=O)–N",
+        "role": "Les doublets des deux azotes se délocalisent sur le carbonyle. L'urée est donc plane, très stable, et beaucoup moins basique qu'une amine : son pKa d'acide conjugué est proche de 0, contre 10 pour une alkylamine."
+      }
+    ],
+    "reactions_liees": [
+      "biginelli"
+    ],
+    "explication_reference": "L'urée est le donneur de condensation le plus économe des réactions multicomposants : elle apporte trois atomes du cycle formé — deux azotes et un carbone carbonylé.\n\nDANS LA RÉACTION DE BIGINELLI, son premier azote s'additionne sur l'aldéhyde (étape cinétiquement déterminante) ; après déshydratation en ion N-acyliminium et piégeage par l'énol d'un composé 1,3-dicarbonylé, c'est le SECOND azote qui referme le cycle à six chaînons sur la cétone restante. Le produit est une 3,4-dihydropyrimidin-2(1H)-one.\n\nSA FAIBLE NUCLÉOPHILIE est le revers de sa stabilité : la conjugaison N–C(=O)–N délocalise les deux doublets azotés. C'est pourquoi la réaction de Biginelli demande une catalyse acide et un chauffage prolongé, et pourquoi la première addition est l'étape lente.\n\nLA THIOURÉE la remplace atome pour atome et donne les thio-dihydropyrimidinones, dont la (S)-monastrol ; le soufre étant plus nucléophile et moins conjugué, elle réagit souvent mieux.\n\nLE CARBONATE D'AMMONIUM joue un rôle voisin dans la réaction de Bucherer-Bergs, où il apporte à la fois l'ammoniac et le dioxyde de carbone (Multicomposants p. 331).",
+    "explication_comprendre": "UNE MOLÉCULE QUI APPORTE LA MOITIÉ DU TRAVAIL\n\nL'urée est ce que vos reins éliminent : c'est la façon dont votre corps se débarrasse de l'azote. Elle vaut quelques centimes le kilo.\n\nRegardez sa forme : deux azotes accrochés au même carbone, lequel porte un oxygène. H₂N–CO–NH₂.\n\nTrois atomes utiles, alignés, prêts à l'emploi.\n\nPOURQUOI CELA COMPTE\n\nQuand on veut construire un cycle à six chaînons contenant deux azotes, il faut trouver ces deux azotes quelque part. Les apporter séparément demanderait de les faire réagir l'un après l'autre, avec le risque qu'ils réagissent au mauvais endroit.\n\nL'urée les apporte ENSEMBLE, déjà tenus à bonne distance par le carbone qui les sépare. Le premier attaque, le second suit, et le cycle se referme tout seul.\n\nUNE LENTEUR QUI S'EXPLIQUE\n\nL'urée est une amine paresseuse.\n\nLa raison : ses deux azotes partagent leurs électrons avec le carbonyle voisin. Ces électrons ne sont donc pas entièrement disponibles pour attaquer autre chose — ils sont déjà occupés.\n\nC'est pourquoi la réaction de Biginelli demande de l'acide et du chauffage, et pourquoi la première addition de l'urée est l'étape la plus lente de toute la séquence.\n\nSI ELLE EST TROP LENTE, ON CHANGE L'ATOME\n\nRemplacez l'oxygène par un soufre : vous obtenez la THIOURÉE. Le soufre partage moins bien ses électrons avec le reste, donc les azotes en gardent davantage, donc ils attaquent mieux.\n\nCe genre de substitution — un atome de la même colonne, une réactivité qui change — est un réflexe utile quand une réaction traîne.",
+    "reactions_exemples": [
+      {
+        "nom": "Biginelli : aldéhyde + urée + β-cétoester",
+        "substrat_SMILES": "O=Cc1ccccc1",
+        "produit_SMILES": "CCOC(=O)C1=C(C)NC(=O)NC1c1ccccc1",
+        "note": "L'urée donne ses deux azotes et son carbonyle"
+      }
+    ]
   }
 ]

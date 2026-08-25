@@ -1520,12 +1520,12 @@
         {
           "nom": "Réaction de Biginelli",
           "niveau": "M1",
-          "id": null
+          "id": "biginelli"
         },
         {
           "nom": "Synthèse de Hantzsch des dihydropyridines",
           "niveau": "M1",
-          "id": null
+          "id": "hantzsch_dihydropyridines"
         },
         {
           "nom": "Réaction de Bucherer-Bergs",

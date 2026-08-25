@@ -25440,5 +25440,521 @@
         "valide": false
       }
     ]
+  },
+  "biginelli": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Les trois partenaires",
+        "smiles": "CC=O.NC(N)=O.CC(=O)CC(C)=O",
+        "legende": "Un aldéhyde, l'urée, un composé 1,3-dicarbonylé. Chauffés dans l'éthanol avec un peu d'acide chlorhydrique — c'est tout le mode opératoire de 1891.\n\nDEUX SIMPLIFICATIONS DE SCHÉMA, déclarées : on dessine l'acétaldéhyde là où Biginelli emploie un aldéhyde AROMATIQUE, et la pentane-2,4-dione là où il emploie un β-cétoester. Le mécanisme est identique ; le produit réel porte un ester à la place de l'acétyle.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'urée attaque l'aldéhyde protoné",
+        "smiles": "CC=[O+][H].NC(N)=O",
+        "legende": "L'acide protone l'aldéhyde, ce qui le rend bien plus électrophile ; un azote de l'urée s'y additionne.\n\nCETTE ÉTAPE EST LA PLUS LENTE DE TOUTES. Herrera & Marqués-López sont formels (p. 307) : « la première addition de l'urée sur l'aldéhyde est supposée être l'étape cinétiquement déterminante », les trois suivantes étant plus rapides. Le fait est « en accord avec des expériences de RMN conduites dans les conditions typiques de Biginelli ».",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Un azote de l'urée attaque le carbone de l'aldéhyde protoné."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène, qui devient un alcool."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(O)[NH2+]C(N)=O"
+      },
+      {
+        "numero": 3,
+        "titre": "L'eau part : voici l'ion N-acyliminium",
+        "smiles": "CC([O+]([H])[H])N([H])C(N)=O",
+        "legende": "L'alcool est protoné par le milieu, donc prêt à partir. Le doublet de l'azote le pousse dehors sous forme d'eau.\n\nLE PRODUIT EST L'INTERMÉDIAIRE 16 DU SCHÉMA 9.2 (p. 308), et c'est le carrefour de la réaction. L'ouvrage signale la voie sans issue qui s'ouvre ici : « en l'absence du troisième composant, le composé 1,3-dicarbonylé, un second équivalent d'urée s'additionnerait sur 16, donnant le bis-uréide 17 » — un produit stérile. C'est la présence du 1,3-dicarbonylé qui détourne l'iminium vers le bon chemin.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le doublet de l'azote pousse."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "La liaison C–O se rompt : l'eau s'en va."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC=[NH+]C(N)=O.O"
+      },
+      {
+        "numero": 4,
+        "titre": "L'énol du 1,3-dicarbonylé piège l'iminium",
+        "smiles": "CC(O)=CC(C)=O.O=C(N)[NH+]=CC",
+        "legende": "Le composé 1,3-dicarbonylé est très largement énolisé — c'est ce qui fait toute sa nucléophilie. Son carbone central attaque l'iminium.\n\n« L'ion iminium 16, pauvre en électrons, est piégé par le tautomère énol correspondant » (p. 307). Le mot PIÉGÉ est celui de l'ouvrage, et il est juste : l'iminium est un carrefour, et l'énol ferme la mauvaise sortie.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                2,
+                1
+              ]
+            },
+            "courbure": -0.55,
+            "libelle": "L'oxygène de l'énol rend son doublet : le carbonyle se reforme."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "liaison": [
+                3,
+                11
+              ]
+            },
+            "courbure": -0.55,
+            "libelle": "Les électrons de la double liaison de l'énol attaquent l'iminium."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": 0.28,
+            "libelle": "La double liaison C=N se replie : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)C(C(C)=[OH+])C(C)NC(N)=O"
+      },
+      {
+        "numero": 5,
+        "titre": "Le proton s'en va",
+        "smiles": "CC(=O)C(C(C)=[O+][H])C(C)NC(N)=O.O",
+        "legende": "L'eau reprend le proton : la cétone est restituée. On tient l'intermédiaire ouvert, numéroté 18 dans l'ouvrage — l'aldéhyde, l'urée et le dicarbonylé y sont tous les trois, et rien n'a encore cyclisé.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                7
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'eau va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                6,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 6
+            },
+            "courbure": -0.4,
+            "libelle": "L'oxygène garde ses électrons : la cétone est de retour."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)C(C(C)=O)C(C)NC(N)=O.[OH3+]"
+      },
+      {
+        "numero": 6,
+        "titre": "L'autre azote de l'urée referme le cycle",
+        "smiles": "CC(=O)C(C(C)=O)C(C)N([H])C(N)=O",
+        "legende": "Le SECOND azote de l'urée — celui qui n'a rien fait jusqu'ici — attaque la cétone restante. Le cycle qui se forme compte SIX chaînons.\n\nREGARDEZ CE QUE L'URÉE A FAIT : elle a fourni ses DEUX azotes, l'un au début, l'autre à la fin, et son carbonyle est devenu celui du cycle. Un seul réactif, trois atomes du produit.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 12
+            },
+            "vers": {
+              "liaison": [
+                12,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le second azote de l'urée attaque la cétone."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)C1C(C)NC(=O)[NH2+]C1(C)[O-]"
+      },
+      {
+        "numero": 7,
+        "titre": "L'eau part une seconde fois",
+        "smiles": "CC1([O+]([H])[H])N([H])C(=O)N([H])C(C)C1C(C)=O",
+        "legende": "L'alcool du cycle, protoné, s'en va : l'azote pousse, et l'on obtient un ion N-acyliminium CYCLIQUE cette fois.\n\nC'est le même geste qu'à l'étape 3, sur le même azote d'urée — mais à l'intérieur du cycle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote pousse."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "L'eau s'en va."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)C1C(C)=[NH+]C(=O)NC1C.O"
+      },
+      {
+        "numero": 8,
+        "titre": "Un dernier proton, et la double liaison naît",
+        "smiles": "CC1=[N+]([H])C(=O)N([H])C(C)C1([H])C(C)=O.O",
+        "legende": "L'eau arrache un proton au carbone voisin de l'iminium : la double liaison C=C se forme, l'azote redevient neutre. Le produit est une 3,4-DIHYDROPYRIMIDIN-2(1H)-ONE, ou DHPM.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 15
+            },
+            "vers": {
+              "liaison": [
+                15,
+                11
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'eau prend le proton du carbone voisin."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                11
+              ]
+            },
+            "vers": {
+              "liaison": [
+                10,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Les électrons de la liaison C–H forment la double liaison C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(=O)C1=C(C)NC(=O)NC1C.[OH3+]"
+      },
+      {
+        "numero": 9,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC(=O)C1=C(C)NC(=O)NC1C",
+        "legende": "La dihydropyrimidinone. Trois molécules y sont entrées, deux molécules d'eau en sont sorties.\n\nCE SQUELETTE EST CELUI D'UNE FAMILLE DE MÉDICAMENTS : la figure 9.1 de l'ouvrage (p. 307) en aligne neuf, dont la (S)-monastrol, inhibitrice de la kinésine mitotique Eg5, et le Bay 41-4109, antiviral. La stéréochimie du carbone n° 4 y décide de l'activité : la (S)-monastrol est anticancéreuse, son énantiomère (R) ne l'est pas de la même façon.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "hantzsch_dihydropyridines": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Quatre molécules, dont deux identiques",
+        "smiles": "CC=O.COC(=O)CC(C)=O.N",
+        "legende": "Un aldéhyde, DEUX équivalents de β-cétoester, et l'ammoniac. On chauffe dans l'éthanol ; il n'y a rien d'autre.\n\nCOMPTEZ LES ATOMES DU CYCLE À VENIR : l'azote vient de l'ammoniac, le carbone n° 4 vient de l'aldéhyde, et les quatre autres viennent des deux cétoesters, deux chacun. Rien n'est perdu que trois molécules d'eau.\n\nUNE SIMPLIFICATION DE SCHÉMA, déclarée : on dessine l'acétaldéhyde là où les médicaments de cette famille emploient un aldéhyde aromatique.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Premier acte : une condensation de Knoevenagel",
+        "smiles": "CC=C(C(=O)OC)C(C)=O",
+        "legende": "L'aldéhyde et un premier cétoester se condensent, l'eau part, et il reste un accepteur de Michael : une double liaison flanquée de deux carbonyles.\n\nLE DÉTAIL DE CETTE CONDENSATION est écrit dans la fiche « Condensation de Knoevenagel » ; on ne le redessine pas ici.\n\nCLAYDEN DONNE LA LISTE DES QUATRE GESTES (p. 764), et il faut la lire en entier : « réaction aldolique entre l'aldéhyde et le cétoester ; addition de Michael (conjuguée) sur l'énone ; addition de l'ammoniac sur une cétone ; cyclisation de l'imine ou de l'énamine sur l'autre cétone » — suivie de cette phrase qui vaut d'être retenue : « bien que plusieurs de ces étapes puissent se produire dans un ordre différent ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Deuxième acte : l'addition de Michael",
+        "smiles": "CC=C(C(=O)OC)C(C)=O.COC(=O)[CH-]C(C)=O",
+        "legende": "Le SECOND cétoester, déprotoné par l'ammoniac, attaque en bout de chaîne — en position β, loin du carbonyle. C'est une addition conjuguée.\n\nPOURQUOI L'AMMONIAC SUFFIT À LE DÉPROTONER : le proton visé est coincé entre deux carbonyles. Son pKa tombe vers 11, ce qui le met à la portée d'une base aussi douce que l'ammoniac.\n\nÀ CE STADE LA MOLÉCULE EST SYMÉTRIQUE : deux cétoesters de part et d'autre du carbone venu de l'aldéhyde. C'est cette symétrie qui fait la force ET la limite de la méthode.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le carbanion attaque le carbone en β."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                2,
+                7
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "La double liaison C=C glisse vers le carbonyle."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 9
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène : voici l'énolate."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "COC(=O)C(=C(C)[O-])C(C)C(C(C)=O)C(=O)OC"
+      },
+      {
+        "numero": 4,
+        "titre": "Troisième acte : l'ammoniac fait une énamine",
+        "smiles": "COC(=O)C(=C(C)N)C(C)C(C(=O)OC)C(C)=O",
+        "legende": "L'énolate de l'étape précédente reprend un proton au milieu, puis l'ammoniac se condense avec l'une des deux cétones. L'imine formée bascule aussitôt en ÉNAMINE, parce que le carbone voisin porte un ester qui stabilise la double liaison.\n\nLA CONDENSATION est écrite en détail dans la fiche « Formation des imines et des énamines ». On ne la redessine pas.\n\nLES DEUX CÉTONES SONT ÉQUIVALENTES : peu importe laquelle réagit. C'est le bénéfice de la symétrie.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 5,
+        "titre": "Quatrième acte : l'azote referme le cycle",
+        "smiles": "COC(=O)C(=C(C)N([H])[H])C(C)C(C(=O)OC)C(C)=O",
+        "legende": "L'azote de l'énamine attaque la cétone restée libre à l'autre bout. Six chaînons.\n\nCLAYDEN ÉCRIT « l'imine OU l'énamine » (p. 764), et cette hésitation est délibérée : les deux formes coexistent, et c'est l'azote qui attaque dans les deux cas.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                17
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote attaque la cétone restante."
+          },
+          {
+            "de": {
+              "liaison": [
+                17,
+                19
+              ]
+            },
+            "vers": {
+              "atome": 19
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "COC(=O)C1=C(C)[NH2+]C(C)([O-])C(C(=O)OC)C1C"
+      },
+      {
+        "numero": 6,
+        "titre": "L'eau part",
+        "smiles": "COC(=O)C1=C(C)N([H])C(C)([O+]([H])[H])C(C(=O)OC)C1C",
+        "legende": "L'alcool du cycle, protoné par le milieu, s'en va sous la poussée du doublet de l'azote : on obtient un ion iminium cyclique.\n\nC'EST EXACTEMENT LA FIN DE LA RÉACTION DE BIGINELLI. Deux réactions découvertes à neuf ans d'intervalle, deux cycles différents, la même sortie : déshydratation, iminium, perte d'un proton.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                9
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le doublet de l'azote pousse."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 11
+            },
+            "courbure": -0.4,
+            "libelle": "L'eau s'en va."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "COC(=O)C1=C(C)[NH+]=C(C)C(C(=O)OC)C1C.O"
+      },
+      {
+        "numero": 7,
+        "titre": "Un proton, et la seconde double liaison naît",
+        "smiles": "COC(=O)C1=C(C)[N+]([H])=C(C)C([H])(C(=O)OC)C1C.O",
+        "legende": "L'eau prend le proton du carbone voisin de l'iminium. La seconde double liaison se forme, l'azote redevient neutre, et le cycle porte alors DEUX doubles liaisons de part et d'autre de l'azote.\n\nLE CARBONE QUI RESTE sp³ EST CELUI QUI VIENT DE L'ALDÉHYDE : c'est la position 4, et c'est de là que vient le nom de 1,4-dihydropyridine.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 19
+            },
+            "vers": {
+              "liaison": [
+                19,
+                12
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'eau prend le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                11,
+                12
+              ]
+            },
+            "vers": {
+              "liaison": [
+                11,
+                9
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Les électrons de la liaison C–H forment la double liaison C=C."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1C.[OH3+]"
+      },
+      {
+        "numero": 8,
+        "titre": "Ce qu'on obtient",
+        "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1C",
+        "legende": "La 1,4-dihydropyridine. Le cycle n'est PAS aromatique — il lui manque deux électrons —, et c'est justement ce qui le rend utile : il peut céder un hydrure depuis sa position 4 et devenir alors une pyridine aromatique.\n\nCLAYDEN LE SIGNALE EN NOTE DE MARGE (p. 764) : « la nature emploie des dihydropyridines apparentées comme agents réducteurs dans les êtres vivants ». C'est le NADH — voir la fiche « Oxydoréduction par NAD(P)H ».",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

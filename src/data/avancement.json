@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 283,
-  "redigees": 247,
-  "verifiees": 164,
+  "redigees": 249,
+  "verifiees": 166,
   "relues": 0,
   "familles": [
     {
@@ -2121,9 +2121,9 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 15,
+      "absente": 13,
       "redigee": 0,
-      "verifiee": 4,
+      "verifiee": 6,
       "relue": 0,
       "reactions": [
         {
@@ -2164,16 +2164,16 @@
         {
           "nom": "Réaction de Biginelli",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "biginelli",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Synthèse de Hantzsch des dihydropyridines",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "hantzsch_dihydropyridines",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Bucherer-Bergs",

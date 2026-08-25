@@ -987,6 +987,14 @@
     "substrat": "ugi_u4cr-substrat.svg",
     "produit": "ugi_u4cr-produit.svg"
   },
+  "biginelli": {
+    "substrat": "biginelli-substrat.svg",
+    "produit": "biginelli-produit.svg"
+  },
+  "hantzsch_dihydropyridines": {
+    "substrat": "hantzsch_dihydropyridines-substrat.svg",
+    "produit": "hantzsch_dihydropyridines-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1714,6 +1722,13 @@
   "isocyanure_tertbutyle-ex1": {
     "substrat": "isocyanure_tertbutyle-ex1-substrat.svg",
     "produit": "isocyanure_tertbutyle-ex1-produit.svg"
+  },
+  "uree": {
+    "molecule": "reactif-uree.svg"
+  },
+  "uree-ex0": {
+    "substrat": "uree-ex0-substrat.svg",
+    "produit": "uree-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"
