@@ -955,6 +955,30 @@
     "substrat": "paterno_buchi-substrat.svg",
     "produit": "paterno_buchi-produit.svg"
   },
+  "electrocyclique_photochimique": {
+    "substrat": "electrocyclique_photochimique-substrat.svg",
+    "produit": "electrocyclique_photochimique-produit.svg"
+  },
+  "di_pi_methane": {
+    "substrat": "di_pi_methane-substrat.svg",
+    "produit": "di_pi_methane-produit.svg"
+  },
+  "barton": {
+    "substrat": "barton-substrat.svg",
+    "produit": "barton-produit.svg"
+  },
+  "photochimie_aromatiques": {
+    "substrat": "photochimie_aromatiques-substrat.svg",
+    "produit": "photochimie_aromatiques-produit.svg"
+  },
+  "chimiluminescence": {
+    "substrat": "chimiluminescence-substrat.svg",
+    "produit": "chimiluminescence-produit.svg"
+  },
+  "vision_retinal": {
+    "substrat": "vision_retinal-substrat.svg",
+    "produit": "vision_retinal-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

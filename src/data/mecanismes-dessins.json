@@ -9667,5 +9667,174 @@
       "coherenceVerifiee": true,
       "valide": false
     }
+  },
+  "electrocyclique_photochimique": {
+    "1": {
+      "fichier": "electrocyclique_photochimique-etape1.svg",
+      "titre": "La même réaction qu'à chaud, et la stéréochimie inverse",
+      "legende": "Le butadiène se referme en cyclobutène. À chaud comme sous photon — mais PAS DE LA MÊME FAÇON.\n\nCAREY & SUNDBERG POSENT LE RÉSULTAT GÉNÉRAL (p. 1099) : « c'est un résultat général que les règles de Woodward-Hoffmann prédisent que les réactions photochimiques seront COMPLÉMENTAIRES des réactions thermiques. Ce qui est permis photochimiquement est interdit thermiquement, et réciproquement. »\n\nET POUR LES ÉLECTROCYCLIQUES EN PARTICULIER (p. 1099) : « la symétrie orbitalaire prédit que les réactions électrocycliques photochimiques montreront un RENVERSEMENT DE STÉRÉOCHIMIE relatif aux réactions thermiques. »\n\nUn système à quatre électrons se ferme en CONROTATOIRE à chaud, en DISROTATOIRE sous photon. Un système à six électrons fait l'inverse.\n\nCE QUE LES FLÈCHES NE DISENT PAS, ET IL FAUT LE SAVOIR. Le Grossman le rappelle ailleurs dans ce corpus : dans une réaction péricyclique, le SENS de rotation des flèches est libre — elles ne montrent que le changement de schéma de liaison, non un déplacement de densité. La stéréochimie ne se lit pas sur les flèches : elle se lit sur les orbitales.\n\nLES DEUX FLÈCHES DESSINÉES ICI décrivent donc le bilan, pas le mode. Il faut leur ajouter, en tête, l'information « conrotatoire » ou « disrotatoire » — que le schéma ne peut pas porter.",
+      "fleches": [
+        "Une liaison π se referme sur l'autre extrémité de la chaîne…",
+        "…et l'autre se déplace au centre. Le cyclobutène est fait."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "electrocyclique_photochimique-etape2.svg",
+      "titre": "Pourquoi l'interdit thermique est ce qui rend la photochimie efficace",
+      "legende": "Voici le point que peu d'ouvrages donnent, et qui explique la complémentarité au lieu de la constater.\n\nCAREY & SUNDBERG (p. 1099) : « la base PHYSIQUE de cette relation complémentaire est que la HAUTE BARRIÈRE associée aux réactions thermiques interdites fournit un point d'INTERACTION FORTE entre les espèces à l'état fondamental et à l'état excité. Comme les deux états sont PROCHES EN ÉNERGIE et de MÊME SYMÉTRIE, ils se “MÉLANGENT” et permettent à la molécule excitée d'atteindre l'état fondamental. Cette interaction est NÉCESSAIRE aux réactions photochimiques efficaces. »\n\nRELISEZ LA DERNIÈRE PHRASE. La barrière qui INTERDIT la réaction thermique est exactement l'endroit où la molécule excitée peut redescendre.\n\nCE QUI EST UN MUR EN BAS EST UNE PORTE EN HAUT.\n\nUne réaction thermiquement permise n'offre pas ce point de rencontre : les deux surfaces restent éloignées, la molécule excitée ne sait pas comment redescendre, et la réaction photochimique est inefficace.\n\nLA COMPLÉMENTARITÉ N'EST DONC PAS UNE COÏNCIDENCE DE RÈGLES. C'est la même géométrie orbitalaire, lue à deux étages.\n\nET ON A MESURÉ LA DESCENTE. Carey & Sundberg donnent, pour le butadiène, les durées de vie en femtosecondes le long de la surface — 44, 18, 18, 18, 10 fs — et nomment le passage : une INTERSECTION CONIQUE, l'endroit où les deux surfaces se touchent réellement (fig. 12.20, p. 1102).\n\nÀ ces échelles, la molécule ne « choisit » pas un chemin : elle tombe.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "di_pi_methane": {
+    "1": {
+      "fichier": "di_pi_methane-etape1.svg",
+      "titre": "Deux liaisons π séparées par un carbone sp³",
+      "legende": "Voici le motif qui donne son nom à la réaction : DEUX liaisons π (di-π) séparées par UN carbone saturé (méthane). Un 1,4-diène.\n\nCE QU'IL DEVIENT SOUS PHOTON : un VINYLCYCLOPROPANE. Une des deux doubles liaisons a disparu, un cycle à trois est apparu, et le squelette s'est réarrangé.\n\nLE MOT « DI-π-MÉTHANE » NE SE CHERCHE PAS, ET C'EST UN PIÈGE DE CE DÉPÔT. « di-pi-methane » ne rend AUCUNE occurrence dans les neuf ouvrages, parce que le π est une lettre grecque que l'extraction de texte ne rend pas. Le même sujet, cherché sous « methane rearrangement », rend QUATORZE pages du Carey & Sundberg. C'est le piège de la lettre grecque, déjà consigné pour la β-oxydation.\n\nLE MÉCANISME CONCERTÉ EST DE TOPOLOGIE DE MÖBIUS (Carey & Sundberg p. 1113) : « le réseau orbitalaire est de topologie de MÖBIUS avec un changement de phase représenté entre les positions C(1) et C(2). Cela correspond à un processus photochimique PERMIS puisqu'il y a SIX électrons impliqués dans les changements de liaison, et que c'est un système ANTIAROMATIQUE. »\n\nSix électrons en topologie de Möbius : antiaromatique, donc interdit à chaud et permis sous photon. La règle est celle de tout le chapitre, appliquée à un cas moins connu.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "di_pi_methane-etape2.svg",
+      "titre": "Ce que la stéréochimie prouve — et ce qu'elle exclut",
+      "legende": "Le produit est un vinylcyclopropane. Et sa stéréochimie tranche une question de mécanisme.\n\nCAREY & SUNDBERG (p. 1113) : « la transposition di-π-méthane est une réaction STÉRÉOSPÉCIFIQUE. […] Il est connu que la double liaison qui reste NON CYCLISÉE conserve la configuration E ou Z présente dans le produit de départ. CE RÉSULTAT EXCLUT tout intermédiaire portant un radical terminal LIBRE DE TOURNER. »\n\nVOILÀ COMMENT ON ÉLIMINE UN MÉCANISME. On ne démontre pas que le chemin concerté existe ; on démontre qu'un chemin concurrent ne peut PAS exister, parce qu'il détruirait une information que le produit a conservée.\n\nC'EST LE MÊME RAISONNEMENT QUE POUR LA [2+2] ET LA PATERNÒ-BÜCHI, décrites ailleurs dans ce bloc — sauf qu'ici la conclusion va plus loin. Là-bas, on comparait la durée de vie d'un diradical à celle d'une rotation. Ici, la conservation est totale : il n'y a pas de radical terminal libre du tout.\n\nET LE MÊME OUVRAGE PRÉCISE CE QUE LE MÉCANISME CONCERTÉ IMPLIQUE ENCORE (p. 1113) : « le mécanisme concerté implique que C(3) subirait une INVERSION de configuration, puisque la nouvelle liaison C(3)−C(5) est formée en employant le LOBE ARRIÈRE de la liaison σ C(2)−C(3). »\n\nUne inversion de Walden, au milieu d'une réaction photochimique. La prédiction est vérifiable, et elle l'a été.\n\nAUCUNE FLÈCHE SUR CES SCHÉMAS. La transposition met en jeu un réarrangement à six électrons dont la topologie — et non le sens de parcours — porte toute l'information. Des flèches courbes en donneraient le bilan sans rien dire de ce qui compte : la phase des orbitales et la face attaquée.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "di_pi_methane-etape3.svg",
+      "titre": "Le même substrat, deux produits, selon COMMENT on l'excite",
+      "legende": "Voici l'expérience qui montre le mieux ce qu'apporte la photosensibilisation, et Carey & Sundberg la rapportent (p. 1112) :\n\n« Le 5,5-diphénylcyclohexa-1,3-diène montre un comportement photochimique DIVERGENT, selon que la réaction est induite par IRRADIATION DIRECTE ou par PHOTOSENSIBILISATION. Sous irradiation directe, l'OUVERTURE DE CYCLE ÉLECTROCYCLIQUE en 1,1-diphénylhexatriène est dominante, tandis qu'une transposition impliquant la MIGRATION de l'un des cycles aromatiques est la réaction majeure de l'état excité TRIPLET formé par photosensibilisation. »\n\nUNE MOLÉCULE, DEUX PRODUITS, ET CE QUI LES SÉPARE N'EST NI UN RÉACTIF NI UNE TEMPÉRATURE : c'est l'ÉTAT EXCITÉ par lequel on passe.\n\n• SINGULET (irradiation directe) → réaction électrocyclique, décrite dans sa propre fiche.\n• TRIPLET (par sensibilisateur) → transposition di-π-méthane.\n\nCE QU'UN SENSIBILISATEUR FAIT VRAIMENT. Il absorbe à sa place, croise vers son propre triplet, puis transfère cette énergie au substrat — qui se retrouve triplet sans être jamais passé par son singulet réactif.\n\nCAREY & SUNDBERG DONNENT LES CRITÈRES DE CHOIX (p. 1076) : le sensibilisateur « doit être excité par l'irradiation employée » et « doit être présent en concentration suffisante et absorber PLUS FORTEMENT que les autres réactifs ». Chacun a son énergie de triplet caractéristique, E_T, qu'il peut transférer.\n\nET LE CHOIX SE FAIT SUR UNE TABLE DE CHIFFRES (p. 1104) : acétophénone 73,6 ; benzophénone 68,5 ; flavone 62,0 ; 2-acétylnaphtalène 59,6 ; 1-acétylnaphtalène 56,4 ; benzile 53,7 kcal/mol — avec, en regard, la composition du produit obtenu. En descendant l'échelle d'énergie, on change la proportion des isomères formés.\n\nON RÈGLE UNE RÉACTION EN CHOISISSANT QUI ABSORBE À LA PLACE DU SUBSTRAT.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "barton": {
+    "1": {
+      "fichier": "barton-etape1.svg",
+      "titre": "La liaison O–N se rompt, et NO s'en va",
+      "legende": "Un nitrite d'alkyle — R–O–N=O — absorbe un photon. La liaison O–N, faible, se rompt homolytiquement.\n\nGROSSMAN DÉCRIT LA SÉQUENCE ENTIÈRE EN UNE PHRASE (p. 318) : « dans la réaction de Barton, un NITRITE D'ALKYLE est converti en un ALCOOL-OXIME. Le nitrite est photoexcité en un diradical-1,2. Il fragmente en NO et en un RADICAL ALCOXYLE (RO•), et ce dernier arrache un H de la liaison C–H LA PLUS PROCHE. Le radical alkyle résultant se combine alors avec NO pour donner un composé NITROSO, qui se tautomérise ensuite en oxime, probablement par un mécanisme polaire par étapes. »\n\nTOUT LE MÉCANISME EST LÀ. Ce qui reste à comprendre est POURQUOI il fonctionne — et la réponse tient au monoxyde d'azote.\n\nNO EST UN RADICAL STABLE. Il a un nombre impair d'électrons et ne s'en émeut pas : il existe en bouteille, on le respire à dose infime, il sert de messager biologique. Ce n'est pas une espèce fugace.\n\nGROSSMAN EN TIRE UNE CONSÉQUENCE DE MÉCANISME (p. 318) : « on pourrait écrire un mécanisme EN CHAÎNE parfaitement raisonnable pour la réaction de Barton, mais un mécanisme NON EN CHAÎNE est approprié parce que NO est un radical libre STABLE, et il traîne dans les parages jusqu'à ce qu'il puisse se combiner avec le radical alkyle pour former une forte liaison C–N. »\n\nDEUX MÉCANISMES SONT ÉCRIVABLES, UN SEUL EST LE BON, et ce qui tranche est la STABILITÉ d'un des partenaires. Un radical stable n'a pas besoin de propager une chaîne : il attend.",
+      "fleches": [
+        "Un électron de la liaison O–N reste sur l'oxygène : voici le radical alcoxyle.",
+        "L'autre part avec l'azote. NO s'en va — et il attendra."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "barton-etape2.svg",
+      "titre": "L'arrachement 1,5 : le radical va chercher un hydrogène à distance",
+      "legende": "Le radical alcoxyle se replie sur sa propre chaîne et arrache un hydrogène.\n\nGROSSMAN ÉCRIT « la liaison C–H LA PLUS PROCHE » (p. 318), et le mot PROCHE ne parle pas du nombre de liaisons mais de la GÉOMÉTRIE. Comptez le cycle de l'état de transition : oxygène, C1, C2, C3, C4, plus l'hydrogène — SIX atomes.\n\nC'EST EXACTEMENT LA GÉOMÉTRIE DU NORRISH DE TYPE II, décrit ailleurs dans ce bloc. Même cycle à six, même arrachement par un oxygène radicalaire, même indifférence à la force de la liaison C–H.\n\nON APPELLE CELA UN TRANSFERT 1,5 D'HYDROGÈNE — en comptant l'oxygène comme position 1 et le carbone attaqué comme position 5.\n\nET C'EST DE LÀ QUE VIENT L'INTÉRÊT DE LA RÉACTION. On fonctionnalise un carbone que rien ne distingue chimiquement de ses voisins : ni plus acide, ni plus substitué, ni plus accessible. Seulement mieux placé.\n\nGROSSMAN NOMME L'USAGE (p. 318) : « la réaction de Barton a servi à la FONCTIONNALISATION À DISTANCE des hydrocarbures. » C'est ainsi qu'on atteint un méthyle angulaire de stéroïde, inerte par tous les autres moyens.\n\nTROIS HAMEÇONS : un vient du radical, les deux autres de la liaison C–H. L'hydrogène visé est écrit explicitement pour que la flèche puisse l'atteindre.",
+      "fleches": [
+        "L'électron célibataire de l'oxygène part former la liaison O–H…",
+        "…où un électron de la liaison C–H vient s'apparier avec lui.",
+        "L'autre reste sur le carbone : l'alcool est fait, et le radical a DÉMÉNAGÉ de quatre carbones."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "3": {
+      "fichier": "barton-etape3.svg",
+      "titre": "NO revient se poser, et le nitroso devient une oxime",
+      "legende": "Le monoxyde d'azote, qui attendait, se combine au radical alkyle. La liaison C–N est forte, et la réaction est acquise.\n\nCE QU'ON OBTIENT EST UN COMPOSÉ NITROSO, R–N=O. Et il ne reste pas tel quel.\n\nGROSSMAN (p. 318) : le nitroso « se tautomérise ensuite en OXIME, probablement par un mécanisme POLAIRE PAR ÉTAPES ».\n\nNOTEZ LE « PROBABLEMENT ». On sait que la tautomérisation a lieu ; on ne prétend pas savoir exactement comment. Un ouvrage qui écrit « probablement » là où il ne sait pas vaut mieux qu'un ouvrage qui dessine un mécanisme sûr de lui.\n\nET NOTEZ LE CHANGEMENT DE RÉGIME. Les trois premières étapes déplacent UN électron à la fois — hameçons. Celle-ci en déplace deux — flèches entières. La réaction commence radicalaire et finit polaire, dans le même ballon.\n\nLE BILAN DE LA RÉACTION DE BARTON : un alcool d'un côté de la molécule, une oxime de l'autre — sur un carbone qui n'avait rien pour se faire remarquer. C'est le prototype de ce qu'on appelle aujourd'hui la FONCTIONNALISATION C–H À DISTANCE.",
+      "fleches": [
+        "L'électron célibataire du carbone…",
+        "…s'apparie avec celui de l'azote. La liaison C–N est faite."
+      ],
+      "hamecons": true,
+      "coherenceVerifiee": true,
+      "valide": false
+    }
+  },
+  "photochimie_aromatiques": {
+    "1": {
+      "fichier": "photochimie_aromatiques-etape1.svg",
+      "titre": "Le benzène irradié cesse d'être aromatique",
+      "legende": "CAREY & SUNDBERG OUVRENT LA SECTION AINSI (p. 1134) : « l'irradiation du benzène et de certains de ses dérivés résulte en une RÉORGANISATION DES LIAISONS et en la formation de produits NON AROMATIQUES. »\n\nNON AROMATIQUES. C'est-à-dire qu'on a payé, avec un photon, les quelque 150 kJ/mol d'énergie de résonance que le benzène refuse de perdre par tout autre moyen.\n\nAUCUNE RÉACTION THERMIQUE NE FAIT CELA. Le benzène substitue plutôt que d'additionner précisément pour garder son aromaticité. Sous photon, la question ne se pose plus : l'état excité n'est plus aromatique.\n\nLE RENDEMENT DIT LE PRIX (p. 1134) : « l'irradiation du benzène liquide à 254 nm résulte en l'accumulation de FULVÈNE et d'une très petite quantité de tricyclo[3.1.0.0²·⁶]hex-3-ène, aussi connu sous le nom de BENZVALÈNE. La conversion maximale en ce produit dans le benzène liquide est d'environ 0,05 %. »\n\nCINQ CENTIÈMES DE POUR CENT. On ne fait pas de synthèse avec cela — on fait de la démonstration. Ce qui compte n'est pas le rendement mais le FAIT : le benzène peut cesser d'être plan et cesser d'être aromatique.\n\nL'INTERMÉDIAIRE PROPOSÉ (p. 1134) : « on pense que l'intermédiaire clé est un DIRADICAL formé par un pontage 1,3. » Deux carbones en position méta se lient, et le cycle à six devient un bicycle.\n\nAUCUNE FLÈCHE : ce qui se passe est une réorganisation d'un système excité délocalisé, non un déplacement de doublets d'un site vers un autre.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "photochimie_aromatiques-etape2.svg",
+      "titre": "Les isomères de valence, et un état photostationnaire chiffré",
+      "legende": "Voici le BENZVALÈNE — l'un des isomères de valence du benzène. Même formule brute, C₆H₆ ; squelette entièrement différent.\n\nPOUR LES VOIR EN QUANTITÉ, ON CHARGE LE CYCLE. Carey & Sundberg emploient le 1,3,5-tri-tert-butylbenzène, et donnent la composition de l'état photostationnaire (p. 1135) : 64,8 %, 20,6 %, 7,3 %, 7,1 %, et moins de 0,7 % pour le dernier.\n\nDU 0,05 % DU BENZÈNE NU AU 64,8 % DU DÉRIVÉ ENCOMBRÉ. Ce n'est pas la lumière qui a changé.\n\nET L'EXPLICATION EST STÉRIQUE (Carey & Sundberg p. 1135) : « la présence des groupes t-butyle introduit un FACTEUR STÉRIQUE qui joue EN FAVEUR de la cyclisation photochimique. Bien que les groupes t-butyle soient coplanaires dans le cycle aromatique, la géométrie des produits bicycliques RÉDUIT les interactions stériques entre groupes t-butyle adjacents. »\n\nLA GÊNE STÉRIQUE PAIE UNE PARTIE DE L'AROMATICITÉ PERDUE. Trois tert-butyles coplanaires se marchent dessus ; le bicycle les écarte. Ce qu'on perd d'un côté, on le regagne de l'autre.\n\nCE QUI EST UN DÉFAUT DANS UNE MOLÉCULE DEVIENT UN MOTEUR DANS UNE AUTRE.\n\nET LES AUTEURS SONT PRUDENTS SUR LE MÉCANISME (p. 1135) : « ces divers photoproduits sont tous des ISOMÈRES DE VALENCE de la structure benzénoïde normale. Les schémas de liaison alternatifs sont atteints depuis l'état excité, mais il est DIFFICILE de spécifier un mécanisme précis. »\n\nUn ouvrage qui dit « il est difficile de spécifier un mécanisme précis » a plus de valeur qu'un ouvrage qui en dessine un.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "photochimie_aromatiques-etape3.svg",
+      "titre": "L'alcène se pose en MÉTA, et cela n'a aucun équivalent thermique",
+      "legende": "Le schéma montre le FULVÈNE, l'autre produit de l'irradiation du benzène — un cycle à cinq portant un méthylène exocyclique.\n\nMAIS LA RÉACTION LA PLUS INSTRUCTIVE DE CETTE SECTION EST AILLEURS (Carey & Sundberg p. 1135) : « l'irradiation de solutions d'alcènes dans le benzène ou des benzènes substitués donne principalement des adduits 1:1 dans lesquels l'alcène PONTE LES POSITIONS MÉTA du cycle aromatique. »\n\nMÉTA. Pas ortho, pas para.\n\nCE MOT DEVRAIT VOUS ARRÊTER. Toute la chimie aromatique thermique se raconte en ortho, méta et para — et le méta y est toujours la position PAR DÉFAUT, celle qu'on obtient quand le substituant ne dirige pas ailleurs. Personne ne construit une réaction pour aller en méta.\n\nICI, C'EST LE PRODUIT PRINCIPAL, et par un mécanisme qui n'a rien à voir avec une substitution électrophile : l'alcène se lie à DEUX carbones à la fois, en enjambant celui du milieu.\n\nLE RÉSULTAT EST UNE ARCHITECTURE POLYCYCLIQUE TENDUE, obtenue d'un benzène et d'un alcène — deux des molécules les plus banales qui soient.\n\nCE QUE CETTE SECTION ENSEIGNE, ET QUI DÉPASSE LE BENZÈNE. La photochimie ne fait pas les mêmes réactions plus vite : elle fait d'AUTRES réactions. Le benzène thermique substitue et garde son cycle ; le benzène excité additionne, ponte, et se replie en bicycles.\n\nCE N'EST PAS LA MÊME MOLÉCULE QUI RÉAGIT.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "chimiluminescence": {
+    "1": {
+      "fichier": "chimiluminescence-etape1.svg",
+      "titre": "Un dioxétane : de la tension de cycle ET une liaison O–O",
+      "legende": "Voici le tétraméthyldioxétane — un cycle à quatre chaînons dont deux sommets sont des oxygènes liés entre eux.\n\nROBERTS & CASERIO EXPLIQUENT POURQUOI CETTE MOLÉCULE EST SI RICHE EN ÉNERGIE (§ 28.4) : « nous ne devrions pas être surpris par la forte exothermicité de la réaction. Le peroxyde est de HAUTE ÉNERGIE (thermochimiquement instable) parce qu'il combine les caractéristiques d'ÉNERGIE DE TENSION des petits cycles avec la FAIBLESSE des liaisons O–O, tandis que le produit est une substance stable avec une forte liaison CARBONYLE. »\n\nTROIS TERMES S'ADDITIONNENT : la tension d'un cycle à quatre, la faiblesse d'une liaison oxygène-oxygène, et la force du carbonyle qu'on va former. Le bilan est si favorable qu'il dépasse ce qu'une réaction chimique dépense d'ordinaire.\n\nET C'EST EXACTEMENT LA CONDITION (Roberts & Caserio § 28.4) : « la chimiluminescence n'est possible QUE si le ΔH de la réaction est suffisamment grand pour permettre la production d'AU MOINS UN des produits dans un état électroniquement excité. »\n\nCE QUE CETTE RÉACTION EST, EN UNE PHRASE (§ 28.4) : « la chimiluminescence est la TRANSDUCTION d'énergie chimique en énergie radiante. […] La chimiluminescence revient à [chimie → lumière], ce qui est l'OPPOSÉ de la plupart de la photochimie, qui implique [lumière → chimie]. »\n\nTOUT CE BLOC RACONTE DES MOLÉCULES QUI ABSORBENT. CELLE-CI ÉMET.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "chimiluminescence-etape2.svg",
+      "titre": "Le cycle se coupe en deux cétones — dont une est EXCITÉE",
+      "legende": "Le dioxétane se rompt en deux molécules d'acétone. Et l'une des deux naît dans un ÉTAT EXCITÉ.\n\nROBERTS & CASERIO (§ 28.4) : « la MOITIÉ des molécules de 2-propanone peuvent être produites dans un état excité et peuvent revenir à l'état fondamental par ÉMISSION VISIBLE. » Leur figure 28-6 montre que l'état de transition est situé au-dessus du seuil nécessaire pour produire soit le singulet, soit le triplet.\n\nMAIS VOICI LE RÉSULTAT QUI DEVRAIT VOUS ARRÊTER (§ 28.4) :\n\n« La dissociation chimiluminescente donne un rapport de 2-propanone TRIPLET sur 2-propanone SINGULET excité de 100 : 1. C'est un résultat SURPRENANT, parce qu'il signifie que les règles de sélection spectroscopiques de CONSERVATION DU SPIN ÉLECTRONIQUE ne sont PAS suivies dans cette chimiexcitation. La réaction a engendré un état TRIPLET à partir d'un état SINGULET. »\n\nRELISEZ. Le dioxétane est un singulet — tous ses électrons appariés. Le produit est un triplet, à cent contre un.\n\nUNE RÈGLE DE SÉLECTION VIENT D'ÊTRE ENFREINTE. En photochimie ordinaire, on insiste sur l'inverse : « les électrons ne subissent PAS d'inversion de spin à l'instant de l'excitation », écrivent Carey & Sundberg (p. 1075). Le croisement intersystème existe, mais c'est une étape séparée et coûteuse.\n\nICI, LE TRIPLET SORT DIRECTEMENT DE LA RÉACTION.\n\nET LES AUTEURS DONNENT LA CAUSE (§ 28.4) : « les électrons associés aux orbitales de l'un des atomes d'oxygène semblent interagir de manière à ÉCHANGER des électrons entre orbitales sur les MÊMES atomes avec une INVERSION DE SPIN. Cela s'appelle le COUPLAGE SPIN-ORBITE. »\n\nL'oxygène, atome lourd, couple le spin au mouvement orbital. Ce qui est interdit sur un carbone devient permis sur lui.\n\nAUCUNE FLÈCHE ICI : ce qui se passe n'est pas seulement une rupture de liaisons — c'est un changement d'ÉTAT DE SPIN, que la notation par flèches ne sait pas écrire.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "chimiluminescence-etape3.svg",
+      "titre": "Pourquoi on ajoute un colorant — et où l'on voit ce phénomène",
+      "legende": "Une cétone excitée émet mal. Roberts & Caserio posent le problème (§ 28.4) : « la chimiluminescence dans beaucoup de réactions est DIFFICILE À DÉTECTER parce que l'efficacité d'émission de lumière est faible. Ainsi, même si l'état excité peut être formé en HAUT RENDEMENT, il peut être DÉSACTIVÉ par d'autres espèces plus efficacement qu'il ne perd son énergie par émission. »\n\nLA PARADE EST DE DONNER À L'ÉNERGIE UN MEILLEUR ÉMETTEUR (§ 28.4) : « ce fait peut être exploité à son avantage en ajoutant une substance qui désactive efficacement l'état excité et qui, APRÈS TRANSFERT D'ÉNERGIE, donne une fluorescence ou une phosphorescence BRILLANTE. »\n\nON SÉPARE DONC LES DEUX MÉTIERS : une molécule fabrique l'énergie, une autre la rayonne. C'est exactement la photosensibilisation décrite ailleurs dans ce bloc — à l'envers.\n\nET VOUS EN AVEZ TENU UN DANS LA MAIN (Roberts & Caserio § 28.4) : la réaction libère « des moles de dioxyde de carbone avec une exothermicité telle que l'excitation électronique se produit, comme en témoigne la lumière intense produite EN PRÉSENCE DE COLORANTS FLUORESCENTS. Cette réaction a été développée en un produit commercial, commercialisé sous le nom de “Coolite”, qui peut servir de source lumineuse de secours en SECOUANT SIMPLEMENT UN TUBE pour mettre les réactifs en contact. »\n\nLe bâton lumineux qu'on casse. Le colorant décide de la couleur ; la réaction ne décide que de la quantité d'énergie.\n\nLE DUGAS DONNE LA VERSION DE LABORATOIRE (p. 517) : la thermolyse d'une α-peroxylactone dans le dichlorométhane à 25 °C « conduit à la génération QUANTITATIVE de la cétone et à l'émission de lumière », la décarboxylation étant amorcée « par un transfert MONOÉLECTRONIQUE depuis une quantité CATALYTIQUE d'un activateur aromatique présent en solution » — pérylène ou 9,10-diphénylanthracène.\n\nET LA NATURE FAIT MIEUX. Dugas rappelle d'où vient la question (p. 516) : « l'émission de lumière visible par les êtres vivants est l'un des phénomènes naturels les plus fascinants. […] Une question naturelle est : quel genre de réaction chimique peut conduire à l'émission d'énergie dans la région VISIBLE du spectre ? » Sa réponse : « la chimiluminescence est très commune quand O₂ est employé comme oxydant », et le principe actif de la luciole est la LUCIFÉRINE, décarboxylée par la LUCIFÉRASE.\n\nROBERTS & CASERIO DONNENT L'HISTOIRE (§ 28.4.1) : R. Dubois, à la fin du XIXᵉ siècle, « démontra que les organismes bioluminescents émettaient de la lumière en conséquence d'un CHANGEMENT CHIMIQUE. Il réussit à isoler la substance active des lucioles (luciférine) et l'enzyme activatrice (luciférase, nommée par Dubois d'après le latin lucifer, signifiant PORTEUR DE LUMIÈRE). »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "vision_retinal": {
+    "1": {
+      "fichier": "vision_retinal-etape1.svg",
+      "titre": "Le 11-cis-rétinal, et l'imine qui le tient",
+      "legende": "LE SCHÉMA EST UN GROS PLAN, ET IL SE DÉCLARE : on ne dessine que le fragment qui fait la réaction — la double liaison C11=C12 en configuration CIS, et l'imine par laquelle le rétinal est accroché à la protéine. Le polyène complet compte vingt carbones ; dessiné en entier à la largeur d'un téléphone, la géométrie qu'il s'agit de montrer disparaîtrait.\n\nD'OÙ VIENT CETTE MOLÉCULE (McMurry p. 443) : « la substance clé de la vision est le β-CAROTÈNE alimentaire, qui est converti en vitamine A par des enzymes du foie, oxydé en un aldéhyde appelé 11-trans-rétinal, puis ISOMÉRISÉ par un changement de géométrie de la double liaison C11–C12 pour produire le 11-CIS-RÉTINAL. »\n\nLA CAROTTE, LE FOIE, PUIS L'ŒIL. Trois étapes, et un isomère précis à l'arrivée.\n\nCOMMENT IL S'ACCROCHE (LibreTexts § 8.10.3) : « la rhodopsine est formée par un groupe fonctionnel IMINE (base de Schiff) formé entre le groupe aldéhyde du rétinal et la fonction amine de chaîne latérale d'une unité LYSINE de l'opsine. »\n\nET L'ASSEMBLAGE CHANGE TOUT (LibreTexts § 8.10.4) : « l'opsine elle-même est INCOLORE, tandis que le 11-cis-rétinal absorbe fortement à 370 nm. La combinaison de l'opsine avec le 11-cis-rétinal produit un DÉPLACEMENT REMARQUABLE de λ_max vers les grandes longueurs d'onde (430 nm à 620 nm, selon les espèces). »\n\nDEUX MOLÉCULES QUI N'ABSORBENT PAS LE VISIBLE, ASSEMBLÉES, ABSORBENT LE VISIBLE. C'est la protéine qui décale l'absorption — et c'est en réglant ce décalage que l'évolution a fabriqué la vision des couleurs.\n\nAUCUNE FLÈCHE : ce qui suit est une isomérisation photochimique, décrite dans sa propre fiche — une torsion à 90° dans un état excité, non un déplacement de doublets.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "vision_retinal-etape2.svg",
+      "titre": "Le chiffre qui dit tout : 1100 ans contre 200 femtosecondes",
+      "legende": "La double liaison a basculé de cis en trans. C'est tout ce qui se passe de chimique dans la vision.\n\nET VOICI LE CHIFFRE QUI JUSTIFIE À LUI SEUL L'EXISTENCE DE LA PHOTOCHIMIE (McMurry p. 444) :\n\n« En l'ABSENCE de lumière, cette isomérisation cis-trans prend approximativement 1100 ANS, mais en PRÉSENCE de lumière, elle se produit en 200 FEMTOSECONDES, soit 2 × 10⁻¹³ seconde ! »\n\nFAITES LE RAPPORT. Mille cent ans font environ 3,5 × 10¹⁰ secondes. Deux cents femtosecondes font 2 × 10⁻¹³ seconde.\n\nLE PHOTON ACCÉLÈRE LA RÉACTION D'UN FACTEUR 10²³.\n\nAucun catalyseur n'approche cela. Aucune enzyme. La meilleure d'entre elles gagne dix-sept ordres de grandeur ; ici on en gagne vingt-trois.\n\nPOURQUOI UN TEL ÉCART. Parce que ce ne sont pas deux vitesses de la même réaction. À chaud, il faudrait rompre la liaison π — quelque 270 kJ/mol. Sous photon, l'ordre de la liaison π est tombé à zéro, et il n'y a plus rien à rompre.\n\nCE N'EST PAS UN RACCOURCI SUR LE MÊME CHEMIN : C'EST UN AUTRE CHEMIN.\n\nCE QUI SUIT N'EST PLUS DE LA CHIMIE (LibreTexts § 8.10.4) : « la nouvelle forme de trans-rétinal ne s'ajuste PAS aussi bien dans la protéine opsine, et une série de changements de géométrie de la protéine commence. À mesure que la protéine change de géométrie, elle amorce une CASCADE de réactions biochimiques qui résultent en des changements de charge, si bien qu'une grande différence de potentiel s'établit à travers les membranes des neurones. »\n\nUNE MOLÉCULE CHANGE DE FORME, ET UNE PROTÉINE NE LA RECONNAÎT PLUS. Tout le reste — la cascade, le potentiel, l'influx nerveux — découle de ce désajustement.\n\nQUI L'A ÉTABLI (LibreTexts § 8.10.4) : « l'événement photochimique primaire de ce processus a été établi par G. WALD (prix Nobel de physiologie et médecine, 1967), qui a montré que l'absorption de lumière conduisait à un changement de configuration autour de la double liaison C11–C12 […] de cis à trans, pour former un composé appelé MÉTARHODOPSINE II. »\n\nET LE CYCLE SE REFERME (McMurry p. 444) : « la métarhodopsine II est ensuite recyclée en rhodopsine par une séquence en plusieurs étapes impliquant le clivage en all-trans-rétinal et l'isomérisation cis-trans de retour en 11-cis-rétinal. » LibreTexts nomme l'enzyme qui fait ce retour : la RÉTINAL ISOMÉRASE.\n\nLA LUMIÈRE FAIT L'ALLER EN 200 FEMTOSECONDES ; UNE ENZYME FAIT LE RETOUR, LENTEMENT. C'est pourquoi l'œil met du temps à s'adapter en sortant d'une pièce éclairée.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

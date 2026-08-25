@@ -154,6 +154,14 @@ pièges se sont présentés, tous silencieux.
   pour « α-amino acid », « γ-lactone », « Δ⁹ ». On cherche sur le mot
   latin voisin (« oxidation of fatty acids », « catabolism ») ou sur le
   fragment sans la lettre.
+
+  Le cas s'est aggravé sur la **transposition di-π-méthane** :
+  « di-pi-methane » ne rend RIEN dans les neuf, alors que le Carey &
+  Sundberg lui consacre plusieurs sections. Cherché sous
+  **« methane rearrangement »** — le fragment sans la lettre —, il rend
+  QUATORZE pages. Le même piège vaut pour « oxa-di-π-méthane », dont
+  l'extraction rend « oxadi-&methane ». Un nom qui contient une lettre
+  grecque se cherche toujours amputé.
 - **Un tiret peut cacher un ouvrage entier.** « Baeyer-Villiger » ne rend
   RIEN dans le Clayden, qui compose ce nom avec un tiret demi-cadratin ;
   « Villiger » seul rend vingt-cinq pages. Devant un silence surprenant, on
@@ -822,6 +830,7 @@ recommence pas la recherche à chaque passage.
 | Réaction du gaz à l'eau | le Housecroft la traite à ses pages 239 et 366 — **hors de l'extrait indexé** (ch. 20-28). Dans l'extrait, elle n'apparaît que dans un tableau de procédés (p. 801), une ligne de catalyseur (p. 722) et une mention de passage (p. 596). C'est exactement le piège de l'entrée d'index d'un ouvrage indexé PARTIELLEMENT : le bon mot, pointant vers ce qu'on n'a pas. |
 | Formation de la liaison N-glycosidique d'un nucléoside | ni la voie chimique ni la voie biologique n'est traitée. « Vorbruggen », « nucleoside synthesis », « synthesis of nucleosides », « Hilbert-Johnson », « silylated base » ne rendent RIEN dans les neuf ; « phosphoribosyl », « PRPP » et « ribonucleotide reductase » non plus. Le Clayden définit le N-glycoside (p. 1145), le McMurry montre la liaison sur la structure du nucléoside (p. 945) — aucun n'en écrit la formation. |
 | Dépurination : hydrolyse acide d'une purine | « depurination », « depurinat », « apurinic », « abasic », « hydrolysis of DNA », « purine hydrolysis », « adenine release » : aucune occurrence utile. Les deux seuls retours — Housecroft p. 945 et Dugas p. 120 — sont respectivement une page d'index et un passage sur la chiralité de l'ATP. Le mécanisme serait celui de l'hydrolyse d'un glycoside, que le corpus traite ailleurs ; l'appliquer à une purine sans source qui le fasse reviendrait à écrire de mémoire. |
+| Transposition photochimique d'une cyclohexadiénone | « santonin » et « lumisantonin » ne rendent RIEN dans les neuf. « dienone » rend trois pages du Carey & Sundberg, dont deux sont son index (1179, 1189) ; la troisième (1130) traite la transposition OXA-di-π-méthane et la migration 1,3-acyle des cétones β,γ-insaturées — une chimie voisine, pas celle-là. Le Grossman et LibreTexts emploient « dienone » hors photochimie. La photochimie des cyclohexadiénones réticulées n'est traitée par aucun des neuf. |
 
 **Le silence se vérifie sur le fragment le plus court avant d'être déclaré.**
 « Fischer-Tropsch » ne rend rien, « Tropsch » rend six pages ; « water-gas

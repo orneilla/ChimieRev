@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 285,
-  "redigees": 239,
-  "verifiees": 160,
+  "redigees": 245,
+  "verifiees": 162,
   "relues": 0,
   "familles": [
     {
@@ -2017,9 +2017,9 @@
       "famille": "Photochimie",
       "bloc": "Méthodes et matériaux",
       "total": 13,
-      "absente": 7,
-      "redigee": 1,
-      "verifiee": 5,
+      "absente": 1,
+      "redigee": 5,
+      "verifiee": 7,
       "relue": 0,
       "reactions": [
         {
@@ -2032,9 +2032,9 @@
         {
           "nom": "Réaction électrocyclique photochimique",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "electrocyclique_photochimique",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Photocycloaddition [2+2]",
@@ -2074,16 +2074,16 @@
         {
           "nom": "Transposition di-π-méthane (Zimmerman)",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "di_pi_methane",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réaction de Barton",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "barton",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Transposition photochimique d'une cyclohexadiénone",
@@ -2095,23 +2095,23 @@
         {
           "nom": "Photochimie des composés aromatiques",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "photochimie_aromatiques",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Chimiluminescence",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "chimiluminescence",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Chimie de la vision : isomérisation du rétinal",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "vision_retinal",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

@@ -7514,6 +7514,90 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "electrocyclique_photochimique": {
+      "ouvrages": [
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.2",
+          "pages": "1099-1106",
+          "note": "La complémentarité, et surtout sa CAUSE. « C'est un résultat général que les règles de Woodward-Hoffmann prédisent que les réactions photochimiques seront COMPLÉMENTAIRES des réactions thermiques. Ce qui est permis photochimiquement est interdit thermiquement, et réciproquement. La base PHYSIQUE de cette relation complémentaire est que la HAUTE BARRIÈRE associée aux réactions thermiques interdites fournit un point d'INTERACTION FORTE entre les espèces à l'état fondamental et à l'état excité. Comme les deux états sont proches en énergie et de même symétrie, ils se “mélangent” et permettent à la molécule excitée d'atteindre l'état fondamental. Cette interaction est NÉCESSAIRE aux réactions photochimiques efficaces » (p. 1099). Et pour les électrocycliques : « la symétrie orbitalaire prédit que les réactions électrocycliques photochimiques montreront un RENVERSEMENT DE STÉRÉOCHIMIE relatif aux réactions thermiques. » Les diagrammes de corrélation d'états sont p. 1100 ; la surface du butadiène, avec ses durées de vie de 44 à 10 femtosecondes et son INTERSECTION CONIQUE, fig. 12.20 p. 1102."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "di_pi_methane": {
+      "ouvrages": [
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.2.7 et § 12.3",
+          "pages": "1112-1116, 1127-1131",
+          "note": "L'exposé. Le mécanisme concerté (p. 1113) : « le réseau orbitalaire est de topologie de MÖBIUS avec un changement de phase représenté entre les positions C(1) et C(2). Cela correspond à un processus photochimique PERMIS puisqu'il y a SIX électrons impliqués dans les changements de liaison, et que c'est un système ANTIAROMATIQUE. » La stéréochimie : « la transposition di-π-méthane est une réaction STÉRÉOSPÉCIFIQUE […] la double liaison qui reste NON CYCLISÉE conserve la configuration E ou Z présente dans le produit de départ. CE RÉSULTAT EXCLUT tout intermédiaire portant un radical terminal LIBRE DE TOURNER. […] Le mécanisme concerté implique que C(3) subirait une INVERSION de configuration, puisque la nouvelle liaison C(3)−C(5) est formée en employant le LOBE ARRIÈRE de la liaison σ C(2)−C(3). » Le choix de l'état excité (p. 1112) : « le 5,5-diphénylcyclohexa-1,3-diène montre un comportement photochimique DIVERGENT, selon que la réaction est induite par irradiation DIRECTE ou par PHOTOSENSIBILISATION. Sous irradiation directe, l'ouverture de cycle électrocyclique […] est dominante, tandis qu'une transposition impliquant la MIGRATION de l'un des cycles aromatiques est la réaction majeure de l'état excité TRIPLET. » La sélectivité de migration (p. 1129) : « les substituants qui STABILISENT LE CARACTÈRE RADICALAIRE favorisent la migration. » La table des sensibilisateurs, avec leurs énergies de triplet et la composition des produits, est p. 1104 ; les critères de choix, p. 1076. Note de recherche : « di-pi-methane » ne rend RIEN dans les neuf ouvrages — le π est une lettre grecque que l'extraction ne restitue pas ; « methane rearrangement » rend quatorze pages."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "barton": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5.3 — Nonchain Free-Radical Reactions",
+          "pages": "300, 318",
+          "note": "Le mécanisme entier, et sa justification. « Dans la réaction de Barton, un NITRITE D'ALKYLE est converti en un ALCOOL-OXIME. Le nitrite est photoexcité en un diradical-1,2. Il fragmente en NO et en un RADICAL ALCOXYLE (RO•), et ce dernier arrache un H de la liaison C–H LA PLUS PROCHE. Le radical alkyle résultant se combine alors avec NO pour donner un composé NITROSO, qui se tautomérise ensuite en oxime, PROBABLEMENT par un mécanisme polaire par étapes. La réaction de Barton a servi à la FONCTIONNALISATION À DISTANCE des hydrocarbures » (p. 318). Et le choix du type de mécanisme, à la même page : « on pourrait écrire un mécanisme EN CHAÎNE parfaitement raisonnable pour la réaction de Barton, mais un mécanisme NON EN CHAÎNE est approprié parce que NO est un radical libre STABLE, et il traîne dans les parages jusqu'à ce qu'il puisse se combiner avec le radical alkyle pour former une forte liaison C–N. » Le classement parmi les exceptions est p. 300 : les additions et substitutions radicalaires « procèdent presque toujours par des mécanismes en chaîne. Cependant, il y a quelques exceptions à cette règle (réaction pinacolique photochimique, réaction de Barton). » Seul ouvrage des neuf à la traiter : « Barton reaction » ne rend aucune occurrence ailleurs, y compris dans le Carey & Sundberg."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "photochimie_aromatiques": {
+      "ouvrages": [
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.4",
+          "pages": "1134-1136",
+          "note": "La section entière. « L'irradiation du benzène et de certains de ses dérivés résulte en une RÉORGANISATION DES LIAISONS et en la formation de produits NON AROMATIQUES. L'irradiation du benzène liquide à 254 nm résulte en l'accumulation de FULVÈNE et d'une très petite quantité de tricyclo[3.1.0.0²·⁶]hex-3-ène, aussi connu sous le nom de BENZVALÈNE. La conversion maximale en ce produit dans le benzène liquide est d'environ 0,05 %. L'intermédiaire clé est supposé être un DIRADICAL formé par un pontage 1,3 » (p. 1134). Sur le 1,3,5-tri-tert-butylbenzène (p. 1135), l'état photostationnaire est chiffré — 64,8 / 20,6 / 7,3 / 7,1 / <0,7 % — et l'explication est stérique : « la présence des groupes t-butyle introduit un FACTEUR STÉRIQUE qui joue EN FAVEUR de la cyclisation photochimique. Bien que les groupes t-butyle soient coplanaires dans le cycle aromatique, la géométrie des produits bicycliques RÉDUIT les interactions stériques entre groupes t-butyle adjacents. » Les auteurs marquent leur incertitude : « les schémas de liaison alternatifs sont atteints depuis l'état excité, mais il est DIFFICILE de spécifier un mécanisme précis. » Et la cycloaddition sans équivalent thermique : « l'irradiation de solutions d'alcènes dans le benzène ou des benzènes substitués donne principalement des adduits 1:1 dans lesquels l'alcène PONTE LES POSITIONS MÉTA du cycle aromatique. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "chimiluminescence": {
+      "ouvrages": [
+        {
+          "ouvrage": "roberts_caserio",
+          "chapitre": "28 — Photochemistry, § 28.4",
+          "pages": "17-19",
+          "note": "La définition, la condition, le résultat de spin et l'histoire. « La chimiluminescence est la TRANSDUCTION d'énergie chimique en énergie radiante. Elle n'est possible QUE si le ΔH de la réaction est suffisamment grand pour permettre la production d'AU MOINS UN des produits dans un état électroniquement excité. La chimiluminescence revient à [chimie → lumière], ce qui est l'OPPOSÉ de la plupart de la photochimie. » Sur le dioxétane : « nous ne devrions pas être surpris par la forte exothermicité […] le peroxyde est de HAUTE ÉNERGIE parce qu'il combine les caractéristiques d'ÉNERGIE DE TENSION des petits cycles avec la FAIBLESSE des liaisons O–O, tandis que le produit est une substance stable avec une forte liaison CARBONYLE » ; « la MOITIÉ des molécules de 2-propanone peuvent être produites dans un état excité ». Le résultat de spin : « la dissociation chimiluminescente donne un rapport de 2-propanone TRIPLET sur 2-propanone SINGULET excité de 100 : 1. C'est un résultat SURPRENANT, parce qu'il signifie que les règles de sélection spectroscopiques de CONSERVATION DU SPIN ÉLECTRONIQUE ne sont PAS suivies dans cette chimiexcitation. La réaction a engendré un état TRIPLET à partir d'un état SINGULET. » Cause : « COUPLAGE SPIN-ORBITE » sur l'oxygène. Le problème de l'émission : « même si l'état excité peut être formé en HAUT RENDEMENT, il peut être DÉSACTIVÉ par d'autres espèces plus efficacement qu'il ne perd son énergie par émission » — d'où le colorant fluorescent, et le produit commercial « Coolite », allumé « en SECOUANT SIMPLEMENT UN TUBE ». La bioluminescence est § 28.4.1 : R. Dubois « réussit à isoler la substance active des lucioles (luciférine) et l'enzyme activatrice (luciférase, nommée par Dubois d'après le latin lucifer, signifiant PORTEUR DE LUMIÈRE) »."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.1",
+          "pages": "516-517",
+          "note": "Le modèle de laboratoire et la luciole. La question posée comme il faut (p. 516) : « l'émission de lumière visible par les êtres vivants est l'un des phénomènes naturels les plus fascinants. […] Quel genre de réaction chimique peut conduire à l'émission d'énergie dans la région VISIBLE du spectre ? » L'indice : « la chimiluminescence est très commune quand O₂ est employé comme oxydant » ; le principe actif est la LUCIFÉRINE, décarboxylée par la LUCIFÉRASE. Le modèle (p. 517) : la déshydratation d'α-peroxyacides par le DCC donne une α-peroxylactone (dioxétanone) dont « la thermolyse dans CH₂Cl₂ à 25 °C conduit à la génération QUANTITATIVE de la cétone et à l'émission de lumière », la décarboxylation étant amorcée « par un TRANSFERT MONOÉLECTRONIQUE depuis une quantité CATALYTIQUE d'un activateur aromatique présent en solution » — pérylène ou 9,10-diphénylanthracène."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "vision_retinal": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "14 — Conjugated Compounds and Ultraviolet Spectroscopy",
+          "pages": "443-444",
+          "note": "Les deux chiffres qui font la fiche. La voie du chromophore (p. 443) : « la substance clé de la vision est le β-CAROTÈNE alimentaire, qui est converti en vitamine A par des enzymes du foie, oxydé en un aldéhyde appelé 11-trans-rétinal, puis ISOMÉRISÉ par un changement de géométrie de la double liaison C11–C12 pour produire le 11-cis-rétinal. » Et la cinétique (p. 444) : « en l'ABSENCE de lumière, cette isomérisation cis-trans prend approximativement 1100 ANS, mais en PRÉSENCE de lumière, elle se produit en 200 FEMTOSECONDES, soit 2 × 10⁻¹³ seconde ! » La même page donne les 3 millions de bâtonnets et 100 millions de cônes, et le recyclage « par une séquence en plusieurs étapes impliquant le clivage en all-trans-rétinal et l'isomérisation cis-trans de retour »."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "8.10 — Structure Determination in Conjugated Systems",
+          "pages": "403-404",
+          "note": "Le détail moléculaire que le McMurry ne donne pas. La liaison à la protéine (§ 8.10.3) : « la rhodopsine est formée par un groupe fonctionnel IMINE (base de Schiff) formé entre le groupe aldéhyde du rétinal et la fonction amine de chaîne latérale d'une unité LYSINE de l'opsine. » Le déplacement d'absorption (§ 8.10.4) : « l'opsine elle-même est INCOLORE, tandis que le 11-cis-rétinal absorbe fortement à 370 nm. La combinaison de l'opsine avec le 11-cis-rétinal produit un DÉPLACEMENT REMARQUABLE de λ_max vers les grandes longueurs d'onde (430 nm à 620 nm, selon les espèces). » L'attribution : « l'événement photochimique primaire de ce processus a été établi par G. WALD (prix Nobel de physiologie et médecine, 1967) », le produit étant la MÉTARHODOPSINE II. La transduction : « la nouvelle forme de trans-rétinal ne s'ajuste PAS aussi bien dans la protéine opsine, et une série de changements de géométrie de la protéine commence […] elle amorce une CASCADE de réactions biochimiques ». Et la sensibilité (§ 8.10.3) : « un œil pleinement adapté à l'obscurité peut détecter clairement des objets dans une lumière si faible qu'elle correspond à un apport d'environ 10 000 quanta par seconde sur la rétine — UN QUANTUM DE LUMIÈRE PAR TROIS MINUTES PAR CELLULE RÉCEPTRICE ! » L'enzyme du retour y est nommée : la RÉTINAL ISOMÉRASE."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

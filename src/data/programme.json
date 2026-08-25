@@ -1426,7 +1426,7 @@
         {
           "nom": "Réaction électrocyclique photochimique",
           "niveau": "L3",
-          "id": null
+          "id": "electrocyclique_photochimique"
         },
         {
           "nom": "Photocycloaddition [2+2]",
@@ -1456,12 +1456,12 @@
         {
           "nom": "Transposition di-π-méthane (Zimmerman)",
           "niveau": "M2",
-          "id": null
+          "id": "di_pi_methane"
         },
         {
           "nom": "Réaction de Barton",
           "niveau": "M2",
-          "id": null
+          "id": "barton"
         },
         {
           "nom": "Transposition photochimique d'une cyclohexadiénone",
@@ -1471,17 +1471,17 @@
         {
           "nom": "Photochimie des composés aromatiques",
           "niveau": "M2",
-          "id": null
+          "id": "photochimie_aromatiques"
         },
         {
           "nom": "Chimiluminescence",
           "niveau": "L3",
-          "id": null
+          "id": "chimiluminescence"
         },
         {
           "nom": "Chimie de la vision : isomérisation du rétinal",
           "niveau": "L3",
-          "id": null
+          "id": "vision_retinal"
         }
       ],
       "bloc": "Méthodes et matériaux"
