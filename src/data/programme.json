@@ -1624,7 +1624,7 @@
         {
           "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
           "niveau": "M1",
-          "id": null
+          "id": "aldolisation_proline"
         },
         {
           "nom": "Résolution cinétique",
@@ -1639,7 +1639,7 @@
         {
           "nom": "Alkylation asymétrique d'un énolate",
           "niveau": "M2",
-          "id": null
+          "id": "alkylation_asymetrique_enolate"
         }
       ],
       "bloc": "Méthodes et matériaux"

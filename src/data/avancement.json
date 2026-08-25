@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 282,
-  "redigees": 266,
-  "verifiees": 179,
+  "redigees": 268,
+  "verifiees": 181,
   "relues": 0,
   "familles": [
     {
@@ -2267,9 +2267,9 @@
       "famille": "Synthèse asymétrique",
       "bloc": "Méthodes et matériaux",
       "total": 9,
-      "absente": 4,
+      "absente": 2,
       "redigee": 4,
-      "verifiee": 1,
+      "verifiee": 3,
       "relue": 0,
       "reactions": [
         {
@@ -2310,9 +2310,9 @@
         {
           "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "aldolisation_proline",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Résolution cinétique",
@@ -2331,9 +2331,9 @@
         {
           "nom": "Alkylation asymétrique d'un énolate",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "alkylation_asymetrique_enolate",
+          "statut": "verifiee",
+          "sources": true
         }
       ]
     },

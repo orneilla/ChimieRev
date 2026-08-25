@@ -28245,5 +28245,191 @@
         "valide": false
       }
     ]
+  },
+  "aldolisation_proline": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un acide aminé, tel qu'on l'achète",
+        "smiles": "OC(=O)C1CCCN1.CC(=O)C",
+        "legende": "La L-PROLINE, « sans dérivatisation ni protection requises » (Clayden p. 1131). C'est un acide aminé du commerce, à quelques euros le kilo, et il catalyse une aldolisation énantiosélective.\n\nREGARDEZ SES DEUX FONCTIONS, elles vont travailler ensemble :\n· l'AMINE SECONDAIRE, qui fabriquera l'énamine ;\n· le CARBOXYLE, qui tiendra l'aldéhyde par une liaison hydrogène.\n\nC'est le même principe bifonctionnel que le catalyseur CBS, avec un azote et un bore. Ici, un azote et un acide.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'énamine, et non l'iminium",
+        "smiles": "C=C(C)N1CCCC1C(=O)O",
+        "legende": "La proline condense avec la cétone, l'eau part, et il se forme une ÉNAMINE — non un iminium.\n\nLA DISTINCTION EST LE CŒUR DE L'ORGANOCATALYSE PAR LES AMINES, et il faut la tenir :\n· une ÉNAMINE est NUCLÉOPHILE : on l'obtient d'une cétone ou d'un aldéhyde saturé, et elle sert à ATTAQUER ;\n· un IMINIUM est ÉLECTROPHILE : on l'obtient d'un aldéhyde α,β-insaturé, et il sert à ÊTRE attaqué. Clayden le décrit p. 1128 comme « une espèce intermédiaire qui est réactive, chirale et énantiomériquement pure » — « exactement ce qu'il nous faut pour une bonne catalyse asymétrique ».\n\nUne seule petite amine, deux modes d'activation opposés selon le partenaire qu'on lui donne.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'énamine attaque, et le carboxyle tient l'aldéhyde",
+        "smiles": "C=C(C)N1CCCC1C(=O)O[H].CC=O",
+        "legende": "Cinq flèches, et elles décrivent un seul geste. L'énamine attaque l'aldéhyde ; l'azote pousse et devient iminium ; l'oxygène de l'aldéhyde prend le proton du carboxyle.\n\nET C'EST CE DERNIER POINT QUI FAIT TOUT (Clayden p. 1132) : « dans l'aldolisation elle-même, le groupe carboxyle de la proline a un rôle CLÉ à jouer, parce qu'il peut participer à une LIAISON HYDROGÈNE qui organise l'état de transition à six chaînons de telle façon que seul l'un des produits énantiomères possibles peut se former ».\n\nLe carboxyle ne réagit pas : il TIENT. Il attache l'aldéhyde à une distance et dans une orientation fixes, ce qui transforme une rencontre libre en un assemblage contraint.\n\nET LA RÈGLE QUI DÉCIDE EST LA MÊME QUE PARTOUT AILLEURS (p. 1132) : « le groupe R choisit d'être PSEUDO-ÉQUATORIAL ». Cycle à six chaînons, gros substituant en équatoriale — comme dans la réduction CBS, comme dans l'état de transition de Zimmerman-Traxler de l'aldolisation d'Evans.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                1
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Le doublet de l'azote pousse."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                0
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                13
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le carbone de l'énamine attaque l'aldéhyde."
+          },
+          {
+            "de": {
+              "liaison": [
+                13,
+                14
+              ]
+            },
+            "vers": {
+              "atome": 14
+            },
+            "courbure": -0.45,
+            "libelle": "Les électrons du C=O se replient sur l'oxygène."
+          },
+          {
+            "de": {
+              "atome": 14
+            },
+            "vers": {
+              "liaison": [
+                14,
+                11
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Qui prend le proton du carboxyle de la proline."
+          },
+          {
+            "de": {
+              "liaison": [
+                10,
+                11
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.35,
+            "libelle": "Le carboxyle devient carboxylate."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(CC(C)O)=[N+]1CCCC1C(=O)[O-]"
+      },
+      {
+        "numero": 4,
+        "titre": "L'eau rend la proline",
+        "smiles": "CC(O)CC(C)=O.OC(=O)C1CCCN1",
+        "legende": "« L'eau engendrée dans la condensation initiale hydrolyse l'iminium produit de l'aldolisation et RÉGÉNÈRE le catalyseur proline. » (Clayden p. 1132)\n\nRegardez le bilan de matière : l'eau perdue à l'étape 2 est exactement celle qui sert à l'étape 4. Le catalyseur ne consomme rien.\n\nUNE HISTOIRE QUI A MIS TRENTE ANS (p. 1131) : « c'est en fait dès 1971 qu'on a noté pour la première fois que la L-proline catalyse des aldolisations asymétriques, mais JUSQU'À L'AN 2000 les exemples se limitaient à cette seule cyclisation ». Trente ans entre l'observation et la généralisation.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "alkylation_asymetrique_enolate": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "L'imide, et la base qui va l'énoliser",
+        "smiles": "CC(C)C1COC(=O)N1C(=O)CC",
+        "legende": "Le même point de départ que l'aldolisation d'Evans : une oxazolidinone chirale acylée. La stratégie de l'auxiliaire est décrite dans la fiche « Aldolisation d'Evans avec auxiliaire chiral » ; on ne la répète pas.\n\nCE QUI CHANGE ICI EST L'ÉLECTROPHILE. Là-bas c'était un aldéhyde, et deux centres stéréogènes naissaient d'un coup. Ici ce sera un halogénure d'alkyle, et il n'en naîtra qu'un.\n\nLa base est le bis(triméthylsilyl)amidure de sodium — NaHMDS — ou le diisopropylamidure de lithium.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Un seul énolate se forme",
+        "smiles": "CC=C([O-])N1C(=O)OCC1C(C)C.[Li+]",
+        "legende": "La base arrache le proton en α. Et la géométrie de l'énolate n'est pas au choix (Clayden p. 1110) : « l'auxiliaire encombrant fait que SEUL l'énolate cis se forme : l'énolate trans est trop gêné ».\n\nPUIS L'ÉNOLATE SE FIGE : « la coordination de l'ion lithium à l'autre oxygène carbonyle rend la structure entière RIGIDE, fixant le groupe isopropyle à l'arrière de la molécule », où il fait écran.\n\nDEUX CARBONYLES ET UN CATION : voilà comment on immobilise une molécule qui, sans cela, tournerait librement autour de sa liaison C–N. C'est le mécanisme d'action réel de l'auxiliaire, et il ne tient pas seulement à l'encombrement.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'halogénure arrive par la face libre",
+        "smiles": "CC=C([O-])N1C(=O)OCC1C(C)C.CI",
+        "legende": "L'énolate attaque l'halogénure d'alkyle par une substitution nucléophile ordinaire — une SN2, avec inversion sur le carbone de l'halogénure.\n\nMAIS LE CENTRE STÉRÉOGÈNE CRÉÉ N'EST PAS CELUI-LÀ : c'est le carbone de l'énolate, qui passe de plan à tétraédrique. Et il ne peut être attaqué que d'un côté, l'autre étant masqué par l'isopropyle de l'auxiliaire.\n\nDANS L'EXEMPLE D'EVANS (Clayden p. 1112), l'électrophile est l'iodure d'allyle et le rapport diastéréomérique obtenu est de 98:2.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                13
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'énolate attaque le carbone de l'halogénure."
+          },
+          {
+            "de": {
+              "liaison": [
+                13,
+                14
+              ]
+            },
+            "vers": {
+              "atome": 14
+            },
+            "courbure": -0.4,
+            "libelle": "L'iodure part avec les électrons de la liaison."
+          },
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                2
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "Et l'oxygène reforme le carbonyle."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(C)C(=O)N1C(=O)OCC1C(C)C.[I-]"
+      },
+      {
+        "numero": 4,
+        "titre": "On recristallise, PUIS on retire l'auxiliaire",
+        "smiles": "CC(C)C1COC(=O)N1C(=O)C(C)C",
+        "legende": "98:2 n'est pas 100:0, et c'est ici que l'auxiliaire rend son second service. Le mélange est fait de DIASTÉRÉOISOMÈRES, donc il cristallise.\n\nEVANS LE FAIT SUR SA PROPRE SYNTHÈSE DE L'ANTIBIOTIQUE X-206 (Clayden p. 1112) : « la recristallisation convertit cela en 83 % de rendement d'un diastéréoisomère unique à plus de 99 % de pureté, donnant après retrait de l'auxiliaire un produit essentiellement à 100 % d'excès énantiomérique ».\n\nL'ORDRE DES OPÉRATIONS EST LE POINT. Recristalliser AVANT de détacher l'auxiliaire : après, on n'aurait plus que des énantiomères, et rien à séparer.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

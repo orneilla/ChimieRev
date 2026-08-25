@@ -8148,6 +8148,42 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "aldolisation_proline": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Aldol reactions catalysed by proline",
+          "pages": "1131-1132",
+          "note": "Pourquoi Clayden choisit cet exemple (p. 1131) : « nous le mettons en avant d'abord parce qu'il illustre l'emploi d'un composé d'origine biologique SUPRÊMEMENT SIMPLE pour catalyser une réaction complexe, et ensuite parce que cette découverte a fait partie de la révolution de pensée catalytique qui a lancé le champ de l'organocatalyse dans les premières années du XXIᵉ siècle ». Le catalyseur : « l'acide aminé L-proline — sans dérivatisation ni protection requises ». L'histoire : « c'est en fait dès 1971 qu'on a noté pour la première fois que la L-proline catalyse des aldolisations asymétriques, mais jusqu'à l'an 2000 les exemples se limitaient à cette seule cyclisation » — la cyclisation d'une tricétone à 93 % ee, où « une molécule de proline doit condenser avec la cétone la moins encombrée, et dans ce cas une ÉNAMINE (plutôt qu'un ion iminium) peut se former ». Et le rôle du carboxyle (p. 1132) : « dans l'aldolisation elle-même, le groupe carboxyle de la proline a un rôle clé à jouer, parce qu'il peut participer à une LIAISON HYDROGÈNE qui organise l'état de transition à six chaînons de telle façon que seul l'un des produits énantiomères possibles peut se former » — avec, sur le schéma, la mention « le groupe R choisit d'être pseudo-équatorial ». Le bilan d'eau : « l'eau engendrée dans la condensation initiale hydrolyse l'iminium produit de l'aldolisation et régénère le catalyseur proline »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Organocatalysis",
+          "pages": "1128",
+          "note": "L'autre mode d'activation de l'aminocatalyse : la condensation d'une amine secondaire chirale sur un aldéhyde α,β-insaturé donne un IMINIUM. « L'ion iminium est le bout de la ligne pour cette condensation : il est très réactif vis-à-vis de l'attaque par l'eau (qui régénérerait réversiblement les produits de départ), mais aussi vis-à-vis de l'attaque par d'autres nucléophiles. Nous avons exactement ce qu'il nous faut pour une bonne catalyse asymétrique — une espèce intermédiaire qui est RÉACTIVE, CHIRALE et ÉNANTIOMÉRIQUEMENT PURE. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "alkylation_asymetrique_enolate": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1110, 1112",
+          "note": "Les deux contraintes qui font la sélectivité (p. 1110) : « l'auxiliaire encombrant fait que SEUL l'énolate cis se forme : l'énolate trans est trop gêné », puis « la coordination de l'ion lithium à l'autre oxygène carbonyle rend la structure entière RIGIDE, fixant le groupe isopropyle à l'arrière de la molécule ». La seconde est la décisive : un auxiliaire n'oriente pas parce qu'il est gros, mais parce qu'il est gros et immobilisé. L'exemple d'Evans (p. 1112), sur la synthèse de l'antibiotique X-206 : « la réaction de l'énolate avec l'iodure d'allyle donne un mélange 98:2 de diastéréoisomères. Cependant, la recristallisation convertit cela en 83 % de rendement d'un diastéréoisomère unique à plus de 99 % de pureté, donnant après retrait de l'auxiliaire un produit essentiellement à 100 % d'excès énantiomérique. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — How to measure ee",
+          "pages": "1111",
+          "note": "Comment on MESURE un excès énantiomérique, et pourquoi le polarimètre ne suffit pas : « les mesures au polarimètre sont notoirement peu fiables — elles dépendent de la température, du solvant et de la concentration, et sont sujettes à des erreurs massives dues à de petites quantités d'impuretés fortement actives optiquement » ; s'y ajoute l'effet HOREAU, qui fait échouer la proportionnalité. Le principe des méthodes modernes : les énantiomères « sont identiques SAUF s'ils sont dans un environnement chiral » — d'où la chromatographie sur phase stationnaire chirale, « moins d'un milligramme de composé chiral peut être passé sur une colonne étroite contenant de la silice modifiée par un additif chiral », et la dérivation par le chlorure d'acyle de Mosher."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

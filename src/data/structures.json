@@ -1063,6 +1063,14 @@
     "substrat": "aldolisation_evans-substrat.svg",
     "produit": "aldolisation_evans-produit.svg"
   },
+  "aldolisation_proline": {
+    "substrat": "aldolisation_proline-substrat.svg",
+    "produit": "aldolisation_proline-produit.svg"
+  },
+  "alkylation_asymetrique_enolate": {
+    "substrat": "alkylation_asymetrique_enolate-substrat.svg",
+    "produit": "alkylation_asymetrique_enolate-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
