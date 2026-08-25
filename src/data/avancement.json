@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 283,
-  "redigees": 249,
-  "verifiees": 166,
+  "redigees": 251,
+  "verifiees": 168,
   "relues": 0,
   "familles": [
     {
@@ -2121,9 +2121,9 @@
       "famille": "Multicomposants",
       "bloc": "Méthodes et matériaux",
       "total": 19,
-      "absente": 13,
+      "absente": 11,
       "redigee": 0,
-      "verifiee": 6,
+      "verifiee": 8,
       "relue": 0,
       "reactions": [
         {
@@ -2178,16 +2178,16 @@
         {
           "nom": "Réaction de Bucherer-Bergs",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "bucherer_bergs",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Petasis (borono-Mannich)",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "petasis_borono_mannich",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Couplage A3 : aldéhyde, alcyne, amine",

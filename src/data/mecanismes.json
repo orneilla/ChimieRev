@@ -25956,5 +25956,417 @@
         "valide": false
       }
     ]
+  },
+  "bucherer_bergs": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Quatre composants, apportés par deux flacons",
+        "smiles": "CC(C)=O.[C-]#N.O=C=O.N",
+        "legende": "Une cétone, du cyanure de potassium, et du carbonate d'ammonium. Ce dernier est un réactif double : il libère à la fois l'AMMONIAC et le DIOXYDE DE CARBONE. Quatre composants entrent donc dans le produit, apportés par trois flacons seulement.\n\nHerrera & Marqués-López la définissent ainsi (p. 331) : « une condensation à quatre composants entre un dérivé aldéhyde ou cétone réagissant avec le cyanure de potassium et le carbonate d'ammonium comme source d'ammoniac et de dioxyde de carbone, donnant des composés hydantoïnes ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'ammoniac condense sur la cétone",
+        "smiles": "CC(C)=[NH2+]",
+        "legende": "L'ammoniac s'additionne sur la cétone, l'eau part, et le milieu ammoniacal protone l'imine obtenue. Le détail est écrit dans la fiche « Formation des imines et des énamines ».\n\nUNE SIMPLIFICATION DE SCHÉMA, déclarée : on dessine l'acétone. Le procédé de Bucherer-Bergs est employé surtout sur des CÉTONES, souvent cycliques — c'est ce qui le distingue de la synthèse de Strecker, « plus largement explorée sur les aldéhydes » (p. 331).",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le cyanure attaque : voici l'aminonitrile",
+        "smiles": "CC(C)=[NH2+].N#[C-]",
+        "legende": "L'ion cyanure s'additionne sur l'iminium. On obtient un α-AMINONITRILE — exactement l'intermédiaire de la synthèse de Strecker.\n\nLES DEUX RÉACTIONS SE SÉPARENT ICI. Chez Strecker, on hydrolyse cet aminonitrile et l'on obtient l'acide aminé. Chez Bucherer-Bergs, le dioxyde de carbone intervient avant, et l'on passe par un cycle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le cyanure attaque le carbone de l'iminium."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie : l'azote redevient une amine."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(C)(N)C#N"
+      },
+      {
+        "numero": 4,
+        "titre": "L'amine capture le dioxyde de carbone",
+        "smiles": "CC(C)(N([H])[H])C#N.O=C=O",
+        "legende": "L'amine attaque le carbone du CO₂ — un carbone entouré de deux oxygènes, donc très pauvre en électrons. Un transfert de proton donne ensuite l'acide carbamique.\n\nC'EST LE GESTE QUE FAIT LE SANG. La même addition d'une amine sur le CO₂ transporte une partie du dioxyde de carbone dans l'hémoglobine, sous forme de carbamate.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                9
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote de l'amine attaque le carbone du CO₂."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.4,
+            "libelle": "Les électrons d'une double liaison C=O se replient sur l'oxygène."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(C)(C#N)[NH2+]C(=O)[O-]"
+      },
+      {
+        "numero": 5,
+        "titre": "Le carbamate se referme sur le nitrile",
+        "smiles": "CC(C)(N([H])C(=O)O[H])C#N",
+        "legende": "L'oxygène de l'acide carbamique attaque le carbone du nitrile : cycle à cinq chaînons. La triple liaison se replie, et l'azote qu'elle portait prend au passage le proton.\n\nCE CYCLE N'EST PAS ENCORE L'HYDANTOÏNE. Regardez ses atomes : il contient un OXYGÈNE là où l'hydantoïne porte un azote. Il va falloir les échanger.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 7
+            },
+            "vers": {
+              "liaison": [
+                7,
+                9
+              ]
+            },
+            "courbure": -0.55,
+            "libelle": "L'oxygène du carbamate attaque le nitrile."
+          },
+          {
+            "de": {
+              "liaison": [
+                9,
+                10
+              ]
+            },
+            "vers": {
+              "atome": 10
+            },
+            "courbure": -0.55,
+            "libelle": "La triple liaison C≡N se replie sur l'azote."
+          },
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                8
+              ]
+            },
+            "courbure": -0.28,
+            "libelle": "L'azote va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.55,
+            "libelle": "La liaison O–H se rompt."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC1(C)NC(=O)OC1=N"
+      },
+      {
+        "numero": 6,
+        "titre": "Le cycle s'ouvre de l'autre côté",
+        "smiles": "CC1(C)N([H])C(=O)OC1=N[H]",
+        "legende": "L'azote du cycle pousse son doublet dans la liaison voisine, et la liaison avec l'oxygène se rompt. Le cycle s'ouvre.\n\nCE GESTE EST CELUI DE LA TRANSPOSITION DE MUMM, rencontré dans les réactions de Passerini et d'Ugi : un acyle qui change de porteur par un cycle à cinq chaînons. Ici il quitte l'oxygène, et c'est ce qui permettra à l'azote de prendre sa place.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                5
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "Le doublet de l'azote pousse."
+          },
+          {
+            "de": {
+              "liaison": [
+                5,
+                7
+              ]
+            },
+            "vers": {
+              "atome": 7
+            },
+            "courbure": -0.4,
+            "libelle": "La liaison avec l'oxygène du cycle se rompt."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(C)([NH+]=C=O)C(=N)[O-]"
+      },
+      {
+        "numero": 7,
+        "titre": "L'imidate s'effondre, le proton passe",
+        "smiles": "CC(C)([N+]([H])=C=O)C(=N[H])[O-]",
+        "legende": "L'oxygène chargé négativement reforme un carbonyle, la double liaison C=N se replie sur l'azote, et cet azote va chercher le proton resté sur l'autre.\n\nLE RÉSULTAT EST UNE MOLÉCULE À DEUX VISAGES : d'un côté un ISOCYANATE — N=C=O —, de l'autre un amide primaire. Ils sont portés par le même carbone, et ils n'attendent que de se rencontrer.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 10
+            },
+            "vers": {
+              "liaison": [
+                10,
+                7
+              ]
+            },
+            "courbure": 0.4,
+            "libelle": "L'oxygène rend son doublet : le carbonyle de l'amide se forme."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie sur l'azote."
+          },
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                4
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                3,
+                4
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison N–H se rompt : voici l'isocyanate."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC(C)(N=C=O)C(N)=O"
+      },
+      {
+        "numero": 8,
+        "titre": "L'amide attaque l'isocyanate",
+        "smiles": "CC(C)(N=C=O)C(=O)N([H])[H]",
+        "legende": "L'azote de l'amide attaque le carbone de l'isocyanate — un carbone pris entre un azote et un oxygène, donc affamé d'électrons. Le cycle se referme à cinq chaînons, et le proton passe d'un azote à l'autre.\n\nC'EST L'HYDANTOÏNE.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 8
+            },
+            "vers": {
+              "liaison": [
+                8,
+                4
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'azote de l'amide attaque l'isocyanate."
+          },
+          {
+            "de": {
+              "liaison": [
+                4,
+                3
+              ]
+            },
+            "vers": {
+              "atome": 3
+            },
+            "courbure": -0.45,
+            "libelle": "La double liaison C=N se replie sur l'azote."
+          },
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                3,
+                9
+              ]
+            },
+            "courbure": 0.35,
+            "libelle": "Cet azote va chercher le proton."
+          },
+          {
+            "de": {
+              "liaison": [
+                8,
+                9
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.35,
+            "libelle": "La liaison N–H se rompt."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC1(C)NC(=O)NC1=O"
+      },
+      {
+        "numero": 9,
+        "titre": "Ce qu'on obtient",
+        "smiles": "CC1(C)NC(=O)NC1=O",
+        "legende": "L'hydantoïne. Une hydrolyse à 140 °C, en milieu acide ou basique, l'ouvre ensuite en acide α-aminé.\n\nMAIS ON S'ARRÊTE SOUVENT LÀ, parce que l'hydantoïne elle-même est un médicament. La figure 10.1 de l'ouvrage (p. 332) en aligne sept : la PHÉNYTOÏNE antiépileptique et sa prodrogue la fosphénytoïne, le nilutamide anticancéreux, l'iprodione fongicide, l'hydantocidine herbicide, l'éthotoïne et la méphénytoïne anticonvulsivantes.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "petasis_borono_mannich": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Trois composants, dont un acide boronique",
+        "smiles": "OCC=O.CNC.C=CB(O)O",
+        "legende": "Une amine, un aldéhyde et un acide boronique. Le produit sera une amine nouvelle, formée par création d'une liaison CARBONE-CARBONE.\n\nREGARDEZ L'ALDÉHYDE : il porte un OH en α, et ce n'est pas un détail décoratif. L'ouvrage écrit (p. 132) que « la présence d'un groupe OH soit sur le composant aldéhyde soit sur le composant amine peut activer l'acide boronique par formation d'un intermédiaire tétraédrique du bore ». Sans cet OH, la réaction traîne ou n'a pas lieu.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'amine et l'aldéhyde donnent l'iminium",
+        "smiles": "[O-]CC=[N+](C)C",
+        "legende": "L'amine secondaire condense sur l'aldéhyde, l'eau part : c'est un ion iminium, comme dans la réaction de Mannich. Le détail est écrit dans la fiche « Formation des imines et des énamines ».\n\nL'ALCOOL VOISIN EST DESSINÉ SOUS SA FORME ALCOOLATE, parce que c'est sous cette forme qu'il se lie au bore. La molécule est globalement neutre : la charge négative de l'alcoolate compense celle de l'iminium.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Le bore devient tétraédrique",
+        "smiles": "[O-]CC=[N+](C)C.C=CB(O)O",
+        "legende": "L'alcoolate se lie au bore. Le bore n'avait que six électrons — trois liaisons, une case vide : il l'accepte volontiers et devient tétraédrique, chargé négativement.\n\nC'EST L'INTERMÉDIAIRE « ATE », numéroté 25 dans l'ouvrage. Le mot désigne un atome qui a gagné une liaison et une charge négative — comme un borATE ou un cuprATE.\n\nET C'EST LUI QUI FAIT TOUT. Un acide boronique neutre ne cède pas son groupe carboné : la liaison C–B y est trop peu polarisée. Le bore chargé négativement, lui, pousse ses substituants dehors.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                8
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "L'alcoolate se lie au bore, qui devient tétraédrique."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "C=C[B-](O)(O)OCC=[N+](C)C"
+      },
+      {
+        "numero": 4,
+        "titre": "Le groupe vinyle migre du bore au carbone",
+        "smiles": "C=C[B-](O)(O)OCC=[N+](C)C",
+        "legende": "La liaison carbone-bore se rompt, et ses électrons forment la liaison carbone-carbone avec l'iminium. Le bore redevient neutre, l'azote aussi.\n\nCETTE ÉTAPE EST LA PLUS LENTE (p. 132) : « l'étape limitante de cette stratégie est la migration du substituant de l'acide boronique vers le carbone qui porte l'ion iminium, et elle peut être favorisée par de hautes températures ».\n\nREGARDEZ LE CHEMIN QU'ELLE PARCOURT : le carbone qui migre et le carbone qui le reçoit sont tenus par le même échafaudage — bore, oxygène, carbone, iminium. La migration est INTRAMOLÉCULAIRE, et c'est pourquoi il fallait cet OH en α.",
+        "fleches": [
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                1,
+                7
+              ]
+            },
+            "courbure": 0.45,
+            "libelle": "La liaison C–B se rompt et forme la liaison C–C."
+          },
+          {
+            "de": {
+              "liaison": [
+                7,
+                8
+              ]
+            },
+            "vers": {
+              "atome": 8
+            },
+            "courbure": -0.4,
+            "libelle": "La double liaison C=N se replie : l'azote redevient neutre."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "C=CC(COB(O)O)N(C)C"
+      },
+      {
+        "numero": 5,
+        "titre": "Ce qu'on obtient",
+        "smiles": "C=CC(N(C)C)CO",
+        "legende": "Le bore reste accroché à l'oxygène jusqu'au traitement : l'ester borique s'hydrolyse à l'eau, et l'on récupère l'amino-alcool.\n\nUn β-amino alcool, et une liaison carbone-carbone créée sans organomagnésien, sans organolithien, sans anhydre, sans froid. Les acides boroniques se pèsent à l'air.\n\nLE PREMIER TRAVAIL DE PETASIS, en 1993, préparait des allylamines tertiaires et servait à synthétiser la NAFTIFINE, antifongique (p. 132). Depuis, la méthode a donné des acides α-aminés, des α-hydroxylamines, des 2-hydroxymorpholines, des alkylaminophénols et des 2H-chromènes.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

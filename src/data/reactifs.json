@@ -4329,5 +4329,40 @@
         "note": "L'urée donne ses deux azotes et son carbonyle"
       }
     ]
+  },
+  {
+    "id": "carbonate_ammonium",
+    "nom": "(NH₄)₂CO₃",
+    "nom_complet": "carbonate d'ammonium",
+    "famille": "Amines et donneurs de condensation",
+    "SMILES": "[NH4+].[NH4+].[O-]C([O-])=O",
+    "role": "Un flacon, deux réactifs : il libère l'ammoniac et le dioxyde de carbone",
+    "anatomie_annotations": [
+      {
+        "partie": "les deux ions ammonium",
+        "role": "Ils sont en équilibre avec l'ammoniac libre. Le sel est donc une source d'ammoniac COMMODE : solide, pesable, qui libère le gaz lentement à mesure qu'on le consomme, au lieu de l'apporter d'un coup."
+      },
+      {
+        "partie": "l'ion carbonate",
+        "role": "Il est en équilibre avec l'hydrogénocarbonate puis avec le dioxyde de carbone dissous. C'est ce CO₂ qui est capturé par l'amine, et qui devient le carbonyle du cycle hydantoïne."
+      },
+      {
+        "partie": "l'équilibre du sel",
+        "role": "Chauffé, le carbonate d'ammonium se décompose entièrement en ammoniac, dioxyde de carbone et eau. C'est pourquoi on le trouve aussi sous le nom d'« ammoniaque de corne de cerf », employé autrefois en pâtisserie comme levure chimique."
+      }
+    ],
+    "reactions_liees": [
+      "bucherer_bergs"
+    ],
+    "explication_reference": "Le carbonate d'ammonium est le réactif caractéristique de la réaction de Bucherer-Bergs, où il tient DEUX rôles. Herrera & Marqués-López le décrivent ainsi (Multicomposants p. 331) : « une condensation à quatre composants entre un dérivé aldéhyde ou cétone réagissant avec le cyanure de potassium et le carbonate d'ammonium comme source d'AMMONIAC et de DIOXYDE DE CARBONE ».\n\nL'AMMONIAC condense d'abord sur le composé carbonylé et donne l'imine, qui reçoit le cyanure : on obtient l'α-aminonitrile de la synthèse de Strecker.\n\nLE DIOXYDE DE CARBONE intervient ensuite : l'amine le capture sous forme d'acide carbamique, dont l'oxygène cyclise sur le nitrile. Après réarrangement, on obtient l'hydantoïne.\n\nSA LIBÉRATION LENTE est un avantage opératoire : un sel solide qui rend son ammoniac au fur et à mesure évite la volatilisation et les pertes d'un barbotage de gaz.\n\nÀ NE PAS CONFONDRE avec l'acétate d'ammonium, employé comme source d'ammoniac dans la synthèse de Hantzsch (Clayden p. 783), qui n'apporte lui aucun carbone au produit.",
+    "explication_comprendre": "UN FLACON QUI CONTIENT DEUX RÉACTIFS\n\nLa réaction de Bucherer-Bergs a besoin de quatre choses : une cétone, du cyanure, de l'ammoniac et du dioxyde de carbone.\n\nOn n'ouvre pourtant que trois flacons, parce que le troisième en vaut deux.\n\nPOURQUOI\n\nLe carbonate d'ammonium est un sel : d'un côté des ions ammonium, de l'autre l'ion carbonate.\n\nMettez-le dans l'eau et chauffez : l'ammonium rend de l'ammoniac, le carbonate rend du dioxyde de carbone. Les deux se libèrent doucement, au fur et à mesure qu'on les consomme.\n\nCe n'est pas seulement commode. C'est mieux que d'apporter les deux gaz séparément : un gaz barbotté s'échappe, un sel dissous attend qu'on ait besoin de lui.\n\nUNE VIEILLE CONNAISSANCE\n\nSi ce sel vous semble étrangement familier, c'est qu'il l'est : on l'appelait autrefois « sel de corne de cerf », et l'on s'en servait comme levure chimique avant le bicarbonate. Chauffé, il se décompose entièrement en gaz — d'où les bulles.\n\nCertains biscuits secs d'Europe du Nord l'emploient encore.\n\nÀ NE PAS CONFONDRE\n\nL'ACÉTATE d'ammonium sert lui aussi de source d'ammoniac — dans la synthèse de Hantzsch, par exemple. Mais son autre moitié, l'acétate, ne va nulle part : elle reste dans le ballon.\n\nLe carbonate d'ammonium, lui, met ses deux moitiés dans le produit.",
+    "reactions_exemples": [
+      {
+        "nom": "Bucherer-Bergs : cétone → hydantoïne",
+        "substrat_SMILES": "O=C1CCCCC1",
+        "produit_SMILES": "O=C1NC(=O)NC12CCCCC2",
+        "note": "L'azote ET le carbonyle du cycle viennent du même sel"
+      }
+    ]
   }
 ]

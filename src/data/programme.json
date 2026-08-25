@@ -1530,12 +1530,12 @@
         {
           "nom": "Réaction de Bucherer-Bergs",
           "niveau": "M1",
-          "id": null
+          "id": "bucherer_bergs"
         },
         {
           "nom": "Réaction de Petasis (borono-Mannich)",
           "niveau": "M1",
-          "id": null
+          "id": "petasis_borono_mannich"
         },
         {
           "nom": "Couplage A3 : aldéhyde, alcyne, amine",

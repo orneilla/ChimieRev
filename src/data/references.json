@@ -7772,6 +7772,54 @@
         }
       ],
       "revues_modernes": []
+    },
+    "bucherer_bergs": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "10.1 — Bucherer-Bergs Reaction",
+          "pages": "331-332",
+          "note": "Le résultat qui fait la fiche, et il est stéréochimique (p. 331). Munday, en 1961, « trouva de façon prédominante l'un des stéréoisomères possibles de l'hydantoïne dans la réaction de Bucherer-Bergs de la 4-tert-butylcyclohexanone ». Edward et Jitrangsri l'ont expliqué : « le fort encombrement stérique était un facteur déterminant du cours stéréochimique de la réaction de Bucherer-Bergs, donnant l'acide α-aminé final dans lequel le NH et le groupe carboxylique sont préférentiellement en disposition CIS. Cependant, dans le procédé de Strecker, cet encombrement n'est pas un facteur principal dans l'étape clé de la route mécanistique, et l'attaque du CN fournirait le produit thermodynamiquement le plus stable, qui a une disposition TRANS. » La même page donne le partage des emplois — « l'approche de Bucherer-Bergs a été employée principalement pour les cétones, tandis que la réaction de Strecker a été plus largement explorée avec des aldéhydes » — et la parade au défaut de la méthode : les ultrasons à la place du chauffage, « en tolérant différents groupes fonctionnels comme les éthers, les esters et les acétals ». Le mécanisme complet est le schéma 10.1 (p. 332)."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "10.1 — Figure 10.1",
+          "pages": "332",
+          "note": "Sept hydantoïnes actives, qui expliquent pourquoi l'on s'arrête souvent avant l'hydrolyse : le nilutamide (anticancéreux), la PHÉNYTOÏNE (antiépileptique) et sa prodrogue la fosphénytoïne, la (+)-hydantocidine (herbicide), l'iprodione (fongicide), l'éthotoïne et la méphénytoïne (anticonvulsivants)."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "1 — Table 1.1",
+          "pages": "3",
+          "note": "La ligne historique : Bucherer-Bergs [23], 1929-1934, cétone + KCN + (NH₄)₂CO₃ vers l'hydantoïne."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "petasis_borono_mannich": {
+      "ouvrages": [
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "4.4 — Multicomponent Petasis-Borono-Mannich Reaction",
+          "pages": "132-133",
+          "note": "Le mécanisme en deux phrases (p. 132) : « l'étape limitante de cette stratégie est la migration du substituant de l'acide boronique vers le carbone qui porte l'ion iminium, et elle peut être favorisée par de hautes températures. Cependant, la présence d'un groupe OH soit sur le composant aldéhyde soit sur le composant amine peut activer l'acide boronique par formation d'un intermédiaire tétraédrique du bore, comme il apparaît dans l'intermédiaire 25. » L'origine et la portée : « après le travail pionnier rapporté par Petasis et ses collègues en 1993 pour la préparation d'allylamines tertiaires, appliqué à la synthèse de la naftifine », puis les acides α-aminés, α-hydroxylamines, 2-hydroxymorpholines, alkylaminophénols et 2H-chromènes. Et les versions énantiosélectives (p. 133) : la thiourée bifonctionnelle de Takemoto, qui « jouerait un double rôle, en activant en même temps l'électrophile et le nucléophile du procédé », puis le diol chiral dérivé du biphénol de Schaus."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "4.5 — Industrial applications",
+          "pages": "138",
+          "note": "Kalinski et ses collègues ont comparé Ugi, Petasis et Passerini pour produire des médicaments génériques, dont le clopidogrel — obtenu ici sous forme racémique."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "6 — Transition-Metal-Catalyzed and -Mediated Reactions",
+          "pages": "401",
+          "note": "NOTE DE RECHERCHE, ET PIÈGE D'HOMONYMIE. « Petasis » rend cette page, et elle ne parle pas de la borono-Mannich : « dans la réaction de Petasis, Cp₂TiMe₂ lui-même sert à conduire des réactions de Tebbe. Cp₂TiMe₂ est bien plus facile à préparer et à manipuler que le réactif de Tebbe. » C'est le RÉACTIF de Petasis, un titanocène qui méthylène les carbonyles. Même chimiste, chimie sans rapport."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

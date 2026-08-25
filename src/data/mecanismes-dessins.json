@@ -10208,5 +10208,164 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "bucherer_bergs": {
+    "1": {
+      "fichier": "bucherer_bergs-etape1.svg",
+      "titre": "Quatre composants, apportés par deux flacons",
+      "legende": "Une cétone, du cyanure de potassium, et du carbonate d'ammonium. Ce dernier est un réactif double : il libère à la fois l'AMMONIAC et le DIOXYDE DE CARBONE. Quatre composants entrent donc dans le produit, apportés par trois flacons seulement.\n\nHerrera & Marqués-López la définissent ainsi (p. 331) : « une condensation à quatre composants entre un dérivé aldéhyde ou cétone réagissant avec le cyanure de potassium et le carbonate d'ammonium comme source d'ammoniac et de dioxyde de carbone, donnant des composés hydantoïnes ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "bucherer_bergs-etape2.svg",
+      "titre": "L'ammoniac condense sur la cétone",
+      "legende": "L'ammoniac s'additionne sur la cétone, l'eau part, et le milieu ammoniacal protone l'imine obtenue. Le détail est écrit dans la fiche « Formation des imines et des énamines ».\n\nUNE SIMPLIFICATION DE SCHÉMA, déclarée : on dessine l'acétone. Le procédé de Bucherer-Bergs est employé surtout sur des CÉTONES, souvent cycliques — c'est ce qui le distingue de la synthèse de Strecker, « plus largement explorée sur les aldéhydes » (p. 331).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "bucherer_bergs-etape3.svg",
+      "titre": "Le cyanure attaque : voici l'aminonitrile",
+      "legende": "L'ion cyanure s'additionne sur l'iminium. On obtient un α-AMINONITRILE — exactement l'intermédiaire de la synthèse de Strecker.\n\nLES DEUX RÉACTIONS SE SÉPARENT ICI. Chez Strecker, on hydrolyse cet aminonitrile et l'on obtient l'acide aminé. Chez Bucherer-Bergs, le dioxyde de carbone intervient avant, et l'on passe par un cycle.",
+      "fleches": [
+        "Le cyanure attaque le carbone de l'iminium.",
+        "La double liaison C=N se replie : l'azote redevient une amine."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "bucherer_bergs-etape4.svg",
+      "titre": "L'amine capture le dioxyde de carbone",
+      "legende": "L'amine attaque le carbone du CO₂ — un carbone entouré de deux oxygènes, donc très pauvre en électrons. Un transfert de proton donne ensuite l'acide carbamique.\n\nC'EST LE GESTE QUE FAIT LE SANG. La même addition d'une amine sur le CO₂ transporte une partie du dioxyde de carbone dans l'hémoglobine, sous forme de carbamate.",
+      "fleches": [
+        "L'azote de l'amine attaque le carbone du CO₂.",
+        "Les électrons d'une double liaison C=O se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "bucherer_bergs-etape5.svg",
+      "titre": "Le carbamate se referme sur le nitrile",
+      "legende": "L'oxygène de l'acide carbamique attaque le carbone du nitrile : cycle à cinq chaînons. La triple liaison se replie, et l'azote qu'elle portait prend au passage le proton.\n\nCE CYCLE N'EST PAS ENCORE L'HYDANTOÏNE. Regardez ses atomes : il contient un OXYGÈNE là où l'hydantoïne porte un azote. Il va falloir les échanger.",
+      "fleches": [
+        "L'oxygène du carbamate attaque le nitrile.",
+        "La triple liaison C≡N se replie sur l'azote.",
+        "L'azote va chercher le proton.",
+        "La liaison O–H se rompt."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "6": {
+      "fichier": "bucherer_bergs-etape6.svg",
+      "titre": "Le cycle s'ouvre de l'autre côté",
+      "legende": "L'azote du cycle pousse son doublet dans la liaison voisine, et la liaison avec l'oxygène se rompt. Le cycle s'ouvre.\n\nCE GESTE EST CELUI DE LA TRANSPOSITION DE MUMM, rencontré dans les réactions de Passerini et d'Ugi : un acyle qui change de porteur par un cycle à cinq chaînons. Ici il quitte l'oxygène, et c'est ce qui permettra à l'azote de prendre sa place.",
+      "fleches": [
+        "Le doublet de l'azote pousse.",
+        "La liaison avec l'oxygène du cycle se rompt."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "7": {
+      "fichier": "bucherer_bergs-etape7.svg",
+      "titre": "L'imidate s'effondre, le proton passe",
+      "legende": "L'oxygène chargé négativement reforme un carbonyle, la double liaison C=N se replie sur l'azote, et cet azote va chercher le proton resté sur l'autre.\n\nLE RÉSULTAT EST UNE MOLÉCULE À DEUX VISAGES : d'un côté un ISOCYANATE — N=C=O —, de l'autre un amide primaire. Ils sont portés par le même carbone, et ils n'attendent que de se rencontrer.",
+      "fleches": [
+        "L'oxygène rend son doublet : le carbonyle de l'amide se forme.",
+        "La double liaison C=N se replie sur l'azote.",
+        "L'azote va chercher le proton.",
+        "La liaison N–H se rompt : voici l'isocyanate."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "8": {
+      "fichier": "bucherer_bergs-etape8.svg",
+      "titre": "L'amide attaque l'isocyanate",
+      "legende": "L'azote de l'amide attaque le carbone de l'isocyanate — un carbone pris entre un azote et un oxygène, donc affamé d'électrons. Le cycle se referme à cinq chaînons, et le proton passe d'un azote à l'autre.\n\nC'EST L'HYDANTOÏNE.",
+      "fleches": [
+        "L'azote de l'amide attaque l'isocyanate.",
+        "La double liaison C=N se replie sur l'azote.",
+        "Cet azote va chercher le proton.",
+        "La liaison N–H se rompt."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "9": {
+      "fichier": "bucherer_bergs-etape9.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "L'hydantoïne. Une hydrolyse à 140 °C, en milieu acide ou basique, l'ouvre ensuite en acide α-aminé.\n\nMAIS ON S'ARRÊTE SOUVENT LÀ, parce que l'hydantoïne elle-même est un médicament. La figure 10.1 de l'ouvrage (p. 332) en aligne sept : la PHÉNYTOÏNE antiépileptique et sa prodrogue la fosphénytoïne, le nilutamide anticancéreux, l'iprodione fongicide, l'hydantocidine herbicide, l'éthotoïne et la méphénytoïne anticonvulsivantes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "petasis_borono_mannich": {
+    "1": {
+      "fichier": "petasis_borono_mannich-etape1.svg",
+      "titre": "Trois composants, dont un acide boronique",
+      "legende": "Une amine, un aldéhyde et un acide boronique. Le produit sera une amine nouvelle, formée par création d'une liaison CARBONE-CARBONE.\n\nREGARDEZ L'ALDÉHYDE : il porte un OH en α, et ce n'est pas un détail décoratif. L'ouvrage écrit (p. 132) que « la présence d'un groupe OH soit sur le composant aldéhyde soit sur le composant amine peut activer l'acide boronique par formation d'un intermédiaire tétraédrique du bore ». Sans cet OH, la réaction traîne ou n'a pas lieu.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "petasis_borono_mannich-etape2.svg",
+      "titre": "L'amine et l'aldéhyde donnent l'iminium",
+      "legende": "L'amine secondaire condense sur l'aldéhyde, l'eau part : c'est un ion iminium, comme dans la réaction de Mannich. Le détail est écrit dans la fiche « Formation des imines et des énamines ».\n\nL'ALCOOL VOISIN EST DESSINÉ SOUS SA FORME ALCOOLATE, parce que c'est sous cette forme qu'il se lie au bore. La molécule est globalement neutre : la charge négative de l'alcoolate compense celle de l'iminium.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "petasis_borono_mannich-etape3.svg",
+      "titre": "Le bore devient tétraédrique",
+      "legende": "L'alcoolate se lie au bore. Le bore n'avait que six électrons — trois liaisons, une case vide : il l'accepte volontiers et devient tétraédrique, chargé négativement.\n\nC'EST L'INTERMÉDIAIRE « ATE », numéroté 25 dans l'ouvrage. Le mot désigne un atome qui a gagné une liaison et une charge négative — comme un borATE ou un cuprATE.\n\nET C'EST LUI QUI FAIT TOUT. Un acide boronique neutre ne cède pas son groupe carboné : la liaison C–B y est trop peu polarisée. Le bore chargé négativement, lui, pousse ses substituants dehors.",
+      "fleches": [
+        "L'alcoolate se lie au bore, qui devient tétraédrique."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "petasis_borono_mannich-etape4.svg",
+      "titre": "Le groupe vinyle migre du bore au carbone",
+      "legende": "La liaison carbone-bore se rompt, et ses électrons forment la liaison carbone-carbone avec l'iminium. Le bore redevient neutre, l'azote aussi.\n\nCETTE ÉTAPE EST LA PLUS LENTE (p. 132) : « l'étape limitante de cette stratégie est la migration du substituant de l'acide boronique vers le carbone qui porte l'ion iminium, et elle peut être favorisée par de hautes températures ».\n\nREGARDEZ LE CHEMIN QU'ELLE PARCOURT : le carbone qui migre et le carbone qui le reçoit sont tenus par le même échafaudage — bore, oxygène, carbone, iminium. La migration est INTRAMOLÉCULAIRE, et c'est pourquoi il fallait cet OH en α.",
+      "fleches": [
+        "La liaison C–B se rompt et forme la liaison C–C.",
+        "La double liaison C=N se replie : l'azote redevient neutre."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "5": {
+      "fichier": "petasis_borono_mannich-etape5.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Le bore reste accroché à l'oxygène jusqu'au traitement : l'ester borique s'hydrolyse à l'eau, et l'on récupère l'amino-alcool.\n\nUn β-amino alcool, et une liaison carbone-carbone créée sans organomagnésien, sans organolithien, sans anhydre, sans froid. Les acides boroniques se pèsent à l'air.\n\nLE PREMIER TRAVAIL DE PETASIS, en 1993, préparait des allylamines tertiaires et servait à synthétiser la NAFTIFINE, antifongique (p. 132). Depuis, la méthode a donné des acides α-aminés, des α-hydroxylamines, des 2-hydroxymorpholines, des alkylaminophénols et des 2H-chromènes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
