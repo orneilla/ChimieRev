@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 282,
-  "redigees": 264,
-  "verifiees": 178,
+  "redigees": 266,
+  "verifiees": 179,
   "relues": 0,
   "familles": [
     {
@@ -2267,9 +2267,9 @@
       "famille": "Synthèse asymétrique",
       "bloc": "Méthodes et matériaux",
       "total": 9,
-      "absente": 6,
-      "redigee": 3,
-      "verifiee": 0,
+      "absente": 4,
+      "redigee": 4,
+      "verifiee": 1,
       "relue": 0,
       "reactions": [
         {
@@ -2289,16 +2289,16 @@
         {
           "nom": "Réduction CBS d'une cétone",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "reduction_cbs",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Aldolisation d'Evans avec auxiliaire chiral",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "aldolisation_evans",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Hydrogénation asymétrique catalysée par un complexe chiral",

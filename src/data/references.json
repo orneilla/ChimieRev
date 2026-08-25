@@ -8106,6 +8106,48 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "reduction_cbs": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1114-1115",
+          "note": "La double activation, en une phrase (p. 1115) : « le catalyseur réunit le borane (qui se complexe à son atome d'azote basique) et le composé carbonylé (qui se complexe à son atome de bore acide de Lewis). La complexation active les DEUX partenaires vis-à-vis de la réaction : donner de la densité électronique au borane est indispensable pour le persuader de transférer un hydrure, et retirer de la densité électronique au groupe carbonyle le rend assez électrophile pour réagir avec une source d'hydrure faible. » L'origine de l'énantiosélectivité : « l'hydrure est livré via un état de transition cyclique à six chaînons, l'énantiosélectivité provenant de la préférence du plus gros des deux substituants de la cétone (R_L) pour la position pseudo-équatoriale de ce cycle ». Et l'argument économique en faveur de la catalyse (p. 1114) : « si vous employez un réactif chiral, il vous faut un équivalent entier de la source de pureté énantiomérique, ce qui peut devenir prohibitivement coûteux à grande échelle. C'est pour cette raison que les vrais sommets de la synthèse asymétrique font appel à la catalyse asymétrique. » La même page définit la PROCHIRALITÉ : « la capacité de devenir chiral en une transformation simple »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1117",
+          "note": "L'encadré « Two methods for reducing carbonyl compounds enantioselectively » met côte à côte le catalyseur (S)-CBS avec BH₃ et l'hydrogénation par transfert sur ruthénium porteur du ligand (R,R)-TsDPEN, qui donnent les deux énantiomères opposés."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "note de recherche",
+          "pages": "1114",
+          "note": "PIÈGE DE RECHERCHE : « oxazaborolidine » ne rend AUCUNE occurrence dans le Clayden, qui traite pourtant la réaction en détail sous le nom de « catalyseur CBS ». Le mot rend en revanche les pages 1177 et 1191 du Carey & Sundberg, qui sont son index et sa bibliographie. Chercher une réaction par le nom chimique de son catalyseur peut faire manquer la bonne page."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "aldolisation_evans": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis",
+          "pages": "1109-1112",
+          "note": "La définition de la stratégie (p. 1109) : « 1. Un composé énantiomériquement pur (généralement dérivé d'un produit naturel simple comme un acide aminé), appelé auxiliaire chiral, est attaché au produit de départ. 2. Une réaction diastéréosélective est conduite, qui, du fait de la pureté énantiomérique de l'auxiliaire chiral, donne un seul énantiomère du produit. » La géométrie unique de l'énolate (p. 1110) : « l'auxiliaire encombrant fait que seul l'énolate cis se forme : l'énolate trans est trop gêné », et « la coordination de l'ion lithium à l'autre oxygène carbonyle rend la structure entière rigide, fixant le groupe isopropyle à l'arrière de la molécule ». Et l'argument décisif en faveur des auxiliaires (p. 1112) : « pourvu que les produits soient cristallins, il sera généralement possible de recristalliser notre mélange 94:6 de diastéréoisomères pour donner essentiellement un seul diastéréoisomère, un peu comme si l'on menait une résolution avec une ÉNORME AVANCE [...] bien sûr, la recristallisation sacrifie quelques points de rendement, mais ceux-ci sont invariablement bien moins précieux que les quelques points d'excès énantiomérique gagnés ». L'exemple d'Evans sur l'antibiotique X-206 y est donné : 98:2 porté à plus de 99:1 par recristallisation, 83 % de rendement, « essentiellement 100 % ee » après retrait de l'auxiliaire."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric aldol reactions",
+          "pages": "1129-1130",
+          "note": "Ce que vaut une aldolisation asymétrique (p. 1129) : « elle crée deux nouveaux centres chiraux avec contrôle de leur stéréochimie absolue, et construit en outre une nouvelle liaison C–C. De plus, les produits d'aldolisation sont des motifs très communs dans un grand nombre de produits naturels appelés polycétides ». Les conditions : triéthylamine, triflate de dibutylbore, benzaldéhyde. Le prix de la méthode (p. 1130) : « les étapes supplémentaires requises pour introduire et retirer l'auxiliaire peuvent compromettre le rendement global et l'efficacité ». Et la démonstration du discodermolide : Novartis en a fait 60 g par une voie à cinq aldolisations, dont quatre sur oxazolidinones d'Evans, alors qu'« obtenir la même quantité à partir de la source naturelle, l'éponge Discodermia, est impossible : l'éponge produit des quantités minuscules et ne peut être récoltée qu'en employant des submersibles habités, à un certain coût pour l'environnement marin »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

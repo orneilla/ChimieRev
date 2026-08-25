@@ -1609,12 +1609,12 @@
         {
           "nom": "Réduction CBS d'une cétone",
           "niveau": "M1",
-          "id": null
+          "id": "reduction_cbs"
         },
         {
           "nom": "Aldolisation d'Evans avec auxiliaire chiral",
           "niveau": "M2",
-          "id": null
+          "id": "aldolisation_evans"
         },
         {
           "nom": "Hydrogénation asymétrique catalysée par un complexe chiral",

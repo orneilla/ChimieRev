@@ -1055,6 +1055,14 @@
     "substrat": "dihydroxylation_sharpless-substrat.svg",
     "produit": "dihydroxylation_sharpless-produit.svg"
   },
+  "reduction_cbs": {
+    "substrat": "reduction_cbs-substrat.svg",
+    "produit": "reduction_cbs-produit.svg"
+  },
+  "aldolisation_evans": {
+    "substrat": "aldolisation_evans-substrat.svg",
+    "produit": "aldolisation_evans-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

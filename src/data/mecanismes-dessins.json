@@ -11146,5 +11146,95 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "reduction_cbs": {
+    "1": {
+      "fichier": "reduction_cbs-etape1.svg",
+      "titre": "Le catalyseur, et ce qu'il porte",
+      "legende": "Le catalyseur CBS — pour Corey, Bakshi et Shibata — est une OXAZABOROLIDINE bâtie sur la proline. Regardez ses deux atomes actifs, qui sont voisins et de natures opposées :\n\n· l'AZOTE, basique, qui va donner des électrons ;\n· le BORE, acide de Lewis, qui va en prendre.\n\nUn seul objet chiral, deux fonctions contraires, séparées par une liaison. Toute la réaction tient là-dedans.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "reduction_cbs-etape2.svg",
+      "titre": "Il attrape les deux partenaires à la fois",
+      "legende": "Clayden décrit l'assemblage en une phrase (p. 1115) : « le catalyseur RÉUNIT le borane (qui se complexe à son atome d'azote basique) et le composé carbonylé (qui se complexe à son atome de bore acide de Lewis) ».\n\nET IL LES ACTIVE TOUS LES DEUX, EN SENS CONTRAIRES : « la complexation active les DEUX partenaires vis-à-vis de la réaction : donner de la densité électronique au borane est indispensable pour le persuader de transférer un hydrure, et RETIRER de la densité électronique au groupe carbonyle le rend assez électrophile pour réagir avec une source d'hydrure faible. »\n\nUn catalyseur qui enrichit un partenaire et appauvrit l'autre : c'est exactement ce que fait la proline dans la séquence domino Knoevenagel/Diels-Alder. Retenez le motif, il est général.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "reduction_cbs-etape3.svg",
+      "titre": "L'hydrure passe par un cycle à six chaînons",
+      "legende": "« L'hydrure est livré via un ÉTAT DE TRANSITION CYCLIQUE À SIX CHAÎNONS, l'énantiosélectivité provenant de la préférence du PLUS GROS des deux substituants de la cétone (R_L) pour la position PSEUDO-ÉQUATORIALE de ce cycle. » (Clayden p. 1115)\n\nDEUX IDÉES DANS UNE SEULE PHRASE, et il faut les séparer.\n\nLa première : l'hydrure ne traverse pas la solution, il passe par un cycle temporaire — bore, hydrogène, carbone, oxygène, bore, azote. Une géométrie contrainte.\n\nLa seconde : dans un cycle à six chaînons, un gros substituant préfère l'équatoriale. C'est la règle du cyclohexane, apprise au premier semestre, appliquée ici à un état de transition. Elle suffit à prédire l'énantiomère.\n\nON NE DESSINE PAS CET ÉTAT DE TRANSITION : il n'a pas d'existence isolable, et Clayden le représente en perspective. On dit ce qu'il contient.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "reduction_cbs-etape4.svg",
+      "titre": "Ce qu'on obtient",
+      "legende": "Un alcool secondaire, d'une seule main, et le catalyseur repart.\n\nCE QUE LA CATALYSE CHANGE PAR RAPPORT À UN RÉACTIF CHIRAL (Clayden p. 1114) : « si vous employez un RÉACTIF chiral, il vous faut un équivalent entier de la source de pureté énantiomérique, ce qui peut devenir prohibitivement coûteux à grande échelle. C'est pour cette raison que les vrais sommets de la synthèse asymétrique font appel à la CATALYSE asymétrique. »\n\nUne molécule de catalyseur en fabrique des milliers. Un réactif chiral, une seule.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "aldolisation_evans": {
+    "1": {
+      "fichier": "aldolisation_evans-etape1.svg",
+      "titre": "L'auxiliaire est accroché au substrat",
+      "legende": "L'auxiliaire est une OXAZOLIDINONE, préparée à partir d'un acide aminé — ici la valine, d'où l'isopropyle. On l'acyle avec l'acide dont on veut faire l'aldolisation.\n\nCLAYDEN RÉSUME LA STRATÉGIE EN TROIS TEMPS (p. 1109) : « 1. Un composé énantiomériquement pur (généralement dérivé d'un produit naturel simple comme un acide aminé), appelé AUXILIAIRE CHIRAL, est attaché au produit de départ. 2. Une réaction DIASTÉRÉOSÉLECTIVE est conduite, qui, du fait de la pureté énantiomérique de l'auxiliaire chiral, donne un seul énantiomère du produit. » Puis on retire l'auxiliaire, « récupéré et recyclable ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "aldolisation_evans-etape2.svg",
+      "titre": "L'énolate de bore, et il n'y en a qu'un",
+      "legende": "Le triflate de dibutylbore et la triéthylamine forment l'énolate de bore. Il est de géométrie Z — et pas par chance : Clayden écrit à propos de l'énolate de lithium correspondant (p. 1110) que « l'auxiliaire encombrant fait que SEUL l'énolate cis se forme : l'énolate trans est trop gêné ».\n\nUNE GÉOMÉTRIE D'ÉNOLATE UNIQUE EST LA CONDITION DE TOUT LE RESTE. Dans une aldolisation, c'est elle qui fixe la stéréochimie RELATIVE des deux centres créés ; l'auxiliaire, lui, fixera l'ABSOLUE.\n\nUNE SIMPLIFICATION DE SCHÉMA, déclarée : on dessine un bore portant deux méthyles là où le réactif porte deux butyles.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "aldolisation_evans-etape3.svg",
+      "titre": "L'aldéhyde entre par un cycle à six chaînons",
+      "legende": "L'énolate attaque l'aldéhyde, et l'oxygène de celui-ci se lie au bore. Les quatre flèches décrivent l'état de transition de ZIMMERMAN-TRAXLER : un cycle à six chaînons — bore, oxygène de l'énolate, deux carbones, carbone et oxygène de l'aldéhyde — où chacun prend la place la moins gênée.\n\nDEUX CENTRES STÉRÉOGÈNES NAISSENT ENSEMBLE, et Clayden dit pourquoi cela compte (p. 1129) : « la puissance d'une aldolisation asymétrique est facile à voir : elle crée DEUX nouveaux centres chiraux avec contrôle de leur stéréochimie absolue, et construit en outre une nouvelle liaison C–C. De plus, les produits d'aldolisation sont des motifs très communs dans un grand nombre de produits naturels appelés POLYCÉTIDES. »\n\nCE QUI ORIENTE LA FACE : le lithium ou le bore « coordonne l'autre oxygène du carbonyle, ce qui rend la structure entière RIGIDE, fixant le groupe isopropyle à l'arrière de la molécule » (p. 1110), où il fait écran.",
+      "fleches": [
+        "L'énolate attaque le carbone de l'aldéhyde.",
+        "L'oxygène de l'aldéhyde se lie au bore.",
+        "Le bore libère l'oxygène de l'énolate.",
+        "Qui reforme le carbonyle."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "4": {
+      "fichier": "aldolisation_evans-etape4.svg",
+      "titre": "Le traitement libère l'aldol",
+      "legende": "L'hydrolyse aqueuse détache le bore : on tient l'aldol, l'auxiliaire encore accroché.\n\nET C'EST ICI QU'ON PEUT FAIRE MIEUX QUE LA RÉACTION. Clayden décrit une astuce que l'auxiliaire seul permet (p. 1112) : comme le produit est un mélange de DIASTÉRÉOISOMÈRES — et non d'énantiomères —, il se recristallise. « Pourvu que les produits soient cristallins, il sera généralement possible de recristalliser notre mélange 94:6 de diastéréoisomères pour donner essentiellement un seul diastéréoisomère, un peu comme si l'on menait une résolution avec une ÉNORME AVANCE. »\n\nEt il ajoute le calcul qui va avec : « bien sûr, la recristallisation sacrifie quelques points de rendement, mais ceux-ci sont invariablement bien MOINS PRÉCIEUX que les quelques points d'excès énantiomérique gagnés ».\n\nSON PROPRE EXEMPLE, sur la synthèse de l'antibiotique X-206 : une allylation donne 98:2, « cependant la recristallisation convertit cela en 83 % de rendement d'un diastéréoisomère unique à plus de 99 % de pureté, donnant après retrait de l'auxiliaire un produit essentiellement à 100 % d'excès énantiomérique ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "5": {
+      "fichier": "aldolisation_evans-etape5.svg",
+      "titre": "On retire l'auxiliaire",
+      "legende": "L'hydrolyse basique — ou l'alcoolyse, ou une réduction — détache l'oxazolidinone, qu'on récupère et qu'on recycle. Il reste l'acide β-hydroxylé, « comme diastéréoisomère unique et énantiomère unique » (p. 1129).\n\nLE PRIX DE LA MÉTHODE EST ÉNONCÉ SANS DÉTOUR (p. 1130) : « tous les avantages et inconvénients habituels des auxiliaires chiraux s'appliquent ici : les produits sont formés avec une très haute sélectivité et peuvent être purifiés jusqu'à un excès énantiomérique élevé, mais les ÉTAPES SUPPLÉMENTAIRES requises pour introduire et retirer l'auxiliaire peuvent compromettre le rendement global et l'efficacité. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
