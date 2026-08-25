@@ -24314,5 +24314,324 @@
         "produit_attendu": "C=C(C)O.C=CC"
       }
     ]
+  },
+  "photoisomerisation_cis_trans": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le photon vide la liaison π de sa raison d'être",
+        "smiles": "C/C=C/C",
+        "legende": "Un alcène absorbe un photon. Un électron passe de l'orbitale π à l'orbitale π*.\n\nCE QUI RESTE DE LA DOUBLE LIAISON : rien, ou presque. Un électron liant, un électron antiliant — leur somme est nulle. L'ordre de liaison π est tombé de un à zéro.\n\nET UNE LIAISON π À ORDRE NUL NE S'OPPOSE PLUS À LA ROTATION. C'est tout le mécanisme de cette fiche : la barrière qui interdisait à un alcène de tourner sur lui-même vient de disparaître.\n\nCAREY & SUNDBERG DÉCRIVENT LA GÉOMÉTRIE QUI S'ENSUIT (p. 1082) : « on pense que l'isomérisation cis-trans des alcènes a lieu via un état excité dans lequel les deux carbones sp² sont TORDUS d'environ 90° l'un par rapport à l'autre. On pense que cette géométrie tordue est la géométrie de MINIMUM D'ÉNERGIE pour les états excités singulet ET triplet. »\n\nET VOICI LE RENVERSEMENT QUI FAIT TOUT (p. 1082) : « la géométrie tordue est un MAXIMUM d'énergie sur la surface de l'état fondamental. »\n\nLA MÊME GÉOMÉTRIE EST LE FOND D'UNE VALLÉE EN HAUT ET LE SOMMET D'UNE COLLINE EN BAS. La molécule excitée se dirige naturellement vers l'endroit précis d'où, une fois redescendue, elle pourra tomber d'un côté ou de l'autre.\n\nAUCUNE FLÈCHE ICI : l'absorption d'un photon est une transition verticale imposée de l'extérieur, non un déplacement d'électrons d'un site riche vers un site pauvre.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'état tordu à 90°, d'où l'on retombe des deux côtés",
+        "smiles": "[CH](C)[CH]C",
+        "legende": "Voici l'état excité, dessiné comme ce qu'il est : un DIRADICAL. Les deux carbones ne partagent plus rien, et chacun garde son électron.\n\nCE QUE LE SCHÉMA NE PEUT PAS MONTRER, ET QU'IL FAUT DIRE : les deux moitiés sont tordues de 90° l'une par rapport à l'autre. Un schéma plat ne rend pas cet angle ; c'est pourtant lui, et rien d'autre, qui fait la réaction.\n\nCE QUI SE PASSE ENSUITE (Carey & Sundberg p. 1082) : « la géométrie tordue de l'état excité permet la possibilité de revenir SOIT à la configuration cis, SOIT à la trans de l'état fondamental. Le retour depuis l'état excité singulet vers l'état fondamental implique un RÉAPPARIEMENT des électrons par un processus non radiatif. Le retour depuis l'état triplet requiert un CROISEMENT INTERSYSTÈME. »\n\nDEUX VOIES DE RETOUR, DEUX CINÉTIQUES, MAIS LA MÊME INDIFFÉRENCE : arrivée en haut de la colline de l'état fondamental, la molécule n'a aucune raison de préférer un versant.\n\nUNE CONSÉQUENCE QU'IL FAUT AVOIR EN TÊTE : cette réaction ne va nulle part. Elle tourne. On n'obtient pas un produit, on obtient un RAPPORT — et ce rapport est ce que la fiche appelle l'état photostationnaire.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "L'état photostationnaire : le produit est celui qui absorbe le moins",
+        "smiles": "C/C=C\\C",
+        "legende": "On éclaire, et les deux isomères se convertissent l'un en l'autre. Au bout d'un moment, plus rien ne change : autant de cis deviennent trans que l'inverse. C'est l'ÉTAT PHOTOSTATIONNAIRE.\n\nCE QUI DÉCIDE DE SA COMPOSITION N'EST PAS LA STABILITÉ, ET C'EST LE POINT DE TOUTE LA FICHE. Carey & Sundberg donnent la relation (p. 1082) :\n\n[trans] / [cis] = (ε𝒸 / ε𝓉) × (φ𝒸→𝓉 / φ𝓉→𝒸)\n\nDEUX FACTEURS SEULEMENT : le rapport des COEFFICIENTS D'EXTINCTION à la longueur d'onde employée, et le rapport des RENDEMENTS QUANTIQUES.\n\nAUCUNE ÉNERGIE LIBRE N'Y FIGURE. Un équilibre thermique est gouverné par ΔG ; un état photostationnaire, par l'ABSORPTION.\n\nET LA CONSÉQUENCE EST SPECTACULAIRE (Carey & Sundberg p. 1082) : « si l'on suppose que le rendement quantique de la conversion cis→trans est approximativement égal à celui pour trans→cis, la conversion de l'alcène trans en cis se produira PLUS VITE que le processus inverse lorsque les deux isomères sont en concentrations égales. À ce point, la concentration de l'isomère CIS sera SUPÉRIEURE à celle de l'isomère trans. »\n\nON ACCUMULE L'ISOMÈRE LE MOINS STABLE. Parce qu'il est aussi, presque toujours, celui qui absorbe le moins : gêné stériquement, son système conjugué est moins bien plan, donc son coefficient d'extinction est plus faible. Il est photochimiquement plus DISCRET, donc il s'accumule.\n\nLA MOLÉCULE QUI SURVIT EST CELLE QUI SE FAIT LE MOINS REMARQUER. C'est l'inverse exact d'une réaction thermique, et c'est ce qui rend la photochimie capable de monter en énergie.\n\nET LE RÉGLAGE SE FAIT À LA LONGUEUR D'ONDE (Carey & Sundberg p. 1087) : « la composition de l'état photostationnaire peut être contrôlée par la LONGUEUR D'ONDE de l'irradiation. » On ne change ni le solvant ni la température : on change la couleur de la lumière.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "photocycloaddition_2_2": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Un alcène excité attaque un alcène ordinaire",
+        "smiles": "C=C.[CH2][CH2]",
+        "legende": "GROSSMAN RANGE CETTE RÉACTION LÀ OÙ ON NE L'ATTEND PAS (p. 319) : « il faut mentionner enfin que la cycloaddition [2+2] PHOTOCHIMIQUEMENT PERMISE des alcènes peut être considérée comme un processus MÉDIÉ PAR DES RADICAUX. La photoexcitation d'un alcène donne un DIRADICAL-1,2. Le radical en C1 s'additionne à l'une des extrémités de l'autre alcène pour donner un DIRADICAL-1,4, qui se cyclise ensuite pour donner le produit observé. »\n\nDEUX LECTURES D'UNE MÊME RÉACTION, ET IL FAUT LES TENIR ENSEMBLE. Woodward et Hoffmann la classent parmi les péricycliques : [2πs + 2πs], permise photochimiquement, interdite thermiquement. Grossman l'écrit en radicaux. Les deux descriptions rendent le même produit.\n\nCE N'EST PAS UNE CONTRADICTION, C'EST UNE QUESTION DE NIVEAU DE DESCRIPTION. La règle de symétrie dit POURQUOI la réaction est possible sous photon et non à chaud ; le mécanisme radicalaire dit COMMENT les atomes se déplacent.\n\nTROIS HAMEÇONS, comme toute addition d'un radical sur une double liaison : un vient du radical, les deux autres de la liaison π qui se défait.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 2
+            },
+            "vers": {
+              "liaison": [
+                0,
+                2
+              ]
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "L'électron célibataire de l'alcène excité attaque le carbone de l'autre alcène…"
+          },
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "liaison": [
+                0,
+                2
+              ]
+            },
+            "courbure": -0.45,
+            "electrons": 1,
+            "libelle": "…où un électron de la liaison π vient s'apparier avec lui."
+          },
+          {
+            "de": {
+              "liaison": [
+                0,
+                1
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "L'autre électron reste seul : voici le diradical-1,4."
+          }
+        ],
+        "produit_attendu": "[CH2]CC[CH2]",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Le diradical-1,4 se referme — et il n'a pas le temps de tourner",
+        "smiles": "[CH2]CC[CH2]",
+        "legende": "Les deux extrémités radicalaires se joignent, et le cyclobutane est fait.\n\nCE QUE LA MESURE A ÉTABLI, ET C'EST LE CŒUR DE CETTE FICHE (Grossman p. 319) : « des mesures spectroscopiques à l'échelle de la FEMTOSECONDE ont prouvé que le diradical-1,4 est un VÉRITABLE INTERMÉDIAIRE sur le chemin réactionnel des cycloadditions [2+2]. »\n\nUn véritable intermédiaire — pas un état de transition, pas une commodité de dessin. Il existe, on l'a vu.\n\nMAIS ALORS UNE OBJECTION SE LÈVE IMMÉDIATEMENT. Un diradical peut tourner autour de ses liaisons σ. S'il tourne, la géométrie de l'alcène de départ est perdue, et le produit devrait être un mélange.\n\nOr les cycloadditions [2+2] sont STÉRÉOSPÉCIFIQUES : un alcène cis donne le cyclobutane cis, un alcène trans le trans.\n\nGROSSMAN LÈVE L'OBJECTION PAR UNE COMPARAISON DE DURÉES (p. 319) : « cependant, la DURÉE DE VIE du diradical-1,4 est PLUS COURTE que la vitesse de rotation autour des liaisons σ C–C, puisque les cycloadditions [2+2] sont stéréospécifiques. »\n\nL'INTERMÉDIAIRE EXISTE ET NE SERT À RIEN — au sens où il n'a pas le temps de faire ce qu'un intermédiaire fait d'ordinaire. Il naît et se referme avant d'avoir pu pivoter.\n\nRETENEZ LA FORME DE CE RAISONNEMENT, elle vaut bien au-delà de la photochimie : on ne conclut pas de la stéréospécificité qu'il n'y a pas d'intermédiaire. On en conclut que l'intermédiaire vit moins longtemps qu'une rotation.\n\nDEUX HAMEÇONS VISANT LA MÊME LIAISON : c'est l'écriture normale d'une liaison qui naît de deux électrons célibataires — ils arrivent forcément au même point. On leur donne des courbures OPPOSÉES pour qu'on les distingue, et le contrôle de superposition les dispense de sa règle habituelle.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 0
+            },
+            "vers": {
+              "liaison": [
+                0,
+                3
+              ]
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "L'électron célibataire d'un bout…"
+          },
+          {
+            "de": {
+              "atome": 3
+            },
+            "vers": {
+              "liaison": [
+                0,
+                3
+              ]
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "…s'apparie avec celui de l'autre. Le cycle à quatre est fermé."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "C1CCC1"
+      }
+    ]
+  },
+  "photoreduction_pinacol": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "La benzophénone excitée arrache un hydrogène au solvant",
+        "smiles": "CC([H])(O)C.[O][C](c1ccccc1)c1ccccc1",
+        "legende": "La benzophénone excitée est un diradical-1,2, et son oxygène se comporte comme un radical alcoxyle. Il arrache un hydrogène à l'isopropanol qui l'entoure.\n\nGROSSMAN LE DIT AVEC LA SIMPLICITÉ QUI CONVIENT (p. 318) : « la benzophénone dissoute dans l'alcool isopropylique subit un couplage pinacolique photochimique par SIMPLE EXPOSITION À LA LUMIÈRE DU SOLEIL. L'i-PrOH agit comme donneur d'atome d'hydrogène. »\n\nPOURQUOI L'ISOPROPANOL, ET PAS N'IMPORTE QUOI. Son hydrogène en α de l'alcool est tertiaire ET porté par un carbone déjà oxygéné : le radical qui en résulte est doublement stabilisé.\n\nCAREY & SUNDBERG PRÉCISENT PAR QUEL ÉTAT LA RÉACTION PASSE (p. 1119) : « ces réactions se produisent habituellement via l'état excité TRIPLET T₁. Le croisement intersystème de l'état excité singulet initialement formé est SI RAPIDE (k ≈ 10¹⁰ s⁻¹) que les réactions de l'état S₁ ne sont habituellement PAS observées. »\n\nDIX MILLIARDS DE FOIS PAR SECONDE. Le singulet n'a pas le temps d'exister chimiquement : quoi qu'on fasse, c'est le triplet qui réagit.\n\nTROIS HAMEÇONS, comme pour tout arrachement d'hydrogène par un radical. L'hydrogène visé est écrit explicitement, sans quoi la pointe de la flèche atterrirait sur le carbone.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                5,
+                2
+              ]
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "L'électron célibataire de l'oxygène part former la liaison O–H…"
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                5,
+                2
+              ]
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "…où un électron de la liaison C–H vient s'apparier avec lui."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 1
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "L'autre reste sur le carbone de l'isopropanol, qui devient un radical stabilisé."
+          }
+        ],
+        "produit_attendu": "C[C](C)O.O[C](c1ccccc1)c1ccccc1",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "Deux radicaux cétyle se soudent : le benzopinacol",
+        "smiles": "O[C](c1ccccc1)c1ccccc1.O[C](c1ccccc1)c1ccccc1",
+        "legende": "Le radical formé sur la benzophénone porte un nom : c'est un RADICAL CÉTYLE — un carbone portant un OH, deux phényles et un électron célibataire.\n\nDEUX D'ENTRE EUX SE JOIGNENT, et l'on obtient un diol à liaison carbone-carbone centrale : le BENZOPINACOL.\n\nCE QUI REND CE RADICAL PATIENT. Son électron célibataire est délocalisé sur deux cycles aromatiques. Il est donc peu réactif — assez peu pour attendre de rencontrer un semblable plutôt que d'attaquer le premier venu. C'est ce qui rend la dimérisation propre.\n\nCAREY & SUNDBERG DÉCRIVENT LE BILAN GÉNÉRAL (p. 1119) : « beaucoup de cétones aromatiques réagissent par ARRACHEMENT D'ATOME D'HYDROGÈNE, et les produits stables sont des DIOLS formés par couplage des radicaux α-hydroxybenzyle résultants. »\n\nET IL FAUT COMPTER LES HYDROGÈNES POUR VOIR L'ÉLÉGANCE DU PROCÉDÉ. Une molécule d'isopropanol donne UN hydrogène ; le radical qui en résulte en donne un second à une seconde benzophénone. Une molécule de solvant réduit donc DEUX molécules de cétone, et devient de l'acétone.\n\nDEUX HAMEÇONS VISANT LA MÊME LIAISON, avec des courbures opposées : l'écriture normale d'une liaison née de deux électrons célibataires.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                15
+              ]
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "L'électron célibataire du premier radical cétyle…"
+          },
+          {
+            "de": {
+              "atome": 15
+            },
+            "vers": {
+              "liaison": [
+                1,
+                15
+              ]
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "…s'apparie avec celui du second. Le benzopinacol est fait."
+          }
+        ],
+        "produit_attendu": "OC(c1ccccc1)(c1ccccc1)C(O)(c1ccccc1)c1ccccc1",
+        "valide": false
+      }
+    ]
+  },
+  "paterno_buchi": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le carbonyle excité attaque l'alcène par son OXYGÈNE",
+        "smiles": "CC=CC.[O][C](C)C",
+        "legende": "Une cétone excitée et un alcène. Ce qui va se former est un OXÉTANE — un cycle à quatre chaînons portant un oxygène.\n\nLA PREMIÈRE LIAISON SE FAIT PAR L'OXYGÈNE, et non par le carbone. C'est contre-intuitif si l'on pense au carbonyle de l'état fondamental, où l'oxygène est le site riche qu'on n'attaque pas. Mais dans le diradical excité, l'oxygène porte un électron célibataire — il est devenu le site RÉACTIF.\n\nTOUTE LA SÉLECTIVITÉ DE LA RÉACTION SE JOUE ICI. Carey & Sundberg font apparaître, sur leurs schémas, le « DIRADICAL PRÉFÉRÉ » (p. 1133) : parmi les deux diradicaux-1,4 que l'addition peut donner, c'est le plus stable qui se forme, donc celui où le radical restant se pose sur le carbone le mieux substitué de l'alcène.\n\nL'ORIENTATION DE L'OXÉTANE EST DONC DÉCIDÉE À CETTE ÉTAPE, et par la stabilité d'un radical — pas par une considération de polarité.\n\nTROIS HAMEÇONS : un vient de l'oxygène radicalaire, les deux autres de la liaison π qui se défait.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 4
+            },
+            "vers": {
+              "liaison": [
+                4,
+                1
+              ]
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "L'électron célibataire de l'oxygène attaque l'alcène…"
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "liaison": [
+                4,
+                1
+              ]
+            },
+            "courbure": -0.45,
+            "electrons": 1,
+            "libelle": "…où un électron de la liaison π vient s'apparier avec lui."
+          },
+          {
+            "de": {
+              "liaison": [
+                1,
+                2
+              ]
+            },
+            "vers": {
+              "atome": 2
+            },
+            "courbure": 0.45,
+            "electrons": 1,
+            "libelle": "L'autre reste seul sur le carbone le mieux substitué : c'est lui qui décide de l'orientation."
+          }
+        ],
+        "produit_attendu": "C[CH]C(C)O[C](C)C",
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "La fermeture — et pourquoi elle n'est PAS stéréospécifique",
+        "smiles": "C[CH]C(C)O[C](C)C",
+        "legende": "Les deux extrémités radicalaires se joignent, et l'oxétane est fermé.\n\nMAIS ICI, CONTRAIREMENT À LA CYCLOADDITION [2+2] ENTRE DEUX ALCÈNES, LA STÉRÉOCHIMIE DE L'ALCÈNE DE DÉPART EST PERDUE.\n\nCAREY & SUNDBERG SONT CATÉGORIQUES (p. 1133) : « la réaction de Paternò-Büchi n'est ORDINAIREMENT PAS STÉRÉOSPÉCIFIQUE, mais favorise plutôt l'adduit LE PLUS STABLE pour l'un ou l'autre isomère de l'alcène, ce qui indique l'intervention d'un intermédiaire diradicalaire À VIE RELATIVEMENT LONGUE. »\n\nMETTEZ CETTE PHRASE À CÔTÉ DE CELLE DE GROSSMAN SUR LA [2+2] DES ALCÈNES (p. 319) : « la DURÉE DE VIE du diradical-1,4 est PLUS COURTE que la vitesse de rotation autour des liaisons σ C–C, puisque les cycloadditions [2+2] sont stéréospécifiques. »\n\nDEUX RÉACTIONS, MÊME TYPE D'INTERMÉDIAIRE, RÉSULTATS OPPOSÉS — et une seule variable les sépare : la DURÉE DE VIE du diradical rapportée à la vitesse de rotation.\n\n• Diradical court-vécu → il se referme avant d'avoir tourné → stéréospécifique.\n• Diradical à vie longue → il tourne, oublie d'où il vient, et se referme dans la conformation la plus stable → non stéréospécifique.\n\nLA STÉRÉOSPÉCIFICITÉ N'EST DONC PAS UNE PROPRIÉTÉ DU MÉCANISME. C'est le résultat d'une COURSE entre deux vitesses. C'est l'un des raisonnements les plus utiles de toute la chimie physique organique, et ces deux réactions le montrent côte à côte.\n\nUN DÉTAIL À NE PAS MANQUER : le diradical de la Paternò-Büchi est stabilisé par l'oxygène d'un côté et par la substitution de l'autre. C'est cette stabilisation qui lui donne le temps de tourner. Ce qui le rend sélectif dans son ORIENTATION le rend indifférent à sa STÉRÉOCHIMIE.",
+        "fleches": [
+          {
+            "de": {
+              "atome": 1
+            },
+            "vers": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "courbure": 0.5,
+            "electrons": 1,
+            "libelle": "L'électron célibataire du carbone…"
+          },
+          {
+            "de": {
+              "atome": 5
+            },
+            "vers": {
+              "liaison": [
+                1,
+                5
+              ]
+            },
+            "courbure": -0.5,
+            "electrons": 1,
+            "libelle": "…s'apparie avec celui du carbone du carbonyle : l'oxétane est fermé."
+          }
+        ],
+        "valide": false,
+        "produit_attendu": "CC1OC(C)(C)C1C"
+      }
+    ]
   }
 }

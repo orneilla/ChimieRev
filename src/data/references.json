@@ -7448,6 +7448,72 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "photoisomerisation_cis_trans": {
+      "ouvrages": [
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.2",
+          "pages": "1082-1097",
+          "note": "L'exposé complet. La géométrie de l'état excité (p. 1082) : « on pense que l'isomérisation cis-trans des alcènes a lieu via un état excité dans lequel les deux carbones sp² sont TORDUS d'environ 90° l'un par rapport à l'autre. On pense que cette géométrie tordue est la géométrie de MINIMUM D'ÉNERGIE pour les états excités singulet et triplet. La géométrie tordue est un MAXIMUM d'énergie sur la surface de l'état fondamental. La géométrie tordue pour l'état excité permet la possibilité de revenir SOIT à la configuration cis, SOIT à la trans de l'état fondamental. » La relation de l'état photostationnaire est l'équation (12.3) de la même page, avec le rapport des coefficients d'extinction et des rendements quantiques ; et la conséquence : « si l'on suppose que le rendement quantique de la conversion cis→trans est approximativement égal à celui pour trans→cis […] la concentration de l'isomère CIS sera SUPÉRIEURE à celle de l'isomère trans. » Le contrôle par la longueur d'onde et l'expérience d'inhibition à l'AZULÈNE sont p. 1087 : « parmi les preuves indiquant qu'un intermédiaire triplet n'est pas impliqué dans l'irradiation directe figure le fait que l'azulène, dont on sait qu'il intercepte les triplets du stilbène, n'a qu'un effet MINEUR sur l'efficacité de la photoisomérisation directe. » Le cas des cycloalcènes est p. 1094 — « le cycle LIMITE la mesure dans laquelle la double liaison peut se tordre » —, et la distinction singulet/triplet sur les diènes p. 1097 : le singulet « doit procéder par une structure qui est libre de tourner à UNE SEULE extrémité, tandis que l'isomérisation SENSIBILISÉE (triplet) implique une structure qui peut tourner AUX DEUX extrémités »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "photocycloaddition_2_2": {
+      "ouvrages": [
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5.3.1 — Photochemical Reactions",
+          "pages": "319",
+          "note": "La lecture radicalaire, et la preuve expérimentale : « la cycloaddition [2+2] PHOTOCHIMIQUEMENT PERMISE des alcènes peut être considérée comme un processus MÉDIÉ PAR DES RADICAUX. La photoexcitation d'un alcène donne un diradical-1,2. Le radical en C1 s'additionne à l'une des extrémités de l'autre alcène pour donner un diradical-1,4, qui se cyclise ensuite pour donner le produit observé. Des mesures spectroscopiques à l'échelle de la FEMTOSECONDE ont prouvé que le diradical-1,4 est un VÉRITABLE INTERMÉDIAIRE sur le chemin réactionnel des cycloadditions [2+2]. Cependant, la DURÉE DE VIE du diradical-1,4 est PLUS COURTE que la vitesse de rotation autour des liaisons σ C–C, puisque les cycloadditions [2+2] sont stéréospécifiques. »"
+        },
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.2 et § 12.3",
+          "pages": "1098, 1136",
+          "note": "Les photocycloadditions y sont traitées sur plusieurs sections ; l'ouvrage emploie « [2+2] photocycloaddition » là où Grossman parle de radicaux, et donne le cadre de la sensibilisation par transfert d'énergie triplet (§ 12.1, p. 1076-1077) — le sensibilisateur devant « être excité par l'irradiation employée » et « être présent en concentration suffisante et absorber plus fortement que les autres réactifs »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "photoreduction_pinacol": {
+      "ouvrages": [
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.3",
+          "pages": "1119-1120",
+          "note": "L'état excité, l'effet isotopique et la réaction concurrente. Le bilan : « beaucoup de cétones aromatiques réagissent par ARRACHEMENT D'ATOME D'HYDROGÈNE, et les produits stables sont des DIOLS formés par couplage des radicaux α-hydroxybenzyle résultants. Ces réactions se produisent habituellement via l'état excité TRIPLET T₁. Le croisement intersystème de l'état excité singulet initialement formé est SI RAPIDE (k ≈ 10¹⁰ s⁻¹) que les réactions de l'état S₁ ne sont habituellement pas observées. » La preuve de l'étape lente : « pour un donneur d'hydrogène S–H donné, le remplacement par S–D conduit à une DIMINUTION de la vitesse de réduction […] cohérente avec un EFFET ISOTOPIQUE PRIMAIRE. » Et la réaction qui tue le rendement (p. 1120) : « l'efficacité de la photoréduction des dérivés de la benzophénone est GRANDEMENT DIMINUÉE quand un substituant alkyle ORTHO est présent, parce qu'une nouvelle photoréaction, le transfert d'hydrogène INTRAMOLÉCULAIRE, devient le processus dominant […] donnant un ÉNOL INSTABLE qui peut revenir à la benzophénone d'origine sans photoréduction. Ce processus, connu sous le nom de PHOTOÉNOLISATION, peut être détecté par photolyse en solvant deutéré. »"
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5.3.1 — Photochemical Reactions",
+          "pages": "318",
+          "note": "La mise en œuvre, et le schéma complet : « la benzophénone dissoute dans l'alcool isopropylique subit un couplage pinacolique photochimique par SIMPLE EXPOSITION À LA LUMIÈRE DU SOLEIL. L'i-PrOH agit comme donneur d'atome d'hydrogène. » Le schéma montre les deux radicaux, le transfert du second hydrogène et la dimérisation en benzopinacol."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "paterno_buchi": {
+      "ouvrages": [
+        {
+          "ouvrage": "carey_sundberg_A",
+          "chapitre": "12 — Photochemistry, § 12.3.3",
+          "pages": "1132-1134",
+          "note": "La régiosélectivité et l'absence de stéréospécificité. Les schémas de la p. 1133 désignent le « DIRADICAL PRÉFÉRÉ » parmi les deux additions possibles, et le texte conclut : « la réaction de Paternò-Büchi n'est ORDINAIREMENT PAS STÉRÉOSPÉCIFIQUE, mais favorise plutôt l'adduit LE PLUS STABLE pour l'un ou l'autre isomère de l'alcène, ce qui indique l'intervention d'un intermédiaire diradicalaire À VIE RELATIVEMENT LONGUE. » La p. 1132 replace la réaction dans l'inventaire des étapes élémentaires de la photochimie des cétones : « pour les cétones, les plus importantes sont l'arrachement d'hydrogène inter- et intramoléculaire, l'α-CLIVAGE au niveau du groupe carbonyle, et la migration de substituant vers le carbone β des cétones α,β-insaturées. »"
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions",
+          "pages": "228",
+          "note": "Une mention, situant la Paternò-Büchi parmi les photocycloadditions [2+2] — sans exposé du mécanisme ni de sa stéréochimie."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

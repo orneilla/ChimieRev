@@ -1421,7 +1421,7 @@
         {
           "nom": "Photoisomérisation cis-trans d'un alcène",
           "niveau": "L3",
-          "id": null
+          "id": "photoisomerisation_cis_trans"
         },
         {
           "nom": "Réaction électrocyclique photochimique",
@@ -1431,7 +1431,7 @@
         {
           "nom": "Photocycloaddition [2+2]",
           "niveau": "L3",
-          "id": null
+          "id": "photocycloaddition_2_2"
         },
         {
           "nom": "Norrish type I : α-clivage d'une cétone",
@@ -1446,12 +1446,12 @@
         {
           "nom": "Photoréduction d'une cétone : formation de pinacol",
           "niveau": "M1",
-          "id": null
+          "id": "photoreduction_pinacol"
         },
         {
           "nom": "Réaction de Paternò-Büchi",
           "niveau": "M1",
-          "id": null
+          "id": "paterno_buchi"
         },
         {
           "nom": "Transposition di-π-méthane (Zimmerman)",

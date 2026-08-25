@@ -939,6 +939,22 @@
     "substrat": "norrish_type_ii-substrat.svg",
     "produit": "norrish_type_ii-produit.svg"
   },
+  "photoisomerisation_cis_trans": {
+    "substrat": "photoisomerisation_cis_trans-substrat.svg",
+    "produit": "photoisomerisation_cis_trans-produit.svg"
+  },
+  "photocycloaddition_2_2": {
+    "substrat": "photocycloaddition_2_2-substrat.svg",
+    "produit": "photocycloaddition_2_2-produit.svg"
+  },
+  "photoreduction_pinacol": {
+    "substrat": "photoreduction_pinacol-substrat.svg",
+    "produit": "photoreduction_pinacol-produit.svg"
+  },
+  "paterno_buchi": {
+    "substrat": "paterno_buchi-substrat.svg",
+    "produit": "paterno_buchi-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

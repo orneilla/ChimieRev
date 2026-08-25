@@ -1,8 +1,8 @@
 {
   "genere_le": "2026-08-25",
   "total": 285,
-  "redigees": 235,
-  "verifiees": 157,
+  "redigees": 239,
+  "verifiees": 160,
   "relues": 0,
   "familles": [
     {
@@ -2017,17 +2017,17 @@
       "famille": "Photochimie",
       "bloc": "Méthodes et matériaux",
       "total": 13,
-      "absente": 11,
-      "redigee": 0,
-      "verifiee": 2,
+      "absente": 7,
+      "redigee": 1,
+      "verifiee": 5,
       "relue": 0,
       "reactions": [
         {
           "nom": "Photoisomérisation cis-trans d'un alcène",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "photoisomerisation_cis_trans",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Réaction électrocyclique photochimique",
@@ -2039,9 +2039,9 @@
         {
           "nom": "Photocycloaddition [2+2]",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "photocycloaddition_2_2",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Norrish type I : α-clivage d'une cétone",
@@ -2060,16 +2060,16 @@
         {
           "nom": "Photoréduction d'une cétone : formation de pinacol",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "photoreduction_pinacol",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Réaction de Paternò-Büchi",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "paterno_buchi",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Transposition di-π-méthane (Zimmerman)",
