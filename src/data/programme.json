@@ -1279,77 +1279,77 @@
         {
           "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
           "niveau": "M1",
-          "id": null
+          "id": "chymotrypsine_triade"
         },
         {
           "nom": "Contrôle stéréoélectronique de l'hydrolyse d'un ester",
           "niveau": "M2",
-          "id": null
+          "id": "controle_stereoelectronique"
         },
         {
           "nom": "Carboxypeptidase A : le rôle du zinc",
           "niveau": "M1",
-          "id": null
+          "id": "carboxypeptidase_zinc"
         },
         {
           "nom": "Catalyse par les cyclodextrines",
           "niveau": "M1",
-          "id": null
+          "id": "catalyse_cyclodextrines"
         },
         {
           "nom": "Reconnaissance moléculaire par les éthers-couronnes",
           "niveau": "L3",
-          "id": null
+          "id": "ethers_couronnes"
         },
         {
           "nom": "Micelles et chimie des membranes",
           "niveau": "L3",
-          "id": null
+          "id": "micelles_membranes"
         },
         {
           "nom": "Analogues d'état de transition",
           "niveau": "M2",
-          "id": null
+          "id": "analogues_etat_transition"
         },
         {
           "nom": "Anticorps catalytiques",
           "niveau": "M2",
-          "id": null
+          "id": "anticorps_catalytiques"
         },
         {
           "nom": "Inhibiteurs suicides et marqueurs d'affinité",
           "niveau": "M2",
-          "id": null
+          "id": "inhibiteurs_suicides"
         },
         {
           "nom": "Oxydoréduction par NAD(P)H",
           "niveau": "M1",
-          "id": null
+          "id": "oxydoreduction_nadph"
         },
         {
           "nom": "Décarboxylation et racémisation par le phosphate de pyridoxal",
           "niveau": "M1",
-          "id": null
+          "id": "decarboxylation_racemisation_plp"
         },
         {
           "nom": "Catalyse par le pyrophosphate de thiamine",
           "niveau": "M1",
-          "id": null
+          "id": "catalyse_thiamine"
         },
         {
           "nom": "La biotine, transporteur de CO₂",
           "niveau": "M2",
-          "id": null
+          "id": "biotine_co2"
         },
         {
           "nom": "La vitamine B₁₂ et le cobalt",
           "niveau": "M2",
-          "id": null
+          "id": "vitamine_b12_cobalt"
         },
         {
           "nom": "Cyclisation polyénique biomimétique",
           "niveau": "M2",
-          "id": null
+          "id": "cyclisation_polyenique_biomimetique"
         }
       ],
       "bloc": "Biomolécules et vivant"

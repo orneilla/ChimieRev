@@ -6974,6 +6974,270 @@
           "note": "La mention qui atteste que la réaction se reproduit hors enzyme, sans en donner le mécanisme : avec un ion métallique à la place de l'enzyme, « dans les systèmes modèles, TOUTES les réactions catalysées par les enzymes SAUF la décarboxylation ont été reproduites : transamination, DÉSAMINATION OXYDATIVE, élimination de substituants β et γ, et ainsi de suite. »"
         }
       ]
+    },
+    "chymotrypsine_triade": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "4 — Enzyme Chemistry, § 4.4",
+          "pages": "185-190",
+          "note": "La section entière sur les sérine protéases. Le SYSTÈME DE RELAIS DE CHARGE : « sur la base de la structure cristallographique de l'α-chymotrypsine, une nouvelle forme de catalyse générale a été proposée […] elle prend son origine dans l'alignement d'Asp-102, His-57 et Ser-195, LIÉS PAR DES LIAISONS HYDROGÈNE » (p. 186). Le rôle de l'aspartate : « la fonction du groupe Asp-102 ENFOUI est de POLARISER le cycle imidazole, puisque la charge négative enfouie induit une charge positive adjacente ». Pourquoi l'histidine est irremplaçable : son cycle imidazole est « INHABITUELLEMENT POLARISABLE » et « peut porter un proton sur L'UN OU L'AUTRE des deux azotes ». L'acyl-enzyme « NE S'ACCUMULE PAS mais est rapidement hydrolysée » (p. 187). Le pKa de His-57 « EST ÉLEVÉ » à l'approche de l'état de transition (p. 190). Et l'ÉVOLUTION CONVERGENTE avec la subtilisine, de repliement « TOTALEMENT DIFFÉRENT » mais de « MÊMES RELATIONS SPATIALES » (p. 190)."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "26 — Biomolecules: Amino Acids, Peptides, and Proteins",
+          "pages": "886, 898",
+          "note": "La chymotrypsine vue du côté organique : la spécificité de coupure après les acides aminés aromatiques, employée pour le séquençage des peptides. L'ouvrage ne décrit pas le relais de charge."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "controle_stereoelectronique": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "4 — Enzyme Chemistry, § 4.6",
+          "pages": "210-217",
+          "note": "L'exposé complet de la théorie de Deslongchamps. Sa place : « un concept relativement nouveau en chimie organique, le contrôle stéréoélectronique, exploité par P. Deslongchamps de l'Université de Sherbrooke. Il emploie les propriétés de l'orientation correcte des orbitales dans la DÉCOMPOSITION des intermédiaires tétraédriques » (p. 210), à distinguer de l'« orbital steering » de Koshland qui porte sur la FORMATION. L'énoncé (p. 211) : « la conformation précise de l'intermédiaire tétraédrique est TRANSMISE dans le produit […] la décomposition spécifique d'un tel intermédiaire est contrôlée par l'ORIENTATION DES DOUBLETS NON LIANTS des hétéroatomes » ; et la condition : « la coupure est stéréoélectroniquement contrôlée QUAND ET SEULEMENT QUAND deux hétéroatomes de l'intermédiaire, portant chacun un doublet non liant, s'orientent ANTIPÉRIPLANAIREMENT au groupe O-alkyle ou N-alkyle qui part. » Les paramètres décisifs incluent « les BARRIÈRES D'ÉNERGIE RELATIVES pour la coupure ET pour la rotation moléculaire », et le conformère trans l'emporte sur le gauche « qui ne peut pas concourir efficacement ». Les quatre preuves expérimentales sont énumérées p. 211 ; le résultat ¹⁸O est p. 216 : « les lactones ne subissent PAS d'échange d'oxygène carbonylique », là où l'hydrolyse des esters (Z) « s'accompagne TOUJOURS d'échange » — avec la réserve cinétique que l'auteur formule lui-même."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "31 — Saturated heterocycles and stereoelectronics",
+          "pages": "789-824",
+          "note": "Le chapitre entier est bâti sur l'orientation des orbitales — « Lone pairs in heterocycles have precise orientations », « Interactions of lone pairs with empty orbitals can control conformation » (p. 789). Le résumé (p. 824) : « beaucoup de ces explications impliquaient de considérer l'ALIGNEMENT des orbitales — nous les avons appelés effets stéréoélectroniques. » Clayden renvoie explicitement à l'ouvrage de Deslongchamps, « Stereoelectronic Effects in Organic Chemistry, Pergamon, 1983 », mais ne reprend pas la règle des deux doublets : il l'applique à la conformation et à l'effet anomère (p. 801-804)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "carboxypeptidase_zinc": {
+      "ouvrages": [
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "28 — The trace metals of life, § 28.5",
+          "pages": "854-859",
+          "note": "Le titre de section donne la thèse : « l'ion Zn²⁺ : l'acide de Lewis de la nature » (p. 854), avec les trois raisons — pas de chimie rédox, métal dur adapté aux donneurs N et O, fortement polarisant — et la tolérance géométrique due à la configuration d¹⁰ (p. 855). Le mécanisme complet est donné en figure 28.23 (p. 856-857), résidu par résidu : Zn²⁺ tenu par His-69, Glu-72 et His-196 ; Glu-270 base générale ; Arg-127 et Arg-145 fixant le carboxylate terminal ; Tyr-248 ; le radical R' « logé dans une poche HYDROPHOBE ». La légende porte une réserve rare : « les schémas n'impliquent PAS que le mécanisme soit concerté ou non ». Le zinc « peut se déplacer vers Arg-127 à mesure que l'interaction se développe », et « un ligand H₂O remplit à nouveau le site vacant » (p. 858) ; les détails reposent sur « des études CINÉTIQUES, des études de MÉCANIQUE MOLÉCULAIRE et des investigations sur les espèces substituées au Co²⁺ ». La carboxypeptidase G2, à DEUX zincs « séparés de 330 pm et pontés par un résidu Asp et une molécule d'eau », coupe le glutamate C-terminal du folate (p. 858). Enfin la substitution Co²⁺/Zn²⁺ (p. 859) : le site d¹⁰ « NE PEUT PAS être sondé par spectroscopie UV-visible ou RPE, ni par des mesures magnétiques » ; après échange, l'enzyme au cobalt est « en fait PLUS active que la carboxypeptidase A native »."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic Chemistry, § 2.7 ; 4 — Enzyme Chemistry",
+          "pages": "81, 204, 225-226, 392",
+          "note": "La même enzyme vue par ses INHIBITEURS. Le benzylsuccinate « INHIBE l'enzyme carboxypeptidase A en STABILISANT LES CHARGES engendrées » (p. 81), avec Kₘ = 2×10⁻¹ M pour le substrat contre K𝑖 = 5,5×10⁻³ M pour l'inhibiteur — il mime les deux fragments de coupure tenus ensemble. Et le cadre : « l'ion métallique est impliqué dans la STABILISATION DE L'INTERMÉDIAIRE TÉTRAÉDRIQUE » (p. 392)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "catalyse_cyclodextrines": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "5 — Enzyme Models, § 5.4",
+          "pages": "345-351",
+          "note": "La cyclodextrine comme premier modèle d'enzyme à cavité. La force motrice de l'inclusion (p. 346) : « les interactions HYDROPHOBES semblent être la force motrice la plus probable pour la formation du complexe d'inclusion. En outre, les liaisons hydrogène, les forces de van der Waals et les forces de dispersion de London peuvent aussi jouer un rôle. » La sélectivité de taille : « seules les unités à 8 glucoses peuvent accommoder » le substrat aromatique considéré. L'expérience de Breslow : chloration de l'anisole par HOCl en présence d'α-cyclodextrine, « 96 % de chloration en position PARA » — et les deux effets simultanés, « non seulement que la cyclodextrine BLOQUE toutes les positions du cycle aromatique sauf une, mais aussi qu'elle CATALYSE ACTIVEMENT la substitution à la position non bloquée ». Le mécanisme proposé : « un ou plusieurs groupes hydroxyle peuvent être convertis en HYPOCHLORITE ». Et la nature de la catalyse : « une catalyse NON COVALENTE (liaison classique de Michaelis-Menten) dans laquelle l'hôte fournit la cavité pour la réaction sans formation d'intermédiaire covalent »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "10 — Bucherer-Bergs and Strecker multicomponent reactions",
+          "pages": "346",
+          "note": "L'usage moderne, en chimie durable : la β-cyclodextrine catalyse une réaction de Strecker multicomposante « dans l'eau/méthanol (9:1) », citée à côté du Sc(OTf)₃ et d'un cyanure de tributylétain « toxique ». Un sucre à la place d'un métal, et le travail dans l'eau."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "ethers_couronnes": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "18 — Ethers and Epoxides, § 18-5",
+          "pages": "583-584",
+          "note": "L'histoire, la nomenclature et l'usage. « Les éthers-couronnes, découverts au début des années 1960 par Charles Pedersen à la compagnie DuPont […] sont nommés selon le format général x-couronne-y, où x est le nombre TOTAL d'atomes du cycle et y le nombre d'atomes d'OXYGÈNE » (p. 583). Leur importance « vient de leur capacité à SÉQUESTRER des cations métalliques spécifiques au centre de la cavité polyéther » : le KMnO₄ « se dissout dans le TOLUÈNE en présence de 18-couronne-6 », donnant un oxydant d'alcènes en phase organique. L'effet sur l'anion est le vrai sujet : « le cation métallique est fortement solvaté, LAISSANT L'ANION NU. Ainsi la réactivité SN2 d'un anion est énormément accrue » — effet comparé à celui du DMSO, du DMF et de l'HMPA. Et l'équivalent naturel : les IONOPHORES, « molécules liposolubles qui lient des ions spécifiques et facilitent leur TRANSPORT à travers les membranes biologiques » ; la valinomycine lie K⁺ « avec une sélectivité DIX MILLE FOIS supérieure à celle pour Na⁺ » (p. 584)."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "1 — Introduction, § 1.3 ; 5 — Enzyme Models",
+          "pages": "17-19",
+          "note": "L'éther-couronne comme premier RÉCEPTEUR ARTIFICIEL, et la classification des forces d'association qui commande toute la chimie hôte-invité (p. 18) : « 1. Interactions ÉLECTROSTATIQUES […] parmi les plus fortes. 2. LIAISONS HYDROGÈNE — faibles mais SENSIBLES AUX ANGLES. 3. Complexes de TRANSFERT DE CHARGE […] fréquents en chimie des flavines. 4. Forces de VAN DER WAALS […]. 5. Liaisons HYDROPHOBES — un facteur ENTROPIQUE favorable est impliqué, puisque les molécules d'eau retournent au réservoir de solvant. » Et le programme du domaine : « la conception d'une enzyme artificielle ou d'un récepteur implique la construction d'une architecture moléculaire ou d'une cavité distincte COMPLÉMENTAIRE d'un substrat. »"
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "micelles_membranes": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "5 — Enzyme Models, § 5.3",
+          "pages": "318-325",
+          "note": "Les systèmes micellaires comme modèles d'enzymes, avec les deux chiffres qui font la démonstration (p. 322) : « l'addition d'acétate de p-nitrophényle en présence d'imidazole à ce système micellaire résulte en une augmentation de 53 FOIS de l'hydrolyse de l'acétate par rapport à l'eau en masse. Clairement, l'imidazole dans la micelle est capable de venir TRÈS PRÈS du substrat et de catalyser son hydrolyse. » Et, dans le cœur aqueux d'une micelle inverse, une protonation de carboxylate à « une constante de vitesse extraordinairement grande […] une valeur de l'ordre de 10¹² M⁻¹ s⁻¹ a été observée ! », « faisable seulement si le donneur et l'accepteur sont à PROXIMITÉ ÉTROITE »."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "27 — Biomolecules: Lipids, § 27-2",
+          "pages": "912-914",
+          "note": "La micelle de savon décrite du côté organique : « l'extrémité carboxylate […] est ionique et donc HYDROPHILE […] la partie hydrocarbonée longue […] est apolaire et HYDROPHOBE » ; « les longues queues hydrocarbonées se regroupent à l'INTÉRIEUR d'une boule hydrophobe emmêlée, tandis que les têtes ioniques à la SURFACE de l'agrégat font saillie dans la couche d'eau. Ces agrégats sphériques sont appelés MICELLES » (p. 912). Le défaut du savon en eau dure — conversion en sels de calcium et de magnésium insolubles — et le prolongement biologique, les phospholipides et la bicouche (p. 914)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "analogues_etat_transition": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic Chemistry, § 2.7",
+          "pages": "79-83",
+          "note": "La définition et le fondement (p. 79) : les analogues d'état de transition « sont des produits STABLES, conçus pour mimer la structure d'un intermédiaire sur le chemin de la transformation du substrat par l'enzyme. Ils se comportent comme des inhibiteurs très puissants, ne sont pas transformés en produits, et ont une constante d'association pour l'enzyme PLUS GRANDE QUE LE SUBSTRAT LUI-MÊME. » Et : « puisqu'ils miment structuralement l'état de transition d'une transformation chimique, ils reposent sur le POSTULAT DE PAULING, selon lequel une enzyme reconnaît et lie PLUS FORTEMENT l'état de transition que l'état fondamental. » La classification des inhibiteurs — réversibles, irréversibles, et cette « classe unique d'inhibiteurs RÉVERSIBLES » — est donnée à la même page. Les chiffres sur l'adénosine désaminase sont p. 80 : adénosine Kₘ = 3,1×10⁻⁵ M, inosine K𝑖 = 1,6×10⁻⁴ M, coformycine K𝑖 = 2,5×10⁻¹² M ; « la coformycine, qui ressemble PLUS ÉTROITEMENT à l'intermédiaire d'état de transition, est de PLUSIEURS ORDRES DE GRANDEUR supérieure comme inhibiteur ». Le 2-phosphoglycollate sur la triosephosphate isomérase, K𝑖 = 6×10⁻¹⁰ M, y figure aussi, comme le critère chiffré : « un bon substrat doit avoir un rapport k꜀/Kₘ aussi grand que possible […] un bon inhibiteur aura un petit K𝑖 ». La conséquence pharmacologique est p. 81."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "anticorps_catalytiques": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic Chemistry, § 2.8",
+          "pages": "88-90",
+          "note": "L'expérience et sa portée. La réaction visée est « la formation d'une LACTONE à partir d'un hydroxy-ester », l'antigène un « ESTER PHOSPHONATE CYCLIQUE, analogue de l'état de transition », présenté « via un conjugué immunogène sur une protéine porteuse pour susciter l'anticorps » ; la lactone obtenue est « OPTIQUEMENT PURE » à partir d'un racémique (p. 88). Le second cas mime une CHARGE et non une forme : « l'anticorps a été suscité contre le composé pyridinium suivant, qui MIME L'ÉTAT DE TRANSITION CHARGÉ de la réaction » (p. 89). La réserve de l'auteur, p. 89 : « bien que les anticorps catalytiques ne trouvent peut-être JAMAIS d'application industrielle à grande échelle, on peut s'attendre à ce qu'ils donnent aux chimistes accès à de nombreuses transformations chimiques autrement inatteignables. » Et l'application au promédicament de l'équipe de Schultz — un ester d'acide aminé du 5-fluoro-uracile, « moins toxique »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions under Basic Conditions, problème 4",
+          "pages": "130",
+          "note": "Une seule occurrence dans tout l'ouvrage, et c'est un EXERCICE — mais il porte un détail expérimental que Dugas ne donne pas : « les anticorps catalytiques ont d'abord été préparés au milieu des années 1980. Dans un exemple, un LAPIN ou une SOURIS était immunisé par l'ester phosphonate A, et des anticorps anti-A purs étaient isolés des cellules de RATE de cet animal. Certains des anticorps anti-A se sont révélés catalyser l'hydrolyse de la fonction ester de B à des vitesses significativement plus grandes que le fond. » L'antigène est là encore un phosphonate. Grossman demande ensuite d'écrire le mécanisme : c'est un énoncé, non un exposé."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "inhibiteurs_suicides": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.5",
+          "pages": "542-551",
+          "note": "Les deux familles et leur différence. Le marqueur d'affinité (p. 542) : « le fragment tosyl-phénylalanine MIME un substrat comme l'ester méthylique de la N-tosylphénylalanine, et la fonction chlorocétone agit comme un électrophile » ; « de telles expériences peuvent servir à IDENTIFIER un nucléophile important dans la catalyse ». Le TPCK marque His-57, le DFP Ser-195, et l'irréversibilité se prouve parce qu'« une dialyse exhaustive produit encore une enzyme inactive » (p. 543). L'inhibiteur suicide (p. 545) : « la toxine naturelle est construite de telle sorte qu'elle REQUIERT une activation chimique PAR L'ENZYME CIBLE […] Ainsi, l'enzyme, par son mode d'action spécifique, CATALYSE SA PROPRE INACTIVATION, ou “suicide” » ; « le système se comporte comme un KAMIKAZE MOLÉCULAIRE » ; « l'introduction d'un système CONJUGUÉ facilite grandement l'attaque par un nucléophile voisin de l'apoenzyme » ; « Rando les a nommés INHIBITEURS k꜀ₐₜ ». Les trois conditions de conception sont p. 546, avec la remarque que « la plupart du travail […] a été fait sur des enzymes NON PROTÉOLYTIQUES, en particulier les enzymes à PYRIDOXAL et à FLAVINE », l'exemple clinique de la PARGYLINE, et les familles qui piègent une enzyme à PLP — « acides aminés β,γ-insaturés, γ-acétyléniques, ou portant un groupe partant en position β »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "oxydoreduction_nadph": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.1",
+          "pages": "460-470",
+          "note": "Le transfert d'hydrure du nicotinamide : la stéréospécificité faciale, les enzymes de classe A et B, et le rôle du pyridinium comme accepteur. Le chapitre replace le NAD(P)H parmi les coenzymes rédox, aux côtés des flavines qui travaillent, elles, par un électron."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways",
+          "pages": "1005-1009",
+          "note": "Le NADH et le NADPH dans les voies métaboliques : la division du travail entre NADH, employé au catabolisme, et NADPH, employé à la biosynthèse — deux cofacteurs presque identiques que la cellule maintient à des états rédox opposés."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "decarboxylation_racemisation_plp": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.2",
+          "pages": "518-546",
+          "note": "Les trois raisons structurales du pouvoir du PLP (p. 525) : « le groupe hydroxyle est idéalement placé pour assurer une catalyse acide et basique générale. Étant INTRAMOLÉCULAIRE, il est particulièrement efficace. Deuxièmement, l'azote chargé positivement du cycle pyridine agit comme un PUITS D'ÉLECTRONS pour abaisser l'énergie libre de la tautomérisation de la liaison C–H. Enfin, les groupes sont placés dans la géométrie exactement correcte à la surface de l'enzyme. » Les métaux qui remplacent une partie de l'enzyme dans les modèles — Al(III), Cu(II), Fe(III), avec « de véritables intermédiaires chélates isolés » — y figurent aussi, comme la limite du domaine : « dans les systèmes modèles, TOUTES les réactions catalysées par les enzymes SAUF LA DÉCARBOXYLATION ont été reproduites ». Le modèle à bras rigide, avec « une stéréosélectivité extraordinaire de 93 : 7 dans le rapport isomère D/L, avec 83 % de conversion de l'acide pyruvique en alanine », est p. 542."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Pericyclic Reactions ; 2 — Polar Reactions under Basic Conditions",
+          "pages": "181",
+          "note": "La généralisation qui fait le lien entre les trois réactions du PLP : « dans la réaction de décarboxylation, le H⁺ qui réagit avec le C de l'imine peut être remplacé par d'AUTRES ÉLECTROPHILES. » Le carbanion engendré est un nucléophile ordinaire ; ce qu'on lui présente décide de la suite."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "catalyse_thiamine": {
+      "ouvrages": [
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways, § 29-5",
+          "pages": "990",
+          "note": "Le cofacteur et son pKa. « L'élément structural clé du diphosphate de thiamine est le cycle THIAZOLIUM — un hétérocycle insaturé à cinq chaînons contenant un atome de soufre et un atome d'azote chargé positivement. Le cycle thiazolium est faiblement acide, avec un pKa d'environ 18 pour l'hydrogène du cycle situé ENTRE N ET S. Les bases peuvent donc déprotoner le diphosphate de thiamine, conduisant à la formation d'un YLURE, très semblable aux ylures de phosphonium employés dans les réactions de Wittig. […] Comme dans la réaction de Wittig, l'ylure de TPP est un NUCLÉOPHILE et s'additionne au carbonyle cétonique du pyruvate. » Les trois étapes du complexe pyruvate déshydrogénase sont détaillées à la même page."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "2 — Polar Reactions under Basic Conditions",
+          "pages": "80-81",
+          "note": "L'écriture en SYNTHON, qui est la formulation la plus utile : « globalement, dans cette réaction, l'un des équivalents de pyruvate agit comme un ANION ACÉTYLE ⁻C(=O)CH₃, les électrons du carbanion provenant de la coupure de la liaison C–C dans l'étape de décarboxylation. Cette réactivité ne serait PAS POSSIBLE sans la participation de la thiamine. » L'exemple traité est la formation de l'acétolactate à partir de deux pyruvates, immédiatement après la condensation benzoïne catalysée par le cyanure (p. 80) — les deux réactions sont mises côte à côte, ce qui est exactement le rapprochement à faire."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "1 — Introduction ; 7 — Coenzyme Chemistry",
+          "pages": "28, 518-561",
+          "note": "Le surnom qui résume la fonction : la thiamine est l'« ION CYANURE BIOLOGIQUE » (p. 28)."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "biotine_co2": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.6",
+          "pages": "574-576",
+          "note": "Le rôle réel de la biotine, et la mesure qui corrige l'explication évidente. « Le rôle essentiel de la biotine dans la catalyse est de TRANSFÉRER le CO₂ fixé, ou carboxyle, DE PART ET D'AUTRE entre deux sous-sites. […] Fondamentalement, la biotine se comporte comme un TRANSPORTEUR de CO₂ entre deux sites » (p. 576). Elle est reliée à la protéine porteuse « par une chaîne latérale de 1,4 nm et peut osciller à l'intérieur et à l'extérieur du site ». Mais : « des études biophysiques intensives sur la transcarboxylase montrent que le fragment carboxybiotine ne se déplace, au plus, que de 0,7 nm pendant le transfert de CO₂. Le rôle du long bras (1,4 nm) semble donc être de PLACER le groupe carboxyle transféré au bout d'une longue sonde, lui permettant de traverser l'espace qui se produit à l'interface des trois sous-unités. »"
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "29 — The Organic Chemistry of Metabolic Pathways, § 29-4",
+          "pages": "979-980",
+          "note": "Le mécanisme du transfert, et le point décisif dans sa dernière phrase (p. 980) : « une proposition est que la PERTE de CO₂ est favorisée par la formation d'une liaison hydrogène entre le groupe carbonyle de la N-carboxybiotine et un site acide voisin dans l'enzyme. La déprotonation SIMULTANÉE de l'acétyl-CoA par un site basique de l'enzyme donne un ion énolate de thioester qui peut réagir avec le CO₂ AU MOMENT OÙ IL SE FORME. »"
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "27 — Sulfur, silicon and phosphorus ; 33 — Diastereoselectivity ; 34 — Cycloadditions",
+          "pages": "661, 843, 904-905",
+          "note": "La biotine vue non comme cofacteur mais comme CIBLE DE SYNTHÈSE — le même composé dans un monde entièrement différent. Par alkylation d'un anion stabilisé par un sulfoxyde (p. 661) ; pour le problème stéréochimique de sa chaîne latérale, qui « repose sur la face la plus encombrée de la molécule » et qu'on résout en oxydant le sulfure en sulfoxyde par la face exo, ratio 8:1 (p. 843) ; et par cycloaddition d'un oxyde de nitrile suivie d'une réduction par LiAlH₄ (p. 904-905). Clayden attribue cette dernière synthèse à P. Confalone et son groupe, J. Am. Chem. Soc., 1980, 102, 1954 (p. 908) — référence relevée telle qu'imprimée, sans DOI vérifié."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "vitamine_b12_cobalt": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "7 — Coenzyme Chemistry, § 7.4",
+          "pages": "460-469",
+          "note": "L'énergie de la liaison Co–C et ce qu'elle permet. « Il obtient une valeur de 26 kcal/mol pour cette liaison organométallique » ; « le coenzyme B₁₂ peut agir comme un TRANSPORTEUR RÉVERSIBLE DE RADICAUX LIBRES, au même sens que d'autres organométalliques comme la myoglobine est un transporteur réversible de dioxygène » ; et le réglage par effet trans : « une partie de la force de liaison dépend de la BASICITÉ du ligand situé sous la structure corrine. PLUS FAIBLE est la basicité d'un ligand à cette position, PLUS FAIBLE sera la liaison » (p. 469). Le raisonnement sur l'intermédiaire est conduit comme une enquête : « et maintenant le point CRUCIAL. Comment le réarrangement suivant se produit-il ? », trois structures examinées, puis départagées par marquage — « la solvolyse d'un 2-acétoxyéthyl(pyridine) cobaloxime marqué au ¹³C dans le méthanol donne des quantités ÉGALES des deux » produits, donc un intermédiaire symétrique."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "21 — d-Block metal chemistry: general considerations",
+          "pages": "596",
+          "note": "La situation de l'élément : « la vitamine B₁₂ est un complexe de COBALT, et toute une gamme d'enzymes requiert des coenzymes B₁₂ » — dans le paragraphe qui recense les usages du cobalt, à côté des additifs alimentaires pour animaux et du traceur ⁶⁰Co."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "cyclisation_polyenique_biomimetique": {
+      "ouvrages": [
+        {
+          "ouvrage": "dugas",
+          "chapitre": "5 — Enzyme Models, § 5.8.2",
+          "pages": "378",
+          "note": "La section entière, question comprise : « COMBIEN de l'opération biosynthétique peut-on espérer simuler au laboratoire organique ? » — et la réponse initiale, « les premières études dirigées vers la cyclisation polyénique non enzymatique de type biogénétique n'étaient PAS PROMETTEUSES ». Van Tamelen : « si le cycle D est PRÉFORMÉ, le système isoeuphénol peut être obtenu avec un bon rendement en traitant le précurseur époxyde par un ACIDE DE LEWIS » (35 %), et « dans cette cyclisation, CINQ carbones asymétriques sont formés EN UNE SEULE FOIS ». L'explication du cycle préformé : « il agit comme un ISOLANT pour empêcher l'implication de la liaison π de la chaîne latérale avec tout ion carbonium se développant pendant la cyclisation. Il empêche aussi le cycle C de devenir à CINQ chaînons. » Johnson : fermeture « stéréospécifiquement en une seule étape » d'une chaîne « portant des liaisons oléfiniques trans OPPOSÉES », par une approche « TRÈS SYSTÉMATIQUE » étudiant « l'annélation de produits à UN, DEUX et TROIS cycles avec la configuration all-trans naturelle »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

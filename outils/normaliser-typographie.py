@@ -45,6 +45,22 @@ def normaliser(valeur):
     return valeur
 
 
+def indentation(texte):
+    """L'indentation du fichier, relue sur sa deuxième ligne.
+
+    Un outil de typographie n'a pas à reformater ce qu'il touche. Les fichiers
+    de ce dépôt ne sont pas tous indentés pareil — `reactions.json` l'est d'un
+    signe, les autres de deux —, et réécrire avec une valeur fixe rendait le
+    diff illisible : six mille lignes déplacées pour une trentaine
+    d'insécables. On relit donc l'indentation au lieu de l'imposer.
+    """
+    lignes = texte.split("\n")
+    if len(lignes) < 2:
+        return 2
+    creux = len(lignes[1]) - len(lignes[1].lstrip(" "))
+    return creux or 2
+
+
 def main():
     total = 0
     for nom in FICHIERS:
@@ -54,11 +70,22 @@ def main():
         avant = chemin.read_text(encoding="utf-8")
         donnees = normaliser(json.loads(avant))
         chemin.write_text(
-            json.dumps(donnees, ensure_ascii=False, indent=2), encoding="utf-8"
+            json.dumps(donnees, ensure_ascii=False, indent=indentation(avant))
+            + ("\n" if avant.endswith("\n") else ""),
+            encoding="utf-8",
         )
         apres = chemin.read_text(encoding="utf-8")
-        # Les deux textes ont la même longueur : une insécable remplace une
-        # espace, caractère pour caractère.
+        # Le compte n'est juste que si la MISE EN FORME n'a pas bougé : il
+        # compare les deux textes signe pour signe, en supposant qu'une
+        # insécable a remplacé une espace sans rien décaler. Réindenter
+        # décalerait tout, et l'outil annoncerait deux millions de
+        # remplacements pour quelques dizaines réelles. D'où `indentation`,
+        # et d'où ce garde-fou.
+        if len(avant) != len(apres):
+            sys.exit(
+                f"{nom} : la mise en forme a changé ({len(avant)} → {len(apres)} "
+                "signes). Le compte serait faux ; on s'arrête."
+            )
         remplacements = sum(1 for a, b in zip(avant, apres) if a != b)
         total += remplacements
         print(f"{nom} : {remplacements} remplacement(s)")

@@ -835,6 +835,66 @@
     "substrat": "desamination_oxydative-substrat.svg",
     "produit": "desamination_oxydative-produit.svg"
   },
+  "chymotrypsine_triade": {
+    "substrat": "chymotrypsine_triade-substrat.svg",
+    "produit": "chymotrypsine_triade-produit.svg"
+  },
+  "oxydoreduction_nadph": {
+    "substrat": "oxydoreduction_nadph-substrat.svg",
+    "produit": "oxydoreduction_nadph-produit.svg"
+  },
+  "controle_stereoelectronique": {
+    "substrat": "controle_stereoelectronique-substrat.svg",
+    "produit": "controle_stereoelectronique-produit.svg"
+  },
+  "carboxypeptidase_zinc": {
+    "substrat": "carboxypeptidase_zinc-substrat.svg",
+    "produit": "carboxypeptidase_zinc-produit.svg"
+  },
+  "catalyse_cyclodextrines": {
+    "substrat": "catalyse_cyclodextrines-substrat.svg",
+    "produit": "catalyse_cyclodextrines-produit.svg"
+  },
+  "ethers_couronnes": {
+    "substrat": "ethers_couronnes-substrat.svg",
+    "produit": "ethers_couronnes-produit.svg"
+  },
+  "micelles_membranes": {
+    "substrat": "micelles_membranes-substrat.svg",
+    "produit": "micelles_membranes-produit.svg"
+  },
+  "analogues_etat_transition": {
+    "substrat": "analogues_etat_transition-substrat.svg",
+    "produit": "analogues_etat_transition-produit.svg"
+  },
+  "anticorps_catalytiques": {
+    "substrat": "anticorps_catalytiques-substrat.svg",
+    "produit": "anticorps_catalytiques-produit.svg"
+  },
+  "inhibiteurs_suicides": {
+    "substrat": "inhibiteurs_suicides-substrat.svg",
+    "produit": "inhibiteurs_suicides-produit.svg"
+  },
+  "decarboxylation_racemisation_plp": {
+    "substrat": "decarboxylation_racemisation_plp-substrat.svg",
+    "produit": "decarboxylation_racemisation_plp-produit.svg"
+  },
+  "catalyse_thiamine": {
+    "substrat": "catalyse_thiamine-substrat.svg",
+    "produit": "catalyse_thiamine-produit.svg"
+  },
+  "biotine_co2": {
+    "substrat": "biotine_co2-substrat.svg",
+    "produit": "biotine_co2-produit.svg"
+  },
+  "vitamine_b12_cobalt": {
+    "substrat": "vitamine_b12_cobalt-substrat.svg",
+    "produit": "vitamine_b12_cobalt-produit.svg"
+  },
+  "cyclisation_polyenique_biomimetique": {
+    "substrat": "cyclisation_polyenique_biomimetique-substrat.svg",
+    "produit": "cyclisation_polyenique_biomimetique-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
@@ -1433,6 +1493,92 @@
   },
   "ipp": {
     "molecule": "reactif-ipp.svg"
+  },
+  "couronne_18_6": {
+    "molecule": "reactif-couronne_18_6.svg"
+  },
+  "couronne_18_6-ex0": {
+    "substrat": "couronne_18_6-ex0-substrat.svg",
+    "produit": "couronne_18_6-ex0-produit.svg"
+  },
+  "couronne_18_6-ex1": {
+    "substrat": "couronne_18_6-ex1-substrat.svg",
+    "produit": "couronne_18_6-ex1-produit.svg"
+  },
+  "pyridoxal_phosphate": {
+    "molecule": "reactif-pyridoxal_phosphate.svg"
+  },
+  "pyridoxal_phosphate-ex0": {
+    "substrat": "pyridoxal_phosphate-ex0-substrat.svg",
+    "produit": "pyridoxal_phosphate-ex0-produit.svg"
+  },
+  "pyridoxal_phosphate-ex1": {
+    "substrat": "pyridoxal_phosphate-ex1-substrat.svg",
+    "produit": "pyridoxal_phosphate-ex1-produit.svg"
+  },
+  "thiamine_pp": {
+    "molecule": "reactif-thiamine_pp.svg"
+  },
+  "thiamine_pp-ex0": {
+    "substrat": "thiamine_pp-ex0-substrat.svg",
+    "produit": "thiamine_pp-ex0-produit.svg"
+  },
+  "thiamine_pp-ex1": {
+    "substrat": "thiamine_pp-ex1-substrat.svg",
+    "produit": "thiamine_pp-ex1-produit.svg"
+  },
+  "biotine": {
+    "molecule": "reactif-biotine.svg"
+  },
+  "biotine-ex0": {
+    "substrat": "biotine-ex0-substrat.svg",
+    "produit": "biotine-ex0-produit.svg"
+  },
+  "biotine-ex1": {
+    "substrat": "biotine-ex1-substrat.svg",
+    "produit": "biotine-ex1-produit.svg"
+  },
+  "coenzyme_b12": {
+    "molecule": "reactif-coenzyme_b12.svg"
+  },
+  "coenzyme_b12-ex0": {
+    "substrat": "coenzyme_b12-ex0-substrat.svg",
+    "produit": "coenzyme_b12-ex0-produit.svg"
+  },
+  "cyclodextrine": {
+    "molecule": "reactif-cyclodextrine.svg"
+  },
+  "cyclodextrine-ex0": {
+    "substrat": "cyclodextrine-ex0-substrat.svg",
+    "produit": "cyclodextrine-ex0-produit.svg"
+  },
+  "sncl4": {
+    "molecule": "reactif-sncl4.svg"
+  },
+  "sncl4-ex0": {
+    "substrat": "sncl4-ex0-substrat.svg",
+    "produit": "sncl4-ex0-produit.svg"
+  },
+  "imidazole": {
+    "molecule": "reactif-imidazole.svg"
+  },
+  "imidazole-ex0": {
+    "substrat": "imidazole-ex0-substrat.svg",
+    "produit": "imidazole-ex0-produit.svg"
+  },
+  "tpck": {
+    "molecule": "reactif-tpck.svg"
+  },
+  "tpck-ex0": {
+    "substrat": "tpck-ex0-substrat.svg",
+    "produit": "tpck-ex0-produit.svg"
+  },
+  "dfp": {
+    "molecule": "reactif-dfp.svg"
+  },
+  "dfp-ex0": {
+    "substrat": "dfp-ex0-substrat.svg",
+    "produit": "dfp-ex0-produit.svg"
   },
   "dcm": {
     "molecule": "solvant-dcm.svg"

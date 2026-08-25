@@ -405,6 +405,68 @@ Après écriture : `node scripts/verifier-mecanismes.mjs`, puis
 `node scripts/dessiner-mecanismes.mjs`, puis **regarder les schémas rendus
 à 390 px**. Un schéma qui passe les contrôles peut rester confus.
 
+### Une forme limite juste n'est pas la forme qu'on écrit
+
+Le vérificateur applique les flèches et rend le SMILES canonique de ce
+qu'il obtient. Il ne juge pas de l'ÉCRITURE du résultat — seulement de son
+bilan. D'où un piège qui ne se voit qu'en lisant ce qu'il rend.
+
+L'oxydation par le NAD(P)H écrite avec deux flèches — la liaison C–H part,
+le carbonyle se replie — donne un bilan parfaitement juste. Mais le produit
+que rend la machine est `Cn1cc[cH+]c(C(N)=O)c1` : elle place la charge
+positive sur un CARBONE, parce que rien dans les flèches n'a touché à
+l'azote. C'est une forme limite valable du NAD⁺, et ce n'est pas ainsi
+qu'on l'écrit.
+
+La correction n'est pas cosmétique : elle consiste à **dessiner la poussée
+du doublet de l'azote**, qui est le vrai mécanisme. Quatre flèches au lieu
+de deux, et le produit devient `C[n+]1cccc(C(N)=O)c1` — le pyridinium
+conventionnel.
+
+**Un mécanisme dont le bilan est juste peut rester mal raconté.** Le
+contrôle ne l'attrape pas ; la lecture du `produit_attendu` rendu, si.
+
+### Un mécanisme écrit n'est pas un mécanisme vérifié
+
+Quinze mécanismes de la famille bioorganique ont été écrits d'affilée, puis
+vérifiés d'un coup. Trois étaient faux, et les trois fautes sont du même
+genre : **un indice d'atome compté à la main**.
+
+- Sur `.CC=O` ajouté en fin de SMILES, le carbone du carbonyle est le
+  DEUXIÈME, pas le premier : la flèche visait le méthyle.
+- Sur `C(C)(C(=O)[O-])C`, le carbone α porte deux méthyles avant son
+  carboxyle : la liaison « C–CO₂⁻ » à rompre n'était pas celle qu'on
+  croyait.
+- Et `"produit_attendu": "PLACEHOLDER"` reste tel quel tant qu'on ne
+  relance pas le vérificateur — il ne se remplit pas tout seul.
+
+La parade est de **relancer le vérificateur après chaque lot**, pas à la
+fin. Et pour obtenir le `produit_attendu` : écrire n'importe quel SMILES
+lisible, lancer, et LIRE la ligne « obtenu » — c'est la seule façon d'avoir
+la forme canonique exacte, et c'est l'occasion de vérifier que le produit
+obtenu est bien celui qu'on voulait.
+
+### Une fiche peut en doubler une autre sans que rien ne le dise
+
+`carboxypeptidase_zinc` a failli republier, mot pour mot, la citation du
+Housecroft sur « l'ion Zn²⁺ : l'acide de Lewis de la nature » — déjà portée
+par `anhydrase_carbonique_zinc`, écrite plusieurs blocs plus tôt, dans une
+AUTRE famille (« Bioinorganique »). Les deux fiches portaient jusqu'au même
+symbole de tuile.
+
+C'est la conséquence directe de la règle des neuf ouvrages : quand on
+interroge tout le corpus, on retombe sur la même page, et l'on réécrit ce
+qui y est. Rien ne le signale — deux fiches ne se comparent nulle part.
+
+La parade tient en un réflexe : **avant d'écrire, chercher l'identifiant
+et le sujet dans `reactions.json`**. Et quand deux fiches partagent une
+source, la seconde RENVOIE à la première au lieu de la répéter — ce qui
+vaut mieux que d'éviter le doublon, puisque le lecteur y gagne un lien.
+
+```bash
+python3 -c "import json;print([r['id'] for r in json.load(open('src/data/reactions.json')) if 'zinc' in r['id']])"
+```
+
 ## L'affichage
 
 `npm run affichage` mesure la mise en page sur **douze largeurs d'écran**
@@ -437,6 +499,16 @@ Trois règles retenues de la première passe :
 ```bash
 python3 outils/normaliser-typographie.py
 ```
+
+  Et une leçon sur l'outil lui-même : **un outil de typographie n'a pas à
+  reformater ce qu'il touche.** Il réécrivait tout à `indent=2`, alors que
+  `reactions.json` est indenté d'un seul signe. Résultat : un diff de six
+  mille lignes déplacées pour une trentaine d'insécables — illisible en
+  relecture —, et un COMPTE FAUX, puisqu'il comparait les deux textes signe
+  pour signe. Il annonçait « 1 953 379 remplacements » là où il y en avait
+  trois. Il relit désormais l'indentation du fichier au lieu de l'imposer,
+  préserve le saut de ligne final, et s'arrête si la longueur a changé —
+  parce qu'alors son compte ne veut plus rien dire.
 
 - **Le corpus vouvoie de bout en bout.** Un « tu » isolé ne casse rien et
   ne se voit pas à la relecture — il se voit à l'écran, une fois la fiche

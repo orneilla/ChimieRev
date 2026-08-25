@@ -1,8 +1,8 @@
 {
-  "genere_le": "2026-08-24",
+  "genere_le": "2026-08-25",
   "total": 286,
-  "redigees": 209,
-  "verifiees": 146,
+  "redigees": 224,
+  "verifiees": 150,
   "relues": 0,
   "familles": [
     {
@@ -1816,115 +1816,115 @@
       "famille": "Bioorganique",
       "bloc": "Biomolécules et vivant",
       "total": 15,
-      "absente": 15,
-      "redigee": 0,
-      "verifiee": 0,
+      "absente": 0,
+      "redigee": 11,
+      "verifiee": 4,
       "relue": 0,
       "reactions": [
         {
           "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "chymotrypsine_triade",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Contrôle stéréoélectronique de l'hydrolyse d'un ester",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "controle_stereoelectronique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Carboxypeptidase A : le rôle du zinc",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "carboxypeptidase_zinc",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Catalyse par les cyclodextrines",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "catalyse_cyclodextrines",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Reconnaissance moléculaire par les éthers-couronnes",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "ethers_couronnes",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Micelles et chimie des membranes",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "micelles_membranes",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Analogues d'état de transition",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "analogues_etat_transition",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Anticorps catalytiques",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "anticorps_catalytiques",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Inhibiteurs suicides et marqueurs d'affinité",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "inhibiteurs_suicides",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Oxydoréduction par NAD(P)H",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "oxydoreduction_nadph",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Décarboxylation et racémisation par le phosphate de pyridoxal",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "decarboxylation_racemisation_plp",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "Catalyse par le pyrophosphate de thiamine",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "catalyse_thiamine",
+          "statut": "verifiee",
+          "sources": true
         },
         {
           "nom": "La biotine, transporteur de CO₂",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "biotine_co2",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "La vitamine B₁₂ et le cobalt",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "vitamine_b12_cobalt",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Cyclisation polyénique biomimétique",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "cyclisation_polyenique_biomimetique",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     },

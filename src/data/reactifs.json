@@ -3733,5 +3733,378 @@
     ],
     "explication_reference": "L'IPP et son isomère le DMAPP sont les deux briques en C₅ de toute la biosynthèse terpénique.\n\nLEURS RÔLES SONT OPPOSÉS ET COMPLÉMENTAIRES (Clayden p. 1166) : « le pyrophosphate de diméthylallyle est le MEILLEUR ÉLECTROPHILE parce qu'il est allylique […]. Le pyrophosphate d'isopentényle est le MEILLEUR NUCLÉOPHILE parce qu'il peut réagir par un carbone primaire non encombré pour produire un cation TERTIAIRE. »\n\nILS SONT INTERCONVERTIS (Clayden p. 1166) : « le pyrophosphate d'isopentényle est en équilibre avec le pyrophosphate de diméthylallyle par un simple transfert de proton allylique. »\n\nLEUR ORIGINE est l'acide mévalonique, converti par deux phosphorylations puis une décarboxylation (McMurry p. 922). Le carbone perdu est le carboxylique, prouvé par marquage ¹⁴C (Roberts & Caserio § 30.5.3).\n\nL'ALLONGEMENT se fait par paliers de C₅ : géranyl (C₁₀), farnésyl (C₁₅), géranylgéranyl (C₂₀), squalène (C₃₀ par dimérisation).",
     "explication_comprendre": "LA BRIQUE QUI EXPLIQUE LA MOITIÉ DES ODEURS DU MONDE.\n\nLe citron, le pin, la menthe, la lavande, la rose : tous ces parfums sont faits de la même petite molécule à cinq carbones, répétée et repliée différemment.\n\nDEUX FORMES, DEUX RÔLES.\n\nLa brique existe en deux versions qui ne diffèrent que par la position d'une double liaison.\n\nDans l'une — le DMAPP —, la double liaison est juste à côté du groupe partant. Quand celui-ci s'en va, la charge positive qui reste est partagée avec la double liaison : elle est donc supportable. Cette version est l'ATTAQUÉE.\n\nDans l'autre — l'IPP —, la double liaison est au bout de la chaîne, loin du groupe partant. Elle reste donc disponible pour attaquer. Cette version est l'ATTAQUANTE.\n\nUne seule enzyme convertit l'une en l'autre, en déplaçant un proton. La cellule règle ainsi la proportion des deux partenaires.\n\nPOURQUOI CINQ CARBONES ET PAS QUATRE.\n\nParce que c'est ce que la voie de fabrication donne. L'acide mévalonique en compte six, et l'un d'eux part en CO₂.\n\nComment le sait-on ? Par une expérience simple et concluante (Roberts & Caserio § 30.5.3) : on a marqué le carbone du carboxyle avec du carbone 14, on a nourri l'organisme avec, et le cholestérol obtenu n'était PAS marqué. Donc c'est bien ce carbone-là qui disparaît.\n\nUne mesure, une conclusion."
+  },
+  {
+    "id": "couronne_18_6",
+    "nom": "18-couronne-6",
+    "nom_complet": "1,4,7,10,13,16-hexaoxacyclooctadécane",
+    "famille": "Activation et groupes partants",
+    "SMILES": "C1COCCOCCOCCOCCOCCO1",
+    "role": "Séquestre un cation et LIBÈRE son anion — on obtient un « anion nu »",
+    "anatomie_annotations": [
+      {
+        "partie": "les six oxygènes d'éther",
+        "role": "Leurs doublets pointent tous vers l'intérieur du cycle. Ils tapissent la cavité de charges partielles négatives — c'est ce qui accueille le cation."
+      },
+      {
+        "partie": "le diamètre de la cavité",
+        "role": "Il n'y a pas d'autre organe de reconnaissance : c'est la TAILLE du trou qui décide quel cation entre. 12-couronne-4 pour Li⁺, 15-couronne-5 pour Na⁺, 18-couronne-6 pour K⁺."
+      },
+      {
+        "partie": "l'extérieur, fait de CH₂",
+        "role": "Une fois le cation logé, la molécule présente au solvant une surface d'hydrocarbure. C'est pourquoi un sel minéral devient soluble dans le toluène."
+      }
+    ],
+    "reactions_liees": [
+      "ethers_couronnes"
+    ],
+    "explication_reference": "Macrocycle polyéther découvert par Charles Pedersen (DuPont, début des années 1960). Nomenclature x-couronne-y : x atomes dans le cycle, y oxygènes (McMurry p. 583).\n\nLA COMPLEXATION EST DIMENSIONNELLE : 12-C-4/Li⁺, 15-C-5/Na⁺, 18-C-6/K⁺.\n\nDEUX EFFETS EN SYNTHÈSE (McMurry p. 584) :\n• solubilisation d'un sel minéral en milieu apolaire — « le permanganate de potassium se dissout dans le TOLUÈNE en présence de 18-couronne-6 » ;\n• et surtout l'ANION NU : « le cation métallique est fortement solvaté, LAISSANT L'ANION NU. Ainsi la réactivité SN2 d'un anion est énormément accrue. »\n\nEFFET COMPARABLE à celui d'un solvant aprotique polaire — DMSO, DMF, HMPA (McMurry p. 584).\n\nÉQUIVALENTS NATURELS : les IONOPHORES ; la valinomycine lie K⁺ avec une sélectivité 10⁴ sur Na⁺ et le transporte à travers les membranes.\n\nDugas en fait le premier RÉCEPTEUR ARTIFICIEL de la chimie bioorganique (ch. 5).",
+    "explication_comprendre": "POURQUOI un anneau d'oxygènes peut-il dissoudre du sel dans de l'essence ?\n\nParce qu'il déguise le cation.\n\nUn sel de potassium ne se dissout que dans l'eau, parce que seule l'eau sait entourer à la fois le K⁺ et son anion. Enfermez le K⁺ dans cet anneau, et il se retrouve habillé d'une coque faite de CH₂ — c'est-à-dire, vu de l'extérieur, d'hydrocarbure. Le toluène l'accepte, et l'anion suit.\n\nMAIS LE VRAI SUJET N'EST PAS LE CATION : C'EST L'ANION.\n\nDans l'eau, un anion traîne derrière lui une coque de molécules d'eau qui le calme. Pour qu'il attaque quelque chose, il faut d'abord la lui arracher, et cela coûte cher.\n\nDans le toluène avec une couronne, il n'y a plus rien autour de lui. McMurry emploie le mot exact (p. 584) : l'anion est laissé NU. Et un anion nu est un nucléophile redoutable — un fluorure de potassium, réputé mou, devient un vrai réactif de substitution.\n\nCE QU'IL NE FAUT PAS CONFONDRE : la couronne ne CATALYSE rien. Elle ne touche pas au substrat, ne change aucune barrière d'activation. Elle déshabille un anion, et c'est tout.\n\nET SA SÉLECTIVITÉ N'EST PAS CHIMIQUE. Li⁺, Na⁺, K⁺ portent tous la même charge et se ressemblent beaucoup. Ce qui les sépare ici est leur DIAMÈTRE. C'est de la serrurerie, pas de la chimie.",
+    "reactions_exemples": [
+      {
+        "nom": "KMnO₄ soluble dans le toluène",
+        "substrat_SMILES": "[K+]",
+        "produit_SMILES": "[K+].C1COCCOCCOCCOCCOCCO1",
+        "note": "Un sel minéral en phase organique (McMurry p. 584)"
+      },
+      {
+        "nom": "Fluorure nu, SN2 accélérée",
+        "substrat_SMILES": "CCCCCCBr",
+        "produit_SMILES": "CCCCCCF",
+        "note": "Sans couronne, KF ne fait presque rien"
+      }
+    ]
+  },
+  {
+    "id": "pyridoxal_phosphate",
+    "nom": "PLP",
+    "nom_complet": "phosphate de pyridoxal",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "Cc1ncc(COP(=O)(O)O)c(C=O)c1O",
+    "role": "Cofacteur des enzymes de la chimie des acides aminés — un PUITS D'ÉLECTRONS",
+    "anatomie_annotations": [
+      {
+        "partie": "l'aldéhyde",
+        "role": "C'est par lui que le cofacteur s'accroche : il forme une imine (aldimine) avec l'amine de l'acide aminé. Toute la chimie qui suit se passe sur cette imine."
+      },
+      {
+        "partie": "l'azote du cycle pyridine, protoné",
+        "role": "Le PUITS D'ÉLECTRONS. Chargé positivement, il accepte la charge négative du carbanion et l'étale sur tout le cycle. Sans lui, arracher un proton au carbone α serait impossible."
+      },
+      {
+        "partie": "l'hydroxyle phénolique",
+        "role": "Placé juste à côté de l'imine, il assure la catalyse acide et basique générale — et il est INTRAMOLÉCULAIRE, donc toujours présent au bon endroit (Dugas p. 525)."
+      },
+      {
+        "partie": "le phosphate",
+        "role": "Une poignée. Il ne fait pas de chimie : il ancre le cofacteur dans le site actif."
+      }
+    ],
+    "reactions_liees": [
+      "transamination_plp",
+      "decarboxylation_racemisation_plp"
+    ],
+    "explication_reference": "Cofacteur dérivé de la vitamine B₆, employé par les enzymes du métabolisme des acides aminés. Il forme une ALDIMINE avec l'amine du substrat ; le carbone α porte alors trois liaisons rompables — C–H, C–CO₂⁻, C–R.\n\nLA SÉLECTION EST STÉRÉOÉLECTRONIQUE : seule la liaison placée perpendiculairement au plan conjugué peut y déverser ses électrons. C'est l'ENZYME qui choisit, en imposant la conformation.\n\nTROIS RAISONS STRUCTURALES (Dugas p. 525) : « le groupe hydroxyle est idéalement placé pour assurer une catalyse acide et basique générale. Étant INTRAMOLÉCULAIRE, il est particulièrement efficace. Deuxièmement, l'azote chargé positivement du cycle pyridine agit comme un PUITS D'ÉLECTRONS pour abaisser l'énergie libre de la tautomérisation de la liaison C–H. Enfin, les groupes sont placés dans la géométrie exactement correcte à la surface de l'enzyme. »\n\nDANS LES MODÈLES SANS ENZYME, Al(III), Cu(II) et Fe(III) accélèrent la réaction en se complexant à l'imine (Dugas p. 525) ; « de véritables intermédiaires chélates ont été ISOLÉS ».\n\nLIMITE CONNUE (Dugas p. 525) : « dans les systèmes modèles, TOUTES les réactions catalysées par les enzymes SAUF LA DÉCARBOXYLATION ont été reproduites. »",
+    "explication_comprendre": "POURQUOI un seul cofacteur suffit-il à faire trois réactions qui n'ont rien à voir ?\n\nParce que ce qu'il apporte n'est pas une réaction : c'est un ENDROIT OÙ METTRE UNE CHARGE.\n\nLe problème de départ. Pour faire quoi que ce soit sur un acide aminé, il faut arracher quelque chose à son carbone central : un hydrogène, ou son carboxylate. Dans les deux cas, ce carbone se retrouve chargé négativement — et une charge négative sur un carbone, seule, coûte beaucoup trop cher.\n\nLA SOLUTION DU PLP est de fournir une décharge. Son cycle porte un azote chargé POSITIVEMENT ; la charge négative y descend et s'étale sur tout le cycle aromatique. Dugas emploie le mot (p. 525) : un « puits d'électrons ».\n\nUne fois cette charge acceptable, on peut arracher ce qu'on veut.\n\nET C'EST L'ENZYME QUI CHOISIT QUOI. Elle tient l'acide aminé d'une certaine façon ; la liaison qu'elle dresse perpendiculairement au cycle est celle qui se rompt. Dressez le C–H, vous faites une transamination. Dressez le C–CO₂⁻, vous décarboxylez.\n\nUn seul cofacteur, trois réactions, et ce qui les sépare est un ANGLE.\n\nCE QU'IL NE FAUT PAS CONFONDRE : le PLP n'est pas consommé, mais il n'est pas non plus un catalyseur au sens ordinaire. Il forme une vraie liaison covalente avec le substrat, la garde tout le temps de la réaction, puis la rend. On appelle cela une catalyse COVALENTE — la même stratégie que l'aldolase, et l'inverse exact de la cyclodextrine, qui ne touche jamais son invité.",
+    "reactions_exemples": [
+      {
+        "nom": "Décarboxylation → amine",
+        "substrat_SMILES": "CC(C)(N)C(=O)O",
+        "produit_SMILES": "CC(C)N",
+        "note": "C'est ainsi qu'on fabrique l'histamine, la dopamine, le GABA"
+      },
+      {
+        "nom": "Racémisation",
+        "substrat_SMILES": "C[C@H](N)C(=O)O",
+        "produit_SMILES": "C[C@@H](N)C(=O)O",
+        "note": "La D-alanine de la paroi bactérienne — une cible d'antibiotiques"
+      }
+    ]
+  },
+  {
+    "id": "thiamine_pp",
+    "nom": "TPP",
+    "nom_complet": "diphosphate de thiamine, vitamine B₁",
+    "famille": "Nucléophiles",
+    "SMILES": "Cc1ncc(C[n+]2csc(CCOP(=O)(O)OP(=O)(O)O)c2C)c(N)n1",
+    "role": "Inverse la polarité d'un carbonyle — l'« ion cyanure biologique »",
+    "anatomie_annotations": [
+      {
+        "partie": "le cycle thiazolium",
+        "role": "La seule partie qui fait de la chimie. McMurry (p. 990) : « un hétérocycle insaturé à cinq chaînons contenant un atome de soufre et un atome d'azote CHARGÉ POSITIVEMENT »."
+      },
+      {
+        "partie": "l'hydrogène entre N et S",
+        "role": "pKa ≈ 18 — extraordinairement acide pour un C–H. Une base le retire et l'on obtient un YLURE, le vrai réactif (McMurry p. 990)."
+      },
+      {
+        "partie": "l'azote positif",
+        "role": "C'est lui qui rend le proton acide, en stabilisant la charge négative qui reste. Retirez-le et il n'y a plus aucune chimie."
+      },
+      {
+        "partie": "le diphosphate",
+        "role": "Une poignée, comme pour le PLP : il ancre le cofacteur dans l'enzyme et ne participe à rien."
+      }
+    ],
+    "reactions_liees": [
+      "catalyse_thiamine"
+    ],
+    "explication_reference": "Cofacteur dérivé de la vitamine B₁. Son cycle THIAZOLIUM porte, entre N et S, un hydrogène de pKa ≈ 18 ; une base l'enlève et engendre un YLURE « très semblable aux ylures de phosphonium employés dans les réactions de Wittig » (McMurry p. 990).\n\nSÉQUENCE : addition de l'ylure sur un carbonyle ; décarboxylation ou rupture C–C donnant un carbanion stabilisé par l'azote positif ; attaque d'un électrophile ; départ du thiazolium et régénération de l'ylure.\n\nLE CONCEPT EST L'UMPOLUNG — inversion de polarité. Grossman l'écrit en synthon (p. 81) : le pyruvate « agit comme un ANION ACÉTYLE ⁻C(=O)CH₃, les électrons du carbanion provenant de la coupure de la liaison C–C dans l'étape de décarboxylation. Cette réactivité ne serait PAS POSSIBLE sans la participation de la thiamine. »\n\nÉQUIVALENCE FONCTIONNELLE AVEC LE CYANURE de la condensation benzoïne ; Dugas nomme la thiamine « l'ION CYANURE BIOLOGIQUE » (p. 28).\n\nENZYMES : pyruvate déshydrogénase, pyruvate décarboxylase, transcétolase. CARENCE : béribéri.",
+    "explication_comprendre": "POURQUOI la nature a-t-elle besoin de cyanure — et comment s'en passe-t-elle ?\n\nLe carbone d'un carbonyle est toujours électrophile : il subit, il n'attaque jamais. Pour relier deux carbonyles entre eux, il faudrait en inverser un. On appelle cela un UMPOLUNG.\n\nLe cyanure sait le faire : il s'additionne sur un aldéhyde et transforme le carbone attaqué en carbanion. C'est le principe de la condensation benzoïne.\n\nSeulement le cyanure tue. On n'en met pas dans une cellule.\n\nLA THIAMINE FAIT EXACTEMENT LA MÊME CHOSE, sans la toxicité. Dugas lui donne le surnom qui résume tout (p. 28) : l'« ion cyanure biologique ».\n\nCOMMENT ? Son petit cycle porte un azote chargé positivement. L'hydrogène voisin est de ce fait anormalement acide — pKa 18, alors qu'un alcane est à 50. On le retire, et l'on obtient un carbone chargé négativement juste à côté d'un azote chargé positivement : un YLURE.\n\nMcMurry fait le rapprochement (p. 990) : c'est le cousin de l'ylure de Wittig. Avec une différence essentielle — celui de Wittig DONNE son carbone au produit ; celui de la thiamine se retire intact. L'un est un réactif, l'autre un catalyseur.\n\nCE QU'IL NE FAUT PAS CONFONDRE : la thiamine n'apporte pas d'atome au produit final. Son bilan est nul. Elle s'accroche, rend un carbone nucléophile, puis s'en va.",
+    "reactions_exemples": [
+      {
+        "nom": "Pyruvate → acétoïne",
+        "substrat_SMILES": "CC(=O)C(=O)O",
+        "produit_SMILES": "CC(O)C(C)=O",
+        "note": "Une liaison C–C faite entre deux carbonyles"
+      },
+      {
+        "nom": "Pyruvate → acétaldéhyde",
+        "substrat_SMILES": "CC(=O)C(=O)O",
+        "produit_SMILES": "CC=O",
+        "note": "La fermentation alcoolique de la levure"
+      }
+    ]
+  },
+  {
+    "id": "biotine",
+    "nom": "biotine",
+    "nom_complet": "vitamine B₈ (vitamine H)",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "O=C1NC2C(CCCCC(=O)O)SCC2N1",
+    "role": "Transporte un CO₂ d'un site actif à l'autre",
+    "anatomie_annotations": [
+      {
+        "partie": "l'azote de l'urée",
+        "role": "C'est lui qui porte le carboxyle. On appelle le produit la N-CARBOXYBIOTINE, et c'est le vrai réactif — un carbamate assez stable pour être transporté, assez labile pour rendre son CO₂ sur commande."
+      },
+      {
+        "partie": "la chaîne latérale valérique",
+        "role": "Elle attache le cofacteur à l'enzyme par une lysine. Le bras ainsi formé mesure 1,4 nm (Dugas p. 576)."
+      },
+      {
+        "partie": "le cycle thiophane",
+        "role": "Le squelette. Sa jonction cis et la face sur laquelle repose la chaîne latérale en font un défi de synthèse — Clayden y consacre trois passages (p. 661, 843, 904-905)."
+      }
+    ],
+    "reactions_liees": [
+      "biotine_co2"
+    ],
+    "explication_reference": "Cofacteur des carboxylases. Fixé à l'enzyme par amidification sur une LYSINE, il fait la navette entre deux sous-sites : le premier le carboxyle sur l'azote de l'urée aux dépens d'une ATP, le second transfère ce carboxyle au substrat.\n\nDugas (p. 576) : « le rôle essentiel de la biotine dans la catalyse est de TRANSFÉRER le CO₂ fixé […] Fondamentalement, la biotine se comporte comme un TRANSPORTEUR de CO₂ entre deux sites. »\n\nLE BRAS mesure 1,4 nm, mais le fragment carboxybiotine « ne se déplace, au plus, que de 0,7 nm » : son rôle est de PLACER le carboxyle au bout d'une sonde capable de traverser l'interface des trois sous-unités (Dugas p. 576).\n\nLE TRANSFERT (McMurry p. 980) : perte de CO₂ favorisée par une liaison hydrogène à un site acide, déprotonation SIMULTANÉE de l'acétyl-CoA, et l'énolate réagit avec le CO₂ « AU MOMENT OÙ IL SE FORME ».\n\nRÉACTIONS : acétyl-CoA → malonyl-CoA ; pyruvate → oxaloacétate.",
+    "explication_comprendre": "POURQUOI la cellule ne se sert-elle pas du gaz carbonique qui l'entoure ?\n\nParce qu'il est à la fois trop stable et trop fugace. Trop stable : c'est le point d'arrivée du métabolisme, il ne réagit pas volontiers. Trop fugace : dissous, il passe et s'échappe — on ne peut pas compter dessus au moment voulu.\n\nD'OÙ L'IDÉE DE L'ATTACHER À UN PORTEUR. La biotine est ce porteur, et son azote d'urée est le crochet.\n\nMAIS CE N'EST PAS UN CATALYSEUR, et Dugas insiste sur le mot (p. 576) : c'est un TRANSPORTEUR. Elle ne rend aucune réaction plus facile — elle porte un groupe d'un endroit à un autre, comme une navette entre deux ateliers.\n\nUN DÉTAIL QUI EST UNE LEÇON DE MÉTHODE. Son bras mesure 1,4 nanomètre, ce qui est très long. L'explication évidente — « il est long parce qu'il faut aller loin » — a été mise à l'épreuve : on a mesuré, et le déplacement réel est de 0,7 nm au plus. Le bras n'est pas long pour parcourir une distance ; il est long pour ATTEINDRE un point coincé à l'interface de trois sous-unités.\n\nCE QU'IL NE FAUT PAS CONFONDRE : dans ce corpus, le Clayden parle beaucoup de la biotine — et jamais comme d'un cofacteur. Pour lui c'est une CIBLE DE SYNTHÈSE difficile, avec un problème stéréochimique précis (p. 843). Même molécule, deux mondes qui ne se parlent pas.",
+    "reactions_exemples": [
+      {
+        "nom": "Acétyl-CoA → malonyl-CoA",
+        "substrat_SMILES": "CC(=O)SC",
+        "produit_SMILES": "OC(=O)CC(=O)SC",
+        "note": "Le premier pas de la biosynthèse des acides gras"
+      },
+      {
+        "nom": "La forme active",
+        "substrat_SMILES": "O=C1NC2C(CCCCC(=O)O)SCC2N1",
+        "produit_SMILES": "[O-]C(=O)N1C(=O)NC2CSC(CCCCC(=O)O)C12",
+        "note": "N-carboxybiotine — le carboxyle est sur l'azote"
+      }
+    ]
+  },
+  {
+    "id": "coenzyme_b12",
+    "nom": "coenzyme B₁₂",
+    "nom_complet": "adénosylcobalamine",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "C[Co]",
+    "role": "Réserve de radical libre, qu'on ouvre à la demande",
+    "anatomie_annotations": [
+      {
+        "partie": "la liaison cobalt-carbone",
+        "role": "La seule liaison organométallique connue du vivant. Elle vaut 26 kcal/mol (Dugas p. 469) contre 85 pour une liaison C–C : assez forte pour tenir, assez faible pour se rompre à 37 °C."
+      },
+      {
+        "partie": "le macrocycle corrine",
+        "role": "Il tient le cobalt par quatre azotes. Le schéma ne le dessine pas — c'est une simplification déclarée, comme le SC mis pour SCoA ailleurs dans ce corpus."
+      },
+      {
+        "partie": "le ligand axial inférieur",
+        "role": "Le bouton de réglage. Dugas (p. 469) : « PLUS FAIBLE est la basicité d'un ligand à cette position, PLUS FAIBLE sera la liaison » — l'effet trans, employé par une protéine."
+      }
+    ],
+    "reactions_liees": [
+      "vitamine_b12_cobalt"
+    ],
+    "explication_reference": "Cofacteur des mutases et de quelques méthyltransférases. Porte une liaison Co–C de 26 kcal/mol (Dugas p. 469), qui se rompt HOMOLYTIQUEMENT et libère un radical 5'-désoxyadénosyle.\n\nFONCTION (Dugas p. 469) : « transporteur RÉVERSIBLE de radicaux libres, au même sens que […] la myoglobine est un transporteur réversible de dioxygène ».\n\nMODULATION PAR EFFET TRANS : la force de Co–C dépend de la basicité du ligand axial opposé (Dugas p. 469).\n\nCYCLE DES MUTASES : rupture homolytique ; abstraction d'un H du substrat ; réarrangement 1,2 du radical substrat ; reprise d'un H ; recombinaison.\n\nRÉACTION TYPE : méthylmalonyl-CoA → succinyl-CoA.\n\nL'INTERMÉDIAIRE EST SYMÉTRIQUE : la solvolyse d'un cobaloxime marqué au ¹³C donne « des quantités ÉGALES » des deux produits (Dugas p. 469), ce qui exclut le carbocation primaire.\n\nHousecroft situe l'élément (p. 596) : « la vitamine B₁₂ est un complexe de cobalt, et une gamme d'enzymes requiert des coenzymes B₁₂ ».",
+    "explication_comprendre": "POURQUOI une liaison faible est-elle exactement ce qu'on veut ?\n\nLa liaison cobalt-carbone de la B₁₂ vaut 26 kcal/mol (Dugas p. 469). Une liaison carbone-carbone en vaut 85. Elle est donc trois fois plus faible qu'une liaison normale.\n\nET C'EST LE CAHIER DES CHARGES, PAS UN DÉFAUT. Une liaison à 85 ne se romprait jamais à 37 °C. Une liaison à 26 se rompt sous l'effet d'un simple mouvement de la protéine autour d'elle.\n\nLA B₁₂ EST DONC UNE RÉSERVE DE RADICAL, qu'on ouvre à la demande. Dugas emploie une image qui éclaire les deux objets (p. 469) : elle est « un transporteur réversible de radicaux libres, au même sens que la MYOGLOBINE est un transporteur réversible de dioxygène ». Tenir quelque chose d'instable assez fermement pour le porter, assez faiblement pour le rendre.\n\nET LA FORCE SE RÈGLE. Le cobalt est pris en sandwich : au-dessus le carbone, au-dessous un autre ligand. En changeant ce qu'elle place DESSOUS, l'enzyme change la solidité de ce qu'il tient DESSUS. C'est l'effet trans, employé comme un bouton.\n\nCE QU'IL NE FAUT PAS CONFONDRE : le cobalt est choisi pour l'inverse exact du zinc. Le zinc est retenu parce qu'il ne PEUT PAS changer de degré d'oxydation, donc ne fabrique jamais de radical par accident. Le cobalt l'est parce qu'il passe aisément de +1 à +2 à +3. Deux métaux, deux cahiers des charges opposés — et le vivant emploie les deux.",
+    "reactions_exemples": [
+      {
+        "nom": "Méthylmalonyl-CoA → succinyl-CoA",
+        "substrat_SMILES": "CC(C(=O)SC)C(=O)O",
+        "produit_SMILES": "OC(=O)CCC(=O)SC",
+        "note": "Un carboxyle change de carbone — rien d'ionique ne sait le faire"
+      }
+    ]
+  },
+  {
+    "id": "cyclodextrine",
+    "nom": "cyclodextrine",
+    "nom_complet": "α-, β- ou γ-cyclodextrine",
+    "famille": "Ligands et catalyseurs",
+    "SMILES": "OC1C(O)C(CO)OC(OC2C(O)C(O)C(O)OC2CO)C1O",
+    "role": "Une cavité hydrophobe soluble dans l'eau — l'ancêtre des enzymes artificielles",
+    "anatomie_annotations": [
+      {
+        "partie": "l'intérieur du tore",
+        "role": "Il n'expose que des liaisons C–H : la cavité est HYDROPHOBE. C'est elle qui accueille l'invité, et c'est l'eau qui l'y pousse."
+      },
+      {
+        "partie": "les hydroxyles, tous à l'extérieur",
+        "role": "Ils rendent la molécule soluble dans l'eau — et l'un d'eux peut porter le réactif. Dans l'expérience de Breslow, ils sont convertis en HYPOCHLORITE (Dugas p. 346)."
+      },
+      {
+        "partie": "le diamètre du tore",
+        "role": "Six, sept ou huit glucoses : trois tailles, trois gammes d'invités. Aucun groupe de reconnaissance — c'est de la serrurerie."
+      }
+    ],
+    "reactions_liees": [
+      "catalyse_cyclodextrines"
+    ],
+    "explication_reference": "Oligosaccharide cyclique de six (α), sept (β) ou huit (γ) glucoses liés en α-1,4. Hydroxyles à l'extérieur, cavité hydrophobe à l'intérieur.\n\nFORCE MOTRICE DE L'INCLUSION (Dugas p. 346) : « les interactions HYDROPHOBES semblent être la force motrice la plus probable », complétées par liaisons hydrogène, van der Waals et dispersion.\n\nSÉLECTIVITÉ DIMENSIONNELLE : l'appariement se fait par le diamètre.\n\nEXPÉRIENCE DE BRESLOW (Dugas p. 346) : chloration de l'anisole par HOCl en présence d'α-cyclodextrine, 96 % de para. L'hôte « BLOQUE toutes les positions sauf une » ET « CATALYSE ACTIVEMENT la substitution à la position non bloquée ».\n\nCATALYSE NON COVALENTE, de type Michaelis-Menten (Dugas p. 346) — à opposer à l'aldolase, qui forme une énamine.\n\nUSAGE MODERNE : catalyseur d'une réaction de Strecker multicomposante en eau/méthanol 9:1 (Multicomposants p. 346), en remplacement d'un catalyseur métallique.",
+    "explication_comprendre": "QU'EST-CE qu'un sucre vient faire dans une liste de catalyseurs ?\n\nRien de chimique. Ce qu'il apporte est un TROU.\n\nPrenez sept glucoses, attachez-les bout à bout, refermez le collier. Tous les hydroxyles se retrouvent sur les bords extérieurs ; l'intérieur ne présente que des liaisons carbone-hydrogène.\n\nRÉSULTAT : une molécule soluble dans l'eau, avec un intérieur qui déteste l'eau. C'est exactement ce qu'est une poche d'enzyme.\n\nQU'EST-CE QUI Y FAIT ENTRER UN INVITÉ ? Pas une attraction. Dugas est précis (p. 346) : ce sont « les interactions HYDROPHOBES ». Et une interaction hydrophobe n'est pas une attraction entre molécules grasses — c'est l'EAU qui pousse l'invité dedans, pour cesser d'avoir à s'ordonner autour de lui.\n\nET ELLE NE SE CONTENTE PAS DE TENIR. Dans l'expérience de Breslow, la chloration de l'anisole donne 96 % de produit para. Dugas souligne les deux effets (p. 346) : elle « BLOQUE toutes les positions sauf une » et elle « CATALYSE ACTIVEMENT la substitution à la position non bloquée ». Ses hydroxyles portent le réactif.\n\nCE QU'IL NE FAUT PAS CONFONDRE : cette catalyse est NON COVALENTE — l'hôte ne touche jamais chimiquement son invité. C'est l'inverse exact de l'aldolase ou du PLP, qui s'accrochent à leur substrat par une vraie liaison. Deux stratégies opposées, également efficaces.",
+    "reactions_exemples": [
+      {
+        "nom": "Chloration de l'anisole",
+        "substrat_SMILES": "COc1ccccc1",
+        "produit_SMILES": "COc1ccc(Cl)cc1",
+        "note": "96 % de para (Dugas p. 346)"
+      }
+    ]
+  },
+  {
+    "id": "sncl4",
+    "nom": "SnCl₄",
+    "nom_complet": "tétrachlorure d'étain",
+    "famille": "Acides et acides de Lewis",
+    "SMILES": "Cl[Sn](Cl)(Cl)Cl",
+    "role": "Acide de Lewis fort — ouvre un époxyde et amorce une cascade cationique",
+    "anatomie_annotations": [
+      {
+        "partie": "l'étain, à quatre chlores",
+        "role": "Il lui reste des orbitales vides : c'est un accepteur de doublet, donc un acide de Lewis. Il se lie à l'oxygène d'un époxyde et le transforme en très bon groupe partant."
+      },
+      {
+        "partie": "les quatre chlores",
+        "role": "Attracteurs d'électrons, ils appauvrissent l'étain et renforcent son acidité. Ils rendent aussi le réactif violemment sensible à l'eau."
+      }
+    ],
+    "reactions_liees": [
+      "cyclisation_polyenique_biomimetique"
+    ],
+    "explication_reference": "Acide de Lewis fort, employé pour amorcer les cyclisations cationiques biomimétiques : il ouvre un époxyde terminal et engendre le carbocation qui déclenche la cascade — là où la nature emploie un proton.\n\nDugas rapporte le résultat de van Tamelen (p. 378) : « le système isoeuphénol peut être obtenu avec un bon rendement en traitant le précurseur époxyde par un ACIDE DE LEWIS » (35 %), avec « CINQ carbones asymétriques formés EN UNE SEULE FOIS ».\n\nCONDITIONS : solvant aprotique apolaire, basse température, milieu strictement anhydre.",
+    "explication_comprendre": "POURQUOI faut-il un acide de Lewis là où la nature se contente d'un proton ?\n\nParce qu'un proton, dans l'eau, est entouré et calmé. En solvant organique anhydre, on n'en a pas sous la main — et l'on veut d'ailleurs éviter l'eau, qui viendrait attaquer le carbocation qu'on est en train de fabriquer.\n\nL'ÉTAIN JOUE LE MÊME RÔLE, AUTREMENT. Il lui reste des orbitales vides ; il se colle sur l'oxygène de l'époxyde et tire dessus. L'époxyde, ainsi appauvri, s'ouvre — et le carbocation naît.\n\nÀ PARTIR DE LÀ, PLUS RIEN N'EST PILOTABLE. La cascade se déroule en quelques picosecondes. C'est le substrat, et lui seul, qui décide de la suite.\n\nCE QU'IL NE FAUT PAS CONFONDRE : SnCl₄ n'est pas un catalyseur de la cyclisation. Il ne fait qu'ALLUMER la mèche. Tout ce qui suit — le nombre de cycles, leur taille, la stéréochimie de chaque jonction — était écrit dans la géométrie de la chaîne de départ.",
+    "reactions_exemples": [
+      {
+        "nom": "Ouverture d'un époxyde, amorçage",
+        "substrat_SMILES": "CC1(C)OC1CCC(C)=CC",
+        "produit_SMILES": "CC1(C)C(O)CCC1C",
+        "note": "Le cation naît, et la cascade part"
+      }
+    ]
+  },
+  {
+    "id": "imidazole",
+    "nom": "imidazole",
+    "nom_complet": "1,3-diazole — la chaîne latérale de l'histidine",
+    "famille": "Bases",
+    "SMILES": "c1c[nH]cn1",
+    "role": "Base et nucléophile à pH neutre — le seul résidu qui puisse les deux",
+    "anatomie_annotations": [
+      {
+        "partie": "les DEUX azotes",
+        "role": "L'un porte un hydrogène, l'autre non — et le proton peut passer de l'un à l'autre. C'est ce qui permet de recevoir d'un côté et de donner de l'autre. Aucun autre acide aminé ne sait faire cela."
+      },
+      {
+        "partie": "le pKa proche de 7",
+        "role": "À pH physiologique, une part du cofacteur est protonée et l'autre non. Il est donc à la fois disponible comme base et comme acide — c'est unique parmi les vingt acides aminés."
+      },
+      {
+        "partie": "le cycle aromatique",
+        "role": "« Inhabituellement polarisable », dit Dugas de l'imidazole d'His-57 (p. 186) : une charge voisine modifie fortement sa basicité. C'est ce qui rend le relais de charge possible."
+      }
+    ],
+    "reactions_liees": [
+      "chymotrypsine_triade",
+      "micelles_membranes",
+      "decarboxylation_racemisation_plp"
+    ],
+    "explication_reference": "Hétérocycle aromatique à deux azotes, chaîne latérale de l'HISTIDINE. Son pKa proche de 7 en fait le seul résidu protéique qui soit, au pH du vivant, simultanément disponible comme acide et comme base.\n\nDugas décrit ce qui le rend irremplaçable dans la triade catalytique (p. 186) : « la juxtaposition unique [d'Asp-102] avec le système INHABITUELLEMENT POLARISABLE du cycle imidazole (His-57), qui sous sa forme non chargée peut porter un proton sur L'UN OU L'AUTRE des deux azotes du cycle, semble être la clé de l'activité de cette enzyme, et des autres sérine protéases. »\n\nET SON pKa N'EST PAS UNE CONSTANTE (Dugas p. 190) : bas dans l'enzyme au repos, il « EST ÉLEVÉ » à l'approche de l'état de transition.\n\nCOMME NUCLÉOPHILE LIBRE : dans une micelle inverse, il hydrolyse l'acétate de p-nitrophényle 53 fois plus vite que dans l'eau en masse (Dugas p. 322) — un pur effet de proximité.",
+    "explication_comprendre": "POURQUOI un si petit cycle se retrouve-t-il dans presque toutes les enzymes ?\n\nParce qu'il sait faire deux choses opposées en même temps.\n\nUne base ordinaire est protonée à pH 7 : elle a déjà pris son proton, elle ne peut plus en prendre un autre. Un acide ordinaire est déprotoné : il n'a plus rien à donner.\n\nL'IMIDAZOLE EST PILE AU MILIEU. Son pKa est voisin de 7 — donc au pH du vivant, la moitié des molécules sont protonées et l'autre moitié ne le sont pas. Il est disponible dans les deux rôles à la fois.\n\nET IL A UNE SECONDE PROPRIÉTÉ, PLUS SUBTILE. Il a DEUX azotes, et le proton peut passer de l'un à l'autre. Dugas le dit du résidu His-57 de la chymotrypsine (p. 186) : il « peut porter un proton sur L'UN OU L'AUTRE des deux azotes ».\n\nCela veut dire qu'il peut prendre un proton d'un côté et en donner un de l'autre, dans le même geste. C'est ce que fait un relais.\n\nCE QU'IL NE FAUT PAS CONFONDRE : son pKa n'est pas une constante de la molécule. Dans une enzyme, il dépend de ce qui l'entoure — Dugas montre qu'il monte à l'approche de l'état de transition (p. 190). Le site actif change ses propres propriétés au cours de la réaction.",
+    "reactions_exemples": [
+      {
+        "nom": "Hydrolyse d'un ester activé",
+        "substrat_SMILES": "CC(=O)Oc1ccc([N+](=O)[O-])cc1",
+        "produit_SMILES": "Oc1ccc([N+](=O)[O-])cc1",
+        "note": "×53 dans une micelle inverse (Dugas p. 322)"
+      }
+    ]
+  },
+  {
+    "id": "tpck",
+    "nom": "TPCK",
+    "nom_complet": "chlorométhylcétone de la N-tosyl-L-phénylalanine",
+    "famille": "Électrophiles",
+    "SMILES": "Cc1ccc(S(=O)(=O)NC(Cc2ccccc2)C(=O)CCl)cc1",
+    "role": "Marqueur d'affinité — il va se souder au nucléophile du site actif, et le désigne",
+    "anatomie_annotations": [
+      {
+        "partie": "le fragment tosyl-phénylalanine",
+        "role": "Le GUIDE. Dugas (p. 542) : il « MIME un substrat comme l'ester méthylique de la N-tosylphénylalanine ». C'est lui qui conduit la molécule dans le bon site actif, et pas ailleurs."
+      },
+      {
+        "partie": "la chlorométhylcétone",
+        "role": "L'ARME. Un électrophile qui alkyle le premier nucléophile à portée. Sur la chymotrypsine, c'est His-57."
+      }
+    ],
+    "reactions_liees": [
+      "inhibiteurs_suicides"
+    ],
+    "explication_reference": "Marqueur d'affinité de l'α-chymotrypsine. Deux parties : un fragment qui mime le substrat et conduit la molécule au site actif, un électrophile qui y forme une liaison covalente.\n\nDugas (p. 542) : « le marqueur d'affinité a un substituant électrophile réactif qui peut engendrer une liaison covalente stable avec un groupe nucléophile du site actif. De telles expériences peuvent servir à IDENTIFIER un nucléophile important dans la catalyse. »\n\nLE TPCK MARQUE His-57 ; le DFP marque Ser-195 (Dugas p. 542-543). L'irréversibilité se prouve parce qu'« une dialyse exhaustive produit encore une enzyme inactive » (p. 543).\n\nÀ DISTINGUER d'un inhibiteur SUICIDE, qui n'est réactif qu'après activation par l'enzyme cible.",
+    "explication_comprendre": "QU'EST-CE qu'un réactif qui sert à cartographier une enzyme plutôt qu'à la faire réagir ?\n\nC'est un instrument de mesure déguisé en poison.\n\nSA CONSTRUCTION EST EN DEUX PARTIES. La première ressemble au substrat de l'enzyme : c'est le guide, et il conduit la molécule dans le bon site actif. La seconde est un électrophile, qui se soudera au premier nucléophile qu'il rencontrera une fois arrivé.\n\nET ENSUITE ON LIT LE RÉSULTAT. On traite l'enzyme, on la découpe en morceaux, et l'on cherche quel morceau porte le marqueur. On sait alors quel résidu se trouvait à portée — donc, très probablement, quel résidu attaquait le substrat.\n\nC'est ainsi qu'on a identifié His-57 de la chymotrypsine ; le DFP, sur le même principe, a désigné Ser-195. La triade catalytique s'est dessinée comme cela.\n\nCE QU'IL NE FAUT PAS CONFONDRE avec un inhibiteur suicide. Le TPCK est réactif AVANT d'entrer : il peut abîmer autre chose en chemin. Un inhibiteur suicide, lui, est inoffensif tant que l'enzyme cible ne l'a pas activé — c'est pourquoi le premier est un bon outil de laboratoire et le second un bon médicament.",
+    "reactions_exemples": [
+      {
+        "nom": "Alkylation de His-57",
+        "substrat_SMILES": "Cc1ccc(S(=O)(=O)NC(Cc2ccccc2)C(=O)CCl)cc1",
+        "produit_SMILES": "Cc1ccc(S(=O)(=O)NC(Cc2ccccc2)C(=O)Cn2ccnc2)cc1",
+        "note": "L'histidine du site actif est soudée au marqueur"
+      }
+    ]
+  },
+  {
+    "id": "dfp",
+    "nom": "DFP",
+    "nom_complet": "diisopropylfluorophosphate",
+    "famille": "Électrophiles",
+    "SMILES": "CC(C)OP(=O)(F)OC(C)C",
+    "role": "Phosphoryle irréversiblement la sérine d'une sérine protéase",
+    "anatomie_annotations": [
+      {
+        "partie": "le phosphore",
+        "role": "Électrophile, il subit l'attaque de l'hydroxyle de la sérine. Le produit est un phosphate stable : l'enzyme ne s'en remet pas."
+      },
+      {
+        "partie": "le fluor",
+        "role": "Le groupe partant. C'est lui qui rend le phosphore attaquable — et c'est aussi ce qui fait de cette famille des neurotoxiques."
+      }
+    ],
+    "reactions_liees": [
+      "inhibiteurs_suicides"
+    ],
+    "explication_reference": "Agent phosphorylant qui inactive irréversiblement les sérine protéases et l'acétylcholinestérase en phosphorylant la sérine du site actif.\n\nDugas l'emploie comme marqueur d'affinité : il désigne Ser-195 de l'α-chymotrypsine, là où le TPCK désigne His-57 (p. 542-543). La preuve de l'irréversibilité est directe : « une dialyse exhaustive produit encore une enzyme inactive » (p. 543).\n\nÀ MANIPULER AVEC PRÉCAUTION : la même chimie fonde les neurotoxiques organophosphorés.",
+    "explication_comprendre": "POURQUOI un phosphate peut-il tuer une enzyme définitivement ?\n\nParce que la sérine, en l'attaquant, se retrouve accrochée à un groupe dont elle ne peut plus se défaire.\n\nDans son travail normal, la sérine attaque un carbonyle, se charge du fragment acyle, puis le rend à une molécule d'eau. C'est un aller-retour.\n\nAVEC LE DFP, L'ALLER SE FAIT ET LE RETOUR NON. La sérine attaque le phosphore, expulse le fluor — et le phosphate obtenu est bien trop stable pour être hydrolysé. L'enzyme reste bloquée avec son fardeau.\n\nCOMMENT LE PROUVE-T-ON ? Par une expérience simple, que rapporte Dugas (p. 543) : « une dialyse exhaustive produit encore une enzyme inactive ». On lave abondamment ; si l'inhibiteur était simplement posé, il partirait. Il ne part pas — donc il est soudé.\n\nCE QU'IL NE FAUT PAS CONFONDRE : ici, l'utilité scientifique et la toxicité sont la même propriété. C'est cette chimie qui a désigné Ser-195, et c'est elle qui fonde les neurotoxiques organophosphorés — qui bloquent, eux, l'acétylcholinestérase.",
+    "reactions_exemples": [
+      {
+        "nom": "Phosphorylation de Ser-195",
+        "substrat_SMILES": "CC(C)OP(=O)(F)OC(C)C",
+        "produit_SMILES": "CC(C)OP(=O)(OC)OC(C)C",
+        "note": "Un méthanol tient lieu de la sérine ; le fluor part"
+      }
+    ]
   }
 ]

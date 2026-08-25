@@ -8858,5 +8858,347 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "chymotrypsine_triade": {
+    "1": {
+      "fichier": "chymotrypsine_triade-etape1.svg",
+      "titre": "Le relais de charge : trois résidus alignés",
+      "legende": "Une sérine ordinaire n'attaque rien : son hydroxyle a un pKa de 16, il est protoné et peu nucléophile.\n\nLA CHYMOTRYPSINE LE REND NUCLÉOPHILE PAR UN ALIGNEMENT, et Dugas décrit la découverte (p. 186) : « sur la base de la structure cristallographique de l'α-chymotrypsine, une nouvelle forme de catalyse générale a été proposée. Elle est appelée le SYSTÈME DE RELAIS DE CHARGE et prend son origine dans l'alignement d'Asp-102, His-57 et Ser-195, LIÉS PAR DES LIAISONS HYDROGÈNE. »\n\nET LE RÔLE DE CHACUN EST PRÉCIS (Dugas p. 186) : « la fonction du groupe Asp-102 ENFOUI est de POLARISER le cycle imidazole, puisque la charge négative enfouie induit une charge positive adjacente. Cela donne une possibilité de transfert de proton le long des liaisons hydrogène, permettant au proton hydroxyle de Ser-195 d'être transféré à His-57. Le résidu sérine actif devient alors un NUCLÉOPHILE RÉACTIF capable d'attaquer la liaison peptidique à cliver. »\n\nTROIS RÉSIDUS, DEUX LIAISONS HYDROGÈNE, ET UN ALCOOL DEVIENT UN NUCLÉOPHILE. Aucun réactif n'a été ajouté.\n\nLE SCHÉMA EST UN MODÈLE : un méthanol tient lieu de la sérine, un amide simple de la liaison peptidique.",
+      "fleches": [
+        "L'oxygène de la sérine attaque le carbonyle de la liaison peptidique.",
+        "Les électrons du carbonyle se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "chymotrypsine_triade-etape2.svg",
+      "titre": "L'intermédiaire tétraédrique, et le trou oxyanionique",
+      "legende": "Le carbone est devenu tétraédrique et porte une charge négative sur l'oxygène. C'est l'espèce que toute l'enzyme est faite pour accueillir.\n\nCE QUI LA STABILISE PORTE UN NOM : le TROU OXYANIONIQUE. Deux liaisons hydrogène, offertes par les azotes du squelette peptidique, y attendent l'oxygène chargé. Elles ne se forment PAS avec le substrat de départ — seulement avec l'intermédiaire.\n\nET C'EST LÀ TOUTE LA DÉFINITION DE LA CATALYSE. Une enzyme qui lierait fortement son substrat le ralentirait. Ce qu'elle doit lier fortement, c'est l'ÉTAT DE TRANSITION.\n\nDUGAS SIGNALE QUE CET INTERMÉDIAIRE A LONGTEMPS ÉTÉ DISCUTÉ (p. 190) : « l'existence d'un intermédiaire tétraédrique dans la réaction enzymatique d'un ester ou d'un amide a été une question de longue date et de préoccupation majeure en enzymologie mécanistique. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "chymotrypsine_triade-etape3.svg",
+      "titre": "L'acyl-enzyme : l'enzyme porte le substrat coupé",
+      "legende": "L'intermédiaire s'effondre, l'amine part — protonée par l'histidine qui avait pris le proton de la sérine — et il reste un ESTER entre l'enzyme et la moitié acide du substrat.\n\nLA MOITIÉ AMINE EST DÉJÀ LIBRE. Le peptide est coupé, mais l'enzyme n'est pas encore rendue à elle-même.\n\nDUGAS DÉCRIT CE QUI SUIT (p. 187) : l'acyl-enzyme « NE S'ACCUMULE PAS mais est rapidement hydrolysée ». Une molécule d'eau prend la place de la sérine — activée par la même histidine, dans le même relais — et libère l'acide.\n\nPUIS TOUT RECOMMENCE (Dugas p. 188) : « une seconde molécule de substrat est prête à entrer et le même processus se répète. »\n\nDEUX MOITIÉS DE RÉACTION IDENTIQUES : d'abord la sérine attaque, ensuite l'eau attaque. Le même relais de charge sert deux fois.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "chymotrypsine_triade-etape4.svg",
+      "titre": "Ce que le pKa fait pendant la réaction",
+      "legende": "L'acide est libéré, la sérine rendue. L'enzyme ressort intacte.\n\nMAIS IL RESTE UN DÉTAIL QUI CHANGE LA MANIÈRE DE VOIR LES ENZYMES, et Dugas le rapporte (p. 190) : « le fait que His-57 ait un pKa PLUS BAS dans les enzymes libres assure que le résidu imidazole est sous forme non protonée au pH physiologique. Après formation du complexe substrat-enzyme et à mesure qu'on approche l'état de transition, le pKa de His-57 EST ÉLEVÉ, rendant l'imidazole une base plus efficace pour accepter le proton hydroxyle de Ser-195. »\n\nLE pKa D'UN RÉSIDU N'EST PAS UNE CONSTANTE : il CHANGE au cours de la réaction. L'histidine est peu basique quand il faut qu'elle attende, et plus basique au moment où il faut qu'elle prenne le proton.\n\nUNE PREUVE PAR L'ÉVOLUTION, POUR FINIR (Dugas p. 190) : « bien que l'α-chymotrypsine et la SUBTILISINE aient des repliements TOTALEMENT DIFFÉRENTS de leurs squelettes polypeptidiques, les résidus impliqués dans la catalyse — sérine, histidine, acide aspartique — ont les MÊMES RELATIONS SPATIALES. Cette similarité des centres actifs est un exemple de premier ordre d'ÉVOLUTION CONVERGENTE des géométries de centre actif. »\n\nDeux protéines sans parenté ont trouvé le même dispositif. Ce n'est donc pas un accident de l'histoire : c'est la bonne solution chimique.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "oxydoreduction_nadph": {
+    "1": {
+      "fichier": "oxydoreduction_nadph-etape1.svg",
+      "titre": "L'hydrure quitte le cycle et s'ajoute sur le carbonyle",
+      "legende": "Le NADH porte son hydrure sur le carbone 4 du cycle nicotinamide — celui qui fait face à l'azote. Il le cède directement au carbone d'un carbonyle.\n\nPOURQUOI IL LE CÈDE VOLONTIERS. Parce qu'en le perdant, le cycle devient AROMATIQUE. Un cycle à six atomes portant un azote et six électrons π délocalisés : c'est le pyridinium, et il est bien plus stable que la dihydropyridine de départ.\n\nLA FORCE MOTRICE EST L'AROMATISATION, exactement comme pour la déprotection du groupe Fmoc décrite ailleurs dans ce corpus. Une molécule fait volontiers ce qui la stabilise.\n\nLE TRANSFERT EST DIRECT, ET C'EST PROUVÉ. Le marquage au deutérium montre que l'hydrogène passe du NADH au substrat SANS jamais s'échanger avec le solvant : ce n'est pas un proton qui part et un autre qui arrive, c'est le MÊME atome, avec ses deux électrons.\n\nLE SCHÉMA NE DESSINE QUE LE NICOTINAMIDE : le ribose, les phosphates et l'adénine servent à la reconnaissance et ne participent pas à la chimie.",
+      "fleches": [
+        "Le doublet de l'azote pousse dans le cycle.",
+        "La double liaison se déplace d'un cran.",
+        "Et l'hydrure quitte le carbone 4 du nicotinamide pour le carbonyle.",
+        "Les électrons du carbonyle se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "oxydoreduction_nadph-etape2.svg",
+      "titre": "Le pyridinium, et ce qu'il faut en retenir",
+      "legende": "Le cycle est devenu aromatique. C'est le NAD⁺, la forme oxydée — celle qui sait maintenant PRENDRE un hydrure au lieu d'en donner.\n\nLA RÉACTION EST DONC RÉVERSIBLE, et c'est tout l'intérêt du couple. Ce qui décide du sens n'est pas la molécule : c'est le rapport des concentrations que la cellule maintient.\n\nDEUX RÉSERVOIRS SÉPARÉS, ET UN SEUL PHOSPHATE LES DISTINGUE :\n\n• Le NAD⁺ est maintenu OXYDÉ. Il encaisse les électrons de la dégradation — β-oxydation, glycolyse, cycle de Krebs.\n• Le NADPH est maintenu RÉDUIT. Il finance la construction — acides gras, stéroïdes, désoxyribonucléotides.\n\nChimiquement, ils font le même geste. Un phosphate posé loin du site réactif suffit aux enzymes pour ne jamais confondre les deux comptes.\n\nCE QUE LE NICOTINAMIDE NE SAIT PAS FAIRE : travailler par un seul électron. Il n'échange que des PAIRES. C'est pourquoi, partout où l'oxygène moléculaire — un diradical — intervient, c'est une flavine et non un nicotinamide qu'on trouve.\n\nDugas range d'ailleurs les deux dans son tableau des transformations (p. 27) : « réactions rédox, alcool déshydrogénase, NADH ⇄ NAD⁺ ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "decarboxylation_racemisation_plp": {
+    "1": {
+      "fichier": "decarboxylation_racemisation_plp-etape1.svg",
+      "titre": "La même aldimine, et une liaison différente choisie",
+      "legende": "Cette molécule est exactement celle de la fiche « Transamination par le phosphate de pyridoxal » : l'aldimine du PLP et d'un acide aminé.\n\nET POURTANT UNE AUTRE RÉACTION VA SE PRODUIRE. Ce n'est pas la molécule qui change, c'est la liaison que l'enzyme ALIGNE avec le système conjugué.\n\nGROSSMAN L'ÉNONCE (p. 181) : « dans la réaction de décarboxylation, le H⁺ qui réagit avec le C de l'imine peut être remplacé par d'autres électrophiles. »\n\nLA RÈGLE EST STÉRÉOÉLECTRONIQUE, ET ELLE EST SIMPLE. La liaison qui se rompt doit être PERPENDICULAIRE au plan du système conjugué — sans quoi ses électrons ne peuvent pas y entrer.\n\n• L'enzyme place la liaison C–H perpendiculaire → TRANSAMINATION.\n• Elle place la liaison C–CO₂⁻ perpendiculaire → DÉCARBOXYLATION.\n• Elle place la liaison C–R perpendiculaire → coupure de la chaîne latérale.\n\nUN SEUL COFACTEUR, TROIS RÉACTIONS SANS RAPPORT APPARENT, et ce qui les distingue est un ANGLE.",
+      "fleches": [
+        "La liaison C–CO₂⁻, alignée perpendiculairement, se rompt.",
+        "Le carboxylate se referme sur lui-même : le CO₂ s'en va.",
+        "Et les électrons de l'imine descendent sur le carbone du PLP — d'où ils gagnent le puits du cycle pyridine."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "decarboxylation_racemisation_plp-etape2.svg",
+      "titre": "La reprotonation décide : amine ou racémisation",
+      "legende": "Le carbanion formé est plan : il a perdu toute mémoire de sa configuration. Ce qui suit dépend entièrement de la face sur laquelle l'enzyme le reprotone.\n\n• Reprotoner le carbone α → une AMINE, l'acide aminé décarboxylé. C'est ainsi qu'on fabrique l'histamine à partir de l'histidine, la dopamine à partir de la DOPA, le GABA à partir du glutamate.\n• Reprotoner le carbone du PLP → la voie de la transamination.\n• Reprotoner le carbone α sur L'AUTRE FACE, sans décarboxyler → la RACÉMISATION.\n\nCE DERNIER CAS N'EST PAS UNE CURIOSITÉ. Les bactéries en ont besoin : leur paroi contient de la D-alanine, et une racémase à PLP la fabrique à partir de la L-alanine. C'est une cible d'antibiotiques.\n\nDUGAS MONTRE QU'UN MODÈLE SANS ENZYME PEUT DÉJÀ CHOISIR SA FACE (p. 542) : dans une molécule où « le bras latéral rigidement monté est contraint d'effectuer les transferts de proton sur UNE SEULE FACE de l'intermédiaire de transamination, comme dans l'enzyme », on obtient « une stéréosélectivité extraordinaire de 93 : 7 dans le rapport isomère D/L, avec 83 % de conversion de l'acide pyruvique en alanine ».\n\nUn bras rigide bien placé fait ce qu'une enzyme fait. La sélectivité n'est pas magique : elle est géométrique.\n\nET IL Y A UNE EXCEPTION QUE LES MODÈLES N'ONT JAMAIS FRANCHIE (Dugas p. 525) : « dans les systèmes modèles, TOUTES les réactions catalysées par les enzymes SAUF LA DÉCARBOXYLATION ont été reproduites. » Précisément celle de cette fiche.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "catalyse_thiamine": {
+    "1": {
+      "fichier": "catalyse_thiamine-etape1.svg",
+      "titre": "L'ylure attaque, et le carbone change de camp",
+      "legende": "Le carbanion stabilisé par la thiamine — celui qu'on a formé en décarboxylant le pyruvate — n'est pas seulement un intermédiaire : c'est un RÉACTIF à part entière.\n\nCE QU'IL A DE REMARQUABLE : le carbone qui portait le carbonyle du pyruvate est devenu NUCLÉOPHILE. Il était électrophile ; il ne l'est plus.\n\nON APPELLE CELA UN UMPOLUNG — une inversion de polarité. Et c'est exactement ce que fait le cyanure dans la condensation benzoïne, que ce corpus décrit ailleurs.\n\nD'OÙ LE SURNOM QUE DUGAS DONNE À LA THIAMINE (p. 28) : l'« ION CYANURE BIOLOGIQUE ». Même chimie, même service rendu, sans la toxicité.\n\nICI LE CARBANION ATTAQUE UN ALDÉHYDE. Dans la nature, il attaque un pont disulfure (pyruvate déshydrogénase), un autre aldéhyde (transcétolase), ou un proton (décarboxylase de la fermentation alcoolique).",
+      "fleches": [
+        "Le carbanion attaque le carbonyle.",
+        "Les électrons du carbonyle se replient sur l'oxygène."
+      ],
+      "hamecons": false,
+      "coherenceVerifiee": true,
+      "valide": false
+    },
+    "2": {
+      "fichier": "catalyse_thiamine-etape2.svg",
+      "titre": "La thiamine se retire, et rend une molécule allongée",
+      "legende": "Le cycle thiazolium se détache et emporte son proton : on retrouve l'ylure, prêt pour un nouveau tour. Ce qui reste est une acyloïne — deux fragments soudés par une liaison carbone-carbone.\n\nLE BILAN DU COFACTEUR EST NUL : il s'est accroché, a rendu un carbone nucléophile, puis s'est retiré. C'est un catalyseur au sens strict.\n\nCE QUE LA CELLULE FAIT DE CE POUVOIR :\n\n• la PYRUVATE DÉSHYDROGÉNASE, qui fait entrer le sucre dans le cycle de Krebs ;\n• la PYRUVATE DÉCARBOXYLASE de la levure, qui donne l'acétaldéhyde de la fermentation alcoolique ;\n• la TRANSCÉTOLASE, qui déplace des fragments à deux carbones entre sucres dans la voie des pentoses phosphates.\n\nTROIS ENZYMES, UN SEUL COFACTEUR, ET TOUJOURS LE MÊME GESTE : rendre nucléophile un carbone qui ne l'était pas.\n\nET SANS THIAMINE, RIEN DE TOUT CELA NE SE FAIT. La carence porte un nom — le béribéri — et frappe d'abord le système nerveux, qui ne brûle que du glucose.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "catalyse_cyclodextrines": {
+    "1": {
+      "fichier": "catalyse_cyclodextrines-etape1.svg",
+      "titre": "Un tore de glucoses, creux au milieu",
+      "legende": "CE SCHÉMA EST UN MOTIF, ET IL FAUT LE DIRE : on dessine DEUX glucoses reliés en α-1,4 — l'unité qui se répète. Une cyclodextrine en compte six, sept ou huit, refermés en anneau. Dessiner le cycle entier à la largeur d'un téléphone donnerait une tache.\n\nCE QUE L'ANNEAU FABRIQUE : son intérieur est tapissé de carbones et d'hydrogènes, son extérieur porte tous les hydroxyles. Résultat — une molécule soluble dans l'eau, dont la CAVITÉ est hydrophobe. C'est une poche, et une poche est le premier organe d'une enzyme.\n\nCE QUI ATTIRE UN INVITÉ DANS LA CAVITÉ (Dugas p. 346) : « les interactions HYDROPHOBES semblent être la force motrice la plus probable pour la formation du complexe d'inclusion. En outre, les liaisons hydrogène, les forces de van der Waals et les forces de dispersion de London peuvent aussi jouer un rôle. »\n\nET LA TAILLE DÉCIDE. Dugas note (p. 346) que pour un système aromatique donné, « seules les unités à 8 glucoses peuvent accommoder » — un invité trop gros n'entre pas, un invité trop petit ne tient pas.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "catalyse_cyclodextrines-etape2.svg",
+      "titre": "L'expérience de Breslow : 96 % en para",
+      "legende": "Voici le résultat qui a fondé la chimie biomimétique des cavités, et Dugas le rapporte avec ses chiffres (p. 346).\n\nBreslow traite de l'anisole en solution aqueuse très diluée par de l'acide hypochloreux, EN PRÉSENCE d'α-cyclodextrine. Résultat : « 96 % de chloration en position PARA du cycle anisole ».\n\nSans cyclodextrine, on obtiendrait un mélange ortho/para banal.\n\nET DUGAS SOULIGNE QUE DEUX CHOSES SE PRODUISENT À LA FOIS (p. 346) : « les résultats indiquent non seulement que la cyclodextrine BLOQUE toutes les positions du cycle aromatique sauf une, mais aussi qu'elle CATALYSE ACTIVEMENT la substitution à la position non bloquée. »\n\nLE MÉCANISME PROPOSÉ EST SIMPLE (Dugas p. 346) : « un ou plusieurs groupes hydroxyle peuvent être convertis en HYPOCHLORITE, ce qui explique la vitesse accrue de chloration dans le complexe. » L'hôte ne se contente pas de tenir l'invité : il porte le réactif.\n\nET C'EST UNE CATALYSE SANS LIAISON COVALENTE AU SUBSTRAT (Dugas p. 346) : « cela illustre une catalyse NON COVALENTE (liaison classique de Michaelis-Menten) dans laquelle l'hôte fournit la cavité pour la réaction sans formation d'intermédiaire covalent. »\n\nÀ COMPARER AVEC L'ALDOLASE, décrite ailleurs dans ce corpus, qui forme au contraire une liaison covalente avec son substrat. Deux stratégies de catalyse, également valables.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "ethers_couronnes": {
+    "1": {
+      "fichier": "ethers_couronnes-etape1.svg",
+      "titre": "Une couronne d'oxygènes, et un trou calibré",
+      "legende": "Un éther-couronne est un cycle où alternent des CH₂ et des oxygènes. Ses doublets libres pointent tous vers l'intérieur.\n\nCE QU'IL FABRIQUE EST UN TROU DE TAILLE FIXE, entouré de charges partielles négatives. Un cation qui a exactement la bonne taille s'y loge.\n\nLA SÉLECTIVITÉ EST GÉOMÉTRIQUE, ET ELLE SE MESURE :\n\n• le 12-couronne-4 accueille Li⁺ ;\n• le 15-couronne-5 accueille Na⁺ ;\n• le 18-couronne-6 accueille K⁺.\n\nOn ne choisit pas un cation par sa charge — ils la portent tous — mais par son DIAMÈTRE. C'est la reconnaissance moléculaire dans sa forme la plus dépouillée.\n\nDUGAS RANGE CE PHÉNOMÈNE PARMI CINQ FORCES (p. 18), et il vaut la peine de les connaître toutes : « 1. Interactions ÉLECTROSTATIQUES — elles impliquent des molécules dipolaires et chargées ; elles sont parmi les plus fortes. 2. LIAISONS HYDROGÈNE — elles sont faibles mais SENSIBLES AUX ANGLES. 3. Complexes de TRANSFERT DE CHARGE — ils emploient le concept donneur-accepteur ; ils sont fréquents en chimie des flavines. 4. Forces de VAN DER WAALS — elles sont influencées par la polarisabilité et la structure du solvant. 5. Liaisons HYDROPHOBES — un facteur ENTROPIQUE favorable est impliqué, puisque les molécules d'eau retournent au réservoir de solvant. »\n\nRetenez le point 5 : l'effet hydrophobe n'est pas une attraction entre molécules grasses. C'est l'EAU qui les repousse ensemble, pour récupérer sa liberté.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "ethers_couronnes-etape2.svg",
+      "titre": "Ce que la reconnaissance permet de faire",
+      "legende": "Un ion potassium enfermé dans un éther-couronne n'est plus le même ion. Il est habillé d'une coque organique — donc SOLUBLE dans un solvant apolaire.\n\nET CELA CHANGE LA CHIMIE DE SON CONTRE-ION. Un fluorure de potassium ne se dissout pas dans le benzène ; avec un éther-couronne, il s'y dissout — et le fluorure, privé de sa sphère d'hydratation, devient un nucléophile redoutable. On parle d'ANION NU.\n\nDugas y consacre une large part de son chapitre 5 : les éthers-couronnes sont son premier exemple de RÉCEPTEUR ARTIFICIEL, la brique de départ de tout ce qui suit — cyclodextrines, cyclophanes, enzymes artificielles.\n\nET LA MÊME LOGIQUE VAUT POUR LE VIVANT. La valinomycine, un antibiotique naturel, est un cycle peptidique qui fait exactement cela : elle enveloppe un K⁺ et le fait traverser une membrane bactérienne. Le gradient ionique s'effondre, la bactérie meurt.\n\nLE PROJET DE LA CHIMIE BIOORGANIQUE EST LÀ, ET DUGAS L'ÉNONCE (p. 18) : « la conception d'une enzyme artificielle ou d'un récepteur implique la construction d'une architecture moléculaire ou d'une cavité distincte COMPLÉMENTAIRE d'un substrat. » Il ajoute d'ailleurs, quelques lignes plus haut, que le chimiste bioorganique travaille « comme un sculpteur sur un chef-d'œuvre » : tous deux ont pour objet « de s'exprimer sous des formes figurées ».",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "micelles_membranes": {
+    "1": {
+      "fichier": "micelles_membranes-etape1.svg",
+      "titre": "Une molécule à deux visages",
+      "legende": "Une tête chargée, une queue grasse. C'est tout ce qu'il faut pour qu'une molécule s'organise toute seule dans l'eau.\n\nCE QUI LA POUSSE À S'ORGANISER N'EST PAS UNE ATTRACTION, ET C'EST LE POINT LE PLUS MAL COMPRIS DE CETTE CHIMIE.\n\nLes queues grasses ne s'attirent pas particulièrement. C'est L'EAU qui les rassemble — pour se libérer.\n\nDugas le range parmi ses cinq forces d'association (p. 18) : les liaisons hydrophobes « sont directement concernées par le contact organique entre molécules et la PERTE de molécules d'eau ordonnées à la surface des molécules. Un facteur ENTROPIQUE favorable est impliqué, puisque les molécules d'eau retournent au réservoir de solvant. »\n\nAutrement dit : autour d'une chaîne grasse, l'eau doit s'ordonner en cage. En regroupant les chaînes, on réduit la surface totale à entourer, et l'eau récupère sa liberté.\n\nCE N'EST PAS L'ÉNERGIE QUI COMMANDE, C'EST L'ENTROPIE. Une membrane cellulaire tient par le désordre de l'eau qui l'entoure.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "micelles_membranes-etape2.svg",
+      "titre": "La micelle inverse : une flaque d'eau dans l'huile",
+      "legende": "Retournez le dispositif : mettez le tensioactif dans un solvant organique, avec un peu d'eau. Les têtes se regroupent au centre autour de l'eau, les queues vers l'extérieur. On obtient une MICELLE INVERSE — une gouttelette d'eau de quelques nanomètres, enfermée dans l'huile.\n\nET C'EST UN MODÈLE D'ENZYME, parce que le site actif d'une enzyme est exactement cela : une petite région aqueuse enfouie dans une masse hydrophobe.\n\nDEUX RÉSULTATS CHIFFRÉS, ET ILS SONT SPECTACULAIRES (Dugas p. 322).\n\nLe premier : « l'addition d'acétate de p-nitrophényle en présence d'imidazole à ce système micellaire résulte en une augmentation de 53 FOIS de l'hydrolyse de l'acétate par rapport à l'eau en masse. Clairement, l'imidazole dans la micelle est capable de venir TRÈS PRÈS du substrat et de catalyser son hydrolyse. »\n\nCinquante-trois fois, sans aucune enzyme, uniquement en rapprochant deux molécules.\n\nLe second est plus étonnant encore (Dugas p. 322) : dans la flaque d'eau piégée, la protonation d'un carboxylate se produit avec « une constante de vitesse extraordinairement grande […] une valeur de l'ordre de 10¹² M⁻¹ s⁻¹ a été observée ! »\n\nOn est au-delà de la limite de diffusion ordinaire. Dugas explique pourquoi : c'est « faisable seulement si le donneur et l'accepteur sont à PROXIMITÉ ÉTROITE ».\n\nCE QUE CELA APPREND SUR LES ENZYMES. Une bonne part de leur pouvoir ne vient d'aucune chimie particulière : elle vient de ce qu'elles tiennent deux partenaires côte à côte, dans un volume minuscule, en excluant l'eau. La micelle inverse le démontre sans une seule protéine.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "biotine_co2": {
+    "1": {
+      "fichier": "biotine_co2-etape1.svg",
+      "titre": "La biotine, et son bras de 1,4 nanomètre",
+      "legende": "La biotine est la vitamine B₈. Ce qui compte sur elle est son azote d'urée — celui qui portera le CO₂ — et sa longue chaîne latérale, qui l'attache à l'enzyme par une lysine.\n\nET LA LONGUEUR DE CE BRAS N'EST PAS UN DÉTAIL. Dugas donne les chiffres et le raisonnement (p. 576) : la biotine est reliée à la protéine porteuse « par une chaîne latérale de 1,4 nm et peut osciller à l'intérieur et à l'extérieur du site ».\n\nCE QUE FAIT VRAIMENT LA BIOTINE (Dugas p. 576) : « le rôle essentiel de la biotine dans la catalyse est de TRANSFÉRER le CO₂ fixé, ou carboxyle, DE PART ET D'AUTRE entre deux sous-sites. […] Fondamentalement, la biotine se comporte comme un TRANSPORTEUR de CO₂ entre deux sites. »\n\nDEUX SITES ACTIFS, ET UN NAVETTE ENTRE LES DEUX. Le premier sous-site carboxyle la biotine ; le second transfère ce carboxyle sur l'acétyl-CoA. La biotine fait l'aller-retour.\n\nUNE MESURE QUI NUANCE (Dugas p. 576) : « des études biophysiques intensives sur la transcarboxylase montrent que le fragment carboxybiotine ne se déplace, au plus, que de 0,7 nm pendant le transfert de CO₂. Le rôle du long bras (1,4 nm) semble donc être de PLACER le groupe carboxyle transféré au bout d'une longue sonde, lui permettant de traverser l'espace qui se produit à l'interface des trois sous-unités. »\n\nLe bras n'est pas long pour parcourir une distance : il est long pour ATTEINDRE un endroit.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "biotine_co2-etape2.svg",
+      "titre": "Le CO₂ n'est jamais libre",
+      "legende": "Le carboxyle est porté par l'azote de l'urée. On appelle cela la N-CARBOXYBIOTINE, et c'est le vrai réactif.\n\nPOURQUOI PASSER PAR LÀ PLUTÔT QUE D'EMPLOYER DU CO₂ DIRECTEMENT. Parce que le CO₂ dissous est un électrophile médiocre et une espèce fugace. En le fixant sur un azote — au prix d'une ATP —, la cellule en fait un donneur de carboxyle stable, qu'elle peut porter où elle veut.\n\nMcMURRY DÉCRIT LE TRANSFERT (p. 980) : « le mécanisme de la réaction de transfert de CO₂ avec l'acétyl-CoA pour donner le malonyl-CoA est supposé impliquer le CO₂ comme espèce réactive. Une proposition est que la PERTE de CO₂ est favorisée par la formation d'une liaison hydrogène entre le groupe carbonyle de la N-carboxybiotine et un site acide voisin dans l'enzyme. La déprotonation SIMULTANÉE de l'acétyl-CoA par un site basique de l'enzyme donne un ion énolate de thioester qui peut réagir avec le CO₂ AU MOMENT OÙ IL SE FORME. »\n\nRETENEZ « AU MOMENT OÙ IL SE FORME ». Le CO₂ n'est jamais laissé seul : il naît et il est consommé dans le même geste. C'est la même précaution que pour le carbanion de la condensation de Claisen — une espèce instable ne doit jamais avoir le temps d'exister.\n\nOÙ ON RETROUVE LA BIOTINE DANS CE CORPUS : elle carboxyle l'acétyl-CoA en malonyl-CoA au départ de la biosynthèse des acides gras, et elle carboxyle le pyruvate en oxaloacétate au premier contournement de la néoglucogenèse. Deux fois, et deux fois pour la même raison — acheter une IRRÉVERSIBILITÉ que le CO₂ emportera en repartant.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "vitamine_b12_cobalt": {
+    "1": {
+      "fichier": "vitamine_b12_cobalt-etape1.svg",
+      "titre": "La seule liaison carbone-métal du vivant",
+      "legende": "Le cobalt de la vitamine B₁₂ porte une liaison COBALT-CARBONE. C'est, à ce jour, la seule liaison organométallique connue dans le monde vivant.\n\nCE QUI COMPTE EST QU'ELLE SOIT FAIBLE. Dugas donne le chiffre (p. 469) : « il obtient une valeur de 26 kcal/mol pour cette liaison organométallique ».\n\nVingt-six kilocalories, c'est peu : une liaison C–C en vaut 85. Cette faiblesse est fonctionnelle.\n\nCE QU'ELLE PERMET (Dugas p. 469) : « le coenzyme B₁₂ peut agir comme un TRANSPORTEUR RÉVERSIBLE DE RADICAUX LIBRES, au même sens que d'autres organométalliques comme la myoglobine est un transporteur réversible de dioxygène. »\n\nLE PARALLÈLE AVEC LA MYOGLOBINE EST À MÉDITER. Dans les deux cas, un métal tient quelque chose d'instable — un radical d'un côté, une molécule d'oxygène de l'autre — assez fermement pour le porter, assez faiblement pour le rendre.\n\nET LA FORCE DE LA LIAISON SE RÈGLE (Dugas p. 469) : « une partie de la force de liaison dépend de la BASICITÉ du ligand situé sous la structure corrine. PLUS FAIBLE est la basicité d'un ligand à cette position, PLUS FAIBLE sera la liaison. »\n\nL'enzyme règle donc la solidité de la liaison Co–C en changeant ce qu'elle place de l'AUTRE côté du cobalt. C'est l'effet trans, celui-là même que ce corpus décrit en chimie de coordination — appliqué par une protéine.\n\nLE SCHÉMA EST RÉDUIT À L'ESSENTIEL : le cycle corrine, le nucléotide et le diméthylbenzimidazole ne participent pas à la rupture homolytique.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "vitamine_b12_cobalt-etape2.svg",
+      "titre": "Un réarrangement que personne ne sait faire autrement",
+      "legende": "Les enzymes à B₁₂ catalysent une famille de réarrangements où un groupe et un hydrogène ÉCHANGENT leurs places sur deux carbones voisins.\n\nLe plus connu : le méthylmalonyl-CoA devient le succinyl-CoA. Un carboxyle change de carbone.\n\nCOMMENT CELA PEUT-IL SE PRODUIRE. La liaison Co–C se rompt HOMOLYTIQUEMENT — chacun garde un électron. Le radical formé arrache un hydrogène au substrat, le radical du substrat se réarrange, puis reprend un hydrogène. Le cobalt reprend son alkyle.\n\nDUGAS POSE LA QUESTION SANS DÉTOUR (p. 469) : « Et maintenant le point CRUCIAL. Comment le réarrangement suivant se produit-il ? » Il examine ensuite trois formes électroniques extrêmes possibles de l'intermédiaire — carbocation primaire, carbocation délocalisé, complexe π — et se tourne vers les modèles pour trancher : « des études sur modèles ont indiqué que la solvolyse d'un 2-acétoxyéthyl(pyridine) cobaloxime marqué au ¹³C dans le méthanol donne des quantités ÉGALES des deux » produits attendus.\n\nÉGALES : donc l'intermédiaire est symétrique, et l'hypothèse du cation primaire tombe.\n\nCE QUI REND CETTE CHIMIE UNIQUE. Aucune autre coenzyme ne fait de chimie RADICALAIRE contrôlée sur un carbone saturé. Les flavines travaillent par un électron, mais sur des systèmes conjugués ; le B₁₂ le fait sur une chaîne banale.\n\nET IL FAUT LE COBALT POUR CELA. Un métal capable de passer facilement de +1 à +2 à +3, avec une liaison au carbone assez faible pour se rompre à la demande — le fer ne le ferait pas, le zinc encore moins.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "carboxypeptidase_zinc": {
+    "1": {
+      "fichier": "carboxypeptidase_zinc-etape1.svg",
+      "titre": "Le zinc, et pourquoi c'est LUI",
+      "legende": "La carboxypeptidase A coupe le dernier acide aminé d'une chaîne peptidique, du côté carboxyle. Son site actif contient un ion ZINC.\n\nPOURQUOI LE ZINC, ET PRESQUE JAMAIS UN AUTRE MÉTAL. Trois raisons, et elles se tiennent :\n\n• Il est un ACIDE DE LEWIS fort — il polarise le carbonyle qu'il faut attaquer, et il abaisse le pKa de la molécule d'eau qu'il coordonne, la transformant en hydroxyde à pH neutre.\n• Il n'a PAS de degré d'oxydation accessible autre que +2 — sa couche d est pleine (d¹⁰). Il ne peut donc PAS faire de chimie rédox parasite. Un fer ou un cuivre, à sa place, engendrerait des radicaux.\n• Il n'a AUCUNE préférence géométrique marquée, toujours pour la même raison — une couche d pleine n'a pas d'énergie de stabilisation du champ cristallin. Il accepte quatre, cinq ou six ligands selon ce que l'enzyme lui impose.\n\nUN MÉTAL QUI POLARISE, QUI NE S'OXYDE PAS, ET QUI NE CHOISIT PAS SA FORME. C'est exactement le cahier des charges d'un acide de Lewis biologique.\n\nLE HOUSECROFT LE PLACE PARMI LES MÉTALLOENZYMES À ZINC (p. 854-859), aux côtés de l'anhydrase carbonique — même métal, même rôle d'acide de Lewis, deux réactions sans rapport.\n\nCES TROIS RAISONS SONT DÉVELOPPÉES DANS LA FICHE « ANHYDRASE CARBONIQUE » de ce corpus : c'est la même section du Housecroft, et le même métal rendant le même service à deux réactions sans rapport.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "carboxypeptidase_zinc-etape2.svg",
+      "titre": "Ce qu'un analogue d'état de transition révèle du mécanisme",
+      "legende": "Voici le benzylsuccinate, et il vaut d'être regardé de près : ce n'est pas un substrat, c'est un INHIBITEUR — et sa force dit quel est le mécanisme.\n\nDUGAS DONNE LES CHIFFRES (p. 81) : « le benzylsuccinate INHIBE l'enzyme carboxypeptidase A en STABILISANT LES CHARGES engendrées. » Là où le substrat a une constante de liaison Kₘ de 2×10⁻¹ M, l'inhibiteur a un K𝑖 de 5,5×10⁻³ M.\n\nCE QUE CELA PROUVE. Le benzylsuccinate ressemble non pas au substrat, mais aux DEUX FRAGMENTS que la coupure va produire — tenus ensemble. Il mime donc l'état où la liaison est en train de se rompre.\n\nS'il se lie mieux que le substrat, c'est que l'enzyme est faite pour lier CET ÉTAT-LÀ, et non le substrat.\n\nET C'EST LA DÉFINITION MÊME DE LA CATALYSE. Une enzyme qui lierait fortement son substrat le stabiliserait — donc le ralentirait. Ce qu'elle doit lier fortement, c'est l'ÉTAT DE TRANSITION.\n\nUN MÉCANISME NE SE DÉMONTRE PAS EN REGARDANT LE PRODUIT. Il se démontre en fabriquant une molécule qui ressemble à ce qu'on croit être l'état de transition, et en mesurant si elle se lie mieux.\n\nAUCUNE FLÈCHE ICI, ET LA RAISON N'EST PAS QU'ON N'A PAS TROUVÉ LE MÉCANISME. Le Housecroft le DONNE, étape par étape (fig. 28.23, p. 856-857) — mais en figures de site actif, avec ses résidus nommés, et non en flèches courbes. Il ajoute même en légende (p. 856) que « les schémas n'impliquent PAS que le mécanisme soit concerté ou non ». On ne convertit pas en flèches ce qu'un auteur a délibérément écrit autrement, et refusé d'ordonner dans le temps. Le Dugas le décrit par ses inhibiteurs et ses résidus (p. 81, 204, 225-226, 392), le Housecroft par la coordination du zinc (p. 854-859). On dit ce qu'on a lu.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "analogues_etat_transition": {
+    "1": {
+      "fichier": "analogues_etat_transition-etape1.svg",
+      "titre": "La coformycine, et un facteur dix millions",
+      "legende": "L'adénosine désaminase transforme l'adénosine en inosine. Comparons trois molécules par leur constante de liaison à l'enzyme — Dugas les met côte à côte (p. 80) :\n\n• l'ADÉNOSINE, le substrat : Kₘ = 3,1×10⁻⁵ M ;\n• l'INOSINE, le produit : K𝑖 = 1,6×10⁻⁴ M ;\n• la COFORMYCINE, un antibiotique : K𝑖 = 2,5×10⁻¹² M.\n\nDUGAS COMMENTE (p. 80) : « le produit de la réaction, l'inosine, est un bon inhibiteur de l'enzyme, mais la coformycine, qui ressemble PLUS ÉTROITEMENT à l'intermédiaire d'état de transition, est de PLUSIEURS ORDRES DE GRANDEUR supérieure comme inhibiteur. »\n\nDix millions de fois mieux que le substrat lui-même. Pourquoi ?\n\nPARCE QU'ELLE RESSEMBLE À CE QUE L'ENZYME EST FAITE POUR TENIR. La désamination passe par un intermédiaire tétraédrique hydraté ; la coformycine porte, à demeure, un motif de cette forme.\n\nLE PRINCIPE EST GÉNÉRAL, ET IL RENVERSE L'INTUITION. Une enzyme n'est pas complémentaire de son substrat : elle est complémentaire de l'ÉTAT DE TRANSITION. Si elle liait fortement le substrat, elle le stabiliserait — donc l'empêcherait de réagir.\n\nUN SECOND EXEMPLE, TOUT AUSSI NET (Dugas p. 80) : « le 2-phosphoglycollate bloque la triosephosphate isomérase », avec un K𝑖 de 6×10⁻¹⁰ M. C'est un analogue de l'ÉNEDIOLATE — l'intermédiaire même de l'isomérisation que ce corpus décrit par ailleurs.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "analogues_etat_transition-etape2.svg",
+      "titre": "Ce que le principe est devenu : une méthode de conception de médicaments",
+      "legende": "DUGAS TIRE LA CONSÉQUENCE (p. 81) : « en fait, l'inhibition des réactions enzymatiques par des ANALOGUES D'ÉTAT DE TRANSITION a été une approche extrêmement importante pour la CONCEPTION DE MÉDICAMENTS. »\n\nLA MÉTHODE TIENT EN TROIS TEMPS :\n\n1. On écrit le mécanisme de l'enzyme qu'on veut bloquer, et l'on repère son état de transition.\n2. On dessine une molécule STABLE qui en a la forme et la distribution de charges.\n3. On la synthétise, et l'on mesure.\n\nDES CLASSES ENTIÈRES DE MÉDICAMENTS EN SONT SORTIES : les inhibiteurs de protéase du VIH miment l'intermédiaire tétraédrique de la coupure peptidique ; les statines miment le mévaldyl-CoA de la HMG-CoA réductase — l'enzyme qui commande la voie du mévalonate décrite ailleurs dans ce corpus.\n\nCE QU'IL FAUT MESURER POUR JUGER (Dugas p. 80) : « un bon substrat doit avoir un rapport k꜀/Kₘ aussi grand que possible ; c'est-à-dire que le Kₘ doit être PETIT. D'un autre côté, un bon inhibiteur aura un petit K𝑖. »\n\nUN ANALOGUE D'ÉTAT DE TRANSITION EST DONC UNE HYPOTHÈSE MÉCANISTIQUE MISE À L'ÉPREUVE. S'il se lie très fort, le mécanisme proposé est probablement juste. S'il ne se lie pas, on s'est trompé d'état de transition.\n\nLe benzylsuccinate dessiné ici en est l'exemple le plus simple : il mime les deux fragments de la coupure par la carboxypeptidase, tenus ensemble (Dugas p. 81).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "anticorps_catalytiques": {
+    "1": {
+      "fichier": "anticorps_catalytiques-etape1.svg",
+      "titre": "On fabrique l'anticorps CONTRE l'état de transition",
+      "legende": "Le raisonnement est le renversement exact du précédent, et il est audacieux.\n\nSI une enzyme catalyse parce qu'elle est complémentaire de l'état de transition, ALORS toute molécule complémentaire d'un état de transition devrait catalyser.\n\nOr le système immunitaire sait fabriquer, à la demande, une protéine complémentaire de N'IMPORTE QUELLE molécule qu'on lui présente.\n\nIL SUFFIRAIT DONC DE LUI PRÉSENTER UN ANALOGUE D'ÉTAT DE TRANSITION.\n\nC'EST CE QUI A ÉTÉ FAIT, ET DUGAS RACONTE L'EXPÉRIENCE (p. 88) : la réaction visée est « la formation d'une LACTONE à partir d'un hydroxy-ester ». L'antigène employé est un « ESTER PHOSPHONATE CYCLIQUE, analogue de l'état de transition », présenté « via un conjugué immunogène sur une protéine porteuse pour susciter l'anticorps ».\n\nPOURQUOI UN PHOSPHONATE. Parce qu'un phosphore pentacoordonné a la GÉOMÉTRIE de l'intermédiaire tétraédrique d'une réaction acyle — mais il est stable. C'est un état de transition figé, qu'on peut mettre en flacon.\n\nET LE RÉSULTAT (Dugas p. 88) : l'anticorps obtenu catalyse la lactonisation, et il donne la lactone « OPTIQUEMENT PURE » à partir d'un mélange racémique.\n\nUne protéine qui n'a jamais rencontré cette réaction dans l'histoire de l'évolution la catalyse — et de façon énantiosélective.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "anticorps_catalytiques-etape2.svg",
+      "titre": "Ce que cela prouve, et ce que cela ne résout pas",
+      "legende": "LA DÉMONSTRATION EST TOTALE : la catalyse enzymatique ne demande ni métal, ni cofacteur, ni milliard d'années d'évolution. Elle demande une CAVITÉ complémentaire de l'état de transition.\n\nUn second exemple, plus subtil encore (Dugas p. 89) : « l'anticorps a été suscité contre le composé pyridinium suivant, qui MIME L'ÉTAT DE TRANSITION CHARGÉ de la réaction » — l'hydrolyse d'un éther d'énol. Ici l'analogue ne mime pas une forme, il mime une CHARGE.\n\nET DUGAS EST LUCIDE SUR LA PORTÉE (p. 89) : « bien que les anticorps catalytiques ne trouvent peut-être JAMAIS d'application industrielle à grande échelle, on peut s'attendre à ce qu'ils donnent aux chimistes accès à de nombreuses transformations chimiques autrement inatteignables. »\n\nPOURQUOI ILS NE REMPLACENT PAS LES ENZYMES. Leur accélération est de trois à six ordres de grandeur ; une enzyme atteint dix à dix-sept. La différence tient à ce que l'anticorps n'a QUE la complémentarité de forme — il lui manque les résidus catalytiques placés au bon endroit, l'acide et la base, le métal.\n\nLIER L'ÉTAT DE TRANSITION EST NÉCESSAIRE ; CE N'EST PAS SUFFISANT.\n\nUNE APPLICATION QUI DÉPASSE LA CHIMIE (Dugas p. 89) : l'équipe de Schultz a conçu un anticorps capable d'activer un PROMÉDICAMENT — un ester d'acide aminé du 5-fluoro-uracile, « moins toxique » que le médicament lui-même, que l'anticorps convertit en principe actif. On peut ainsi imaginer déclencher un médicament là où on l'a décidé.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "inhibiteurs_suicides": {
+    "1": {
+      "fichier": "inhibiteurs_suicides-etape1.svg",
+      "titre": "Le marqueur d'affinité : un substrat qui porte une arme",
+      "legende": "Voici le TPCK, et Dugas en décrit le principe (p. 542) : « le fragment tosyl-phénylalanine MIME un substrat comme l'ester méthylique de la N-tosylphénylalanine, et la fonction chlorocétone agit comme un [électrophile] ».\n\nDEUX PARTIES, DEUX RÔLES. L'une ressemble au substrat et conduit la molécule au bon endroit ; l'autre est un électrophile qui, une fois arrivé, forme une liaison covalente avec un résidu du site actif.\n\nDUGAS ÉNONCE LA MÉTHODE (p. 542) : « le marqueur d'affinité a un substituant électrophile réactif qui peut engendrer une liaison covalente stable avec un groupe nucléophile du site actif. De telles expériences peuvent servir à IDENTIFIER un nucléophile important dans la catalyse. »\n\nCE N'EST DONC PAS SEULEMENT UN POISON : C'EST UN OUTIL D'ANALYSE. On marque, on digère la protéine, on cherche quel résidu porte le marqueur — et l'on sait qui attaquait.\n\nLe TPCK marque His-57 de l'α-chymotrypsine. Le DFP, lui, marque Ser-195 (Dugas p. 543) : « il est facile de montrer que l'inhibition est irréversible puisqu'une dialyse exhaustive produit encore une enzyme inactive. »\n\nDEUX RÉACTIFS, DEUX RÉSIDUS IDENTIFIÉS — et la triade catalytique commence à se dessiner.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "inhibiteurs_suicides-etape2.svg",
+      "titre": "L'inhibiteur suicide : l'enzyme fabrique son propre poison",
+      "legende": "Un cran plus loin, et c'est une autre idée.\n\nUn marqueur d'affinité est réactif AVANT d'entrer : il peut donc abîmer autre chose en chemin. Un inhibiteur SUICIDE, lui, est parfaitement inoffensif tant que l'enzyme ne l'a pas touché.\n\nDUGAS L'EXPLIQUE (p. 545) : « il est important de réaliser que la toxine naturelle est construite de telle sorte qu'elle REQUIERT une activation chimique PAR L'ENZYME CIBLE. Après activation, une réaction chimique s'ensuit entre l'inhibiteur et l'enzyme, résultant en l'inhibition irréversible de cette dernière. Ainsi, l'enzyme, par son mode d'action spécifique, CATALYSE SA PROPRE INACTIVATION, ou  « suicide » . »\n\nET IL DONNE L'IMAGE (p. 545) : « autrement dit, le système se comporte comme un KAMIKAZE MOLÉCULAIRE. »\n\nLE MÉCANISME EN UNE PHRASE (Dugas p. 545) : « l'inhibiteur se lie de façon similaire mais suit une voie chimique DIFFÉRENTE. L'introduction d'un système CONJUGUÉ facilite grandement l'attaque par un nucléophile voisin de l'apoenzyme. Cela forme une nouvelle liaison covalente stable résultant en une inhibition irréversible. »\n\nL'enzyme commence sa réaction normale, et ce qu'elle fabrique en cours de route est un électrophile qui la tue.\n\nLE NOM TECHNIQUE VIENT DE LÀ (Dugas p. 545) : « comme ces inhibiteurs d'enzymes devaient leur activité aux propriétés catalytiques de l'enzyme, Rando les a nommés INHIBITEURS k꜀ₐₜ. »\n\nPOURQUOI C'EST LE MEILLEUR DES MÉDICAMENTS POSSIBLES. Une molécule qui n'est activée QUE par sa cible ne peut, en principe, abîmer rien d'autre. La sélectivité n'est pas due à la reconnaissance seule : elle est due au fait que la cible elle-même arme le projectile.\n\nDUGAS SITUE L'ENJEU (p. 545) : « beaucoup de médicaments bien connus ont des propriétés inhibitrices sur telle ou telle enzyme, mais SEULS QUELQUES-UNS ont été conçus dans ce but. »",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "controle_stereoelectronique": {
+    "1": {
+      "fichier": "controle_stereoelectronique-etape1.svg",
+      "titre": "L'intermédiaire tétraédrique a des doublets, et ils ont une direction",
+      "legende": "Quand un nucléophile s'additionne sur un ester, il se forme un intermédiaire tétraédrique. Cet intermédiaire porte, sur ses oxygènes, des DOUBLETS LIBRES.\n\nET CES DOUBLETS NE POINTENT PAS N'IMPORTE OÙ. Ils ont une direction dans l'espace, fixée par la conformation.\n\nLA THÉORIE DU CONTRÔLE STÉRÉOÉLECTRONIQUE, due à Deslongchamps, tient en une règle : une liaison C–O ne peut se ROMPRE que si DEUX doublets — un sur chacun des autres oxygènes — sont ANTIPÉRIPLANAIRES à cette liaison.\n\nPOURQUOI. Parce que la rupture demande que les doublets se replient dans l'orbitale antiliante σ* de la liaison qui part. Un recouvrement n'est bon que si l'alignement l'est.\n\nCE QUE CELA PRÉDIT, ET C'EST VÉRIFIABLE. Un même intermédiaire tétraédrique, selon sa CONFORMATION, expulsera l'un OU l'autre de ses groupes. Un ester cyclique contraint dans une seule conformation ne peut donc s'hydrolyser que d'une seule manière.\n\nLE SCHÉMA EST UN MODÈLE : l'intermédiaire tétraédrique d'un orthoester, avec ses trois oxygènes.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "controle_stereoelectronique-etape2.svg",
+      "titre": "Ce que la théorie a permis de prédire",
+      "legende": "UNE THÉORIE NE VAUT QUE PAR CE QU'ELLE PRÉDIT, et celle-ci a été mise à l'épreuve sur des lactones contraintes.\n\nLE RAISONNEMENT : dans un ester ordinaire, la rotation libre permet toujours de trouver la bonne conformation, et la règle ne se voit pas. Dans un CYCLE, la conformation est imposée. Si la théorie est juste, certains esters cycliques doivent donner un produit d'hydrolyse ANORMAL — celui que la géométrie autorise, et non celui que la thermodynamique préférerait.\n\nC'est ce qu'on observe.\n\nOÙ CE CORPUS L'A DÉJÀ RENCONTRÉE SANS LA NOMMER :\n\n• L'EFFET ANOMÈRE des sucres est le même phénomène, vu de l'autre côté : un doublet de l'oxygène du cycle antipériplanaire à la liaison C–O exocyclique la stabilise. C'est pourquoi un glycoside préfère l'axial.\n• Le PHOSPHORE PENTACOORDONNÉ obéit à une règle de même famille : entrée et sortie APICALES, jamais équatoriales. La géométrie commande, pas la stabilité du groupe partant.\n\nDUGAS EN FAIT UN FIL CONDUCTEUR DE SON OUVRAGE : la stéréoélectronique y revient à propos de l'hydrolyse des amides (p. 180, 207), des phosphates (p. 141) et des acétals. Il en existe des dizaines d'occurrences réparties dans tout le livre.\n\nAUCUNE FLÈCHE ICI, ET C'EST DÉLIBÉRÉ. Ce qui se joue n'est pas un déplacement d'électrons mais une CONDITION GÉOMÉTRIQUE sur ce déplacement. Une flèche courbe dit où vont les électrons ; elle ne dit pas sous quel angle ils doivent partir. C'est la limite de la notation, et il faut la connaître.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "cyclisation_polyenique_biomimetique": {
+    "1": {
+      "fichier": "cyclisation_polyenique_biomimetique-etape1.svg",
+      "titre": "La question que pose van Tamelen",
+      "legende": "L'oxydosqualène-lanostérol cyclase referme quatre cycles et sept centres asymétriques en un seul geste. La fiche « Cyclisation cationique du squalène » le raconte.\n\nDUGAS POSE ALORS LA QUESTION QUI OUVRE SA SECTION 5.8.2 (p. 378) : « COMBIEN de l'opération biosynthétique peut-on espérer simuler au laboratoire organique ? »\n\nET IL DONNE D'ABORD LA MAUVAISE NOUVELLE (p. 378) : « les premières études dirigées vers la cyclisation polyénique non enzymatique de type biogénétique n'étaient PAS PROMETTEUSES. »\n\nPOURQUOI CELA ÉCHOUE SANS ENZYME. La cascade demande que la chaîne soit repliée d'une manière précise AVANT que le cation n'apparaisse. En solution, une chaîne à trente carbones adopte des milliers de conformations. Le cation naît, et il attaque ce qui se trouve là — c'est-à-dire n'importe quoi.\n\nCE QUI MANQUE N'EST PAS LA CHIMIE : C'EST LA FORME.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "cyclisation_polyenique_biomimetique-etape2.svg",
+      "titre": "Van Tamelen préforme un cycle, et le rendement remonte",
+      "legende": "LA PREMIÈRE SOLUTION EST DE CONTRAINDRE LA CHAÎNE À L'AVANCE, et Dugas rapporte le résultat (p. 378) : « van Tamelen a trouvé que SI LE CYCLE D EST PRÉFORMÉ, le système isoeuphénol peut être obtenu avec un bon rendement en traitant le précurseur époxyde par un ACIDE DE LEWIS » — 35 % de rendement.\n\nET LE CHIFFRE QUI COMPTE (Dugas p. 378) : « dans cette cyclisation, CINQ carbones asymétriques sont formés EN UNE SEULE FOIS, sur la base d'un mécanisme de cyclisation en chaîne complète. »\n\nPOURQUOI PRÉFORMER UN CYCLE AIDE, ET L'EXPLICATION DE VAN TAMELEN EST FINE (Dugas p. 378) : « le cycle D préformé agit comme un ISOLANT pour empêcher l'implication de la liaison π de la chaîne latérale avec tout ion carbonium se développant pendant la cyclisation. Il empêche aussi le cycle C de devenir à CINQ chaînons, ce qui était l'une des difficultés précédentes. »\n\nDEUX RÉACTIONS PARASITES BLOQUÉES PAR UNE SEULE CONTRAINTE. Ce que l'enzyme obtient par la forme de sa poche, le chimiste l'obtient en construisant lui-même une partie de la molécule à l'avance.\n\nL'ÉPOXYDE JOUE LE MÊME RÔLE QUE DANS LA NATURE : ouvert par un acide de Lewis au lieu d'un proton, il engendre le cation qui amorce la cascade.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "cyclisation_polyenique_biomimetique-etape3.svg",
+      "titre": "Johnson : la complexité par paliers",
+      "legende": "L'AUTRE APPROCHE EST SYSTÉMATIQUE, et Dugas la décrit (p. 378) : « l'approche biomimétique de Johnson, comme celle de van Tamelen, envisage aussi la production d'un certain nombre de cycles STÉRÉOSPÉCIFIQUEMENT EN UNE SEULE ÉTAPE par la fermeture de cycle d'une chaîne acyclique portant des liaisons oléfiniques trans OPPOSÉES. »\n\nET LA MÉTHODE EST DÉCRITE COMME UNE PROGRESSION (Dugas p. 378) : « l'approche était dès le début TRÈS SYSTÉMATIQUE ; des précurseurs à liaisons oléfiniques trans de complexité CROISSANTE ont été employés pour étudier l'annélation de produits à UN, DEUX et TROIS cycles avec la configuration all-trans naturelle. »\n\nUn cycle, puis deux, puis trois. On ne s'attaque pas d'emblée au stéroïde : on vérifie d'abord que le principe tient sur un cas simple.\n\nLE DÉTAIL QUI FAIT TOUT : « des liaisons oléfiniques TRANS ». La géométrie de chaque double liaison décide de la stéréochimie de chaque jonction de cycles. Un alcène cis au mauvais endroit, et l'on obtient un squelette inutilisable.\n\nCE QUE CETTE FICHE ENSEIGNE, ET QUI DÉPASSE LA CHIMIE DES STÉROÏDES. Une réaction en cascade ne se pilote pas par les réactifs — il n'y en a qu'un — ni par les conditions. Elle se pilote par la GÉOMÉTRIE du substrat.\n\nC'est exactement ce que fait l'enzyme, et c'est pourquoi on parle de chimie BIOMIMÉTIQUE : on n'imite pas la molécule, on imite la contrainte.\n\nLE SCHÉMA EST SIMPLIFIÉ, ET IL FAUT LE DIRE : on dessine la chaîne trans avec un simple alcool au bout. L'AMORCEUR RÉEL varie d'une étude à l'autre — acétal, époxyde, sulfonate — et Dugas n'en nomme aucun dans le passage cité. Ce qui décide n'est pas lui : c'est la géométrie des alcènes. Un tosylate dessiné à cette échelle superposait d'ailleurs ses trois oxygènes, et le contrôle de lisibilité l'a refusé.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }
