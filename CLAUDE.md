@@ -102,7 +102,18 @@ une fiche bien sourcée d'une fiche écrite sans chercher.
 ### Ce que la recherche rend n'est pas encore une source
 
 La reprise famille par famille a fait tomber le mono-sourçage de 79 % à
-5 %. Elle a surtout appris que **`chercher-partout.py` rend des PAGES, pas
+5 %. Il est depuis remonté à **14 %** (31 fiches sur 224), et la cause vaut
+d'être connue avant de crier au relâchement : les blocs bio-inorganique et
+bioorganique s'appuient sur des ouvrages que les six manuels d'organique ne
+recoupent pas. Onze fiches tiennent sur le seul Housecroft, dix sur le seul
+McMurry, trois sur le seul Dugas. **Un mono-sourçage qui vient du corpus
+disponible n'est pas le même défaut qu'un mono-sourçage qui vient de la
+paresse** — le premier se DÉCLARE dans la fiche, en nommant les ouvrages
+muets ; le second ne se déclare pas, puisqu'on ne les a pas interrogés.
+`mesurer-sources.py --seules` ne distingue pas les deux : c'est à la
+relecture de la fiche de le faire.
+
+Elle a surtout appris que **`chercher-partout.py` rend des PAGES, pas
 des contenus** : entre le résultat et la citation, il faut ouvrir. Quatre
 pièges se sont présentés, tous silencieux.
 
@@ -208,10 +219,18 @@ python3 outils/mesurer-sources.py --seules   # les fiches mono-source
 Il vérifie au passage que chaque page citée existe dans l'index : une
 citation vers une page absente est une citation qu'on n'a pas ouverte.
 
-L'état au moment où cet outil a été écrit, et il n'est pas flatteur :
-**79 % des fiches ne citent qu'un seul ouvrage**, et le Clayden apparaît
-sur 96 % d'entre elles. Le Housecroft, sur une seule. C'est le chantier
-de fond du corpus.
+L'état au moment où cet outil a été écrit, et il n'était pas flatteur :
+**79 % des fiches ne citaient qu'un seul ouvrage**, et le Clayden
+apparaissait sur 96 % d'entre elles. Le Housecroft, sur une seule.
+
+Aujourd'hui, sur 224 fiches et 965 citations : Clayden 75 %, McMurry 56 %,
+Grossman 28 %, Dugas 19 %, LibreTexts 16 %, **Housecroft 15 %**,
+Multicomposants 6 %, Roberts & Caserio 2 %, Carey & Sundberg 0 %. Le
+mono-sourçage est à 14 %.
+
+Ces chiffres se relisent à chaque bloc terminé, et ils se REMPLACENT ici :
+un compte périmé dans ce fichier est pire qu'aucun compte, puisqu'on le
+croit.
 
 ### La pagination, qui a menti une fois
 
