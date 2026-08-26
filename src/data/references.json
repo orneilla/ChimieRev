@@ -8196,6 +8196,79 @@
       ],
       "articles_historiques": [],
       "revues_modernes": []
+    },
+    "analyse_retrosynthetique": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "28 — Retrosynthetic analysis",
+          "pages": "694-696",
+          "note": "Le vocabulaire, et il n'est pas décoratif. La disconnexion (p. 695) : « découper mentalement une molécule en ses parties composantes de cette façon s'appelle une DISCONNEXION, et il est utile d'indiquer le site de la disconnexion par un trait ondulé ». La flèche rétrosynthétique, à double trait, ne représente aucune réaction — elle représente un raisonnement, et elle va de la cible vers les précurseurs. Le synthon (p. 696) : « nous appelons de tels réactifs idéalisés des SYNTHONS. Les synthons sont des fragments de molécules avec une polarité associée [...] qui tiennent lieu des réactifs que nous allons employer dans la synthèse directe. Ce ne sont PAS EUX-MÊMES DES RÉACTIFS, bien qu'ils puissent parfois se révéler être des intermédiaires du chemin réactionnel. » Sa raison d'être : « en disconnectant les liaisons vers des synthons plutôt que vers des réactifs réels, nous pouvons indiquer la POLARITÉ de la réaction de formation de liaison que nous allons employer, sans avoir à préciser les détails des réactifs » — et ce qu'il épargne : « dans une analyse rétrosynthétique, nous ne voulons pas vraiment être encombrés par ce genre de décision, qui est mieux prise plus tard ». Enfin le critère de choix entre deux disconnexions équivalentes, qui surprend (p. 696) : « quel réactif est le meilleur ne peut souvent être déterminé que par l'EXPÉRIMENTATION — dans le commerce, le paracétamol est fabriqué à partir du para-aminophénol et de l'anhydride acétique, en grande partie parce que le SOUS-PRODUIT, l'acide acétique, est plus facile à manipuler que HCl. » Ni le rendement ni la sélectivité : le sous-produit."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "16 — Chemistry of Benzene: Electrophilic Aromatic Substitution, § 16-10",
+          "pages": "515-516",
+          "note": "La question, donnée mot pour mot (p. 515) : « il est généralement préférable de traiter un problème À L'ENVERS, ou rétrosynthétiquement. Regardez la molécule cible et demandez-vous : QUEL EST UN PRÉCURSEUR IMMÉDIAT DE CE COMPOSÉ ? Choisissez une réponse plausible et continuez à travailler à l'envers, UNE ÉTAPE À LA FOIS, jusqu'à ce que vous arriviez à un produit de départ simple. » Ce que le Clayden ne dit pas de la même façon : sur un cycle aromatique polysubstitué, la rétrosynthèse n'énumère pas, elle ÉLIMINE. Pour le 4-bromo-2-nitrotoluène à partir du benzène, McMurry écarte deux des trois dernières étapes possibles par le seul raisonnement — la bromation en dernier « donnerait un mélange d'isomères », et la Friedel-Crafts « ne peut pas être employée en dernière étape parce que cette réaction ne marche pas sur un benzène substitué par un nitro, fortement désactivé ». Et la conclusion, qui vaut règle (p. 516) : « l'analyse rétrosynthétique a fourni DEUX routes valables du benzène au 4-bromo-2-nitrotoluène ». Il n'y a pas une bonne synthèse ; il y en a plusieurs, et l'on choisit ensuite sur le rendement, le coût et la sécurité."
+        },
+        {
+          "ouvrage": "oc2",
+          "chapitre": "12 — Transition Metal Catalyzed Carbon–Carbon Bond Forming Reactions, § 12.3.4",
+          "pages": "§ 12.3",
+          "note": "La même méthode appliquée à un macrocycle de seize chaînons, avec une contrainte imposée par l'énoncé plutôt que par la chimie — « douze carbones ou moins » —, ce qui est exactement la situation d'un chimiste de procédé. « En pensant rétrosynthétiquement, la première disconnexion consiste à ouvrir le cycle. N'oubliez pas d'ajouter les carbones supplémentaires nécessaires aux réactions de métathèse. Ensuite, vous devriez couper la liaison ester pour obtenir un chlorure d'acide et un alcool. » Et la comparaison des deux routes qu'elle rend : la première, la plus évidente, ferme le cycle par métathèse d'alcènes et « donne un mélange 1:1 des isomères cis et trans » ; la seconde ajoute une étape — métathèse d'alcynes puis hydrogénation sur catalyseur de Lindlar — et rend « exclusivement l'alcène cis désiré ». Une étape de plus, préférée à une séparation d'isomères difficile."
+        }
+      ],
+      "articles_historiques": [
+        {
+          "citation": "Corey, E. J. « General methods for the construction of complex molecules ». Pure and Applied Chemistry, 1967, 14 (1), 19–38.",
+          "doi": null,
+          "verifie": false,
+          "note": "Article où Corey formalise l'analyse rétrosynthétique et le vocabulaire des synthons et des disconnexions ; Nobel de chimie 1990. DOI non vérifié à ce jour : il s'écrit donc null, jamais approché."
+        }
+      ],
+      "revues_modernes": []
+    },
+    "selectivite_chimio_regio_stereo": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "528-530",
+          "note": "La définition, en une phrase qui distingue les trois notions par la question qu'elles répondent (p. 528) : « la chimiosélectivité est QUEL groupe réagit ; la régiosélectivité est OÙ il réagit. La stéréosélectivité est COMMENT ». Et le rappel qu'on l'a déjà pratiquée sans la nommer : « au chapitre 21 vous avez appris à prédire et expliquer que » telle position réagit plutôt que telle autre. Le problème posé en ouverture : « la plupart des molécules organiques contiennent PLUS D'UN groupe fonctionnel », de sorte que la question n'est jamais « cette réaction marche-t-elle ? » mais « où marche-t-elle ? ». L'exemple le plus court est le paracétamol (p. 529) : « le 4-aminophénol pourrait réagir avec l'anhydride acétique » sur son amine ou sur son phénol — l'amine gagne, et en chauffant avec un EXCÈS d'anhydride on obtient l'amide ET l'ester, ce qui montre que la sélectivité est une affaire de VITESSES relatives et non d'impossibilité. L'échelle de réactivité des dérivés d'acide (p. 530) y est rappelée, l'aldéhyde inséré comme « le plus réactif, pour des raisons stériques »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "groupes_protecteurs_alcools": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "549-552",
+          "note": "Les trois familles qui protègent un alcool, avec ce qui les sépare. Les éthers silylés (p. 550) et la raison chimique de leur succès : « le silicium a une forte affinité pour les éléments électronégatifs, en particulier O, F et Cl » — c'est cette affinité qui installe le groupe, et c'est la même qui le retire, l'ion fluorure de TBAF étant le seul réactif capable de rompre une liaison Si–O sans toucher au reste de la molécule. La gamme de stabilité s'échelonne avec l'encombrement : le TMS tombe devant HF dilué, le TBDMS résiste. Le tétrahydropyranyle (p. 551), qui est un acétal et se comporte comme tel : posé en milieu acide, retiré en milieu acide aqueux, indifférent aux bases et aux nucléophiles — et il crée un centre stéréogène de plus, ce qui complique les spectres. L'éther benzylique (p. 552), qui « résiste à presque tout » et cède à l'hydrogénolyse, méthode ORTHOGONALE des deux précédentes puisqu'elle n'est ni acide ni basique ; l'éther méthylique des phénols, qui ne se retire qu'au BBr₃ ou à HI. Et l'avertissement qui clôt le chapitre (p. 552) : « les groupes protecteurs peuvent être utiles, mais ils sont aussi DISPENDIEUX — en temps, parce qu'il y a deux étapes de plus à faire (poser le groupe et le retirer), et en matière, parce que ces étapes peuvent ne pas se faire à 100 % de rendement ». Suit la parade, prise sur un cas industriel : pour préparer le triol du salbutamol, un ester portant trois protons acides semblait imposer trois protections — « en fait, il fut possible de faire la réaction simplement en ajoutant un large excès de réactif de Grignard : assez pour arracher les protons acides ET pour s'additionner à l'ester »."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "groupes_protecteurs_carbonyles_amines": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "23 — Chemoselectivity and protecting groups",
+          "pages": "549, 553, 556, 559",
+          "note": "Le tableau des groupes protecteurs (p. 549) donne l'acétal — dioxolane — comme protégeant « cétones et aldéhydes » « des nucléophiles et des bases », posé par le diol en milieu acide et retiré par l'eau en milieu acide ; et il énonce ce qu'un groupe protecteur permet vraiment : « il devient possible de fabriquer des réactifs qui seraient autrement instables » — un organomagnésien portant une cétone protégée en est l'exemple. Le Boc (p. 559) protège les amines « des ÉLECTROPHILES », et se retire en milieu acide ; le Cbz par hydrogénolyse ; le Fmoc par une base douce. Le mécanisme de la déprotection acide est décrit sur l'ester de tert-butyle, qui est le même (p. 556) : « au lieu de subir une attaque nucléophile sur le groupe carbonyle », le clivage se fait du côté du carbone tertiaire et passe par un cation tert-butyle — d'où la nécessité d'un piège à cations dans la pratique. La justification d'ensemble (p. 553) : « la synthèse peptidique est devenue l'un des domaines les plus fiables et les plus prévisibles de la chimie organique, principalement en raison de l'efficacité des groupes protecteurs », au point que ces molécules sont « fabriquées routinièrement par des machines »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "17 — Elimination reactions",
+          "pages": "401",
+          "note": "La perte de CO₂ qui achève la déprotection d'un carbamate, renvoyée depuis le chapitre 23 : « la perte spontanée de CO₂ du produit éliminé donne une amine ». C'est la même étape terminale pour le Boc, le Cbz et le Fmoc — trois conditions de départ, une seule fin —, et c'est elle qui rend la déprotection irréversible : le gaz quitte le milieu."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
     }
   },
   "instructions_pour_completer": {

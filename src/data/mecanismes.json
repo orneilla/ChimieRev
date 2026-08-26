@@ -28467,5 +28467,105 @@
         "valide": false
       }
     ]
+  },
+  "analyse_retrosynthetique": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "On part de la fin",
+        "smiles": "CC(=O)Nc1ccc(O)cc1",
+        "legende": "Le paracétamol. On ne se demande pas « que puis-je fabriquer avec ce que j'ai ? » mais « d'où celui-ci peut-il venir ? ».\n\nMcMURRY DONNE LA QUESTION EXACTE À SE POSER, ET IL FAUT LA RETENIR MOT POUR MOT (p. 515) : « il est généralement préférable de traiter un problème À L'ENVERS, ou rétrosynthétiquement. Regardez la molécule cible et demandez-vous : QUEL EST UN PRÉCURSEUR IMMÉDIAT DE CE COMPOSÉ ? Choisissez une réponse plausible et continuez à travailler à l'envers, UNE ÉTAPE À LA FOIS, jusqu'à ce que vous arriviez à un produit de départ simple. »\n\nCE QU'ON REGARDE EN PREMIER : les FONCTIONS. Ici, un amide. Or on sait faire un amide : amine plus dérivé d'acide. La disconnexion s'impose d'elle-même.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "La disconnexion, et les synthons qu'elle propose",
+        "smiles": "Nc1ccc(O)cc1.CC(=O)OC(C)=O",
+        "legende": "On coupe mentalement la liaison C–N de l'amide. Clayden appelle ce geste une DISCONNEXION, qu'on note d'un trait ondulé, et la flèche qui va de la cible aux fragments une FLÈCHE RÉTROSYNTHÉTIQUE — elle ne représente aucune réaction, seulement un raisonnement.\n\nMAIS AVEC QUOI ACYLER ? Chlorure d'acétyle ou anhydride acétique ? Clayden refuse de trancher à ce stade (p. 696) : « dans une analyse rétrosynthétique, nous ne voulons pas vraiment être encombrés par ce genre de décision, qui est mieux prise PLUS TARD ».\n\nD'OÙ LES SYNTHONS : « des fragments de molécules avec une polarité associée (représentée par un « + » ou un « – ») qui TIENNENT LIEU des réactifs que nous allons employer dans la synthèse directe. Ce ne sont pas eux-mêmes des réactifs, bien qu'ils puissent parfois se révéler être des intermédiaires du chemin réactionnel. » Ici, le synthon est l'acétyle électrophile MeCO⁺ — le chlorure d'acyle et l'anhydride en sont deux incarnations.\n\nÀ QUOI SERT CETTE ABSTRACTION : « en disconnectant les liaisons vers des SYNTHONS plutôt que vers des réactifs réels, nous pouvons indiquer la POLARITÉ de la réaction de formation de liaison que nous allons employer, sans avoir à préciser les détails des réactifs ».",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Et le choix se fait pour une raison qui n'est pas chimique",
+        "smiles": "CC(=O)Nc1ccc(O)cc1.CC(=O)O",
+        "legende": "« Quel réactif est le meilleur ne peut souvent être déterminé que par l'EXPÉRIMENTATION — dans le commerce, le paracétamol est fabriqué à partir du para-aminophénol et de l'ANHYDRIDE ACÉTIQUE, en grande partie parce que le sous-produit, l'acide acétique, est plus facile à manipuler que HCl. » (Clayden p. 696)\n\nRelisez la raison : ce n'est ni le rendement, ni la sélectivité, ni la vitesse. C'est le SOUS-PRODUIT. Le chlorure d'acétyle donnerait du chlorure d'hydrogène, gaz corrosif ; l'anhydride donne de l'acide acétique, liquide, recyclable, inoffensif.\n\nLA RÉTROSYNTHÈSE PROPOSE LES CHEMINS ; l'atelier choisit lequel on prend. C'est pourquoi on la mène en synthons, sans se laisser arrêter par des questions qui ne se posent pas encore.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "groupes_protecteurs_alcools": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Le problème : deux fonctions, un réactif qui les veut toutes deux",
+        "smiles": "OCCCBr",
+        "legende": "On voudrait faire un organomagnésien de ce bromure. Impossible : l'alcool, plus acide, détruirait le magnésien à mesure qu'il se forme.\n\nET POURTANT ON NE VEUT PAS SE PASSER DE L'ALCOOL : il fait partie de la cible. Il faut donc le MASQUER, faire la réaction, puis le démasquer.\n\nC'EST TOUTE L'IDÉE DU GROUPE PROTECTEUR, et elle coûte deux étapes.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'éther silylé : TBDMS",
+        "smiles": "CC(C)(C)[Si](C)(C)OCCCBr",
+        "legende": "Le chlorure de tert-butyldiméthylsilyle, avec l'imidazole comme base, convertit l'alcool en ÉTHER SILYLÉ. L'oxygène n'est plus acide, plus nucléophile : il est devenu inerte.\n\nPOURQUOI LE SILICIUM SE PRÊTE À CE JEU (Clayden p. 550) : « le silicium a une forte affinité pour les éléments électronégatifs, en particulier O, F et Cl, si bien que les éthers trialkylsilylés sont attaqués par l'ion hydroxyde, l'eau ou l'ion FLUORURE, mais sont plus stables vis-à-vis des bases ou nucléophiles carbonés ou azotés ».\n\nUN GROUPE PROTECTEUR N'EST PAS INERTE : il est SÉLECTIVEMENT inerte. Il résiste à ce qu'on va faire, et cède à ce qu'on fera exprès.\n\nET ON RÈGLE SA SOLIDITÉ EN CHANGEANT LES ALKYLES : « TBDMS est un membre de toute une famille de groupes protecteurs trialkylsilylés, et leur stabilité relative vis-à-vis des nucléophiles de diverses natures est déterminée par les TROIS GROUPES ALKYLE portés par le silicium. Le plus labile, le triméthylsilyle (TMS), s'enlève simplement par traitement au méthanol, tandis que les plus stables exigent l'acide fluorhydrique. »",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "La réaction qu'on voulait faire",
+        "smiles": "CC(C)(C)[Si](C)(C)OCCC[Mg]Br",
+        "legende": "L'organomagnésien se forme sans difficulté : il n'y a plus d'hydrogène acide dans la molécule.\n\nC'est le seul moment où le groupe protecteur ne fait RIEN — et c'est précisément pour ce moment-là qu'on l'a mis.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "On le retire",
+        "smiles": "OCCC[Mg]Br",
+        "legende": "Les éthers silylés « sont habituellement enlevés par l'acide aqueux ou par des sels de FLUORURE, en particulier Bu₄N⁺F⁻ (fluorure de tétra-n-butylammonium, connu sous le nom de TBAF), qui est soluble dans les solvants organiques » (Clayden p. 550).\n\nLE FLUORURE EST L'OUTIL SPÉCIFIQUE, et il ne doit rien au hasard : la liaison silicium-fluor est l'une des plus fortes de la chimie. C'est elle qui paie la déprotection.\n\nDEUX ÉTAPES DE PLUS DANS LA SYNTHÈSE, et Clayden ne s'en cache pas (p. 552) : « les groupes protecteurs peuvent être utiles, mais ils sont aussi COÛTEUX — en temps [...] ». On ne protège que ce qu'on ne peut pas contourner.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
+  },
+  "groupes_protecteurs_carbonyles_amines": {
+    "etapes": [
+      {
+        "numero": 1,
+        "titre": "Une cétone qu'on veut faire ignorer",
+        "smiles": "CC(=O)CCO",
+        "legende": "On voudrait transformer l'alcool sans toucher à la cétone — ou faire un organomagnésien ailleurs dans la molécule. La cétone est le groupe le plus électrophile présent : elle réagira la première.\n\nIL FAUT DONC LA MASQUER, et le masque des composés carbonylés est l'ACÉTAL.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 2,
+        "titre": "L'acétal cyclique — le dioxolane",
+        "smiles": "CC1(CCO)OCCO1",
+        "legende": "L'éthane-1,2-diol en catalyse acide convertit la cétone en DIOXOLANE. Le carbone n'a plus de double liaison : il porte deux oxygènes simples et n'est plus électrophile du tout.\n\nLA TABLE DE CLAYDEN LE DONNE EN PREMIÈRE LIGNE (p. 549) : acétal (dioxolane), protège les cétones et les aldéhydes, DES nucléophiles et des bases ; on protège par le diol et un acide catalytique, on déprotège par H⁺ et H₂O.\n\nLA MÊME RÉACTION DANS LES DEUX SENS, ET C'EST CE QUI LA REND COMMODE : la formation de l'acétal est un équilibre qu'on déplace en retirant l'eau, et sa destruction le même équilibre déplacé en ajoutant de l'eau. Aucun réactif nouveau : seulement de l'acide, et le sens dans lequel on pousse.\n\nCE QUE CELA PERMET DE FABRIQUER (p. 549) : « en protégeant des groupes fonctionnels sensibles comme les cétones, il devient possible de fabriquer des réactifs qui seraient autrement INSTABLES » — un organomagnésien portant une cétone masquée, par exemple, qui ne pourrait pas exister autrement.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 3,
+        "titre": "Et pour les amines : le Boc",
+        "smiles": "CC(C)(C)OC(=O)NCC(=O)O",
+        "legende": "Une amine est nucléophile et basique : elle gêne partout. Le groupe Boc — tert-butoxycarbonyle — la convertit en CARBAMATE, où le doublet de l'azote est délocalisé sur le carbonyle voisin.\n\nLA TABLE DE CLAYDEN (p. 559) : Boc, protège les AMINES, des ÉLECTROPHILES ; on protège par le dicarbonate de di-tert-butyle et une base, on déprotège par H⁺ et H₂O.\n\nPOURQUOI IL PART SI FACILEMENT EN MILIEU ACIDE : parce qu'il libère un CARBOCATION TERT-BUTYLE, tertiaire donc stable. Clayden décrit le même mécanisme pour l'ester de tert-butyle (p. 556) : « au lieu de subir une attaque nucléophile sur le groupe carbonyle, l'ester de tert-butyle perd un carbocation stable ». Le carbamate qui reste perd ensuite du CO₂ et rend l'amine.\n\nDEUX FAÇONS D'ÊTRE ENLEVÉ, ET C'EST CE QUI FAIT LA SYNTHÈSE PEPTIDIQUE : le Boc part à l'acide, le Cbz par hydrogénolyse, le Fmoc par une base douce. Trois conditions ORTHOGONALES : chacune laisse les deux autres en place.",
+        "fleches": [],
+        "valide": false
+      },
+      {
+        "numero": 4,
+        "titre": "Ce que la protection a permis",
+        "smiles": "CC(=O)CCO",
+        "legende": "On déprotège, et la molécule est rendue telle qu'on l'avait laissée.\n\nLA SYNTHÈSE PEPTIDIQUE EST LE CAS OÙ CE JEU EST POUSSÉ LE PLUS LOIN (Clayden p. 553) : « la synthèse peptidique est devenue l'un des domaines les plus fiables et les plus prévisibles de la chimie organique pratique, PRINCIPALEMENT en raison de l'efficacité des groupes protecteurs qu'elle emploie. Pour cette raison, les peptides sont l'une des rares classes de molécules organiques complexes qui puissent être fabriquées ROUTINIÈREMENT PAR DES MACHINES. »\n\nRelisez cette phrase. Ce ne sont pas les couplages qui ont rendu la synthèse peptidique automatisable — ils étaient connus. Ce sont les groupes protecteurs.\n\nET LE PROBLÈME QU'ILS RÉSOLVENT EST ÉNORME (p. 553) : pour coupler deux acides aminés, « le problème principal est qu'il y a un AUTRE carboxyle libre, qui pourrait réagir avec le groupe COX pour former un anhydride, et deux amines libres différentes, dont l'une ou l'autre pourrait réagir » — donnant le mauvais dipeptide.",
+        "fleches": [],
+        "valide": false
+      }
+    ]
   }
 }

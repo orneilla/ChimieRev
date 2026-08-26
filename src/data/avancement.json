@@ -1,7 +1,7 @@
 {
-  "genere_le": "2026-08-25",
+  "genere_le": "2026-08-26",
   "total": 281,
-  "redigees": 269,
+  "redigees": 273,
   "verifiees": 181,
   "relues": 0,
   "familles": [
@@ -2343,38 +2343,38 @@
       "famille": "Stratégie",
       "bloc": "Méthodes et matériaux",
       "total": 6,
-      "absente": 6,
-      "redigee": 0,
+      "absente": 2,
+      "redigee": 4,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
         {
           "nom": "Groupes protecteurs : alcools",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "groupes_protecteurs_alcools",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Groupes protecteurs : carbonyles et amines",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "groupes_protecteurs_carbonyles_amines",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Analyse rétrosynthétique",
           "niveau": "M1",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "analyse_retrosynthetique",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Chimiosélectivité, régiosélectivité, stéréosélectivité",
           "niveau": "L3",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "selectivite_chimio_regio_stereo",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Synthèse asymétrique : auxiliaires chiraux",

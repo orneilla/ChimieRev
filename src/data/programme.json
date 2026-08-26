@@ -1652,22 +1652,22 @@
         {
           "nom": "Groupes protecteurs : alcools",
           "niveau": "M1",
-          "id": null
+          "id": "groupes_protecteurs_alcools"
         },
         {
           "nom": "Groupes protecteurs : carbonyles et amines",
           "niveau": "M1",
-          "id": null
+          "id": "groupes_protecteurs_carbonyles_amines"
         },
         {
           "nom": "Analyse rétrosynthétique",
           "niveau": "M1",
-          "id": null
+          "id": "analyse_retrosynthetique"
         },
         {
           "nom": "Chimiosélectivité, régiosélectivité, stéréosélectivité",
           "niveau": "L3",
-          "id": null
+          "id": "selectivite_chimio_regio_stereo"
         },
         {
           "nom": "Synthèse asymétrique : auxiliaires chiraux",

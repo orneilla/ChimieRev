@@ -1075,6 +1075,22 @@
     "substrat": "dedoublement_sel_diastereoisomere-substrat.svg",
     "produit": "dedoublement_sel_diastereoisomere-produit.svg"
   },
+  "analyse_retrosynthetique": {
+    "substrat": "analyse_retrosynthetique-substrat.svg",
+    "produit": "analyse_retrosynthetique-produit.svg"
+  },
+  "selectivite_chimio_regio_stereo": {
+    "substrat": "selectivite_chimio_regio_stereo-substrat.svg",
+    "produit": "selectivite_chimio_regio_stereo-produit.svg"
+  },
+  "groupes_protecteurs_alcools": {
+    "substrat": "groupes_protecteurs_alcools-substrat.svg",
+    "produit": "groupes_protecteurs_alcools-produit.svg"
+  },
+  "groupes_protecteurs_carbonyles_amines": {
+    "substrat": "groupes_protecteurs_carbonyles_amines-substrat.svg",
+    "produit": "groupes_protecteurs_carbonyles_amines-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },
