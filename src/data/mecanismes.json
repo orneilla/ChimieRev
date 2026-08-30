@@ -4200,16 +4200,16 @@
       {
         "numero": 1,
         "titre": "Le cyanure attaque, à 107 degrés",
-        "smiles": "CC=O.[C-]#N",
+        "smiles": "CC=O.N#[C-]",
         "legende": "La HOMO du cyanure est une orbitale sp portée par le CARBONE, pas par l'azote : c'est donc le carbone qui attaque. Et il n'attaque pas perpendiculairement, mais à 107° — la trajectoire de Bürgi-Dunitz, mesurée sur des structures cristallines.",
         "fleches": [
           {
             "de": {
-              "atome": 3
+              "atome": 4
             },
             "vers": {
               "liaison": [
-                3,
+                4,
                 1
               ]
             },
@@ -4575,16 +4575,16 @@
       {
         "numero": 1,
         "titre": "Voie 1,2 : le nucléophile attaque le carbonyle",
-        "smiles": "O=C1CCCC=C1.[C-]#N",
+        "smiles": "O=C1CCCC=C1.N#[C-]",
         "legende": "C'est le chemin le plus RAPIDE. Le carbone du carbonyle porte plus de charge positive que le carbone β : un nucléophile chargé y est attiré d'abord. On obtient une cyanhydrine.",
         "fleches": [
           {
             "de": {
-              "atome": 7
+              "atome": 8
             },
             "vers": {
               "liaison": [
-                7,
+                8,
                 1
               ]
             },
@@ -4611,16 +4611,16 @@
       {
         "numero": 2,
         "titre": "Voie 1,4 : le nucléophile attaque le carbone β",
-        "smiles": "O=C1CCCC=C1.[C-]#N",
+        "smiles": "O=C1CCCC=C1.N#[C-]",
         "legende": "C'est le chemin le plus STABLE. Trois flèches en cascade : l'attaque a lieu à l'autre bout du système conjugué, et la charge négative remonte jusqu'à l'oxygène. On obtient un énolate — donc, après protonation, une cétone intacte.",
         "fleches": [
           {
             "de": {
-              "atome": 7
+              "atome": 8
             },
             "vers": {
               "liaison": [
-                7,
+                8,
                 5
               ]
             },
@@ -18895,7 +18895,7 @@
       {
         "numero": 1,
         "titre": "Le palladium tient l'aryle ; le CO prend la place d'une phosphine",
-        "smiles": "I[Pd]c1ccccc1.[C-]#[O+]",
+        "smiles": "I[Pd]c1ccccc1.[O+]#[C-]",
         "legende": "Le palladium(II) de l'addition oxydante, et le monoxyde de carbone.\n\nClayden décrit l'entrée en scène (p. 1085) : « le monoxyde de carbone échange d'abord avec l'un des ligands phosphine ». Rien d'étonnant — le CO est un excellent ligand des métaux de transition, et c'est d'ailleurs pour cette raison qu'il est mortel : il se lie au fer de l'hémoglobine par le même mécanisme.\n\nLes ligands ne sont pas écrits, mais celui-là compte : sans place libre, pas d'insertion.",
         "fleches": [],
         "valide": false
@@ -18971,7 +18971,7 @@
       {
         "numero": 1,
         "titre": "Le métal porte un méthyle ; le CO se coordonne",
-        "smiles": "C[Pd]I.[C-]#[O+]",
+        "smiles": "C[Pd]I.[O+]#[C-]",
         "legende": "Le monoxyde de carbone vient occuper une place libre sur le palladium. Rien n'a encore bougé du côté du méthyle.\n\nLE LIGAND À INSÉRER DOIT ÊTRE INSATURÉ (Clayden p. 1076) : « le groupe à insérer doit être insaturé afin de pouvoir accommoder les liaisons supplémentaires ». CO, alcènes et alcynes donnent respectivement des complexes acyle, alkyle et alcényle.",
         "fleches": [],
         "valide": false
@@ -19151,7 +19151,7 @@
       {
         "numero": 1,
         "titre": "Le monoxyde de carbone se défait sur la surface",
-        "smiles": "[C-]#[O+]",
+        "smiles": "[O+]#[C-]",
         "legende": "Le gaz de synthèse arrive : CO et H₂, tirés du charbon ou du méthane.\n\nCE QU'ON PENSE AUJOURD'HUI (Housecroft p. 803) : « l'opinion actuelle favorise la dissociation de CO sur la surface du catalyseur pour donner C et O de surface et, en présence d'atomes H adsorbés, la formation d'unités CH et CH₂ de surface et la libération de H₂O. »\n\nMAIS IL FAUT LE DIRE AVEC LA MÊME PRUDENCE QUE L'AUTEUR (p. 803) : « le mécanisme exact par lequel la réaction FT se produit N'EST PAS CONNU, et de nombreuses études sur modèles ont été menées en employant des agrégats métalliques discrets. »\n\nUn procédé centenaire, des millions de tonnes de carburant, et un mécanisme qu'on ne fait que proposer. Housecroft donne d'ailleurs le critère qu'une proposition doit satisfaire : « tout mécanisme doit rendre compte de la formation de carbure de surface, de graphite et de CH₄, et de la distribution des produits organiques ».",
         "fleches": [],
         "valide": false
@@ -19803,16 +19803,16 @@
       {
         "numero": 3,
         "titre": "Le cyanure attaque l'iminium",
-        "smiles": "CC=[NH2+].[C-]#N",
+        "smiles": "CC=[NH2+].N#[C-]",
         "legende": "L'ion cyanure attaque le carbone de l'iminium. C'est l'étape qui crée le squelette de l'acide aminé : le carbone porte désormais l'azote ET le carbone qui deviendra le carboxyle.\n\nLE CENTRE CRÉÉ EST STÉRÉOGÈNE, et rien ne distingue ses deux faces. Clayden le dit du cas voisin de la cyanhydrine (p. 307) : « il n'y avait rien pour favoriser une face plutôt que l'autre, les énantiomères doivent donc se former en quantités égales. » LA SYNTHÈSE DE STRECKER DONNE UN RACÉMIQUE — c'est sa limite, et c'est pourquoi la fiche suivante porte sur la résolution.",
         "fleches": [
           {
             "de": {
-              "atome": 3
+              "atome": 4
             },
             "vers": {
               "liaison": [
-                3,
+                4,
                 1
               ]
             },
@@ -25962,7 +25962,7 @@
       {
         "numero": 1,
         "titre": "Quatre composants, apportés par deux flacons",
-        "smiles": "CC(C)=O.[C-]#N.O=C=O.N",
+        "smiles": "CC(C)=O.N#[C-].O=C=O.N",
         "legende": "Une cétone, du cyanure de potassium, et du carbonate d'ammonium. Ce dernier est un réactif double : il libère à la fois l'AMMONIAC et le DIOXYDE DE CARBONE. Quatre composants entrent donc dans le produit, apportés par trois flacons seulement.\n\nHerrera & Marqués-López la définissent ainsi (p. 331) : « une condensation à quatre composants entre un dérivé aldéhyde ou cétone réagissant avec le cyanure de potassium et le carbonate d'ammonium comme source d'ammoniac et de dioxyde de carbone, donnant des composés hydantoïnes ».",
         "fleches": [],
         "valide": false

@@ -435,6 +435,45 @@ et c'est un travail en soi. En attendant, **la seule garantie est de
 regarder les schémas où figure un atome chargé au bout d'un fragment
 linéaire.**
 
+#### Le défaut n'était pas hypothétique : il était en ligne, neuf fois
+
+L'audit complet de l'application l'a cherché sur les 275 fiches, et l'a
+trouvé. On ne le repère pas en lisant les données — il faut RENDRE le
+schéma et le regarder, de préférence agrandi.
+
+Le recensement se fait par expression régulière sur un motif précis : un
+fragment qui COMMENCE par un atome chargé suivi d'une triple liaison,
+`(?:^|\.)\[[A-Za-z][a-z]?[+-]\d?\]#`. Il rendait neuf occurrences, deux
+espèces, et les deux étaient fausses à l'écran :
+
+- **le cyanure** `[C-]#N` était dessiné **`C≡N`**, sans aucun moins. L'ion
+  le plus courant de la chimie du carbonyle se lisait comme un fragment
+  neutre. Cinq schémas : `cyanhydrine`, `addition_1_2_vs_1_4` (deux),
+  `synthese_strecker`, `bucherer_bergs` ;
+- **le monoxyde de carbone** `[C-]#[O+]` était dessiné **`C≡O⁺`**. Pire que
+  le premier cas : une seule des deux charges tombait, et CO se présentait
+  donc comme un CATION. Quatre occurrences : `carbonylation_catalysee`,
+  `insertion_migratoire`, `synthese_fischer_tropsch` (schéma et fiche).
+
+Écrits `N#[C-]` et `[O+]#[C-]`, les deux montrent leurs charges. La règle
+se formule donc simplement : **dans un fragment linéaire, l'atome chargé
+s'écrit EN DERNIER.**
+
+Deux précautions pour appliquer la correction :
+
+- **retourner un fragment renumérote ses atomes.** Sur `CC=O.[C-]#N` le
+  carbanion est le n° 3 ; sur `CC=O.N#[C-]` il devient le n° 4. Toute
+  flèche qui le vise doit être réindexée dans le même mouvement — sans
+  quoi le vérificateur refuse, ce qu'il a fait.
+- **le `produit_attendu` ne change pas.** Le vérificateur compare des
+  SMILES canoniques, qui ne dépendent pas de l'ordre d'écriture.
+
+Et la leçon de méthode, qui dépasse ce défaut-là : **aucun des sept
+maillons ne voyait celui-ci.** Le bilan était juste, les flèches menaient
+au bon produit, la charge était conservée, le schéma passait les contrôles
+de lisibilité, la page s'affichait. Seul l'œil, sur un rendu agrandi,
+attrapait la faute. C'est la raison d'être d'un audit périodique.
+
 Deux outils en découlent :
 
 ```bash

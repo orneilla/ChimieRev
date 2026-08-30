@@ -4362,7 +4362,7 @@
   "id": "synthese_fischer_tropsch",
   "nom": "Synthèse Fischer-Tropsch",
   "famille": "Catalyse",
-  "substrat_SMILES": "[C-]#[O+]",
+  "substrat_SMILES": "[O+]#[C-]",
   "produit_SMILES": "CCCCCCCC",
   "reactifs": [
    "H₂ (gaz de synthèse)",
