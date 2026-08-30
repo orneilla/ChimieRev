@@ -1713,3 +1713,85 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   padding: 0.45rem 0;
   border-top: 1px solid var(--bordure);
 }
+
+
+/* ---------- La répétition espacée, à l'écran ---------- */
+
+.quiz-memoire-titre {
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+}
+
+/* Les six boîtes de Leitner, en colonnes. Une barre par boîte : on voit
+   d'un coup si l'on stagne à gauche (tout est à revoir) ou si l'on
+   remplit la droite (tout est acquis). */
+.quiz-boites {
+  list-style: none;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.35rem;
+  align-items: end;
+}
+
+.quiz-boites li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.boite-barre {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: flex-end;
+  background: var(--creme-fonce);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  overflow: hidden;
+}
+
+.boite-remplissage { width: 100%; }
+
+.boite-compte { font-weight: 700; font-size: 0.9rem; }
+
+.boite-delai {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--encre-doux);
+  text-align: center;
+  /* « à revoir » est le plus long des six intitulés : sans coupure il
+     élargit sa colonne et déforme la grille sur un écran étroit. */
+  overflow-wrap: anywhere;
+}
+
+.boite-vide .boite-compte { color: var(--encre-doux); }
+
+.quiz-memoire-chiffres { margin: 0; }
+
+.quiz-echeance {
+  font-size: 0.75rem;
+  color: var(--encre-doux);
+  white-space: nowrap;
+}
+
+/* Effacer sa progression est un geste rare et irréversible : le bouton
+   existe, mais il ne se dispute pas la place avec « une autre série ». */
+.bouton-discret {
+  margin-top: 1rem;
+  padding: 0.5rem 0.8rem;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--encre-doux);
+  background: transparent;
+  border: 2px solid var(--bordure);
+  border-radius: var(--rayon);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.bouton-discret:hover { color: var(--encre); border-color: var(--encre); }

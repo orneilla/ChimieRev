@@ -1029,6 +1029,88 @@ donneraient deux questions différentes. Une question est donc une FONCTION
 de sa graine (mulberry32), et la série se recalcule sous `useMemo` — sans
 quoi chaque clic rebattrait les questions.
 
+## La répétition espacée
+
+`src/memorisation.js`. **L'algorithme en une phrase : un LEITNER À SIX
+BOÎTES — une bonne réponse fait monter la réaction d'une boîte, une
+mauvaise la renvoie à la première, et le délai avant de la revoir suit la
+boîte : 0 jour, 1, 3, 7, 21, 60.**
+
+Leitner plutôt que SM-2, et la raison n'est pas la simplicité : SM-2 règle
+un « facteur de facilité » par carte à partir d'une note de 0 à 5 que
+l'élève se donne lui-même. Ici il n'y a pas de note — une réponse à choix
+multiple est juste ou fausse. Le paramètre le plus fin de SM-2 n'aurait
+rien à manger, et l'on garderait sa complexité sans son bénéfice.
+
+Une faute renvoie à la PREMIÈRE boîte, non d'un cran. Une réaction ratée
+après trois succès n'est pas « presque sue » ; et redescendre d'un cran
+la laisserait remonter en deux réponses, dont une peut être un coup de
+chance sur quatre propositions.
+
+### L'ordre des priorités décide si le dispositif enseigne ou noie
+
+C'est le vrai réglage, et il ne se devine pas — il se MESURE. Le testeur
+simule 90 séances de 10 questions à 70 % de réussite ; trois
+ordonnancements ont été comparés à hasard et état identiques.
+
+| ordonnancement | vues | acquises | en retard |
+|---|---|---|---|
+| échec, **neuf**, entretien | 275 | **0** | **265** |
+| part fixe de neuf, 2/10 | 180 | 22 | 142 |
+| part fixe de neuf, 3/10 | 270 | 5 | 253 |
+| part fixe de neuf, 4/10 | 275 | 4 | 251 |
+| échec, **révision due**, neuf | 82 | **43** | **9** |
+
+Le premier faisait défiler tout le programme et n'en faisait acquérir
+RIEN, en laissant 265 échéances en retard — une échéance qui concerne
+presque tout le vivier ne trie plus rien. Plus on force la découverte,
+plus l'arriéré grossit : c'est une propriété de toute répétition espacée,
+et aucun réglage ne l'annule.
+
+La révision passe donc devant la nouveauté. On voit moins de choses, et
+l'on en sait beaucoup plus. Le neuf entre tout seul dès qu'une séance
+n'est pas remplie par les révisions dues.
+
+**Et le test mesurait la mauvaise chose.** Il exigeait « au moins 100
+réactions vues » — critère que le PIRE ordonnancement satisfaisait le
+mieux. Il vérifie désormais qu'on acquiert, et que l'arriéré ne
+s'installe pas.
+
+### Le stockage n'a pas le droit de casser la page
+
+`localStorage` n'est pas toujours là, et **le seul fait d'y accéder lève
+une exception** en navigation privée ou données de site bloquées : il ne
+rend pas `null`, il jette. Le routeur étant en `hash`, une exception non
+rattrapée tuerait l'application entière jusqu'au rechargement complet. On
+révise donc sans mémoire plutôt que pas du tout.
+
+Trois conséquences, toutes éprouvées par le testeur, qui remplace le
+stockage par un absent, un qui lève, et un contenu abîmé :
+
+- **rien de ce qu'on relit n'est cru.** C'est du texte que n'importe qui
+  peut modifier dans son navigateur, et une version antérieure a pu y
+  écrire une autre forme. Chaque fiche est contrôlée champ par champ ;
+  une seule mal formée suffirait sinon à faire échouer un tri et à rendre
+  une page blanche — le défaut déjà connu avec le champ `pieges` ;
+- **une lecture ne doit pas écrire.** La première version éprouvait le
+  stockage en posant puis effaçant une clé d'essai À CHAQUE APPEL, donc à
+  chaque lecture. Le test l'a prise en défaut en effaçant l'état qu'elle
+  venait de vouloir relire. Le coffre s'éprouve désormais une fois ;
+- **un identifiant orphelin n'empêche rien.** Une réaction renommée laisse
+  une entrée qui ne correspond à plus rien ; elle est ignorée, pas fatale.
+
+### L'instant de la séance est FIGÉ
+
+Si l'on rappelait `Date.now()` à chaque rendu, une réaction répondue en
+début de séance deviendrait « pas encore échue » au milieu de cette même
+séance, et l'ordre se réarrangerait sous les doigts. Une séance se juge à
+l'heure où elle commence. Pour la même raison, l'état de mémorisation
+n'est PAS dans les dépendances du `useMemo` qui engendre la série : il
+change à chaque réponse, ce qui remplacerait les questions en cours.
+
+Chaque réponse est écrite TOUT DE SUITE, non à la fin de la série : une
+séance interrompue ne doit pas être perdue.
+
 ### Ce que l'écran a corrigé, et que les tests ne voyaient pas
 
 - **Le champ `selectivite` affiché en entier enterrait le bouton
@@ -1043,6 +1125,14 @@ quoi chaque clic rebattrait les questions.
 - **Les schémas débordaient de l'écran.** Ils font 300 px intrinsèques, et
   `min-width: 0` sur l'enfant flex ne suffit pas : il faut `width: 100%`
   sur l'image. Mesuré à 390 px et à 320 px.
+- **Une page blanche, de nouveau, et pour une faute d'outillage.** Un
+  `{NB}` destiné à une insécable est parti LITTÉRALEMENT dans le JSX, où
+  React l'évalue comme une variable : `ReferenceError: NB is not defined`,
+  et toute l'application éteinte. `npm run build` a réussi — il ne
+  compile pas le JSX en l'exécutant. Seul `npm run pages`, qui OUVRE les
+  pages, le voit. La leçon est celle déjà écrite pour le champ `pieges`,
+  et elle vaut aussi pour le code : **la construction ne prouve pas que
+  la page s'affiche.**
 
 ## Ce qui reste à faire
 

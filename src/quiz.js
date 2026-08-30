@@ -12,6 +12,7 @@
 // ferait.
 import reactions from './data/reactions.json'
 import structures from './data/structures.json'
+import { ordonner } from './memorisation.js'
 
 const NB_CHOIX = 4
 
@@ -212,13 +213,28 @@ export function famillesJouables() {
  * On tire les RÉACTIONS d'abord, puis on engendre chaque question avec sa
  * propre suite : ainsi la même graine rend toujours la même série, et
  * changer le nombre de questions ne rebat pas les premières.
+ *
+ * `etat` est la progression de l'élève (voir src/memorisation.js). Quand
+ * il est fourni, l'ordre n'est plus un simple mélange : les réactions
+ * échues et mal sues passent devant, puis celles jamais rencontrées, puis
+ * l'entretien. Le mélange subsiste À L'INTÉRIEUR de chaque rang — sans
+ * quoi deux séances de suite reposeraient les mêmes questions dans le
+ * même ordre, et l'on réviserait la position d'une réponse.
+ *
+ * On le passe en ARGUMENT plutôt que de le lire ici : le module resterait
+ * sinon impossible à éprouver hors d'un navigateur, alors que c'est
+ * précisément ce qui permet de simuler des mois de révision.
  */
-export function serie({ graine, combien = 10, famille = null }) {
+export function serie({ graine, combien = 10, famille = null, etat = null, maintenant = Date.now() }) {
   const disponibles = vivier(famille)
   if (disponibles.length === 0) return []
 
-  const choisies = melanger(disponibles, tirage(graine)).slice(0, combien)
-  return choisies.map((reaction, rang) =>
+  const suivant = tirage(graine)
+  const ordre = etat
+    ? ordonner(disponibles, etat, maintenant, suivant)
+    : melanger(disponibles, suivant)
+
+  return ordre.slice(0, combien).map((reaction, rang) =>
     questionProduit(reaction, tirage(graine + rang * 7919))
   )
 }
