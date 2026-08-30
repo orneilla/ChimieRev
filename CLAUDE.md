@@ -899,6 +899,36 @@ c'est la règle de sourçage appliquée. On ne les écrira que le jour où un
 ouvrage les traitant sera indexé. La liste se tient ici pour qu'on ne
 recommence pas la recherche à chaque passage.
 
+### Et elles se DÉCLARENT à l'écran, pas seulement ici
+
+Ce fichier portait la raison ; l'application ne la portait pas. Elle
+étiquetait ces six lignes **« à écrire »**, ce qui veut dire « on n'y est
+pas encore arrivé » — et c'était faux. Elles ne seront pas écrites, et pas
+par manque de temps. Le lecteur voyait un retard là où il y a une limite du
+corpus, et il n'apprenait rien.
+
+C'est la règle « un ouvrage muet est un RÉSULTAT, pas un oubli » appliquée
+au programme au lieu de la seule fiche. D'où :
+
+- chaque ligne sans identifiant porte un champ **`hors_corpus`** qui dit ce
+  que la recherche dans les neuf a rendu — et la page l'AFFICHE, sous le
+  nom de la réaction ;
+- l'inventaire connaît un cinquième état, `hors_corpus`, qui n'est pas un
+  degré de l'échelle « absente → rédigée → vérifiée → relue » mais une
+  autre catégorie. Le badge est le seul en trait tireté ;
+- ces lignes **sortent du dénominateur**. Sans cela chaque jauge concernée
+  plafonnerait sous 100 % pour toujours — « Photochimie 11/12 » jusqu'à la
+  fin des temps —, et l'on lirait comme un retard ce qui est une absence de
+  source. Le compteur général affiche donc « 275 sur 275 sourçables », et
+  une ligne à part énonce les six ;
+- `npm run valider` **refuse** une ligne sans identifiant et sans raison
+  lisible (moins de 40 signes), et refuse aussi une ligne qui porterait les
+  deux. Prouvé en injectant les trois fautes.
+
+Le dernier point est le vrai garde-fou : sans lui, un simple oubli
+d'identifiant se présenterait comme un silence documenté, ce qui est
+exactement le mensonge inverse de celui qu'on vient de corriger.
+
 | réaction | ce que la recherche a rendu |
 |---|---|
 | Réduction de Meerwein-Ponndorf-Verley | aucune occurrence dans les neuf. |

@@ -240,6 +240,39 @@ for (const cle of Object.keys(references.references_par_reaction)) {
   }
 }
 
+// Une ligne du programme sans identifiant est un TROU, et la page
+// « Programme » l'étiquetait « à écrire » — c'est-à-dire « on n'y est pas
+// encore arrivé ». Pour les six réactions qu'aucun des neuf ouvrages ne
+// traite, c'était faux : elles ne seront pas écrites, et pas par manque de
+// temps. Le lecteur voyait un retard là où il y a une limite du corpus.
+//
+// La règle « un ouvrage muet est un RÉSULTAT, pas un oubli » vaut donc
+// aussi pour le programme : toute ligne sans identifiant doit porter un
+// champ `hors_corpus` disant ce que la recherche a rendu — et ce texte
+// s'affiche. Sans cette garantie, un simple oubli d'identifiant passerait
+// pour un silence documenté, ce qui est exactement le mensonge inverse.
+for (const famille of programme.familles) {
+  for (const ligne of famille.reactions || []) {
+    if (ligne.id) {
+      if (ligne.hors_corpus) {
+        anomalies.push(
+          `programme.json : « ${ligne.nom} » porte à la fois un identifiant ` +
+          'et une raison « hors corpus ». Une fiche écrite n\'est pas hors corpus.'
+        )
+      }
+      continue
+    }
+    const raison = ligne.hors_corpus
+    if (typeof raison !== 'string' || raison.trim().length < 40) {
+      anomalies.push(
+        `programme.json : « ${ligne.nom} » (famille « ${famille.famille} ») n'a ` +
+        'pas d\'identifiant et pas de raison lisible. Poser "hors_corpus" avec ce ' +
+        'que la recherche dans les neuf ouvrages a rendu — la page l\'affiche.'
+      )
+    }
+  }
+}
+
 if (reserves.length) {
   console.log(`\n${reserves.length} réserve(s) — publiable, mais incomplet :`)
   for (const reserve of reserves) console.log('  · ' + reserve)

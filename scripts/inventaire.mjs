@@ -14,6 +14,20 @@
  *
  * Aucune fiche ne peut se présenter comme sûre sans avoir franchi ces
  * étapes dans l'ordre.
+ *
+ * Et un cinquième état, qui n'est pas sur cette échelle :
+ *   hors_corpus — aucun des neuf ouvrages indexés ne traite le sujet.
+ *
+ * Il existe parce que « à écrire » était un MENSONGE pour ces lignes-là.
+ * « À écrire » veut dire « on n'y est pas encore arrivé » ; ces réactions
+ * ne seront pas écrites, et pas par manque de temps : la règle de sourçage
+ * interdit d'écrire ce qu'aucun ouvrage disponible ne dit. La raison est
+ * portée par la ligne du programme (champ `hors_corpus`) et AFFICHÉE :
+ * un silence documenté enseigne quelque chose, un trou muet ne dit rien.
+ *
+ * Conséquence sur les comptes : ces lignes sortent du dénominateur. Sans
+ * cela chaque jauge concernée plafonnerait sous 100 % pour toujours, et
+ * l'on lirait comme un retard ce qui est une limite du corpus.
  */
 import { readFileSync, writeFileSync } from 'fs'
 
@@ -24,7 +38,8 @@ const reactions = lire('src/data/reactions.json')
 const mecanismes = lire('src/data/mecanismes.json')
 const references = lire('src/data/references.json')
 
-function etat(id) {
+function etat(id, ligne) {
+  if (!id && ligne.hors_corpus) return 'hors_corpus'
   if (!id || !reactions.some((r) => r.id === id)) return 'absente'
 
   const mecanisme = mecanismes[id]
@@ -40,7 +55,7 @@ function etat(id) {
 const familles = programme.familles.map((famille) => {
   const liste = famille.reactions.map((reaction) => ({
     ...reaction,
-    statut: etat(reaction.id),
+    statut: etat(reaction.id, reaction),
     sources: Boolean(reaction.id && references.references_par_reaction[reaction.id])
   }))
 
@@ -52,6 +67,9 @@ const familles = programme.familles.map((famille) => {
     famille: famille.famille,
     bloc: famille.bloc || null,
     total: liste.length,
+    // Le dénominateur des jauges : ce qu'on peut effectivement écrire.
+    couvrable: liste.length - compte('hors_corpus'),
+    hors_corpus: compte('hors_corpus'),
     absente: compte('absente'),
     redigee: compte('redigee'),
     verifiee: compte('verifiee'),
@@ -79,6 +97,8 @@ const combien = (...statuts) => distinctes.filter((s) => statuts.includes(s)).le
 const avancement = {
   genere_le: new Date().toISOString().slice(0, 10),
   total: distinctes.length,
+  hors_corpus: combien('hors_corpus'),
+  couvrable: distinctes.length - combien('hors_corpus'),
   redigees: combien('redigee', 'verifiee', 'relue'),
   verifiees: combien('verifiee', 'relue'),
   relues: combien('relue'),
@@ -88,6 +108,9 @@ const avancement = {
 writeFileSync('src/data/avancement.json', JSON.stringify(avancement, null, 2) + '\n')
 
 console.log(
-  `✓ avancement : ${avancement.redigees}/${avancement.total} réactions rédigées, ` +
-  `${avancement.verifiees} au mécanisme vérifié, ${avancement.relues} relues par un chimiste.`
+  `✓ avancement : ${avancement.redigees}/${avancement.couvrable} réactions rédigées, ` +
+  `${avancement.verifiees} au mécanisme vérifié, ${avancement.relues} relues par un chimiste` +
+  (avancement.hors_corpus
+    ? ` (+ ${avancement.hors_corpus} qu'aucun ouvrage indexé ne traite).`
+    : '.')
 )

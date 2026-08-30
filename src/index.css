@@ -1330,6 +1330,29 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .etat-verifiee { background: var(--cyan); }
 .etat-relue { background: var(--vert); }
 
+/* « Hors corpus » n'est pas un cinquième degré de la même échelle : c'est
+   une autre catégorie, et le trait plein l'en distingue des quatre autres,
+   qui portent tous un cadre. Aucun ouvrage indexé ne traite le sujet ; la
+   fiche n'existera pas tant qu'il n'en sera pas indexé un. */
+.etat-hors-corpus {
+  background: var(--orange);
+  border-style: dashed;
+}
+
+/* La raison, sous la ligne. Le <li> est un conteneur flex : sans cette
+   base à 100 %, le paragraphe se glisserait à côté du niveau et le
+   pousserait hors de l'écran sur un téléphone. */
+.programme-raison {
+  flex: 0 0 100%;
+  margin: 0.35rem 0 0.15rem;
+  padding-left: 0.7rem;
+  border-left: 3px solid var(--orange);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--encre-doux);
+  overflow-wrap: break-word;
+}
+
 /* Chapitre et page d'un ouvrage : ce qui rend une référence utilisable.
    Un titre de chapitre peut être long : il doit pouvoir passer à la ligne,
    sinon il pousse la page entière hors de l'écran. */
