@@ -1091,6 +1091,14 @@
     "substrat": "groupes_protecteurs_carbonyles_amines-substrat.svg",
     "produit": "groupes_protecteurs_carbonyles_amines-produit.svg"
   },
+  "synthese_asymetrique_auxiliaires": {
+    "substrat": "synthese_asymetrique_auxiliaires-substrat.svg",
+    "produit": "synthese_asymetrique_auxiliaires-produit.svg"
+  },
+  "organocatalyse": {
+    "substrat": "organocatalyse-substrat.svg",
+    "produit": "organocatalyse-produit.svg"
+  },
   "mcpba": {
     "molecule": "reactif-mcpba.svg"
   },

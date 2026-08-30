@@ -1,7 +1,7 @@
 {
-  "genere_le": "2026-08-26",
+  "genere_le": "2026-08-30",
   "total": 281,
-  "redigees": 273,
+  "redigees": 275,
   "verifiees": 181,
   "relues": 0,
   "familles": [
@@ -2343,8 +2343,8 @@
       "famille": "Stratégie",
       "bloc": "Méthodes et matériaux",
       "total": 6,
-      "absente": 2,
-      "redigee": 4,
+      "absente": 0,
+      "redigee": 6,
       "verifiee": 0,
       "relue": 0,
       "reactions": [
@@ -2379,16 +2379,16 @@
         {
           "nom": "Synthèse asymétrique : auxiliaires chiraux",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "synthese_asymetrique_auxiliaires",
+          "statut": "redigee",
+          "sources": true
         },
         {
           "nom": "Organocatalyse",
           "niveau": "M2",
-          "id": null,
-          "statut": "absente",
-          "sources": false
+          "id": "organocatalyse",
+          "statut": "redigee",
+          "sources": true
         }
       ]
     }

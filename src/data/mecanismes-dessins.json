@@ -11465,5 +11465,81 @@
       "coherenceVerifiee": false,
       "valide": false
     }
+  },
+  "synthese_asymetrique_auxiliaires": {
+    "1": {
+      "fichier": "synthese_asymetrique_auxiliaires-etape1.svg",
+      "titre": "Le problème : deux faces que rien ne distingue",
+      "legende": "L'acrylate de benzyle, diénophile achiral. Avec le cyclopentadiène il donne un seul diastéréoisomère — l'adduit endo — et pourtant le résultat est inutilisable si l'on veut un énantiomère pur.\n\nCLAYDEN NE LAISSE AUCUNE PLACE À L'ESPOIR (p. 1108) : le produit « doit se former en mélange exactement 50:50 de deux énantiomères. RIEN ne dit au diène d'attaquer la face du dessus ou celle du dessous, donc il fait les deux, chacune 50 % du temps. »\n\nLA RAISON EST UNE SYMÉTRIE, ET C'EST POURQUOI ON NE PEUT RIEN RÉGLER. Les deux états de transition sont images l'un de l'autre dans un miroir : ils ont donc rigoureusement la même énergie. Baisser la température creuse les écarts d'énergie ; encore faut-il qu'il y en ait un.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "synthese_asymetrique_auxiliaires-etape2.svg",
+      "titre": "On attache l'auxiliaire, et les deux faces cessent d'être équivalentes",
+      "legende": "La même chaîne acrylique, portée non plus par un ester de benzyle mais par l'oxazolidinone dérivée de la (S)-valine — l'auxiliaire d'Evans, préparé en deux étapes depuis l'acide aminé, puis acylé (NaH, chlorure d'acryloyle).\n\nCE QUE CELA CHANGE, DIT EN UNE PHRASE (Clayden p. 1108) : « les deux faces de la double liaison du diénophile sont maintenant DIFFÉRENTES à cause du centre chiral : elles sont diastéréotopiques, et le diène peut les distinguer. »\n\nDIASTÉRÉOTOPIQUES, c'est-à-dire non superposables ET non images l'une de l'autre. Les deux états de transition ont alors des énergies différentes, et quelques kilojoules suffisent à faire un rapport 98:2.\n\nREMARQUEZ CE QU'ON N'A PAS FAIT : on n'a pas rendu la réaction énantiosélective. On l'a rendue DIASTÉRÉOSÉLECTIVE — et la diastéréosélectivité, on sait la contrôler depuis toujours par l'encombrement et la chélation.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "synthese_asymetrique_auxiliaires-etape3.svg",
+      "titre": "La réaction, sur la face que l'isopropyle laisse libre",
+      "legende": "Cycloaddition avec le cyclopentadiène, en présence de Et₂AlCl.\n\nL'ACIDE DE LEWIS NE SERT PAS QU'À ACTIVER. Clayden : « l'aluminium CHÉLATE les atomes d'oxygène du diénophile pour former la structure RIGIDE et réactive montrée ci-dessous ». Rigide est le mot décisif — sans chélation, la liaison C–N tourne librement, les deux conformations exposent des faces opposées, et l'auxiliaire ne dit plus rien du tout.\n\nUNE FOIS LA STRUCTURE FIGÉE : « le groupe isopropyle est tenu de telle façon que son encombrement stérique EMPÊCHE le diène d'attaquer cette face de l'alcène prochiral. Le diène n'a pas le choix, il attaque par le dessus, et un seul des diastéréoisomères possibles se forme. »\n\nLA SÉLECTIVITÉ EST DONC CONFORMATIONNELLE AVANT D'ÊTRE STÉRIQUE. C'est la leçon qui se transporte : presque tous les auxiliaires portent un carbonyle chélatable et travaillent à basse température, pour la même raison.\n\nAUCUNE FLÈCHE ICI, ET CE N'EST PAS UN OUBLI : la cycloaddition elle-même est traitée dans la fiche Diels-Alder ; ce qui est en jeu à cette étape est le choix de la FACE, qu'aucune flèche courbe ne sait dessiner.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "synthese_asymetrique_auxiliaires-etape4.svg",
+      "titre": "On le retire, et on le récupère",
+      "legende": "LiOBn coupe l'imide du côté de l'acyle et rend l'ester de benzyle — le MÊME produit que celui de l'étape 1, mais cette fois sous forme d'un seul énantiomère. À côté, l'oxazolidinone, intacte.\n\nCLAYDEN L'ÉCRIT AINSI SUR SON SCHÉMA (p. 1109) : « auxiliaire chiral récupéré et recyclable ». Et il conclut : « globalement, par attachement séquentiel de l'auxiliaire, réaction diastéréosélective, et retrait de l'auxiliaire, nous avons fabriqué le même produit mais sous forme d'un seul énantiomère ».\n\nPOURQUOI LE RECYCLAGE N'EST PAS UN DÉTAIL. L'auxiliaire s'emploie en quantité STŒCHIOMÉTRIQUE — une molécule par molécule de substrat, pas une pincée. Sans récupération, on jetterait autant d'auxiliaire que l'on fabrique de produit. Clayden : « bien que des quantités stœchiométriques soient nécessaires, il n'y a pas de perte ».\n\nET LE PRIX RESTE PAYÉ (p. 1113) : « les meilleurs auxiliaires peuvent être recyclés, mais même alors il reste au moins DEUX étapes “improductives” dans la synthèse ». Deux étapes qui n'ajoutent aucun atome à la cible et ne servent qu'à transporter une information stéréochimique. C'est cette dépense qui a poussé la chimie vers la catalyse asymétrique — Sharpless, CBS, organocatalyse.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
+  },
+  "organocatalyse": {
+    "1": {
+      "fichier": "organocatalyse-etape1.svg",
+      "titre": "Deux molécules organiques, et pas un atome de métal",
+      "legende": "À gauche, le cinnamaldéhyde : un aldéhyde α,β-insaturé, qui accepte les nucléophiles en position β mais sans empressement. À droite, le catalyseur — une imidazolidinone obtenue en condensant le N-méthylamide de la L-phénylalanine avec de l'acétone (Clayden p. 1129). Une amine secondaire chirale, énantiopure, et rien d'autre.\n\nPOURQUOI CELA A PARU LONGTEMPS IMPOSSIBLE (Clayden p. 1127) : « les métaux ont des sites de coordination LABILES qui peuvent porter des ligands chiraux en même temps qu'ils laissent substrats et réactifs se rencontrer dans un environnement chiral, puis laissent les produits se dissocier pour que le cycle catalytique se poursuive ». Trois exigences — porter la chiralité, rassembler, relâcher — que seule la liaison de coordination semblait satisfaire, parce qu'elle est faible.\n\nLA LIAISON COVALENTE, ELLE, NE RELÂCHE PAS. Sauf une : celle qu'une amine fait avec un carbonyle. Elle se défait d'une goutte d'eau. C'est cette réversibilité-là qui remplace le métal.\n\nET LA DATE COMPTE : « dans les premières années du XXI siècle, plusieurs chimistes à travers le monde se rendirent compte qu'il n'est pas toujours nécessaire d'employer un métal ». Sept des neuf ouvrages indexés ici ne traitent pas l'organocatalyse — ils lui sont antérieurs.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "2": {
+      "fichier": "organocatalyse-etape2.svg",
+      "titre": "L'iminium : on abaisse la LUMO",
+      "legende": "La condensation de l'amine avec l'aldéhyde libère une molécule d'eau et donne cet ion iminium. Retenez-la, cette molécule d'eau : elle resservira à l'étape 3.\n\nCE QUI NE PEUT PAS SE PASSER, ET C'EST HEUREUX (Clayden p. 1127-1128). D'ordinaire un iminium perd un proton en α et devient une énamine. Ici, impossible : le carbone en α porte la double liaison, non un hydrogène disponible. « L'ion iminium est le TERMINUS de cette condensation. »\n\nCE QU'ON A GAGNÉ : « il est très réactif vis-à-vis de l'attaque de l'eau (qui régénérerait réversiblement les produits de départ), mais aussi vis-à-vis de l'attaque d'autres nucléophiles. Nous avons exactement ce qu'il faut pour une bonne catalyse asymétrique — une espèce intermédiaire qui est RÉACTIVE, CHIRALE ET ÉNANTIOMÉRIQUEMENT PURE. »\n\nLE NOM TECHNIQUE, DONNÉ PAR LE MULTICOMPOSANTS (p. 31) : catalyse par ABAISSEMENT DE LA LUMO. L'azote chargé positivement tire les électrons bien plus fort qu'un oxygène neutre : l'orbitale qui reçoit descend en énergie, et un nucléophile médiocre suffit désormais.\n\nREGARDEZ OÙ EST LE BENZYLE. Il est porté par le carbone voisin de l'azote, et il vient se placer au-dessus d'une des deux faces de la chaîne insaturée. C'est tout le secret de l'étape suivante.\n\nAUCUNE FLÈCHE ICI : la formation d'un iminium à partir d'une amine et d'un aldéhyde est écrite en détail dans les fiches d'addition-élimination sur le carbonyle. Ce qui est en jeu ici est ce que l'iminium PERMET, non comment il se forme.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "3": {
+      "fichier": "organocatalyse-etape3.svg",
+      "titre": "Le nucléophile attaque la face libre, et le catalyseur repart",
+      "legende": "Le N-méthylpyrrole s'additionne en position β, puis se réaromatise ; l'énamine qui en résulte est hydrolysée, et l'aldéhyde énantioenrichi paraît — 93 % ee. À côté, le catalyseur, intact.\n\nD'OÙ VIENT LA SÉLECTIVITÉ (Clayden p. 1128) : « le cycle phényle surligné en vert pend au-dessus de l'AVANT de la molécule, si bien que le pyrrole n'a pas d'autre choix que d'attaquer diastéréosélectivement, PAR L'ARRIÈRE ».\n\nLE MOT « DIASTÉRÉOSÉLECTIVEMENT » N'EST PAS UNE ERREUR. L'attaque se fait sur un intermédiaire qui porte DÉJÀ un centre stéréogène — celui du catalyseur. C'est le retournement des auxiliaires chiraux, à ceci près que l'auxiliaire se pose et se retire tout seul, et qu'une molécule sert mille fois.\n\nLA BOUCLE SE FERME AVEC SA PROPRE EAU : le produit d'addition « est hydrolysé par l'eau engendrée lors de la CONDENSATION INITIALE, révélant l'aldéhyde sous forme énantioenrichie et RÉGÉNÉRANT l'amine secondaire catalyseur ». On n'ajoute rien ; un milieu rigoureusement anhydre bloquerait le retour.\n\nLE RÉGLAGE QUI DÉCIDE DE TOUT, et il n'est pas dans le catalyseur : le nucléophile doit être « assez fort pour attaquer l'ion iminium chargé positivement mais PAS assez fort pour attaquer l'aldéhyde lui-même ». Trop fort, il réagit directement sur le cinnamaldéhyde : cette réaction-là ignore le catalyseur, donc rend un racémique. L'ee s'effondre sans qu'aucune étape du cycle n'ait failli.\n\nUn indole fait le même travail en position 3, et sert à fabriquer un inhibiteur de COX-2 à 87 % ee (p. 1129).",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    },
+    "4": {
+      "fichier": "organocatalyse-etape4.svg",
+      "titre": "Les deux autres façons d'activer, et elles ne se ressemblent pas",
+      "legende": "À gauche la L-proline ; à droite une diarylthiourée. Deux organocatalyseurs, deux mécanismes qui n'ont rien en commun.\n\nLA PROLINE ÉLÈVE LA HOMO. Sur un carbonyle énolisable — non plus insaturé —, la même chimie amine donne cette fois une ÉNAMINE : un nucléophile chiral au lieu d'un électrophile activé. Le Multicomposants nomme les deux modes « orthogonaux » (p. 31) : « abaissement de la LUMO (iminium) et élévation de la HOMO (énamine) ». Un catalyseur, deux emplois opposés selon ce qu'on lui donne — et c'est ce qui permet d'enchaîner deux additions de Michael sur le même catalyseur.\n\nClayden souligne ce que la proline a d'extrême (p. 1131) : « l'emploi d'un composé d'origine biologique suprêmement simple pour catalyser une réaction complexe », employé « sans dérivatisation ni protection ». Le mécanisme, les flèches et le rôle du carboxyle sont dans la fiche « aldolisation à la proline » ; on ne les répète pas ici.\n\nLA THIOURÉE N'ACTIVE RIEN PAR LIAISON COVALENTE. Ses deux N–H voisins pincent leur cible entre deux liaisons hydrogène. Le Multicomposants classe d'ailleurs les organocatalyseurs par là (§ 1.2.1) : « depuis la formation de liaisons COVALENTES avec les substrats, comme les prolines, jusqu'à l'interaction par LIAISONS HYDROGÈNE, comme les (thio)urées ».\n\nLES MEILLEURES SONT BIFONCTIONNELLES (p. 31) : « le groupe amine tertiaire activerait les α-amino-esters formés in situ [...] tandis que les nitroalcènes seraient activés par le motif thiourée par une DOUBLE INTERACTION PAR LIAISON HYDROGÈNE ». Chaque partenaire est tenu par son bout, dans la seule orientation possible : 94-96 % ee, sans qu'une seule liaison n'ait été faite ni défaite avec le catalyseur.\n\nLA THIOURÉE DESSINÉE ICI EST LE MOTIF, non un catalyseur particulier : les catalyseurs réels portent des aryles substitués et un second site basique, que l'ouvrage désigne par des numéros de schéma sans en donner la structure dans le texte extrait.",
+      "fleches": [],
+      "hamecons": false,
+      "coherenceVerifiee": false,
+      "valide": false
+    }
   }
 }

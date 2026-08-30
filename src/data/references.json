@@ -8235,6 +8235,18 @@
           "chapitre": "23 — Chemoselectivity and protecting groups",
           "pages": "528-530",
           "note": "La définition, en une phrase qui distingue les trois notions par la question qu'elles répondent (p. 528) : « la chimiosélectivité est QUEL groupe réagit ; la régiosélectivité est OÙ il réagit. La stéréosélectivité est COMMENT ». Et le rappel qu'on l'a déjà pratiquée sans la nommer : « au chapitre 21 vous avez appris à prédire et expliquer que » telle position réagit plutôt que telle autre. Le problème posé en ouverture : « la plupart des molécules organiques contiennent PLUS D'UN groupe fonctionnel », de sorte que la question n'est jamais « cette réaction marche-t-elle ? » mais « où marche-t-elle ? ». L'exemple le plus court est le paracétamol (p. 529) : « le 4-aminophénol pourrait réagir avec l'anhydride acétique » sur son amine ou sur son phénol — l'amine gagne, et en chauffant avec un EXCÈS d'anhydride on obtient l'amide ET l'ester, ce qui montre que la sélectivité est une affaire de VITESSES relatives et non d'impossibilité. L'échelle de réactivité des dérivés d'acide (p. 530) y est rappelée, l'aldéhyde inséré comme « le plus réactif, pour des raisons stériques »."
+        },
+        {
+          "ouvrage": "housecroft",
+          "chapitre": "26 — Catalysis and some industrial processes, § 26.4 (hydroformylation)",
+          "pages": "789",
+          "note": "Ce que le Clayden définit, le Housecroft le MESURE. Sur l'hydroformylation, il énonce les deux sélectivités comme deux rapports à surveiller : « le rapport n:i des aldéhydes (RÉGIOSÉLECTIVITÉ de la réaction) ; le rapport aldéhyde:alcool pour une chaîne donnée (CHIMIOSÉLECTIVITÉ de la réaction) ». Et il montre qu'elles se règlent par le seul catalyseur : HCo(CO)₄ donne « 80 % d'aldéhyde en C₄, 10 % d'alcool en C₄ » et n:i ≈ 3:1 ; « divers catalyseurs au rhodium avec des cocatalyseurs phosphine peuvent donner un rapport n:i entre 8:1 et 16:1 » ; « les catalyseurs à clusters de ruthénium montrent une haute chimiosélectivité vers les aldéhydes, la régiosélectivité dépendant du choix du cluster : pour Ru₃(CO)₁₂, n:i ≈ 2:1, et pour [HRu₃(CO)₁₁]⁻, n:i ≈ 74:1 ». Deux clusters du même métal, de 2:1 à 74:1 : la sélectivité appartient au système, non à la réaction. Il ajoute que « l'angle de morsure du ligand peut influencer significativement la distribution des produits » avec une bisphosphine."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "8 — Alkenes: Reactions and Synthesis (oxymercuration)",
+          "pages": "230",
+          "note": "Cité pour une divergence de VOCABULAIRE, vérifiée sur les neuf ouvrages et qui évite de conclure à tort à un silence. McMurry n'emploie jamais « chemoselectivity » ni « stereoselective » ; là où Clayden écrit « régiosélectivité », il écrit RÉGIOCHIMIE : « remarquez que la régiochimie de la réaction correspond à l'addition de Markovnikov de l'eau ; c'est-à-dire que le groupe –OH se fixe sur le carbone le plus substitué, et le –H sur le moins substitué ». Le concept est enseigné ; le terme de Clayden ne l'est pas. « Chemoselectivity » est également absent du Grossman, de LibreTexts et du Roberts & Caserio."
         }
       ],
       "articles_historiques": [],
@@ -8247,6 +8259,18 @@
           "chapitre": "23 — Chemoselectivity and protecting groups",
           "pages": "549-552",
           "note": "Les trois familles qui protègent un alcool, avec ce qui les sépare. Les éthers silylés (p. 550) et la raison chimique de leur succès : « le silicium a une forte affinité pour les éléments électronégatifs, en particulier O, F et Cl » — c'est cette affinité qui installe le groupe, et c'est la même qui le retire, l'ion fluorure de TBAF étant le seul réactif capable de rompre une liaison Si–O sans toucher au reste de la molécule. La gamme de stabilité s'échelonne avec l'encombrement : le TMS tombe devant HF dilué, le TBDMS résiste. Le tétrahydropyranyle (p. 551), qui est un acétal et se comporte comme tel : posé en milieu acide, retiré en milieu acide aqueux, indifférent aux bases et aux nucléophiles — et il crée un centre stéréogène de plus, ce qui complique les spectres. L'éther benzylique (p. 552), qui « résiste à presque tout » et cède à l'hydrogénolyse, méthode ORTHOGONALE des deux précédentes puisqu'elle n'est ni acide ni basique ; l'éther méthylique des phénols, qui ne se retire qu'au BBr₃ ou à HI. Et l'avertissement qui clôt le chapitre (p. 552) : « les groupes protecteurs peuvent être utiles, mais ils sont aussi DISPENDIEUX — en temps, parce qu'il y a deux étapes de plus à faire (poser le groupe et le retirer), et en matière, parce que ces étapes peuvent ne pas se faire à 100 % de rendement ». Suit la parade, prise sur un cas industriel : pour préparer le triol du salbutamol, un ester portant trois protons acides semblait imposer trois protections — « en fait, il fut possible de faire la réaction simplement en ajoutant un large excès de réactif de Grignard : assez pour arracher les protons acides ET pour s'additionner à l'ester »."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols, § 17-8 (Protection of Alcohols)",
+          "pages": "553-554",
+          "note": "La définition en trois temps (p. 553) : « la protection comporte trois étapes : (1) introduire un groupe protecteur pour bloquer la fonction gênante, (2) mener la réaction voulue, et (3) retirer le groupe protecteur ». Le cas qui la justifie : « un réactif de Grignard ne peut pas être préparé à partir d'un halogéno-alcool parce que la liaison C–Mg n'est pas compatible avec la présence d'un groupe –OH acide dans la même molécule ». Et surtout, ce que le Clayden ne donne pas : POURQUOI le silicium se laisse attaquer (p. 554). « C'est une réaction de type SN2 de l'ion alcoolate sur l'atome de silicium [...]. À la différence de la plupart des réactions SN2, celle-ci se produit sur un centre TERTIAIRE — un atome de silicium trisubstitué par des alkyles. La réaction se produit parce que le silicium, atome de la troisième période, est plus gros que le carbone et forme des liaisons plus longues » — C–C : 154 pm, C–Si : 195 pm — « les trois substituants méthyle attachés au silicium offrent donc moins de gêne stérique à la réaction qu'ils ne le font dans le chlorure de tert-butyle analogue ». Sa liste d'inerties est plus opératoire que toute formule générale : les éthers de TMS « n'ont pas d'hydrogènes acides et ne réagissent ni avec les oxydants, ni avec les réducteurs, ni avec les réactifs de Grignard. Ils réagissent en revanche avec l'acide aqueux ou avec l'ion FLUORURE pour régénérer l'alcool. »"
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "5 — Radical and photochemical reactions, problème 5.9",
+          "pages": "318",
+          "note": "Une QUATRIÈME condition de déprotection, que personne d'autre du corpus ne donne : « le groupe 2-nitrobenzyle est employé comme groupe protecteur des alcools stable aux bases et aux acides mais PHOTOLABILE ». Grossman demande d'en écrire le mécanisme de libération par photolyse — un mécanisme de Norrish. Ajoutée aux trois de Clayden (fluorure, acide, hydrogénolyse), elle porte l'orthogonalité à quatre, et c'est la plus douce : elle n'introduit aucun réactif dans le milieu, ce qui la rend employable sur le vivant, où l'on veut libérer une molécule à un instant choisi."
         }
       ],
       "articles_historiques": [],
@@ -8265,6 +8289,90 @@
           "chapitre": "17 — Elimination reactions",
           "pages": "401",
           "note": "La perte de CO₂ qui achève la déprotection d'un carbamate, renvoyée depuis le chapitre 23 : « la perte spontanée de CO₂ du produit éliminé donne une amine ». C'est la même étape terminale pour le Boc, le Cbz et le Fmoc — trois conditions de départ, une seule fin —, et c'est elle qui rend la déprotection irréversible : le gaz quitte le milieu."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "19 — Aldehydes and Ketones, § 19-10 ; 26 — Biomolecules: Amino Acids, Peptides, and Proteins, résumé",
+          "pages": "628, 905",
+          "note": "La liste d'inerties de l'acétal, plus opératoire qu'une formule (p. 628) : « comme les autres éthers, les acétals sont non réactifs vis-à-vis des bases, des réducteurs hydrure, des réactifs de Grignard et des conditions d'hydrogénation catalytique, mais ils sont clivés par l'acide ». Son exemple pose le problème mieux qu'une définition : sur le 4-oxopentanoate d'éthyle, « le traitement du céto-ester de départ par LiAlH₄ réduirait à la fois le groupe céto et l'ester pour donner un diol » ; d'où la séquence protéger / réduire / déprotéger. Et la précision de métier : « il est souvent commode d'employer 1 équivalent d'un diol comme l'éthylène glycol pour former un acétal CYCLIQUE. Le mécanisme [...] est exactement le même qu'avec 2 équivalents de méthanol » — le dioxolane n'est pas une espèce à part. Sur les amines (p. 905), la pratique entière : « un acide aminé N-protégé portant un groupe –CO₂H libre est couplé par le DCC à un acide aminé O-protégé portant un groupe –NH₂ libre [...]. Les amines sont d'ordinaire protégées sous forme de leurs dérivés tert-butyloxycarbonyle (Boc) ou fluorénylméthyloxycarbonyle (Fmoc) ; les acides sont d'ordinaire protégés sous forme d'esters », le tout « souvent mené par la méthode de Merrifield en phase solide, où le peptide est lié à des billes de polymère insoluble »."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic chemistry (peptide bond formation)",
+          "pages": "41",
+          "note": "Le danger que les deux manuels d'organique taisent : « les acides aminés sont particulièrement susceptibles de se RACÉMISER une fois qu'ils ont été acylés (c'est-à-dire après ajout d'un groupe protecteur acyle sur la fonction amine), par formation intermédiaire d'une AZLACTONE. Cela peut se produire pendant les procédures de PROTECTION ou de COUPLAGE. » L'étape censée protéger crée donc elle-même le risque. Et pourquoi c'est grave : « les protéines sont faites d'acides aminés L. De ce fait, une synthèse chimique doit partir d'acides aminés L et la racémisation doit être minimisée au cours de la synthèse. C'est particulièrement vrai dans la synthèse d'une enzyme, parce que l'ACTIVITÉ CATALYTIQUE dépend de l'intégrité optique. » À lire à côté du « domaine le plus fiable et le plus prévisible de la chimie organique » de Clayden (p. 553) : les deux sont vrais, et la fiabilité est le RÉSULTAT de ce danger — c'est parce qu'un carbamate racémise moins qu'un acétyle que le Boc et le Fmoc se sont imposés. La même page donne le choix stratégique : ou bien « convertir l'acide aminé amino-protégé en une forme activée », ou bien « faire réagir deux acides aminés ensemble (l'un amino-protégé, l'autre carboxyle-protégé) en présence d'un agent de couplage qui active la fonction carboxyle in situ » — la voie du DCC."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "synthese_asymetrique_auxiliaires": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis (Chiral auxiliaries)",
+          "pages": "1107-1109",
+          "note": "Le raisonnement qui fonde la méthode (p. 1107) : une réaction diastéréosélective « marche aussi bien que le produit de départ soit racémique ou énantiomériquement pur — on obtient le même résultat diastéréoisomérique dans les deux cas, mais si l'on part d'un racémique on obtient un produit racémique, et si l'on part d'un produit énantiomériquement pur on obtient un produit énantiomériquement pur ». L'exemple, qui n'est pas un aldol (p. 1108) : le diénophile achiral donne avec le cyclopentadiène un seul diastéréoisomère mais « nécessairement un mélange exactement 50:50 de deux énantiomères : RIEN ne dit au diène d'attaquer la face du dessus ou celle du dessous, donc il fait les deux, chacune 50 % du temps ». Avec l'oxazolidinone de la (S)-valine, « les deux faces de la double liaison sont maintenant différentes à cause du centre chiral : elles sont DIASTÉRÉOTOPIQUES, et le diène peut les distinguer » ; Et₂AlCl « chélate les atomes d'oxygène du diénophile pour former la structure RIGIDE et réactive », après quoi « le groupe isopropyle est tenu de telle façon que son encombrement empêche le diène d'attaquer cette face ». La définition encadrée en trois temps (p. 1109) — attacher, réagir diastéréosélectivement, retirer — se clôt sur l'argument économique : « les meilleurs auxiliaires chiraux peuvent être RECYCLÉS, de sorte que, bien que des quantités stœchiométriques soient nécessaires, il n'y a pas de perte ». Et la parade au problème de l'énantiomère cher : la (R)-valine « est assez chère puisqu'elle n'existe pas dans la nature », mais la (−)-noréphédrine donne un auxiliaire « qui, bien que non énantiomère de celui dérivé de la (S)-valine, agit comme s'il l'était »."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis (Oxazolidinones are not the only auxiliaries / Chiral reagents)",
+          "pages": "1113",
+          "note": "Les autres auxiliaires, choisis « non seulement pour la sélectivité de la réaction étudiée mais aussi pour les PROPRIÉTÉS PHYSIQUES des produits » : le sultame camphré d'Oppolzer « réputé conférer la cristallinité à ses dérivés » ; la pseudoéphédrine de Myers « bon marché, facilement disponible, et très facile à introduire » ; le 8-phénylmenthol, plus encombrant, qui « marche bien là où il faut contrôler des interactions à longue distance, comme les additions conjuguées ». Le coût, énoncé sans détour : « les auxiliaires chiraux doivent d'abord être attachés au composé en construction, et une fois leur travail fait ils doivent être retirés. Les meilleurs peuvent être recyclés, mais même alors il reste au moins DEUX étapes “improductives” dans la synthèse. » Et la frontière de vocabulaire : « un auxiliaire chiral est une molécule chirale ATTACHÉE au produit de départ ; les réactions diastéréosélectives des composés du pool chiral sont de même contrôlées par la chiralité du produit de départ, et l'on appelle ce type de stéréocontrôle CONTRÔLE PAR LE SUBSTRAT » — par opposition au contrôle par le réactif, illustré par la (−)-spartéine qui « s'enroule autour de l'atome de lithium d'un alkyllithien et place la base dans un environnement chiral »."
+        },
+        {
+          "ouvrage": "grossman",
+          "chapitre": "4 — Addition and substitution reactions (aldol)",
+          "pages": "78",
+          "note": "La définition la plus serrée du corpus, et elle tient dans un adjectif : « quand un groupe X énantiopur, FACILEMENT REMPLAÇABLE, est employé pour faire naître les deux nouveaux stéréocentres du produit d'aldolisation avec une très haute stéréosélectivité, on l'appelle un auxiliaire chiral ». « Facilement remplaçable » est le critère opératoire : un groupe qui contrôle bien mais ne part pas n'est pas un auxiliaire. Grossman donne aussi l'origine — « les auxiliaires chiraux les plus employés sont les oxazolidinones, dérivées d'α-aminoacides énantiopurs comme la (S)-valine » — et la mesure du domaine : « il existe de très nombreuses variantes de l'aldolisation faisant intervenir des métaux autres que Li (B, Ti, Sn) et divers auxiliaires chiraux ; presque toutes passent par la formation sélective d'un énolate Z ou E suivie d'un état de transition en chaise »."
+        },
+        {
+          "ouvrage": "dugas",
+          "chapitre": "2 — Bioorganic chemistry (asymmetric synthesis)",
+          "pages": "63, 69",
+          "note": "La contrainte de métier que les manuels d'organique ne posent pas (p. 63) : « une exigence fondamentale en synthèse asymétrique employant des quantités stœchiométriques d'un auxiliaire chiral est que ce réactif soit BON MARCHÉ ET FACILEMENT DISPONIBLE » — d'où le recours systématique au pool chiral. Et le rapprochement qui n'est fait nulle part ailleurs : « les enzymes emploient systématiquement des auxiliaires ou des sous-sites pour induire de façon asymétrique la chiralité et la spécificité sur leurs substrats ». Dugas remonte par ailleurs à la définition de 1904 de Marckwald — « l'asymétrie est induite à partir d'un matériau auxiliaire portant un centre asymétrique ». À la page 69, l'échappatoire de Seebach (1981) : une méthode « qui ne requiert PAS la récupération et le recyclage de l'auxiliaire chiral, souvent précieux », baptisée « auto-reproduction du centre stéréogène » — la L-proline condensée avec le pivalaldéhyde donne une lactone bicyclique dont l'énolate réagit sur une seule face."
+        },
+        {
+          "ouvrage": "mcmurry",
+          "chapitre": "17 — Alcohols and Phenols (Sharpless epoxidation)",
+          "pages": "645",
+          "note": "Un piège de vocabulaire entre deux manuels, relevé ici pour qu'on ne le prenne pas pour une contradiction. McMurry appelle le tartrate de diéthyle de l'époxydation de Sharpless « un réactif AUXILIAIRE CHIRAL » alors qu'il n'est jamais lié de façon covalente au substrat et qu'il est employé en quantité catalytique : selon la définition de Clayden (p. 1113) et de Grossman (p. 78), c'est un LIGAND chiral. Les deux emplois circulent dans la littérature."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2 — Organocatalytic asymmetric multicomponent reactions",
+          "pages": "102",
+          "note": "Un emploi de passage, mais qui met le contraste en évidence : sur une réaction multicomposants donnant des racémiques « quand les catalyseurs chiraux Rh₂(S-DOSP)₄ et Rh₂(S-nttl)₄ étaient employés », « un isomère érythro (R,R,R) unique put être obtenu en employant la (R)-N-(tert-butylsulfinyl)amine comme AUXILIAIRE CHIRAL ». Le sulfinamide est l'un des rares auxiliaires modernes non dérivé d'un acide aminé."
+        }
+      ],
+      "articles_historiques": [],
+      "revues_modernes": []
+    },
+    "organocatalyse": {
+      "ouvrages": [
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Asymmetric synthesis (Organocatalysis)",
+          "pages": "1127-1129",
+          "note": "L'ouverture, qui dit pourquoi le métal semblait indispensable (p. 1127) : « les métaux ont des sites de coordination LABILES qui peuvent porter des ligands chiraux en même temps qu'ils laissent substrats et réactifs se rencontrer dans un environnement chiral, puis laissent les produits se dissocier pour que le cycle catalytique se poursuive ». Puis le renversement, daté : « dans les premières années du XXI siècle, plusieurs chimistes à travers le monde se rendirent compte qu'il n'est pas toujours nécessaire d'employer un métal pour obtenir de hauts niveaux d'énantiosélectivité en catalyse. Des molécules organiques simples, chirales et énantiomériquement pures, beaucoup d'entre elles des AMINES, peuvent aussi réagir RÉVERSIBLEMENT avec les substrats, fournissant un environnement chiral et les activant simultanément vers une attaque énantiosélective. » Le mécanisme du mode iminium (p. 1128) : un aldéhyde α,β-insaturé ne peut pas donner d'énamine, « l'ion iminium est le terminus de cette condensation », et c'est précisément ce qu'on veut — « une espèce intermédiaire qui est RÉACTIVE, CHIRALE ET ÉNANTIOMÉRIQUEMENT PURE ». La sélectivité vient d'un écran : « le cycle phényle surligné en vert pend au-dessus de l'avant de la molécule, si bien que le pyrrole n'a pas d'autre choix que d'attaquer diastéréosélectivement, par l'arrière » (93 % ee). Et la boucle se referme sur sa propre eau : le produit « est hydrolysé par l'eau engendrée lors de la condensation initiale, révélant l'aldéhyde sous forme énantioenrichie et régénérant l'amine secondaire catalyseur ». Le réglage décisif est la force du nucléophile — « assez fort pour attaquer l'ion iminium chargé positivement mais pas assez fort pour attaquer l'aldéhyde lui-même ». Le catalyseur lui-même est fait « du N-méthylamide de la L-phénylalanine condensé avec un équivalent d'acétone » ; une variante appliquée à un inhibiteur de COX-2 donne 87 % ee et 82 % de rendement avec un indole réagissant « de façon caractéristique en position 3 » (p. 1129)."
+        },
+        {
+          "ouvrage": "clayden",
+          "chapitre": "41 — Aldol reactions catalysed by proline",
+          "pages": "1131",
+          "note": "La portée historique, telle que Clayden la formule : cette réaction est retenue « premièrement parce qu'elle illustre l'emploi d'un composé d'origine biologique SUPRÊMEMENT SIMPLE pour catalyser une réaction complexe, et deuxièmement parce que cette découverte faisait partie de la RÉVOLUTION DE LA PENSÉE CATALYTIQUE qui a lancé le domaine de l'organocatalyse dans les premières années du XXI siècle ». La L-proline s'emploie telle quelle, « sans dérivatisation ni protection ». Et une précision de chronologie qui vaut d'être connue : « c'est en fait dès 1971 qu'on nota que la L-proline catalyse des aldolisations asymétriques, mais jusqu'en l'an 2000 les exemples se limitèrent à cette seule cyclisation ». Trente ans entre l'observation et le domaine. Le mécanisme détaillé est traité dans la fiche « aldolisation à la proline »."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "1 — Multicomponent reactions, § 1.2.1 et § 1.2.2",
+          "pages": "8-9",
+          "note": "La classification par MANIÈRE D'INTERAGIR, que le Clayden ne donne pas (§ 1.2.1) : « ces organocatalyseurs ont différentes façons d'interagir avec les molécules, depuis la formation de liaisons COVALENTES avec les substrats, comme les prolines, jusqu'à l'interaction par LIAISONS HYDROGÈNE, comme les (thio)urées ». L'argument industriel : « les organocatalyseurs contaminent moins et sont moins toxiques que les catalyseurs organométalliques parce qu'ils n'incluent pas de métaux dans leur structure, ce qui est bénéfique pour les industries qui essaient d'éviter les métaux, comme l'industrie pharmaceutique ». Et l'honnêteté du contrepoint (§ 1.2.2) : la catalyse organométallique « donne de bons résultats dans une gamme étendue de réactions, atteignant une combinaison séduisante de temps de réaction courts et d'excellents résultats ; ce domaine est plus développé que les autres ». Le schéma 1.2 (p. 9) montre les deux ensemble : une réaction multicomposants COCATALYSÉE par AgOTf (10 mol%) et la proline (10 mol%) dans l'éthanol."
+        },
+        {
+          "ouvrage": "multicomposants",
+          "chapitre": "2 — Organocatalytic asymmetric multicomponent reactions",
+          "pages": "24, 31",
+          "note": "Le vocabulaire orbitalaire des deux modes, absent du Clayden (p. 31) : MacMillan « rapporta un exemple remarquable d'activation en modes ORTHOGONAUX en termes de catalyse par ABAISSEMENT DE LA LUMO (iminium) et par ÉLÉVATION DE LA HOMO (énamine) ». La même page décrit la catalyse bifonctionnelle non covalente : « le groupe amine tertiaire activerait les α-amino-esters formés in situ pour produire des ylures d'azométhine (ou des énolates), tandis que les nitroalcènes seraient activés par le motif thiourée (urée) par une DOUBLE INTERACTION PAR LIAISON HYDROGÈNE », d'où « une communication synergique » et 94-96 % ee. La page 24 ajoute deux autres modes : un complexe hôte-invité entre la (S)-proline et une thiourée portée par une bipyridine, dont l'état de transition « inclut une interaction non covalente entre le motif thiourée et la fonction carboxylique de la (S)-proline » ; et la catalyse par acide de Brønsted chiral, où un acide phosphorique dérivé du BINOL énolise le composé carbonylé qui attaque ensuite l'imine formée in situ, jusqu'à 98 % ee."
         }
       ],
       "articles_historiques": [],

@@ -231,19 +231,58 @@ L'état au moment où cet outil a été écrit, et il n'était pas flatteur :
 **79 % des fiches ne citaient qu'un seul ouvrage**, et le Clayden
 apparaissait sur 96 % d'entre elles. Le Housecroft, sur une seule.
 
-Aujourd'hui, sur 262 fiches : Clayden 66 %, McMurry 52 %, Grossman 29 %,
-Dugas 17 %, LibreTexts 14 %, **Housecroft 13 %**, **Multicomposants 11 %**,
-Carey & Sundberg 5 %, Roberts & Caserio 4 %. Le mono-sourçage est à **18 %**.
+Aujourd'hui, sur 275 fiches : Clayden 68 %, McMurry 51 %, Grossman 28 %,
+Dugas 17 %, LibreTexts 13 %, **Housecroft 13 %**, **Multicomposants 12 %**,
+Carey & Sundberg 4 %, Roberts & Caserio 4 %. Le mono-sourçage est à **20 %**.
 
-Il est remonté, et la cause est la même que celle déjà décrite plus haut,
-appliquée à un nouveau bloc : **neuf** des quarante-sept fiches mono-sourcées
-tiennent sur le seul Multicomposants, parce que les réactions du bloc
-« multicomposants » sont pour la plupart postérieures aux manuels du corpus —
-Ugi 1959, CuAAC 2001, couplage A³ 1998, Ugi-Smiles années 2000. Ce n'est pas
-un défaut de recherche : chacune de ces fiches NOMME les huit ouvrages muets,
-et plusieurs relaient les faux positifs rencontrés (« Sakurai » dans une
-bibliographie du Carey & Sundberg, « Petasis » désignant le titanocène chez
-Grossman, « hydantoin » désignant la dégradation d'Edman chez McMurry).
+La cause reste celle déjà décrite : neuf des cinquante-quatre fiches
+mono-sourcées tiennent sur le seul Multicomposants, onze sur le seul
+Housecroft, parce que ces blocs s'appuient sur des ouvrages que les autres ne
+recoupent pas. Chacune de ces fiches NOMME les ouvrages muets, et plusieurs
+relaient les faux positifs rencontrés (« Sakurai » dans une bibliographie du
+Carey & Sundberg, « Petasis » désignant le titanocène chez Grossman,
+« hydantoin » désignant la dégradation d'Edman chez McMurry).
+
+### La pente se reprend même quand on connaît la règle
+
+Le bloc « Stratégie » l'a montré, et le cas vaut d'être gardé. Quatre fiches
+y ont été écrites en lisant le chapitre 23 du Clayden d'un bout à l'autre.
+C'est un excellent chapitre, il traite le sujet en entier, et l'on n'a pas
+senti le besoin d'ouvrir autre chose. `mesurer-sources.py --seules` a rendu
+trois d'entre elles mono-sourcées.
+
+Ce que les huit autres ouvrages avaient à dire, une fois interrogés :
+
+- **McMurry chiffrait.** L'éther silylé se pose par une SN2 sur un centre
+  TERTIAIRE, ce qui devrait être impossible ; il donne la raison en deux
+  nombres — C–C 154 pm, C–Si 195 pm (p. 554). Le Clayden explique l'affinité
+  du silicium sans jamais dire pourquoi l'attaque passe.
+- **Grossman ajoutait une serrure.** Le 2-nitrobenzyle est « stable aux bases
+  et aux acides mais PHOTOLABILE » (p. 318). Les trois conditions
+  orthogonales de la fiche en devenaient quatre, et la quatrième est la seule
+  qui n'ajoute rien au milieu.
+- **Dugas contredisait.** Là où Clayden appelle la synthèse peptidique « l'un
+  des domaines les plus fiables et les plus prévisibles de la chimie
+  organique », Dugas signale que la protection elle-même racémise, par
+  formation d'azlactone, et que « l'activité catalytique dépend de
+  l'intégrité optique » (p. 41). Les deux sont vrais ; la fiche ne le disait
+  qu'à moitié.
+- **Housecroft mesurait.** La chimiosélectivité et la régiosélectivité
+  s'énoncent chez lui comme deux RAPPORTS d'hydroformylation, réglables par
+  le seul catalyseur — de n:i ≈ 2:1 à 74:1 entre deux clusters du même métal
+  (p. 789). La fiche définissait les notions sans jamais en donner un nombre.
+
+Et une divergence de vocabulaire qui, seule, aurait fait conclure à un
+silence : **McMurry n'écrit ni « chemoselectivity » ni « stereoselective »,
+et dit « régiochimie » là où Clayden dit « régiosélectivité »** (p. 230).
+Trois mots du corpus qui ne sont pas universels ; on cherche la notion, pas
+le terme.
+
+La leçon n'est pas qu'on a mal travaillé, c'est que **la qualité d'un
+chapitre est ce qui endort.** Un ouvrage incomplet se signale de lui-même ;
+un ouvrage excellent ne se signale pas. D'où la seule parade fiable : faire
+tourner `mesurer-sources.py --seules` À CHAQUE BLOC, avant de committer, et
+non une fois par trimestre.
 
 Ces chiffres se relisent à chaque bloc terminé, et ils se REMPLACENT ici :
 un compte périmé dans ce fichier est pire qu'aucun compte, puisqu'on le

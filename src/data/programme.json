@@ -1672,12 +1672,12 @@
         {
           "nom": "Synthèse asymétrique : auxiliaires chiraux",
           "niveau": "M2",
-          "id": null
+          "id": "synthese_asymetrique_auxiliaires"
         },
         {
           "nom": "Organocatalyse",
           "niveau": "M2",
-          "id": null
+          "id": "organocatalyse"
         }
       ],
       "bloc": "Méthodes et matériaux"
