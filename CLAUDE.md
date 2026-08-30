@@ -1125,6 +1125,24 @@ séance interrompue ne doit pas être perdue.
 - **Les schémas débordaient de l'écran.** Ils font 300 px intrinsèques, et
   `min-width: 0` sur l'enfant flex ne suffit pas : il faut `width: 100%`
   sur l'image. Mesuré à 390 px et à 320 px.
+- **Les six boîtes n'étaient pas au même niveau.** La grille alignait les
+  colonnes par le BAS, et « à revoir » était le seul des six intitulés à
+  ne pas tenir sur une ligne : sa colonne dépassait donc vers le haut, et
+  son rectangle ne se trouvait plus au niveau des cinq autres. Le défaut
+  ne se voyait ni sur un écran large, où l'intitulé tient, ni dans aucun
+  contrôle — `npm run affichage` mesure les débordements et les cibles
+  tactiles, pas l'alignement de six éléments entre eux.
+
+  Deux corrections, et la seconde compte plus que la première. On aligne
+  par le HAUT, de sorte qu'un intitulé qui passe à la ligne ne déplace
+  plus son rectangle. Et l'on donne à tous les intitulés la MÊME forme —
+  un délai, de « 0 j » à « 60 j » —, la légende « à revoir dans… » portant
+  le sens que « à revoir » portait seul. Sans cela, à 150 % de texte sur
+  un écran de 320 px, le mot se coupait en « À / REV / OIR ».
+
+  La leçon vaut au-delà : **un intitulé plus long que ses voisins déforme
+  une grille**, et c'est le genre de défaut qu'on ne voit qu'en regardant
+  l'écran à la taille de texte d'un autre.
 - **Une page blanche, de nouveau, et pour une faute d'outillage.** Un
   `{NB}` destiné à une insécable est parti LITTÉRALEMENT dans le JSX, où
   React l'évalue comme une variable : `ReferenceError: NB is not defined`,

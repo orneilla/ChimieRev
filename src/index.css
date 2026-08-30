@@ -1725,6 +1725,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 /* Les six boîtes de Leitner, en colonnes. Une barre par boîte : on voit
    d'un coup si l'on stagne à gauche (tout est à revoir) ou si l'on
    remplit la droite (tout est acquis). */
+/* Les colonnes s'alignent par le HAUT, et non par le bas.
+   Alignées par le bas, une colonne dont l'intitulé passe à la ligne — « à
+   revoir » est le seul des six à ne pas tenir sur une ligne à 390 px —
+   dépasse vers le haut, et son rectangle ne se trouve plus au niveau des
+   cinq autres. Le défaut se voyait sur un téléphone et pas sur un écran
+   large, où l'intitulé tient. */
 .quiz-boites {
   list-style: none;
   margin: 0 0 0.75rem;
@@ -1732,7 +1738,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 0.35rem;
-  align-items: end;
+  align-items: start;
 }
 
 .quiz-boites li {
@@ -1760,13 +1766,24 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 .boite-delai {
   font-size: 0.62rem;
+  line-height: 1.25;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--encre-doux);
   text-align: center;
-  /* « à revoir » est le plus long des six intitulés : sans coupure il
-     élargit sa colonne et déforme la grille sur un écran étroit. */
-  overflow-wrap: anywhere;
+  /* Les six intitulés ont désormais la même forme — « 0 j » à « 60 j » —
+     et l'insécable entre le nombre et le « j » les rend insécables. Plus
+     rien à couper, donc plus de « À / REV / OIR » à 150 % de texte, et
+     toutes les colonnes ont exactement la même hauteur. */
+  white-space: nowrap;
+}
+
+.quiz-boites-legende {
+  margin: 0 0 0.4rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--encre-doux);
 }
 
 .boite-vide .boite-compte { color: var(--encre-doux); }

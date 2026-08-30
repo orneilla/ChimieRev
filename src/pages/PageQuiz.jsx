@@ -153,6 +153,7 @@ export default function PageQuiz() {
           </p>
         ) : (
           <>
+            <p className="quiz-boites-legende">À revoir dans…</p>
             <ul className="quiz-boites">
               {bilan.parBoite.map((combien, boite) => (
                 <li key={boite} className={combien ? '' : 'boite-vide'}>
@@ -166,9 +167,12 @@ export default function PageQuiz() {
                     />
                   </span>
                   <span className="boite-compte">{combien}</span>
-                  <span className="boite-delai">
-                    {DELAIS[boite] === 0 ? 'à revoir' : `${DELAIS[boite]} j`}
-                  </span>
+                  {/* Tous les intitulés ont la MÊME forme — un délai en
+                      jours — et la légende au-dessus porte le sens. Le
+                      premier disait « à revoir », seul des six à ne pas
+                      tenir sur une ligne : à 150 % de texte sur un écran
+                      de 320 px, il se coupait en « À / REV / OIR ». */}
+                  <span className="boite-delai">{DELAIS[boite]} j</span>
                 </li>
               ))}
             </ul>
