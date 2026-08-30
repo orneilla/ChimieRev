@@ -541,6 +541,6 @@ même principe (schémas déjà en place, leur affichage viendra plus tard).
 | 5 | Bascule Comprendre / Référence *(arrivée en avance)* | ✅ fait |
 | — | Sources vérifiées sur chaque fiche | ✅ fait |
 | 2 | Structures 2D dessinées (RDKit-JS) | ✅ fait |
-| 3 | 3D interactive et orbitales (3Dmol.js) | à venir |
-| 4 | Flashcards et quiz (progression en `localStorage`) | à venir |
+| 3 | ~~3D interactive et orbitales (3Dmol.js)~~ | ❌ abandonnée |
+| 4 | Quiz engendré à partir des fiches (progression en `localStorage`) | en cours |
 | 6 | Remplissage de toutes les familles de réactions | à venir |

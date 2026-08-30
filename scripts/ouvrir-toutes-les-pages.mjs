@@ -39,6 +39,7 @@ const pages = [
   { url: '/#/', quoi: 'accueil' },
   { url: '/#/programme', quoi: 'programme' },
   { url: '/#/reactifs', quoi: 'le magasin' },
+  { url: '/#/quiz', quoi: 'le quiz' },
   { url: '/#/a-propos', quoi: 'à propos' },
   ...reactions.map((r) => ({ url: `/#/reaction/${r.id}`, quoi: `réaction ${r.id}` })),
   ...reactifs.map((r) => ({ url: `/#/reactif/${r.id}`, quoi: `réactif ${r.id}` })),

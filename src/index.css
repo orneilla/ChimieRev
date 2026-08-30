@@ -921,6 +921,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .liste-phases li.fait { color: var(--encre); }
 .liste-phases li.fait::before { content: '●'; color: var(--vert); }
 
+/* Une phase abandonnée n'est pas une phase en retard : elle ne viendra
+   pas. Le rond vide dirait « à venir » ; la croix dit ce qu'il en est.
+   Un lecteur qui a lu « Phase 3 — à venir » mérite de l'apprendre. */
+.liste-phases li.abandonne::before { content: '✕'; color: var(--framboise); }
+.liste-phases li.abandonne strong { text-decoration: line-through; }
+
 /* ---------- Pied de page ---------- */
 
 .pied-de-page {
@@ -1509,4 +1515,201 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .lien-condition:focus-visible {
   text-decoration-style: solid;
   color: var(--encre);
+}
+
+
+/* ============================================================
+   LE QUIZ
+   ------------------------------------------------------------
+   Les questions sont engendrées, pas écrites : voir src/quiz.js.
+   Ce qui suit ne règle que leur présentation.
+   ============================================================ */
+
+.quiz-reglages {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  flex-wrap: wrap;
+}
+
+.quiz-reglages label { font-weight: 700; }
+
+.quiz-reglages select {
+  flex: 1 1 14rem;
+  min-width: 0;                 /* sinon un intitulé long pousse la page dehors */
+  font: inherit;
+  padding: 0.5rem 0.6rem;
+  color: var(--encre);
+  background: var(--carte);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+}
+
+.quiz-question { border-left: 6px solid var(--couleur); }
+
+.quiz-progression {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--encre-doux);
+}
+
+.quiz-score { color: var(--encre); }
+
+/* L'énoncé : le substrat, puis les conditions. Sur téléphone les deux
+   s'empilent ; dès qu'il y a la place, ils se lisent de gauche à droite,
+   comme une équation. */
+.quiz-enonce {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.quiz-enonce figure { margin: 0; flex: 1 1 12rem; min-width: 0; max-width: 320px; }
+.quiz-enonce figcaption {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--encre-doux);
+  text-align: center;
+}
+
+.quiz-conditions { flex: 1 1 12rem; min-width: 0; }
+.quiz-conditions ul { margin: 0; padding-left: 1.1rem; }
+.quiz-conditions li { overflow-wrap: break-word; }
+
+.quiz-fleche {
+  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--couleur, var(--encre));
+}
+
+.quiz-solvant {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  color: var(--encre-doux);
+}
+
+.quiz-etiquette {
+  display: inline-block;
+  margin-right: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Les quatre propositions. Deux colonnes dès qu'elles tiennent : côte à
+   côte, les molécules se comparent ; l'une sous l'autre, il faut faire
+   défiler pour les revoir, et l'on compare de mémoire. */
+.quiz-choix {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 30rem) {
+  .quiz-choix { grid-template-columns: 1fr 1fr; }
+}
+
+.choix {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: var(--carte);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  cursor: pointer;
+  /* 40 px minimum pour une cible tactile : le contrôle d'affichage le
+     mesure, et une image basse suffirait à passer sous le seuil. */
+  min-height: 44px;
+}
+
+/* Sans largeur imposée, l'image garde ses 300 px intrinsèques et pousse
+   la carte — donc la page — hors de l'écran : mesuré à 390 px et à
+   320 px. `min-width: 0` seul ne suffit pas sur un enfant flex portant
+   une image. */
+.choix img {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.choix:hover:not(:disabled) { background: var(--creme-fonce); }
+.choix:disabled { cursor: default; }
+
+.choix-lettre {
+  flex: 0 0 auto;
+  width: 1.7rem;
+  height: 1.7rem;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  background: var(--creme-fonce);
+  border-radius: 50%;
+}
+
+/* Après la réponse : on montre la bonne, on montre celle qu'on a donnée,
+   et l'on éteint le reste. Le trait épais et le fond disent la même chose
+   deux fois, pour qui ne distingue pas le vert du rouge. */
+.choix-bon { border-width: 4px; background: #E8F3E3; }
+.choix-bon .choix-lettre { background: var(--vert); }
+.choix-mauvais { border-width: 4px; border-color: var(--framboise); background: #FBE7EB; }
+.choix-mauvais .choix-lettre { background: var(--framboise); color: #FFF; }
+.choix-eteint { opacity: 0.45; }
+
+.quiz-correction { margin-top: 1.5rem; }
+
+.quiz-verdict-bon,
+.quiz-verdict-mauvais {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.quiz-verdict-bon { color: #3F7A2C; }
+.quiz-verdict-mauvais { color: var(--framboise); }
+
+.bouton-primaire {
+  margin-top: 1.25rem;
+  padding: 0.7rem 1.2rem;
+  font: inherit;
+  font-weight: 700;
+  color: var(--creme);
+  background: var(--encre);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.bouton-primaire:hover { background: var(--encre-doux); }
+
+.quiz-recapitulatif {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}
+
+.quiz-recapitulatif li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--bordure);
 }

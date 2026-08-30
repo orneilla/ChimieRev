@@ -53,6 +53,16 @@ mkdirSync(DOSSIER, { recursive: true })
 const manifeste = {}
 const echecs = []
 
+// Le SMILES canonique de chaque produit, retenu en passant.
+//
+// Il ne sert pas au dessin : il sert au QUIZ. Deux réactions différentes
+// peuvent avoir le même produit — plusieurs réductions rendent le même
+// alcool —, et proposer l'une comme mauvaise réponse à l'autre donnerait
+// une question à DEUX bonnes réponses, sans que rien ne le signale. Deux
+// SMILES ne se comparent pas signe pour signe : « OCC » et « CCO » sont la
+// même molécule. Seule la forme canonique tranche, et seul RDKit la donne.
+const canoniques = {}
+
 /** Dessine une molécule et renvoie le nom du fichier, ou null si échec. */
 function dessiner(smiles, nomFichier, largeur = 300, hauteur = 180) {
   const molecule = RDKit.get_mol(smiles)
@@ -66,6 +76,7 @@ function dessiner(smiles, nomFichier, largeur = 300, hauteur = 180) {
   }
 
   const svg = molecule.get_svg_with_highlights(options(largeur, hauteur))
+  canoniques[nomFichier] = molecule.get_smiles()
   molecule.delete()
 
   writeFileSync(`${DOSSIER}/${nomFichier}.svg`, svg)
@@ -75,7 +86,13 @@ function dessiner(smiles, nomFichier, largeur = 300, hauteur = 180) {
 for (const reaction of reactions) {
   const substrat = dessiner(reaction.substrat_SMILES, `${reaction.id}-substrat`)
   const produit = dessiner(reaction.produit_SMILES, `${reaction.id}-produit`)
-  manifeste[reaction.id] = { substrat, produit }
+  manifeste[reaction.id] = {
+    substrat,
+    produit,
+    // Ce que le quiz compare pour ne pas offrir deux fois la bonne réponse.
+    substrat_canonique: canoniques[`${reaction.id}-substrat`] || null,
+    produit_canonique: canoniques[`${reaction.id}-produit`] || null
+  }
 }
 
 for (const reactif of reactifs) {
@@ -99,6 +116,12 @@ for (const solvant of solvants) {
 
 writeFileSync('src/data/structures.json', JSON.stringify(manifeste, null, 2) + '\n')
 
-const dessinees = Object.values(manifeste).flatMap(Object.values).filter(Boolean).length
+// On compte les FICHIERS, non les valeurs du manifeste : celui-ci porte
+// aussi les SMILES canoniques, qui ne sont pas des dessins. Compter tout
+// gonflait l'annonce de 550 — un compteur qui ment est pire qu'aucun.
+const dessinees = Object.values(manifeste)
+  .flatMap((entree) => Object.entries(entree))
+  .filter(([cle, valeur]) => valeur && cle.endsWith('.svg') === false && !cle.endsWith('_canonique'))
+  .length
 console.log(`✓ ${dessinees} structures dessinées dans ${DOSSIER}/`)
 if (echecs.length) console.log('⚠ non dessinées :\n  ' + echecs.join('\n  '))

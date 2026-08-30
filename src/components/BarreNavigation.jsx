@@ -1,11 +1,11 @@
 // En-tête de l'application + bande des couleurs de familles.
 //
 // SUR TÉLÉPHONE, le menu est replié derrière un bouton à trois barres :
-// l'en-tête est collant (il suit le défilement), et quatre intitulés
+// l'en-tête est collant (il suit le défilement), et cinq intitulés
 // dépliés lui prenaient 126 px de haut — sur un écran de 844 px, c'est
 // un septième de la page perdu en permanence.
 //
-// SUR TABLETTE ET ORDINATEUR, la place ne manque pas : les quatre entrées
+// SUR TABLETTE ET ORDINATEUR, la place ne manque pas : les cinq entrées
 // restent visibles. Un menu qu'on voit vaut toujours mieux qu'un menu
 // qu'il faut deviner ; on ne le replie que lorsqu'on n'a pas le choix.
 import { useEffect, useRef, useState } from 'react'
@@ -15,6 +15,7 @@ import { COULEURS_FAMILLES } from '../couleurs.js'
 const ENTREES = [
   { to: '/', libelle: 'Réactions', exact: true },
   { to: '/reactifs', libelle: 'Réactifs' },
+  { to: '/quiz', libelle: 'Quiz' },
   { to: '/programme', libelle: 'Programme' },
   { to: '/a-propos', libelle: 'À propos' }
 ]

@@ -982,7 +982,93 @@ exactement le mensonge inverse de celui qu'on vient de corriger.
 shift » ne rend rien, « gas shift » rend quatre pages. Le tiret, une fois de
 plus.
 
+## Le quiz : des questions ENGENDRÉES, jamais écrites
+
+`src/quiz.js` déduit les questions des champs déjà présents dans
+`reactions.json`. Aucune question n'existe dans les données, et c'est une
+contrainte, pas une commodité : **écrire une fiche, c'est écrire ses
+questions**, et corriger une fiche corrige ses questions du même coup. Une
+banque tenue à la main aurait dérivé dès la première correction.
+
+Le module ne contient AUCUN affichage. `scripts/tester-quiz.mjs` l'éprouve
+sans navigateur, ce qui permet d'examiner les 275 fiches d'un coup ; il
+tourne dans `npm run build`, après le dessin des structures dont il dépend.
+Comme le vérificateur de mécanismes, **il se teste lui-même** : sept
+questions fautives lui sont tendues, il doit les refuser toutes.
+
+### Le piège : deux réactions peuvent avoir le même produit
+
+Trente produits sont partagés par plusieurs fiches de cette base ; trois
+réactions rendent l'éthanol. Proposer l'une comme mauvaise réponse à
+l'autre donne une question à DEUX bonnes réponses — que l'élève marquerait
+fausse à raison, sans que rien ne le signale à personne.
+
+Deux SMILES ne se comparent pas signe pour signe : `OCC` et `CCO` sont la
+même molécule. Seule la forme canonique tranche, et seul RDKit la donne.
+D'où le champ `produit_canonique` ajouté à `structures.json` au moment du
+dessin — RDKit y est déjà chargé, cela ne coûte rien.
+
+**Et écarter les distracteurs égaux à la BONNE RÉPONSE ne suffit pas.** Le
+premier générateur le faisait, et le testeur l'a pris en défaut sur
+l'élimination de Peterson : deux MAUVAISES réponses rendaient toutes deux
+le 2-méthylpropène. On retient donc les distracteurs un à un, en refusant
+toute empreinte déjà prise — celle de la bonne réponse comme celles des
+précédents.
+
+### Le réglage de la difficulté tire dans deux sens
+
+Un distracteur pris au hasard dans toute la base est ABSURDE : un seul des
+quatre produits ressemble au substrat, et l'on répond juste sans rien
+savoir. Pris uniquement dans la même famille, il devient parfois
+indiscernable. On épuise donc la famille d'abord, puis on complète ailleurs.
+
+### Le tirage est reproductible
+
+`Math.random` ne convient pas : React rend plus d'une fois, et deux rendus
+donneraient deux questions différentes. Une question est donc une FONCTION
+de sa graine (mulberry32), et la série se recalcule sous `useMemo` — sans
+quoi chaque clic rebattrait les questions.
+
+### Ce que l'écran a corrigé, et que les tests ne voyaient pas
+
+- **Le champ `selectivite` affiché en entier enterrait le bouton
+  « question suivante ».** C'est le texte de référence de la fiche, dix
+  paragraphes par endroits. Après une réponse on veut la RAISON en une
+  phrase et un lien vers la fiche — pas le cours. On n'affiche donc que son
+  premier paragraphe, qui est justement l'amorce en capitales énonçant la
+  règle.
+- **`dans {solvant}` heurtait une majuscule.** Le champ est parfois une
+  phrase entière (« Solvant non polaire, tétrachlorométhane… »). Un
+  intitulé « SOLVANT » règle le cas quelle que soit la forme du champ.
+- **Les schémas débordaient de l'écran.** Ils font 300 px intrinsèques, et
+  `min-width: 0` sur l'enfant flex ne suffit pas : il faut `width: 100%`
+  sur l'image. Mesuré à 390 px et à 320 px.
+
 ## Ce qui reste à faire
 
-Phase 3 — 3D interactive et orbitales. Phase 4 — flashcards et exercices.
-Phase 6 — les réactions du programme encore à écrire.
+Le quiz : les quatre autres types de questions — quel réactif réalise cette
+transformation, quel solvant, quel piège, et remettre les étapes du
+mécanisme dans l'ordre. Phase 6 — les réactions du programme encore à
+écrire.
+
+### La 3D et les orbitales sont ABANDONNÉES
+
+Décision prise, et définitive : ni molécules en trois dimensions, ni
+diagrammes HOMO/LUMO. Ce n'est pas un report — la ligne sort de la feuille
+de route, et il ne faut pas la réintroduire.
+
+Aucun code n'avait été écrit : il n'y avait que la promesse, à trois
+endroits (la page « À propos », le tableau du README, cette section). Les
+trois disent maintenant l'abandon plutôt que de le taire, parce qu'un
+lecteur qui a vu « Phase 3 — à venir » mérite de savoir qu'elle ne viendra
+pas.
+
+La raison, pour qu'on ne rouvre pas le débat : **ce que ces fiches doivent
+faire comprendre se lit sur un schéma plan et des flèches.** Une molécule
+qu'on fait tourner à l'écran impressionne sans rien démontrer de plus, et
+elle coûterait une dépendance lourde, un contrôle de lisibilité entièrement
+nouveau, et des heures que la rédaction des fiches emploie mieux.
+
+Le vocabulaire orbitalaire reste dans les FICHES — la σ* de Br–Br, la HOMO
+du cyanure, l'orbitale p vide du bore. C'est de la chimie, pas la
+fonctionnalité abandonnée.
