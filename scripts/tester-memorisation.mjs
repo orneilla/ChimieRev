@@ -168,6 +168,151 @@ const dire = (ok, quoi) => { if (!ok) anomalies.push(quoi) }
 }
 function jourDe(n) { return `${n} jours` }
 
+// ————— 4 bis. LA RÉVISION DU JOUR —————
+{
+  const T = Date.UTC(2026, 2, 15, 9, 0)   // un matin quelconque
+
+  // Le paquet est STABLE dans la journée : c'est ce qui permet de le
+  // reprendre là où on l'a laissé plutôt que de le recommencer.
+  const matin = quiz.paquetDuJour({ etat: {}, maintenant: T })
+  const midi = quiz.paquetDuJour({ etat: {}, maintenant: T + 5 * 3600e3 })
+  const soir = quiz.paquetDuJour({ etat: {}, maintenant: T + 11 * 3600e3 })
+  const ids = (p) => p.reactions.map((r) => r.id).join(',')
+  dire(ids(matin) === ids(midi) && ids(midi) === ids(soir),
+    'le paquet du jour change au cours de la journée : on le recommencerait sans le savoir.')
+
+  // Et il CHANGE d'un jour à l'autre.
+  const lendemain = quiz.paquetDuJour({ etat: {}, maintenant: T + JOUR })
+  dire(ids(matin) !== ids(lendemain), 'le paquet est le même deux jours de suite.')
+
+  // Taille : entre 5 et 10, toujours.
+  for (const p of [matin, lendemain]) {
+    dire(p.reactions.length >= quiz.PAQUET_MINIMUM && p.reactions.length <= quiz.PAQUET_MAXIMUM,
+      `un paquet de ${p.reactions.length} réactions sort des bornes ${quiz.PAQUET_MINIMUM}-${quiz.PAQUET_MAXIMUM}.`)
+    dire(new Set(p.reactions.map((r) => r.id)).size === p.reactions.length,
+      'une réaction figure deux fois dans le même paquet.')
+    dire(p.questions.length === p.reactions.length,
+      'le paquet n\'engendre pas une question par réaction.')
+  }
+
+  // Le premier jour, tout est neuf : le paquet vaut le minimum.
+  dire(matin.dues === 0 && matin.neuves === matin.reactions.length,
+    'le tout premier paquet devrait n\'être fait que de nouveautés.')
+  dire(matin.reactions.length === quiz.PAQUET_MINIMUM,
+    `sans rien de dû, le paquet devrait valoir le minimum, il en fait ${matin.reactions.length}.`)
+
+  // UNE NOUVEAUTÉ NE DÉLOGE JAMAIS UNE RÉVISION DUE.
+  // On fabrique un arriéré de vingt réactions échues.
+  let etat = {}
+  const vingt = reactions.filter((r) => quiz.admissibleProduit(r)).slice(0, 20)
+  for (const r of vingt) etat = M.enregistrer(etat, r.id, false, T - 3 * JOUR)
+  const charge = quiz.paquetDuJour({ etat, maintenant: T })
+  dire(charge.reactions.length === quiz.PAQUET_MAXIMUM,
+    `avec vingt réactions échues, le paquet devrait être plein (${charge.reactions.length}).`)
+  dire(charge.neuves === 0,
+    `${charge.neuves} nouveauté(s) se sont glissées alors que vingt révisions attendaient.`)
+  dire(charge.duesRestantes === 10,
+    `le reste à faire devrait être de 10, il annonce ${charge.duesRestantes}.`)
+
+  // Avec peu de dû, le neuf comble — mais sans dépasser deux.
+  let leger = {}
+  for (const r of vingt.slice(0, 3)) leger = M.enregistrer(leger, r.id, false, T - JOUR)
+  const p3 = quiz.paquetDuJour({ etat: leger, maintenant: T })
+  dire(p3.dues === 3, `trois réactions étaient échues, le paquet en compte ${p3.dues}.`)
+  dire(p3.neuves === 2, `le paquet devrait ajouter deux nouveautés, il en ajoute ${p3.neuves}.`)
+  dire(p3.reactions.length === 5, `le paquet devrait faire 5, il fait ${p3.reactions.length}.`)
+
+  // Rien à faire du tout : un paquet vide est un résultat, pas une panne.
+  const toutSu = {}
+  for (const r of reactions.filter((r) => quiz.admissibleProduit(r))) {
+    toutSu[r.id] = { boite: 5, vues: 5, justes: 5, le: T, du: T + 60 * JOUR }
+  }
+  const vide = quiz.paquetDuJour({ etat: toutSu, maintenant: T })
+  dire(vide.reactions.length === 0,
+    `tout étant su et rien échu, le paquet devrait être vide, il fait ${vide.reactions.length}.`)
+}
+
+// ————— 4 quater. QUATRE-VINGT-DIX JOURS DE « RÉVISION DU JOUR » —————
+//
+// La question que cette simulation tranche : le paquet quotidien
+// laisse-t-il s'installer un arriéré ? C'est le défaut qui avait rendu le
+// premier ordonnancement inutilisable, et le paquet ajoute deux
+// nouveautés les jours calmes — il faut donc revérifier.
+{
+  const suivant = quiz.tirage(31415)
+  const admissibles = reactions.filter((r) => quiz.admissibleProduit(r))
+  const ids = admissibles.map((r) => r.id)
+  let etat = {}
+  let journal = M.journalNeuf()
+  let t = Date.UTC(2026, 0, 1, 9, 0)
+  let posees = 0
+  let tailles = []
+
+  for (let jour = 0; jour < 90; jour++) {
+    const p = quiz.paquetDuJour({ etat, maintenant: t })
+    tailles.push(p.reactions.length)
+    let justes = 0
+    for (const q of p.questions) {
+      const juste = suivant() < 0.7
+      if (juste) justes++
+      etat = M.enregistrer(etat, q.reaction, juste, t)
+      posees++
+    }
+    if (p.questions.length) {
+      journal = M.noterLeJour(journal, M.jourCivil(t), { posees: p.questions.length, justes })
+    }
+    t += JOUR
+  }
+
+  const stat = M.statistiques(etat, ids, t)
+  const serie = M.serieDeJours(journal, M.jourCivil(t - JOUR))
+
+  dire(Math.min(...tailles) >= quiz.PAQUET_MINIMUM || Math.min(...tailles) === 0,
+    `un paquet est descendu à ${Math.min(...tailles)} réactions.`)
+  dire(Math.max(...tailles) <= quiz.PAQUET_MAXIMUM,
+    `un paquet est monté à ${Math.max(...tailles)} réactions.`)
+  dire(stat.acquises > 0, '90 paquets quotidiens n\'ont fait acquérir aucune réaction.')
+  dire(stat.echues <= quiz.PAQUET_MAXIMUM * 2,
+    `${stat.echues} réactions en retard : l'arriéré s'installe malgré le plafond du paquet.`)
+  dire(serie === 90, `la série devrait valoir 90 jours, elle vaut ${serie}.`)
+
+  console.log(
+    `  révision du jour : ${posees} questions en 90 jours ` +
+    `(paquets de ${Math.min(...tailles)} à ${Math.max(...tailles)}), ` +
+    `${stat.vues} vues, ${stat.acquises} acquises, ${stat.echues} échues, série ${serie} jours`
+  )
+}
+
+// ————— 4 ter. LE JOURNAL DES JOURS ET LA SÉRIE —————
+{
+  const j = (a, m, d) => M.jourCivil(new Date(a, m - 1, d, 12).getTime())
+  dire(M.jourPrecedent(j(2026, 3, 1)) === j(2026, 2, 28),
+    'le jour précédant le 1er mars 2026 devrait être le 28 février.');
+  dire(M.jourPrecedent(j(2026, 1, 1)) === j(2025, 12, 31),
+    'le passage d\'une année à l\'autre est faux.')
+
+  let journal = M.journalNeuf()
+  dire(M.serieDeJours(journal, j(2026, 3, 10)) === 0, 'un journal vide devrait donner une série de 0.')
+
+  // Trois jours de suite, puis on regarde depuis le quatrième.
+  for (const d of [7, 8, 9]) journal = M.noterLeJour(journal, j(2026, 3, d), { posees: 5, justes: 4 })
+  dire(M.serieDeJours(journal, j(2026, 3, 9)) === 3,
+    `trois jours faits d'affilée devraient donner 3, on obtient ${M.serieDeJours(journal, j(2026, 3, 9))}.`)
+
+  // Le matin du 10, la série tient encore : le jour n'est pas fini.
+  dire(M.serieDeJours(journal, j(2026, 3, 10)) === 3,
+    'ouvrir l\'application le lendemain matin ne doit pas remettre la série à zéro.')
+
+  // Mais si l'on saute le 10 et qu'on revient le 11, elle est rompue.
+  dire(M.serieDeJours(journal, j(2026, 3, 11)) === 0,
+    'un jour sauté devrait rompre la série.')
+
+  // Un trou au milieu ne compte pas les jours d'avant.
+  journal = M.noterLeJour(journal, j(2026, 3, 11), { posees: 5, justes: 5 })
+  dire(M.serieDeJours(journal, j(2026, 3, 11)) === 1,
+    'après un trou, la série repart de 1.')
+}
+
 // ————— 5. le stockage résiste à ce qu'on lui donne de travers —————
 {
   // Pas de localStorage du tout : on révise sans mémoire, on ne casse pas.

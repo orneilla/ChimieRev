@@ -58,6 +58,7 @@ const PAGES = [
   { nom: 'un solvant', route: '#/solvant/acetone' },
   { nom: 'programme', route: '#/programme' },
   { nom: 'quiz', route: '#/quiz' },
+  { nom: 'révision du jour', route: '#/revision' },
   { nom: 'à propos', route: '#/a-propos' }
 ]
 

@@ -9,6 +9,7 @@ import PageReactifs from './pages/PageReactifs.jsx'
 import PageDetailOutil from './pages/PageDetailOutil.jsx'
 import PageProgramme from './pages/PageProgramme.jsx'
 import PageQuiz from './pages/PageQuiz.jsx'
+import PageRevisionDuJour from './pages/PageRevisionDuJour.jsx'
 import PageDetailReaction from './pages/PageDetailReaction.jsx'
 import PageAPropos from './pages/PageAPropos.jsx'
 
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/reactifs" element={<PageReactifs />} />
           <Route path="/reactif/:id" element={<PageDetailOutil genre="reactif" />} />
           <Route path="/solvant/:id" element={<PageDetailOutil genre="solvant" />} />
+          <Route path="/revision" element={<PageRevisionDuJour />} />
           <Route path="/quiz" element={<PageQuiz />} />
           <Route path="/programme" element={<PageProgramme />} />
           <Route path="/a-propos" element={<PageAPropos />} />

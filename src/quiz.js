@@ -12,7 +12,7 @@
 // ferait.
 import reactions from './data/reactions.json'
 import structures from './data/structures.json'
-import { ordonner } from './memorisation.js'
+import { ordonner, rang, graineDuJour, jourCivil } from './memorisation.js'
 
 const NB_CHOIX = 4
 
@@ -237,4 +237,86 @@ export function serie({ graine, combien = 10, famille = null, etat = null, maint
   return ordre.slice(0, combien).map((reaction, rang) =>
     questionProduit(reaction, tirage(graine + rang * 7919))
   )
+}
+
+
+// ————————————————————————————————————————————————————————————
+// LA RÉVISION DU JOUR
+// ————————————————————————————————————————————————————————————
+
+export const PAQUET_MINIMUM = 5
+export const PAQUET_MAXIMUM = 10
+export const NEUVES_PAR_PAQUET = 2
+
+/**
+ * Ce que contient le paquet du jour, avant d'engendrer les questions.
+ *
+ * LA RÈGLE QUI COMMANDE TOUT : une nouveauté ne déloge JAMAIS une
+ * révision due. On mesure ailleurs (voir memorisation.js) qu'une part
+ * fixe réservée au neuf fait grossir l'arriéré jusqu'à le rendre
+ * insignifiant — 142 réactions en retard pour 2 nouvelles sur 10, 253
+ * pour 3. Le neuf ne prend donc que la place que les révisions laissent.
+ *
+ * D'où trois temps :
+ *
+ *   1. on prend les révisions ÉCHUES, les plus urgentes d'abord, jusqu'à
+ *      dix — c'est le plafond, et il protège de la séance interminable
+ *      les jours où l'on revient après une semaine d'absence ;
+ *   2. s'il reste de la place, on ajoute UNE OU DEUX nouveautés, pour que
+ *      le programme avance les jours calmes ;
+ *   3. si l'on n'atteint toujours pas cinq, on complète en nouveautés —
+ *      un paquet de deux questions ne fait pas une habitude.
+ *
+ * Un paquet vide est un résultat légitime : tout est su et rien n'est
+ * échu. La page le dit alors, au lieu d'inventer des questions.
+ */
+export function composerLePaquet({ etat, maintenant, famille = null }) {
+  const disponibles = vivier(famille)
+  const suivant = tirage(graineDuJour(jourCivil(maintenant)))
+
+  const dues = []
+  const neuves = []
+  for (const r of ordonner(disponibles, etat, maintenant, suivant)) {
+    const rg = rang(etat[r.id], maintenant)
+    if (rg === 0 || rg === 1) dues.push(r)
+    else if (rg === 2) neuves.push(r)
+  }
+
+  const retenues = dues.slice(0, PAQUET_MAXIMUM)
+  const place = PAQUET_MAXIMUM - retenues.length
+  const combienDeNeuves = Math.min(
+    neuves.length,
+    // La place disponible, bornée à deux — sauf s'il faut atteindre le
+    // minimum, auquel cas on en prend davantage.
+    Math.max(Math.min(NEUVES_PAR_PAQUET, place), PAQUET_MINIMUM - retenues.length)
+  )
+  retenues.push(...neuves.slice(0, Math.max(0, combienDeNeuves)))
+
+  return {
+    reactions: retenues,
+    dues: Math.min(dues.length, PAQUET_MAXIMUM),
+    neuves: Math.max(0, retenues.length - Math.min(dues.length, PAQUET_MAXIMUM)),
+    // Ce que le paquet ne couvre pas : utile pour dire « il en reste ».
+    duesRestantes: Math.max(0, dues.length - PAQUET_MAXIMUM)
+  }
+}
+
+/**
+ * Le paquet du jour, questions comprises.
+ *
+ * La graine vient du JOUR CIVIL, non de l'instant : rouvrir
+ * l'application à midi doit rendre exactement le même paquet que le
+ * matin, sans quoi l'élève recommencerait sans le savoir.
+ */
+export function paquetDuJour({ etat, maintenant = Date.now(), famille = null }) {
+  const compo = composerLePaquet({ etat, maintenant, famille })
+  const jour = jourCivil(maintenant)
+  const base = graineDuJour(jour)
+  return {
+    ...compo,
+    jour,
+    questions: compo.reactions.map((reaction, i) =>
+      questionProduit(reaction, tirage(base + i * 7919))
+    )
+  }
 }

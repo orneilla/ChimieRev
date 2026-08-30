@@ -1076,6 +1076,41 @@ réactions vues » — critère que le PIRE ordonnancement satisfaisait le
 mieux. Il vérifie désormais qu'on acquiert, et que l'arriéré ne
 s'installe pas.
 
+### La révision du jour : un paquet court, figé pour la journée
+
+`composerLePaquet` dans `src/quiz.js`, le journal des jours dans
+`src/memorisation.js`, la page dans `PageRevisionDuJour.jsx`.
+
+**La règle qui commande la composition : une nouveauté ne déloge JAMAIS
+une révision due.** C'est la conséquence directe du tableau ci-dessus. Le
+paquet se compose donc en trois temps :
+
+1. les révisions ÉCHUES, les plus urgentes d'abord, **jusqu'à dix** ;
+2. s'il reste de la place, **une ou deux nouveautés**, pour que le
+   programme avance les jours calmes ;
+3. si l'on n'atteint pas cinq, on complète en nouveautés — un paquet de
+   deux questions ne fait pas une habitude.
+
+Le plafond de dix protège surtout les RETOURS APRÈS UNE ABSENCE : au bout
+d'une semaine, quarante réactions sont échues, et les proposer toutes
+ferait abandonner. La page dit alors combien il en reste au-delà du
+paquet, plutôt que de le cacher.
+
+Simulé sur 90 jours à 70 % de réussite : 849 questions, paquets de 5 à
+10, 39 réactions acquises, **9 en retard**. Le plafond ne crée donc pas
+l'arriéré qu'on pouvait craindre.
+
+**Le paquet est FIGÉ POUR LA JOURNÉE.** Sa graine vient du jour civil
+LOCAL — non de l'instant, et non d'UTC : sinon le paquet changerait à 1 h
+ou 2 h du matin selon la saison, au milieu d'une soirée de révision.
+Rouvrir l'application à midi rend exactement le paquet du matin.
+
+**La série de jours ne se compte qu'une fois le paquet ACHEVÉ.** Commencer
+ne suffit pas, sinon elle récompenserait le fait d'ouvrir la page. Et le
+jour courant ne rompt pas la série tant qu'il n'est pas fini : une série
+de sept jours ne doit pas afficher zéro parce qu'on ouvre l'application le
+matin du huitième.
+
 ### Le stockage n'a pas le droit de casser la page
 
 `localStorage` n'est pas toujours là, et **le seul fait d'y accéder lève
@@ -1151,6 +1186,16 @@ séance interrompue ne doit pas être perdue.
   pages, le voit. La leçon est celle déjà écrite pour le champ `pieges`,
   et elle vaut aussi pour le code : **la construction ne prouve pas que
   la page s'affiche.**
+
+### Deux pages qui posent la même question doivent la poser pareil
+
+`QuestionQuiz.jsx` et `BilanSerie.jsx` ont été extraits de `PageQuiz`
+quand la révision du jour est arrivée. Ce n'est pas de la mutualisation
+pour la forme : une correction améliorée d'un côté doit l'être des deux,
+et c'est en extrayant qu'on a trouvé un `$` parasite dans le
+récapitulatif — « revient dans 3$ j » —, venu d'une substitution où
+`${NB}` avait été écrit dans une f-string Python. Le même piège que le
+`{NB}` parti littéralement dans le JSX, sous une autre forme.
 
 ## Ce qui reste à faire
 

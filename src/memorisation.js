@@ -253,6 +253,133 @@ export function oublier() {
   }
 }
 
+// ————————————————————————————————————————————————————————————
+// LE JOURNAL DES JOURS — ce qui fait tenir une habitude.
+//
+// Rangé à part de l'état des réactions, et sous sa propre clé : ce sont
+// deux choses de nature différente, et effacer sa progression ne doit pas
+// forcément effacer son assiduité.
+// ————————————————————————————————————————————————————————————
+
+const CLE_JOURNAL = 'chimierev.jour.v1'
+
+/**
+ * Le jour civil LOCAL, sous la forme « 2026-08-30 ».
+ *
+ * Local et non UTC : sinon le paquet du jour changerait à 1 h ou 2 h du
+ * matin selon la saison, au milieu d'une soirée de révision.
+ */
+export function jourCivil(maintenant = Date.now()) {
+  const d = new Date(maintenant)
+  const deuxChiffres = (n) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${deuxChiffres(d.getMonth() + 1)}-${deuxChiffres(d.getDate())}`
+}
+
+/** Le jour civil précédant celui-ci. */
+export function jourPrecedent(jour) {
+  const [a, m, j] = jour.split('-').map(Number)
+  return jourCivil(new Date(a, m - 1, j - 1).getTime())
+}
+
+/**
+ * Une graine STABLE pour la journée.
+ *
+ * Le paquet du jour ne doit pas se redistribuer quand on rouvre
+ * l'application à midi : on tire donc sur le jour, non sur l'instant.
+ */
+export function graineDuJour(jour) {
+  let h = 2166136261
+  for (let i = 0; i < jour.length; i++) {
+    h ^= jour.charCodeAt(i)
+    h = Math.imul(h, 16777619)
+  }
+  return h >>> 0
+}
+
+/** Un journal vide. */
+export const journalNeuf = () => ({ jours: {} })
+
+function journalValide(j) {
+  return Boolean(j && typeof j === 'object' && !Array.isArray(j) &&
+    j.jours && typeof j.jours === 'object' && !Array.isArray(j.jours))
+}
+
+function bilanValide(b) {
+  return Boolean(
+    b && typeof b === 'object' &&
+    Number.isFinite(b.posees) && b.posees >= 0 &&
+    Number.isFinite(b.justes) && b.justes >= 0 && b.justes <= b.posees
+  )
+}
+
+/** Relit le journal, en écartant ce qui ne tient pas debout. */
+export function lireJournal() {
+  const s = coffre()
+  if (!s) return journalNeuf()
+  try {
+    const brut = JSON.parse(s.getItem(CLE_JOURNAL) || 'null')
+    if (!journalValide(brut)) return journalNeuf()
+    const jours = {}
+    for (const [jour, bilan] of Object.entries(brut.jours)) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(jour) && bilanValide(bilan)) jours[jour] = bilan
+    }
+    return { jours }
+  } catch {
+    return journalNeuf()
+  }
+}
+
+/** Écrit le journal. Un échec n'interrompt rien. */
+export function ecrireJournal(journal) {
+  const s = coffre()
+  if (!s) return false
+  try {
+    s.setItem(CLE_JOURNAL, JSON.stringify(journal))
+    return true
+  } catch {
+    return false
+  }
+}
+
+/** Note qu'un paquet a été terminé, et rend le nouveau journal. */
+export function noterLeJour(journal, jour, bilan) {
+  const suite = { jours: { ...journal.jours, [jour]: bilan } }
+  ecrireJournal(suite)
+  return suite
+}
+
+/**
+ * Le nombre de jours consécutifs terminés, en comptant à rebours.
+ *
+ * Le jour COURANT ne rompt pas la série tant qu'il n'est pas terminé :
+ * une série de sept jours ne doit pas afficher zéro parce qu'on ouvre
+ * l'application le matin du huitième. On part donc d'aujourd'hui s'il est
+ * fait, et de la veille sinon.
+ */
+export function serieDeJours(journal, jour) {
+  let curseur = journal.jours[jour] ? jour : jourPrecedent(jour)
+  let compte = 0
+  // Une borne : un journal abîmé ne doit pas faire tourner une boucle sans
+  // fin, et personne ne révise depuis dix ans.
+  while (journal.jours[curseur] && compte < 4000) {
+    compte++
+    curseur = jourPrecedent(curseur)
+  }
+  return compte
+}
+
+/** Efface le journal des jours. */
+export function oublierLeJournal() {
+  const s = coffre()
+  if (!s) return false
+  try {
+    s.removeItem(CLE_JOURNAL)
+    return true
+  } catch {
+    return false
+  }
+}
+
 /** Enregistre une réponse et rend le nouvel état. */
 export function enregistrer(etat, id, juste, maintenant = Date.now()) {
   const suite = { ...etat, [id]: apresReponse(etat[id], juste, maintenant) }

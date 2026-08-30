@@ -1812,3 +1812,99 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 .bouton-discret:hover { color: var(--encre); border-color: var(--encre); }
+
+
+/* ============================================================
+   LA RÉVISION DU JOUR
+   ============================================================ */
+
+/* L'appel posé en haut de l'accueil. C'est un lien, pas une carte
+   décorative : toute sa surface se clique, et elle dépasse largement les
+   44 px d'une cible tactile. */
+.appel-revision {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.15rem 0.75rem;
+  margin: 0 0 1.25rem;
+  padding: 0.9rem 1rem;
+  color: var(--encre);
+  text-decoration: none;
+  background: var(--carte);
+  border: 3px solid var(--encre);
+  border-radius: var(--rayon);
+  box-shadow: 4px 4px 0 var(--encre);
+}
+
+.appel-revision:hover { background: var(--creme-fonce); }
+
+/* Fait : la carte reste, mais elle cesse de réclamer. Le relief disparaît
+   — c'est ce qui distingue « à faire » de « fait » sans recourir à la
+   seule couleur. */
+.appel-fait {
+  border-width: 2px;
+  border-color: var(--bordure);
+  box-shadow: none;
+  color: var(--encre-doux);
+}
+
+.appel-titre {
+  grid-column: 1;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.6rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.appel-serie {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--encre-doux);
+  white-space: nowrap;
+}
+
+.appel-detail {
+  grid-column: 1;
+  font-size: 0.9rem;
+  color: var(--encre-doux);
+}
+
+.appel-fleche {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* La composition du paquet, avant de commencer. */
+.paquet-composition {
+  margin: 0.75rem 0;
+  padding-left: 1.1rem;
+}
+
+.paquet-composition li { margin-bottom: 0.25rem; }
+
+.serie-jours {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1rem 0 0;
+  font-size: 0.95rem;
+}
+
+.serie-flamme { color: var(--vert); font-size: 0.8rem; }
+
+/* La progression dans le paquet : un paquet court se fait surtout quand
+   on voit qu'il est court. */
+.paquet-jauge { margin: 0.5rem 0 0.25rem; }
+
+/* Un lien qui a l'allure d'un bouton : même cible tactile, même poids. */
+a.bouton-primaire {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}

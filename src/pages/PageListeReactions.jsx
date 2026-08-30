@@ -3,6 +3,7 @@ import { useState, useMemo } from 'react'
 import reactions from '../data/reactions.json'
 import programme from '../data/programme.json'
 import CarteReaction from '../components/CarteReaction.jsx'
+import AppelRevision from '../components/AppelRevision.jsx'
 import { couleurFamille } from '../couleurs.js'
 import { ordreEntrelace } from '../ordre.js'
 
@@ -69,6 +70,11 @@ export default function PageListeReactions() {
           Quand la raison est claire, la réaction devient évidente.
         </p>
       </div>
+
+      {/* L'habitude quotidienne se déclenche ici, avant le tableau : une
+          séance courte proposée à l'ouverture se fait, la même séance
+          cachée derrière un onglet ne se fait pas. */}
+      <AppelRevision />
 
       <div className="filtres">
         <label className="champ-recherche">
