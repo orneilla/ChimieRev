@@ -1187,6 +1187,53 @@ séance interrompue ne doit pas être perdue.
   et elle vaut aussi pour le code : **la construction ne prouve pas que
   la page s'affiche.**
 
+## La recherche, et son silence
+
+`src/recherche.js`, éprouvée par `scripts/tester-recherche.mjs`.
+
+**Une recherche qui échoue le fait EN SILENCE.** Elle ne lève rien, elle
+n'affiche rien de travers : elle rend zéro résultat, et l'utilisateur en
+conclut que la réaction n'est pas dans l'application. C'est le seul défaut
+de ce dépôt qui se traduit par « ce que vous cherchez n'existe pas », et
+c'est pourquoi il a son contrôle à part.
+
+Le champ existait depuis le début et cherchait dans le nom, la famille, le
+symbole et les réactifs. Deux choses le faisaient taire, mesurées avant
+d'être corrigées :
+
+- **les accents.** « elimination » rendait ZÉRO là où « élimination » en
+  rendait treize ; « pericyclique » et « epoxyde » de même. Sur un clavier
+  de téléphone, beaucoup ne tapent pas les accents ;
+- **le trait d'union.** « diels alder » rendait ZÉRO là où « Diels-Alder »
+  en rendait trois — et c'est la façon la plus naturelle de taper ce nom.
+  Les tirets demi-cadratin et cadratin comptent aussi : le corpus écrit
+  « Woodward–Hoffmann », qu'on ne tape ni d'une façon ni de l'autre.
+
+### Le substrat se cherche, mais pas comme le texte
+
+Il manquait. Deux précautions, toutes deux mesurées :
+
+- **la casse d'un SMILES porte du sens.** `c1ccccc1` est un benzène
+  aromatique, `C1CCCCC1` un cyclohexane saturé — 39 fiches contre 9. Les
+  comparer en minuscules rendrait les deux à qui n'en cherche qu'un. Le
+  SMILES est donc le SEUL champ comparé sans normalisation ;
+- **en dessous de trois signes, on ne cherche pas dans le SMILES.** « C »
+  se trouve dans 266 substrats sur 275, « CC » dans 228. Cherchés tels
+  quels ils ramènent le tableau entier — pire qu'aucun résultat, puisque
+  l'utilisateur croit avoir cherché.
+
+### Une recherche qu'il faut faire défiler n'est pas rapide
+
+Les vingt-huit pastilles de famille occupent deux écrans. Cherché
+« C1CO1 », l'unique résultat se trouvait **à 1223 px du haut** sur un
+téléphone de 844 px — deux écrans de défilement pour voir sa seule
+réponse. Les pastilles se replient donc pendant une recherche, le compte
+des résultats prend leur place, et elles reviennent dès qu'on efface :
+510 px, soit rien à faire défiler.
+
+Le compte porte `role="status"` — sans lui, taper dans le champ ne dirait
+rien à qui ne voit pas la grille se réduire.
+
 ## La progression par famille
 
 `statistiquesParFamille` dans `src/memorisation.js`, la page dans

@@ -6,6 +6,7 @@ import CarteReaction from '../components/CarteReaction.jsx'
 import AppelRevision from '../components/AppelRevision.jsx'
 import { couleurFamille } from '../couleurs.js'
 import { ordreEntrelace } from '../ordre.js'
+import { chercherReactions } from '../recherche.js'
 
 // L'ordre du programme, et non celui du fichier de données : les familles
 // se présentent toujours dans le même ordre, celui où on les rencontre en
@@ -42,22 +43,15 @@ export default function PageListeReactions() {
     ]
   }, [])
 
+  // La comparaison est dans src/recherche.js, hors de la page : une
+  // recherche qui rend zéro le fait EN SILENCE — l'utilisateur en conclut
+  // que la réaction n'existe pas — et c'est le genre de défaut qui doit
+  // avoir son contrôle (scripts/tester-recherche.mjs).
   const reactionsAffichees = useMemo(() => {
-    const texte = recherche.trim().toLowerCase()
-
-    return TABLEAU.filter((r) => {
-      const bonneFamille =
-        familleChoisie === 'Toutes' || r.famille === familleChoisie
-
-      const correspondAuTexte =
-        texte === '' ||
-        r.nom.toLowerCase().includes(texte) ||
-        r.famille.toLowerCase().includes(texte) ||
-        (r.symbole || '').toLowerCase().includes(texte) ||
-        r.reactifs.join(' ').toLowerCase().includes(texte)
-
-      return bonneFamille && correspondAuTexte
-    })
+    const parFamille = familleChoisie === 'Toutes'
+      ? TABLEAU
+      : TABLEAU.filter((r) => r.famille === familleChoisie)
+    return chercherReactions(parFamille, recherche)
   }, [recherche, familleChoisie])
 
   return (
@@ -83,10 +77,18 @@ export default function PageListeReactions() {
             type="search"
             value={recherche}
             onChange={(e) => setRecherche(e.target.value)}
-            placeholder="Rechercher (nom, famille, réactif…)"
+            placeholder="Rechercher (nom, famille, réactif, substrat…)"
           />
         </label>
 
+        {/* PENDANT UNE RECHERCHE, LES PASTILLES SE REPLIENT.
+            Vingt-huit familles occupent deux écrans : cherché « C1CO1 »,
+            l'unique résultat se trouvait à 1223 px du haut, soit deux
+            écrans de défilement sur un téléphone. Une recherche qu'il faut
+            faire défiler n'est pas une recherche rapide. Le champ narrowe
+            déjà ; le compte des résultats prend leur place, et elles
+            reviennent dès qu'on efface. */}
+        {recherche.trim() === '' ? (
         <div className="pastilles" role="group" aria-label="Filtrer par famille">
           {familles.map(({ nom, compte }) => (
             <button
@@ -105,6 +107,19 @@ export default function PageListeReactions() {
             </button>
           ))}
         </div>
+        ) : (
+          <p className="compte-resultats" role="status">
+            <strong>{reactionsAffichees.length}</strong> résultat
+            {reactionsAffichees.length > 1 ? 's' : ''}
+            {familleChoisie !== 'Toutes' && <> dans « {familleChoisie} »</>}
+            {familleChoisie !== 'Toutes' && (
+              <button type="button" className="lien-nu"
+                onClick={() => setFamilleChoisie('Toutes')}>
+                chercher partout
+              </button>
+            )}
+          </p>
+        )}
       </div>
 
       {reactionsAffichees.length === 0 ? (

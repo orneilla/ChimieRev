@@ -1991,3 +1991,27 @@ a.bouton-primaire {
    c'est exactement le même geste. */
 .progression-inconnues { margin-top: 1.5rem; }
 .progression-inconnues .liste-programme li { gap: 0.75rem; }
+
+
+/* Le compte des résultats, qui remplace les pastilles pendant une
+   recherche. `role="status"` le fait annoncer par un lecteur d'écran :
+   sans cela, taper dans le champ ne dirait rien à qui ne voit pas la
+   grille se réduire. */
+.compte-resultats {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+  color: var(--encre-doux);
+}
+
+.compte-resultats strong { color: var(--encre); }
+
+.lien-nu {
+  margin-left: 0.5rem;
+  padding: 0;
+  font: inherit;
+  color: var(--encre);
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--encre);
+  cursor: pointer;
+}
