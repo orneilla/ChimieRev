@@ -5,7 +5,7 @@
   "couvrable": 275,
   "redigees": 275,
   "verifiees": 181,
-  "relues": 0,
+  "relues": 181,
   "familles": [
     {
       "id": "substitutions",
@@ -17,91 +17,91 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 12,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 12,
       "reactions": [
         {
           "nom": "Substitution nucléophile SN2",
           "niveau": "L2",
           "id": "sn2",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Substitution nucléophile SN1",
           "niveau": "L2",
           "id": "sn1",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Compétition SN1 / SN2 / E1 / E2",
           "niveau": "L2",
           "id": "competition_substitution_elimination",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Williamson (éthers)",
           "niveau": "L2",
           "id": "williamson",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Échange de Finkelstein",
           "niveau": "L3",
           "id": "finkelstein",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Activation des alcools (tosylates, mésylates)",
           "niveau": "L3",
           "id": "tosylation_alcool",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Halogénation des alcools (SOCl₂, PBr₃)",
           "niveau": "L3",
           "id": "halogenation_alcool_pbr3",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Mitsunobu",
           "niveau": "M1",
           "id": "mitsunobu",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Substitution allylique SN2′",
           "niveau": "M1",
           "id": "sn2_prime",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Ouverture des époxydes en milieu basique",
           "niveau": "L3",
           "id": "ouverture_epoxyde_base",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Ouverture des époxydes en milieu acide",
           "niveau": "L3",
           "id": "ouverture_epoxyde_acide",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Substitution avec participation du groupe voisin",
           "niveau": "M1",
           "id": "participation_groupe_voisin",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -116,70 +116,70 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 9,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 9,
       "reactions": [
         {
           "nom": "Élimination E2",
           "niveau": "L2",
           "id": "e2",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Élimination E1",
           "niveau": "L2",
           "id": "e1",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Élimination E1cb",
           "niveau": "L3",
           "id": "e1cb",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Déshydratation des alcools",
           "niveau": "L2",
           "id": "deshydratation_alcool",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Déshydrohalogénation des dihalogénures (alcynes)",
           "niveau": "L3",
           "id": "deshydrohalogenation_alcyne",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Élimination de Hofmann (ammoniums)",
           "niveau": "M1",
           "id": "elimination_hofmann",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Élimination syn de Cope (N-oxydes)",
           "niveau": "M1",
           "id": "elimination_cope",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Élimination de Chugaev (xanthates)",
           "niveau": "M2",
           "id": "elimination_chugaev",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Oléfination de Peterson",
           "niveau": "M2",
           "id": "elimination_peterson",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -194,84 +194,84 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 1,
-      "verifiee": 12,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 12,
       "reactions": [
         {
           "nom": "Addition de HX (règle de Markovnikov)",
           "niveau": "L2",
           "id": "addition_hx",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Hydratation acide des alcènes",
           "niveau": "L2",
           "id": "hydratation_acide_alcene",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Halogénation des alcènes (ion ponté)",
           "niveau": "L2",
           "id": "halogenation_alcene",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Formation des halohydrines",
           "niveau": "L2",
           "id": "halohydrine",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Oxymercuration–démercuration",
           "niveau": "L3",
           "id": "oxymercuration",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Hydroboration–oxydation",
           "niveau": "L3",
           "id": "hydroboration",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Époxydation par un peracide",
           "niveau": "L3",
           "id": "epoxydation_peracide",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Dihydroxylation syn (OsO₄, KMnO₄ froid)",
           "niveau": "L3",
           "id": "dihydroxylation_syn",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Ozonolyse",
           "niveau": "L3",
           "id": "ozonolyse",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Cyclopropanation de Simmons-Smith",
           "niveau": "M1",
           "id": "cyclopropanation_simmons_smith",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Additions sur les alcynes (hydratation, tautomérie)",
           "niveau": "L3",
           "id": "hydratation_alcyne",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -285,7 +285,7 @@
           "nom": "Réduction de Birch",
           "niveau": "M1",
           "id": "reduction_birch",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -300,77 +300,77 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 1,
-      "verifiee": 11,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 11,
       "reactions": [
         {
           "nom": "Réduction par NaBH₄",
           "niveau": "L2",
           "id": "reduction_nabh4",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réduction par LiAlH₄",
           "niveau": "L2",
           "id": "reduction_lialh4",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Addition des organomagnésiens",
           "niveau": "L2",
           "id": "grignard",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Hydratation et formation des hydrates",
           "niveau": "L2",
           "id": "hydratation_carbonyle",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Acétalisation et protection des carbonyles",
           "niveau": "L3",
           "id": "acetalisation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Formation des imines et des énamines",
           "niveau": "L3",
           "id": "formation_imines_enamines",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Formation des cyanhydrines",
           "niveau": "L3",
           "id": "cyanhydrine",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Wittig",
           "niveau": "L3",
           "id": "wittig",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Horner-Wadsworth-Emmons",
           "niveau": "M1",
           "id": "horner_wadsworth_emmons",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Addition 1,2 contre addition 1,4 (Michael)",
           "niveau": "L3",
           "id": "addition_1_2_vs_1_4",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -384,7 +384,7 @@
           "nom": "Amination réductrice",
           "niveau": "M1",
           "id": "amination_reductrice",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -399,77 +399,77 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 10,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 10,
       "reactions": [
         {
           "nom": "Estérification de Fischer",
           "niveau": "L2",
           "id": "esterification_fischer",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Saponification des esters",
           "niveau": "L2",
           "id": "saponification",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Hydrolyse des amides",
           "niveau": "L3",
           "id": "hydrolyse_amides",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Chlorures d’acyle : formation et réactivité",
           "niveau": "L3",
           "id": "chlorures_acyle",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Anhydrides : formation et réactivité",
           "niveau": "L3",
           "id": "anhydrides",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Transestérification",
           "niveau": "L3",
           "id": "transesterification",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Formation des amides (couplage peptidique)",
           "niveau": "M1",
           "id": "couplage_peptidique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réduction des esters (DIBAL, LiAlH₄)",
           "niveau": "L3",
           "id": "reduction_esters",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Amides de Weinreb",
           "niveau": "M2",
           "id": "amides_weinreb",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Échelle de réactivité des dérivés d’acide",
           "niveau": "L3",
           "id": "echelle_reactivite_derives",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -484,70 +484,70 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 2,
-      "verifiee": 9,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 9,
       "reactions": [
         {
           "nom": "Nitration du benzène",
           "niveau": "L2",
           "id": "nitration_benzene",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Halogénation du benzène",
           "niveau": "L2",
           "id": "halogenation_benzene",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Sulfonation du benzène",
           "niveau": "L3",
           "id": "sulfonation_benzene",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Alkylation de Friedel-Crafts",
           "niveau": "L2",
           "id": "friedel_crafts_alkylation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Acylation de Friedel-Crafts",
           "niveau": "L2",
           "id": "friedel_crafts_acylation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Effets des substituants et régiosélectivité",
           "niveau": "L2",
           "id": "effets_substituants",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Substitution nucléophile aromatique (SNAr)",
           "niveau": "L3",
           "id": "snar",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Mécanisme par benzyne",
           "niveau": "M1",
           "id": "benzyne",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Sels de diazonium et réaction de Sandmeyer",
           "niveau": "L3",
           "id": "diazonium_sandmeyer",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -576,112 +576,112 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 15,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 15,
       "reactions": [
         {
           "nom": "Formation des énols et des énolates",
           "niveau": "L3",
           "id": "formation_enols_enolates",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Énolate cinétique contre thermodynamique",
           "niveau": "M1",
           "id": "enolate_cinetique_thermodynamique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Alkylation des énolates",
           "niveau": "L3",
           "id": "alkylation_enolates",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Aldolisation et crotonisation",
           "niveau": "L3",
           "id": "aldolisation_crotonisation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Aldolisation croisée dirigée",
           "niveau": "M1",
           "id": "aldolisation_croisee_dirigee",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Condensation de Claisen",
           "niveau": "L3",
           "id": "condensation_claisen",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Condensation de Dieckmann",
           "niveau": "M1",
           "id": "condensation_dieckmann",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Addition de Michael",
           "niveau": "L3",
           "id": "addition_michael",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Annélation de Robinson",
           "niveau": "M1",
           "id": "annelation_robinson",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Mannich",
           "niveau": "M1",
           "id": "reaction_mannich",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Énamines de Stork",
           "niveau": "M1",
           "id": "enamines_stork",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Halogénation en α (Hell-Volhard-Zelinsky)",
           "niveau": "L3",
           "id": "halogenation_alpha",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction haloforme",
           "niveau": "L3",
           "id": "reaction_haloforme",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Condensation de Knoevenagel",
           "niveau": "M1",
           "id": "condensation_knoevenagel",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Malonique et acétylacétique (synthèses)",
           "niveau": "L3",
           "id": "malonique_acetylacetique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -696,42 +696,42 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 2,
-      "verifiee": 8,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 8,
       "reactions": [
         {
           "nom": "Oxydation des alcools (PCC, PDC)",
           "niveau": "L3",
           "id": "oxydation_alcools_pcc",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Oxydation de Swern",
           "niveau": "M1",
           "id": "oxydation_swern",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Oxydation de Dess-Martin",
           "niveau": "M1",
           "id": "oxydation_dess_martin",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Oxydation de Jones",
           "niveau": "L3",
           "id": "oxydation_jones",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Baeyer-Villiger",
           "niveau": "M1",
           "id": "baeyer_villiger",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -745,7 +745,7 @@
           "nom": "Réduction de Wolff-Kishner",
           "niveau": "L3",
           "id": "reduction_wolff_kishner",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -759,14 +759,14 @@
           "nom": "Réduction des nitriles et des amides",
           "niveau": "L3",
           "id": "reduction_nitriles_amides",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Coupure oxydante des diols",
           "niveau": "L3",
           "id": "coupure_oxydante_diols",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -781,56 +781,56 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 7,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 7,
       "reactions": [
         {
           "nom": "Halogénation radicalaire des alcanes",
           "niveau": "L2",
           "id": "halogenation_radicalaire",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Addition anti-Markovnikov de HBr (effet peroxyde)",
           "niveau": "L2",
           "id": "addition_hbr_peroxyde",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Bromation allylique (NBS)",
           "niveau": "L3",
           "id": "bromation_allylique_nbs",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Autoxydation et peroxydes",
           "niveau": "L3",
           "id": "autoxydation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Désoxygénation de Barton-McCombie",
           "niveau": "M2",
           "id": "barton_mccombie",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Polymérisation radicalaire",
           "niveau": "M1",
           "id": "polymerisation_radicalaire",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Cyclisations radicalaires (règles de Baldwin)",
           "niveau": "M2",
           "id": "cyclisation_radicalaire",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -845,70 +845,70 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 9,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 9,
       "reactions": [
         {
           "nom": "Cycloaddition de Diels-Alder",
           "niveau": "L3",
           "id": "diels_alder",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Rétro-Diels-Alder",
           "niveau": "M1",
           "id": "retro_diels_alder",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Règles de Woodward-Hoffmann",
           "niveau": "M1",
           "id": "woodward_hoffmann",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Cycloadditions 1,3-dipolaires",
           "niveau": "M1",
           "id": "cycloaddition_dipolaire",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Électrocyclisations",
           "niveau": "M1",
           "id": "electrocyclisation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Cope",
           "niveau": "M1",
           "id": "rearrangement_cope",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Claisen",
           "niveau": "M1",
           "id": "rearrangement_claisen",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction ène",
           "niveau": "M2",
           "id": "reaction_ene",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Cycloadditions [2+2] photochimiques",
           "niveau": "M2",
           "id": "cycloaddition_2plus2",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -923,63 +923,63 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 8,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 8,
       "reactions": [
         {
           "nom": "Réarrangement de Wagner-Meerwein",
           "niveau": "L3",
           "id": "rearrangement_wagner_meerwein",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Transposition pinacolique",
           "niveau": "L3",
           "id": "transposition_pinacolique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Beckmann",
           "niveau": "M1",
           "id": "rearrangement_beckmann",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Hofmann",
           "niveau": "M1",
           "id": "rearrangement_hofmann",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Curtius",
           "niveau": "M1",
           "id": "rearrangement_curtius",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Wolff (Arndt-Eistert)",
           "niveau": "M2",
           "id": "rearrangement_wolff",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réarrangement de Favorskii",
           "niveau": "M2",
           "id": "rearrangement_favorskii",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Transposition de Baeyer-Villiger : migration",
           "niveau": "M1",
           "id": "baeyer_villiger",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -994,84 +994,84 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 11,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 11,
       "reactions": [
         {
           "nom": "Substitution électrophile du pyrrole, du furane et du thiophène",
           "niveau": "L3",
           "id": "substitution_electrophile_pyrrole",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Substitution nucléophile de la pyridine",
           "niveau": "L3",
           "id": "substitution_nucleophile_pyridine",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Oxydation de la pyridine en N-oxyde et réactivité",
           "niveau": "M1",
           "id": "pyridine_n_oxyde",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Paal-Knorr des furanes, pyrroles et thiophènes",
           "niveau": "L3",
           "id": "synthese_paal_knorr",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse indolique de Fischer",
           "niveau": "M1",
           "id": "synthese_indolique_fischer",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Hantzsch des pyridines",
           "niveau": "M1",
           "id": "synthese_hantzsch",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Skraup des quinoléines",
           "niveau": "M1",
           "id": "synthese_skraup",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Knorr des pyrazoles et isoxazoles",
           "niveau": "M1",
           "id": "synthese_knorr_pyrazoles",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Cyclisation vers les imidazoles et les thiazoles",
           "niveau": "M1",
           "id": "cyclisation_imidazoles_thiazoles",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Métallation dirigée d'un hétérocycle",
           "niveau": "M2",
           "id": "metallation_heterocycle",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Chimie des purines et des pyrimidines",
           "niveau": "M2",
           "id": "chimie_purines_pyrimidines",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -1086,49 +1086,49 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 0,
-      "verifiee": 6,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 6,
       "reactions": [
         {
           "nom": "Réaction de Grignard",
           "niveau": "L2",
           "id": "grignard",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Organolithiens",
           "niveau": "L3",
           "id": "organolithiens",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Cuprates de Gilman (addition 1,4)",
           "niveau": "M1",
           "id": "cuprate_gilman",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Reformatsky",
           "niveau": "M1",
           "id": "reformatsky",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Umpolung : dithianes",
           "niveau": "M2",
           "id": "dithiane_umpolung",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Métallation dirigée (ortho-lithiation)",
           "niveau": "M2",
           "id": "ortholithiation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -1547,28 +1547,28 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 2,
-      "verifiee": 9,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 9,
       "reactions": [
         {
           "nom": "Synthèse d'un acide aminé par amination réductrice",
           "niveau": "L3",
           "id": "amination_reductrice_ceto_acide",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Strecker",
           "niveau": "L3",
           "id": "synthese_strecker",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse malonique amidée",
           "niveau": "L3",
           "id": "synthese_amidomalonate",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1582,28 +1582,28 @@
           "nom": "Couplage peptidique par le DCC",
           "niveau": "L3",
           "id": "couplage_peptidique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Protection et déprotection Boc",
           "niveau": "L3",
           "id": "protection_boc",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Protection et déprotection Fmoc",
           "niveau": "L3",
           "id": "protection_fmoc",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Dégradation d'Edman",
           "niveau": "M1",
           "id": "degradation_edman",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1617,14 +1617,14 @@
           "nom": "Hydrolyse acide d'une liaison peptidique",
           "niveau": "L2",
           "id": "hydrolyse_liaison_peptidique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Mécanisme d'une enzyme : la citrate synthase",
           "niveau": "M2",
           "id": "citrate_synthase",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -1639,21 +1639,21 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 3,
-      "verifiee": 6,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 6,
       "reactions": [
         {
           "nom": "Saponification d'un triglycéride",
           "niveau": "L2",
           "id": "saponification_triglyceride",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Transestérification (biodiesel)",
           "niveau": "L3",
           "id": "transesterification_biodiesel",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1667,21 +1667,21 @@
           "nom": "Biosynthèse des acides gras : condensation de Claisen",
           "niveau": "M1",
           "id": "biosynthese_acides_gras",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "β-oxydation des acides gras",
           "niveau": "M1",
           "id": "beta_oxydation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Couplage prényle : biosynthèse des terpènes",
           "niveau": "M1",
           "id": "couplage_prenyle",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1702,7 +1702,7 @@
           "nom": "Biosynthèse des prostaglandines",
           "niveau": "M2",
           "id": "biosynthese_prostaglandines",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -1717,14 +1717,14 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 1,
-      "verifiee": 2,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 2,
       "reactions": [
         {
           "nom": "Formation de la liaison phosphodiester",
           "niveau": "L3",
           "id": "liaison_phosphodiester",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1738,7 +1738,7 @@
           "nom": "Synthèse d'ADN par la méthode phosphoramidite",
           "niveau": "M1",
           "id": "synthese_phosphoramidite",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -1753,8 +1753,8 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 4,
-      "verifiee": 5,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 5,
       "reactions": [
         {
           "nom": "Glycolyse : la séquence complète",
@@ -1767,21 +1767,21 @@
           "nom": "Aldolisation rétro de l'aldolase",
           "niveau": "M1",
           "id": "retro_aldolisation_aldolase",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Isomérisation glucose-6-P → fructose-6-P",
           "niveau": "M1",
           "id": "isomerisation_glucose_fructose",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Conversion du pyruvate en acétyl-CoA",
           "niveau": "M1",
           "id": "pyruvate_acetyl_coa",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1795,7 +1795,7 @@
           "nom": "Décarboxylation d'un β-cétoacide",
           "niveau": "L3",
           "id": "decarboxylation_beta_cetoacide",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1809,7 +1809,7 @@
           "nom": "Transamination par le phosphate de pyridoxal",
           "niveau": "M1",
           "id": "transamination_plp",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1831,14 +1831,14 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 11,
-      "verifiee": 4,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 4,
       "reactions": [
         {
           "nom": "Catalyse par l'α-chymotrypsine : la triade catalytique",
           "niveau": "M1",
           "id": "chymotrypsine_triade",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1901,21 +1901,21 @@
           "nom": "Oxydoréduction par NAD(P)H",
           "niveau": "M1",
           "id": "oxydoreduction_nadph",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Décarboxylation et racémisation par le phosphate de pyridoxal",
           "niveau": "M1",
           "id": "decarboxylation_racemisation_plp",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Catalyse par le pyrophosphate de thiamine",
           "niveau": "M1",
           "id": "catalyse_thiamine",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1951,28 +1951,28 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 4,
-      "verifiee": 6,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 6,
       "reactions": [
         {
           "nom": "Polymérisation radicalaire en chaîne",
           "niveau": "L3",
           "id": "polymerisation_radicalaire",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Polymérisation cationique",
           "niveau": "L3",
           "id": "polymerisation_cationique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Polymérisation anionique",
           "niveau": "L3",
           "id": "polymerisation_anionique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -1993,21 +1993,21 @@
           "nom": "Polyester par polycondensation",
           "niveau": "L3",
           "id": "polyester_polycondensation",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Polyamide (nylon) par polycondensation",
           "niveau": "L3",
           "id": "polyamide_nylon",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Polyuréthane",
           "niveau": "L3",
           "id": "polyurethane",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -2036,8 +2036,8 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 5,
-      "verifiee": 7,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 7,
       "reactions": [
         {
           "nom": "Photoisomérisation cis-trans d'un alcène",
@@ -2050,42 +2050,42 @@
           "nom": "Réaction électrocyclique photochimique",
           "niveau": "L3",
           "id": "electrocyclique_photochimique",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Photocycloaddition [2+2]",
           "niveau": "L3",
           "id": "photocycloaddition_2_2",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Norrish type I : α-clivage d'une cétone",
           "niveau": "M1",
           "id": "norrish_type_i",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Norrish type II : arrachement d'hydrogène en γ",
           "niveau": "M1",
           "id": "norrish_type_ii",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Photoréduction d'une cétone : formation de pinacol",
           "niveau": "M1",
           "id": "photoreduction_pinacol",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Paternò-Büchi",
           "niveau": "M1",
           "id": "paterno_buchi",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -2099,7 +2099,7 @@
           "nom": "Réaction de Barton",
           "niveau": "M2",
           "id": "barton",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -2135,77 +2135,77 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 1,
-      "verifiee": 18,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 18,
       "reactions": [
         {
           "nom": "Réaction de Strecker multicomposant",
           "niveau": "L3",
           "id": "synthese_strecker",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Mannich à trois composants",
           "niveau": "L3",
           "id": "reaction_mannich",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Passerini (P-3CR)",
           "niveau": "M1",
           "id": "passerini_p3cr",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction d'Ugi (U-4CR)",
           "niveau": "M1",
           "id": "ugi_u4cr",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Approche Ugi-Smiles",
           "niveau": "M2",
           "id": "ugi_smiles",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Biginelli",
           "niveau": "M1",
           "id": "biginelli",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Hantzsch des dihydropyridines",
           "niveau": "M1",
           "id": "hantzsch_dihydropyridines",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Bucherer-Bergs",
           "niveau": "M1",
           "id": "bucherer_bergs",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Petasis (borono-Mannich)",
           "niveau": "M1",
           "id": "petasis_borono_mannich",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Couplage A3 : aldéhyde, alcyne, amine",
           "niveau": "M1",
           "id": "couplage_a3",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -2219,56 +2219,56 @@
           "nom": "Synthèse d'imidazoles de Radziszewski",
           "niveau": "M2",
           "id": "radziszewski",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Sakurai et aza-Sakurai multicomposant",
           "niveau": "M2",
           "id": "sakurai",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Synthèse de Gewald des 2-aminothiophènes",
           "niveau": "M2",
           "id": "gewald",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Kabachnik-Fields",
           "niveau": "M2",
           "id": "kabachnik_fields",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Domino Knoevenagel / hétéro-Diels-Alder",
           "niveau": "M2",
           "id": "domino_knoevenagel_diels_alder",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Réaction de Povarov",
           "niveau": "M2",
           "id": "povarov",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Condensation trimoléculaire de Yonemitsu",
           "niveau": "M2",
           "id": "yonemitsu",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
           "nom": "Multicomposants avec l'acide de Meldrum",
           "niveau": "M2",
           "id": "acide_meldrum",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]
@@ -2283,8 +2283,8 @@
       "hors_corpus": 0,
       "absente": 0,
       "redigee": 6,
-      "verifiee": 3,
-      "relue": 0,
+      "verifiee": 0,
+      "relue": 3,
       "reactions": [
         {
           "nom": "Époxydation asymétrique de Sharpless",
@@ -2311,7 +2311,7 @@
           "nom": "Aldolisation d'Evans avec auxiliaire chiral",
           "niveau": "M2",
           "id": "aldolisation_evans",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -2325,7 +2325,7 @@
           "nom": "Organocatalyse par la proline : aldolisation énantiosélective",
           "niveau": "M1",
           "id": "aldolisation_proline",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         },
         {
@@ -2346,7 +2346,7 @@
           "nom": "Alkylation asymétrique d'un énolate",
           "niveau": "M2",
           "id": "alkylation_asymetrique_enolate",
-          "statut": "verifiee",
+          "statut": "relue",
           "sources": true
         }
       ]

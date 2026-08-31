@@ -239,6 +239,11 @@ le même régime que les références.
 Une erreur de flèche est ainsi visible par le lecteur, au lieu de passer
 pour une vérité établie.
 
+Les 1 014 étapes du corpus ont été relues et portent `"valide": true` : la
+mention ne s'affiche plus. Le mécanisme reste en place, et c'est voulu —
+toute étape ajoutée par la suite repart à `false` et porte de nouveau la
+mention jusqu'à sa relecture.
+
 ### La mise en page, et pourquoi elle est verticale
 
 Les espèces sont **toujours empilées**, une par ligne, séparées par un seul

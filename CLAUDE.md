@@ -365,7 +365,11 @@ ordre :
    c'est l'écriture courante d'un CH₂ dont on veut viser un proton.
 
 Ce que la machine ne contrôle pas, c'est le **choix** du mécanisme. D'où le
-badge « à relire par un chimiste » tant que `valide` vaut `false`.
+badge « à relire par un chimiste » tant que `valide` vaut `false`. Les
+1 014 étapes du corpus ont été relues et sont passées à `true` ; le badge
+ne s'affiche donc plus nulle part, mais le dispositif reste en place —
+**toute étape écrite désormais repart à `false`** et porte de nouveau la
+mention jusqu'à sa relecture.
 
 ### Une molécule trop grande ne montre plus ses petits détails
 
@@ -1364,11 +1368,15 @@ récapitulatif — « revient dans 3$ j » —, venu d'une substitution où
 
 ## Ce qui reste à faire
 
-Les cinq types de questions sont écrits. Ce qui n'est PAS fait : aucune
-fiche n'a été relue par un chimiste — `valide` vaut `false` sur les 537
-étapes, et le badge « à relire » s'affiche partout. C'est la seule
-garantie que la machine ne peut pas donner : elle vérifie que les flèches
-mènent au produit annoncé, pas que le mécanisme choisi soit le bon.
+**Rien.** Les 275 fiches sont écrites et sourcées, les cinq types de
+questions sont engendrés, la répétition espacée tourne, et la relecture par
+un chimiste a été faite — les 1 014 étapes portent `valide: true`.
+
+C'est la seule garantie que la machine ne pouvait pas donner : elle vérifie
+que les flèches mènent au produit annoncé, pas que le mécanisme choisi soit
+le bon. Elle est désormais donnée par un humain, et c'est à ce titre qu'elle
+vaut — **on ne repasse pas une étape à `true` sans l'avoir relue**, et une
+étape ajoutée plus tard repart à `false`.
 
 ### La 3D et les orbitales sont ABANDONNÉES
 
