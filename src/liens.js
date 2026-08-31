@@ -60,12 +60,54 @@ function contient(texte, terme) {
  * l'emporte. Un produit n'est retenu que s'il possède au moins une
  * occurrence qu'aucun nom plus long ne recouvre.
  */
-function produitsCitesDans(liste, ligne) {
-  const marques = []
-  for (const entree of liste) {
-    for (const nom of [entree.nom, entree.nom_complet].filter(Boolean)) {
-      for (const ou of occurrences(ligne, nom)) marques.push({ entree, ...ou })
+/**
+ * Les noms d'une liste, NORMALISÉS UNE FOIS.
+ *
+ * `normalise` fait une décomposition Unicode, une expression régulière et
+ * un passage en minuscules — ce n'est pas gratuit. Appelé depuis
+ * `occurrences`, il refaisait ce travail pour chaque couple (ligne, nom) :
+ * 275 lignes × 184 noms, soit cinquante mille normalisations des mêmes
+ * cent-quatre-vingt-quatre chaînes. On les prépare donc une fois.
+ *
+ * La garde « moins de deux signes » reste sur le nom BRUT : la
+ * normalisation peut raccourcir une chaîne accentuée, et déplacer le
+ * seuil changerait le résultat.
+ */
+const nomsPrepares = new WeakMap()
+
+function nomsDe(liste) {
+  let prepares = nomsPrepares.get(liste)
+  if (!prepares) {
+    prepares = []
+    for (const entree of liste) {
+      for (const nom of [entree.nom, entree.nom_complet].filter(Boolean)) {
+        if (nom.length < 2) continue
+        prepares.push({ entree, quoi: normalise(nom) })
+      }
     }
+    nomsPrepares.set(liste, prepares)
+  }
+  return prepares
+}
+
+/** Comme `occurrences`, mais les deux chaînes sont déjà normalisées. */
+function occurrencesPretes(ou, quoi) {
+  const trouvees = []
+  for (let i = ou.indexOf(quoi); i !== -1; i = ou.indexOf(quoi, i + 1)) {
+    const avant = i > 0 ? ou[i - 1] : ' '
+    const apres = i + quoi.length < ou.length ? ou[i + quoi.length] : ' '
+    if (!EST_UN_MOT.test(avant) && !EST_UN_MOT.test(apres)) {
+      trouvees.push({ debut: i, fin: i + quoi.length })
+    }
+  }
+  return trouvees
+}
+
+function produitsCitesDans(liste, ligne) {
+  const ou = normalise(ligne)
+  const marques = []
+  for (const { entree, quoi } of nomsDe(liste)) {
+    for (const trouve of occurrencesPretes(ou, quoi)) marques.push({ entree, ...trouve })
   }
 
   const recouverte = (m) =>
@@ -80,16 +122,82 @@ function produitsCitesDans(liste, ligne) {
   return new Set(marques.filter((m) => !recouverte(m)).map((m) => m.entree))
 }
 
-/** Réactions dont la ligne « réactifs » mentionne ce réactif. */
-export function reactionsUtilisantReactif(reactif) {
-  return reactions.filter((reaction) =>
-    produitsCitesDans(reactifs, reaction.reactifs.join(' ')).has(reactif)
-  )
+// ---------------------------------------------------------------------
+// L'INDEX, ET POURQUOI IL A FALLU LE CONSTRUIRE
+//
+// La première écriture posait la question dans le mauvais sens : « pour
+// CE réactif, quelles réactions le citent ? » — donc elle reparcourait
+// les 275 réactions, et pour chacune rappelait `produitsCitesDans`, qui
+// reparcourt lui-même TOUS les réactifs avec leurs deux noms, puis fait
+// un contrôle de recouvrement en O(n²).
+//
+// Appelée une fois, c'est supportable. Mais la page « Réactifs » l'appelle
+// UNE FOIS PAR VIGNETTE, en plein rendu, pour afficher « n réactions » :
+// quatre-vingt-douze appels, chacun refaisant le même calcul complet.
+//
+// MESURÉ, et le chiffre ne se discute pas : **29 661 ms pour ouvrir la
+// page** sur un ordinateur à pleine vitesse, et autant à CHAQUE FRAPPE
+// dans le champ de recherche, puisque le rendu recommence. Avec le
+// processeur bridé quatre fois — un téléphone —, la mesure a dépassé deux
+// minutes sans aboutir. Sur un iPhone, Safari tue l'onglet ; et comme le
+// routeur est en `hash`, c'est l'application ENTIÈRE qui meurt avec lui.
+// D'où le signalement « quand j'ouvre cette page, ça fait tout buguer » :
+// c'était exact, et au pied de la lettre.
+//
+// La question se pose donc dans l'autre sens, UNE FOIS : « pour chaque
+// réaction, quels produits cite-t-elle ? » On en tire un index, et les
+// 92 demandes suivantes ne sont plus que des lectures de table.
+//
+// Deux économies s'ajoutent :
+//   • l'index est construit à la PREMIÈRE demande, pas au chargement du
+//     module — une page qui n'affiche aucun réactif ne le paie pas ;
+//   • les lignes de conditions SE RÉPÈTENT beaucoup (dix-sept réactions
+//     dans « eau »), et une ligne déjà analysée n'est pas réanalysée.
+//
+// Le résultat est identique à celui de la version naïve, réaction par
+// réaction : `scripts/tester-liens.mjs` le vérifie pour les 92 réactifs
+// et les 40 solvants, et refuse le moindre écart.
+
+const index = { reactif: null, solvant: null }
+
+function construireIndex(genre) {
+  const liste = genre === 'reactif' ? reactifs : solvants
+  const ligneDe = genre === 'reactif'
+    ? (r) => (r.reactifs || []).join(' ')
+    : (r) => r.solvant
+
+  const parLigne = new Map()
+  const table = new Map()
+  for (const entree of liste) table.set(entree.id, [])
+
+  for (const reaction of reactions) {
+    const ligne = ligneDe(reaction) || ''
+    let cites = parLigne.get(ligne)
+    if (!cites) {
+      cites = produitsCitesDans(liste, ligne)
+      parLigne.set(ligne, cites)
+    }
+    for (const entree of cites) table.get(entree.id)?.push(reaction)
+  }
+  return table
 }
 
-/** Réactions dont la ligne « solvant » mentionne ce solvant. */
+/**
+ * Réactions dont la ligne « réactifs » mentionne ce réactif.
+ *
+ * Le tableau rendu appartient à l'index : on le LIT, on ne le modifie
+ * pas. Les deux appelants actuels le recopient ou en prennent la
+ * longueur ; un tri en place le corromprait pour tout le reste.
+ */
+export function reactionsUtilisantReactif(reactif) {
+  index.reactif ??= construireIndex('reactif')
+  return index.reactif.get(reactif.id) || []
+}
+
+/** Réactions dont la ligne « solvant » mentionne ce solvant. Même règle. */
 export function reactionsUtilisantSolvant(solvant) {
-  return reactions.filter((reaction) => produitsCitesDans(solvants, reaction.solvant).has(solvant))
+  index.solvant ??= construireIndex('solvant')
+  return index.solvant.get(solvant.id) || []
 }
 
 /** Retrouve une réaction par son identifiant (ou undefined si absente). */

@@ -17,8 +17,21 @@
  * mentirait, en attribuant à toutes les pages suivantes la panne de la
  * première.
  *
- * Deux symptômes sont retenus : une erreur JavaScript, et une page dont le
- * corps ne porte presque aucun texte.
+ * Trois symptômes sont retenus : une erreur JavaScript, une page dont le
+ * corps ne porte presque aucun texte, et une page TROP LENTE.
+ *
+ * Le troisième a été ajouté après un second défaut que ce script laissait
+ * passer, et il vaut d'être compris. La page « Réactifs » mettait TRENTE
+ * SECONDES à s'ouvrir : elle calculait ses renvois une fois par vignette,
+ * chaque calcul reparcourant les 275 réactions. Sur un téléphone, Safari
+ * tuait l'onglet — et le routeur étant en `hash`, l'application entière
+ * mourait avec lui.
+ *
+ * Ce script la déclarait pourtant saine. Il n'avait aucun budget de temps :
+ * il attendait `networkidle`, aussi longtemps qu'il fallait, puis
+ * constatait que la page portait du texte. UNE PAGE QUI FINIT PAR
+ * S'AFFICHER N'EST PAS UNE PAGE QUI MARCHE — et l'utilisateur, lui, le
+ * savait avant nous.
  *
  *   npx vite preview --port 4173 &
  *   npm run pages
@@ -29,6 +42,14 @@ import fs from 'node:fs'
 const BASE = process.env.CHIMIEREV_BASE || 'http://localhost:4173'
 const CHROME = process.env.CHROMIUM || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 const MINIMUM_DE_TEXTE = 40
+
+// Le budget d'ouverture. Il est large à dessein : cette machine est
+// partagée, et l'on ne cherche pas à défendre quelques centaines de
+// millisecondes. On cherche à ce qu'une page de trente secondes ne puisse
+// plus se présenter comme une page qui s'affiche. Pour mémoire, la page
+// « Réactifs » a été mesurée à 29 661 ms avant l'index de src/liens.js,
+// et à moins de 400 ms après.
+const BUDGET_MS = Number(process.env.CHIMIEREV_BUDGET_MS || 6000)
 
 const lire = (chemin) => JSON.parse(fs.readFileSync(chemin, 'utf8'))
 const reactions = lire('src/data/reactions.json')
@@ -58,16 +79,37 @@ onglet.on('console', (m) => {
 })
 
 const casses = []
+let lente = { quoi: '—', duree: 0 }
 
 for (const { url, quoi } of pages) {
   // Rechargement complet : sans cela, une page plantée contamine les suivantes.
   await onglet.goto('about:blank')
   erreurs = []
+  const depart = Date.now()
   await onglet.goto(BASE + url, { waitUntil: 'networkidle' })
 
+  // ON CHRONOMÈTRE JUSQU'ICI, ET PAS JUSQU'AU `goto`.
+  //
+  // Première tentative, fausse : le temps était pris à la fin du `goto`.
+  // Or `networkidle` ne dit RIEN du fil principal — sur la page
+  // « Réactifs », il rendait la main en 767 ms pendant que le rendu de
+  // React bloquait encore le navigateur pendant vingt-six secondes. Le
+  // budget mesurait donc précisément la partie qui allait bien.
+  //
+  // `innerText` force le calcul de mise en page : il ne peut pas répondre
+  // tant que le fil principal est occupé. C'est cette lecture qui mesure
+  // le moment où la page devient réellement utilisable.
   const texte = (await onglet.locator('body').innerText()).trim()
+  const duree = Date.now() - depart
+
   const griefs = [...new Set(erreurs)]
   if (texte.length < MINIMUM_DE_TEXTE) griefs.push(`la page est vide (${texte.length} signes)`)
+  if (duree > BUDGET_MS) {
+    griefs.push(`elle met ${(duree / 1000).toFixed(1)} s à s'ouvrir `
+      + `(budget ${(BUDGET_MS / 1000).toFixed(0)} s) — sur un téléphone, `
+      + `comptez-en plusieurs fois plus`)
+  }
+  if (duree > lente.duree) lente = { quoi, duree }
   if (griefs.length > 0) casses.push({ quoi, url, griefs: griefs.slice(0, 3) })
 }
 
@@ -83,4 +125,5 @@ if (casses.length > 0) {
   process.exit(1)
 }
 
-console.log(`✓ ${pages.length} pages ouvertes une à une : toutes s'affichent.`)
+console.log(`✓ ${pages.length} pages ouvertes une à une : toutes s'affichent, `
+  + `la plus lente en ${(lente.duree / 1000).toFixed(1)} s (${lente.quoi}).`)

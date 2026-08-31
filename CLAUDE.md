@@ -825,6 +825,75 @@ distinguer « j'ai visé à côté » de « l'application ne répond pas », et 
 concluait à une panne. Un `transform: scale(0.97)` pendant le contact suffit,
 et il ne déplace aucune cible voisine.
 
+### La page qui gelait tout, et le contrôle qui la disait saine
+
+Le signalement s'est précisé après deux corrections qui n'étaient pas la
+bonne : « le problème, c'est la page réactifs. Quand j'essaie de l'ouvrir,
+ça fait tout buguer. » C'était exact au pied de la lettre.
+
+**La question était posée dans le mauvais sens.**
+`reactionsUtilisantReactif` demandait « pour CE réactif, quelles réactions
+le citent ? » — donc elle reparcourait les 275 réactions, et pour chacune
+rappelait `produitsCitesDans`, qui reparcourt lui-même tous les réactifs
+avec leurs deux noms, puis fait un contrôle de recouvrement en O(n²). Un
+appel, c'est supportable. Mais la page l'appelle **une fois par vignette**,
+en plein rendu, pour afficher « n réactions ».
+
+Mesuré, et le chiffre ne se discute pas :
+
+| | avant | après |
+|---|---|---|
+| ouvrir la page (ordinateur) | **29 661 ms** | 187 ms |
+| une frappe dans la recherche | **29 515 ms** | 82 ms |
+| ouvrir (processeur bridé ×4) | **> 120 s, abandon** | 1 358 ms |
+| ouvrir (processeur bridé ×6) | — | 2 001 ms |
+
+Sur un iPhone, Safari tue un onglet qui bloque ainsi. Et **le routeur
+étant en `hash`, c'est l'application ENTIÈRE qui meurt avec lui** — d'où
+« ça fait tout buguer », et d'où le fait que les autres onglets semblaient
+cassés ensuite. Les deux corrections précédentes (le menu en deux
+colonnes, le `touch-action` manquant) étaient de vrais défauts, mais
+elles ne pouvaient pas soigner celui-là.
+
+La parade tient en une inversion : on demande **une fois**, « pour chaque
+réaction, quels produits cite-t-elle ? », on en tire un index, et les
+demandes suivantes sont des lectures de table. S'y ajoutent deux
+économies — l'index est construit à la première demande et non au
+chargement du module, et une ligne de conditions déjà analysée n'est pas
+réanalysée (dix-sept réactions se font dans « eau »). Enfin les noms sont
+normalisés UNE fois : `normalise` était rappelé pour chaque couple
+(ligne, nom), soit cinquante mille fois sur cent-quatre-vingt-quatre
+chaînes.
+
+**Une optimisation qui change les résultats est une régression.**
+`scripts/tester-liens.mjs` garde donc une copie de la version naïve — le
+seul endroit du dépôt où elle subsiste — et compare les deux pour les
+92 réactifs et les 81 solvants : 173 produits, résultats identiques. Il
+mesure aussi le re-rendu et refuse au-delà de 1 500 ms.
+
+#### Une page qui finit par s'afficher n'est pas une page qui marche
+
+C'est la leçon de méthode, et elle vaut plus que la correction.
+`npm run pages` ouvrait cette page, constatait qu'elle portait du texte,
+et la déclarait saine — **au bout de trente secondes**. Il n'avait aucun
+budget de temps à lui opposer. L'utilisateur, lui, le savait avant nous.
+
+Il en a un désormais (`CHIMIEREV_BUDGET_MS`, 6 s par défaut), et il
+annonce la page la plus lente à chaque passage.
+
+**Mais la première version de ce budget était fausse, et le piège mérite
+d'être retenu.** Le temps était pris à la fin du `goto`, avec
+`waitUntil: 'networkidle'`. Or **`networkidle` ne dit rien du fil
+principal** : sur cette page, il rendait la main en 767 ms pendant que le
+rendu de React bloquait encore le navigateur vingt-six secondes de plus.
+Le budget mesurait précisément la partie qui allait bien, et la page
+passait. C'est la lecture de `innerText` — qui force le calcul de mise en
+page, et ne peut donc pas répondre tant que le fil principal est occupé —
+qui mesure le moment où la page devient utilisable.
+
+Prouvé en remettant l'ancien `liens.js` : le balayage refuse « le
+magasin », mesuré à **28,0 s**, et lui seul.
+
 ### Savoir quelle version on regarde
 
 Le même signalement a montré un manque plus embarrassant : **rien

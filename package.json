@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "prebuild": "npm run tester && npm run valider && npm run verifier && node scripts/inventaire.mjs && node scripts/dessiner-structures.mjs && node scripts/tester-quiz.mjs && node scripts/tester-memorisation.mjs && node scripts/tester-recherche.mjs && node scripts/dessiner-mecanismes.mjs",
+    "prebuild": "npm run tester && npm run valider && npm run verifier && node scripts/inventaire.mjs && node scripts/dessiner-structures.mjs && node scripts/tester-quiz.mjs && node scripts/tester-memorisation.mjs && node scripts/tester-recherche.mjs && node scripts/tester-liens.mjs && node scripts/dessiner-mecanismes.mjs",
     "preview": "vite preview --host",
     "structures": "node scripts/dessiner-structures.mjs",
     "mecanismes": "node scripts/dessiner-mecanismes.mjs",
@@ -19,7 +19,8 @@
     "pages": "node scripts/ouvrir-toutes-les-pages.mjs",
     "quiz": "node scripts/tester-quiz.mjs",
     "memorisation": "node scripts/tester-memorisation.mjs",
-    "recherche": "node scripts/tester-recherche.mjs"
+    "recherche": "node scripts/tester-recherche.mjs",
+    "liens": "node scripts/tester-liens.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
