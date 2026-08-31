@@ -253,6 +253,86 @@ export function oublier() {
   }
 }
 
+/**
+ * En dessous de ce nombre de réponses, un taux ne veut rien dire.
+ *
+ * Sur trois réponses, un taux ne peut valoir que 0, 33, 67 ou 100 % — et
+ * une seule étourderie fait chuter de 100 à 67. Afficher « Péricycliques :
+ * 0 % » après deux questions enverrait retravailler ce qu'on n'a pas
+ * encore rencontré. Le seuil ne CACHE rien : il change la façon de le
+ * présenter, et la page dit toujours sur combien de réponses elle compte.
+ */
+export const REPONSES_POUR_CONCLURE = 5
+
+/**
+ * Le bilan par famille : ce qu'on réussit, et ce qu'on a seulement vu.
+ *
+ * DEUX MESURES, et les confondre serait trompeur.
+ *
+ * Le TAUX DE RÉUSSITE dit la qualité des réponses données. Il ne dit rien
+ * de l'étendue : on peut être à 100 % sur une famille dont on n'a
+ * rencontré que deux réactions sur quinze.
+ *
+ * La COUVERTURE dit l'étendue. Une famille à 90 % de réussite sur un
+ * cinquième de son contenu n'est pas une famille sue ; une famille à 70 %
+ * sur la totalité l'est bien davantage.
+ *
+ * La page montre les deux. Le classement, lui, se fait sur le taux, parce
+ * que la question posée est « que dois-je retravailler ? » — et l'on
+ * retravaille ce qu'on rate, pas ce qu'on n'a pas encore ouvert.
+ */
+export function statistiquesParFamille(etat, reactions, maintenant = Date.now()) {
+  const parFamille = new Map()
+
+  for (const r of reactions) {
+    if (!parFamille.has(r.famille)) {
+      parFamille.set(r.famille, {
+        famille: r.famille,
+        total: 0, vues: 0, reponses: 0, justes: 0, acquises: 0, echues: 0
+      })
+    }
+    const f = parFamille.get(r.famille)
+    f.total++
+
+    const fiche = etat[r.id]
+    if (!fiche || fiche.vues === 0) continue
+    f.vues++
+    f.reponses += fiche.vues
+    f.justes += fiche.justes
+    if (fiche.boite >= DERNIERE_BOITE) f.acquises++
+    if (fiche.du <= maintenant) f.echues++
+  }
+
+  return [...parFamille.values()]
+    .map((f) => ({
+      ...f,
+      taux: f.reponses > 0 ? f.justes / f.reponses : null,
+      couverture: f.total > 0 ? f.vues / f.total : 0,
+      // Assez de réponses pour que le taux signifie quelque chose ?
+      concluant: f.reponses >= REPONSES_POUR_CONCLURE
+    }))
+    .sort((a, b) => {
+      // TROIS GROUPES, et l'ordre entre eux compte plus que le tri interne.
+      //
+      //   0 — assez de réponses pour conclure : le vrai palmarès, du plus
+      //       raté au mieux su. C'est la réponse à « que retravailler ? »
+      //   1 — un taux, mais sur trop peu de réponses
+      //   2 — jamais rencontrée
+      //
+      // Sans ce groupement, une famille répondue UNE fois et ratée passait
+      // en tête à 0 % — devant des familles ratées vingt fois. La page
+      // envoyait alors retravailler ce qu'on venait à peine d'ouvrir, et
+      // se contredisait elle-même : son résumé écarte ces familles-là,
+      // faute de matière, mais sa liste les mettait au sommet.
+      const groupe = (f) => (f.taux === null ? 2 : f.concluant ? 0 : 1)
+      const ga = groupe(a)
+      const gb = groupe(b)
+      if (ga !== gb) return ga - gb
+      if (ga !== 2 && a.taux !== b.taux) return a.taux - b.taux
+      return a.famille.localeCompare(b.famille, 'fr')
+    })
+}
+
 // ————————————————————————————————————————————————————————————
 // LE JOURNAL DES JOURS — ce qui fait tenir une habitude.
 //

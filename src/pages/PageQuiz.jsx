@@ -8,7 +8,7 @@
 // partagés avec la révision du jour — deux pages qui posent la même
 // question doivent la poser de la même façon.
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { serie, famillesJouables, vivier } from '../quiz.js'
 import QuestionQuiz from '../components/QuestionQuiz.jsx'
 import BilanSerie from '../components/BilanSerie.jsx'
@@ -22,7 +22,15 @@ const COMBIEN = 10
 const graineNeuve = () => Math.floor(Math.random() * 2 ** 31)
 
 export default function PageQuiz() {
-  const [famille, setFamille] = useState(null)
+  // « /quiz?famille=Péricycliques » démarre directement sur une famille :
+  // c'est ce que la page « Progression » propose quand on clique sur celle
+  // qu'il faut reprendre. Un nom inconnu est ignoré plutôt que de rendre
+  // un quiz vide — l'adresse peut avoir été tapée ou avoir vieilli.
+  const [parametres] = useSearchParams()
+  const [famille, setFamille] = useState(() => {
+    const demandee = parametres.get('famille')
+    return demandee && vivier(demandee).length > 0 ? demandee : null
+  })
   const [graine, setGraine] = useState(graineNeuve)
   const [rang, setRang] = useState(0)
   const [reponses, setReponses] = useState([])   // un choix par question

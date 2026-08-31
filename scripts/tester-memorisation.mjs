@@ -313,6 +313,105 @@ function jourDe(n) { return `${n} jours` }
     'après un trou, la série repart de 1.')
 }
 
+// ————— 4 quinquies. LE BILAN PAR FAMILLE —————
+{
+  const T = Date.UTC(2026, 5, 1, 10)
+  const admissibles = reactions.filter((r) => quiz.admissibleProduit(r))
+
+  // Un état vide : toutes les familles présentes, aucun taux.
+  const vierge = M.statistiquesParFamille({}, admissibles, T)
+  const famillesReelles = new Set(admissibles.map((r) => r.famille))
+  dire(vierge.length === famillesReelles.size,
+    `${vierge.length} familles rendues pour ${famillesReelles.size} réelles.`)
+  dire(vierge.every((f) => f.taux === null && f.vues === 0),
+    'sans aucune réponse, aucune famille ne devrait afficher de taux.')
+  dire(vierge.reduce((n, f) => n + f.total, 0) === admissibles.length,
+    'le total des familles ne retombe pas sur le nombre de réactions.')
+
+  // On fabrique deux familles contrastées.
+  const parFamille = new Map()
+  for (const r of admissibles) {
+    if (!parFamille.has(r.famille)) parFamille.set(r.famille, [])
+    parFamille.get(r.famille).push(r)
+  }
+  const [nomForte, nomFaible] = [...parFamille.keys()]
+    .filter((n) => parFamille.get(n).length >= 6).slice(0, 2)
+
+  let etat = {}
+  // La forte : six réactions, tout juste.
+  for (const r of parFamille.get(nomForte).slice(0, 6)) {
+    etat = M.enregistrer(etat, r.id, true, T)
+  }
+  // La faible : six réactions, tout faux.
+  for (const r of parFamille.get(nomFaible).slice(0, 6)) {
+    etat = M.enregistrer(etat, r.id, false, T)
+  }
+
+  const bilan = M.statistiquesParFamille(etat, admissibles, T)
+  const forte = bilan.find((f) => f.famille === nomForte)
+  const faible = bilan.find((f) => f.famille === nomFaible)
+
+  dire(forte.taux === 1, `la famille tout juste devrait être à 100 %, elle est à ${forte.taux}.`)
+  dire(faible.taux === 0, `la famille tout faux devrait être à 0 %, elle est à ${faible.taux}.`)
+  dire(forte.vues === 6 && faible.vues === 6, 'le compte des réactions vues est faux.')
+  dire(forte.concluant && faible.concluant,
+    'six réponses devraient suffire à conclure.')
+
+  // LE CLASSEMENT RÉPOND À LA QUESTION POSÉE : ce qu'on rate d'abord.
+  dire(bilan.indexOf(faible) < bilan.indexOf(forte),
+    'la famille ratée devrait passer avant la famille réussie.')
+  // Et les familles jamais touchées ferment la marche.
+  const jamais = bilan.filter((f) => f.taux === null)
+  const derniers = bilan.slice(bilan.length - jamais.length)
+  dire(jamais.length === derniers.length && derniers.every((f) => f.taux === null),
+    'les familles jamais rencontrées devraient être en fin de liste.')
+
+  // UN TAUX SUR PEU DE RÉPONSES SE SIGNALE.
+  let maigre = {}
+  maigre = M.enregistrer(maigre, parFamille.get(nomFaible)[0].id, false, T)
+  const bm = M.statistiquesParFamille(maigre, admissibles, T)
+    .find((f) => f.famille === nomFaible)
+  dire(bm.taux === 0 && bm.reponses === 1, 'le taux sur une réponse est mal compté.')
+  dire(!bm.concluant,
+    'un taux sur une seule réponse ne devrait pas être présenté comme concluant.')
+
+  // ET ELLE NE DOIT PAS PASSER EN TÊTE. Une famille ratée UNE fois est à
+  // 0 % comme une famille ratée vingt fois ; la mettre au sommet enverrait
+  // retravailler ce qu'on vient à peine d'ouvrir, et contredirait le
+  // résumé de la page, qui écarte ces familles faute de matière.
+  let melange = { ...etat }
+  melange = M.enregistrer(melange, parFamille.get(nomForte)[6] ? parFamille.get(nomForte)[6].id
+    : parFamille.get(nomForte)[0].id, false, T)
+  const troisiemeNom = [...parFamille.keys()].find((n) => n !== nomForte && n !== nomFaible)
+  melange = M.enregistrer(melange, parFamille.get(troisiemeNom)[0].id, false, T)
+  const bmel = M.statistiquesParFamille(melange, admissibles, T)
+  const maigreEnTete = bmel.find((f) => f.famille === troisiemeNom)
+  dire(bmel.indexOf(maigreEnTete) > bmel.indexOf(bmel.find((f) => f.famille === nomFaible)),
+    `« ${troisiemeNom} » (une réponse) passe devant « ${nomFaible} » (six réponses) : ` +
+    'un taux sur trop peu de réponses ne doit pas mener le palmarès.')
+  dire(bmel[0].concluant,
+    'la première famille de la liste devrait toujours reposer sur assez de réponses.')
+
+  // La couverture ne se confond pas avec le taux : tout juste sur six
+  // réactions d'une famille qui en compte davantage ne fait pas 100 %.
+  dire(forte.couverture === 6 / forte.total,
+    `la couverture devrait valoir 6/${forte.total}, elle vaut ${forte.couverture}.`)
+  dire(forte.couverture < 1 || forte.total === 6,
+    'une famille de plus de six réactions ne peut pas être couverte entièrement par six réponses.')
+
+  // Un identifiant orphelin ne doit rien fausser.
+  const avecOrphelin = { ...etat, reaction_disparue: M.apresReponse(null, false, T) }
+  const bo = M.statistiquesParFamille(avecOrphelin, admissibles, T)
+  dire(bo.reduce((n, f) => n + f.reponses, 0) === bilan.reduce((n, f) => n + f.reponses, 0),
+    'une fiche orpheline s\'est glissée dans le compte des réponses.')
+
+  console.log(
+    `  bilan par famille : ${bilan.length} familles, ` +
+    `la plus faible « ${bilan[0].famille} », ` +
+    `${jamais.length} jamais rencontrées`
+  )
+}
+
 // ————— 5. le stockage résiste à ce qu'on lui donne de travers —————
 {
   // Pas de localStorage du tout : on révise sans mémoire, on ne casse pas.

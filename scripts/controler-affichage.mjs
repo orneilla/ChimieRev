@@ -59,6 +59,7 @@ const PAGES = [
   { nom: 'programme', route: '#/programme' },
   { nom: 'quiz', route: '#/quiz' },
   { nom: 'révision du jour', route: '#/revision' },
+  { nom: 'progression', route: '#/progression' },
   { nom: 'à propos', route: '#/a-propos' }
 ]
 

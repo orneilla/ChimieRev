@@ -1187,6 +1187,58 @@ séance interrompue ne doit pas être perdue.
   et elle vaut aussi pour le code : **la construction ne prouve pas que
   la page s'affiche.**
 
+## La progression par famille
+
+`statistiquesParFamille` dans `src/memorisation.js`, la page dans
+`PageProgression.jsx`. Elle répond à UNE question — « par quoi dois-je
+reprendre ? » — et tout y est ordonné pour elle.
+
+**Deux mesures, et les confondre serait trompeur.** Le TAUX dit la qualité
+des réponses ; la COUVERTURE dit l'étendue. On peut être à 100 % sur une
+famille dont on n'a rencontré que deux réactions sur quinze — la barre
+seule le cacherait, le compte à côté le dit.
+
+**Un taux sur deux réponses n'est pas un taux.** Sur trois réponses il ne
+peut valoir que 0, 33, 67 ou 100 %, et une étourderie fait chuter de 100 à
+67. En dessous de cinq réponses, le chiffre reste affiché mais la barre
+devient TIRETÉE et la mention « trop peu pour conclure » l'accompagne : on
+ne cache rien, on dit ce que le chiffre vaut.
+
+Et le classement en tient compte, ce qui n'allait pas de soi : une
+première version triait sur le seul taux, et mettait donc en tête une
+famille répondue UNE fois et ratée — à 0 %, devant des familles ratées
+vingt fois. La page envoyait retravailler ce qu'on venait d'ouvrir, et se
+contredisait elle-même, puisque son résumé écarte ces familles faute de
+matière. Le tri se fait maintenant en trois groupes : assez de réponses
+pour conclure, puis trop peu, puis jamais rencontrées.
+
+### Trois défauts d'affichage trouvés en construisant cette page
+
+Aucun n'était visible en lisant le code, et deux étaient ANTÉRIEURS.
+
+- **`.jauge` et `.jauge-remplissage` n'avaient aucune règle de base.**
+  `.jauge-large` fixait la taille du RAIL, mais le remplissage restait un
+  `span` en ligne, dont la largeur et la hauteur sont ignorées — mesuré à
+  **0 × 0 px**. Les jauges de la page « Programme » n'ont donc jamais rien
+  montré depuis qu'elles existent. Ni `npm run affichage` ni
+  `npm run pages` ne pouvaient s'en apercevoir : rien ne déborde, rien ne
+  plante, la page s'affiche.
+- **Une insécable dans une valeur CSS l'annule.** Le même
+  `pourcent()` servait au texte et à `style={{ width }}` ; or
+  `width: "33 %"` avec l'insécable du français est une valeur INVALIDE,
+  ignorée en silence, et la barre repasse à `width: auto` — c'est-à-dire
+  PLEINE. Toutes les familles s'affichaient à 100 % pendant que le chiffre
+  à côté disait 33 %. Deux fonctions désormais, `pourcent` pour l'œil et
+  `largeurCss` pour le navigateur.
+- **Et une page blanche de plus**, pour une raison d'outillage : un script
+  de substitution a échoué sur son assertion AVANT d'écrire le fichier,
+  puis un second a posé l'usage d'une fonction que le premier n'avait pas
+  définie. `largeurCss is not defined`, application éteinte.
+
+La leçon commune : **une barre de progression se MESURE**. Le contrôle qui
+a tout attrapé compare la largeur rendue du remplissage au pourcentage
+annoncé — il ne regarde pas si « ça a l'air bien ».
+
 ### Deux pages qui posent la même question doivent la poser pareil
 
 `QuestionQuiz.jsx` et `BilanSerie.jsx` ont été extraits de `PageQuiz`

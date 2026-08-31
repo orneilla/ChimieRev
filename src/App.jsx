@@ -10,6 +10,7 @@ import PageDetailOutil from './pages/PageDetailOutil.jsx'
 import PageProgramme from './pages/PageProgramme.jsx'
 import PageQuiz from './pages/PageQuiz.jsx'
 import PageRevisionDuJour from './pages/PageRevisionDuJour.jsx'
+import PageProgression from './pages/PageProgression.jsx'
 import PageDetailReaction from './pages/PageDetailReaction.jsx'
 import PageAPropos from './pages/PageAPropos.jsx'
 
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/solvant/:id" element={<PageDetailOutil genre="solvant" />} />
           <Route path="/revision" element={<PageRevisionDuJour />} />
           <Route path="/quiz" element={<PageQuiz />} />
+          <Route path="/progression" element={<PageProgression />} />
           <Route path="/programme" element={<PageProgramme />} />
           <Route path="/a-propos" element={<PageAPropos />} />
           {/* Toute adresse inconnue renvoie vers la liste. */}

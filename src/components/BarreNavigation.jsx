@@ -1,11 +1,11 @@
 // En-tête de l'application + bande des couleurs de familles.
 //
 // SUR TÉLÉPHONE, le menu est replié derrière un bouton à trois barres :
-// l'en-tête est collant (il suit le défilement), et six intitulés
+// l'en-tête est collant (il suit le défilement), et sept intitulés
 // dépliés lui prenaient 126 px de haut — sur un écran de 844 px, c'est
 // un septième de la page perdu en permanence.
 //
-// SUR TABLETTE ET ORDINATEUR, la place ne manque pas : les six entrées
+// SUR TABLETTE ET ORDINATEUR, la place ne manque pas : les sept entrées
 // restent visibles. Un menu qu'on voit vaut toujours mieux qu'un menu
 // qu'il faut deviner ; on ne le replie que lorsqu'on n'a pas le choix.
 import { useEffect, useRef, useState } from 'react'
@@ -17,6 +17,7 @@ const ENTREES = [
   { to: '/reactifs', libelle: 'Réactifs' },
   { to: '/revision', libelle: 'Du jour' },
   { to: '/quiz', libelle: 'Quiz' },
+  { to: '/progression', libelle: 'Progression' },
   { to: '/programme', libelle: 'Programme' },
   { to: '/a-propos', libelle: 'À propos' }
 ]

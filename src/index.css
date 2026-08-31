@@ -1230,6 +1230,30 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   vertical-align: -0.1em;
 }
 
+/* LA JAUGE, ET SA RÈGLE DE BASE — qui manquait.
+   `.jauge-large` fixait la hauteur et la largeur du RAIL, mais ni `.jauge`
+   ni `.jauge-remplissage` n'étaient définis nulle part : le remplissage
+   restait un span EN LIGNE, dont la largeur et la hauteur sont ignorées.
+   Mesuré à 0 × 0 px. Les jauges de la page « Programme » n'ont donc
+   jamais rien montré, et aucun contrôle ne pouvait s'en apercevoir — rien
+   ne déborde, rien ne plante, la page s'affiche. */
+.jauge {
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  background: var(--creme-fonce);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.jauge-remplissage {
+  display: block;
+  height: 100%;
+  background: var(--couleur, var(--encre));
+}
+
 .jauge-large {
   max-width: none;
   width: 100%;
@@ -1908,3 +1932,62 @@ a.bouton-primaire {
   text-decoration: none;
   text-align: center;
 }
+
+
+/* ============================================================
+   LA PROGRESSION PAR FAMILLE
+   ============================================================ */
+
+.progression-liste { list-style: none; margin: 0; padding: 0; }
+
+.progression-famille {
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--bordure);
+}
+
+.progression-famille:first-child { border-top: none; }
+
+.progression-entete {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Le nom de la famille est un lien vers un quiz sur cette famille : la
+   page dit quoi reprendre, autant qu'elle permette de le reprendre. */
+.progression-entete a {
+  font-weight: 700;
+  /* Une famille au nom long ne doit pas pousser le pourcentage dehors. */
+  overflow-wrap: anywhere;
+}
+
+.progression-taux {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+/* Une barre tiretée dit « ce chiffre porte sur trop peu de réponses ».
+   La FORME porte l'information, non la seule couleur. */
+.jauge-incertaine {
+  border-style: dashed;
+  opacity: 0.75;
+}
+
+.progression-detail {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+  color: var(--encre-doux);
+}
+
+.progression-reserve { font-style: italic; }
+
+/* Les familles jamais rencontrées sont repliées : elles ne sont pas
+   « à retravailler », et leurs barres vides enterreraient celles qui
+   comptent. Le bloc reprend l'apparence de la page « Programme », dont
+   c'est exactement le même geste. */
+.progression-inconnues { margin-top: 1.5rem; }
+.progression-inconnues .liste-programme li { gap: 0.75rem; }
