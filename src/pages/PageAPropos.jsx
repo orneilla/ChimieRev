@@ -59,27 +59,6 @@ export default function PageAPropos() {
           indexé » : on ne cite pas une page qu'on n'a pas ouverte.
         </p>
       </section>
-
-      <section className="bloc">
-        <h3>Où en est l'application</h3>
-        <ul className="liste-phases">
-          <li className="fait"><strong>Phase 1</strong> — Socle : données, liste, fiches, mobile</li>
-          <li className="fait"><strong>Identité visuelle</strong> — couleurs par famille, tuiles</li>
-          <li className="fait"><strong>Phase 5</strong> — bascule Comprendre / Référence</li>
-          <li className="fait"><strong>Références</strong> — sources vérifiées sur chaque fiche</li>
-          <li className="fait"><strong>Phase 2</strong> — structures 2D dessinées (RDKit-JS)</li>
-          <li className="fait"><strong>Mécanismes</strong> — schémas avec les flèches des électrons</li>
-          <li className="fait"><strong>Réactifs &amp; solvants</strong> — leurs fiches et leurs renvois</li>
-          <li className="abandonne">
-            <strong>Phase 3</strong> — 3D interactive et orbitales :{' '}
-            <em>abandonnée</em>. Ce que ces fiches doivent apprendre se lit
-            sur un schéma plan et des flèches ; une molécule qu'on fait
-            tourner impressionne sans rien démontrer de plus.
-          </li>
-          <li><strong>Phase 4</strong> — quiz engendré à partir des fiches</li>
-          <li><strong>Phase 6</strong> — toutes les familles de réactions</li>
-        </ul>
-      </section>
     </section>
   )
 }

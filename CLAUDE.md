@@ -1377,10 +1377,19 @@ diagrammes HOMO/LUMO. Ce n'est pas un report — la ligne sort de la feuille
 de route, et il ne faut pas la réintroduire.
 
 Aucun code n'avait été écrit : il n'y avait que la promesse, à trois
-endroits (la page « À propos », le tableau du README, cette section). Les
-trois disent maintenant l'abandon plutôt que de le taire, parce qu'un
-lecteur qui a vu « Phase 3 — à venir » mérite de savoir qu'elle ne viendra
-pas.
+endroits (la page « À propos », le tableau du README, cette section).
+
+**Les deux premiers ont depuis DISPARU, et c'est le bon état.** Tant qu'une
+feuille de route restait affichée, elle demandait à être tenue à jour — et
+une feuille de route périmée ment deux fois : sur ce qui est fait et sur ce
+qui vient. L'application étant terminée, la liste des phases a été retirée
+de la page « À propos » et le tableau du README avec elle. Le README
+annonçait encore « Phase 1 — Socle » et « la liste affiche les 5 réactions »
+alors qu'il y en a 275 : un lecteur arrivant par le dépôt lisait un projet
+au premier jour.
+
+Il ne reste donc que cette section-ci, et elle suffit : l'abandon se
+documente là où l'on écrit, pas là où l'on lit.
 
 La raison, pour qu'on ne rouvre pas le débat : **ce que ces fiches doivent
 faire comprendre se lit sur un schéma plan et des flèches.** Une molécule

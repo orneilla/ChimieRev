@@ -6,7 +6,9 @@ Application web de révision des réactions de chimie organique.
 Chaque fiche répond d'abord à « pourquoi ça se passe ainsi ? » avant de
 montrer « comment ».
 
-État : **Phase 1 — Socle** (données, liste, fiches, responsive).
+État : **terminée**. Les 275 réactions du programme sont écrites et
+sourcées, le quiz et la répétition espacée fonctionnent. Il n'y a plus
+de phase en attente.
 
 ---
 
@@ -40,21 +42,6 @@ application.
 
 Pour suivre la construction : onglet **Actions** du dépôt. Une pastille
 verte = c'est en ligne ; une rouge = la construction a échoué.
-
-## Ce qu'il faut tester à la Phase 1
-
-- [ ] La liste affiche les 5 réactions.
-- [ ] La recherche filtre bien (essayer « SN2 », « base », « Grignard »).
-- [ ] Les pastilles de famille filtrent la liste.
-- [ ] Toucher une tuile ouvre la fiche détaillée.
-- [ ] Les structures s'affichent sur chacune des 5 fiches.
-- [ ] Les schémas de mécanisme s'affichent, flèches comprises.
-- [ ] La page Réactifs montre les renvois vers les réactions.
-- [ ] Le bascule Comprendre / Référence change bien le texte.
-- [ ] Le lien « ← Toutes les réactions » revient à la liste.
-- [ ] Rien ne dépasse à droite, aucun zoom horizontal nécessaire.
-- [ ] Les boutons sont assez gros pour le doigt.
-- [ ] Le bouton « retour » du téléphone fonctionne.
 
 ## Si un jour tu as un ordinateur
 
@@ -468,7 +455,7 @@ src/
     structures.json         liste des dessins disponibles (engendré)
     mecanismes.json         LE CONTENU : les flèches de chaque mécanisme
     mecanismes-dessins.json liste des schémas disponibles (engendré)
-    meta.json               le principe et le ton à tenir (Phase 6)
+    meta.json               le principe et le ton à tenir
   couleurs.js               une couleur par famille de réactions
   components/
     BarreNavigation.jsx     en-tête + bande des couleurs
@@ -484,7 +471,7 @@ src/
     PageListeReactions.jsx  page d'accueil (liste + filtres)
     PageDetailReaction.jsx  fiche détaillée d'une réaction
     PageReactifs.jsx        réactifs et solvants, avec leurs renvois
-    PageAPropos.jsx         philosophie du projet + avancement
+    PageAPropos.jsx         le principe du projet et ses sources
   mode.js                   le choix Comprendre / Référence, et sa mémoire
   liens.js                  retrouve les réactions d'un réactif/solvant
 ```
@@ -525,22 +512,7 @@ Deux conventions utiles dans les textes longs (`explication_*`) :
   c'est la charpente du mode « Comprendre ».
 
 Les fichiers `src/data/reactifs.json` et `src/data/solvants.json` suivent le
-même principe (schémas déjà en place, leur affichage viendra plus tard).
+même principe, et chaque produit a sa page dans « Le magasin ».
 
 > Le fichier `src/data/meta.json` conserve le principe et le ton à tenir
-> pour toutes les entrées ajoutées en Phase 6.
-
----
-
-## Feuille de route
-
-| Phase | Contenu | État |
-|---|---|---|
-| 1 | Socle : données, liste, fiches, mobile | ✅ fait |
-| — | Identité visuelle : couleurs par famille, tuiles | ✅ fait |
-| 5 | Bascule Comprendre / Référence *(arrivée en avance)* | ✅ fait |
-| — | Sources vérifiées sur chaque fiche | ✅ fait |
-| 2 | Structures 2D dessinées (RDKit-JS) | ✅ fait |
-| 3 | ~~3D interactive et orbitales (3Dmol.js)~~ | ❌ abandonnée |
-| 4 | Quiz engendré à partir des fiches (progression en `localStorage`) | en cours |
-| 6 | Remplissage de toutes les familles de réactions | à venir |
+> pour toute entrée ajoutée.

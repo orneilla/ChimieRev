@@ -903,30 +903,6 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 /* Liste des phases (page À propos) */
-.liste-phases { list-style: none; margin: 0; padding: 0; }
-
-.liste-phases li {
-  padding-left: 1.6rem;
-  position: relative;
-  margin-bottom: 0.5rem;
-  color: var(--encre-doux);
-}
-
-.liste-phases li::before {
-  content: '○';
-  position: absolute;
-  left: 0;
-}
-
-.liste-phases li.fait { color: var(--encre); }
-.liste-phases li.fait::before { content: '●'; color: var(--vert); }
-
-/* Une phase abandonnée n'est pas une phase en retard : elle ne viendra
-   pas. Le rond vide dirait « à venir » ; la croix dit ce qu'il en est.
-   Un lecteur qui a lu « Phase 3 — à venir » mérite de l'apprendre. */
-.liste-phases li.abandonne::before { content: '✕'; color: var(--framboise); }
-.liste-phases li.abandonne strong { text-decoration: line-through; }
-
 /* ---------- Pied de page ---------- */
 
 .pied-de-page {
