@@ -796,6 +796,48 @@ l'isolé, et des entrées mesurées à 438 × 256 px de déplacement.
   ne jamais voir le mouvement. **On mesure au moment où le doigt vise, pas
   une fois que tout s'est arrêté.**
 
+### Le tactile, que rien ne pouvait mesurer ici
+
+Le menu corrigé — une colonne, plus d'animation qui déplace les cibles —,
+le défaut a été signalé une seconde fois : « je n'arrive toujours pas à
+avoir accès aux différentes fenêtres ». Il restait donc autre chose, et
+cette chose ne se reproduit sur AUCUN navigateur de bureau.
+
+**Aucune règle `touch-action` n'existait dans la feuille de style.** Sans
+elle, Safari sur iOS attend environ 300 ms après chaque appui pour voir si
+un second suit — parce qu'un double-appui zoome. Pendant cette attente, si
+l'élément bouge ou si la page se redessine, le clic n'est jamais délivré.
+C'est la cause la plus répandue du « parfois ça ne fait rien » sur
+téléphone, et elle se cumulait avec l'animation du menu : deux raisons
+indépendantes d'avaler le même appui.
+
+`touch-action: manipulation` sur les liens, boutons et listes déroulantes
+supprime l'attente. C'est une correction qu'on ne peut pas VÉRIFIER dans
+ce dépôt : Chromium ne reproduit pas le délai, et WebKit ne s'installe pas
+dans l'environnement de construction. On la pose donc sur la foi du
+comportement documenté d'iOS, et c'est dit ici pour qu'on ne la retire pas
+en la croyant inutile parce qu'aucun test ne la couvre.
+
+**Et il n'y avait aucun état `:active`.** C'est le vrai défaut de fond :
+un appui avalé et un appui qui marche avaient exactement la même
+apparence — rien ne bougeait sous le doigt. L'utilisateur ne pouvait pas
+distinguer « j'ai visé à côté » de « l'application ne répond pas », et il
+concluait à une panne. Un `transform: scale(0.97)` pendant le contact suffit,
+et il ne déplace aucune cible voisine.
+
+### Savoir quelle version on regarde
+
+Le même signalement a montré un manque plus embarrassant : **rien
+n'indiquait quelle construction on avait sous les yeux.** Un iPhone qui
+garde l'application sur son écran d'accueil sert longtemps l'ancienne
+page ; « ça ne marche toujours pas » veut alors dire « je regarde toujours
+l'ancienne version », et ni l'utilisateur ni nous ne pouvions faire la
+différence entre un défaut non corrigé et une correction non reçue.
+
+Le pied de page porte donc `version <date>·<sha court>`, posée par
+`define` dans `vite.config.js`. C'est trois lignes, et cela tranche une
+question qui, sans elle, coûte un aller-retour entier.
+
 ### Se déplacer d'une page à l'autre
 
 Trois défauts qui, ensemble, rendaient l'application pénible à parcourir.

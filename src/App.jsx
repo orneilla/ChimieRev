@@ -48,6 +48,12 @@ export default function App() {
 
       <footer className="pied-de-page">
         <p>ChimieRév — comprendre pour mémoriser, jamais mémoriser bêtement.</p>
+        {/* Le repère de version. Discret, mais il répond à une question
+            qu'on ne pouvait pas trancher autrement : « est-ce que je
+            regarde bien la dernière version ? » Un téléphone qui garde
+            l'application sur son écran d'accueil sert parfois l'ancienne
+            page, et un défaut corrigé semble alors persister. */}
+        <p className="version">version {__VERSION__}</p>
       </footer>
     </div>
   )
