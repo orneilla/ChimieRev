@@ -27,8 +27,19 @@ const quiz = await serveur.ssrLoadModule('/src/quiz.js')
 const anomalies = []
 const NB_CHOIX = 4
 
+/** Ce qui rend deux choix indistinguables, selon le type de question. */
+function empreinteDuChoix(q, choix) {
+  if (q.type === 'produit') return structures[choix.id]?.produit_canonique
+  return (choix.texte || []).join(' | ')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/\s+/g, ' ').trim()
+}
+
 function examiner(q, ou) {
   if (!q) return anomalies.push(`${ou} : aucune question engendrée.`)
+
+  // Le type « ordre » n'est pas un QCM : il s'examine à part.
+  if (q.format === 'ordre') return examinerOrdre(q, ou)
 
   const corrects = q.choix.filter((c) => c.correct)
   if (corrects.length !== 1) {
@@ -39,38 +50,115 @@ function examiner(q, ou) {
   }
 
   // Deux choix montrant LA MÊME image sont indiscernables à l'écran, même
-  // s'ils viennent de réactions différentes.
-  const fichiers = q.choix.map((c) => c.fichier)
-  if (new Set(fichiers).size !== fichiers.length) {
-    anomalies.push(`${ou} : deux choix affichent le même schéma.`)
+  // s'ils viennent de réactions différentes. Ne vaut que pour les
+  // questions à choix dessinés : ailleurs, `fichier` est absent partout.
+  if (q.format === 'choix-image') {
+    const fichiers = q.choix.map((c) => c.fichier)
+    if (new Set(fichiers).size !== fichiers.length) {
+      anomalies.push(`${ou} : deux choix affichent le même schéma.`)
+    }
   }
 
-  // Le fond du problème : deux choix chimiquement identiques.
-  const formules = q.choix.map((c) => structures[c.id]?.produit_canonique)
-  if (new Set(formules).size !== formules.length) {
-    anomalies.push(`${ou} : deux choix sont LA MÊME molécule (${formules.join(' / ')}).`)
+  // LE FOND DU PROBLÈME : deux choix qui sont la même réponse. Ce que
+  // « la même » veut dire dépend du type — la même molécule pour un
+  // produit, les mêmes conditions écrites autrement pour un réactif ou
+  // un solvant.
+  const empreintes = q.choix.map((c) => empreinteDuChoix(q, c))
+  if (new Set(empreintes).size !== empreintes.length) {
+    anomalies.push(`${ou} : deux choix sont LA MÊME réponse (${empreintes.join(' / ')}).`)
   }
-  if (formules.some((f) => !f)) {
-    anomalies.push(`${ou} : un choix n'a pas de formule canonique.`)
+  if (empreintes.some((e) => !e)) {
+    anomalies.push(`${ou} : un choix n'a pas d'empreinte comparable.`)
   }
 
-  // Un choix doit pointer vers un fichier réellement dessiné.
-  for (const c of q.choix) {
-    if (!c.fichier) anomalies.push(`${ou} : le choix « ${c.id} » n'a pas de schéma.`)
+  // ET DEUX RÉPONSES TEXTUELLES DONT L'UNE COMMENCE PAR L'AUTRE se valent
+  // à l'œil : « THF » contre « THF anhydre », « eau » contre « eau
+  // tamponnée ». La règle ne vaut QUE pour du texte : sur un SMILES
+  // canonique elle n'a aucun sens — « C=CC » est le propène et « C=CCC »
+  // le butène, deux molécules parfaitement distinctes dont l'une s'écrit
+  // par hasard comme le début de l'autre.
+  if (q.format === 'choix-texte') {
+  for (let i = 0; i < empreintes.length; i++) {
+    for (let j = i + 1; j < empreintes.length; j++) {
+      if (empreintes[i].startsWith(empreintes[j]) || empreintes[j].startsWith(empreintes[i])) {
+        anomalies.push(
+          `${ou} : « ${empreintes[i]} » et « ${empreintes[j]} » ne s'opposent pas.`)
+      }
+    }
+  }
+  }
+
+  if (q.format === 'choix-image') {
+    for (const c of q.choix) {
+      if (!c.fichier) anomalies.push(`${ou} : le choix « ${c.id} » n'a pas de schéma.`)
+    }
+  } else {
+    for (const c of q.choix) {
+      if (!c.texte?.length || c.texte.some((t) => !t || !t.trim())) {
+        anomalies.push(`${ou} : un choix n'a pas de texte à afficher.`)
+      }
+    }
   }
   if (!q.substrat) anomalies.push(`${ou} : pas de schéma de substrat.`)
-  if (!q.reactifs?.length) anomalies.push(`${ou} : aucun réactif à montrer.`)
+  if (!q.intitule) anomalies.push(`${ou} : pas d'intitulé.`)
+
+  // LE TYPE « PRODUIT » NE PEUT PAS SE PASSER DES RÉACTIFS : sans eux la
+  // question n'a pas de réponse déterminée — un même substrat donne des
+  // produits différents selon ce qu'on y met, et c'est précisément ce
+  // qu'elle teste. Les autres types n'en ont pas besoin.
+  if (q.type === 'produit' && !q.reactifs?.length) {
+    anomalies.push(`${ou} : aucun réactif à montrer, la question n'a pas de réponse.`)
+  }
+}
+
+/**
+ * Le type « ordre » : il n'a pas de choix, mais des propositions et une
+ * suite attendue.
+ */
+function examinerOrdre(q, ou) {
+  if (q.propositions.length !== q.ordreAttendu.length) {
+    anomalies.push(`${ou} : ${q.propositions.length} propositions pour ` +
+      `${q.ordreAttendu.length} étapes attendues.`)
+  }
+  if (q.ordreAttendu.length < 3) {
+    anomalies.push(`${ou} : ${q.ordreAttendu.length} étapes, c'est trop peu pour un ordre.`)
+  }
+  const trie = (l) => [...l].sort()
+  if (trie(q.propositions).join('§') !== trie(q.ordreAttendu).join('§')) {
+    anomalies.push(`${ou} : les propositions ne sont pas les étapes attendues mélangées.`)
+  }
+  if (new Set(q.propositions).size !== q.propositions.length) {
+    anomalies.push(`${ou} : une étape figure deux fois dans les propositions.`)
+  }
+  // PROPOSER LES ÉTAPES DÉJÀ RANGÉES serait une question sans question.
+  if (q.propositions.every((e, i) => e === q.ordreAttendu[i])) {
+    anomalies.push(`${ou} : les étapes sont proposées dans le bon ordre.`)
+  }
+  if (!q.substrat) anomalies.push(`${ou} : pas de schéma de substrat.`)
 }
 
 // ————— 1. toutes les questions possibles, sur plusieurs graines —————
-const admissibles = reactions.filter((r) => quiz.admissibleProduit(r))
+const admissibles = reactions.filter((r) => quiz.typesPossibles(r).length > 0)
 let engendrees = 0
+const parType = {}
 for (const reaction of admissibles) {
-  for (const graine of [1, 42, 1789, 20260830]) {
-    const q = quiz.questionProduit(reaction, quiz.tirage(graine))
-    examiner(q, `« ${reaction.id} » (graine ${graine})`)
-    engendrees++
+  // CHAQUE type possible sur CHAQUE réaction, sur plusieurs graines : c'est
+  // le seul moyen de voir une question à deux bonnes réponses, qui
+  // s'afficherait parfaitement et compterait un point en moins à l'élève
+  // qui avait raison.
+  for (const t of quiz.typesPossibles(reaction)) {
+    for (const graine of [1, 42, 1789, 20260830]) {
+      const q = quiz.question(reaction, quiz.tirage(graine), t.nom)
+      examiner(q, `« ${reaction.id} » / ${t.nom} (graine ${graine})`)
+      if (q) parType[q.type] = (parType[q.type] || 0) + 1
+      engendrees++
+    }
   }
+}
+// Les cinq types doivent être effectivement engendrés : un type qu'aucune
+// fiche n'admet passerait inaperçu.
+for (const t of quiz.TYPES) {
+  if (!parType[t.nom]) anomalies.push(`aucune question de type « ${t.nom} » n'a pu être engendrée.`)
 }
 
 // ————— 2. la même graine rend la même série —————
@@ -112,7 +200,11 @@ function doitRefuser(nom, question) {
     piegesRefuses.push(`✓ ${nom} : refusé, comme il se doit.`)
   }
 }
-const modele = quiz.questionProduit(admissibles[0], quiz.tirage(1))
+// Les fautes se tendent sur une question de type « produit », dont on
+// connaît la forme ; un modèle tiré au hasard changerait de type d'une
+// exécution à l'autre et les essais ne porteraient plus sur la même chose.
+const temoin = admissibles.find((r) => quiz.admissibleProduit(r))
+const modele = quiz.questionProduit(temoin, quiz.tirage(1))
 const copie = () => JSON.parse(JSON.stringify(modele))
 
 doitRefuser('Deux bonnes réponses', (() => {
@@ -135,6 +227,38 @@ doitRefuser('Un choix sans schéma', (() => {
 })())
 doitRefuser('Aucun réactif à montrer', (() => {
   const q = copie(); q.reactifs = []; return q
+})())
+
+// Les types à réponse TEXTUELLE ont leurs propres façons d'être faux.
+const modeleTexte = quiz.questionSolvant(
+  admissibles.find((r) => quiz.admissibleSolvant(r)), quiz.tirage(1))
+const copieTexte = () => JSON.parse(JSON.stringify(modeleTexte))
+
+doitRefuser('Deux solvants dont l\'un commence par l\'autre', (() => {
+  const q = copieTexte()
+  q.choix[1].texte = [q.choix[0].texte[0] + ' anhydre']
+  return q
+})())
+
+doitRefuser('Un choix textuel vide', (() => {
+  const q = copieTexte(); q.choix[2].texte = ['   ']; return q
+})())
+
+// Et le type « ordre », qui n'est pas un QCM.
+const modeleOrdre = quiz.questionOrdre(
+  admissibles.find((r) => quiz.admissibleOrdre(r)), quiz.tirage(1))
+const copieOrdre = () => JSON.parse(JSON.stringify(modeleOrdre))
+
+doitRefuser('Des étapes proposées déjà dans l\'ordre', (() => {
+  const q = copieOrdre(); q.propositions = [...q.ordreAttendu]; return q
+})())
+
+doitRefuser('Une étape manquante dans les propositions', (() => {
+  const q = copieOrdre(); q.propositions = q.propositions.slice(1); return q
+})())
+
+doitRefuser('Une étape qui ne vient pas du mécanisme', (() => {
+  const q = copieOrdre(); q.propositions[0] = 'Une étape inventée de toutes pièces.'; return q
 })())
 
 await serveur.close()

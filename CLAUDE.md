@@ -931,7 +931,21 @@ Deux modes obligatoires, dans `src/data/reactions.json` :
 Les paragraphes sont séparés par une ligne vide ; une amorce en capitales
 (« POURQUOI … ? ») est mise en valeur automatiquement.
 
-## Les réactions qu'aucun ouvrage ne traite
+## Les réactions qu'aucun ouvrage ne traitait — RETIRÉES DU PROGRAMME
+
+**Ces six lignes ont été supprimées de `programme.json`.** Le programme ne
+compte donc plus que des réactions écrites : 275, aucune ligne sans fiche.
+
+Ce qui suit est conservé pour une seule raison — **qu'on ne recommence pas
+la recherche**. Si l'une de ces réactions est réintroduite un jour, c'est
+qu'un ouvrage la traitant aura été indexé, et non parce qu'on aura oublié
+qu'on l'avait cherchée.
+
+Le mécanisme `hors_corpus` reste en place et n'a plus rien à afficher :
+`npm run valider` refuse toujours une ligne sans identifiant et sans
+raison lisible, ce qui garde la porte fermée pour l'avenir.
+
+## Ce qu'on avait cherché, et ce que la recherche avait rendu
 
 Elles restent au programme avec `id` à `null`, et ce n'est pas un oubli :
 c'est la règle de sourçage appliquée. On ne les écrira que le jour où un
@@ -995,6 +1009,58 @@ sans navigateur, ce qui permet d'examiner les 275 fiches d'un coup ; il
 tourne dans `npm run build`, après le dessin des structures dont il dépend.
 Comme le vérificateur de mécanismes, **il se teste lui-même** : sept
 questions fautives lui sont tendues, il doit les refuser toutes.
+
+### Les cinq types, et ce que chacun a demandé
+
+`TYPES` dans `src/quiz.js`. Une réaction peut servir plusieurs types, et
+le type TIRÉ VARIE d'un passage à l'autre : revoir la même réaction sous
+un autre angle vaut mieux que la revoir à l'identique, et cela empêche
+d'apprendre la position de la bonne réponse plutôt que la chimie.
+
+| type | admissibles | ce qui a demandé une précaution |
+|---|---|---|
+| produit | 275 | deux réactions peuvent rendre la même molécule |
+| réactif | 275 | « KOH » et « KOH, chauffage » ne s'opposent pas |
+| solvant | 269 | « eau » ×17 et « Eau » ×10 sont le MÊME solvant |
+| piège | 275 | un piège voisin s'applique parfois vraiment |
+| ordre | 204 | ce n'est pas un QCM |
+
+**Le solvant a le pire taux de collision.** Mesuré avant d'écrire :
+226 valeurs distinctes sur 275, et la plus fréquente — l'eau — revient
+27 fois sous deux casses. Six fiches portent « Aucun : ce n'est pas une
+réaction » (les fiches de méthode) et sont exclues : leur poser la
+question n'aurait pas de sens.
+
+**Deux réponses dont l'une COMMENCE par l'autre ne s'opposent pas.**
+« THF » contre « THF anhydre », « sans solvant » contre « sans solvant, à
+chaud » : l'élève serait marqué faux pour une distinction que la question
+n'enseigne pas. La règle ne vaut QUE pour du texte — sur un SMILES
+canonique elle n'a aucun sens, « C=CC » est le propène et « C=CCC » le
+butène, deux molécules distinctes dont l'une s'écrit par hasard comme le
+début de l'autre. Le testeur a d'abord appliqué la règle partout et
+signalé soixante-dix fausses collisions.
+
+**Le type « piège » INVERSE la règle des distracteurs.** Partout ailleurs
+on pioche dans la même famille d'abord, pour que la question reste
+difficile. Ici on s'en éloigne : un piège de la même famille est à la fois
+le distracteur le plus trompeur ET le plus susceptible de s'appliquer
+VRAIMENT à la réaction posée — la pire combinaison, puisqu'elle rendrait
+la question à deux bonnes réponses sans qu'aucun contrôle ne le voie.
+
+**Le type « ordre » n'a pas de distracteurs** : les mauvaises réponses
+sont les mauvais ordres, et il y en a déjà cent-vingt pour cinq étapes. On
+borne à cinq — remettre sept propositions dans l'ordre sur un téléphone
+tient de la corvée. On mélange jusqu'à obtenir un ordre DIFFÉRENT du bon :
+proposer les étapes déjà rangées serait une question sans question.
+
+Et l'on clique les étapes dans l'ordre plutôt que de les faire glisser :
+le glisser-déposer demande une bibliothèque, ne se fait pas au clavier, et
+se rate constamment sur un écran tactile où le doigt masque ce qu'il
+déplace.
+
+**Une fois répondu, la liste se remet DANS LE BON ORDRE.** Laissée
+mélangée avec les bons numéros écrits à côté, elle obligeait à
+reconstituer la suite de tête — or c'est la suite qu'il faut retenir.
 
 ### Le piège : deux réactions peuvent avoir le même produit
 
@@ -1298,10 +1364,11 @@ récapitulatif — « revient dans 3$ j » —, venu d'une substitution où
 
 ## Ce qui reste à faire
 
-Le quiz : les quatre autres types de questions — quel réactif réalise cette
-transformation, quel solvant, quel piège, et remettre les étapes du
-mécanisme dans l'ordre. Phase 6 — les réactions du programme encore à
-écrire.
+Les cinq types de questions sont écrits. Ce qui n'est PAS fait : aucune
+fiche n'a été relue par un chimiste — `valide` vaut `false` sur les 537
+étapes, et le badge « à relire » s'affiche partout. C'est la seule
+garantie que la machine ne peut pas donner : elle vérifie que les flèches
+mènent au produit annoncé, pas que le mécanisme choisi soit le bon.
 
 ### La 3D et les orbitales sont ABANDONNÉES
 

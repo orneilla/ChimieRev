@@ -64,21 +64,30 @@ function melanger(liste, suivant) {
  * eux. Le testeur l'a montré sur l'élimination de Peterson, où deux
  * mauvaises réponses rendaient toutes deux le 2-méthylpropène.
  */
-function distracteurs(bonne, candidats, suivant, combien, empreinte) {
+function distracteurs(bonne, candidats, suivant, combien, empreinte,
+  { memeFamilleDAbord = true, conflit = null } = {}) {
   const memeFamille = candidats.filter((r) => r.famille === bonne.famille)
   const ailleurs = candidats.filter((r) => r.famille !== bonne.famille)
-  const ordre = [
-    ...melanger(memeFamille, suivant),
-    ...melanger(ailleurs, suivant)
-  ]
+  const ordre = memeFamilleDAbord
+    ? [...melanger(memeFamille, suivant), ...melanger(ailleurs, suivant)]
+    // Le type « piège » inverse la règle : voir questionPiege — un piège
+    // de la même famille risque de s'appliquer VRAIMENT à la réaction
+    // posée, ce qui ferait une question à deux bonnes réponses.
+    : [...melanger(ailleurs, suivant), ...melanger(memeFamille, suivant)]
 
-  const prises = new Set([empreinte(bonne)])
+  // `conflit` dit quand deux réponses se valent SANS être identiques —
+  // « THF » et « THF anhydre », « eau » et « eau ou éthanol ». On le
+  // consulte contre TOUTES les empreintes déjà prises, non contre la
+  // seule bonne réponse : le testeur a montré que deux distracteurs
+  // pouvaient se recouvrir entre eux, « KOH » contre « KOH, chauffage ».
+  const prises = [empreinte(bonne)]
   const retenus = []
   for (const candidat of ordre) {
     if (retenus.length === combien) break
     const marque = empreinte(candidat)
-    if (!marque || prises.has(marque)) continue
-    prises.add(marque)
+    if (!marque) continue
+    if (prises.some((p) => p === marque || (conflit && conflit(p, marque)))) continue
+    prises.push(marque)
     retenus.push(candidat)
   }
   return retenus
@@ -162,6 +171,7 @@ export function questionProduit(reaction, suivant) {
 
   return {
     type: 'produit',
+    format: 'choix-image',
     reaction: reaction.id,
     intitule: 'Quel est le produit de cette transformation ?',
     substrat: bonne.substrat,
@@ -185,13 +195,302 @@ export function questionProduit(reaction, suivant) {
 }
 
 // ————————————————————————————————————————————————————————————
+// Type 2 — « Quel réactif réalise cette transformation ? »
+// ————————————————————————————————————————————————————————————
+
+/** Sans accent ni casse, pour comparer deux conditions écrites autrement. */
+function aplati(texte) {
+  return (texte || '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/\s+/g, ' ').trim()
+}
+
+/**
+ * L'un commence-t-il par l'autre ?
+ *
+ * C'est le cas dangereux du solvant : « THF » et « THF anhydre » sont deux
+ * réponses différentes dans les données et la MÊME réponse pour l'élève,
+ * qui serait marqué faux pour une distinction que la question n'enseigne
+ * pas. Idem pour « eau » et « eau, tampon à pH physiologique ».
+ */
+function seChevauchent(a, b) {
+  return a.startsWith(b) || b.startsWith(a)
+}
+
+export function admissibleReactif(reaction) {
+  const s = structures[reaction.id]
+  return Boolean(
+    s && s.substrat && s.produit &&
+    Array.isArray(reaction.reactifs) && reaction.reactifs.length > 0
+  )
+}
+
+const empreinteReactifs = (r) => aplati((r.reactifs || []).join(' | '))
+
+export function questionReactif(reaction, suivant) {
+  const s = structures[reaction.id]
+  const candidats = reactions.filter(
+    (a) => a.id !== reaction.id && admissibleReactif(a))
+  // Deux jeux de conditions dont l'un commence par l'autre se confondent à
+  // l'œil : « KOH » contre « KOH, chauffage ».
+  const faux = distracteurs(reaction, candidats, suivant, NB_CHOIX - 1,
+    empreinteReactifs, { conflit: seChevauchent })
+
+  const choix = melanger([
+    { id: reaction.id, texte: reaction.reactifs, correct: true },
+    ...faux.map((r) => ({ id: r.id, texte: r.reactifs, correct: false }))
+  ], suivant)
+
+  return {
+    type: 'reactif',
+    format: 'choix-texte',
+    reaction: reaction.id,
+    intitule: 'Quels réactifs réalisent cette transformation ?',
+    substrat: s.substrat,
+    produit: s.produit,
+    choix,
+    explication: {
+      nom: reaction.nom,
+      famille: reaction.famille,
+      pourquoi: amorce(reaction.selectivite)
+    }
+  }
+}
+
+// ————————————————————————————————————————————————————————————
+// Type 3 — « Quel est le solvant adapté ? »
+// ————————————————————————————————————————————————————————————
+
+/**
+ * Six fiches portent « Aucun : ce n'est pas une réaction » — les fiches de
+ * méthode, comme l'analyse rétrosynthétique. Leur poser la question du
+ * solvant n'aurait pas de sens.
+ */
+export function admissibleSolvant(reaction) {
+  const s = structures[reaction.id]
+  const solvant = aplati(reaction.solvant)
+  return Boolean(
+    s && s.substrat && s.produit &&
+    solvant.length >= 3 && !solvant.startsWith('aucun')
+  )
+}
+
+const empreinteSolvant = (r) => aplati(r.solvant)
+
+export function questionSolvant(reaction, suivant) {
+  const s = structures[reaction.id]
+  const candidats = reactions.filter(
+    (a) => a.id !== reaction.id && admissibleSolvant(a))
+  // « eau » et « eau, tampon à pH physiologique » ne peuvent pas s'opposer
+  // dans la même question : mesuré, 27 fiches se partagent l'eau sous une
+  // forme ou une autre, et « sans solvant » côtoie « sans solvant, à chaud ».
+  const faux = distracteurs(reaction, candidats, suivant, NB_CHOIX - 1,
+    empreinteSolvant, { conflit: seChevauchent })
+
+  const choix = melanger([
+    { id: reaction.id, texte: [reaction.solvant], correct: true },
+    ...faux.map((r) => ({ id: r.id, texte: [r.solvant], correct: false }))
+  ], suivant)
+
+  return {
+    type: 'solvant',
+    format: 'choix-texte',
+    reaction: reaction.id,
+    intitule: 'Dans quel solvant cette réaction se fait-elle ?',
+    substrat: s.substrat,
+    produit: s.produit,
+    reactifs: reaction.reactifs,
+    choix,
+    explication: {
+      nom: reaction.nom,
+      famille: reaction.famille,
+      pourquoi: amorce(reaction.selectivite)
+    }
+  }
+}
+
+// ————————————————————————————————————————————————————————————
+// Type 4 — « Quel est le piège de cette réaction ? »
+// ————————————————————————————————————————————————————————————
+
+/**
+ * La première phrase d'un piège, qui en est l'énoncé.
+ *
+ * Les fiches écrivent leurs pièges en deux temps : une amorce en
+ * capitales qui NOMME la faute, puis son explication. Un piège fait 151
+ * signes en médiane et jusqu'à 685 ; quatre d'entre eux en entier
+ * feraient un mur. On propose donc l'amorce, et la correction montre le
+ * piège complet.
+ */
+function enonceDuPiege(piege) {
+  const coupe = (piege || '').match(/^[^.:]{10,180}[.:]/)
+  return (coupe ? coupe[0] : (piege || '').slice(0, 180)).replace(/[.:]$/, '')
+}
+
+export function admissiblePiege(reaction) {
+  const s = structures[reaction.id]
+  return Boolean(
+    s && s.substrat && Array.isArray(reaction.pieges) && reaction.pieges.length > 0
+  )
+}
+
+export function questionPiege(reaction, suivant) {
+  const s = structures[reaction.id]
+  // La fiche en porte jusqu'à sept : on en tire un, à la graine.
+  const lePiege = reaction.pieges[Math.floor(suivant() * reaction.pieges.length)]
+
+  const empreinte = (r) => aplati(enonceDuPiege((r.pieges || [])[0]))
+  const candidats = reactions.filter(
+    (a) => a.id !== reaction.id && admissiblePiege(a) &&
+    !(a.pieges || []).some((p) => aplati(enonceDuPiege(p)) === aplati(enonceDuPiege(lePiege)))
+  )
+
+  // POUR CE TYPE SEULEMENT, on s'éloigne de la famille au lieu de s'en
+  // rapprocher. Un piège de la même famille est le distracteur le plus
+  // trompeur ET le plus susceptible de s'appliquer VRAIMENT à la réaction
+  // posée — la pire combinaison, puisqu'elle rendrait la question à deux
+  // bonnes réponses sans qu'aucun contrôle ne le voie.
+  const faux = distracteurs(reaction, candidats, suivant, NB_CHOIX - 1, empreinte,
+    { memeFamilleDAbord: false })
+
+  const choix = melanger([
+    { id: reaction.id, texte: [enonceDuPiege(lePiege)], correct: true },
+    ...faux.map((r) => ({ id: r.id, texte: [enonceDuPiege(r.pieges[0])], correct: false }))
+  ], suivant)
+
+  return {
+    type: 'piege',
+    format: 'choix-texte',
+    reaction: reaction.id,
+    intitule: `Quel piège guette dans « ${reaction.nom} » ?`,
+    substrat: s.substrat,
+    produit: s.produit,
+    choix,
+    explication: {
+      nom: reaction.nom,
+      famille: reaction.famille,
+      // Ici la correction montre le piège ENTIER : c'est ce qu'on vient
+      // d'apprendre, et l'option n'en donnait que l'énoncé.
+      pourquoi: lePiege
+    }
+  }
+}
+
+// ————————————————————————————————————————————————————————————
+// Type 5 — « Remettez les étapes du mécanisme dans l'ordre »
+// ————————————————————————————————————————————————————————————
+
+export const ETAPES_MINIMUM = 3
+export const ETAPES_MAXIMUM = 5
+
+export function admissibleOrdre(reaction) {
+  const s = structures[reaction.id]
+  return Boolean(
+    s && s.substrat && s.produit &&
+    Array.isArray(reaction.mecanisme_etapes) &&
+    reaction.mecanisme_etapes.length >= ETAPES_MINIMUM
+  )
+}
+
+/**
+ * Ce type n'a pas de distracteurs : les mauvaises réponses sont les
+ * mauvais ORDRES, et il y en a déjà cinq mille pour sept étapes.
+ *
+ * On borne à cinq étapes. Au-delà, remettre sept propositions dans
+ * l'ordre sur un téléphone tient de la corvée plus que de la révision, et
+ * la probabilité de tomber juste par accident est de toute façon nulle.
+ */
+export function questionOrdre(reaction, suivant) {
+  const s = structures[reaction.id]
+  const etapes = reaction.mecanisme_etapes.slice(0, ETAPES_MAXIMUM)
+
+  // On mélange jusqu'à obtenir un ordre DIFFÉRENT du bon : proposer les
+  // étapes déjà rangées serait une question sans question.
+  let propose = melanger(etapes, suivant)
+  for (let essai = 0; essai < 8 && propose.every((e, i) => e === etapes[i]); essai++) {
+    propose = melanger(etapes, suivant)
+  }
+
+  return {
+    type: 'ordre',
+    format: 'ordre',
+    reaction: reaction.id,
+    intitule: 'Remettez les étapes du mécanisme dans l\'ordre',
+    substrat: s.substrat,
+    produit: s.produit,
+    reactifs: reaction.reactifs,
+    // Les étapes mélangées, et la bonne suite pour corriger.
+    propositions: propose,
+    ordreAttendu: etapes,
+    explication: {
+      nom: reaction.nom,
+      famille: reaction.famille,
+      pourquoi: amorce(reaction.selectivite)
+    }
+  }
+}
+
+/**
+ * La suite proposée est-elle la bonne ?
+ *
+ * Tout ou rien : la répétition espacée ne connaît que juste ou faux, et
+ * une note partielle n'aurait rien à quoi se raccrocher. Trois étapes sur
+ * quatre bien placées, c'est un mécanisme qu'on ne sait pas encore.
+ */
+export function ordreEstJuste(question, choisies) {
+  return question.ordreAttendu.length === choisies.length &&
+    question.ordreAttendu.every((e, i) => e === choisies[i])
+}
+
+// ————————————————————————————————————————————————————————————
+// Le choix du type
+// ————————————————————————————————————————————————————————————
+
+/** Les cinq types, avec ce qu'il faut pour les poser et comment les poser. */
+export const TYPES = [
+  { nom: 'produit', admissible: admissibleProduit, engendrer: questionProduit },
+  { nom: 'reactif', admissible: admissibleReactif, engendrer: questionReactif },
+  { nom: 'solvant', admissible: admissibleSolvant, engendrer: questionSolvant },
+  { nom: 'piege', admissible: admissiblePiege, engendrer: questionPiege },
+  { nom: 'ordre', admissible: admissibleOrdre, engendrer: questionOrdre }
+]
+
+/** Les types qu'une réaction peut servir. */
+export function typesPossibles(reaction) {
+  return TYPES.filter((t) => t.admissible(reaction))
+}
+
+/**
+ * Une question sur cette réaction, d'un type tiré à la graine.
+ *
+ * Le type VARIE d'un passage à l'autre, et c'est voulu : revoir la même
+ * réaction sous un autre angle vaut mieux que la revoir à l'identique.
+ * C'est aussi ce qui empêche d'apprendre la position de la bonne réponse
+ * plutôt que la chimie.
+ */
+export function question(reaction, suivant, typeImpose = null) {
+  const possibles = typesPossibles(reaction)
+  if (possibles.length === 0) return null
+  const choisi = typeImpose
+    ? possibles.find((t) => t.nom === typeImpose) || possibles[0]
+    : possibles[Math.floor(suivant() * possibles.length)]
+  return choisi.engendrer(reaction, suivant)
+}
+
+// ————————————————————————————————————————————————————————————
 // La série
 // ————————————————————————————————————————————————————————————
 
-/** Les réactions utilisables, éventuellement bornées à une famille. */
+/**
+ * Les réactions utilisables, éventuellement bornées à une famille.
+ *
+ * « Utilisable » veut dire : au moins un des cinq types de questions peut
+ * être posé dessus. Une fiche de méthode sans solvant reste interrogeable
+ * sur ses pièges.
+ */
 export function vivier(famille) {
   return reactions.filter(
-    (r) => admissibleProduit(r) && (!famille || r.famille === famille)
+    (r) => typesPossibles(r).length > 0 && (!famille || r.famille === famille)
   )
 }
 
@@ -235,7 +534,7 @@ export function serie({ graine, combien = 10, famille = null, etat = null, maint
     : melanger(disponibles, suivant)
 
   return ordre.slice(0, combien).map((reaction, rang) =>
-    questionProduit(reaction, tirage(graine + rang * 7919))
+    question(reaction, tirage(graine + rang * 7919))
   )
 }
 
@@ -316,7 +615,7 @@ export function paquetDuJour({ etat, maintenant = Date.now(), famille = null }) 
     ...compo,
     jour,
     questions: compo.reactions.map((reaction, i) =>
-      questionProduit(reaction, tirage(base + i * 7919))
+      question(reaction, tirage(base + i * 7919))
     )
   }
 }

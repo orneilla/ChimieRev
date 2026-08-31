@@ -2015,3 +2015,111 @@ a.bouton-primaire {
   border-bottom: 2px solid var(--encre);
   cursor: pointer;
 }
+
+
+/* ============================================================
+   LES QUATRE AUTRES TYPES DE QUESTIONS
+   ============================================================ */
+
+/* Une réponse TEXTUELLE — un réactif, un solvant, un piège. Elle
+   s'aligne en haut et non au centre : un piège fait plusieurs lignes,
+   une lettre de choix centrée sur trois lignes flotte au milieu de nulle
+   part. */
+.choix.choix-texte {
+  align-items: flex-start;
+  text-align: left;
+  padding: 0.7rem;
+}
+
+.choix-corps {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  /* Un nom de réactif est plein de parenthèses et d'indices, et certains
+     sont très longs : sans coupure ils poussent la carte hors de
+     l'écran. */
+  overflow-wrap: anywhere;
+}
+
+ul.choix-corps { padding-left: 1.1rem; }
+ul.choix-corps li { margin-bottom: 0.15rem; }
+
+/* Les réponses textuelles tiennent sur UNE colonne, même sur grand
+   écran : côte à côte, deux pièges de trois lignes se comparent moins
+   bien qu'empilés, et la largeur de lecture compte plus ici que la
+   compacité. */
+@media (min-width: 30rem) {
+  .quiz-choix:has(.choix-texte) { grid-template-columns: 1fr; }
+}
+
+.quiz-inconnu {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--couleur, var(--encre));
+}
+
+/* ---------- Remettre les étapes dans l'ordre ---------- */
+
+.quiz-ordre {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.etape-choix {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.7rem;
+  font: inherit;
+  text-align: left;
+  color: var(--encre);
+  background: var(--carte);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.etape-choix:hover:not(:disabled) { background: var(--creme-fonce); }
+.etape-choix:disabled { cursor: default; }
+
+/* Le rang porté par l'étape. Il reste rond et de taille fixe : c'est lui
+   qu'on lit pour vérifier son ordre, et une pastille qui change de
+   largeur selon le chiffre rendrait la colonne bancale. */
+.etape-rang {
+  flex: 0 0 auto;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  background: var(--creme-fonce);
+  border-radius: 50%;
+}
+
+.etape-texte { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+
+.etape-placee { border-color: var(--couleur, var(--encre)); border-width: 4px; }
+.etape-placee .etape-rang { background: var(--couleur, var(--encre)); }
+
+/* Après la réponse : le rang affiché devient celui qu'il FALLAIT, et la
+   forme dit si on l'avait trouvé. Le trait épais et le fond disent la
+   même chose deux fois, pour qui ne distingue pas le vert du rouge. */
+.etape-juste { border-width: 4px; background: #E8F3E3; }
+.etape-juste .etape-rang { background: var(--vert); }
+.etape-fausse { border-width: 4px; border-color: var(--framboise); background: #FBE7EB; }
+.etape-fausse .etape-rang { background: var(--framboise); color: #FFF; }
+
+.bouton-primaire:disabled {
+  color: var(--encre-doux);
+  background: var(--creme-fonce);
+  border-color: var(--bordure);
+  cursor: default;
+}

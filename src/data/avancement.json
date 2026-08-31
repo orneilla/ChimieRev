@@ -1,7 +1,7 @@
 {
   "genere_le": "2026-08-31",
-  "total": 281,
-  "hors_corpus": 6,
+  "total": 275,
+  "hors_corpus": 0,
   "couvrable": 275,
   "redigees": 275,
   "verifiees": 181,
@@ -295,9 +295,9 @@
       "nom": "Additions sur le carbonyle",
       "famille": "Additions sur le carbonyle",
       "bloc": "Socle organique",
-      "total": 13,
+      "total": 12,
       "couvrable": 12,
-      "hors_corpus": 1,
+      "hors_corpus": 0,
       "absente": 0,
       "redigee": 1,
       "verifiee": 11,
@@ -379,14 +379,6 @@
           "id": "reduction_luche",
           "statut": "redigee",
           "sources": true
-        },
-        {
-          "nom": "Réduction de Meerwein-Ponndorf-Verley",
-          "niveau": "M2",
-          "id": null,
-          "hors_corpus": "Aucun des neuf ouvrages indexés ne la traite : « Meerwein », « Ponndorf » et « Verley » ne rendent aucune occurrence, y compris cherchés séparément.",
-          "statut": "hors_corpus",
-          "sources": false
         },
         {
           "nom": "Amination réductrice",
@@ -1224,9 +1216,9 @@
       "nom": "Catalyse organométallique et industrielle",
       "famille": "Catalyse",
       "bloc": "Organométallique et catalyse",
-      "total": 12,
+      "total": 11,
       "couvrable": 11,
-      "hors_corpus": 1,
+      "hors_corpus": 0,
       "absente": 0,
       "redigee": 11,
       "verifiee": 0,
@@ -1303,14 +1295,6 @@
           "sources": true
         },
         {
-          "nom": "Réaction du gaz à l'eau",
-          "niveau": "M2",
-          "id": null,
-          "hors_corpus": "Le Housecroft la traite à ses pages 239 et 366 — mais hors de l'extrait indexé ici (chapitres 20 à 28). Dans l'extrait, elle n'apparaît que dans un tableau de procédés (p. 801), une ligne de catalyseur (p. 722) et une mention de passage (p. 596) : jamais le mécanisme. Aucun autre ouvrage ne la couvre.",
-          "statut": "hors_corpus",
-          "sources": false
-        },
-        {
           "nom": "Catalyse acide par les zéolithes",
           "niveau": "M2",
           "id": "catalyse_zeolithes",
@@ -1324,9 +1308,9 @@
       "nom": "Chimie de coordination",
       "famille": "Coordination",
       "bloc": "Inorganique",
-      "total": 8,
+      "total": 7,
       "couvrable": 7,
-      "hors_corpus": 1,
+      "hors_corpus": 0,
       "absente": 0,
       "redigee": 7,
       "verifiee": 0,
@@ -1338,14 +1322,6 @@
           "id": "substitution_ligands_aqua",
           "statut": "redigee",
           "sources": true
-        },
-        {
-          "nom": "Effet chélate",
-          "niveau": "L3",
-          "id": null,
-          "hors_corpus": "Le Housecroft le traite à sa page 185 — hors de l'extrait indexé ici (chapitres 20 à 28). Dans l'extrait, « chelate » ne rend que des ligands particuliers (p. 677, 759) et l'angle de morsure en catalyse (p. 789) : jamais l'argument entropique, qui EST le sujet. Le Clayden définit la chélation (p. 863) mais dans son sens organique — le contrôle stéréochimique par un métal —, et le Dugas ne montre que des cycles chélates de catalyseurs chiraux.",
-          "statut": "hors_corpus",
-          "sources": false
         },
         {
           "nom": "Substitution en géométrie plan-carré et effet trans",
@@ -1736,36 +1712,20 @@
       "nom": "Acides nucléiques",
       "famille": "Acides nucléiques",
       "bloc": "Biomolécules et vivant",
-      "total": 5,
+      "total": 3,
       "couvrable": 3,
-      "hors_corpus": 2,
+      "hors_corpus": 0,
       "absente": 0,
       "redigee": 1,
       "verifiee": 2,
       "relue": 0,
       "reactions": [
         {
-          "nom": "Formation de la liaison N-glycosidique d'un nucléoside",
-          "niveau": "L3",
-          "id": null,
-          "hors_corpus": "Ni la voie chimique ni la voie biologique n'est traitée. « Vorbruggen », « nucleoside synthesis », « Hilbert-Johnson », « silylated base », « phosphoribosyl », « PRPP » et « ribonucleotide reductase » ne rendent RIEN dans les neuf. Le Clayden définit le N-glycoside (p. 1145) et le McMurry montre la liaison sur la structure du nucléoside (p. 945) — aucun n'en écrit la FORMATION.",
-          "statut": "hors_corpus",
-          "sources": false
-        },
-        {
           "nom": "Formation de la liaison phosphodiester",
           "niveau": "L3",
           "id": "liaison_phosphodiester",
           "statut": "verifiee",
           "sources": true
-        },
-        {
-          "nom": "Dépurination : hydrolyse acide d'une purine",
-          "niveau": "M1",
-          "id": null,
-          "hors_corpus": "« depurination », « apurinic », « abasic », « hydrolysis of DNA », « purine hydrolysis », « adenine release » : aucune occurrence utile. Les deux seuls retours sont une page d'index du Housecroft et un passage du Dugas sur la chiralité de l'ATP. Le mécanisme serait celui de l'hydrolyse d'un glycoside, que le corpus traite ailleurs — mais l'appliquer à une purine sans source qui le fasse reviendrait à écrire de mémoire.",
-          "statut": "hors_corpus",
-          "sources": false
         },
         {
           "nom": "Séquençage de Sanger (didésoxy)",
@@ -2071,9 +2031,9 @@
       "nom": "Photochimie",
       "famille": "Photochimie",
       "bloc": "Méthodes et matériaux",
-      "total": 13,
+      "total": 12,
       "couvrable": 12,
-      "hors_corpus": 1,
+      "hors_corpus": 0,
       "absente": 0,
       "redigee": 5,
       "verifiee": 7,
@@ -2141,14 +2101,6 @@
           "id": "barton",
           "statut": "verifiee",
           "sources": true
-        },
-        {
-          "nom": "Transposition photochimique d'une cyclohexadiénone",
-          "niveau": "M2",
-          "id": null,
-          "hors_corpus": "« santonin » et « lumisantonin » ne rendent RIEN dans les neuf. « dienone » rend trois pages du Carey & Sundberg, dont deux sont son index ; la troisième (p. 1130) traite la transposition oxa-di-π-méthane et la migration 1,3-acyle des cétones β,γ-insaturées — une chimie voisine, pas celle-là. Le Grossman et LibreTexts emploient « dienone » hors photochimie.",
-          "statut": "hors_corpus",
-          "sources": false
         },
         {
           "nom": "Photochimie des composés aromatiques",

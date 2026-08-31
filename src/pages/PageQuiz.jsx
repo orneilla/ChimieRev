@@ -9,7 +9,7 @@
 // question doivent la poser de la même façon.
 import { useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { serie, famillesJouables, vivier } from '../quiz.js'
+import { serie, famillesJouables, vivier, ordreEstJuste } from '../quiz.js'
 import QuestionQuiz from '../components/QuestionQuiz.jsx'
 import BilanSerie from '../components/BilanSerie.jsx'
 import {
@@ -33,7 +33,13 @@ export default function PageQuiz() {
   })
   const [graine, setGraine] = useState(graineNeuve)
   const [rang, setRang] = useState(0)
-  const [reponses, setReponses] = useState([])   // un choix par question
+  const [reponses, setReponses] = useState([])
+  // Le type « ordre » n'est pas un QCM : la suite d'étapes en cours de
+  // composition vit ici, et se vide à chaque changement de question.
+  const [choisies, setChoisies] = useState([])
+  const placer = (etape) => setChoisies((s) => (s.includes(etape) ? s : [...s, etape]))
+  const retirer = (etape) => setChoisies((s) => s.filter((e) => e !== etape))
+   // un choix par question
   // La progression, relue une fois au montage. `lire()` ne lève jamais :
   // sans stockage utilisable, on révise sans mémoire (voir memorisation.js).
   const [etat, setEtat] = useState(lire)
@@ -72,8 +78,26 @@ export default function PageQuiz() {
     setGraine(graineNeuve())
     setRang(0)
     setReponses([])
+    setChoisies([])
     setDebut(Date.now())
     setEtat(lire())
+  }
+
+  /**
+   * Valider une suite d'étapes.
+   *
+   * On fabrique une « réponse » de la même forme que celle d'un QCM —
+   * un objet portant `correct` — pour que le reste de la page, le
+   * récapitulatif et la mémorisation n'aient pas à connaître le type de
+   * question qui vient d'être posée.
+   */
+  const validerOrdre = () => {
+    if (repondu) return
+    const juste = ordreEstJuste(question, choisies)
+    const suite = [...reponses]
+    suite[rang] = { correct: juste, ordre: choisies }
+    setReponses(suite)
+    setEtat(enregistrer(etat, question.reaction, juste, Date.now()))
   }
 
   const choisir = (choix) => {
@@ -194,8 +218,12 @@ export default function PageQuiz() {
           question={question}
           repondu={repondu}
           onChoisir={choisir}
-          onSuivant={() => setRang(rang + 1)}
+          onSuivant={() => { setRang(rang + 1); setChoisies([]) }}
           libelleSuivant={rang + 1 < questions.length ? 'Question suivante' : 'Voir le bilan'}
+          choisies={choisies}
+          onPlacer={placer}
+          onRetirer={retirer}
+          onValider={validerOrdre}
           entete={
             <p className="quiz-progression">
               Question {rang + 1} sur {questions.length}
