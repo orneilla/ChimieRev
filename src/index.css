@@ -243,25 +243,46 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 @media (max-width: 699px) {
   .bouton-menu { display: inline-flex; }
 
-  /* Le menu est replié par défaut. Ce n'est pas display:none : un lien
-     qu'on ne peut pas atteindre au clavier n'existe pas. */
+  /* Le menu est replié par défaut, et il l'est en `display: none`.
+     Une version précédente employait `visibility: hidden` en se donnant
+     pour raison qu'« un lien qu'on ne peut pas atteindre au clavier
+     n'existe pas » — or `visibility: hidden` retire l'élément du parcours
+     au clavier exactement comme `display: none`. La raison était fausse ;
+     le bouton porte `aria-expanded`, et c'est lui qui annonce le menu
+     replié. */
   .nav {
+    display: none;
     flex-direction: column;
+    /* JAMAIS DEUX COLONNES. Le `flex-wrap: wrap` hérité de la barre
+       horizontale s'appliquait aussi ici : sept entrées de 48 px en
+       demandent 355, la hauteur était bornée à 352, et « À propos »
+       basculait dans une seconde colonne, seul dans son coin. Trois
+       pixels d'écart suffisaient. Une colonne qui se replie n'est plus
+       un menu, c'est une grille — on l'interdit. */
+    flex-wrap: nowrap;
     align-items: stretch;
     width: 100%;
     gap: 0.2rem;
-    max-height: 0;
-    overflow: hidden;
-    visibility: hidden;
-    transition: max-height 200ms ease;
   }
 
   .nav-ouverte {
-    max-height: 22rem;
-    visibility: visible;
+    display: flex;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
     border-top: 2px solid rgba(250, 244, 232, 0.25);
+    /* Filet de sécurité pour un écran très court : on FAIT DÉFILER, on
+       ne replie pas. Le défilement garde l'entrée entière et atteignable ;
+       le repli la déplaçait ailleurs. */
+    max-height: 78vh;
+    overflow-y: auto;
+    /* UNE APPARITION QUI NE DÉPLACE RIEN.
+       Le menu s'ouvrait par une transition sur `max-height` : pendant
+       200 ms, chaque entrée glissait sous le doigt. Mesuré — un appui à
+       60 ms ou à 120 ms après l'ouverture ne déclenchait RIEN, parce que
+       l'entrée n'était plus là où on l'avait visée. C'est le geste
+       normal : on ouvre le menu et on tape aussitôt. L'opacité, elle,
+       n'a aucun effet sur la position ni sur le test de survol. */
+    animation: menu-apparait 140ms ease-out;
   }
 
   /* Dépliées, les entrées deviennent de grandes lignes : on les vise
@@ -272,6 +293,11 @@ a:focus-visible, button:focus-visible, input:focus-visible {
     padding: 0.55rem 0.7rem;
     min-height: 48px;
   }
+}
+
+@keyframes menu-apparait {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* Sous 350 px, la marque et le bouton se serrent. */

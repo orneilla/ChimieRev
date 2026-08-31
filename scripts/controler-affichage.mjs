@@ -11,7 +11,23 @@
 //   2. un élément dont un bord dépasse de l'écran ;
 //   3. un texte coupé par son conteneur — un intitulé de menu rogné n'est
 //      pas un détail, c'est une information perdue ;
-//   4. une cible tactile trop petite pour un doigt (moins de 40 px).
+//   4. une cible tactile trop petite pour un doigt (moins de 40 px) ;
+//   5. un menu déplié qui se replie en DEUX COLONNES au lieu d'une ;
+//   6. une entrée de menu qui BOUGE pendant qu'on la vise, ou qu'un autre
+//      élément recouvre.
+//
+// Les deux derniers ont été ajoutés après coup, et il faut dire pourquoi
+// les quatre premiers ne les voyaient pas. « À propos » basculait seul
+// dans une seconde colonne : rien ne débordait, rien n'était rogné, les
+// cibles faisaient bien 48 px — la page était irréprochable au mètre et
+// fausse à l'œil. Et le menu s'ouvrait par une transition sur
+// `max-height` : les entrées glissaient pendant 200 ms, si bien qu'un
+// appui à 60 ms ne déclenchait rien. Le contrôle attendait 280 ms avant
+// de regarder, donc il ne voyait jamais le mouvement.
+//
+// D'où la règle qu'ils posent : UNE CIBLE QUI BOUGE EST UNE CIBLE QU'ON
+// NE PEUT PAS ATTEINDRE. On mesure les entrées au moment où le doigt les
+// vise, pas une fois que tout s'est arrêté.
 //
 // USAGE
 //   npm install --no-save playwright     (une fois, hors du dépôt)
@@ -118,6 +134,65 @@ function auditer(cibleMinimale) {
   })
 }
 
+/**
+ * Où sont les entrées du menu, et sont-elles atteignables ?
+ *
+ * Évaluée DANS la page. On la lance deux fois — tout de suite après
+ * l'ouverture, puis une fois l'animation finie — pour comparer.
+ */
+function positionsDuMenu() {
+  return [...document.querySelectorAll('.nav .lien-nav')].map((el) => {
+    const r = el.getBoundingClientRect()
+    const dessus = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+    return {
+      texte: el.textContent.trim(),
+      x: Math.round(r.left),
+      y: Math.round(r.top),
+      atteignable: dessus === el || el.contains(dessus),
+      recouvertPar: dessus ? (dessus.className || dessus.tagName) : 'rien'
+    }
+  })
+}
+
+/** Un déplacement de moins de 4 px ne se sent pas sous le doigt. */
+const TOLERANCE_MOUVEMENT = 4
+
+function comparerMenu(tot, tard) {
+  const griefs = []
+  if (tard.length === 0) return griefs
+
+  // UNE SEULE COLONNE. Deux bords gauches différents, c'est une grille.
+  const colonnes = [...new Set(tard.map((e) => e.x))]
+  if (colonnes.length > 1) {
+    const isoles = tard.filter((e) => e.x !== colonnes[0]).map((e) => e.texte)
+    griefs.push({
+      type: 'menu en colonnes',
+      detail: `${colonnes.length} colonnes — « ${isoles.join(', ')} » à part`
+    })
+  }
+
+  for (const apres of tard) {
+    const avant = tot.find((e) => e.texte === apres.texte)
+    if (avant) {
+      const dx = Math.abs(apres.x - avant.x)
+      const dy = Math.abs(apres.y - avant.y)
+      if (dx > TOLERANCE_MOUVEMENT || dy > TOLERANCE_MOUVEMENT) {
+        griefs.push({
+          type: 'cible mouvante',
+          detail: `« ${apres.texte} » se déplace de ${dx}×${dy} px après l'ouverture`
+        })
+      }
+    }
+    if (!apres.atteignable) {
+      griefs.push({
+        type: 'entrée injoignable',
+        detail: `« ${apres.texte} » est recouverte par ${apres.recouvertPar}`
+      })
+    }
+  }
+  return griefs
+}
+
 const navigateur = await chromium.launch({ executablePath: CHROME })
 let total = 0
 const parEcran = []
@@ -152,8 +227,14 @@ for (const ecran of ECRANS) {
     const bouton = page.locator('.bouton-menu')
     if (await bouton.isVisible().catch(() => false)) {
       await bouton.click()
-      await page.waitForTimeout(280)
-      const menu = await page.evaluate(auditer, CIBLE_MINIMALE)
+      // TÔT : là où sont les entrées quand le doigt les vise, c'est-à-dire
+      // dès qu'on les voit — pas une fois que tout s'est immobilisé.
+      await page.waitForTimeout(40)
+      const tot = await page.evaluate(positionsDuMenu)
+      await page.waitForTimeout(300)
+      const tard = await page.evaluate(positionsDuMenu)
+
+      const menu = [...comparerMenu(tot, tard), ...await page.evaluate(auditer, CIBLE_MINIMALE)]
       if (menu.length) {
         total += menu.length
         parEcran.push({ ecran: `${ecran.nom}, menu ouvert`, largeur: ecran.largeur,

@@ -731,6 +731,71 @@ tenant, illisible sur un téléphone.
   « SUR LE ». La virgule est désormais tolérée entre deux mots, et la fin
   d'amorce accepte la ponctuation autant que l'espace.
 
+### Le menu qui ne se laissait pas toucher
+
+Deux défauts signalés d'un coup — « ça ne marche pas quand je clique » et
+« À propos se retrouve tout seul dans son coin » —, et ils n'avaient rien
+à voir l'un avec l'autre. Aucun des quatre contrôles d'affichage ne
+voyait ni l'un ni l'autre.
+
+**Une colonne peut se replier en deux.** Le menu déplié était en
+`flex-direction: column`, mais il HÉRITAIT du `flex-wrap: wrap` de la
+barre horizontale, et sa hauteur était bornée à `max-height: 22rem`, soit
+352 px. Sept entrées de 48 px avec leurs interlignes en demandent 355.
+**Trois pixels**, et la septième — « À propos » — basculait dans une
+seconde colonne, seule à droite.
+
+Rien ne le signalait : la page ne débordait pas, aucun texte n'était
+rogné, les cibles faisaient bien leurs 48 px. Le contrôle mesurait tout
+sauf la seule chose qui n'allait pas. La parade est une interdiction, pas
+un réglage : **`flex-wrap: nowrap` sur un menu en colonne.** Un
+`max-height` qui grandit d'une entrée à l'autre est un piège à retardement
+— ajouter une huitième entrée aurait fait basculer la septième ET la
+huitième.
+
+**Et une cible qui bouge est une cible qu'on ne peut pas atteindre.** Le
+menu s'ouvrait par une `transition: max-height 200ms`. Pendant ces
+200 ms, chaque entrée GLISSAIT. Mesuré en tapant à intervalles :
+
+```
+appui à   0 ms → ✓      (avant que l'animation démarre)
+appui à  60 ms → ✗ RIEN
+appui à 120 ms → ✗ RIEN ← la fenêtre où le doigt tombe naturellement
+appui à 200 ms → ✓      (animation finie)
+```
+
+C'est exactement le geste normal : on ouvre le menu, on voit l'entrée, on
+tape. Et comme cela marche une fois sur deux, on ne conclut pas « c'est
+cassé » mais « j'ai l'impression qu'il y a un bug » — le pire des deux,
+puisque rien n'est reproductible.
+
+La parade est de **n'animer que ce qui ne déplace rien** : le repli passe
+par `display: none` / `display: flex`, et l'apparition est une animation
+d'OPACITÉ. L'opacité n'a d'effet ni sur la position ni sur le test de
+survol. Sur un écran très court, on FAIT DÉFILER (`max-height: 78vh` +
+`overflow-y: auto`) au lieu de replier : le défilement garde l'entrée
+entière et atteignable.
+
+Au passage, une justification qui était fausse depuis le début. Le
+commentaire du repli disait : « ce n'est pas `display: none` : un lien
+qu'on ne peut pas atteindre au clavier n'existe pas. » Or
+`visibility: hidden` retire l'élément du parcours au clavier EXACTEMENT
+comme `display: none`. Le code ne faisait pas ce que son commentaire
+prétendait, et personne ne l'avait relu depuis. **Un commentaire qui
+justifie un choix doit être vérifié comme le choix lui-même.**
+
+`npm run affichage` connaît deux griefs de plus, et ils ont été prouvés en
+remettant le CSS fautif : **448 défauts**, « À propos » nommé comme
+l'isolé, et des entrées mesurées à 438 × 256 px de déplacement.
+
+- **`menu en colonnes`** — deux bords gauches différents parmi les
+  entrées dépliées.
+- **`cible mouvante`** — l'entrée est mesurée à 40 ms puis à 340 ms après
+  l'ouverture ; un écart de plus de 4 px est refusé. La version précédente
+  attendait 280 ms avant de regarder, c'est-à-dire précisément assez pour
+  ne jamais voir le mouvement. **On mesure au moment où le doigt vise, pas
+  une fois que tout s'est arrêté.**
+
 ### Se déplacer d'une page à l'autre
 
 Trois défauts qui, ensemble, rendaient l'application pénible à parcourir.
